@@ -1,0 +1,266 @@
+# `demisto/python3:3.9.4.18682`
+## Docker Metadata
+- Image Size: `23.50 MB`
+- Image ID: `sha256:751029adb3b18c2fba0aa55d5f7da4e2e75e43600c4ddd399d4d6d8881fa4152`
+- Created: `2021-04-09T06:02:44.20763902Z`
+- Arch: `linux`/`amd64`
+- Command: `["python3"]`
+- Environment:
+  - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
+  - `LANG=C.UTF-8`
+  - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
+  - `PYTHON_VERSION=3.9.4`
+  - `PYTHON_PIP_VERSION=21.0.1`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/29f37dbe6b3842ccd52d61816a3044173962ebeb/public/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=e03eb8a33d3b441ff484c56a436ff10680479d4bd14e59268e67977ed40904de`
+  - `DOCKER_IMAGE=demisto/python3:3.9.4.18682`
+- Labels:
+  - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
+  - `org.opencontainers.image.revision:6ac774eb2d8c87eea04f41108908d2856f7f0d4e`
+  - `org.opencontainers.image.version:3.9.4.18682`
+
+- OS Release:
+  - `NAME="Alpine Linux"`
+  - `ID=alpine`
+  - `VERSION_ID=3.13.4`
+  - `PRETTY_NAME="Alpine Linux v3.13"`
+  - `HOME_URL="https://alpinelinux.org/"`
+  - `BUG_REPORT_URL="https://bugs.alpinelinux.org/"`
+
+## Docker Trust
+```
+
+Signatures for demisto/python3:3.9.4.18682
+
+SIGNED TAG          DIGEST                                                             SIGNERS
+3.9.4.18682         649498744d5e406b9ab0ec940aa5fad441689508bb9701d6d9990e42cd72e456   (Repo Admin)
+
+Administrative keys for demisto/python3:3.9.4.18682
+
+  Repository Key:	dd922c0a78cf908782d68ed2f99cae9350740fc2da582a1cb5c03e530ba2dd31
+  Root Key:	46ab19438bfff81c925ab27466b52b175de43bad8e8a19cc878e9288246bff8d
+
+```
+
+## `Python Packages`
+
+
+### `certifi`
+
+* Summary: Python package for providing Mozilla's CA Bundle.
+* Version: 2020.12.5
+* Pypi: https://pypi.org/project/certifi/
+* Homepage: https://certifiio.readthedocs.io/en/latest/
+* Author: Kenneth Reitz me@kennethreitz.com
+* License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+
+### `chardet`
+
+* Summary: Universal encoding detector for Python 2 and 3
+* Version: 4.0.0
+* Pypi: https://pypi.org/project/chardet/
+* Homepage: https://github.com/chardet/chardet
+* Author: Mark Pilgrim mark@diveintomark.org
+* License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+
+### `dateparser`
+
+* Summary: Date parsing library designed to parse dates from HTML pages
+* Version: 0.7.6
+* Pypi: https://pypi.org/project/dateparser/
+* Homepage: https://github.com/scrapinghub/dateparser
+* Author: Scrapinghub info@scrapinghub.com
+* License :: OSI Approved :: BSD License
+
+### `funcy`
+
+* Summary: A fancy and practical functional tools
+* Version: 1.15
+* Pypi: https://pypi.org/project/funcy/
+* Homepage: http://github.com/Suor/funcy
+* Author: Alexander Schepanovski suor.web@gmail.com
+* License :: OSI Approved :: BSD License
+
+### `idna`
+
+* Summary: Internationalized Domain Names in Applications (IDNA)
+* Version: 2.10
+* Pypi: https://pypi.org/project/idna/
+* Homepage: https://github.com/kjd/idna
+* Author: Kim Davies kim@cynosure.com.au
+* License :: OSI Approved :: BSD License
+
+### `olefile`
+
+* Summary: Python package to parse, read and write Microsoft OLE2 files (Structured Storage or Compound Document, Microsoft Office)
+* Version: 0.46
+* Pypi: https://pypi.org/project/olefile/
+* Homepage: https://www.decalage.info/python/olefileio
+* Author: Philippe Lagadec nospam@decalage.info
+* License :: OSI Approved :: BSD License
+
+### `pip`
+
+* Summary: The PyPA recommended tool for installing Python packages.
+* Version: 21.0.1
+* Pypi: https://pypi.org/project/pip/
+* Homepage: https://pip.pypa.io/
+* Author: The pip developers distutils-sig@python.org
+* License :: OSI Approved :: MIT License
+
+### `PySocks`
+
+* Summary: A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information.
+* Version: 1.7.1
+* Pypi: https://pypi.org/project/PySocks/
+* Homepage: https://github.com/Anorov/PySocks
+* Author: Anorov anorov.vorona@gmail.com
+* License: BSD
+
+### `python-dateutil`
+
+* Summary: Extensions to the standard Python datetime module
+* Version: 2.8.1
+* Pypi: https://pypi.org/project/python-dateutil/
+* Homepage: https://dateutil.readthedocs.io
+* Author: Gustavo Niemeyer gustavo@niemeyer.net
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: BSD License
+
+### `pytz`
+
+* Summary: World timezone definitions, modern and historical
+* Version: 2021.1
+* Pypi: https://pypi.org/project/pytz/
+* Homepage: http://pythonhosted.org/pytz
+* Author: Stuart Bishop stuart@stuartbishop.net
+* License :: OSI Approved :: MIT License
+
+### `PyYAML`
+
+* Summary: YAML parser and emitter for Python
+* Version: 5.4.1
+* Pypi: https://pypi.org/project/PyYAML/
+* Homepage: https://pyyaml.org/
+* Author: Kirill Simonov xi@resolvent.net
+* License :: OSI Approved :: MIT License
+
+### `regex`
+
+* Summary: Alternative regular expression module, to replace re.
+* Version: 2021.4.4
+* Pypi: https://pypi.org/project/regex/
+* Homepage: https://bitbucket.org/mrabarnett/mrab-regex
+* Author: Matthew Barnett regex@mrabarnett.plus.com
+* License :: OSI Approved :: Apache Software License
+
+### `requests`
+
+* Summary: Python HTTP for Humans.
+* Version: 2.25.1
+* Pypi: https://pypi.org/project/requests/
+* Homepage: https://requests.readthedocs.io
+* Author: Kenneth Reitz me@kennethreitz.org
+* License :: OSI Approved :: Apache Software License
+
+### `requests-file`
+
+* Summary: File transport adapter for Requests
+* Version: 1.5.1
+* Pypi: https://pypi.org/project/requests-file/
+* Homepage: http://github.com/dashea/requests-file
+* Author: David Shea reallylongword@gmail.com
+* License :: OSI Approved :: Apache Software License
+
+### `setuptools`
+
+* Summary: Easily download, build, install, upgrade, and uninstall Python packages
+* Version: 54.2.0
+* Pypi: https://pypi.org/project/setuptools/
+* Homepage: https://github.com/pypa/setuptools
+* Author: Python Packaging Authority distutils-sig@python.org
+* License :: OSI Approved :: MIT License
+
+### `six`
+
+* Summary: Python 2 and 3 compatibility utilities
+* Version: 1.15.0
+* Pypi: https://pypi.org/project/six/
+* Homepage: https://github.com/benjaminp/six
+* Author: Benjamin Peterson benjamin@python.org
+* License :: OSI Approved :: MIT License
+
+### `tldextract`
+
+* Summary: Accurately separate the TLD from the registered domain and subdomains of a URL, using the Public Suffix List. By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
+* Version: 2.2.3
+* Pypi: https://pypi.org/project/tldextract/
+* Homepage: https://github.com/john-kurkowski/tldextract
+* Author: John Kurkowski john.kurkowski@gmail.com
+* License :: OSI Approved :: BSD License
+
+### `tzlocal`
+
+* Summary: tzinfo object for the local timezone
+* Version: 2.1
+* Pypi: https://pypi.org/project/tzlocal/
+* Homepage: https://github.com/regebro/tzlocal
+* Author: Lennart Regebro regebro@gmail.com
+* License :: OSI Approved :: MIT License
+
+### `urllib3`
+
+* Summary: HTTP library with thread-safe connection pooling, file post, and more.
+* Version: 1.26.4
+* Pypi: https://pypi.org/project/urllib3/
+* Homepage: https://urllib3.readthedocs.io/
+* Author: Andrey Petrov andrey.petrov@shazow.net
+* License :: OSI Approved :: MIT License
+
+### `wheel`
+
+* Summary: A built-package format for Python
+* Version: 0.36.2
+* Pypi: https://pypi.org/project/wheel/
+* Homepage: https://github.com/pypa/wheel
+* Author: Daniel Holth dholth@fastmail.fm
+* License :: OSI Approved :: MIT License
+
+## `OS Packages`
+
+* .python-rundeps-20210405.183424 noarch {.python-rundeps}
+* alpine-baselayout-3.2.0-r8 x86_64 {alpine-baselayout}
+* alpine-keys-2.2-r0 x86_64 {alpine-keys}
+* apk-tools-2.12.4-r2 x86_64 {apk-tools}
+* busybox-1.32.1-r5 x86_64 {busybox}
+* ca-certificates-20191127-r5 x86_64 {ca-certificates}
+* ca-certificates-bundle-20191127-r5 x86_64 {ca-certificates}
+* expat-2.2.10-r1 x86_64 {expat}
+* gdbm-1.19-r0 x86_64 {gdbm}
+* keyutils-libs-1.6.3-r0 x86_64 {keyutils}
+* krb5-conf-1.0-r2 x86_64 {krb5-conf}
+* krb5-libs-1.18.3-r1 x86_64 {krb5}
+* libbz2-1.0.8-r1 x86_64 {bzip2}
+* libc-utils-0.7.2-r3 x86_64 {libc-dev}
+* libcom_err-1.45.7-r0 x86_64 {e2fsprogs}
+* libcrypto1.1-1.1.1k-r0 x86_64 {openssl}
+* libffi-3.3-r2 x86_64 {libffi}
+* libintl-0.20.2-r2 x86_64 {gettext}
+* libnsl-1.3.0-r0 x86_64 {libnsl}
+* libssl1.1-1.1.1k-r0 x86_64 {openssl}
+* libtirpc-1.3.1-r0 x86_64 {libtirpc}
+* libtirpc-conf-1.3.1-r0 x86_64 {libtirpc}
+* libtls-standalone-2.9.1-r1 x86_64 {libtls-standalone}
+* libuuid-2.36.1-r1 x86_64 {util-linux}
+* libverto-0.3.1-r1 x86_64 {libverto}
+* musl-1.2.2-r0 x86_64 {musl}
+* musl-utils-1.2.2-r0 x86_64 {musl}
+* ncurses-libs-6.2_p20210109-r0 x86_64 {ncurses}
+* ncurses-terminfo-base-6.2_p20210109-r0 x86_64 {ncurses}
+* readline-8.1.0-r0 x86_64 {readline}
+* scanelf-1.2.8-r0 x86_64 {pax-utils}
+* sqlite-libs-3.34.1-r0 x86_64 {sqlite}
+* ssl_client-1.32.1-r5 x86_64 {busybox}
+* tzdata-2021a-r0 x86_64 {tzdata}
+* xz-libs-5.2.5-r0 x86_64 {xz}
+* zlib-1.2.11-r3 x86_64 {zlib}

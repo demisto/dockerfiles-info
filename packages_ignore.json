@@ -1,0 +1,23 @@
+{
+    "description": "Document specifies packages which are ignored. These package are not used and maybe removed in the future. If no docker_images are provided the package is ignored for all images",
+    "packages": {
+        "demisto-ml": {
+            "notes": "Demisto developed package."
+        },
+        "docutils": {
+            "docker_images": [
+                "demisto/boto3",
+                "demisto/ml-telemetry",
+                "demisto/snowflake",
+		        "demisto/boto3py3"
+            ],
+            "notes": "Seems that boto3 imports the package only for dev use. See: https://github.com/boto/botocore/issues/900"
+        },
+        "patool": {
+            "docker_images": [
+                "demisto/unrar"
+            ],
+            "notes": "pattool is being used by pyunpack only as a command line tool: https://github.com/ponty/pyunpack#background"
+        }        
+    }
+}

@@ -1,0 +1,82 @@
+# `demisto/pwsh-azure:1.0.0.16301`
+## Docker Metadata
+- Image Size: `125.68 MB`
+- Image ID: `sha256:f000bafae619a44f9a7cb63438370b2f869969132f9f8082c65b70d116c28dfa`
+- Created: `2021-02-08T13:22:59.314284291Z`
+- Arch: `linux`/`amd64`
+- Command: `["pwsh"]`
+- Environment:
+  - `PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
+  - `PS_INSTALL_FOLDER=/opt/microsoft/powershell/7`
+  - `DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=false`
+  - `LC_ALL=en_US.UTF-8`
+  - `LANG=en_US.UTF-8`
+  - `PSModuleAnalysisCachePath=/var/cache/microsoft/powershell/PSModuleAnalysisCache/ModuleAnalysisCache`
+  - `POWERSHELL_DISTRIBUTION_CHANNEL=PSDocker-Alpine-3.12`
+  - `DOCKER_IMAGE=demisto/pwsh-azure:1.0.0.16301`
+- Labels:
+  - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
+  - `org.opencontainers.image.revision:fc8c02a97e412537a83a121e4443ef671681890e`
+  - `org.opencontainers.image.version:1.0.0.16301`
+
+- OS Release:
+  - `NAME="Alpine Linux"`
+  - `ID=alpine`
+  - `VERSION_ID=3.12.1`
+  - `PRETTY_NAME="Alpine Linux v3.12"`
+  - `HOME_URL="https://alpinelinux.org/"`
+  - `BUG_REPORT_URL="https://bugs.alpinelinux.org/"`
+
+## Docker Trust
+```
+
+Signatures for demisto/pwsh-azure:1.0.0.16301
+
+SIGNED TAG          DIGEST                                                             SIGNERS
+1.0.0.16301         6ee33b2eb41825c96dc3af7f9c8ef6949b8b5bf499e17d5bfecb409662e19609   (Repo Admin)
+
+Administrative keys for demisto/pwsh-azure:1.0.0.16301
+
+  Repository Key:	0759ec1c8bfae89a0a4ae57bde62626fea4ee6ec8273bc72762cdfce85c2b4ba
+  Root Key:	18c792726f709f224ce175fd42b0a31ea143df2dc9e5ba0c591cb6d8dc47eaa7
+
+```
+
+## `Python Packages`
+
+
+## `OS Packages`
+
+* alpine-baselayout-3.2.0-r7 x86_64 {alpine-baselayout}
+* alpine-keys-2.2-r0 x86_64 {alpine-keys}
+* apk-tools-2.10.5-r1 x86_64 {apk-tools}
+* busybox-1.31.1-r19 x86_64 {busybox}
+* ca-certificates-20191127-r4 x86_64 {ca-certificates}
+* ca-certificates-bundle-20191127-r4 x86_64 {ca-certificates}
+* icu-libs-67.1-r0 x86_64 {icu}
+* keyutils-libs-1.6.1-r1 x86_64 {keyutils}
+* krb5-conf-1.0-r2 x86_64 {krb5-conf}
+* krb5-libs-1.18.3-r0 x86_64 {krb5}
+* less-551-r0 x86_64 {less}
+* libc-utils-0.7.2-r3 x86_64 {libc-dev}
+* libcom_err-1.45.6-r0 x86_64 {e2fsprogs}
+* libcrypto1.1-1.1.1g-r0 x86_64 {openssl}
+* libedit-20191231.3.1-r1 x86_64 {libedit}
+* libgcc-9.3.0-r2 x86_64 {gcc}
+* libintl-0.20.2-r0 x86_64 {gettext}
+* libssl1.1-1.1.1g-r0 x86_64 {openssl}
+* libstdc++-9.3.0-r2 x86_64 {gcc}
+* libtls-standalone-2.9.1-r1 x86_64 {libtls-standalone}
+* libverto-0.3.1-r1 x86_64 {libverto}
+* lttng-ust-2.12.0-r2 x86_64 {lttng-ust}
+* musl-1.1.24-r9 x86_64 {musl}
+* musl-utils-1.1.24-r9 x86_64 {musl}
+* ncurses-libs-6.2_p20200523-r0 x86_64 {ncurses}
+* ncurses-terminfo-base-6.2_p20200523-r0 x86_64 {ncurses}
+* openssh-client-8.4_p1-r2 x86_64 {openssh}
+* openssh-keygen-8.4_p1-r2 x86_64 {openssh}
+* scanelf-1.2.6-r0 x86_64 {pax-utils}
+* ssl_client-1.31.1-r19 x86_64 {busybox}
+* tzdata-2020f-r0 x86_64 {tzdata}
+* userspace-rcu-0.12.1-r0 x86_64 {userspace-rcu}
+* zlib-1.2.11-r3 x86_64 {zlib}
