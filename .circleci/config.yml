@@ -2,6 +2,7 @@ jobs:
   update_repo_info:
     docker:
       - image: devdemisto/dockerbuild:1.0.0.56
+    resource_class: small
     steps:
       - checkout
       - setup_remote_docker
@@ -12,6 +13,8 @@ jobs:
           name: Update Docker Repo Info
           command: |
             ./update-repository-info.sh
+      - store_artifacts:
+          path: artifacts
 workflows:
   version: 2
   full_build:

@@ -1,6 +1,8 @@
 # Demisto's Docker Repository Information
 
-This branch contains package and os information about each docker image available via Demisto's Docker Hub repositories at:  https://hub.docker.com/u/demisto/ .
+This README contains package and os information about each docker image available via Demisto's Docker Hub repositories at:  https://hub.docker.com/u/demisto/ .
+
+Source files for the docker images are available at: https://github.com/demisto/dockerfiles
 
 Each information file is maintained as a markdown file in its relevant folder. The last available tag of each docker image is kept in a file named `last.md` in a folder named as the docker image. The listing and information is automatically generated on a nightly basis.
 
