@@ -21,6 +21,8 @@ assert sys.version_info >= (3, 7), "Script compatible with python 3.7 and higher
 
 VERIFY_SSL = True
 
+DOCKERFILES_DIR = os.path.abspath(os.getenv('DOCKERFILES_DIR', '.dockerfiles'))
+
 
 def http_get(url, **kwargs):
     """wrapper function around reqeusts.get which set verfiy to what we got in the args
@@ -268,7 +270,7 @@ def list_os_packages(image_name, out_file):
 def process_image(image_name, force):
     print("=================\nProcessing: " + image_name)
     master_dir = f'docker/{image_name.split("/")[1]}'
-    master_date = subprocess.check_output(['git', '--no-pager', 'log', '-1', '--format=%ct', 'origin/master', '--', master_dir], text=True).strip()
+    master_date = subprocess.check_output(['git', '--no-pager', 'log', '-1', '--format=%ct', 'origin/master', '--', master_dir], text=True, cwd=DOCKERFILES_DIR).strip()
     if not master_date:
         print(f"Skipping image: {image_name} as it is not in our master repository")
         return
@@ -359,6 +361,15 @@ def generate_csv():
                                 value.get('author'), value.get('summary'), ", ".join(value.get('docker_images'))])
 
 
+def checkout_dockerfiles_repo():
+    if os.path.exists(DOCKERFILES_DIR):
+        print(f'dockerfiles dir {DOCKERFILES_DIR} exists. Skipping checkout!')
+        return
+    print(f'checking out dockerfiles project to: {DOCKERFILES_DIR}'
+          ' (Note: for local testing you can set the  env var DOCKERFILES_DIR to your dockerfiles repo to avoid this checkout) ....')
+    os.mkdir(DOCKERFILES_DIR)
+    subprocess.check_call(['git', 'clone', 'https://github.com/demisto/dockerfiles', DOCKERFILES_DIR])
+
 def main():
     parser = argparse.ArgumentParser(description='Fetch docker repo info. Will fetch the docker image and then generate license info',
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
@@ -370,6 +381,7 @@ def main():
     global VERIFY_SSL
     VERIFY_SSL = not args.no_verify_ssl
     global USED_PACKAGES
+    checkout_dockerfiles_repo()
     used_packages_path = "{}/{}".format(sys.path[0], USED_PACKAGES_FILE)
     if os.path.isfile(used_packages_path):
         with open(used_packages_path) as f:
