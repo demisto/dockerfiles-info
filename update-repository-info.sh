@@ -39,9 +39,14 @@ if [[ $(git status --short) ]]; then
     mkdir -p artifacts
     # use sed 's:/*$::' to trim trailing slashes from dirs
     git status --short | awk '{print $2}' | sed 's:/*$::' | xargs -I {} cp -rf $CP_PARENTS {} artifacts/. || echo "cp failed for some reason. continue..."    
-    # git add . 
-    # git commit -m "`date`: automatic docker repository update [skip ci]"
-    # git push
+    if [[ "$CIRCLE_BRANCH" == "master" ]]; then
+        echo "commit generated data to: $CIRCLE_BRANCH"
+        git add . 
+        git commit -m "`date`: automatic docker repository update [skip ci]"
+        git push
+    else
+        echo "Skipping commit as we are NOT on master. Check the generated artifacts of the build to verify."
+    fi
 else
     echo "No new files to commit!"
 fi

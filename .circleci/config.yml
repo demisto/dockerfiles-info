@@ -6,9 +6,9 @@ jobs:
     steps:
       - checkout
       - setup_remote_docker
-      # - add_ssh_keys:
-      #     fingerprints:
-      #       - b1:6a:a6:66:d3:20:c5:eb:0d:00:5a:17:04:3b:89:47
+      - add_ssh_keys:
+          fingerprints:
+            - 14:21:1f:33:1d:a7:6a:e1:b7:c0:a8:83:20:db:e5:5c
       - run:
           name: Update Docker Repo Info
           command: |
