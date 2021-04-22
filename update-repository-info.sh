@@ -42,7 +42,7 @@ if [[ $(git status --short) ]]; then
     if [[ "$CIRCLE_BRANCH" == "master" ]]; then
         echo "commit generated data to: $CIRCLE_BRANCH"
         git add . 
-        git commit -m "`date`: automatic docker repository update [skip ci]"
+        git commit -m "`date`: auto repo info update [skip ci]"
         git push
     else
         echo "Skipping commit as we are NOT on master. Check the generated artifacts of the build to verify."
