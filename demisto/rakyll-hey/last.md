@@ -1,8 +1,8 @@
-# `demisto/devo:1.0.0.20358`
+# `demisto/rakyll-hey:1.0.0.20326`
 ## Docker Metadata
-- Image Size: `110.61 MB`
-- Image ID: `sha256:ffc6c82fc5ae7016c7117eb3c8c1e7fd0df06766882b39e5444730489f45140c`
-- Created: `2021-05-19T21:22:52.516983242Z`
+- Image Size: `84.97 MB`
+- Image ID: `sha256:7764de10aca74b9f1b9ad9a1e7363d3266d8d304f2faeb3ed49b201af74fe5e7`
+- Created: `2021-05-19T10:37:56.473827306Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -13,11 +13,11 @@
   - `PYTHON_PIP_VERSION=21.1.1`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/1954f15b3f102ace496a34a013ea76b061535bd2/public/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=f499d76e0149a673fb8246d88e116db589afbd291739bd84f2cd9a7bca7b6993`
-  - `DOCKER_IMAGE=demisto/devo:1.0.0.20358`
+  - `DOCKER_IMAGE=demisto/rakyll-hey:1.0.0.20326`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b45fc1db0ad27f5c01cc02fdbf1f11d84a1f4fcd`
-  - `org.opencontainers.image.version:1.0.0.20358`
+  - `org.opencontainers.image.revision:0e74b11f6db739b9c51e0d268f274c1bc0dd0d24`
+  - `org.opencontainers.image.version:1.0.0.20326`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 10 (buster)"`
@@ -32,17 +32,7 @@
 
 ## Docker Trust
 ```
-
-Signatures for demisto/devo:1.0.0.20358
-
-SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.20358         39c97f1991988b48351dfd7876a19db91bba1460fc2f0eaadc9de07b763dd260   (Repo Admin)
-
-Administrative keys for demisto/devo:1.0.0.20358
-
-  Repository Key:	8acbad29258c3af802a3ff19936a5e477ad72cb853dee0373658ff953e5c7acd
-  Root Key:	75e01057889069369a886a938165cc788450448b2d71e1b6a9c611a6bbccecd1
-
+No trust data is available
 ```
 
 ## `Python Packages`
@@ -60,20 +50,11 @@ Administrative keys for demisto/devo:1.0.0.20358
 ### `chardet`
 
 * Summary: Universal encoding detector for Python 2 and 3
-* Version: 3.0.4
+* Version: 4.0.0
 * Pypi: https://pypi.org/project/chardet/
 * Homepage: https://github.com/chardet/chardet
 * Author: Mark Pilgrim mark@diveintomark.org
 * License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
-
-### `click`
-
-* Summary: Composable command line interface toolkit
-* Version: 7.1.1
-* Pypi: https://pypi.org/project/click/
-* Homepage: https://palletsprojects.com/p/click/
-* Author: Armin Ronacher armin.ronacher@active-4.com
-* License :: OSI Approved :: BSD License
 
 ### `dateparser`
 
@@ -83,24 +64,6 @@ Administrative keys for demisto/devo:1.0.0.20358
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub info@scrapinghub.com
 * License :: OSI Approved :: BSD License
-
-### `devo-sdk`
-
-* Summary: Devo Software Development Kit for Python.
-* Version: 3.4.2
-* Pypi: https://pypi.org/project/devo-sdk/
-* Homepage: https://github.com/DevoInc/python-sdk
-* Author: Devo, Inc. support@devo.com
-* License :: OSI Approved :: MIT License
-
-### `devodsconnector`
-
-* Summary: APIs for querying and loading data into Devo
-* Version: 3.0.1
-* Pypi: https://pypi.org/project/devodsconnector/
-* Homepage: https://github.com/DevoInc/python-ds-connector
-* Author: Nick Murphy nick.murphy@devo.com
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -205,7 +168,7 @@ Administrative keys for demisto/devo:1.0.0.20358
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.23.0
+* Version: 2.25.1
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -219,15 +182,6 @@ Administrative keys for demisto/devo:1.0.0.20358
 * Homepage: http://github.com/dashea/requests-file
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
-
-### `scipy`
-
-* Summary: SciPy: Scientific Library for Python
-* Version: 1.6.3
-* Pypi: https://pypi.org/project/scipy/
-* Homepage: https://www.scipy.org
-* Author: 
-* License :: OSI Approved :: BSD License
 
 ### `setuptools`
 
@@ -268,7 +222,7 @@ Administrative keys for demisto/devo:1.0.0.20358
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 1.25.11
+* Version: 1.26.4
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: https://urllib3.readthedocs.io/
 * Author: Andrey Petrov andrey.petrov@shazow.net
