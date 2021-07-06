@@ -1,28 +1,28 @@
-# `demisto/fastapi:1.0.0.22276`
+# `demisto/feed-parser-html:1.0.0.22272`
 ## Docker Metadata
-- Image Size: `24.80 MB`
-- Image ID: `sha256:d07b87e93da51f9d23c89e71184b65bcf03964f759819e42f0e7a8eb8065cfa6`
-- Created: `2021-07-06T12:41:08.232748674Z`
+- Image Size: `24.50 MB`
+- Image ID: `sha256:77b6c23f1458a6c473969b39e979e8ea3f7426567944b35bc4d1ed9801c9c809`
+- Created: `2021-07-06T11:36:21.865075646Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
-  - `PYTHON_VERSION=3.9.4`
-  - `PYTHON_PIP_VERSION=21.0.1`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/29f37dbe6b3842ccd52d61816a3044173962ebeb/public/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=e03eb8a33d3b441ff484c56a436ff10680479d4bd14e59268e67977ed40904de`
-  - `DOCKER_IMAGE=demisto/fastapi:1.0.0.22276`
+  - `PYTHON_VERSION=3.9.5`
+  - `PYTHON_PIP_VERSION=21.1.2`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/936e08ce004d0b2fae8952c50f7ccce1bc578ce5/public/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=8890955d56a8262348470a76dc432825f61a84a54e2985a86cd520f656a6e220`
+  - `DOCKER_IMAGE=demisto/feed-parser-html:1.0.0.22272`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:2948891aaab5ac092e8e5e4b50abadc05ad4f93c`
-  - `org.opencontainers.image.version:1.0.0.22276`
+  - `org.opencontainers.image.revision:3d267155525bb30411e1adc6d639719e39c3b226`
+  - `org.opencontainers.image.version:1.0.0.22272`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.13.4`
+  - `VERSION_ID=3.13.5`
   - `PRETTY_NAME="Alpine Linux v3.13"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://bugs.alpinelinux.org/"`
@@ -30,34 +30,34 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/fastapi:1.0.0.22276
+Signatures for demisto/feed-parser-html:1.0.0.22272
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.22276         7d913527e5c212ed10a214e77f95a382a5766b25f1f9f26f5327b33f004cc56f   (Repo Admin)
+1.0.0.22272         4fbdb0740680739a5be49036289cf60cfddd4bb4ed7b9781d85d8fbce8958e2e   (Repo Admin)
 
-Administrative keys for demisto/fastapi:1.0.0.22276
+Administrative keys for demisto/feed-parser-html:1.0.0.22272
 
-  Repository Key:	0271ad1efe39b86e62ae7b94055f6a242fcc87508e09e3e3642e5b835eec0955
-  Root Key:	5e03c5b300f950846c7027ad151ca45f71a4a03330a1805f070015d4aee41282
+  Repository Key:	0c8f3793d915d0e1e161d9624c0e6759c7c3fbacbef664fdac56c26849498df6
+  Root Key:	a3621583724ca3be9a1852a7e203fed4cf24e4cd42f2730d6546b5e9870f5893
 
 ```
 
 ## `Python Packages`
 
 
-### `asgiref`
+### `beautifulsoup4`
 
-* Summary: ASGI specs, helper code, and adapters
-* Version: 3.4.1
-* Pypi: https://pypi.org/project/asgiref/
-* Homepage: https://github.com/django/asgiref/
-* Author: Django Software Foundation foundation@djangoproject.com
-* License :: OSI Approved :: BSD License
+* Summary: Screen-scraping library
+* Version: 4.9.3
+* Pypi: https://pypi.org/project/beautifulsoup4/
+* Homepage: http://www.crummy.com/software/BeautifulSoup/bs4/
+* Author: Leonard Richardson leonardr@segfault.org
+* License :: OSI Approved :: MIT License
 
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2020.12.5
+* Version: 2021.5.30
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://certifiio.readthedocs.io/en/latest/
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -72,50 +72,32 @@ Administrative keys for demisto/fastapi:1.0.0.22276
 * Author: Mark Pilgrim mark@diveintomark.org
 * License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
 
-### `click`
-
-* Summary: Composable command line interface toolkit
-* Version: 8.0.1
-* Pypi: https://pypi.org/project/click/
-* Homepage: https://palletsprojects.com/p/click/
-* Author: Armin Ronacher armin.ronacher@active-4.com
-* License :: OSI Approved :: BSD License
-
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 0.7.6
+* Version: 1.0.0
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub info@scrapinghub.com
 * License :: OSI Approved :: BSD License
 
-### `fastapi`
+### `feedparser`
 
-* Summary: FastAPI framework, high performance, easy to learn, fast to code, ready for production
-* Version: 0.66.0
-* Pypi: https://pypi.org/project/fastapi/
-* Homepage: https://github.com/tiangolo/fastapi
-* Author: Sebastián Ramírez tiangolo@gmail.com
-* License :: OSI Approved :: MIT License
+* Summary: Universal feed parser, handles RSS 0.9x, RSS 1.0, RSS 2.0, CDF, Atom 0.3, and Atom 1.0 feeds
+* Version: 6.0.8
+* Pypi: https://pypi.org/project/feedparser/
+* Homepage: https://github.com/kurtmckee/feedparser
+* Author: Kurt McKee contactme@kurtmckee.org
+* License :: OSI Approved :: BSD License
 
 ### `funcy`
 
 * Summary: A fancy and practical functional tools
-* Version: 1.15
+* Version: 1.16
 * Pypi: https://pypi.org/project/funcy/
 * Homepage: http://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
-
-### `h11`
-
-* Summary: A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
-* Version: 0.12.0
-* Pypi: https://pypi.org/project/h11/
-* Homepage: https://github.com/python-hyper/h11
-* Author: Nathaniel J. Smith njs@pobox.com
-* License :: OSI Approved :: MIT License
 
 ### `idna`
 
@@ -142,15 +124,6 @@ Administrative keys for demisto/fastapi:1.0.0.22276
 * Pypi: https://pypi.org/project/pip/
 * Homepage: https://pip.pypa.io/
 * Author: The pip developers distutils-sig@python.org
-* License :: OSI Approved :: MIT License
-
-### `pydantic`
-
-* Summary: Data validation and settings management using python 3.6 type hinting
-* Version: 1.8.2
-* Pypi: https://pypi.org/project/pydantic/
-* Homepage: https://github.com/samuelcolvin/pydantic
-* Author: Samuel Colvin s@muelcolvin.com
 * License :: OSI Approved :: MIT License
 
 ### `PySocks`
@@ -220,29 +193,38 @@ Administrative keys for demisto/fastapi:1.0.0.22276
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 54.2.0
+* Version: 57.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
+### `sgmllib3k`
+
+* Summary: Py3k port of sgmllib.
+* Version: 1.0.0
+* Pypi: https://pypi.org/project/sgmllib3k/
+* Homepage: http://hg.hardcoded.net/sgmllib
+* Author: Hardcoded Software hsoft@hardcoded.net
+* License :: OSI Approved :: BSD License
+
 ### `six`
 
 * Summary: Python 2 and 3 compatibility utilities
-* Version: 1.15.0
+* Version: 1.16.0
 * Pypi: https://pypi.org/project/six/
 * Homepage: https://github.com/benjaminp/six
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
-### `starlette`
+### `soupsieve`
 
-* Summary: The little ASGI library that shines.
-* Version: 0.14.2
-* Pypi: https://pypi.org/project/starlette/
-* Homepage: https://github.com/encode/starlette
-* Author: Tom Christie tom@tomchristie.com
-* License :: OSI Approved :: BSD License
+* Summary: A modern CSS selector implementation for Beautiful Soup.
+* Version: 2.2.1
+* Pypi: https://pypi.org/project/soupsieve/
+* Homepage: https://github.com/facelessuser/soupsieve
+* Author: Isaac Muse Isaac.Muse@gmail.com
+* License :: OSI Approved :: MIT License
 
 ### `tldextract`
 
@@ -252,15 +234,6 @@ Administrative keys for demisto/fastapi:1.0.0.22276
 * Homepage: https://github.com/john-kurkowski/tldextract
 * Author: John Kurkowski john.kurkowski@gmail.com
 * License :: OSI Approved :: BSD License
-
-### `typing-extensions`
-
-* Summary: Backported and Experimental Type Hints for Python 3.5+
-* Version: 3.10.0.0
-* Pypi: https://pypi.org/project/typing-extensions/
-* Homepage: https://github.com/python/typing/blob/master/typing_extensions/README.rst
-* Author: Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee levkivskyi@gmail.com
-* License :: OSI Approved :: Python Software Foundation License
 
 ### `tzlocal`
 
@@ -274,20 +247,11 @@ Administrative keys for demisto/fastapi:1.0.0.22276
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 1.26.4
+* Version: 1.26.5
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: https://urllib3.readthedocs.io/
 * Author: Andrey Petrov andrey.petrov@shazow.net
 * License :: OSI Approved :: MIT License
-
-### `uvicorn`
-
-* Summary: The lightning-fast ASGI server.
-* Version: 0.14.0
-* Pypi: https://pypi.org/project/uvicorn/
-* Homepage: https://github.com/encode/uvicorn
-* Author: Tom Christie tom@tomchristie.com
-* License :: OSI Approved :: BSD License
 
 ### `wheel`
 
@@ -300,11 +264,11 @@ Administrative keys for demisto/fastapi:1.0.0.22276
 
 ## `OS Packages`
 
-* .python-rundeps-20210405.183424 noarch {.python-rundeps}
+* .python-rundeps-20210504.183530 noarch {.python-rundeps}
 * alpine-baselayout-3.2.0-r8 x86_64 {alpine-baselayout}
 * alpine-keys-2.2-r0 x86_64 {alpine-keys}
-* apk-tools-2.12.4-r2 x86_64 {apk-tools}
-* busybox-1.32.1-r5 x86_64 {busybox}
+* apk-tools-2.12.5-r0 x86_64 {apk-tools}
+* busybox-1.32.1-r6 x86_64 {busybox}
 * ca-certificates-20191127-r5 x86_64 {ca-certificates}
 * ca-certificates-bundle-20191127-r5 x86_64 {ca-certificates}
 * expat-2.2.10-r1 x86_64 {expat}
@@ -332,7 +296,7 @@ Administrative keys for demisto/fastapi:1.0.0.22276
 * readline-8.1.0-r0 x86_64 {readline}
 * scanelf-1.2.8-r0 x86_64 {pax-utils}
 * sqlite-libs-3.34.1-r0 x86_64 {sqlite}
-* ssl_client-1.32.1-r5 x86_64 {busybox}
+* ssl_client-1.32.1-r6 x86_64 {busybox}
 * tzdata-2021a-r0 x86_64 {tzdata}
 * xz-libs-5.2.5-r0 x86_64 {xz}
 * zlib-1.2.11-r3 x86_64 {zlib}
