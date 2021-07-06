@@ -1,4 +1,7 @@
 # `demisto/pwsh-remoting:1.0.0.21221`
+
+> **Deprecated**. Use the [`powershell-ubuntu`](https://github.com/demisto/dockerfiles-info/blob/master/demisto/powershell-ubuntu/last.md) docker image instead. 
+
 ## Docker Metadata
 - Image Size: `160.79 MB`
 - Image ID: `sha256:216a013d85c03e60cfb4248027b11d6804a12b635f7b194cb8b054707cc9a351`
