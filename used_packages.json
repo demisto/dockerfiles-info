@@ -104,7 +104,6 @@
         "docker_images": [
             "demisto/xgboost",
             "demisto/dl-languages",
-            "demisto/ansible-runner",
             "demisto/greynoise",
             "demisto/ml",
             "demisto/xsoar-tools",
@@ -112,7 +111,8 @@
             "demisto/teams",
             "demisto/taxii-server",
             "demisto/flask-nginx",
-            "demisto/tidy"
+            "demisto/tidy",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://palletsprojects.com/p/jinja/",
         "licenses": [
@@ -138,7 +138,6 @@
         "docker_images": [
             "demisto/xgboost",
             "demisto/dl-languages",
-            "demisto/ansible-runner",
             "demisto/greynoise",
             "demisto/ml",
             "demisto/xsoar-tools",
@@ -146,7 +145,8 @@
             "demisto/teams",
             "demisto/taxii-server",
             "demisto/flask-nginx",
-            "demisto/tidy"
+            "demisto/tidy",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://palletsprojects.com/p/markupsafe/",
         "licenses": [
@@ -195,7 +195,8 @@
             "demisto/twilio",
             "demisto/teams",
             "demisto/pyjwt3",
-            "demisto/oauthlib"
+            "demisto/oauthlib",
+            "demisto/ansible-runner"
         ],
         "home_page": "http://github.com/jpadilla/pyjwt",
         "licenses": [
@@ -219,9 +220,9 @@
     "PyNaCl": {
         "author": "The PyNaCl developers cryptography-dev@python.org",
         "docker_images": [
-            "demisto/ansible-runner",
             "demisto/netmiko",
-            "demisto/tidy"
+            "demisto/tidy",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/pyca/pynacl/",
         "licenses": [
@@ -283,7 +284,6 @@
             "demisto/yarapy",
             "demisto/devo",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/fasttext",
@@ -309,7 +309,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -379,7 +378,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -391,7 +389,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/sklearn",
@@ -419,7 +416,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -469,7 +471,6 @@
             "demisto/yarapy",
             "demisto/devo",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/fasttext",
@@ -495,7 +496,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -565,7 +565,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -577,7 +576,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/sklearn",
@@ -605,7 +603,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -624,7 +627,8 @@
             "demisto/py2-exchangelib",
             "demisto/carbon-black-cloud",
             "demisto/polyswarm",
-            "demisto/py3ews"
+            "demisto/py3ews",
+            "demisto/ansible-runner"
         ],
         "home_page": "http://pygments.org/",
         "licenses": [
@@ -719,6 +723,18 @@
         ],
         "pypi_url": "https://pypi.org/project/XlsxWriter/",
         "summary": "A Python module for creating Excel XLSX files."
+    },
+    "adal": {
+        "author": "Microsoft Corporation nugetaad@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/AzureAD/azure-activedirectory-library-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/adal/",
+        "summary": "Note: This library is already replaced by MSAL Python, available here: https://pypi.org/project/msal/ .ADAL Python remains available here as a legacy. The ADAL for Python library makes it easy for python application to authenticate to Azure Active Directory (AAD) in order to access AAD protected web resources."
     },
     "aiodns": {
         "author": "Sa\u00fal Ibarra Corretg\u00e9 s@saghul.net",
@@ -942,8 +958,8 @@
     "ansible": {
         "author": "Ansible, Inc. info@ansible.com",
         "docker_images": [
-            "demisto/ansible-runner",
-            "demisto/tidy"
+            "demisto/tidy",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://ansible.com/",
         "licenses": [
@@ -979,8 +995,8 @@
     "ansible-runner": {
         "author": "Red Hat Ansible",
         "docker_images": [
-            "demisto/ansible-runner",
-            "demisto/tidy"
+            "demisto/tidy",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/ansible/ansible-runner",
         "licenses": [
@@ -1034,6 +1050,30 @@
         ],
         "pypi_url": "https://pypi.org/project/appdirs/",
         "summary": "A small Python module for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
+    },
+    "applicationinsights": {
+        "author": "Microsoft appinsightssdk@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Microsoft/ApplicationInsights-Python",
+        "licenses": [
+            "License: MIT"
+        ],
+        "pypi_url": "https://pypi.org/project/applicationinsights/",
+        "summary": "This project extends the Application Insights API surface to support Python."
+    },
+    "argcomplete": {
+        "author": "Andrey Kislyuk kislyuk@gmail.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/kislyuk/argcomplete",
+        "licenses": [
+            "License :: OSI Approved :: Apache Software License"
+        ],
+        "pypi_url": "https://pypi.org/project/argcomplete/",
+        "summary": "Bash tab completion for argparse"
     },
     "argus-api": {
         "author": "mnemonic opensource@mnemonic.no",
@@ -1191,6 +1231,42 @@
         "pypi_url": "https://pypi.org/project/axonius-api-client/",
         "summary": "Axonius API client for Python"
     },
+    "azure-cli-core": {
+        "author": "Microsoft Corporation azpycli@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-cli",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-cli-core/",
+        "summary": "Microsoft Azure Command-Line Tools Core Module"
+    },
+    "azure-cli-nspkg": {
+        "author": "Microsoft Corporation azpycli@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-cli",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-cli-nspkg/",
+        "summary": "Microsoft Azure CLI Namespace Package"
+    },
+    "azure-cli-telemetry": {
+        "author": "Microsoft Corporation azpycli@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-cli",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-cli-telemetry/",
+        "summary": "Microsoft Azure CLI Telemetry Package"
+    },
     "azure-common": {
         "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
         "docker_images": [
@@ -1216,6 +1292,90 @@
         "pypi_url": "https://pypi.org/project/azure-core/",
         "summary": "Microsoft Azure Core Library for Python"
     },
+    "azure-graphrbac": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-graphrbac/",
+        "summary": "Microsoft Azure Graph RBAC Client Library for Python"
+    },
+    "azure-keyvault": {
+        "author": "Microsoft Corporation azurekeyvault@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/keyvault/azure-keyvault",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-keyvault/",
+        "summary": "Microsoft Azure Key Vault Client Libraries for Python"
+    },
+    "azure-mgmt-apimanagement": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-apimanagement/",
+        "summary": "Microsoft Azure API Management Client Library for Python"
+    },
+    "azure-mgmt-authorization": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-authorization/",
+        "summary": "Microsoft Azure Authorization Management Client Library for Python"
+    },
+    "azure-mgmt-automation": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-automation/",
+        "summary": "Microsoft Azure Automation Client Library for Python"
+    },
+    "azure-mgmt-batch": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-batch/",
+        "summary": "Microsoft Azure Batch Management Client Library for Python"
+    },
+    "azure-mgmt-cdn": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-cdn/",
+        "summary": "Microsoft Azure CDN Management Client Library for Python"
+    },
     "azure-mgmt-compute": {
         "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
         "docker_images": [
@@ -1227,6 +1387,42 @@
         ],
         "pypi_url": "https://pypi.org/project/azure-mgmt-compute/",
         "summary": "Microsoft Azure Compute Management Client Library for Python"
+    },
+    "azure-mgmt-containerinstance": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-containerinstance/",
+        "summary": "Microsoft Azure Container Instance Client Library for Python"
+    },
+    "azure-mgmt-containerregistry": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-containerregistry/",
+        "summary": "Microsoft Azure Container Registry Client Library for Python"
+    },
+    "azure-mgmt-containerservice": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-containerservice/",
+        "summary": "Microsoft Azure Container Service Management Client Library for Python"
     },
     "azure-mgmt-core": {
         "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
@@ -1240,6 +1436,150 @@
         "pypi_url": "https://pypi.org/project/azure-mgmt-core/",
         "summary": "Microsoft Azure Management Core Library for Python"
     },
+    "azure-mgmt-cosmosdb": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-cosmosdb/",
+        "summary": "Microsoft Azure Cosmos DB Management Client Library for Python"
+    },
+    "azure-mgmt-devtestlabs": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-devtestlabs/",
+        "summary": "Microsoft Azure DevTestLabs Management Client Library for Python"
+    },
+    "azure-mgmt-dns": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-dns/",
+        "summary": "Microsoft Azure DNS Management Client Library for Python"
+    },
+    "azure-mgmt-eventhub": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-eventhub/",
+        "summary": "Microsoft Azure EventHub Management Client Library for Python"
+    },
+    "azure-mgmt-hdinsight": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-hdinsight/",
+        "summary": "Microsoft Azure HDInsight Management Client Library for Python"
+    },
+    "azure-mgmt-iothub": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-iothub/",
+        "summary": "Microsoft Azure IoTHub Management Client Library for Python"
+    },
+    "azure-mgmt-keyvault": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-keyvault/",
+        "summary": "Microsoft Azure Keyvault Management Client Library for Python"
+    },
+    "azure-mgmt-loganalytics": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-loganalytics/",
+        "summary": "Microsoft Azure Log Analytics Management Client Library for Python"
+    },
+    "azure-mgmt-managedservices": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-managedservices/",
+        "summary": "Microsoft Azure Managed Services Client Library for Python"
+    },
+    "azure-mgmt-managementgroups": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-managementgroups/",
+        "summary": "Microsoft Azure Management Groups Client Library for Python"
+    },
+    "azure-mgmt-marketplaceordering": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-marketplaceordering/",
+        "summary": "Microsoft Azure Market Place Ordering Client Library for Python"
+    },
+    "azure-mgmt-monitor": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-monitor/",
+        "summary": "Microsoft Azure Monitor Client Library for Python"
+    },
     "azure-mgmt-network": {
         "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
         "docker_images": [
@@ -1251,6 +1591,78 @@
         ],
         "pypi_url": "https://pypi.org/project/azure-mgmt-network/",
         "summary": "Microsoft Azure Network Management Client Library for Python"
+    },
+    "azure-mgmt-nspkg": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-nspkg/",
+        "summary": "Microsoft Azure Resource Management Namespace Package [Internal]"
+    },
+    "azure-mgmt-privatedns": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-privatedns/",
+        "summary": "Microsoft Azure DNS Private Zones Client Library for Python"
+    },
+    "azure-mgmt-rdbms": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-rdbms/",
+        "summary": "Microsoft Azure RDBMS Management Client Library for Python"
+    },
+    "azure-mgmt-recoveryservices": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-recoveryservices/",
+        "summary": "Microsoft Azure Recovery Services Client Library for Python"
+    },
+    "azure-mgmt-recoveryservicesbackup": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-recoveryservicesbackup/",
+        "summary": "Microsoft Azure Recoveryservicesbackup Management Client Library for Python"
+    },
+    "azure-mgmt-redis": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-redis/",
+        "summary": "Microsoft Azure Redis Cache Management Client Library for Python"
     },
     "azure-mgmt-resource": {
         "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
@@ -1264,6 +1676,42 @@
         "pypi_url": "https://pypi.org/project/azure-mgmt-resource/",
         "summary": "Microsoft Azure Resource Management Client Library for Python"
     },
+    "azure-mgmt-search": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-search/",
+        "summary": "Microsoft Azure Search Management Client Library for Python"
+    },
+    "azure-mgmt-servicebus": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-servicebus/",
+        "summary": "Microsoft Azure Service Bus Management Client Library for Python"
+    },
+    "azure-mgmt-sql": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-sql/",
+        "summary": "Microsoft Azure SQL Management Client Library for Python"
+    },
     "azure-mgmt-storage": {
         "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
         "docker_images": [
@@ -1275,6 +1723,54 @@
         ],
         "pypi_url": "https://pypi.org/project/azure-mgmt-storage/",
         "summary": "Microsoft Azure Storage Management Client Library for Python"
+    },
+    "azure-mgmt-trafficmanager": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-trafficmanager/",
+        "summary": "Microsoft Azure Traffic Manager Client Library for Python"
+    },
+    "azure-mgmt-web": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-mgmt-web/",
+        "summary": "Microsoft Azure Web Apps Management Client Library for Python"
+    },
+    "azure-nspkg": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-nspkg/",
+        "summary": "Microsoft Azure Namespace Package [Internal]"
+    },
+    "azure-storage": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-storage/",
+        "summary": "Microsoft Azure Storage SDK for Python"
     },
     "azure-storage-blob": {
         "author": "Microsoft Corporation ascl@microsoft.com",
@@ -1352,9 +1848,9 @@
     "bcrypt": {
         "author": "The Python Cryptographic Authority developers cryptography-dev@python.org",
         "docker_images": [
-            "demisto/ansible-runner",
             "demisto/netmiko",
-            "demisto/tidy"
+            "demisto/tidy",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/pyca/bcrypt/",
         "licenses": [
@@ -1370,12 +1866,12 @@
             "demisto/xmlparser",
             "demisto/bs4-tld",
             "demisto/bs4",
-            "demisto/btfl-soup",
             "demisto/feed-parser-html",
             "demisto/taxii",
             "demisto/xsoar-tools",
             "demisto/sklearn",
-            "demisto/fetch-data"
+            "demisto/fetch-data",
+            "demisto/btfl-soup"
         ],
         "home_page": "http://www.crummy.com/software/BeautifulSoup/bs4/",
         "licenses": [
@@ -1500,7 +1996,6 @@
         "docker_images": [
             "demisto/google-api",
             "demisto/gvault",
-            "demisto/ansible-runner",
             "demisto/resilient",
             "demisto/google-cloud-storage",
             "demisto/carbon-black-cloud",
@@ -1508,13 +2003,14 @@
             "demisto/greynoise",
             "demisto/xsoar-tools",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/bigquery",
             "demisto/google-kms",
             "demisto/google-cloud-translate",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/google-vision-api",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/tkem/cachetools",
         "licenses": [
@@ -1620,7 +2116,6 @@
             "demisto/yarapy",
             "demisto/devo",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/fasttext",
@@ -1646,7 +2141,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -1716,7 +2210,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -1728,7 +2221,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/sklearn",
@@ -1756,7 +2248,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -1774,7 +2271,6 @@
             "demisto/snowflake",
             "demisto/py-ews",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/sharepoint",
@@ -1799,7 +2295,8 @@
             "demisto/smime-encrypt",
             "demisto/xml-feed",
             "demisto/tidy",
-            "demisto/smbprotocol"
+            "demisto/smbprotocol",
+            "demisto/ansible-runner"
         ],
         "home_page": "http://cffi.readthedocs.org",
         "licenses": [
@@ -1899,8 +2396,8 @@
             "demisto/slackv3",
             "demisto/tableau",
             "demisto/pymisp2",
-            "demisto/google-vision-api",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -1921,7 +2418,6 @@
             "demisto/trustar",
             "demisto/yarapy",
             "demisto/devo",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/distorm3",
@@ -1929,7 +2425,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -1999,7 +2494,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -2011,7 +2505,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/twilio",
@@ -2038,7 +2531,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "https://github.com/ousret/charset_normalizer",
         "licenses": [
@@ -2071,13 +2569,13 @@
             "demisto/ml",
             "demisto/pyotrs",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/sklearn",
             "demisto/teams",
             "demisto/taxii-server",
             "demisto/axonius",
             "demisto/flask-nginx",
-            "demisto/fetch-data"
+            "demisto/fetch-data",
+            "demisto/fastapi"
         ],
         "home_page": "https://palletsprojects.com/p/click/",
         "licenses": [
@@ -2167,7 +2665,8 @@
             "demisto/polyswarm",
             "demisto/pyotrs",
             "demisto/xsoar-tools",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/tartley/colorama",
         "licenses": [
@@ -2289,7 +2788,6 @@
             "demisto/snowflake",
             "demisto/py-ews",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/sharepoint",
@@ -2312,7 +2810,8 @@
             "demisto/smime-encrypt",
             "demisto/xml-feed",
             "demisto/tidy",
-            "demisto/smbprotocol"
+            "demisto/smbprotocol",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/pyca/cryptography",
         "licenses": [
@@ -2476,7 +2975,6 @@
             "demisto/yarapy",
             "demisto/devo",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/fasttext",
@@ -2502,7 +3000,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -2572,7 +3069,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -2584,7 +3080,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/sklearn",
@@ -2612,7 +3107,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -2801,9 +3301,9 @@
             "demisto/py-ews",
             "demisto/ippysocks",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/dnspython",
-            "demisto/py3ews"
+            "demisto/py3ews",
+            "demisto/ansible-runner"
         ],
         "home_page": "http://www.dnspython.org",
         "licenses": [
@@ -2841,8 +3341,8 @@
     "docutils": {
         "author": "David Goodger goodger@python.org",
         "docker_images": [
-            "demisto/ansible-runner",
-            "demisto/tidy"
+            "demisto/tidy",
+            "demisto/ansible-runner"
         ],
         "home_page": "http://docutils.sourceforge.net/",
         "licenses": [
@@ -3181,7 +3681,6 @@
             "demisto/trustar",
             "demisto/yarapy",
             "demisto/devo",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/distorm3",
@@ -3190,7 +3689,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -3260,7 +3758,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -3272,7 +3769,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/twilio",
@@ -3299,7 +3795,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "https://github.com/benediktschmitt/py-filelock",
         "licenses": [
@@ -3407,7 +3908,6 @@
             "demisto/yarapy",
             "demisto/devo",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/fasttext",
@@ -3433,7 +3933,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -3503,7 +4002,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -3515,7 +4013,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/sklearn",
@@ -3543,7 +4040,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -3574,13 +4076,13 @@
             "demisto/ippysocks",
             "demisto/trustar",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/netmiko",
             "demisto/distorm3",
             "demisto/pykafka",
             "demisto/pycef",
             "demisto/polyswarm",
-            "demisto/threatconnect-tcex"
+            "demisto/threatconnect-tcex",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://python-future.org",
         "licenses": [
@@ -3675,12 +4177,12 @@
             "demisto/google-cloud-securitycenter",
             "demisto/xsoar-tools",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/bigquery",
             "demisto/google-kms",
-            "demisto/google-cloud-translate"
+            "demisto/google-cloud-translate",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-cloud-python",
         "licenses": [
@@ -3694,9 +4196,9 @@
         "docker_images": [
             "demisto/google-api",
             "demisto/gvault",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "http://github.com/google/google-api-python-client/",
         "licenses": [
@@ -3710,17 +4212,17 @@
         "docker_images": [
             "demisto/google-api",
             "demisto/gvault",
-            "demisto/ansible-runner",
             "demisto/google-cloud-storage",
             "demisto/google-cloud-securitycenter",
             "demisto/xsoar-tools",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/bigquery",
             "demisto/google-kms",
-            "demisto/google-cloud-translate"
+            "demisto/google-cloud-translate",
+            "demisto/google-vision-api",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-auth-library-python",
         "licenses": [
@@ -3734,9 +4236,9 @@
         "docker_images": [
             "demisto/google-api",
             "demisto/gvault",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-auth-library-python-httplib2",
         "licenses": [
@@ -3910,12 +4412,12 @@
             "demisto/google-cloud-securitycenter",
             "demisto/xsoar-tools",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/bigquery",
             "demisto/google-kms",
-            "demisto/google-cloud-translate"
+            "demisto/google-cloud-translate",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/googleapis/googleapis",
         "licenses": [
@@ -4013,10 +4515,10 @@
             "demisto/google-cloud-storage",
             "demisto/google-cloud-securitycenter",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/bigquery",
             "demisto/google-kms",
-            "demisto/google-cloud-translate"
+            "demisto/google-cloud-translate",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://grpc.io",
         "licenses": [
@@ -4080,10 +4582,10 @@
         "docker_images": [
             "demisto/google-api",
             "demisto/gvault",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/bigquery"
+            "demisto/bigquery",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://github.com/httplib2/httplib2",
         "licenses": [
@@ -4107,7 +4609,8 @@
     "humanfriendly": {
         "author": "Peter Odding peter@peterodding.com",
         "docker_images": [
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://humanfriendly.readthedocs.io",
         "licenses": [
@@ -4175,7 +4678,6 @@
             "demisto/yarapy",
             "demisto/devo",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/fasttext",
@@ -4201,7 +4703,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -4271,7 +4772,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -4283,7 +4783,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/sklearn",
@@ -4311,7 +4810,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -4493,9 +4997,9 @@
             "demisto/exchangelib",
             "demisto/py-ews",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/zeep",
-            "demisto/py3ews"
+            "demisto/py3ews",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/gweis/isodate/",
         "licenses": [
@@ -4571,13 +5075,13 @@
         "docker_images": [
             "demisto/ml-telemetry",
             "demisto/snowflake",
-            "demisto/ansible-runner",
             "demisto/boto3",
             "demisto/jmespath",
             "demisto/threatconnect-tcex",
             "demisto/python_pancloud",
             "demisto/python_pancloud_v2",
-            "demisto/boto3py3"
+            "demisto/boto3py3",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/jmespath/jmespath.py",
         "licenses": [
@@ -4671,6 +5175,18 @@
         ],
         "pypi_url": "https://pypi.org/project/kiwisolver/",
         "summary": "A fast implementation of the Cassowary constraint solver"
+    },
+    "knack": {
+        "author": "Microsoft Corporation azpycli@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/microsoft/knack",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/knack/",
+        "summary": "A Command-Line Interface framework"
     },
     "kubernetes": {
         "author": "Kubernetes",
@@ -4789,8 +5305,8 @@
     "lockfile": {
         "author": "OpenStack openstack-dev@lists.openstack.org",
         "docker_images": [
-            "demisto/ansible-runner",
-            "demisto/tidy"
+            "demisto/tidy",
+            "demisto/ansible-runner"
         ],
         "home_page": "http://launchpad.net/pylockfile",
         "licenses": [
@@ -4840,7 +5356,8 @@
             "demisto/pcap-miner",
             "demisto/zeep",
             "demisto/taxii-server",
-            "demisto/py3ews"
+            "demisto/py3ews",
+            "demisto/ansible-runner"
         ],
         "home_page": "http://lxml.de/",
         "licenses": [
@@ -4890,8 +5407,8 @@
         "author": "Matthew Tretter m@tthewwithanm.com",
         "docker_images": [
             "demisto/bs4-tld",
-            "demisto/btfl-soup",
-            "demisto/taxii"
+            "demisto/taxii",
+            "demisto/btfl-soup"
         ],
         "home_page": "http://github.com/matthewwithanm/python-markdownify",
         "licenses": [
@@ -5056,6 +5573,30 @@
         "pypi_url": "https://pypi.org/project/more-itertools/",
         "summary": "More routines for operating on iterables, beyond itertools"
     },
+    "msal": {
+        "author": "Microsoft Corporation nugetaad@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/AzureAD/microsoft-authentication-library-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/msal/",
+        "summary": "The Microsoft Authentication Library (MSAL) for Python library enables your app to access the Microsoft Cloud by supporting authentication of users with Microsoft Azure Active Directory accounts (AAD) and Microsoft Accounts (MSA) using industry standard OAuth2 and OpenID Connect."
+    },
+    "msal-extensions": {
+        "author": "",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "",
+        "licenses": [
+            "License :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/msal-extensions/",
+        "summary": ""
+    },
     "msgpack": {
         "author": "INADA Naoki songofacandy@gmail.com",
         "docker_images": [
@@ -5080,6 +5621,18 @@
         ],
         "pypi_url": "https://pypi.org/project/msrest/",
         "summary": "AutoRest swagger generator Python client runtime."
+    },
+    "msrestazure": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/Azure/msrestazure-for-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/msrestazure/",
+        "summary": "AutoRest swagger generator Python client runtime. Azure-specific module."
     },
     "multidict": {
         "author": "Andrew Svetlov andrew.svetlov@gmail.com",
@@ -5226,6 +5779,54 @@
         "pypi_url": "https://pypi.org/project/nltk/",
         "summary": "Natural Language Toolkit"
     },
+    "nsx-policy-python-sdk": {
+        "author": "VMware",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "UNKNOWN",
+        "licenses": [
+            "License :: MIT License"
+        ],
+        "pypi_url": null,
+        "summary": "NSX Policy Python SDK"
+    },
+    "nsx-python-sdk": {
+        "author": "VMware",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "UNKNOWN",
+        "licenses": [
+            "License :: MIT License"
+        ],
+        "pypi_url": null,
+        "summary": "NSX Python SDK"
+    },
+    "nsx-vmc-aws-integration-python-sdk": {
+        "author": "VMware",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "UNKNOWN",
+        "licenses": [
+            "License :: MIT License"
+        ],
+        "pypi_url": null,
+        "summary": "NSX VMC AWS Integration SDK"
+    },
+    "nsx-vmc-policy-python-sdk": {
+        "author": "VMware",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "UNKNOWN",
+        "licenses": [
+            "License :: MIT License"
+        ],
+        "pypi_url": null,
+        "summary": "NSX VMC Policy Python SDK"
+    },
     "ntc-templates": {
         "author": "Network to Code info@networktocode.com",
         "docker_images": [
@@ -5245,12 +5846,12 @@
             "demisto/ews",
             "demisto/py-ews",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/sharepoint",
             "demisto/py3ews",
             "demisto/winrm",
-            "demisto/tidy"
+            "demisto/tidy",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/jborean93/ntlm-auth",
         "licenses": [
@@ -5297,10 +5898,10 @@
         "docker_images": [
             "demisto/google-api",
             "demisto/gvault",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
-            "demisto/bigquery"
+            "demisto/bigquery",
+            "demisto/google-vision-api"
         ],
         "home_page": "http://github.com/google/oauth2client/",
         "licenses": [
@@ -5312,12 +5913,13 @@
     "oauthlib": {
         "author": "The OAuthlib Community idan@gazit.me",
         "docker_images": [
-            "demisto/ansible-runner",
             "demisto/luminate",
             "demisto/asana",
-            "demisto/google-vision-api",
             "demisto/oauthlib",
-            "demisto/py3ews"
+            "demisto/py3ews",
+            "demisto/google-vision-api",
+            "demisto/ansible-runner",
+            "demisto/tweepy"
         ],
         "home_page": "https://github.com/oauthlib/oauthlib",
         "licenses": [
@@ -5362,7 +5964,6 @@
             "demisto/yarapy",
             "demisto/devo",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/fasttext",
@@ -5388,7 +5989,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -5458,7 +6058,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -5470,7 +6069,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/sklearn",
@@ -5498,7 +6096,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -5660,20 +6263,20 @@
             "demisto/dl-languages",
             "demisto/google-api",
             "demisto/gvault",
-            "demisto/ansible-runner",
             "demisto/google-cloud-storage",
             "demisto/ml",
             "demisto/pyotrs",
             "demisto/xsoar-tools",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/bigquery",
             "demisto/google-kms",
             "demisto/google-cloud-translate",
             "demisto/tidy",
-            "demisto/fetch-data"
+            "demisto/fetch-data",
+            "demisto/google-vision-api",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/pypa/packaging",
         "licenses": [
@@ -5738,9 +6341,9 @@
     "paramiko": {
         "author": "Jeff Forcier jeff@bitprophet.org",
         "docker_images": [
-            "demisto/ansible-runner",
             "demisto/netmiko",
-            "demisto/tidy"
+            "demisto/tidy",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/paramiko/paramiko/",
         "licenses": [
@@ -5875,8 +6478,8 @@
     "pexpect": {
         "author": "Noah Spurrier; Thomas Kluyver; Jeff Quast noah@noah.org, thomas@kluyver.me.uk, contact@jeffquast.com",
         "docker_images": [
-            "demisto/ansible-runner",
-            "demisto/tidy"
+            "demisto/tidy",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://pexpect.readthedocs.io/",
         "licenses": [
@@ -5994,7 +6597,6 @@
             "demisto/yarapy",
             "demisto/devo",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/fasttext",
@@ -6020,7 +6622,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -6090,7 +6691,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -6102,7 +6702,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/sklearn",
@@ -6130,7 +6729,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -6150,6 +6754,18 @@
         ],
         "pypi_url": "https://pypi.org/project/pipenv/",
         "summary": "Python Development Workflow for Humans."
+    },
+    "pkginfo": {
+        "author": "Tres Seaver, Agendaless Consulting tseaver@agendaless.com",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://code.launchpad.net/~tseaver/pkginfo/trunk",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/pkginfo/",
+        "summary": "Query metadatdata from sdists / bdists / installed packages."
     },
     "plac": {
         "author": "Michele Simionato michele.simionato@gmail.com",
@@ -6236,6 +6852,18 @@
         "pypi_url": "https://pypi.org/project/polyswarm-api/",
         "summary": "Client library to simplify interacting with the PolySwarm consumer API"
     },
+    "portalocker": {
+        "author": "Rick van Hattem wolph@wol.ph",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/WoLpH/portalocker",
+        "licenses": [
+            "License :: PSF license"
+        ],
+        "pypi_url": "https://pypi.org/project/portalocker/",
+        "summary": "Wraps the portalocker recipe for easy usage"
+    },
     "preshed": {
         "author": "Matthew Honnibal matt@explosion.ai",
         "docker_images": [
@@ -6314,13 +6942,13 @@
             "demisto/google-cloud-securitycenter",
             "demisto/xsoar-tools",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/bigquery",
             "demisto/google-kms",
             "demisto/google-cloud-translate",
-            "demisto/fetch-data"
+            "demisto/fetch-data",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://developers.google.com/protocol-buffers/",
         "licenses": [
@@ -6332,8 +6960,8 @@
     "psutil": {
         "author": "Giampaolo Rodola g.rodola@gmail.com",
         "docker_images": [
-            "demisto/ansible-runner",
-            "demisto/tidy"
+            "demisto/tidy",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/giampaolo/psutil",
         "licenses": [
@@ -6382,8 +7010,8 @@
     "ptyprocess": {
         "author": "Thomas Kluyver thomas@kluyver.me.uk",
         "docker_images": [
-            "demisto/ansible-runner",
-            "demisto/tidy"
+            "demisto/tidy",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/pexpect/ptyprocess",
         "licenses": [
@@ -6435,7 +7063,8 @@
             "demisto/symantec_mss",
             "demisto/snowflake",
             "demisto/akamai",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://pyopenssl.org/",
         "licenses": [
@@ -6463,22 +7092,22 @@
             "demisto/bs4-tld",
             "demisto/google-api",
             "demisto/gvault",
-            "demisto/ansible-runner",
             "demisto/smb",
-            "demisto/btfl-soup",
             "demisto/google-cloud-storage",
             "demisto/google-cloud-securitycenter",
             "demisto/taxii",
             "demisto/ldap",
             "demisto/xsoar-tools",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/bigquery",
             "demisto/google-kms",
             "demisto/google-cloud-translate",
-            "demisto/akamai"
+            "demisto/akamai",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/etingof/pyasn1",
         "licenses": [
@@ -6492,17 +7121,17 @@
         "docker_images": [
             "demisto/google-api",
             "demisto/gvault",
-            "demisto/ansible-runner",
             "demisto/google-cloud-storage",
             "demisto/google-cloud-securitycenter",
             "demisto/xsoar-tools",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/bigquery",
             "demisto/google-kms",
-            "demisto/google-cloud-translate"
+            "demisto/google-cloud-translate",
+            "demisto/google-vision-api",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/etingof/pyasn1-modules",
         "licenses": [
@@ -6583,7 +7212,6 @@
             "demisto/snowflake",
             "demisto/py-ews",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/sharepoint",
@@ -6608,7 +7236,8 @@
             "demisto/smime-encrypt",
             "demisto/xml-feed",
             "demisto/tidy",
-            "demisto/smbprotocol"
+            "demisto/smbprotocol",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/eliben/pycparser",
         "licenses": [
@@ -6635,9 +7264,9 @@
         "author": "Helder Eijs helderijs@gmail.com",
         "docker_images": [
             "demisto/bs4-tld",
-            "demisto/ansible-runner",
+            "demisto/taxii",
             "demisto/btfl-soup",
-            "demisto/taxii"
+            "demisto/ansible-runner"
         ],
         "home_page": "https://www.pycryptodome.org",
         "licenses": [
@@ -6838,7 +7467,6 @@
             "demisto/dl-languages",
             "demisto/google-api",
             "demisto/gvault",
-            "demisto/ansible-runner",
             "demisto/sane-doc-reports",
             "demisto/google-cloud-storage",
             "demisto/matplotlib",
@@ -6846,14 +7474,15 @@
             "demisto/pyotrs",
             "demisto/xsoar-tools",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/bigquery",
             "demisto/google-kms",
             "demisto/google-cloud-translate",
             "demisto/tidy",
-            "demisto/fetch-data"
+            "demisto/fetch-data",
+            "demisto/google-vision-api",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/pyparsing/pyparsing/",
         "licenses": [
@@ -6955,8 +7584,8 @@
     "python-daemon": {
         "author": "Ben Finney ben+python@benfinney.id.au",
         "docker_images": [
-            "demisto/ansible-runner",
-            "demisto/tidy"
+            "demisto/tidy",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://pagure.io/python-daemon/",
         "licenses": [
@@ -7010,7 +7639,6 @@
             "demisto/yarapy",
             "demisto/devo",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/fasttext",
@@ -7036,7 +7664,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -7106,7 +7733,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -7118,7 +7744,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/sklearn",
@@ -7146,7 +7771,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -7298,7 +7928,6 @@
             "demisto/yarapy",
             "demisto/devo",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/fasttext",
@@ -7324,7 +7953,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -7394,7 +8022,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -7406,7 +8033,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/sklearn",
@@ -7434,7 +8060,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -7483,9 +8114,9 @@
     "pywinrm": {
         "author": "Alexey Diyan alexey.diyan@gmail.com",
         "docker_images": [
-            "demisto/ansible-runner",
             "demisto/winrm",
-            "demisto/tidy"
+            "demisto/tidy",
+            "demisto/ansible-runner"
         ],
         "home_page": "http://github.com/diyan/pywinrm/",
         "licenses": [
@@ -7548,7 +8179,6 @@
             "demisto/yarapy",
             "demisto/devo",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/fasttext",
@@ -7574,7 +8204,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -7644,7 +8273,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -7656,7 +8284,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/sklearn",
@@ -7684,7 +8311,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -7749,7 +8381,6 @@
             "demisto/yarapy",
             "demisto/devo",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/fasttext",
@@ -7775,7 +8406,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -7845,7 +8475,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -7857,7 +8486,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/sklearn",
@@ -7885,7 +8513,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -7920,7 +8553,6 @@
             "demisto/yarapy",
             "demisto/devo",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/fasttext",
@@ -7946,7 +8578,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -8016,7 +8647,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -8028,7 +8658,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/sklearn",
@@ -8056,7 +8685,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -8109,12 +8743,12 @@
             "demisto/ews",
             "demisto/py-ews",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/sharepoint",
             "demisto/py3ews",
             "demisto/winrm",
-            "demisto/tidy"
+            "demisto/tidy",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/requests/requests-ntlm",
         "licenses": [
@@ -8126,12 +8760,13 @@
     "requests-oauthlib": {
         "author": "Kenneth Reitz me@kennethreitz.com",
         "docker_images": [
-            "demisto/ansible-runner",
             "demisto/luminate",
             "demisto/asana",
-            "demisto/google-vision-api",
             "demisto/oauthlib",
-            "demisto/py3ews"
+            "demisto/py3ews",
+            "demisto/google-vision-api",
+            "demisto/ansible-runner",
+            "demisto/tweepy"
         ],
         "home_page": "https://github.com/requests/requests-oauthlib",
         "licenses": [
@@ -8209,19 +8844,19 @@
             "demisto/bs4-tld",
             "demisto/google-api",
             "demisto/gvault",
-            "demisto/ansible-runner",
-            "demisto/btfl-soup",
             "demisto/google-cloud-storage",
             "demisto/google-cloud-securitycenter",
             "demisto/taxii",
             "demisto/xsoar-tools",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/bigquery",
             "demisto/google-kms",
-            "demisto/google-cloud-translate"
+            "demisto/google-cloud-translate",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://stuvel.eu/rsa",
         "licenses": [
@@ -8245,8 +8880,8 @@
     "ruamel.yaml": {
         "author": "Anthon van der Neut a.van.der.neut@ruamel.eu",
         "docker_images": [
-            "demisto/ansible-runner",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree",
         "licenses": [
@@ -8258,8 +8893,8 @@
     "ruamel.yaml.clib": {
         "author": "Anthon van der Neut a.van.der.neut@ruamel.eu",
         "docker_images": [
-            "demisto/ansible-runner",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://sourceforge.net/p/ruamel-yaml-clib/code/ci/default/tree",
         "licenses": [
@@ -8490,7 +9125,6 @@
             "demisto/yarapy",
             "demisto/devo",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/fasttext",
@@ -8516,7 +9150,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -8586,7 +9219,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -8598,7 +9230,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/sklearn",
@@ -8626,7 +9257,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -8736,7 +9372,6 @@
             "demisto/yarapy",
             "demisto/devo",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/fasttext",
@@ -8762,7 +9397,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -8832,7 +9466,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -8844,7 +9477,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/sklearn",
@@ -8872,7 +9504,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -9008,12 +9645,12 @@
         "docker_images": [
             "demisto/bs4-tld",
             "demisto/bs4",
-            "demisto/btfl-soup",
             "demisto/feed-parser-html",
             "demisto/taxii",
             "demisto/xsoar-tools",
             "demisto/sklearn",
-            "demisto/fetch-data"
+            "demisto/fetch-data",
+            "demisto/btfl-soup"
         ],
         "home_page": "https://github.com/facelessuser/soupsieve",
         "licenses": [
@@ -9263,6 +9900,18 @@
         "pypi_url": "https://pypi.org/project/subprocess32/",
         "summary": "A backport of the subprocess module from Python 3 for use on 2.x."
     },
+    "suds-jurko": {
+        "author": "Jurko Gospodnetic jurko.gospodnetic@pke.hr",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "http://bitbucket.org/jurko/suds",
+        "licenses": [
+            "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)"
+        ],
+        "pypi_url": "https://pypi.org/project/suds-jurko/",
+        "summary": "Lightweight SOAP client (Jurko's fork)"
+    },
     "tableauserverclient": {
         "author": "Tableau github@tableau.com",
         "docker_images": [
@@ -9287,7 +9936,8 @@
             "demisto/xsoar-tools",
             "demisto/sklearn",
             "demisto/axonius",
-            "demisto/fetch-data"
+            "demisto/fetch-data",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://bitbucket.org/astanin/python-tabulate",
         "licenses": [
@@ -9479,7 +10129,6 @@
             "demisto/yarapy",
             "demisto/devo",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/fasttext",
@@ -9505,7 +10154,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -9575,7 +10223,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -9587,7 +10234,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/sklearn",
@@ -9615,7 +10261,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -9705,6 +10356,18 @@
         "pypi_url": "https://pypi.org/project/trustar/",
         "summary": "Python SDK for the TruSTAR REST API"
     },
+    "tweepy": {
+        "author": "Joshua Roesslein tweepy@googlegroups.com",
+        "docker_images": [
+            "demisto/tweepy"
+        ],
+        "home_page": "https://www.tweepy.org/",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/tweepy/",
+        "summary": "Twitter library for Python"
+    },
     "twilio": {
         "author": "Twilio help@twilio.com",
         "docker_images": [
@@ -9763,11 +10426,11 @@
             "demisto/ml",
             "demisto/slack",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/slackv3",
             "demisto/google-k8s-engine",
             "demisto/axonius",
-            "demisto/fetch-data"
+            "demisto/fetch-data",
+            "demisto/fastapi"
         ],
         "home_page": "https://github.com/python/typing/blob/master/typing_extensions/README.rst",
         "licenses": [
@@ -9832,7 +10495,6 @@
             "demisto/yarapy",
             "demisto/devo",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/fasttext",
@@ -9858,7 +10520,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -9928,7 +10589,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -9940,7 +10600,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/sklearn",
@@ -9968,7 +10627,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -10018,9 +10682,9 @@
         "docker_images": [
             "demisto/google-api",
             "demisto/gvault",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/google-api-py3"
+            "demisto/google-api-py3",
+            "demisto/google-vision-api"
         ],
         "home_page": "https://uritemplate.readthedocs.org",
         "licenses": [
@@ -10077,7 +10741,6 @@
             "demisto/yarapy",
             "demisto/devo",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/fasttext",
@@ -10103,7 +10766,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -10173,7 +10835,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -10185,7 +10846,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/sklearn",
@@ -10213,7 +10873,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -10246,6 +10911,18 @@
         "pypi_url": "https://pypi.org/project/uvicorn/",
         "summary": "The lightning-fast ASGI server."
     },
+    "vSphere-Automation-SDK": {
+        "author": "VMware, Inc. None",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "https://github.com/vmware/vsphere-automation-sdk-python",
+        "licenses": [
+            "License: MIT"
+        ],
+        "pypi_url": null,
+        "summary": "VMware vSphere Automation SDK for Python"
+    },
     "validate-email": {
         "author": "Syrus Akbary me@syrusakbary.com",
         "docker_images": [
@@ -10269,6 +10946,42 @@
         ],
         "pypi_url": "https://pypi.org/project/validators/",
         "summary": "Python Data Validation for Humans\u2122."
+    },
+    "vapi-client-bindings": {
+        "author": "VMware, Inc.",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "UNKNOWN",
+        "licenses": [
+            "License :: MIT License"
+        ],
+        "pypi_url": null,
+        "summary": "vapi client bindings for VMware vSphere Automation"
+    },
+    "vapi-common-client": {
+        "author": "VMware",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "UNKNOWN",
+        "licenses": [
+            "License :: MIT License"
+        ],
+        "pypi_url": null,
+        "summary": "vAPI Common Services Client Bindings"
+    },
+    "vapi-runtime": {
+        "author": "VMware",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "UNKNOWN",
+        "licenses": [
+            "License :: MIT License"
+        ],
+        "pypi_url": null,
+        "summary": "vAPI Runtime"
     },
     "vertica-python": {
         "author": "Justin Berka, Alex Kim, Siting Ren justin.berka@gmail.com, alex.kim@uber.com, sitingren@hotmail.com",
@@ -10339,6 +11052,30 @@
         ],
         "pypi_url": "https://pypi.org/project/virtualenv-clone/",
         "summary": "script to clone virtualenvs."
+    },
+    "vmc-client-bindings": {
+        "author": "VMware, Inc.",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "UNKNOWN",
+        "licenses": [
+            "License :: MIT License"
+        ],
+        "pypi_url": null,
+        "summary": "Client bindings for VMware Cloud on AWS"
+    },
+    "vmc-draas-client-bindings": {
+        "author": "VMware, Inc.",
+        "docker_images": [
+            "demisto/ansible-runner"
+        ],
+        "home_page": "UNKNOWN",
+        "licenses": [
+            "License :: MIT License"
+        ],
+        "pypi_url": null,
+        "summary": "Client bindings for Disaster Recovery As A Service"
     },
     "vulture": {
         "author": "Jendrik Seipp jendrikseipp@gmail.com",
@@ -10440,8 +11177,8 @@
     "websocket-client": {
         "author": "liris liris.pp@gmail.com",
         "docker_images": [
-            "demisto/ansible-runner",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/websocket-client/websocket-client.git",
         "licenses": [
@@ -10520,7 +11257,6 @@
             "demisto/yarapy",
             "demisto/devo",
             "demisto/py2-exchangelib",
-            "demisto/ansible-runner",
             "demisto/ntlm",
             "demisto/netmiko",
             "demisto/fasttext",
@@ -10546,7 +11282,6 @@
             "demisto/chromium",
             "demisto/sane-doc-reports",
             "demisto/crypto",
-            "demisto/btfl-soup",
             "demisto/dxl",
             "demisto/archer",
             "demisto/google-cloud-storage",
@@ -10616,7 +11351,6 @@
             "demisto/xlrd-py3",
             "demisto/threatconnect-py3-sdk",
             "demisto/xsoar-tools",
-            "demisto/fastapi",
             "demisto/zabbix",
             "demisto/algorithmia",
             "demisto/smartsheet",
@@ -10628,7 +11362,6 @@
             "demisto/pymisp2",
             "demisto/python3-arrow",
             "demisto/google-k8s-engine",
-            "demisto/google-vision-api",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
             "demisto/sklearn",
@@ -10656,7 +11389,12 @@
             "demisto/boto3py3",
             "demisto/fetch-data",
             "demisto/elasticsearch",
-            "demisto/ssdeep"
+            "demisto/ssdeep",
+            "demisto/google-vision-api",
+            "demisto/btfl-soup",
+            "demisto/ansible-runner",
+            "demisto/fastapi",
+            "demisto/tweepy"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
@@ -10733,11 +11471,11 @@
         "author": "Martin Blech martinblech@gmail.com",
         "docker_images": [
             "demisto/servicenow",
-            "demisto/ansible-runner",
             "demisto/axonius",
             "demisto/winrm",
             "demisto/xml-feed",
-            "demisto/tidy"
+            "demisto/tidy",
+            "demisto/ansible-runner"
         ],
         "home_page": "https://github.com/martinblech/xmltodict",
         "licenses": [

@@ -1,8 +1,8 @@
-# `demisto/btfl-soup:1.0.1.23815`
+# `demisto/tweepy:1.0.0.23810`
 ## Docker Metadata
-- Image Size: `26.33 MB`
-- Image ID: `sha256:3659e43422d8884ae1a77ff47492308d1bf3791e1405b863af62235165e5c384`
-- Created: `2021-08-04T22:53:40.247727982Z`
+- Image Size: `24.54 MB`
+- Image ID: `sha256:372bc1938e3f799c03e894144c73ee7ee153c8962d1161652b43ab67c1f02cba`
+- Created: `2021-08-04T22:47:56.676808351Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -13,11 +13,11 @@
   - `PYTHON_PIP_VERSION=21.1.3`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/a1675ab6c2bd898ed82b1f58c486097f763c74a9/public/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=6665659241292b2147b58922b9ffe11dda66b39d52d8a6f3aa310bc1d60ea6f7`
-  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.23815`
+  - `DOCKER_IMAGE=demisto/tweepy:1.0.0.23810`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:71c6775a3a1694bb076ef0058ecc2fa9bb0fa335`
-  - `org.opencontainers.image.version:1.0.1.23815`
+  - `org.opencontainers.image.revision:341adc2d46f83551e4540f343e90c524e99164df`
+  - `org.opencontainers.image.version:1.0.0.23810`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -30,29 +30,20 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/btfl-soup:1.0.1.23815
+Signatures for demisto/tweepy:1.0.0.23810
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.1.23815         a125561996a4a7f562d7043576e4ae6557f45edcc052f416eba3d8b4d59e3ef5   (Repo Admin)
+1.0.0.23810         bd942563e49f562aabcf43b82b62f276b51e3cce037f2e4cc3e7c8ae94297cf7   (Repo Admin)
 
-Administrative keys for demisto/btfl-soup:1.0.1.23815
+Administrative keys for demisto/tweepy:1.0.0.23810
 
-  Repository Key:	2df9352dc8d80b6e208c7ff147fac5fe0db694f8ad563e69a8c0688b62620cb4
-  Root Key:	48666b9a08f1927653d7c7246d50c6a1b3a7f7ff8ff8be1557cce0991627ccf4
+  Repository Key:	f9144b1fced9ac700255a23e99603286c7a3248e95f4f28a0fcfaf734ce4a92d
+  Root Key:	6257caa014874fbd16fa854394ea20172214558f2498b1145ee03c6999f647f6
 
 ```
 
 ## `Python Packages`
 
-
-### `beautifulsoup4`
-
-* Summary: Screen-scraping library
-* Version: 4.9.3
-* Pypi: https://pypi.org/project/beautifulsoup4/
-* Homepage: http://www.crummy.com/software/BeautifulSoup/bs4/
-* Author: Leonard Richardson leonardr@segfault.org
-* License :: OSI Approved :: MIT License
 
 ### `certifi`
 
@@ -66,7 +57,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.23815
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 2.0.1
+* Version: 2.0.4
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: https://github.com/ousret/charset_normalizer
 * Author: Ahmed TAHRI @Ousret ahmed.tahri@cloudnursery.dev
@@ -108,14 +99,14 @@ Administrative keys for demisto/btfl-soup:1.0.1.23815
 * Author: Kim Davies kim@cynosure.com.au
 * License :: OSI Approved :: BSD License
 
-### `markdownify`
+### `oauthlib`
 
-* Summary: Convert HTML to markdown.
-* Version: 0.9.2
-* Pypi: https://pypi.org/project/markdownify/
-* Homepage: http://github.com/matthewwithanm/python-markdownify
-* Author: Matthew Tretter m@tthewwithanm.com
-* License :: OSI Approved :: MIT License
+* Summary: A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
+* Version: 3.1.1
+* Pypi: https://pypi.org/project/oauthlib/
+* Homepage: https://github.com/oauthlib/oauthlib
+* Author: The OAuthlib Community idan@gazit.me
+* License :: OSI Approved :: BSD License
 
 ### `olefile`
 
@@ -134,26 +125,6 @@ Administrative keys for demisto/btfl-soup:1.0.1.23815
 * Homepage: https://pip.pypa.io/
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
-
-### `pyasn1`
-
-* Summary: ASN.1 types and codecs
-* Version: 0.4.8
-* Pypi: https://pypi.org/project/pyasn1/
-* Homepage: https://github.com/etingof/pyasn1
-* Author: Ilya Etingof etingof@gmail.com
-* License :: OSI Approved :: BSD License
-
-### `pycryptodome`
-
-* Summary: Cryptographic library for Python
-* Version: 3.10.1
-* Pypi: https://pypi.org/project/pycryptodome/
-* Homepage: https://www.pycryptodome.org
-* Author: Helder Eijs helderijs@gmail.com
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
-* License :: Public Domain
 
 ### `PySocks`
 
@@ -219,14 +190,14 @@ Administrative keys for demisto/btfl-soup:1.0.1.23815
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
-### `rsa`
+### `requests-oauthlib`
 
-* Summary: Pure-Python RSA implementation
-* Version: 4.7.2
-* Pypi: https://pypi.org/project/rsa/
-* Homepage: https://stuvel.eu/rsa
-* Author: Sybren A. Stuvel sybren@stuvel.eu
-* License :: OSI Approved :: Apache Software License
+* Summary: OAuthlib authentication support for Requests.
+* Version: 1.3.0
+* Pypi: https://pypi.org/project/requests-oauthlib/
+* Homepage: https://github.com/requests/requests-oauthlib
+* Author: Kenneth Reitz me@kennethreitz.com
+* License :: OSI Approved :: BSD License
 
 ### `setuptools`
 
@@ -246,15 +217,6 @@ Administrative keys for demisto/btfl-soup:1.0.1.23815
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
-### `soupsieve`
-
-* Summary: A modern CSS selector implementation for Beautiful Soup.
-* Version: 2.2.1
-* Pypi: https://pypi.org/project/soupsieve/
-* Homepage: https://github.com/facelessuser/soupsieve
-* Author: Isaac Muse Isaac.Muse@gmail.com
-* License :: OSI Approved :: MIT License
-
 ### `tldextract`
 
 * Summary: Accurately separate the TLD from the registered domain and subdomains of a URL, using the Public Suffix List. By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
@@ -263,6 +225,15 @@ Administrative keys for demisto/btfl-soup:1.0.1.23815
 * Homepage: https://github.com/john-kurkowski/tldextract
 * Author: John Kurkowski john.kurkowski@gmail.com
 * License :: OSI Approved :: BSD License
+
+### `tweepy`
+
+* Summary: Twitter library for Python
+* Version: 3.10.0
+* Pypi: https://pypi.org/project/tweepy/
+* Homepage: https://www.tweepy.org/
+* Author: Joshua Roesslein tweepy@googlegroups.com
+* License :: OSI Approved :: MIT License
 
 ### `tzlocal`
 
