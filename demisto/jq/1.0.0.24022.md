@@ -1,8 +1,8 @@
-# `demisto/python3-deb:3.9.6.24019`
+# `demisto/jq:1.0.0.24022`
 ## Docker Metadata
-- Image Size: `52.05 MB`
-- Image ID: `sha256:fe83c40ea30b2e938b77a02b21190b0ed113c1cf160b6b2f156e1d9c5bc9ccae`
-- Created: `2021-08-30T08:29:03.012116602Z`
+- Image Size: `133.98 MB`
+- Image ID: `sha256:c08ab0305f8f355c481834e36ba8a016d40564f79ce293b051fa7d704af4e8b7`
+- Created: `2021-08-30T14:16:17.858568924Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -10,14 +10,14 @@
   - `LANG=C.UTF-8`
   - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
   - `PYTHON_VERSION=3.9.6`
-  - `PYTHON_PIP_VERSION=21.2.4`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/c20b0cfd643cd4a19246ccf204e2997af70f6b21/public/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=fa6f3fb93cce234cd4e8dd2beb54a51ab9c247653b52855a48dd44e6b21ff28b`
-  - `DOCKER_IMAGE=demisto/python3-deb:3.9.6.24019`
+  - `PYTHON_PIP_VERSION=21.1.3`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/a1675ab6c2bd898ed82b1f58c486097f763c74a9/public/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=6665659241292b2147b58922b9ffe11dda66b39d52d8a6f3aa310bc1d60ea6f7`
+  - `DOCKER_IMAGE=demisto/jq:1.0.0.24022`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:c06b9b51aeb1c96dff799900ce4e17587e2dc5b2`
-  - `org.opencontainers.image.version:3.9.6.24019`
+  - `org.opencontainers.image.revision:7abf78226bbb50fb1cf3603410aaa053c26ff6aa`
+  - `org.opencontainers.image.version:1.0.0.24022`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 10 (buster)"`
@@ -33,15 +33,15 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3-deb:3.9.6.24019
+Signatures for demisto/jq:1.0.0.24022
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-3.9.6.24019         5dc2dc9f17672002b2ae624440ef92141a35ef9fc7997b59cb2d44499f55439c   (Repo Admin)
+1.0.0.24022         8d52f417aa1a59b9f1172f109b197b34f08c201b458457b6b0ffd0af5ca513bd   (Repo Admin)
 
-Administrative keys for demisto/python3-deb:3.9.6.24019
+Administrative keys for demisto/jq:1.0.0.24022
 
-  Repository Key:	02e9781b8a12b1475cfa9e28c569a3337f9d9e664134162d21f48e09aa975ab6
-  Root Key:	c368f2dcb34a0aaabd33ee9559bd094b84c7f57f4742bde05f5a21486a524ce9
+  Repository Key:	bddff8efbea4ba583111a910e45118b08aab575f23c13baf400b50ca59688ad2
+  Root Key:	12915036f2e2f9fa460bc4cac8725ad615fe48a756873a53301a07f5d064bf1f
 
 ```
 
@@ -120,6 +120,15 @@ Administrative keys for demisto/python3-deb:3.9.6.24019
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
+### `pyjq`
+
+* Summary: Binding for jq JSON processor.
+* Version: 2.5.2
+* Pypi: https://pypi.org/project/pyjq/
+* Homepage: http://github.com/doloopwhile/pyjq
+* Author: Omoto Kenji
+* License :: OSI Approved :: MIT License
+
 ### `PySocks`
 
 * Summary: A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information.
@@ -187,7 +196,7 @@ Administrative keys for demisto/python3-deb:3.9.6.24019
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 57.4.0
+* Version: 57.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
@@ -232,7 +241,7 @@ Administrative keys for demisto/python3-deb:3.9.6.24019
 ### `wheel`
 
 * Summary: A built-package format for Python
-* Version: 0.37.0
+* Version: 0.36.2
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: https://github.com/pypa/wheel
 * Author: Daniel Holth dholth@fastmail.fm
@@ -242,12 +251,21 @@ Administrative keys for demisto/python3-deb:3.9.6.24019
 
 * adduser	3.118
 * apt	1.8.2.3
+* autoconf	2.69-11
+* automake	1:1.16.1-4
+* autotools-dev	20180224.1
 * base-files	10.3+deb10u10
 * base-passwd	3.5.46
 * bash	5.0-4
+* binutils	2.31.1-16
+* binutils-common:amd64	2.31.1-16
+* binutils-x86-64-linux-gnu	2.31.1-16
+* bison	2:3.3.2.dfsg-1
 * bsdutils	1:2.33.1-0.1
 * ca-certificates	20200601~deb10u2
 * coreutils	8.30-3
+* cpp	4:8.3.0-1
+* cpp-8	8.3.0-6
 * dash	0.5.10.2-5
 * debconf	1.5.71
 * debian-archive-keyring	2019.1+deb10u1
@@ -256,7 +274,10 @@ Administrative keys for demisto/python3-deb:3.9.6.24019
 * dpkg	1.19.7
 * e2fsprogs	1.44.5-1+deb10u3
 * fdisk	2.33.1-0.1
+* file	1:5.35-4+deb10u2
 * findutils	4.6.0+git+20190209-2
+* flex	2.6.4-6.2
+* gcc-8	8.3.0-6
 * gcc-8-base:amd64	8.3.0-6
 * gpgv	2.2.27-2~bpo10+1
 * grep	3.3-1
@@ -265,14 +286,21 @@ Administrative keys for demisto/python3-deb:3.9.6.24019
 * init-system-helpers	1.56+nmu1
 * libacl1:amd64	2.2.53-4
 * libapt-pkg5.0:amd64	1.8.2.3
+* libasan5:amd64	8.3.0-6
+* libatomic1:amd64	8.3.0-6
 * libattr1:amd64	1:2.4.48-4
 * libaudit-common	1:2.8.4-3
 * libaudit1:amd64	1:2.8.4-3
+* libbinutils:amd64	2.31.1-16
+* libbison-dev:amd64	2:3.3.2.dfsg-1
 * libblkid1:amd64	2.33.1-0.1
 * libbz2-1.0:amd64	1.0.6-9.2~deb10u1
 * libc-bin	2.28-10
+* libc-dev-bin	2.28-10
+* libc6-dev:amd64	2.28-10
 * libc6:amd64	2.28-10
 * libcap-ng0:amd64	0.7.9-2
+* libcc1-0:amd64	8.3.0-6
 * libcom-err2:amd64	1.46.2-1~bpo10+2
 * libdb5.3:amd64	5.3.28+dfsg1-0.5
 * libdebconfclient0:amd64	0.249
@@ -280,17 +308,32 @@ Administrative keys for demisto/python3-deb:3.9.6.24019
 * libext2fs2:amd64	1.44.5-1+deb10u3
 * libfdisk1:amd64	2.33.1-0.1
 * libffi6:amd64	3.2.1-9
+* libfl-dev:amd64	2.6.4-6.2
+* libfl2:amd64	2.6.4-6.2
+* libgcc-8-dev:amd64	8.3.0-6
 * libgcc1:amd64	1:8.3.0-6
 * libgcrypt20:amd64	1.8.4-5+deb10u1
+* libgdbm-compat4:amd64	1.18.1-4
 * libgdbm6:amd64	1.18.1-4
 * libgmp10:amd64	2:6.1.2+dfsg-4
 * libgnutls30:amd64	3.6.7-4+deb10u7
+* libgomp1:amd64	8.3.0-6
 * libgpg-error0:amd64	1.35-1
 * libhogweed4:amd64	3.4.1-1+deb10u1
 * libidn2-0:amd64	2.0.5-1+deb10u1
+* libisl19:amd64	0.20-2
+* libitm1:amd64	8.3.0-6
+* liblsan0:amd64	8.3.0-6
+* libltdl-dev:amd64	2.4.6-9
+* libltdl7:amd64	2.4.6-9
 * liblz4-1:amd64	1.8.3-1+deb10u1
 * liblzma5:amd64	5.2.4-1
+* libmagic-mgc	1:5.35-4+deb10u2
+* libmagic1:amd64	1:5.35-4+deb10u2
 * libmount1:amd64	2.33.1-0.1
+* libmpc3:amd64	1.1.0-1
+* libmpfr6:amd64	4.0.2-1
+* libmpx2:amd64	8.3.0-6
 * libncurses6:amd64	6.1+20181013-2+deb10u2
 * libncursesw6:amd64	6.1+20181013-2+deb10u2
 * libnettle6:amd64	3.4.1-1+deb10u1
@@ -300,35 +343,48 @@ Administrative keys for demisto/python3-deb:3.9.6.24019
 * libpam-runtime	1.3.1-5
 * libpam0g:amd64	1.3.1-5
 * libpcre3:amd64	2:8.39-12
+* libperl5.28:amd64	5.28.1-6+deb10u1
 * libprocps7:amd64	2:3.3.15-2
+* libquadmath0:amd64	8.3.0-6
 * libreadline7:amd64	7.0-5
 * libseccomp2:amd64	2.4.4-1~bpo10+1
 * libselinux1:amd64	2.8-1+b1
 * libsemanage-common	2.8-2
 * libsemanage1:amd64	2.8-2
 * libsepol1:amd64	2.8-1
+* libsigsegv2:amd64	2.12-2
 * libsmartcols1:amd64	2.33.1-0.1
 * libsqlite3-0:amd64	3.27.2-3+deb10u1
 * libss2:amd64	1.46.2-1~bpo10+2
-* libssl1.1:amd64	1.1.1d-0+deb10u7
+* libssl1.1:amd64	1.1.1d-0+deb10u6
 * libstdc++6:amd64	8.3.0-6
-* libsystemd0:amd64	247.3-6~bpo10+1
+* libsystemd0:amd64	247.3-5~bpo10+2
 * libtasn1-6:amd64	4.13-3
 * libtinfo6:amd64	6.1+20181013-2+deb10u2
-* libudev1:amd64	247.3-6~bpo10+1
+* libtool	2.4.6-9
+* libtsan0:amd64	8.3.0-6
+* libubsan1:amd64	8.3.0-6
+* libudev1:amd64	247.3-5~bpo10+2
 * libunistring2:amd64	0.9.10-1
 * libuuid1:amd64	2.33.1-0.1
 * libzstd1:amd64	1.4.4+dfsg-3~bpo10+1
+* linux-libc-dev:amd64	4.19.194-3
 * login	1:4.5-1.1
 * lsb-base	10.2019051400
+* m4	1.4.18-2
+* make	4.2.1-1.2
+* manpages	4.16-2
+* manpages-dev	4.16-2
 * mawk	1.3.3-17+b3
 * mount	2.33.1-0.1
 * ncurses-base	6.1+20181013-2+deb10u2
 * ncurses-bin	6.1+20181013-2+deb10u2
 * netbase	6.1~bpo10+1
-* openssl	1.1.1d-0+deb10u7
+* openssl	1.1.1d-0+deb10u6
 * passwd	1:4.5-1.1
+* perl	5.28.1-6+deb10u1
 * perl-base	5.28.1-6+deb10u1
+* perl-modules-5.28	5.28.1-6+deb10u1
 * procps	2:3.3.15-2
 * readline-common	7.0-5
 * sed	4.7-1

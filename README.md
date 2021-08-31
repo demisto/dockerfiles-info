@@ -83,6 +83,7 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/iputils](demisto/iputils/last.md)
 * [demisto/iso8601](demisto/iso8601/last.md)
 * [demisto/jmespath](demisto/jmespath/last.md)
+* [demisto/jq](demisto/jq/last.md)
 * [demisto/keepercommander](demisto/keepercommander/last.md)
 * [demisto/lacework](demisto/lacework/last.md)
 * [demisto/langdetect](demisto/langdetect/last.md)
@@ -225,4 +226,4 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2021-08-30 01:07:42.280554
+Last updated: 2021-08-31 01:15:46.505201
