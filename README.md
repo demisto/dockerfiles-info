@@ -90,6 +90,7 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/ldap](demisto/ldap/last.md)
 * [demisto/libreoffice](demisto/libreoffice/last.md)
 * [demisto/luminate](demisto/luminate/last.md)
+* [demisto/lxml](demisto/lxml/last.md)
 * [demisto/m2crypto](demisto/m2crypto/last.md)
 * [demisto/machine-learning](demisto/machine-learning/last.md)
 * [demisto/marketo](demisto/marketo/last.md)
@@ -226,4 +227,4 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2021-09-30 01:07:14.436080
+Last updated: 2021-10-01 01:07:35.418206
