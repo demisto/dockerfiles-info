@@ -19,6 +19,7 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/argus-toolbelt](demisto/argus-toolbelt/last.md)
 * [demisto/asana](demisto/asana/last.md)
 * [demisto/axonius](demisto/axonius/last.md)
+* [demisto/azure-kusto-data](demisto/azure-kusto-data/last.md)
 * [demisto/bigquery](demisto/bigquery/last.md)
 * [demisto/blueliv](demisto/blueliv/last.md)
 * [demisto/boto3](demisto/boto3/last.md)
@@ -228,4 +229,4 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2021-11-14 01:08:22.848078
+Last updated: 2021-11-15 01:08:22.618739

@@ -196,7 +196,8 @@
             "demisto/pyjwt3",
             "demisto/oauthlib",
             "demisto/pyjwt",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "http://github.com/jpadilla/pyjwt",
         "licenses": [
@@ -408,10 +409,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python",
-            "demisto/python-deb",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -431,7 +428,12 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python",
+            "demisto/python3-deb",
+            "demisto/python-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -605,10 +607,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python",
-            "demisto/python-deb",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -628,7 +626,12 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python",
+            "demisto/python3-deb",
+            "demisto/python-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -1301,7 +1304,8 @@
     "azure-core": {
         "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
         "docker_images": [
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/core/azure-core",
         "licenses": [
@@ -1322,6 +1326,18 @@
         "pypi_url": "https://pypi.org/project/azure-graphrbac/",
         "summary": "Microsoft Azure Graph RBAC Client Library for Python"
     },
+    "azure-identity": {
+        "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
+        "docker_images": [
+            "demisto/azure-kusto-data"
+        ],
+        "home_page": "https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/identity/azure-identity",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-identity/",
+        "summary": "Microsoft Azure Identity Library for Python"
+    },
     "azure-keyvault": {
         "author": "Microsoft Corporation azurekeyvault@microsoft.com",
         "docker_images": [
@@ -1333,6 +1349,18 @@
         ],
         "pypi_url": "https://pypi.org/project/azure-keyvault/",
         "summary": "Microsoft Azure Key Vault Client Libraries for Python"
+    },
+    "azure-kusto-data": {
+        "author": "Microsoft Corporation kustalk@microsoft.com",
+        "docker_images": [
+            "demisto/azure-kusto-data"
+        ],
+        "home_page": "https://github.com/Azure/azure-kusto-python",
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/azure-kusto-data/",
+        "summary": "Kusto Data Client"
     },
     "azure-mgmt-apimanagement": {
         "author": "Microsoft Corporation azpysdkhelp@microsoft.com",
@@ -2257,10 +2285,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python",
-            "demisto/python-deb",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -2280,7 +2304,12 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python",
+            "demisto/python3-deb",
+            "demisto/python-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -2323,7 +2352,8 @@
             "demisto/ntlm",
             "demisto/sharepoint",
             "demisto/smbprotocol",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "http://cffi.readthedocs.org",
         "licenses": [
@@ -2417,12 +2447,12 @@
             "demisto/circleci",
             "demisto/gql",
             "demisto/google-cloud-securitycenter",
-            "demisto/python",
-            "demisto/python-deb",
             "demisto/sane-doc-reports",
             "demisto/pypdf2",
             "demisto/pytan",
-            "demisto/vmware"
+            "demisto/vmware",
+            "demisto/python",
+            "demisto/python-deb"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -2550,8 +2580,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -2568,7 +2596,10 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python3-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://github.com/ousret/charset_normalizer",
         "licenses": [
@@ -2844,7 +2875,8 @@
             "demisto/ntlm",
             "demisto/sharepoint",
             "demisto/smbprotocol",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://github.com/pyca/cryptography",
         "licenses": [
@@ -3132,10 +3164,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python",
-            "demisto/python-deb",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -3155,7 +3183,12 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python",
+            "demisto/python3-deb",
+            "demisto/python-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -3832,8 +3865,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -3850,7 +3881,10 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python3-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://github.com/benediktschmitt/py-filelock",
         "licenses": [
@@ -4082,10 +4116,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python",
-            "demisto/python-deb",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -4105,7 +4135,12 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python",
+            "demisto/python3-deb",
+            "demisto/python-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -4859,10 +4894,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python",
-            "demisto/python-deb",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -4882,7 +4913,12 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python",
+            "demisto/python3-deb",
+            "demisto/python-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -5644,7 +5680,8 @@
     "msal": {
         "author": "Microsoft Corporation nugetaad@microsoft.com",
         "docker_images": [
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://github.com/AzureAD/microsoft-authentication-library-for-python",
         "licenses": [
@@ -5656,7 +5693,8 @@
     "msal-extensions": {
         "author": "",
         "docker_images": [
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "",
         "licenses": [
@@ -6156,10 +6194,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python",
-            "demisto/python-deb",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -6179,7 +6213,12 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python",
+            "demisto/python3-deb",
+            "demisto/python-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -6790,10 +6829,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python",
-            "demisto/python-deb",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -6813,7 +6848,12 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python",
+            "demisto/python3-deb",
+            "demisto/python-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -6934,7 +6974,8 @@
     "portalocker": {
         "author": "Rick van Hattem wolph@wol.ph",
         "docker_images": [
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://github.com/WoLpH/portalocker",
         "licenses": [
@@ -7316,7 +7357,8 @@
             "demisto/ntlm",
             "demisto/sharepoint",
             "demisto/smbprotocol",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://github.com/eliben/pycparser",
         "licenses": [
@@ -7851,10 +7893,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python",
-            "demisto/python-deb",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -7874,7 +7912,12 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python",
+            "demisto/python3-deb",
+            "demisto/python-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -8161,10 +8204,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python",
-            "demisto/python-deb",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -8184,7 +8223,12 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python",
+            "demisto/python3-deb",
+            "demisto/python-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -8422,10 +8466,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python",
-            "demisto/python-deb",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -8445,7 +8485,12 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python",
+            "demisto/python3-deb",
+            "demisto/python-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -8631,10 +8676,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python",
-            "demisto/python-deb",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -8654,7 +8695,12 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python",
+            "demisto/python3-deb",
+            "demisto/python-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -8813,10 +8859,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python",
-            "demisto/python-deb",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -8836,7 +8878,12 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python",
+            "demisto/python3-deb",
+            "demisto/python-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -9400,10 +9447,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python",
-            "demisto/python-deb",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -9423,7 +9466,12 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python",
+            "demisto/python3-deb",
+            "demisto/python-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -9653,10 +9701,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python",
-            "demisto/python-deb",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -9676,7 +9720,12 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python",
+            "demisto/python3-deb",
+            "demisto/python-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -10422,10 +10471,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python",
-            "demisto/python-deb",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -10445,7 +10490,12 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python",
+            "demisto/python3-deb",
+            "demisto/python-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -10798,10 +10848,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python",
-            "demisto/python-deb",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -10821,7 +10867,12 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python",
+            "demisto/python3-deb",
+            "demisto/python-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -11051,10 +11102,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python",
-            "demisto/python-deb",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -11074,7 +11121,12 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python",
+            "demisto/python3-deb",
+            "demisto/python-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -11564,10 +11616,6 @@
             "demisto/ssdeep",
             "demisto/feed-parser-html",
             "demisto/jq",
-            "demisto/python",
-            "demisto/python-deb",
-            "demisto/python3",
-            "demisto/python3-deb",
             "demisto/intezer",
             "demisto/netutils",
             "demisto/iputils",
@@ -11587,7 +11635,12 @@
             "demisto/chromium",
             "demisto/stix2",
             "demisto/sane-pdf-reports",
-            "demisto/crypto"
+            "demisto/crypto",
+            "demisto/python3",
+            "demisto/python",
+            "demisto/python3-deb",
+            "demisto/python-deb",
+            "demisto/azure-kusto-data"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
