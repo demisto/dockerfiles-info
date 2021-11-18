@@ -366,7 +366,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -433,7 +432,8 @@
             "demisto/python",
             "demisto/python3-deb",
             "demisto/python-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -564,7 +564,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -631,7 +630,8 @@
             "demisto/python",
             "demisto/python3-deb",
             "demisto/python-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -2242,7 +2242,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -2309,7 +2308,8 @@
             "demisto/python",
             "demisto/python3-deb",
             "demisto/python-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -2537,7 +2537,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -2599,7 +2598,8 @@
             "demisto/crypto",
             "demisto/python3",
             "demisto/python3-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/ousret/charset_normalizer",
         "licenses": [
@@ -3121,7 +3121,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -3188,7 +3187,8 @@
             "demisto/python",
             "demisto/python3-deb",
             "demisto/python-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -3822,7 +3822,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -3884,7 +3883,8 @@
             "demisto/crypto",
             "demisto/python3",
             "demisto/python3-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/benediktschmitt/py-filelock",
         "licenses": [
@@ -4073,7 +4073,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -4140,7 +4139,8 @@
             "demisto/python",
             "demisto/python3-deb",
             "demisto/python-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -4851,7 +4851,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -4918,7 +4917,8 @@
             "demisto/python",
             "demisto/python3-deb",
             "demisto/python-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -6151,7 +6151,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -6218,7 +6217,8 @@
             "demisto/python",
             "demisto/python3-deb",
             "demisto/python-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -6276,6 +6276,30 @@
         ],
         "pypi_url": "https://pypi.org/project/openpyxl/",
         "summary": "A Python library to read/write Excel 2010 xlsx/xlsm files"
+    },
+    "opensearch-dsl": {
+        "author": "Honza Kr\u00e1l, Guian Gumpac honza.kral@gmail.com, guiang@bitquilltech.com",
+        "docker_images": [
+            "demisto/elasticsearch"
+        ],
+        "home_page": "https://github.com/opensearch-project/opensearch-dsl-py",
+        "licenses": [
+            "License :: OSI Approved :: Apache Software License"
+        ],
+        "pypi_url": "https://pypi.org/project/opensearch-dsl/",
+        "summary": "Python client for OpenSearch"
+    },
+    "opensearch-py": {
+        "author": "Aleksei Atavin, Denis Zalevskiy, Rushi Agrawal, Shephali Mittal axeo@aiven.io, dez@aiven.io, rushi.agr@gmail.com, shephalm@amazon.com",
+        "docker_images": [
+            "demisto/elasticsearch"
+        ],
+        "home_page": "https://github.com/opensearch-project/opensearch-py",
+        "licenses": [
+            "License :: OSI Approved :: Apache Software License"
+        ],
+        "pypi_url": "https://pypi.org/project/opensearch-py/",
+        "summary": "Python low-level client for OpenSearch"
     },
     "openshift": {
         "author": "OpenShift",
@@ -6786,7 +6810,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -6853,7 +6876,8 @@
             "demisto/python",
             "demisto/python3-deb",
             "demisto/python-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -7850,7 +7874,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -7917,7 +7940,8 @@
             "demisto/python",
             "demisto/python3-deb",
             "demisto/python-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -8161,7 +8185,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -8228,7 +8251,8 @@
             "demisto/python",
             "demisto/python3-deb",
             "demisto/python-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -8423,7 +8447,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -8490,7 +8513,8 @@
             "demisto/python",
             "demisto/python3-deb",
             "demisto/python-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -8633,7 +8657,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -8700,7 +8723,8 @@
             "demisto/python",
             "demisto/python3-deb",
             "demisto/python-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -8816,7 +8840,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -8883,7 +8906,8 @@
             "demisto/python",
             "demisto/python3-deb",
             "demisto/python-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -9404,7 +9428,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -9471,7 +9494,8 @@
             "demisto/python",
             "demisto/python3-deb",
             "demisto/python-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -9658,7 +9682,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -9725,7 +9748,8 @@
             "demisto/python",
             "demisto/python3-deb",
             "demisto/python-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -10428,7 +10452,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -10495,7 +10518,8 @@
             "demisto/python",
             "demisto/python3-deb",
             "demisto/python-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -10805,7 +10829,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -10872,7 +10895,8 @@
             "demisto/python",
             "demisto/python3-deb",
             "demisto/python-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -11059,7 +11083,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -11126,7 +11149,8 @@
             "demisto/python",
             "demisto/python3-deb",
             "demisto/python-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -11573,7 +11597,6 @@
             "demisto/dxl",
             "demisto/google-api-py3",
             "demisto/tesseract",
-            "demisto/elasticsearch",
             "demisto/bigquery",
             "demisto/archer",
             "demisto/trustar",
@@ -11640,7 +11663,8 @@
             "demisto/python",
             "demisto/python3-deb",
             "demisto/python-deb",
-            "demisto/azure-kusto-data"
+            "demisto/azure-kusto-data",
+            "demisto/elasticsearch"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
