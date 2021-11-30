@@ -191,6 +191,7 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/stix2](demisto/stix2/last.md)
 * [demisto/stomp](demisto/stomp/last.md)
 * [demisto/symantec_mss](demisto/symantec_mss/last.md)
+* [demisto/syslog](demisto/syslog/last.md)
 * [demisto/tableau](demisto/tableau/last.md)
 * [demisto/taxii](demisto/taxii/last.md)
 * [demisto/taxii-server](demisto/taxii-server/last.md)
@@ -230,4 +231,4 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2021-11-29 01:08:44.417874
+Last updated: 2021-11-30 01:07:40.357612
