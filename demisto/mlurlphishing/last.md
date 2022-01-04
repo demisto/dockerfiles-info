@@ -1,24 +1,23 @@
-# `demisto/chromium:1.0.0.25664`
+# `demisto/mlurlphishing:1.0.0.25708`
 ## Docker Metadata
-- Image Size: `403.58 MB`
-- Image ID: `sha256:3c92e48d19ef30c3a1ab247140daf9d239148f0a9b8d313582fdf08792c97bfc`
-- Created: `2022-01-03T14:33:55.839616665Z`
+- Image Size: `395.78 MB`
+- Image ID: `sha256:a08c7ffa61b886a7f7bcf2de4c391d9469e0f554996f41141b285db92aaa539a`
+- Created: `2022-01-03T17:49:30.381891478Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
-  - `PYTHON_VERSION=3.9.7`
-  - `PYTHON_PIP_VERSION=21.2.4`
-  - `PYTHON_SETUPTOOLS_VERSION=57.5.0`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/c20b0cfd643cd4a19246ccf204e2997af70f6b21/public/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=fa6f3fb93cce234cd4e8dd2beb54a51ab9c247653b52855a48dd44e6b21ff28b`
-  - `DOCKER_IMAGE=demisto/chromium:1.0.0.25664`
+  - `PYTHON_VERSION=3.9.6`
+  - `PYTHON_PIP_VERSION=21.1.3`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/a1675ab6c2bd898ed82b1f58c486097f763c74a9/public/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=6665659241292b2147b58922b9ffe11dda66b39d52d8a6f3aa310bc1d60ea6f7`
+  - `DOCKER_IMAGE=demisto/mlurlphishing:1.0.0.25708`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:cf34f0826576ca841204ab439d2be5dc2172999b`
-  - `org.opencontainers.image.version:1.0.0.25664`
+  - `org.opencontainers.image.revision:68a95e955711de8fdbdebf61591e7f3badaf5993`
+  - `org.opencontainers.image.version:1.0.0.25708`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 10 (buster)"`
@@ -34,25 +33,43 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/chromium:1.0.0.25664
+Signatures for demisto/mlurlphishing:1.0.0.25708
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.25664         9d9140ab0b4a050632aaafd36d2f016ce3568d8abe69dcba4e5561a5be43cbff   (Repo Admin)
+1.0.0.25708         3d9fb05a46d58e7caae4c84472e23dc9f3e4acd67ccd0ef3f1de9ad493eb10e6   (Repo Admin)
 
-Administrative keys for demisto/chromium:1.0.0.25664
+Administrative keys for demisto/mlurlphishing:1.0.0.25708
 
-  Repository Key:	3813b768176a2034bbc69257f307406e2784fade5d96d2fb5c8aa8994fb66a2e
-  Root Key:	a861014c8427259238c1457d0e612583c42705b317fa4941e4fccf641983d570
+  Repository Key:	e5e487892f4b685d7bd7e618b93e3dfb5f95fba6f9ec5fab9ca352b90f883bdd
+  Root Key:	07ff7f57a2eaa3728c60e2951e4cf879d6d58772a97dbc78fb15b7792aa7d232
 
 ```
 
 ## `Python Packages`
 
 
+### `beautifulsoup4`
+
+* Summary: Screen-scraping library
+* Version: 4.10.0
+* Pypi: https://pypi.org/project/beautifulsoup4/
+* Homepage: http://www.crummy.com/software/BeautifulSoup/bs4/
+* Author: Leonard Richardson leonardr@segfault.org
+* License :: OSI Approved :: MIT License
+
+### `catboost`
+
+* Summary: Catboost Python Package
+* Version: 1.0.3
+* Pypi: https://pypi.org/project/catboost/
+* Homepage: https://catboost.ai
+* Author: CatBoost Developers
+* License: Apache License, Version 2.0
+
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2021.10.8
+* Version: 2021.5.30
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://certifiio.readthedocs.io/en/latest/
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -61,38 +78,20 @@ Administrative keys for demisto/chromium:1.0.0.25664
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 2.0.9
+* Version: 2.0.1
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: https://github.com/ousret/charset_normalizer
 * Author: Ahmed TAHRI @Ousret ahmed.tahri@cloudnursery.dev
 * License :: OSI Approved :: MIT License
 
-### `colorama`
+### `cycler`
 
-* Summary: Cross-platform colored terminal text.
-* Version: 0.4.4
-* Pypi: https://pypi.org/project/colorama/
-* Homepage: https://github.com/tartley/colorama
-* Author: Jonathan Hartley tartley@tartley.com
+* Summary: Composable style cycles
+* Version: 0.11.0
+* Pypi: https://pypi.org/project/cycler/
+* Homepage: https://github.com/matplotlib/cycler
+* Author: Thomas A Caswell matplotlib-users@python.org
 * License :: OSI Approved :: BSD License
-
-### `configparser`
-
-* Summary: Updated configparser from Python 3.8 for Python 2.6+.
-* Version: 5.2.0
-* Pypi: https://pypi.org/project/configparser/
-* Homepage: https://github.com/jaraco/configparser/
-* Author: Łukasz Langa lukasz@langa.pl
-* License :: OSI Approved :: MIT License
-
-### `crayons`
-
-* Summary: TextUI colors for Python.
-* Version: 0.4.0
-* Pypi: https://pypi.org/project/crayons/
-* Homepage: https://github.com/MasterOdin/crayons
-* Author: Kenneth Reitz me@kennethreitz.com
-* License :: OSI Approved :: MIT License
 
 ### `dateparser`
 
@@ -101,6 +100,15 @@ Administrative keys for demisto/chromium:1.0.0.25664
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub info@scrapinghub.com
+* License :: OSI Approved :: BSD License
+
+### `dill`
+
+* Summary: serialize all of python
+* Version: 0.3.4
+* Pypi: https://pypi.org/project/dill/
+* Homepage: https://github.com/uqfoundation/dill
+* Author: Mike McKerns
 * License :: OSI Approved :: BSD License
 
 ### `filelock`
@@ -112,6 +120,15 @@ Administrative keys for demisto/chromium:1.0.0.25664
 * Author: Benedikt Schmitt benedikt@benediktschmitt.de
 * License :: Public Domain
 
+### `fonttools`
+
+* Summary: Tools to manipulate font files
+* Version: 4.28.5
+* Pypi: https://pypi.org/project/fonttools/
+* Homepage: http://github.com/fonttools/fonttools
+* Author: Just van Rossum just@letterror.com
+* License :: OSI Approved :: MIT License
+
 ### `funcy`
 
 * Summary: A fancy and practical functional tools
@@ -121,19 +138,55 @@ Administrative keys for demisto/chromium:1.0.0.25664
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
+### `graphviz`
+
+* Summary: Simple Python interface for Graphviz
+* Version: 0.19.1
+* Pypi: https://pypi.org/project/graphviz/
+* Homepage: https://github.com/xflr6/graphviz
+* Author: Sebastian Bank sebastian.bank@uni-leipzig.de
+* License :: OSI Approved :: MIT License
+
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.3
+* Version: 3.2
 * Pypi: https://pypi.org/project/idna/
 * Homepage: https://github.com/kjd/idna
 * Author: Kim Davies kim@cynosure.com.au
 * License :: OSI Approved :: BSD License
 
+### `joblib`
+
+* Summary: Lightweight pipelining with Python functions
+* Version: 1.1.0
+* Pypi: https://pypi.org/project/joblib/
+* Homepage: https://joblib.readthedocs.io
+* Author: Gael Varoquaux gael.varoquaux@normalesup.org
+* License :: OSI Approved :: BSD License
+
+### `kiwisolver`
+
+* Summary: A fast implementation of the Cassowary constraint solver
+* Version: 1.3.2
+* Pypi: https://pypi.org/project/kiwisolver/
+* Homepage: https://github.com/nucleic/kiwi
+* Author: The Nucleic Development Team sccolbert@gmail.com
+* License :: BSD 3-Clause License
+
+### `matplotlib`
+
+* Summary: Python plotting package
+* Version: 3.5.1
+* Pypi: https://pypi.org/project/matplotlib/
+* Homepage: https://matplotlib.org
+* Author: John D. Hunter, Michael Droettboom matplotlib-users@python.org
+* License :: OSI Approved :: Python Software Foundation License
+
 ### `numpy`
 
 * Summary: NumPy is the fundamental package for array computing with Python.
-* Version: 1.22.0
+* Version: 1.21.5
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: https://www.numpy.org
 * Author: Travis E. Oliphant et al.
@@ -148,14 +201,33 @@ Administrative keys for demisto/chromium:1.0.0.25664
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
-### `pdf2image`
+### `opencv-python`
 
-* Summary: A wrapper around the pdftoppm and pdftocairo command line tools to convert PDF to a PIL Image list.
-* Version: 1.16.0
-* Pypi: https://pypi.org/project/pdf2image/
-* Homepage: https://github.com/Belval/pdf2image
-* Author: Edouard Belval edouard@belval.org
+* Summary: Wrapper package for OpenCV python bindings.
+* Version: 4.5.5.62
+* Pypi: https://pypi.org/project/opencv-python/
+* Homepage: https://github.com/skvark/opencv-python
+* Author: 
 * License :: OSI Approved :: MIT License
+
+### `packaging`
+
+* Summary: Core utilities for Python packages
+* Version: 21.3
+* Pypi: https://pypi.org/project/packaging/
+* Homepage: https://github.com/pypa/packaging
+* Author: Donald Stufft and individual contributors donald@stufft.io
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: BSD License
+
+### `pandas`
+
+* Summary: Powerful data structures for data analysis, time series, and statistics
+* Version: 1.3.5
+* Pypi: https://pypi.org/project/pandas/
+* Homepage: https://pandas.pydata.org
+* Author: The Pandas Development Team pandas-dev@python.org
+* License :: OSI Approved :: BSD License
 
 ### `Pillow`
 
@@ -175,14 +247,23 @@ Administrative keys for demisto/chromium:1.0.0.25664
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
-### `PyPDF2`
+### `plotly`
 
-* Summary: PDF toolkit
-* Version: 1.26.0
-* Pypi: https://pypi.org/project/PyPDF2/
-* Homepage: http://mstamy2.github.com/PyPDF2
-* Author: Phaseit, Inc. PyPDF2@phaseit.net
-* License :: OSI Approved :: BSD License
+* Summary: An open-source, interactive data visualization library for Python
+* Version: 5.5.0
+* Pypi: https://pypi.org/project/plotly/
+* Homepage: https://plotly.com/python/
+* Author: Chris P chris@plot.ly
+* License: MIT
+
+### `pyparsing`
+
+* Summary: Python parsing module
+* Version: 3.0.6
+* Pypi: https://pypi.org/project/pyparsing/
+* Homepage: https://github.com/pyparsing/pyparsing/
+* Author: Paul McGuire ptmcg.gm+pyparsing@gmail.com
+* License :: OSI Approved :: MIT License
 
 ### `PySocks`
 
@@ -206,7 +287,7 @@ Administrative keys for demisto/chromium:1.0.0.25664
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2021.1
+* Version: 2021.3
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -248,19 +329,28 @@ Administrative keys for demisto/chromium:1.0.0.25664
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
-### `selenium`
+### `scikit-learn`
 
-* Summary: 
-* Version: 3.141.0
-* Pypi: https://pypi.org/project/selenium/
-* Homepage: https://www.selenium.dev
+* Summary: A set of python modules for machine learning and data mining
+* Version: 1.0.2
+* Pypi: https://pypi.org/project/scikit-learn/
+* Homepage: http://scikit-learn.org
 * Author: 
-* License :: OSI Approved :: Apache Software License
+* License: new BSD
+
+### `scipy`
+
+* Summary: SciPy: Scientific Library for Python
+* Version: 1.7.3
+* Pypi: https://pypi.org/project/scipy/
+* Homepage: https://www.scipy.org
+* Author: 
+* License :: OSI Approved :: BSD License
 
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 57.5.0
+* Version: 57.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
@@ -274,6 +364,33 @@ Administrative keys for demisto/chromium:1.0.0.25664
 * Homepage: https://github.com/benjaminp/six
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
+
+### `soupsieve`
+
+* Summary: A modern CSS selector implementation for Beautiful Soup.
+* Version: 2.3.1
+* Pypi: https://pypi.org/project/soupsieve/
+* Homepage: https://github.com/facelessuser/soupsieve
+* Author: Isaac Muse Isaac.Muse@gmail.com
+* License :: OSI Approved :: MIT License
+
+### `tenacity`
+
+* Summary: Retry code until it succeeds
+* Version: 8.0.1
+* Pypi: https://pypi.org/project/tenacity/
+* Homepage: https://github.com/jd/tenacity
+* Author: Julien Danjou julien@danjou.info
+* License :: OSI Approved :: Apache Software License
+
+### `threadpoolctl`
+
+* Summary: threadpoolctl
+* Version: 3.0.0
+* Pypi: https://pypi.org/project/threadpoolctl/
+* Homepage: https://github.com/joblib/threadpoolctl
+* Author: Thomas Moreau thomas.moreau.2010@gmail.com
+* License :: OSI Approved :: BSD License
 
 ### `tldextract`
 
@@ -296,25 +413,16 @@ Administrative keys for demisto/chromium:1.0.0.25664
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 1.26.7
+* Version: 1.26.6
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: https://urllib3.readthedocs.io/
 * Author: Andrey Petrov andrey.petrov@shazow.net
 * License :: OSI Approved :: MIT License
 
-### `webdriver-manager`
-
-* Summary: Library provides the way to automatically manage drivers for different browsers
-* Version: 3.4.2
-* Pypi: https://pypi.org/project/webdriver-manager/
-* Homepage: https://github.com/SergeyPirogov/webdriver_manager
-* Author: Sergey Pirogov automationremarks@gmail.com
-* License :: OSI Approved :: Apache Software License
-
 ### `wheel`
 
 * Summary: A built-package format for Python
-* Version: 0.37.0
+* Version: 0.36.2
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: https://github.com/pypa/wheel
 * Author: Daniel Holth dholth@fastmail.fm
@@ -323,7 +431,6 @@ Administrative keys for demisto/chromium:1.0.0.25664
 ## `OS Packages`
 
 * adduser	3.118
-* adwaita-icon-theme	3.30.1-1
 * apt	1.8.2.3
 * base-files	10.3+deb10u10
 * base-passwd	3.5.46
@@ -331,85 +438,37 @@ Administrative keys for demisto/chromium:1.0.0.25664
 * bsdutils	1:2.33.1-0.1
 * ca-certificates	20200601~deb10u2
 * coreutils	8.30-3
-* cpp	4:8.3.0-1
-* cpp-8	8.3.0-6
 * dash	0.5.10.2-5
-* dbus	1.12.20-0+deb10u1
-* dbus-user-session	1.12.20-0+deb10u1
-* dconf-gsettings-backend:amd64	0.30.1-2
-* dconf-service	0.30.1-2
 * debconf	1.5.71
 * debian-archive-keyring	2019.1+deb10u1
 * debianutils	4.8.6.1
 * diffutils	1:3.7-3
-* dmsetup	2:1.02.155-3
 * dpkg	1.19.7
 * e2fsprogs	1.44.5-1+deb10u3
 * fdisk	2.33.1-0.1
 * findutils	4.6.0+git+20190209-2
-* fontconfig	2.13.1-2
-* fontconfig-config	2.13.1-2
-* fonts-dejavu-core	2.37-1
-* fonts-liberation	1:1.07.4-9
-* fonts-noto-cjk	1:20170601+repack1-3+deb10u1
-* fonts-noto-core	20181227-1
 * gcc-8-base:amd64	8.3.0-6
-* glib-networking-common	2.58.0-2+deb10u2
-* glib-networking-services	2.58.0-2+deb10u2
-* glib-networking:amd64	2.58.0-2+deb10u2
-* gnupg1	1.4.23-1
-* google-chrome-stable	96.0.4664.110-1
 * gpgv	2.2.27-2~bpo10+1
 * grep	3.3-1
-* gsettings-desktop-schemas	3.28.1-1
-* gtk-update-icon-cache	3.24.5-1
 * gzip	1.9-3
-* hicolor-icon-theme	0.17-2
 * hostname	3.21
 * init-system-helpers	1.56+nmu1
 * libacl1:amd64	2.2.53-4
-* libapparmor1:amd64	2.13.2-10
-* libappindicator1:amd64	0.4.92-7
 * libapt-pkg5.0:amd64	1.8.2.3
-* libargon2-1:amd64	0~20171227-0.2
-* libasound2-data	1.1.8-1
-* libasound2:amd64	1.1.8-1
-* libatk-bridge2.0-0:amd64	2.38.0-1~bpo10+1
-* libatk1.0-0:amd64	2.36.0-2~bpo10+1
-* libatk1.0-data	2.36.0-2~bpo10+1
-* libatspi2.0-0:amd64	2.38.0-4~bpo10+1
 * libattr1:amd64	1:2.4.48-4
 * libaudit-common	1:2.8.4-3
 * libaudit1:amd64	1:2.8.4-3
-* libauthen-sasl-perl	2.1600-1
-* libavahi-client3:amd64	0.7-4+deb10u1
-* libavahi-common-data:amd64	0.7-4+deb10u1
-* libavahi-common3:amd64	0.7-4+deb10u1
 * libblkid1:amd64	2.33.1-0.1
 * libbsd0:amd64	0.9.1-2+deb10u1
 * libbz2-1.0:amd64	1.0.6-9.2~deb10u1
 * libc-bin	2.28-10
+* libc-dev-bin	2.28-10
+* libc6-dev:amd64	2.28-10
 * libc6:amd64	2.28-10
-* libcairo-gobject2:amd64	1.16.0-4+deb10u1
-* libcairo2:amd64	1.16.0-4+deb10u1
 * libcap-ng0:amd64	0.7.9-2
-* libcap2:amd64	1:2.25-2
-* libcolord2:amd64	1.4.3-4
 * libcom-err2:amd64	1.46.2-1~bpo10+2
-* libcroco3:amd64	0.6.12-3
-* libcryptsetup12:amd64	2:2.3.5-1~bpo10+1
-* libcups2:amd64	2.2.10-6+deb10u4
-* libcurl3-gnutls:amd64	7.64.0-4+deb10u2
-* libcurl4:amd64	7.64.0-4+deb10u2
-* libdata-dump-perl	1.23-1
-* libdatrie1:amd64	0.2.12-2
 * libdb5.3:amd64	5.3.28+dfsg1-0.5
-* libdbus-1-3:amd64	1.12.20-0+deb10u1
-* libdbusmenu-glib4:amd64	18.10.20180917~bzr490+repack1-1
-* libdbusmenu-gtk4:amd64	18.10.20180917~bzr490+repack1-1
-* libdconf1:amd64	0.30.1-2
 * libdebconfclient0:amd64	0.249
-* libdevmapper1.02.1:amd64	2:1.02.155-3
 * libdrm-amdgpu1:amd64	2.4.97-1
 * libdrm-common	2.4.97-1
 * libdrm-intel1:amd64	2.4.97-1
@@ -418,125 +477,50 @@ Administrative keys for demisto/chromium:1.0.0.25664
 * libdrm2:amd64	2.4.97-1
 * libedit2:amd64	3.1-20181209-1
 * libelf1:amd64	0.176-1.1
-* libencode-locale-perl	1.05-1
-* libepoxy0:amd64	1.5.3-0.1
 * libexpat1:amd64	2.2.6-2+deb10u1
 * libext2fs2:amd64	1.44.5-1+deb10u3
 * libfdisk1:amd64	2.33.1-0.1
 * libffi6:amd64	3.2.1-9
-* libfile-basedir-perl	0.08-1
-* libfile-desktopentry-perl	0.22-1
-* libfile-listing-perl	6.04-1
-* libfile-mimeinfo-perl	0.29-1
-* libfont-afm-perl	1.20-2
-* libfontconfig1:amd64	2.13.1-2
-* libfontenc1:amd64	1:1.1.3-1+b2
-* libfreetype6:amd64	2.9.1-3+deb10u2
-* libfribidi0:amd64	1.0.5-3.1+deb10u1
-* libgbm1:amd64	18.3.6-2+deb10u1
 * libgcc1:amd64	1:8.3.0-6
 * libgcrypt20:amd64	1.8.4-5+deb10u1
-* libgdbm-compat4:amd64	1.18.1-4
 * libgdbm6:amd64	1.18.1-4
-* libgdk-pixbuf2.0-0:amd64	2.38.1+dfsg-1
-* libgdk-pixbuf2.0-common	2.38.1+dfsg-1
 * libgl1-mesa-dri:amd64	18.3.6-2+deb10u1
+* libgl1-mesa-glx:amd64	18.3.6-2+deb10u1
 * libgl1:amd64	1.1.0-1
 * libglapi-mesa:amd64	18.3.6-2+deb10u1
 * libglib2.0-0:amd64	2.58.3-2+deb10u3
+* libglib2.0-data	2.58.3-2+deb10u3
 * libglvnd0:amd64	1.1.0-1
 * libglx-mesa0:amd64	18.3.6-2+deb10u1
 * libglx0:amd64	1.1.0-1
 * libgmp10:amd64	2:6.1.2+dfsg-4
 * libgnutls30:amd64	3.6.7-4+deb10u7
 * libgpg-error0:amd64	1.35-1
-* libgraphite2-3:amd64	1.3.13-7
-* libgssapi-krb5-2:amd64	1.17-3+deb10u3
-* libgtk-3-0:amd64	3.24.5-1
-* libgtk-3-common	3.24.5-1
-* libgtk2.0-0:amd64	2.24.32-3
-* libgtk2.0-common	2.24.32-3
-* libharfbuzz0b:amd64	2.3.1-1
 * libhogweed4:amd64	3.4.1-1+deb10u1
-* libhtml-form-perl	6.03-1
-* libhtml-format-perl	2.12-1
-* libhtml-parser-perl	3.72-3+b3
-* libhtml-tagset-perl	3.20-3
-* libhtml-tree-perl	5.07-2
-* libhttp-cookies-perl	6.04-1
-* libhttp-daemon-perl	6.01-3
-* libhttp-date-perl	6.02-1
-* libhttp-message-perl	6.18-1
-* libhttp-negotiate-perl	6.01-1
 * libice6:amd64	2:1.0.9-2
 * libicu63:amd64	63.1-6+deb10u2
 * libidn2-0:amd64	2.0.5-1+deb10u1
-* libindicator7:amd64	0.5.0-4
-* libio-html-perl	1.001-1
-* libio-socket-ssl-perl	2.060-3
-* libio-stringy-perl	2.111-3
-* libip4tc0:amd64	1.8.2-4
-* libipc-system-simple-perl	1.25-4
-* libisl19:amd64	0.20-2
-* libjbig0:amd64	2.1-3.1+b2
+* libjpeg-dev	1:1.5.2-2+deb10u1
+* libjpeg62-turbo-dev:amd64	1:1.5.2-2+deb10u1
 * libjpeg62-turbo:amd64	1:1.5.2-2+deb10u1
-* libjson-c3:amd64	0.12.1+ds-2+deb10u1
-* libjson-glib-1.0-0:amd64	1.4.4-2
-* libjson-glib-1.0-common	1.4.4-2
-* libk5crypto3:amd64	1.17-3+deb10u3
-* libkeyutils1:amd64	1.6-6
-* libkmod2:amd64	26-1
-* libkrb5-3:amd64	1.17-3+deb10u3
-* libkrb5support0:amd64	1.17-3+deb10u3
-* liblcms2-2:amd64	2.9-3
-* libldap-2.4-2:amd64	2.4.47+dfsg-3+deb10u6
-* libldap-common	2.4.47+dfsg-3+deb10u6
 * libllvm7:amd64	1:7.0.1-8+deb10u2
-* liblwp-mediatypes-perl	6.02-1
-* liblwp-protocol-https-perl	6.07-2
 * liblz4-1:amd64	1.8.3-1+deb10u1
 * liblzma5:amd64	5.2.4-1
-* libmailtools-perl	2.18-1
 * libmount1:amd64	2.33.1-0.1
-* libmpc3:amd64	1.1.0-1
-* libmpfr6:amd64	4.0.2-1
 * libncurses6:amd64	6.1+20181013-2+deb10u2
 * libncursesw6:amd64	6.1+20181013-2+deb10u2
-* libnet-dbus-perl	1.1.0-5+b1
-* libnet-http-perl	6.18-1
-* libnet-smtp-ssl-perl	1.04-1
-* libnet-ssleay-perl	1.85-2+b1
 * libnettle6:amd64	3.4.1-1+deb10u1
-* libnghttp2-14:amd64	1.36.0-2+deb10u1
-* libnspr4:amd64	2:4.20-1
-* libnss3:amd64	2:3.42.1-1+deb10u4
-* libopenjp2-7:amd64	2.3.0-2+deb10u2
 * libp11-kit0:amd64	0.23.15-2+deb10u1
 * libpam-modules-bin	1.3.1-5
 * libpam-modules:amd64	1.3.1-5
 * libpam-runtime	1.3.1-5
-* libpam-systemd:amd64	247.3-6~bpo10+1
 * libpam0g:amd64	1.3.1-5
-* libpango-1.0-0:amd64	1.42.4-8~deb10u1
-* libpangocairo-1.0-0:amd64	1.42.4-8~deb10u1
-* libpangoft2-1.0-0:amd64	1.42.4-8~deb10u1
 * libpciaccess0:amd64	0.14-1
 * libpcre2-8-0:amd64	10.32-5
 * libpcre3:amd64	2:8.39-12
-* libperl5.28:amd64	5.28.1-6+deb10u1
-* libpixman-1-0:amd64	0.36.0-1
-* libpng16-16:amd64	1.6.36-6
-* libpoppler82:amd64	0.71.0-5
 * libprocps7:amd64	2:3.3.15-2
-* libproxy1v5:amd64	0.4.15-5+deb10u1
 * libpsl5:amd64	0.20.2-2
 * libreadline7:amd64	7.0-5
-* librest-0.7-0:amd64	0.8.1-1
-* librsvg2-2:amd64	2.44.10-2.1
-* librsvg2-common:amd64	2.44.10-2.1
-* librtmp1:amd64	2.4+20151223.gitfa8646d.1-2
-* libsasl2-2:amd64	2.1.27+dfsg-1+deb10u1
-* libsasl2-modules-db:amd64	2.1.27+dfsg-1+deb10u1
 * libseccomp2:amd64	2.4.4-1~bpo10+1
 * libselinux1:amd64	2.8-1+b1
 * libsemanage-common	2.8-2
@@ -546,78 +530,36 @@ Administrative keys for demisto/chromium:1.0.0.25664
 * libsepol1:amd64	2.8-1
 * libsm6:amd64	2:1.2.3-1
 * libsmartcols1:amd64	2.33.1-0.1
-* libsoup-gnome2.4-1:amd64	2.64.2-2
-* libsoup2.4-1:amd64	2.64.2-2
 * libsqlite3-0:amd64	3.27.2-3+deb10u1
 * libss2:amd64	1.46.2-1~bpo10+2
-* libssh2-1:amd64	1.8.0-2.1
-* libssl1.1:amd64	1.1.1d-0+deb10u7
+* libssl1.1:amd64	1.1.1d-0+deb10u6
 * libstdc++6:amd64	8.3.0-6
-* libsystemd0:amd64	247.3-6~bpo10+1
+* libsystemd0:amd64	247.3-5~bpo10+2
 * libtasn1-6:amd64	4.13-3
-* libtext-iconv-perl	1.7-5+b7
-* libthai-data	0.1.28-2
-* libthai0:amd64	0.1.28-2
-* libtie-ixhash-perl	1.23-2
-* libtiff5:amd64	4.1.0+git191117-2~deb10u3
-* libtimedate-perl	2.3000-2+deb10u1
 * libtinfo6:amd64	6.1+20181013-2+deb10u2
-* libtry-tiny-perl	0.30-1
-* libu2f-udev	1.1.9-1
-* libudev1:amd64	247.3-6~bpo10+1
+* libudev1:amd64	247.3-5~bpo10+2
 * libunistring2:amd64	0.9.10-1
-* liburi-perl	1.76-1
 * libuuid1:amd64	2.33.1-0.1
-* libvulkan1:amd64	1.1.97-2
-* libwayland-client0:amd64	1.16.0-1
-* libwayland-cursor0:amd64	1.16.0-1
-* libwayland-egl1:amd64	1.16.0-1
-* libwayland-server0:amd64	1.16.0-1
-* libwebp6:amd64	0.6.1-2+deb10u1
-* libwww-perl	6.36-2
-* libwww-robotrules-perl	6.02-1
 * libx11-6:amd64	2:1.6.7-1+deb10u2
 * libx11-data	2:1.6.7-1+deb10u2
-* libx11-protocol-perl	0.56-7
 * libx11-xcb1:amd64	2:1.6.7-1+deb10u2
 * libxau6:amd64	1:1.0.8-1+b2
-* libxaw7:amd64	2:1.0.13-1+b2
 * libxcb-dri2-0:amd64	1.13.1-2
 * libxcb-dri3-0:amd64	1.13.1-2
 * libxcb-glx0:amd64	1.13.1-2
 * libxcb-present0:amd64	1.13.1-2
-* libxcb-render0:amd64	1.13.1-2
-* libxcb-shape0:amd64	1.13.1-2
-* libxcb-shm0:amd64	1.13.1-2
 * libxcb-sync1:amd64	1.13.1-2
 * libxcb1:amd64	1.13.1-2
-* libxcomposite1:amd64	1:0.4.4-2
-* libxcursor1:amd64	1:1.1.15-2
 * libxdamage1:amd64	1:1.1.4-3+b3
 * libxdmcp6:amd64	1:1.1.2-3
 * libxext6:amd64	2:1.3.3-1+b2
 * libxfixes3:amd64	1:5.0.3-1
-* libxft2:amd64	2.3.2-2
-* libxi6:amd64	2:1.7.9-1
-* libxinerama1:amd64	2:1.1.4-2
-* libxkbcommon0:amd64	0.8.2-1
-* libxml-parser-perl	2.44-4
-* libxml-twig-perl	1:3.50-1.1
-* libxml-xpathengine-perl	0.14-1
 * libxml2:amd64	2.9.4+dfsg1-7+deb10u2
-* libxmu6:amd64	2:1.1.2-2+b3
-* libxmuu1:amd64	2:1.1.2-2+b3
-* libxpm4:amd64	1:3.5.12-1
-* libxrandr2:amd64	2:1.5.1-1
 * libxrender1:amd64	1:0.9.10-1
 * libxshmfence1:amd64	1.3-1
-* libxss1:amd64	1:1.2.3-1
-* libxt6:amd64	1:1.1.5-1+b3
-* libxtst6:amd64	2:1.2.3-1
-* libxv1:amd64	2:1.0.11-1
-* libxxf86dga1:amd64	2:1.1.4-1+b3
 * libxxf86vm1:amd64	1:1.1.4-1+b2
 * libzstd1:amd64	1.4.4+dfsg-3~bpo10+1
+* linux-libc-dev:amd64	4.19.208-1
 * login	1:4.5-1.1
 * lsb-base	10.2019051400
 * mawk	1.3.3-17+b3
@@ -625,31 +567,19 @@ Administrative keys for demisto/chromium:1.0.0.25664
 * ncurses-base	6.1+20181013-2+deb10u2
 * ncurses-bin	6.1+20181013-2+deb10u2
 * netbase	6.1~bpo10+1
-* openssl	1.1.1d-0+deb10u7
+* openssl	1.1.1d-0+deb10u6
 * passwd	1:4.5-1.1
-* perl	5.28.1-6+deb10u1
 * perl-base	5.28.1-6+deb10u1
-* perl-modules-5.28	5.28.1-6+deb10u1
-* perl-openssl-defaults:amd64	3
-* poppler-utils	0.71.0-5
 * procps	2:3.3.15-2
+* publicsuffix	20190415.1030-1
 * readline-common	7.0-5
 * sed	4.7-1
-* sensible-utils	0.0.12
 * shared-mime-info	1.10-1
-* systemd	247.3-6~bpo10+1
-* systemd-sysv	247.3-6~bpo10+1
-* systemd-timesyncd	247.3-6~bpo10+1
 * sysvinit-utils	2.93-8
 * tar	1.30+dfsg-6
 * tzdata	2021a-0+deb10u1
-* ucf	3.0038+nmu1
-* udev	247.3-6~bpo10+1
 * util-linux	2.33.1-0.1
 * wget	1.20.1-1.1
 * x11-common	1:7.7+19
-* x11-utils	7.7+4
-* x11-xserver-utils	7.7+8
-* xdg-utils	1.1.3-1+deb10u1
-* xkb-data	2.26-2
+* xdg-user-dirs	0.17-2
 * zlib1g:amd64	1:1.2.11.dfsg-1
