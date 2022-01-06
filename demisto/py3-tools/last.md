@@ -1,0 +1,907 @@
+# `demisto/py3-tools:0.0.1.25751`
+## Docker Metadata
+- Image Size: `38.39 MB`
+- Image ID: `sha256:3fe293a3c940b03e28b0e81d4f782c2aebf968c4f1434c7563abf25ffcfddf08`
+- Created: `2022-01-05T13:27:56.703071535Z`
+- Arch: `linux`/`amd64`
+- Command: `["python3"]`
+- Environment:
+  - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
+  - `LANG=C.UTF-8`
+  - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
+  - `PYTHON_VERSION=3.9.9`
+  - `PYTHON_PIP_VERSION=21.2.4`
+  - `PYTHON_SETUPTOOLS_VERSION=57.5.0`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/3cb8888cc2869620f57d5d2da64da38f516078c7/public/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=c518250e91a70d7b20cceb15272209a4ded2a0c263ae5776f129e0d9b5674309`
+  - `DOCKER_IMAGE=demisto/py3-tools:0.0.1.25751`
+- Labels:
+  - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
+  - `org.opencontainers.image.revision:dfbe5702af90356bc2af3c51fd581a3b3a81237f`
+  - `org.opencontainers.image.version:0.0.1.25751`
+
+- OS Release:
+  - `NAME="Alpine Linux"`
+  - `ID=alpine`
+  - `VERSION_ID=3.15.0`
+  - `PRETTY_NAME="Alpine Linux v3.15"`
+  - `HOME_URL="https://alpinelinux.org/"`
+  - `BUG_REPORT_URL="https://bugs.alpinelinux.org/"`
+
+## Docker Trust
+```
+
+Signatures for demisto/py3-tools:0.0.1.25751
+
+SIGNED TAG          DIGEST                                                             SIGNERS
+0.0.1.25751         6e2eea01ad79ea49cd91c0f00fea8fb624281dfcdee91e4e3a11d9fe593619b3   (Repo Admin)
+
+Administrative keys for demisto/py3-tools:0.0.1.25751
+
+  Repository Key:	1b56229e5721c693499b3207de8556f64f4132a6f26e179574b23c3a4cb1ea83
+  Root Key:	2f6650ee63d96525c75c75b7122a6e9ac95c253c019bb768504bdc9179c1bd7c
+
+```
+
+## `Python Packages`
+
+
+### `aiohttp`
+
+* Summary: Async http client/server framework (asyncio)
+* Version: 3.8.1
+* Pypi: https://pypi.org/project/aiohttp/
+* Homepage: https://github.com/aio-libs/aiohttp
+* Author: 
+* License :: OSI Approved :: Apache Software License
+
+### `aiosignal`
+
+* Summary: aiosignal: a list of registered asynchronous callbacks
+* Version: 1.2.0
+* Pypi: https://pypi.org/project/aiosignal/
+* Homepage: https://github.com/aio-libs/aiosignal
+* Author: Nikolay Kim fafhrd91@gmail.com
+* License :: OSI Approved :: Apache Software License
+
+### `algorithmia`
+
+* Summary: Algorithmia Python Client
+* Version: 1.16.1
+* Pypi: https://pypi.org/project/algorithmia/
+* Homepage: http://github.com/algorithmiaio/algorithmia-python
+* Author: Algorithmia support@algorithmia.com
+* License :: MIT License
+
+### `algorithmia-adk`
+
+* Summary: Algorithmia Python ADK client
+* Version: 1.2.1
+* Pypi: https://pypi.org/project/algorithmia-adk/
+* Homepage: http://github.com/algorithmiaio/algorithmia-adk-python
+* Author: Algorithmia support@algorithmia.com
+* License :: OSI Approved :: MIT License
+
+### `algorithmia-api-client`
+
+* Summary: Algorithmia Management APIs
+* Version: 1.5.1
+* Pypi: https://pypi.org/project/algorithmia-api-client/
+* Homepage: 
+* Author: Algorithmia Support Team support@algorithmia.com
+* License :: MIT License
+
+### `antlr4-python3-runtime`
+
+* Summary: ANTLR 4.9.3 runtime for Python 3.7
+* Version: 4.8
+* Pypi: https://pypi.org/project/antlr4-python3-runtime/
+* Homepage: http://www.antlr.org
+* Author: Eric Vergnaud, Terence Parr, Sam Harwell eric.vergnaud@wanadoo.fr
+* License: BSD
+
+### `arrow`
+
+* Summary: Better dates & times for Python
+* Version: 1.2.1
+* Pypi: https://pypi.org/project/arrow/
+* Homepage: https://arrow.readthedocs.io
+* Author: Chris Smith crsmithdev@gmail.com
+* License :: OSI Approved :: Apache Software License
+
+### `asana`
+
+* Summary: Asana API client
+* Version: 0.10.3
+* Pypi: https://pypi.org/project/asana/
+* Homepage: http://github.com/asana/python-asana
+* Author: Asana, Inc
+* License :: OSI Approved :: MIT License
+
+### `async-timeout`
+
+* Summary: Timeout context manager for asyncio programs
+* Version: 4.0.2
+* Pypi: https://pypi.org/project/async-timeout/
+* Homepage: https://github.com/aio-libs/async-timeout
+* Author: Andrew Svetlov <andrew.svetlov@gmail.com> andrew.svetlov@gmail.com
+* License :: OSI Approved :: Apache Software License
+
+### `attrs`
+
+* Summary: Classes Without Boilerplate
+* Version: 21.4.0
+* Pypi: https://pypi.org/project/attrs/
+* Homepage: https://www.attrs.org/
+* Author: Hynek Schlawack hs@ox.cx
+* License :: OSI Approved :: MIT License
+
+### `beautifulsoup4`
+
+* Summary: Screen-scraping library
+* Version: 4.10.0
+* Pypi: https://pypi.org/project/beautifulsoup4/
+* Homepage: http://www.crummy.com/software/BeautifulSoup/bs4/
+* Author: Leonard Richardson leonardr@segfault.org
+* License :: OSI Approved :: MIT License
+
+### `certifi`
+
+* Summary: Python package for providing Mozilla's CA Bundle.
+* Version: 2021.10.8
+* Pypi: https://pypi.org/project/certifi/
+* Homepage: https://certifiio.readthedocs.io/en/latest/
+* Author: Kenneth Reitz me@kennethreitz.com
+* License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+
+### `chardet`
+
+* Summary: Universal encoding detector for Python 2 and 3
+* Version: 4.0.0
+* Pypi: https://pypi.org/project/chardet/
+* Homepage: https://github.com/chardet/chardet
+* Author: Mark Pilgrim mark@diveintomark.org
+* License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+
+### `charset-normalizer`
+
+* Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
+* Version: 2.0.10
+* Pypi: https://pypi.org/project/charset-normalizer/
+* Homepage: https://github.com/ousret/charset_normalizer
+* Author: Ahmed TAHRI @Ousret ahmed.tahri@cloudnursery.dev
+* License :: OSI Approved :: MIT License
+
+### `circleci`
+
+* Summary: Python wrapper for the CircleCI API
+* Version: 1.2.2
+* Pypi: https://pypi.org/project/circleci/
+* Homepage: https://github.com/levlaz/circleci.py
+* Author: Lev Lazinskiy lev@levlaz.org
+* License :: OSI Approved :: MIT License
+
+### `cloudshare`
+
+* Summary: A python wrapper for the CloudShare REST API.
+* Version: 0.1.2
+* Pypi: https://pypi.org/project/cloudshare/
+* Homepage: https://github.com/cloudshare/cloudshare-py-sdk
+* Author: Jonathan Sadan jonathan@cloudshare.com
+* License :: Apache License 2.0
+
+### `cyjax-cti`
+
+* Summary: cyjax-cti provides a Python library to use Cyjax platform API.
+* Version: 1.0.7
+* Pypi: https://pypi.org/project/cyjax-cti/
+* Homepage: https://www.cyjax.com
+* Author: Cyjax Ltd. github@cyjax.com
+* License :: OSI Approved :: MIT License
+
+### `dateparser`
+
+* Summary: Date parsing library designed to parse dates from HTML pages
+* Version: 1.0.0
+* Pypi: https://pypi.org/project/dateparser/
+* Homepage: https://github.com/scrapinghub/dateparser
+* Author: Scrapinghub info@scrapinghub.com
+* License :: OSI Approved :: BSD License
+
+### `dnspython`
+
+* Summary: DNS toolkit
+* Version: 2.1.0
+* Pypi: https://pypi.org/project/dnspython/
+* Homepage: http://www.dnspython.org
+* Author: Bob Halley halley@dnspython.org
+* License :: ISC License
+
+### `docopt`
+
+* Summary: Pythonic argument parser, that will make you smile
+* Version: 0.6.2
+* Pypi: https://pypi.org/project/docopt/
+* Homepage: http://docopt.org
+* Author: Vladimir Keleshev vladimir@keleshev.com
+* License :: OSI Approved :: MIT License
+
+### `elasticsearch`
+
+* Summary: Python client for Elasticsearch
+* Version: 7.16.2
+* Pypi: https://pypi.org/project/elasticsearch/
+* Homepage: https://github.com/elastic/elasticsearch-py
+* Author: Honza Král, Nick Lang honza.kral@gmail.com, nick@nicklang.com
+* License :: OSI Approved :: Apache Software License
+
+### `elasticsearch-dsl`
+
+* Summary: Python client for Elasticsearch
+* Version: 7.4.0
+* Pypi: https://pypi.org/project/elasticsearch-dsl/
+* Homepage: https://github.com/elasticsearch/elasticsearch-dsl-py
+* Author: Honza Král honza.kral@gmail.com
+* License :: OSI Approved :: Apache Software License
+
+### `emoji`
+
+* Summary: Emoji for Python
+* Version: 1.6.1
+* Pypi: https://pypi.org/project/emoji/
+* Homepage: https://github.com/carpedm20/emoji/
+* Author: Taehoon Kim, Kevin Wurster and Tahir Jalilov carpedm20@gmail.com
+* License :: OSI Approved :: BSD License
+
+### `enum-compat`
+
+* Summary: enum/enum34 compatibility package
+* Version: 0.0.3
+* Pypi: https://pypi.org/project/enum-compat/
+* Homepage: https://github.com/jstasiak/enum-compat
+* Author: Jakub Stasiak jakub@stasiak.at
+* License: MIT
+
+### `ExifRead`
+
+* Summary: Read Exif metadata from tiff and jpeg files.
+* Version: 2.3.2
+* Pypi: https://pypi.org/project/ExifRead/
+* Homepage: https://github.com/ianare/exif-py
+* Author: Ianaré Sévi ianare@gmail.com
+* License :: OSI Approved :: BSD License
+
+### `feedparser`
+
+* Summary: Universal feed parser, handles RSS 0.9x, RSS 1.0, RSS 2.0, CDF, Atom 0.3, and Atom 1.0 feeds
+* Version: 6.0.8
+* Pypi: https://pypi.org/project/feedparser/
+* Homepage: https://github.com/kurtmckee/feedparser
+* Author: Kurt McKee contactme@kurtmckee.org
+* License :: OSI Approved :: BSD License
+
+### `filelock`
+
+* Summary: A platform independent file lock.
+* Version: 3.4.2
+* Pypi: https://pypi.org/project/filelock/
+* Homepage: https://github.com/tox-dev/py-filelock
+* Author: Benedikt Schmitt benedikt@benediktschmitt.de
+* License :: Public Domain
+
+### `frozenlist`
+
+* Summary: A list-like structure which implements collections.abc.MutableSequence
+* Version: 1.2.0
+* Pypi: https://pypi.org/project/frozenlist/
+* Homepage: https://github.com/aio-libs/frozenlist
+* Author: Nikolay Kim fafhrd91@gmail.com
+* License :: OSI Approved :: Apache Software License
+
+### `funcy`
+
+* Summary: A fancy and practical functional tools
+* Version: 1.16
+* Pypi: https://pypi.org/project/funcy/
+* Homepage: http://github.com/Suor/funcy
+* Author: Alexander Schepanovski suor.web@gmail.com
+* License :: OSI Approved :: BSD License
+
+### `geographiclib`
+
+* Summary: The geodesic routines from GeographicLib
+* Version: 1.52
+* Pypi: https://pypi.org/project/geographiclib/
+* Homepage: https://geographiclib.sourceforge.io/1.52/python
+* Author: Charles Karney charles@karney.com
+* License :: OSI Approved :: MIT License
+
+### `geopy`
+
+* Summary: Python Geocoding Toolbox
+* Version: 2.2.0
+* Pypi: https://pypi.org/project/geopy/
+* Homepage: https://github.com/geopy/geopy
+* Author: 
+* License :: OSI Approved :: MIT License
+
+### `gql`
+
+* Summary: GraphQL client for Python
+* Version: 2.0.0
+* Pypi: https://pypi.org/project/gql/
+* Homepage: https://github.com/graphql-python/gql
+* Author: Syrus Akbary me@syrusakbary.com
+* License: MIT
+
+### `graphql-core`
+
+* Summary: GraphQL implementation for Python, a port of GraphQL.js, the JavaScript reference implementation for GraphQL.
+* Version: 2.3.2
+* Pypi: https://pypi.org/project/graphql-core/
+* Homepage: https://github.com/graphql-python/graphql-core
+* Author: Christoph Zwerschke cito@online.de
+* License :: OSI Approved :: MIT License
+
+### `idna`
+
+* Summary: Internationalized Domain Names in Applications (IDNA)
+* Version: 2.10
+* Pypi: https://pypi.org/project/idna/
+* Homepage: https://github.com/kjd/idna
+* Author: Kim Davies kim@cynosure.com.au
+* License :: OSI Approved :: BSD License
+
+### `imap-tools`
+
+* Summary: Work with email by IMAP
+* Version: 0.50.2
+* Pypi: https://pypi.org/project/imap-tools/
+* Homepage: https://github.com/ikvk/imap_tools
+* Author: Vladimir Kaukin KaukinVK@ya.ru
+* License :: OSI Approved :: Apache Software License
+
+### `IMAPClient`
+
+* Summary: Easy-to-use, Pythonic and complete IMAP client library
+* Version: 2.2.0
+* Pypi: https://pypi.org/project/IMAPClient/
+* Homepage: https://github.com/mjs/imapclient/
+* Author: Menno Finlay-Smits inbox@menno.io
+* License :: OSI Approved :: BSD License
+
+### `intezer-sdk`
+
+* Summary: Intezer Analyze SDK
+* Version: 1.6.1
+* Pypi: https://pypi.org/project/intezer-sdk/
+* Homepage: https://github.com/intezer/analyze-python-sdk
+* Author: Intezer Labs ltd. info@intezer.com
+* License: Apache License v2
+
+### `jmespath`
+
+* Summary: JSON Matching Expressions
+* Version: 0.10.0
+* Pypi: https://pypi.org/project/jmespath/
+* Homepage: https://github.com/jmespath/jmespath.py
+* Author: James Saryerwinnie js@jamesls.com
+* License :: OSI Approved :: MIT License
+
+### `langdetect`
+
+* Summary: Language detection library ported from Google's language-detection.
+* Version: 1.0.9
+* Pypi: https://pypi.org/project/langdetect/
+* Homepage: https://github.com/Mimino666/langdetect
+* Author: Michal Mimino Danilak michal.danilak@gmail.com
+* License :: OSI Approved :: Apache Software License
+
+### `ldap3`
+
+* Summary: A strictly RFC 4510 conforming LDAP V3 pure Python client library
+* Version: 2.9.1
+* Pypi: https://pypi.org/project/ldap3/
+* Homepage: https://github.com/cannatag/ldap3
+* Author: Giovanni Cannata cannatag@gmail.com
+* License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+
+### `mail-parser`
+
+* Summary: Wrapper for email standard library
+* Version: 3.15.0
+* Pypi: https://pypi.org/project/mail-parser/
+* Homepage: https://github.com/SpamScope/mail-parser
+* Author: Fedele Mantuano mantuano.fedele@gmail.com
+* License :: OSI Approved :: Apache Software License
+
+### `markdownify`
+
+* Summary: Convert HTML to markdown.
+* Version: 0.10.1
+* Pypi: https://pypi.org/project/markdownify/
+* Homepage: http://github.com/matthewwithanm/python-markdownify
+* Author: Matthew Tretter m@tthewwithanm.com
+* License :: OSI Approved :: MIT License
+
+### `minio`
+
+* Summary: MinIO Python SDK for Amazon S3 Compatible Cloud Storage
+* Version: 7.1.2
+* Pypi: https://pypi.org/project/minio/
+* Homepage: https://github.com/minio/minio-py
+* Author: MinIO, Inc. dev@min.io
+* License :: OSI Approved :: Apache Software License
+
+### `multidict`
+
+* Summary: multidict implementation
+* Version: 5.2.0
+* Pypi: https://pypi.org/project/multidict/
+* Homepage: https://github.com/aio-libs/multidict
+* Author: Andrew Svetlov andrew.svetlov@gmail.com
+* License :: OSI Approved :: Apache Software License
+
+### `oauthlib`
+
+* Summary: A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
+* Version: 3.1.1
+* Pypi: https://pypi.org/project/oauthlib/
+* Homepage: https://github.com/oauthlib/oauthlib
+* Author: The OAuthlib Community idan@gazit.me
+* License :: OSI Approved :: BSD License
+
+### `olefile`
+
+* Summary: Python package to parse, read and write Microsoft OLE2 files (Structured Storage or Compound Document, Microsoft Office)
+* Version: 0.46
+* Pypi: https://pypi.org/project/olefile/
+* Homepage: https://www.decalage.info/python/olefileio
+* Author: Philippe Lagadec nospam@decalage.info
+* License :: OSI Approved :: BSD License
+
+### `opensearch-dsl`
+
+* Summary: Python client for OpenSearch
+* Version: 1.0.0
+* Pypi: https://pypi.org/project/opensearch-dsl/
+* Homepage: https://github.com/opensearch-project/opensearch-dsl-py
+* Author: Honza Král, Guian Gumpac honza.kral@gmail.com, guiang@bitquilltech.com
+* License :: OSI Approved :: Apache Software License
+
+### `opensearch-py`
+
+* Summary: Python low-level client for OpenSearch
+* Version: 1.0.0
+* Pypi: https://pypi.org/project/opensearch-py/
+* Homepage: https://github.com/opensearch-project/opensearch-py
+* Author: Aleksei Atavin, Denis Zalevskiy, Rushi Agrawal, Shephali Mittal axeo@aiven.io, dez@aiven.io, rushi.agr@gmail.com, shephalm@amazon.com
+* License :: OSI Approved :: Apache Software License
+
+### `paho-mqtt`
+
+* Summary: MQTT version 5.0/3.1.1 client class
+* Version: 1.6.1
+* Pypi: https://pypi.org/project/paho-mqtt/
+* Homepage: http://eclipse.org/paho
+* Author: Roger Light roger@atchoo.org
+* License: Eclipse Public License v2.0 / Eclipse Distribution License v1.0
+
+### `pip`
+
+* Summary: The PyPA recommended tool for installing Python packages.
+* Version: 21.3.1
+* Pypi: https://pypi.org/project/pip/
+* Homepage: https://pip.pypa.io/
+* Author: The pip developers distutils-sig@python.org
+* License :: OSI Approved :: MIT License
+
+### `promise`
+
+* Summary: Promises/A+ implementation for Python
+* Version: 2.3
+* Pypi: https://pypi.org/project/promise/
+* Homepage: https://github.com/syrusakbary/promise
+* Author: Syrus Akbary me@syrusakbary.com
+* License :: OSI Approved :: MIT License
+
+### `pyasn1`
+
+* Summary: ASN.1 types and codecs
+* Version: 0.4.8
+* Pypi: https://pypi.org/project/pyasn1/
+* Homepage: https://github.com/etingof/pyasn1
+* Author: Ilya Etingof etingof@gmail.com
+* License :: OSI Approved :: BSD License
+
+### `pyjarm`
+
+* Summary: pyJarm is a convenience library for the JARM fingerprinting tool.
+* Version: 0.0.5
+* Pypi: https://pypi.org/project/pyjarm/
+* Homepage: 
+* Author: Andrew Scott
+* License: ISC
+
+### `pyminizip`
+
+* Summary: A minizip wrapper - To create a password encrypted zip file in python.
+* Version: 0.2.6
+* Pypi: https://pypi.org/project/pyminizip/
+* Homepage: https://github.com/smihica/pyminizip
+* Author: Shin Aoyama smihica@gmail.com
+* License :: OSI Approved :: zlib/libpng License
+
+### `pymongo`
+
+* Summary: Python driver for MongoDB <http://www.mongodb.org>
+* Version: 4.0.1
+* Pypi: https://pypi.org/project/pymongo/
+* Homepage: http://github.com/mongodb/mongo-python-driver
+* Author: The MongoDB Python Team mongodb-user@googlegroups.com
+* License :: OSI Approved :: Apache Software License
+
+### `PySocks`
+
+* Summary: A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information.
+* Version: 1.7.1
+* Pypi: https://pypi.org/project/PySocks/
+* Homepage: https://github.com/Anorov/PySocks
+* Author: Anorov anorov.vorona@gmail.com
+* License: BSD
+
+### `python-dateutil`
+
+* Summary: Extensions to the standard Python datetime module
+* Version: 2.8.2
+* Pypi: https://pypi.org/project/python-dateutil/
+* Homepage: https://github.com/dateutil/dateutil
+* Author: Gustavo Niemeyer gustavo@niemeyer.net
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: BSD License
+
+### `python-http-client`
+
+* Summary: HTTP REST client, simplified for Python
+* Version: 3.3.4
+* Pypi: https://pypi.org/project/python-http-client/
+* Homepage: https://github.com/sendgrid/python-http-client
+* Author: Elmer Thomas help@twilio.com
+* License: MIT
+
+### `pytz`
+
+* Summary: World timezone definitions, modern and historical
+* Version: 2021.1
+* Pypi: https://pypi.org/project/pytz/
+* Homepage: http://pythonhosted.org/pytz
+* Author: Stuart Bishop stuart@stuartbishop.net
+* License :: OSI Approved :: MIT License
+
+### `PyYAML`
+
+* Summary: YAML parser and emitter for Python
+* Version: 5.4.1
+* Pypi: https://pypi.org/project/PyYAML/
+* Homepage: https://pyyaml.org/
+* Author: Kirill Simonov xi@resolvent.net
+* License :: OSI Approved :: MIT License
+
+### `pyzabbix`
+
+* Summary: Zabbix API Python interface
+* Version: 1.0.0
+* Pypi: https://pypi.org/project/pyzabbix/
+* Homepage: http://github.com/lukecyca/pyzabbix
+* Author: Luke Cyca me@lukecyca.com
+* License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+
+### `regex`
+
+* Summary: Alternative regular expression module, to replace re.
+* Version: 2021.7.6
+* Pypi: https://pypi.org/project/regex/
+* Homepage: https://github.com/mrabarnett/mrab-regex
+* Author: Matthew Barnett regex@mrabarnett.plus.com
+* License :: OSI Approved :: Apache Software License
+
+### `requests`
+
+* Summary: Python HTTP for Humans.
+* Version: 2.25.1
+* Pypi: https://pypi.org/project/requests/
+* Homepage: https://requests.readthedocs.io
+* Author: Kenneth Reitz me@kennethreitz.org
+* License :: OSI Approved :: Apache Software License
+
+### `requests-file`
+
+* Summary: File transport adapter for Requests
+* Version: 1.5.1
+* Pypi: https://pypi.org/project/requests-file/
+* Homepage: http://github.com/dashea/requests-file
+* Author: David Shea reallylongword@gmail.com
+* License :: OSI Approved :: Apache Software License
+
+### `requests-oauthlib`
+
+* Summary: OAuthlib authentication support for Requests.
+* Version: 1.3.0
+* Pypi: https://pypi.org/project/requests-oauthlib/
+* Homepage: https://github.com/requests/requests-oauthlib
+* Author: Kenneth Reitz me@kennethreitz.com
+* License :: OSI Approved :: BSD License
+
+### `responses`
+
+* Summary: A utility library for mocking out the `requests` Python library.
+* Version: 0.12.1
+* Pypi: https://pypi.org/project/responses/
+* Homepage: https://github.com/getsentry/responses
+* Author: David Cramer
+* License: Apache 2.0
+
+### `rsa-archer`
+
+* Summary: RSA Archer REST and GRC API library
+* Version: 0.1.9
+* Pypi: https://pypi.org/project/rsa-archer/
+* Homepage: https://github.com/mwa21/rsa_archer
+* Author: Aleksei Aikashev a.aykashev@gmail.com
+* License :: OSI Approved :: MIT License
+
+### `Rx`
+
+* Summary: Reactive Extensions (Rx) for Python
+* Version: 1.6.1
+* Pypi: https://pypi.org/project/Rx/
+* Homepage: http://reactivex.io
+* Author: Dag Brattli dag@brattli.net
+* License :: OSI Approved :: MIT License
+
+### `semantic-version`
+
+* Summary: A library implementing the 'SemVer' scheme.
+* Version: 2.8.5
+* Pypi: https://pypi.org/project/semantic-version/
+* Homepage: https://github.com/rbarrois/python-semanticversion
+* Author: Raphaël Barrois raphael.barrois+semver@polytechnique.org
+* License :: OSI Approved :: BSD License
+
+### `sendgrid`
+
+* Summary: Twilio SendGrid library for Python
+* Version: 6.9.3
+* Pypi: https://pypi.org/project/sendgrid/
+* Homepage: https://github.com/sendgrid/sendgrid-python/
+* Author: Elmer Thomas, Yamil Asusta help@twilio.com
+* License: MIT
+
+### `setuptools`
+
+* Summary: Easily download, build, install, upgrade, and uninstall Python packages
+* Version: 57.5.0
+* Pypi: https://pypi.org/project/setuptools/
+* Homepage: https://github.com/pypa/setuptools
+* Author: Python Packaging Authority distutils-sig@python.org
+* License :: OSI Approved :: MIT License
+
+### `sgmllib3k`
+
+* Summary: Py3k port of sgmllib.
+* Version: 1.0.0
+* Pypi: https://pypi.org/project/sgmllib3k/
+* Homepage: http://hg.hardcoded.net/sgmllib
+* Author: Hardcoded Software hsoft@hardcoded.net
+* License :: OSI Approved :: BSD License
+
+### `simplejson`
+
+* Summary: Simple, fast, extensible JSON encoder/decoder for Python
+* Version: 3.17.6
+* Pypi: https://pypi.org/project/simplejson/
+* Homepage: https://github.com/simplejson/simplejson
+* Author: Bob Ippolito bob@redivi.com
+* License :: OSI Approved :: Academic Free License (AFL)
+* License :: OSI Approved :: MIT License
+
+### `six`
+
+* Summary: Python 2 and 3 compatibility utilities
+* Version: 1.16.0
+* Pypi: https://pypi.org/project/six/
+* Homepage: https://github.com/benjaminp/six
+* Author: Benjamin Peterson benjamin@python.org
+* License :: OSI Approved :: MIT License
+
+### `soupsieve`
+
+* Summary: A modern CSS selector implementation for Beautiful Soup.
+* Version: 2.3.1
+* Pypi: https://pypi.org/project/soupsieve/
+* Homepage: https://github.com/facelessuser/soupsieve
+* Author: Isaac Muse Isaac.Muse@gmail.com
+* License :: OSI Approved :: MIT License
+
+### `starkbank-ecdsa`
+
+* Summary: A lightweight and fast pure python ECDSA library
+* Version: 2.0.3
+* Pypi: https://pypi.org/project/starkbank-ecdsa/
+* Homepage: https://github.com/starkbank/ecdsa-python.git
+* Author: Stark Bank developers@starkbank.com
+* License: MIT License
+
+### `stix2`
+
+* Summary: Produce and consume STIX 2 JSON content
+* Version: 3.0.1
+* Pypi: https://pypi.org/project/stix2/
+* Homepage: https://oasis-open.github.io/cti-documentation/
+* Author: OASIS Cyber Threat Intelligence Technical Committee cti-users@lists.oasis-open.org
+* License :: OSI Approved :: BSD License
+
+### `stix2-patterns`
+
+* Summary: Validate STIX 2 Patterns.
+* Version: 1.3.2
+* Pypi: https://pypi.org/project/stix2-patterns/
+* Homepage: https://github.com/oasis-open/cti-pattern-validator
+* Author: OASIS Cyber Threat Intelligence Technical Committee cti-users@lists.oasis-open.org
+* License :: OSI Approved :: BSD License
+
+### `stomp.py`
+
+* Summary: Python STOMP client, supporting versions 1.0, 1.1 and 1.2 of the protocol
+* Version: 7.0.0
+* Pypi: https://pypi.org/project/stomp.py/
+* Homepage: https://github.com/jasonrbriggs/stomp.py
+* Author: Jason R Briggs jasonrbriggs@gmail.com
+* License :: OSI Approved :: Apache Software License
+
+### `taxii2-client`
+
+* Summary: TAXII 2 Client Library
+* Version: 2.3.0
+* Pypi: https://pypi.org/project/taxii2-client/
+* Homepage: https://oasis-open.github.io/cti-documentation/
+* Author: OASIS Cyber Threat Intelligence Technical Committee cti-users@lists.oasis-open.org
+* License :: OSI Approved :: BSD License
+
+### `tld`
+
+* Summary: Extract the top-level domain (TLD) from the URL given.
+* Version: 0.12.6
+* Pypi: https://pypi.org/project/tld/
+* Homepage: https://github.com/barseghyanartur/tld
+* Author: Artur Barseghyan artur.barseghyan@gmail.com
+* License :: GNU Lesser General Public License v2 or Later (LGPLv2+)
+
+### `tldextract`
+
+* Summary: Accurately separate the TLD from the registered domain and subdomains of a URL, using the Public Suffix List. By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
+* Version: 3.1.2
+* Pypi: https://pypi.org/project/tldextract/
+* Homepage: https://github.com/john-kurkowski/tldextract
+* Author: John Kurkowski john.kurkowski@gmail.com
+* License :: OSI Approved :: BSD License
+
+### `toml`
+
+* Summary: Python Library for Tom's Obvious, Minimal Language
+* Version: 0.10.2
+* Pypi: https://pypi.org/project/toml/
+* Homepage: https://github.com/uiri/toml
+* Author: William Pearson uiri@xqz.ca
+* License :: OSI Approved :: MIT License
+
+### `tweepy`
+
+* Summary: Twitter library for Python
+* Version: 4.4.0
+* Pypi: https://pypi.org/project/tweepy/
+* Homepage: https://www.tweepy.org/
+* Author: Joshua Roesslein tweepy@googlegroups.com
+* License :: OSI Approved :: MIT License
+
+### `tzlocal`
+
+* Summary: tzinfo object for the local timezone
+* Version: 2.1
+* Pypi: https://pypi.org/project/tzlocal/
+* Homepage: 
+* Author: Lennart Regebro regebro@gmail.com
+* License :: OSI Approved :: MIT License
+
+### `urllib3`
+
+* Summary: HTTP library with thread-safe connection pooling, file post, and more.
+* Version: 1.26.7
+* Pypi: https://pypi.org/project/urllib3/
+* Homepage: https://urllib3.readthedocs.io/
+* Author: Andrey Petrov andrey.petrov@shazow.net
+* License :: OSI Approved :: MIT License
+
+### `validate-email`
+
+* Summary: Validate_email verify if an email address is valid and really exists.
+* Version: 1.3
+* Pypi: https://pypi.org/project/validate_email/
+* Homepage: http://github.com/syrusakbary/validate_email
+* Author: Syrus Akbary me@syrusakbary.com
+* License: LGPL
+
+### `vertica-python`
+
+* Summary: Official native Python client for the Vertica database.
+* Version: 1.0.2
+* Pypi: https://pypi.org/project/vertica-python/
+* Homepage: https://github.com/vertica/vertica-python
+* Author: Justin Berka, Alex Kim, Siting Ren justin.berka@gmail.com, alex.kim@uber.com, sitingren@hotmail.com
+* License :: OSI Approved :: Apache Software License
+
+### `wheel`
+
+* Summary: A built-package format for Python
+* Version: 0.37.0
+* Pypi: https://pypi.org/project/wheel/
+* Homepage: https://github.com/pypa/wheel
+* Author: Daniel Holth dholth@fastmail.fm
+* License :: OSI Approved :: MIT License
+
+### `xlrd`
+
+* Summary: Library for developers to extract data from Microsoft Excel (tm) .xls spreadsheet files
+* Version: 1.2.0
+* Pypi: https://pypi.org/project/xlrd/
+* Homepage: http://www.python-excel.org/
+* Author: Chris Withers chris@withers.org
+* License :: OSI Approved :: BSD License
+
+### `yarl`
+
+* Summary: Yet another URL library
+* Version: 1.7.2
+* Pypi: https://pypi.org/project/yarl/
+* Homepage: https://github.com/aio-libs/yarl/
+* Author: Andrew Svetlov andrew.svetlov@gmail.com
+* License :: OSI Approved :: Apache Software License
+
+## `OS Packages`
+
+* .python-rundeps-20211130.033137 noarch {.python-rundeps}
+* alpine-baselayout-3.2.0-r18 x86_64 {alpine-baselayout}
+* alpine-keys-2.4-r1 x86_64 {alpine-keys}
+* apk-tools-2.12.7-r3 x86_64 {apk-tools}
+* busybox-1.34.1-r3 x86_64 {busybox}
+* ca-certificates-20191127-r7 x86_64 {ca-certificates}
+* ca-certificates-bundle-20191127-r7 x86_64 {ca-certificates}
+* expat-2.4.1-r0 x86_64 {expat}
+* gdbm-1.22-r0 x86_64 {gdbm}
+* keyutils-libs-1.6.3-r0 x86_64 {keyutils}
+* krb5-conf-1.0-r2 x86_64 {krb5-conf}
+* krb5-libs-1.19.2-r4 x86_64 {krb5}
+* libbz2-1.0.8-r1 x86_64 {bzip2}
+* libc-utils-0.7.2-r3 x86_64 {libc-dev}
+* libcom_err-1.46.4-r0 x86_64 {e2fsprogs}
+* libcrypto1.1-1.1.1l-r8 x86_64 {openssl}
+* libffi-3.4.2-r1 x86_64 {libffi}
+* libintl-0.21-r0 x86_64 {gettext}
+* libnsl-1.3.0-r0 x86_64 {libnsl}
+* libretls-3.3.4-r2 x86_64 {libretls}
+* libssl1.1-1.1.1l-r8 x86_64 {openssl}
+* libtirpc-1.3.2-r0 x86_64 {libtirpc}
+* libtirpc-conf-1.3.2-r0 x86_64 {libtirpc}
+* libuuid-2.37.2-r1 x86_64 {util-linux}
+* libverto-0.3.2-r0 x86_64 {libverto}
+* musl-1.2.2-r7 x86_64 {musl}
+* musl-utils-1.2.2-r7 x86_64 {musl}
+* ncurses-libs-6.3_p20211120-r0 x86_64 {ncurses}
+* ncurses-terminfo-base-6.3_p20211120-r0 x86_64 {ncurses}
+* readline-8.1.1-r0 x86_64 {readline}
+* scanelf-1.3.3-r0 x86_64 {pax-utils}
+* sqlite-libs-3.36.0-r0 x86_64 {sqlite}
+* ssl_client-1.34.1-r3 x86_64 {busybox}
+* tzdata-2021e-r0 x86_64 {tzdata}
+* xz-libs-5.2.5-r0 x86_64 {xz}
+* zlib-1.2.11-r3 x86_64 {zlib}
