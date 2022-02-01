@@ -1,103 +1,59 @@
-# `demisto/carbon-black-cloud:1.0.0.26432`
+# `demisto/parse-emails:1.0.0.26393`
 ## Docker Metadata
-- Image Size: `40.24 MB`
-- Image ID: `sha256:876dbe565d3e12720e05fd6d3fa983d5d8074cd3689fb692aaf60355e0d3930b`
-- Created: `2022-01-31T07:37:53.395551612Z`
+- Image Size: `37.47 MB`
+- Image ID: `sha256:b83f8a2a7b221d53fc4a5a3027293e8151e8d90c814fee99ee31537580cb601a`
+- Created: `2022-01-31T07:26:47.982031826Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
-  - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
-  - `PYTHON_VERSION=3.9.6`
+  - `GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D`
+  - `PYTHON_VERSION=3.10.1`
   - `PYTHON_PIP_VERSION=21.2.4`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/c20b0cfd643cd4a19246ccf204e2997af70f6b21/public/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=fa6f3fb93cce234cd4e8dd2beb54a51ab9c247653b52855a48dd44e6b21ff28b`
-  - `DOCKER_IMAGE=demisto/carbon-black-cloud:1.0.0.26432`
+  - `PYTHON_SETUPTOOLS_VERSION=57.5.0`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/3cb8888cc2869620f57d5d2da64da38f516078c7/public/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=c518250e91a70d7b20cceb15272209a4ded2a0c263ae5776f129e0d9b5674309`
+  - `DOCKER_IMAGE=demisto/parse-emails:1.0.0.26393`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:5143586872efa8139f2c51f7fcda4e3bcf6b87d5`
-  - `org.opencontainers.image.version:1.0.0.26432`
+  - `org.opencontainers.image.revision:86b1061b0b1b547513ef1047f769e879fc053ac7`
+  - `org.opencontainers.image.version:1.0.0.26393`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.14.2`
-  - `PRETTY_NAME="Alpine Linux v3.14"`
+  - `VERSION_ID=3.15.0`
+  - `PRETTY_NAME="Alpine Linux v3.15"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://bugs.alpinelinux.org/"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/carbon-black-cloud:1.0.0.26432
+Signatures for demisto/parse-emails:1.0.0.26393
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.26432         1663a6803adc38f0198bd93029f5f16003b8d65c8fcfc6fc1a82ed508fc46841   (Repo Admin)
+1.0.0.26393         55be7e689fbe8cc6e091c308c0c1b801a386fdcb92ff7e35becb7a1bf42f74e4   (Repo Admin)
 
-Administrative keys for demisto/carbon-black-cloud:1.0.0.26432
+Administrative keys for demisto/parse-emails:1.0.0.26393
 
-  Repository Key:	61d6fc3fd56dba570055ea01490dd7c769bba5e2f00fcfb3de58f512ded5c117
-  Root Key:	251a1564486be32835baf0388fe80e667a4516fdfcc3d16d2037dc5db7b1e226
+  Repository Key:	16e8827cd666f1effd01432a35d276ca0c38af207a87452b63157b06fa53b6af
+  Root Key:	8e9e43a1b64a60ec47f7803865076744239b4c470df2672fc3f3827f4b8ea5a8
 
 ```
 
 ## `Python Packages`
 
 
-### `attrdict`
+### `attrs`
 
-* Summary: A dict with attribute-style access
-* Version: 2.0.1
-* Pypi: https://pypi.org/project/attrdict/
-* Homepage: https://github.com/bcj/AttrDict
-* Author: Brendan Curran-Johnson brendan@bcjbcj.ca
+* Summary: Classes Without Boilerplate
+* Version: 21.4.0
+* Pypi: https://pypi.org/project/attrs/
+* Homepage: https://www.attrs.org/
+* Author: Hynek Schlawack hs@ox.cx
 * License :: OSI Approved :: MIT License
-
-### `boto3`
-
-* Summary: The AWS SDK for Python
-* Version: 1.20.46
-* Pypi: https://pypi.org/project/boto3/
-* Homepage: https://github.com/boto/boto3
-* Author: Amazon Web Services
-* License :: OSI Approved :: Apache Software License
-
-### `botocore`
-
-* Summary: Low-level, data-driven core of boto 3.
-* Version: 1.23.46
-* Pypi: https://pypi.org/project/botocore/
-* Homepage: https://github.com/boto/botocore
-* Author: Amazon Web Services
-* License :: OSI Approved :: Apache Software License
-
-### `cachetools`
-
-* Summary: Extensible memoizing collections and decorators
-* Version: 5.0.0
-* Pypi: https://pypi.org/project/cachetools/
-* Homepage: https://github.com/tkem/cachetools/
-* Author: Thomas Kemmer tkemmer@computer.org
-* License :: OSI Approved :: MIT License
-
-### `carbon-black-cloud-sdk`
-
-* Summary: VMware Carbon Black Cloud Python SDK
-* Version: 1.3.5
-* Pypi: https://pypi.org/project/carbon-black-cloud-sdk/
-* Homepage: https://github.com/carbonblack/carbon-black-cloud-sdk-python
-* Author: VMware Carbon Black cb-developer-network@vmware.com
-* License: MIT
-
-### `cbapi`
-
-* Summary: Carbon Black REST API Python Bindings
-* Version: 1.7.7
-* Pypi: https://pypi.org/project/cbapi/
-* Homepage: https://github.com/carbonblack/cbapi-python
-* Author: Carbon Black dev-support@carbonblack.com
-* License: MIT
 
 ### `certifi`
 
@@ -108,47 +64,55 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.26432
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
+### `chardet`
+
+* Summary: Universal encoding detector for Python 2 and 3
+* Version: 4.0.0
+* Pypi: https://pypi.org/project/chardet/
+* Homepage: https://github.com/chardet/chardet
+* Author: Mark Pilgrim mark@diveintomark.org
+* License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 2.0.11
+* Version: 2.0.10
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: https://github.com/ousret/charset_normalizer
 * Author: Ahmed TAHRI @Ousret ahmed.tahri@cloudnursery.dev
 * License :: OSI Approved :: MIT License
 
-### `contextlib2`
+### `compressed-rtf`
 
-* Summary: Backports and enhancements for the contextlib module
-* Version: 21.6.0
-* Pypi: https://pypi.org/project/contextlib2/
-* Homepage: http://contextlib2.readthedocs.org
-* Author: Nick Coghlan ncoghlan@gmail.com
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: Python Software Foundation License
+* Summary: Compressed Rich Text Format (RTF) compression and decompression package
+* Version: 1.0.6
+* Pypi: https://pypi.org/project/compressed-rtf/
+* Homepage: https://github.com/delimitry/compressed_rtf
+* Author: Dmitry Alimov
+* License :: OSI Approved :: MIT License
 
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.0.0
+* Version: 1.1.0
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub info@scrapinghub.com
 * License :: OSI Approved :: BSD License
 
-### `decorator`
+### `DateTime`
 
-* Summary: Decorators for Humans
-* Version: 5.1.1
-* Pypi: https://pypi.org/project/decorator/
-* Homepage: https://github.com/micheles/decorator
-* Author: Michele Simionato michele.simionato@gmail.com
-* License :: OSI Approved :: BSD License
+* Summary: This package provides a DateTime data type, as known from Zope. Unless you need to communicate with Zope APIs, you're probably better off using Python's built-in datetime module.
+* Version: 4.3
+* Pypi: https://pypi.org/project/DateTime/
+* Homepage: https://github.com/zopefoundation/DateTime
+* Author: Zope Foundation and Contributors zope-dev@zope.org
+* License :: OSI Approved :: Zope Public License
 
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.0.12
+* Version: 3.4.2
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: https://github.com/tox-dev/py-filelock
 * Author: Benedikt Schmitt benedikt@benediktschmitt.de
@@ -157,7 +121,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.26432
 ### `funcy`
 
 * Summary: A fancy and practical functional tools
-* Version: 1.16
+* Version: 1.17
 * Pypi: https://pypi.org/project/funcy/
 * Homepage: http://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
@@ -172,13 +136,13 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.26432
 * Author: Kim Davies kim@cynosure.com.au
 * License :: OSI Approved :: BSD License
 
-### `jmespath`
+### `iniconfig`
 
-* Summary: JSON Matching Expressions
-* Version: 0.10.0
-* Pypi: https://pypi.org/project/jmespath/
-* Homepage: https://github.com/jmespath/jmespath.py
-* Author: James Saryerwinnie js@jamesls.com
+* Summary: iniconfig: brain-dead simple config-ini parsing
+* Version: 1.1.1
+* Pypi: https://pypi.org/project/iniconfig/
+* Homepage: http://github.com/RonnyPfannschmidt/iniconfig
+* Author: Ronny Pfannschmidt, Holger Krekel opensource@ronnypfannschmidt.de, holger.krekel@gmail.com
 * License :: OSI Approved :: MIT License
 
 ### `olefile`
@@ -190,14 +154,24 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.26432
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
-### `pika`
+### `packaging`
 
-* Summary: Pika Python AMQP Client Library
-* Version: 1.2.0
-* Pypi: https://pypi.org/project/pika/
-* Homepage: https://pika.readthedocs.io
-* Author: 
+* Summary: Core utilities for Python packages
+* Version: 21.3
+* Pypi: https://pypi.org/project/packaging/
+* Homepage: https://github.com/pypa/packaging
+* Author: Donald Stufft and individual contributors donald@stufft.io
+* License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: BSD License
+
+### `parse-emails`
+
+* Summary: A Python library to parse email files
+* Version: 0.0.5
+* Pypi: https://pypi.org/project/parse-emails/
+* Homepage: https://github.com/demisto/email-parser
+* Author: Demisto
+* License :: OSI Approved :: MIT License
 
 ### `pip`
 
@@ -208,32 +182,32 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.26432
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
-### `prompt-toolkit`
+### `pluggy`
 
-* Summary: Library for building powerful interactive command lines in Python
-* Version: 3.0.26
-* Pypi: https://pypi.org/project/prompt-toolkit/
-* Homepage: https://github.com/prompt-toolkit/python-prompt-toolkit
-* Author: Jonathan Slenders
-* License :: OSI Approved :: BSD License
+* Summary: plugin and hook calling mechanisms for python
+* Version: 1.0.0
+* Pypi: https://pypi.org/project/pluggy/
+* Homepage: https://github.com/pytest-dev/pluggy
+* Author: Holger Krekel holger@merlinux.eu
+* License :: OSI Approved :: MIT License
 
-### `protobuf`
+### `py`
 
-* Summary: Protocol Buffers
-* Version: 3.19.4
-* Pypi: https://pypi.org/project/protobuf/
-* Homepage: https://developers.google.com/protocol-buffers/
-* Author: 
-* License: 3-Clause BSD License
+* Summary: library with cross-python path, ini-parsing, io, code, log facilities
+* Version: 1.11.0
+* Pypi: https://pypi.org/project/py/
+* Homepage: https://py.readthedocs.io/
+* Author: holger krekel, Ronny Pfannschmidt, Benjamin Peterson and others pytest-dev@python.org
+* License :: OSI Approved :: MIT License
 
-### `Pygments`
+### `pyparsing`
 
-* Summary: Pygments is a syntax highlighting package written in Python.
-* Version: 2.11.2
-* Pypi: https://pypi.org/project/Pygments/
-* Homepage: https://pygments.org/
-* Author: Georg Brandl georg@python.org
-* License :: OSI Approved :: BSD License
+* Summary: Python parsing module
+* Version: 3.0.7
+* Pypi: https://pypi.org/project/pyparsing/
+* Homepage: https://github.com/pyparsing/pyparsing/
+* Author: Paul McGuire ptmcg.gm+pyparsing@gmail.com
+* License :: OSI Approved :: MIT License
 
 ### `PySocks`
 
@@ -243,6 +217,15 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.26432
 * Homepage: https://github.com/Anorov/PySocks
 * Author: Anorov anorov.vorona@gmail.com
 * License: BSD
+
+### `pytest`
+
+* Summary: pytest: simple powerful testing with Python
+* Version: 6.2.5
+* Pypi: https://pypi.org/project/pytest/
+* Homepage: https://docs.pytest.org/en/latest/
+* Author: Holger Krekel, Bruno Oliveira, Ronny Pfannschmidt, Floris Bruynooghe, Brianna Laugher, Florian Bruhin and others
+* License :: OSI Approved :: MIT License
 
 ### `python-dateutil`
 
@@ -254,14 +237,32 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.26432
 * License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: BSD License
 
+### `python-magic`
+
+* Summary: File type identification using libmagic
+* Version: 0.4.24
+* Pypi: https://pypi.org/project/python-magic/
+* Homepage: http://github.com/ahupp/python-magic
+* Author: Adam Hupp adam@hupp.org
+* License :: OSI Approved :: MIT License
+
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2021.1
+* Version: 2021.3
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
 * License :: OSI Approved :: MIT License
+
+### `pytz-deprecation-shim`
+
+* Summary: Shims to make deprecation of pytz easier
+* Version: 0.1.0.post0
+* Pypi: https://pypi.org/project/pytz-deprecation-shim/
+* Homepage: https://github.com/pganssle/pytz-deprecation-shim
+* Author: Paul Ganssle paul@ganssle.io
+* License :: OSI Approved :: Apache Software License
 
 ### `PyYAML`
 
@@ -275,7 +276,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.26432
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2021.7.6
+* Version: 2021.11.10
 * Pypi: https://pypi.org/project/regex/
 * Homepage: https://github.com/mrabarnett/mrab-regex
 * Author: Matthew Barnett regex@mrabarnett.plus.com
@@ -299,28 +300,10 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.26432
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
-### `s3transfer`
-
-* Summary: An Amazon S3 Transfer Manager
-* Version: 0.5.0
-* Pypi: https://pypi.org/project/s3transfer/
-* Homepage: https://github.com/boto/s3transfer
-* Author: Amazon Web Services kyknapp1@gmail.com
-* License :: OSI Approved :: Apache Software License
-
-### `schema`
-
-* Summary: Simple data validation library
-* Version: 0.7.5
-* Pypi: https://pypi.org/project/schema/
-* Homepage: https://github.com/keleshev/schema
-* Author: Vladimir Keleshev vladimir@keleshev.com
-* License :: OSI Approved :: MIT License
-
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 57.4.0
+* Version: 57.5.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
@@ -335,28 +318,37 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.26432
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
-### `solrq`
-
-* Summary: Python Solr query utility
-* Version: 1.1.1
-* Pypi: https://pypi.org/project/solrq/
-* Homepage: https://github.com/swistakm/solrq
-* Author: Michał Jaworski swistakm@gmail.com
-* License :: OSI Approved :: BSD License
-
 ### `tldextract`
 
 * Summary: Accurately separate the TLD from the registered domain and subdomains of a URL, using the Public Suffix List. By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 3.1.0
+* Version: 3.1.2
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: https://github.com/john-kurkowski/tldextract
 * Author: John Kurkowski john.kurkowski@gmail.com
 * License :: OSI Approved :: BSD License
 
+### `toml`
+
+* Summary: Python Library for Tom's Obvious, Minimal Language
+* Version: 0.10.2
+* Pypi: https://pypi.org/project/toml/
+* Homepage: https://github.com/uiri/toml
+* Author: William Pearson uiri@xqz.ca
+* License :: OSI Approved :: MIT License
+
+### `tzdata`
+
+* Summary: Provider of IANA time zone data
+* Version: 2021.5
+* Pypi: https://pypi.org/project/tzdata/
+* Homepage: https://github.com/python/tzdata
+* Author: Python Software Foundation datetime-sig@python.org
+* License :: OSI Approved :: Apache Software License
+
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 2.1
+* Version: 4.1
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: 
 * Author: Lennart Regebro regebro@gmail.com
@@ -371,24 +363,6 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.26432
 * Author: Andrey Petrov andrey.petrov@shazow.net
 * License :: OSI Approved :: MIT License
 
-### `validators`
-
-* Summary: Python Data Validation for Humans™.
-* Version: 0.18.2
-* Pypi: https://pypi.org/project/validators/
-* Homepage: https://github.com/kvesteri/validators
-* Author: Konsta Vesterinen konsta@fastmonkeys.com
-* License :: OSI Approved :: MIT License
-
-### `wcwidth`
-
-* Summary: Measures the displayed width of unicode strings in a terminal
-* Version: 0.2.5
-* Pypi: https://pypi.org/project/wcwidth/
-* Homepage: https://github.com/jquast/wcwidth
-* Author: Jeff Quast contact@jeffquast.com
-* License :: OSI Approved :: MIT License
-
 ### `wheel`
 
 * Summary: A built-package format for Python
@@ -398,41 +372,51 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.26432
 * Author: Daniel Holth dholth@fastmail.fm
 * License :: OSI Approved :: MIT License
 
+### `zope.interface`
+
+* Summary: Interfaces for Python
+* Version: 5.4.0
+* Pypi: https://pypi.org/project/zope.interface/
+* Homepage: https://github.com/zopefoundation/zope.interface
+* Author: Zope Foundation and Contributors zope-dev@zope.org
+* License :: OSI Approved :: Zope Public License
+
 ## `OS Packages`
 
-* .python-rundeps-20210827.234848 noarch {.python-rundeps}
-* alpine-baselayout-3.2.0-r16 x86_64 {alpine-baselayout}
-* alpine-keys-2.3-r1 x86_64 {alpine-keys}
-* apk-tools-2.12.7-r0 x86_64 {apk-tools}
-* busybox-1.33.1-r3 x86_64 {busybox}
-* ca-certificates-20191127-r5 x86_64 {ca-certificates}
-* ca-certificates-bundle-20191127-r5 x86_64 {ca-certificates}
+* .python-rundeps-20211208.043638 noarch {.python-rundeps}
+* alpine-baselayout-3.2.0-r18 x86_64 {alpine-baselayout}
+* alpine-keys-2.4-r1 x86_64 {alpine-keys}
+* apk-tools-2.12.7-r3 x86_64 {apk-tools}
+* busybox-1.34.1-r3 x86_64 {busybox}
+* ca-certificates-20191127-r7 x86_64 {ca-certificates}
+* ca-certificates-bundle-20191127-r7 x86_64 {ca-certificates}
 * expat-2.4.1-r0 x86_64 {expat}
-* gdbm-1.19-r0 x86_64 {gdbm}
+* gdbm-1.22-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r0 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.18.4-r0 x86_64 {krb5}
+* krb5-libs-1.19.2-r4 x86_64 {krb5}
 * libbz2-1.0.8-r1 x86_64 {bzip2}
 * libc-utils-0.7.2-r3 x86_64 {libc-dev}
-* libcom_err-1.46.2-r0 x86_64 {e2fsprogs}
-* libcrypto1.1-1.1.1l-r0 x86_64 {openssl}
-* libffi-3.3-r2 x86_64 {libffi}
+* libcom_err-1.46.4-r0 x86_64 {e2fsprogs}
+* libcrypto1.1-1.1.1l-r8 x86_64 {openssl}
+* libffi-3.4.2-r1 x86_64 {libffi}
 * libintl-0.21-r0 x86_64 {gettext}
+* libmagic-5.41-r0 x86_64 {file}
 * libnsl-1.3.0-r0 x86_64 {libnsl}
-* libretls-3.3.3p1-r2 x86_64 {libretls}
-* libssl1.1-1.1.1l-r0 x86_64 {openssl}
+* libretls-3.3.4-r2 x86_64 {libretls}
+* libssl1.1-1.1.1l-r8 x86_64 {openssl}
 * libtirpc-1.3.2-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.3.2-r0 x86_64 {libtirpc}
-* libuuid-2.37-r0 x86_64 {util-linux}
+* libuuid-2.37.2-r1 x86_64 {util-linux}
 * libverto-0.3.2-r0 x86_64 {libverto}
-* musl-1.2.2-r3 x86_64 {musl}
-* musl-utils-1.2.2-r3 x86_64 {musl}
-* ncurses-libs-6.2_p20210612-r0 x86_64 {ncurses}
-* ncurses-terminfo-base-6.2_p20210612-r0 x86_64 {ncurses}
-* readline-8.1.0-r0 x86_64 {readline}
-* scanelf-1.3.2-r0 x86_64 {pax-utils}
-* sqlite-libs-3.35.5-r0 x86_64 {sqlite}
-* ssl_client-1.33.1-r3 x86_64 {busybox}
-* tzdata-2021a-r0 x86_64 {tzdata}
+* musl-1.2.2-r7 x86_64 {musl}
+* musl-utils-1.2.2-r7 x86_64 {musl}
+* ncurses-libs-6.3_p20211120-r0 x86_64 {ncurses}
+* ncurses-terminfo-base-6.3_p20211120-r0 x86_64 {ncurses}
+* readline-8.1.1-r0 x86_64 {readline}
+* scanelf-1.3.3-r0 x86_64 {pax-utils}
+* sqlite-libs-3.36.0-r0 x86_64 {sqlite}
+* ssl_client-1.34.1-r3 x86_64 {busybox}
+* tzdata-2021e-r0 x86_64 {tzdata}
 * xz-libs-5.2.5-r0 x86_64 {xz}
 * zlib-1.2.11-r3 x86_64 {zlib}
