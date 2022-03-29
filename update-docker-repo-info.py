@@ -174,6 +174,22 @@ def generate_pkg_data(image_name, out_file):
         generate_pkg_data.known_licenses = res.json()["packages"]
         with open("{}/packages_ignore.json".format(sys.path[0])) as f:
             generate_pkg_data.ignore_packages = json.load(f)["packages"]
+        # get the licenses exclude from dockerfiles
+        res = http_get(
+            'https://raw.githubusercontent.com/demisto/dockerfiles/master/docker/packages_license_check_exclude.json?{}'.format(random.randint(1, 1000)))
+        res.raise_for_status()
+        lic_exclude = res.json()["packages"]
+        for k in lic_exclude:
+            p = generate_pkg_data.ignore_packages.get(k, {})
+            docker_images = p.get('docker_images', [])
+            for img in lic_exclude[k].get('docker_images', []):
+                if not img.startswith('demisto/'):
+                    img = 'demisto/' + img
+                docker_images.append(img)
+            p['docker_images'] = docker_images
+            generate_pkg_data.ignore_packages[k] = p  # could be that we got a key that is not in ignore_packages that we need to set
+        print(f'\nknown licenses: {generate_pkg_data.known_licenses}\n')
+        print(f'\nignore packages: {generate_pkg_data.ignore_packages}\n')
     # check this image is python
     try:
         subprocess.check_output(["docker", "run", "--rm", image_name, "which", "python"], text=True)
