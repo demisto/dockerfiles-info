@@ -17,7 +17,7 @@ import csv
 import time
 
 
-assert sys.version_info >= (3, 7), "Script compatible with python 3.7 and higher only"
+assert sys.version_info >= (3, 9), "Script compatible with python 3.9 and higher only"
 
 VERIFY_SSL = True
 
@@ -25,7 +25,7 @@ DOCKERFILES_DIR = os.path.abspath(os.getenv('DOCKERFILES_DIR', '.dockerfiles'))
 
 
 def http_get(url, **kwargs):
-    """wrapper function around reqeusts.get which set verfiy to what we got in the args
+    """wrapper function around requests.get which set verify to what we got in the args
 
     Arguments:
         url {string} -- url to get
@@ -174,18 +174,43 @@ def generate_pkg_data(image_name, out_file):
         generate_pkg_data.known_licenses = res.json()["packages"]
         with open("{}/packages_ignore.json".format(sys.path[0])) as f:
             generate_pkg_data.ignore_packages = json.load(f)["packages"]
+        # get the licenses exclude from dockerfiles
+        res = http_get(
+            'https://raw.githubusercontent.com/demisto/dockerfiles/master/docker/packages_license_check_exclude.json?{}'.format(random.randint(1, 1000)))
+        res.raise_for_status()
+        lic_exclude = res.json()["packages"]
+        for k in lic_exclude:
+            p = generate_pkg_data.ignore_packages.get(k, {})
+            docker_images = p.get('docker_images', [])
+            for img in lic_exclude[k].get('docker_images', []):
+                if not img.startswith('demisto/'):
+                    img = 'demisto/' + img
+                docker_images.append(img)
+            p['docker_images'] = docker_images
+            generate_pkg_data.ignore_packages[k] = p  # could be that we got a key that is not in ignore_packages that we need to set
+        print(f'\nknown licenses: {generate_pkg_data.known_licenses}\n')
+        print(f'\nignore packages: {generate_pkg_data.ignore_packages}\n')
     # check this image is python
     try:
         subprocess.check_output(["docker", "run", "--rm", image_name, "which", "python"], text=True)
     except subprocess.CalledProcessError as err:
         if err.returncode == 1:
-            print("{} doesn't seem to have python. Skipping python package check. {}".format(image_name, err.output))
+            print(f"{image_name} doesn't seem to have python. Skipping python package check. {err.output}")
             return
         raise
+    pip_cmd = 'pip'
+    py_cmd = 'python'
+    try:
+        subprocess.check_output(["docker", "run", "--rm", image_name, "which", "python3"], text=True)
+        print("Found python3. Will use python3 and pip3 commands.")
+        pip_cmd = 'pip3'
+        py_cmd = 'python3'
+    except Exception as err:
+        print(f'Ignoring `which python3` err: {err}. Assuming we are using python2')
     base_image = image_name.split(":")[0]
     clear_image_from_used(base_image)
     pip_list_json = subprocess.check_output(["docker", "run", "--rm", image_name, "sh", "-c",
-                                            "pip install --upgrade pip > /dev/null; python -m pip list --format=json"], text=True)
+                                            f"{pip_cmd} install --upgrade pip > /dev/null; {py_cmd} -m pip list --format=json"], text=True)
     pip_list = json.loads(pip_list_json)
     for pkg in pip_list:
         name = pkg["name"]
@@ -205,7 +230,7 @@ def generate_pkg_data(image_name, out_file):
                 generate_pkg_data.cache[name] = pip_info
             except Exception as ex:
                 print("Failed getting info from pypi (will try pip): " + str(ex))
-                pip_show = subprocess.check_output(["docker", "run", "--rm", image_name, "pip", "show", name], text=True)
+                pip_show = subprocess.check_output(["docker", "run", "--rm", image_name, pip_cmd, "show", name], text=True)
                 inner_info = {}
                 for line in pip_show.splitlines():
                     values = line.split(":", 1)
@@ -243,7 +268,7 @@ def generate_pkg_data(image_name, out_file):
         if not classifier_found:
             # try getting license via pip show
             if not pip_show:
-                pip_show = subprocess.check_output(["docker", "run", "--rm", image_name, "pip", "show", name], text=True)
+                pip_show = subprocess.check_output(["docker", "run", "--rm", image_name, pip_cmd, "show", name], text=True)
             for line in pip_show.splitlines():
                 if line.startswith("License:"):
                     out_file.write("* {}\n".format(line))
@@ -380,6 +405,8 @@ def main():
     args = parser.parse_args()
     global VERIFY_SSL
     VERIFY_SSL = not args.no_verify_ssl
+    if not VERIFY_SSL:
+        requests.packages.urllib3.disable_warnings()
     global USED_PACKAGES
     checkout_dockerfiles_repo()
     used_packages_path = "{}/{}".format(sys.path[0], USED_PACKAGES_FILE)
