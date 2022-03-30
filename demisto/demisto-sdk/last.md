@@ -1,44 +1,48 @@
-# `demisto/xsoar-tools:1.0.0.27899`
+# `demisto/demisto-sdk:1.6.1.27849`
 ## Docker Metadata
-- Image Size: `83.91 MB`
-- Image ID: `sha256:5858a6c87bbdfcb6d3f10cbaf86e82f614fbe99f2eca8a60ef95e1c1206e4e17`
-- Created: `2022-03-29T14:40:32.358063737Z`
+- Image Size: `541.62 MB`
+- Image ID: `sha256:e5c3d35edf3ef3ddb8a47c7f032cf0d437d99ca58c6ac4d2c8ccbcc1ef6d3434`
+- Created: `2022-03-28T15:49:31.625678543Z`
 - Arch: `linux`/`amd64`
-- Command: `["python3"]`
+- Command: `["demisto-sdk","--help"]`
 - Environment:
-  - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
+  - `PATH=/content/venv/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
-  - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
-  - `PYTHON_VERSION=3.9.6`
-  - `PYTHON_PIP_VERSION=21.1.3`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/a1675ab6c2bd898ed82b1f58c486097f763c74a9/public/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=6665659241292b2147b58922b9ffe11dda66b39d52d8a6f3aa310bc1d60ea6f7`
-  - `DOCKER_IMAGE=demisto/xsoar-tools:1.0.0.27899`
+  - `GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D`
+  - `PYTHON_VERSION=3.10.1`
+  - `PYTHON_PIP_VERSION=21.2.4`
+  - `PYTHON_SETUPTOOLS_VERSION=57.5.0`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/3cb8888cc2869620f57d5d2da64da38f516078c7/public/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=c518250e91a70d7b20cceb15272209a4ded2a0c263ae5776f129e0d9b5674309`
+  - `DOCKER_IMAGE=demisto/demisto-sdk:1.6.1.27849`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:210c04546370fa3df4bd9b1f6b32e451795885ca`
-  - `org.opencontainers.image.version:1.0.0.27899`
+  - `org.opencontainers.image.revision:9ee480966ee2a37e88ed7bcc6665382b982c1224`
+  - `org.opencontainers.image.version:1.6.1.27849`
 
 - OS Release:
-  - `NAME="Alpine Linux"`
-  - `ID=alpine`
-  - `VERSION_ID=3.14.0`
-  - `PRETTY_NAME="Alpine Linux v3.14"`
-  - `HOME_URL="https://alpinelinux.org/"`
-  - `BUG_REPORT_URL="https://bugs.alpinelinux.org/"`
+  - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
+  - `NAME="Debian GNU/Linux"`
+  - `VERSION_ID="11"`
+  - `VERSION="11 (bullseye)"`
+  - `VERSION_CODENAME=bullseye`
+  - `ID=debian`
+  - `HOME_URL="https://www.debian.org/"`
+  - `SUPPORT_URL="https://www.debian.org/support"`
+  - `BUG_REPORT_URL="https://bugs.debian.org/"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/xsoar-tools:1.0.0.27899
+Signatures for demisto/demisto-sdk:1.6.1.27849
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.27899         c04da3676dcc2250b8e8ada6e69cc11e4e0cf6514689df6e4f0ddc3e07754eb3   (Repo Admin)
+1.6.1.27849         1ceaf10e5b41da022e3b27ce0c601408b3f7c71071c21054009a2f2e82a8765c   (Repo Admin)
 
-Administrative keys for demisto/xsoar-tools:1.0.0.27899
+Administrative keys for demisto/demisto-sdk:1.6.1.27849
 
-  Repository Key:	cf22d1c7d99eaa36ee3a4c4e143589874b21f83068fff42ce971ffaa44c737b6
-  Root Key:	83b859e2320bd9a76afcab59964970ff8ba4b4719fa697c8c032e27151f016e6
+  Repository Key:	62e2b8856f5e4331ebea7d3b1395ed9aac5729f1333c0c720e3a410932dfbea6
+  Root Key:	ea99312756356d5a2b823d5a1598cca5cc9163236379e44d53a04e978a177180
 
 ```
 
@@ -93,7 +97,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 ### `autopep8`
 
 * Summary: A tool that automatically formats Python code to conform to the PEP 8 style guide
-* Version: 1.6.0
+* Version: 1.5.4
 * Pypi: https://pypi.org/project/autopep8/
 * Homepage: https://github.com/hhatto/autopep8
 * Author: Hideo Hattori hhatto.jp@gmail.com
@@ -102,7 +106,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 ### `bandit`
 
 * Summary: Security oriented static analyser for python code.
-* Version: 1.7.4
+* Version: 1.7.0
 * Pypi: https://pypi.org/project/bandit/
 * Homepage: https://bandit.readthedocs.io/
 * Author: PyCQA code-quality@python.org
@@ -111,10 +115,19 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 ### `beautifulsoup4`
 
 * Summary: Screen-scraping library
-* Version: 4.10.0
+* Version: 4.9.3
 * Pypi: https://pypi.org/project/beautifulsoup4/
 * Homepage: http://www.crummy.com/software/BeautifulSoup/bs4/
 * Author: Leonard Richardson leonardr@segfault.org
+* License :: OSI Approved :: MIT License
+
+### `blessings`
+
+* Summary: A thin, practical wrapper around terminal coloring, styling, and positioning
+* Version: 1.7
+* Pypi: https://pypi.org/project/blessings/
+* Homepage: https://github.com/erikrose/blessings
+* Author: Erik Rose erikrose@grinchcentral.com
 * License :: OSI Approved :: MIT License
 
 ### `bracex`
@@ -192,7 +205,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 ### `coloredlogs`
 
 * Summary: Colored terminal output for Python's logging module
-* Version: 15.0.1
+* Version: 15.0
 * Pypi: https://pypi.org/project/coloredlogs/
 * Homepage: https://coloredlogs.readthedocs.io
 * Author: Peter Odding peter@peterodding.com
@@ -237,7 +250,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 ### `demisto-py`
 
 * Summary: A Python library for the Demisto API
-* Version: 3.1.4
+* Version: 3.1.3
 * Pypi: https://pypi.org/project/demisto-py/
 * Homepage: https://github.com/demisto/demisto-py
 * Author: 
@@ -246,7 +259,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 ### `demisto-sdk`
 
 * Summary: A Python library for the Demisto SDK
-* Version: 1.6.2
+* Version: 1.6.2.dev56
 * Pypi: https://pypi.org/project/demisto-sdk/
 * Homepage: https://github.com/demisto/demisto-sdk
 * Author: Demisto
@@ -269,15 +282,6 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 * Homepage: https://github.com/perfecto25/dictor
 * Author: mike.reider mike.reider@gmail.com
 * License: MIT
-
-### `distlib`
-
-* Summary: Distribution utilities
-* Version: 0.3.4
-* Pypi: https://pypi.org/project/distlib/
-* Homepage: https://bitbucket.org/pypa/distlib
-* Author: Vinay Sajip vinay_sajip@red-dove.com
-* License :: OSI Approved :: Python Software Foundation License
 
 ### `docker`
 
@@ -309,7 +313,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 ### `flake8`
 
 * Summary: the modular source code checker: pep8 pyflakes and co
-* Version: 4.0.1
+* Version: 3.9.2
 * Pypi: https://pypi.org/project/flake8/
 * Homepage: https://github.com/pycqa/flake8
 * Author: Tarek Ziade tarek@ziade.org
@@ -327,7 +331,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 ### `freezegun`
 
 * Summary: Let your Python tests travel through time
-* Version: 1.2.1
+* Version: 0.3.12
 * Pypi: https://pypi.org/project/freezegun/
 * Homepage: https://github.com/spulec/freezegun
 * Author: Steve Pulec spulec@gmail.com
@@ -345,7 +349,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 ### `funcy`
 
 * Summary: A fancy and practical functional tools
-* Version: 1.16
+* Version: 1.17
 * Pypi: https://pypi.org/project/funcy/
 * Homepage: http://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
@@ -363,7 +367,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 ### `GitPython`
 
 * Summary: GitPython is a python library used to interact with Git repositories
-* Version: 3.1.27
+* Version: 3.1.11
 * Pypi: https://pypi.org/project/GitPython/
 * Homepage: https://github.com/gitpython-developers/GitPython
 * Author: Sebastian Thiel, Michael Trier byronimo@gmail.com, mtrier@gmail.com
@@ -588,7 +592,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 ### `networkx`
 
 * Summary: Python package for creating and manipulating graphs and networks
-* Version: 2.7.1
+* Version: 2.5
 * Pypi: https://pypi.org/project/networkx/
 * Homepage: https://networkx.org/
 * Author: Aric Hagberg hagberg@lanl.gov
@@ -602,6 +606,15 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 * Homepage: https://www.nltk.org/
 * Author: NLTK Team nltk.team@gmail.com
 * License :: OSI Approved :: Apache Software License
+
+### `numpy`
+
+* Summary: NumPy is the fundamental package for array computing with Python.
+* Version: 1.22.3
+* Pypi: https://pypi.org/project/numpy/
+* Homepage: https://www.numpy.org
+* Author: Travis E. Oliphant et al.
+* License :: OSI Approved :: BSD License
 
 ### `olefile`
 
@@ -621,6 +634,24 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 * Author: Donald Stufft and individual contributors donald@stufft.io
 * License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: BSD License
+
+### `pandas`
+
+* Summary: Powerful data structures for data analysis, time series, and statistics
+* Version: 1.2.0
+* Pypi: https://pypi.org/project/pandas/
+* Homepage: https://pandas.pydata.org
+* Author: The Pandas Development Team pandas-dev@python.org
+* License :: OSI Approved :: BSD License
+
+### `parinx`
+
+* Summary: Parinx implements a basic Sphinx docstring parser language                    which providesa interface to extract the relavant parameter.                  You might find it most useful for tasks involving automated                   data extraction from sphinx docs.
+* Version: 0.1.1
+* Pypi: https://pypi.org/project/parinx/
+* Homepage: https://github.com/rahulrrixe/parinx
+* Author: Rahul Ranjan rahul.rrixe@gmail.com
+* License: Apache License (2.0)
 
 ### `pbr`
 
@@ -652,25 +683,16 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 ### `pipenv`
 
 * Summary: Python Development Workflow for Humans.
-* Version: 2022.3.28
+* Version: 2020.11.15
 * Pypi: https://pypi.org/project/pipenv/
 * Homepage: https://github.com/pypa/pipenv
 * Author: Pipenv maintainer team distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
-### `platformdirs`
-
-* Summary: A small Python module for determining appropriate platform-specific dirs, e.g. a "user data dir".
-* Version: 2.5.1
-* Pypi: https://pypi.org/project/platformdirs/
-* Homepage: https://github.com/platformdirs/platformdirs
-* Author: 
-* License :: OSI Approved :: MIT License
-
 ### `pluggy`
 
 * Summary: plugin and hook calling mechanisms for python
-* Version: 1.0.0
+* Version: 0.13.1
 * Pypi: https://pypi.org/project/pluggy/
 * Homepage: https://github.com/pytest-dev/pluggy
 * Author: Holger Krekel holger@merlinux.eu
@@ -724,7 +746,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 ### `pycodestyle`
 
 * Summary: Python style guide checker
-* Version: 2.8.0
+* Version: 2.7.0
 * Pypi: https://pypi.org/project/pycodestyle/
 * Homepage: https://pycodestyle.pycqa.org/
 * Author: Johann C. Rocholl johann@rocholl.net
@@ -733,7 +755,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 ### `pyflakes`
 
 * Summary: passive checker of Python programs
-* Version: 2.4.0
+* Version: 2.3.1
 * Pypi: https://pypi.org/project/pyflakes/
 * Homepage: https://github.com/PyCQA/pyflakes
 * Author: A lot of people code-quality@python.org
@@ -796,7 +818,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 ### `pytest`
 
 * Summary: pytest: simple powerful testing with Python
-* Version: 7.1.1
+* Version: 6.2.1
 * Pypi: https://pypi.org/project/pytest/
 * Homepage: https://docs.pytest.org/en/latest/
 * Author: Holger Krekel, Bruno Oliveira, Ronny Pfannschmidt, Floris Bruynooghe, Brianna Laugher, Florian Bruhin and others
@@ -809,6 +831,15 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 * Pypi: https://pypi.org/project/pytest-freezegun/
 * Homepage: https://github.com/ktosiek/pytest-freezegun
 * Author: Tomasz Kontusz tomasz.kontusz@gmail.com
+* License :: OSI Approved :: MIT License
+
+### `pytest-mock`
+
+* Summary: Thin-wrapper around the mock package for easier use with pytest
+* Version: 3.4.0
+* Pypi: https://pypi.org/project/pytest-mock/
+* Homepage: https://github.com/pytest-dev/pytest-mock/
+* Author: Bruno Oliveira nicoddemus@gmail.com
 * License :: OSI Approved :: MIT License
 
 ### `python-dateutil`
@@ -829,6 +860,15 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 * Homepage: https://github.com/theskumar/python-dotenv
 * Author: Saurabh Kumar me+github@saurabh-kumar.com
 * License :: OSI Approved :: BSD License
+
+### `python-http-client`
+
+* Summary: HTTP REST client, simplified for Python
+* Version: 3.3.7
+* Pypi: https://pypi.org/project/python-http-client/
+* Homepage: https://github.com/sendgrid/python-http-client
+* Author: Elmer Thomas help@twilio.com
+* License: MIT
 
 ### `pytz`
 
@@ -884,6 +924,15 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
+### `requests-mock`
+
+* Summary: Mock out responses from the requests package
+* Version: 1.8.0
+* Pypi: https://pypi.org/project/requests-mock/
+* Homepage: https://requests-mock.readthedocs.io/
+* Author: Jamie Lennox jamielennox@gmail.com
+* License :: OSI Approved :: Apache Software License
+
 ### `rsa`
 
 * Summary: Pure-Python RSA implementation
@@ -896,7 +945,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 ### `ruamel.yaml`
 
 * Summary: ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
-* Version: 0.17.21
+* Version: 0.16.13
 * Pypi: https://pypi.org/project/ruamel.yaml/
 * Homepage: https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree
 * Author: Anthon van der Neut a.van.der.neut@ruamel.eu
@@ -911,10 +960,19 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 * Author: Anthon van der Neut a.van.der.neut@ruamel.eu
 * License :: OSI Approved :: MIT License
 
+### `sendgrid`
+
+* Summary: Twilio SendGrid library for Python
+* Version: 6.6.0
+* Pypi: https://pypi.org/project/sendgrid/
+* Homepage: https://github.com/sendgrid/sendgrid-python/
+* Author: Elmer Thomas, Yamil Asusta help@twilio.com
+* License: MIT
+
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 61.2.0
+* Version: 58.1.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
@@ -927,6 +985,15 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 * Pypi: https://pypi.org/project/six/
 * Homepage: https://github.com/benjaminp/six
 * Author: Benjamin Peterson benjamin@python.org
+* License :: OSI Approved :: MIT License
+
+### `slack-sdk`
+
+* Summary: The Slack API Platform SDK for Python
+* Version: 3.11.2
+* Pypi: https://pypi.org/project/slack-sdk/
+* Homepage: https://github.com/slackapi/python-slack-sdk
+* Author: Slack Technologies, LLC opensource@slack.com
 * License :: OSI Approved :: MIT License
 
 ### `slackclient`
@@ -956,6 +1023,15 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 * Author: Isaac Muse Isaac.Muse@gmail.com
 * License :: OSI Approved :: MIT License
 
+### `starkbank-ecdsa`
+
+* Summary: A lightweight and fast pure python ECDSA library
+* Version: 2.0.3
+* Pypi: https://pypi.org/project/starkbank-ecdsa/
+* Homepage: https://github.com/starkbank/ecdsa-python.git
+* Author: Stark Bank developers@starkbank.com
+* License: MIT License
+
 ### `stevedore`
 
 * Summary: Manage dynamic plugins for Python applications
@@ -974,10 +1050,19 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 * Author: Sergey Astanin s.astanin@gmail.com
 * License :: OSI Approved :: MIT License
 
+### `timeout-decorator`
+
+* Summary: Timeout decorator
+* Version: 0.5.0
+* Pypi: https://pypi.org/project/timeout-decorator/
+* Homepage: https://github.com/pnpnpn/timeout-decorator
+* Author: Patrick Ng pn.appdev@gmail.com
+* License :: OSI Approved :: MIT License
+
 ### `tldextract`
 
 * Summary: Accurately separate the TLD from the registered domain and subdomains of a URL, using the Public Suffix List. By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 3.1.0
+* Version: 3.2.0
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: https://github.com/john-kurkowski/tldextract
 * Author: John Kurkowski john.kurkowski@gmail.com
@@ -1068,7 +1153,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 ### `virtualenv`
 
 * Summary: Virtual Python Environment builder
-* Version: 20.14.0
+* Version: 16.7.7
 * Pypi: https://pypi.org/project/virtualenv/
 * Homepage: https://virtualenv.pypa.io/
 * Author: Bernat Gabor gaborjbernat@gmail.com
@@ -1086,7 +1171,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 ### `vulture`
 
 * Summary: Find dead code
-* Version: 2.3
+* Version: 1.5
 * Pypi: https://pypi.org/project/vulture/
 * Homepage: https://github.com/jendrikseipp/vulture
 * Author: Jendrik Seipp jendrikseipp@gmail.com
@@ -1104,7 +1189,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 ### `websocket-client`
 
 * Summary: WebSocket client for Python with low level API options
-* Version: 1.3.2
+* Version: 1.3.1
 * Pypi: https://pypi.org/project/websocket-client/
 * Homepage: https://github.com/websocket-client/websocket-client.git
 * Author: liris liris.pp@gmail.com
@@ -1113,7 +1198,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 ### `wheel`
 
 * Summary: A built-package format for Python
-* Version: 0.36.2
+* Version: 0.37.1
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: https://github.com/pypa/wheel
 * Author: Daniel Holth dholth@fastmail.fm
@@ -1146,59 +1231,596 @@ Administrative keys for demisto/xsoar-tools:1.0.0.27899
 * Author: Andrew Svetlov andrew.svetlov@gmail.com
 * License :: OSI Approved :: Apache Software License
 
-### `zipp`
-
-* Summary: Backport of pathlib-compatible object wrapper for zip files
-* Version: 3.7.0
-* Pypi: https://pypi.org/project/zipp/
-* Homepage: https://github.com/jaraco/zipp
-* Author: Jason R. Coombs jaraco@jaraco.com
-* License :: OSI Approved :: MIT License
-
 ## `OS Packages`
 
-* .python-rundeps-20210629.193729 noarch {.python-rundeps}
-* alpine-baselayout-3.2.0-r16 x86_64 {alpine-baselayout}
-* alpine-keys-2.3-r1 x86_64 {alpine-keys}
-* apk-tools-2.12.5-r1 x86_64 {apk-tools}
-* brotli-libs-1.0.9-r5 x86_64 {brotli}
-* busybox-1.33.1-r3 x86_64 {busybox}
-* ca-certificates-20191127-r5 x86_64 {ca-certificates}
-* ca-certificates-bundle-20191127-r5 x86_64 {ca-certificates}
-* expat-2.4.1-r0 x86_64 {expat}
-* gdbm-1.19-r0 x86_64 {gdbm}
-* git-2.32.0-r0 x86_64 {git}
-* grep-3.7-r0 x86_64 {grep}
-* keyutils-libs-1.6.3-r0 x86_64 {keyutils}
-* krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.18.3-r1 x86_64 {krb5}
-* libbz2-1.0.8-r1 x86_64 {bzip2}
-* libc-utils-0.7.2-r3 x86_64 {libc-dev}
-* libcom_err-1.46.2-r0 x86_64 {e2fsprogs}
-* libcrypto1.1-1.1.1k-r0 x86_64 {openssl}
-* libcurl-7.79.1-r0 x86_64 {curl}
-* libffi-3.3-r2 x86_64 {libffi}
-* libgcc-10.3.1_git20210424-r2 x86_64 {gcc}
-* libintl-0.21-r0 x86_64 {gettext}
-* libnsl-1.3.0-r0 x86_64 {libnsl}
-* libretls-3.3.3-r2 x86_64 {libretls}
-* libssl1.1-1.1.1k-r0 x86_64 {openssl}
-* libstdc++-10.3.1_git20210424-r2 x86_64 {gcc}
-* libtirpc-1.3.2-r0 x86_64 {libtirpc}
-* libtirpc-conf-1.3.2-r0 x86_64 {libtirpc}
-* libuuid-2.37-r0 x86_64 {util-linux}
-* libverto-0.3.2-r0 x86_64 {libverto}
-* musl-1.2.2-r3 x86_64 {musl}
-* musl-utils-1.2.2-r3 x86_64 {musl}
-* ncurses-libs-6.2_p20210612-r0 x86_64 {ncurses}
-* ncurses-terminfo-base-6.2_p20210612-r0 x86_64 {ncurses}
-* nghttp2-libs-1.43.0-r0 x86_64 {nghttp2}
-* pcre-8.44-r0 x86_64 {pcre}
-* pcre2-10.36-r0 x86_64 {pcre2}
-* readline-8.1.0-r0 x86_64 {readline}
-* scanelf-1.3.2-r0 x86_64 {pax-utils}
-* sqlite-libs-3.35.5-r0 x86_64 {sqlite}
-* ssl_client-1.33.1-r3 x86_64 {busybox}
-* tzdata-2021a-r0 x86_64 {tzdata}
-* xz-libs-5.2.5-r0 x86_64 {xz}
-* zlib-1.2.11-r3 x86_64 {zlib}
+* adduser	3.118
+* adwaita-icon-theme	3.38.0-1
+* apt	2.2.4
+* at-spi2-core	2.38.0-4
+* base-files	11.1+deb11u2
+* base-passwd	3.5.51
+* bash	5.1-2+b3
+* binutils	2.35.2-2
+* binutils-common:amd64	2.35.2-2
+* binutils-x86-64-linux-gnu	2.35.2-2
+* bsdutils	1:2.36.1-8+deb11u1
+* bzip2	1.0.8-4
+* ca-certificates	20210119
+* coreutils	8.32-4+b1
+* cpp	4:10.2.1-1
+* cpp-10	10.2.1-6
+* curl	7.74.0-1.3+deb11u1
+* dash	0.5.11+git20200708+dd9ef66-5
+* dbus	1.12.20-2
+* dbus-x11	1.12.20-2
+* dconf-gsettings-backend:amd64	0.38.0-2
+* dconf-service	0.38.0-2
+* debconf	1.5.77
+* debian-archive-keyring	2021.1.1
+* debianutils	4.11.2
+* diffutils	1:3.7-5
+* dirmngr	2.2.27-2+deb11u1
+* distro-info-data	0.51+deb11u1
+* docker-ce-cli	5:20.10.14~3-0~debian-bullseye
+* docker-scan-plugin	0.17.0~debian-bullseye
+* dpkg	1.20.9
+* dpkg-dev	1.20.9
+* e2fsprogs	1.46.5-2~bpo11+2
+* fakeroot	1.25.3-1.1
+* findutils	4.8.0-1
+* fontconfig	2.13.1-4.2
+* fontconfig-config	2.13.1-4.2
+* fonts-dejavu-core	2.37-2
+* g++-10	10.2.1-6
+* gcc-10	10.2.1-6
+* gcc-10-base:amd64	10.2.1-6
+* gcc-9-base:amd64	9.3.0-22
+* git	1:2.30.2-1
+* git-man	1:2.30.2-1
+* glib-networking-common	2.66.0-2
+* glib-networking-services	2.66.0-2
+* glib-networking:amd64	2.66.0-2
+* gnupg	2.2.27-2+deb11u1
+* gnupg-l10n	2.2.27-2+deb11u1
+* gnupg-utils	2.2.27-2+deb11u1
+* gpg	2.2.27-2+deb11u1
+* gpg-agent	2.2.27-2+deb11u1
+* gpg-wks-client	2.2.27-2+deb11u1
+* gpg-wks-server	2.2.27-2+deb11u1
+* gpgconf	2.2.27-2+deb11u1
+* gpgsm	2.2.27-2+deb11u1
+* gpgv	2.2.27-2+deb11u1
+* grep	3.6-1
+* gsettings-desktop-schemas	3.38.0-2
+* gtk-update-icon-cache	3.24.24-4+deb11u2
+* gyp	0.1+20200513gitcaa6002-2
+* gzip	1.10-4
+* hicolor-icon-theme	0.17-2
+* hostname	3.23
+* init-system-helpers	1.60
+* javascript-common	11+nmu1
+* less	551-2
+* libacl1:amd64	2.2.53-10
+* libalgorithm-diff-perl	1.201-1
+* libalgorithm-diff-xs-perl	0.04-6+b1
+* libalgorithm-merge-perl	0.08-3
+* libapparmor1:amd64	2.13.6-10
+* libapt-pkg6.0:amd64	2.2.4
+* libasan6:amd64	10.2.1-6
+* libassuan0:amd64	2.5.3-7.1
+* libatk-bridge2.0-0:amd64	2.38.0-1
+* libatk1.0-0:amd64	2.36.0-2
+* libatk1.0-data	2.36.0-2
+* libatomic1:amd64	10.2.1-6
+* libatspi2.0-0:amd64	2.38.0-4
+* libattr1:amd64	1:2.4.48-6
+* libaudit-common	1:3.0-2
+* libaudit1:amd64	1:3.0-2
+* libauthen-sasl-perl	2.1600-1.1
+* libavahi-client3:amd64	0.8-5
+* libavahi-common-data:amd64	0.8-5
+* libavahi-common3:amd64	0.8-5
+* libbinutils:amd64	2.35.2-2
+* libblkid1:amd64	2.36.1-8+deb11u1
+* libbrotli1:amd64	1.0.9-2+b2
+* libbsd0:amd64	0.11.3-1
+* libbz2-1.0:amd64	1.0.8-4
+* libc-ares2:amd64	1.17.1-1+deb11u1
+* libc-bin	2.31-13+deb11u2
+* libc-dev-bin	2.31-13+deb11u2
+* libc6-dev:amd64	2.31-13+deb11u2
+* libc6:amd64	2.31-13+deb11u2
+* libcairo-gobject2:amd64	1.16.0-5
+* libcairo2:amd64	1.16.0-5
+* libcap-ng0:amd64	0.7.9-2.2+b1
+* libcbor0:amd64	0.5.0+dfsg-2
+* libcc1-0:amd64	10.2.1-6
+* libclone-perl	0.45-1+b1
+* libcolord2:amd64	1.4.5-3
+* libcom-err2:amd64	1.46.5-2~bpo11+2
+* libcrypt-dev:amd64	1:4.4.18-4
+* libcrypt1:amd64	1:4.4.18-4
+* libctf-nobfd0:amd64	2.35.2-2
+* libctf0:amd64	2.35.2-2
+* libcups2:amd64	2.3.3op2-3+deb11u1
+* libcurl3-gnutls:amd64	7.74.0-1.3+deb11u1
+* libcurl4:amd64	7.74.0-1.3+deb11u1
+* libdata-dump-perl	1.23-1.1
+* libdatrie1:amd64	0.2.13-1
+* libdb5.3:amd64	5.3.28+dfsg1-0.8
+* libdbus-1-3:amd64	1.12.20-2
+* libdconf1:amd64	0.38.0-2
+* libdebconfclient0:amd64	0.260
+* libdeflate0:amd64	1.7-1
+* libdpkg-perl	1.20.9
+* libdrm-amdgpu1:amd64	2.4.104-1
+* libdrm-common	2.4.104-1
+* libdrm-intel1:amd64	2.4.104-1
+* libdrm-nouveau2:amd64	2.4.104-1
+* libdrm-radeon1:amd64	2.4.104-1
+* libdrm2:amd64	2.4.104-1
+* libedit2:amd64	3.1-20191231-2+b1
+* libelf1:amd64	0.183-1
+* libencode-locale-perl	1.05-1.1
+* libepoxy0:amd64	1.5.5-1
+* liberror-perl	0.17029-1
+* libexpat1-dev:amd64	2.2.10-2+deb11u1
+* libexpat1:amd64	2.2.10-2+deb11u1
+* libext2fs2:amd64	1.46.5-2~bpo11+2
+* libfakeroot:amd64	1.25.3-1.1
+* libffi7:amd64	3.3-6
+* libfido2-1:amd64	1.6.0-2
+* libfile-basedir-perl	0.08-1
+* libfile-desktopentry-perl	0.22-2
+* libfile-fcntllock-perl	0.22-3+b7
+* libfile-listing-perl	6.14-1
+* libfile-mimeinfo-perl	0.30-1
+* libfont-afm-perl	1.20-3
+* libfontconfig1:amd64	2.13.1-4.2
+* libfontenc1:amd64	1:1.1.4-1
+* libfreetype6:amd64	2.10.4+dfsg-1
+* libfribidi0:amd64	1.0.8-2
+* libgcc-10-dev:amd64	10.2.1-6
+* libgcc-s1:amd64	10.2.1-6
+* libgcrypt20:amd64	1.8.7-6
+* libgdbm-compat4:amd64	1.19-2
+* libgdbm6:amd64	1.19-2
+* libgdk-pixbuf-2.0-0:amd64	2.42.2+dfsg-1
+* libgdk-pixbuf2.0-bin	2.42.2+dfsg-1
+* libgdk-pixbuf2.0-common	2.42.2+dfsg-1
+* libgl1-mesa-dri:amd64	20.3.5-1
+* libgl1:amd64	1.3.2-1
+* libglapi-mesa:amd64	20.3.5-1
+* libglib2.0-0:amd64	2.66.8-1
+* libglib2.0-data	2.66.8-1
+* libglvnd0:amd64	1.3.2-1
+* libglx-mesa0:amd64	20.3.5-1
+* libglx0:amd64	1.3.2-1
+* libgmp10:amd64	2:6.2.1+dfsg-1+deb11u1
+* libgnutls30:amd64	3.7.1-5
+* libgomp1:amd64	10.2.1-6
+* libgpg-error0:amd64	1.38-2
+* libgraphite2-3:amd64	1.3.14-1
+* libgssapi-krb5-2:amd64	1.18.3-6+deb11u1
+* libgtk-3-0:amd64	3.24.24-4+deb11u2
+* libgtk-3-bin	3.24.24-4+deb11u2
+* libgtk-3-common	3.24.24-4+deb11u2
+* libharfbuzz0b:amd64	2.7.4-1
+* libhogweed6:amd64	3.7.3-1
+* libhtml-form-perl	6.07-1
+* libhtml-format-perl	2.12-1.1
+* libhtml-parser-perl	3.75-1+b1
+* libhtml-tagset-perl	3.20-4
+* libhtml-tree-perl	5.07-2
+* libhttp-cookies-perl	6.10-1
+* libhttp-daemon-perl	6.12-1
+* libhttp-date-perl	6.05-1
+* libhttp-message-perl	6.28-1
+* libhttp-negotiate-perl	6.01-1
+* libice6:amd64	2:1.0.10-1
+* libicu67:amd64	67.1-7
+* libidn2-0:amd64	2.3.0-5
+* libio-html-perl	1.004-2
+* libio-socket-ssl-perl	2.069-1
+* libio-stringy-perl	2.111-3
+* libipc-system-simple-perl	1.30-1
+* libisl23:amd64	0.23-1
+* libitm1:amd64	10.2.1-6
+* libjbig0:amd64	2.1-3.1+b2
+* libjpeg62-turbo:amd64	1:2.0.6-4
+* libjs-highlight.js	9.18.5+dfsg1-1
+* libjs-inherits	2.0.4-1
+* libjs-is-typedarray	1.0.0-3
+* libjs-psl	1.8.0+ds-4
+* libjs-typedarray-to-buffer	4.0.0-1
+* libjson-glib-1.0-0:amd64	1.6.2-1
+* libjson-glib-1.0-common	1.6.2-1
+* libk5crypto3:amd64	1.18.3-6+deb11u1
+* libkeyutils1:amd64	1.6.1-2
+* libkrb5-3:amd64	1.18.3-6+deb11u1
+* libkrb5support0:amd64	1.18.3-6+deb11u1
+* libksba8:amd64	1.5.0-3
+* liblcms2-2:amd64	2.12~rc1-2
+* libldap-2.4-2:amd64	2.4.57+dfsg-3
+* libldap-common	2.4.57+dfsg-3
+* libllvm11:amd64	1:11.0.1-2
+* liblocale-gettext-perl	1.07-4+b1
+* liblsan0:amd64	10.2.1-6
+* liblua5.3-0:amd64	5.3.3-1.1+b1
+* liblwp-mediatypes-perl	6.04-1
+* liblwp-protocol-https-perl	6.10-1
+* liblz4-1:amd64	1.9.3-2
+* liblzma5:amd64	5.2.5-2
+* libmailtools-perl	2.21-1
+* libmd0:amd64	1.0.3-3
+* libmount1:amd64	2.36.1-8+deb11u1
+* libmpc3:amd64	1.2.0-1
+* libmpdec3:amd64	2.5.1-1
+* libmpfr6:amd64	4.1.0-3
+* libncurses6:amd64	6.2+20201114-2
+* libncursesw6:amd64	6.2+20201114-2
+* libnet-dbus-perl	1.2.0-1+b1
+* libnet-http-perl	6.20-1
+* libnet-smtp-ssl-perl	1.04-1
+* libnet-ssleay-perl	1.88-3+b1
+* libnettle8:amd64	3.7.3-1
+* libnghttp2-14:amd64	1.43.0-1
+* libnode-dev	12.22.5~dfsg-2~11u1
+* libnode72:amd64	12.22.5~dfsg-2~11u1
+* libnpth0:amd64	1.6-3
+* libnsl-dev:amd64	1.3.0-2
+* libnsl2:amd64	1.3.0-2
+* libp11-kit0:amd64	0.23.22-1
+* libpam-modules-bin	1.4.0-9+deb11u1
+* libpam-modules:amd64	1.4.0-9+deb11u1
+* libpam-runtime	1.4.0-9+deb11u1
+* libpam0g:amd64	1.4.0-9+deb11u1
+* libpango-1.0-0:amd64	1.46.2-3
+* libpangocairo-1.0-0:amd64	1.46.2-3
+* libpangoft2-1.0-0:amd64	1.46.2-3
+* libpciaccess0:amd64	0.16-1
+* libpcre2-8-0:amd64	10.36-2
+* libpcre3:amd64	2:8.39-13
+* libperl5.32:amd64	5.32.1-4+deb11u2
+* libpixman-1-0:amd64	0.40.0-1
+* libpng16-16:amd64	1.6.37-3
+* libprocps8:amd64	2:3.3.17-5
+* libproxy1v5:amd64	0.4.17-1
+* libpsl5:amd64	0.21.0-1.2
+* libpython2-dev:amd64	2.7.18-3
+* libpython2-stdlib:amd64	2.7.18-3
+* libpython2.7-dev:amd64	2.7.18-8
+* libpython2.7-minimal:amd64	2.7.18-8
+* libpython2.7-stdlib:amd64	2.7.18-8
+* libpython2.7:amd64	2.7.18-8
+* libpython3-stdlib:amd64	3.9.2-3
+* libpython3.9-minimal:amd64	3.9.2-1
+* libpython3.9-stdlib:amd64	3.9.2-1
+* libquadmath0:amd64	10.2.1-6
+* libreadline8:amd64	8.1-1
+* librest-0.7-0:amd64	0.8.1-1.1
+* librsvg2-2:amd64	2.50.3+dfsg-1
+* librsvg2-common:amd64	2.50.3+dfsg-1
+* librtmp1:amd64	2.4+20151223.gitfa8646d.1-2+b2
+* libsasl2-2:amd64	2.1.27+dfsg-2.1+deb11u1
+* libsasl2-modules-db:amd64	2.1.27+dfsg-2.1+deb11u1
+* libsasl2-modules:amd64	2.1.27+dfsg-2.1+deb11u1
+* libseccomp2:amd64	2.5.1-1+deb11u1
+* libselinux1:amd64	3.1-3
+* libsemanage-common	3.1-1
+* libsemanage1:amd64	3.1-1+b2
+* libsensors-config	1:3.6.0-7
+* libsensors5:amd64	1:3.6.0-7
+* libsepol1:amd64	3.1-1
+* libsm6:amd64	2:1.2.3-1
+* libsmartcols1:amd64	2.36.1-8+deb11u1
+* libsoup-gnome2.4-1:amd64	2.72.0-2
+* libsoup2.4-1:amd64	2.72.0-2
+* libsqlite3-0:amd64	3.34.1-3
+* libss2:amd64	1.46.5-2~bpo11+2
+* libssh2-1:amd64	1.9.0-2
+* libssl-dev:amd64	1.1.1n-0+deb11u1
+* libssl1.1:amd64	1.1.1n-0+deb11u1
+* libstdc++-10-dev:amd64	10.2.1-6
+* libstdc++6:amd64	10.2.1-6
+* libsystemd0:amd64	250.3-2~bpo11+1
+* libtasn1-6:amd64	4.16.0-2
+* libtext-iconv-perl	1.7-7+b1
+* libthai-data	0.1.28-3
+* libthai0:amd64	0.1.28-3
+* libtie-ixhash-perl	1.23-2.1
+* libtiff5:amd64	4.2.0-1+deb11u1
+* libtimedate-perl	2.3300-2
+* libtinfo6:amd64	6.2+20201114-2
+* libtirpc-common	1.3.1-1
+* libtirpc-dev:amd64	1.3.1-1
+* libtirpc3:amd64	1.3.1-1
+* libtry-tiny-perl	0.30-1
+* libtsan0:amd64	10.2.1-6
+* libubsan1:amd64	10.2.1-6
+* libudev1:amd64	250.3-2~bpo11+1
+* libunistring2:amd64	0.9.10-4
+* liburi-perl	5.08-1
+* libuuid1:amd64	2.36.1-8+deb11u1
+* libuv1-dev:amd64	1.40.0-2
+* libuv1:amd64	1.40.0-2
+* libvte-2.91-0:amd64	0.62.3-1
+* libvte-2.91-common	0.62.3-1
+* libvulkan1:amd64	1.2.162.0-1
+* libwayland-client0:amd64	1.18.0-2~exp1.1
+* libwayland-cursor0:amd64	1.18.0-2~exp1.1
+* libwayland-egl1:amd64	1.18.0-2~exp1.1
+* libwebp6:amd64	0.6.1-2.1
+* libwww-perl	6.52-1
+* libwww-robotrules-perl	6.02-1
+* libx11-6:amd64	2:1.7.2-1
+* libx11-data	2:1.7.2-1
+* libx11-protocol-perl	0.56-7.1
+* libx11-xcb1:amd64	2:1.7.2-1
+* libxau6:amd64	1:1.0.9-1
+* libxaw7:amd64	2:1.0.13-1.1
+* libxcb-dri2-0:amd64	1.14-3
+* libxcb-dri3-0:amd64	1.14-3
+* libxcb-glx0:amd64	1.14-3
+* libxcb-present0:amd64	1.14-3
+* libxcb-randr0:amd64	1.14-3
+* libxcb-render0:amd64	1.14-3
+* libxcb-shape0:amd64	1.14-3
+* libxcb-shm0:amd64	1.14-3
+* libxcb-sync1:amd64	1.14-3
+* libxcb-xfixes0:amd64	1.14-3
+* libxcb1:amd64	1.14-3
+* libxcomposite1:amd64	1:0.4.5-1
+* libxcursor1:amd64	1:1.2.0-2
+* libxdamage1:amd64	1:1.1.5-2
+* libxdmcp6:amd64	1:1.1.2-3
+* libxext6:amd64	2:1.3.3-1.1
+* libxfixes3:amd64	1:5.0.3-2
+* libxft2:amd64	2.3.2-2
+* libxi6:amd64	2:1.7.10-1
+* libxinerama1:amd64	2:1.1.4-2
+* libxkbcommon0:amd64	1.0.3-2
+* libxkbfile1:amd64	1:1.1.0-1
+* libxml-parser-perl:amd64	2.46-2
+* libxml-twig-perl	1:3.52-1
+* libxml-xpathengine-perl	0.14-1
+* libxml2:amd64	2.9.10+dfsg-6.7+deb11u1
+* libxmu6:amd64	2:1.1.2-2+b3
+* libxmuu1:amd64	2:1.1.2-2+b3
+* libxpm4:amd64	1:3.5.12-1
+* libxrandr2:amd64	2:1.5.1-1
+* libxrender1:amd64	1:0.9.10-1
+* libxshmfence1:amd64	1.3-1
+* libxt6:amd64	1:1.2.0-1
+* libxtst6:amd64	2:1.2.3-1
+* libxv1:amd64	2:1.0.11-1
+* libxxf86dga1:amd64	2:1.1.4-1+b3
+* libxxf86vm1:amd64	1:1.1.4-1+b2
+* libxxhash0:amd64	0.8.0-2
+* libz3-4:amd64	4.8.10-1
+* libzstd1:amd64	1.4.8+dfsg-2.1
+* linux-libc-dev:amd64	5.10.92-1
+* login	1:4.8.1-1
+* logsave	1.46.5-2~bpo11+2
+* lsb-base	11.1.0
+* lsb-release	11.1.0
+* mailcap	3.69
+* make	4.3-4.1
+* mawk	1.3.4.20200120-2
+* media-types	4.0.0
+* mesa-vulkan-drivers:amd64	20.3.5-1
+* mime-support	3.66
+* mount	2.36.1-8+deb11u1
+* ncurses-base	6.2+20201114-2
+* ncurses-bin	6.2+20201114-2
+* netbase	6.3
+* node-abbrev	1.1.1-2
+* node-agent-base	6.0.2-2
+* node-ajv	6.12.6-2
+* node-ansi	0.3.1-1
+* node-ansi-regex	5.0.1-1~deb11u1
+* node-ansi-styles	4.2.1-1
+* node-ansistyles	0.1.3-2
+* node-aproba	2.0.0-1
+* node-archy	1.0.0-3
+* node-are-we-there-yet	1.1.5-1
+* node-asap	2.0.6-2
+* node-asn1	0.2.3-2
+* node-assert-plus	1.0.0-2
+* node-asynckit	0.4.0-3
+* node-aws-sign2	0.7.1-2
+* node-aws4	1.11.0-1
+* node-balanced-match	1.0.0-1
+* node-bcrypt-pbkdf	1.0.2-1
+* node-brace-expansion	2.0.0-1
+* node-builtins	1.0.3-2
+* node-cacache	15.0.5+~cs13.9.21-1
+* node-caseless	0.12.1-1
+* node-chalk	4.1.0-1
+* node-chownr	1.1.3-5
+* node-clone	2.1.2-2
+* node-color-convert	1.9.3-1
+* node-color-name	1.1.4+~1.1.1-1
+* node-colors	1.4.0-1
+* node-columnify	1.5.4-3
+* node-combined-stream	1.0.8-1
+* node-concat-map	0.0.1-2
+* node-console-control-strings	1.1.0-2
+* node-copy-concurrently	1.0.5-7
+* node-core-util-is	1.0.2-2
+* node-dashdash	2.0.0-1
+* node-debug	4.3.1+~cs4.1.5-1
+* node-defaults	1.0.3-2
+* node-delayed-stream	1.0.0-4
+* node-delegates	1.0.0-2
+* node-depd	2.0.0-1
+* node-ecc-jsbn	0.2.0-2
+* node-encoding	0.1.13-1
+* node-err-code	2.0.3+dfsg-1
+* node-escape-string-regexp	4.0.0-1
+* node-extend	3.0.2-1
+* node-extsprintf	1.4.0-1
+* node-fast-deep-equal	3.1.3-1
+* node-forever-agent	0.6.1-2
+* node-form-data	3.0.0-2
+* node-fs-write-stream-atomic	1.0.10-4
+* node-fs.realpath	1.0.0-1.1
+* node-function-bind	1.1.1+repack-1
+* node-gauge	2.7.4-1.1
+* node-getpass	0.1.7-1.1
+* node-glob	7.1.6+~7.1.3-1
+* node-graceful-fs	4.2.4+repack-1
+* node-gyp	7.1.2-4
+* node-har-schema	2.0.0-4
+* node-har-validator	5.1.5-1
+* node-has-flag	4.0.0-1
+* node-has-unicode	2.0.1-2
+* node-hosted-git-info	3.0.8-1
+* node-http-signature	1.3.5-1
+* node-https-proxy-agent	5.0.0-3
+* node-iconv-lite	0.5.1-3
+* node-iferr	1.0.2-1
+* node-imurmurhash	0.1.4-1.1
+* node-indent-string	4.0.0-1
+* node-inflight	1.0.6-1.1
+* node-inherits	2.0.4-1
+* node-ini	2.0.0-1
+* node-ip	1.1.5-5
+* node-ip-regex	4.3.0-1
+* node-is-typedarray	1.0.0-3
+* node-isarray	2.0.5-1
+* node-isexe	2.0.0-5
+* node-isstream	0.1.2+dfsg-1.1
+* node-jsbn	1.1.0-1.1
+* node-json-parse-better-errors	1.0.2+~2.3.1-1
+* node-json-schema	0.3.0+~7.0.6-1+deb11u1
+* node-json-schema-traverse	1.0.0-2
+* node-json-stable-stringify	1.0.1+~cs5.1.32-1
+* node-json-stringify-safe	5.0.1+repack-3
+* node-jsonify	0.0.0-1.1
+* node-jsonparse	1.3.1-7
+* node-jsonstream	1.3.5-1
+* node-jsprim	2.0.0-1
+* node-leven	3.1.0+~cs1.1.1-1
+* node-lockfile	1.0.4-3
+* node-lru-cache	5.1.1-5
+* node-mime	2.5.0+dfsg+~cs3.90.0-1
+* node-mime-types	2.1.28-1
+* node-minimatch	3.0.4+~3.0.3-1
+* node-mkdirp	1.0.4+~1.0.1-1
+* node-move-concurrently	1.0.1-2
+* node-ms	2.1.3+~cs0.7.31-1
+* node-mute-stream	0.0.8-2
+* node-nopt	5.0.0-1
+* node-normalize-package-data	3.0.0+~2.4.0-1
+* node-npm-bundled	1.1.1-1
+* node-npm-package-arg	8.1.0-1
+* node-npmlog	4.1.2-2
+* node-number-is-nan	2.0.0-1
+* node-oauth-sign	0.9.0-2
+* node-object-assign	4.1.1-3
+* node-once	1.4.0-3
+* node-opener	1.5.2-1
+* node-osenv	0.1.5-1
+* node-p-map	4.0.0-1
+* node-path-is-absolute	2.0.0-1
+* node-performance-now	2.1.0+debian-1.1
+* node-process-nextick-args	2.0.0-1
+* node-promise-inflight	1.0.1-1.1
+* node-promise-retry	2.0.1-1
+* node-promzard	0.3.0-1.1
+* node-psl	1.8.0+ds-4
+* node-puka	1.0.1+dfsg-2
+* node-punycode	2.1.1-3
+* node-qs	6.9.4+ds-1
+* node-read	1.0.7-2
+* node-read-package-json	3.0.0-1
+* node-readable-stream	3.6.0-2
+* node-request	2.88.1-5
+* node-resolve	1.19.0+~cs5.20.8-2
+* node-resolve-from	5.0.0+~3.1.0+~3.3.0+~2.0.0-1
+* node-retry	0.12.0-1
+* node-rimraf	3.0.2-1
+* node-run-queue	2.0.0-1
+* node-safe-buffer	5.2.1+~cs2.1.2-1
+* node-semver	7.3.4-1
+* node-set-blocking	2.0.0-1.1
+* node-signal-exit	3.0.3-1
+* node-slash	3.0.0-1
+* node-spdx-correct	3.1.1-1
+* node-spdx-exceptions	2.3.0-1
+* node-spdx-expression-parse	3.0.1-1
+* node-spdx-license-ids	3.0.7-1
+* node-sshpk	1.16.1+dfsg-2
+* node-ssri	8.0.1-2
+* node-string-decoder	1.3.0-2
+* node-string-width	4.2.0-1
+* node-strip-ansi	6.0.0-2
+* node-supports-color	8.1.0+~7.2.0-1
+* node-tar	6.0.5+ds1+~cs11.3.9-1+deb11u2
+* node-text-table	0.2.0-2
+* node-through	2.3.8+~cs0.0.30-1
+* node-tough-cookie	4.0.0-2
+* node-tunnel-agent	0.6.1-2
+* node-tweetnacl	1.0.3+dfsg-1
+* node-typedarray-to-buffer	4.0.0-1
+* node-unique-filename	1.1.1+ds-1
+* node-universalify	2.0.0-2
+* node-uri-js	4.4.0+dfsg-5
+* node-util-deprecate	1.0.2-1
+* node-uuid	8.3.2+~8.3.0-4
+* node-validate-npm-package-license	3.0.4-1
+* node-validate-npm-package-name	3.0.0-1.1
+* node-verror	1.10.0-1.1
+* node-wcwidth.js	1.0.0-1.1
+* node-which	2.0.2+~cs1.3.2-1
+* node-wide-align	1.1.3-1
+* node-wrappy	1.0.2-1.1
+* node-write-file-atomic	3.0.3+~3.0.1-1
+* node-yallist	4.0.0-1
+* nodejs	12.22.5~dfsg-2~11u1
+* nodejs-doc	12.22.5~dfsg-2~11u1
+* npm	7.5.2+ds-2
+* openssh-client	1:8.4p1-5
+* openssl	1.1.1k-1+deb11u1
+* passwd	1:4.8.1-1
+* patch	2.7.6-7
+* perl	5.32.1-4+deb11u2
+* perl-base	5.32.1-4+deb11u2
+* perl-modules-5.32	5.32.1-4+deb11u2
+* perl-openssl-defaults:amd64	5
+* pinentry-curses	1.1.0-4
+* procps	2:3.3.17-5
+* publicsuffix	20211207.1025-0+deb11u1
+* python-dev-is-python2	2.7.18-9
+* python-is-python2	2.7.18-9
+* python2	2.7.18-3
+* python2-dev	2.7.18-3
+* python2-minimal	2.7.18-3
+* python2.7	2.7.18-8
+* python2.7-dev	2.7.18-8
+* python2.7-minimal	2.7.18-8
+* python3	3.9.2-3
+* python3-minimal	3.9.2-3
+* python3-pkg-resources	52.0.0-4
+* python3.9	3.9.2-1
+* python3.9-minimal	3.9.2-1
+* readline-common	8.1-1
+* sed	4.7-1
+* sensible-utils	0.0.14
+* shared-mime-info	2.0-1
+* sysvinit-utils	2.96-7
+* tar	1.34+dfsg-1
+* termit	3.1-1
+* tzdata	2021a-1+deb11u2
+* ucf	3.0043
+* util-linux	2.36.1-8+deb11u1
+* x11-common	1:7.7+22
+* x11-utils	7.7+5
+* x11-xserver-utils	7.7+8
+* xauth	1:1.1-1
+* xdg-user-dirs	0.17-2
+* xdg-utils	1.1.3-4.1
+* xkb-data	2.29-2
+* xz-utils	5.2.5-2
+* zlib1g:amd64	1:1.2.11.dfsg-2
