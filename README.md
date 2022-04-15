@@ -68,6 +68,7 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/flask-nginx](demisto/flask-nginx/last.md)
 * [demisto/genericsql](demisto/genericsql/last.md)
 * [demisto/geopy](demisto/geopy/last.md)
+* [demisto/glpi](demisto/glpi/last.md)
 * [demisto/google-api](demisto/google-api/last.md)
 * [demisto/google-api-py3](demisto/google-api-py3/last.md)
 * [demisto/google-cloud-securitycenter](demisto/google-cloud-securitycenter/last.md)
@@ -241,4 +242,4 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2022-04-14 01:11:30.133290
+Last updated: 2022-04-15 01:11:09.686730
