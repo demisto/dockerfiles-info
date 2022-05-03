@@ -1,28 +1,29 @@
-# `demisto/tableau:1.0.0.29219`
+# `demisto/pydantic-jwt3:1.0.0.29203`
 ## Docker Metadata
-- Image Size: `25.22 MB`
-- Image ID: `sha256:5a7d73741dd4abf3d175e9cf252db3f755f08db3532c6dedda93859ed4717856`
-- Created: `2022-05-02T11:40:22.698347826Z`
+- Image Size: `44.54 MB`
+- Image ID: `sha256:6ad4d668ffee0ffa4da72c0f4cbbbdcdd1fa61364047e4887c25b5cc887c6c6a`
+- Created: `2022-05-02T11:33:24.776408093Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
-  - `PYTHON_VERSION=3.9.6`
-  - `PYTHON_PIP_VERSION=21.1.3`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/a1675ab6c2bd898ed82b1f58c486097f763c74a9/public/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=6665659241292b2147b58922b9ffe11dda66b39d52d8a6f3aa310bc1d60ea6f7`
-  - `DOCKER_IMAGE=demisto/tableau:1.0.0.29219`
+  - `PYTHON_VERSION=3.9.7`
+  - `PYTHON_PIP_VERSION=21.2.4`
+  - `PYTHON_SETUPTOOLS_VERSION=57.5.0`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/c20b0cfd643cd4a19246ccf204e2997af70f6b21/public/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=fa6f3fb93cce234cd4e8dd2beb54a51ab9c247653b52855a48dd44e6b21ff28b`
+  - `DOCKER_IMAGE=demisto/pydantic-jwt3:1.0.0.29203`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b3efce9ae437f60c1011e93ab190c9712772469d`
-  - `org.opencontainers.image.version:1.0.0.29219`
+  - `org.opencontainers.image.revision:ebf074207b6d1fbaec016db84e01250ef79ba7c0`
+  - `org.opencontainers.image.version:1.0.0.29203`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.14.0`
+  - `VERSION_ID=3.14.2`
   - `PRETTY_NAME="Alpine Linux v3.14"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://bugs.alpinelinux.org/"`
@@ -30,15 +31,15 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/tableau:1.0.0.29219
+Signatures for demisto/pydantic-jwt3:1.0.0.29203
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.29219         e7e8b8992a8ca6688b86af093915d77fc8d14f176b6ccccd32ebcebbd752a5fb   (Repo Admin)
+1.0.0.29203         35ae481d99baf43dd8a915736f20828bf41918dda2086950a37db0bef94d6734   (Repo Admin)
 
-Administrative keys for demisto/tableau:1.0.0.29219
+Administrative keys for demisto/pydantic-jwt3:1.0.0.29203
 
-  Repository Key:	50ac01ce180f1b000cfe27db150e2955d3db04197b88a823381d0de419e6c647
-  Root Key:	61f0313264114e5a2dcf615cce1f3988f325f76ec1272d1ecb66d2deb8157ae1
+  Repository Key:	ebd810d6ba96216148d00743ba95e5a7c3894558cc5685acf99273239ec73c67
+  Root Key:	bd27840ae352b0935b4ab4b0b6b57e93a55b6db185bb23b4c7eb936db572f5c7
 
 ```
 
@@ -54,6 +55,15 @@ Administrative keys for demisto/tableau:1.0.0.29219
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
+### `cffi`
+
+* Summary: Foreign Function Interface for Python calling C code.
+* Version: 1.15.0
+* Pypi: https://pypi.org/project/cffi/
+* Homepage: http://cffi.readthedocs.org
+* Author: Armin Rigo, Maciej Fijalkowski python-cffi@googlegroups.com
+* License :: OSI Approved :: MIT License
+
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
@@ -63,6 +73,16 @@ Administrative keys for demisto/tableau:1.0.0.29219
 * Author: Ahmed TAHRI @Ousret ahmed.tahri@cloudnursery.dev
 * License :: OSI Approved :: MIT License
 
+### `cryptography`
+
+* Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
+* Version: 36.0.1
+* Pypi: https://pypi.org/project/cryptography/
+* Homepage: https://github.com/pyca/cryptography
+* Author: The Python Cryptographic Authority and individual contributors cryptography-dev@python.org
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: BSD License
+
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
@@ -71,15 +91,6 @@ Administrative keys for demisto/tableau:1.0.0.29219
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub info@scrapinghub.com
 * License :: OSI Approved :: BSD License
-
-### `defusedxml`
-
-* Summary: XML bomb protection for Python stdlib modules
-* Version: 0.7.1
-* Pypi: https://pypi.org/project/defusedxml/
-* Homepage: https://github.com/tiran/defusedxml
-* Author: Christian Heimes christian@python.org
-* License :: OSI Approved :: Python Software Foundation License
 
 ### `filelock`
 
@@ -108,6 +119,15 @@ Administrative keys for demisto/tableau:1.0.0.29219
 * Author: Kim Davies kim@cynosure.com.au
 * License :: OSI Approved :: BSD License
 
+### `msal`
+
+* Summary: The Microsoft Authentication Library (MSAL) for Python library enables your app to access the Microsoft Cloud by supporting authentication of users with Microsoft Azure Active Directory accounts (AAD) and Microsoft Accounts (MSA) using industry standard OAuth2 and OpenID Connect.
+* Version: 1.17.0
+* Pypi: https://pypi.org/project/msal/
+* Homepage: https://github.com/AzureAD/microsoft-authentication-library-for-python
+* Author: Microsoft Corporation nugetaad@microsoft.com
+* License :: OSI Approved :: MIT License
+
 ### `olefile`
 
 * Summary: Python package to parse, read and write Microsoft OLE2 files (Structured Storage or Compound Document, Microsoft Office)
@@ -126,14 +146,32 @@ Administrative keys for demisto/tableau:1.0.0.29219
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
-### `PyPDF2`
+### `pycparser`
 
-* Summary: A pure-python PDF library capable of splitting, merging, cropping, and transforming PDF files
-* Version: 1.27.11
-* Pypi: https://pypi.org/project/PyPDF2/
-* Homepage: https://pypdf2.readthedocs.io/en/latest/
-* Author: Mathieu Fenniak biziqe@mathieu.fenniak.net
+* Summary: C parser in Python
+* Version: 2.21
+* Pypi: https://pypi.org/project/pycparser/
+* Homepage: https://github.com/eliben/pycparser
+* Author: Eli Bendersky eliben@gmail.com
 * License :: OSI Approved :: BSD License
+
+### `pydantic`
+
+* Summary: Data validation and settings management using python 3.6 type hinting
+* Version: 1.9.0
+* Pypi: https://pypi.org/project/pydantic/
+* Homepage: https://github.com/samuelcolvin/pydantic
+* Author: Samuel Colvin s@muelcolvin.com
+* License :: OSI Approved :: MIT License
+
+### `PyJWT`
+
+* Summary: JSON Web Token implementation in Python
+* Version: 2.3.0
+* Pypi: https://pypi.org/project/PyJWT/
+* Homepage: https://github.com/jpadilla/pyjwt
+* Author: Jose Padilla hello@jpadilla.com
+* License :: OSI Approved :: MIT License
 
 ### `PySocks`
 
@@ -202,7 +240,7 @@ Administrative keys for demisto/tableau:1.0.0.29219
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 57.0.0
+* Version: 57.5.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
@@ -217,15 +255,6 @@ Administrative keys for demisto/tableau:1.0.0.29219
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
-### `tableauserverclient`
-
-* Summary: A Python module for working with the Tableau Server REST API.
-* Version: 0.18.0.post0.dev4
-* Pypi: https://pypi.org/project/tableauserverclient/
-* Homepage: https://github.com/tableau/server-client-python
-* Author: Tableau github@tableau.com
-* License: MIT
-
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
@@ -234,6 +263,15 @@ Administrative keys for demisto/tableau:1.0.0.29219
 * Homepage: https://github.com/john-kurkowski/tldextract
 * Author: John Kurkowski john.kurkowski@gmail.com
 * License :: OSI Approved :: BSD License
+
+### `typing_extensions`
+
+* Summary: Backported and Experimental Type Hints for Python 3.7+
+* Version: 4.2.0
+* Pypi: https://pypi.org/project/typing-extensions/
+* Homepage: 
+* Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
+* License :: OSI Approved :: Python Software Foundation License
 
 ### `tzlocal`
 
@@ -247,7 +285,7 @@ Administrative keys for demisto/tableau:1.0.0.29219
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 1.26.9
+* Version: 1.26.8
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: https://urllib3.readthedocs.io/
 * Author: Andrey Petrov andrey.petrov@shazow.net
@@ -256,7 +294,7 @@ Administrative keys for demisto/tableau:1.0.0.29219
 ### `wheel`
 
 * Summary: A built-package format for Python
-* Version: 0.36.2
+* Version: 0.37.0
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: https://github.com/pypa/wheel
 * Author: Daniel Holth dholth@fastmail.fm
@@ -264,10 +302,10 @@ Administrative keys for demisto/tableau:1.0.0.29219
 
 ## `OS Packages`
 
-* .python-rundeps-20210629.193729 noarch {.python-rundeps}
+* .python-rundeps-20210831.190244 noarch {.python-rundeps}
 * alpine-baselayout-3.2.0-r16 x86_64 {alpine-baselayout}
 * alpine-keys-2.3-r1 x86_64 {alpine-keys}
-* apk-tools-2.12.5-r1 x86_64 {apk-tools}
+* apk-tools-2.12.7-r0 x86_64 {apk-tools}
 * busybox-1.33.1-r3 x86_64 {busybox}
 * ca-certificates-20191127-r5 x86_64 {ca-certificates}
 * ca-certificates-bundle-20191127-r5 x86_64 {ca-certificates}
@@ -275,16 +313,16 @@ Administrative keys for demisto/tableau:1.0.0.29219
 * gdbm-1.19-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r0 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.18.3-r1 x86_64 {krb5}
+* krb5-libs-1.18.4-r0 x86_64 {krb5}
 * libbz2-1.0.8-r1 x86_64 {bzip2}
 * libc-utils-0.7.2-r3 x86_64 {libc-dev}
 * libcom_err-1.46.2-r0 x86_64 {e2fsprogs}
-* libcrypto1.1-1.1.1k-r0 x86_64 {openssl}
+* libcrypto1.1-1.1.1l-r0 x86_64 {openssl}
 * libffi-3.3-r2 x86_64 {libffi}
 * libintl-0.21-r0 x86_64 {gettext}
 * libnsl-1.3.0-r0 x86_64 {libnsl}
-* libretls-3.3.3-r2 x86_64 {libretls}
-* libssl1.1-1.1.1k-r0 x86_64 {openssl}
+* libretls-3.3.3p1-r2 x86_64 {libretls}
+* libssl1.1-1.1.1l-r0 x86_64 {openssl}
 * libtirpc-1.3.2-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.3.2-r0 x86_64 {libtirpc}
 * libuuid-2.37-r0 x86_64 {util-linux}

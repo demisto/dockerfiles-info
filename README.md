@@ -151,6 +151,7 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/py3ews](demisto/py3ews/last.md)
 * [demisto/py42](demisto/py42/last.md)
 * [demisto/pycef](demisto/pycef/last.md)
+* [demisto/pydantic-jwt3](demisto/pydantic-jwt3/last.md)
 * [demisto/pyjarm](demisto/pyjarm/last.md)
 * [demisto/pyjwt](demisto/pyjwt/last.md)
 * [demisto/pyjwt3](demisto/pyjwt3/last.md)
@@ -242,4 +243,4 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2022-05-02 01:08:05.724749
+Last updated: 2022-05-03 01:10:51.135629
