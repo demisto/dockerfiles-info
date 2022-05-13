@@ -66,6 +66,7 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/feed-performance-test](demisto/feed-performance-test/last.md)
 * [demisto/fetch-data](demisto/fetch-data/last.md)
 * [demisto/flask-nginx](demisto/flask-nginx/last.md)
+* [demisto/gdetect](demisto/gdetect/last.md)
 * [demisto/genericsql](demisto/genericsql/last.md)
 * [demisto/geopy](demisto/geopy/last.md)
 * [demisto/glpi](demisto/glpi/last.md)
@@ -243,4 +244,4 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2022-05-12 01:09:23.067256
+Last updated: 2022-05-13 01:07:35.107894
