@@ -1,8 +1,8 @@
-# `demisto/tidy:1.0.0.29780`
+# `demisto/duoadmin3:1.0.0.29763`
 ## Docker Metadata
-- Image Size: `108.75 MB`
-- Image ID: `sha256:046e3f91bd34a80bf42eea57190dc502cc5a833f431e13930eb7173fea010632`
-- Created: `2022-05-17T07:56:53.380723698Z`
+- Image Size: `41.72 MB`
+- Image ID: `sha256:b263bd4bf3458ce44278144074932ba58a8d2f642423223b80bd2e75ea2c66f9`
+- Created: `2022-05-17T07:44:59.234192024Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -14,11 +14,11 @@
   - `PYTHON_SETUPTOOLS_VERSION=58.1.0`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/38e54e5de07c66e875c11a1ebbdb938854625dd8/public/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=e235c437e5c7d7524fbce3880ca39b917a73dc565e0c813465b7a7a329bb279a`
-  - `DOCKER_IMAGE=demisto/tidy:1.0.0.29780`
+  - `DOCKER_IMAGE=demisto/duoadmin3:1.0.0.29763`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:9b5c468410f592d249a827206ae8a49985e84b38`
-  - `org.opencontainers.image.version:1.0.0.29780`
+  - `org.opencontainers.image.revision:3ddf42a2507e62d21e32ac81ccf336ea181aabf6`
+  - `org.opencontainers.image.version:1.0.0.29763`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -31,38 +31,20 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/tidy:1.0.0.29780
+Signatures for demisto/duoadmin3:1.0.0.29763
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.29780         48a92dbc150e368b0efb278759772fde33415b0bc19ec141b38644d57cf1a7db   (Repo Admin)
+1.0.0.29763         7d52af98412e7b294121e3b0f9ca844045b02affad923bd283967d8a1c8f9934   (Repo Admin)
 
-Administrative keys for demisto/tidy:1.0.0.29780
+Administrative keys for demisto/duoadmin3:1.0.0.29763
 
-  Repository Key:	5f17b9d56ce23d820632c3aab69771c41c29b4a5ff9dfe8cbea5e4ca7cc9857b
-  Root Key:	35b6195205c264962e7a1726995d97d4c9f7d85c8a9c9909105016d7f930b79e
+  Repository Key:	9d19791f55fea8e28e5ce5a47c05bcbb6d82f4861ea03a5fe990e1e2658f5d77
+  Root Key:	8a51209996fc953df515ef631877f8dc1e9feae3101b25204fa605f1dd778ab8
 
 ```
 
 ## `Python Packages`
 
-
-### `ansible-runner`
-
-* Summary: "Consistent Ansible Python API and CLI with container and process isolation runtime capabilities"
-* Version: 2.2.0
-* Pypi: https://pypi.org/project/ansible-runner/
-* Homepage: https://ansible-runner.readthedocs.io
-* Author: Ansible, Inc. info@ansible.com
-* License :: Apache License 2.0
-
-### `bcrypt`
-
-* Summary: Modern password hashing for your software and your servers
-* Version: 3.2.2
-* Pypi: https://pypi.org/project/bcrypt/
-* Homepage: https://github.com/pyca/bcrypt/
-* Author: The Python Cryptographic Authority developers cryptography-dev@python.org
-* License :: OSI Approved :: Apache Software License
 
 ### `certifi`
 
@@ -73,15 +55,6 @@ Administrative keys for demisto/tidy:1.0.0.29780
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
-### `cffi`
-
-* Summary: Foreign Function Interface for Python calling C code.
-* Version: 1.15.0
-* Pypi: https://pypi.org/project/cffi/
-* Homepage: http://cffi.readthedocs.org
-* Author: Armin Rigo, Maciej Fijalkowski python-cffi@googlegroups.com
-* License :: OSI Approved :: MIT License
-
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
@@ -91,16 +64,6 @@ Administrative keys for demisto/tidy:1.0.0.29780
 * Author: Ahmed TAHRI @Ousret ahmed.tahri@cloudnursery.dev
 * License :: OSI Approved :: MIT License
 
-### `cryptography`
-
-* Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 37.0.2
-* Pypi: https://pypi.org/project/cryptography/
-* Homepage: https://github.com/pyca/cryptography
-* Author: The Python Cryptographic Authority and individual contributors cryptography-dev@python.org
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
-
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
@@ -108,6 +71,15 @@ Administrative keys for demisto/tidy:1.0.0.29780
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub info@scrapinghub.com
+* License :: OSI Approved :: BSD License
+
+### `duo-client`
+
+* Summary: Reference client for Duo Security APIs
+* Version: 4.4.0
+* Pypi: https://pypi.org/project/duo-client/
+* Homepage: https://github.com/duosecurity/duo_client_python
+* Author: Duo Security, Inc. support@duosecurity.com
 * License :: OSI Approved :: BSD License
 
 ### `filelock`
@@ -137,51 +109,6 @@ Administrative keys for demisto/tidy:1.0.0.29780
 * Author: Kim Davies kim@cynosure.com.au
 * License :: OSI Approved :: BSD License
 
-### `Jinja2`
-
-* Summary: A very fast and expressive template engine.
-* Version: 3.1.2
-* Pypi: https://pypi.org/project/Jinja2/
-* Homepage: https://palletsprojects.com/p/jinja/
-* Author: Armin Ronacher armin.ronacher@active-4.com
-* License :: OSI Approved :: BSD License
-
-### `lockfile`
-
-* Summary: Platform-independent file locking module
-* Version: 0.12.2
-* Pypi: https://pypi.org/project/lockfile/
-* Homepage: http://launchpad.net/pylockfile
-* Author: OpenStack openstack-dev@lists.openstack.org
-* License :: OSI Approved :: MIT License
-
-### `MarkupSafe`
-
-* Summary: Safely add untrusted strings to HTML/XML markup.
-* Version: 2.1.1
-* Pypi: https://pypi.org/project/MarkupSafe/
-* Homepage: https://palletsprojects.com/p/markupsafe/
-* Author: Armin Ronacher armin.ronacher@active-4.com
-* License :: OSI Approved :: BSD License
-
-### `msal`
-
-* Summary: The Microsoft Authentication Library (MSAL) for Python library enables your app to access the Microsoft Cloud by supporting authentication of users with Microsoft Azure Active Directory accounts (AAD) and Microsoft Accounts (MSA) using industry standard OAuth2 and OpenID Connect.
-* Version: 1.17.0
-* Pypi: https://pypi.org/project/msal/
-* Homepage: https://github.com/AzureAD/microsoft-authentication-library-for-python
-* Author: Microsoft Corporation nugetaad@microsoft.com
-* License :: OSI Approved :: MIT License
-
-### `ntlm-auth`
-
-* Summary: Creates NTLM authentication structures
-* Version: 1.5.0
-* Pypi: https://pypi.org/project/ntlm-auth/
-* Homepage: https://github.com/jborean93/ntlm-auth
-* Author: Jordan Borean jborean93@gmail.com
-* License :: OSI Approved :: MIT License
-
 ### `olefile`
 
 * Summary: Python package to parse, read and write Microsoft OLE2 files (Structured Storage or Compound Document, Microsoft Office)
@@ -190,34 +117,6 @@ Administrative keys for demisto/tidy:1.0.0.29780
 * Homepage: https://www.decalage.info/python/olefileio
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
-
-### `packaging`
-
-* Summary: Core utilities for Python packages
-* Version: 21.3
-* Pypi: https://pypi.org/project/packaging/
-* Homepage: https://github.com/pypa/packaging
-* Author: Donald Stufft and individual contributors donald@stufft.io
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
-
-### `paramiko`
-
-* Summary: SSH2 protocol library
-* Version: 2.11.0
-* Pypi: https://pypi.org/project/paramiko/
-* Homepage: https://paramiko.org
-* Author: Jeff Forcier jeff@bitprophet.org
-* License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
-
-### `pexpect`
-
-* Summary: Pexpect allows easy control of interactive console applications.
-* Version: 4.8.0
-* Pypi: https://pypi.org/project/pexpect/
-* Homepage: https://pexpect.readthedocs.io/
-* Author: Noah Spurrier; Thomas Kluyver; Jeff Quast noah@noah.org, thomas@kluyver.me.uk, contact@jeffquast.com
-* License :: OSI Approved :: ISC License (ISCL)
 
 ### `pip`
 
@@ -228,58 +127,13 @@ Administrative keys for demisto/tidy:1.0.0.29780
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
-### `psutil`
+### `pydantic`
 
-* Summary: Cross-platform lib for process and system monitoring in Python.
-* Version: 5.9.0
-* Pypi: https://pypi.org/project/psutil/
-* Homepage: https://github.com/giampaolo/psutil
-* Author: Giampaolo Rodola g.rodola@gmail.com
-* License :: OSI Approved :: BSD License
-
-### `ptyprocess`
-
-* Summary: Run a subprocess in a pseudo terminal
-* Version: 0.7.0
-* Pypi: https://pypi.org/project/ptyprocess/
-* Homepage: https://github.com/pexpect/ptyprocess
-* Author: Thomas Kluyver thomas@kluyver.me.uk
-* License :: OSI Approved :: ISC License (ISCL)
-
-### `pycparser`
-
-* Summary: C parser in Python
-* Version: 2.21
-* Pypi: https://pypi.org/project/pycparser/
-* Homepage: https://github.com/eliben/pycparser
-* Author: Eli Bendersky eliben@gmail.com
-* License :: OSI Approved :: BSD License
-
-### `PyJWT`
-
-* Summary: JSON Web Token implementation in Python
-* Version: 2.3.0
-* Pypi: https://pypi.org/project/PyJWT/
-* Homepage: https://github.com/jpadilla/pyjwt
-* Author: Jose Padilla hello@jpadilla.com
-* License :: OSI Approved :: MIT License
-
-### `PyNaCl`
-
-* Summary: Python binding to the Networking and Cryptography (NaCl) library
-* Version: 1.5.0
-* Pypi: https://pypi.org/project/PyNaCl/
-* Homepage: https://github.com/pyca/pynacl/
-* Author: The PyNaCl developers cryptography-dev@python.org
-* License: Apache License 2.0
-
-### `pyparsing`
-
-* Summary: pyparsing module - Classes and methods to define and execute parsing grammars
-* Version: 3.0.9
-* Pypi: https://pypi.org/project/pyparsing/
-* Homepage: 
-* Author: Paul McGuire <ptmcg.gm+pyparsing@gmail.com>
+* Summary: Data validation and settings management using python 3.6 type hinting
+* Version: 1.9.0
+* Pypi: https://pypi.org/project/pydantic/
+* Homepage: https://github.com/samuelcolvin/pydantic
+* Author: Samuel Colvin s@muelcolvin.com
 * License :: OSI Approved :: MIT License
 
 ### `PySocks`
@@ -290,15 +144,6 @@ Administrative keys for demisto/tidy:1.0.0.29780
 * Homepage: https://github.com/Anorov/PySocks
 * Author: Anorov anorov.vorona@gmail.com
 * License: BSD
-
-### `python-daemon`
-
-* Summary: Library to implement a well-behaved Unix daemon process.
-* Version: 2.3.0
-* Pypi: https://pypi.org/project/python-daemon/
-* Homepage: https://pagure.io/python-daemon/
-* Author: Ben Finney ben+python@benfinney.id.au
-* License :: OSI Approved :: Apache Software License
 
 ### `python-dateutil`
 
@@ -327,15 +172,6 @@ Administrative keys for demisto/tidy:1.0.0.29780
 * Homepage: https://github.com/pganssle/pytz-deprecation-shim
 * Author: Paul Ganssle paul@ganssle.io
 * License :: OSI Approved :: Apache Software License
-
-### `pywinrm`
-
-* Summary: Python library for Windows Remote Management
-* Version: 0.4.3
-* Pypi: https://pypi.org/project/pywinrm/
-* Homepage: http://github.com/diyan/pywinrm/
-* Author: Alexey Diyan alexey.diyan@gmail.com
-* License :: OSI Approved :: MIT License
 
 ### `PyYAML`
 
@@ -373,28 +209,10 @@ Administrative keys for demisto/tidy:1.0.0.29780
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
-### `requests-ntlm`
-
-* Summary: This package allows for HTTP NTLM authentication using the requests library.
-* Version: 1.1.0
-* Pypi: https://pypi.org/project/requests_ntlm/
-* Homepage: https://github.com/requests/requests-ntlm
-* Author: Ben Toews mastahyeti@gmail.com
-* License :: OSI Approved :: ISC License (ISCL)
-
-### `resolvelib`
-
-* Summary: Resolve abstract dependencies into concrete ones
-* Version: 0.5.4
-* Pypi: https://pypi.org/project/resolvelib/
-* Homepage: https://github.com/sarugaku/resolvelib
-* Author: Tzu-ping Chung uranusjr@gmail.com
-* License :: OSI Approved :: ISC License (ISCL)
-
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 62.3.0
+* Version: 62.2.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
@@ -417,6 +235,15 @@ Administrative keys for demisto/tidy:1.0.0.29780
 * Homepage: https://github.com/john-kurkowski/tldextract
 * Author: John Kurkowski john.kurkowski@gmail.com
 * License :: OSI Approved :: BSD License
+
+### `typing_extensions`
+
+* Summary: Backported and Experimental Type Hints for Python 3.7+
+* Version: 4.2.0
+* Pypi: https://pypi.org/project/typing-extensions/
+* Homepage: 
+* Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
+* License :: OSI Approved :: Python Software Foundation License
 
 ### `tzdata`
 
@@ -454,15 +281,6 @@ Administrative keys for demisto/tidy:1.0.0.29780
 * Author: Daniel Holth dholth@fastmail.fm
 * License :: OSI Approved :: MIT License
 
-### `xmltodict`
-
-* Summary: Makes working with XML feel like you are working with JSON
-* Version: 0.13.0
-* Pypi: https://pypi.org/project/xmltodict/
-* Homepage: https://github.com/martinblech/xmltodict
-* Author: Martin Blech martinblech@gmail.com
-* License :: OSI Approved :: MIT License
-
 ## `OS Packages`
 
 * .python-rundeps-20220407.040203 noarch {.python-rundeps}
@@ -477,38 +295,27 @@ Administrative keys for demisto/tidy:1.0.0.29780
 * keyutils-libs-1.6.3-r0 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.19.3-r0 x86_64 {krb5}
-* libacl-2.2.53-r0 x86_64 {acl}
 * libbz2-1.0.8-r1 x86_64 {bzip2}
 * libc-utils-0.7.2-r3 x86_64 {libc-dev}
 * libcom_err-1.46.4-r0 x86_64 {e2fsprogs}
-* libcrypto1.1-1.1.1o-r0 x86_64 {openssl}
-* libedit-20210910.3.1-r0 x86_64 {libedit}
+* libcrypto1.1-1.1.1n-r0 x86_64 {openssl}
 * libffi-3.4.2-r1 x86_64 {libffi}
 * libintl-0.21-r0 x86_64 {gettext}
 * libnsl-1.3.0-r0 x86_64 {libnsl}
 * libretls-3.3.4-r3 x86_64 {libretls}
-* libssl1.1-1.1.1o-r0 x86_64 {openssl}
+* libssl1.1-1.1.1n-r0 x86_64 {openssl}
 * libtirpc-1.3.2-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.3.2-r0 x86_64 {libtirpc}
 * libuuid-2.37.4-r0 x86_64 {util-linux}
 * libverto-0.3.2-r0 x86_64 {libverto}
-* lz4-libs-1.9.3-r1 x86_64 {lz4}
 * musl-1.2.2-r7 x86_64 {musl}
 * musl-utils-1.2.2-r7 x86_64 {musl}
 * ncurses-libs-6.3_p20211120-r0 x86_64 {ncurses}
 * ncurses-terminfo-base-6.3_p20211120-r0 x86_64 {ncurses}
-* openssh-client-common-8.8_p1-r1 x86_64 {openssh}
-* openssh-client-default-8.8_p1-r1 x86_64 {openssh}
-* openssh-keygen-8.8_p1-r1 x86_64 {openssh}
-* openssl-1.1.1o-r0 x86_64 {openssl}
-* popt-1.18-r0 x86_64 {popt}
 * readline-8.1.1-r0 x86_64 {readline}
-* rsync-3.2.3-r5 x86_64 {rsync}
 * scanelf-1.3.3-r0 x86_64 {pax-utils}
 * sqlite-libs-3.36.0-r0 x86_64 {sqlite}
-* sshpass-1.09-r0 x86_64 {sshpass}
 * ssl_client-1.34.1-r5 x86_64 {busybox}
 * tzdata-2022a-r0 x86_64 {tzdata}
 * xz-libs-5.2.5-r1 x86_64 {xz}
 * zlib-1.2.12-r0 x86_64 {zlib}
-* zstd-libs-1.5.0-r0 x86_64 {zstd}
