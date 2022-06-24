@@ -240,10 +240,11 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/xmlparser](demisto/xmlparser/last.md)
 * [demisto/xslxwriter](demisto/xslxwriter/last.md)
 * [demisto/xsoar-tools](demisto/xsoar-tools/last.md)
+* [demisto/xsoar-tools-hf](demisto/xsoar-tools-hf/last.md)
 * [demisto/yarapy](demisto/yarapy/last.md)
 * [demisto/yolo-coco](demisto/yolo-coco/last.md)
 * [demisto/zabbix](demisto/zabbix/last.md)
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2022-06-23 01:09:42.712350
+Last updated: 2022-06-24 01:10:24.848056
