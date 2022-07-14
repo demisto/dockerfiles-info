@@ -92,7 +92,7 @@ def get_os_release(image_name):
     return res.stdout.splitlines()
 
 
-def inspect_image(image_name, out_file):
+def inspect_image(image_name, out_file, deprecation_data = []):
     inspect_format = '''- Image ID: `{{ .Id }}`
 - Created: `{{ .Created }}`
 - Arch: `{{ .Os }}`/`{{ .Architecture }}`
@@ -102,7 +102,12 @@ def inspect_image(image_name, out_file):
 - Labels:{{ range $key, $value := .ContainerConfig.Labels }}{{ "\\n" }}  - `{{ $key }}:{{ $value }}`{{ end }}
 '''
     docker_info = subprocess.check_output(["docker", "inspect", "-f", inspect_format, image_name], text=True)
-    out_file.write('## Docker Metadata\n- Image Size: `{}`\n{}'.format(get_docker_image_size(image_name), docker_info))
+    out_file.write('## Docker Metadata\n')
+    
+    if deprecation_data != []:
+       out_file.write('- Deprecation Reason: `{}` \n- Deprecation Date (UTC): `{}`\n'.format(deprecation_data["reason"], deprecation_data["created_time_utc"]))
+
+    out_file.write('- Image Size: `{}`\n{}'.format(get_docker_image_size(image_name), docker_info))
     os_info = '- OS Release:'
     release_info = get_os_release(image_name)
     if not release_info:
@@ -150,6 +155,9 @@ def clear_image_from_used(base_image):
 
 
 def add_package_used(package_name, base_image, licenses, home_page, pypi_url, summary, author):
+    is_deprecated = is_image_deprecated(base_image)
+    if is_deprecated:
+        base_image = f'{base_image} (Deprecated)'
     package = USED_PACKAGES.get(package_name)
     if package:
         if base_image not in package["docker_images"]:
@@ -291,10 +299,29 @@ def list_os_packages(image_name, out_file):
     out_file.write("\n".join(md_lines))
     out_file.write("\n")
 
+def is_image_deprecated(image_name):
+    if not hasattr(is_image_deprecated, "deprecated_images"):
+        is_image_deprecated.deprecated_images = {}
+        # get the deprecated images json file from dockerfiles
+        res = http_get(
+            'https://raw.githubusercontent.com/demisto/dockerfiles/master/docker/deprecated_images.json?{}'.format(random.randint(1, 1000)))
+        res.raise_for_status()
+        is_image_deprecated.deprecated_images = res.json()
+    deprecated = [image for image in  is_image_deprecated.deprecated_images if image['image_name'] == image_name]
+    if deprecated != []:
+        return deprecated[0]
+    else:
+        return []
+    
+
+
 
 def process_image(image_name, force):
     print("=================\nProcessing: " + image_name)
     master_dir = f'docker/{image_name.split("/")[1]}'
+    deprecated_data = is_image_deprecated(image_name)
+    is_deprecated = deprecated_data != []
+
     master_date = subprocess.check_output(['git', '--no-pager', 'log', '-1', '--format=%ct', 'origin/master', '--', master_dir], text=True, cwd=DOCKERFILES_DIR).strip()
     if not master_date:
         print(f"Skipping image: {image_name} as it is not in our master repository")
@@ -319,8 +346,11 @@ def process_image(image_name, force):
     temp_file = tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', delete=False)
     print("Using temp file: " + temp_file.name)
     try:
-        temp_file.write("# `{}:{}`\n".format(image_name, last_tag))
-        inspect_image(full_name, temp_file)
+        if is_deprecated:
+            temp_file.write("# `{}:{} (Deprecated)`\n".format(image_name, last_tag))
+        else:
+            temp_file.write("# `{}:{}`\n".format(image_name, last_tag))
+        inspect_image(full_name, temp_file, deprecated_data)
         docker_trust(full_name, temp_file)
         temp_file.write("## `Python Packages`\n\n")
         generate_pkg_data(full_name, temp_file)
