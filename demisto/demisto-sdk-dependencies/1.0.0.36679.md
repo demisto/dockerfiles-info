@@ -1,0 +1,145 @@
+# `demisto/demisto-sdk-dependencies:1.0.0.36679`
+## Docker Metadata
+- Image Size: `81.80 MB`
+- Image ID: `sha256:a588f396f22de7100da643a3f495e152893911c9e5e66942f37562fd616f7a95`
+- Created: `2022-10-24T00:28:24.571493651Z`
+- Arch: `linux`/`amd64`
+- Entrypoint: `["docker-entrypoint.sh"]`
+- Command: `["node"]`
+- Environment:
+  - `PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
+  - `NODE_VERSION=18.9.1`
+  - `YARN_VERSION=1.22.19`
+  - `DOCKER_IMAGE=demisto/demisto-sdk-dependencies:1.0.0.36679`
+- Labels:
+  - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
+  - `org.opencontainers.image.revision:3236ba08572324ff59ac8ea1c5a9232c052a900e`
+  - `org.opencontainers.image.version:1.0.0.36679`
+
+- OS Release:
+  - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
+  - `NAME="Debian GNU/Linux"`
+  - `VERSION_ID="11"`
+  - `VERSION="11 (bullseye)"`
+  - `VERSION_CODENAME=bullseye`
+  - `ID=debian`
+  - `HOME_URL="https://www.debian.org/"`
+  - `SUPPORT_URL="https://www.debian.org/support"`
+  - `BUG_REPORT_URL="https://bugs.debian.org/"`
+
+## Docker Trust
+```
+
+Signatures for demisto/demisto-sdk-dependencies:1.0.0.36679
+
+SIGNED TAG          DIGEST                                                             SIGNERS
+1.0.0.36679         8142ade6ace5e6e10cd0301fe6bfdc82e54dac8ebe24c6ebe9881ad729a037d6   (Repo Admin)
+
+Administrative keys for demisto/demisto-sdk-dependencies:1.0.0.36679
+
+  Repository Key:	c9c5e570c0ea18052485b4daa743267427c0fdf3b94e9eb5a63f344ef1025f95
+  Root Key:	a8f7d9e0be2604198a6c734b9df01172269add337aae1321abe732c0ae863541
+
+```
+
+## `Python Packages`
+
+
+## `OS Packages`
+
+* adduser	3.118
+* apt	2.2.4
+* base-files	11.1+deb11u5
+* base-passwd	3.5.51
+* bash	5.1-2+deb11u1
+* bsdutils	1:2.36.1-8+deb11u1
+* coreutils	8.32-4+b1
+* dash	0.5.11+git20200708+dd9ef66-5
+* debconf	1.5.77
+* debian-archive-keyring	2021.1.1
+* debianutils	4.11.2
+* diffutils	1:3.7-5
+* dpkg	1.20.12
+* e2fsprogs	1.46.2-2
+* findutils	4.8.0-1
+* gcc-10-base:amd64	10.2.1-6
+* gcc-9-base:amd64	9.3.0-22
+* gpgv	2.2.27-2+deb11u2
+* grep	3.6-1
+* gzip	1.10-4+deb11u1
+* hostname	3.23
+* init-system-helpers	1.60
+* libacl1:amd64	2.2.53-10
+* libapt-pkg6.0:amd64	2.2.4
+* libattr1:amd64	1:2.4.48-6
+* libaudit-common	1:3.0-2
+* libaudit1:amd64	1:3.0-2
+* libblkid1:amd64	2.36.1-8+deb11u1
+* libbz2-1.0:amd64	1.0.8-4
+* libc-bin	2.31-13+deb11u4
+* libc6:amd64	2.31-13+deb11u4
+* libcap-ng0:amd64	0.7.9-2.2+b1
+* libcom-err2:amd64	1.46.2-2
+* libcrypt1:amd64	1:4.4.18-4
+* libdb5.3:amd64	5.3.28+dfsg1-0.8
+* libdebconfclient0:amd64	0.260
+* libext2fs2:amd64	1.46.2-2
+* libffi7:amd64	3.3-6
+* libgcc-s1:amd64	10.2.1-6
+* libgcrypt20:amd64	1.8.7-6
+* libgmp10:amd64	2:6.2.1+dfsg-1+deb11u1
+* libgnutls30:amd64	3.7.1-5+deb11u2
+* libgpg-error0:amd64	1.38-2
+* libgssapi-krb5-2:amd64	1.18.3-6+deb11u2
+* libhogweed6:amd64	3.7.3-1
+* libidn2-0:amd64	2.3.0-5
+* libk5crypto3:amd64	1.18.3-6+deb11u2
+* libkeyutils1:amd64	1.6.1-2
+* libkrb5-3:amd64	1.18.3-6+deb11u2
+* libkrb5support0:amd64	1.18.3-6+deb11u2
+* liblz4-1:amd64	1.9.3-2
+* liblzma5:amd64	5.2.5-2.1~deb11u1
+* libmount1:amd64	2.36.1-8+deb11u1
+* libnettle8:amd64	3.7.3-1
+* libnsl2:amd64	1.3.0-2
+* libp11-kit0:amd64	0.23.22-1
+* libpam-modules-bin	1.4.0-9+deb11u1
+* libpam-modules:amd64	1.4.0-9+deb11u1
+* libpam-runtime	1.4.0-9+deb11u1
+* libpam0g:amd64	1.4.0-9+deb11u1
+* libpcre2-8-0:amd64	10.36-2+deb11u1
+* libpcre3:amd64	2:8.39-13
+* libseccomp2:amd64	2.5.1-1+deb11u1
+* libselinux1:amd64	3.1-3
+* libsemanage-common	3.1-1
+* libsemanage1:amd64	3.1-1+b2
+* libsepol1:amd64	3.1-1
+* libsmartcols1:amd64	2.36.1-8+deb11u1
+* libss2:amd64	1.46.2-2
+* libssl1.1:amd64	1.1.1n-0+deb11u3
+* libstdc++6:amd64	10.2.1-6
+* libsystemd0:amd64	247.3-7+deb11u1
+* libtasn1-6:amd64	4.16.0-2
+* libtinfo6:amd64	6.2+20201114-2
+* libtirpc-common	1.3.1-1+deb11u1
+* libtirpc3:amd64	1.3.1-1+deb11u1
+* libudev1:amd64	247.3-7+deb11u1
+* libunistring2:amd64	0.9.10-4
+* libuuid1:amd64	2.36.1-8+deb11u1
+* libxxhash0:amd64	0.8.0-2
+* libzstd1:amd64	1.4.8+dfsg-2.1
+* login	1:4.8.1-1
+* logsave	1.46.2-2
+* lsb-base	11.1.0
+* mawk	1.3.4.20200120-2
+* mount	2.36.1-8+deb11u1
+* ncurses-base	6.2+20201114-2
+* ncurses-bin	6.2+20201114-2
+* passwd	1:4.8.1-1
+* perl-base	5.32.1-4+deb11u2
+* sed	4.7-1
+* sysvinit-utils	2.96-7+deb11u1
+* tar	1.34+dfsg-1
+* tzdata	2021a-1+deb11u5
+* util-linux	2.36.1-8+deb11u1
+* zlib1g:amd64	1:1.2.11.dfsg-2+deb11u2
