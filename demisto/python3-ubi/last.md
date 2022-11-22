@@ -1,59 +1,75 @@
-# `demisto/fastapi:1.0.0.37650`
+# `demisto/python3-ubi:3.10.8.37616`
 ## Docker Metadata
-- Image Size: `41.99 MB`
-- Image ID: `sha256:53415de7fdc13c981db64ecb4767607a3f12da5faa5fa3a6077492514ae75473`
-- Created: `2022-11-21T08:59:30.11587421Z`
+- Image Size: `106.15 MB`
+- Image ID: `sha256:acb92b545102145433d375cd91bdad46f082c2a3bfd4b818375bd3d31c389fbc`
+- Created: `2022-11-21T09:09:03.060090746Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
-  - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
-  - `LANG=C.UTF-8`
-  - `GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D`
-  - `PYTHON_VERSION=3.10.8`
-  - `PYTHON_PIP_VERSION=22.2.2`
-  - `PYTHON_SETUPTOOLS_VERSION=63.2.0`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/5eaac1050023df1f5c98b173b248c260023f2278/public/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=5aefe6ade911d997af080b315ebcb7f882212d070465df544e1175ac2be519b4`
-  - `DOCKER_IMAGE=demisto/fastapi:1.0.0.37650`
+  - `PATH=/usr/local/bin:/home/python/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
+  - `container=oci`
+  - `DOCKER_IMAGE=demisto/python3-ubi:3.10.8.37616`
 - Labels:
+  - `architecture:x86_64`
+  - `build-date:2022-11-01T04:29:09`
+  - `com.redhat.component:ubi8-container`
+  - `com.redhat.license_terms:https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI`
+  - `description:The Universal Base Image is designed and engineered to be the base layer for all of your containerized applications, middleware and utilities. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.`
+  - `distribution-scope:public`
+  - `io.buildah.version:1.26.2`
+  - `io.k8s.description:The Universal Base Image is designed and engineered to be the base layer for all of your containerized applications, middleware and utilities. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.`
+  - `io.k8s.display-name:Red Hat Universal Base Image 8`
+  - `io.openshift.expose-services:`
+  - `io.openshift.tags:base rhel8`
+  - `maintainer:Red Hat, Inc.`
+  - `name:ubi8`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:842e502f328202e009e9989fbf46e94ea2332aa4`
-  - `org.opencontainers.image.version:1.0.0.37650`
+  - `org.opencontainers.image.revision:e4013319acc613984ad8e9dc58d7de499fbcd631`
+  - `org.opencontainers.image.version:3.10.8.37616`
+  - `release:929`
+  - `summary:Provides the latest release of Red Hat Universal Base Image 8.`
+  - `url:https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/images/8.7-929`
+  - `vcs-ref:a995512a05037e3b60bbb1bf9fa6e394063131c3`
+  - `vcs-type:git`
+  - `vendor:Red Hat, Inc.`
+  - `version:8.7`
 
 - OS Release:
-  - `NAME="Alpine Linux"`
-  - `ID=alpine`
-  - `VERSION_ID=3.16.2`
-  - `PRETTY_NAME="Alpine Linux v3.16"`
-  - `HOME_URL="https://alpinelinux.org/"`
-  - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
+  - `NAME="Red Hat Enterprise Linux"`
+  - `VERSION="8.7 (Ootpa)"`
+  - `ID="rhel"`
+  - `ID_LIKE="fedora"`
+  - `VERSION_ID="8.7"`
+  - `PLATFORM_ID="platform:el8"`
+  - `PRETTY_NAME="Red Hat Enterprise Linux 8.7 (Ootpa)"`
+  - `ANSI_COLOR="0;31"`
+  - `CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"`
+  - `HOME_URL="https://www.redhat.com/"`
+  - `DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"`
+  - `BUG_REPORT_URL="https://bugzilla.redhat.com/"`
+  - ``
+  - `REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"`
+  - `REDHAT_BUGZILLA_PRODUCT_VERSION=8.7`
+  - `REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"`
+  - `REDHAT_SUPPORT_PRODUCT_VERSION="8.7"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/fastapi:1.0.0.37650
+Signatures for demisto/python3-ubi:3.10.8.37616
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.37650         4c2ddb65088b0992e28c97020c3dc8fe8a33844cae29de40db29e3706d1e4d53   (Repo Admin)
+3.10.8.37616        7b69514a3015f45f11f11db950ffacb77dceaaabe4b6682784ff4b6e84725142   (Repo Admin)
 
-Administrative keys for demisto/fastapi:1.0.0.37650
+Administrative keys for demisto/python3-ubi:3.10.8.37616
 
-  Repository Key:	0271ad1efe39b86e62ae7b94055f6a242fcc87508e09e3e3642e5b835eec0955
-  Root Key:	5e03c5b300f950846c7027ad151ca45f71a4a03330a1805f070015d4aee41282
+  Repository Key:	860f0984b12c7c4c487bfbb4f34444eba31bc6061d93074c7f3e9aecca6a91da
+  Root Key:	d1e06b8dbcddba83154fb4d0169a71653619f0807009ba697353e2a3050895b4
 
 ```
 
 ## `Python Packages`
 
-
-### `anyio`
-
-* Summary: High level compatibility layer for multiple asynchronous event loop implementations
-* Version: 3.6.2
-* Pypi: https://pypi.org/project/anyio/
-* Homepage: 
-* Author: Alex Grönholm alex.gronholm@nextday.fi
-* License :: OSI Approved :: MIT License
 
 ### `certifi`
 
@@ -73,32 +89,14 @@ Administrative keys for demisto/fastapi:1.0.0.37650
 * Author: Ahmed TAHRI ahmed.tahri@cloudnursery.dev
 * License :: OSI Approved :: MIT License
 
-### `click`
-
-* Summary: Composable command line interface toolkit
-* Version: 8.1.3
-* Pypi: https://pypi.org/project/click/
-* Homepage: https://palletsprojects.com/p/click/
-* Author: Armin Ronacher armin.ronacher@active-4.com
-* License :: OSI Approved :: BSD License
-
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.1.1
+* Version: 1.1.3
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub opensource@zyte.com
 * License :: OSI Approved :: BSD License
-
-### `fastapi`
-
-* Summary: FastAPI framework, high performance, easy to learn, fast to code, ready for production
-* Version: 0.87.0
-* Pypi: https://pypi.org/project/fastapi/
-* Homepage: 
-* Author: Sebastián Ramírez <tiangolo@gmail.com>
-* License :: OSI Approved :: MIT License
 
 ### `filelock`
 
@@ -117,15 +115,6 @@ Administrative keys for demisto/fastapi:1.0.0.37650
 * Homepage: http://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
-
-### `h11`
-
-* Summary: A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
-* Version: 0.14.0
-* Pypi: https://pypi.org/project/h11/
-* Homepage: https://github.com/python-hyper/h11
-* Author: Nathaniel J. Smith njs@pobox.com
-* License :: OSI Approved :: MIT License
 
 ### `idna`
 
@@ -154,15 +143,6 @@ Administrative keys for demisto/fastapi:1.0.0.37650
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
-### `pydantic`
-
-* Summary: Data validation and settings management using python type hints
-* Version: 1.10.2
-* Pypi: https://pypi.org/project/pydantic/
-* Homepage: https://github.com/pydantic/pydantic
-* Author: Samuel Colvin s@muelcolvin.com
-* License :: OSI Approved :: MIT License
-
 ### `PySocks`
 
 * Summary: A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information.
@@ -185,7 +165,7 @@ Administrative keys for demisto/fastapi:1.0.0.37650
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2022.4
+* Version: 2022.6
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -254,25 +234,6 @@ Administrative keys for demisto/fastapi:1.0.0.37650
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
-### `sniffio`
-
-* Summary: Sniff out which async library your code is running under
-* Version: 1.3.0
-* Pypi: https://pypi.org/project/sniffio/
-* Homepage: https://github.com/python-trio/sniffio
-* Author: Nathaniel J. Smith njs@pobox.com
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: MIT License
-
-### `starlette`
-
-* Summary: The little ASGI library that shines.
-* Version: 0.21.0
-* Pypi: https://pypi.org/project/starlette/
-* Homepage: 
-* Author: Tom Christie <tom@tomchristie.com>
-* License :: OSI Approved :: BSD License
-
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
@@ -282,19 +243,10 @@ Administrative keys for demisto/fastapi:1.0.0.37650
 * Author: John Kurkowski john.kurkowski@gmail.com
 * License :: OSI Approved :: BSD License
 
-### `typing_extensions`
-
-* Summary: Backported and Experimental Type Hints for Python 3.7+
-* Version: 4.4.0
-* Pypi: https://pypi.org/project/typing-extensions/
-* Homepage: 
-* Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
-* License :: OSI Approved :: Python Software Foundation License
-
 ### `tzdata`
 
 * Summary: Provider of IANA time zone data
-* Version: 2022.4
+* Version: 2022.6
 * Pypi: https://pypi.org/project/tzdata/
 * Homepage: https://github.com/python/tzdata
 * Author: Python Software Foundation datetime-sig@python.org
@@ -318,59 +270,6 @@ Administrative keys for demisto/fastapi:1.0.0.37650
 * Author: Andrey Petrov andrey.petrov@shazow.net
 * License :: OSI Approved :: MIT License
 
-### `uvicorn`
-
-* Summary: The lightning-fast ASGI server.
-* Version: 0.20.0
-* Pypi: https://pypi.org/project/uvicorn/
-* Homepage: 
-* Author: Tom Christie <tom@tomchristie.com>
-* License :: OSI Approved :: BSD License
-
-### `wheel`
-
-* Summary: A built-package format for Python
-* Version: 0.37.1
-* Pypi: https://pypi.org/project/wheel/
-* Homepage: https://github.com/pypa/wheel
-* Author: Daniel Holth dholth@fastmail.fm
-* License :: OSI Approved :: MIT License
-
 ## `OS Packages`
 
-* .python-rundeps-20221013.232409 noarch {.python-rundeps}
-* alpine-baselayout-3.2.0-r23 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.2.0-r23 x86_64 {alpine-baselayout}
-* alpine-keys-2.4-r1 x86_64 {alpine-keys}
-* apk-tools-2.12.9-r3 x86_64 {apk-tools}
-* busybox-1.35.0-r17 x86_64 {busybox}
-* ca-certificates-20220614-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20220614-r0 x86_64 {ca-certificates}
-* expat-2.4.9-r0 x86_64 {expat}
-* gdbm-1.23-r0 x86_64 {gdbm}
-* keyutils-libs-1.6.3-r1 x86_64 {keyutils}
-* krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.19.3-r0 x86_64 {krb5}
-* libbz2-1.0.8-r1 x86_64 {bzip2}
-* libc-utils-0.7.2-r3 x86_64 {libc-dev}
-* libcom_err-1.46.5-r0 x86_64 {e2fsprogs}
-* libcrypto1.1-1.1.1q-r0 x86_64 {openssl}
-* libffi-3.4.2-r1 x86_64 {libffi}
-* libintl-0.21-r2 x86_64 {gettext}
-* libnsl-2.0.0-r0 x86_64 {libnsl}
-* libssl1.1-1.1.1q-r0 x86_64 {openssl}
-* libtirpc-1.3.2-r1 x86_64 {libtirpc}
-* libtirpc-conf-1.3.2-r1 x86_64 {libtirpc}
-* libuuid-2.38-r1 x86_64 {util-linux}
-* libverto-0.3.2-r0 x86_64 {libverto}
-* musl-1.2.3-r2 x86_64 {musl}
-* musl-utils-1.2.3-r0 x86_64 {musl}
-* ncurses-libs-6.3_p20220521-r0 x86_64 {ncurses}
-* ncurses-terminfo-base-6.3_p20220521-r0 x86_64 {ncurses}
-* readline-8.1.2-r0 x86_64 {readline}
-* scanelf-1.3.4-r0 x86_64 {pax-utils}
-* sqlite-libs-3.38.5-r0 x86_64 {sqlite}
-* ssl_client-1.35.0-r17 x86_64 {busybox}
-* tzdata-2022c-r0 x86_64 {tzdata}
-* xz-libs-5.2.5-r1 x86_64 {xz}
-* zlib-1.2.12-r3 x86_64 {zlib}
+

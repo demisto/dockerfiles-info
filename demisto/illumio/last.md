@@ -1,8 +1,8 @@
-# `demisto/fastapi:1.0.0.37650`
+# `demisto/illumio:1.0.0.37679`
 ## Docker Metadata
-- Image Size: `41.99 MB`
-- Image ID: `sha256:53415de7fdc13c981db64ecb4767607a3f12da5faa5fa3a6077492514ae75473`
-- Created: `2022-11-21T08:59:30.11587421Z`
+- Image Size: `30.93 MB`
+- Image ID: `sha256:4c7309eaebc56bf4c4a56c67ee9e1833749e4125a0d4e386ebfec7922c550079`
+- Created: `2022-11-21T09:50:48.120333458Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `PYTHON_VERSION=3.10.8`
   - `PYTHON_PIP_VERSION=22.2.2`
   - `PYTHON_SETUPTOOLS_VERSION=63.2.0`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/5eaac1050023df1f5c98b173b248c260023f2278/public/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=5aefe6ade911d997af080b315ebcb7f882212d070465df544e1175ac2be519b4`
-  - `DOCKER_IMAGE=demisto/fastapi:1.0.0.37650`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/6d265be7a6b5bc4e9c5c07646aee0bf0394be03d/public/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=36c6f6214694ef64cc70f4127ac0ccec668408a93825359d998fb31d24968d67`
+  - `DOCKER_IMAGE=demisto/illumio:1.0.0.37679`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:842e502f328202e009e9989fbf46e94ea2332aa4`
-  - `org.opencontainers.image.version:1.0.0.37650`
+  - `org.opencontainers.image.revision:b5f10d852a76b571bd2b014e0bb8d769f092adca`
+  - `org.opencontainers.image.version:1.0.0.37679`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -31,29 +31,20 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/fastapi:1.0.0.37650
+Signatures for demisto/illumio:1.0.0.37679
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.37650         4c2ddb65088b0992e28c97020c3dc8fe8a33844cae29de40db29e3706d1e4d53   (Repo Admin)
+1.0.0.37679         849d4510303379b70b2513643b81c8828afc6dd392492afa6749410081f69b0f   (Repo Admin)
 
-Administrative keys for demisto/fastapi:1.0.0.37650
+Administrative keys for demisto/illumio:1.0.0.37679
 
-  Repository Key:	0271ad1efe39b86e62ae7b94055f6a242fcc87508e09e3e3642e5b835eec0955
-  Root Key:	5e03c5b300f950846c7027ad151ca45f71a4a03330a1805f070015d4aee41282
+  Repository Key:	5a898788944e64338f580afebbe044ce869e8d090fe16a3871f9b6ddbf14e856
+  Root Key:	98d5a151a931d2f5eff576444930f7780f97e27fc4827d51c1b2bd3ad7558f34
 
 ```
 
 ## `Python Packages`
 
-
-### `anyio`
-
-* Summary: High level compatibility layer for multiple asynchronous event loop implementations
-* Version: 3.6.2
-* Pypi: https://pypi.org/project/anyio/
-* Homepage: 
-* Author: Alex Grönholm alex.gronholm@nextday.fi
-* License :: OSI Approved :: MIT License
 
 ### `certifi`
 
@@ -73,32 +64,14 @@ Administrative keys for demisto/fastapi:1.0.0.37650
 * Author: Ahmed TAHRI ahmed.tahri@cloudnursery.dev
 * License :: OSI Approved :: MIT License
 
-### `click`
-
-* Summary: Composable command line interface toolkit
-* Version: 8.1.3
-* Pypi: https://pypi.org/project/click/
-* Homepage: https://palletsprojects.com/p/click/
-* Author: Armin Ronacher armin.ronacher@active-4.com
-* License :: OSI Approved :: BSD License
-
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.1.1
+* Version: 1.1.3
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub opensource@zyte.com
 * License :: OSI Approved :: BSD License
-
-### `fastapi`
-
-* Summary: FastAPI framework, high performance, easy to learn, fast to code, ready for production
-* Version: 0.87.0
-* Pypi: https://pypi.org/project/fastapi/
-* Homepage: 
-* Author: Sebastián Ramírez <tiangolo@gmail.com>
-* License :: OSI Approved :: MIT License
 
 ### `filelock`
 
@@ -118,15 +91,6 @@ Administrative keys for demisto/fastapi:1.0.0.37650
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
-### `h11`
-
-* Summary: A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
-* Version: 0.14.0
-* Pypi: https://pypi.org/project/h11/
-* Homepage: https://github.com/python-hyper/h11
-* Author: Nathaniel J. Smith njs@pobox.com
-* License :: OSI Approved :: MIT License
-
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
@@ -135,6 +99,15 @@ Administrative keys for demisto/fastapi:1.0.0.37650
 * Homepage: None
 * Author: Kim Davies <kim@cynosure.com.au>
 * License :: OSI Approved :: BSD License
+
+### `illumio`
+
+* Summary: REST API client framework to manage the Illumio Core Policy Compute Engine
+* Version: 1.1.2
+* Pypi: https://pypi.org/project/illumio/
+* Homepage: https://github.com/illumio/illumio-py
+* Author: Illumio app-integrations@illumio.com
+* License :: OSI Approved :: Apache Software License
 
 ### `olefile`
 
@@ -152,15 +125,6 @@ Administrative keys for demisto/fastapi:1.0.0.37650
 * Pypi: https://pypi.org/project/pip/
 * Homepage: https://pip.pypa.io/
 * Author: The pip developers distutils-sig@python.org
-* License :: OSI Approved :: MIT License
-
-### `pydantic`
-
-* Summary: Data validation and settings management using python type hints
-* Version: 1.10.2
-* Pypi: https://pypi.org/project/pydantic/
-* Homepage: https://github.com/pydantic/pydantic
-* Author: Samuel Colvin s@muelcolvin.com
 * License :: OSI Approved :: MIT License
 
 ### `PySocks`
@@ -185,7 +149,7 @@ Administrative keys for demisto/fastapi:1.0.0.37650
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2022.4
+* Version: 2022.6
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -254,25 +218,6 @@ Administrative keys for demisto/fastapi:1.0.0.37650
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
-### `sniffio`
-
-* Summary: Sniff out which async library your code is running under
-* Version: 1.3.0
-* Pypi: https://pypi.org/project/sniffio/
-* Homepage: https://github.com/python-trio/sniffio
-* Author: Nathaniel J. Smith njs@pobox.com
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: MIT License
-
-### `starlette`
-
-* Summary: The little ASGI library that shines.
-* Version: 0.21.0
-* Pypi: https://pypi.org/project/starlette/
-* Homepage: 
-* Author: Tom Christie <tom@tomchristie.com>
-* License :: OSI Approved :: BSD License
-
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
@@ -282,19 +227,10 @@ Administrative keys for demisto/fastapi:1.0.0.37650
 * Author: John Kurkowski john.kurkowski@gmail.com
 * License :: OSI Approved :: BSD License
 
-### `typing_extensions`
-
-* Summary: Backported and Experimental Type Hints for Python 3.7+
-* Version: 4.4.0
-* Pypi: https://pypi.org/project/typing-extensions/
-* Homepage: 
-* Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
-* License :: OSI Approved :: Python Software Foundation License
-
 ### `tzdata`
 
 * Summary: Provider of IANA time zone data
-* Version: 2022.4
+* Version: 2022.6
 * Pypi: https://pypi.org/project/tzdata/
 * Homepage: https://github.com/python/tzdata
 * Author: Python Software Foundation datetime-sig@python.org
@@ -318,15 +254,6 @@ Administrative keys for demisto/fastapi:1.0.0.37650
 * Author: Andrey Petrov andrey.petrov@shazow.net
 * License :: OSI Approved :: MIT License
 
-### `uvicorn`
-
-* Summary: The lightning-fast ASGI server.
-* Version: 0.20.0
-* Pypi: https://pypi.org/project/uvicorn/
-* Homepage: 
-* Author: Tom Christie <tom@tomchristie.com>
-* License :: OSI Approved :: BSD License
-
 ### `wheel`
 
 * Summary: A built-package format for Python
@@ -346,7 +273,7 @@ Administrative keys for demisto/fastapi:1.0.0.37650
 * busybox-1.35.0-r17 x86_64 {busybox}
 * ca-certificates-20220614-r0 x86_64 {ca-certificates}
 * ca-certificates-bundle-20220614-r0 x86_64 {ca-certificates}
-* expat-2.4.9-r0 x86_64 {expat}
+* expat-2.5.0-r0 x86_64 {expat}
 * gdbm-1.23-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r1 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
@@ -354,23 +281,23 @@ Administrative keys for demisto/fastapi:1.0.0.37650
 * libbz2-1.0.8-r1 x86_64 {bzip2}
 * libc-utils-0.7.2-r3 x86_64 {libc-dev}
 * libcom_err-1.46.5-r0 x86_64 {e2fsprogs}
-* libcrypto1.1-1.1.1q-r0 x86_64 {openssl}
+* libcrypto1.1-1.1.1s-r0 x86_64 {openssl}
 * libffi-3.4.2-r1 x86_64 {libffi}
 * libintl-0.21-r2 x86_64 {gettext}
 * libnsl-2.0.0-r0 x86_64 {libnsl}
-* libssl1.1-1.1.1q-r0 x86_64 {openssl}
+* libssl1.1-1.1.1s-r0 x86_64 {openssl}
 * libtirpc-1.3.2-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.2-r1 x86_64 {libtirpc}
 * libuuid-2.38-r1 x86_64 {util-linux}
 * libverto-0.3.2-r0 x86_64 {libverto}
 * musl-1.2.3-r2 x86_64 {musl}
-* musl-utils-1.2.3-r0 x86_64 {musl}
+* musl-utils-1.2.3-r1 x86_64 {musl}
 * ncurses-libs-6.3_p20220521-r0 x86_64 {ncurses}
 * ncurses-terminfo-base-6.3_p20220521-r0 x86_64 {ncurses}
 * readline-8.1.2-r0 x86_64 {readline}
 * scanelf-1.3.4-r0 x86_64 {pax-utils}
 * sqlite-libs-3.38.5-r0 x86_64 {sqlite}
 * ssl_client-1.35.0-r17 x86_64 {busybox}
-* tzdata-2022c-r0 x86_64 {tzdata}
+* tzdata-2022f-r1 x86_64 {tzdata}
 * xz-libs-5.2.5-r1 x86_64 {xz}
 * zlib-1.2.12-r3 x86_64 {zlib}
