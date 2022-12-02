@@ -1,68 +1,75 @@
-# `demisto/py3-tools:1.0.0.40085`
+# `demisto/py3-tools-ubi:1.0.0.40106`
 ## Docker Metadata
-- Image Size: `40.32 MB`
-- Image ID: `sha256:629f2b54f5fb3c7b7773c7290382959fafc4acd01f87ff3d838cd12793eb023e`
-- Created: `2022-12-01T12:40:18.103528394Z`
+- Image Size: `124.43 MB`
+- Image ID: `sha256:bf0897731d6e2ba93eeb8907b13c1c926cdd98bb9c79b3555787e8ebf661cf20`
+- Created: `2022-12-01T12:54:42.506022888Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
-  - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
-  - `LANG=C.UTF-8`
-  - `GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D`
-  - `PYTHON_VERSION=3.10.8`
-  - `PYTHON_PIP_VERSION=22.2.2`
-  - `PYTHON_SETUPTOOLS_VERSION=63.2.0`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/66030fa03382b4914d4c4d0896961a0bdeeeb274/public/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=1e501cf004eac1b7eb1f97266d28f995ae835d30250bec7f8850562703067dc6`
-  - `DOCKER_IMAGE=demisto/py3-tools:1.0.0.40085`
+  - `PATH=/usr/local/bin:/home/python/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
+  - `container=oci`
+  - `DOCKER_IMAGE=demisto/py3-tools-ubi:1.0.0.40106`
 - Labels:
+  - `architecture:x86_64`
+  - `build-date:2022-11-01T04:29:09`
+  - `com.redhat.component:ubi8-container`
+  - `com.redhat.license_terms:https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI`
+  - `description:The Universal Base Image is designed and engineered to be the base layer for all of your containerized applications, middleware and utilities. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.`
+  - `distribution-scope:public`
+  - `io.buildah.version:1.26.2`
+  - `io.k8s.description:The Universal Base Image is designed and engineered to be the base layer for all of your containerized applications, middleware and utilities. This base image is freely redistributable, but Red Hat only supports Red Hat technologies through subscriptions for Red Hat products. This image is maintained by Red Hat and updated regularly.`
+  - `io.k8s.display-name:Red Hat Universal Base Image 8`
+  - `io.openshift.expose-services:`
+  - `io.openshift.tags:base rhel8`
+  - `maintainer:Red Hat, Inc.`
+  - `name:ubi8`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:58be4b5f483d0f62497e13cad1ebc0fadf4b5225`
-  - `org.opencontainers.image.version:1.0.0.40085`
+  - `org.opencontainers.image.revision:4eea539db120034682a0913aa42283cbf8bf7484`
+  - `org.opencontainers.image.version:1.0.0.40106`
+  - `release:929`
+  - `summary:Provides the latest release of Red Hat Universal Base Image 8.`
+  - `url:https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/images/8.7-929`
+  - `vcs-ref:a995512a05037e3b60bbb1bf9fa6e394063131c3`
+  - `vcs-type:git`
+  - `vendor:Red Hat, Inc.`
+  - `version:8.7`
 
 - OS Release:
-  - `NAME="Alpine Linux"`
-  - `ID=alpine`
-  - `VERSION_ID=3.17.0`
-  - `PRETTY_NAME="Alpine Linux v3.17"`
-  - `HOME_URL="https://alpinelinux.org/"`
-  - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
+  - `NAME="Red Hat Enterprise Linux"`
+  - `VERSION="8.7 (Ootpa)"`
+  - `ID="rhel"`
+  - `ID_LIKE="fedora"`
+  - `VERSION_ID="8.7"`
+  - `PLATFORM_ID="platform:el8"`
+  - `PRETTY_NAME="Red Hat Enterprise Linux 8.7 (Ootpa)"`
+  - `ANSI_COLOR="0;31"`
+  - `CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"`
+  - `HOME_URL="https://www.redhat.com/"`
+  - `DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"`
+  - `BUG_REPORT_URL="https://bugzilla.redhat.com/"`
+  - ``
+  - `REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"`
+  - `REDHAT_BUGZILLA_PRODUCT_VERSION=8.7`
+  - `REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"`
+  - `REDHAT_SUPPORT_PRODUCT_VERSION="8.7"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/py3-tools:1.0.0.40085
+Signatures for demisto/py3-tools-ubi:1.0.0.40106
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.40085         74b32762203fa5fb3d56d34094137c53fa579a8b7221e7029c79a2a8b088486a   (Repo Admin)
+1.0.0.40106         8df45f4a71332784bba3782f82c20a17c38453f5b508bfea1dfedbaafef113fa   (Repo Admin)
 
-Administrative keys for demisto/py3-tools:1.0.0.40085
+Administrative keys for demisto/py3-tools-ubi:1.0.0.40106
 
-  Repository Key:	1b56229e5721c693499b3207de8556f64f4132a6f26e179574b23c3a4cb1ea83
-  Root Key:	2f6650ee63d96525c75c75b7122a6e9ac95c253c019bb768504bdc9179c1bd7c
+  Repository Key:	f8f95e01989595bd0c4fa439fb25325e999a683761d81782d6d19130d04ff5ee
+  Root Key:	8e4850b66761d7f368a4f0ac601390f32d5e025e9ea8b894beb3cbbd93f40a68
 
 ```
 
 ## `Python Packages`
 
-
-### `aiohttp`
-
-* Summary: Async http client/server framework (asyncio)
-* Version: 3.8.3
-* Pypi: https://pypi.org/project/aiohttp/
-* Homepage: https://github.com/aio-libs/aiohttp
-* Author: 
-* License :: OSI Approved :: Apache Software License
-
-### `aiosignal`
-
-* Summary: aiosignal: a list of registered asynchronous callbacks
-* Version: 1.3.1
-* Pypi: https://pypi.org/project/aiosignal/
-* Homepage: https://github.com/aio-libs/aiosignal
-* Author: 
-* License :: OSI Approved :: Apache Software License
 
 ### `algorithmia`
 
@@ -112,28 +119,10 @@ Administrative keys for demisto/py3-tools:1.0.0.40085
 ### `asana`
 
 * Summary: Asana API client
-* Version: 1.0.0
+* Version: 2.0.0
 * Pypi: https://pypi.org/project/asana/
 * Homepage: http://github.com/asana/python-asana
 * Author: Asana, Inc
-* License :: OSI Approved :: MIT License
-
-### `async-timeout`
-
-* Summary: Timeout context manager for asyncio programs
-* Version: 4.0.2
-* Pypi: https://pypi.org/project/async-timeout/
-* Homepage: https://github.com/aio-libs/async-timeout
-* Author: Andrew Svetlov <andrew.svetlov@gmail.com> andrew.svetlov@gmail.com
-* License :: OSI Approved :: Apache Software License
-
-### `attrs`
-
-* Summary: Classes Without Boilerplate
-* Version: 22.1.0
-* Pypi: https://pypi.org/project/attrs/
-* Homepage: https://www.attrs.org/
-* Author: Hynek Schlawack hs@ox.cx
 * License :: OSI Approved :: MIT License
 
 ### `backoff`
@@ -162,6 +151,15 @@ Administrative keys for demisto/py3-tools:1.0.0.40085
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+
+### `chardet`
+
+* Summary: Universal encoding detector for Python 3
+* Version: 4.0.0
+* Pypi: https://pypi.org/project/chardet/
+* Homepage: https://github.com/chardet/chardet
+* Author: Mark Pilgrim mark@diveintomark.org
+* License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
 
 ### `charset-normalizer`
 
@@ -193,7 +191,7 @@ Administrative keys for demisto/py3-tools:1.0.0.40085
 ### `cyjax-cti`
 
 * Summary: cyjax-cti provides a Python library to use Cyjax platform API.
-* Version: 1.0.6
+* Version: 1.0.7
 * Pypi: https://pypi.org/project/cyjax-cti/
 * Homepage: https://www.cyjax.com
 * Author: Cyjax Ltd. github@cyjax.com
@@ -216,15 +214,6 @@ Administrative keys for demisto/py3-tools:1.0.0.40085
 * Homepage: https://www.dnspython.org
 * Author: Bob Halley halley@dnspython.org
 * License :: ISC License
-
-### `docopt`
-
-* Summary: Pythonic argument parser, that will make you smile
-* Version: 0.6.2
-* Pypi: https://pypi.org/project/docopt/
-* Homepage: http://docopt.org
-* Author: Vladimir Keleshev vladimir@keleshev.com
-* License :: OSI Approved :: MIT License
 
 ### `elasticsearch`
 
@@ -289,15 +278,6 @@ Administrative keys for demisto/py3-tools:1.0.0.40085
 * Author: Benedikt Schmitt benedikt@benediktschmitt.de
 * License :: Public Domain
 
-### `frozenlist`
-
-* Summary: A list-like structure which implements collections.abc.MutableSequence
-* Version: 1.3.3
-* Pypi: https://pypi.org/project/frozenlist/
-* Homepage: https://github.com/aio-libs/frozenlist
-* Author: 
-* License :: OSI Approved :: Apache Software License
-
 ### `funcy`
 
 * Summary: A fancy and practical functional tools
@@ -346,7 +326,7 @@ Administrative keys for demisto/py3-tools:1.0.0.40085
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.4
+* Version: 2.10
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim@cynosure.com.au>
@@ -355,7 +335,7 @@ Administrative keys for demisto/py3-tools:1.0.0.40085
 ### `imap-tools`
 
 * Summary: Work with email by IMAP
-* Version: 1.0.0
+* Version: 0.57.0
 * Pypi: https://pypi.org/project/imap-tools/
 * Homepage: https://github.com/ikvk/imap_tools
 * Author: Vladimir Kaukin KaukinVK@ya.ru
@@ -460,19 +440,10 @@ Administrative keys for demisto/py3-tools:1.0.0.40085
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
-### `opensearch-dsl`
-
-* Summary: Python client for OpenSearch
-* Version: 2.0.1
-* Pypi: https://pypi.org/project/opensearch-dsl/
-* Homepage: https://github.com/opensearch-project/opensearch-dsl-py
-* Author: Honza Král, Guian Gumpac honza.kral@gmail.com, guiang@bitquilltech.com
-* License :: OSI Approved :: Apache Software License
-
 ### `opensearch-py`
 
 * Summary: Python low-level client for OpenSearch
-* Version: 2.0.1
+* Version: 2.0.0
 * Pypi: https://pypi.org/project/opensearch-py/
 * Homepage: https://github.com/opensearch-project/opensearch-py
 * Author: Aleksei Atavin, Denis Zalevskiy, Rushi Agrawal, Shephali Mittal axeo@aiven.io, dez@aiven.io, rushi.agr@gmail.com, shephalm@amazon.com
@@ -545,7 +516,7 @@ Administrative keys for demisto/py3-tools:1.0.0.40085
 ### `pymongo`
 
 * Summary: Python driver for MongoDB <http://www.mongodb.org>
-* Version: 4.3.3
+* Version: 4.3.2
 * Pypi: https://pypi.org/project/pymongo/
 * Homepage: http://github.com/mongodb/mongo-python-driver
 * Author: The MongoDB Python Team
@@ -591,7 +562,7 @@ Administrative keys for demisto/py3-tools:1.0.0.40085
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2022.6
+* Version: 2021.1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -636,7 +607,7 @@ Administrative keys for demisto/py3-tools:1.0.0.40085
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.28.1
+* Version: 2.25.1
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -663,7 +634,7 @@ Administrative keys for demisto/py3-tools:1.0.0.40085
 ### `responses`
 
 * Summary: A utility library for mocking out the `requests` Python library.
-* Version: 0.22.0
+* Version: 0.12.1
 * Pypi: https://pypi.org/project/responses/
 * Homepage: https://github.com/getsentry/responses
 * Author: David Cramer
@@ -760,15 +731,6 @@ Administrative keys for demisto/py3-tools:1.0.0.40085
 * Author: OASIS Cyber Threat Intelligence Technical Committee cti-users@lists.oasis-open.org
 * License :: OSI Approved :: BSD License
 
-### `stomp.py`
-
-* Summary: Python STOMP client, supporting versions 1.0, 1.1 and 1.2 of the protocol
-* Version: 8.1.0
-* Pypi: https://pypi.org/project/stomp.py/
-* Homepage: https://github.com/jasonrbriggs/stomp.py
-* Author: Jason R Briggs jasonrbriggs@gmail.com
-* License :: OSI Approved :: Apache Software License
-
 ### `taxii2-client`
 
 * Summary: TAXII 2 Client Library
@@ -808,20 +770,11 @@ Administrative keys for demisto/py3-tools:1.0.0.40085
 ### `tweepy`
 
 * Summary: Twitter library for Python
-* Version: 4.12.1
+* Version: 4.4.0
 * Pypi: https://pypi.org/project/tweepy/
 * Homepage: https://www.tweepy.org/
 * Author: Joshua Roesslein tweepy@googlegroups.com
 * License :: OSI Approved :: MIT License
-
-### `types-toml`
-
-* Summary: Typing stubs for toml
-* Version: 0.10.8.1
-* Pypi: https://pypi.org/project/types-toml/
-* Homepage: https://github.com/python/typeshed
-* Author: 
-* License :: OSI Approved :: Apache Software License
 
 ### `tzdata`
 
@@ -844,7 +797,7 @@ Administrative keys for demisto/py3-tools:1.0.0.40085
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 1.26.13
+* Version: 1.26.12
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: https://urllib3.readthedocs.io/
 * Author: Andrey Petrov andrey.petrov@shazow.net
@@ -868,24 +821,6 @@ Administrative keys for demisto/py3-tools:1.0.0.40085
 * Author: Justin Berka, Alex Kim, Siting Ren justin.berka@gmail.com, alex.kim@uber.com, sitingren@hotmail.com
 * License :: OSI Approved :: Apache Software License
 
-### `websocket-client`
-
-* Summary: WebSocket client for Python with low level API options
-* Version: 1.4.2
-* Pypi: https://pypi.org/project/websocket-client/
-* Homepage: https://github.com/websocket-client/websocket-client.git
-* Author: liris liris.pp@gmail.com
-* License :: OSI Approved :: Apache Software License
-
-### `wheel`
-
-* Summary: A built-package format for Python
-* Version: 0.38.4
-* Pypi: https://pypi.org/project/wheel/
-* Homepage: https://github.com/pypa/wheel
-* Author: Daniel Holth dholth@fastmail.fm
-* License :: OSI Approved :: MIT License
-
 ### `xlrd`
 
 * Summary: Library for developers to extract data from Microsoft Excel (tm) .xls spreadsheet files
@@ -906,40 +841,4 @@ Administrative keys for demisto/py3-tools:1.0.0.40085
 
 ## `OS Packages`
 
-* .python-rundeps-20221129.212323 noarch {.python-rundeps}
-* alpine-baselayout-3.4.0-r0 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.4.0-r0 x86_64 {alpine-baselayout}
-* alpine-keys-2.4-r1 x86_64 {alpine-keys}
-* apk-tools-2.12.10-r1 x86_64 {apk-tools}
-* busybox-1.35.0-r29 x86_64 {busybox}
-* busybox-binsh-1.35.0-r29 x86_64 {busybox}
-* ca-certificates-20220614-r2 x86_64 {ca-certificates}
-* ca-certificates-bundle-20220614-r2 x86_64 {ca-certificates}
-* gdbm-1.23-r0 x86_64 {gdbm}
-* keyutils-libs-1.6.3-r1 x86_64 {keyutils}
-* krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.20.1-r0 x86_64 {krb5}
-* libbz2-1.0.8-r4 x86_64 {bzip2}
-* libc-utils-0.7.2-r3 x86_64 {libc-dev}
-* libcom_err-1.46.5-r4 x86_64 {e2fsprogs}
-* libcrypto3-3.0.7-r0 x86_64 {openssl}
-* libexpat-2.5.0-r0 x86_64 {expat}
-* libffi-3.4.4-r0 x86_64 {libffi}
-* libintl-0.21.1-r1 x86_64 {gettext}
-* libnsl-2.0.0-r0 x86_64 {libnsl}
-* libssl3-3.0.7-r0 x86_64 {openssl}
-* libtirpc-1.3.3-r0 x86_64 {libtirpc}
-* libtirpc-conf-1.3.3-r0 x86_64 {libtirpc}
-* libuuid-2.38.1-r0 x86_64 {util-linux}
-* libverto-0.3.2-r1 x86_64 {libverto}
-* musl-1.2.3-r4 x86_64 {musl}
-* musl-utils-1.2.3-r4 x86_64 {musl}
-* ncurses-libs-6.3_p20221119-r0 x86_64 {ncurses}
-* ncurses-terminfo-base-6.3_p20221119-r0 x86_64 {ncurses}
-* readline-8.2.0-r0 x86_64 {readline}
-* scanelf-1.3.5-r1 x86_64 {pax-utils}
-* sqlite-libs-3.40.0-r0 x86_64 {sqlite}
-* ssl_client-1.35.0-r29 x86_64 {busybox}
-* tzdata-2022f-r1 x86_64 {tzdata}
-* xz-libs-5.2.8-r0 x86_64 {xz}
-* zlib-1.2.13-r0 x86_64 {zlib}
+

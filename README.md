@@ -157,11 +157,13 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/pwsh-ata](demisto/pwsh-ata/last.md)
 * [demisto/pwsh-azure](demisto/pwsh-azure/last.md)
 * [demisto/pwsh-exchange](demisto/pwsh-exchange/last.md)
+* [demisto/pwsh-exchangev3](demisto/pwsh-exchangev3/last.md)
 * [demisto/pwsh-infocyte](demisto/pwsh-infocyte/last.md)
 * [demisto/pwsh-remoting](demisto/pwsh-remoting/last.md)
 * [demisto/py-ews](demisto/py-ews/last.md)
 * [demisto/py2-exchangelib](demisto/py2-exchangelib/last.md)
 * [demisto/py3-tools](demisto/py3-tools/last.md)
+* [demisto/py3-tools-ubi](demisto/py3-tools-ubi/last.md)
 * [demisto/py3ews](demisto/py3ews/last.md)
 * [demisto/py42](demisto/py42/last.md)
 * [demisto/pycef](demisto/pycef/last.md)
@@ -260,4 +262,4 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2022-12-01 01:27:56.000361
+Last updated: 2022-12-02 01:11:23.255813
