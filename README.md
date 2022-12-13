@@ -216,6 +216,7 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/snowflake](demisto/snowflake/last.md)
 * [demisto/solarwinds-orionsdk](demisto/solarwinds-orionsdk/last.md)
 * [demisto/splunksdk](demisto/splunksdk/last.md)
+* [demisto/splunksdk-py3](demisto/splunksdk-py3/last.md)
 * [demisto/ssdeep](demisto/ssdeep/last.md)
 * [demisto/ssl-analyze](demisto/ssl-analyze/last.md)
 * [demisto/stix](demisto/stix/last.md)
@@ -263,4 +264,4 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2022-12-12 01:08:58.226252
+Last updated: 2022-12-13 01:09:59.239676

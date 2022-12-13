@@ -1,8 +1,8 @@
-# `demisto/boto3py3:1.0.0.41204`
+# `demisto/splunksdk-py3:1.0.0.41244`
 ## Docker Metadata
-- Image Size: `39.08 MB`
-- Image ID: `sha256:7648610272e317d44577c291285660000fbe6f84fc1c435a31b0e26daa624d6c`
-- Created: `2022-12-12T14:15:05.460968576Z`
+- Image Size: `28.82 MB`
+- Image ID: `sha256:fd6e0bfec47c2d7dec9f4732f673f3248666f82e4d8984deb8f95c0ffa33c953`
+- Created: `2022-12-12T16:47:34.356692195Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -14,11 +14,11 @@
   - `PYTHON_SETUPTOOLS_VERSION=65.5.0`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/66030fa03382b4914d4c4d0896961a0bdeeeb274/public/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=1e501cf004eac1b7eb1f97266d28f995ae835d30250bec7f8850562703067dc6`
-  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.41204`
+  - `DOCKER_IMAGE=demisto/splunksdk-py3:1.0.0.41244`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:479458d4f341ec4c1447153fad3822000c2a840b`
-  - `org.opencontainers.image.version:1.0.0.41204`
+  - `org.opencontainers.image.revision:1b7d77fc44c4b7564fb8221ee973e120aa30fad3`
+  - `org.opencontainers.image.version:1.0.0.41244`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -31,38 +31,20 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/boto3py3:1.0.0.41204
+Signatures for demisto/splunksdk-py3:1.0.0.41244
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.41204         7e974b082c942f84c6ca9d84d39309e41eb2affe6359e178fa3cade21a011b2d   (Repo Admin)
+1.0.0.41244         43331053f7d99e7a54d2be5a22ecd0e856c0f9a0116684aa53fb520d6c5b36e0   (Repo Admin)
 
-Administrative keys for demisto/boto3py3:1.0.0.41204
+Administrative keys for demisto/splunksdk-py3:1.0.0.41244
 
-  Repository Key:	cfe86d8f6e0178e2a77477d651d16cfc814b6e47b04f1f04d94917fb248a1ae8
-  Root Key:	c4222af787cfc1a173f56c5eab482e5c4602eae4bb767431e17594c786c162f8
+  Repository Key:	c8e1e640577a43aba3fde0b790aa56b68b13b0fe86fca58d361c2d10cb07d55c
+  Root Key:	3b6eafd83617d2e11024ba17132fe1341ba56962fb6a0ae39e5359b2a1ed85d2
 
 ```
 
 ## `Python Packages`
 
-
-### `boto3`
-
-* Summary: The AWS SDK for Python
-* Version: 1.26.27
-* Pypi: https://pypi.org/project/boto3/
-* Homepage: https://github.com/boto/boto3
-* Author: Amazon Web Services
-* License :: OSI Approved :: Apache Software License
-
-### `botocore`
-
-* Summary: Low-level, data-driven core of boto 3.
-* Version: 1.29.27
-* Pypi: https://pypi.org/project/botocore/
-* Homepage: https://github.com/boto/botocore
-* Author: Amazon Web Services
-* License :: OSI Approved :: Apache Software License
 
 ### `certifi`
 
@@ -117,15 +99,6 @@ Administrative keys for demisto/boto3py3:1.0.0.41204
 * Homepage: None
 * Author: Kim Davies <kim@cynosure.com.au>
 * License :: OSI Approved :: BSD License
-
-### `jmespath`
-
-* Summary: JSON Matching Expressions
-* Version: 1.0.1
-* Pypi: https://pypi.org/project/jmespath/
-* Homepage: https://github.com/jmespath/jmespath.py
-* Author: James Saryerwinnie js@jamesls.com
-* License :: OSI Approved :: MIT License
 
 ### `olefile`
 
@@ -218,15 +191,6 @@ Administrative keys for demisto/boto3py3:1.0.0.41204
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
-### `s3transfer`
-
-* Summary: An Amazon S3 Transfer Manager
-* Version: 0.6.0
-* Pypi: https://pypi.org/project/s3transfer/
-* Homepage: https://github.com/boto/s3transfer
-* Author: Amazon Web Services kyknapp1@gmail.com
-* License :: OSI Approved :: Apache Software License
-
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
@@ -244,6 +208,15 @@ Administrative keys for demisto/boto3py3:1.0.0.41204
 * Homepage: https://github.com/benjaminp/six
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
+
+### `splunk-sdk`
+
+* Summary: The Splunk Software Development Kit for Python.
+* Version: 1.7.2
+* Pypi: https://pypi.org/project/splunk-sdk/
+* Homepage: http://github.com/splunk/splunk-sdk-python
+* Author: Splunk, Inc. devinfo@splunk.com
+* License :: OSI Approved :: Apache Software License
 
 ### `tldextract`
 
@@ -275,7 +248,7 @@ Administrative keys for demisto/boto3py3:1.0.0.41204
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 1.26.13
+* Version: 1.26.12
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: https://urllib3.readthedocs.io/
 * Author: Andrey Petrov andrey.petrov@shazow.net
