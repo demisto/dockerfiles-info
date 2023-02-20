@@ -41,6 +41,7 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/cyjax](demisto/cyjax/last.md)
 * [demisto/cylance_protect_v2](demisto/cylance_protect_v2/last.md)
 * [demisto/cymruwhois](demisto/cymruwhois/last.md)
+* [demisto/datadog-api-client](demisto/datadog-api-client/last.md)
 * [demisto/dateutil](demisto/dateutil/last.md)
 * [demisto/demisto-sdk](demisto/demisto-sdk/last.md)
 * [demisto/demisto-sdk-dependencies](demisto/demisto-sdk-dependencies/last.md)
@@ -264,4 +265,4 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2023-02-19 01:07:41.457203
+Last updated: 2023-02-20 01:11:43.573029
