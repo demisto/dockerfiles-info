@@ -1,8 +1,8 @@
-# `demisto/matplotlib:1.0.0.50512`
+# `demisto/processing-image-file:1.0.0.50241`
 ## Docker Metadata
-- Image Size: `117.39 MB`
-- Image ID: `sha256:f3729d39b33d165c99b212d7e672c46b846bfd265ad20c04869b645dd22fc08b`
-- Created: `2023-03-20T15:59:52.967682164Z`
+- Image Size: `285.32 MB`
+- Image ID: `sha256:915f4eaf0cb94a7d358442c7189a869674597e553901c62fe29ad1703b31202c`
+- Created: `2023-03-20T08:14:21.141110736Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -14,34 +14,35 @@
   - `PYTHON_SETUPTOOLS_VERSION=65.5.1`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/d5cb0afaf23b8520f1bbcfed521017b4a95f5c01/public/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=394be00f13fa1b9aaa47e911bdb59a09c3b2986472130f30aa0bfaf7f3980637`
-  - `DOCKER_IMAGE=demisto/matplotlib:1.0.0.50512`
-  - `DEPRECATED_IMAGE=true`
-  - `DEPRECATED_REASON=Image not in use by non-deprecated content item.`
+  - `DOCKER_IMAGE=demisto/processing-image-file:1.0.0.50241`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d5c711bc7807d2a48d2fcd6cf820fa4f5f90b1b0`
-  - `org.opencontainers.image.version:1.0.0.50512`
+  - `org.opencontainers.image.revision:d2b70b79afa734742d6a538da296e37da5ffe9cd`
+  - `org.opencontainers.image.version:1.0.0.50241`
 
 - OS Release:
-  - `NAME="Alpine Linux"`
-  - `ID=alpine`
-  - `VERSION_ID=3.17.2`
-  - `PRETTY_NAME="Alpine Linux v3.17"`
-  - `HOME_URL="https://alpinelinux.org/"`
-  - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
+  - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
+  - `NAME="Debian GNU/Linux"`
+  - `VERSION_ID="11"`
+  - `VERSION="11 (bullseye)"`
+  - `VERSION_CODENAME=bullseye`
+  - `ID=debian`
+  - `HOME_URL="https://www.debian.org/"`
+  - `SUPPORT_URL="https://www.debian.org/support"`
+  - `BUG_REPORT_URL="https://bugs.debian.org/"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/matplotlib:1.0.0.50512
+Signatures for demisto/processing-image-file:1.0.0.50241
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.50512         b784dedb1c76e1f6e9118ffc0d4f0667c155f21d26e00d844fa5e10869fbe16d   (Repo Admin)
+1.0.0.50241         5daab5c1bca6cd24884fa2d9ea36162d6073cfdfb6ab6f075d6af2aecc0f7023   (Repo Admin)
 
-Administrative keys for demisto/matplotlib:1.0.0.50512
+Administrative keys for demisto/processing-image-file:1.0.0.50241
 
-  Repository Key:	6d942d811a412fe2805808077c2a1c6919b41047305ee2ff0fc364eb2b89201f
-  Root Key:	8a7871ea87cf157433f507e4c26c86c6925faa9902ac60805d30230210f24fd9
+  Repository Key:	a0f861fb47a97850b39a452cefdf9dc0be9cf15fc5bd7d7324e919d46238104e
+  Root Key:	a1442115d0fe58a5223aeac31edee34ef8c4adbdc8d794929e460cb0904e1728
 
 ```
 
@@ -65,24 +66,6 @@ Administrative keys for demisto/matplotlib:1.0.0.50512
 * Homepage: https://github.com/Ousret/charset_normalizer
 * Author: Ahmed TAHRI ahmed.tahri@cloudnursery.dev
 * License :: OSI Approved :: MIT License
-
-### `cycler`
-
-* Summary: Composable style cycles
-* Version: 0.11.0
-* Pypi: https://pypi.org/project/cycler/
-* Homepage: https://github.com/matplotlib/cycler
-* Author: Thomas A Caswell matplotlib-users@python.org
-* License :: OSI Approved :: BSD License
-
-### `Cython`
-
-* Summary: The Cython compiler for writing C extensions for the Python language.
-* Version: 0.29.33
-* Pypi: https://pypi.org/project/Cython/
-* Homepage: http://cython.org/
-* Author: Robert Bradshaw, Stefan Behnel, Dag Seljebotn, Greg Ewing, et al. cython-devel@python.org
-* License :: OSI Approved :: Apache Software License
 
 ### `dateparser`
 
@@ -111,15 +94,6 @@ Administrative keys for demisto/matplotlib:1.0.0.50512
 * Author: 
 * License :: OSI Approved :: The Unlicense (Unlicense)
 
-### `fonttools`
-
-* Summary: Tools to manipulate font files
-* Version: 4.34.4
-* Pypi: https://pypi.org/project/fonttools/
-* Homepage: http://github.com/fonttools/fonttools
-* Author: Just van Rossum just@letterror.com
-* License :: OSI Approved :: MIT License
-
 ### `funcy`
 
 * Summary: A fancy and practical functional tools
@@ -138,24 +112,6 @@ Administrative keys for demisto/matplotlib:1.0.0.50512
 * Author: Kim Davies <kim@cynosure.com.au>
 * License :: OSI Approved :: BSD License
 
-### `kiwisolver`
-
-* Summary: A fast implementation of the Cassowary constraint solver
-* Version: 1.4.4
-* Pypi: https://pypi.org/project/kiwisolver/
-* Homepage: 
-* Author: The Nucleic Development Team <sccolbert@gmail.com>
-* License :: BSD 3-Clause License
-
-### `matplotlib`
-
-* Summary: Python plotting package
-* Version: 3.5.3
-* Pypi: https://pypi.org/project/matplotlib/
-* Homepage: https://matplotlib.org
-* Author: John D. Hunter, Michael Droettboom matplotlib-users@python.org
-* License :: OSI Approved :: Python Software Foundation License
-
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
@@ -168,7 +124,7 @@ Administrative keys for demisto/matplotlib:1.0.0.50512
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 1.21.6
+* Version: 1.24.2
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: https://www.numpy.org
 * Author: Travis E. Oliphant et al.
@@ -183,20 +139,19 @@ Administrative keys for demisto/matplotlib:1.0.0.50512
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
-### `packaging`
+### `opencv-python`
 
-* Summary: Core utilities for Python packages
-* Version: 21.3
-* Pypi: https://pypi.org/project/packaging/
-* Homepage: 
-* Author: Donald Stufft <donald@stufft.io>
+* Summary: Wrapper package for OpenCV python bindings.
+* Version: 4.5.5.64
+* Pypi: https://pypi.org/project/opencv-python/
+* Homepage: https://github.com/opencv/opencv-python
+* Author: 
 * License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
 
 ### `Pillow`
 
 * Summary: Python Imaging Library (Fork)
-* Version: 9.2.0
+* Version: 9.4.0
 * Pypi: https://pypi.org/project/Pillow/
 * Homepage: https://python-pillow.org
 * Author: Alex Clark (PIL Fork Author) aclark@python-pillow.org
@@ -209,15 +164,6 @@ Administrative keys for demisto/matplotlib:1.0.0.50512
 * Pypi: https://pypi.org/project/pip/
 * Homepage: https://pip.pypa.io/
 * Author: The pip developers distutils-sig@python.org
-* License :: OSI Approved :: MIT License
-
-### `pyparsing`
-
-* Summary: pyparsing module - Classes and methods to define and execute parsing grammars
-* Version: 3.0.9
-* Pypi: https://pypi.org/project/pyparsing/
-* Homepage: 
-* Author: Paul McGuire <ptmcg.gm+pyparsing@gmail.com>
 * License :: OSI Approved :: MIT License
 
 ### `PySocks`
@@ -320,15 +266,6 @@ Administrative keys for demisto/matplotlib:1.0.0.50512
 * Author: John Kurkowski john.kurkowski@gmail.com
 * License :: OSI Approved :: BSD License
 
-### `typing_extensions`
-
-* Summary: Backported and Experimental Type Hints for Python 3.7+
-* Version: 4.3.0
-* Pypi: https://pypi.org/project/typing-extensions/
-* Homepage: 
-* Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
-* License :: OSI Approved :: Python Software Foundation License
-
 ### `tzdata`
 
 * Summary: Provider of IANA time zone data
@@ -367,52 +304,222 @@ Administrative keys for demisto/matplotlib:1.0.0.50512
 
 ## `OS Packages`
 
-* .python-rundeps-20230314.030323 noarch {.python-rundeps}
-* alpine-baselayout-3.4.0-r0 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.4.0-r0 x86_64 {alpine-baselayout}
-* alpine-keys-2.4-r1 x86_64 {alpine-keys}
-* apk-tools-2.12.10-r1 x86_64 {apk-tools}
-* brotli-libs-1.0.9-r9 x86_64 {brotli}
-* busybox-1.35.0-r29 x86_64 {busybox}
-* busybox-binsh-1.35.0-r29 x86_64 {busybox}
-* ca-certificates-20220614-r4 x86_64 {ca-certificates}
-* ca-certificates-bundle-20220614-r4 x86_64 {ca-certificates}
-* freetype-2.12.1-r0 x86_64 {freetype}
-* gdbm-1.23-r0 x86_64 {gdbm}
-* jpeg-9e-r0 x86_64 {jpeg}
-* keyutils-libs-1.6.3-r1 x86_64 {keyutils}
-* krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.20.1-r0 x86_64 {krb5}
-* libbz2-1.0.8-r4 x86_64 {bzip2}
-* libc-utils-0.7.2-r3 x86_64 {libc-dev}
-* libcom_err-1.46.6-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.0.8-r0 x86_64 {openssl}
-* libexpat-2.5.0-r0 x86_64 {expat}
-* libffi-3.4.4-r0 x86_64 {libffi}
-* libgcc-12.2.1_git20220924-r4 x86_64 {gcc}
-* libgcrypt-1.10.1-r0 x86_64 {libgcrypt}
-* libgpg-error-1.46-r1 x86_64 {libgpg-error}
-* libintl-0.21.1-r1 x86_64 {gettext}
-* libjpeg-turbo-2.1.4-r0 x86_64 {libjpeg-turbo}
-* libjpeg-turbo-utils-2.1.4-r0 x86_64 {libjpeg-turbo}
-* libnsl-2.0.0-r0 x86_64 {libnsl}
-* libpng-1.6.38-r0 x86_64 {libpng}
-* libssl3-3.0.8-r0 x86_64 {openssl}
-* libstdc++-12.2.1_git20220924-r4 x86_64 {gcc}
-* libtirpc-1.3.3-r0 x86_64 {libtirpc}
-* libtirpc-conf-1.3.3-r0 x86_64 {libtirpc}
-* libuuid-2.38.1-r1 x86_64 {util-linux}
-* libverto-0.3.2-r1 x86_64 {libverto}
-* libxml2-2.10.3-r1 x86_64 {libxml2}
-* libxslt-1.1.37-r1 x86_64 {libxslt}
-* musl-1.2.3-r4 x86_64 {musl}
-* musl-utils-1.2.3-r4 x86_64 {musl}
-* ncurses-libs-6.3_p20221119-r0 x86_64 {ncurses}
-* ncurses-terminfo-base-6.3_p20221119-r0 x86_64 {ncurses}
-* readline-8.2.0-r0 x86_64 {readline}
-* scanelf-1.3.5-r1 x86_64 {pax-utils}
-* sqlite-libs-3.40.1-r0 x86_64 {sqlite}
-* ssl_client-1.35.0-r29 x86_64 {busybox}
-* tzdata-2022f-r1 x86_64 {tzdata}
-* xz-libs-5.2.9-r0 x86_64 {xz}
-* zlib-1.2.13-r0 x86_64 {zlib}
+* adduser	3.118
+* apt	2.2.4
+* base-files	11.1+deb11u6
+* base-passwd	3.5.51
+* bash	5.1-2+deb11u1
+* binutils	2.35.2-2
+* binutils-common:amd64	2.35.2-2
+* binutils-x86-64-linux-gnu	2.35.2-2
+* bsdutils	1:2.36.1-8+deb11u1
+* ca-certificates	20210119
+* coreutils	8.32-4+b1
+* cpp	4:10.2.1-1
+* cpp-10	10.2.1-6
+* dash	0.5.11+git20200708+dd9ef66-5
+* debconf	1.5.77
+* debian-archive-keyring	2021.1.1
+* debianutils	4.11.2
+* diffutils	1:3.7-5
+* dpkg	1.20.12
+* e2fsprogs	1.46.6-1~bpo11+1
+* findutils	4.8.0-1
+* gcc	4:10.2.1-1
+* gcc-10	10.2.1-6
+* gcc-10-base:amd64	10.2.1-6
+* gcc-9-base:amd64	9.3.0-22
+* gpgv	2.2.27-2+deb11u2
+* grep	3.6-1
+* gzip	1.10-4+deb11u1
+* hostname	3.23
+* init-system-helpers	1.64~bpo11+1
+* libacl1:amd64	2.2.53-10
+* libapt-pkg6.0:amd64	2.2.4
+* libasan6:amd64	10.2.1-6
+* libatomic1:amd64	10.2.1-6
+* libattr1:amd64	1:2.4.48-6
+* libaudit-common	1:3.0-2
+* libaudit1:amd64	1:3.0-2
+* libbinutils:amd64	2.35.2-2
+* libblkid1:amd64	2.36.1-8+deb11u1
+* libbsd0:amd64	0.11.3-1
+* libbz2-1.0:amd64	1.0.8-4
+* libc-bin	2.31-13+deb11u5
+* libc-dev-bin	2.31-13+deb11u5
+* libc6-dev:amd64	2.31-13+deb11u5
+* libc6:amd64	2.31-13+deb11u5
+* libcap-ng0:amd64	0.7.9-2.2+b1
+* libcc1-0:amd64	10.2.1-6
+* libcom-err2:amd64	1.46.6-1~bpo11+1
+* libcrypt-dev:amd64	1:4.4.18-4
+* libcrypt1:amd64	1:4.4.18-4
+* libctf-nobfd0:amd64	2.35.2-2
+* libctf0:amd64	2.35.2-2
+* libdb5.3:amd64	5.3.28+dfsg1-0.8
+* libdebconfclient0:amd64	0.260
+* libdrm-amdgpu1:amd64	2.4.104-1
+* libdrm-common	2.4.104-1
+* libdrm-intel1:amd64	2.4.104-1
+* libdrm-nouveau2:amd64	2.4.104-1
+* libdrm-radeon1:amd64	2.4.104-1
+* libdrm2:amd64	2.4.104-1
+* libedit2:amd64	3.1-20191231-2+b1
+* libelf1:amd64	0.183-1
+* libexpat1-dev:amd64	2.2.10-2+deb11u5
+* libexpat1:amd64	2.2.10-2+deb11u5
+* libext2fs2:amd64	1.46.6-1~bpo11+1
+* libffi7:amd64	3.3-6
+* libgcc-10-dev:amd64	10.2.1-6
+* libgcc-s1:amd64	10.2.1-6
+* libgcrypt20:amd64	1.8.7-6
+* libgdbm-compat4:amd64	1.19-2
+* libgdbm6:amd64	1.19-2
+* libgl1-mesa-dri:amd64	20.3.5-1
+* libgl1-mesa-glx:amd64	20.3.5-1
+* libgl1:amd64	1.3.2-1
+* libglapi-mesa:amd64	20.3.5-1
+* libglib2.0-0:amd64	2.66.8-1
+* libglvnd0:amd64	1.3.2-1
+* libglx-mesa0:amd64	20.3.5-1
+* libglx0:amd64	1.3.2-1
+* libgmp10:amd64	2:6.2.1+dfsg-1+deb11u1
+* libgnutls30:amd64	3.7.1-5+deb11u3
+* libgomp1:amd64	10.2.1-6
+* libgpg-error0:amd64	1.38-2
+* libgssapi-krb5-2:amd64	1.18.3-6+deb11u3
+* libhogweed6:amd64	3.7.3-1
+* libice6:amd64	2:1.0.10-1
+* libidn2-0:amd64	2.3.0-5
+* libisl23:amd64	0.23-1
+* libitm1:amd64	10.2.1-6
+* libjpeg-dev:amd64	1:2.0.6-4
+* libjpeg62-turbo-dev:amd64	1:2.0.6-4
+* libjpeg62-turbo:amd64	1:2.0.6-4
+* libk5crypto3:amd64	1.18.3-6+deb11u3
+* libkeyutils1:amd64	1.6.1-2
+* libkrb5-3:amd64	1.18.3-6+deb11u3
+* libkrb5support0:amd64	1.18.3-6+deb11u3
+* libllvm11:amd64	1:11.0.1-2
+* liblsan0:amd64	10.2.1-6
+* liblz4-1:amd64	1.9.3-2
+* liblzma5:amd64	5.2.5-2.1~deb11u1
+* libmd0:amd64	1.0.3-3
+* libmount1:amd64	2.36.1-8+deb11u1
+* libmpc3:amd64	1.2.0-1
+* libmpfr6:amd64	4.1.0-3
+* libncurses6:amd64	6.2+20201114-2
+* libncursesw6:amd64	6.2+20201114-2
+* libnettle8:amd64	3.7.3-1
+* libnsl-dev:amd64	1.3.0-2
+* libnsl2:amd64	1.3.0-2
+* libp11-kit0:amd64	0.23.22-1
+* libpam-modules-bin	1.4.0-9+deb11u1
+* libpam-modules:amd64	1.4.0-9+deb11u1
+* libpam-runtime	1.4.0-9+deb11u1
+* libpam0g:amd64	1.4.0-9+deb11u1
+* libpciaccess0:amd64	0.16-1
+* libpcre2-8-0:amd64	10.36-2+deb11u1
+* libpcre3:amd64	2:8.39-13
+* libperl5.32:amd64	5.32.1-4+deb11u2
+* libprocps8:amd64	2:3.3.17-5
+* libpsl5:amd64	0.21.0-1.2
+* libpthread-stubs0-dev:amd64	0.4-1
+* libpython2-dev:amd64	2.7.18-3
+* libpython2-stdlib:amd64	2.7.18-3
+* libpython2.7-dev:amd64	2.7.18-8
+* libpython2.7-minimal:amd64	2.7.18-8
+* libpython2.7-stdlib:amd64	2.7.18-8
+* libpython2.7:amd64	2.7.18-8
+* libquadmath0:amd64	10.2.1-6
+* libreadline8:amd64	8.1-1
+* libseccomp2:amd64	2.5.1-1+deb11u1
+* libselinux1:amd64	3.1-3
+* libsemanage-common	3.1-1
+* libsemanage1:amd64	3.1-1+b2
+* libsensors-config	1:3.6.0-7
+* libsensors5:amd64	1:3.6.0-7
+* libsepol1:amd64	3.1-1
+* libsm6:amd64	2:1.2.3-1
+* libsmartcols1:amd64	2.36.1-8+deb11u1
+* libsqlite3-0:amd64	3.34.1-3
+* libss2:amd64	1.46.6-1~bpo11+1
+* libssl1.1:amd64	1.1.1n-0+deb11u4
+* libstdc++6:amd64	10.2.1-6
+* libsystemd0:amd64	252.5-2~bpo11+1
+* libtasn1-6:amd64	4.16.0-2+deb11u1
+* libtinfo6:amd64	6.2+20201114-2
+* libtirpc-common	1.3.1-1+deb11u1
+* libtirpc-dev:amd64	1.3.1-1+deb11u1
+* libtirpc3:amd64	1.3.1-1+deb11u1
+* libtsan0:amd64	10.2.1-6
+* libubsan1:amd64	10.2.1-6
+* libudev1:amd64	252.5-2~bpo11+1
+* libunistring2:amd64	0.9.10-4
+* libuuid1:amd64	2.36.1-8+deb11u1
+* libvulkan1:amd64	1.2.162.0-1
+* libx11-6:amd64	2:1.7.2-1
+* libx11-data	2:1.7.2-1
+* libx11-dev:amd64	2:1.7.2-1
+* libx11-xcb1:amd64	2:1.7.2-1
+* libxau-dev:amd64	1:1.0.9-1
+* libxau6:amd64	1:1.0.9-1
+* libxcb-dri2-0:amd64	1.14-3
+* libxcb-dri3-0:amd64	1.14-3
+* libxcb-glx0:amd64	1.14-3
+* libxcb-present0:amd64	1.14-3
+* libxcb-shm0:amd64	1.14-3
+* libxcb-sync1:amd64	1.14-3
+* libxcb-xfixes0:amd64	1.14-3
+* libxcb1-dev:amd64	1.14-3
+* libxcb1:amd64	1.14-3
+* libxdamage1:amd64	1:1.1.5-2
+* libxdmcp-dev:amd64	1:1.1.2-3
+* libxdmcp6:amd64	1:1.1.2-3
+* libxext6:amd64	2:1.3.3-1.1
+* libxfixes3:amd64	1:5.0.3-2
+* libxrender-dev:amd64	1:0.9.10-1
+* libxrender1:amd64	1:0.9.10-1
+* libxshmfence1:amd64	1.3-1
+* libxxf86vm1:amd64	1:1.1.4-1+b2
+* libxxhash0:amd64	0.8.0-2
+* libz3-4:amd64	4.8.10-1
+* libzstd1:amd64	1.4.8+dfsg-2.1
+* linux-libc-dev:amd64	5.10.162-1
+* login	1:4.8.1-1
+* logsave	1.46.6-1~bpo11+1
+* lsb-base	11.1.0
+* mailcap	3.69
+* mawk	1.3.4.20200120-2
+* media-types	4.0.0
+* mime-support	3.66
+* mount	2.36.1-8+deb11u1
+* ncurses-base	6.2+20201114-2
+* ncurses-bin	6.2+20201114-2
+* netbase	6.3
+* openssl	1.1.1n-0+deb11u4
+* passwd	1:4.8.1-1
+* perl	5.32.1-4+deb11u2
+* perl-base	5.32.1-4+deb11u2
+* perl-modules-5.32	5.32.1-4+deb11u2
+* procps	2:3.3.17-5
+* python-dev-is-python2	2.7.18-9
+* python-is-python2	2.7.18-9
+* python2	2.7.18-3
+* python2-dev	2.7.18-3
+* python2-minimal	2.7.18-3
+* python2.7	2.7.18-8
+* python2.7-dev	2.7.18-8
+* python2.7-minimal	2.7.18-8
+* readline-common	8.1-1
+* sed	4.7-1
+* sysvinit-utils	2.96-7+deb11u1
+* tar	1.34+dfsg-1
+* tzdata	2021a-1+deb11u8
+* util-linux	2.36.1-8+deb11u1
+* wget	1.21-1+deb11u1
+* x11-common	1:7.7+22
+* x11proto-dev	2020.1-1
+* xorg-sgml-doctools	1:1.11-1.1
+* xtrans-dev	1.4.0-1
+* zlib1g:amd64	1:1.2.11.dfsg-2+deb11u2
