@@ -1,8 +1,8 @@
-# `demisto/greynoise:1.0.0.51072`
+# `demisto/oci:1.0.0.51279`
 ## Docker Metadata
-- Image Size: `33.21 MB`
-- Image ID: `sha256:af5d9f45ec699fedc8127088cee7fbf1d34c2ecbe19e07c1f79892960f9d4ddb`
-- Created: `2023-03-23T18:29:03.073814996Z`
+- Image Size: `57.66 MB`
+- Image ID: `sha256:90e0c798d0bf2b2c7d92d51715d67498acdd9fc86f96ae9268a4d326f251942e`
+- Created: `2023-03-24T01:00:01.233648697Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -14,11 +14,11 @@
   - `PYTHON_SETUPTOOLS_VERSION=65.5.1`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/d5cb0afaf23b8520f1bbcfed521017b4a95f5c01/public/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=394be00f13fa1b9aaa47e911bdb59a09c3b2986472130f30aa0bfaf7f3980637`
-  - `DOCKER_IMAGE=demisto/greynoise:1.0.0.51072`
+  - `DOCKER_IMAGE=demisto/oci:1.0.0.51279`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:438a17d88adedbf6382a534f88b840f31e147a23`
-  - `org.opencontainers.image.version:1.0.0.51072`
+  - `org.opencontainers.image.revision:8d48905b8fc6b9a29a161027a75708f3684bbc9a`
+  - `org.opencontainers.image.version:1.0.0.51279`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -31,91 +31,65 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/greynoise:1.0.0.51072
+Signatures for demisto/oci:1.0.0.51279
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.51072         1f1b10562a64e6d0031fd80fa42aba9648bcfda357b0052500693fc9d4437ab3   (Repo Admin)
+1.0.0.51279         6c4efb8dc0b1cf679e7a6bda14194f85669df7e0e28eed2b9c2455469eef1b0f   (Repo Admin)
 
-Administrative keys for demisto/greynoise:1.0.0.51072
+Administrative keys for demisto/oci:1.0.0.51279
 
-  Repository Key:	dcc6de6a7bd5abc31f2c8bdced514b1e7dc9f91942192614a668073a58e6f25f
-  Root Key:	250fe3c8758a6b551ab2ec142fd29b541bffdfa107cc3b4b0667d02cd60ae504
+  Repository Key:	2cc50bdbe67fd75478233e92583764f227d51416d68a400f91f13954268ef489
+  Root Key:	6c4262e4f5f1c456c5e9a45765790ff209f55ce49fc37ed2a3dc8a833e52de92
 
 ```
 
 ## `Python Packages`
 
 
-### `ansimarkup`
-
-* Summary: Produce colored terminal text with an xml-like markup
-* Version: 1.5.0
-* Pypi: https://pypi.org/project/ansimarkup/
-* Homepage: https://github.com/gvalkov/python-ansimarkup
-* Author: Georgi Valkov georgi.t.valkov@gmail.com
-* License :: OSI Approved :: BSD License
-
-### `cachetools`
-
-* Summary: Extensible memoizing collections and decorators
-* Version: 5.2.0
-* Pypi: https://pypi.org/project/cachetools/
-* Homepage: https://github.com/tkem/cachetools/
-* Author: Thomas Kemmer tkemmer@computer.org
-* License :: OSI Approved :: MIT License
-
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2022.6.15.1
+* Version: 2022.12.7
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
+### `cffi`
+
+* Summary: Foreign Function Interface for Python calling C code.
+* Version: 1.15.1
+* Pypi: https://pypi.org/project/cffi/
+* Homepage: http://cffi.readthedocs.org
+* Author: Armin Rigo, Maciej Fijalkowski python-cffi@googlegroups.com
+* License :: OSI Approved :: MIT License
+
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 2.1.1
+* Version: 3.1.0
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: https://github.com/Ousret/charset_normalizer
 * Author: Ahmed TAHRI ahmed.tahri@cloudnursery.dev
 * License :: OSI Approved :: MIT License
 
-### `click`
+### `circuitbreaker`
 
-* Summary: Composable command line interface toolkit
-* Version: 8.1.3
-* Pypi: https://pypi.org/project/click/
-* Homepage: https://palletsprojects.com/p/click/
-* Author: Armin Ronacher armin.ronacher@active-4.com
+* Summary: Python Circuit Breaker pattern implementation
+* Version: 1.4.0
+* Pypi: https://pypi.org/project/circuitbreaker/
+* Homepage: https://github.com/fabfuel/circuitbreaker
+* Author: Fabian Fuelling pypi@fabfuel.de
 * License :: OSI Approved :: BSD License
 
-### `click-default-group`
+### `cryptography`
 
-* Summary: Extends click.Group to invoke a command without explicit subcommand name
-* Version: 1.2.2
-* Pypi: https://pypi.org/project/click-default-group/
-* Homepage: https://github.com/sublee/click-default-group/
-* Author: Heungsub Lee sub@subl.ee
-* License :: Public Domain
-
-### `click-repl`
-
-* Summary: REPL plugin for Click
-* Version: 0.2.0
-* Pypi: https://pypi.org/project/click-repl/
-* Homepage: https://github.com/untitaker/click-repl
-* Author: Markus Unterwaditzer markus@unterwaditzer.net
-* License: MIT
-
-### `colorama`
-
-* Summary: Cross-platform colored terminal text.
-* Version: 0.4.5
-* Pypi: https://pypi.org/project/colorama/
-* Homepage: 
-* Author: Jonathan Hartley <tartley@tartley.com>
+* Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
+* Version: 39.0.2
+* Pypi: https://pypi.org/project/cryptography/
+* Homepage: https://github.com/pyca/cryptography
+* Author: The Python Cryptographic Authority and individual contributors cryptography-dev@python.org
+* License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: BSD License
 
 ### `dateparser`
@@ -136,15 +110,6 @@ Administrative keys for demisto/greynoise:1.0.0.51072
 * Author: Christian Heimes christian@python.org
 * License :: OSI Approved :: Python Software Foundation License
 
-### `dict2xml`
-
-* Summary: Small utility to convert a python dictionary into an XML string
-* Version: 1.7.1
-* Pypi: https://pypi.org/project/dict2xml/
-* Homepage: 
-* Author: Stephen Moore <stephen@delfick.com>
-* License :: OSI Approved :: MIT License
-
 ### `filelock`
 
 * Summary: A platform independent file lock.
@@ -163,50 +128,33 @@ Administrative keys for demisto/greynoise:1.0.0.51072
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
-### `greynoise`
-
-* Summary: Abstraction to interact with GreyNoise API.
-* Version: 1.3.0
-* Pypi: https://pypi.org/project/greynoise/
-* Homepage: https://greynoise.io/
-* Author: GreyNoise Intelligence hello@greynoise.io
-* License :: OSI Approved :: MIT License
-
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.3
+* Version: 3.4
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim@cynosure.com.au>
 * License :: OSI Approved :: BSD License
 
-### `Jinja2`
-
-* Summary: A very fast and expressive template engine.
-* Version: 3.1.2
-* Pypi: https://pypi.org/project/Jinja2/
-* Homepage: https://palletsprojects.com/p/jinja/
-* Author: Armin Ronacher armin.ronacher@active-4.com
-* License :: OSI Approved :: BSD License
-
-### `MarkupSafe`
-
-* Summary: Safely add untrusted strings to HTML/XML markup.
-* Version: 2.1.1
-* Pypi: https://pypi.org/project/MarkupSafe/
-* Homepage: https://palletsprojects.com/p/markupsafe/
-* Author: Armin Ronacher armin.ronacher@active-4.com
-* License :: OSI Approved :: BSD License
-
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 8.14.0
+* Version: 9.1.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: 
 * Author: Erik Rose <erikrose@grinchcentral.com>
 * License :: OSI Approved :: MIT License
+
+### `oci`
+
+* Summary: Oracle Cloud Infrastructure Python SDK
+* Version: 2.96.0
+* Pypi: https://pypi.org/project/oci/
+* Homepage: https://docs.oracle.com/en-us/iaas/tools/python/latest/index.html
+* Author: Oracle joe.levy@oracle.com
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: Universal Permissive License (UPL)
 
 ### `olefile`
 
@@ -226,14 +174,23 @@ Administrative keys for demisto/greynoise:1.0.0.51072
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
-### `prompt-toolkit`
+### `pycparser`
 
-* Summary: Library for building powerful interactive command lines in Python
-* Version: 3.0.31
-* Pypi: https://pypi.org/project/prompt-toolkit/
-* Homepage: https://github.com/prompt-toolkit/python-prompt-toolkit
-* Author: Jonathan Slenders
+* Summary: C parser in Python
+* Version: 2.21
+* Pypi: https://pypi.org/project/pycparser/
+* Homepage: https://github.com/eliben/pycparser
+* Author: Eli Bendersky eliben@gmail.com
 * License :: OSI Approved :: BSD License
+
+### `pyOpenSSL`
+
+* Summary: Python wrapper module around the OpenSSL library
+* Version: 23.0.0
+* Pypi: https://pypi.org/project/pyOpenSSL/
+* Homepage: https://pyopenssl.org/
+* Author: The pyOpenSSL developers cryptography-dev@python.org
+* License :: OSI Approved :: Apache Software License
 
 ### `PySocks`
 
@@ -293,7 +250,7 @@ Administrative keys for demisto/greynoise:1.0.0.51072
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.28.1
+* Version: 2.28.2
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -326,16 +283,6 @@ Administrative keys for demisto/greynoise:1.0.0.51072
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
-### `structlog`
-
-* Summary: Structured Logging for Python
-* Version: 22.1.0
-* Pypi: https://pypi.org/project/structlog/
-* Homepage: 
-* Author: Hynek Schlawack <hs@ox.cx>
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: MIT License
-
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
@@ -366,19 +313,10 @@ Administrative keys for demisto/greynoise:1.0.0.51072
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 1.26.12
+* Version: 1.26.15
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: https://urllib3.readthedocs.io/
 * Author: Andrey Petrov andrey.petrov@shazow.net
-* License :: OSI Approved :: MIT License
-
-### `wcwidth`
-
-* Summary: Measures the displayed width of unicode strings in a terminal
-* Version: 0.2.5
-* Pypi: https://pypi.org/project/wcwidth/
-* Homepage: https://github.com/jquast/wcwidth
-* Author: Jeff Quast contact@jeffquast.com
 * License :: OSI Approved :: MIT License
 
 ### `wheel`
