@@ -1,8 +1,8 @@
-# `demisto/boto3py3:1.0.0.56703`
+# `demisto/privx-api:26.0.0.56715`
 ## Docker Metadata
-- Image Size: `41.36 MB`
-- Image ID: `sha256:8499142a65bd7269b5ba7994d79fe4ebf7d3a354046fc5eda97ab3c5d4f53698`
-- Created: `2023-05-01T11:34:29.191446562Z`
+- Image Size: `32.34 MB`
+- Image ID: `sha256:555c21ad3ec8431140d3d8020a29fdd8123de046207758acde10234cf339c32a`
+- Created: `2023-05-01T12:51:16.518164587Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -14,11 +14,11 @@
   - `PYTHON_SETUPTOOLS_VERSION=65.5.1`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/d5cb0afaf23b8520f1bbcfed521017b4a95f5c01/public/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=394be00f13fa1b9aaa47e911bdb59a09c3b2986472130f30aa0bfaf7f3980637`
-  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.56703`
+  - `DOCKER_IMAGE=demisto/privx-api:26.0.0.56715`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:27d812422ad91762ddcb7d4d4e267e8f486a4c6a`
-  - `org.opencontainers.image.version:1.0.0.56703`
+  - `org.opencontainers.image.revision:a5e98abb4eef68f5ed7163e107d01097cb6e6820`
+  - `org.opencontainers.image.version:26.0.0.56715`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -31,38 +31,20 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/boto3py3:1.0.0.56703
+Signatures for demisto/privx-api:26.0.0.56715
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.56703         d2dd7357d07c6f0fc1f21d18c4cf12b7b347ed67d56912f7994de33e677714b1   (Repo Admin)
+26.0.0.56715        89a8d46eaef8aa4c441403b480c567a44a10895ef15d1ad678318927a633d636   (Repo Admin)
 
-Administrative keys for demisto/boto3py3:1.0.0.56703
+Administrative keys for demisto/privx-api:26.0.0.56715
 
-  Repository Key:	cfe86d8f6e0178e2a77477d651d16cfc814b6e47b04f1f04d94917fb248a1ae8
-  Root Key:	c4222af787cfc1a173f56c5eab482e5c4602eae4bb767431e17594c786c162f8
+  Repository Key:	db14d1f798f421abb00abd9eab141e6d1f763760aeddee91d0319ed58725cccd
+  Root Key:	1e3267ba56b5e6d19c690a107f2fa7420c9b39ec6667cf9707a6dd1ff2e5f915
 
 ```
 
 ## `Python Packages`
 
-
-### `boto3`
-
-* Summary: The AWS SDK for Python
-* Version: 1.26.123
-* Pypi: https://pypi.org/project/boto3/
-* Homepage: https://github.com/boto/boto3
-* Author: Amazon Web Services
-* License :: OSI Approved :: Apache Software License
-
-### `botocore`
-
-* Summary: Low-level, data-driven core of boto 3.
-* Version: 1.29.123
-* Pypi: https://pypi.org/project/botocore/
-* Homepage: https://github.com/boto/botocore
-* Author: Amazon Web Services
-* License :: OSI Approved :: Apache Software License
 
 ### `certifi`
 
@@ -100,10 +82,19 @@ Administrative keys for demisto/boto3py3:1.0.0.56703
 * Author: Christian Heimes christian@python.org
 * License :: OSI Approved :: Python Software Foundation License
 
+### `dockerfile-parse`
+
+* Summary: Python library for Dockerfile manipulation
+* Version: 2.0.0
+* Pypi: https://pypi.org/project/dockerfile-parse/
+* Homepage: https://github.com/containerbuildsystem/dockerfile-parse
+* Author: Jiri Popelka jpopelka@redhat.com
+* License :: OSI Approved :: BSD License
+
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.10.7
+* Version: 3.12.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: 
 * Author: 
@@ -118,6 +109,24 @@ Administrative keys for demisto/boto3py3:1.0.0.56703
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
+### `gitdb`
+
+* Summary: Git Object Database
+* Version: 4.0.10
+* Pypi: https://pypi.org/project/gitdb/
+* Homepage: https://github.com/gitpython-developers/gitdb
+* Author: Sebastian Thiel byronimo@gmail.com
+* License :: OSI Approved :: BSD License
+
+### `GitPython`
+
+* Summary: GitPython is a Python library used to interact with Git repositories
+* Version: 3.1.31
+* Pypi: https://pypi.org/project/GitPython/
+* Homepage: https://github.com/gitpython-developers/GitPython
+* Author: Sebastian Thiel, Michael Trier byronimo@gmail.com, mtrier@gmail.com
+* License :: OSI Approved :: BSD License
+
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
@@ -126,15 +135,6 @@ Administrative keys for demisto/boto3py3:1.0.0.56703
 * Homepage: None
 * Author: Kim Davies <kim@cynosure.com.au>
 * License :: OSI Approved :: BSD License
-
-### `jmespath`
-
-* Summary: JSON Matching Expressions
-* Version: 1.0.1
-* Pypi: https://pypi.org/project/jmespath/
-* Homepage: https://github.com/jmespath/jmespath.py
-* Author: James Saryerwinnie js@jamesls.com
-* License :: OSI Approved :: MIT License
 
 ### `more-itertools`
 
@@ -163,6 +163,15 @@ Administrative keys for demisto/boto3py3:1.0.0.56703
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
+### `privx-api`
+
+* Summary: 
+* Version: 26.0.0
+* Pypi: None
+* Homepage: https://github.com/SSHcom/privx-sdk-for-python
+* Author: 
+* License: Apache Licence 2.0
+
 ### `PySocks`
 
 * Summary: A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information.
@@ -185,7 +194,7 @@ Administrative keys for demisto/boto3py3:1.0.0.56703
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2023.2
+* Version: 2023.3
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -221,7 +230,7 @@ Administrative keys for demisto/boto3py3:1.0.0.56703
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.28.2
+* Version: 2.29.0
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -236,14 +245,23 @@ Administrative keys for demisto/boto3py3:1.0.0.56703
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
-### `s3transfer`
+### `ruamel.yaml`
 
-* Summary: An Amazon S3 Transfer Manager
-* Version: 0.6.0
-* Pypi: https://pypi.org/project/s3transfer/
-* Homepage: https://github.com/boto/s3transfer
-* Author: Amazon Web Services kyknapp1@gmail.com
-* License :: OSI Approved :: Apache Software License
+* Summary: ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
+* Version: 0.17.21
+* Pypi: https://pypi.org/project/ruamel.yaml/
+* Homepage: https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree
+* Author: Anthon van der Neut a.van.der.neut@ruamel.eu
+* License :: OSI Approved :: MIT License
+
+### `ruamel.yaml.clib`
+
+* Summary: C version of reader, parser and emitter for ruamel.yaml derived from libyaml
+* Version: 0.2.7
+* Pypi: https://pypi.org/project/ruamel.yaml.clib/
+* Homepage: https://sourceforge.net/p/ruamel-yaml-clib/code/ci/default/tree
+* Author: Anthon van der Neut a.van.der.neut@ruamel.eu
+* License :: OSI Approved :: MIT License
 
 ### `setuptools`
 
@@ -263,10 +281,19 @@ Administrative keys for demisto/boto3py3:1.0.0.56703
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
+### `smmap`
+
+* Summary: A pure Python implementation of a sliding window memory map manager
+* Version: 5.0.0
+* Pypi: https://pypi.org/project/smmap/
+* Homepage: https://github.com/gitpython-developers/smmap
+* Author: Sebastian Thiel byronimo@gmail.com
+* License :: OSI Approved :: BSD License
+
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 3.4.0
+* Version: 3.4.1
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: https://github.com/john-kurkowski/tldextract
 * Author: John Kurkowski john.kurkowski@gmail.com
@@ -275,7 +302,7 @@ Administrative keys for demisto/boto3py3:1.0.0.56703
 ### `tzdata`
 
 * Summary: Provider of IANA time zone data
-* Version: 2023.2
+* Version: 2023.3
 * Pypi: https://pypi.org/project/tzdata/
 * Homepage: https://github.com/python/tzdata
 * Author: Python Software Foundation datetime-sig@python.org

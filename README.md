@@ -155,6 +155,7 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/powershell-deb](demisto/powershell-deb/last.md)
 * [demisto/powershell-teams](demisto/powershell-teams/last.md)
 * [demisto/powershell-ubuntu](demisto/powershell-ubuntu/last.md)
+* [demisto/privx-api](demisto/privx-api/last.md)
 * [demisto/processing-image-file](demisto/processing-image-file/last.md)
 * [demisto/psycopg2](demisto/psycopg2/last.md)
 * [demisto/pwsh-ata](demisto/pwsh-ata/last.md)
@@ -268,4 +269,4 @@ If you are searching for a specific package and want to see if it is available i
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2023-05-01 01:10:52.393775
+Last updated: 2023-05-02 01:10:18.068822
