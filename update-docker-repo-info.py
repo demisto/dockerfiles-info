@@ -93,16 +93,19 @@ def get_os_release(image_name):
 
 
 def inspect_image(image_name, out_file):
-    inspect_format = '''- Image ID: `{{ .Id }}`
-- Created: `{{ .Created }}`
-- Arch: `{{ .Os }}`/`{{ .Architecture }}`
-{{ if .Config.Entrypoint }}- Entrypoint: `{{ json .Config.Entrypoint }}`
-{{ end }}{{ if .Config.Cmd }}- Command: `{{ json .Config.Cmd }}`
-{{ end }}- Environment:{{ range .Config.Env }}{{ "\\n" }}  - `{{ . }}`{{ end }}
-- Labels:{{ range $key, $value := .ContainerConfig.Labels }}{{ "\\n" }}  - `{{ $key }}:{{ $value }}`{{ end }}
+    inspect_format = f'''{{{{ range $env := .Config.Env }}}}{{{{ if eq $env "DEPRECATED_IMAGE=true" }}}}## 🔴 IMPORTANT: This image is deprecated 🔴{{{{ end }}}}{{{{ end }}}}
+## Docker Metadata
+- Image Size: {get_docker_image_size(image_name)}
+- Image ID: `{{{{ .Id }}}}`
+- Created: `{{{{ .Created }}}}`
+- Arch: `{{{{ .Os }}}}`/`{{{{ .Architecture }}}}`
+{{{{ if .Config.Entrypoint }}}}- Entrypoint: `{{{{ json .Config.Entrypoint }}}}`
+{{{{ end }}}}{{{{ if .Config.Cmd }}}}- Command: `{{{{ json .Config.Cmd }}}}`
+{{{{ end }}}}- Environment:{{{{ range .Config.Env }}}}{{{{ "\\n" }}}}  - `{{{{ . }}}}`{{{{ end }}}}
+- Labels:{{{{ range $key, $value := .ContainerConfig.Labels }}}}{{{{ "\\n" }}}}  - `{{{{ $key }}}}:{{{{ $value }}}}`{{{{ end }}}}
 '''
     docker_info = subprocess.check_output(["docker", "inspect", "-f", inspect_format, image_name], text=True)
-    out_file.write('## Docker Metadata\n- Image Size: `{}`\n{}'.format(get_docker_image_size(image_name), docker_info))
+    out_file.write(docker_info)
     os_info = '- OS Release:'
     release_info = get_os_release(image_name)
     if not release_info:
