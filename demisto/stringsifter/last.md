@@ -1,9 +1,9 @@
-# `demisto/opencti-v4:1.0.0.65143`
+# `demisto/stringsifter:3.20230711.65157`
 
 ## Docker Metadata
-- Image Size: 33.11 MB
-- Image ID: `sha256:928fd9fd0636ae20470980cce344a8e1b31808c894edb41844a8ba103b8a0d5a`
-- Created: `2023-07-13T14:36:01.367745597Z`
+- Image Size: 218.95 MB
+- Image ID: `sha256:cdeab489f5b1f1a45d4c4466537b467692191230f8209abf9ecf703410075755`
+- Created: `2023-07-13T16:48:35.078602829Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -15,55 +15,38 @@
   - `PYTHON_SETUPTOOLS_VERSION=65.5.1`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/0d8570dc44796f4369b652222cf176b3db6ac70e/public/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=96461deced5c2a487ddc65207ec5a9cffeca0d34e7af7ea1afc470ff0d746207`
-  - `DOCKER_IMAGE=demisto/opencti-v4:1.0.0.65143`
+  - `DOCKER_IMAGE=demisto/stringsifter:3.20230711.65157`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d567006290d252f57a9385ae91e379dbe43bf254`
-  - `org.opencontainers.image.version:1.0.0.65143`
+  - `org.opencontainers.image.revision:9d8a77d7282c8b5a0b69a5698e2173db01abe514`
+  - `org.opencontainers.image.version:3.20230711.65157`
 
 - OS Release:
-  - `NAME="Alpine Linux"`
-  - `ID=alpine`
-  - `VERSION_ID=3.18.2`
-  - `PRETTY_NAME="Alpine Linux v3.18"`
-  - `HOME_URL="https://alpinelinux.org/"`
-  - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
+  - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
+  - `NAME="Debian GNU/Linux"`
+  - `VERSION_ID="11"`
+  - `VERSION="11 (bullseye)"`
+  - `VERSION_CODENAME=bullseye`
+  - `ID=debian`
+  - `HOME_URL="https://www.debian.org/"`
+  - `SUPPORT_URL="https://www.debian.org/support"`
+  - `BUG_REPORT_URL="https://bugs.debian.org/"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/opencti-v4:1.0.0.65143
+No signatures for demisto/stringsifter:3.20230711.65157
 
-SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.65143         186b6855db83d2dd17e3c06ab19507f209859c6d2859a517d640b5bf324c18dd   (Repo Admin)
 
-Administrative keys for demisto/opencti-v4:1.0.0.65143
+Administrative keys for demisto/stringsifter:3.20230711.65157
 
-  Repository Key:	b41ce04bf578b496e31711e41544a376783a7e108608f124a2e871f89df6853f
-  Root Key:	76b201ff04f8bb2411cb059b1a6e425d550e04a0745cd78dff42498c43b03669
+  Repository Key:	5c45703aee5998a7765730a3161a9fbd3c1f26dfff60cecfece3b362fa5e4b3e
+  Root Key:	e7fd840efa0cd4d9cc20d107af938948a32e34689626cf8d0d902d444a52dd17
 
 ```
 
 ## `Python Packages`
 
-
-### `antlr4-python3-runtime`
-
-* Summary: ANTLR 4.13.0 runtime for Python 3
-* Version: 4.9.3
-* Pypi: https://pypi.org/project/antlr4-python3-runtime/
-* Homepage: 
-* Author: Terence Parr, Sam Harwell Eric Vergnaud <eric.vergnaud@wanadoo.fr>
-* License: BSD
-
-### `cachetools`
-
-* Summary: Extensible memoizing collections and decorators
-* Version: 5.3.1
-* Pypi: https://pypi.org/project/cachetools/
-* Homepage: https://github.com/tkem/cachetools/
-* Author: Thomas Kemmer tkemmer@computer.org
-* License :: OSI Approved :: MIT License
 
 ### `certifi`
 
@@ -77,19 +60,10 @@ Administrative keys for demisto/opencti-v4:1.0.0.65143
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.2.0
+* Version: 3.1.0
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: https://github.com/Ousret/charset_normalizer
 * Author: Ahmed TAHRI ahmed.tahri@cloudnursery.dev
-* License :: OSI Approved :: MIT License
-
-### `datefinder`
-
-* Summary: Extract datetime objects from strings
-* Version: 0.7.3
-* Pypi: https://pypi.org/project/datefinder/
-* Homepage: https://github.com/akoumjian/datefinder
-* Author: Alec Koumjian akoumjian@gmail.com
 * License :: OSI Approved :: MIT License
 
 ### `dateparser`
@@ -110,6 +84,15 @@ Administrative keys for demisto/opencti-v4:1.0.0.65143
 * Author: Christian Heimes christian@python.org
 * License :: OSI Approved :: Python Software Foundation License
 
+### `fasttext-wheel`
+
+* Summary: fasttext Python bindings
+* Version: 0.9.2
+* Pypi: https://pypi.org/project/fasttext-wheel/
+* Homepage: https://github.com/facebookresearch/fastText
+* Author: Onur Celebi celebio@fb.com
+* License :: OSI Approved :: MIT License
+
 ### `filelock`
 
 * Summary: A platform independent file lock.
@@ -118,15 +101,6 @@ Administrative keys for demisto/opencti-v4:1.0.0.65143
 * Homepage: 
 * Author: 
 * License :: OSI Approved :: The Unlicense (Unlicense)
-
-### `filigran-sseclient`
-
-* Summary: Python API client for OpenCTI.
-* Version: 1.0.1
-* Pypi: https://pypi.org/project/filigran-sseclient/
-* Homepage: https://github.com/FiligranHQ/filigran-sseclient
-* Author: Filigran contact@filigran.io
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -146,6 +120,24 @@ Administrative keys for demisto/opencti-v4:1.0.0.65143
 * Author: Kim Davies <kim@cynosure.com.au>
 * License :: OSI Approved :: BSD License
 
+### `joblib`
+
+* Summary: Lightweight pipelining with Python functions
+* Version: 1.3.1
+* Pypi: https://pypi.org/project/joblib/
+* Homepage: 
+* Author: Gael Varoquaux <gael.varoquaux@normalesup.org>
+* License :: OSI Approved :: BSD License
+
+### `lightgbm`
+
+* Summary: LightGBM Python Package
+* Version: 3.3.5
+* Pypi: https://pypi.org/project/lightgbm/
+* Homepage: https://github.com/microsoft/LightGBM
+* Author: 
+* License :: OSI Approved :: MIT License
+
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
@@ -155,6 +147,15 @@ Administrative keys for demisto/opencti-v4:1.0.0.65143
 * Author: Erik Rose <erikrose@grinchcentral.com>
 * License :: OSI Approved :: MIT License
 
+### `numpy`
+
+* Summary: Fundamental package for array computing in Python
+* Version: 1.24.4
+* Pypi: https://pypi.org/project/numpy/
+* Homepage: https://www.numpy.org
+* Author: Travis E. Oliphant et al.
+* License :: OSI Approved :: BSD License
+
 ### `olefile`
 
 * Summary: Python package to parse, read and write Microsoft OLE2 files (Structured Storage or Compound Document, Microsoft Office)
@@ -162,15 +163,6 @@ Administrative keys for demisto/opencti-v4:1.0.0.65143
 * Pypi: https://pypi.org/project/olefile/
 * Homepage: https://www.decalage.info/python/olefileio
 * Author: Philippe Lagadec nospam@decalage.info
-* License :: OSI Approved :: BSD License
-
-### `pika`
-
-* Summary: Pika Python AMQP Client Library
-* Version: 1.3.2
-* Pypi: https://pypi.org/project/pika/
-* Homepage: 
-* Author: 
 * License :: OSI Approved :: BSD License
 
 ### `pip`
@@ -182,14 +174,14 @@ Administrative keys for demisto/opencti-v4:1.0.0.65143
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
-### `pycti`
+### `pybind11`
 
-* Summary: Python API client for OpenCTI.
-* Version: 5.9.2
-* Pypi: https://pypi.org/project/pycti/
-* Homepage: https://github.com/OpenCTI-Platform/client-python
-* Author: Filigran contact@filigran.io
-* License :: OSI Approved :: Apache Software License
+* Summary: Seamless operability between C++11 and Python
+* Version: 2.10.4
+* Pypi: https://pypi.org/project/pybind11/
+* Homepage: https://github.com/pybind/pybind11
+* Author: Wenzel Jakob wenzel.jakob@epfl.ch
+* License :: OSI Approved :: BSD License
 
 ### `PySocks`
 
@@ -209,24 +201,6 @@ Administrative keys for demisto/opencti-v4:1.0.0.65143
 * Author: Gustavo Niemeyer gustavo@niemeyer.net
 * License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: BSD License
-
-### `python-json-logger`
-
-* Summary: A python library adding a json log formatter
-* Version: 2.0.7
-* Pypi: https://pypi.org/project/python-json-logger/
-* Homepage: http://github.com/madzak/python-json-logger
-* Author: Zakaria Zajac zak@madzak.com
-* License :: OSI Approved :: BSD License
-
-### `python-magic`
-
-* Summary: File type identification using libmagic
-* Version: 0.4.27
-* Pypi: https://pypi.org/project/python-magic/
-* Homepage: http://github.com/ahupp/python-magic
-* Author: Adam Hupp adam@hupp.org
-* License :: OSI Approved :: MIT License
 
 ### `pytz`
 
@@ -249,7 +223,7 @@ Administrative keys for demisto/opencti-v4:1.0.0.65143
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2023.6.3
+* Version: 2023.5.5
 * Pypi: https://pypi.org/project/regex/
 * Homepage: https://github.com/mrabarnett/mrab-regex
 * Author: Matthew Barnett regex@mrabarnett.plus.com
@@ -273,23 +247,31 @@ Administrative keys for demisto/opencti-v4:1.0.0.65143
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
+### `scikit-learn`
+
+* Summary: A set of python modules for machine learning and data mining
+* Version: 1.3.0
+* Pypi: https://pypi.org/project/scikit-learn/
+* Homepage: http://scikit-learn.org
+* Author: 
+* License :: OSI Approved :: BSD License
+
+### `scipy`
+
+* Summary: Fundamental algorithms for scientific computing in Python
+* Version: 1.11.1
+* Pypi: https://pypi.org/project/scipy/
+* Homepage: https://scipy.org/
+* Author: 
+* License :: OSI Approved :: BSD License
+
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 68.0.0
+* Version: 65.5.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
-* License :: OSI Approved :: MIT License
-
-### `simplejson`
-
-* Summary: Simple, fast, extensible JSON encoder/decoder for Python
-* Version: 3.19.1
-* Pypi: https://pypi.org/project/simplejson/
-* Homepage: https://github.com/simplejson/simplejson
-* Author: Bob Ippolito bob@redivi.com
-* License :: OSI Approved :: Academic Free License (AFL)
 * License :: OSI Approved :: MIT License
 
 ### `six`
@@ -301,22 +283,22 @@ Administrative keys for demisto/opencti-v4:1.0.0.65143
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
-### `stix2`
+### `stringsifter`
 
-* Summary: Produce and consume STIX 2 JSON content
-* Version: 3.0.1
-* Pypi: https://pypi.org/project/stix2/
-* Homepage: https://oasis-open.github.io/cti-documentation/
-* Author: OASIS Cyber Threat Intelligence Technical Committee cti-users@lists.oasis-open.org
-* License :: OSI Approved :: BSD License
+* Summary: StringSifter is a machine learning tool that automatically ranks strings based on their relevance for malware analysis.
+* Version: 3.20230711
+* Pypi: https://pypi.org/project/stringsifter/
+* Homepage: https://github.com/mandiant/stringsifter
+* Author: Mandiant Data Science Research
+* License :: OSI Approved :: Apache Software License
 
-### `stix2-patterns`
+### `threadpoolctl`
 
-* Summary: Validate STIX 2 Patterns.
-* Version: 2.0.0
-* Pypi: https://pypi.org/project/stix2-patterns/
-* Homepage: https://github.com/oasis-open/cti-pattern-validator
-* Author: OASIS Cyber Threat Intelligence Technical Committee cti-users@lists.oasis-open.org
+* Summary: threadpoolctl
+* Version: 3.2.0
+* Pypi: https://pypi.org/project/threadpoolctl/
+* Homepage: https://github.com/joblib/threadpoolctl
+* Author: Thomas Moreau thomas.moreau.2010@gmail.com
 * License :: OSI Approved :: BSD License
 
 ### `tldextract`
@@ -340,7 +322,7 @@ Administrative keys for demisto/opencti-v4:1.0.0.65143
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.0.3
+* Version: 2.0.2
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: 
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -357,42 +339,112 @@ Administrative keys for demisto/opencti-v4:1.0.0.65143
 
 ## `OS Packages`
 
-* .python-rundeps-20230615.031959 noarch {.python-rundeps}
-* alpine-baselayout-3.4.3-r1 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.4.3-r1 x86_64 {alpine-baselayout}
-* alpine-keys-2.4-r1 x86_64 {alpine-keys}
-* apk-tools-2.14.0-r2 x86_64 {apk-tools}
-* busybox-1.36.1-r0 x86_64 {busybox}
-* busybox-binsh-1.36.1-r0 x86_64 {busybox}
-* ca-certificates-20230506-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20230506-r0 x86_64 {ca-certificates}
-* gdbm-1.23-r1 x86_64 {gdbm}
-* keyutils-libs-1.6.3-r3 x86_64 {keyutils}
-* krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.20.1-r1 x86_64 {krb5}
-* libbz2-1.0.8-r5 x86_64 {bzip2}
-* libc-utils-0.7.2-r5 x86_64 {libc-dev}
-* libcom_err-1.47.0-r2 x86_64 {e2fsprogs}
-* libcrypto3-3.1.1-r1 x86_64 {openssl}
-* libexpat-2.5.0-r1 x86_64 {expat}
-* libffi-3.4.4-r2 x86_64 {libffi}
-* libintl-0.21.1-r7 x86_64 {gettext}
-* libmagic-5.44-r4 x86_64 {file}
-* libncursesw-6.4_p20230506-r0 x86_64 {ncurses}
-* libnsl-2.0.0-r0 x86_64 {libnsl}
-* libpanelw-6.4_p20230506-r0 x86_64 {ncurses}
-* libssl3-3.1.1-r1 x86_64 {openssl}
-* libtirpc-1.3.3-r2 x86_64 {libtirpc}
-* libtirpc-conf-1.3.3-r2 x86_64 {libtirpc}
-* libuuid-2.38.1-r8 x86_64 {util-linux}
-* libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.4-r0 x86_64 {musl}
-* musl-utils-1.2.4-r0 x86_64 {musl}
-* ncurses-terminfo-base-6.4_p20230506-r0 x86_64 {ncurses}
-* readline-8.2.1-r1 x86_64 {readline}
-* scanelf-1.3.7-r1 x86_64 {pax-utils}
-* sqlite-libs-3.41.2-r2 x86_64 {sqlite}
-* ssl_client-1.36.1-r0 x86_64 {busybox}
-* tzdata-2023c-r1 x86_64 {tzdata}
-* xz-libs-5.4.3-r0 x86_64 {xz}
-* zlib-1.2.13-r1 x86_64 {zlib}
+* adduser	3.118
+* apt	2.2.4
+* base-files	11.1+deb11u7
+* base-passwd	3.5.51
+* bash	5.1-2+deb11u1
+* bsdutils	1:2.36.1-8+deb11u1
+* ca-certificates	20210119
+* coreutils	8.32-4+b1
+* dash	0.5.11+git20200708+dd9ef66-5
+* debconf	1.5.77
+* debian-archive-keyring	2021.1.1+deb11u1
+* debianutils	4.11.2
+* diffutils	1:3.7-5
+* dpkg	1.20.12
+* e2fsprogs	1.46.6-1~bpo11+1
+* findutils	4.8.0-1
+* gcc-10-base:amd64	10.2.1-6
+* gcc-9-base:amd64	9.3.0-22
+* gpgv	2.2.27-2+deb11u2
+* grep	3.6-1+deb11u1
+* gzip	1.10-4+deb11u1
+* hostname	3.23
+* init-system-helpers	1.64~bpo11+1
+* libacl1:amd64	2.2.53-10
+* libapt-pkg6.0:amd64	2.2.4
+* libattr1:amd64	1:2.4.48-6
+* libaudit-common	1:3.0-2
+* libaudit1:amd64	1:3.0-2
+* libblkid1:amd64	2.36.1-8+deb11u1
+* libbz2-1.0:amd64	1.0.8-4
+* libc-bin	2.31-13+deb11u6
+* libc6:amd64	2.31-13+deb11u6
+* libcap-ng0:amd64	0.7.9-2.2+b1
+* libcom-err2:amd64	1.46.6-1~bpo11+1
+* libcrypt1:amd64	1:4.4.18-4
+* libdb5.3:amd64	5.3.28+dfsg1-0.8
+* libdebconfclient0:amd64	0.260
+* libexpat1:amd64	2.2.10-2+deb11u5
+* libext2fs2:amd64	1.46.6-1~bpo11+1
+* libffi7:amd64	3.3-6
+* libgcc-s1:amd64	10.2.1-6
+* libgcrypt20:amd64	1.8.7-6
+* libgdbm6:amd64	1.19-2
+* libgmp10:amd64	2:6.2.1+dfsg-1+deb11u1
+* libgnutls30:amd64	3.7.1-5+deb11u3
+* libgomp1:amd64	10.2.1-6
+* libgpg-error0:amd64	1.38-2
+* libgssapi-krb5-2:amd64	1.18.3-6+deb11u3
+* libhogweed6:amd64	3.7.3-1
+* libidn2-0:amd64	2.3.0-5
+* libk5crypto3:amd64	1.18.3-6+deb11u3
+* libkeyutils1:amd64	1.6.1-2
+* libkrb5-3:amd64	1.18.3-6+deb11u3
+* libkrb5support0:amd64	1.18.3-6+deb11u3
+* liblz4-1:amd64	1.9.3-2
+* liblzma5:amd64	5.2.5-2.1~deb11u1
+* libmount1:amd64	2.36.1-8+deb11u1
+* libncurses6:amd64	6.2+20201114-2+deb11u1
+* libncursesw6:amd64	6.2+20201114-2+deb11u1
+* libnettle8:amd64	3.7.3-1
+* libnsl2:amd64	1.3.0-2
+* libp11-kit0:amd64	0.23.22-1
+* libpam-modules-bin	1.4.0-9+deb11u1
+* libpam-modules:amd64	1.4.0-9+deb11u1
+* libpam-runtime	1.4.0-9+deb11u1
+* libpam0g:amd64	1.4.0-9+deb11u1
+* libpcre2-8-0:amd64	10.36-2+deb11u1
+* libpcre3:amd64	2:8.39-13
+* libprocps8:amd64	2:3.3.17-5
+* libreadline8:amd64	8.1-1
+* libseccomp2:amd64	2.5.1-1+deb11u1
+* libselinux1:amd64	3.1-3
+* libsemanage-common	3.1-1
+* libsemanage1:amd64	3.1-1+b2
+* libsepol1:amd64	3.1-1
+* libsmartcols1:amd64	2.36.1-8+deb11u1
+* libsqlite3-0:amd64	3.34.1-3
+* libss2:amd64	1.46.6-1~bpo11+1
+* libssl1.1:amd64	1.1.1n-0+deb11u5
+* libstdc++6:amd64	10.2.1-6
+* libsystemd0:amd64	252.5-2~bpo11+1
+* libtasn1-6:amd64	4.16.0-2+deb11u1
+* libtinfo6:amd64	6.2+20201114-2+deb11u1
+* libtirpc-common	1.3.1-1+deb11u1
+* libtirpc3:amd64	1.3.1-1+deb11u1
+* libudev1:amd64	252.5-2~bpo11+1
+* libunistring2:amd64	0.9.10-4
+* libuuid1:amd64	2.36.1-8+deb11u1
+* libxxhash0:amd64	0.8.0-2
+* libzstd1:amd64	1.4.8+dfsg-2.1
+* login	1:4.8.1-1
+* logsave	1.46.6-1~bpo11+1
+* lsb-base	11.1.0
+* mawk	1.3.4.20200120-2
+* mount	2.36.1-8+deb11u1
+* ncurses-base	6.2+20201114-2+deb11u1
+* ncurses-bin	6.2+20201114-2+deb11u1
+* netbase	6.3
+* openssl	1.1.1n-0+deb11u5
+* passwd	1:4.8.1-1
+* perl-base	5.32.1-4+deb11u2
+* procps	2:3.3.17-5
+* readline-common	8.1-1
+* sed	4.7-1
+* sysvinit-utils	2.96-7+deb11u1
+* tar	1.34+dfsg-1
+* tzdata	2021a-1+deb11u10
+* util-linux	2.36.1-8+deb11u1
+* zlib1g:amd64	1:1.2.11.dfsg-2+deb11u2

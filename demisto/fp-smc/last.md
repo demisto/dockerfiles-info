@@ -1,9 +1,9 @@
-# `demisto/resilient:2.0.0.65096`
+# `demisto/fp-smc:1.0.22.65106`
 
 ## Docker Metadata
-- Image Size: 34.90 MB
-- Image ID: `sha256:ed83e9055bb7ee0e946d212dd4f5c7dc784cb446fbeeda434e7bb13e65142294`
-- Created: `2023-07-13T07:15:37.805770168Z`
+- Image Size: 29.28 MB
+- Image ID: `sha256:5279e6b2d7d7f89051e2aa2cf3200a096c2bbf49fc0c068cee744ac958902dd3`
+- Created: `2023-07-13T09:13:17.471935659Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -15,11 +15,11 @@
   - `PYTHON_SETUPTOOLS_VERSION=65.5.1`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/0d8570dc44796f4369b652222cf176b3db6ac70e/public/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=96461deced5c2a487ddc65207ec5a9cffeca0d34e7af7ea1afc470ff0d746207`
-  - `DOCKER_IMAGE=demisto/resilient:2.0.0.65096`
+  - `DOCKER_IMAGE=demisto/fp-smc:1.0.22.65106`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:247a888bea4a183a24cc051a5dede4c58bb19ce4`
-  - `org.opencontainers.image.version:2.0.0.65096`
+  - `org.opencontainers.image.revision:f5cc5af085522effd971ff7fe2e088ccd78d7dd8`
+  - `org.opencontainers.image.version:1.0.22.65106`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -32,29 +32,20 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/resilient:2.0.0.65096
+Signatures for demisto/fp-smc:1.0.22.65106
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-2.0.0.65096         b4a99e1658bd245eddc734f3713c3df5d6b86ec3ac0fd5599a2233c03a968edc   (Repo Admin)
+1.0.22.65106        bd6c1daf5eecd5d6cf593b0f0135fb5aed15fb3c808bd331a08534d028a13eff   (Repo Admin)
 
-Administrative keys for demisto/resilient:2.0.0.65096
+Administrative keys for demisto/fp-smc:1.0.22.65106
 
-  Repository Key:	340f325f258fea45d859ef9e990df5386417801e41e75ee4fa30f8e867ecfa76
-  Root Key:	69a4e373f0a534b83dc07ff1c791e1e5340a3d32b53c79962624e91a94ba1d44
+  Repository Key:	53dacec58af223a07d4a237201150ce5a31165432531bc102e6484f658de983d
+  Root Key:	44fa037bd25a6f332639b0f0f804d1f3b9bd107969379907d01215da6e513350
 
 ```
 
 ## `Python Packages`
 
-
-### `cachetools`
-
-* Summary: Extensible memoizing collections and decorators
-* Version: 5.3.1
-* Pypi: https://pypi.org/project/cachetools/
-* Homepage: https://github.com/tkem/cachetools/
-* Author: Thomas Kemmer tkemmer@computer.org
-* License :: OSI Approved :: MIT License
 
 ### `certifi`
 
@@ -65,33 +56,14 @@ Administrative keys for demisto/resilient:2.0.0.65096
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
-### `cffi`
-
-* Summary: Foreign Function Interface for Python calling C code.
-* Version: 1.15.1
-* Pypi: https://pypi.org/project/cffi/
-* Homepage: http://cffi.readthedocs.org
-* Author: Armin Rigo, Maciej Fijalkowski python-cffi@googlegroups.com
-* License :: OSI Approved :: MIT License
-
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.2.0
+* Version: 3.1.0
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: https://github.com/Ousret/charset_normalizer
 * Author: Ahmed TAHRI ahmed.tahri@cloudnursery.dev
 * License :: OSI Approved :: MIT License
-
-### `cryptography`
-
-* Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 41.0.2
-* Pypi: https://pypi.org/project/cryptography/
-* Homepage: 
-* Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
 
 ### `dateparser`
 
@@ -100,15 +72,6 @@ Administrative keys for demisto/resilient:2.0.0.65096
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub opensource@zyte.com
-* License :: OSI Approved :: BSD License
-
-### `decorator`
-
-* Summary: Decorators for Humans
-* Version: 5.1.1
-* Pypi: https://pypi.org/project/decorator/
-* Homepage: https://github.com/micheles/decorator
-* Author: Michele Simionato michele.simionato@gmail.com
 * License :: OSI Approved :: BSD License
 
 ### `defusedxml`
@@ -120,15 +83,6 @@ Administrative keys for demisto/resilient:2.0.0.65096
 * Author: Christian Heimes christian@python.org
 * License :: OSI Approved :: Python Software Foundation License
 
-### `Deprecated`
-
-* Summary: Python @deprecated decorator to deprecate old python classes, functions or methods.
-* Version: 1.2.14
-* Pypi: https://pypi.org/project/Deprecated/
-* Homepage: https://github.com/tantale/deprecated
-* Author: Laurent LAPORTE tantale.solutions@gmail.com
-* License :: OSI Approved :: MIT License
-
 ### `filelock`
 
 * Summary: A platform independent file lock.
@@ -137,6 +91,15 @@ Administrative keys for demisto/resilient:2.0.0.65096
 * Homepage: 
 * Author: 
 * License :: OSI Approved :: The Unlicense (Unlicense)
+
+### `fp-NGFW-SMC-python`
+
+* Summary: Python based API to Forcepoint NGFW Management Center
+* Version: 1.0.22
+* Pypi: https://pypi.org/project/fp-NGFW-SMC-python/
+* Homepage: http://github.com/Forcepoint/fp-NGFW-SMC-python
+* Author: Forcepoint PSIRT@forcepoint.com
+* License :: OSI Approved :: Apache Software License
 
 ### `funcy`
 
@@ -155,51 +118,6 @@ Administrative keys for demisto/resilient:2.0.0.65096
 * Homepage: None
 * Author: Kim Davies <kim@cynosure.com.au>
 * License :: OSI Approved :: BSD License
-
-### `importlib-metadata`
-
-* Summary: Read metadata from Python packages
-* Version: 6.8.0
-* Pypi: https://pypi.org/project/importlib-metadata/
-* Homepage: https://github.com/python/importlib_metadata
-* Author: Jason R. Coombs jaraco@jaraco.com
-* License :: OSI Approved :: Apache Software License
-
-### `jaraco.classes`
-
-* Summary: Utility functions for Python class constructs
-* Version: 3.3.0
-* Pypi: https://pypi.org/project/jaraco.classes/
-* Homepage: https://github.com/jaraco/jaraco.classes
-* Author: Jason R. Coombs jaraco@jaraco.com
-* License :: OSI Approved :: MIT License
-
-### `jeepney`
-
-* Summary: Low-level, pure Python DBus protocol wrapper.
-* Version: 0.8.0
-* Pypi: https://pypi.org/project/jeepney/
-* Homepage: https://gitlab.com/takluyver/jeepney
-* Author: Thomas Kluyver thomas@kluyver.me.uk
-* License :: OSI Approved :: MIT License
-
-### `jwcrypto`
-
-* Summary: Implementation of JOSE Web standards
-* Version: 1.4.2
-* Pypi: https://pypi.org/project/jwcrypto/
-* Homepage: https://github.com/latchset/jwcrypto
-* Author: 
-* License: LGPLv3+
-
-### `keyring`
-
-* Summary: Store and access your passwords safely.
-* Version: 23.13.1
-* Pypi: https://pypi.org/project/keyring/
-* Homepage: https://github.com/jaraco/keyring
-* Author: Kang Zhang jobo.zh@gmail.com
-* License :: OSI Approved :: MIT License
 
 ### `more-itertools`
 
@@ -227,24 +145,6 @@ Administrative keys for demisto/resilient:2.0.0.65096
 * Homepage: https://pip.pypa.io/
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
-
-### `pycparser`
-
-* Summary: C parser in Python
-* Version: 2.21
-* Pypi: https://pypi.org/project/pycparser/
-* Homepage: https://github.com/eliben/pycparser
-* Author: Eli Bendersky eliben@gmail.com
-* License :: OSI Approved :: BSD License
-
-### `pyOpenSSL`
-
-* Summary: Python wrapper module around the OpenSSL library
-* Version: 23.2.0
-* Pypi: https://pypi.org/project/pyOpenSSL/
-* Homepage: https://pyopenssl.org/
-* Author: The pyOpenSSL developers cryptography-dev@python.org
-* License :: OSI Approved :: Apache Software License
 
 ### `PySocks`
 
@@ -310,60 +210,6 @@ Administrative keys for demisto/resilient:2.0.0.65096
 * Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
-### `requests-pkcs12`
-
-* Summary: Add PKCS#12 support to the requests library in a clean way, without monkey patching or temporary files
-* Version: 1.15
-* Pypi: https://pypi.org/project/requests-pkcs12/
-* Homepage: https://github.com/m-click/requests_pkcs12
-* Author: Volker Diels-Grabsch volker.diels-grabsch@m-click.aero
-* License :: OSI Approved :: ISC License (ISCL)
-
-### `requests-toolbelt`
-
-* Summary: A utility belt for advanced users of python-requests
-* Version: 1.0.0
-* Pypi: https://pypi.org/project/requests-toolbelt/
-* Homepage: https://toolbelt.readthedocs.io/
-* Author: Ian Cordasco, Cory Benfield graffatcolmingov@gmail.com
-* License :: OSI Approved :: Apache Software License
-
-### `resilient`
-
-* Summary: Python client module for the IBM SOAR REST API
-* Version: 49.1.51
-* Pypi: https://pypi.org/project/resilient/
-* Homepage: https://github.com/ibmresilient/resilient-python-api/tree/main/resilient
-* Author: IBM SOAR
-* License: MIT
-
-### `resilient-app-config-plugins`
-
-* Summary: Python base package for IBM SOAR apps App Config Plugins
-* Version: 1.0.0
-* Pypi: https://pypi.org/project/resilient-app-config-plugins/
-* Homepage: https://github.com/ibmresilient/resilient-python-api/tree/main/resilient-app-config-plugins
-* Author: IBM SOAR
-* License: MIT
-
-### `retry2`
-
-* Summary: Easy to use retry decorator.
-* Version: 0.9.5
-* Pypi: https://pypi.org/project/retry2/
-* Homepage: https://github.com/eSAMTrade/retry
-* Author: Andrei Suiu | eSAMTrade andrei.suiu@gmail.com
-* License :: OSI Approved :: Apache Software License
-
-### `SecretStorage`
-
-* Summary: Python bindings to FreeDesktop.org Secret Service API
-* Version: 3.3.3
-* Pypi: https://pypi.org/project/SecretStorage/
-* Homepage: https://github.com/mitya57/secretstorage
-* Author: Dmitry Shachnev mitya57@gmail.com
-* License :: OSI Approved :: BSD License
-
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
@@ -403,7 +249,7 @@ Administrative keys for demisto/resilient:2.0.0.65096
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 1.26.16
+* Version: 2.0.2
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: 
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -416,24 +262,6 @@ Administrative keys for demisto/resilient:2.0.0.65096
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: 
 * Author: Daniel Holth <dholth@fastmail.fm>
-* License :: OSI Approved :: MIT License
-
-### `wrapt`
-
-* Summary: Module for decorators, wrappers and monkey patching.
-* Version: 1.15.0
-* Pypi: https://pypi.org/project/wrapt/
-* Homepage: https://github.com/GrahamDumpleton/wrapt
-* Author: Graham Dumpleton Graham.Dumpleton@gmail.com
-* License :: OSI Approved :: BSD License
-
-### `zipp`
-
-* Summary: Backport of pathlib-compatible object wrapper for zip files
-* Version: 3.16.0
-* Pypi: https://pypi.org/project/zipp/
-* Homepage: https://github.com/jaraco/zipp
-* Author: Jason R. Coombs jaraco@jaraco.com
 * License :: OSI Approved :: MIT License
 
 ## `OS Packages`
