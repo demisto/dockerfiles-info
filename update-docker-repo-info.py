@@ -123,7 +123,7 @@ def inspect_image(image_name, out_file):
         try:
             docker_name, tag = image_name.replace("demisto/", "").split(":")
             DOCKER_IMAGES_METADATA["docker_images"][docker_name] = {tag: {"python_version": python_version}}
-        except (AttributeError, TypeError, ValueError) as error:
+        except Exception as error:
             print(f'Could not add python version to {image_name} because of error: {error}')
     os_info = '- OS Release:'
     release_info = get_os_release(image_name)
