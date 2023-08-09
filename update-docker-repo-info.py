@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
 
 import argparse
+import functools
 import sys
 import os
+from packaging.version import Version
+from json import JSONDecodeError
+from typing import List
+
 import requests
 import datetime
 import string
@@ -28,6 +33,93 @@ try:
 except Exception:
     DOCKERFILES_GENERAL_INFO = {}
 
+
+def _get_image_digest(repo: str, tag: str, token: str) -> str:
+    response = requests.get(
+        f"https://registry-1.docker.io/v2/{repo}/manifests/{tag}",
+        headers={
+            "Accept": "application/vnd.docker.distribution.manifest.v2+json",
+            "Authorization": f"Bearer {token}",
+        },
+    )
+    if not response.ok:
+        raise RuntimeError(f"Failed to get docker image digest: {response.text}")
+    try:
+        return response.json()["config"]["digest"]
+    except (JSONDecodeError, KeyError) as e:
+        raise RuntimeError(f"Failed to get docker image digest: {response.text}") from e
+
+
+def _get_docker_hub_token(repo: str) -> str:
+    auth = None
+
+    # If the user has credentials for docker hub, use them to get the token
+    if (docker_user := os.getenv("DOCKERHUB_USER")) and (
+        docker_pass := os.getenv("DOCKERHUB_PASSWORD")
+    ):
+        auth = (docker_user, docker_pass)
+
+    response = requests.get(
+        f"https://auth.docker.io/token?service=registry.docker.io&scope=repository:{repo}:pull",
+        auth=auth,
+    )
+    if not response.ok:
+        raise RuntimeError(f"Failed to get docker hub token: {response.text}")
+    try:
+        return response.json()["token"]
+    except (JSONDecodeError, KeyError) as e:
+        raise RuntimeError(f"Failed to get docker hub token: {response.text}") from e
+
+
+@functools.lru_cache
+def _get_image_env(repo: str, digest: str, token: str) -> List[str]:
+    response = requests.get(
+        f"https://registry-1.docker.io/v2/{repo}/blobs/{digest}",
+        headers={
+            "Accept": "application/vnd.docker.distribution.manifest.v2+json",
+            "Authorization": f"Bearer {token}",
+        },
+    )
+    if not response.ok:
+        raise RuntimeError(f"Failed to get docker image env: {response.text}")
+    try:
+        return response.json()["config"]["Env"]
+    except (JSONDecodeError, KeyError) as e:
+        raise RuntimeError(f"Failed to get docker image env: {response.text}") from e
+
+
+def _get_python_version_from_env(env: List[str]) -> Version:
+    python_version_envs = tuple(
+        filter(lambda env: env.startswith("PYTHON_VERSION="), env)
+    )
+    return (
+        Version(python_version_envs[0].split("=")[1])
+        if python_version_envs
+        else Version("2.7")
+    )
+
+
+def _get_python_version_from_dockerhub_api(image: str):
+    if "pwsh" in image or "powershell" in image:
+        return None
+    if ":" not in image:
+        repo = image
+        tag = "latest"
+    elif image.count(":") > 1:
+        raise ValueError(f"Invalid docker image: {image}")
+    else:
+        repo, tag = image.split(":")
+    if os.getenv("CONTENT_GITLAB_CI"):
+        # we need to remove the gitlab prefix, as we query the API
+        repo = repo.replace("docker-io.art.code.pan.run/", "")
+    try:
+        token = _get_docker_hub_token(repo)
+        digest = _get_image_digest(repo, tag, token)
+        env = _get_image_env(repo, digest, token)
+        return _get_python_version_from_env(env)
+    except Exception as e:
+        print(f'Cannot get python version for image {image}, error: {e}')
+        raise
 
 def http_get(url, **kwargs):
     """wrapper function around requests.get which set verify to what we got in the args
@@ -419,370 +511,53 @@ def checkout_dockerfiles_repo():
 
 
 def get_python_ver():
-    docker_images = [
-       "demisto/python3:3.10.12.63474",
-       "demisto/crypto:1.0.0.66562",
-       "demisto/pyjwt3:1.0.0.48806",
-       "demisto/python3:3.10.12.66339",
-       "demisto/python_pancloud_v2:1.0.0.64955",
-       "demisto/py3-tools:1.0.0.49475",
-       "demisto/python3:3.10.12.65389",
-       "demisto/google-api-py3:1.0.0.64100",
-       "demisto/glpi:1.0.0.65890",
-       "demisto/fastapi:1.0.0.36992",
-       "demisto/fastapi:1.0.0.64153",
-       "demisto/boto3py3:1.0.0.67319",
-       "demisto/lxml:1.0.0.66590",
-       "demisto/polyswarm:1.0.0.18926",
-       "demisto/pymisp2:1.0.0.66985",
-       "demisto/fp-smc:1.0.22.66577",
-       "demisto/py3-tools:1.0.0.67011",
-       "demisto/py3-tools:1.0.0.67089",
-       "demisto/fastapi:1.0.0.27446",
-       "demisto/taxii2:1.0.0.66032",
-       "demisto/crypto:1.0.0.63672",
-       "demisto/netutils:1.0.0.24101",
-       "demisto/chromium:1.0.0.56296",
-       "demisto/py42:1.0.0.66909",
-       "demisto/ansible-runner:1.0.0.24037",
-       "demisto/python_pancloud:1.0.0.66801",
-       "demisto/akamai:1.0.0.63810",
-       "demisto/btfl-soup:1.0.1.45563",
-       "demisto/hashicorp:1.0.0.65633",
-       "demisto/blueliv:1.0.0.52588",
-       "demisto/taxii:1.0.0.45815",
-       "demisto/taxii2:1.0.0.61540",
-       "demisto/syslog:1.0.0.61542",
-       "demisto/syslog:1.0.0.48738",
-       "demisto/pydantic-jwt3:1.0.0.64406",
-       "demisto/pyjwt3:1.0.0.63826",
-       "demisto/devo:1.0.0.66471",
-       "demisto/boto3py3:1.0.0.38849",
-       "demisto/python3:3.10.5.31928",
-       "demisto/google-cloud-storage:1.0.0.25839",
-       "demisto/fastapi:1.0.0.61475",
-       "demisto/google-cloud-translate:1.0.0.63615",
-       "demisto/pycountry:1.0.0.65943",
-       "demisto/bottle:1.0.0.32745",
-       "demisto/boto3py3:1.0.0.52713",
-       "demisto/googleapi-python3:1.0.0.65068",
-       "demisto/py3-tools:0.0.1.25751",
-       "demisto/pyjwt3:1.0.0.66845",
-       "demisto/boto3py3:1.0.0.45936",
-       "demisto/boto3py3:1.0.0.66174",
-       "demisto/ntlm:1.0.0.44693",
-       "demisto/googleapi-python3:1.0.0.66918",
-       "demisto/googleapi-python3:1.0.0.63869",
-       "demisto/winrm:1.0.0.13142",
-       "demisto/teams:1.0.0.14902",
-       "demisto/powershell-ubuntu:7.2.2.29705",
-       "demisto/py3-tools:1.0.0.49572",
-       "demisto/google-api-py3:1.0.0.65791",
-       "demisto/taxii-server:1.0.0.66858",
-       "demisto/py3-tools:1.0.0.31193",
-       "demisto/pyjwt3:1.0.0.23674",
-       "demisto/googleapi-python3:1.0.0.67173",
-       "demisto/py3-tools:1.0.0.65317",
-       "demisto/boto3py3:1.0.0.41082",
-       "demisto/pyotrs:1.0.0.44880",
-       "demisto/btfl-soup:1.0.1.46582",
-       "demisto/pwsh-exchangev3:1.0.0.49863",
-       "demisto/xml-feed:1.0.0.63829",
-       "demisto/taxii2:1.0.0.63768",
-       "demisto/datadog-api-client:1.0.0.65877",
-       "demisto/py3-tools:1.0.0.56465",
-       "demisto/netmiko:1.0.0.67498",
-       "demisto/google-api-py3:1.0.0.55175",
-       "demisto/cloudshare:1.0.0.14120",
-       "demisto/rubrik-polaris-sdk-py3:1.0.0.66039",
-       "demisto/py3ews:1.0.0.66850",
-       "demisto/pwsh-exchangev3:1.0.0.67228",
-       "demisto/powershell-ubuntu:7.3.0.49844",
-       "demisto/netmiko:1.0.0.65807",
-       "demisto/opencti-v4:1.0.0.46493",
-       "demisto/reversinglabs-sdk-py3:2.0.0.64132",
-       "demisto/pan-os-python:1.0.0.66894",
-       "demisto/py3-tools:1.0.0.44868",
-       "demisto/reversinglabs-sdk-py3:2.0.0.40822",
-       "demisto/btfl-soup:1.0.1.63668",
-       "demisto/accessdata:1.1.0.33872",
-       "demisto/dxl:1.0.0.63890",
-       "demisto/py3-tools:1.0.0.63856",
-       "demisto/dxl:1.0.0.35274",
-       "demisto/pydantic-jwt3:1.0.0.63835",
-       "demisto/splunksdk:1.0.0.49073",
-       "demisto/paho-mqtt:1.0.0.19143",
-       "demisto/boto3py3:1.0.0.63019",
-       "demisto/py-ews:5.0.2.63879",
-       "demisto/cymruwhois:1.0.0.65875",
-       "demisto/boto3py3:1.0.0.63655",
-       "demisto/py3-tools:1.0.0.66127",
-       "demisto/snowflake:1.0.0.2505",
-       "demisto/googleapi-python3:1.0.0.62073",
-       "demisto/akamai:1.0.0.65229",
-       "demisto/pydantic-jwt3:1.0.0.45851",
-       "demisto/argus-toolbelt:2.0.0.29288",
-       "demisto/ippysocks-py3:1.0.0.63627",
-       "demisto/pycountry:1.0.0.66907",
-       "demisto/py3-tools:1.0.0.49703",
-       "demisto/py3-tools:1.0.0.45685",
-       "demisto/yolo-coco:1.0.0.15530",
-       "demisto/dnstwist:1.0.0.46433",
-       "demisto/xml-feed:1.0.0.29458",
-       "demisto/opencti-v4:1.0.0.61509",
-       "demisto/python3-deb:3.9.1.15758",
-       "demisto/carbon-black-cloud:1.0.0.64437",
-       "demisto/akamai:1.0.0.34769",
-       "demisto/octoxlabs:1.0.0.65919",
-       "demisto/boto3py3:1.0.0.67266",
-       "demisto/illumio:1.0.0.65903",
-       "demisto/oauthlib:1.0.0.38743",
-       "demisto/fastapi:1.0.0.63688",
-       "demisto/xsoar-tools:1.0.0.25075",
-       "demisto/oci:1.0.0.65918",
-       "demisto/powershell-ubuntu:7.1.3.22304",
-       "demisto/bigquery:1.0.0.61798",
-       "demisto/graphql:1.0.0.65897",
-       "demisto/flask-nginx:1.0.0.65013",
-       "demisto/boto3py3:1.0.0.41926",
-       "demisto/oauthlib:1.0.0.63821",
-       "demisto/tidy:1.0.0.62989",
-       "demisto/minio:1.0.0.19143",
-       "demisto/fastapi:1.0.0.64474",
-       "demisto/m2crypto:1.0.0.65914",
-       "demisto/py3-tools:1.0.0.64131",
-       "demisto/resilient:2.0.0.45701",
-       "demisto/duoadmin3:1.0.0.65621",
-       "demisto/googleapi-python3:1.0.0.65453",
-       "demisto/joe-security:1.0.0.46413",
-       "demisto/confluent-kafka:1.0.0.65871",
-       "demisto/graphql:1.0.0.45620",
-       "demisto/bs4-py3:1.0.0.48637",
-       "demisto/netmiko:1.0.0.62777",
-       "demisto/google-k8s-engine:1.0.0.64696",
-       "demisto/taxii:1.0.0.43208",
-       "demisto/py3-tools:1.0.0.66062",
-       "demisto/fastapi:1.0.0.56647",
-       "demisto/fastapi:1.0.0.65888",
-       "demisto/keeper-ksm:1.0.0.67054",
-       "demisto/greynoise:1.0.0.65909",
-       "demisto/greynoise:1.0.0.61972",
-       "demisto/exodusintelligence:1.0.0.34185",
-       "demisto/pyjwt3:1.0.0.27257",
-       "demisto/python3-deb:3.10.12.63475",
-       "demisto/pyjwt3:1.0.0.55864",
-       "demisto/pyjwt3:1.0.0.67573",
-       "demisto/smbprotocol:1.0.0.63639",
-       "demisto/google-vision-api:1.0.0.63870",
-       "demisto/ntlm:1.0.0.64630",
-       "demisto/bs4:1.0.0.24033",
-       "demisto/uptycs:1.0.0.63766",
-       "demisto/boto3py3:1.0.0.48955",
-       "demisto/py3-tools:1.0.0.45904",
-       "demisto/google-kms:1.0.0.62005",
-       "demisto/slackv3:1.0.0.63762",
-       "demisto/py3-tools:1.0.0.47376",
-       "demisto/taxii-server:1.0.0.32901",
-       "demisto/flask-nginx:1.0.0.66841",
-       "demisto/sixgill:1.0.0.66910",
-       "demisto/ibm-db2:1.0.0.27972",
-       "demisto/armorblox:1.0.0.65856",
-       "demisto/lacework:1.0.0.47313",
-       "demisto/genericsql:1.1.0.62758",
-       "demisto/py3-tools:1.0.0.47433",
-       "demisto/pycef:1.0.0.61516",
-       "demisto/pwsh-infocyte:1.1.0.23036",
-       "demisto/crypto:1.0.0.61689",
-       "demisto/fastapi:1.0.0.32142",
-       "demisto/axonius:1.0.0.40908",
-       "demisto/cloaken:1.0.0.44754",
-       "demisto/ntlm:1.0.0.31381",
-       "demisto/google-cloud-storage:1.0.0.63865",
-       "demisto/nmap:1.0.0.46402",
-       "demisto/py3-tools:1.0.0.49159",
-       "demisto/py3-tools:1.0.0.66616",
-       "demisto/splunksdk-py3:1.0.0.66897",
-       "demisto/boto3py3:1.0.0.64969",
-       "demisto/boto3py3:1.0.0.67091",
-       "demisto/tesseract:1.0.0.62842",
-       "demisto/googleapi-python3:1.0.0.40612",
-       "demisto/opnsense:1.0.0.65922",
-       "demisto/faker3:1.0.0.17991",
-       "demisto/azure-kusto-data:1.0.0.66840",
-       "demisto/googleapi-python3:1.0.0.64742",
-       "demisto/taxii2:1.0.0.57584",
-       "demisto/crypto:1.0.0.58095",
-       "demisto/py3-tools:0.0.1.30715",
-       "demisto/trustar:20.2.0.65839",
-       "demisto/boto3:2.0.0.52592",
-       "demisto/bottle:1.0.0.65861",
-       "demisto/boto3py3:1.0.0.33827",
-       "demisto/google-api-py3:1.0.0.64930",
-       "demisto/netutils:1.0.0.46652",
-       "demisto/googleapi-python3:1.0.0.62767",
-       "demisto/netmiko:1.0.0.61830",
-       "demisto/feed-performance-test:1.0.46565",
-       "demisto/dxl:1.0.0.65407",
-       "demisto/py3-tools:1.0.0.61931",
-       "demisto/gdetect:1.0.0.29628",
-       "demisto/googleapi-python3:1.0.0.64222",
-       "demisto/teams:1.0.0.66853",
-       "demisto/sixgill:1.0.0.20925",
-       "demisto/sixgill:1.0.0.23434",
-       "demisto/vmware:2.0.0.43555",
-       "demisto/unifi-video:1.0.0.16705",
-       "demisto/py3-tools:1.0.0.49929",
-       "demisto/python3:3.10.11.58677",
-       "demisto/python3:3.9.7.24076",
-       "demisto/python3:3.10.10.48392",
-       "demisto/python3:3.10.6.33415",
-       "demisto/python3:3.8.6.13358",
-       "demisto/etl2pcap:1.0.0.19032",
-       "demisto/python3:3.10.9.45313",
-       "demisto/bs4-py3:1.0.0.30051",
-       "demisto/powershell:7.2.1.26295",
-       "demisto/python-phash:1.0.0.25389",
-       "demisto/sane-doc-reports:1.0.0.27897",
-       "demisto/jq:1.0.0.24037",
-       "demisto/py3-tools:1.0.0.38394",
-       "demisto/ssl-analyze:1.0.0.14890",
-       "demisto/python3:3.10.8.36650",
-       "demisto/python3:3.10.10.51930",
-       "demisto/python3:3.10.4.27798",
-       "demisto/python3:3.10.11.61265",
-       "demisto/py3-tools:1.0.0.45198",
-       "demisto/python3:3.10.10.49934",
-       "demisto/crypto:1.0.0.65874",
-       "demisto/stringsifter:3.20230711.65151",
-       "demisto/python3:3.10.9.40422",
-       "demisto/python3:3.10.4.30607",
-       "demisto/unzip:1.0.0.19258",
-       "demisto/python3:3.10.4.29342",
-       "demisto/python3:3.10.9.42476",
-       "demisto/python3:3.10.9.46032",
-       "demisto/python3:3.10.8.37753",
-       "demisto/python3:3.10.9.46807",
-       "demisto/pwsh-exchange:1.0.0.34118",
-       "demisto/bs4-py3:1.0.0.24176",
-       "demisto/python3:3.9.9.25564",
-       "demisto/python3:3.10.5.31797",
-       "demisto/yarapy:1.0.0.10928",
-       "demisto/bs4-tld:1.0.0.63807",
-       "demisto/ansible-runner:1.0.0.47562",
-       "demisto/pycountry:1.0.0.36195",
-       "demisto/python3:3.9.8.24399",
-       "demisto/mlurlphishing:1.0.0.28347",
-       "demisto/xsoar-tools:1.0.0.36076",
-       "demisto/xsoar-tools:1.0.0.42327",
-       "demisto/xsoar-tools:1.0.0.62936",
-       "demisto/xsoar-tools:1.0.0.40869",
-       "demisto/xsoar-tools:1.0.0.19258",
-       "demisto/parse-emails:1.0.0.63730",
-       "demisto/ml:1.0.0.45981",
-       "demisto/ml:1.0.0.32340",
-       "demisto/python3:3.9.5.20070",
-       "demisto/python:2.7.18.10627",
-       "demisto/ml:1.0.0.20606",
-       "demisto/python3:3.10.9.44472",
-       "demisto/python3:3.8.3.9324",
-       "demisto/pandas:1.0.0.31117",
-       "demisto/sklearn:1.0.0.64885",
-       "demisto/py3-tools:1.0.0.50499",
-       "demisto/python3:3.10.11.56082",
-       "demisto/python3:3.10.8.37233",
-       "demisto/bs4-py3:1.0.0.63660",
-       "demisto/sklearn:1.0.0.29944",
-       "demisto/pcap-miner:1.0.0.32154",
-       "demisto/pcap-miner:1.0.0.10664",
-       "demisto/pcap-miner:1.0.0.9769",
-       "demisto/pcap-miner:1.0.0.30520",
-       "demisto/python3:3.10.11.54132",
-       "demisto/python3:3.8.6.12176",
-       "demisto/ansible-runner:1.0.0.20884",
-       "demisto/python3:3.10.1.27636",
-       "demisto/flask-nginx:1.0.0.20328",
-       "demisto/pyjwt3:1.0.0.49643",
-       "demisto/python3:3.9.5.21272",
-       "demisto/crypto:1.0.0.52480",
-       "demisto/googleapi-python3:1.0.0.12698",
-       "demisto/fastapi:1.0.0.28667",
-       "demisto/taxii2:1.0.0.23423",
-       "demisto/python3:3.10.1.25933",
-       "demisto/teams:1.0.0.43500",
-       "demisto/readpdf:1.0.0.43274",
-       "demisto/readpdf:1.0.0.50963",
-       "demisto/mlurlphishing:1.0.0.61412",
-       "demisto/iputils:1.0.0.4663",
-       "demisto/dnspython:1.0.0.12410",
-       "demisto/powershell:7.1.3.22028",
-       "demisto/parse-emails:1.0.0.67069",
-       "demisto/pandas:1.0.0.26289",
-       "demisto/processing-image-file:1.0.0.66515",
-       "demisto/bs4-tld:1.0.0.21999",
-       "demisto/xml-feed:1.0.0.65027",
-       "demisto/office-utils:2.0.0.54910",
-       "demisto/aquatone:2.0.0.36846",
-       "demisto/office-utils:2.0.0.49835",
-       "demisto/netutils:1.0.0.43061",
-       "demisto/pcap-http-extractor:1.0.0.32113",
-       "demisto/py3-tools:1.0.0.58222",
-       "demisto/nltk:2.0.0.19143",
-       "demisto/xsoar-tools:1.0.0.46482",
-       "demisto/docxpy:1.0.0.40261",
-       "demisto/ssdeep:1.0.0.23743",
-       "demisto/python3-deb:3.10.10.49238",
-       "demisto/unzip:1.0.0.61858",
-       "demisto/xslxwriter:1.0.0.45070",
-       "demisto/py3-tools:1.0.0.46591",
-       "demisto/btfl-soup:1.0.1.6233",
-       "demisto/ml:1.0.0.62124",
-       "demisto/taxii:1.0.0.48109",
-       "demisto/ml:1.0.0.23334",
-       "demisto/xsoar-tools:1.0.0.58259",
-       "demisto/mlclustering:1.0.0.23151",
-       "demisto/sklearn:1.0.0.49796",
-       "demisto/sane-pdf-reports:1.0.0.62999",
-       "demisto/ml:1.0.0.30541",
-       "demisto/ml:1.0.0.57750",
-       "demisto/python:2.7.18.63476",
-       "demisto/python3:3.9.1.14969",
-       "demisto/rakyll-hey:1.0.0.49364",
-       "demisto/python:2.7.18.9326",
-       "demisto/docxpy:1.0.0.33689",
-       "demisto/python:2.7.18.27799",
-       "demisto/python3:3.7.4.977",
-       "demisto/python3:3.10.8.35482",
-       "demisto/python3:3.7.4.2245",
-       "demisto/archer:1.0.0.270",
-       "demisto/faker3:1.0.0.247",
-       "demisto/sixgill:1.0.0.28665",
-       "demisto/powershell-teams:1.0.0.22275"
-    ]
+
+    with open("docker_images.json") as f:
+        docker_images = json.load(f)
 
     def get_python_version_from_md(folder_name, tag):
         from pathlib import Path
         if Path(f"demisto/{folder_name}/{tag}.md").exists():
             with open(f"demisto/{folder_name}/{tag}.md") as fp:
-                python_ver = get_python_version(fp.read())
-                # print(f'python version for docker image: demisto/{folder_name}/{tag} is {python_ver=}')
-                return python_ver
-        print(f'demisto/{folder_name}/{tag}.md do not exist')
-        return ''
+                if python_version := get_python_version(fp.read()):
+                    return python_version
+                return _get_python_version_from_dockerhub_api(f"demisto/{folder_name}:{tag}")
+        print(f'demisto/{folder_name}/{tag}.md do not exist, getting image from dockerhub api')
+        return str(_get_python_version_from_dockerhub_api(f"demisto/{folder_name}:{tag}"))
 
     DOCKERFILES_GENERAL_INFO["docker_images"] = {}
 
     for di in docker_images:
-        folder_name, tag = di.replace("demisto/", "").split(":")
+        try:
+            folder_name, tag = di.replace("demisto/", "").split(":")
+        except Exception:
+            continue
         if folder_name not in DOCKERFILES_GENERAL_INFO["docker_images"]:
             DOCKERFILES_GENERAL_INFO['docker_images'][folder_name] = {}
         if tag in DOCKERFILES_GENERAL_INFO["docker_images"][folder_name]:
             continue
         else:
-            DOCKERFILES_GENERAL_INFO["docker_images"][folder_name][tag] = {
-                "python_version": get_python_version_from_md(folder_name, tag)
-            }
+            if _python_ver := get_python_version_from_md(folder_name, tag):
+                print(f'{_python_ver} for docker image {di}')
+                DOCKERFILES_GENERAL_INFO["docker_images"][folder_name][tag] = {
+                    "python_version": _python_ver
+                }
+
 
     print(DOCKERFILES_GENERAL_INFO)
+
+
+
+    # code to load graph dockerimages
+    # import codecs
+    # with codecs.open("records.json", "r", encoding="utf-8-sig") as f:
+    #     records = json.load(f)
+    # l = []
+    # for docker_image in records:
+    #     for v in docker_image.values():
+    #         l.append(v)
+    #
+    # print(l)
 
 
 def get_docker_images_content():
