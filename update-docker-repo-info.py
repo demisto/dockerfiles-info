@@ -118,8 +118,13 @@ def inspect_image(image_name, out_file):
     docker_info = subprocess.check_output(["docker", "inspect", "-f", inspect_format, image_name], text=True)
 
     out_file.write(docker_info)
+
     if not DOCKER_IMAGES_METADATA.get(image_name) and (python_version := get_python_version(docker_info)):
-        DOCKER_IMAGES_METADATA[image_name] = {"python_version": python_version}
+        try:
+            docker_name, tag = image_name.replace("demisto/", "").split(":")
+            DOCKER_IMAGES_METADATA["docker_images"][docker_name] = {tag: {"python_version": python_version}}
+        except (AttributeError, TypeError, ValueError) as error:
+            print(f'Could not add python version to {image_name} because of error: {error}')
     os_info = '- OS Release:'
     release_info = get_os_release(image_name)
     if not release_info:
