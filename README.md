@@ -10,6 +10,7 @@ If you are searching for a specific package and want to see if it is available i
 
 If you are searching for metadata of a docker image, you can find it in [docker_images_metadata.json](docker_images_metadata.json) file which contains for each docker image metadata file.
 
+docker_images_metadata.json example:
 ```
 {
    "docker_images":{
