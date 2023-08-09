@@ -25,7 +25,7 @@ DOCKERFILES_DIR = os.path.abspath(os.getenv('DOCKERFILES_DIR', '.dockerfiles'))
 try:
     with open("docker_images_metadata.json", "r") as f:
         DOCKER_IMAGES_METADATA = json.load(f)
-except Exception:
+except json.JSONDecodeError:
     DOCKER_IMAGES_METADATA = {}
 
 
@@ -98,9 +98,9 @@ def get_os_release(image_name):
 
 
 def get_python_version(docker_info: str) -> str:
-    if python_version := re.search(r'PYTHON_VERSION=(\d+\.\d+\.\d+)', docker_info):
-        return python_version.group(1)
-    return ''
+    return python_version.group(1) if (
+        python_version := re.search(r'PYTHON_VERSION=(\d+\.\d+\.\d+)', docker_info)
+    ) else ''
 
 
 def inspect_image(image_name, out_file):
