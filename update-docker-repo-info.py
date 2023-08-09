@@ -1,13 +1,8 @@
 #!/usr/bin/env python3
 
 import argparse
-import functools
 import sys
 import os
-from packaging.version import Version
-from json import JSONDecodeError
-from typing import List
-
 import requests
 import datetime
 import string
@@ -28,98 +23,11 @@ VERIFY_SSL = True
 
 DOCKERFILES_DIR = os.path.abspath(os.getenv('DOCKERFILES_DIR', '.dockerfiles'))
 try:
-    with open("dockerfiles_general_info", "r") as f:
-        DOCKERFILES_GENERAL_INFO = json.load(f)
+    with open("docker_images_metadata.json", "r") as f:
+        DOCKER_IMAGES_METADATA = json.load(f)
 except Exception:
-    DOCKERFILES_GENERAL_INFO = {}
+    DOCKER_IMAGES_METADATA = {}
 
-
-def _get_image_digest(repo: str, tag: str, token: str) -> str:
-    response = requests.get(
-        f"https://registry-1.docker.io/v2/{repo}/manifests/{tag}",
-        headers={
-            "Accept": "application/vnd.docker.distribution.manifest.v2+json",
-            "Authorization": f"Bearer {token}",
-        },
-    )
-    if not response.ok:
-        raise RuntimeError(f"Failed to get docker image digest: {response.text}")
-    try:
-        return response.json()["config"]["digest"]
-    except (JSONDecodeError, KeyError) as e:
-        raise RuntimeError(f"Failed to get docker image digest: {response.text}") from e
-
-
-def _get_docker_hub_token(repo: str) -> str:
-    auth = None
-
-    # If the user has credentials for docker hub, use them to get the token
-    if (docker_user := os.getenv("DOCKERHUB_USER")) and (
-        docker_pass := os.getenv("DOCKERHUB_PASSWORD")
-    ):
-        auth = (docker_user, docker_pass)
-
-    response = requests.get(
-        f"https://auth.docker.io/token?service=registry.docker.io&scope=repository:{repo}:pull",
-        auth=auth,
-    )
-    if not response.ok:
-        raise RuntimeError(f"Failed to get docker hub token: {response.text}")
-    try:
-        return response.json()["token"]
-    except (JSONDecodeError, KeyError) as e:
-        raise RuntimeError(f"Failed to get docker hub token: {response.text}") from e
-
-
-@functools.lru_cache
-def _get_image_env(repo: str, digest: str, token: str) -> List[str]:
-    response = requests.get(
-        f"https://registry-1.docker.io/v2/{repo}/blobs/{digest}",
-        headers={
-            "Accept": "application/vnd.docker.distribution.manifest.v2+json",
-            "Authorization": f"Bearer {token}",
-        },
-    )
-    if not response.ok:
-        raise RuntimeError(f"Failed to get docker image env: {response.text}")
-    try:
-        return response.json()["config"]["Env"]
-    except (JSONDecodeError, KeyError) as e:
-        raise RuntimeError(f"Failed to get docker image env: {response.text}") from e
-
-
-def _get_python_version_from_env(env: List[str]) -> Version:
-    python_version_envs = tuple(
-        filter(lambda env: env.startswith("PYTHON_VERSION="), env)
-    )
-    return (
-        Version(python_version_envs[0].split("=")[1])
-        if python_version_envs
-        else Version("2.7")
-    )
-
-
-def _get_python_version_from_dockerhub_api(image: str):
-    if "pwsh" in image or "powershell" in image:
-        return None
-    if ":" not in image:
-        repo = image
-        tag = "latest"
-    elif image.count(":") > 1:
-        raise ValueError(f"Invalid docker image: {image}")
-    else:
-        repo, tag = image.split(":")
-    if os.getenv("CONTENT_GITLAB_CI"):
-        # we need to remove the gitlab prefix, as we query the API
-        repo = repo.replace("docker-io.art.code.pan.run/", "")
-    try:
-        token = _get_docker_hub_token(repo)
-        digest = _get_image_digest(repo, tag, token)
-        env = _get_image_env(repo, digest, token)
-        return _get_python_version_from_env(env)
-    except Exception as e:
-        print(f'Cannot get python version for image {image}, error: {e}')
-        raise
 
 def http_get(url, **kwargs):
     """wrapper function around requests.get which set verify to what we got in the args
@@ -210,15 +118,15 @@ def inspect_image(image_name, out_file):
     docker_info = subprocess.check_output(["docker", "inspect", "-f", inspect_format, image_name], text=True)
 
     out_file.write(docker_info)
-    if not DOCKERFILES_GENERAL_INFO.get(image_name) and (python_version := get_python_version(docker_info)):
-        DOCKERFILES_GENERAL_INFO[image_name] = {"python_version": python_version}
+    if not DOCKER_IMAGES_METADATA.get(image_name) and (python_version := get_python_version(docker_info)):
+        DOCKER_IMAGES_METADATA[image_name] = {"python_version": python_version}
     os_info = '- OS Release:'
     release_info = get_os_release(image_name)
     if not release_info:
         os_info += ' `Failed getting os release info`'
     for l in release_info:
         os_info += '\n  - `{}`'.format(l)
-    # out_file.write(os_info + '\n\n')
+    out_file.write(os_info + '\n\n')
 
 
 def docker_trust(image_name, out_file):
@@ -404,15 +312,15 @@ def list_os_packages(image_name, out_file):
 def process_image(image_name, force):
     print("=================\nProcessing: " + image_name)
     master_dir = f'docker/{image_name.split("/")[1]}'
-    # master_date = subprocess.check_output(['git', '--no-pager', 'log', '-1', '--format=%ct', 'origin/master', '--', master_dir], text=True, cwd=DOCKERFILES_DIR).strip()
-    # if not master_date:
-    #     print(f"Skipping image: {image_name} as it is not in our master repository")
-    #     return
-    # info_date = subprocess.check_output(['git', '--no-pager', 'log', '-1', '--format=%ct', '--', image_name], text=True).strip()
-    # if info_date and int(info_date) > int(master_date):
-    #     print(f"Skipping image: {image_name} as info modify date: {info_date} is greater than master date: {master_date}")
-    #     return
-    # print(f"Checking last tag for: {image_name}. master date: [{master_date}]. info date: [{info_date}]")
+    master_date = subprocess.check_output(['git', '--no-pager', 'log', '-1', '--format=%ct', 'origin/master', '--', master_dir], text=True, cwd=DOCKERFILES_DIR).strip()
+    if not master_date:
+        print(f"Skipping image: {image_name} as it is not in our master repository")
+        return
+    info_date = subprocess.check_output(['git', '--no-pager', 'log', '-1', '--format=%ct', '--', image_name], text=True).strip()
+    if info_date and int(info_date) > int(master_date):
+        print(f"Skipping image: {image_name} as info modify date: {info_date} is greater than master date: {master_date}")
+        return
+    print(f"Checking last tag for: {image_name}. master date: [{master_date}]. info date: [{info_date}]")
     last_tag, last_date = get_latest_tag(image_name)
     full_name = "{}:{}".format(image_name, last_tag)
     dir = "{}/{}".format(sys.path[0], image_name)
@@ -420,9 +328,9 @@ def process_image(image_name, force):
         os.makedirs(dir)
     info_file = "{}/{}.md".format(dir, last_tag)
     last_file = "{}/last.md".format(dir)
-    # if not force and os.path.exists(info_file):
-    #     print("Info file: {} exists skipping image".format(info_file))
-    #     return
+    if not force and os.path.exists(info_file):
+        print("Info file: {} exists skipping image".format(info_file))
+        return
     print("Downloading docker image: {}...".format(full_name))
     subprocess.call(["docker", "pull", full_name])
     temp_file = tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', delete=False)
@@ -495,9 +403,9 @@ def generate_csv():
                                 value.get('author'), value.get('summary'), ", ".join(value.get('docker_images'))])
 
 
-def generate_dockers_info_json():
+def update_docker_files_metadata_json():
     with open("dockerfiles_content_info", "w") as fp:
-        fp.write(json.dumps(DOCKERFILES_GENERAL_INFO, indent=4))
+        fp.write(json.dumps(DOCKER_IMAGES_METADATA, indent=4))
 
 
 def checkout_dockerfiles_repo():
@@ -509,69 +417,6 @@ def checkout_dockerfiles_repo():
     os.mkdir(DOCKERFILES_DIR)
     subprocess.check_call(['git', 'clone', 'https://github.com/demisto/dockerfiles', DOCKERFILES_DIR])
 
-
-def get_python_ver():
-
-    with open("docker_images.json") as f:
-        docker_images = json.load(f)
-
-    def get_python_version_from_md(folder_name, tag):
-        from pathlib import Path
-        if Path(f"demisto/{folder_name}/{tag}.md").exists():
-            with open(f"demisto/{folder_name}/{tag}.md") as fp:
-                if python_version := get_python_version(fp.read()):
-                    return python_version
-                return _get_python_version_from_dockerhub_api(f"demisto/{folder_name}:{tag}")
-        print(f'demisto/{folder_name}/{tag}.md do not exist, getting image from dockerhub api')
-        return str(_get_python_version_from_dockerhub_api(f"demisto/{folder_name}:{tag}"))
-
-    DOCKERFILES_GENERAL_INFO["docker_images"] = {}
-
-    for di in docker_images:
-        try:
-            folder_name, tag = di.replace("demisto/", "").split(":")
-        except Exception:
-            continue
-        if folder_name not in DOCKERFILES_GENERAL_INFO["docker_images"]:
-            DOCKERFILES_GENERAL_INFO['docker_images'][folder_name] = {}
-        if tag in DOCKERFILES_GENERAL_INFO["docker_images"][folder_name]:
-            continue
-        else:
-            if _python_ver := get_python_version_from_md(folder_name, tag):
-                print(f'{_python_ver} for docker image {di}')
-                DOCKERFILES_GENERAL_INFO["docker_images"][folder_name][tag] = {
-                    "python_version": _python_ver
-                }
-
-
-    print(DOCKERFILES_GENERAL_INFO)
-
-
-
-    # code to load graph dockerimages
-    # import codecs
-    # with codecs.open("records.json", "r", encoding="utf-8-sig") as f:
-    #     records = json.load(f)
-    # l = []
-    # for docker_image in records:
-    #     for v in docker_image.values():
-    #         l.append(v)
-    #
-    # print(l)
-
-
-def get_docker_images_content():
-    import io
-    with io.open('records.json', 'r', encoding='utf-8-sig') as fp:
-        docker_images = json.load(fp)
-
-    l = []
-
-    for d in docker_images:
-        l.append(d["n.docker_image"])
-
-    print(l)
-
 def main():
     parser = argparse.ArgumentParser(description='Fetch docker repo info. Will fetch the docker image and then generate license info',
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
@@ -580,14 +425,12 @@ def main():
     parser.add_argument("--force", help="Force refetch even if license data already exists", action='store_true')
     parser.add_argument("--no-verify-ssl", help="Don't verify ssl certs for requests (for testing behind corp firewall)", action='store_true')
     args = parser.parse_args()
-    # get_docker_images_content()
-    get_python_ver()
     global VERIFY_SSL
     VERIFY_SSL = not args.no_verify_ssl
     if not VERIFY_SSL:
         requests.packages.urllib3.disable_warnings()
     global USED_PACKAGES
-    # checkout_dockerfiles_repo()
+    checkout_dockerfiles_repo()
     used_packages_path = "{}/{}".format(sys.path[0], USED_PACKAGES_FILE)
     if os.path.isfile(used_packages_path):
         with open(used_packages_path) as f:
@@ -603,7 +446,7 @@ def main():
                       indent=4, separators=(',', ': '))
     generate_readme_listing()
     generate_csv()
-    generate_dockers_info_json()
+    update_docker_files_metadata_json()
 
 
 if __name__ == "__main__":
