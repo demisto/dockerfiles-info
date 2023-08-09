@@ -119,6 +119,7 @@ def inspect_image(image_name, out_file):
 
     out_file.write(docker_info)
 
+    # get python version and add it to the docker images metadata file
     if not DOCKER_IMAGES_METADATA.get(image_name) and (python_version := get_python_version(docker_info)):
         try:
             docker_name, tag = image_name.replace("demisto/", "").split(":")
