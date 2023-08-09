@@ -410,7 +410,7 @@ def generate_csv():
 
 
 def update_docker_files_metadata_json():
-    with open("dockerfiles_content_info", "w") as fp:
+    with open("docker_images_metadata.json", "w") as fp:
         fp.write(json.dumps(DOCKER_IMAGES_METADATA, indent=4))
 
 
