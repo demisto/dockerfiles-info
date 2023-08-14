@@ -15,6 +15,7 @@ import glob
 import re
 import csv
 import time
+import codecs
 
 
 assert sys.version_info >= (3, 9), "Script compatible with python 3.9 and higher only"
@@ -23,7 +24,7 @@ VERIFY_SSL = True
 
 DOCKERFILES_DIR = os.path.abspath(os.getenv('DOCKERFILES_DIR', '.dockerfiles'))
 try:
-    with open("docker_images_metadata.json", "r") as f:
+    with codecs.open("docker_images_metadata.json", encoding="utf-8-sig") as f:
         DOCKER_IMAGES_METADATA = json.load(f)
 except json.JSONDecodeError:
     DOCKER_IMAGES_METADATA = {}
@@ -422,6 +423,7 @@ def checkout_dockerfiles_repo():
           ' (Note: for local testing you can set the  env var DOCKERFILES_DIR to your dockerfiles repo to avoid this checkout) ....')
     os.mkdir(DOCKERFILES_DIR)
     subprocess.check_call(['git', 'clone', 'https://github.com/demisto/dockerfiles', DOCKERFILES_DIR])
+
 
 def main():
     parser = argparse.ArgumentParser(description='Fetch docker repo info. Will fetch the docker image and then generate license info',
