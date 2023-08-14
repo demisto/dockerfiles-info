@@ -23,11 +23,14 @@ assert sys.version_info >= (3, 9), "Script compatible with python 3.9 and higher
 VERIFY_SSL = True
 
 DOCKERFILES_DIR = os.path.abspath(os.getenv('DOCKERFILES_DIR', '.dockerfiles'))
+DOCKER_IMAGES_METADATA = "docker_images_metadata.json"
+
+
 try:
-    with codecs.open("docker_images_metadata.json", encoding="utf-8-sig") as f:
+    with codecs.open(DOCKER_IMAGES_METADATA, encoding="utf-8-sig") as f:
         DOCKER_IMAGES_METADATA = json.load(f)
 except json.JSONDecodeError:
-    print(f'Could not load docker_images_metadata.json')
+    print(f'Could not load {DOCKER_IMAGES_METADATA}')
     DOCKER_IMAGES_METADATA = {}
 
 
