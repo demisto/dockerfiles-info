@@ -136,6 +136,8 @@ def inspect_image(image_name, out_file):
             tags = docker_images_metadata.get(docker_name)
             if not tags.get(tag):
                 tags[tag] = {"python_version": python_version}
+        else:
+            print(f'Could not find python version for {image_name=}')
 
     except Exception as error:
         print(f'Could not add python version to {image_name} because of error: {error}')
