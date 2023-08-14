@@ -27,6 +27,7 @@ try:
     with codecs.open("docker_images_metadata.json", encoding="utf-8-sig") as f:
         DOCKER_IMAGES_METADATA = json.load(f)
 except json.JSONDecodeError:
+    print(f'Could not load docker_images_metadata.json')
     DOCKER_IMAGES_METADATA = {}
 
 
@@ -126,6 +127,7 @@ def inspect_image(image_name, out_file):
         docker_images_metadata = DOCKER_IMAGES_METADATA.get("docker_images") or {}
 
         if python_version := get_python_version(docker_info):
+            print(f'Found python version {python_version} for image {image_name=}')
             if not docker_images_metadata.get(docker_name):
                 docker_images_metadata[docker_name] = {}
             tags = docker_images_metadata.get(docker_name)
