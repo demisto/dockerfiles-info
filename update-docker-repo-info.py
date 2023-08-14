@@ -121,12 +121,20 @@ def inspect_image(image_name, out_file):
     out_file.write(docker_info)
 
     # get python version and add it to the docker images metadata file
-    if not DOCKER_IMAGES_METADATA.get(image_name) and (python_version := get_python_version(docker_info)):
-        try:
-            docker_name, tag = image_name.replace("demisto/", "").split(":")
-            DOCKER_IMAGES_METADATA["docker_images"][docker_name] = {tag: {"python_version": python_version}}
-        except Exception as error:
-            print(f'Could not add python version to {image_name} because of error: {error}')
+    try:
+        docker_name, tag = image_name.replace("demisto/", "").split(":")
+        docker_images_metadata = DOCKER_IMAGES_METADATA.get("docker_images") or {}
+
+        if python_version := get_python_version(docker_info):
+            if not docker_images_metadata.get(docker_name):
+                docker_images_metadata[docker_name] = {}
+            tags = docker_images_metadata.get(docker_name)
+            if not tags.get(tag):
+                tags[tag] = {"python_version": python_version}
+
+    except Exception as error:
+        print(f'Could not add python version to {image_name} because of error: {error}')
+
     os_info = '- OS Release:'
     release_info = get_os_release(image_name)
     if not release_info:
