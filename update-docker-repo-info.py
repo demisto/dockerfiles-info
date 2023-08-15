@@ -27,13 +27,12 @@ DOCKER_IMAGES_METADATA = "docker_images_metadata.json"
 DOCKER_IMAGE_REGEX_PATTERN = r'^demisto/([^\s:]+):(\d+(\.\d+)*)$'
 
 
-
 try:
     with codecs.open(DOCKER_IMAGES_METADATA, encoding="utf-8-sig") as f:
-        DOCKER_IMAGES_METADATA = json.load(f)
+        DOCKER_IMAGES_METADATA_FILE_CONTENT = json.load(f)
 except json.JSONDecodeError:
-    print(f'Could not load {DOCKER_IMAGES_METADATA}')
-    DOCKER_IMAGES_METADATA = {}
+    print(f'Could not load {DOCKER_IMAGES_METADATA_FILE_CONTENT}')
+    DOCKER_IMAGES_METADATA_FILE_CONTENT = {}
 
 
 def http_get(url, **kwargs):
@@ -110,17 +109,17 @@ def get_python_version(docker_info: str) -> str:
     ) else ''
 
 
-def add_python_version_for_dockerfiles_metadata(image_name: str, docker_info: str):
+def add_python_version_to_dockerfiles_metadata(image_name: str, docker_info: str):
     try:
         if match := re.match(DOCKER_IMAGE_REGEX_PATTERN, image_name):
             docker_name, tag = match.group(1), match.group(2)
-            docker_images_metadata = DOCKER_IMAGES_METADATA.get("docker_images") or {}
+            docker_images_metadata_content = DOCKER_IMAGES_METADATA_FILE_CONTENT.get("docker_images") or {}
 
             if python_version := get_python_version(docker_info):
                 print(f'Found python version {python_version} for {image_name=}')
-                if not docker_images_metadata.get(docker_name):
-                    docker_images_metadata[docker_name] = {}
-                tags = docker_images_metadata.get(docker_name)
+                if not docker_images_metadata_content.get(docker_name):
+                    docker_images_metadata_content[docker_name] = {}
+                tags = docker_images_metadata_content.get(docker_name)
                 if not tags.get(tag):
                     tags[tag] = {"python_version": python_version}
             else:
@@ -149,7 +148,10 @@ def inspect_image(image_name, out_file):
     out_file.write(docker_info)
 
     # get python version and add it to the docker images metadata file
-    add_python_version_for_dockerfiles_metadata(image_name, docker_info)
+    if DOCKER_IMAGES_METADATA_FILE_CONTENT:
+        add_python_version_to_dockerfiles_metadata(image_name, docker_info)
+    else:
+        print(f'{DOCKER_IMAGES_METADATA_FILE_CONTENT=} is empty, to avoid overriding the file, python version will not be added')
 
     os_info = '- OS Release:'
     release_info = get_os_release(image_name)
@@ -434,9 +436,14 @@ def generate_csv():
                                 value.get('author'), value.get('summary'), ", ".join(value.get('docker_images'))])
 
 
-def update_docker_files_metadata_json():
-    with open("docker_images_metadata.json", "w") as fp:
-        fp.write(json.dumps(DOCKER_IMAGES_METADATA, indent=4))
+def save_to_docker_files_metadata_json_file():
+    if DOCKER_IMAGES_METADATA_FILE_CONTENT:
+        with open("docker_images_metadata.json", "w") as fp:
+            fp.write(json.dumps(DOCKER_IMAGES_METADATA_FILE_CONTENT, indent=4))
+    else:
+        print(
+            f'{DOCKER_IMAGES_METADATA_FILE_CONTENT=} is empty, to avoid overriding the file, python version will not be added'
+        )
 
 
 def checkout_dockerfiles_repo():
@@ -456,7 +463,6 @@ def main():
                         "If not specified will scan all images in the demisto organization", nargs="?")
     parser.add_argument("--force", help="Force refetch even if license data already exists", action='store_true')
     parser.add_argument("--no-verify-ssl", help="Don't verify ssl certs for requests (for testing behind corp firewall)", action='store_true')
-    update_docker_files_metadata_json()
     args = parser.parse_args()
     global VERIFY_SSL
     VERIFY_SSL = not args.no_verify_ssl
@@ -479,7 +485,7 @@ def main():
                       indent=4, separators=(',', ': '))
     generate_readme_listing()
     generate_csv()
-    update_docker_files_metadata_json()
+    save_to_docker_files_metadata_json_file()
 
 
 if __name__ == "__main__":
