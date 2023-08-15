@@ -24,6 +24,8 @@ VERIFY_SSL = True
 
 DOCKERFILES_DIR = os.path.abspath(os.getenv('DOCKERFILES_DIR', '.dockerfiles'))
 DOCKER_IMAGES_METADATA = "docker_images_metadata.json"
+DOCKER_IMAGE_REGEX_PATTERN = r'^demisto/([^\s:]+):(\d+(\.\d+)*)$'
+
 
 
 try:
@@ -126,18 +128,21 @@ def inspect_image(image_name, out_file):
 
     # get python version and add it to the docker images metadata file
     try:
-        docker_name, tag = image_name.replace("demisto/", "").split(":")
-        docker_images_metadata = DOCKER_IMAGES_METADATA.get("docker_images") or {}
+        if match := re.match(DOCKER_IMAGE_REGEX_PATTERN, image_name):
+            docker_name, tag = match.group(1), match.group(2)
+            docker_images_metadata = DOCKER_IMAGES_METADATA.get("docker_images") or {}
 
-        if python_version := get_python_version(docker_info):
-            print(f'Found python version {python_version} for image {image_name=}')
-            if not docker_images_metadata.get(docker_name):
-                docker_images_metadata[docker_name] = {}
-            tags = docker_images_metadata.get(docker_name)
-            if not tags.get(tag):
-                tags[tag] = {"python_version": python_version}
+            if python_version := get_python_version(docker_info):
+                print(f'Found python version {python_version} for image {image_name=}')
+                if not docker_images_metadata.get(docker_name):
+                    docker_images_metadata[docker_name] = {}
+                tags = docker_images_metadata.get(docker_name)
+                if not tags.get(tag):
+                    tags[tag] = {"python_version": python_version}
+            else:
+                print(f'Could not find python version for {image_name=}')
         else:
-            print(f'Could not find python version for {image_name=}')
+            print(f"Could not extract docker name and tag from {image_name}")
 
     except Exception as error:
         print(f'Could not add python version to {image_name} because of error: {error}')
