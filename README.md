@@ -8,6 +8,32 @@ Each information file is maintained as a markdown file in its relevant folder. T
 
 If you are searching for a specific package and want to see if it is available in a published docker image, you can use the [used_packages.csv](used_packages.csv) file which contains a listing of packages and all docker images using that package.
 
+If you are searching for metadata of a docker image, you can find it in [docker_images_metadata.json](docker_images_metadata.json) file which contains for each docker image metadata file.
+
+docker_images_metadata.json example:
+```
+{
+   "docker_images":{
+      "dockerimage1":{
+         "3.10.12.66339":{
+            "python_version":"3.10.12"
+         },
+         "3.9.5.21272":{
+            "python_version":"3.9.5"
+         }
+      },
+      "dockerimage2":{
+         "1.0.0.48806":{
+            "python_version":"3.10.10"
+         },
+         "1.0.0.67573":{
+            "python_version":"3.10.12"
+         }
+      }
+   }
+}
+```
+
 ## Docker Image List
 * [demisto/7zip](demisto/7zip/last.md)
 * [demisto/accessdata](demisto/accessdata/last.md)

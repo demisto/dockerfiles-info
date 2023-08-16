@@ -15,6 +15,7 @@ import glob
 import re
 import csv
 import time
+import codecs
 
 
 assert sys.version_info >= (3, 9), "Script compatible with python 3.9 and higher only"
@@ -22,6 +23,16 @@ assert sys.version_info >= (3, 9), "Script compatible with python 3.9 and higher
 VERIFY_SSL = True
 
 DOCKERFILES_DIR = os.path.abspath(os.getenv('DOCKERFILES_DIR', '.dockerfiles'))
+DOCKER_IMAGES_METADATA = "docker_images_metadata.json"
+DOCKER_IMAGE_REGEX_PATTERN = r'^demisto/([^\s:]+):(\d+(\.\d+)*)$'
+
+
+try:
+    with codecs.open(DOCKER_IMAGES_METADATA, encoding="utf-8-sig") as f:
+        DOCKER_IMAGES_METADATA_FILE_CONTENT = json.load(f)
+except json.JSONDecodeError:
+    print(f'Could not load {DOCKER_IMAGES_METADATA_FILE_CONTENT}')
+    DOCKER_IMAGES_METADATA_FILE_CONTENT = {}
 
 
 def http_get(url, **kwargs):
@@ -92,6 +103,34 @@ def get_os_release(image_name):
     return res.stdout.splitlines()
 
 
+def get_python_version(docker_info: str) -> str:
+    return python_version.group(1) if (
+        python_version := re.search(r'PYTHON_VERSION=(\d+\.\d+\.\d+)', docker_info)
+    ) else ''
+
+
+def add_python_version_to_dockerfiles_metadata(image_name: str, docker_info: str):
+    try:
+        if match := re.match(DOCKER_IMAGE_REGEX_PATTERN, image_name):
+            docker_name, tag = match.group(1), match.group(2)
+            docker_images_metadata_content = DOCKER_IMAGES_METADATA_FILE_CONTENT.get("docker_images") or {}
+
+            if python_version := get_python_version(docker_info):
+                print(f'Found python version {python_version} for {image_name=}')
+                if not docker_images_metadata_content.get(docker_name):
+                    docker_images_metadata_content[docker_name] = {}
+                tags = docker_images_metadata_content.get(docker_name)
+                if not tags.get(tag):
+                    tags[tag] = {"python_version": python_version}
+            else:
+                print(f'Could not find python version for {image_name=}')
+        else:
+            print(f"Could not extract docker name and tag from {image_name}")
+
+    except Exception as error:
+        print(f'Could not add python version to {image_name} because of error: {error}')
+
+
 def inspect_image(image_name, out_file):
     inspect_format = f'''{{{{ range $env := .Config.Env }}}}{{{{ if eq $env "DEPRECATED_IMAGE=true" }}}}## 🔴 IMPORTANT: This image is deprecated 🔴{{{{ end }}}}{{{{ end }}}}
 ## Docker Metadata
@@ -105,7 +144,15 @@ def inspect_image(image_name, out_file):
 - Labels:{{{{ range $key, $value := .ContainerConfig.Labels }}}}{{{{ "\\n" }}}}  - `{{{{ $key }}}}:{{{{ $value }}}}`{{{{ end }}}}
 '''
     docker_info = subprocess.check_output(["docker", "inspect", "-f", inspect_format, image_name], text=True)
+
     out_file.write(docker_info)
+
+    # get python version and add it to the docker images metadata file
+    if DOCKER_IMAGES_METADATA_FILE_CONTENT:
+        add_python_version_to_dockerfiles_metadata(image_name, docker_info)
+    else:
+        print(f'{DOCKER_IMAGES_METADATA_FILE_CONTENT=} is empty, to avoid overriding the file, python version will not be added')
+
     os_info = '- OS Release:'
     release_info = get_os_release(image_name)
     if not release_info:
@@ -389,6 +436,16 @@ def generate_csv():
                                 value.get('author'), value.get('summary'), ", ".join(value.get('docker_images'))])
 
 
+def save_to_docker_files_metadata_json_file():
+    if DOCKER_IMAGES_METADATA_FILE_CONTENT:
+        with open("docker_images_metadata.json", "w") as fp:
+            fp.write(json.dumps(DOCKER_IMAGES_METADATA_FILE_CONTENT, indent=4))
+    else:
+        print(
+            f'{DOCKER_IMAGES_METADATA_FILE_CONTENT=} is empty, to avoid overriding the file, python version will not be added'
+        )
+
+
 def checkout_dockerfiles_repo():
     if os.path.exists(DOCKERFILES_DIR):
         print(f'dockerfiles dir {DOCKERFILES_DIR} exists. Skipping checkout!')
@@ -397,6 +454,7 @@ def checkout_dockerfiles_repo():
           ' (Note: for local testing you can set the  env var DOCKERFILES_DIR to your dockerfiles repo to avoid this checkout) ....')
     os.mkdir(DOCKERFILES_DIR)
     subprocess.check_call(['git', 'clone', 'https://github.com/demisto/dockerfiles', DOCKERFILES_DIR])
+
 
 def main():
     parser = argparse.ArgumentParser(description='Fetch docker repo info. Will fetch the docker image and then generate license info',
@@ -427,6 +485,7 @@ def main():
                       indent=4, separators=(',', ': '))
     generate_readme_listing()
     generate_csv()
+    save_to_docker_files_metadata_json_file()
 
 
 if __name__ == "__main__":
