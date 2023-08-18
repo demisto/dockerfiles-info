@@ -1,80 +1,51 @@
-# `demisto/algorithmia:1.0.0.71603`
-## 🔴 IMPORTANT: This image is deprecated 🔴
+# `demisto/websockets:11.0.3.71703`
+
 ## Docker Metadata
-- Image Size: 35.34 MB
-- Image ID: `sha256:db833bd173b40f55a5406480700d3bf7a1d00e514ff8bc0ed00fb57030419f83`
-- Created: `2023-08-17T05:00:18.448941366Z`
+- Image Size: 28.39 MB
+- Image ID: `sha256:f9a50d36a1c8e6c492e2574b8e66c9984932c5b4e2422b94336c0c7d93945354`
+- Created: `2023-08-17T08:42:30.141066565Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D`
-  - `PYTHON_VERSION=3.10.11`
+  - `PYTHON_VERSION=3.10.12`
   - `PYTHON_PIP_VERSION=23.0.1`
   - `PYTHON_SETUPTOOLS_VERSION=65.5.1`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/d5cb0afaf23b8520f1bbcfed521017b4a95f5c01/public/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=394be00f13fa1b9aaa47e911bdb59a09c3b2986472130f30aa0bfaf7f3980637`
-  - `DOCKER_IMAGE=demisto/algorithmia:1.0.0.71603`
-  - `DEPRECATED_IMAGE=true`
-  - `DEPRECATED_REASON=Use the demisto/py3-tools docker image instead.`
+  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/9af82b715db434abb94a0a6f3569f43e72157346/public/get-pip.py`
+  - `PYTHON_GET_PIP_SHA256=45a2bb8bf2bb5eff16fdd00faef6f29731831c7c59bd9fc2bf1f3bed511ff1fe`
+  - `DOCKER_IMAGE=demisto/websockets:11.0.3.71703`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d7726d66c240813239c5bd999aa599ba8368b9eb`
-  - `org.opencontainers.image.version:1.0.0.71603`
+  - `org.opencontainers.image.revision:a0322f6fd9b077d10e4096389c4685328ecd86d1`
+  - `org.opencontainers.image.version:11.0.3.71703`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.17.3`
-  - `PRETTY_NAME="Alpine Linux v3.17"`
+  - `VERSION_ID=3.18.3`
+  - `PRETTY_NAME="Alpine Linux v3.18"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/algorithmia:1.0.0.71603
+Signatures for demisto/websockets:11.0.3.71703
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.71603         0505cd742b87c7f34e2183af313bf8071f321406e441edc38c721919d76dfb0b   (Repo Admin)
+11.0.3.71703        b39a0ce3c05ba63e3e073ecadcd651b56720b0309d5d32bbc55511137706b93e   (Repo Admin)
 
-Administrative keys for demisto/algorithmia:1.0.0.71603
+Administrative keys for demisto/websockets:11.0.3.71703
 
-  Repository Key:	170e9ddee72d5fcb7e74c7ed51286b77e853d2b13e3974d2e31aeba09ffa2f34
-  Root Key:	556ee4967246f155073e00cfded818356915f5bc5d33359cf54bcc873be1fb51
+  Repository Key:	5716e395d1b3122cddaadb08ebee4341c534ddf19277267c75f28e9864485cc8
+  Root Key:	0efa0e619aa3400954648961c4fc9aeaa95658be1ab3dcc3173ab94fee1b2fcd
 
 ```
 
 ## `Python Packages`
 
-
-### `algorithmia`
-
-* Summary: Algorithmia Python Client
-* Version: 1.17.0
-* Pypi: https://pypi.org/project/algorithmia/
-* Homepage: http://github.com/algorithmiaio/algorithmia-python
-* Author: Algorithmia support@algorithmia.com
-* License :: MIT License
-
-### `algorithmia-adk`
-
-* Summary: Algorithmia Python ADK client
-* Version: 1.2.4
-* Pypi: https://pypi.org/project/algorithmia-adk/
-* Homepage: http://github.com/algorithmiaio/algorithmia-adk-python
-* Author: Algorithmia support@algorithmia.com
-* License :: OSI Approved :: MIT License
-
-### `algorithmia-api-client`
-
-* Summary: Algorithmia Management APIs
-* Version: 1.5.1
-* Pypi: https://pypi.org/project/algorithmia-api-client/
-* Homepage: 
-* Author: Algorithmia Support Team support@algorithmia.com
-* License :: MIT License
 
 ### `certifi`
 
@@ -112,19 +83,10 @@ Administrative keys for demisto/algorithmia:1.0.0.71603
 * Author: Christian Heimes christian@python.org
 * License :: OSI Approved :: Python Software Foundation License
 
-### `enum-compat`
-
-* Summary: enum/enum34 compatibility package
-* Version: 0.0.3
-* Pypi: https://pypi.org/project/enum-compat/
-* Homepage: https://github.com/jstasiak/enum-compat
-* Author: Jakub Stasiak jakub@stasiak.at
-* License: MIT
-
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.12.0
+* Version: 3.12.2
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: 
 * Author: 
@@ -151,7 +113,7 @@ Administrative keys for demisto/algorithmia:1.0.0.71603
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 9.1.0
+* Version: 10.1.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: 
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -174,15 +136,6 @@ Administrative keys for demisto/algorithmia:1.0.0.71603
 * Homepage: https://pip.pypa.io/
 * Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
-
-### `pyaml`
-
-* Summary: PyYAML-based module to produce a bit more pretty and readable YAML-serialized data
-* Version: 21.10.1
-* Pypi: https://pypi.org/project/pyaml/
-* Homepage: https://github.com/mk-fg/pretty-yaml
-* Author: Mike Kazantsev Mike Kazantsev <mk.fraggod@gmail.com>
-* License :: Public Domain
 
 ### `PySocks`
 
@@ -212,15 +165,6 @@ Administrative keys for demisto/algorithmia:1.0.0.71603
 * Author: Stuart Bishop stuart@stuartbishop.net
 * License :: OSI Approved :: MIT License
 
-### `pytz-deprecation-shim`
-
-* Summary: Shims to make deprecation of pytz easier
-* Version: 0.1.0.post0
-* Pypi: https://pypi.org/project/pytz-deprecation-shim/
-* Homepage: https://github.com/pganssle/pytz-deprecation-shim
-* Author: Paul Ganssle paul@ganssle.io
-* License :: OSI Approved :: Apache Software License
-
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
@@ -233,7 +177,7 @@ Administrative keys for demisto/algorithmia:1.0.0.71603
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2023.3.23
+* Version: 2023.6.3
 * Pypi: https://pypi.org/project/regex/
 * Homepage: https://github.com/mrabarnett/mrab-regex
 * Author: Matthew Barnett regex@mrabarnett.plus.com
@@ -278,34 +222,16 @@ Administrative keys for demisto/algorithmia:1.0.0.71603
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 3.4.1
+* Version: 3.4.4
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: https://github.com/john-kurkowski/tldextract
 * Author: John Kurkowski john.kurkowski@gmail.com
 * License :: OSI Approved :: BSD License
 
-### `toml`
-
-* Summary: Python Library for Tom's Obvious, Minimal Language
-* Version: 0.10.2
-* Pypi: https://pypi.org/project/toml/
-* Homepage: https://github.com/uiri/toml
-* Author: William Pearson uiri@xqz.ca
-* License :: OSI Approved :: MIT License
-
-### `tzdata`
-
-* Summary: Provider of IANA time zone data
-* Version: 2023.3
-* Pypi: https://pypi.org/project/tzdata/
-* Homepage: https://github.com/python/tzdata
-* Author: Python Software Foundation datetime-sig@python.org
-* License :: OSI Approved :: Apache Software License
-
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 4.3
+* Version: 5.0.1
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: 
 * Author: Lennart Regebro regebro@gmail.com
@@ -320,10 +246,19 @@ Administrative keys for demisto/algorithmia:1.0.0.71603
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 * License :: OSI Approved :: MIT License
 
+### `websockets`
+
+* Summary: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
+* Version: 11.0.3
+* Pypi: https://pypi.org/project/websockets/
+* Homepage: 
+* Author: Aymeric Augustin <aymeric.augustin@m4x.org>
+* License :: OSI Approved :: BSD License
+
 ### `wheel`
 
 * Summary: A built-package format for Python
-* Version: 0.40.0
+* Version: 0.41.1
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: 
 * Author: Daniel Holth <dholth@fastmail.fm>
@@ -331,40 +266,41 @@ Administrative keys for demisto/algorithmia:1.0.0.71603
 
 ## `OS Packages`
 
-* .python-rundeps-20230406.000048 noarch {.python-rundeps}
-* alpine-baselayout-3.4.0-r0 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.4.0-r0 x86_64 {alpine-baselayout}
+* .python-rundeps-20230809.090324 noarch {.python-rundeps}
+* alpine-baselayout-3.4.3-r1 x86_64 {alpine-baselayout}
+* alpine-baselayout-data-3.4.3-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.4-r1 x86_64 {alpine-keys}
-* apk-tools-2.12.10-r1 x86_64 {apk-tools}
-* busybox-1.35.0-r29 x86_64 {busybox}
-* busybox-binsh-1.35.0-r29 x86_64 {busybox}
-* ca-certificates-20220614-r4 x86_64 {ca-certificates}
-* ca-certificates-bundle-20220614-r4 x86_64 {ca-certificates}
-* gdbm-1.23-r0 x86_64 {gdbm}
-* keyutils-libs-1.6.3-r1 x86_64 {keyutils}
+* apk-tools-2.14.0-r2 x86_64 {apk-tools}
+* busybox-1.36.1-r2 x86_64 {busybox}
+* busybox-binsh-1.36.1-r2 x86_64 {busybox}
+* ca-certificates-20230506-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20230506-r0 x86_64 {ca-certificates}
+* gdbm-1.23-r1 x86_64 {gdbm}
+* keyutils-libs-1.6.3-r3 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.20.1-r0 x86_64 {krb5}
-* libbz2-1.0.8-r4 x86_64 {bzip2}
-* libc-utils-0.7.2-r3 x86_64 {libc-dev}
-* libcom_err-1.46.6-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.0.8-r4 x86_64 {openssl}
-* libexpat-2.5.0-r0 x86_64 {expat}
-* libffi-3.4.4-r0 x86_64 {libffi}
-* libintl-0.21.1-r1 x86_64 {gettext}
+* krb5-libs-1.20.1-r1 x86_64 {krb5}
+* libbz2-1.0.8-r5 x86_64 {bzip2}
+* libc-utils-0.7.2-r5 x86_64 {libc-dev}
+* libcom_err-1.47.0-r2 x86_64 {e2fsprogs}
+* libcrypto3-3.1.2-r0 x86_64 {openssl}
+* libexpat-2.5.0-r1 x86_64 {expat}
+* libffi-3.4.4-r2 x86_64 {libffi}
+* libintl-0.21.1-r7 x86_64 {gettext}
+* libncursesw-6.4_p20230506-r0 x86_64 {ncurses}
 * libnsl-2.0.0-r0 x86_64 {libnsl}
-* libssl3-3.0.8-r4 x86_64 {openssl}
-* libtirpc-1.3.3-r0 x86_64 {libtirpc}
-* libtirpc-conf-1.3.3-r0 x86_64 {libtirpc}
-* libuuid-2.38.1-r1 x86_64 {util-linux}
-* libverto-0.3.2-r1 x86_64 {libverto}
-* musl-1.2.3-r5 x86_64 {musl}
-* musl-utils-1.2.3-r4 x86_64 {musl}
-* ncurses-libs-6.3_p20221119-r0 x86_64 {ncurses}
-* ncurses-terminfo-base-6.3_p20221119-r0 x86_64 {ncurses}
-* readline-8.2.0-r0 x86_64 {readline}
-* scanelf-1.3.5-r1 x86_64 {pax-utils}
-* sqlite-libs-3.40.1-r0 x86_64 {sqlite}
-* ssl_client-1.35.0-r29 x86_64 {busybox}
-* tzdata-2023c-r0 x86_64 {tzdata}
-* xz-libs-5.2.9-r0 x86_64 {xz}
-* zlib-1.2.13-r0 x86_64 {zlib}
+* libpanelw-6.4_p20230506-r0 x86_64 {ncurses}
+* libssl3-3.1.2-r0 x86_64 {openssl}
+* libtirpc-1.3.3-r2 x86_64 {libtirpc}
+* libtirpc-conf-1.3.3-r2 x86_64 {libtirpc}
+* libuuid-2.38.1-r8 x86_64 {util-linux}
+* libverto-0.3.2-r2 x86_64 {libverto}
+* musl-1.2.4-r1 x86_64 {musl}
+* musl-utils-1.2.4-r1 x86_64 {musl}
+* ncurses-terminfo-base-6.4_p20230506-r0 x86_64 {ncurses}
+* readline-8.2.1-r1 x86_64 {readline}
+* scanelf-1.3.7-r1 x86_64 {pax-utils}
+* sqlite-libs-3.41.2-r2 x86_64 {sqlite}
+* ssl_client-1.36.1-r2 x86_64 {busybox}
+* tzdata-2023c-r1 x86_64 {tzdata}
+* xz-libs-5.4.3-r0 x86_64 {xz}
+* zlib-1.2.13-r1 x86_64 {zlib}

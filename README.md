@@ -281,6 +281,7 @@ docker_images_metadata.json example:
 * [demisto/vertica](demisto/vertica/last.md)
 * [demisto/vmray](demisto/vmray/last.md)
 * [demisto/vmware](demisto/vmware/last.md)
+* [demisto/websockets](demisto/websockets/last.md)
 * [demisto/winrm](demisto/winrm/last.md)
 * [demisto/word-parser](demisto/word-parser/last.md)
 * [demisto/xgboost](demisto/xgboost/last.md)
@@ -298,4 +299,4 @@ docker_images_metadata.json example:
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2023-08-17 01:11:37.138594
+Last updated: 2023-08-18 01:16:48.198183
