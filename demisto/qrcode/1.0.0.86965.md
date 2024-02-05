@@ -1,9 +1,9 @@
-# `demisto/trustar:20.2.0.86901`
+# `demisto/qrcode:1.0.0.86965`
 
 ## Docker Metadata
-- Image Size: 60.33 MB
-- Image ID: `sha256:1951a0be939f3dd152f43f60cd286753bfc334de8e5ef5b7edc2da3866b14540`
-- Created: `2024-02-04T07:38:02.754266161Z`
+- Image Size: 239.23 MB
+- Image ID: `sha256:425478d7660aecf018ac8ced1456fc874abd9ae9a16518d9e2fda11e775cc8b5`
+- Created: `2024-02-04T12:47:27.445560514Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -15,11 +15,11 @@
   - `PYTHON_SETUPTOOLS_VERSION=65.5.1`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/049c52c665e8c5fd1751f942316e0a5c777d304f/public/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=7cfd4bdc4d475ea971f1c0710a5953bcc704d171f83c797b9529d9974502fcc6`
-  - `DOCKER_IMAGE=demisto/trustar:20.2.0.86901`
+  - `DOCKER_IMAGE=demisto/qrcode:1.0.0.86965`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:322625bfe593a63913b1d85785d4fb47c014d8f6`
-  - `org.opencontainers.image.version:20.2.0.86901`
+  - `org.opencontainers.image.revision:5ce5697537dfd6f9fbd82d51cace24c1b2f9b52d`
+  - `org.opencontainers.image.version:1.0.0.86965`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -35,15 +35,15 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/trustar:20.2.0.86901
+Signatures for demisto/qrcode:1.0.0.86965
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-20.2.0.86901        31c80bc1cb95b6f9aa5fe2400c962710fba0311550a8dd635d6707a3db27ac98   (Repo Admin)
+1.0.0.86965         f76193cbdd037924c4b6fa31ca4f88491ecca830f1790cbca019368ac5ee0f6f   (Repo Admin)
 
-Administrative keys for demisto/trustar:20.2.0.86901
+Administrative keys for demisto/qrcode:1.0.0.86965
 
-  Repository Key:	5534f51745118a50dd03127e168a7ac6b10509317d581c9d1bd733ab18cc5418
-  Root Key:	ce982650785d370f756420e5d78c54b6cda7f5019995c1f11567663c7ed5cfb1
+  Repository Key:	dea4001e59b301fe0d58b8766c3933a50fb5489fc977453c3f6fb434f2a62322
+  Root Key:	52e1b52c9b49babaf47809ec97cfc7ed8d5633d78cd736b34482f57850156994
 
 ```
 
@@ -53,37 +53,19 @@ Administrative keys for demisto/trustar:20.2.0.86901
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2024.2.2
+* Version: 2023.7.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
-### `chardet`
-
-* Summary: Universal encoding detector for Python 3
-* Version: 4.0.0
-* Pypi: https://pypi.org/project/chardet/
-* Homepage: https://github.com/chardet/chardet
-* Author: Mark Pilgrim mark@diveintomark.org
-* License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
-
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 2.1.1
+* Version: 3.3.0
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: https://github.com/Ousret/charset_normalizer
 * Author: Ahmed TAHRI ahmed.tahri@cloudnursery.dev
-* License :: OSI Approved :: MIT License
-
-### `configparser`
-
-* Summary: Updated configparser from stdlib for earlier Pythons.
-* Version: 5.3.0
-* Pypi: https://pypi.org/project/configparser/
-* Homepage: https://github.com/jaraco/configparser/
-* Author: Łukasz Langa lukasz@langa.pl
 * License :: OSI Approved :: MIT License
 
 ### `dateparser`
@@ -122,32 +104,23 @@ Administrative keys for demisto/trustar:20.2.0.86901
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
-### `future`
-
-* Summary: Clean single-source support for Python 3 and 2
-* Version: 0.18.3
-* Pypi: https://pypi.org/project/future/
-* Homepage: https://python-future.org
-* Author: Ed Schofield ed@pythoncharmers.com
-* License :: OSI Approved :: MIT License
-
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.6
+* Version: 3.4
 * Pypi: https://pypi.org/project/idna/
 * Homepage: 
 * Author: Kim Davies <kim+pypi@gumleaf.org>
 * License :: OSI Approved :: BSD License
 
-### `JSON-log-formatter`
+### `imutils`
 
-* Summary: JSON log formatter
-* Version: 0.5.2
-* Pypi: https://pypi.org/project/JSON-log-formatter/
-* Homepage: https://github.com/marselester/json-log-formatter
-* Author: Marsel Mavletkulov Marsel Mavletkulov <marselester@ya.ru>
-* License :: OSI Approved :: MIT License
+* Summary: A series of convenience functions to make basic image processing functions such as translation, rotation, resizing, skeletonization, displaying Matplotlib images, sorting contours, detecting edges, and much more easier with OpenCV and both Python 2.7 and Python 3.
+* Version: 0.5.3
+* Pypi: https://pypi.org/project/imutils/
+* Homepage: https://github.com/jrosebr1/imutils
+* Author: Adrian Rosebrock adrian@pyimagesearch.com
+* License :: MIT License
 
 ### `more-itertools`
 
@@ -158,6 +131,15 @@ Administrative keys for demisto/trustar:20.2.0.86901
 * Author: Erik Rose <erikrose@grinchcentral.com>
 * License :: OSI Approved :: MIT License
 
+### `numpy`
+
+* Summary: Fundamental package for array computing in Python
+* Version: 1.26.2
+* Pypi: https://pypi.org/project/numpy/
+* Homepage: https://numpy.org
+* Author: Travis E. Oliphant et al.
+* License :: OSI Approved :: BSD License
+
 ### `olefile`
 
 * Summary: Python package to parse, read and write Microsoft OLE2 files (Structured Storage or Compound Document, Microsoft Office)
@@ -166,6 +148,15 @@ Administrative keys for demisto/trustar:20.2.0.86901
 * Homepage: https://www.decalage.info/python/olefileio
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
+
+### `opencv-contrib-python`
+
+* Summary: Wrapper package for OpenCV python bindings.
+* Version: 4.9.0.80
+* Pypi: https://pypi.org/project/opencv-contrib-python/
+* Homepage: https://github.com/opencv/opencv-python
+* Author: 
+* License :: OSI Approved :: Apache Software License
 
 ### `pip`
 
@@ -198,20 +189,11 @@ Administrative keys for demisto/trustar:20.2.0.86901
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2024.1
+* Version: 2023.3.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
 * License :: OSI Approved :: MIT License
-
-### `pytz-deprecation-shim`
-
-* Summary: Shims to make deprecation of pytz easier
-* Version: 0.1.0.post0
-* Pypi: https://pypi.org/project/pytz-deprecation-shim/
-* Homepage: https://github.com/pganssle/pytz-deprecation-shim
-* Author: Paul Ganssle paul@ganssle.io
-* License :: OSI Approved :: Apache Software License
 
 ### `PyYAML`
 
@@ -220,6 +202,15 @@ Administrative keys for demisto/trustar:20.2.0.86901
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net
+* License :: OSI Approved :: MIT License
+
+### `pyzbar`
+
+* Summary: Read one-dimensional barcodes and QR codes from Python 2 and 3.
+* Version: 0.1.9
+* Pypi: https://pypi.org/project/pyzbar/
+* Homepage: https://github.com/NaturalHistoryMuseum/pyzbar/
+* Author: Lawrence Hudson quicklizard@googlemail.com
 * License :: OSI Approved :: MIT License
 
 ### `regex`
@@ -252,7 +243,7 @@ Administrative keys for demisto/trustar:20.2.0.86901
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 57.5.0
+* Version: 65.5.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: https://github.com/pypa/setuptools
 * Author: Python Packaging Authority distutils-sig@python.org
@@ -276,46 +267,19 @@ Administrative keys for demisto/trustar:20.2.0.86901
 * Author: John Kurkowski <john.kurkowski@gmail.com>
 * License :: OSI Approved :: BSD License
 
-### `trustar`
-
-* Summary: Python SDK for the TruSTAR REST API
-* Version: 0.4.1
-* Pypi: https://pypi.org/project/trustar/
-* Homepage: https://github.com/trustar/trustar-python
-* Author: TruSTAR Technology, Inc. support@trustar.co
-* License: MIT
-
-### `tzdata`
-
-* Summary: Provider of IANA time zone data
-* Version: 2023.4
-* Pypi: https://pypi.org/project/tzdata/
-* Homepage: https://github.com/python/tzdata
-* Author: Python Software Foundation datetime-sig@python.org
-* License :: OSI Approved :: Apache Software License
-
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 4.3
+* Version: 5.1
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: 
 * Author: Lennart Regebro <regebro@gmail.com>
 * License :: OSI Approved :: MIT License
 
-### `unicodecsv`
-
-* Summary: Python2's stdlib csv module is nice, but it doesn't support unicode. This module is a drop-in replacement which *does*.
-* Version: 0.14.1
-* Pypi: https://pypi.org/project/unicodecsv/
-* Homepage: https://github.com/jdunck/python-unicodecsv
-* Author: Jeremy Dunck jdunck@gmail.com
-* License :: OSI Approved :: BSD License
-
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 1.26.15
+* Version: 2.0.7
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: 
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -361,6 +325,7 @@ Administrative keys for demisto/trustar:20.2.0.86901
 * libaudit-common	1:3.0-2
 * libaudit1:amd64	1:3.0-2
 * libblkid1:amd64	2.36.1-8+deb11u1
+* libbsd0:amd64	0.11.3-1+deb11u1
 * libbz2-1.0:amd64	1.0.8-4
 * libc-bin	2.31-13+deb11u7
 * libc6:amd64	2.31-13+deb11u7
@@ -368,25 +333,48 @@ Administrative keys for demisto/trustar:20.2.0.86901
 * libcom-err2:amd64	1.46.6-1~bpo11+1
 * libcrypt1:amd64	1:4.4.18-4
 * libdb5.3:amd64	5.3.28+dfsg1-0.8
+* libdbus-1-3:amd64	1.12.28-0+deb11u1
 * libdebconfclient0:amd64	0.260
+* libdrm-amdgpu1:amd64	2.4.104-1
+* libdrm-common	2.4.104-1
+* libdrm-intel1:amd64	2.4.104-1
+* libdrm-nouveau2:amd64	2.4.104-1
+* libdrm-radeon1:amd64	2.4.104-1
+* libdrm2:amd64	2.4.104-1
+* libedit2:amd64	3.1-20191231-2+b1
+* libelf1:amd64	0.183-1
 * libexpat1:amd64	2.2.10-2+deb11u5
 * libext2fs2:amd64	1.46.6-1~bpo11+1
 * libffi7:amd64	3.3-6
 * libgcc-s1:amd64	10.2.1-6
 * libgcrypt20:amd64	1.8.7-6
 * libgdbm6:amd64	1.19-2
+* libgl1-mesa-dri:amd64	20.3.5-1
+* libgl1-mesa-glx:amd64	20.3.5-1
+* libgl1:amd64	1.3.2-1
+* libglapi-mesa:amd64	20.3.5-1
+* libglib2.0-0:amd64	2.66.8-1
+* libglib2.0-data	2.66.8-1
+* libglvnd0:amd64	1.3.2-1
+* libglx-mesa0:amd64	20.3.5-1
+* libglx0:amd64	1.3.2-1
 * libgmp10:amd64	2:6.2.1+dfsg-1+deb11u1
 * libgnutls30:amd64	3.7.1-5+deb11u3
 * libgpg-error0:amd64	1.38-2
 * libgssapi-krb5-2:amd64	1.18.3-6+deb11u4
 * libhogweed6:amd64	3.7.3-1
+* libice6:amd64	2:1.0.10-1
+* libicu67:amd64	67.1-7
 * libidn2-0:amd64	2.3.0-5
+* libjpeg62-turbo:amd64	1:2.0.6-4
 * libk5crypto3:amd64	1.18.3-6+deb11u4
 * libkeyutils1:amd64	1.6.1-2
 * libkrb5-3:amd64	1.18.3-6+deb11u4
 * libkrb5support0:amd64	1.18.3-6+deb11u4
+* libllvm11:amd64	1:11.0.1-2
 * liblz4-1:amd64	1.9.3-2
 * liblzma5:amd64	5.2.5-2.1~deb11u1
+* libmd0:amd64	1.0.3-3
 * libmount1:amd64	2.36.1-8+deb11u1
 * libncurses6:amd64	6.2+20201114-2+deb11u2
 * libncursesw6:amd64	6.2+20201114-2+deb11u2
@@ -397,15 +385,20 @@ Administrative keys for demisto/trustar:20.2.0.86901
 * libpam-modules:amd64	1.4.0-9+deb11u1
 * libpam-runtime	1.4.0-9+deb11u1
 * libpam0g:amd64	1.4.0-9+deb11u1
+* libpciaccess0:amd64	0.16-1
 * libpcre2-8-0:amd64	10.36-2+deb11u1
 * libpcre3:amd64	2:8.39-13
 * libprocps8:amd64	2:3.3.17-5
+* libpsl5:amd64	0.21.0-1.2
 * libreadline8:amd64	8.1-1
 * libseccomp2:amd64	2.5.1-1+deb11u1
 * libselinux1:amd64	3.1-3
 * libsemanage-common	3.1-1
 * libsemanage1:amd64	3.1-1+b2
+* libsensors-config	1:3.6.0-7
+* libsensors5:amd64	1:3.6.0-7
 * libsepol1:amd64	3.1-1
+* libsm6:amd64	2:1.2.3-1
 * libsmartcols1:amd64	2.36.1-8+deb11u1
 * libsqlite3-0:amd64	3.34.1-3
 * libss2:amd64	1.46.6-1~bpo11+1
@@ -419,12 +412,40 @@ Administrative keys for demisto/trustar:20.2.0.86901
 * libudev1:amd64	252.5-2~bpo11+1
 * libunistring2:amd64	0.9.10-4
 * libuuid1:amd64	2.36.1-8+deb11u1
+* libv4l-0:amd64	1.20.0-2
+* libv4lconvert0:amd64	1.20.0-2
+* libvulkan1:amd64	1.2.162.0-1
+* libwayland-client0:amd64	1.18.0-2~exp1.1
+* libx11-6:amd64	2:1.7.2-1+deb11u2
+* libx11-data	2:1.7.2-1+deb11u2
+* libx11-xcb1:amd64	2:1.7.2-1+deb11u2
+* libxau6:amd64	1:1.0.9-1
+* libxcb-dri2-0:amd64	1.14-3
+* libxcb-dri3-0:amd64	1.14-3
+* libxcb-glx0:amd64	1.14-3
+* libxcb-present0:amd64	1.14-3
+* libxcb-randr0:amd64	1.14-3
+* libxcb-shm0:amd64	1.14-3
+* libxcb-sync1:amd64	1.14-3
+* libxcb-xfixes0:amd64	1.14-3
+* libxcb1:amd64	1.14-3
+* libxdamage1:amd64	1:1.1.5-2
+* libxdmcp6:amd64	1:1.1.2-3
+* libxext6:amd64	2:1.3.3-1.1
+* libxfixes3:amd64	1:5.0.3-2
+* libxml2:amd64	2.9.10+dfsg-6.7+deb11u4
+* libxrender1:amd64	1:0.9.10-1
+* libxshmfence1:amd64	1.3-1
+* libxxf86vm1:amd64	1:1.1.4-1+b2
 * libxxhash0:amd64	0.8.0-2
+* libz3-4:amd64	4.8.10-1
+* libzbar0:amd64	0.23.90-1+deb11u1
 * libzstd1:amd64	1.4.8+dfsg-2.1
 * login	1:4.8.1-1
 * logsave	1.46.6-1~bpo11+1
 * lsb-base	11.1.0
 * mawk	1.3.4.20200120-2
+* mesa-vulkan-drivers:amd64	20.3.5-1
 * mount	2.36.1-8+deb11u1
 * ncurses-base	6.2+20201114-2+deb11u2
 * ncurses-bin	6.2+20201114-2+deb11u2
@@ -433,10 +454,15 @@ Administrative keys for demisto/trustar:20.2.0.86901
 * passwd	1:4.8.1-1
 * perl-base	5.32.1-4+deb11u2
 * procps	2:3.3.17-5
+* publicsuffix	20220811.1734-0+deb11u1
 * readline-common	8.1-1
 * sed	4.7-1
+* shared-mime-info	2.0-1
 * sysvinit-utils	2.96-7+deb11u1
 * tar	1.34+dfsg-1
 * tzdata	2021a-1+deb11u11
 * util-linux	2.36.1-8+deb11u1
+* wget	1.21-1+deb11u1
+* x11-common	1:7.7+22
+* xdg-user-dirs	0.17-2
 * zlib1g:amd64	1:1.2.11.dfsg-2+deb11u2
