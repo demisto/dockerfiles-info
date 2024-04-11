@@ -1,9 +1,9 @@
-# `demisto/boto3py3:1.0.0.91995`
+# `demisto/kubernetespy:1.0.0.91968`
 
 ## Docker Metadata
-- Image Size: 37.24 MB
-- Image ID: `sha256:8a93ee40da6d3a0235f118ce4a0878abbe77109d5300d364add8c970a6b3373a`
-- Created: `2024-04-10T12:51:13.546802732Z`
+- Image Size: 28.17 MB
+- Image ID: `sha256:0cdd23c97957556569fbe334fd30f4f8ef01ac83a12e8ad542c4d12a9a55d116`
+- Created: `2024-04-10T12:42:33.191838152Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -15,11 +15,11 @@
   - `PYTHON_SETUPTOOLS_VERSION=65.5.1`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/dbf0c85f76fb6e1ab42aa672ffca6f0a675d9ee4/public/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=dfe9fd5c28dc98b5ac17979a953ea550cec37ae1b47a5116007395bfacff2ab9`
-  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.91995`
+  - `DOCKER_IMAGE=demisto/kubernetespy:1.0.0.91968`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:8a2a8e9cc050d0b341887861b4afb706563a827c`
-  - `org.opencontainers.image.version:1.0.0.91995`
+  - `org.opencontainers.image.revision:e9f4ca961466c8eb291d76a01d371ce66fa6cf61`
+  - `org.opencontainers.image.version:1.0.0.91968`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -32,38 +32,29 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/boto3py3:1.0.0.91995
+Signatures for demisto/kubernetespy:1.0.0.91968
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.91995         5be3d8278fd8245dd32b9dd0bc4600eca77ee97d89e872e8ec21b47233661184   (Repo Admin)
+1.0.0.91968         5ee98864ea773fa485cae91b877cff28b14a649924ae1489140f053f1ee0eee2   (Repo Admin)
 
-Administrative keys for demisto/boto3py3:1.0.0.91995
+Administrative keys for demisto/kubernetespy:1.0.0.91968
 
-  Repository Key:	cfe86d8f6e0178e2a77477d651d16cfc814b6e47b04f1f04d94917fb248a1ae8
-  Root Key:	c4222af787cfc1a173f56c5eab482e5c4602eae4bb767431e17594c786c162f8
+  Repository Key:	03a79bd0c19fe3f3f09344f835963bf8106b7bda03c79e185219d2b53847228c
+  Root Key:	153a4404808e50fdd7e66cfc9281170d666b8b9324ce95cdd5b82d69ed5d1f1b
 
 ```
 
 ## `Python Packages`
 
 
-### `boto3`
+### `cachetools`
 
-* Summary: The AWS SDK for Python
-* Version: 1.34.81
-* Pypi: https://pypi.org/project/boto3/
-* Homepage: https://github.com/boto/boto3
-* Author: Amazon Web Services
-* License :: OSI Approved :: Apache Software License
-
-### `botocore`
-
-* Summary: Low-level, data-driven core of boto 3.
-* Version: 1.34.81
-* Pypi: https://pypi.org/project/botocore/
-* Homepage: https://github.com/boto/botocore
-* Author: Amazon Web Services
-* License :: OSI Approved :: Apache Software License
+* Summary: Extensible memoizing collections and decorators
+* Version: 5.3.3
+* Pypi: https://pypi.org/project/cachetools/
+* Homepage: https://github.com/tkem/cachetools/
+* Author: Thomas Kemmer tkemmer@computer.org
+* License :: OSI Approved :: MIT License
 
 ### `certifi`
 
@@ -119,6 +110,15 @@ Administrative keys for demisto/boto3py3:1.0.0.91995
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
+### `google-auth`
+
+* Summary: Google Authentication Library
+* Version: 2.29.0
+* Pypi: https://pypi.org/project/google-auth/
+* Homepage: https://github.com/googleapis/google-auth-library-python
+* Author: Google Cloud Platform googleapis-packages@google.com
+* License :: OSI Approved :: Apache Software License
+
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
@@ -128,14 +128,14 @@ Administrative keys for demisto/boto3py3:1.0.0.91995
 * Author: Kim Davies <kim+pypi@gumleaf.org>
 * License :: OSI Approved :: BSD License
 
-### `jmespath`
+### `kubernetes`
 
-* Summary: JSON Matching Expressions
-* Version: 1.0.1
-* Pypi: https://pypi.org/project/jmespath/
-* Homepage: https://github.com/jmespath/jmespath.py
-* Author: James Saryerwinnie js@jamesls.com
-* License :: OSI Approved :: MIT License
+* Summary: Kubernetes python client
+* Version: 29.0.0
+* Pypi: https://pypi.org/project/kubernetes/
+* Homepage: https://github.com/kubernetes-client/python
+* Author: Kubernetes
+* License :: OSI Approved :: Apache Software License
 
 ### `more-itertools`
 
@@ -145,6 +145,15 @@ Administrative keys for demisto/boto3py3:1.0.0.91995
 * Homepage: 
 * Author: Erik Rose <erikrose@grinchcentral.com>
 * License :: OSI Approved :: MIT License
+
+### `oauthlib`
+
+* Summary: A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
+* Version: 3.2.2
+* Pypi: https://pypi.org/project/oauthlib/
+* Homepage: https://github.com/oauthlib/oauthlib
+* Author: The OAuthlib Community idan@gazit.me
+* License :: OSI Approved :: BSD License
 
 ### `olefile`
 
@@ -163,6 +172,24 @@ Administrative keys for demisto/boto3py3:1.0.0.91995
 * Homepage: 
 * Author: The pip developers <distutils-sig@python.org>
 * License :: OSI Approved :: MIT License
+
+### `pyasn1`
+
+* Summary: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
+* Version: 0.6.0
+* Pypi: https://pypi.org/project/pyasn1/
+* Homepage: https://github.com/pyasn1/pyasn1
+* Author: Ilya Etingof etingof@gmail.com
+* License :: OSI Approved :: BSD License
+
+### `pyasn1_modules`
+
+* Summary: A collection of ASN.1-based protocols modules
+* Version: 0.4.0
+* Pypi: https://pypi.org/project/pyasn1-modules/
+* Homepage: https://github.com/pyasn1/pyasn1-modules
+* Author: Ilya Etingof etingof@gmail.com
+* License :: OSI Approved :: BSD License
 
 ### `PySocks`
 
@@ -228,13 +255,22 @@ Administrative keys for demisto/boto3py3:1.0.0.91995
 * Author: David Shea <reallylongword@gmail.com>
 * License :: OSI Approved :: Apache Software License
 
-### `s3transfer`
+### `requests-oauthlib`
 
-* Summary: An Amazon S3 Transfer Manager
-* Version: 0.10.1
-* Pypi: https://pypi.org/project/s3transfer/
-* Homepage: https://github.com/boto/s3transfer
-* Author: Amazon Web Services kyknapp1@gmail.com
+* Summary: OAuthlib authentication support for Requests.
+* Version: 2.0.0
+* Pypi: https://pypi.org/project/requests-oauthlib/
+* Homepage: https://github.com/requests/requests-oauthlib
+* Author: Kenneth Reitz me@kennethreitz.com
+* License :: OSI Approved :: BSD License
+
+### `rsa`
+
+* Summary: Pure-Python RSA implementation
+* Version: 4.9
+* Pypi: https://pypi.org/project/rsa/
+* Homepage: https://stuvel.eu/rsa
+* Author: Sybren A. Stüvel sybren@stuvel.eu
 * License :: OSI Approved :: Apache Software License
 
 ### `setuptools`
@@ -281,6 +317,15 @@ Administrative keys for demisto/boto3py3:1.0.0.91995
 * Homepage: 
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 * License :: OSI Approved :: MIT License
+
+### `websocket-client`
+
+* Summary: WebSocket client for Python with low level API options
+* Version: 1.7.0
+* Pypi: https://pypi.org/project/websocket-client/
+* Homepage: https://github.com/websocket-client/websocket-client.git
+* Author: liris liris.pp@gmail.com
+* License :: OSI Approved :: Apache Software License
 
 ### `wheel`
 
