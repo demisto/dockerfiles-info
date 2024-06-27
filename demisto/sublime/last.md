@@ -1,9 +1,9 @@
-# `demisto/pyotrs:1.0.0.99765`
+# `demisto/sublime:1.0.0.99770`
 
 ## Docker Metadata
-- Image Size: 25.80 MB
-- Image ID: `sha256:4a808749bc8bc9c159548e01fd24c16f84a38f73933af0907d687c1d857cf5bb`
-- Created: `2024-06-26T07:41:42.966224402Z`
+- Image Size: 29.27 MB
+- Image ID: `sha256:be37e83751276887fc547fa1416f9b85bcec5591c51d9143981ac399401f7c7a`
+- Created: `2024-06-26T08:47:20.919769222Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -15,11 +15,11 @@
   - `PYTHON_SETUPTOOLS_VERSION=65.5.1`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/dbf0c85f76fb6e1ab42aa672ffca6f0a675d9ee4/public/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=dfe9fd5c28dc98b5ac17979a953ea550cec37ae1b47a5116007395bfacff2ab9`
-  - `DOCKER_IMAGE=demisto/pyotrs:1.0.0.99765`
+  - `DOCKER_IMAGE=demisto/sublime:1.0.0.99770`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:171d2af1a0f695ab2d173b193954aef4c6bbe773`
-  - `org.opencontainers.image.version:1.0.0.99765`
+  - `org.opencontainers.image.revision:509949948e4159da88c3f0837a095b325a212093`
+  - `org.opencontainers.image.version:1.0.0.99770`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -32,25 +32,43 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pyotrs:1.0.0.99765
+Signatures for demisto/sublime:1.0.0.99770
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.99765         ab87d4b64e100fa9a1ef2553d2de8674d50ba155bec8dc91aa07747f5dbf704b   (Repo Admin)
+1.0.0.99770         04a9855369a96090937cffb6114fba48609b7923019dabb0c96f2847906a9700   (Repo Admin)
 
-Administrative keys for demisto/pyotrs:1.0.0.99765
+Administrative keys for demisto/sublime:1.0.0.99770
 
-  Repository Key:	782309d28429e1aceccd81f3d7d55f0c5894e977094a87d68fecb539782252ff
-  Root Key:	ab48f05aa4b215579b18849df811e516cd1c89bad845984fe614208efbeda33e
+  Repository Key:	075a49d7dff397e372a207ab887e729d746ab13303e9e58fc7276a405301972b
+  Root Key:	253ae621fcd29505a7a8eac2abe32e59b3cc213083c9e41636257d07927bca74
 
 ```
 
 ## `Python Packages`
 
 
+### `ansimarkup`
+
+* Summary: Produce colored terminal text with an xml-like markup
+* Version: 2.1.0
+* Pypi: https://pypi.org/project/ansimarkup/
+* Homepage: 
+* Author: Georgi Valkov <georgi.t.valkov@gmail.com>
+* License :: OSI Approved :: BSD License
+
+### `cachetools`
+
+* Summary: Extensible memoizing collections and decorators
+* Version: 5.3.3
+* Pypi: https://pypi.org/project/cachetools/
+* Homepage: https://github.com/tkem/cachetools/
+* Author: Thomas Kemmer tkemmer@computer.org
+* License :: OSI Approved :: MIT License
+
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2024.2.2
+* Version: 2024.6.2
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -74,6 +92,24 @@ Administrative keys for demisto/pyotrs:1.0.0.99765
 * Author: 
 * License :: OSI Approved :: BSD License
 
+### `click-default-group`
+
+* Summary: click_default_group
+* Version: 1.2.4
+* Pypi: https://pypi.org/project/click-default-group/
+* Homepage: 
+* Author: Heungsub Lee <heungsub@subl.ee>
+* License :: Public Domain
+
+### `click-repl`
+
+* Summary: REPL plugin for Click
+* Version: 0.3.0
+* Pypi: https://pypi.org/project/click-repl/
+* Homepage: https://github.com/untitaker/click-repl
+* Author: Markus Unterwaditzer markus@unterwaditzer.net
+* License: MIT
+
 ### `colorama`
 
 * Summary: Cross-platform colored terminal text.
@@ -82,6 +118,24 @@ Administrative keys for demisto/pyotrs:1.0.0.99765
 * Homepage: 
 * Author: Jonathan Hartley <tartley@tartley.com>
 * License :: OSI Approved :: BSD License
+
+### `compoundfiles`
+
+* Summary: Library for parsing and reading OLE Compound Documents
+* Version: 0.3
+* Pypi: https://pypi.org/project/compoundfiles/
+* Homepage: https://compound-files.readthedocs.org/
+* Author: Dave Hughes dave@waveform.org.uk
+* License :: OSI Approved :: MIT License
+
+### `compressed-rtf`
+
+* Summary: Compressed Rich Text Format (RTF) compression and decompression package
+* Version: 1.0.6
+* Pypi: https://pypi.org/project/compressed-rtf/
+* Homepage: https://github.com/delimitry/compressed_rtf
+* Author: Dmitry Alimov
+* License :: OSI Approved :: MIT License
 
 ### `dateparser`
 
@@ -101,19 +155,10 @@ Administrative keys for demisto/pyotrs:1.0.0.99765
 * Author: Christian Heimes christian@python.org
 * License :: OSI Approved :: Python Software Foundation License
 
-### `deprecation`
-
-* Summary: A library to handle automated deprecations
-* Version: 2.1.0
-* Pypi: https://pypi.org/project/deprecation/
-* Homepage: http://deprecation.readthedocs.io/
-* Author: Brian Curtin brian@python.org
-* License :: OSI Approved :: Apache Software License
-
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.13.1
+* Version: 3.15.3
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -128,6 +173,24 @@ Administrative keys for demisto/pyotrs:1.0.0.99765
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
+### `gron`
+
+* Summary: Python library to grep JSON.
+* Version: 1.3.0
+* Pypi: https://pypi.org/project/gron/
+* Homepage: 
+* Author: Bastian Venthur <mail@venthur.de>
+* License :: OSI Approved :: MIT License
+
+### `halo`
+
+* Summary: Beautiful terminal spinners in Python
+* Version: 0.0.31
+* Pypi: https://pypi.org/project/halo/
+* Homepage: https://github.com/manrajgrover/halo
+* Author: Manraj Singh manrajsinghgrover@gmail.com
+* License: MIT
+
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
@@ -137,14 +200,32 @@ Administrative keys for demisto/pyotrs:1.0.0.99765
 * Author: Kim Davies <kim+pypi@gumleaf.org>
 * License :: OSI Approved :: BSD License
 
-### `importlib_metadata`
+### `Jinja2`
 
-* Summary: Read metadata from Python packages
-* Version: 8.0.0
-* Pypi: https://pypi.org/project/importlib-metadata/
+* Summary: A very fast and expressive template engine.
+* Version: 3.1.4
+* Pypi: https://pypi.org/project/Jinja2/
 * Homepage: None
-* Author: "Jason R. Coombs" <jaraco@jaraco.com>
-* License :: OSI Approved :: Apache Software License
+* Author: None
+* License :: OSI Approved :: BSD License
+
+### `log-symbols`
+
+* Summary: Colored symbols for various log levels for Python
+* Version: 0.0.14
+* Pypi: https://pypi.org/project/log-symbols/
+* Homepage: https://github.com/manrajgrover/py-log-symbols
+* Author: Manraj Singh manrajsinghgrover@gmail.com
+* License: MIT
+
+### `MarkupSafe`
+
+* Summary: Safely add untrusted strings to HTML/XML markup.
+* Version: 2.1.5
+* Pypi: https://pypi.org/project/MarkupSafe/
+* Homepage: https://palletsprojects.com/p/markupsafe/
+* Author: 
+* License :: OSI Approved :: BSD License
 
 ### `more-itertools`
 
@@ -155,6 +236,15 @@ Administrative keys for demisto/pyotrs:1.0.0.99765
 * Author: Erik Rose <erikrose@grinchcentral.com>
 * License :: OSI Approved :: MIT License
 
+### `msg-parser`
+
+* Summary: This module enables reading, parsing and converting Microsoft Outlook MSG E-Mail files.
+* Version: 1.2.0
+* Pypi: https://pypi.org/project/msg-parser/
+* Homepage: https://github.com/vikramarsid/msg_parser
+* Author: Vikram Arsid vikramarsid@gmail.com
+* License :: OSI Approved :: BSD License
+
 ### `olefile`
 
 * Summary: Python package to parse, read and write Microsoft OLE2 files (Structured Storage or Compound Document, Microsoft Office)
@@ -162,16 +252,6 @@ Administrative keys for demisto/pyotrs:1.0.0.99765
 * Pypi: https://pypi.org/project/olefile/
 * Homepage: https://www.decalage.info/python/olefileio
 * Author: Philippe Lagadec nospam@decalage.info
-* License :: OSI Approved :: BSD License
-
-### `packaging`
-
-* Summary: Core utilities for Python packages
-* Version: 23.2
-* Pypi: https://pypi.org/project/packaging/
-* Homepage: None
-* Author: Donald Stufft <donald@stufft.io>
-* License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: BSD License
 
 ### `pip`
@@ -183,14 +263,14 @@ Administrative keys for demisto/pyotrs:1.0.0.99765
 * Author: The pip developers <distutils-sig@python.org>
 * License :: OSI Approved :: MIT License
 
-### `PyOTRS`
+### `prompt_toolkit`
 
-* Summary: Python wrapper for OTRS (using REST API)
-* Version: 0.12.7
-* Pypi: https://pypi.org/project/pyotrs/
-* Homepage: https://gitlab.com/rhab/PyOTRS
-* Author: Robert Habermann mail@rhab.de
-* License :: OSI Approved :: MIT License
+* Summary: Library for building powerful interactive command lines in Python
+* Version: 3.0.47
+* Pypi: https://pypi.org/project/prompt-toolkit/
+* Homepage: https://github.com/prompt-toolkit/python-prompt-toolkit
+* Author: Jonathan Slenders
+* License :: OSI Approved :: BSD License
 
 ### `PySocks`
 
@@ -214,7 +294,7 @@ Administrative keys for demisto/pyotrs:1.0.0.99765
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2023.3.post1
+* Version: 2024.1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -232,7 +312,7 @@ Administrative keys for demisto/pyotrs:1.0.0.99765
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2023.10.3
+* Version: 2024.5.15
 * Pypi: https://pypi.org/project/regex/
 * Homepage: https://github.com/mrabarnett/mrab-regex
 * Author: Matthew Barnett regex@mrabarnett.plus.com
@@ -241,7 +321,7 @@ Administrative keys for demisto/pyotrs:1.0.0.99765
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.0
+* Version: 2.32.3
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -250,7 +330,7 @@ Administrative keys for demisto/pyotrs:1.0.0.99765
 ### `requests-file`
 
 * Summary: File transport adapter for Requests
-* Version: 2.0.0
+* Version: 2.1.0
 * Pypi: https://pypi.org/project/requests-file/
 * Homepage: None
 * Author: David Shea <reallylongword@gmail.com>
@@ -274,6 +354,43 @@ Administrative keys for demisto/pyotrs:1.0.0.99765
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
+### `spinners`
+
+* Summary: Spinners for terminals
+* Version: 0.0.24
+* Pypi: https://pypi.org/project/spinners/
+* Homepage: https://github.com/manrajgrover/py-spinners
+* Author: Manraj Singh manrajsinghgrover@gmail.com
+* License: MIT
+
+### `structlog`
+
+* Summary: Structured Logging for Python
+* Version: 24.2.0
+* Pypi: https://pypi.org/project/structlog/
+* Homepage: None
+* Author: Hynek Schlawack <hs@ox.cx>
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: MIT License
+
+### `sublime-cli`
+
+* Summary: Abstraction to interact with the Sublime API.
+* Version: 0.0.32
+* Pypi: https://pypi.org/project/sublime-cli/
+* Homepage: https://sublimesecurity.com/
+* Author: Sublime Security hello@sublimesecurity.com
+* License :: OSI Approved :: MIT License
+
+### `termcolor`
+
+* Summary: ANSI color formatting for output in terminal
+* Version: 2.4.0
+* Pypi: https://pypi.org/project/termcolor/
+* Homepage: 
+* Author: Konstantin Lepa <konstantin.lepa@gmail.com>
+* License :: OSI Approved :: MIT License
+
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
@@ -295,11 +412,29 @@ Administrative keys for demisto/pyotrs:1.0.0.99765
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.2.1
+* Version: 2.2.2
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 * License :: OSI Approved :: MIT License
+
+### `wcwidth`
+
+* Summary: Measures the displayed width of unicode strings in a terminal
+* Version: 0.2.13
+* Pypi: https://pypi.org/project/wcwidth/
+* Homepage: https://github.com/jquast/wcwidth
+* Author: Jeff Quast contact@jeffquast.com
+* License :: OSI Approved :: MIT License
+
+### `websockets`
+
+* Summary: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
+* Version: 12.0
+* Pypi: https://pypi.org/project/websockets/
+* Homepage: 
+* Author: Aymeric Augustin <aymeric.augustin@m4x.org>
+* License :: OSI Approved :: BSD License
 
 ### `wheel`
 
@@ -308,15 +443,6 @@ Administrative keys for demisto/pyotrs:1.0.0.99765
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: 
 * Author: Daniel Holth <dholth@fastmail.fm>
-* License :: OSI Approved :: MIT License
-
-### `zipp`
-
-* Summary: Backport of pathlib-compatible object wrapper for zip files
-* Version: 3.19.2
-* Pypi: https://pypi.org/project/zipp/
-* Homepage: None
-* Author: "Jason R. Coombs" <jaraco@jaraco.com>
 * License :: OSI Approved :: MIT License
 
 ## `OS Packages`
