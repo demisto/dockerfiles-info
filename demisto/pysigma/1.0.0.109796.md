@@ -1,9 +1,9 @@
-# `demisto/privx-api:34.0.1.109782`
+# `demisto/pysigma:1.0.0.109796`
 
 ## Docker Metadata
-- Image Size: 37.22 MB
-- Image ID: `sha256:6601cf4286301d78c404a3b8eedd0ca42922df021208127f25d627d26edd2c9f`
-- Created: `2024-09-05T13:22:35.471219862Z`
+- Image Size: 34.73 MB
+- Image ID: `sha256:2e8cb2108c2b546d18d8ecc3d0a40069aa5fbd1c1091bb953beef6085500cd34`
+- Created: `2024-09-05T13:25:52.805427679Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -15,11 +15,11 @@
   - `PYTHON_SETUPTOOLS_VERSION=65.5.1`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/def4aec84b261b939137dd1c69eff0aabb4a7bf4/public/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=bc37786ec99618416cc0a0ca32833da447f4d91ab51d2c138dd15b7af21e8e9a`
-  - `DOCKER_IMAGE=demisto/privx-api:34.0.1.109782`
+  - `DOCKER_IMAGE=demisto/pysigma:1.0.0.109796`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:8b64f039259e411e70c5bcb1fab0d1e9904b5f9f`
-  - `org.opencontainers.image.version:34.0.1.109782`
+  - `org.opencontainers.image.revision:7c2f0f7f27d2bba0a439b755ef4cfd92349f9bf6`
+  - `org.opencontainers.image.version:1.0.0.109796`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -32,15 +32,15 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/privx-api:34.0.1.109782
+Signatures for demisto/pysigma:1.0.0.109796
 
 SIGNED TAG          DIGEST                                                             SIGNERS
-34.0.1.109782       964a8c6f19d293f336ad94dc78517dd407b427b7a1ef70f244909c5843c2af09   (Repo Admin)
+1.0.0.109796        2fe8dcff03654535abf94fab6225a266a887c4ea57c496bd3f21c8fdb29fb48d   (Repo Admin)
 
-Administrative keys for demisto/privx-api:34.0.1.109782
+Administrative keys for demisto/pysigma:1.0.0.109796
 
-  Repository Key:	db14d1f798f421abb00abd9eab141e6d1f763760aeddee91d0319ed58725cccd
-  Root Key:	1e3267ba56b5e6d19c690a107f2fa7420c9b39ec6667cf9707a6dd1ff2e5f915
+  Repository Key:	651b60e7e856e34815c0504951984fdc6c7af64c0e3e5e866b1b212278535a8d
+  Root Key:	76e25b8b16d7d3fbc4e9bae1c982720695224838a3a615eb4d897ca1ebbdcafd
 
 ```
 
@@ -83,15 +83,6 @@ Administrative keys for demisto/privx-api:34.0.1.109782
 * Author: Christian Heimes christian@python.org
 * License :: OSI Approved :: Python Software Foundation License
 
-### `dockerfile-parse`
-
-* Summary: Python library for Dockerfile manipulation
-* Version: 2.0.1
-* Pypi: https://pypi.org/project/dockerfile-parse/
-* Homepage: https://github.com/containerbuildsystem/dockerfile-parse
-* Author: Jiri Popelka jpopelka@redhat.com
-* License :: OSI Approved :: BSD License
-
 ### `filelock`
 
 * Summary: A platform independent file lock.
@@ -108,24 +99,6 @@ Administrative keys for demisto/privx-api:34.0.1.109782
 * Pypi: https://pypi.org/project/funcy/
 * Homepage: http://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
-* License :: OSI Approved :: BSD License
-
-### `gitdb`
-
-* Summary: Git Object Database
-* Version: 4.0.11
-* Pypi: https://pypi.org/project/gitdb/
-* Homepage: https://github.com/gitpython-developers/gitdb
-* Author: Sebastian Thiel byronimo@gmail.com
-* License :: OSI Approved :: BSD License
-
-### `GitPython`
-
-* Summary: GitPython is a Python library used to interact with Git repositories
-* Version: 3.1.43
-* Pypi: https://pypi.org/project/GitPython/
-* Homepage: https://github.com/gitpython-developers/GitPython
-* Author: Sebastian Thiel, Michael Trier byronimo@gmail.com, mtrier@gmail.com
 * License :: OSI Approved :: BSD License
 
 ### `idna`
@@ -155,6 +128,16 @@ Administrative keys for demisto/privx-api:34.0.1.109782
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
+### `packaging`
+
+* Summary: Core utilities for Python packages
+* Version: 22.0
+* Pypi: https://pypi.org/project/packaging/
+* Homepage: None
+* Author: Donald Stufft <donald@stufft.io>
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: BSD License
+
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
@@ -164,14 +147,86 @@ Administrative keys for demisto/privx-api:34.0.1.109782
 * Author: The pip developers <distutils-sig@python.org>
 * License :: OSI Approved :: MIT License
 
-### `privx_api`
+### `pyparsing`
 
-* Summary: 
-* Version: 34.0.1
-* Pypi: None
-* Homepage: https://github.com/SSHcom/privx-sdk-for-python
-* Author: 
-* License: Apache Licence 2.0
+* Summary: pyparsing module - Classes and methods to define and execute parsing grammars
+* Version: 3.1.2
+* Pypi: https://pypi.org/project/pyparsing/
+* Homepage: None
+* Author: Paul McGuire <ptmcg.gm+pyparsing@gmail.com>
+* License :: OSI Approved :: MIT License
+
+### `pysigma`
+
+* Summary: Sigma rule processing and conversion tools
+* Version: 0.9.11
+* Pypi: https://pypi.org/project/pySigma/
+* Homepage: https://github.com/SigmaHQ/pySigma
+* Author: Thomas Patzke thomas@patzke.org
+* License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)
+
+### `pysigma-backend-carbonblack`
+
+* Summary: pySigma carbonblack backend
+* Version: 0.1.6
+* Pypi: https://pypi.org/project/pysigma-backend-carbonblack/
+* Homepage: https://github.com/7RedViolin/pySigma-backend-carbonblack
+* Author: Cori Smith cs2718281@gmail.com
+* License :: OSI Approved :: MIT License
+
+### `pysigma-backend-cortexxdr`
+
+* Summary: pySigma CortexXDR backend
+* Version: 0.1.2
+* Pypi: https://pypi.org/project/pysigma-backend-cortexxdr/
+* Homepage: https://github.com/7RedViolin/pySigma-backend-cortexxdr
+* Author: Cori Smith cs2718281@gmail.com
+* License :: OSI Approved :: MIT License
+
+### `pysigma-backend-elasticsearch`
+
+* Summary: pySigma Elasticsearch backend supporting Lucene, ES|QL (with correlations) and EQL queries
+* Version: 1.0.5
+* Pypi: https://pypi.org/project/pySigma-backend-elasticsearch/
+* Homepage: https://github.com/SigmaHQ/pySigma-backend-elasticsearch
+* Author: Thomas Patzke thomas@patzke.org
+* License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+
+### `pySigma-backend-microsoft365defender`
+
+* Summary: pySigma Microsoft 365 Defender backend
+* Version: 0.2.6
+* Pypi: https://pypi.org/project/pySigma-backend-microsoft365defender/
+* Homepage: https://github.com/AttackIQ/pySigma-backend-microsoft365defender
+* Author: Stephen Lincoln stephen.lincoln@attackiq.com
+* License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+
+### `pysigma-backend-qradar`
+
+* Summary: pySigma Qradar backend
+* Version: 0.3.3
+* Pypi: https://pypi.org/project/pysigma-backend-qradar/
+* Homepage: 
+* Author: nNipsx-Sec nnipsxz@gmail.com
+* License: LGPL-2.1-only
+
+### `pysigma-backend-sentinelone`
+
+* Summary: pySigma SentinelOne backend
+* Version: 0.1.3
+* Pypi: https://pypi.org/project/pysigma-backend-sentinelone/
+* Homepage: https://github.com/7RedViolin/pySigma-backend-sentinelone
+* Author: Cori Smith cs2718281@gmail.com
+* License :: OSI Approved :: MIT License
+
+### `pysigma-backend-splunk`
+
+* Summary: pySigma Splunk backend
+* Version: 1.0.2
+* Pypi: https://pypi.org/project/pysigma-backend-splunk/
+* Homepage: https://github.com/SigmaHQ/pySigma-backend-splunk
+* Author: Thomas Patzke thomas@patzke.org
+* License: LGPL-2.1-only
 
 ### `PySocks`
 
@@ -213,7 +268,7 @@ Administrative keys for demisto/privx-api:34.0.1.109782
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.7.24
+* Version: 2024.5.15
 * Pypi: https://pypi.org/project/regex/
 * Homepage: https://github.com/mrabarnett/mrab-regex
 * Author: Matthew Barnett regex@mrabarnett.plus.com
@@ -237,24 +292,6 @@ Administrative keys for demisto/privx-api:34.0.1.109782
 * Author: David Shea <reallylongword@gmail.com>
 * License :: OSI Approved :: Apache Software License
 
-### `ruamel.yaml`
-
-* Summary: ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
-* Version: 0.18.6
-* Pypi: https://pypi.org/project/ruamel.yaml/
-* Homepage: 
-* Author: Anthon van der Neut a.van.der.neut@ruamel.eu
-* License :: OSI Approved :: MIT License
-
-### `ruamel.yaml.clib`
-
-* Summary: C version of reader, parser and emitter for ruamel.yaml derived from libyaml
-* Version: 0.2.8
-* Pypi: https://pypi.org/project/ruamel.yaml.clib/
-* Homepage: https://sourceforge.net/p/ruamel-yaml-clib/code/ci/default/tree
-* Author: Anthon van der Neut a.van.der.neut@ruamel.eu
-* License :: OSI Approved :: MIT License
-
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
@@ -272,15 +309,6 @@ Administrative keys for demisto/privx-api:34.0.1.109782
 * Homepage: https://github.com/benjaminp/six
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
-
-### `smmap`
-
-* Summary: A pure Python implementation of a sliding window memory map manager
-* Version: 5.0.1
-* Pypi: https://pypi.org/project/smmap/
-* Homepage: https://github.com/gitpython-developers/smmap
-* Author: Sebastian Thiel byronimo@gmail.com
-* License :: OSI Approved :: BSD License
 
 ### `tldextract`
 
@@ -303,7 +331,7 @@ Administrative keys for demisto/privx-api:34.0.1.109782
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.2.1
+* Version: 2.2.2
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>

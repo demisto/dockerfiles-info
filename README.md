@@ -215,6 +215,7 @@ docker_images_metadata.json example:
 * [demisto/pyotrs](demisto/pyotrs/last.md)
 * [demisto/pypdf2](demisto/pypdf2/last.md)
 * [demisto/pyquery](demisto/pyquery/last.md)
+* [demisto/pysigma](demisto/pysigma/last.md)
 * [demisto/pysmb](demisto/pysmb/last.md)
 * [demisto/pytan](demisto/pytan/last.md)
 * [demisto/python](demisto/python/last.md)
@@ -307,4 +308,4 @@ docker_images_metadata.json example:
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2024-09-05 01:21:49.102447
+Last updated: 2024-09-06 01:31:23.977819
