@@ -2,7 +2,8 @@ name: demisto/dockerfiles-info/full_build
 on:
   push:
     branches:
-    - master
+#    - master
+     - '**'
 jobs:
   update_repo_info:
     runs-on: ubuntu-latest
