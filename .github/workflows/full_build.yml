@@ -10,7 +10,7 @@ on:
 
 jobs:
   update_docker_repo_info:
-    runs-on: devdemisto/dockerbuild:1.0.0.25778
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python environment
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: '3.9'
 
       - name: Set up pipenv
         run: |
