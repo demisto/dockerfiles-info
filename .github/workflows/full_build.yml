@@ -13,7 +13,7 @@ on:
 
 jobs:
   update_docker_repo_info:
-    runs-on: ubuntu-latest
+    runs-on: devdemisto/dockerbuild:1.0.0.25778
 
     steps:
       - name: Checkout repository
