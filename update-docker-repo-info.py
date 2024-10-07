@@ -385,6 +385,9 @@ def process_image(image_name, force):
             print("Stderr: {}".format(e.stderr))
         os.remove(temp_file.name)
         raise
+    finally:
+        print(f"Removing Docker image from local runner: {full_name}")
+        subprocess.call(["docker", "rmi", full_name])
 
 
 def process_org(org_name, force):
