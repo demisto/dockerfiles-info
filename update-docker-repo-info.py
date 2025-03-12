@@ -23,6 +23,7 @@ assert sys.version_info >= (3, 9), "Script compatible with python 3.9 and higher
 VERIFY_SSL = True
 
 DOCKERFILES_DIR = os.path.abspath(os.getenv('DOCKERFILES_DIR', '.dockerfiles'))
+CONTENT_DIR = os.path.abspath(os.getenv('CONTENT_DIR', '.content'))
 DOCKER_IMAGES_METADATA = "docker_images_metadata.json"
 DOCKER_IMAGE_REGEX_PATTERN = r'^demisto/([^\s:]+):(\d+(\.\d+)*)$'
 
@@ -460,6 +461,16 @@ def checkout_dockerfiles_repo():
     subprocess.check_call(['git', 'clone', 'https://github.com/demisto/dockerfiles', DOCKERFILES_DIR])
 
 
+def checkout_content_repo():
+    if os.path.exists(CONTENT_DIR):
+        print(f'content dir {CONTENT_DIR} exists. Skipping checkout!')
+        return
+    print(f'checking out content project to: {CONTENT_DIR}'
+          ' (Note: for local testing you can set the  env var CONTENT_DIR to your content repo to avoid this checkout) ....')
+    os.mkdir(CONTENT_DIR)
+    subprocess.check_call(['git', 'clone', 'https://github.com/demisto/content', CONTENT_DIR])
+
+
 def main():
     parser = argparse.ArgumentParser(description='Fetch docker repo info. Will fetch the docker image and then generate license info',
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
@@ -473,6 +484,7 @@ def main():
     if not VERIFY_SSL:
         requests.packages.urllib3.disable_warnings()
     global USED_PACKAGES
+    checkout_content_repo()
     checkout_dockerfiles_repo()
     used_packages_path = "{}/{}".format(sys.path[0], USED_PACKAGES_FILE)
     if os.path.isfile(used_packages_path):
