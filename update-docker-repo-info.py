@@ -352,7 +352,8 @@ def process_image(image_name, force):
     info_date = subprocess.check_output(['git', '--no-pager', 'log', '-1', '--format=%ct', '--', image_name], text=True).strip()
     if info_date and int(info_date) > int(master_date):
         print(f"Skipping image: {image_name} as info modify date: {info_date} is greater than master date: {master_date}")
-        return
+        if image_name != 'demisto/python3':
+            return
     print(f"Checking last tag for: {image_name}. master date: [{master_date}]. info date: [{info_date}]")
     last_tag, last_date = get_latest_tag(image_name)
     full_name = "{}:{}".format(image_name, last_tag)
