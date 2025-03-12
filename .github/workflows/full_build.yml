@@ -38,14 +38,14 @@ jobs:
           cat git_changes.txt
 
       - name: Upload artifacts (if changes)
-        if: steps.git_status.outputs.changes != ''
+#        if: steps.git_status.outputs.changes != ''
         run: |
           mkdir -p artifacts
           cat git_changes.txt | awk '{print $2}' | sed 's:/*$::' | xargs -I {} cp -rf {} artifacts/. || echo "cp failed for some reason. continue..."
         continue-on-error: true
 
       - name: Commit and push changes
-        if: steps.git_status.outputs.changes != ''
+#        if: steps.git_status.outputs.changes != ''
         run: |
           git add .
           git commit -m "$(date): auto repo info update [skip ci]"
