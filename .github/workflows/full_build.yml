@@ -36,16 +36,21 @@ jobs:
         run: |
           git status --short > git_changes.txt
           cat git_changes.txt
+          if [ -s git_changes.txt ]; then
+            echo "git_changes=true" >> $GITHUB_ENV
+          else
+            echo "git_changes=false" >> $GITHUB_ENV
+          fi
 
       - name: Upload artifacts (if changes)
-        if: ${{ steps.git_status.outputs.git_changes != '' }}
+        if: env.git_changes == 'true'
         run: |
           mkdir -p artifacts
           cat git_changes.txt | awk '{print $2}' | sed 's:/*$::' | xargs -I {} cp -rf {} artifacts/. || echo "cp failed for some reason. continue..."
         continue-on-error: true
 
       - name: Commit and push changes
-        if: ${{ steps.git_status.outputs.git_changes != '' }}
+        if: env.git_changes == 'true'
         run: |
           git add .
           git commit -m "$(date): auto repo info update [skip ci]"
