@@ -518,6 +518,7 @@ def main():
     if not VERIFY_SSL:
         requests.packages.urllib3.disable_warnings()
     global USED_PACKAGES
+    os.removedirs(CONTENT_DIR)
     checkout_content_repo()
     all_dockers = read_dockers_from_all_yml_files(CONTENT_DIR)
     print(all_dockers)
