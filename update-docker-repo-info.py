@@ -16,6 +16,7 @@ import re
 import csv
 import time
 import codecs
+import yaml
 
 
 assert sys.version_info >= (3, 9), "Script compatible with python 3.9 and higher only"
@@ -471,6 +472,39 @@ def checkout_content_repo():
     subprocess.check_call(['git', 'clone', 'https://github.com/demisto/content', CONTENT_DIR])
 
 
+def get_yaml_files_in_directory(directory):
+    """Recursively fetches all .yml files in the specified directory"""
+    yml_files = []
+    for root, dirs, files in os.walk(directory):
+
+        dirs[:] = [d for d in dirs if 'playbook' not in d.lower() and 'rules' not in d.lower() and 'template' not in d.lower()]
+
+        for file in files:
+            if file.endswith('.yml') or file.endswith('.yaml'):  # Check for .yml or .yaml files
+                yml_files.append(os.path.join(root, file))
+
+    return yml_files
+
+def read_dockers_from_all_yml_files(directory):
+    yml_files = get_yaml_files_in_directory(directory)
+    all_dockers = set()
+    for file_path in yml_files:
+        try:
+            with open(file_path, 'r') as file:
+                data = yaml.safe_load(file)  # Load the YAML file
+
+                if data.get('deprecated'):
+                    continue
+                if data.get('dockerimage'):
+                    all_dockers.add(data.get('dockerimage'))
+                if data.get('script', {}).get('dockerimage'):
+                    all_dockers.add(data.get('script', {}).get('dockerimage'))
+
+        except Exception as e:
+            print(f"Error reading {file_path}: {e}")
+    return all_dockers
+
+
 def main():
     parser = argparse.ArgumentParser(description='Fetch docker repo info. Will fetch the docker image and then generate license info',
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
@@ -485,6 +519,11 @@ def main():
         requests.packages.urllib3.disable_warnings()
     global USED_PACKAGES
     checkout_content_repo()
+    all_dockers = read_dockers_from_all_yml_files(CONTENT_DIR)
+    print(all_dockers)
+
+
+
     checkout_dockerfiles_repo()
     used_packages_path = "{}/{}".format(sys.path[0], USED_PACKAGES_FILE)
     if os.path.isfile(used_packages_path):
