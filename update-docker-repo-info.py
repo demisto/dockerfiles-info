@@ -487,23 +487,40 @@ def get_yaml_files_in_directory(directory):
 
 def read_dockers_from_all_yml_files(directory):
     yml_files = get_yaml_files_in_directory(directory)
-    all_dockers = set()
+    image_dict = {}
     for file_path in yml_files:
         try:
             with open(file_path, 'r') as file:
                 data = yaml.safe_load(file)  # Load the YAML file
 
-                if data.get('deprecated'):
-                    continue
-                if data.get('dockerimage'):
-                    all_dockers.add(data.get('dockerimage'))
-                    continue
-                if data.get('script', {}).get('dockerimage'):
-                    all_dockers.add(data.get('script', {}).get('dockerimage'))
+                if not data.get('deprecated'):
+                    docker_image = ''
+                    
+                    if data.get('dockerimage'):
+                        docker_image = data.get('dockerimage')
+                    elif data.get('script', {}).get('dockerimage'):
+                        docker_image = data.get('script', {}).get('dockerimage')
 
+                    if docker_image:
+                        image_name, tag = docker_image.split(':')
+                        
+                        # Add the tag to the dictionary, ensuring the list of tags is distinct
+                        if image_name not in image_dict:
+                            image_dict[image_name] = {tag}
+                        else:
+                            image_dict[image_name].add(tag)  # Add tag if it's not already present
+                    
+            
         except Exception as e:
             print(f"Error reading {file_path}: {e}")
-    return all_dockers
+            
+            
+    # Convert sets to lists (for the final output)
+    for key in image_dict:
+        image_dict[key] = list(image_dict[key])
+    
+                       
+    return image_dict
 
 
 def main():
@@ -519,30 +536,66 @@ def main():
     if not VERIFY_SSL:
         requests.packages.urllib3.disable_warnings()
     global USED_PACKAGES
-    # os.removedirs(CONTENT_DIR)
+    
+    
+
+
+    os.removedirs(CONTENT_DIR)
     checkout_content_repo()
     all_dockers = read_dockers_from_all_yml_files(CONTENT_DIR)
     print(all_dockers)
 
 
+    
+    for image_name in all_dockers['demisto/python3']:
+        
+        image_name = f'demisto/python3:{image_name}'
+        
+        subprocess.call(["docker", "pull", image_name])
+        inspect_format = f'''{{{{ range $env := .Config.Env }}}}{{{{ if eq $env "DEPRECATED_IMAGE=true" }}}}## 🔴 IMPORTANT: This image is deprecated 🔴{{{{ end }}}}{{{{ end }}}}
+            ## Docker Metadata
+            - Image Size: {get_docker_image_size(image_name)}
+            - Image ID: `{{{{ .Id }}}}`
+            - Created: `{{{{ .Created }}}}`
+            - Arch: `{{{{ .Os }}}}`/`{{{{ .Architecture }}}}`
+            {{{{ if .Config.Entrypoint }}}}- Entrypoint: `{{{{ json .Config.Entrypoint }}}}`
+            {{{{ end }}}}{{{{ if .Config.Cmd }}}}- Command: `{{{{ json .Config.Cmd }}}}`
+            {{{{ end }}}}- Environment:{{{{ range .Config.Env }}}}{{{{ "\\n" }}}}  - `{{{{ . }}}}`{{{{ end }}}}
+            - Labels:{{{{ range $key, $value := .Config.Labels }}}}{{{{ "\\n" }}}}  - `{{{{ $key }}}}:{{{{ $value }}}}`{{{{ end }}}}
+            '''
 
-    checkout_dockerfiles_repo()
-    used_packages_path = "{}/{}".format(sys.path[0], USED_PACKAGES_FILE)
-    if os.path.isfile(used_packages_path):
-        with open(used_packages_path) as f:
-            USED_PACKAGES = json.load(f)
-    try:
-        if args.docker_image:
-            process_image(args.docker_image, args.force)
+        
+        docker_info = subprocess.check_output(["docker", "inspect", "-f", inspect_format, image_name], text=True)
+
+        # get python version and add it to the docker images metadata file
+        if DOCKER_IMAGES_METADATA_FILE_CONTENT:
+            add_python_version_to_dockerfiles_metadata(image_name, docker_info)
         else:
-            process_org("demisto", args.force)
-    finally:
-        with open(used_packages_path, "w") as f:
-            json.dump(USED_PACKAGES, f, sort_keys=True,
-                      indent=4, separators=(',', ': '))
-    generate_readme_listing()
-    generate_csv()
+            print(f'{DOCKER_IMAGES_METADATA_FILE_CONTENT=} is empty, to avoid overriding the file, python version will not be added')
+
+
+
+
     save_to_docker_files_metadata_json_file()
+
+
+    # checkout_dockerfiles_repo()
+    # used_packages_path = "{}/{}".format(sys.path[0], USED_PACKAGES_FILE)
+    # if os.path.isfile(used_packages_path):
+    #     with open(used_packages_path) as f:
+    #         USED_PACKAGES = json.load(f)
+    # try:
+    #     if args.docker_image:
+    #         process_image(args.docker_image, args.force)
+    #     else:
+    #         process_org("demisto", args.force)
+    # finally:
+    #     with open(used_packages_path, "w") as f:
+    #         json.dump(USED_PACKAGES, f, sort_keys=True,
+    #                   indent=4, separators=(',', ': '))
+    # generate_readme_listing()
+    # generate_csv()
+    # save_to_docker_files_metadata_json_file()
 
 
 if __name__ == "__main__":
