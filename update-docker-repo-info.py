@@ -369,14 +369,7 @@ def process_image(image_name, force):
     print(f"Checking last tag for: {image_name}. master date: [{master_date}]. info date: [{info_date}]")
     last_tag, old_tags = get_latest_tag(image_name)
     
-    
-    print("remove old dockers from file")
     docker_images_metadata_content = DOCKER_IMAGES_METADATA_FILE_CONTENT.get("docker_images",{}).get(image_name.replace('demisto/', ''))
-    if docker_images_metadata_content:
-        for tag in old_tags:
-            if tag in docker_images_metadata_content.keys():
-                del docker_images_metadata_content[tag]
-    
     
     tags_need_to_add = [last_tag]
     content_images = CONTENT_DOCKER_IMAGES.get(image_name, [])
@@ -384,7 +377,19 @@ def process_image(image_name, force):
         if docker_images_metadata_content and tag not in docker_images_metadata_content.keys():
             tags_need_to_add.append(tag)
 
+    print("tags_need_to_add")
     print(tags_need_to_add)
+    
+    
+    print("remove old dockers from file")
+    
+    if docker_images_metadata_content:
+        for tag in old_tags:
+            if tag in docker_images_metadata_content.keys() and tag not in tags_need_to_add:
+                del docker_images_metadata_content[tag]
+    
+    
+
 
     for tag_to_use in tags_need_to_add:
         full_name = "{}:{}".format(image_name, tag_to_use)
@@ -524,7 +529,7 @@ def read_dockers_from_all_yml_files(directory):
             with open(file_path, 'r') as file:
                 data = yaml.safe_load(file)  # Load the YAML file
 
-                if not data.get('deprecated'):
+                if not data.get('deprecated') and data.get('type') != 'javascript':
                     docker_image = ''
                     
                     if data.get('dockerimage'):
