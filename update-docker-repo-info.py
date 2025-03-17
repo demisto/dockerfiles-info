@@ -17,6 +17,7 @@ import csv
 import time
 import codecs
 import yaml
+from slack_notifier import slack_notifier
 
 
 assert sys.version_info >= (3, 9), "Script compatible with python 3.9 and higher only"
@@ -573,8 +574,8 @@ def main():
         requests.packages.urllib3.disable_warnings()
     global USED_PACKAGES
     checkout_dockerfiles_repo()
-    
-    
+
+    slack_notifier('test','test','test')
     
     os.removedirs(CONTENT_DIR)
     checkout_content_repo()
