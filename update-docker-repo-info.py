@@ -387,6 +387,7 @@ def process_image(image_name, force):
         for tag in old_tags:
             if tag in docker_images_metadata_content.keys() and tag not in tags_need_to_add:
                 del docker_images_metadata_content[tag]
+                print(f'tag {tag} removed')
     
     
 
