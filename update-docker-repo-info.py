@@ -27,6 +27,7 @@ DOCKERFILES_DIR = os.path.abspath(os.getenv('DOCKERFILES_DIR', '.dockerfiles'))
 CONTENT_DIR = os.path.abspath(os.getenv('CONTENT_DIR', '.content'))
 DOCKER_IMAGES_METADATA = "docker_images_metadata.json"
 DOCKER_IMAGE_REGEX_PATTERN = r'^demisto/([^\s:]+):(\d+(\.\d+)*)$'
+CONTENT_DOCKER_IMAGES = {}
 
 
 try:
@@ -71,9 +72,14 @@ def get_docker_image_size(docker_image):
 
 
 def get_latest_tag(image_name):
+    old_tags = []
     last_tag = None
     last_date = None
     url = "https://registry.hub.docker.com/v2/repositories/{}/tags/?page_size=25".format(image_name)
+    
+    current_date = datetime.datetime.now()
+    six_months_ago = current_date - datetime.timedelta(days=6*30)  # Rough estimate of 6 months as 180 days
+        
     while True:
         print("Querying docker hub url: {}".format(url))
         res = http_get(url)
@@ -84,6 +90,10 @@ def get_latest_tag(image_name):
             if len(name) >= 20 and all(c in string.hexdigits for c in name):  # skip git sha revisions
                 continue
             date = datetime.datetime.strptime(result['last_updated'], "%Y-%m-%dT%H:%M:%S.%fZ")
+            
+            if date < six_months_ago:
+                old_tags.append(result['name'])
+            
             if not last_date or date > last_date:
                 last_date = date
                 last_tag = result['name']
@@ -94,7 +104,7 @@ def get_latest_tag(image_name):
     print("last tag: {}, date: {}".format(last_tag, last_date))
     if not last_tag:
         raise Exception('No tag found for image: {}'.format(image_name))
-    return (last_tag, last_date)
+    return (last_tag, old_tags)
 
 
 def get_os_release(image_name):
@@ -357,40 +367,59 @@ def process_image(image_name, force):
         if image_name != 'demisto/python3':
             return
     print(f"Checking last tag for: {image_name}. master date: [{master_date}]. info date: [{info_date}]")
-    last_tag, last_date = get_latest_tag(image_name)
-    full_name = "{}:{}".format(image_name, last_tag)
-    dir = "{}/{}".format(sys.path[0], image_name)
-    if not os.path.exists(dir):
-        os.makedirs(dir)
-    info_file = "{}/{}.md".format(dir, last_tag)
-    last_file = "{}/last.md".format(dir)
-    if not force and os.path.exists(info_file):
-        print("Info file: {} exists skipping image".format(info_file))
-        return
-    print("Downloading docker image: {}...".format(full_name))
-    subprocess.call(["docker", "pull", full_name])
-    temp_file = tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', delete=False)
-    print("Using temp file: " + temp_file.name)
-    try:
-        temp_file.write("# `{}:{}`\n".format(image_name, last_tag))
-        inspect_image(full_name, temp_file)
-        docker_trust(full_name, temp_file)
-        temp_file.write("## `Python Packages`\n\n")
-        generate_pkg_data(full_name, temp_file)
-        temp_file.write("\n## `OS Packages`\n\n")
-        list_os_packages(full_name, temp_file)
-        temp_file.close()
-        shutil.move(temp_file.name, info_file)
-        shutil.copy(info_file, last_file)
-    except Exception as e:
-        print("Error: {}".format(e))
-        if isinstance(e, subprocess.CalledProcessError):
-            print("Stderr: {}".format(e.stderr))
-        os.remove(temp_file.name)
-        raise
-    finally:
-        print(f"Removing Docker image from local runner: {full_name}")
-        subprocess.call(["docker", "rmi", full_name])
+    last_tag, old_tags = get_latest_tag(image_name)
+    
+    
+    print("remove old dockers from file")
+    docker_images_metadata_content = DOCKER_IMAGES_METADATA_FILE_CONTENT.get("docker_images",{}).get(image_name.replace('demisto/', ''))
+    if docker_images_metadata_content:
+        for tag in old_tags:
+            if tag in docker_images_metadata_content.keys():
+                del docker_images_metadata_content[tag]
+    
+    
+    tags_need_to_add = [last_tag]
+    content_images = CONTENT_DOCKER_IMAGES.get(image_name, [])
+    for tag in content_images:
+        if docker_images_metadata_content and tag not in docker_images_metadata_content.keys():
+            tags_need_to_add.append(tag)
+
+    print(tags_need_to_add)
+
+    for tag_to_use in tags_need_to_add:
+        full_name = "{}:{}".format(image_name, tag_to_use)
+        dir = "{}/{}".format(sys.path[0], image_name)
+        if not os.path.exists(dir):
+            os.makedirs(dir)
+        info_file = "{}/{}.md".format(dir, tag_to_use)
+        last_file = "{}/last.md".format(dir)
+        if not force and os.path.exists(info_file):
+            print("Info file: {} exists skipping image".format(info_file))
+            continue
+        print("Downloading docker image: {}...".format(full_name))
+        subprocess.call(["docker", "pull", full_name])
+        temp_file = tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', delete=False)
+        print("Using temp file: " + temp_file.name)
+        try:
+            temp_file.write("# `{}:{}`\n".format(image_name, tag_to_use))
+            inspect_image(full_name, temp_file)
+            docker_trust(full_name, temp_file)
+            temp_file.write("## `Python Packages`\n\n")
+            generate_pkg_data(full_name, temp_file)
+            temp_file.write("\n## `OS Packages`\n\n")
+            list_os_packages(full_name, temp_file)
+            temp_file.close()
+            shutil.move(temp_file.name, info_file)
+            shutil.copy(info_file, last_file)
+        except Exception as e:
+            print("Error: {}".format(e))
+            if isinstance(e, subprocess.CalledProcessError):
+                print("Stderr: {}".format(e.stderr))
+            os.remove(temp_file.name)
+            raise
+        finally:
+            print(f"Removing Docker image from local runner: {full_name}")
+            subprocess.call(["docker", "rmi", full_name])
 
 
 def process_org(org_name, force):
@@ -526,7 +555,7 @@ def read_dockers_from_all_yml_files(directory):
 def main():
     parser = argparse.ArgumentParser(description='Fetch docker repo info. Will fetch the docker image and then generate license info',
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument("docker_image", help="The docker image name to use (ie: demisto/python). Optional." +
+    parser.add_argument("--docker-image", help="The docker image name to use (ie: demisto/python). Optional." +
                         "If not specified will scan all images in the demisto organization", nargs="?")
     parser.add_argument("--force", help="Force refetch even if license data already exists", action='store_true')
     parser.add_argument("--no-verify-ssl", help="Don't verify ssl certs for requests (for testing behind corp firewall)", action='store_true')
@@ -536,66 +565,36 @@ def main():
     if not VERIFY_SSL:
         requests.packages.urllib3.disable_warnings()
     global USED_PACKAGES
+    checkout_dockerfiles_repo()
     
     
-
-
+    
     os.removedirs(CONTENT_DIR)
     checkout_content_repo()
-    all_dockers = read_dockers_from_all_yml_files(CONTENT_DIR)
-    print(all_dockers)
-
-
+    all_content_dockers = read_dockers_from_all_yml_files(CONTENT_DIR)
     
-    for image_name in all_dockers['demisto/python3']:
-        
-        image_name = f'demisto/python3:{image_name}'
-        
-        subprocess.call(["docker", "pull", image_name])
-        inspect_format = f'''{{{{ range $env := .Config.Env }}}}{{{{ if eq $env "DEPRECATED_IMAGE=true" }}}}## 🔴 IMPORTANT: This image is deprecated 🔴{{{{ end }}}}{{{{ end }}}}
-            ## Docker Metadata
-            - Image Size: {get_docker_image_size(image_name)}
-            - Image ID: `{{{{ .Id }}}}`
-            - Created: `{{{{ .Created }}}}`
-            - Arch: `{{{{ .Os }}}}`/`{{{{ .Architecture }}}}`
-            {{{{ if .Config.Entrypoint }}}}- Entrypoint: `{{{{ json .Config.Entrypoint }}}}`
-            {{{{ end }}}}{{{{ if .Config.Cmd }}}}- Command: `{{{{ json .Config.Cmd }}}}`
-            {{{{ end }}}}- Environment:{{{{ range .Config.Env }}}}{{{{ "\\n" }}}}  - `{{{{ . }}}}`{{{{ end }}}}
-            - Labels:{{{{ range $key, $value := .Config.Labels }}}}{{{{ "\\n" }}}}  - `{{{{ $key }}}}:{{{{ $value }}}}`{{{{ end }}}}
-            '''
-
-        
-        docker_info = subprocess.check_output(["docker", "inspect", "-f", inspect_format, image_name], text=True)
-
-        # get python version and add it to the docker images metadata file
-        if DOCKER_IMAGES_METADATA_FILE_CONTENT:
-            add_python_version_to_dockerfiles_metadata(image_name, docker_info)
+    
+    # all_content_dockers = {'demisto/python3': ['3.11.10.116439']}
+    print(all_content_dockers)
+    global CONTENT_DOCKER_IMAGES
+    CONTENT_DOCKER_IMAGES = all_content_dockers
+    
+    used_packages_path = "{}/{}".format(sys.path[0], USED_PACKAGES_FILE)
+    if os.path.isfile(used_packages_path):
+        with open(used_packages_path) as f:
+            USED_PACKAGES = json.load(f)
+    try:
+        if args.docker_image:
+            process_image(args.docker_image, args.force)
         else:
-            print(f'{DOCKER_IMAGES_METADATA_FILE_CONTENT=} is empty, to avoid overriding the file, python version will not be added')
-
-
-
-
+            process_org("demisto", args.force)
+    finally:
+        with open(used_packages_path, "w") as f:
+            json.dump(USED_PACKAGES, f, sort_keys=True,
+                      indent=4, separators=(',', ': '))
+    generate_readme_listing()
+    generate_csv()
     save_to_docker_files_metadata_json_file()
-
-
-    # checkout_dockerfiles_repo()
-    # used_packages_path = "{}/{}".format(sys.path[0], USED_PACKAGES_FILE)
-    # if os.path.isfile(used_packages_path):
-    #     with open(used_packages_path) as f:
-    #         USED_PACKAGES = json.load(f)
-    # try:
-    #     if args.docker_image:
-    #         process_image(args.docker_image, args.force)
-    #     else:
-    #         process_org("demisto", args.force)
-    # finally:
-    #     with open(used_packages_path, "w") as f:
-    #         json.dump(USED_PACKAGES, f, sort_keys=True,
-    #                   indent=4, separators=(',', ': '))
-    # generate_readme_listing()
-    # generate_csv()
-    # save_to_docker_files_metadata_json_file()
 
 
 if __name__ == "__main__":

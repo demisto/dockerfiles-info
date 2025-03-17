@@ -24,7 +24,7 @@ jobs:
         run: pipenv install
 
       - name: Run update-docker-repo-info script
-        run: pipenv run ./update-docker-repo-info.py
+        run: pipenv run ./update-docker-repo-info.py --docker-image demisto/python3
 
       - name: Configure Git for commit
         run: |
