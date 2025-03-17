@@ -1,9 +1,9 @@
-# `demisto/ml:1.0.0.1992735`
+# `demisto/ml:1.0.0.110702`
 
 ## Docker Metadata
-- Image Size: 1047.50 MB
-- Image ID: `sha256:a9f3f4514160a8baab8a815c6da8c739cefb018196c1936c6f868e56afdb1f2c`
-- Created: `2025-01-15T10:58:01.16574991Z`
+- Image Size: 1517.14 MB
+- Image ID: `sha256:52cc315007c3bf5f0fe9be1204a9b9d3f962198b9ba175d84bbc0273cc28a2a5`
+- Created: `2024-09-09T14:59:10.536258451Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -15,14 +15,14 @@
   - `PYTHON_SETUPTOOLS_VERSION=65.5.1`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/dbf0c85f76fb6e1ab42aa672ffca6f0a675d9ee4/public/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=dfe9fd5c28dc98b5ac17979a953ea550cec37ae1b47a5116007395bfacff2ab9`
-  - `DOCKER_IMAGE=demisto/ml:1.0.0.1992735`
+  - `DOCKER_IMAGE=demisto/ml:1.0.0.110702`
   - `HF_HOME=/ml/.cache`
   - `NLTK_DATA=/ml/nltk_data`
   - `MPLCONFIGDIR=/ml/matplotlib`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:7e588e5b535060b396614f6c93fd582f7ca821bb`
-  - `org.opencontainers.image.version:1.0.0.1992735`
+  - `org.opencontainers.image.revision:3e245af494cc6d95072408d5c226b636360a3b17`
+  - `org.opencontainers.image.version:1.0.0.110702`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -38,12 +38,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/ml:1.0.0.1992735
+Signatures for demisto/ml:1.0.0.110702
 
-SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.1992735   1fbdd04bd0163bcc2d2d17bccf8594244124a827a50cf1d4b1b8fe4f959dcee7   (Repo Admin)
+SIGNED TAG          DIGEST                                                             SIGNERS
+1.0.0.110702        c62c8311bd01dc98236a9b1e899bc7a50338277c9b808b32b3f17ae2b40b2455   (Repo Admin)
 
-Administrative keys for demisto/ml:1.0.0.1992735
+Administrative keys for demisto/ml:1.0.0.110702
 
   Repository Key:	ac15e70d1328e4ee6a571a4f26d48cb7a7a71057e1c418659434a29c5f420dec
   Root Key:	9bed0b81bc81568c748fc3dce530b735db8f1ee1b0f960a5a6d7b9a7386637c6
@@ -65,19 +65,19 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `attrs`
 
 * Summary: Classes Without Boilerplate
-* Version: 24.3.0
+* Version: 23.2.0
 * Pypi: https://pypi.org/project/attrs/
 * Homepage: None
 * Author: Hynek Schlawack <hs@ox.cx>
-* License :: MIT License
+* License :: OSI Approved :: MIT License
 
 ### `blis`
 
 * Summary: The Blis BLAS-like linear algebra library, as a self-contained C-extension.
-* Version: 1.2.0
+* Version: 0.7.11
 * Pypi: https://pypi.org/project/blis/
 * Homepage: https://github.com/explosion/cython-blis
-* Author: Matthew Honnibal matt@explosion.ai
+* Author: Explosion contact@explosion.ai
 * License :: OSI Approved :: BSD License
 
 ### `catalogue`
@@ -101,7 +101,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2024.12.14
+* Version: 2024.8.30
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -110,25 +110,25 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.0
+* Version: 3.3.2
 * Pypi: https://pypi.org/project/charset-normalizer/
-* Homepage: None
-* Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
+* Homepage: https://github.com/Ousret/charset_normalizer
+* Author: Ahmed TAHRI ahmed.tahri@cloudnursery.dev
 * License :: OSI Approved :: MIT License
 
 ### `click`
 
 * Summary: Composable command line interface toolkit
-* Version: 8.1.8
+* Version: 8.1.7
 * Pypi: https://pypi.org/project/click/
-* Homepage: None
-* Author: None
+* Homepage: https://palletsprojects.com/p/click/
+* Author: 
 * License :: OSI Approved :: BSD License
 
 ### `cloudpathlib`
 
 * Summary: pathlib-style classes for cloud storage services.
-* Version: 0.20.0
+* Version: 0.19.0
 * Pypi: https://pypi.org/project/cloudpathlib/
 * Homepage: None
 * Author: DrivenData <info@drivendata.org>
@@ -155,7 +155,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `contourpy`
 
 * Summary: Python library for calculating contours of 2D quadrilateral grids
-* Version: 1.3.1
+* Version: 1.3.0
 * Pypi: https://pypi.org/project/contourpy/
 * Homepage: None
 * Author: Ian Thomas <ianthomas23@gmail.com>
@@ -173,7 +173,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `cymem`
 
 * Summary: Manage calls to calloc/free through Cython
-* Version: 2.0.10
+* Version: 2.0.8
 * Pypi: https://pypi.org/project/cymem/
 * Homepage: https://github.com/explosion/cymem
 * Author: Matthew Honnibal matt@explosion.ai
@@ -209,7 +209,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `dill`
 
 * Summary: serialize all of Python
-* Version: 0.3.9
+* Version: 0.3.8
 * Pypi: https://pypi.org/project/dill/
 * Homepage: https://github.com/uqfoundation/dill
 * Author: Mike McKerns mmckerns@uqfoundation.org
@@ -224,10 +224,10 @@ Administrative keys for demisto/ml:1.0.0.1992735
 * Author: Mikhail Korobov, Konstantin Lopuhin kmike84@gmail.com, kostia.lopuhin@gmail.com
 * License :: OSI Approved :: MIT License
 
-### `en_core_web_sm`
+### `en-core-web-sm`
 
 * Summary: English pipeline optimized for CPU. Components: tok2vec, tagger, parser, senter, ner, attribute_ruler, lemmatizer.
-* Version: 3.8.0
+* Version: 3.7.1
 * Pypi: None
 * Homepage: https://explosion.ai
 * Author: Explosion contact@explosion.ai
@@ -245,7 +245,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.16.1
+* Version: 3.15.4
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -254,7 +254,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `flatbuffers`
 
 * Summary: The FlatBuffers serialization format for Python
-* Version: 24.12.23
+* Version: 24.3.25
 * Pypi: https://pypi.org/project/flatbuffers/
 * Homepage: https://google.github.io/flatbuffers/
 * Author: Derek Bailey derekbailey@google.com
@@ -263,7 +263,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `fonttools`
 
 * Summary: Tools to manipulate font files
-* Version: 4.55.3
+* Version: 4.53.1
 * Pypi: https://pypi.org/project/fonttools/
 * Homepage: http://github.com/fonttools/fonttools
 * Author: Just van Rossum just@letterror.com
@@ -272,7 +272,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `fsspec`
 
 * Summary: File-system specification
-* Version: 2024.12.0
+* Version: 2024.9.0
 * Pypi: https://pypi.org/project/fsspec/
 * Homepage: None
 * Author: None
@@ -299,7 +299,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `huggingface-hub`
 
 * Summary: Client library to download and publish models, datasets and other repos on the huggingface.co hub
-* Version: 0.27.0
+* Version: 0.24.3
 * Pypi: https://pypi.org/project/huggingface-hub/
 * Homepage: https://github.com/huggingface/huggingface_hub
 * Author: Hugging Face, Inc. julien@huggingface.co
@@ -317,7 +317,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.8
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -326,7 +326,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `imageio`
 
 * Summary: Library for reading and writing a wide range of image, video, scientific, and volumetric data formats.
-* Version: 2.36.1
+* Version: 2.34.2
 * Pypi: https://pypi.org/project/imageio/
 * Homepage: https://github.com/imageio/imageio
 * Author: imageio contributors almar.klein@gmail.com
@@ -335,7 +335,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `Jinja2`
 
 * Summary: A very fast and expressive template engine.
-* Version: 3.1.5
+* Version: 3.1.4
 * Pypi: https://pypi.org/project/Jinja2/
 * Homepage: None
 * Author: None
@@ -362,7 +362,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `langcodes`
 
 * Summary: Tools for labeling human languages with IETF language tags
-* Version: 3.5.0
+* Version: 3.4.0
 * Pypi: https://pypi.org/project/langcodes/
 * Homepage: None
 * Author: Elia Robyn Speer <rspeer@arborelia.net>
@@ -380,7 +380,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `language_data`
 
 * Summary: Supplementary data about languages used by the langcodes module
-* Version: 1.3.0
+* Version: 1.2.0
 * Pypi: https://pypi.org/project/language-data/
 * Homepage: None
 * Author: Elia Robyn Speer <rspeer@arborelia.net>
@@ -407,7 +407,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `marisa-trie`
 
 * Summary: Static memory-efficient and fast Trie-like structures for Python.
-* Version: 1.2.1
+* Version: 1.2.0
 * Pypi: https://pypi.org/project/marisa-trie/
 * Homepage: https://github.com/pytries/marisa-trie
 * Author: Mikhail Korobov kmike84@gmail.com
@@ -425,16 +425,16 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `MarkupSafe`
 
 * Summary: Safely add untrusted strings to HTML/XML markup.
-* Version: 3.0.2
+* Version: 2.1.5
 * Pypi: https://pypi.org/project/MarkupSafe/
-* Homepage: None
-* Author: None
+* Homepage: https://palletsprojects.com/p/markupsafe/
+* Author: 
 * License :: OSI Approved :: BSD License
 
 ### `matplotlib`
 
 * Summary: Python plotting package
-* Version: 3.10.0
+* Version: 3.9.2
 * Pypi: https://pypi.org/project/matplotlib/
 * Homepage: None
 * Author: John D. Hunter, Michael Droettboom Unknown <matplotlib-users@python.org>
@@ -470,7 +470,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `murmurhash`
 
 * Summary: Cython bindings for MurmurHash
-* Version: 1.0.11
+* Version: 1.0.10
 * Pypi: https://pypi.org/project/murmurhash/
 * Homepage: https://github.com/explosion/murmurhash
 * Author: Explosion contact@explosion.ai
@@ -479,7 +479,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `networkx`
 
 * Summary: Python package for creating and manipulating graphs and networks
-* Version: 3.4.2
+* Version: 3.3
 * Pypi: https://pypi.org/project/networkx/
 * Homepage: None
 * Author: Aric Hagberg <hagberg@lanl.gov>
@@ -499,7 +499,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 * Summary: Fundamental package for array computing in Python
 * Version: 1.26.4
 * Pypi: https://pypi.org/project/numpy/
-* Homepage: None
+* Homepage: https://numpy.org
 * Author: Travis E. Oliphant et al.
 * License :: OSI Approved :: BSD License
 
@@ -515,7 +515,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `onnx`
 
 * Summary: Open Neural Network Exchange
-* Version: 1.17.0
+* Version: 1.16.2
 * Pypi: https://pypi.org/project/onnx/
 * Homepage: None
 * Author: ONNX Contributors <onnx-technical-discuss@lists.lfaidata.foundation>
@@ -524,7 +524,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `onnxruntime`
 
 * Summary: ONNX Runtime is a runtime accelerator for Machine Learning models
-* Version: 1.20.1
+* Version: 1.19.2
 * Pypi: https://pypi.org/project/onnxruntime/
 * Homepage: https://onnxruntime.ai
 * Author: Microsoft Corporation onnxruntime@microsoft.com
@@ -533,7 +533,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 24.2
+* Version: 24.1
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -543,7 +543,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `pandas`
 
 * Summary: Powerful data structures for data analysis, time series, and statistics
-* Version: 2.2.3
+* Version: 2.2.2
 * Pypi: https://pypi.org/project/pandas/
 * Homepage: https://pandas.pydata.org
 * Author: The Pandas Development Team <pandas-dev@python.org>
@@ -552,16 +552,16 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `pillow`
 
 * Summary: Python Imaging Library (Fork)
-* Version: 11.0.0
+* Version: 10.4.0
 * Pypi: https://pypi.org/project/pillow/
 * Homepage: None
 * Author: "Jeffrey A. Clark" <aclark@aclark.net>
-* License :: OSI Approved :: CMU License (MIT-CMU)
+* License :: OSI Approved :: Historical Permission Notice and Disclaimer (HPND)
 
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.0.1
+* Version: 24.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -570,7 +570,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `plotly`
 
 * Summary: An open-source, interactive data visualization library for Python
-* Version: 5.24.1
+* Version: 5.24.0
 * Pypi: https://pypi.org/project/plotly/
 * Homepage: https://plotly.com/python/
 * Author: Chris P chris@plot.ly
@@ -588,7 +588,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `protobuf`
 
 * Summary: None
-* Version: 5.29.2
+* Version: 5.28.0
 * Pypi: https://pypi.org/project/protobuf/
 * Homepage: https://developers.google.com/protocol-buffers/
 * Author: protobuf@googlegroups.com protobuf@googlegroups.com
@@ -597,7 +597,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `pybind11`
 
 * Summary: Seamless operability between C++11 and Python
-* Version: 2.13.6
+* Version: 2.13.1
 * Pypi: https://pypi.org/project/pybind11/
 * Homepage: https://github.com/pybind/pybind11
 * Author: Wenzel Jakob wenzel.jakob@epfl.ch
@@ -606,29 +606,30 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `pycryptodome`
 
 * Summary: Cryptographic library for Python
-* Version: 3.21.0
+* Version: 3.20.0
 * Pypi: https://pypi.org/project/pycryptodome/
 * Homepage: https://www.pycryptodome.org
 * Author: Helder Eijs helderijs@gmail.com
+* License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: BSD License
 * License :: Public Domain
 
 ### `pydantic`
 
 * Summary: Data validation using Python type hints
-* Version: 2.10.4
+* Version: 2.8.2
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
-* Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.io>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
+* Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.io>, Alex Hall <alex.mojaki@gmail.com>
 * License :: OSI Approved :: MIT License
 
 ### `pydantic_core`
 
 * Summary: Core functionality for Pydantic validation and serialization
-* Version: 2.27.2
+* Version: 2.20.1
 * Pypi: https://pypi.org/project/pydantic-core/
 * Homepage: https://github.com/pydantic/pydantic-core
-* Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
+* Author: Samuel Colvin <s@muelcolvin.com>
 * License :: OSI Approved :: MIT License
 
 ### `Pygments`
@@ -643,7 +644,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `pyparsing`
 
 * Summary: pyparsing module - Classes and methods to define and execute parsing grammars
-* Version: 3.2.0
+* Version: 3.1.4
 * Pypi: https://pypi.org/project/pyparsing/
 * Homepage: None
 * Author: Paul McGuire <ptmcg.gm+pyparsing@gmail.com>
@@ -671,7 +672,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2024.2
+* Version: 2024.1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -680,7 +681,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
-* Version: 6.0.2
+* Version: 6.0.1
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net
@@ -689,7 +690,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2024.7.24
 * Pypi: https://pypi.org/project/regex/
 * Homepage: https://github.com/mrabarnett/mrab-regex
 * Author: Matthew Barnett regex@mrabarnett.plus.com
@@ -716,7 +717,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `rich`
 
 * Summary: Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
-* Version: 13.9.4
+* Version: 13.8.0
 * Pypi: https://pypi.org/project/rich/
 * Homepage: https://github.com/Textualize/rich
 * Author: Will McGugan willmcgugan@gmail.com
@@ -725,7 +726,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `safetensors`
 
 * Summary: None
-* Version: 0.4.5
+* Version: 0.4.3
 * Pypi: https://pypi.org/project/safetensors/
 * Homepage: None
 * Author: Nicolas Patry <patry.nicolas@protonmail.com>
@@ -734,9 +735,9 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `scikit-image`
 
 * Summary: Image processing in Python
-* Version: 0.25.0
+* Version: 0.24.0
 * Pypi: https://pypi.org/project/scikit-image/
-* Homepage: None
+* Homepage: https://scikit-image.org
 * Author: None
 * License :: OSI Approved :: BSD License
 
@@ -745,7 +746,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 * Summary: A set of python modules for machine learning and data mining
 * Version: 1.1.2
 * Pypi: https://pypi.org/project/scikit-learn/
-* Homepage: None
+* Homepage: https://scikit-learn.org
 * Author: None
 * License :: OSI Approved :: BSD License
 
@@ -754,14 +755,14 @@ Administrative keys for demisto/ml:1.0.0.1992735
 * Summary: Fundamental algorithms for scientific computing in Python
 * Version: 1.14.1
 * Pypi: https://pypi.org/project/scipy/
-* Homepage: None
+* Homepage: https://scipy.org/
 * Author: None
 * License :: OSI Approved :: BSD License
 
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 75.6.0
+* Version: 74.1.2
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -779,7 +780,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `six`
 
 * Summary: Python 2 and 3 compatibility utilities
-* Version: 1.17.0
+* Version: 1.16.0
 * Pypi: https://pypi.org/project/six/
 * Homepage: https://github.com/benjaminp/six
 * Author: Benjamin Peterson benjamin@python.org
@@ -788,7 +789,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `smart-open`
 
 * Summary: Utils for streaming large files (S3, HDFS, GCS, Azure Blob Storage, gzip, bz2...)
-* Version: 7.1.0
+* Version: 7.0.4
 * Pypi: https://pypi.org/project/smart-open/
 * Homepage: https://github.com/piskvorky/smart_open
 * Author: Radim Rehurek me@radimrehurek.com
@@ -797,7 +798,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `spacy`
 
 * Summary: Industrial-strength Natural Language Processing (NLP) in Python
-* Version: 3.8.4
+* Version: 3.7.6
 * Pypi: https://pypi.org/project/spacy/
 * Homepage: https://spacy.io
 * Author: Explosion contact@explosion.ai
@@ -824,7 +825,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `srsly`
 
 * Summary: Modern high-performance serialization utilities for Python
-* Version: 2.5.0
+* Version: 2.4.8
 * Pypi: https://pypi.org/project/srsly/
 * Homepage: https://github.com/explosion/srsly
 * Author: Explosion contact@explosion.ai
@@ -833,7 +834,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `sympy`
 
 * Summary: Computer algebra system (CAS) in Python
-* Version: 1.13.3
+* Version: 1.13.2
 * Pypi: https://pypi.org/project/sympy/
 * Homepage: https://sympy.org
 * Author: SymPy development team sympy@googlegroups.com
@@ -860,7 +861,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `thinc`
 
 * Summary: A refreshing functional take on deep learning, compatible with your favorite libraries
-* Version: 8.3.4
+* Version: 8.2.5
 * Pypi: https://pypi.org/project/thinc/
 * Homepage: https://github.com/explosion/thinc
 * Author: Explosion contact@explosion.ai
@@ -878,7 +879,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `tifffile`
 
 * Summary: Read and write TIFF files
-* Version: 2024.12.12
+* Version: 2024.7.24
 * Pypi: https://pypi.org/project/tifffile/
 * Homepage: https://www.cgohlke.com
 * Author: Christoph Gohlke cgohlke@cgohlke.com
@@ -889,7 +890,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
 * Version: 5.1.2
 * Pypi: https://pypi.org/project/tldextract/
-* Homepage: None
+* Homepage: 
 * Author: John Kurkowski <john.kurkowski@gmail.com>
 * License :: OSI Approved :: BSD License
 
@@ -914,7 +915,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `tqdm`
 
 * Summary: Fast, Extensible Progress Meter
-* Version: 4.67.1
+* Version: 4.66.5
 * Pypi: https://pypi.org/project/tqdm/
 * Homepage: None
 * Author: None
@@ -933,7 +934,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `typer`
 
 * Summary: Typer, build great CLIs. Easy to code. Based on Python type hints.
-* Version: 0.15.1
+* Version: 0.12.5
 * Pypi: https://pypi.org/project/typer/
 * Homepage: None
 * Author: =?utf-8?q?Sebasti=C3=A1n_Ram=C3=ADrez?= <tiangolo@gmail.com>
@@ -951,7 +952,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `tzdata`
 
 * Summary: Provider of IANA time zone data
-* Version: 2024.2
+* Version: 2024.1
 * Pypi: https://pypi.org/project/tzdata/
 * Homepage: https://github.com/python/tzdata
 * Author: Python Software Foundation datetime-sig@python.org
@@ -962,14 +963,14 @@ Administrative keys for demisto/ml:1.0.0.1992735
 * Summary: tzinfo object for the local timezone
 * Version: 5.1
 * Pypi: https://pypi.org/project/tzlocal/
-* Homepage: None
+* Homepage: 
 * Author: Lennart Regebro <regebro@gmail.com>
 * License :: OSI Approved :: MIT License
 
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.3.0
+* Version: 2.2.2
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -1005,7 +1006,7 @@ Administrative keys for demisto/ml:1.0.0.1992735
 ### `wrapt`
 
 * Summary: Module for decorators, wrappers and monkey patching.
-* Version: 1.17.0
+* Version: 1.16.0
 * Pypi: https://pypi.org/project/wrapt/
 * Homepage: https://github.com/GrahamDumpleton/wrapt
 * Author: Graham Dumpleton Graham.Dumpleton@gmail.com
@@ -1050,12 +1051,11 @@ Administrative keys for demisto/ml:1.0.0.1992735
 * libcrypt1:amd64	1:4.4.18-4
 * libdb5.3:amd64	5.3.28+dfsg1-0.8
 * libdebconfclient0:amd64	0.260
-* libexpat1:amd64	2.2.10-2+deb11u6
+* libexpat1:amd64	2.2.10-2+deb11u5
 * libext2fs2:amd64	1.46.6-1~bpo11+1
 * libffi7:amd64	3.3-6
 * libgcc-s1:amd64	10.2.1-6
 * libgcrypt20:amd64	1.8.7-6
-* libgdbm-compat4:amd64	1.19-2
 * libgdbm6:amd64	1.19-2
 * libgmp10:amd64	2:6.2.1+dfsg-1+deb11u1
 * libgnutls30:amd64	3.7.1-5+deb11u6
@@ -1070,7 +1070,6 @@ Administrative keys for demisto/ml:1.0.0.1992735
 * liblz4-1:amd64	1.9.3-2
 * liblzma5:amd64	5.2.5-2.1~deb11u1
 * libmount1:amd64	2.36.1-8+deb11u2
-* libmpdec3:amd64	2.5.1-1
 * libncurses6:amd64	6.2+20201114-2+deb11u2
 * libncursesw6:amd64	6.2+20201114-2+deb11u2
 * libnettle8:amd64	3.7.3-1
@@ -1082,21 +1081,17 @@ Administrative keys for demisto/ml:1.0.0.1992735
 * libpam0g:amd64	1.4.0-9+deb11u1
 * libpcre2-8-0:amd64	10.36-2+deb11u1
 * libpcre3:amd64	2:8.39-13
-* libperl5.32:amd64	5.32.1-4+deb11u4
 * libprocps8:amd64	2:3.3.17-5
-* libpython3-stdlib:amd64	3.9.2-3
-* libpython3.9-minimal:amd64	3.9.2-1+deb11u2
-* libpython3.9-stdlib:amd64	3.9.2-1+deb11u2
 * libreadline8:amd64	8.1-1
 * libseccomp2:amd64	2.5.1-1+deb11u1
 * libselinux1:amd64	3.1-3
 * libsemanage-common	3.1-1
 * libsemanage1:amd64	3.1-1+b2
-* libsepol1:amd64	3.1-1+deb11u1
+* libsepol1:amd64	3.1-1
 * libsmartcols1:amd64	2.36.1-8+deb11u2
-* libsqlite3-0:amd64	3.34.1-3+deb11u1
+* libsqlite3-0:amd64	3.34.1-3
 * libss2:amd64	1.46.6-1~bpo11+1
-* libssl1.1:amd64	1.1.1w-0+deb11u2
+* libssl1.1:amd64	1.1.1w-0+deb11u1
 * libstdc++6:amd64	10.2.1-6
 * libsystemd0:amd64	252.29-1~deb12u1~bpo11+1
 * libtasn1-6:amd64	4.16.0-2+deb11u1
@@ -1112,43 +1107,18 @@ Administrative keys for demisto/ml:1.0.0.1992735
 * logsave	1.46.6-1~bpo11+1
 * lsb-base	11.1.0
 * mawk	1.3.4.20200120-2
-* media-types	4.0.0
 * mount	2.36.1-8+deb11u2
 * ncurses-base	6.2+20201114-2+deb11u2
 * ncurses-bin	6.2+20201114-2+deb11u2
 * netbase	6.3
-* openssl	1.1.1w-0+deb11u2
+* openssl	1.1.1w-0+deb11u1
 * passwd	1:4.8.1-1
-* perl	5.32.1-4+deb11u4
-* perl-base	5.32.1-4+deb11u4
-* perl-modules-5.32	5.32.1-4+deb11u4
-* pipenv	11.9.0-1.1
+* perl-base	5.32.1-4+deb11u3
 * procps	2:3.3.17-5
-* python-pip-whl	20.3.4-4+deb11u1
-* python3	3.9.2-3
-* python3-appdirs	1.4.4-1
-* python3-certifi	2020.6.20-1
-* python3-distlib	0.3.2+really+0.3.1-0.1
-* python3-distutils	3.9.2-1
-* python3-filelock	3.0.12-2
-* python3-importlib-metadata	1.6.0-2
-* python3-lib2to3	3.9.2-1
-* python3-minimal	3.9.2-3
-* python3-more-itertools	4.2.0-3
-* python3-pip	20.3.4-4+deb11u1
-* python3-pkg-resources	52.0.0-4+deb11u1
-* python3-setuptools	52.0.0-4+deb11u1
-* python3-six	1.16.0-2
-* python3-virtualenv	20.4.0+ds-2+deb11u1
-* python3-virtualenv-clone	0.3.0-2
-* python3-wheel	0.34.2-1
-* python3-zipp	1.0.0-3
-* python3.9	3.9.2-1+deb11u2
-* python3.9-minimal	3.9.2-1+deb11u2
 * readline-common	8.1-1
 * sed	4.7-1
 * sysvinit-utils	2.96-7+deb11u1
 * tar	1.34+dfsg-1+deb11u1
-* tzdata	2024b-0+deb11u1
+* tzdata	2024a-0+deb11u1
 * util-linux	2.36.1-8+deb11u2
 * zlib1g:amd64	1:1.2.11.dfsg-2+deb11u2
