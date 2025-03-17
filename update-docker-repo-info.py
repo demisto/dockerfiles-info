@@ -71,7 +71,7 @@ def get_docker_image_size(docker_image):
     return size
 
 
-def get_latest_tag(image_name):
+def get_latest_and_old_tags(image_name):
     old_tags = []
     last_tag = None
     last_date = None
@@ -362,12 +362,11 @@ def process_image(image_name, force):
         print(f"Skipping image: {image_name} as it is not in our master repository")
         return
     info_date = subprocess.check_output(['git', '--no-pager', 'log', '-1', '--format=%ct', '--', image_name], text=True).strip()
-    if info_date and int(info_date) > int(master_date):
-        print(f"Skipping image: {image_name} as info modify date: {info_date} is greater than master date: {master_date}")
-        if image_name != 'demisto/ml':
-            return
+    # if info_date and int(info_date) > int(master_date):
+    #     print(f"Skipping image: {image_name} as info modify date: {info_date} is greater than master date: {master_date}")
+    #     return
     print(f"Checking last tag for: {image_name}. master date: [{master_date}]. info date: [{info_date}]")
-    last_tag, old_tags = get_latest_tag(image_name)
+    last_tag, old_tags = get_latest_and_old_tags(image_name)
     
     docker_images_metadata_content = DOCKER_IMAGES_METADATA_FILE_CONTENT.get("docker_images",{}).get(image_name.replace('demisto/', ''))
     
@@ -392,13 +391,13 @@ def process_image(image_name, force):
     
 
 
-    for tag_to_use in tags_need_to_add:
-        full_name = "{}:{}".format(image_name, tag_to_use)
+    for tag_to_add in tags_need_to_add:
+        full_name = "{}:{}".format(image_name, tag_to_add)
         dir = "{}/{}".format(sys.path[0], image_name)
         if not os.path.exists(dir):
             os.makedirs(dir)
-        info_file = "{}/{}.md".format(dir, tag_to_use)
-        
+        info_file = "{}/{}.md".format(dir, tag_to_add)
+
         if not force and os.path.exists(info_file):
             print("Info file: {} exists skipping image".format(info_file))
             continue
@@ -407,7 +406,7 @@ def process_image(image_name, force):
         temp_file = tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', delete=False)
         print("Using temp file: " + temp_file.name)
         try:
-            temp_file.write("# `{}:{}`\n".format(image_name, tag_to_use))
+            temp_file.write("# `{}:{}`\n".format(image_name, tag_to_add))
             inspect_image(full_name, temp_file)
             docker_trust(full_name, temp_file)
             temp_file.write("## `Python Packages`\n\n")
@@ -416,7 +415,7 @@ def process_image(image_name, force):
             list_os_packages(full_name, temp_file)
             temp_file.close()
             shutil.move(temp_file.name, info_file)
-            if last_tag == tag_to_use:
+            if last_tag == tag_to_add:
                 last_file = "{}/last.md".format(dir)
                 shutil.copy(info_file, last_file)
         except Exception as e:
@@ -583,7 +582,7 @@ def main():
     
     
     # all_content_dockers = {'demisto/python3': ['3.11.10.116439']}
-    print(all_content_dockers)
+
     global CONTENT_DOCKER_IMAGES
     CONTENT_DOCKER_IMAGES = all_content_dockers
     
