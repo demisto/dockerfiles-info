@@ -392,7 +392,7 @@ def process_image(image_name, force):
         if not os.path.exists(dir):
             os.makedirs(dir)
         info_file = "{}/{}.md".format(dir, tag_to_use)
-        last_file = "{}/last.md".format(dir)
+        
         if not force and os.path.exists(info_file):
             print("Info file: {} exists skipping image".format(info_file))
             continue
@@ -410,7 +410,9 @@ def process_image(image_name, force):
             list_os_packages(full_name, temp_file)
             temp_file.close()
             shutil.move(temp_file.name, info_file)
-            shutil.copy(info_file, last_file)
+            if last_tag == tag_to_use:
+                last_file = "{}/last.md".format(dir)
+                shutil.copy(info_file, last_file)
         except Exception as e:
             print("Error: {}".format(e))
             if isinstance(e, subprocess.CalledProcessError):

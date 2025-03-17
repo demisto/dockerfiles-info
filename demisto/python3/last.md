@@ -1,9 +1,9 @@
-# `demisto/python3:3.11.10.111039`
+# `demisto/python3:3.11.10.110725`
 
 ## Docker Metadata
 - Image Size: 31.61 MB
-- Image ID: `sha256:0ca8a881e85ab87056dd3374e1fa528dab3738c9f807c0fa11e5d32eeea9d2c4`
-- Created: `2024-09-11T00:25:01.04133689Z`
+- Image ID: `sha256:9edf1071c35264ec936ed03548def168c1e57a3b1ee521ee5be66215fc141389`
+- Created: `2024-09-10T00:25:29.936103923Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -15,11 +15,11 @@
   - `PYTHON_SETUPTOOLS_VERSION=65.5.1`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/def4aec84b261b939137dd1c69eff0aabb4a7bf4/public/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=bc37786ec99618416cc0a0ca32833da447f4d91ab51d2c138dd15b7af21e8e9a`
-  - `DOCKER_IMAGE=demisto/python3:3.11.10.111039`
+  - `DOCKER_IMAGE=demisto/python3:3.11.10.110725`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64fef452fa30b8c5d23907a2e210432b5d4b9bfb`
-  - `org.opencontainers.image.version:3.11.10.111039`
+  - `org.opencontainers.image.revision:5d14d72c27b30e2fec295899906b1d4e4d3e8a71`
+  - `org.opencontainers.image.version:3.11.10.110725`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3:3.11.10.111039
+Signatures for demisto/python3:3.11.10.110725
 
-SIGNED TAG       DIGEST                                                             SIGNERS
-3.11.10.111039   0c073b186ab55cd5fbf6200f95f65cc15e2c62857fec230d162f94e1b27fe4dd   (Repo Admin)
+SIGNED TAG          DIGEST                                                             SIGNERS
+3.11.10.110725      eca37cca5f6c461fa821333a0747915452e11ea16b3f1ad9ebede4e58ecad4d8   (Repo Admin)
 
-Administrative keys for demisto/python3:3.11.10.111039
+Administrative keys for demisto/python3:3.11.10.110725
 
   Repository Key:	dd922c0a78cf908782d68ed2f99cae9350740fc2da582a1cb5c03e530ba2dd31
   Root Key:	46ab19438bfff81c925ab27466b52b175de43bad8e8a19cc878e9288246bff8d
@@ -61,8 +61,8 @@ Administrative keys for demisto/python3:3.11.10.111039
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
 * Version: 3.3.2
 * Pypi: https://pypi.org/project/charset-normalizer/
-* Homepage: None
-* Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
+* Homepage: https://github.com/Ousret/charset_normalizer
+* Author: Ahmed TAHRI ahmed.tahri@cloudnursery.dev
 * License :: OSI Approved :: MIT License
 
 ### `dateparser`
@@ -131,7 +131,7 @@ Administrative keys for demisto/python3:3.11.10.111039
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.0.1
+* Version: 24.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -224,7 +224,7 @@ Administrative keys for demisto/python3:3.11.10.111039
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
 * Version: 5.1.2
 * Pypi: https://pypi.org/project/tldextract/
-* Homepage: None
+* Homepage: 
 * Author: John Kurkowski <john.kurkowski@gmail.com>
 * License :: OSI Approved :: BSD License
 
@@ -233,7 +233,7 @@ Administrative keys for demisto/python3:3.11.10.111039
 * Summary: tzinfo object for the local timezone
 * Version: 5.2
 * Pypi: https://pypi.org/project/tzlocal/
-* Homepage: None
+* Homepage: 
 * Author: Lennart Regebro <regebro@gmail.com>
 * License :: OSI Approved :: MIT License
 
