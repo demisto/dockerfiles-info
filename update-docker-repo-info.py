@@ -609,7 +609,7 @@ def main():
     
     global REMOVED_IMAGES
     global ADDED_IMAGES
-    slack_notifier(args.slack_token,'dmst-build-test','test')
+    slack_notifier(args.slack_token, 'dmst-build-test', REMOVED_IMAGES, ADDED_IMAGES)
 
 
 if __name__ == "__main__":
