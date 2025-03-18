@@ -369,8 +369,10 @@ def process_image(image_name, force):
     print(f"Checking last tag for: {image_name}. master date: [{master_date}]. info date: [{info_date}]")
     last_tag, old_tags = get_latest_and_old_tags(image_name)
     
+    # get the image tags from docker_images_metadata.json
     docker_images_metadata_content = DOCKER_IMAGES_METADATA_FILE_CONTENT.get("docker_images",{}).get(image_name.replace('demisto/', ''))
     
+    # get the content tags for this image
     tags_need_to_add = [last_tag]
     content_images = CONTENT_DOCKER_IMAGES.get(image_name, [])
     for tag in content_images:
@@ -381,8 +383,7 @@ def process_image(image_name, force):
     print(tags_need_to_add)
     
     
-    print("remove old dockers from file")
-    
+    # remove old dockers from docker_images_metadata.json
     if docker_images_metadata_content:
         for tag in old_tags:
             if tag in docker_images_metadata_content.keys() and tag not in tags_need_to_add:
@@ -391,7 +392,7 @@ def process_image(image_name, force):
     
     
 
-
+    # inspect_image tags and create the info files
     for tag_to_add in tags_need_to_add:
         full_name = "{}:{}".format(image_name, tag_to_add)
         dir = "{}/{}".format(sys.path[0], image_name)
@@ -567,6 +568,7 @@ def main():
                         "If not specified will scan all images in the demisto organization", nargs="?")
     parser.add_argument("--force", help="Force refetch even if license data already exists", action='store_true')
     parser.add_argument("--no-verify-ssl", help="Don't verify ssl certs for requests (for testing behind corp firewall)", action='store_true')
+    parser.add_argument("--slack-token", help="The token for slack.")
     args = parser.parse_args()
     global VERIFY_SSL
     VERIFY_SSL = not args.no_verify_ssl
@@ -575,15 +577,13 @@ def main():
     global USED_PACKAGES
     checkout_dockerfiles_repo()
 
-    slack_notifier('test','test','test')
+    slack_notifier(args.slack_token,'dmst-build-test','test')
     
+    # set CONTENT_DOCKER_IMAGES value with all the dockers we use in content repo
     os.removedirs(CONTENT_DIR)
     checkout_content_repo()
     all_content_dockers = read_dockers_from_all_yml_files(CONTENT_DIR)
-    
-    
     # all_content_dockers = {'demisto/python3': ['3.11.10.116439']}
-
     global CONTENT_DOCKER_IMAGES
     CONTENT_DOCKER_IMAGES = all_content_dockers
     
