@@ -357,6 +357,45 @@ def list_os_packages(image_name, out_file):
     out_file.write("\n")
 
 
+def inspect_image_tag(image_name, image_tag, force=False, is_last_tag=False):
+    full_name = "{}:{}".format(image_name, image_tag)
+    dir = "{}/{}".format(sys.path[0], image_name)
+    if not os.path.exists(dir):
+        os.makedirs(dir)
+    info_file = "{}/{}.md".format(dir, image_tag)
+
+    if not force and os.path.exists(info_file):
+        print("Info file: {} exists skipping image".format(info_file))
+        return
+    print("Downloading docker image: {}...".format(full_name))
+    subprocess.call(["docker", "pull", full_name])
+    temp_file = tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', delete=False)
+    print("Using temp file: " + temp_file.name)
+    try:
+        temp_file.write("# `{}:{}`\n".format(image_name, image_tag))
+        inspect_image(full_name, temp_file)
+        docker_trust(full_name, temp_file)
+        temp_file.write("## `Python Packages`\n\n")
+        generate_pkg_data(full_name, temp_file)
+        temp_file.write("\n## `OS Packages`\n\n")
+        list_os_packages(full_name, temp_file)
+        temp_file.close()
+        shutil.move(temp_file.name, info_file)
+        ADDED_IMAGES.append(full_name)
+        if is_last_tag:
+            last_file = "{}/last.md".format(dir)
+            shutil.copy(info_file, last_file)
+    except Exception as e:
+        print("Error: {}".format(e))
+        if isinstance(e, subprocess.CalledProcessError):
+            print("Stderr: {}".format(e.stderr))
+        os.remove(temp_file.name)
+        raise
+    finally:
+        print(f"Removing Docker image from local runner: {full_name}")
+        subprocess.call(["docker", "rmi", full_name])
+
+
 def process_image(image_name, force):
     print("=================\nProcessing: " + image_name)
     master_dir = f'docker/{image_name.split("/")[1]}'
@@ -371,14 +410,14 @@ def process_image(image_name, force):
     print(f"Checking last tag for: {image_name}. master date: [{master_date}]. info date: [{info_date}]")
     last_tag, old_tags = get_latest_and_old_tags(image_name)
     
-    # get the image tags from docker_images_metadata.json
-    docker_images_metadata_content = DOCKER_IMAGES_METADATA_FILE_CONTENT.get("docker_images",{}).get(image_name.replace('demisto/', ''))
+    # get all the image tags from docker_images_metadata.json for this image
+    docker_images_metadata = DOCKER_IMAGES_METADATA_FILE_CONTENT.get("docker_images",{}).get(image_name.replace('demisto/', ''))
     
-    # get the content tags for this image
+    # get the image tags we use in content that not exists in docker_images_metadata
     tags_need_to_add = [last_tag]
     content_images = CONTENT_DOCKER_IMAGES.get(image_name, [])
     for tag in content_images:
-        if docker_images_metadata_content and tag not in docker_images_metadata_content.keys():
+        if docker_images_metadata and tag not in docker_images_metadata.keys():
             tags_need_to_add.append(tag)
 
     print("tags_need_to_add")
@@ -389,50 +428,16 @@ def process_image(image_name, force):
     global ADDED_IMAGES
     
     # remove old dockers from docker_images_metadata.json
-    if docker_images_metadata_content:
+    if docker_images_metadata:
         for tag in old_tags:
-            if tag in docker_images_metadata_content.keys() and tag not in tags_need_to_add:
-                del docker_images_metadata_content[tag]
+            if tag in docker_images_metadata.keys() and tag not in tags_need_to_add:
+                del docker_images_metadata[tag]
                 REMOVED_IMAGES.append(f"{image_name}:{tag}")
 
-    # inspect_image tags and create the info files
-    for tag_to_add in tags_need_to_add:
-        full_name = "{}:{}".format(image_name, tag_to_add)
-        dir = "{}/{}".format(sys.path[0], image_name)
-        if not os.path.exists(dir):
-            os.makedirs(dir)
-        info_file = "{}/{}.md".format(dir, tag_to_add)
+    # inspect image tags and create the info files
+    for tag_to_add in tags_need_to_add: 
+        inspect_image_tag(image_name,tag_to_add,force, last_tag == tag_to_add)
 
-        if not force and os.path.exists(info_file):
-            print("Info file: {} exists skipping image".format(info_file))
-            continue
-        print("Downloading docker image: {}...".format(full_name))
-        subprocess.call(["docker", "pull", full_name])
-        temp_file = tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', delete=False)
-        print("Using temp file: " + temp_file.name)
-        try:
-            temp_file.write("# `{}:{}`\n".format(image_name, tag_to_add))
-            inspect_image(full_name, temp_file)
-            docker_trust(full_name, temp_file)
-            temp_file.write("## `Python Packages`\n\n")
-            generate_pkg_data(full_name, temp_file)
-            temp_file.write("\n## `OS Packages`\n\n")
-            list_os_packages(full_name, temp_file)
-            temp_file.close()
-            shutil.move(temp_file.name, info_file)
-            ADDED_IMAGES.append(full_name)
-            if last_tag == tag_to_add:
-                last_file = "{}/last.md".format(dir)
-                shutil.copy(info_file, last_file)
-        except Exception as e:
-            print("Error: {}".format(e))
-            if isinstance(e, subprocess.CalledProcessError):
-                print("Stderr: {}".format(e.stderr))
-            os.remove(temp_file.name)
-            raise
-        finally:
-            print(f"Removing Docker image from local runner: {full_name}")
-            subprocess.call(["docker", "rmi", full_name])
 
 
 def process_org(org_name, force):
@@ -515,19 +520,20 @@ def checkout_content_repo():
 
 
 def get_yaml_files_in_directory(directory):
-    """Recursively fetches all .yml files in the specified directory"""
+    """Recursively fetches all .yml files in content repo"""
     yml_files = []
     for root, dirs, files in os.walk(directory):
 
         dirs[:] = [d for d in dirs if 'playbook' not in d.lower() and 'rules' not in d.lower() and 'template' not in d.lower()]
 
         for file in files:
-            if file.endswith('.yml') or file.endswith('.yaml'):  # Check for .yml or .yaml files
+            if file.endswith('.yml') or file.endswith('.yaml'):
                 yml_files.append(os.path.join(root, file))
 
     return yml_files
 
 def read_dockers_from_all_yml_files(directory):
+    """Get the docker images from yml files"""
     yml_files = get_yaml_files_in_directory(directory)
     image_dict = {}
     for file_path in yml_files:
@@ -537,7 +543,7 @@ def read_dockers_from_all_yml_files(directory):
 
                 if not data.get('deprecated') and data.get('type') != 'javascript':
                     docker_image = ''
-                    
+                    # get the docker image
                     if data.get('dockerimage'):
                         docker_image = data.get('dockerimage')
                     elif data.get('script', {}).get('dockerimage'):
@@ -546,11 +552,11 @@ def read_dockers_from_all_yml_files(directory):
                     if docker_image:
                         image_name, tag = docker_image.split(':')
                         
-                        # Add the tag to the dictionary, ensuring the list of tags is distinct
+                        # add the tag to the dictionary, ensuring the list of tags is distinct
                         if image_name not in image_dict:
                             image_dict[image_name] = {tag}
                         else:
-                            image_dict[image_name].add(tag)  # Add tag if it's not already present
+                            image_dict[image_name].add(tag)  # add tag if it's not already present
                     
             
         except Exception as e:
@@ -608,7 +614,7 @@ def main():
     generate_csv()
     save_to_docker_files_metadata_json_file()
     
-    
+    # send slack message
     global REMOVED_IMAGES
     global ADDED_IMAGES
     slack_notifier(args.slack_token, 'dmst-build-test', REMOVED_IMAGES, ADDED_IMAGES)

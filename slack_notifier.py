@@ -9,7 +9,7 @@ def slack_notifier(slack_token, channel_id, removed_images ,added_images):
     client = WebClient(token=slack_token)
 
     try:
-        # Send a message to Slack
+        # send a message to Slack
         response = client.chat_postMessage(
             channel=channel_id,
             text='Update `dockerfiles-info` - Success'
@@ -24,7 +24,6 @@ def slack_notifier(slack_token, channel_id, removed_images ,added_images):
         text=removed_images_msg,
         thread_ts=message_ts  # Threaded message, using the timestamp of the original message
         )
-
 
         # replay the new images removed message
         client.chat_postMessage(
