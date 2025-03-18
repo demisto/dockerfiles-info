@@ -582,9 +582,11 @@ def main():
     checkout_dockerfiles_repo()
     
     # set CONTENT_DOCKER_IMAGES value with all the dockers we use in content repo
-    os.removedirs(CONTENT_DIR)
+    # os.removedirs(CONTENT_DIR)
     checkout_content_repo()
     all_content_dockers = read_dockers_from_all_yml_files(CONTENT_DIR)
+    print('all_content_dockers')
+    print(all_content_dockers.get('demisto/python3'))
     # all_content_dockers = {'demisto/python3': ['3.11.10.116439']}
     global CONTENT_DOCKER_IMAGES
     CONTENT_DOCKER_IMAGES = all_content_dockers
