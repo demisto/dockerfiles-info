@@ -588,7 +588,7 @@ def main():
     checkout_dockerfiles_repo()
     
     # set CONTENT_DOCKER_IMAGES value with all the dockers we use in content repo
-    os.removedirs(CONTENT_DIR)
+    # os.removedirs(CONTENT_DIR)
     checkout_content_repo()
     all_content_dockers = read_dockers_from_all_yml_files(CONTENT_DIR)
     print('all_content_dockers')
