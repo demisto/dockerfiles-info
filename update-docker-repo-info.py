@@ -29,6 +29,8 @@ CONTENT_DIR = os.path.abspath(os.getenv('CONTENT_DIR', '.content'))
 DOCKER_IMAGES_METADATA = "docker_images_metadata.json"
 DOCKER_IMAGE_REGEX_PATTERN = r'^demisto/([^\s:]+):(\d+(\.\d+)*)$'
 CONTENT_DOCKER_IMAGES = {}
+ADDED_IMAGES = []
+REMOVED_IMAGES = []
 
 
 try:
@@ -383,14 +385,15 @@ def process_image(image_name, force):
     print(tags_need_to_add)
     
     
+    global REMOVED_IMAGES
+    global ADDED_IMAGES
+    
     # remove old dockers from docker_images_metadata.json
     if docker_images_metadata_content:
         for tag in old_tags:
             if tag in docker_images_metadata_content.keys() and tag not in tags_need_to_add:
                 del docker_images_metadata_content[tag]
-                print(f'tag {tag} removed')
-    
-    
+                REMOVED_IMAGES.append(f"{image_name}:{tag}")
 
     # inspect_image tags and create the info files
     for tag_to_add in tags_need_to_add:
@@ -417,6 +420,7 @@ def process_image(image_name, force):
             list_os_packages(full_name, temp_file)
             temp_file.close()
             shutil.move(temp_file.name, info_file)
+            ADDED_IMAGES.append(full_name)
             if last_tag == tag_to_add:
                 last_file = "{}/last.md".format(dir)
                 shutil.copy(info_file, last_file)
@@ -576,8 +580,6 @@ def main():
         requests.packages.urllib3.disable_warnings()
     global USED_PACKAGES
     checkout_dockerfiles_repo()
-
-    slack_notifier(args.slack_token,'dmst-build-test','test')
     
     # set CONTENT_DOCKER_IMAGES value with all the dockers we use in content repo
     os.removedirs(CONTENT_DIR)
@@ -603,6 +605,11 @@ def main():
     generate_readme_listing()
     generate_csv()
     save_to_docker_files_metadata_json_file()
+    
+    
+    global REMOVED_IMAGES
+    global ADDED_IMAGES
+    slack_notifier(args.slack_token,'dmst-build-test','test')
 
 
 if __name__ == "__main__":
