@@ -34,7 +34,8 @@ jobs:
       - name: Run update-docker-repo-info script
         env:
           SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
-        run: pipenv run ./update-docker-repo-info.py --slack-token "$SLACK_TOKEN" --docker-image demisto/python3
+          SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
+        run: pipenv run ./update-docker-repo-info.py --slack-token "$SLACK_TOKEN" --slack-channel "SLACK_CHANNEL" --docker-image demisto/ml
 #        run: pipenv run ./update-docker-repo-info.py --docker-image demisto/python3
 
       - name: Configure Git for commit

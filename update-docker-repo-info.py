@@ -403,11 +403,8 @@ def process_image(image_name, force):
     if not master_date:
         print(f"Skipping image: {image_name} as it is not in our master repository")
         return
-    info_date = subprocess.check_output(['git', '--no-pager', 'log', '-1', '--format=%ct', '--', image_name], text=True).strip()
-    # if info_date and int(info_date) > int(master_date):
-    #     print(f"Skipping image: {image_name} as info modify date: {info_date} is greater than master date: {master_date}")
-    #     return
-    print(f"Checking last tag for: {image_name}. master date: [{master_date}]. info date: [{info_date}]")
+
+    print(f"Checking last tag and old tags for: {image_name}")
     last_tag, old_tags = get_latest_and_old_tags(image_name)
     
     # get all the image tags from docker_images_metadata.json for this image
@@ -432,6 +429,9 @@ def process_image(image_name, force):
         for tag in old_tags:
             if tag in docker_images_metadata.keys() and tag not in tags_need_to_add:
                 del docker_images_metadata[tag]
+                tag_md_file = os.path.join(sys.path[0], image_name, f'{tag}.md')
+                if os.path.exists(tag_md_file):
+                    os.remove(tag_md_file)
                 REMOVED_IMAGES.append(f"{image_name}:{tag}")
 
     # inspect image tags and create the info files
@@ -588,6 +588,7 @@ def main():
     parser.add_argument("--force", help="Force refetch even if license data already exists", action='store_true')
     parser.add_argument("--no-verify-ssl", help="Don't verify ssl certs for requests (for testing behind corp firewall)", action='store_true')
     parser.add_argument("--slack-token", help="The token for slack.")
+    parser.add_argument("--slack-channel", help="The slack channel in which to send the notification.")
     args = parser.parse_args()
     global VERIFY_SSL
     VERIFY_SSL = not args.no_verify_ssl
@@ -595,7 +596,7 @@ def main():
         requests.packages.urllib3.disable_warnings()
     global USED_PACKAGES
     checkout_dockerfiles_repo()
-    
+
     # set CONTENT_DOCKER_IMAGES value with all the dockers we use in content repo
     checkout_content_repo()
     all_content_dockers = read_dockers_from_all_yml_files(f'{CONTENT_DIR}/Packs')
@@ -622,10 +623,10 @@ def main():
     generate_csv()
     save_to_docker_files_metadata_json_file()
     
-    # send slack message
+    # send Slack message
     global REMOVED_IMAGES
     global ADDED_IMAGES
-    slack_notifier(args.slack_token, 'dmst-build-test', REMOVED_IMAGES, ADDED_IMAGES)
+    slack_notifier(args.slack_token, args.slack_channel, REMOVED_IMAGES, ADDED_IMAGES)
 
 
 if __name__ == "__main__":
