@@ -1,13 +1,14 @@
 name: Docker Repository Update
 
-on:
-  push:
-    branches:
-      - master
-  schedule:
-    - cron: '0 1 * * *'
-  pull_request:
-    types: [ labeled ]
+on: push
+# on:
+#   push:
+#     branches:
+#       - master
+#   schedule:
+#     - cron: '0 1 * * *'
+#   pull_request:
+#     types: [ labeled ]
 
 jobs:
   update_docker_repo_info:
