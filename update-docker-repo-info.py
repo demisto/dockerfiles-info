@@ -597,6 +597,9 @@ def main():
     global USED_PACKAGES
     checkout_dockerfiles_repo()
 
+    print(f'args.slack_channel={args.slack_channel}')
+
+
     # set CONTENT_DOCKER_IMAGES value with all the dockers we use in content repo
     checkout_content_repo()
     all_content_dockers = read_dockers_from_all_yml_files(f'{CONTENT_DIR}/Packs')
