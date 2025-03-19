@@ -4,13 +4,14 @@ on:
   push:
     branches:
       - master
-    tags:
-      - 'test-dockers-update'
   schedule:
     - cron: '0 1 * * *'
+  pull_request:
+    types: [ labeled ]
 
 jobs:
   update_docker_repo_info:
+    if: ${{ github.event.label.name == 'test-dockers-update' }}
     runs-on: ubuntu-latest
 
     steps:
