@@ -12,7 +12,7 @@ on: push
 
 jobs:
   update_docker_repo_info:
-    if: ${{ github.event.label.name == 'test-dockers-update' }}
+    # if: ${{ github.event.label.name == 'test-dockers-update' }}
     runs-on: ubuntu-latest
 
     steps:
