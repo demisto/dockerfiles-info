@@ -535,28 +535,38 @@ def get_yaml_files_in_directory(directory):
 def read_dockers_from_all_yml_files(directory):
     """Get the docker images from yml files"""
     yml_files = get_yaml_files_in_directory(directory)
-    image_dict = {}
+    all_docker_image = {}
     for file_path in yml_files:
         try:
             with open(file_path, 'r') as file:
                 data = yaml.safe_load(file)  # Load the YAML file
 
                 if not data.get('deprecated') and data.get('type') != 'javascript':
-                    docker_image = ''
+                    docker_images = set()
+                    script_value = data.get('script', {})
+                    
+                    # get the alt_dockerimages
+                    if data.get('alt_dockerimages'):
+                        docker_images.update(data.get('alt_dockerimages'))
+                    elif script_value and isinstance(script_value,dict) and script_value.get('alt_dockerimages'):
+                        docker_images.update(data.get('script').get('alt_dockerimages'))
+
+                    
                     # get the docker image
                     if data.get('dockerimage'):
-                        docker_image = data.get('dockerimage')
-                    elif data.get('script', {}).get('dockerimage'):
-                        docker_image = data.get('script', {}).get('dockerimage')
+                        docker_images.add(data.get('dockerimage'))
+                    elif script_value and isinstance(script_value,dict) and script_value.get('dockerimage'):
+                        docker_images.add(data.get('script').get('dockerimage'))
 
-                    if docker_image:
+                    # update all_docker_image
+                    for docker_image in docker_images:
                         image_name, tag = docker_image.split(':')
                         
                         # add the tag to the dictionary, ensuring the list of tags is distinct
-                        if image_name not in image_dict:
-                            image_dict[image_name] = {tag}
+                        if image_name not in all_docker_image:
+                            all_docker_image[image_name] = {tag}
                         else:
-                            image_dict[image_name].add(tag)  # add tag if it's not already present
+                            all_docker_image[image_name].add(tag)  # add tag if it's not already present
                     
             
         except Exception as e:
@@ -564,11 +574,10 @@ def read_dockers_from_all_yml_files(directory):
             
             
     # Convert sets to lists (for the final output)
-    for key in image_dict:
-        image_dict[key] = list(image_dict[key])
-    
-                       
-    return image_dict
+    for key in all_docker_image:
+        all_docker_image[key] = list(all_docker_image[key])
+            
+    return all_docker_image
 
 
 def main():
@@ -588,9 +597,8 @@ def main():
     checkout_dockerfiles_repo()
     
     # set CONTENT_DOCKER_IMAGES value with all the dockers we use in content repo
-    # os.removedirs(CONTENT_DIR)
     checkout_content_repo()
-    all_content_dockers = read_dockers_from_all_yml_files(CONTENT_DIR)
+    all_content_dockers = read_dockers_from_all_yml_files(f'{CONTENT_DIR}/Packs')
     print('all_content_dockers')
     print(all_content_dockers.get('demisto/python3'))
     # all_content_dockers = {'demisto/python3': ['3.11.10.116439']}
