@@ -1,6 +1,13 @@
 name: Docker Repository Update
 
-on: push
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - 'test-dockers-update'
+  schedule:
+    - cron: '0 1 * * *'
 
 jobs:
   update_docker_repo_info:
