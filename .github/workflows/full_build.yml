@@ -50,6 +50,10 @@ jobs:
           git status
           git switch fix-docker-metadata-update
           git pull
+          
+          echo "This is some text" > filename.txt
+
+          
           git status --short > git_changes.txt
           cat git_changes.txt
           if [ -s git_changes.txt ]; then
