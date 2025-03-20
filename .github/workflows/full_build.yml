@@ -58,7 +58,7 @@ jobs:
         if: env.git_changes == 'true'
         run: |
           mkdir -p artifacts
-          cat git_changes.txt | awk '{print $2}' | sed 's:/*$::' | xargs -I {} cp -rf {} artifacts/. || echo "cp failed for some reason. continue..."
+          cat git_changes.txt | awk '$1 != "D" {print $2}' | sed 's:/*$::' | xargs -I {} cp -rf {} artifacts/. || echo "cp failed for some reason. continue..."
         continue-on-error: true
 
       - name: Commit and push changes
