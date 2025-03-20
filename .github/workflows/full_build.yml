@@ -67,7 +67,9 @@ jobs:
         run: |
           git add .
           git commit -m "$(date): auto repo info update [skip ci]"
-          git push
+          BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
+          echo $BRANCH_NAME
+          git push origin HEAD:$BRANCH_NAME
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         continue-on-error: true
