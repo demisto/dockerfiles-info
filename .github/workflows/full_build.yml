@@ -48,8 +48,8 @@ jobs:
         id: git_status
         run: |
           echo "Current branch is: $GITHUB_REF"
-          git fetch
-          git switch fix-docker-metadata-update
+
+          git switch $GITHUB_REF
           git pull
           
           git status --short > git_changes.txt
