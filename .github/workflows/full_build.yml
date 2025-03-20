@@ -12,7 +12,7 @@ on:
 
 jobs:
   update_docker_repo_info:
-    if: ${{ github.event.label.name == 'test-dockers-update' }}
+    if: ${{ github.event_name == 'pull_request' && github.event.label.name == 'test-dockers-update' || github.event_name == 'schedule' }}
     runs-on: ubuntu-latest
 
     steps:
@@ -40,17 +40,21 @@ jobs:
 
       - name: Configure Git for commit
         run: |
-          echo "Current branch is: $GITHUB_HEAD_REF"
           git config --global user.email "dc-builder@users.noreply.github.com"
           git config --global user.name "dc-builder"
 
       - name: Check for changes
         id: git_status
         run: |
-          echo "Current branch is: $GITHUB_REF"
+          echo "Current branch is: $GITHUB_HEAD_REF"
 
-          git switch $GITHUB_REF
-          git pull
+          EVENT_NAME="${{ github.event_name }}"
+          echo "Event name is: $EVENT_NAME"
+          if [ "$EVENT_NAME" == "pull_request" ]; then
+            git switch $GITHUB_HEAD_REF
+            git pull
+          fi
+          
           
           git status --short > git_changes.txt
           cat git_changes.txt
