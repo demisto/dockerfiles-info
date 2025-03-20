@@ -51,6 +51,7 @@ jobs:
           EVENT_NAME="${{ github.event_name }}"
           echo "Event name is: $EVENT_NAME"
           if [ "$EVENT_NAME" == "pull_request" ]; then
+            git fetch
             git switch $GITHUB_HEAD_REF
             git pull
           fi
