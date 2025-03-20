@@ -32,11 +32,11 @@ jobs:
       - name: Install dependencies
         run: pipenv install
 
-      - name: Run update-docker-repo-info script
-        env:
-          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
-          SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
-        run: pipenv run ./update-docker-repo-info.py --slack-token "$SLACK_TOKEN" --slack-channel "$SLACK_CHANNEL" --docker-image demisto/graphql
+#      - name: Run update-docker-repo-info script
+#        env:
+#          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+#          SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
+#        run: pipenv run ./update-docker-repo-info.py --slack-token "$SLACK_TOKEN" --slack-channel "$SLACK_CHANNEL" --docker-image demisto/graphql
 
       - name: Configure Git for commit
         run: |
@@ -46,6 +46,8 @@ jobs:
       - name: Check for changes
         id: git_status
         run: |
+          git fetch
+          git status
           git switch fix-docker-metadata-update
           git pull
           git status --short > git_changes.txt
