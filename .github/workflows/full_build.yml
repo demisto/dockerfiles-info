@@ -65,9 +65,15 @@ jobs:
       - name: Commit and push changes
         if: env.git_changes == 'true'
         run: |
+          git status
+          git branch --show-current
+          echo "1"
           git add .
+          echo "2"
           git commit -m "$(date): auto repo info update [skip ci]"
+          echo "3"
           BRANCH_NAME=$(git branch --show-current)
+          echo "4"
           echo $BRANCH_NAME
           git push origin HEAD:$BRANCH_NAME
         env:
