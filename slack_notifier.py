@@ -39,7 +39,7 @@ def slack_notifier(slack_token, channel_id, removed_images ,added_images):
         else:
             added_images_messages = ['*No new images has been added*']
 
-        # replay the old images removed message
+        # replay the new images added message
         for message in added_images_messages:
             client.chat_postMessage(
                 channel=channel_id,
@@ -68,7 +68,7 @@ def join_list_by_delimiter_in_chunks(list_to_join: Iterable[str], delimiter: str
         if len(current_chunk) + len(item) + len(delimiter) > max_length:
             chunks.append(current_chunk)
             current_chunk = ""
-        current_chunk += f"{item}{delimiter}"
+        current_chunk += f"{delimiter}{item}"
     if current_chunk:
         chunks.append(current_chunk)
     return chunks

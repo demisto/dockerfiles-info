@@ -23,7 +23,7 @@ from slack_notifier import slack_notifier
 assert sys.version_info >= (3, 9), "Script compatible with python 3.9 and higher only"
 
 VERIFY_SSL = True
-
+OLD_TAG_THRESHOLD_IN_MONTHS = 6
 DOCKERFILES_DIR = os.path.abspath(os.getenv('DOCKERFILES_DIR', '.dockerfiles'))
 CONTENT_DIR = os.path.abspath(os.getenv('CONTENT_DIR', '.content'))
 DOCKER_IMAGES_METADATA = "docker_images_metadata.json"
@@ -81,7 +81,7 @@ def get_latest_and_old_tags(image_name):
     url = "https://registry.hub.docker.com/v2/repositories/{}/tags/?page_size=25".format(image_name)
     
     current_date = datetime.datetime.now()
-    six_months_ago = current_date - datetime.timedelta(days=6*30)  # Rough estimate of 6 months as 180 days
+    old_tags_threshold = current_date - datetime.timedelta(days=OLD_TAG_THRESHOLD_IN_MONTHS*30)
         
     while True:
         print("Querying docker hub url: {}".format(url))
@@ -94,7 +94,7 @@ def get_latest_and_old_tags(image_name):
                 continue
             date = datetime.datetime.strptime(result['last_updated'], "%Y-%m-%dT%H:%M:%S.%fZ")
             
-            if date < six_months_ago:
+            if date < old_tags_threshold:
                 old_tags.append(result['name'])
             
             if not last_date or date > last_date:
@@ -107,7 +107,7 @@ def get_latest_and_old_tags(image_name):
     print("last tag: {}, date: {}".format(last_tag, last_date))
     if not last_tag:
         raise Exception('No tag found for image: {}'.format(image_name))
-    return (last_tag, old_tags)
+    return last_tag, old_tags
 
 
 def get_os_release(image_name):
@@ -407,20 +407,16 @@ def process_image(image_name, force):
     print(f"Checking last tag and old tags for: {image_name}")
     last_tag, old_tags = get_latest_and_old_tags(image_name)
     
-    # get all the image tags from docker_images_metadata.json for this image
+    # get all the image tags for this image from docker_images_metadata.json
     docker_images_metadata = DOCKER_IMAGES_METADATA_FILE_CONTENT.get("docker_images",{}).get(image_name.replace('demisto/', ''))
     
-    # get the image tags we use in content that not exists in docker_images_metadata
+    # get the image tags we use in content repo that not exists in docker_images_metadata.json
     tags_need_to_add = [last_tag]
     content_images = CONTENT_DOCKER_IMAGES.get(image_name, [])
     for tag in content_images:
         if docker_images_metadata and tag not in docker_images_metadata.keys():
             tags_need_to_add.append(tag)
 
-    print("tags_need_to_add")
-    print(tags_need_to_add)
-    
-    
     global REMOVED_IMAGES
     global ADDED_IMAGES
     
@@ -437,8 +433,6 @@ def process_image(image_name, force):
     # inspect image tags and create the info files
     for tag_to_add in tags_need_to_add: 
         inspect_image_tag(image_name,tag_to_add,force, last_tag == tag_to_add)
-
-
 
 def process_org(org_name, force):
     url = "https://registry.hub.docker.com/v2/repositories/{}/?page_size=100".format(org_name)
@@ -523,9 +517,8 @@ def get_yaml_files_in_directory(directory):
     """Recursively fetches all .yml files in content repo"""
     yml_files = []
     for root, dirs, files in os.walk(directory):
-
-        dirs[:] = [d for d in dirs if 'playbook' not in d.lower() and 'rules' not in d.lower() and 'template' not in d.lower()]
-
+        dirs[:] = [d for d in dirs if 'playbook' not in d.lower()
+                   and 'rules' not in d.lower() and 'template' not in d.lower()]
         for file in files:
             if file.endswith('.yml') or file.endswith('.yaml'):
                 yml_files.append(os.path.join(root, file))
@@ -545,20 +538,19 @@ def read_dockers_from_all_yml_files(directory):
                     docker_images = set()
                     script_value = data.get('script', {})
                     
-                    # get the alt_dockerimages
+                    # get the alt_dockerimages value
                     if data.get('alt_dockerimages'):
                         docker_images.update(data.get('alt_dockerimages'))
                     elif script_value and isinstance(script_value,dict) and script_value.get('alt_dockerimages'):
                         docker_images.update(data.get('script').get('alt_dockerimages'))
 
-                    
                     # get the docker image
                     if data.get('dockerimage'):
                         docker_images.add(data.get('dockerimage'))
                     elif script_value and isinstance(script_value,dict) and script_value.get('dockerimage'):
                         docker_images.add(data.get('script').get('dockerimage'))
 
-                    # update all_docker_image
+                    # update all_docker_image dict
                     for docker_image in docker_images:
                         image_name, tag = docker_image.split(':')
                         
@@ -567,12 +559,9 @@ def read_dockers_from_all_yml_files(directory):
                             all_docker_image[image_name] = {tag}
                         else:
                             all_docker_image[image_name].add(tag)  # add tag if it's not already present
-                    
-            
         except Exception as e:
             print(f"Error reading {file_path}: {e}")
-            
-            
+
     # Convert sets to lists (for the final output)
     for key in all_docker_image:
         all_docker_image[key] = list(all_docker_image[key])
@@ -597,15 +586,11 @@ def main():
     global USED_PACKAGES
     checkout_dockerfiles_repo()
 
-
-
-
     # set CONTENT_DOCKER_IMAGES value with all the dockers we use in content repo
     checkout_content_repo()
     all_content_dockers = read_dockers_from_all_yml_files(f'{CONTENT_DIR}/Packs')
     print('all_content_dockers')
     print(all_content_dockers.get('demisto/python3'))
-    # all_content_dockers = {'demisto/python3': ['3.11.10.116439']}
     global CONTENT_DOCKER_IMAGES
     CONTENT_DOCKER_IMAGES = all_content_dockers
     
@@ -626,7 +611,7 @@ def main():
     generate_csv()
     save_to_docker_files_metadata_json_file()
     
-    # send Slack message
+    # send Slack notification
     global REMOVED_IMAGES
     global ADDED_IMAGES
     slack_notifier(args.slack_token, args.slack_channel, REMOVED_IMAGES, ADDED_IMAGES)
