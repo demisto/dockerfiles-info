@@ -41,6 +41,7 @@ jobs:
       - name: Configure Git for commit
         run: |
           git branch --show-current
+          echo "Current branch is: $GITHUB_REF"
           git config --global user.email "dc-builder@users.noreply.github.com"
           git config --global user.name "dc-builder"
 
@@ -48,8 +49,9 @@ jobs:
         id: git_status
         run: |
           git branch --show-current
+          echo "Current branch is: $GITHUB_REF"
           git fetch
-          git switch fix-docker-metadata-update
+          git switch $GITHUB_REF
           git pull
           
           echo "This is some text" > filename.txt
