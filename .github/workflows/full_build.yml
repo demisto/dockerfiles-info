@@ -47,10 +47,12 @@ jobs:
       - name: Check for changes
         id: git_status
         run: |
+          echo "This is some text" > filename.txt
+
           echo "Current branch is: $GITHUB_REF"
-          git fetch
-          git switch fix-docker-metadata-update
-          git pull
+#          git fetch
+          git switch $GITHUB_REF
+#          git pull
           
           git status --short > git_changes.txt
           cat git_changes.txt
