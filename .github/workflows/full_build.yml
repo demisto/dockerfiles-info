@@ -64,6 +64,7 @@ jobs:
       - name: Commit and push changes
         if: env.git_changes == 'true'
         run: |
+          git pull
           git add .
           git commit -m "$(date): auto repo info update [skip ci]"
           git status
