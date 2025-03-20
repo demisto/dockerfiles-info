@@ -32,15 +32,15 @@ jobs:
       - name: Install dependencies
         run: pipenv install
 
-      - name: Run update-docker-repo-info script
-        env:
-          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
-          SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
-        run: pipenv run ./update-docker-repo-info.py --slack-token "$SLACK_TOKEN" --slack-channel "$SLACK_CHANNEL" --docker-image demisto/graphql
+#      - name: Run update-docker-repo-info script
+#        env:
+#          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+#          SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
+#        run: pipenv run ./update-docker-repo-info.py --slack-token "$SLACK_TOKEN" --slack-channel "$SLACK_CHANNEL" --docker-image demisto/graphql
 
       - name: Configure Git for commit
         run: |
-          echo "Current branch is: $GITHUB_REF"
+          echo "Current branch is: $GITHUB_HEAD_REF"
           git config --global user.email "dc-builder@users.noreply.github.com"
           git config --global user.name "dc-builder"
 
