@@ -37,7 +37,6 @@ jobs:
           SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
           SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
         run: pipenv run ./update-docker-repo-info.py --slack-token "$SLACK_TOKEN" --slack-channel "$SLACK_CHANNEL" --docker-image demisto/ml
-#        run: pipenv run ./update-docker-repo-info.py --docker-image demisto/python3
 
       - name: Configure Git for commit
         run: |
@@ -68,7 +67,7 @@ jobs:
           git add .
           git commit -m "$(date): auto repo info update [skip ci]"
           git status
-          git push
+          git push origin HEAD:fix-docker-metadata-update
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         continue-on-error: true
