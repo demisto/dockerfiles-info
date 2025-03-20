@@ -67,7 +67,7 @@ jobs:
         run: |
           git add .
           git commit -m "$(date): auto repo info update [skip ci]"
-          BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
+          BRANCH_NAME=$(git branch --show-current)
           echo $BRANCH_NAME
           git push origin HEAD:$BRANCH_NAME
         env:
