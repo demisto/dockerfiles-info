@@ -17,6 +17,7 @@ import csv
 import time
 import codecs
 import yaml
+import traceback
 from slack_notifier import slack_notifier
 
 
@@ -431,8 +432,13 @@ def process_image(image_name, force):
                 REMOVED_IMAGES.append(f"{image_name}:{tag}")
 
     # inspect image tags and create the info files
-    for tag_to_add in tags_need_to_add: 
-        inspect_image_tag(image_name,tag_to_add,force, last_tag == tag_to_add)
+    for tag_to_add in tags_need_to_add:
+        try:
+            inspect_image_tag(image_name,tag_to_add,force, last_tag == tag_to_add)
+        except Exception as e:
+            print(f'Failed to inspect {tag_to_add} error: {e}')
+            print(traceback.format_exc())
+
 
 def process_org(org_name, force):
     url = "https://registry.hub.docker.com/v2/repositories/{}/?page_size=100".format(org_name)
