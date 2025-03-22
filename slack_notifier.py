@@ -3,7 +3,7 @@ from collections.abc import Iterable
 
 def slack_notifier(slack_token, channel_id, removed_images ,added_images, failed_to_inspect_images):
 
-    removed_images = join_list_by_delimiter_in_chunks(removed_images, delimiter='\n* ')
+    # removed_images = join_list_by_delimiter_in_chunks(removed_images, delimiter='\n* ')
     added_images = join_list_by_delimiter_in_chunks(added_images, delimiter='\n* ')
 
     # Initialize the WebClient with the token
@@ -13,25 +13,45 @@ def slack_notifier(slack_token, channel_id, removed_images ,added_images, failed
         # send a message to Slack
         response = client.chat_postMessage(
             channel=channel_id,
-            text='Update `dockerfiles-info` - Success'
+            text='Update `dockerfiles-info` finished'
         )
 
         message_ts = response['ts']
         print(f"Message sent successfully: {response['ts']}")
 
-        if removed_images:
-            removed_images_messages = ['*The following images removed:*']
-            removed_images_messages.extend(removed_images)
-        else:
-            removed_images_messages = ['*No old images has been removed*']
-
         # replay the old images removed message
-        for message in removed_images_messages:
-            client.chat_postMessage(
-            channel=channel_id,
-            text=message,
-            thread_ts=message_ts  # Threaded message, using the timestamp of the original message
+        if removed_images:
+            with open('removed_images.txt', 'w') as f:
+                f.write(removed_images.join('\n'))
+            
+            upload_response = client.files_upload_v2(
+                channels=channel_id,
+                file='removed_images.txt',
+                title='Removed images'
             )
+            file_id = upload_response['file']['id']
+            
+            client.chat_postMessage(
+                channel=channel_id,
+                text='*The following images removed:*',
+                attachments=[
+                    {
+                        "fallback": "File not found",
+                        "text": "Removed images",
+                        "file_id": file_id  # Attach the uploaded file using its ID
+                    }
+                ],
+                thread_ts=message_ts  # Threaded message, using the timestamp of the original message
+            )
+            
+        else:
+            client.chat_postMessage(
+                channel=channel_id,
+                text='*No old images has been removed*',
+                thread_ts=message_ts  # Threaded message, using the timestamp of the original message
+            )
+
+
 
         if added_images:
             added_images_messages = ['*The following images added:*']
