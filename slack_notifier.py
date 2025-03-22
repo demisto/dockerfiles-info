@@ -29,6 +29,7 @@ def slack_notifier(slack_token, channel_id, removed_images ,added_images, failed
                 channel='C04CHML16P8',
                 file='removed_images.txt',
                 title='Removed images',
+                text='*The following images removed:*',
                 thread_ts=message_ts  # Threaded message, using the timestamp of the original message
             )
             # file_id = upload_response['file']['id']
