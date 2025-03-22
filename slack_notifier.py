@@ -1,3 +1,4 @@
+import os
 from slack_sdk import WebClient
 from collections.abc import Iterable
 
@@ -22,7 +23,7 @@ def slack_notifier(slack_token, channel_id, removed_images ,added_images, failed
         # replay the old images removed message
         if removed_images:
             with open('removed_images.txt', 'w') as f:
-                f.write(removed_images.join('\n'))
+                f.write('\n'.join(removed_images))
             
             upload_response = client.files_upload_v2(
                 channels=channel_id,
@@ -69,6 +70,9 @@ def slack_notifier(slack_token, channel_id, removed_images ,added_images, failed
         
     except Exception as e:
         print(f"Error sending message: {str(e)}")
+    finally:
+        if os.path.exists('removed_images.txt'):
+            os.remove('removed_images.txt')
 
 
 def join_list_by_delimiter_in_chunks(list_to_join: Iterable[str], delimiter: str = ", ", max_length: int = 2_000) -> list[str]:

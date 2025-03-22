@@ -596,9 +596,10 @@ def main():
     
     
     
-    slack_notifier(args.slack_token, args.slack_channel, REMOVED_IMAGES, ADDED_IMAGES, FAILED_INSPECT_IMAGES)
+    slack_notifier(args.slack_token, args.slack_channel, ['demisto/crypto:1.0.0.111961','demisto/crypto:2.0.0.111961','demisto/crypto:4.0.0.111961'], [], [])
     
     
+    exit(0)
     
     checkout_dockerfiles_repo()
 
