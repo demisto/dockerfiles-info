@@ -27,6 +27,7 @@ def slack_notifier(slack_token, channel_id, removed_images ,added_images, failed
                 text='*The following images removed:*',
                 thread_ts=message_ts  # Threaded message, using the timestamp of the original message
             )
+            message_ts1 = response['ts']
             
             with open('removed_images.txt', 'w') as f:
                 f.write('\n'.join(removed_images))
@@ -35,7 +36,7 @@ def slack_notifier(slack_token, channel_id, removed_images ,added_images, failed
                 channel='C04CHML16P8',
                 file='removed_images.txt',
                 title='Removed images',
-                thread_ts=message_ts  # Threaded message, using the timestamp of the original message
+                thread_ts=message_ts1  # Threaded message, using the timestamp of the original message
             )
     
         else:
