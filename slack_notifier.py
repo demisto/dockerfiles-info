@@ -22,12 +22,12 @@ def slack_notifier(slack_token, channel_id, removed_images ,added_images, failed
 
         # replay the old images removed message
         if removed_images:
-            client.chat_postMessage(
+            res1 = client.chat_postMessage(
                 channel=channel_id,
                 text='*The following images removed:*',
                 thread_ts=message_ts  # Threaded message, using the timestamp of the original message
             )
-            message_ts1 = response['ts']
+            message_ts1 = res1['ts']
             
             with open('removed_images.txt', 'w') as f:
                 f.write('\n'.join(removed_images))
