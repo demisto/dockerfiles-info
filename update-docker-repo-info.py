@@ -426,7 +426,10 @@ def process_image(image_name, force):
     global REMOVED_IMAGES
     global ADDED_IMAGES
     global FAILED_INSPECT_IMAGES
-    
+
+
+
+    removed_images_count = 0
     # remove old dockers from docker_images_metadata.json
     if docker_images_metadata:
         for tag in old_tags:
@@ -436,6 +439,9 @@ def process_image(image_name, force):
                 if os.path.exists(tag_md_file):
                     os.remove(tag_md_file)
                 REMOVED_IMAGES.append(f"{image_name}:{tag}")
+                removed_images_count += 1
+                if removed_images_count == 10:
+                    return
 
     # inspect image tags and create the info files
     for tag_to_add in tags_need_to_add:
