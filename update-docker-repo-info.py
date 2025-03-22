@@ -360,6 +360,10 @@ def list_os_packages(image_name, out_file):
 
 
 def inspect_image_tag(image_name, image_tag, force=False, is_last_tag=False):
+    if image_tag == '1.0.0.2787132':
+        raise Exception('TEST FAILURE')
+    
+    
     full_name = "{}:{}".format(image_name, image_tag)
     dir = "{}/{}".format(sys.path[0], image_name)
     if not os.path.exists(dir):
@@ -592,15 +596,7 @@ def main():
     VERIFY_SSL = not args.no_verify_ssl
     if not VERIFY_SSL:
         requests.packages.urllib3.disable_warnings()
-    global USED_PACKAGES
-    
-    
-    
-    slack_notifier(args.slack_token, args.slack_channel, ['demisto/crypto:1.0.0.111961','demisto/crypto:2.0.0.111961','demisto/crypto:4.0.0.111961'], [], [])
-    
-    
-    exit(0)
-    
+    global USED_PACKAGES    
     checkout_dockerfiles_repo()
 
     # set CONTENT_DOCKER_IMAGES value with all the dockers we use in content repo

@@ -70,6 +70,24 @@ def slack_notifier(slack_token, channel_id, removed_images ,added_images, failed
                 thread_ts=message_ts  # Threaded message, using the timestamp of the original message
             )
 
+        # replay failed to inspect images
+        if failed_to_inspect_images:
+            client.chat_postMessage(
+                channel=channel_id,
+                text='*The following images failed to inspect:*',
+                thread_ts=message_ts  # Threaded message, using the timestamp of the original message
+            )
+            
+            with open('failed_images.txt', 'w') as f:
+                f.write('\n'.join(added_images))
+            
+            client.files_upload_v2(
+                channel='C04CHML16P8',
+                file='failed_images.txt',
+                title='Failed images',
+                thread_ts=message_ts  # Threaded message, using the timestamp of the original message
+            )
+    
 
 
 
@@ -95,6 +113,9 @@ def slack_notifier(slack_token, channel_id, removed_images ,added_images, failed
             
         if os.path.exists('added_images.txt'):
             os.remove('added_images.txt')
+            
+        if os.path.exists('failed_images.txt'):
+            os.remove('failed_images.txt')
 
 
 def join_list_by_delimiter_in_chunks(list_to_join: Iterable[str], delimiter: str = ", ", max_length: int = 2_000) -> list[str]:
