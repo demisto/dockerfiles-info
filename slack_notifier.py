@@ -28,22 +28,23 @@ def slack_notifier(slack_token, channel_id, removed_images ,added_images, failed
             upload_response = client.files_upload_v2(
                 channel='C04CHML16P8',
                 file='removed_images.txt',
-                title='Removed images'
-            )
-            file_id = upload_response['file']['id']
-            
-            client.chat_postMessage(
-                channel=channel_id,
-                text='*The following images removed:*',
-                attachments=[
-                    {
-                        "fallback": "File not found",
-                        "text": "Removed images",
-                        "file_id": file_id  # Attach the uploaded file using its ID
-                    }
-                ],
+                title='Removed images',
                 thread_ts=message_ts  # Threaded message, using the timestamp of the original message
             )
+            # file_id = upload_response['file']['id']
+            
+            # client.chat_postMessage(
+            #     channel=channel_id,
+            #     text='*The following images removed:*',
+            #     attachments=[
+            #         {
+            #             "fallback": "File not found",
+            #             "text": "Removed images",
+            #             "file_id": file_id  # Attach the uploaded file using its ID
+            #         }
+            #     ],
+            #     thread_ts=message_ts  # Threaded message, using the timestamp of the original message
+            # )
             
         else:
             client.chat_postMessage(
