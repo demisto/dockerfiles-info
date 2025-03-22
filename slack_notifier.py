@@ -1,7 +1,7 @@
 from slack_sdk import WebClient
 from collections.abc import Iterable
 
-def slack_notifier(slack_token, channel_id, removed_images ,added_images):
+def slack_notifier(slack_token, channel_id, removed_images ,added_images, failed_to_inspect_images):
 
     removed_images = join_list_by_delimiter_in_chunks(removed_images, delimiter='\n* ')
     added_images = join_list_by_delimiter_in_chunks(added_images, delimiter='\n* ')

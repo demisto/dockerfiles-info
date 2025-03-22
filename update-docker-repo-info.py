@@ -32,6 +32,7 @@ DOCKER_IMAGE_REGEX_PATTERN = r'^demisto/([^\s:]+):(\d+(\.\d+)*)$'
 CONTENT_DOCKER_IMAGES = {}
 ADDED_IMAGES = []
 REMOVED_IMAGES = []
+FAILED_INSPECT_IMAGES = []
 
 
 try:
@@ -420,6 +421,7 @@ def process_image(image_name, force):
 
     global REMOVED_IMAGES
     global ADDED_IMAGES
+    global FAILED_INSPECT_IMAGES
     
     # remove old dockers from docker_images_metadata.json
     if docker_images_metadata:
@@ -436,8 +438,9 @@ def process_image(image_name, force):
         try:
             inspect_image_tag(image_name,tag_to_add,force, last_tag == tag_to_add)
         except Exception as e:
-            print(f'Failed to inspect {tag_to_add} error: {e}')
+            print(f'Failed to inspect {f"{image_name}:{tag}"} error: {e}')
             print(traceback.format_exc())
+            FAILED_INSPECT_IMAGES.append(f"{image_name}:{tag}")
 
 
 def process_org(org_name, force):
@@ -620,7 +623,7 @@ def main():
     # send Slack notification
     global REMOVED_IMAGES
     global ADDED_IMAGES
-    slack_notifier(args.slack_token, args.slack_channel, REMOVED_IMAGES, ADDED_IMAGES)
+    slack_notifier(args.slack_token, args.slack_channel, REMOVED_IMAGES, ADDED_IMAGES, FAILED_INSPECT_IMAGES)
 
 
 if __name__ == "__main__":
