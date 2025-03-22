@@ -597,11 +597,6 @@ def main():
     if not VERIFY_SSL:
         requests.packages.urllib3.disable_warnings()
     global USED_PACKAGES
-
-    slack_notifier(args.slack_token, args.slack_channel, ['1'], [], [])
-
-
-
     checkout_dockerfiles_repo()
 
     # set CONTENT_DOCKER_IMAGES value with all the dockers we use in content repo
