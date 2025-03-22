@@ -26,7 +26,7 @@ def slack_notifier(slack_token, channel_id, removed_images ,added_images, failed
                 f.write('\n'.join(removed_images))
             
             upload_response = client.files_upload_v2(
-                channel=channel_id,
+                channel='C04CHML16P8',
                 file='removed_images.txt',
                 title='Removed images'
             )
