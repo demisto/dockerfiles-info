@@ -1,9 +1,9 @@
-# `demisto/pwsh-ata:1.0.0.117364`
+# `demisto/pwsh-ata:1.0.0.103704`
 
 ## Docker Metadata
-- Image Size: 88.09 MB
-- Image ID: `sha256:72bcdd7c4c17bddee5db0de662ed2692b8080c6f8d6b1cb9e8ffc241b675124c`
-- Created: `2024-11-21T00:56:20.64678901Z`
+- Image Size: 92.97 MB
+- Image ID: `sha256:e931b0d1f07422b920a30cc8b0464726b5fabf349d25afc73acb9d01e4bb5c31`
+- Created: `2024-07-17T08:26:39.195365354Z`
 - Arch: `linux`/`amd64`
 - Command: `["pwsh"]`
 - Environment:
@@ -13,39 +13,30 @@
   - `LC_ALL=en_US.UTF-8`
   - `LANG=en_US.UTF-8`
   - `PSModuleAnalysisCachePath=/var/cache/microsoft/powershell/PSModuleAnalysisCache/ModuleAnalysisCache`
-  - `POWERSHELL_DISTRIBUTION_CHANNEL=PSDocker-Alpine-3.20`
-  - `DOCKER_IMAGE=demisto/pwsh-ata:1.0.0.117364`
+  - `POWERSHELL_DISTRIBUTION_CHANNEL=PSDocker-Alpine-3.17`
+  - `DOCKER_IMAGE=demisto/pwsh-ata:1.0.0.103704`
 - Labels:
-  - `com.visualstudio.mscodehub.image.build.buildnumber:PSDocker-Build-544077-version_v7.4.6_channel_stable_01`
-  - `com.visualstudio.mscodehub.image.build.builduri:vstfs:///Build/Build/544077`
-  - `com.visualstudio.mscodehub.image.build.definitionname:PowerShell-Docker-Image-Build-Official`
-  - `com.visualstudio.mscodehub.image.build.repository.name:PowerShell-Docker`
-  - `com.visualstudio.mscodehub.image.build.repository.uri:https://mscodehub.visualstudio.com/PowerShellCore/_git/PowerShell-Docker`
-  - `com.visualstudio.mscodehub.image.build.sourcebranchname:master-ado`
-  - `com.visualstudio.mscodehub.image.build.sourceversion:e3af4cb60a7b551492aa355dcc2388c4043e55a7`
-  - `com.visualstudio.mscodehub.image.system.teamfoundationcollectionuri:https://mscodehub.visualstudio.com/`
-  - `com.visualstudio.mscodehub.image.system.teamproject:PowerShellCore`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:fcb71eb2ebc97a4b55ee9a2b5cffb748a2228f61`
-  - `org.opencontainers.image.version:1.0.0.117364`
+  - `org.opencontainers.image.revision:0f9da367ac36714732b59909c4a9abc26fa94a75`
+  - `org.opencontainers.image.version:1.0.0.103704`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.20.3`
-  - `PRETTY_NAME="Alpine Linux v3.20"`
+  - `VERSION_ID=3.17.7`
+  - `PRETTY_NAME="Alpine Linux v3.17"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/pwsh-ata:1.0.0.117364
+Signatures for demisto/pwsh-ata:1.0.0.103704
 
-SIGNED TAG     DIGEST                                                             SIGNERS
-1.0.0.117364   51ece3e07bfe47ac5750ca33eadd658762c86008929a9d9b557124e0e76c294c   (Repo Admin)
+SIGNED TAG          DIGEST                                                             SIGNERS
+1.0.0.103704        f8a14d8a369d414c8b981dae46b859618894becf3a95be901d1c62d9aacff65d   (Repo Admin)
 
-Administrative keys for demisto/pwsh-ata:1.0.0.117364
+Administrative keys for demisto/pwsh-ata:1.0.0.103704
 
   Repository Key:	0ca316557311c84da0dcdad3ff666cc1514aee2fed0ab8d369d67469775bbe44
   Root Key:	8d75f43f600e6495245357c4ad771231eac8f12e3b2e8a52e043ae34b96ad7cf
@@ -57,37 +48,40 @@ Administrative keys for demisto/pwsh-ata:1.0.0.117364
 
 ## `OS Packages`
 
-* alpine-baselayout-3.6.5-r0 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.6.5-r0 x86_64 {alpine-baselayout}
+* alpine-baselayout-3.4.0-r0 x86_64 {alpine-baselayout}
+* alpine-baselayout-data-3.4.0-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.4-r1 x86_64 {alpine-keys}
-* apk-tools-2.14.4-r1 x86_64 {apk-tools}
-* busybox-1.36.1-r29 x86_64 {busybox}
-* busybox-binsh-1.36.1-r29 x86_64 {busybox}
-* ca-certificates-20240705-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20240705-r0 x86_64 {ca-certificates}
-* icu-data-en-74.2-r0 x86_64 {icu}
-* icu-libs-74.2-r0 x86_64 {icu}
-* keyutils-libs-1.6.3-r3 x86_64 {keyutils}
+* apk-tools-2.12.14-r0 x86_64 {apk-tools}
+* busybox-1.35.0-r31 x86_64 {busybox}
+* busybox-binsh-1.35.0-r31 x86_64 {busybox}
+* ca-certificates-20240226-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20240226-r0 x86_64 {ca-certificates}
+* icu-data-en-72.1-r1 x86_64 {icu}
+* icu-libs-72.1-r1 x86_64 {icu}
+* keyutils-libs-1.6.3-r1 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.21.3-r0 x86_64 {krb5}
-* libcom_err-1.47.0-r5 x86_64 {e2fsprogs}
-* libcrypto3-3.3.2-r1 x86_64 {openssl}
-* libedit-20240808.3.1-r0 x86_64 {libedit}
-* libgcc-13.2.1_git20240309-r0 x86_64 {gcc}
-* libintl-0.22.5-r0 x86_64 {gettext}
-* libncursesw-6.4_p20240420-r2 x86_64 {ncurses}
-* libssl3-3.3.2-r1 x86_64 {openssl}
-* libstdc++-13.2.1_git20240309-r0 x86_64 {gcc}
-* libverto-0.3.2-r2 x86_64 {libverto}
-* lttng-ust-2.13.8-r0 x86_64 {lttng-ust}
-* musl-1.2.5-r0 x86_64 {musl}
-* musl-utils-1.2.5-r0 x86_64 {musl}
-* ncurses-terminfo-base-6.4_p20240420-r2 x86_64 {ncurses}
-* openssh-client-common-9.9_p1-r1 x86_64 {openssh}
-* openssh-client-default-9.9_p1-r1 x86_64 {openssh}
-* openssh-keygen-9.9_p1-r1 x86_64 {openssh}
-* scanelf-1.3.7-r2 x86_64 {pax-utils}
-* ssl_client-1.36.1-r29 x86_64 {busybox}
-* tzdata-2024b-r0 x86_64 {tzdata}
-* userspace-rcu-0.14.0-r2 x86_64 {userspace-rcu}
-* zlib-1.3.1-r1 x86_64 {zlib}
+* krb5-libs-1.20.2-r0 x86_64 {krb5}
+* libc-utils-0.7.2-r3 x86_64 {libc-dev}
+* libcom_err-1.46.6-r0 x86_64 {e2fsprogs}
+* libcrypto1.1-1.1.1u-r1 x86_64 {openssl1.1-compat}
+* libcrypto3-3.2.1-r2 x86_64 {openssl}
+* libedit-20230828.3.1-r4 x86_64 {libedit}
+* libgcc-12.2.1_git20220924-r4 x86_64 {gcc}
+* libintl-0.21.1-r1 x86_64 {gettext}
+* libssl1.1-1.1.1u-r1 x86_64 {openssl1.1-compat}
+* libssl3-3.0.14-r0 x86_64 {openssl}
+* libstdc++-12.2.1_git20220924-r4 x86_64 {gcc}
+* libverto-0.3.2-r1 x86_64 {libverto}
+* lttng-ust-2.13.6-r0 x86_64 {lttng-ust}
+* musl-1.2.3-r5 x86_64 {musl}
+* musl-utils-1.2.3-r5 x86_64 {musl}
+* ncurses-libs-6.3_p20221119-r1 x86_64 {ncurses}
+* ncurses-terminfo-base-6.3_p20221119-r1 x86_64 {ncurses}
+* openssh-client-common-9.7_p1-r3 x86_64 {openssh}
+* openssh-client-default-9.7_p1-r3 x86_64 {openssh}
+* openssh-keygen-9.7_p1-r3 x86_64 {openssh}
+* scanelf-1.3.5-r1 x86_64 {pax-utils}
+* ssl_client-1.35.0-r31 x86_64 {busybox}
+* tzdata-2024a-r0 x86_64 {tzdata}
+* userspace-rcu-0.13.2-r0 x86_64 {userspace-rcu}
+* zlib-1.2.13-r0 x86_64 {zlib}

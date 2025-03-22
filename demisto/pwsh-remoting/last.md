@@ -1,58 +1,49 @@
-# `demisto/pwsh-remoting:1.0.0.116833`
+# `demisto/pwsh-remoting:1.0.0.88373`
 
 ## Docker Metadata
-- Image Size: 211.75 MB
-- Image ID: `sha256:1ed5784b9f040d81c190580463c45bbf9e5e7186d9d9c2176020d2c719d1f9ac`
-- Created: `2024-11-14T16:46:41.743134007Z`
+- Image Size: 203.27 MB
+- Image ID: `sha256:082e3299f827c145907f136fce2c75e02481ccbcf2398aab90bf7a0826845bcb`
+- Created: `2024-02-25T12:34:21.162011496Z`
 - Arch: `linux`/`amd64`
 - Command: `["pwsh-preview"]`
 - Environment:
   - `PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
+  - `PS_INSTALL_FOLDER=/opt/microsoft/powershell/7`
   - `DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=false`
   - `LC_ALL=en_US.UTF-8`
   - `LANG=en_US.UTF-8`
-  - `PS_INSTALL_FOLDER=/opt/microsoft/powershell/7`
   - `PSModuleAnalysisCachePath=/var/cache/microsoft/powershell/PSModuleAnalysisCache/ModuleAnalysisCache`
-  - `POWERSHELL_DISTRIBUTION_CHANNEL=PSDocker-Ubuntu-22.04`
-  - `DOCKER_IMAGE=demisto/pwsh-remoting:1.0.0.116833`
+  - `POWERSHELL_DISTRIBUTION_CHANNEL=PSDocker-Ubuntu-20.04`
+  - `DOCKER_IMAGE=demisto/pwsh-remoting:1.0.0.88373`
 - Labels:
-  - `com.visualstudio.mscodehub.image.build.buildnumber:PSDocker-Build-543703-version_v7.4.6_channel_stable_01`
-  - `com.visualstudio.mscodehub.image.build.builduri:vstfs:///Build/Build/543703`
-  - `com.visualstudio.mscodehub.image.build.definitionname:PowerShell-Docker-Image-Build-Official`
-  - `com.visualstudio.mscodehub.image.build.repository.name:PowerShell-Docker`
-  - `com.visualstudio.mscodehub.image.build.repository.uri:https://mscodehub.visualstudio.com/PowerShellCore/_git/PowerShell-Docker`
-  - `com.visualstudio.mscodehub.image.build.sourcebranchname:master-ado`
-  - `com.visualstudio.mscodehub.image.build.sourceversion:026d954c42cefbb6db0128c061a605963157641b`
-  - `com.visualstudio.mscodehub.image.system.teamfoundationcollectionuri:https://mscodehub.visualstudio.com/`
-  - `com.visualstudio.mscodehub.image.system.teamproject:PowerShellCore`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
   - `org.opencontainers.image.ref.name:ubuntu`
-  - `org.opencontainers.image.revision:5eb1b44674f9723e96e6edee0649bcb111679413`
-  - `org.opencontainers.image.version:1.0.0.116833`
+  - `org.opencontainers.image.revision:3ca83f69d2103f98cafe1fb08778893f6ea7000a`
+  - `org.opencontainers.image.version:1.0.0.88373`
 
 - OS Release:
-  - `PRETTY_NAME="Ubuntu 22.04.5 LTS"`
   - `NAME="Ubuntu"`
-  - `VERSION_ID="22.04"`
-  - `VERSION="22.04.5 LTS (Jammy Jellyfish)"`
-  - `VERSION_CODENAME=jammy`
+  - `VERSION="20.04.6 LTS (Focal Fossa)"`
   - `ID=ubuntu`
   - `ID_LIKE=debian`
+  - `PRETTY_NAME="Ubuntu 20.04.6 LTS"`
+  - `VERSION_ID="20.04"`
   - `HOME_URL="https://www.ubuntu.com/"`
   - `SUPPORT_URL="https://help.ubuntu.com/"`
   - `BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"`
   - `PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"`
-  - `UBUNTU_CODENAME=jammy`
+  - `VERSION_CODENAME=focal`
+  - `UBUNTU_CODENAME=focal`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/pwsh-remoting:1.0.0.116833
+Signatures for demisto/pwsh-remoting:1.0.0.88373
 
-SIGNED TAG     DIGEST                                                             SIGNERS
-1.0.0.116833   12f086c6959d608d81f83a0fdf978e5886871e7fa8850123e012556dc710cb52   (Repo Admin)
+SIGNED TAG          DIGEST                                                             SIGNERS
+1.0.0.88373         6f774d06dab47d6d8a752f11e01a5ce285e636a01a9d802402b62ae6086bfbdb   (Repo Admin)
 
-Administrative keys for demisto/pwsh-remoting:1.0.0.116833
+Administrative keys for demisto/pwsh-remoting:1.0.0.88373
 
   Repository Key:	de8851b037738bbc0fdfbc5c195a27725e8d0610fe3abec13845304043f5054c
   Root Key:	19390ef944a221b1a793f4a855d8fd2d4a4882c42826a6907dc69e43c14ea8c0
@@ -64,126 +55,118 @@ Administrative keys for demisto/pwsh-remoting:1.0.0.116833
 
 ## `OS Packages`
 
-* adduser	3.118ubuntu5
-* apt	2.4.13
-* base-files	12ubuntu4.7
-* base-passwd	3.5.52build1
-* bash	5.1-6ubuntu1.1
-* bsdutils	1:2.37.2-4ubuntu3.4
-* ca-certificates	20240203~22.04.1
-* coreutils	8.32-4.1ubuntu1.2
-* dash	0.5.11+git20210903+057cd650a4ed-3build1
-* debconf	1.5.79ubuntu1
-* debianutils	5.5-1ubuntu2
-* diffutils	1:3.8-0ubuntu2
-* dpkg	1.21.1ubuntu2.3
-* e2fsprogs	1.46.5-2ubuntu1.2
-* findutils	4.8.0-1ubuntu3
-* gcc-12-base:amd64	12.3.0-1ubuntu1~22.04
-* gpgv	2.2.27-3ubuntu2.1
-* grep	3.7-1build1
-* gss-ntlmssp	0.7.0-4build4
-* gzip	1.10-4ubuntu4.1
-* hostname	3.23ubuntu2
-* init-system-helpers	1.62
-* less	590-1ubuntu0.22.04.3
-* libacl1:amd64	2.3.1-1
-* libapt-pkg6.0:amd64	2.4.13
-* libattr1:amd64	1:2.5.1-1build1
-* libaudit1:amd64	1:3.0.7-1build1
-* libaudit-common	1:3.0.7-1build1
-* libblkid1:amd64	2.37.2-4ubuntu3.4
-* libbsd0:amd64	0.11.5-1
-* libbz2-1.0:amd64	1.0.8-5build1
-* libc6:amd64	2.35-0ubuntu3.8
-* libcap2:amd64	1:2.44-1ubuntu0.22.04.1
-* libcap-ng0:amd64	0.7.9-2.2build3
-* libc-bin	2.35-0ubuntu3.8
-* libcbor0.8:amd64	0.8.0-2ubuntu1
-* libcom-err2:amd64	1.46.5-2ubuntu1.2
-* libcrypt1:amd64	1:4.4.27-1
-* libdb5.3:amd64	5.3.28+dfsg1-0.8ubuntu3
-* libdebconfclient0:amd64	0.261ubuntu1
-* libedit2:amd64	3.1-20210910-1build1
-* libext2fs2:amd64	1.46.5-2ubuntu1.2
-* libffi8:amd64	3.4.2-4
-* libfido2-1:amd64	1.10.0-1
-* libgcc-s1:amd64	12.3.0-1ubuntu1~22.04
-* libgcrypt20:amd64	1.9.4-3ubuntu3
-* libgmp10:amd64	2:6.2.1+dfsg-3ubuntu1
-* libgnutls30:amd64	3.7.3-4ubuntu1.5
-* libgpg-error0:amd64	1.43-3
-* libgssapi-krb5-2:amd64	1.19.2-2ubuntu0.4
-* libhogweed6:amd64	3.7.3-1build2
-* libicu70:amd64	70.1-2
-* libidn2-0:amd64	2.3.2-2build1
-* libk5crypto3:amd64	1.19.2-2ubuntu0.4
-* libkeyutils1:amd64	1.6.1-2ubuntu3
-* libkrb5-3:amd64	1.19.2-2ubuntu0.4
-* libkrb5support0:amd64	1.19.2-2ubuntu0.4
-* liblttng-ust1:amd64	2.13.1-1ubuntu1
-* liblttng-ust-common1:amd64	2.13.1-1ubuntu1
-* liblttng-ust-ctl5:amd64	2.13.1-1ubuntu1
-* liblz4-1:amd64	1.9.3-2build2
-* liblzma5:amd64	5.2.5-2ubuntu1
-* libmd0:amd64	1.0.4-1build1
-* libmount1:amd64	2.37.2-4ubuntu3.4
-* libncurses6:amd64	6.3-2ubuntu0.1
-* libncursesw6:amd64	6.3-2ubuntu0.1
-* libnettle8:amd64	3.7.3-1build2
-* libnsl2:amd64	1.3.0-2build2
-* libnuma1:amd64	2.0.14-3ubuntu2
-* libp11-kit0:amd64	0.24.0-6build1
-* libpam0g:amd64	1.4.0-11ubuntu2.4
-* libpam-modules:amd64	1.4.0-11ubuntu2.4
-* libpam-modules-bin	1.4.0-11ubuntu2.4
-* libpam-runtime	1.4.0-11ubuntu2.4
-* libpcre2-8-0:amd64	10.39-3ubuntu0.1
-* libpcre3:amd64	2:8.39-13ubuntu0.22.04.1
-* libprocps8:amd64	2:3.3.17-6ubuntu2.1
-* libseccomp2:amd64	2.5.3-2ubuntu2
-* libselinux1:amd64	3.3-1build2
-* libsemanage2:amd64	3.3-1build2
-* libsemanage-common	3.3-1build2
-* libsepol2:amd64	3.3-1build1
-* libsmartcols1:amd64	2.37.2-4ubuntu3.4
-* libss2:amd64	1.46.5-2ubuntu1.2
-* libssl3:amd64	3.0.2-0ubuntu1.18
-* libstdc++6:amd64	12.3.0-1ubuntu1~22.04
-* libsystemd0:amd64	249.11-0ubuntu3.12
-* libtalloc2:amd64	2.3.3-2build1
-* libtasn1-6:amd64	4.18.0-4build1
-* libtevent0:amd64	0.11.0-1build1
-* libtinfo6:amd64	6.3-2ubuntu0.1
-* libtirpc3:amd64	1.3.2-2ubuntu0.1
-* libtirpc-common	1.3.2-2ubuntu0.1
-* libudev1:amd64	249.11-0ubuntu3.12
-* libunistring2:amd64	1.0-1
-* libuuid1:amd64	2.37.2-4ubuntu3.4
-* libwbclient0:amd64	2:4.15.13+dfsg-0ubuntu1.6
-* libxxhash0:amd64	0.8.1-1
-* libzstd1:amd64	1.4.8+dfsg-3build1
-* locales	2.35-0ubuntu3.8
-* login	1:4.8.1-2ubuntu2.2
-* logsave	1.46.5-2ubuntu1.2
-* lsb-base	11.1.0ubuntu4
-* mawk	1.3.4.20200120-3
-* mount	2.37.2-4ubuntu3.4
-* ncurses-base	6.3-2ubuntu0.1
-* ncurses-bin	6.3-2ubuntu0.1
-* netbase	6.3
-* openssh-client	1:8.9p1-3ubuntu0.10
-* openssl	3.0.2-0ubuntu1.18
-* passwd	1:4.8.1-2ubuntu2.2
-* perl-base	5.34.0-3ubuntu1.3
-* powershell	7.4.6-1.deb
-* procps	2:3.3.17-6ubuntu2.1
-* sed	4.8-1ubuntu2
-* sensible-utils	0.0.17
-* sysvinit-utils	3.01-1ubuntu1
-* tar	1.34+dfsg-1ubuntu0.1.22.04.2
-* tzdata	2024a-0ubuntu0.22.04.1
-* ubuntu-keyring	2021.03.26
-* usrmerge	25ubuntu2
-* util-linux	2.37.2-4ubuntu3.4
-* zlib1g:amd64	1:1.2.11.dfsg-2ubuntu9.2
+* adduser	3.118ubuntu2
+* apt	2.0.10
+* base-files	11ubuntu5.8
+* base-passwd	3.5.47
+* bash	5.0-6ubuntu1.2
+* bsdutils	1:2.34-0.1ubuntu9.4
+* bzip2	1.0.8-2
+* ca-certificates	20230311ubuntu0.20.04.1
+* coreutils	8.30-3ubuntu2
+* dash	0.5.10.2-6
+* debconf	1.5.73
+* debianutils	4.9.1
+* diffutils	1:3.7-3
+* dpkg	1.19.7ubuntu3.2
+* e2fsprogs	1.45.5-2ubuntu1.1
+* fdisk	2.34-0.1ubuntu9.4
+* findutils	4.7.0-1ubuntu1
+* gcc-10-base:amd64	10.5.0-1ubuntu1~20.04
+* gpgv	2.2.19-3ubuntu2.2
+* grep	3.4-1
+* gss-ntlmssp	0.7.0-4build3
+* gzip	1.10-0ubuntu4.1
+* hostname	3.23
+* init-system-helpers	1.57
+* less	551-1ubuntu0.1
+* libacl1:amd64	2.2.53-6
+* libapt-pkg6.0:amd64	2.0.10
+* libattr1:amd64	1:2.4.48-5
+* libaudit1:amd64	1:2.8.5-2ubuntu6
+* libaudit-common	1:2.8.5-2ubuntu6
+* libblkid1:amd64	2.34-0.1ubuntu9.4
+* libbsd0:amd64	0.10.0-1
+* libbz2-1.0:amd64	1.0.8-2
+* libc6:amd64	2.31-0ubuntu9.14
+* libcap-ng0:amd64	0.7.9-2.1build1
+* libc-bin	2.31-0ubuntu9.14
+* libcbor0.6:amd64	0.6.0-0ubuntu1
+* libcom-err2:amd64	1.45.5-2ubuntu1.1
+* libcrypt1:amd64	1:4.4.10-10ubuntu4
+* libdb5.3:amd64	5.3.28+dfsg1-0.6ubuntu2
+* libdebconfclient0:amd64	0.251ubuntu1
+* libedit2:amd64	3.1-20191231-1
+* libext2fs2:amd64	1.45.5-2ubuntu1.1
+* libfdisk1:amd64	2.34-0.1ubuntu9.4
+* libffi7:amd64	3.3-4
+* libfido2-1:amd64	1.3.1-1ubuntu2
+* libgcc1	1:10.5.0-1ubuntu1~20.04
+* libgcc-s1:amd64	10.5.0-1ubuntu1~20.04
+* libgcrypt20:amd64	1.8.5-5ubuntu1.1
+* libgmp10:amd64	2:6.2.0+dfsg-4ubuntu0.1
+* libgnutls30:amd64	3.6.13-2ubuntu1.10
+* libgpg-error0:amd64	1.37-1
+* libgssapi-krb5-2:amd64	1.17-6ubuntu4.4
+* libhogweed5:amd64	3.5.1+really3.5.1-2ubuntu0.2
+* libicu66:amd64	66.1-2ubuntu2.1
+* libidn2-0:amd64	2.2.0-2
+* libk5crypto3:amd64	1.17-6ubuntu4.4
+* libkeyutils1:amd64	1.6-6ubuntu1.1
+* libkrb5-3:amd64	1.17-6ubuntu4.4
+* libkrb5support0:amd64	1.17-6ubuntu4.4
+* liblz4-1:amd64	1.9.2-2ubuntu0.20.04.1
+* liblzma5:amd64	5.2.4-1ubuntu1.1
+* libmount1:amd64	2.34-0.1ubuntu9.4
+* libncurses6:amd64	6.2-0ubuntu2.1
+* libncursesw6:amd64	6.2-0ubuntu2.1
+* libnettle7:amd64	3.5.1+really3.5.1-2ubuntu0.2
+* libp11-kit0:amd64	0.23.20-1ubuntu0.1
+* libpam0g:amd64	1.3.1-5ubuntu4.7
+* libpam-modules:amd64	1.3.1-5ubuntu4.7
+* libpam-modules-bin	1.3.1-5ubuntu4.7
+* libpam-runtime	1.3.1-5ubuntu4.7
+* libpcre2-8-0:amd64	10.34-7ubuntu0.1
+* libpcre3:amd64	2:8.39-12ubuntu0.1
+* libprocps8:amd64	2:3.3.16-1ubuntu2.4
+* libseccomp2:amd64	2.5.1-1ubuntu1~20.04.2
+* libselinux1:amd64	3.0-1build2
+* libsemanage1:amd64	3.0-1build2
+* libsemanage-common	3.0-1build2
+* libsepol1:amd64	3.0-1ubuntu0.1
+* libsmartcols1:amd64	2.34-0.1ubuntu9.4
+* libss2:amd64	1.45.5-2ubuntu1.1
+* libssl1.1:amd64	1.1.1f-1ubuntu2.20
+* libstdc++6:amd64	10.5.0-1ubuntu1~20.04
+* libsystemd0:amd64	245.4-4ubuntu3.23
+* libtalloc2:amd64	2.3.3-0ubuntu0.20.04.1
+* libtasn1-6:amd64	4.16.0-2
+* libtevent0:amd64	0.11.0-0ubuntu0.20.04.1
+* libtinfo6:amd64	6.2-0ubuntu2.1
+* libudev1:amd64	245.4-4ubuntu3.23
+* libunistring2:amd64	0.9.10-2
+* libuuid1:amd64	2.34-0.1ubuntu9.4
+* libwbclient0:amd64	2:4.15.13+dfsg-0ubuntu0.20.04.7
+* libzstd1:amd64	1.4.4+dfsg-3ubuntu0.1
+* locales	2.31-0ubuntu9.14
+* login	1:4.8.1-1ubuntu5.20.04.4
+* logsave	1.45.5-2ubuntu1.1
+* lsb-base	11.1.0ubuntu2
+* mawk	1.3.4.20200120-2
+* mount	2.34-0.1ubuntu9.4
+* ncurses-base	6.2-0ubuntu2.1
+* ncurses-bin	6.2-0ubuntu2.1
+* netbase	6.1
+* openssh-client	1:8.2p1-4ubuntu0.11
+* openssl	1.1.1f-1ubuntu2.20
+* passwd	1:4.8.1-1ubuntu5.20.04.4
+* perl-base	5.30.0-9ubuntu0.5
+* procps	2:3.3.16-1ubuntu2.4
+* sed	4.7-1
+* sensible-utils	0.0.12+nmu1
+* sysvinit-utils	2.96-2.1ubuntu1
+* tar	1.30+dfsg-7ubuntu0.20.04.4
+* tzdata	2023d-0ubuntu0.20.04
+* ubuntu-keyring	2020.02.11.4
+* util-linux	2.34-0.1ubuntu9.4
+* zlib1g:amd64	1:1.2.11.dfsg-2ubuntu1.5

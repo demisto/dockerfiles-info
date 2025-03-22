@@ -1,9 +1,8 @@
-# `demisto/threatconnect-sdk:1.0.0.52631`
-## 🔴 IMPORTANT: This image is deprecated 🔴
+# `demisto/threatconnect-sdk:1.0.0.52609`
 ## Docker Metadata
-- Image Size: 30.45 MB
-- Image ID: `sha256:effb76983630cbb600a7b888d4eee78832d4ab855bc30fe9d4017c13d124c859`
-- Created: `2023-03-30T10:03:06.238534211Z`
+- Image Size: `30.45 MB`
+- Image ID: `sha256:e597b7f8c7773b27c132cc79e06e4e7ff4f4301a812241811d49766b1d42df77`
+- Created: `2023-03-30T01:04:46.041152321Z`
 - Arch: `linux`/`amd64`
 - Command: `["python2"]`
 - Environment:
@@ -15,13 +14,13 @@
   - `PYTHON_PIP_VERSION=20.3.4`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/831b5dd0bec03caf24aa6d736a28dc2ba80f91cc/public/2.7/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=40ee07eac6674b8d60fce2bbabc148cf0e2f1408c167683f110fd608b8d6f416`
-  - `DOCKER_IMAGE=demisto/threatconnect-sdk:1.0.0.52631`
+  - `DOCKER_IMAGE=demisto/threatconnect-sdk:1.0.0.52609`
   - `DEPRECATED_IMAGE=true`
   - `DEPRECATED_REASON=Use the threatconnect-py3-sdk instead.`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
   - `org.opencontainers.image.revision:e265282624bf4233f9cc97b9808010ad4ce3b4a4`
-  - `org.opencontainers.image.version:1.0.0.52631`
+  - `org.opencontainers.image.version:1.0.0.52609`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -90,7 +89,7 @@ No trust data is available
 * Version: 2.10
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
-* Author: Kim Davies <kim+pypi@gumleaf.org>
+* Author: Kim Davies <kim@cynosure.com.au>
 * License :: OSI Approved :: BSD License
 
 ### `olefile`
@@ -107,8 +106,8 @@ No trust data is available
 * Summary: The PyPA recommended tool for installing Python packages.
 * Version: 20.3.4
 * Pypi: https://pypi.org/project/pip/
-* Homepage: None
-* Author: The pip developers <distutils-sig@python.org>
+* Homepage: https://pip.pypa.io/
+* Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
 ### `PySocks`
@@ -171,8 +170,8 @@ No trust data is available
 * Summary: File transport adapter for Requests
 * Version: 1.5.1
 * Pypi: https://pypi.org/project/requests-file/
-* Homepage: None
-* Author: David Shea <reallylongword@gmail.com>
+* Homepage: http://github.com/dashea/requests-file
+* Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
 ### `setuptools`
@@ -180,8 +179,8 @@ No trust data is available
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
 * Version: 44.1.1
 * Pypi: https://pypi.org/project/setuptools/
-* Homepage: None
-* Author: Python Packaging Authority <distutils-sig@python.org>
+* Homepage: https://github.com/pypa/setuptools
+* Author: Python Packaging Authority distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
 ### `six`
@@ -195,20 +194,20 @@ No trust data is available
 
 ### `threatconnect`
 
-* Summary: None
+* Summary: Python SDK for ThreatConnect API
 * Version: 2.4.21
 * Pypi: https://pypi.org/project/threatconnect/
-* Homepage: None
-* Author: None
-* License: Apache License, Version 2
+* Homepage: https://github.com/ThreatConnect-Inc/threatconnect-python
+* Author: ThreatConnect (support@threatconnect.com) support@threatconnect.com
+* License :: OSI Approved :: Apache Software License
 
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
 * Version: 2.2.3
 * Pypi: https://pypi.org/project/tldextract/
-* Homepage: None
-* Author: John Kurkowski <john.kurkowski@gmail.com>
+* Homepage: https://github.com/john-kurkowski/tldextract
+* Author: John Kurkowski john.kurkowski@gmail.com
 * License :: OSI Approved :: BSD License
 
 ### `tzlocal`
@@ -216,8 +215,8 @@ No trust data is available
 * Summary: tzinfo object for the local timezone
 * Version: 2.1
 * Pypi: https://pypi.org/project/tzlocal/
-* Homepage: None
-* Author: Lennart Regebro <regebro@gmail.com>
+* Homepage: 
+* Author: Lennart Regebro regebro@gmail.com
 * License :: OSI Approved :: MIT License
 
 ### `urllib3`
@@ -225,8 +224,8 @@ No trust data is available
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
 * Version: 1.26.5
 * Pypi: https://pypi.org/project/urllib3/
-* Homepage: None
-* Author: Andrey Petrov <andrey.petrov@shazow.net>
+* Homepage: https://urllib3.readthedocs.io/
+* Author: Andrey Petrov andrey.petrov@shazow.net
 * License :: OSI Approved :: MIT License
 
 ### `wheel`
@@ -234,7 +233,7 @@ No trust data is available
 * Summary: A built-package format for Python
 * Version: 0.37.1
 * Pypi: https://pypi.org/project/wheel/
-* Homepage: None
+* Homepage: 
 * Author: Daniel Holth <dholth@fastmail.fm>
 * License :: OSI Approved :: MIT License
 
