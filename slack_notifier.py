@@ -63,7 +63,7 @@ def slack_notifier(slack_token, channel_id, removed_images ,added_images, failed
         # replay failed to inspect images
         if failed_to_inspect_images:
             with open('failed_images.txt', 'w') as f:
-                f.write('\n'.join(added_images))
+                f.write('\n'.join(failed_to_inspect_images))
             
             client.files_upload_v2(
                 channel='C04CHML16P8',
