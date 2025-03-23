@@ -1,6 +1,10 @@
 import os
 from slack_sdk import WebClient
 
+REMOVED_IMAGES_FILE_NAME = "removed_images.txt"
+ADDED_IMAGES_FILE_NAME = "added_images.txt"
+FAILED_IMAGE_FILE_NAME = "failed_images.txt"
+
 def slack_notifier(slack_token, channel_id, removed_images ,added_images, failed_to_inspect_images):
     # Initialize the WebClient with the token
     client = WebClient(token=slack_token)
@@ -17,12 +21,12 @@ def slack_notifier(slack_token, channel_id, removed_images ,added_images, failed
 
         # replay the old images removed message
         if removed_images:
-            with open('removed_images.txt', 'w') as f:
+            with open(REMOVED_IMAGES_FILE_NAME, 'w') as f:
                 f.write('\n'.join(removed_images))
             
             client.files_upload_v2(
                 channel=channel_id,
-                file='removed_images.txt',
+                file=REMOVED_IMAGES_FILE_NAME,
                 title='Removed images',
                 text='*The following images removed:*',
                 thread_ts=message_ts  # Threaded message, using the timestamp of the original message
@@ -37,12 +41,12 @@ def slack_notifier(slack_token, channel_id, removed_images ,added_images, failed
 
         # replay the new images added message
         if added_images:
-            with open('added_images.txt', 'w') as f:
+            with open(ADDED_IMAGES_FILE_NAME, 'w') as f:
                 f.write('\n'.join(added_images))
             
             client.files_upload_v2(
                 channel=channel_id,
-                file='added_images.txt',
+                file=ADDED_IMAGES_FILE_NAME,
                 title='Added images',
                 text='*The following images added:*',
                 thread_ts=message_ts  # Threaded message, using the timestamp of the original message
@@ -57,12 +61,12 @@ def slack_notifier(slack_token, channel_id, removed_images ,added_images, failed
 
         # replay failed to inspect images
         if failed_to_inspect_images:
-            with open('failed_images.txt', 'w') as f:
+            with open(FAILED_IMAGE_FILE_NAME, 'w') as f:
                 f.write('\n'.join(failed_to_inspect_images))
             
             client.files_upload_v2(
                 channel=channel_id,
-                file='failed_images.txt',
+                file=FAILED_IMAGE_FILE_NAME,
                 title='Failed images',
                 text='*The following images failed to inspect:*',
                 thread_ts=message_ts  # Threaded message, using the timestamp of the original message
@@ -71,11 +75,11 @@ def slack_notifier(slack_token, channel_id, removed_images ,added_images, failed
     except Exception as e:
         print(f"Error sending message: {str(e)}")
     finally:
-        if os.path.exists('removed_images.txt'):
-            os.remove('removed_images.txt')
+        if os.path.exists(REMOVED_IMAGES_FILE_NAME):
+            os.remove(REMOVED_IMAGES_FILE_NAME)
             
-        if os.path.exists('added_images.txt'):
-            os.remove('added_images.txt')
+        if os.path.exists(ADDED_IMAGES_FILE_NAME):
+            os.remove(ADDED_IMAGES_FILE_NAME)
             
-        if os.path.exists('failed_images.txt'):
-            os.remove('failed_images.txt')
+        if os.path.exists(FAILED_IMAGE_FILE_NAME):
+            os.remove(FAILED_IMAGE_FILE_NAME)
