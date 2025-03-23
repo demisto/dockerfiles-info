@@ -16,15 +16,23 @@ import re
 import csv
 import time
 import codecs
+import yaml
+import traceback
+from slack_notifier import slack_notifier
 
 
 assert sys.version_info >= (3, 9), "Script compatible with python 3.9 and higher only"
 
 VERIFY_SSL = True
-
+OLD_TAG_THRESHOLD_IN_MONTHS = 6
 DOCKERFILES_DIR = os.path.abspath(os.getenv('DOCKERFILES_DIR', '.dockerfiles'))
+CONTENT_DIR = os.path.abspath(os.getenv('CONTENT_DIR', '.content'))
 DOCKER_IMAGES_METADATA = "docker_images_metadata.json"
 DOCKER_IMAGE_REGEX_PATTERN = r'^demisto/([^\s:]+):(\d+(\.\d+)*)$'
+CONTENT_DOCKER_IMAGES = {}
+ADDED_IMAGES = []
+REMOVED_IMAGES = []
+FAILED_INSPECT_IMAGES = []
 
 
 try:
@@ -68,10 +76,15 @@ def get_docker_image_size(docker_image):
     return size
 
 
-def get_latest_tag(image_name):
+def get_latest_and_old_tags(image_name):
+    old_tags = []
     last_tag = None
     last_date = None
     url = "https://registry.hub.docker.com/v2/repositories/{}/tags/?page_size=25".format(image_name)
+    
+    current_date = datetime.datetime.now()
+    old_tags_threshold = current_date - datetime.timedelta(days=OLD_TAG_THRESHOLD_IN_MONTHS*30)
+        
     while True:
         print("Querying docker hub url: {}".format(url))
         res = http_get(url)
@@ -82,6 +95,10 @@ def get_latest_tag(image_name):
             if len(name) >= 20 and all(c in string.hexdigits for c in name):  # skip git sha revisions
                 continue
             date = datetime.datetime.strptime(result['last_updated'], "%Y-%m-%dT%H:%M:%S.%fZ")
+            
+            if date < old_tags_threshold:
+                old_tags.append(result['name'])
+            
             if not last_date or date > last_date:
                 last_date = date
                 last_tag = result['name']
@@ -92,7 +109,7 @@ def get_latest_tag(image_name):
     print("last tag: {}, date: {}".format(last_tag, last_date))
     if not last_tag:
         raise Exception('No tag found for image: {}'.format(image_name))
-    return (last_tag, last_date)
+    return last_tag, old_tags
 
 
 def get_os_release(image_name):
@@ -342,25 +359,13 @@ def list_os_packages(image_name, out_file):
     out_file.write("\n")
 
 
-def process_image(image_name, force):
-    print("=================\nProcessing: " + image_name)
-    master_dir = f'docker/{image_name.split("/")[1]}'
-    master_date = subprocess.check_output(['git', '--no-pager', 'log', '-1', '--format=%ct', 'origin/master', '--', master_dir], text=True, cwd=DOCKERFILES_DIR).strip()
-    if not master_date:
-        print(f"Skipping image: {image_name} as it is not in our master repository")
-        return
-    info_date = subprocess.check_output(['git', '--no-pager', 'log', '-1', '--format=%ct', '--', image_name], text=True).strip()
-    if info_date and int(info_date) > int(master_date):
-        print(f"Skipping image: {image_name} as info modify date: {info_date} is greater than master date: {master_date}")
-        return
-    print(f"Checking last tag for: {image_name}. master date: [{master_date}]. info date: [{info_date}]")
-    last_tag, last_date = get_latest_tag(image_name)
-    full_name = "{}:{}".format(image_name, last_tag)
+def inspect_image_tag(image_name, image_tag, force=False, is_last_tag=False):
+    full_name = "{}:{}".format(image_name, image_tag)
     dir = "{}/{}".format(sys.path[0], image_name)
     if not os.path.exists(dir):
         os.makedirs(dir)
-    info_file = "{}/{}.md".format(dir, last_tag)
-    last_file = "{}/last.md".format(dir)
+    info_file = "{}/{}.md".format(dir, image_tag)
+
     if not force and os.path.exists(info_file):
         print("Info file: {} exists skipping image".format(info_file))
         return
@@ -369,7 +374,7 @@ def process_image(image_name, force):
     temp_file = tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', delete=False)
     print("Using temp file: " + temp_file.name)
     try:
-        temp_file.write("# `{}:{}`\n".format(image_name, last_tag))
+        temp_file.write("# `{}:{}`\n".format(image_name, image_tag))
         inspect_image(full_name, temp_file)
         docker_trust(full_name, temp_file)
         temp_file.write("## `Python Packages`\n\n")
@@ -378,7 +383,10 @@ def process_image(image_name, force):
         list_os_packages(full_name, temp_file)
         temp_file.close()
         shutil.move(temp_file.name, info_file)
-        shutil.copy(info_file, last_file)
+        ADDED_IMAGES.append(full_name)
+        if is_last_tag:
+            last_file = "{}/last.md".format(dir)
+            shutil.copy(info_file, last_file)
     except Exception as e:
         print("Error: {}".format(e))
         if isinstance(e, subprocess.CalledProcessError):
@@ -388,6 +396,52 @@ def process_image(image_name, force):
     finally:
         print(f"Removing Docker image from local runner: {full_name}")
         subprocess.call(["docker", "rmi", full_name])
+
+
+def process_image(image_name, force):
+    print("=================\nProcessing: " + image_name)
+    master_dir = f'docker/{image_name.split("/")[1]}'
+    master_date = subprocess.check_output(['git', '--no-pager', 'log', '-1', '--format=%ct', 'origin/master', '--', master_dir], text=True, cwd=DOCKERFILES_DIR).strip()
+    if not master_date:
+        print(f"Skipping image: {image_name} as it is not in our master repository")
+        return
+
+    print(f"Checking last tag and old tags for: {image_name}")
+    last_tag, old_tags = get_latest_and_old_tags(image_name)
+    
+    # get all the image tags for this image from docker_images_metadata.json
+    docker_images_metadata = DOCKER_IMAGES_METADATA_FILE_CONTENT.get("docker_images",{}).get(image_name.replace('demisto/', ''))
+    
+    # get the image tags we use in content repo that not exists in docker_images_metadata.json
+    tags_need_to_add = [last_tag]
+    content_images = CONTENT_DOCKER_IMAGES.get(image_name, [])
+    for tag in content_images:
+        if docker_images_metadata and tag not in docker_images_metadata.keys():
+            tags_need_to_add.append(tag)
+
+    global REMOVED_IMAGES
+    global ADDED_IMAGES
+    global FAILED_INSPECT_IMAGES
+
+    # remove old dockers from docker_images_metadata.json
+    if docker_images_metadata:
+        for tag in old_tags:
+            if tag in docker_images_metadata.keys() and tag not in tags_need_to_add:
+                del docker_images_metadata[tag]
+                tag_md_file = os.path.join(sys.path[0], image_name, f'{tag}.md')
+                if os.path.exists(tag_md_file):
+                    os.remove(tag_md_file)
+                REMOVED_IMAGES.append(f"{image_name}:{tag}")
+
+
+    # inspect image tags and create the info files
+    for tag_to_add in tags_need_to_add:
+        try:
+            inspect_image_tag(image_name,tag_to_add,force, last_tag == tag_to_add)
+        except Exception as e:
+            print(f'Failed to inspect {f"{image_name}:{tag}"} error: {e}')
+            print(traceback.format_exc())
+            FAILED_INSPECT_IMAGES.append(f"{image_name}:{tag}")
 
 
 def process_org(org_name, force):
@@ -459,13 +513,81 @@ def checkout_dockerfiles_repo():
     subprocess.check_call(['git', 'clone', 'https://github.com/demisto/dockerfiles', DOCKERFILES_DIR])
 
 
+def checkout_content_repo():
+    if os.path.exists(CONTENT_DIR):
+        print(f'content dir {CONTENT_DIR} exists. Skipping checkout!')
+        return
+    print(f'checking out content project to: {CONTENT_DIR}'
+          ' (Note: for local testing you can set the  env var CONTENT_DIR to your content repo to avoid this checkout) ....')
+    os.mkdir(CONTENT_DIR)
+    subprocess.check_call(['git', 'clone', 'https://github.com/demisto/content', CONTENT_DIR])
+
+
+def get_yaml_files_in_directory(directory):
+    """Recursively fetches all .yml files in content repo"""
+    yml_files = []
+    for root, dirs, files in os.walk(directory):
+        dirs[:] = [d for d in dirs if 'playbook' not in d.lower()
+                   and 'rules' not in d.lower() and 'template' not in d.lower()]
+        for file in files:
+            if file.endswith('.yml') or fiyle.endswith('.yaml'):
+                yml_files.append(os.path.join(root, file))
+
+    return yml_files
+
+def read_dockers_from_all_yml_files(directory):
+    """Get the docker images from yml files"""
+    yml_files = get_yaml_files_in_directory(directory)
+    all_docker_image = {}
+    for file_path in yml_files:
+        try:
+            with open(file_path, 'r') as file:
+                data = yaml.safe_load(file)  # Load the YAML file
+
+                if not data.get('deprecated') and data.get('type') != 'javascript':
+                    docker_images = set()
+                    script_value = data.get('script', {})
+                    
+                    # get the alt_dockerimages value
+                    if data.get('alt_dockerimages'):
+                        docker_images.update(data.get('alt_dockerimages'))
+                    elif script_value and isinstance(script_value,dict) and script_value.get('alt_dockerimages'):
+                        docker_images.update(data.get('script').get('alt_dockerimages'))
+
+                    # get the docker image
+                    if data.get('dockerimage'):
+                        docker_images.add(data.get('dockerimage'))
+                    elif script_value and isinstance(script_value,dict) and script_value.get('dockerimage'):
+                        docker_images.add(data.get('script').get('dockerimage'))
+
+                    # update all_docker_image dict
+                    for docker_image in docker_images:
+                        image_name, tag = docker_image.split(':')
+                        
+                        # add the tag to the dictionary, ensuring the list of tags is distinct
+                        if image_name not in all_docker_image:
+                            all_docker_image[image_name] = {tag}
+                        else:
+                            all_docker_image[image_name].add(tag)  # add tag if it's not already present
+        except Exception as e:
+            print(f"Error reading {file_path}: {e}")
+
+    # Convert sets to lists (for the final output)
+    for key in all_docker_image:
+        all_docker_image[key] = list(all_docker_image[key])
+            
+    return all_docker_image
+
+
 def main():
     parser = argparse.ArgumentParser(description='Fetch docker repo info. Will fetch the docker image and then generate license info',
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument("docker_image", help="The docker image name to use (ie: demisto/python). Optional." +
+    parser.add_argument("--docker-image", help="The docker image name to use (ie: demisto/python). Optional." +
                         "If not specified will scan all images in the demisto organization", nargs="?")
     parser.add_argument("--force", help="Force refetch even if license data already exists", action='store_true')
     parser.add_argument("--no-verify-ssl", help="Don't verify ssl certs for requests (for testing behind corp firewall)", action='store_true')
+    parser.add_argument("--slack-token", help="The token for slack.")
+    parser.add_argument("--slack-channel", help="The slack channel in which to send the notification.")
     args = parser.parse_args()
     global VERIFY_SSL
     VERIFY_SSL = not args.no_verify_ssl
@@ -473,6 +595,13 @@ def main():
         requests.packages.urllib3.disable_warnings()
     global USED_PACKAGES
     checkout_dockerfiles_repo()
+
+    # set CONTENT_DOCKER_IMAGES value with all the docker images we use in content repo
+    checkout_content_repo()
+    all_content_dockers = read_dockers_from_all_yml_files(f'{CONTENT_DIR}/Packs')
+    global CONTENT_DOCKER_IMAGES
+    CONTENT_DOCKER_IMAGES = all_content_dockers
+    
     used_packages_path = "{}/{}".format(sys.path[0], USED_PACKAGES_FILE)
     if os.path.isfile(used_packages_path):
         with open(used_packages_path) as f:
@@ -489,6 +618,12 @@ def main():
     generate_readme_listing()
     generate_csv()
     save_to_docker_files_metadata_json_file()
+    
+    # send Slack notification
+    global REMOVED_IMAGES
+    global ADDED_IMAGES
+    global FAILED_INSPECT_IMAGES
+    slack_notifier(args.slack_token, args.slack_channel, REMOVED_IMAGES, ADDED_IMAGES, FAILED_INSPECT_IMAGES)
 
 
 if __name__ == "__main__":

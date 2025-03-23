@@ -6,9 +6,12 @@ on:
       - master
   schedule:
     - cron: '0 1 * * *'
+  pull_request:
+    types: [ labeled ]
 
 jobs:
   update_docker_repo_info:
+    if: ${{ github.event_name == 'pull_request' && github.event.label.name == 'test-dockers-update' || github.event_name == 'schedule' }}
     runs-on: ubuntu-latest
 
     steps:
@@ -29,7 +32,10 @@ jobs:
         run: pipenv install
 
       - name: Run update-docker-repo-info script
-        run: pipenv run ./update-docker-repo-info.py
+        env:
+          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+          SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
+        run: pipenv run ./update-docker-repo-info.py --slack-token "$SLACK_TOKEN" --slack-channel "$SLACK_CHANNEL"
 
       - name: Configure Git for commit
         run: |
@@ -39,18 +45,30 @@ jobs:
       - name: Check for changes
         id: git_status
         run: |
+          EVENT_NAME="${{ github.event_name }}"
+          if [ "$EVENT_NAME" == "pull_request" ]; then
+            git fetch
+            git switch $GITHUB_HEAD_REF
+            git pull
+          fi
+          
           git status --short > git_changes.txt
           cat git_changes.txt
+          if [ -s git_changes.txt ]; then
+            echo "git_changes=true" >> $GITHUB_ENV
+          else
+            echo "git_changes=false" >> $GITHUB_ENV
+          fi
 
       - name: Upload artifacts (if changes)
-        if: steps.git_status.outputs.changes != ''
+        if: env.git_changes == 'true'
         run: |
           mkdir -p artifacts
-          cat git_changes.txt | awk '{print $2}' | sed 's:/*$::' | xargs -I {} cp -rf {} artifacts/. || echo "cp failed for some reason. continue..."
+          cat git_changes.txt | awk '$1 != "D" {print $2}' | sed 's:/*$::' | xargs -I {} cp -rf {} artifacts/. || echo "cp failed for some reason. continue..."
         continue-on-error: true
 
       - name: Commit and push changes
-        if: steps.git_status.outputs.changes != ''
+        if: env.git_changes == 'true'
         run: |
           git add .
           git commit -m "$(date): auto repo info update [skip ci]"
