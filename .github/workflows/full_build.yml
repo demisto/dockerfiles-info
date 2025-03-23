@@ -1,6 +1,5 @@
 name: Docker Repository Update
 
-# on: push
 on:
   push:
     branches:
@@ -36,7 +35,7 @@ jobs:
         env:
           SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
           SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
-        run: pipenv run ./update-docker-repo-info.py --slack-token "$SLACK_TOKEN" --slack-channel "$SLACK_CHANNEL" --docker-image demisto/crypto
+        run: pipenv run ./update-docker-repo-info.py --slack-token "$SLACK_TOKEN" --slack-channel "$SLACK_CHANNEL"
 
       - name: Configure Git for commit
         run: |
@@ -46,16 +45,12 @@ jobs:
       - name: Check for changes
         id: git_status
         run: |
-          echo "Current branch is: $GITHUB_HEAD_REF"
-
           EVENT_NAME="${{ github.event_name }}"
-          echo "Event name is: $EVENT_NAME"
           if [ "$EVENT_NAME" == "pull_request" ]; then
             git fetch
             git switch $GITHUB_HEAD_REF
             git pull
           fi
-          
           
           git status --short > git_changes.txt
           cat git_changes.txt

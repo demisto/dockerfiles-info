@@ -360,10 +360,6 @@ def list_os_packages(image_name, out_file):
 
 
 def inspect_image_tag(image_name, image_tag, force=False, is_last_tag=False):
-    if image_tag == '1.0.0.2787132':
-        raise Exception('TEST FAILURE')
-    
-    
     full_name = "{}:{}".format(image_name, image_tag)
     dir = "{}/{}".format(sys.path[0], image_name)
     if not os.path.exists(dir):
@@ -600,7 +596,7 @@ def main():
     global USED_PACKAGES
     checkout_dockerfiles_repo()
 
-    # set CONTENT_DOCKER_IMAGES value with all the dockers we use in content repo
+    # set CONTENT_DOCKER_IMAGES value with all the docker images we use in content repo
     checkout_content_repo()
     all_content_dockers = read_dockers_from_all_yml_files(f'{CONTENT_DIR}/Packs')
     print('all_content_dockers')
@@ -628,6 +624,7 @@ def main():
     # send Slack notification
     global REMOVED_IMAGES
     global ADDED_IMAGES
+    global FAILED_INSPECT_IMAGES
     slack_notifier(args.slack_token, args.slack_channel, REMOVED_IMAGES, ADDED_IMAGES, FAILED_INSPECT_IMAGES)
 
 
