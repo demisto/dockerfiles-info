@@ -599,8 +599,6 @@ def main():
     # set CONTENT_DOCKER_IMAGES value with all the docker images we use in content repo
     checkout_content_repo()
     all_content_dockers = read_dockers_from_all_yml_files(f'{CONTENT_DIR}/Packs')
-    print('all_content_dockers')
-    print(all_content_dockers.get('demisto/python3'))
     global CONTENT_DOCKER_IMAGES
     CONTENT_DOCKER_IMAGES = all_content_dockers
     
