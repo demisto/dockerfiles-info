@@ -13,7 +13,7 @@ def slack_notifier(slack_token, channel_id, removed_images ,added_images, failed
         # send a message to Slack
         response = client.chat_postMessage(
             channel=channel_id,
-            text='Update `dockerfiles-info` finished'
+            text=f'Update `dockerfiles-info` finished - Added images:{len(added_images)}, Removed images: {len(removed_images)}'
         )
 
         message_ts = response['ts']
