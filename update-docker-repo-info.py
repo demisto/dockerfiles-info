@@ -580,6 +580,7 @@ def read_dockers_from_all_yml_files(directory):
 
 
 def main():
+    exit(0)
     parser = argparse.ArgumentParser(description='Fetch docker repo info. Will fetch the docker image and then generate license info',
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("--docker-image", help="The docker image name to use (ie: demisto/python). Optional." +
