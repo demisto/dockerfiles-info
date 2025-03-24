@@ -1,25 +1,22 @@
-# `demisto/py-ews:5.4.3.110239`
+# `demisto/py-ews:5.5.0.118073`
 
 ## Docker Metadata
-- Image Size: 108.13 MB
-- Image ID: `sha256:115b3e83882aee77f5cb2eedc6bd12e28e41569832cea9c5e08b13e50f83e453`
-- Created: `2024-09-06T17:14:01.554956668Z`
+- Image Size: 104.03 MB
+- Image ID: `sha256:f744c98d020f95659bde8d7ef7ded70acf6b8cebebe69fba34dd3c9948d2209a`
+- Created: `2024-12-08T12:10:19.482036654Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
-  - `GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D`
-  - `PYTHON_VERSION=3.11.9`
-  - `PYTHON_PIP_VERSION=24.0`
-  - `PYTHON_SETUPTOOLS_VERSION=65.5.1`
-  - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/def4aec84b261b939137dd1c69eff0aabb4a7bf4/public/get-pip.py`
-  - `PYTHON_GET_PIP_SHA256=bc37786ec99618416cc0a0ca32833da447f4d91ab51d2c138dd15b7af21e8e9a`
-  - `DOCKER_IMAGE=demisto/py-ews:5.4.3.110239`
+  - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
+  - `PYTHON_VERSION=3.12.7`
+  - `PYTHON_SHA256=24887b92e2afd4a2ac602419ad4b596372f67ac9b077190f459aba390faf5550`
+  - `DOCKER_IMAGE=demisto/py-ews:5.5.0.118073`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:8323ff01273bc16d791bce68e401d0751678442a`
-  - `org.opencontainers.image.version:5.4.3.110239`
+  - `org.opencontainers.image.revision:97d52e5851efd01cc2e8e6e988ffc8f3e1309ddb`
+  - `org.opencontainers.image.version:5.5.0.118073`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -35,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py-ews:5.4.3.110239
+Signatures for demisto/py-ews:5.5.0.118073
 
-SIGNED TAG          DIGEST                                                             SIGNERS
-5.4.3.110239        f455118053371ee9f0c91322a55ff79d218d980eecc9247c98228a0034ceedc6   (Repo Admin)
+SIGNED TAG     DIGEST                                                             SIGNERS
+5.5.0.118073   fc05b3163077d8b2e81074a6c467d978dd72dd2577919b5dc6c3e1768fe42e49   (Repo Admin)
 
-Administrative keys for demisto/py-ews:5.4.3.110239
+Administrative keys for demisto/py-ews:5.5.0.118073
 
   Repository Key:	c8b3a877659c96dd5e16db568d8f817a6eabb390ecfda3f567a6bc1929408237
   Root Key:	61b6aad19eee856a8c06a402a23627b05539b427be49b6335a4b309706ee1cdc
@@ -62,10 +59,10 @@ Administrative keys for demisto/py-ews:5.4.3.110239
 ### `cached-property`
 
 * Summary: A decorator for caching properties in classes.
-* Version: 1.5.2
+* Version: 2.0.1
 * Pypi: https://pypi.org/project/cached-property/
 * Homepage: https://github.com/pydanny/cached-property
-* Author: Daniel Greenfeld pydanny@gmail.com
+* Author: Daniel Roy Greenfeld daniel@feldroy.com
 * License :: OSI Approved :: BSD License
 
 ### `certifi`
@@ -98,16 +95,16 @@ Administrative keys for demisto/py-ews:5.4.3.110239
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.3.2
+* Version: 3.4.0
 * Pypi: https://pypi.org/project/charset-normalizer/
-* Homepage: https://github.com/Ousret/charset_normalizer
-* Author: Ahmed TAHRI ahmed.tahri@cloudnursery.dev
+* Homepage: None
+* Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
 * License :: OSI Approved :: MIT License
 
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 43.0.1
+* Version: 44.0.0
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The cryptography developers <cryptography-dev@python.org> The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -128,8 +125,8 @@ Administrative keys for demisto/py-ews:5.4.3.110239
 * Summary: Decorators for Humans
 * Version: 5.1.1
 * Pypi: https://pypi.org/project/decorator/
-* Homepage: https://github.com/micheles/decorator
-* Author: Michele Simionato michele.simionato@gmail.com
+* Homepage: None
+* Author: Michele Simionato <michele.simionato@gmail.com>
 * License :: OSI Approved :: BSD License
 
 ### `defusedxml`
@@ -144,9 +141,9 @@ Administrative keys for demisto/py-ews:5.4.3.110239
 ### `dnspython`
 
 * Summary: DNS toolkit
-* Version: 2.6.1
+* Version: 2.7.0
 * Pypi: https://pypi.org/project/dnspython/
-* Homepage: 
+* Homepage: None
 * Author: Bob Halley <halley@dnspython.org>
 * License :: ISC License
 
@@ -162,7 +159,7 @@ Administrative keys for demisto/py-ews:5.4.3.110239
 ### `exchangelib`
 
 * Summary: Client for Microsoft Exchange Web Services (EWS)
-* Version: 5.4.3
+* Version: 5.5.0
 * Pypi: https://pypi.org/project/exchangelib/
 * Homepage: None
 * Author: Erik Cederstrand <erik@cederstrand.dk>
@@ -171,7 +168,7 @@ Administrative keys for demisto/py-ews:5.4.3.110239
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.15.4
+* Version: 3.16.1
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -198,7 +195,7 @@ Administrative keys for demisto/py-ews:5.4.3.110239
 ### `gssapi`
 
 * Summary: Python GSSAPI Wrapper
-* Version: 1.8.3
+* Version: 1.9.0
 * Pypi: https://pypi.org/project/gssapi/
 * Homepage: https://github.com/pythongssapi/python-gssapi
 * Author: The Python GSSAPI Team jborean93@gmail.com
@@ -207,7 +204,7 @@ Administrative keys for demisto/py-ews:5.4.3.110239
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.8
+* Version: 3.10
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -225,16 +222,16 @@ Administrative keys for demisto/py-ews:5.4.3.110239
 ### `isodate`
 
 * Summary: An ISO 8601 date/time/duration parser and formatter
-* Version: 0.6.1
+* Version: 0.7.2
 * Pypi: https://pypi.org/project/isodate/
-* Homepage: https://github.com/gweis/isodate/
-* Author: Gerhard Weis gerhard.weis@proclos.com
+* Homepage: None
+* Author: Gerhard Weis
 * License :: OSI Approved :: BSD License
 
 ### `krb5`
 
 * Summary: Kerberos API bindings for Python
-* Version: 0.5.1
+* Version: 0.7.0
 * Pypi: https://pypi.org/project/krb5/
 * Homepage: https://github.com/jborean93/pykrb5
 * Author: Jordan Borean jborean93@gmail.com
@@ -288,7 +285,7 @@ Administrative keys for demisto/py-ews:5.4.3.110239
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 24.2
+* Version: 25.0.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -333,7 +330,7 @@ Administrative keys for demisto/py-ews:5.4.3.110239
 ### `pyspnego`
 
 * Summary: Windows Negotiate Authentication Client and Server
-* Version: 0.11.0
+* Version: 0.11.2
 * Pypi: https://pypi.org/project/pyspnego/
 * Homepage: None
 * Author: Jordan Borean <jborean93@gmail.com>
@@ -352,7 +349,7 @@ Administrative keys for demisto/py-ews:5.4.3.110239
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2024.1
+* Version: 2024.2
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -370,7 +367,7 @@ Administrative keys for demisto/py-ews:5.4.3.110239
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.5.15
+* Version: 2024.11.6
 * Pypi: https://pypi.org/project/regex/
 * Homepage: https://github.com/mrabarnett/mrab-regex
 * Author: Matthew Barnett regex@mrabarnett.plus.com
@@ -424,7 +421,7 @@ Administrative keys for demisto/py-ews:5.4.3.110239
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 74.1.2
+* Version: 75.6.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -442,16 +439,16 @@ Administrative keys for demisto/py-ews:5.4.3.110239
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.1.2
+* Version: 5.1.3
 * Pypi: https://pypi.org/project/tldextract/
-* Homepage: 
+* Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
 * License :: OSI Approved :: BSD License
 
 ### `tzdata`
 
 * Summary: Provider of IANA time zone data
-* Version: 2024.1
+* Version: 2024.2
 * Pypi: https://pypi.org/project/tzdata/
 * Homepage: https://github.com/python/tzdata
 * Author: Python Software Foundation datetime-sig@python.org
@@ -462,7 +459,7 @@ Administrative keys for demisto/py-ews:5.4.3.110239
 * Summary: tzinfo object for the local timezone
 * Version: 5.2
 * Pypi: https://pypi.org/project/tzlocal/
-* Homepage: 
+* Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
 * License :: OSI Approved :: MIT License
 
@@ -473,15 +470,6 @@ Administrative keys for demisto/py-ews:5.4.3.110239
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
-* License :: OSI Approved :: MIT License
-
-### `wheel`
-
-* Summary: A built-package format for Python
-* Version: 0.44.0
-* Pypi: https://pypi.org/project/wheel/
-* Homepage: None
-* Author: Daniel Holth <dholth@fastmail.fm>
 * License :: OSI Approved :: MIT License
 
 ## `OS Packages`
@@ -519,11 +507,10 @@ Administrative keys for demisto/py-ews:5.4.3.110239
 * libc-bin	2.31-13+deb11u11
 * libc6:amd64	2.31-13+deb11u11
 * libcap-ng0:amd64	0.7.9-2.2+b1
-* libcom-err2:amd64	1.46.2-2
+* libcom-err2:amd64	1.46.2-2+deb11u1
 * libcrypt1:amd64	1:4.4.18-4
 * libdb5.3:amd64	5.3.28+dfsg1-0.8
 * libdebconfclient0:amd64	0.260
-* libexpat1:amd64	2.2.10-2+deb11u5
 * libext2fs2:amd64	1.46.6-1~bpo11+1
 * libffi7:amd64	3.3-6
 * libgcc-s1:amd64	10.2.1-6
@@ -560,11 +547,11 @@ Administrative keys for demisto/py-ews:5.4.3.110239
 * libselinux1:amd64	3.1-3
 * libsemanage-common	3.1-1
 * libsemanage1:amd64	3.1-1+b2
-* libsepol1:amd64	3.1-1
+* libsepol1:amd64	3.1-1+deb11u1
 * libsmartcols1:amd64	2.36.1-8+deb11u2
-* libsqlite3-0:amd64	3.34.1-3
+* libsqlite3-0:amd64	3.34.1-3+deb11u1
 * libss2:amd64	1.46.6-1~bpo11+1
-* libssl1.1:amd64	1.1.1w-0+deb11u1
+* libssl1.1:amd64	1.1.1w-0+deb11u2
 * libstdc++6:amd64	10.2.1-6
 * libsystemd0:amd64	252.29-1~deb12u1~bpo11+1
 * libtasn1-6:amd64	4.16.0-2+deb11u1
@@ -586,14 +573,14 @@ Administrative keys for demisto/py-ews:5.4.3.110239
 * ncurses-base	6.2+20201114-2+deb11u2
 * ncurses-bin	6.2+20201114-2+deb11u2
 * netbase	6.3
-* openssl	1.1.1w-0+deb11u1
+* openssl	1.1.1w-0+deb11u2
 * passwd	1:4.8.1-1
-* perl-base	5.32.1-4+deb11u3
+* perl-base	5.32.1-4+deb11u4
 * procps	2:3.3.17-5
 * readline-common	8.1-1
 * sed	4.7-1
 * sysvinit-utils	2.96-7+deb11u1
 * tar	1.34+dfsg-1+deb11u1
-* tzdata	2024a-0+deb11u1
+* tzdata	2024b-0+deb11u1
 * util-linux	2.36.1-8+deb11u2
 * zlib1g:amd64	1:1.2.11.dfsg-2+deb11u2
