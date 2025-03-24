@@ -69,7 +69,6 @@ jobs:
         run: |
           mkdir -p artifacts
           cat git_changes.txt | awk '$1 != "D" {print $2}' | sed 's:/*$::' | xargs -I {} cp -rf {} artifacts/. || echo "cp failed for some reason. continue..."
-        continue-on-error: true
 
       - name: Commit and push changes
         if: env.git_changes == 'true'
@@ -79,7 +78,6 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        continue-on-error: true
 
       - name: Print completion message
         run: echo "Docker repository update complete."
