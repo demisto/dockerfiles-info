@@ -8,6 +8,8 @@ on:
     - cron: '0 10 * * *'
   pull_request:
     types: [ labeled ]
+  permissions:
+    contents: write
 
 jobs:
   update_docker_repo_info:
@@ -16,7 +18,9 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.CONTENT_BOT_GITHUB_TOKEN }}
 
       - name: Set up Python environment
         uses: actions/setup-python@v4
@@ -39,8 +43,8 @@ jobs:
 
       - name: Configure Git for commit
         run: |
-          git config --global user.email "dc-builder@users.noreply.github.com"
-          git config --global user.name "dc-builder"
+          git config --global user.email "content-bot@users.noreply.github.com"
+          git config --global user.name "content-bot"
 
       - name: Check for changes
         id: git_status
