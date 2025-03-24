@@ -530,7 +530,7 @@ def get_yaml_files_in_directory(directory):
         dirs[:] = [d for d in dirs if 'playbook' not in d.lower()
                    and 'rules' not in d.lower() and 'template' not in d.lower()]
         for file in files:
-            if file.endswith('.yml') or fiyle.endswith('.yaml'):
+            if file.endswith('.yml') or file.endswith('.yaml'):
                 yml_files.append(os.path.join(root, file))
 
     return yml_files
