@@ -411,9 +411,6 @@ def process_image(image_name, force):
         return
 
     print(f"Checking last tag and old tags for: {image_name}")
-    
-    
-    
     try:
         last_tag, old_tags = get_latest_and_old_tags(image_name)
     except Exception as e:
@@ -421,9 +418,6 @@ def process_image(image_name, force):
             print(traceback.format_exc())
             FAILED_INSPECT_IMAGES.append(image_name)
             return
-    
-    
-
     
     # get all the image tags for this image from docker_images_metadata.json
     docker_images_metadata = DOCKER_IMAGES_METADATA_FILE_CONTENT.get("docker_images",{}).get(image_name.replace('demisto/', ''))
