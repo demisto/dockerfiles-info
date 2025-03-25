@@ -399,6 +399,10 @@ def inspect_image_tag(image_name, image_tag, force=False, is_last_tag=False):
 
 
 def process_image(image_name, force):
+    global REMOVED_IMAGES
+    global ADDED_IMAGES
+    global FAILED_INSPECT_IMAGES
+    
     print("=================\nProcessing: " + image_name)
     master_dir = f'docker/{image_name.split("/")[1]}'
     master_date = subprocess.check_output(['git', '--no-pager', 'log', '-1', '--format=%ct', 'origin/master', '--', master_dir], text=True, cwd=DOCKERFILES_DIR).strip()
@@ -407,7 +411,13 @@ def process_image(image_name, force):
         return
 
     print(f"Checking last tag and old tags for: {image_name}")
-    last_tag, old_tags = get_latest_and_old_tags(image_name)
+    try:
+        last_tag, old_tags = get_latest_and_old_tags(image_name)
+    except Exception as e:
+            print(f'Failed to get image tags for {image_name} error: {e}')
+            print(traceback.format_exc())
+            FAILED_INSPECT_IMAGES.append(image_name)
+            return
     
     # get all the image tags for this image from docker_images_metadata.json
     docker_images_metadata = DOCKER_IMAGES_METADATA_FILE_CONTENT.get("docker_images",{}).get(image_name.replace('demisto/', ''))
@@ -418,10 +428,6 @@ def process_image(image_name, force):
     for tag in content_images:
         if docker_images_metadata and tag not in docker_images_metadata.keys():
             tags_need_to_add.append(tag)
-
-    global REMOVED_IMAGES
-    global ADDED_IMAGES
-    global FAILED_INSPECT_IMAGES
 
     # remove old dockers from docker_images_metadata.json
     if docker_images_metadata:
