@@ -52,11 +52,7 @@ def http_get(url, **kwargs):
     Returns:
         requests.Response -- response from reqeusts.get§
     """
-    res =  requests.get(url, verify=VERIFY_SSL, **kwargs)
-    if res.headers.get('x-ratelimit-remaining') and int(res.headers.get('x-ratelimit-remaining') == 1):
-        time.sleep(30)
-        res =  requests.get(url, verify=VERIFY_SSL, **kwargs)
-    return res
+    return requests.get(url, verify=VERIFY_SSL, **kwargs)
 
 
 def get_docker_image_size(docker_image):
