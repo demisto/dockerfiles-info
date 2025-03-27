@@ -1,9 +1,9 @@
-# `demisto/pymisp2:2.5.9.2986300`
+# `demisto/sse-client:1.0.0.2993422`
 
 ## Docker Metadata
-- Image Size: 44.64 MB
-- Image ID: `sha256:72f9e264dc2926c60835d7c864e44b778ce64bca535bd8f2a48243ac006a9970`
-- Created: `2025-03-26T15:02:47.352114395Z`
+- Image Size: 29.21 MB
+- Image ID: `sha256:d270453db31077a06d20aa107d07c9da7d79497c92b4a234c7f2f59bd50e1946`
+- Created: `2025-03-27T11:06:37.788499895Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.8`
   - `PYTHON_SHA256=c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e`
-  - `DOCKER_IMAGE=demisto/pymisp2:2.5.9.2986300`
+  - `DOCKER_IMAGE=demisto/sse-client:1.0.0.2993422`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:0348ae64d796a0436643f9a0cc79db7f5ab384ca`
-  - `org.opencontainers.image.version:2.5.9.2986300`
+  - `org.opencontainers.image.revision:a747bc14ecb882cfbe37cde6b5334a5b6a2643f8`
+  - `org.opencontainers.image.version:1.0.0.2993422`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,29 +29,20 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pymisp2:2.5.9.2986300
+Signatures for demisto/sse-client:1.0.0.2993422
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-2.5.9.2986300   32f4a23a9af4be19062404e171e2dc662b985a465878fdab2e19a6229041d69c   (Repo Admin)
+1.0.0.2993422   670d71c781ecc1a760c735fa1683d9575c769d16486ff7b3bc6de5f3ee2828bc   (Repo Admin)
 
-Administrative keys for demisto/pymisp2:2.5.9.2986300
+Administrative keys for demisto/sse-client:1.0.0.2993422
 
-  Repository Key:	09ebfde17c018d76be98417c3488d04725c1df92e6ce8f476cc60d3c4c25a1c0
-  Root Key:	666b28cbde1c31c51d6bdfbbffa40a304c13a07abd31eac34b7442ce7df9eca4
+  Repository Key:	f8bd875fb0b3d5cbdd641cd80ce0afc9da57d1610b56209268c4f0ec9bc6303d
+  Root Key:	2eb2b8a2e191fc10ba7d6e689175d58195915ad3bef157e895d0214dc5b6aeab
 
 ```
 
 ## `Python Packages`
 
-
-### `beautifulsoup4`
-
-* Summary: Screen-scraping library
-* Version: 4.12.3
-* Pypi: https://pypi.org/project/beautifulsoup4/
-* Homepage: None
-* Author: Leonard Richardson <leonardr@segfault.org>
-* License :: OSI Approved :: MIT License
 
 ### `certifi`
 
@@ -62,15 +53,6 @@ Administrative keys for demisto/pymisp2:2.5.9.2986300
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
-### `cffi`
-
-* Summary: Foreign Function Interface for Python calling C code.
-* Version: 1.17.1
-* Pypi: https://pypi.org/project/cffi/
-* Homepage: http://cffi.readthedocs.org
-* Author: Armin Rigo, Maciej Fijalkowski python-cffi@googlegroups.com
-* License :: OSI Approved :: MIT License
-
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
@@ -79,34 +61,6 @@ Administrative keys for demisto/pymisp2:2.5.9.2986300
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
 * License :: OSI Approved :: MIT License
-
-### `colorclass`
-
-* Summary: Colorful worry-free console applications for Linux, Mac OS X, and Windows.
-* Version: 2.2.2
-* Pypi: https://pypi.org/project/colorclass/
-* Homepage: https://github.com/matthewdeanmartin/colorclass
-* Author: Robpol86 robpol86@gmail.com
-* License :: OSI Approved :: MIT License
-
-### `compressed_rtf`
-
-* Summary: Compressed Rich Text Format (RTF) compression and decompression package
-* Version: 1.0.6
-* Pypi: https://pypi.org/project/compressed-rtf/
-* Homepage: https://github.com/delimitry/compressed_rtf
-* Author: Dmitry Alimov
-* License: MIT
-
-### `cryptography`
-
-* Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 44.0.1
-* Pypi: https://pypi.org/project/cryptography/
-* Homepage: None
-* Author: The cryptography developers <cryptography-dev@python.org> The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
 
 ### `dateparser`
 
@@ -125,33 +79,6 @@ Administrative keys for demisto/pymisp2:2.5.9.2986300
 * Homepage: https://github.com/tiran/defusedxml
 * Author: Christian Heimes christian@python.org
 * License :: OSI Approved :: Python Software Foundation License
-
-### `Deprecated`
-
-* Summary: Python @deprecated decorator to deprecate old python classes, functions or methods.
-* Version: 1.2.18
-* Pypi: https://pypi.org/project/Deprecated/
-* Homepage: https://github.com/laurent-laporte-pro/deprecated
-* Author: Laurent LAPORTE laurent.laporte.pro@gmail.com
-* License :: OSI Approved :: MIT License
-
-### `easygui`
-
-* Summary: EasyGUI is a module for very simple, very easy GUI programming in Python.  EasyGUI is different from other GUI generators in that EasyGUI is NOT event-driven.  Instead, all GUI interactions are invoked by simple function calls.
-* Version: 0.98.3
-* Pypi: https://pypi.org/project/easygui/
-* Homepage: https://github.com/robertlugg/easygui
-* Author: easygui developers and Stephen Ferg robert.lugg@gmail.com
-* License :: OSI Approved :: BSD License
-
-### `ebcdic`
-
-* Summary: Additional EBCDIC codecs
-* Version: 1.1.1
-* Pypi: https://pypi.org/project/ebcdic/
-* Homepage: https://pypi.python.org/pypi/ebcdic
-* Author: Thomas Aglassinger roskakori@users.sourceforge.net
-* License :: OSI Approved :: BSD License
 
 ### `filelock`
 
@@ -180,15 +107,6 @@ Administrative keys for demisto/pymisp2:2.5.9.2986300
 * Author: Kim Davies <kim+pypi@gumleaf.org>
 * License :: OSI Approved :: BSD License
 
-### `lark`
-
-* Summary: a modern parsing library
-* Version: 1.1.9
-* Pypi: https://pypi.org/project/lark/
-* Homepage: None
-* Author: Erez Shinan <erezshin@gmail.com>
-* License :: OSI Approved :: MIT License
-
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
@@ -196,15 +114,6 @@ Administrative keys for demisto/pymisp2:2.5.9.2986300
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
-* License :: OSI Approved :: MIT License
-
-### `msoffcrypto-tool`
-
-* Summary: Python tool and library for decrypting and encrypting MS Office files using a password or other keys
-* Version: 5.4.2
-* Pypi: https://pypi.org/project/msoffcrypto-tool/
-* Homepage: https://github.com/nolze/msoffcrypto-tool
-* Author: nolze nolze@int3.net
 * License :: OSI Approved :: MIT License
 
 ### `olefile`
@@ -216,15 +125,6 @@ Administrative keys for demisto/pymisp2:2.5.9.2986300
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
-### `oletools`
-
-* Summary: Python tools to analyze security characteristics of MS Office and OLE files (also called Structured Storage, Compound File Binary Format or Compound Document File Format), for Malware Analysis and Incident Response #DFIR
-* Version: 0.60.2
-* Pypi: https://pypi.org/project/oletools/
-* Homepage: https://github.com/decalage2/oletools
-* Author: Philippe Lagadec nospam@decalage.info
-* License :: OSI Approved :: BSD License
-
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
@@ -232,33 +132,6 @@ Administrative keys for demisto/pymisp2:2.5.9.2986300
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
-* License :: OSI Approved :: MIT License
-
-### `pycparser`
-
-* Summary: C parser in Python
-* Version: 2.22
-* Pypi: https://pypi.org/project/pycparser/
-* Homepage: https://github.com/eliben/pycparser
-* Author: Eli Bendersky eliben@gmail.com
-* License :: OSI Approved :: BSD License
-
-### `pymisp`
-
-* Summary: Python API for MISP.
-* Version: 2.5.9
-* Pypi: https://pypi.org/project/pymisp/
-* Homepage: None
-* Author: Raphaël Vinot raphael.vinot@circl.lu
-* License :: OSI Approved :: BSD License
-
-### `pyparsing`
-
-* Summary: pyparsing module - Classes and methods to define and execute parsing grammars
-* Version: 3.2.1
-* Pypi: https://pypi.org/project/pyparsing/
-* Homepage: None
-* Author: Paul McGuire <ptmcg.gm+pyparsing@gmail.com>
 * License :: OSI Approved :: MIT License
 
 ### `PySocks`
@@ -298,15 +171,6 @@ Administrative keys for demisto/pymisp2:2.5.9.2986300
 * Author: Kirill Simonov xi@resolvent.net
 * License :: OSI Approved :: MIT License
 
-### `red-black-tree-mod`
-
-* Summary: Flexible python implementation of red black trees
-* Version: 1.20
-* Pypi: https://pypi.org/project/red-black-tree-mod/
-* Homepage: http://stromberg.dnsalias.org/~strombrg/red-black-tree-mod/
-* Author: Duncan G. Smith, Daniel Richard Stromberg strombrg@gmail.com
-* License: MIT
-
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
@@ -334,15 +198,6 @@ Administrative keys for demisto/pymisp2:2.5.9.2986300
 * Author: David Shea <reallylongword@gmail.com>
 * License :: OSI Approved :: Apache Software License
 
-### `RTFDE`
-
-* Summary: A library for extracting HTML content from RTF encapsulated HTML as commonly found in the exchange MSG email format.
-* Version: 0.1.2
-* Pypi: https://pypi.org/project/RTFDE/
-* Homepage: https://github.com/seamustuohy/RTFDE
-* Author: seamus tuohy code@seamustuohy.com
-* License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
-
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
@@ -361,14 +216,14 @@ Administrative keys for demisto/pymisp2:2.5.9.2986300
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
-### `soupsieve`
+### `sseclient-py`
 
-* Summary: A modern CSS selector implementation for Beautiful Soup.
-* Version: 2.6
-* Pypi: https://pypi.org/project/soupsieve/
-* Homepage: None
-* Author: Isaac Muse <Isaac.Muse@gmail.com>
-* License :: OSI Approved :: MIT License
+* Summary: SSE client for Python
+* Version: 1.8.0
+* Pypi: https://pypi.org/project/sseclient-py/
+* Homepage: https://github.com/mpetazzoni/sseclient
+* Author: Maxime Petazzoni maxime.petazzoni@bulix.org
+* License: Apache Software License v2
 
 ### `tldextract`
 
@@ -397,15 +252,6 @@ Administrative keys for demisto/pymisp2:2.5.9.2986300
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 * License :: OSI Approved :: MIT License
 
-### `wrapt`
-
-* Summary: Module for decorators, wrappers and monkey patching.
-* Version: 1.17.2
-* Pypi: https://pypi.org/project/wrapt/
-* Homepage: https://github.com/GrahamDumpleton/wrapt
-* Author: Graham Dumpleton Graham.Dumpleton@gmail.com
-* License :: OSI Approved :: BSD License
-
 ## `OS Packages`
 
 * .python-rundeps-20250108.182304 noarch {.python-rundeps}
@@ -425,7 +271,7 @@ Administrative keys for demisto/pymisp2:2.5.9.2986300
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.1-r1 x86_64 {e2fsprogs}
 * libcrypto3-3.3.2-r4 x86_64 {openssl}
-* libffi-3.4.7-r0 x86_64 {libffi}
+* libffi-3.4.6-r0 x86_64 {libffi}
 * libintl-0.22.5-r0 x86_64 {gettext}
 * libncursesw-6.5_p20241006-r3 x86_64 {ncurses}
 * libnsl-2.0.1-r0 x86_64 {libnsl}
