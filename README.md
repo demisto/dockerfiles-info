@@ -258,7 +258,6 @@ docker_images_metadata.json example:
 * [demisto/splunksdk](demisto/splunksdk/last.md)
 * [demisto/splunksdk-py3](demisto/splunksdk-py3/last.md)
 * [demisto/ssdeep](demisto/ssdeep/last.md)
-* [demisto/sse-client](demisto/sse-client/last.md)
 * [demisto/ssl-analyze](demisto/ssl-analyze/last.md)
 * [demisto/stix](demisto/stix/last.md)
 * [demisto/stix2](demisto/stix2/last.md)
@@ -310,4 +309,4 @@ docker_images_metadata.json example:
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2025-03-27 14:58:40.781618
+Last updated: 2025-03-24 19:17:28.674189

@@ -1,9 +1,9 @@
-# `demisto/bigquery:1.0.0.2986068`
+# `demisto/bigquery:1.0.0.2027562`
 
 ## Docker Metadata
-- Image Size: 65.68 MB
-- Image ID: `sha256:6a435f2003e55e364e835b00d48cc954575c25c2a3c9a35b431ac24ae598a50b`
-- Created: `2025-03-26T14:44:02.272637316Z`
+- Image Size: 65.63 MB
+- Image ID: `sha256:8b23bb39226243505d4b64f08c6570da71762be152f23aeae8e2bfcb45c905cd`
+- Created: `2025-01-21T09:00:09.170289168Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.7`
   - `PYTHON_SHA256=24887b92e2afd4a2ac602419ad4b596372f67ac9b077190f459aba390faf5550`
-  - `DOCKER_IMAGE=demisto/bigquery:1.0.0.2986068`
+  - `DOCKER_IMAGE=demisto/bigquery:1.0.0.2027562`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:917d9e15a8f40665b3cfc3443335fd6f0534f375`
-  - `org.opencontainers.image.version:1.0.0.2986068`
+  - `org.opencontainers.image.revision:e5d594ce4a726f827605e2ce0fa8b92a11522259`
+  - `org.opencontainers.image.version:1.0.0.2027562`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/bigquery:1.0.0.2986068
+Signatures for demisto/bigquery:1.0.0.2027562
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.2986068   c8bcfafce036a6f3116983d0737959598e78da8bd67b01f256765f509d06edf5   (Repo Admin)
+1.0.0.2027562   c666b86da02f6bab55b97da9e0dc293e2cf9eaee7374bdd49291f803514e9155   (Repo Admin)
 
-Administrative keys for demisto/bigquery:1.0.0.2986068
+Administrative keys for demisto/bigquery:1.0.0.2027562
 
   Repository Key:	50ce3296886516edcfde3c34148b7b31a0e70e68821c9e335e9851cee5284a2b
   Root Key:	e5ef65a9e7371056cf85e6b0a6be6717871b78e3fb0e40e863e477f2253acfac
@@ -50,7 +50,7 @@ Administrative keys for demisto/bigquery:1.0.0.2986068
 ### `cachetools`
 
 * Summary: Extensible memoizing collections and decorators
-* Version: 5.5.2
+* Version: 5.5.0
 * Pypi: https://pypi.org/project/cachetools/
 * Homepage: https://github.com/tkem/cachetools/
 * Author: Thomas Kemmer tkemmer@computer.org
@@ -59,7 +59,7 @@ Administrative keys for demisto/bigquery:1.0.0.2986068
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.1.31
+* Version: 2024.12.14
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -113,7 +113,7 @@ Administrative keys for demisto/bigquery:1.0.0.2986068
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.24.2
+* Version: 2.24.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -122,7 +122,7 @@ Administrative keys for demisto/bigquery:1.0.0.2986068
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.38.0
+* Version: 2.37.0
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-auth-library-python
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -131,7 +131,7 @@ Administrative keys for demisto/bigquery:1.0.0.2986068
 ### `google-cloud-bigquery`
 
 * Summary: Google BigQuery API client library
-* Version: 3.31.0
+* Version: 3.27.0
 * Pypi: https://pypi.org/project/google-cloud-bigquery/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -140,7 +140,7 @@ Administrative keys for demisto/bigquery:1.0.0.2986068
 ### `google-cloud-core`
 
 * Summary: Google Cloud API client core library
-* Version: 2.4.3
+* Version: 2.4.1
 * Pypi: https://pypi.org/project/google-cloud-core/
 * Homepage: https://github.com/googleapis/python-cloud-core
 * Author: Google LLC googleapis-packages@google.com
@@ -149,11 +149,11 @@ Administrative keys for demisto/bigquery:1.0.0.2986068
 ### `google-crc32c`
 
 * Summary: A python wrapper of the C library 'Google CRC32C'
-* Version: 1.7.0
+* Version: 1.6.0
 * Pypi: https://pypi.org/project/google-crc32c/
 * Homepage: https://github.com/googleapis/python-crc32c
 * Author: Google LLC googleapis-packages@google.com
-* License: Apache 2.0
+* License :: OSI Approved :: Apache Software License
 
 ### `google-resumable-media`
 
@@ -167,7 +167,7 @@ Administrative keys for demisto/bigquery:1.0.0.2986068
 ### `googleapis-common-protos`
 
 * Summary: Common protobufs used in Google APIs
-* Version: 1.69.2
+* Version: 1.66.0
 * Pypi: https://pypi.org/project/googleapis-common-protos/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -176,7 +176,7 @@ Administrative keys for demisto/bigquery:1.0.0.2986068
 ### `grpcio`
 
 * Summary: HTTP/2-based RPC framework
-* Version: 1.71.0
+* Version: 1.69.0
 * Pypi: https://pypi.org/project/grpcio/
 * Homepage: https://grpc.io
 * Author: The gRPC Authors grpc-io@googlegroups.com
@@ -185,7 +185,7 @@ Administrative keys for demisto/bigquery:1.0.0.2986068
 ### `grpcio-status`
 
 * Summary: Status proto mapping for gRPC
-* Version: 1.71.0
+* Version: 1.69.0
 * Pypi: https://pypi.org/project/grpcio-status/
 * Homepage: https://grpc.io
 * Author: The gRPC Authors grpc-io@googlegroups.com
@@ -258,7 +258,7 @@ Administrative keys for demisto/bigquery:1.0.0.2986068
 ### `proto-plus`
 
 * Summary: Beautiful, Pythonic protocol buffers
-* Version: 1.26.1
+* Version: 1.25.0
 * Pypi: https://pypi.org/project/proto-plus/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -267,7 +267,7 @@ Administrative keys for demisto/bigquery:1.0.0.2986068
 ### `protobuf`
 
 * Summary: None
-* Version: 5.29.4
+* Version: 5.29.3
 * Pypi: https://pypi.org/project/protobuf/
 * Homepage: https://developers.google.com/protocol-buffers/
 * Author: protobuf@googlegroups.com protobuf@googlegroups.com

@@ -1,9 +1,9 @@
-# `demisto/xsoar-tools:1.0.0.2974997`
+# `demisto/xsoar-tools:1.0.0.2957650`
 
 ## Docker Metadata
 - Image Size: 119.77 MB
-- Image ID: `sha256:66ab56ecdb5d169a24cf2fa016d79c22b20ec5ba429ea1b0c4c1d47c94a62255`
-- Created: `2025-03-25T12:30:13.630610866Z`
+- Image ID: `sha256:201a293d1fff1b30cab5dbfa11df9a49f884498147e4acbe33a1dfca74ae802a`
+- Created: `2025-03-23T14:52:54.332845576Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.8`
   - `PYTHON_SHA256=c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e`
-  - `DOCKER_IMAGE=demisto/xsoar-tools:1.0.0.2974997`
+  - `DOCKER_IMAGE=demisto/xsoar-tools:1.0.0.2957650`
   - `DEMISTO_SDK_IGNORE_CONTENT_WARNING=true`
   - `DEMISTO_SDK_SKIP_LOGGER_SETUP=true`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:80c5f9cc0bd129ce11bd782374c436ba21c7f211`
-  - `org.opencontainers.image.version:1.0.0.2974997`
+  - `org.opencontainers.image.revision:6b6764a95acd5516ef62d1734d1533a84384bd51`
+  - `org.opencontainers.image.version:1.0.0.2957650`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -31,12 +31,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/xsoar-tools:1.0.0.2974997
+Signatures for demisto/xsoar-tools:1.0.0.2957650
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.2974997   b0b2decc028de35468febaadd3f659f529bdb9f52d3ec36d6f887877548d7fc3   (Repo Admin)
+1.0.0.2957650   437a7be8a3421fb94fa00c5e5556ebff5a904d1a61680fd90fb6071d472aeac3   (Repo Admin)
 
-Administrative keys for demisto/xsoar-tools:1.0.0.2974997
+Administrative keys for demisto/xsoar-tools:1.0.0.2957650
 
   Repository Key:	cf22d1c7d99eaa36ee3a4c4e143589874b21f83068fff42ce971ffaa44c737b6
   Root Key:	83b859e2320bd9a76afcab59964970ff8ba4b4719fa697c8c032e27151f016e6
@@ -432,7 +432,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.2974997
 * Pypi: https://pypi.org/project/google-crc32c/
 * Homepage: https://github.com/googleapis/python-crc32c
 * Author: Google LLC googleapis-packages@google.com
-* License: Apache 2.0
+* License :: OSI Approved :: Apache Software License
 
 ### `google-resumable-media`
 
@@ -1237,7 +1237,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.2974997
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
-* License: 
+* License :: OSI Approved :: Python Software Foundation License
 
 ### `tzlocal`
 

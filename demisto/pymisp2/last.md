@@ -1,9 +1,9 @@
-# `demisto/pymisp2:2.5.9.2986300`
+# `demisto/pymisp2:2.5.7.2531859`
 
 ## Docker Metadata
-- Image Size: 44.64 MB
-- Image ID: `sha256:72f9e264dc2926c60835d7c864e44b778ce64bca535bd8f2a48243ac006a9970`
-- Created: `2025-03-26T15:02:47.352114395Z`
+- Image Size: 44.71 MB
+- Image ID: `sha256:fa2ade0a40a45cb261d74d18b5e90df0aed6db90842657a6e1c249b9692df68b`
+- Created: `2025-02-20T15:07:27.354050905Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.8`
   - `PYTHON_SHA256=c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e`
-  - `DOCKER_IMAGE=demisto/pymisp2:2.5.9.2986300`
+  - `DOCKER_IMAGE=demisto/pymisp2:2.5.7.2531859`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:0348ae64d796a0436643f9a0cc79db7f5ab384ca`
-  - `org.opencontainers.image.version:2.5.9.2986300`
+  - `org.opencontainers.image.revision:d215c9aa7379c26cda1540592d4afbb45569ef89`
+  - `org.opencontainers.image.version:2.5.7.2531859`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pymisp2:2.5.9.2986300
+Signatures for demisto/pymisp2:2.5.7.2531859
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-2.5.9.2986300   32f4a23a9af4be19062404e171e2dc662b985a465878fdab2e19a6229041d69c   (Repo Admin)
+2.5.7.2531859   368153ff1a48ec5043526b992a75b2595846bcf4baaf694efc099f12d99704ac   (Repo Admin)
 
-Administrative keys for demisto/pymisp2:2.5.9.2986300
+Administrative keys for demisto/pymisp2:2.5.7.2531859
 
   Repository Key:	09ebfde17c018d76be98417c3488d04725c1df92e6ce8f476cc60d3c4c25a1c0
   Root Key:	666b28cbde1c31c51d6bdfbbffa40a304c13a07abd31eac34b7442ce7df9eca4
@@ -96,7 +96,7 @@ Administrative keys for demisto/pymisp2:2.5.9.2986300
 * Pypi: https://pypi.org/project/compressed-rtf/
 * Homepage: https://github.com/delimitry/compressed_rtf
 * Author: Dmitry Alimov
-* License: MIT
+* License :: OSI Approved :: MIT License
 
 ### `cryptography`
 
@@ -246,7 +246,7 @@ Administrative keys for demisto/pymisp2:2.5.9.2986300
 ### `pymisp`
 
 * Summary: Python API for MISP.
-* Version: 2.5.9
+* Version: 2.5.7
 * Pypi: https://pypi.org/project/pymisp/
 * Homepage: None
 * Author: Raphaël Vinot raphael.vinot@circl.lu
@@ -425,7 +425,7 @@ Administrative keys for demisto/pymisp2:2.5.9.2986300
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.1-r1 x86_64 {e2fsprogs}
 * libcrypto3-3.3.2-r4 x86_64 {openssl}
-* libffi-3.4.7-r0 x86_64 {libffi}
+* libffi-3.4.6-r0 x86_64 {libffi}
 * libintl-0.22.5-r0 x86_64 {gettext}
 * libncursesw-6.5_p20241006-r3 x86_64 {ncurses}
 * libnsl-2.0.1-r0 x86_64 {libnsl}

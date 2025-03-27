@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.2993652`
+# `demisto/google-vision-api:1.0.0.2892855`
 
 ## Docker Metadata
-- Image Size: 123.32 MB
-- Image ID: `sha256:c7cbccaa0f35c6637e2b892b73c674bf5712561d86919bafb5089033219828af`
-- Created: `2025-03-27T11:31:30.42467192Z`
+- Image Size: 122.69 MB
+- Image ID: `sha256:436a165e58cc5661d46b6a2a0f9635ceaad396ed86a0c393dbb917bf791abe03`
+- Created: `2025-03-17T15:29:03.222780134Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.7`
   - `PYTHON_SHA256=24887b92e2afd4a2ac602419ad4b596372f67ac9b077190f459aba390faf5550`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.2993652`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.2892855`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:c9eeed61780c9fabb15e5aac097f897be807e74d`
-  - `org.opencontainers.image.version:1.0.0.2993652`
+  - `org.opencontainers.image.revision:51e9e2fe0d244280182644cde778a777ee28c9f7`
+  - `org.opencontainers.image.version:1.0.0.2892855`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-vision-api:1.0.0.2993652
+Signatures for demisto/google-vision-api:1.0.0.2892855
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.2993652   23c774b29afff02d52bc1cb52c8fa5f37a6b3e8c09e4d87d022030a87847073b   (Repo Admin)
+1.0.0.2892855   3e686ecacb1373e1673d8b96020830eba69771859f9b7cceed31b0f90ba23b2d   (Repo Admin)
 
-Administrative keys for demisto/google-vision-api:1.0.0.2993652
+Administrative keys for demisto/google-vision-api:1.0.0.2892855
 
   Repository Key:	8f699c169d21da1343c2ea4f465fe5f19ace3822c0fd85c2d1a054379abf30dd
   Root Key:	23130201a9ea6e060cceb9cf5a1998649873c190c980fe0d6c487df1fadbc6ef
@@ -149,7 +149,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.2993652
 ### `google-api-python-client`
 
 * Summary: Google API Client Library for Python
-* Version: 2.166.0
+* Version: 2.164.0
 * Pypi: https://pypi.org/project/google-api-python-client/
 * Homepage: https://github.com/googleapis/google-api-python-client/
 * Author: Google LLC googleapis-packages@google.com
@@ -185,7 +185,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.2993652
 ### `google-cloud-aiplatform`
 
 * Summary: Vertex AI API client library
-* Version: 1.86.0
+* Version: 1.84.0
 * Pypi: https://pypi.org/project/google-cloud-aiplatform/
 * Homepage: https://github.com/googleapis/python-aiplatform
 * Author: Google LLC googleapis-packages@google.com
@@ -194,7 +194,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.2993652
 ### `google-cloud-bigquery`
 
 * Summary: Google BigQuery API client library
-* Version: 3.31.0
+* Version: 3.30.0
 * Pypi: https://pypi.org/project/google-cloud-bigquery/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -212,7 +212,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.2993652
 ### `google-cloud-resource-manager`
 
 * Summary: Google Cloud Resource Manager API client library
-* Version: 1.14.2
+* Version: 1.14.1
 * Pypi: https://pypi.org/project/google-cloud-resource-manager/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-resource-manager
 * Author: Google LLC googleapis-packages@google.com
@@ -239,11 +239,11 @@ Administrative keys for demisto/google-vision-api:1.0.0.2993652
 ### `google-crc32c`
 
 * Summary: A python wrapper of the C library 'Google CRC32C'
-* Version: 1.7.1
+* Version: 1.6.0
 * Pypi: https://pypi.org/project/google-crc32c/
 * Homepage: https://github.com/googleapis/python-crc32c
 * Author: Google LLC googleapis-packages@google.com
-* License: Apache 2.0
+* License :: OSI Approved :: Apache Software License
 
 ### `google-resumable-media`
 
@@ -266,7 +266,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.2993652
 ### `grpc-google-iam-v1`
 
 * Summary: IAM API client library
-* Version: 0.14.2
+* Version: 0.14.1
 * Pypi: https://pypi.org/project/grpc-google-iam-v1/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -320,7 +320,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.2993652
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.2.4
+* Version: 2.2.3
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.
@@ -384,7 +384,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.2993652
 ### `protobuf`
 
 * Summary: None
-* Version: 5.29.4
+* Version: 5.29.3
 * Pypi: https://pypi.org/project/protobuf/
 * Homepage: https://developers.google.com/protocol-buffers/
 * Author: protobuf@googlegroups.com protobuf@googlegroups.com
@@ -429,7 +429,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.2993652
 ### `pyparsing`
 
 * Summary: pyparsing module - Classes and methods to define and execute parsing grammars
-* Version: 3.2.3
+* Version: 3.2.1
 * Pypi: https://pypi.org/project/pyparsing/
 * Homepage: None
 * Author: Paul McGuire <ptmcg.gm+pyparsing@gmail.com>
@@ -556,11 +556,11 @@ Administrative keys for demisto/google-vision-api:1.0.0.2993652
 ### `typing_extensions`
 
 * Summary: Backported and Experimental Type Hints for Python 3.8+
-* Version: 4.13.0
+* Version: 4.12.2
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
-* License: 
+* License :: OSI Approved :: Python Software Foundation License
 
 ### `tzlocal`
 
