@@ -5,7 +5,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: '0 09 * * *'
+    - cron: '10 15 * * *'
   pull_request:
     types: [ labeled ]
 
@@ -38,7 +38,9 @@ jobs:
         env:
           SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
           SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
-        run: pipenv run ./update-docker-repo-info.py --slack-token "$SLACK_TOKEN" --slack-channel "$SLACK_CHANNEL"
+          DOCKERHUB_USER: ${{ secrets.DOCKERHUB_USER }}
+          DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}
+        run: pipenv run ./update-docker-repo-info.py --slack-token "$SLACK_TOKEN" --slack-channel "$SLACK_CHANNEL" --dockerhub-user "$DOCKERHUB_USER" --dockerhub-password "$DOCKERHUB_PASSWORD"
 
       - name: Configure Git for commit
         run: |

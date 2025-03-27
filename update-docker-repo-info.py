@@ -29,6 +29,9 @@ DOCKERFILES_DIR = os.path.abspath(os.getenv('DOCKERFILES_DIR', '.dockerfiles'))
 CONTENT_DIR = os.path.abspath(os.getenv('CONTENT_DIR', '.content'))
 DOCKER_IMAGES_METADATA = "docker_images_metadata.json"
 DOCKER_IMAGE_REGEX_PATTERN = r'^demisto/([^\s:]+):(\d+(\.\d+)*)$'
+DOCKERHUB_ACCESS_TOKEN = ''
+DOCKERHUB_USER = ''
+DOCKERHUB_PASSWORD = ''
 CONTENT_DOCKER_IMAGES = {}
 ADDED_IMAGES = []
 REMOVED_IMAGES = []
@@ -52,23 +55,64 @@ def http_get(url, **kwargs):
     Returns:
         requests.Response -- response from reqeusts.get§
     """
-    res =  requests.get(url, verify=VERIFY_SSL, **kwargs)
-    if res.headers.get('x-ratelimit-remaining') and int(res.headers.get('x-ratelimit-remaining') == 1):
-        time.sleep(30)
-        res =  requests.get(url, verify=VERIFY_SSL, **kwargs)
-    return res
+    return requests.get(url, verify=VERIFY_SSL, **kwargs)
 
+def create_access_token():
+    """this method creates access token for dockerhub API requests
+
+    Returns:
+        The created access token
+    """
+    global DOCKERHUB_USER
+    global DOCKERHUB_PASSWORD
+    global DOCKERHUB_ACCESS_TOKEN
+
+    payload = json.dumps({
+        "identifier": DOCKERHUB_USER,
+        "secret": DOCKERHUB_PASSWORD
+    })
+    res =  requests.post('https://registry.hub.docker.com/v2/auth/token', verify=VERIFY_SSL,data=payload)
+    if res.status_code != 200:
+        raise Exception(f'Failed to create access token, status code: {res.status_code}, response: {res.text}')
+        
+    DOCKERHUB_ACCESS_TOKEN = res.json().get('access_token')
+    print('access token for dockerhub api created')
+
+
+def http_dockerhub_get(url, **kwargs):
+    """this method allow to make get requests to dockerhub api with access token
+
+    Arguments:
+        url {string} -- url to get
+
+    Returns:
+        requests.Response -- response from reqeusts.get§
+    """
+    global DOCKERHUB_ACCESS_TOKEN
+    
+    if not DOCKERHUB_ACCESS_TOKEN:
+        create_access_token()
+    
+    res =  requests.get(url, verify=VERIFY_SSL,headers= {'Authorization': f'Bearer {DOCKERHUB_ACCESS_TOKEN}'}, **kwargs)
+    if res.status_code == 401:
+        create_access_token()
+        res =  requests.get(url, verify=VERIFY_SSL,headers= {'Authorization': f'Bearer {DOCKERHUB_ACCESS_TOKEN}'}, **kwargs)
+    if res.status_code == 429:
+        print(f'Client Error: Too Many Requests for url {url}, response headers: {str(res.headers)}, sleeping one minute')
+        time.sleep(60)
+        res =  requests.get(url, verify=VERIFY_SSL,headers= {'Authorization': f'Bearer {DOCKERHUB_ACCESS_TOKEN}'}, **kwargs)
+    return res        
 
 def get_docker_image_size(docker_image):
     """Get the size of the image form docker hub
     Arguments:
-        docker_image {string} -- the full name of hthe image
+        docker_image {string} -- the full name of the image
     """
     size = "failed querying size"
     for i in (1, 2, 3):
         try:
             name, tag = docker_image.split(':')
-            res = http_get('https://hub.docker.com/v2/repositories/{}/tags/{}/'.format(name, tag))
+            res = http_dockerhub_get('https://hub.docker.com/v2/repositories/{}/tags/{}/'.format(name, tag))
             res.raise_for_status()
             size_bytes = res.json()['images'][0]['size']
             size = '{0:.2f} MB'.format(float(size_bytes)/1024/1024)
@@ -91,7 +135,7 @@ def get_latest_and_old_tags(image_name):
         
     while True:
         print("Querying docker hub url: {}".format(url))
-        res = http_get(url)
+        res = http_dockerhub_get(url)
         res.raise_for_status()
         obj = res.json()
         for result in obj['results']:
@@ -461,7 +505,7 @@ def process_org(org_name, force):
         print("ignore list: {}".format(ignore_list))
     while True:
         print("Querying docker hub url: {}".format(url))
-        res = http_get(url)
+        res = http_dockerhub_get(url)
         res.raise_for_status()
         obj = res.json()
         for result in obj['results']:
@@ -598,9 +642,15 @@ def main():
     parser.add_argument("--no-verify-ssl", help="Don't verify ssl certs for requests (for testing behind corp firewall)", action='store_true')
     parser.add_argument("--slack-token", help="The token for slack.")
     parser.add_argument("--slack-channel", help="The slack channel in which to send the notification.")
+    parser.add_argument("--dockerhub-user", help="The dockerhub username to use.")
+    parser.add_argument("--dockerhub-password", help="The dockerhub password to use.")
     args = parser.parse_args()
     global VERIFY_SSL
+    global DOCKERHUB_USER
+    global DOCKERHUB_PASSWORD
     VERIFY_SSL = not args.no_verify_ssl
+    DOCKERHUB_USER = args.dockerhub_user
+    DOCKERHUB_PASSWORD = args.dockerhub_password
     if not VERIFY_SSL:
         requests.packages.urllib3.disable_warnings()
     global USED_PACKAGES
