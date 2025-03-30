@@ -1,22 +1,22 @@
-# `demisto/sane-pdf-reports:1.0.0.1899219`
+# `demisto/sane-pdf-reports:1.0.0.3010215`
 
 ## Docker Metadata
-- Image Size: 944.46 MB
-- Image ID: `sha256:c4edeeb48e173071dea8e11beec18b9bfbb0079ef3416b5bb03dfbc1ac042871`
-- Created: `2024-12-31T09:51:06.121620997Z`
+- Image Size: 936.91 MB
+- Image ID: `sha256:f7305b8e97e05088ed2ea26cf95917ce6360324e04c5fdae99880f557ec1cd98`
+- Created: `2025-03-30T12:06:03.204625253Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
-  - `GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D`
-  - `PYTHON_VERSION=3.11.10`
-  - `PYTHON_SHA256=07a4356e912900e61a15cb0949a06c4a05012e213ecd6b4e84d0f67aabbee372`
-  - `DOCKER_IMAGE=demisto/sane-pdf-reports:1.0.0.1899219`
+  - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
+  - `PYTHON_VERSION=3.12.7`
+  - `PYTHON_SHA256=24887b92e2afd4a2ac602419ad4b596372f67ac9b077190f459aba390faf5550`
+  - `DOCKER_IMAGE=demisto/sane-pdf-reports:1.0.0.3010215`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:8623c5c684feb4e270696ec3b39e1a89e85ad286`
-  - `org.opencontainers.image.version:1.0.0.1899219`
+  - `org.opencontainers.image.revision:0078d528411609a6164e75e647a68754fec806b3`
+  - `org.opencontainers.image.version:1.0.0.3010215`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sane-pdf-reports:1.0.0.1899219
+Signatures for demisto/sane-pdf-reports:1.0.0.3010215
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.1899219   c18eaa3e80ae22d428827244bb87d734563c0ebd697a18225ebde6808696c3b3   (Repo Admin)
+1.0.0.3010215   97be06d6f7ea6bdf0cb1508e2d08c16f0b36c468572d1c4a00faa278df471f67   (Repo Admin)
 
-Administrative keys for demisto/sane-pdf-reports:1.0.0.1899219
+Administrative keys for demisto/sane-pdf-reports:1.0.0.3010215
 
   Repository Key:	a49126a1ef2d8b2a122417046a0568ce3d14ed56e32e723f3cb956a369091e4b
   Root Key:	3c9d875c8980465612892e36819738cac8450f51c69e5dbdbf71867f33cd59eb
@@ -159,7 +159,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.1899219
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2024.1
+* Version: 2024.2
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -177,7 +177,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.1899219
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.5.15
+* Version: 2024.11.6
 * Pypi: https://pypi.org/project/regex/
 * Homepage: https://github.com/mrabarnett/mrab-regex
 * Author: Matthew Barnett regex@mrabarnett.plus.com
@@ -244,15 +244,6 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.1899219
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
-* License :: OSI Approved :: MIT License
-
-### `wheel`
-
-* Summary: A built-package format for Python
-* Version: 0.45.0
-* Pypi: https://pypi.org/project/wheel/
-* Homepage: None
-* Author: Daniel Holth <dholth@fastmail.fm>
 * License :: OSI Approved :: MIT License
 
 ## `OS Packages`
@@ -425,7 +416,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.1899219
 * libncursesw6:amd64	6.2+20201114-2+deb11u2
 * libnettle8:amd64	3.7.3-1
 * libnghttp2-14:amd64	1.43.0-1+deb11u2
-* libnode72:amd64	12.22.12~dfsg-1~deb11u5
+* libnode72:amd64	12.22.12~dfsg-1~deb11u6
 * libnsl2:amd64	1.3.0-2
 * libnspr4:amd64	2:4.29-1
 * libnss3:amd64	2:3.61-1+deb11u4
@@ -472,7 +463,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.1899219
 * libtasn1-6:amd64	4.16.0-2+deb11u1
 * libthai-data	0.1.28-3
 * libthai0:amd64	0.1.28-3
-* libtiff5:amd64	4.2.0-1+deb11u5
+* libtiff5:amd64	4.2.0-1+deb11u6
 * libtinfo6:amd64	6.2+20201114-2+deb11u2
 * libtirpc-common	1.3.1-1+deb11u1
 * libtirpc3:amd64	1.3.1-1+deb11u1
@@ -517,7 +508,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.1899219
 * libxinerama1:amd64	2:1.1.4-2
 * libxkbcommon0:amd64	1.0.3-2
 * libxkbfile1:amd64	1:1.1.0-1
-* libxml2:amd64	2.9.10+dfsg-6.7+deb11u5
+* libxml2:amd64	2.9.10+dfsg-6.7+deb11u6
 * libxmu6:amd64	2:1.1.2-2+b3
 * libxmuu1:amd64	2:1.1.2-2+b3
 * libxpm4:amd64	1:3.5.12-1.1+deb11u1
@@ -544,8 +535,8 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.1899219
 * ncurses-base	6.2+20201114-2+deb11u2
 * ncurses-bin	6.2+20201114-2+deb11u2
 * netbase	6.3
-* nodejs	12.22.12~dfsg-1~deb11u5
-* nodejs-doc	12.22.12~dfsg-1~deb11u5
+* nodejs	12.22.12~dfsg-1~deb11u6
+* nodejs-doc	12.22.12~dfsg-1~deb11u6
 * passwd	1:4.8.1-1
 * perl	5.32.1-4+deb11u4
 * perl-base	5.32.1-4+deb11u4
@@ -559,8 +550,8 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.1899219
 * sysvinit-utils	2.96-7+deb11u1
 * tar	1.34+dfsg-1+deb11u1
 * termit	3.1-1
-* tzdata	2024a-0+deb11u1
-* ucf	3.0043
+* tzdata	2024b-0+deb11u1
+* ucf	3.0043+deb11u2
 * util-linux	2.36.1-8+deb11u2
 * wget	1.21-1+deb11u1
 * x11-common	1:7.7+22
