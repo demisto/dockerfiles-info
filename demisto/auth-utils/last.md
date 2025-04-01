@@ -1,9 +1,9 @@
-# `demisto/auth-utils:1.0.0.2025089`
+# `demisto/auth-utils:1.0.0.3021790`
 
 ## Docker Metadata
-- Image Size: 46.10 MB
-- Image ID: `sha256:ad6311f589830f3a8ac150c1ae1044c0dd18d4dbed835f18ead9fa64eb831d24`
-- Created: `2025-01-20T17:39:31.365112873Z`
+- Image Size: 51.08 MB
+- Image ID: `sha256:5734bce57fc095b77cc708fe926282bec42b3c7719d3e8e3ba6d53ca23b31ee1`
+- Created: `2025-03-31T15:45:34.351563663Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.8`
   - `PYTHON_SHA256=c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e`
-  - `DOCKER_IMAGE=demisto/auth-utils:1.0.0.2025089`
+  - `DOCKER_IMAGE=demisto/auth-utils:1.0.0.3021790`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:abd6bad3ae5e1db7ccdcbdbeb13e545213006edf`
-  - `org.opencontainers.image.version:1.0.0.2025089`
+  - `org.opencontainers.image.revision:ad7e9464ee824ac4f5b840c652b4f7c33abd580e`
+  - `org.opencontainers.image.version:1.0.0.3021790`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/auth-utils:1.0.0.2025089
+Signatures for demisto/auth-utils:1.0.0.3021790
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.2025089   f712187277892ed8b3bfa7a3dae3ac0793fd470d315d429ff527eaed693110b8   (Repo Admin)
+1.0.0.3021790   24bf36d4806c1419e6e094e25d6134628e41cf3db24533e9508c5530f156d17d   (Repo Admin)
 
-Administrative keys for demisto/auth-utils:1.0.0.2025089
+Administrative keys for demisto/auth-utils:1.0.0.3021790
 
   Repository Key:	c4e5c6491d37f197ee11c3bcf27402ded5e35e8dfd04aa5f3ca6306c1589acb9
   Root Key:	afc48b6ceb8bef3948a8d982cf3a6e357efca688125da7e062bdd41bfc9b9546
@@ -56,7 +56,7 @@ Administrative keys for demisto/auth-utils:1.0.0.2025089
 ### `aiohttp`
 
 * Summary: Async http client/server framework (asyncio)
-* Version: 3.11.11
+* Version: 3.11.14
 * Pypi: https://pypi.org/project/aiohttp/
 * Homepage: https://github.com/aio-libs/aiohttp
 * Author: None
@@ -363,7 +363,7 @@ Administrative keys for demisto/auth-utils:1.0.0.2025089
 ### `pydantic`
 
 * Summary: Data validation using Python type hints
-* Version: 2.10.5
+* Version: 2.11.1
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.io>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -372,7 +372,7 @@ Administrative keys for demisto/auth-utils:1.0.0.2025089
 ### `pydantic_core`
 
 * Summary: Core functionality for Pydantic validation and serialization
-* Version: 2.27.2
+* Version: 2.33.0
 * Pypi: https://pypi.org/project/pydantic-core/
 * Homepage: https://github.com/pydantic/pydantic-core
 * Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -557,7 +557,16 @@ Administrative keys for demisto/auth-utils:1.0.0.2025089
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
-* License :: OSI Approved :: Python Software Foundation License
+* License: 
+
+### `typing-inspection`
+
+* Summary: Runtime typing introspection tools
+* Version: 0.4.0
+* Pypi: https://pypi.org/project/typing-inspection/
+* Homepage: None
+* Author: Victorien Plot <contact@vctrn.dev>
+* License :: OSI Approved :: MIT License
 
 ### `tzlocal`
 
@@ -615,26 +624,26 @@ Administrative keys for demisto/auth-utils:1.0.0.2025089
 * krb5-libs-1.21.3-r0 x86_64 {krb5}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.1-r1 x86_64 {e2fsprogs}
-* libcrypto3-3.3.2-r4 x86_64 {openssl}
-* libffi-3.4.6-r0 x86_64 {libffi}
+* libcrypto3-3.3.3-r0 x86_64 {openssl}
+* libffi-3.4.7-r0 x86_64 {libffi}
 * libintl-0.22.5-r0 x86_64 {gettext}
 * libncursesw-6.5_p20241006-r3 x86_64 {ncurses}
 * libnsl-2.0.1-r0 x86_64 {libnsl}
 * libpanelw-6.5_p20241006-r3 x86_64 {ncurses}
-* libssl3-3.3.2-r4 x86_64 {openssl}
+* libssl3-3.3.3-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
 * libuuid-2.40.4-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.5-r8 x86_64 {musl}
+* musl-1.2.5-r9 x86_64 {musl}
 * musl-utils-1.2.5-r8 x86_64 {musl}
 * ncurses-terminfo-base-6.5_p20241006-r3 x86_64 {ncurses}
-* openssl-3.3.2-r4 x86_64 {openssl}
-* openssl-dev-3.3.2-r4 x86_64 {openssl}
+* openssl-3.3.3-r0 x86_64 {openssl}
+* openssl-dev-3.3.3-r0 x86_64 {openssl}
 * pkgconf-2.3.0-r0 x86_64 {pkgconf}
 * readline-8.2.13-r0 x86_64 {readline}
 * scanelf-1.3.8-r1 x86_64 {pax-utils}
-* sqlite-libs-3.47.1-r0 x86_64 {sqlite}
+* sqlite-libs-3.48.0-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r9 x86_64 {busybox}
 * tzdata-2024b-r1 x86_64 {tzdata}
 * xz-libs-5.6.3-r0 x86_64 {xz}

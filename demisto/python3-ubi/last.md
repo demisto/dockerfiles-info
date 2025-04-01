@@ -1,9 +1,9 @@
-# `demisto/python3-ubi:3.11.9.2068412`
+# `demisto/python3-ubi:3.11.9.3022003`
 
 ## Docker Metadata
-- Image Size: 179.23 MB
-- Image ID: `sha256:741c5c1ed84f7917928e53ad307caa512aa566d398cd2ee079c7b074000b099a`
-- Created: `2025-01-24T17:01:55.965228015Z`
+- Image Size: 170.80 MB
+- Image ID: `sha256:fef353a7c90db9407a035c3f40dd98f65f555fbec06edb5e99c9cdc355f6105a`
+- Created: `2025-03-31T16:33:59.918232946Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -11,7 +11,7 @@
   - `container=oci`
   - `PYTHON_VERSION=3.11.9`
   - `LANG=C.UTF-8`
-  - `DOCKER_IMAGE=demisto/python3-ubi:3.11.9.2068412`
+  - `DOCKER_IMAGE=demisto/python3-ubi:3.11.9.3022003`
 - Labels:
   - `architecture:x86_64`
   - `build-date:2024-10-24T12:46:07`
@@ -27,8 +27,8 @@
   - `maintainer:Red Hat, Inc.`
   - `name:ubi9`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:8165990d3c19f0260105b45beb47dd08766cadb6`
-  - `org.opencontainers.image.version:3.11.9.2068412`
+  - `org.opencontainers.image.revision:7bddc076deaffd458504496e9ef1b5555027eb7e`
+  - `org.opencontainers.image.version:3.11.9.3022003`
   - `release:1214.1729773476`
   - `summary:Provides the latest release of Red Hat Universal Base Image 9.`
   - `url:https://access.redhat.com/containers/#/registry.access.redhat.com/ubi9/images/9.4-1214.1729773476`
@@ -60,12 +60,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3-ubi:3.11.9.2068412
+Signatures for demisto/python3-ubi:3.11.9.3022003
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-3.11.9.2068412   1bf6bceddd0ca9cbd350f14c36ea3868d4d7be088fe5fe4782dba9eb5d1772ab   (Repo Admin)
+3.11.9.3022003   52398f26dc0db45f1029e76bc1a06b6be81623ea04e1d07b32161ca11d9c80d8   (Repo Admin)
 
-Administrative keys for demisto/python3-ubi:3.11.9.2068412
+Administrative keys for demisto/python3-ubi:3.11.9.3022003
 
   Repository Key:	860f0984b12c7c4c487bfbb4f34444eba31bc6061d93074c7f3e9aecca6a91da
   Root Key:	d1e06b8dbcddba83154fb4d0169a71653619f0807009ba697353e2a3050895b4
@@ -177,7 +177,7 @@ Administrative keys for demisto/python3-ubi:3.11.9.2068412
 ### `pydantic`
 
 * Summary: Data validation using Python type hints
-* Version: 2.10.6
+* Version: 2.11.1
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.io>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -186,7 +186,7 @@ Administrative keys for demisto/python3-ubi:3.11.9.2068412
 ### `pydantic_core`
 
 * Summary: Core functionality for Pydantic validation and serialization
-* Version: 2.27.2
+* Version: 2.33.0
 * Pypi: https://pypi.org/project/pydantic-core/
 * Homepage: https://github.com/pydantic/pydantic-core
 * Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -259,7 +259,7 @@ Administrative keys for demisto/python3-ubi:3.11.9.2068412
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 75.8.0
+* Version: 78.1.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -286,11 +286,20 @@ Administrative keys for demisto/python3-ubi:3.11.9.2068412
 ### `typing_extensions`
 
 * Summary: Backported and Experimental Type Hints for Python 3.8+
-* Version: 4.12.2
+* Version: 4.13.0
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
-* License :: OSI Approved :: Python Software Foundation License
+* License: 
+
+### `typing-inspection`
+
+* Summary: Runtime typing introspection tools
+* Version: 0.4.0
+* Pypi: https://pypi.org/project/typing-inspection/
+* Homepage: None
+* Author: Victorien Plot <contact@vctrn.dev>
+* License :: OSI Approved :: MIT License
 
 ### `tzdata`
 
