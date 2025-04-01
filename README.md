@@ -34,6 +34,9 @@ docker_images_metadata.json example:
 }
 ```
 
+- NOTE: In order to test the dockers update workflow in the pull request, just add the `test-dockers-update` label and the workflow will run on your branch.
+
+
 ## Docker Image List
 * [demisto/7zip](demisto/7zip/last.md)
 * [demisto/accessdata](demisto/accessdata/last.md)
