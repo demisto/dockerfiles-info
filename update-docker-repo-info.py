@@ -451,6 +451,7 @@ def process_image(image_name, force):
     global ADDED_IMAGES
     global FAILED_INSPECT_IMAGES
     global CONTENT_DOCKER_IMAGES
+
     
     print("=================\nProcessing: " + image_name)
     master_dir = f'docker/{image_name.split("/")[1]}'
