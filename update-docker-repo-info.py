@@ -450,6 +450,7 @@ def process_image(image_name, force):
     global REMOVED_IMAGES
     global ADDED_IMAGES
     global FAILED_INSPECT_IMAGES
+    global CONTENT_DOCKER_IMAGES
     
     print("=================\nProcessing: " + image_name)
     master_dir = f'docker/{image_name.split("/")[1]}'
@@ -471,10 +472,22 @@ def process_image(image_name, force):
     docker_images_metadata = DOCKER_IMAGES_METADATA_FILE_CONTENT.get("docker_images",{}).get(image_name.replace('demisto/', ''))
     
     # get the image tags we use in content repo that not exists in docker_images_metadata.json
-    tags_need_to_add = [last_tag]
+    tags_need_to_add = []
+    
+    if docker_images_metadata:
+        if last_tag not in docker_images_metadata.keys():
+            tags_need_to_add.append(last_tag)
+    else:
+        tags_need_to_add.append(last_tag)
+        
+
+    
     content_images = CONTENT_DOCKER_IMAGES.get(image_name, [])
     for tag in content_images:
-        if docker_images_metadata and tag not in docker_images_metadata.keys():
+        if docker_images_metadata:
+            if tag not in docker_images_metadata.keys():
+                tags_need_to_add.append(tag)
+        else:
             tags_need_to_add.append(tag)
 
     # remove old dockers from docker_images_metadata.json
