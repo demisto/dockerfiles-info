@@ -1,9 +1,9 @@
-# `demisto/slackv3:1.0.0.2155785`
+# `demisto/slackv3:1.0.0.3040830`
 
 ## Docker Metadata
-- Image Size: 55.10 MB
-- Image ID: `sha256:d2c2d4d3101a60dfce3c145408ae257ba4618985801cea2663c33b825d1a3a48`
-- Created: `2025-02-06T15:18:08.948559914Z`
+- Image Size: 55.66 MB
+- Image ID: `sha256:2856d9c4a3be25230ec60369861fc11650ae29fc22f8e468968bee2ca664bee1`
+- Created: `2025-04-02T15:20:45.864749592Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.8`
   - `PYTHON_SHA256=c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e`
-  - `DOCKER_IMAGE=demisto/slackv3:1.0.0.2155785`
+  - `DOCKER_IMAGE=demisto/slackv3:1.0.0.3040830`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:82433839239716282a50ba4bd028604a5f081a87`
-  - `org.opencontainers.image.version:1.0.0.2155785`
+  - `org.opencontainers.image.revision:325e7748117c7778cbba6fcb1d72957531ad79dd`
+  - `org.opencontainers.image.version:1.0.0.3040830`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/slackv3:1.0.0.2155785
+Signatures for demisto/slackv3:1.0.0.3040830
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.2155785   c7f15e0339c61834ab3f3a6553ccb718472b082ba279f1586fdb9dd464e453c3   (Repo Admin)
+1.0.0.3040830   88f645afc1edc4b88450ab912074aa5e68fa09bebd3ecb6542f78cc8d553f1c8   (Repo Admin)
 
-Administrative keys for demisto/slackv3:1.0.0.2155785
+Administrative keys for demisto/slackv3:1.0.0.3040830
 
   Repository Key:	6602ad934dd5a009ec1f1b9c2c790ddc5e51f314fe5de01189f72a28fc0aba8c
   Root Key:	c0823ae6697e9a99e1b889b37b9d4b7e34e645d912fdc7c06f1e1121ab88576a
@@ -56,7 +56,7 @@ Administrative keys for demisto/slackv3:1.0.0.2155785
 ### `aiohappyeyeballs`
 
 * Summary: Happy Eyeballs for asyncio
-* Version: 2.4.4
+* Version: 2.6.1
 * Pypi: https://pypi.org/project/aiohappyeyeballs/
 * Homepage: None
 * Author: J. Nick Koston nick@koston.org
@@ -65,7 +65,7 @@ Administrative keys for demisto/slackv3:1.0.0.2155785
 ### `aiohttp`
 
 * Summary: Async http client/server framework (asyncio)
-* Version: 3.11.12
+* Version: 3.11.16
 * Pypi: https://pypi.org/project/aiohttp/
 * Homepage: https://github.com/aio-libs/aiohttp
 * Author: None
@@ -83,7 +83,7 @@ Administrative keys for demisto/slackv3:1.0.0.2155785
 ### `attrs`
 
 * Summary: Classes Without Boilerplate
-* Version: 25.1.0
+* Version: 25.3.0
 * Pypi: https://pypi.org/project/attrs/
 * Homepage: None
 * Author: Hynek Schlawack <hs@ox.cx>
@@ -218,7 +218,7 @@ Administrative keys for demisto/slackv3:1.0.0.2155785
 ### `multidict`
 
 * Summary: multidict implementation
-* Version: 6.1.0
+* Version: 6.3.1
 * Pypi: https://pypi.org/project/multidict/
 * Homepage: https://github.com/aio-libs/multidict
 * Author: Andrew Svetlov andrew.svetlov@gmail.com
@@ -245,7 +245,7 @@ Administrative keys for demisto/slackv3:1.0.0.2155785
 ### `propcache`
 
 * Summary: Accelerated property cache
-* Version: 0.2.1
+* Version: 0.3.1
 * Pypi: https://pypi.org/project/propcache/
 * Homepage: https://github.com/aio-libs/propcache
 * Author: Andrew Svetlov andrew.svetlov@gmail.com
@@ -394,7 +394,7 @@ Administrative keys for demisto/slackv3:1.0.0.2155785
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
-* License :: OSI Approved :: Python Software Foundation License
+* License: 
 
 ### `tzlocal`
 
@@ -460,7 +460,7 @@ Administrative keys for demisto/slackv3:1.0.0.2155785
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.1-r1 x86_64 {e2fsprogs}
 * libcrypto3-3.3.2-r4 x86_64 {openssl}
-* libffi-3.4.6-r0 x86_64 {libffi}
+* libffi-3.4.7-r0 x86_64 {libffi}
 * libintl-0.22.5-r0 x86_64 {gettext}
 * libncursesw-6.5_p20241006-r3 x86_64 {ncurses}
 * libnsl-2.0.1-r0 x86_64 {libnsl}
@@ -470,7 +470,7 @@ Administrative keys for demisto/slackv3:1.0.0.2155785
 * libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
 * libuuid-2.40.4-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.5-r8 x86_64 {musl}
+* musl-1.2.5-r9 x86_64 {musl}
 * musl-utils-1.2.5-r8 x86_64 {musl}
 * ncurses-terminfo-base-6.5_p20241006-r3 x86_64 {ncurses}
 * readline-8.2.13-r0 x86_64 {readline}
