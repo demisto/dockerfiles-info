@@ -36,8 +36,8 @@
 
 Signatures for demisto/dempcap:1.0.0.72793
 
-SIGNED TAG          DIGEST                                                             SIGNERS
-1.0.0.72793         53eed2203baefdfa900d43517a3b3c1a3c13609984692954cc7982b5c8fbe833   (Repo Admin)
+SIGNED TAG    DIGEST                                                             SIGNERS
+1.0.0.72793   53eed2203baefdfa900d43517a3b3c1a3c13609984692954cc7982b5c8fbe833   (Repo Admin)
 
 Administrative keys for demisto/dempcap:1.0.0.72793
 
@@ -109,7 +109,7 @@ Administrative keys for demisto/dempcap:1.0.0.72793
 * Version: 2.10
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
-* Author: Kim Davies <kim@cynosure.com.au>
+* Author: Kim Davies <kim+pypi@gumleaf.org>
 * License :: OSI Approved :: BSD License
 
 ### `olefile`
@@ -126,8 +126,8 @@ Administrative keys for demisto/dempcap:1.0.0.72793
 * Summary: The PyPA recommended tool for installing Python packages.
 * Version: 20.3.4
 * Pypi: https://pypi.org/project/pip/
-* Homepage: https://pip.pypa.io/
-* Author: The pip developers distutils-sig@python.org
+* Homepage: None
+* Author: The pip developers <distutils-sig@python.org>
 * License :: OSI Approved :: MIT License
 
 ### `PySocks`
@@ -190,8 +190,8 @@ Administrative keys for demisto/dempcap:1.0.0.72793
 * Summary: File transport adapter for Requests
 * Version: 1.5.1
 * Pypi: https://pypi.org/project/requests-file/
-* Homepage: http://github.com/dashea/requests-file
-* Author: David Shea reallylongword@gmail.com
+* Homepage: None
+* Author: David Shea <reallylongword@gmail.com>
 * License :: OSI Approved :: Apache Software License
 
 ### `setuptools`
@@ -199,8 +199,8 @@ Administrative keys for demisto/dempcap:1.0.0.72793
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
 * Version: 44.1.1
 * Pypi: https://pypi.org/project/setuptools/
-* Homepage: https://github.com/pypa/setuptools
-* Author: Python Packaging Authority distutils-sig@python.org
+* Homepage: None
+* Author: Python Packaging Authority <distutils-sig@python.org>
 * License :: OSI Approved :: MIT License
 
 ### `simplejson`
@@ -227,8 +227,8 @@ Administrative keys for demisto/dempcap:1.0.0.72793
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
 * Version: 2.2.3
 * Pypi: https://pypi.org/project/tldextract/
-* Homepage: https://github.com/john-kurkowski/tldextract
-* Author: John Kurkowski john.kurkowski@gmail.com
+* Homepage: None
+* Author: John Kurkowski <john.kurkowski@gmail.com>
 * License :: OSI Approved :: BSD License
 
 ### `tzlocal`
@@ -236,8 +236,8 @@ Administrative keys for demisto/dempcap:1.0.0.72793
 * Summary: tzinfo object for the local timezone
 * Version: 2.1
 * Pypi: https://pypi.org/project/tzlocal/
-* Homepage: 
-* Author: Lennart Regebro regebro@gmail.com
+* Homepage: None
+* Author: Lennart Regebro <regebro@gmail.com>
 * License :: OSI Approved :: MIT License
 
 ### `urllib3`
@@ -245,7 +245,7 @@ Administrative keys for demisto/dempcap:1.0.0.72793
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
 * Version: 1.26.6
 * Pypi: https://pypi.org/project/urllib3/
-* Homepage: 
+* Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 * License :: OSI Approved :: MIT License
 
@@ -254,7 +254,7 @@ Administrative keys for demisto/dempcap:1.0.0.72793
 * Summary: A built-package format for Python
 * Version: 0.37.1
 * Pypi: https://pypi.org/project/wheel/
-* Homepage: 
+* Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
 * License :: OSI Approved :: MIT License
 
