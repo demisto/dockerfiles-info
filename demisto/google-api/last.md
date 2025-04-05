@@ -39,8 +39,8 @@
 
 Signatures for demisto/google-api:1.0.0.78376
 
-SIGNED TAG    DIGEST                                                             SIGNERS
-1.0.0.78376   a4db392ac8ec667b37934e1073a69f57a04c2f08c45961dede4f0bc59e4e60ce   (Repo Admin)
+SIGNED TAG          DIGEST                                                             SIGNERS
+1.0.0.78376         a4db392ac8ec667b37934e1073a69f57a04c2f08c45961dede4f0bc59e4e60ce   (Repo Admin)
 
 Administrative keys for demisto/google-api:1.0.0.78376
 
@@ -120,8 +120,8 @@ Administrative keys for demisto/google-api:1.0.0.78376
 * Summary: Google API client core library
 * Version: 1.31.5
 * Pypi: https://pypi.org/project/google-api-core/
-* Homepage: None
-* Author: Google LLC <googleapis-packages@google.com>
+* Homepage: https://github.com/googleapis/python-api-core
+* Author: Google LLC googleapis-packages@google.com
 * License :: OSI Approved :: Apache Software License
 
 ### `google-api-python-client`
@@ -183,8 +183,8 @@ Administrative keys for demisto/google-api:1.0.0.78376
 * Summary: Common protobufs used in Google APIs
 * Version: 1.52.0
 * Pypi: https://pypi.org/project/googleapis-common-protos/
-* Homepage: None
-* Author: Google LLC <googleapis-packages@google.com>
+* Homepage: https://github.com/googleapis/python-api-common-protos
+* Author: Google LLC googleapis-packages@google.com
 * License :: OSI Approved :: Apache Software License
 
 ### `httplib2`
@@ -202,7 +202,7 @@ Administrative keys for demisto/google-api:1.0.0.78376
 * Version: 2.10
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
-* Author: Kim Davies <kim+pypi@gumleaf.org>
+* Author: Kim Davies <kim@cynosure.com.au>
 * License :: OSI Approved :: BSD License
 
 ### `oauth2client`
@@ -228,7 +228,7 @@ Administrative keys for demisto/google-api:1.0.0.78376
 * Summary: Core utilities for Python packages
 * Version: 20.9
 * Pypi: https://pypi.org/project/packaging/
-* Homepage: None
+* Homepage: 
 * Author: Donald Stufft <donald@stufft.io>
 * License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: BSD License
@@ -238,13 +238,13 @@ Administrative keys for demisto/google-api:1.0.0.78376
 * Summary: The PyPA recommended tool for installing Python packages.
 * Version: 20.3.4
 * Pypi: https://pypi.org/project/pip/
-* Homepage: None
-* Author: The pip developers <distutils-sig@python.org>
+* Homepage: https://pip.pypa.io/
+* Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
 ### `protobuf`
 
-* Summary: None
+* Summary: 
 * Version: 3.17.3
 * Pypi: https://pypi.org/project/protobuf/
 * Homepage: https://developers.google.com/protocol-buffers/
@@ -274,7 +274,7 @@ Administrative keys for demisto/google-api:1.0.0.78376
 * Summary: pyparsing module - Classes and methods to define and execute parsing grammars
 * Version: 2.4.7
 * Pypi: https://pypi.org/project/pyparsing/
-* Homepage: None
+* Homepage: 
 * Author: Paul McGuire <ptmcg.gm+pyparsing@gmail.com>
 * License :: OSI Approved :: MIT License
 
@@ -338,8 +338,8 @@ Administrative keys for demisto/google-api:1.0.0.78376
 * Summary: File transport adapter for Requests
 * Version: 1.5.1
 * Pypi: https://pypi.org/project/requests-file/
-* Homepage: None
-* Author: David Shea <reallylongword@gmail.com>
+* Homepage: http://github.com/dashea/requests-file
+* Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
 ### `rsa`
@@ -356,8 +356,8 @@ Administrative keys for demisto/google-api:1.0.0.78376
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
 * Version: 44.1.1
 * Pypi: https://pypi.org/project/setuptools/
-* Homepage: None
-* Author: Python Packaging Authority <distutils-sig@python.org>
+* Homepage: https://github.com/pypa/setuptools
+* Author: Python Packaging Authority distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
 ### `six`
@@ -374,7 +374,7 @@ Administrative keys for demisto/google-api:1.0.0.78376
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
 * Version: 2.2.3
 * Pypi: https://pypi.org/project/tldextract/
-* Homepage: None
+* Homepage: 
 * Author: John Kurkowski <john.kurkowski@gmail.com>
 * License :: OSI Approved :: BSD License
 
@@ -392,8 +392,8 @@ Administrative keys for demisto/google-api:1.0.0.78376
 * Summary: tzinfo object for the local timezone
 * Version: 2.1
 * Pypi: https://pypi.org/project/tzlocal/
-* Homepage: None
-* Author: Lennart Regebro <regebro@gmail.com>
+* Homepage: 
+* Author: Lennart Regebro regebro@gmail.com
 * License :: OSI Approved :: MIT License
 
 ### `uritemplate`
@@ -411,7 +411,7 @@ Administrative keys for demisto/google-api:1.0.0.78376
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
 * Version: 1.26.9
 * Pypi: https://pypi.org/project/urllib3/
-* Homepage: None
+* Homepage: 
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 * License :: OSI Approved :: MIT License
 
@@ -420,7 +420,7 @@ Administrative keys for demisto/google-api:1.0.0.78376
 * Summary: A built-package format for Python
 * Version: 0.37.1
 * Pypi: https://pypi.org/project/wheel/
-* Homepage: None
+* Homepage: 
 * Author: Daniel Holth <dholth@fastmail.fm>
 * License :: OSI Approved :: MIT License
 

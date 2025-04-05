@@ -36,8 +36,8 @@
 
 Signatures for demisto/boto3:2.0.0.76921
 
-SIGNED TAG    DIGEST                                                             SIGNERS
-2.0.0.76921   bb376d8df66d6c4308eb1ada5c9ea45705d0a2808b8369020de9a2a00a216656   (Repo Admin)
+SIGNED TAG          DIGEST                                                             SIGNERS
+2.0.0.76921         bb376d8df66d6c4308eb1ada5c9ea45705d0a2808b8369020de9a2a00a216656   (Repo Admin)
 
 Administrative keys for demisto/boto3:2.0.0.76921
 
@@ -118,7 +118,7 @@ Administrative keys for demisto/boto3:2.0.0.76921
 * Version: 2.10
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
-* Author: Kim Davies <kim+pypi@gumleaf.org>
+* Author: Kim Davies <kim@cynosure.com.au>
 * License :: OSI Approved :: BSD License
 
 ### `jmespath`
@@ -144,8 +144,8 @@ Administrative keys for demisto/boto3:2.0.0.76921
 * Summary: The PyPA recommended tool for installing Python packages.
 * Version: 20.3.4
 * Pypi: https://pypi.org/project/pip/
-* Homepage: None
-* Author: The pip developers <distutils-sig@python.org>
+* Homepage: https://pip.pypa.io/
+* Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
 ### `PySocks`
@@ -208,8 +208,8 @@ Administrative keys for demisto/boto3:2.0.0.76921
 * Summary: File transport adapter for Requests
 * Version: 1.5.1
 * Pypi: https://pypi.org/project/requests-file/
-* Homepage: None
-* Author: David Shea <reallylongword@gmail.com>
+* Homepage: http://github.com/dashea/requests-file
+* Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
 ### `s3transfer`
@@ -226,8 +226,8 @@ Administrative keys for demisto/boto3:2.0.0.76921
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
 * Version: 44.1.1
 * Pypi: https://pypi.org/project/setuptools/
-* Homepage: None
-* Author: Python Packaging Authority <distutils-sig@python.org>
+* Homepage: https://github.com/pypa/setuptools
+* Author: Python Packaging Authority distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
 ### `six`
@@ -244,7 +244,7 @@ Administrative keys for demisto/boto3:2.0.0.76921
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
 * Version: 2.2.3
 * Pypi: https://pypi.org/project/tldextract/
-* Homepage: None
+* Homepage: 
 * Author: John Kurkowski <john.kurkowski@gmail.com>
 * License :: OSI Approved :: BSD License
 
@@ -253,8 +253,8 @@ Administrative keys for demisto/boto3:2.0.0.76921
 * Summary: tzinfo object for the local timezone
 * Version: 2.1
 * Pypi: https://pypi.org/project/tzlocal/
-* Homepage: None
-* Author: Lennart Regebro <regebro@gmail.com>
+* Homepage: 
+* Author: Lennart Regebro regebro@gmail.com
 * License :: OSI Approved :: MIT License
 
 ### `urllib3`
@@ -262,7 +262,7 @@ Administrative keys for demisto/boto3:2.0.0.76921
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
 * Version: 1.26.6
 * Pypi: https://pypi.org/project/urllib3/
-* Homepage: None
+* Homepage: 
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 * License :: OSI Approved :: MIT License
 
@@ -271,7 +271,7 @@ Administrative keys for demisto/boto3:2.0.0.76921
 * Summary: A built-package format for Python
 * Version: 0.37.1
 * Pypi: https://pypi.org/project/wheel/
-* Homepage: None
+* Homepage: 
 * Author: Daniel Holth <dholth@fastmail.fm>
 * License :: OSI Approved :: MIT License
 

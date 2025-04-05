@@ -36,8 +36,8 @@
 
 Signatures for demisto/nltk:2.0.0.108538
 
-SIGNED TAG     DIGEST                                                             SIGNERS
-2.0.0.108538   40fe3efa5cddc9a2e3cddc7109db575da665c905118402c715f2c44b964b01c0   (Repo Admin)
+SIGNED TAG          DIGEST                                                             SIGNERS
+2.0.0.108538        40fe3efa5cddc9a2e3cddc7109db575da665c905118402c715f2c44b964b01c0   (Repo Admin)
 
 Administrative keys for demisto/nltk:2.0.0.108538
 
@@ -63,8 +63,8 @@ Administrative keys for demisto/nltk:2.0.0.108538
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
 * Version: 3.3.2
 * Pypi: https://pypi.org/project/charset-normalizer/
-* Homepage: None
-* Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
+* Homepage: https://github.com/Ousret/charset_normalizer
+* Author: Ahmed TAHRI ahmed.tahri@cloudnursery.dev
 * License :: OSI Approved :: MIT License
 
 ### `click`
@@ -72,8 +72,8 @@ Administrative keys for demisto/nltk:2.0.0.108538
 * Summary: Composable command line interface toolkit
 * Version: 8.1.7
 * Pypi: https://pypi.org/project/click/
-* Homepage: None
-* Author: None
+* Homepage: https://palletsprojects.com/p/click/
+* Author: 
 * License :: OSI Approved :: BSD License
 
 ### `dateparser`
@@ -160,7 +160,7 @@ Administrative keys for demisto/nltk:2.0.0.108538
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.0.1
+* Version: 24.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -253,7 +253,7 @@ Administrative keys for demisto/nltk:2.0.0.108538
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
 * Version: 5.1.2
 * Pypi: https://pypi.org/project/tldextract/
-* Homepage: None
+* Homepage: 
 * Author: John Kurkowski <john.kurkowski@gmail.com>
 * License :: OSI Approved :: BSD License
 
@@ -272,7 +272,7 @@ Administrative keys for demisto/nltk:2.0.0.108538
 * Summary: tzinfo object for the local timezone
 * Version: 5.2
 * Pypi: https://pypi.org/project/tzlocal/
-* Homepage: None
+* Homepage: 
 * Author: Lennart Regebro <regebro@gmail.com>
 * License :: OSI Approved :: MIT License
 

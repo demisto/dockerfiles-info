@@ -39,8 +39,8 @@
 
 Signatures for demisto/rakyll-hey:1.0.0.108484
 
-SIGNED TAG     DIGEST                                                             SIGNERS
-1.0.0.108484   606efedc1f1ae97063512415b3b8209a14d5263e073ae849aa10b2d0123fe423   (Repo Admin)
+SIGNED TAG          DIGEST                                                             SIGNERS
+1.0.0.108484        606efedc1f1ae97063512415b3b8209a14d5263e073ae849aa10b2d0123fe423   (Repo Admin)
 
 Administrative keys for demisto/rakyll-hey:1.0.0.108484
 
@@ -66,8 +66,8 @@ Administrative keys for demisto/rakyll-hey:1.0.0.108484
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
 * Version: 3.3.2
 * Pypi: https://pypi.org/project/charset-normalizer/
-* Homepage: None
-* Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
+* Homepage: https://github.com/Ousret/charset_normalizer
+* Author: Ahmed TAHRI ahmed.tahri@cloudnursery.dev
 * License :: OSI Approved :: MIT License
 
 ### `dateparser`
@@ -136,7 +136,7 @@ Administrative keys for demisto/rakyll-hey:1.0.0.108484
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.0.1
+* Version: 24.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -229,7 +229,7 @@ Administrative keys for demisto/rakyll-hey:1.0.0.108484
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
 * Version: 5.1.2
 * Pypi: https://pypi.org/project/tldextract/
-* Homepage: None
+* Homepage: 
 * Author: John Kurkowski <john.kurkowski@gmail.com>
 * License :: OSI Approved :: BSD License
 
@@ -238,7 +238,7 @@ Administrative keys for demisto/rakyll-hey:1.0.0.108484
 * Summary: tzinfo object for the local timezone
 * Version: 5.2
 * Pypi: https://pypi.org/project/tzlocal/
-* Homepage: None
+* Homepage: 
 * Author: Lennart Regebro <regebro@gmail.com>
 * License :: OSI Approved :: MIT License
 

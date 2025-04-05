@@ -36,8 +36,8 @@
 
 Signatures for demisto/opencti-v4:5.11.8.94925
 
-SIGNED TAG     DIGEST                                                             SIGNERS
-5.11.8.94925   73df73ecaedbfe61172c3407770b52a5b73a85504947598957bed480df85e1ed   (Repo Admin)
+SIGNED TAG          DIGEST                                                             SIGNERS
+5.11.8.94925        73df73ecaedbfe61172c3407770b52a5b73a85504947598957bed480df85e1ed   (Repo Admin)
 
 Administrative keys for demisto/opencti-v4:5.11.8.94925
 
@@ -51,10 +51,10 @@ Administrative keys for demisto/opencti-v4:5.11.8.94925
 
 ### `antlr4-python3-runtime`
 
-* Summary: ANTLR 4.13.2 runtime for Python 3
+* Summary: ANTLR 4.13.1 runtime for Python 3
 * Version: 4.9.3
 * Pypi: https://pypi.org/project/antlr4-python3-runtime/
-* Homepage: None
+* Homepage: 
 * Author: Terence Parr, Sam Harwell Eric Vergnaud <eric.vergnaud@wanadoo.fr>
 * License: BSD
 
@@ -81,8 +81,8 @@ Administrative keys for demisto/opencti-v4:5.11.8.94925
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
 * Version: 3.3.1
 * Pypi: https://pypi.org/project/charset-normalizer/
-* Homepage: None
-* Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
+* Homepage: https://github.com/Ousret/charset_normalizer
+* Author: Ahmed TAHRI ahmed.tahri@cloudnursery.dev
 * License :: OSI Approved :: MIT License
 
 ### `datefinder`
@@ -153,7 +153,7 @@ Administrative keys for demisto/opencti-v4:5.11.8.94925
 * Summary: More routines for operating on iterables, beyond itertools
 * Version: 10.1.0
 * Pypi: https://pypi.org/project/more-itertools/
-* Homepage: None
+* Homepage: 
 * Author: Erik Rose <erikrose@grinchcentral.com>
 * License :: OSI Approved :: MIT License
 
@@ -178,9 +178,9 @@ Administrative keys for demisto/opencti-v4:5.11.8.94925
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.0.1
+* Version: 24.0
 * Pypi: https://pypi.org/project/pip/
-* Homepage: None
+* Homepage: 
 * Author: The pip developers <distutils-sig@python.org>
 * License :: OSI Approved :: MIT License
 
@@ -223,11 +223,11 @@ Administrative keys for demisto/opencti-v4:5.11.8.94925
 
 ### `python-json-logger`
 
-* Summary: JSON Log Formatter for the Python Logging Package
+* Summary: A python library adding a json log formatter
 * Version: 2.0.7
 * Pypi: https://pypi.org/project/python-json-logger/
-* Homepage: None
-* Author: Zakaria Zajac <zak@madzak.com>, Nicholas Hairs <info+python-json-logger@nicholashairs.com>
+* Homepage: http://github.com/madzak/python-json-logger
+* Author: Zakaria Zajac zak@madzak.com
 * License :: OSI Approved :: BSD License
 
 ### `python-magic`
@@ -289,8 +289,8 @@ Administrative keys for demisto/opencti-v4:5.11.8.94925
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
 * Version: 68.2.2
 * Pypi: https://pypi.org/project/setuptools/
-* Homepage: None
-* Author: Python Packaging Authority <distutils-sig@python.org>
+* Homepage: https://github.com/pypa/setuptools
+* Author: Python Packaging Authority distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
 ### `simplejson`
@@ -335,7 +335,7 @@ Administrative keys for demisto/opencti-v4:5.11.8.94925
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
 * Version: 5.0.1
 * Pypi: https://pypi.org/project/tldextract/
-* Homepage: None
+* Homepage: 
 * Author: John Kurkowski <john.kurkowski@gmail.com>
 * License :: OSI Approved :: BSD License
 
@@ -344,7 +344,7 @@ Administrative keys for demisto/opencti-v4:5.11.8.94925
 * Summary: tzinfo object for the local timezone
 * Version: 5.1
 * Pypi: https://pypi.org/project/tzlocal/
-* Homepage: None
+* Homepage: 
 * Author: Lennart Regebro <regebro@gmail.com>
 * License :: OSI Approved :: MIT License
 
@@ -353,7 +353,7 @@ Administrative keys for demisto/opencti-v4:5.11.8.94925
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
 * Version: 2.0.7
 * Pypi: https://pypi.org/project/urllib3/
-* Homepage: None
+* Homepage: 
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 * License :: OSI Approved :: MIT License
 
@@ -362,7 +362,7 @@ Administrative keys for demisto/opencti-v4:5.11.8.94925
 * Summary: A built-package format for Python
 * Version: 0.41.2
 * Pypi: https://pypi.org/project/wheel/
-* Homepage: None
+* Homepage: 
 * Author: Daniel Holth <dholth@fastmail.fm>
 * License :: OSI Approved :: MIT License
 

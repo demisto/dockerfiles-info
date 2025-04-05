@@ -702,6 +702,7 @@ def main():
     global REMOVED_IMAGES
     global ADDED_IMAGES
     global FAILED_INSPECT_IMAGES
+
     slack_notifier(args.slack_token, args.slack_channel, REMOVED_IMAGES, ADDED_IMAGES, FAILED_INSPECT_IMAGES)
 
 
