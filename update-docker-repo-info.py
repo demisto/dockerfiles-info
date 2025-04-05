@@ -157,6 +157,10 @@ def get_latest_and_old_tags(image_name):
     print("last tag: {}, date: {}".format(last_tag, last_date))
     if not last_tag:
         raise Exception('No tag found for image: {}'.format(image_name))
+    
+    if last_tag in old_tags:
+        old_tags.remove(last_tag)        
+    
     return last_tag, old_tags
 
 
