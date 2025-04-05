@@ -452,7 +452,6 @@ def process_image(image_name, force):
     global FAILED_INSPECT_IMAGES
     global CONTENT_DOCKER_IMAGES
 
-    
     print("=================\nProcessing: " + image_name)
     master_dir = f'docker/{image_name.split("/")[1]}'
     master_date = subprocess.check_output(['git', '--no-pager', 'log', '-1', '--format=%ct', 'origin/master', '--', master_dir], text=True, cwd=DOCKERFILES_DIR).strip()
