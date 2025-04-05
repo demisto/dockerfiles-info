@@ -1,9 +1,9 @@
-# `demisto/auth-utils:1.0.0.3030454`
+# `demisto/auth-utils:1.0.0.3050025`
 
 ## Docker Metadata
 - Image Size: 51.08 MB
-- Image ID: `sha256:69b3253c2eb7a58d0622416073249fbf28fea9142a50d618ee860849c0e376fb`
-- Created: `2025-04-01T14:32:32.432645231Z`
+- Image ID: `sha256:f971cdf1b2ee05eaf25ce2fbcabf3f8c078502faa7e8421ec0729a17b284a28c`
+- Created: `2025-04-03T15:55:09.248825034Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.8`
   - `PYTHON_SHA256=c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e`
-  - `DOCKER_IMAGE=demisto/auth-utils:1.0.0.3030454`
+  - `DOCKER_IMAGE=demisto/auth-utils:1.0.0.3050025`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:65cc4884b59cd181831986137a32ae9cb751a77b`
-  - `org.opencontainers.image.version:1.0.0.3030454`
+  - `org.opencontainers.image.revision:67a6fec6c5af3dcd4be9b40db0bdbf04ff533806`
+  - `org.opencontainers.image.version:1.0.0.3050025`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/auth-utils:1.0.0.3030454
+Signatures for demisto/auth-utils:1.0.0.3050025
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.3030454   d1bc83dd50073b1fdba748bd463b660a00c53c4bcbac49a5d18017cafedfbf6b   (Repo Admin)
+1.0.0.3050025   440637ef6c589e1b315e94a64e0a9d0300cfe0a3691f52178deb83539ab35456   (Repo Admin)
 
-Administrative keys for demisto/auth-utils:1.0.0.3030454
+Administrative keys for demisto/auth-utils:1.0.0.3050025
 
   Repository Key:	c4e5c6491d37f197ee11c3bcf27402ded5e35e8dfd04aa5f3ca6306c1589acb9
   Root Key:	afc48b6ceb8bef3948a8d982cf3a6e357efca688125da7e062bdd41bfc9b9546
@@ -56,7 +56,7 @@ Administrative keys for demisto/auth-utils:1.0.0.3030454
 ### `aiohttp`
 
 * Summary: Async http client/server framework (asyncio)
-* Version: 3.11.15
+* Version: 3.11.16
 * Pypi: https://pypi.org/project/aiohttp/
 * Homepage: https://github.com/aio-libs/aiohttp
 * Author: None
@@ -363,7 +363,7 @@ Administrative keys for demisto/auth-utils:1.0.0.3030454
 ### `pydantic`
 
 * Summary: Data validation using Python type hints
-* Version: 2.11.1
+* Version: 2.11.2
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.io>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -372,7 +372,7 @@ Administrative keys for demisto/auth-utils:1.0.0.3030454
 ### `pydantic_core`
 
 * Summary: Core functionality for Pydantic validation and serialization
-* Version: 2.33.0
+* Version: 2.33.1
 * Pypi: https://pypi.org/project/pydantic-core/
 * Homepage: https://github.com/pydantic/pydantic-core
 * Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
