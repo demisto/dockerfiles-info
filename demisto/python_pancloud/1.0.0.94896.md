@@ -36,8 +36,8 @@
 
 Signatures for demisto/python_pancloud:1.0.0.94896
 
-SIGNED TAG    DIGEST                                                             SIGNERS
-1.0.0.94896   14aa75310b3838971c617c7fc9e816170b8a86cf14bd56ba5da8bd93aeba98c7   (Repo Admin)
+SIGNED TAG          DIGEST                                                             SIGNERS
+1.0.0.94896         14aa75310b3838971c617c7fc9e816170b8a86cf14bd56ba5da8bd93aeba98c7   (Repo Admin)
 
 Administrative keys for demisto/python_pancloud:1.0.0.94896
 
@@ -99,8 +99,8 @@ Administrative keys for demisto/python_pancloud:1.0.0.94896
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
 * Version: 3.3.2
 * Pypi: https://pypi.org/project/charset-normalizer/
-* Homepage: None
-* Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
+* Homepage: https://github.com/Ousret/charset_normalizer
+* Author: Ahmed TAHRI ahmed.tahri@cloudnursery.dev
 * License :: OSI Approved :: MIT License
 
 ### `cryptography`
@@ -109,7 +109,7 @@ Administrative keys for demisto/python_pancloud:1.0.0.94896
 * Version: 40.0.2
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
-* Author: The cryptography developers <cryptography-dev@python.org> The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
+* Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
 * License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: BSD License
 
@@ -172,7 +172,7 @@ Administrative keys for demisto/python_pancloud:1.0.0.94896
 * Summary: More routines for operating on iterables, beyond itertools
 * Version: 9.1.0
 * Pypi: https://pypi.org/project/more-itertools/
-* Homepage: None
+* Homepage: 
 * Author: Erik Rose <erikrose@grinchcentral.com>
 * License :: OSI Approved :: MIT License
 
@@ -206,9 +206,9 @@ Administrative keys for demisto/python_pancloud:1.0.0.94896
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.0.1
+* Version: 24.0
 * Pypi: https://pypi.org/project/pip/
-* Homepage: None
+* Homepage: 
 * Author: The pip developers <distutils-sig@python.org>
 * License :: OSI Approved :: MIT License
 
@@ -226,8 +226,8 @@ Administrative keys for demisto/python_pancloud:1.0.0.94896
 * Summary: JSON Web Token implementation in Python
 * Version: 2.6.0
 * Pypi: https://pypi.org/project/PyJWT/
-* Homepage: None
-* Author: Jose Padilla <hello@jpadilla.com>
+* Homepage: https://github.com/jpadilla/pyjwt
+* Author: Jose Padilla hello@jpadilla.com
 * License :: OSI Approved :: MIT License
 
 ### `pyOpenSSL`
@@ -317,8 +317,8 @@ Administrative keys for demisto/python_pancloud:1.0.0.94896
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
 * Version: 65.5.1
 * Pypi: https://pypi.org/project/setuptools/
-* Homepage: None
-* Author: Python Packaging Authority <distutils-sig@python.org>
+* Homepage: https://github.com/pypa/setuptools
+* Author: Python Packaging Authority distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
 ### `six`
@@ -335,7 +335,7 @@ Administrative keys for demisto/python_pancloud:1.0.0.94896
 * Summary: A modern CSS selector implementation for Beautiful Soup.
 * Version: 2.4.1
 * Pypi: https://pypi.org/project/soupsieve/
-* Homepage: None
+* Homepage: 
 * Author: Isaac Muse <Isaac.Muse@gmail.com>
 * License :: OSI Approved :: MIT License
 
@@ -353,7 +353,7 @@ Administrative keys for demisto/python_pancloud:1.0.0.94896
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
 * Version: 3.4.1
 * Pypi: https://pypi.org/project/tldextract/
-* Homepage: None
+* Homepage: 
 * Author: John Kurkowski <john.kurkowski@gmail.com>
 * License :: OSI Approved :: BSD License
 
@@ -363,7 +363,7 @@ Administrative keys for demisto/python_pancloud:1.0.0.94896
 * Version: 2.8.19.14
 * Pypi: https://pypi.org/project/types-python-dateutil/
 * Homepage: https://github.com/python/typeshed
-* Author: None
+* Author: 
 * License :: OSI Approved :: Apache Software License
 
 ### `tzdata`
@@ -380,7 +380,7 @@ Administrative keys for demisto/python_pancloud:1.0.0.94896
 * Summary: tzinfo object for the local timezone
 * Version: 4.3
 * Pypi: https://pypi.org/project/tzlocal/
-* Homepage: None
+* Homepage: 
 * Author: Lennart Regebro <regebro@gmail.com>
 * License :: OSI Approved :: MIT License
 
@@ -389,7 +389,7 @@ Administrative keys for demisto/python_pancloud:1.0.0.94896
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
 * Version: 2.2.1
 * Pypi: https://pypi.org/project/urllib3/
-* Homepage: None
+* Homepage: 
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 * License :: OSI Approved :: MIT License
 
@@ -398,7 +398,7 @@ Administrative keys for demisto/python_pancloud:1.0.0.94896
 * Summary: A built-package format for Python
 * Version: 0.40.0
 * Pypi: https://pypi.org/project/wheel/
-* Homepage: None
+* Homepage: 
 * Author: Daniel Holth <dholth@fastmail.fm>
 * License :: OSI Approved :: MIT License
 

@@ -1,7 +1,6 @@
 # `demisto/threatconnect-py3-sdk:1.0.0.40378`
-
 ## Docker Metadata
-- Image Size: 27.59 MB
+- Image Size: `27.59 MB`
 - Image ID: `sha256:c337c30e4c47437a6e364ec067e1a1a8715cb2ca2ed8eae9eaf7292b0fdc8165`
 - Created: `2022-12-07T14:08:14.399623957Z`
 - Arch: `linux`/`amd64`
@@ -34,8 +33,8 @@
 
 Signatures for demisto/threatconnect-py3-sdk:1.0.0.40378
 
-SIGNED TAG    DIGEST                                                             SIGNERS
-1.0.0.40378   0f50df9089c906fec452ff3d66bdfd3c9226b7bad0b71db2436f7e724214fb39   (Repo Admin)
+SIGNED TAG          DIGEST                                                             SIGNERS
+1.0.0.40378         0f50df9089c906fec452ff3d66bdfd3c9226b7bad0b71db2436f7e724214fb39   (Repo Admin)
 
 Administrative keys for demisto/threatconnect-py3-sdk:1.0.0.40378
 
@@ -70,8 +69,8 @@ Administrative keys for demisto/threatconnect-py3-sdk:1.0.0.40378
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
 * Version: 2.0.1
 * Pypi: https://pypi.org/project/charset-normalizer/
-* Homepage: None
-* Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
+* Homepage: https://github.com/Ousret/charset_normalizer
+* Author: Ahmed TAHRI ahmed.tahri@cloudnursery.dev
 * License :: OSI Approved :: MIT License
 
 ### `dateparser`
@@ -88,8 +87,8 @@ Administrative keys for demisto/threatconnect-py3-sdk:1.0.0.40378
 * Summary: A platform independent file lock.
 * Version: 3.0.12
 * Pypi: https://pypi.org/project/filelock/
-* Homepage: None
-* Author: None
+* Homepage: https://github.com/tox-dev/py-filelock
+* Author: Benedikt Schmitt benedikt@benediktschmitt.de
 * License :: OSI Approved :: The Unlicense (Unlicense)
 
 ### `funcy`
@@ -107,7 +106,7 @@ Administrative keys for demisto/threatconnect-py3-sdk:1.0.0.40378
 * Version: 2.8
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
-* Author: Kim Davies <kim+pypi@gumleaf.org>
+* Author: Kim Davies <kim@cynosure.com.au>
 * License :: OSI Approved :: BSD License
 
 ### `olefile`
@@ -122,10 +121,10 @@ Administrative keys for demisto/threatconnect-py3-sdk:1.0.0.40378
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.0.1
+* Version: 22.3.1
 * Pypi: https://pypi.org/project/pip/
-* Homepage: None
-* Author: The pip developers <distutils-sig@python.org>
+* Homepage: https://pip.pypa.io/
+* Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
 ### `PySocks`
@@ -188,8 +187,8 @@ Administrative keys for demisto/threatconnect-py3-sdk:1.0.0.40378
 * Summary: File transport adapter for Requests
 * Version: 1.5.1
 * Pypi: https://pypi.org/project/requests-file/
-* Homepage: None
-* Author: David Shea <reallylongword@gmail.com>
+* Homepage: http://github.com/dashea/requests-file
+* Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
 ### `setuptools`
@@ -197,8 +196,8 @@ Administrative keys for demisto/threatconnect-py3-sdk:1.0.0.40378
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
 * Version: 57.5.0
 * Pypi: https://pypi.org/project/setuptools/
-* Homepage: None
-* Author: Python Packaging Authority <distutils-sig@python.org>
+* Homepage: https://github.com/pypa/setuptools
+* Author: Python Packaging Authority distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
 ### `six`
@@ -212,20 +211,20 @@ Administrative keys for demisto/threatconnect-py3-sdk:1.0.0.40378
 
 ### `threatconnect`
 
-* Summary: None
+* Summary: Python SDK for ThreatConnect API
 * Version: 2.4.21
 * Pypi: https://pypi.org/project/threatconnect/
-* Homepage: None
-* Author: None
-* License: Apache License, Version 2
+* Homepage: https://github.com/ThreatConnect-Inc/threatconnect-python
+* Author: ThreatConnect (support@threatconnect.com) support@threatconnect.com
+* License :: OSI Approved :: Apache Software License
 
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
 * Version: 3.1.0
 * Pypi: https://pypi.org/project/tldextract/
-* Homepage: None
-* Author: John Kurkowski <john.kurkowski@gmail.com>
+* Homepage: https://github.com/john-kurkowski/tldextract
+* Author: John Kurkowski john.kurkowski@gmail.com
 * License :: OSI Approved :: BSD License
 
 ### `tzlocal`
@@ -233,8 +232,8 @@ Administrative keys for demisto/threatconnect-py3-sdk:1.0.0.40378
 * Summary: tzinfo object for the local timezone
 * Version: 2.1
 * Pypi: https://pypi.org/project/tzlocal/
-* Homepage: None
-* Author: Lennart Regebro <regebro@gmail.com>
+* Homepage: 
+* Author: Lennart Regebro regebro@gmail.com
 * License :: OSI Approved :: MIT License
 
 ### `urllib3`
@@ -242,8 +241,8 @@ Administrative keys for demisto/threatconnect-py3-sdk:1.0.0.40378
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
 * Version: 1.22
 * Pypi: https://pypi.org/project/urllib3/
-* Homepage: None
-* Author: Andrey Petrov <andrey.petrov@shazow.net>
+* Homepage: https://urllib3.readthedocs.io/
+* Author: Andrey Petrov andrey.petrov@shazow.net
 * License :: OSI Approved :: MIT License
 
 ### `wheel`
@@ -251,8 +250,8 @@ Administrative keys for demisto/threatconnect-py3-sdk:1.0.0.40378
 * Summary: A built-package format for Python
 * Version: 0.37.0
 * Pypi: https://pypi.org/project/wheel/
-* Homepage: None
-* Author: Daniel Holth <dholth@fastmail.fm>
+* Homepage: https://github.com/pypa/wheel
+* Author: Daniel Holth dholth@fastmail.fm
 * License :: OSI Approved :: MIT License
 
 ## `OS Packages`

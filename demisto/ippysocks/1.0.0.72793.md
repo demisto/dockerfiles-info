@@ -74,8 +74,8 @@ No trust data is available
 * Summary: DNS toolkit
 * Version: 1.16.0
 * Pypi: https://pypi.org/project/dnspython/
-* Homepage: None
-* Author: Bob Halley <halley@dnspython.org>
+* Homepage: https://www.dnspython.org
+* Author: Bob Halley halley@dnspython.org
 * License :: ISC License
 
 ### `funcy`
@@ -102,7 +102,7 @@ No trust data is available
 * Version: 2.10
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
-* Author: Kim Davies <kim+pypi@gumleaf.org>
+* Author: Kim Davies <kim@cynosure.com.au>
 * License :: OSI Approved :: BSD License
 
 ### `ipaddr`
@@ -137,8 +137,8 @@ No trust data is available
 * Summary: The PyPA recommended tool for installing Python packages.
 * Version: 20.3.4
 * Pypi: https://pypi.org/project/pip/
-* Homepage: None
-* Author: The pip developers <distutils-sig@python.org>
+* Homepage: https://pip.pypa.io/
+* Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
 ### `PySocks`
@@ -210,8 +210,8 @@ No trust data is available
 * Summary: File transport adapter for Requests
 * Version: 1.5.1
 * Pypi: https://pypi.org/project/requests-file/
-* Homepage: None
-* Author: David Shea <reallylongword@gmail.com>
+* Homepage: http://github.com/dashea/requests-file
+* Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
 ### `setuptools`
@@ -219,8 +219,8 @@ No trust data is available
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
 * Version: 44.1.1
 * Pypi: https://pypi.org/project/setuptools/
-* Homepage: None
-* Author: Python Packaging Authority <distutils-sig@python.org>
+* Homepage: https://github.com/pypa/setuptools
+* Author: Python Packaging Authority distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
 ### `six`
@@ -237,8 +237,8 @@ No trust data is available
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
 * Version: 2.2.3
 * Pypi: https://pypi.org/project/tldextract/
-* Homepage: None
-* Author: John Kurkowski <john.kurkowski@gmail.com>
+* Homepage: https://github.com/john-kurkowski/tldextract
+* Author: John Kurkowski john.kurkowski@gmail.com
 * License :: OSI Approved :: BSD License
 
 ### `tzlocal`
@@ -246,8 +246,8 @@ No trust data is available
 * Summary: tzinfo object for the local timezone
 * Version: 2.1
 * Pypi: https://pypi.org/project/tzlocal/
-* Homepage: None
-* Author: Lennart Regebro <regebro@gmail.com>
+* Homepage: 
+* Author: Lennart Regebro regebro@gmail.com
 * License :: OSI Approved :: MIT License
 
 ### `urllib3`
@@ -255,7 +255,7 @@ No trust data is available
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
 * Version: 1.26.6
 * Pypi: https://pypi.org/project/urllib3/
-* Homepage: None
+* Homepage: 
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 * License :: OSI Approved :: MIT License
 
@@ -264,7 +264,7 @@ No trust data is available
 * Summary: A built-package format for Python
 * Version: 0.37.0
 * Pypi: https://pypi.org/project/wheel/
-* Homepage: None
+* Homepage: 
 * Author: Daniel Holth <dholth@fastmail.fm>
 * License :: OSI Approved :: MIT License
 

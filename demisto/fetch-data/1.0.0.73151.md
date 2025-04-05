@@ -39,8 +39,8 @@
 
 Signatures for demisto/fetch-data:1.0.0.73151
 
-SIGNED TAG    DIGEST                                                             SIGNERS
-1.0.0.73151   8615d5ae1219bfa74fad9c92043901acec45dfda35c0be224849fcd062ae93b4   (Repo Admin)
+SIGNED TAG          DIGEST                                                             SIGNERS
+1.0.0.73151         8615d5ae1219bfa74fad9c92043901acec45dfda35c0be224849fcd062ae93b4   (Repo Admin)
 
 Administrative keys for demisto/fetch-data:1.0.0.73151
 
@@ -63,11 +63,11 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 
 ### `bs4`
 
-* Summary: Dummy package for Beautiful Soup (beautifulsoup4)
+* Summary: Dummy package for Beautiful Soup
 * Version: 0.0.1
 * Pypi: https://pypi.org/project/bs4/
-* Homepage: None
-* Author: Leonard Richardson <leonardr@segfault.org>
+* Homepage: https://pypi.python.org/pypi/beautifulsoup4
+* Author: Leonard Richardson leonardr@segfault.org
 * License: MIT
 
 ### `certifi`
@@ -84,8 +84,8 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
 * Version: 3.2.0
 * Pypi: https://pypi.org/project/charset-normalizer/
-* Homepage: None
-* Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
+* Homepage: https://github.com/Ousret/charset_normalizer
+* Author: Ahmed TAHRI ahmed.tahri@cloudnursery.dev
 * License :: OSI Approved :: MIT License
 
 ### `click`
@@ -93,8 +93,8 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 * Summary: Composable command line interface toolkit
 * Version: 8.1.6
 * Pypi: https://pypi.org/project/click/
-* Homepage: None
-* Author: None
+* Homepage: https://palletsprojects.com/p/click/
+* Author: 
 * License :: OSI Approved :: BSD License
 
 ### `coloredlogs`
@@ -120,8 +120,8 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 * Summary: A platform independent file lock.
 * Version: 3.12.2
 * Pypi: https://pypi.org/project/filelock/
-* Homepage: None
-* Author: None
+* Homepage: 
+* Author: 
 * License :: OSI Approved :: The Unlicense (Unlicense)
 
 ### `flatbuffers`
@@ -138,8 +138,8 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 * Summary: File-system specification
 * Version: 2023.1.0
 * Pypi: https://pypi.org/project/fsspec/
-* Homepage: None
-* Author: None
+* Homepage: http://github.com/fsspec/filesystem_spec
+* Author: 
 * License :: OSI Approved :: BSD License
 
 ### `funcy`
@@ -175,7 +175,7 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 * Version: 3.4
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
-* Author: Kim Davies <kim+pypi@gumleaf.org>
+* Author: Kim Davies <kim@cynosure.com.au>
 * License :: OSI Approved :: BSD License
 
 ### `importlib-metadata`
@@ -183,8 +183,8 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 * Summary: Read metadata from Python packages
 * Version: 6.7.0
 * Pypi: https://pypi.org/project/importlib-metadata/
-* Homepage: None
-* Author: "Jason R. Coombs" <jaraco@jaraco.com>
+* Homepage: https://github.com/python/importlib_metadata
+* Author: Jason R. Coombs jaraco@jaraco.com
 * License :: OSI Approved :: Apache Software License
 
 ### `joblib`
@@ -192,7 +192,7 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 * Summary: Lightweight pipelining with Python functions
 * Version: 1.3.2
 * Pypi: https://pypi.org/project/joblib/
-* Homepage: None
+* Homepage: 
 * Author: Gael Varoquaux <gael.varoquaux@normalesup.org>
 * License :: OSI Approved :: BSD License
 
@@ -219,7 +219,7 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 * Summary: Fundamental package for array computing in Python
 * Version: 1.21.6
 * Pypi: https://pypi.org/project/numpy/
-* Homepage: None
+* Homepage: https://www.numpy.org
 * Author: Travis E. Oliphant et al.
 * License :: OSI Approved :: BSD License
 
@@ -237,8 +237,8 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 * Summary: Open Neural Network Exchange
 * Version: 1.14.0
 * Pypi: https://pypi.org/project/onnx/
-* Homepage: None
-* Author: ONNX Contributors <onnx-technical-discuss@lists.lfaidata.foundation>
+* Homepage: https://github.com/onnx/onnx
+* Author: ONNX onnx-technical-discuss@lists.lfaidata.foundation
 * License: Apache License v2.0
 
 ### `onnxruntime`
@@ -255,7 +255,7 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 * Summary: Core utilities for Python packages
 * Version: 23.1
 * Pypi: https://pypi.org/project/packaging/
-* Homepage: None
+* Homepage: 
 * Author: Donald Stufft <donald@stufft.io>
 * License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: BSD License
@@ -272,15 +272,15 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.0.1
+* Version: 23.2.1
 * Pypi: https://pypi.org/project/pip/
-* Homepage: None
-* Author: The pip developers <distutils-sig@python.org>
+* Homepage: https://pip.pypa.io/
+* Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
 ### `protobuf`
 
-* Summary: None
+* Summary: 
 * Version: 4.24.0
 * Pypi: https://pypi.org/project/protobuf/
 * Homepage: https://developers.google.com/protocol-buffers/
@@ -347,8 +347,8 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 * Summary: File transport adapter for Requests
 * Version: 1.5.1
 * Pypi: https://pypi.org/project/requests-file/
-* Homepage: None
-* Author: David Shea <reallylongword@gmail.com>
+* Homepage: http://github.com/dashea/requests-file
+* Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
 ### `setuptools`
@@ -356,8 +356,8 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
 * Version: 57.4.0
 * Pypi: https://pypi.org/project/setuptools/
-* Homepage: None
-* Author: Python Packaging Authority <distutils-sig@python.org>
+* Homepage: https://github.com/pypa/setuptools
+* Author: Python Packaging Authority distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
 ### `six`
@@ -374,7 +374,7 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 * Summary: A modern CSS selector implementation for Beautiful Soup.
 * Version: 2.4.1
 * Pypi: https://pypi.org/project/soupsieve/
-* Homepage: None
+* Homepage: 
 * Author: Isaac Muse <Isaac.Muse@gmail.com>
 * License :: OSI Approved :: MIT License
 
@@ -401,16 +401,16 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
 * Version: 3.1.0
 * Pypi: https://pypi.org/project/tldextract/
-* Homepage: None
+* Homepage: 
 * Author: John Kurkowski <john.kurkowski@gmail.com>
 * License :: OSI Approved :: BSD License
 
 ### `tokenizers`
 
-* Summary: None
+* Summary: 
 * Version: 0.13.3
 * Pypi: https://pypi.org/project/tokenizers/
-* Homepage: None
+* Homepage: 
 * Author: Anthony MOI <m.anthony.moi@gmail.com> Nicolas Patry <patry.nicolas@protonmail.com>, Anthony Moi <anthony@huggingface.co>
 * License :: OSI Approved :: Apache Software License
 
@@ -419,8 +419,8 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 * Summary: Fast, Extensible Progress Meter
 * Version: 4.66.1
 * Pypi: https://pypi.org/project/tqdm/
-* Homepage: None
-* Author: None
+* Homepage: 
+* Author: 
 * License :: OSI Approved :: MIT License
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
@@ -435,20 +435,20 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 
 ### `typing_extensions`
 
-* Summary: Backported and Experimental Type Hints for Python 3.8+
+* Summary: Backported and Experimental Type Hints for Python 3.7+
 * Version: 4.7.1
 * Pypi: https://pypi.org/project/typing-extensions/
-* Homepage: None
+* Homepage: 
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
-* License: 
+* License :: OSI Approved :: Python Software Foundation License
 
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
 * Version: 2.1
 * Pypi: https://pypi.org/project/tzlocal/
-* Homepage: None
-* Author: Lennart Regebro <regebro@gmail.com>
+* Homepage: 
+* Author: Lennart Regebro regebro@gmail.com
 * License :: OSI Approved :: MIT License
 
 ### `urllib3`
@@ -456,7 +456,7 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
 * Version: 2.0.4
 * Pypi: https://pypi.org/project/urllib3/
-* Homepage: None
+* Homepage: 
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 * License :: OSI Approved :: MIT License
 
@@ -465,7 +465,7 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 * Summary: A built-package format for Python
 * Version: 0.37.0
 * Pypi: https://pypi.org/project/wheel/
-* Homepage: None
+* Homepage: 
 * Author: Daniel Holth <dholth@fastmail.fm>
 * License :: OSI Approved :: MIT License
 
@@ -474,8 +474,8 @@ Administrative keys for demisto/fetch-data:1.0.0.73151
 * Summary: Backport of pathlib-compatible object wrapper for zip files
 * Version: 3.15.0
 * Pypi: https://pypi.org/project/zipp/
-* Homepage: None
-* Author: "Jason R. Coombs" <jaraco@jaraco.com>
+* Homepage: https://github.com/jaraco/zipp
+* Author: Jason R. Coombs jaraco@jaraco.com
 * License :: OSI Approved :: MIT License
 
 ## `OS Packages`

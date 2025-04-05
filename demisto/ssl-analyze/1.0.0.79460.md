@@ -36,8 +36,8 @@
 
 Signatures for demisto/ssl-analyze:1.0.0.79460
 
-SIGNED TAG    DIGEST                                                             SIGNERS
-1.0.0.79460   4ac85c52fb5276dd7673704a59a7ceb1fd320b0575eb7a2c20db0a1abf48da9e   (Repo Admin)
+SIGNED TAG          DIGEST                                                             SIGNERS
+1.0.0.79460         4ac85c52fb5276dd7673704a59a7ceb1fd320b0575eb7a2c20db0a1abf48da9e   (Repo Admin)
 
 Administrative keys for demisto/ssl-analyze:1.0.0.79460
 
@@ -60,11 +60,11 @@ Administrative keys for demisto/ssl-analyze:1.0.0.79460
 
 ### `bs4`
 
-* Summary: Dummy package for Beautiful Soup (beautifulsoup4)
+* Summary: Dummy package for Beautiful Soup
 * Version: 0.0.1
 * Pypi: https://pypi.org/project/bs4/
-* Homepage: None
-* Author: Leonard Richardson <leonardr@segfault.org>
+* Homepage: https://pypi.python.org/pypi/beautifulsoup4
+* Author: Leonard Richardson leonardr@segfault.org
 * License: MIT
 
 ### `certifi`
@@ -90,8 +90,8 @@ Administrative keys for demisto/ssl-analyze:1.0.0.79460
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
 * Version: 3.2.0
 * Pypi: https://pypi.org/project/charset-normalizer/
-* Homepage: None
-* Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
+* Homepage: https://github.com/Ousret/charset_normalizer
+* Author: Ahmed TAHRI ahmed.tahri@cloudnursery.dev
 * License :: OSI Approved :: MIT License
 
 ### `cryptography`
@@ -99,8 +99,8 @@ Administrative keys for demisto/ssl-analyze:1.0.0.79460
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
 * Version: 41.0.4
 * Pypi: https://pypi.org/project/cryptography/
-* Homepage: None
-* Author: The cryptography developers <cryptography-dev@python.org> The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
+* Homepage: 
+* Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
 * License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: BSD License
 
@@ -127,8 +127,8 @@ Administrative keys for demisto/ssl-analyze:1.0.0.79460
 * Summary: A platform independent file lock.
 * Version: 3.12.4
 * Pypi: https://pypi.org/project/filelock/
-* Homepage: None
-* Author: None
+* Homepage: 
+* Author: 
 * License :: OSI Approved :: The Unlicense (Unlicense)
 
 ### `funcy`
@@ -146,7 +146,7 @@ Administrative keys for demisto/ssl-analyze:1.0.0.79460
 * Version: 3.4
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
-* Author: Kim Davies <kim+pypi@gumleaf.org>
+* Author: Kim Davies <kim@cynosure.com.au>
 * License :: OSI Approved :: BSD License
 
 ### `more-itertools`
@@ -154,13 +154,13 @@ Administrative keys for demisto/ssl-analyze:1.0.0.79460
 * Summary: More routines for operating on iterables, beyond itertools
 * Version: 10.1.0
 * Pypi: https://pypi.org/project/more-itertools/
-* Homepage: None
+* Homepage: 
 * Author: Erik Rose <erikrose@grinchcentral.com>
 * License :: OSI Approved :: MIT License
 
 ### `msal`
 
-* Summary: The Microsoft Authentication Library (MSAL) for Python library enables your app to access the Microsoft Cloud by supporting authentication of users with Microsoft Azure Active Directory accounts (AAD) and Microsoft Accounts (MSA) using industry standard OAuth2 and OpenID Connect.
+* Summary: The Microsoft Authentication Library (MSAL) for Python library
 * Version: 1.24.1
 * Pypi: https://pypi.org/project/msal/
 * Homepage: https://github.com/AzureAD/microsoft-authentication-library-for-python
@@ -188,10 +188,10 @@ Administrative keys for demisto/ssl-analyze:1.0.0.79460
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.0.1
+* Version: 23.3.1
 * Pypi: https://pypi.org/project/pip/
-* Homepage: None
-* Author: The pip developers <distutils-sig@python.org>
+* Homepage: https://pip.pypa.io/
+* Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
 ### `pycparser`
@@ -208,8 +208,8 @@ Administrative keys for demisto/ssl-analyze:1.0.0.79460
 * Summary: JSON Web Token implementation in Python
 * Version: 2.8.0
 * Pypi: https://pypi.org/project/PyJWT/
-* Homepage: None
-* Author: Jose Padilla <hello@jpadilla.com>
+* Homepage: https://github.com/jpadilla/pyjwt
+* Author: Jose Padilla hello@jpadilla.com
 * License :: OSI Approved :: MIT License
 
 ### `pyOpenSSL`
@@ -281,8 +281,8 @@ Administrative keys for demisto/ssl-analyze:1.0.0.79460
 * Summary: File transport adapter for Requests
 * Version: 1.5.1
 * Pypi: https://pypi.org/project/requests-file/
-* Homepage: None
-* Author: David Shea <reallylongword@gmail.com>
+* Homepage: http://github.com/dashea/requests-file
+* Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
 ### `setuptools`
@@ -290,8 +290,8 @@ Administrative keys for demisto/ssl-analyze:1.0.0.79460
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
 * Version: 65.5.1
 * Pypi: https://pypi.org/project/setuptools/
-* Homepage: None
-* Author: Python Packaging Authority <distutils-sig@python.org>
+* Homepage: https://github.com/pypa/setuptools
+* Author: Python Packaging Authority distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
 ### `six`
@@ -308,7 +308,7 @@ Administrative keys for demisto/ssl-analyze:1.0.0.79460
 * Summary: A modern CSS selector implementation for Beautiful Soup.
 * Version: 2.5
 * Pypi: https://pypi.org/project/soupsieve/
-* Homepage: None
+* Homepage: 
 * Author: Isaac Muse <Isaac.Muse@gmail.com>
 * License :: OSI Approved :: MIT License
 
@@ -317,7 +317,7 @@ Administrative keys for demisto/ssl-analyze:1.0.0.79460
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
 * Version: 5.0.1
 * Pypi: https://pypi.org/project/tldextract/
-* Homepage: None
+* Homepage: 
 * Author: John Kurkowski <john.kurkowski@gmail.com>
 * License :: OSI Approved :: BSD License
 
@@ -326,7 +326,7 @@ Administrative keys for demisto/ssl-analyze:1.0.0.79460
 * Summary: tzinfo object for the local timezone
 * Version: 5.1
 * Pypi: https://pypi.org/project/tzlocal/
-* Homepage: None
+* Homepage: 
 * Author: Lennart Regebro <regebro@gmail.com>
 * License :: OSI Approved :: MIT License
 
@@ -335,7 +335,7 @@ Administrative keys for demisto/ssl-analyze:1.0.0.79460
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
 * Version: 2.0.5
 * Pypi: https://pypi.org/project/urllib3/
-* Homepage: None
+* Homepage: 
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 * License :: OSI Approved :: MIT License
 
@@ -344,7 +344,7 @@ Administrative keys for demisto/ssl-analyze:1.0.0.79460
 * Summary: A built-package format for Python
 * Version: 0.41.2
 * Pypi: https://pypi.org/project/wheel/
-* Homepage: None
+* Homepage: 
 * Author: Daniel Holth <dholth@fastmail.fm>
 * License :: OSI Approved :: MIT License
 

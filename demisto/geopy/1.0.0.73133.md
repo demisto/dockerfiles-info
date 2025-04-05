@@ -36,8 +36,8 @@
 
 Signatures for demisto/geopy:1.0.0.73133
 
-SIGNED TAG    DIGEST                                                             SIGNERS
-1.0.0.73133   dfd42023006de1680db88e1cc0c440a3822352fd09863f945003a5899fce2490   (Repo Admin)
+SIGNED TAG          DIGEST                                                             SIGNERS
+1.0.0.73133         dfd42023006de1680db88e1cc0c440a3822352fd09863f945003a5899fce2490   (Repo Admin)
 
 Administrative keys for demisto/geopy:1.0.0.73133
 
@@ -63,8 +63,8 @@ Administrative keys for demisto/geopy:1.0.0.73133
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
 * Version: 3.1.0
 * Pypi: https://pypi.org/project/charset-normalizer/
-* Homepage: None
-* Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
+* Homepage: https://github.com/Ousret/charset_normalizer
+* Author: Ahmed TAHRI ahmed.tahri@cloudnursery.dev
 * License :: OSI Approved :: MIT License
 
 ### `dateparser`
@@ -90,8 +90,8 @@ Administrative keys for demisto/geopy:1.0.0.73133
 * Summary: A platform independent file lock.
 * Version: 3.12.0
 * Pypi: https://pypi.org/project/filelock/
-* Homepage: None
-* Author: None
+* Homepage: 
+* Author: 
 * License :: OSI Approved :: The Unlicense (Unlicense)
 
 ### `funcy`
@@ -127,7 +127,7 @@ Administrative keys for demisto/geopy:1.0.0.73133
 * Version: 3.4
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
-* Author: Kim Davies <kim+pypi@gumleaf.org>
+* Author: Kim Davies <kim@cynosure.com.au>
 * License :: OSI Approved :: BSD License
 
 ### `more-itertools`
@@ -135,7 +135,7 @@ Administrative keys for demisto/geopy:1.0.0.73133
 * Summary: More routines for operating on iterables, beyond itertools
 * Version: 9.1.0
 * Pypi: https://pypi.org/project/more-itertools/
-* Homepage: None
+* Homepage: 
 * Author: Erik Rose <erikrose@grinchcentral.com>
 * License :: OSI Approved :: MIT License
 
@@ -151,10 +151,10 @@ Administrative keys for demisto/geopy:1.0.0.73133
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.0.1
+* Version: 23.2.1
 * Pypi: https://pypi.org/project/pip/
-* Homepage: None
-* Author: The pip developers <distutils-sig@python.org>
+* Homepage: https://pip.pypa.io/
+* Author: The pip developers distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
 ### `PySocks`
@@ -226,8 +226,8 @@ Administrative keys for demisto/geopy:1.0.0.73133
 * Summary: File transport adapter for Requests
 * Version: 1.5.1
 * Pypi: https://pypi.org/project/requests-file/
-* Homepage: None
-* Author: David Shea <reallylongword@gmail.com>
+* Homepage: http://github.com/dashea/requests-file
+* Author: David Shea reallylongword@gmail.com
 * License :: OSI Approved :: Apache Software License
 
 ### `setuptools`
@@ -235,8 +235,8 @@ Administrative keys for demisto/geopy:1.0.0.73133
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
 * Version: 65.5.1
 * Pypi: https://pypi.org/project/setuptools/
-* Homepage: None
-* Author: Python Packaging Authority <distutils-sig@python.org>
+* Homepage: https://github.com/pypa/setuptools
+* Author: Python Packaging Authority distutils-sig@python.org
 * License :: OSI Approved :: MIT License
 
 ### `six`
@@ -253,7 +253,7 @@ Administrative keys for demisto/geopy:1.0.0.73133
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
 * Version: 3.4.1
 * Pypi: https://pypi.org/project/tldextract/
-* Homepage: None
+* Homepage: 
 * Author: John Kurkowski <john.kurkowski@gmail.com>
 * License :: OSI Approved :: BSD License
 
@@ -271,8 +271,8 @@ Administrative keys for demisto/geopy:1.0.0.73133
 * Summary: tzinfo object for the local timezone
 * Version: 4.3
 * Pypi: https://pypi.org/project/tzlocal/
-* Homepage: None
-* Author: Lennart Regebro <regebro@gmail.com>
+* Homepage: 
+* Author: Lennart Regebro regebro@gmail.com
 * License :: OSI Approved :: MIT License
 
 ### `urllib3`
@@ -280,7 +280,7 @@ Administrative keys for demisto/geopy:1.0.0.73133
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
 * Version: 1.26.15
 * Pypi: https://pypi.org/project/urllib3/
-* Homepage: None
+* Homepage: 
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 * License :: OSI Approved :: MIT License
 
@@ -289,7 +289,7 @@ Administrative keys for demisto/geopy:1.0.0.73133
 * Summary: A built-package format for Python
 * Version: 0.40.0
 * Pypi: https://pypi.org/project/wheel/
-* Homepage: None
+* Homepage: 
 * Author: Daniel Holth <dholth@fastmail.fm>
 * License :: OSI Approved :: MIT License
 
