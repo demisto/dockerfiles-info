@@ -494,7 +494,7 @@ def process_image(image_name, force):
     # remove old dockers from docker_images_metadata.json
     if docker_images_metadata:
         for tag in old_tags:
-            if tag in docker_images_metadata.keys() and tag not in tags_need_to_add:
+            if tag in docker_images_metadata.keys() and tag not in tags_need_to_add and tag not in content_images:
                 del docker_images_metadata[tag]
                 tag_md_file = os.path.join(sys.path[0], image_name, f'{tag}.md')
                 if os.path.exists(tag_md_file):
