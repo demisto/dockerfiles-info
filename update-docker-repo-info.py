@@ -459,6 +459,7 @@ def process_image(image_name, force):
         print(f"Skipping image: {image_name} as it is not in our master repository")
         return
 
+
     print(f"Checking last tag and old tags for: {image_name}")
     try:
         last_tag, old_tags = get_latest_and_old_tags(image_name)
