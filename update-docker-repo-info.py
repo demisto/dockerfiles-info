@@ -464,6 +464,7 @@ def process_image(image_name, force):
         return
 
 
+
     print(f"Checking last tag and old tags for: {image_name}")
     try:
         last_tag, old_tags = get_latest_and_old_tags(image_name)
