@@ -251,6 +251,7 @@ docker_images_metadata.json example:
 * [demisto/sixgill](demisto/sixgill/last.md)
 * [demisto/sklearn](demisto/sklearn/last.md)
 * [demisto/slack](demisto/slack/last.md)
+* [demisto/slack-bolt](demisto/slack-bolt/last.md)
 * [demisto/slackv3](demisto/slackv3/last.md)
 * [demisto/smartsheet](demisto/smartsheet/last.md)
 * [demisto/smb](demisto/smb/last.md)
@@ -313,4 +314,4 @@ docker_images_metadata.json example:
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2025-04-27 14:10:59.307748
+Last updated: 2025-04-28 14:12:57.053976
