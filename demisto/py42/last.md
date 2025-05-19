@@ -1,9 +1,9 @@
-# `demisto/py42:1.0.0.2730685`
+# `demisto/py42:1.0.0.3450874`
 
 ## Docker Metadata
-- Image Size: 37.64 MB
-- Image ID: `sha256:be16b2b4fc57c51aeaf544428a5af71486d35c957683caf86baf3c5358ae8c17`
-- Created: `2025-03-11T14:46:41.773054856Z`
+- Image Size: 41.82 MB
+- Image ID: `sha256:bf5c13bd4d20829e9c2dcf3e1d1dfde502e1b50180e192faf0c79a4648552917`
+- Created: `2025-05-19T09:53:31.871437923Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.8`
   - `PYTHON_SHA256=c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e`
-  - `DOCKER_IMAGE=demisto/py42:1.0.0.2730685`
+  - `DOCKER_IMAGE=demisto/py42:1.0.0.3450874`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:8babf00b8d2af817eb19181501eace901274887a`
-  - `org.opencontainers.image.version:1.0.0.2730685`
+  - `org.opencontainers.image.revision:c0f73e873f474c1a49c89d4bcc4774e029615925`
+  - `org.opencontainers.image.version:1.0.0.3450874`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.21.2`
+  - `VERSION_ID=3.21.3`
   - `PRETTY_NAME="Alpine Linux v3.21"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py42:1.0.0.2730685
+Signatures for demisto/py42:1.0.0.3450874
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.2730685   dbacdb05d6baba187891618b471d216d5ca57fe7065eb3c6db088f0e98ef785d   (Repo Admin)
+1.0.0.3450874   046890f0756cc492a585179ddd01847f07ef3e00cf3215fb3ad8bcf9fe399146   (Repo Admin)
 
-Administrative keys for demisto/py42:1.0.0.2730685
+Administrative keys for demisto/py42:1.0.0.3450874
 
   Repository Key:	3c75429c5eb61fb0aac581ea5b93eb9af0c83e8f13ee6564514dc6dfd78596c6
   Root Key:	12bc1f08d14709a595beca8be8435a3758c8440cae99f67152d04ac3f7fcd556
@@ -56,7 +56,7 @@ Administrative keys for demisto/py42:1.0.0.2730685
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.1.31
+* Version: 2025.4.26
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -65,7 +65,7 @@ Administrative keys for demisto/py42:1.0.0.2730685
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.1
+* Version: 3.4.2
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -164,7 +164,7 @@ Administrative keys for demisto/py42:1.0.0.2730685
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.0.1
+* Version: 25.1.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -173,7 +173,7 @@ Administrative keys for demisto/py42:1.0.0.2730685
 ### `py42`
 
 * Summary: The Official Code42 Python API Client
-* Version: 1.27.3
+* Version: 1.29.0
 * Pypi: https://pypi.org/project/py42/
 * Homepage: https://github.com/code42/py42
 * Author: None
@@ -182,7 +182,7 @@ Administrative keys for demisto/py42:1.0.0.2730685
 ### `pydantic`
 
 * Summary: Data validation using Python type hints
-* Version: 1.10.21
+* Version: 1.10.22
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.io>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -219,7 +219,7 @@ Administrative keys for demisto/py42:1.0.0.2730685
 ### `python-dotenv`
 
 * Summary: Read key-value pairs from a .env file and set them as environment variables
-* Version: 1.0.1
+* Version: 1.1.0
 * Pypi: https://pypi.org/project/python-dotenv/
 * Homepage: https://github.com/theskumar/python-dotenv
 * Author: Saurabh Kumar me+github@saurabh-kumar.com
@@ -282,7 +282,7 @@ Administrative keys for demisto/py42:1.0.0.2730685
 ### `rich`
 
 * Summary: Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
-* Version: 13.9.4
+* Version: 14.0.0
 * Pypi: https://pypi.org/project/rich/
 * Homepage: https://github.com/Textualize/rich
 * Author: Will McGugan willmcgugan@gmail.com
@@ -291,11 +291,11 @@ Administrative keys for demisto/py42:1.0.0.2730685
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 75.8.0
+* Version: 80.3.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
-* License :: OSI Approved :: MIT License
+* License: 
 
 ### `six`
 
@@ -318,11 +318,11 @@ Administrative keys for demisto/py42:1.0.0.2730685
 ### `typing_extensions`
 
 * Summary: Backported and Experimental Type Hints for Python 3.8+
-* Version: 4.12.2
+* Version: 4.13.2
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
-* License :: OSI Approved :: Python Software Foundation License
+* License: 
 
 ### `tzlocal`
 
@@ -340,18 +340,18 @@ Administrative keys for demisto/py42:1.0.0.2730685
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ## `OS Packages`
 
-* .python-rundeps-20250108.182304 noarch {.python-rundeps}
+* .python-rundeps-20250124.193505 noarch {.python-rundeps}
 * alpine-baselayout-3.6.8-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.6.8-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.21.2-r0 x86_64 {alpine-base}
-* apk-tools-2.14.6-r2 x86_64 {apk-tools}
-* busybox-1.37.0-r9 x86_64 {busybox}
-* busybox-binsh-1.37.0-r9 x86_64 {busybox}
+* alpine-release-3.21.3-r0 x86_64 {alpine-base}
+* apk-tools-2.14.6-r3 x86_64 {apk-tools}
+* busybox-1.37.0-r12 x86_64 {busybox}
+* busybox-binsh-1.37.0-r12 x86_64 {busybox}
 * ca-certificates-20241121-r1 x86_64 {ca-certificates}
 * ca-certificates-bundle-20241121-r1 x86_64 {ca-certificates}
 * gdbm-1.24-r0 x86_64 {gdbm}
@@ -360,24 +360,24 @@ Administrative keys for demisto/py42:1.0.0.2730685
 * krb5-libs-1.21.3-r0 x86_64 {krb5}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.1-r1 x86_64 {e2fsprogs}
-* libcrypto3-3.3.2-r4 x86_64 {openssl}
-* libffi-3.4.6-r0 x86_64 {libffi}
+* libcrypto3-3.3.3-r0 x86_64 {openssl}
+* libffi-3.4.7-r0 x86_64 {libffi}
 * libintl-0.22.5-r0 x86_64 {gettext}
 * libncursesw-6.5_p20241006-r3 x86_64 {ncurses}
 * libnsl-2.0.1-r0 x86_64 {libnsl}
 * libpanelw-6.5_p20241006-r3 x86_64 {ncurses}
-* libssl3-3.3.2-r4 x86_64 {openssl}
+* libssl3-3.3.3-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
-* libuuid-2.40.4-r0 x86_64 {util-linux}
+* libuuid-2.40.4-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
 * musl-1.2.5-r9 x86_64 {musl}
-* musl-utils-1.2.5-r8 x86_64 {musl}
+* musl-utils-1.2.5-r9 x86_64 {musl}
 * ncurses-terminfo-base-6.5_p20241006-r3 x86_64 {ncurses}
 * readline-8.2.13-r0 x86_64 {readline}
 * scanelf-1.3.8-r1 x86_64 {pax-utils}
-* sqlite-libs-3.47.1-r0 x86_64 {sqlite}
-* ssl_client-1.37.0-r9 x86_64 {busybox}
-* tzdata-2024b-r1 x86_64 {tzdata}
-* xz-libs-5.6.3-r0 x86_64 {xz}
+* sqlite-libs-3.48.0-r1 x86_64 {sqlite}
+* ssl_client-1.37.0-r12 x86_64 {busybox}
+* tzdata-2025b-r0 x86_64 {tzdata}
+* xz-libs-5.6.3-r1 x86_64 {xz}
 * zlib-1.3.1-r2 x86_64 {zlib}

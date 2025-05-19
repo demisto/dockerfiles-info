@@ -1,9 +1,9 @@
-# `demisto/syslog:1.0.0.3184876`
+# `demisto/syslog:1.0.0.3453405`
 
 ## Docker Metadata
-- Image Size: 42.59 MB
-- Image ID: `sha256:008943357e8b59966aae1d596b9b7bfc801e20176f9ba474303bb0336c354cc5`
-- Created: `2025-04-21T08:44:51.177719089Z`
+- Image Size: 44.16 MB
+- Image ID: `sha256:b10c593a8b996b40a63fe6b189cfed71701ad5a7b49c20c2a8960326b15993a1`
+- Created: `2025-05-19T12:31:48.381077641Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.8`
   - `PYTHON_SHA256=c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e`
-  - `DOCKER_IMAGE=demisto/syslog:1.0.0.3184876`
+  - `DOCKER_IMAGE=demisto/syslog:1.0.0.3453405`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:9ea2a50848e01494b6d3959b0c181fb100c1e6da`
-  - `org.opencontainers.image.version:1.0.0.3184876`
+  - `org.opencontainers.image.revision:f5acdbd79f01495321b930ebc6202afadbbcff61`
+  - `org.opencontainers.image.version:1.0.0.3453405`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.21.2`
+  - `VERSION_ID=3.21.3`
   - `PRETTY_NAME="Alpine Linux v3.21"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/syslog:1.0.0.3184876
+Signatures for demisto/syslog:1.0.0.3453405
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.3184876   be373ef15b9ada2edf84e9312daa686161cd81e34c705562e313cfb78234be94   (Repo Admin)
+1.0.0.3453405   14a4aaf52bf0866785e09dfdd143b6aa61c7eebfec56819a599b386423f3e6d8   (Repo Admin)
 
-Administrative keys for demisto/syslog:1.0.0.3184876
+Administrative keys for demisto/syslog:1.0.0.3453405
 
   Repository Key:	11a15eab07f7e41e73476072cbde030a8e584e5848dd9ccae061af343ee287fc
   Root Key:	aa0c2d0ebdc015b28c4b791550a2c77436f62ed42305803a88c33cca848a9422
@@ -155,7 +155,7 @@ Administrative keys for demisto/syslog:1.0.0.3184876
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.0.1
+* Version: 25.1.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -317,14 +317,14 @@ Administrative keys for demisto/syslog:1.0.0.3184876
 
 ## `OS Packages`
 
-* .python-rundeps-20250108.182304 noarch {.python-rundeps}
+* .python-rundeps-20250124.193505 noarch {.python-rundeps}
 * alpine-baselayout-3.6.8-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.6.8-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.21.2-r0 x86_64 {alpine-base}
-* apk-tools-2.14.6-r2 x86_64 {apk-tools}
-* busybox-1.37.0-r9 x86_64 {busybox}
-* busybox-binsh-1.37.0-r9 x86_64 {busybox}
+* alpine-release-3.21.3-r0 x86_64 {alpine-base}
+* apk-tools-2.14.6-r3 x86_64 {apk-tools}
+* busybox-1.37.0-r12 x86_64 {busybox}
+* busybox-binsh-1.37.0-r12 x86_64 {busybox}
 * ca-certificates-20241121-r1 x86_64 {ca-certificates}
 * ca-certificates-bundle-20241121-r1 x86_64 {ca-certificates}
 * gdbm-1.24-r0 x86_64 {gdbm}
@@ -342,15 +342,15 @@ Administrative keys for demisto/syslog:1.0.0.3184876
 * libssl3-3.3.3-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
-* libuuid-2.40.4-r0 x86_64 {util-linux}
+* libuuid-2.40.4-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
 * musl-1.2.5-r9 x86_64 {musl}
-* musl-utils-1.2.5-r8 x86_64 {musl}
+* musl-utils-1.2.5-r9 x86_64 {musl}
 * ncurses-terminfo-base-6.5_p20241006-r3 x86_64 {ncurses}
 * readline-8.2.13-r0 x86_64 {readline}
 * scanelf-1.3.8-r1 x86_64 {pax-utils}
-* sqlite-libs-3.47.1-r0 x86_64 {sqlite}
-* ssl_client-1.37.0-r9 x86_64 {busybox}
-* tzdata-2024b-r1 x86_64 {tzdata}
-* xz-libs-5.6.3-r0 x86_64 {xz}
+* sqlite-libs-3.48.0-r1 x86_64 {sqlite}
+* ssl_client-1.37.0-r12 x86_64 {busybox}
+* tzdata-2025b-r0 x86_64 {tzdata}
+* xz-libs-5.6.3-r1 x86_64 {xz}
 * zlib-1.3.1-r2 x86_64 {zlib}

@@ -1,9 +1,9 @@
-# `demisto/xslxwriter:1.0.0.3159399`
+# `demisto/xslxwriter:1.0.0.3451966`
 
 ## Docker Metadata
-- Image Size: 29.60 MB
-- Image ID: `sha256:3ec9f64930e5d72a8ca52baf95f8c5e94835382ba7394822462553f98107f502`
-- Created: `2025-04-17T14:36:08.348080006Z`
+- Image Size: 33.54 MB
+- Image ID: `sha256:f4409f9074caabd20b8532cbf7dd8f0e29af1c543bf31c55b69562f4749d7e09`
+- Created: `2025-05-19T11:07:52.552732873Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.8`
   - `PYTHON_SHA256=c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e`
-  - `DOCKER_IMAGE=demisto/xslxwriter:1.0.0.3159399`
+  - `DOCKER_IMAGE=demisto/xslxwriter:1.0.0.3451966`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:c133fcff764148f599fda535b9ee8c371f319bed`
-  - `org.opencontainers.image.version:1.0.0.3159399`
+  - `org.opencontainers.image.revision:a09de8a2a2d8c754bacb428152fbfb14430a7e59`
+  - `org.opencontainers.image.version:1.0.0.3451966`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.21.2`
+  - `VERSION_ID=3.21.3`
   - `PRETTY_NAME="Alpine Linux v3.21"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/xslxwriter:1.0.0.3159399
+Signatures for demisto/xslxwriter:1.0.0.3451966
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.3159399   d98dd0ddf9ddfcca3e114f8128c7be77bc808940cb926dba04cb01da53652998   (Repo Admin)
+1.0.0.3451966   e9f74c130998abefdca835b8ff1a0e1e14b3974cc21eef9d6f9608b870ac8058   (Repo Admin)
 
-Administrative keys for demisto/xslxwriter:1.0.0.3159399
+Administrative keys for demisto/xslxwriter:1.0.0.3451966
 
   Repository Key:	e8e49cc819a4d512f17fe094d10e77951bf5c234b81c81951f98209ad7acee26
   Root Key:	8d2a002fae9ef037f48c319a0600f8e47c3bc4eb31a4f3d4e96c37e9d1397a60
@@ -128,7 +128,7 @@ Administrative keys for demisto/xslxwriter:1.0.0.3159399
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.0.1
+* Version: 25.1.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -201,11 +201,11 @@ Administrative keys for demisto/xslxwriter:1.0.0.3159399
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 75.8.0
+* Version: 80.3.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
-* License :: OSI Approved :: MIT License
+* License: 
 
 ### `six`
 
@@ -254,14 +254,14 @@ Administrative keys for demisto/xslxwriter:1.0.0.3159399
 
 ## `OS Packages`
 
-* .python-rundeps-20250108.182304 noarch {.python-rundeps}
+* .python-rundeps-20250124.193505 noarch {.python-rundeps}
 * alpine-baselayout-3.6.8-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.6.8-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.21.2-r0 x86_64 {alpine-base}
-* apk-tools-2.14.6-r2 x86_64 {apk-tools}
-* busybox-1.37.0-r9 x86_64 {busybox}
-* busybox-binsh-1.37.0-r9 x86_64 {busybox}
+* alpine-release-3.21.3-r0 x86_64 {alpine-base}
+* apk-tools-2.14.6-r3 x86_64 {apk-tools}
+* busybox-1.37.0-r12 x86_64 {busybox}
+* busybox-binsh-1.37.0-r12 x86_64 {busybox}
 * ca-certificates-20241121-r1 x86_64 {ca-certificates}
 * ca-certificates-bundle-20241121-r1 x86_64 {ca-certificates}
 * gdbm-1.24-r0 x86_64 {gdbm}
@@ -270,24 +270,24 @@ Administrative keys for demisto/xslxwriter:1.0.0.3159399
 * krb5-libs-1.21.3-r0 x86_64 {krb5}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.1-r1 x86_64 {e2fsprogs}
-* libcrypto3-3.3.2-r4 x86_64 {openssl}
-* libffi-3.4.6-r0 x86_64 {libffi}
+* libcrypto3-3.3.3-r0 x86_64 {openssl}
+* libffi-3.4.7-r0 x86_64 {libffi}
 * libintl-0.22.5-r0 x86_64 {gettext}
 * libncursesw-6.5_p20241006-r3 x86_64 {ncurses}
 * libnsl-2.0.1-r0 x86_64 {libnsl}
 * libpanelw-6.5_p20241006-r3 x86_64 {ncurses}
-* libssl3-3.3.2-r4 x86_64 {openssl}
+* libssl3-3.3.3-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
-* libuuid-2.40.4-r0 x86_64 {util-linux}
+* libuuid-2.40.4-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
 * musl-1.2.5-r9 x86_64 {musl}
-* musl-utils-1.2.5-r8 x86_64 {musl}
+* musl-utils-1.2.5-r9 x86_64 {musl}
 * ncurses-terminfo-base-6.5_p20241006-r3 x86_64 {ncurses}
 * readline-8.2.13-r0 x86_64 {readline}
 * scanelf-1.3.8-r1 x86_64 {pax-utils}
-* sqlite-libs-3.47.1-r0 x86_64 {sqlite}
-* ssl_client-1.37.0-r9 x86_64 {busybox}
-* tzdata-2024b-r1 x86_64 {tzdata}
-* xz-libs-5.6.3-r0 x86_64 {xz}
+* sqlite-libs-3.48.0-r1 x86_64 {sqlite}
+* ssl_client-1.37.0-r12 x86_64 {busybox}
+* tzdata-2025b-r0 x86_64 {tzdata}
+* xz-libs-5.6.3-r1 x86_64 {xz}
 * zlib-1.3.1-r2 x86_64 {zlib}
