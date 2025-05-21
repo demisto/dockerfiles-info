@@ -1,9 +1,9 @@
-# `demisto/bigquery:1.0.0.3464951`
+# `demisto/bigquery:1.0.0.3471440`
 
 ## Docker Metadata
-- Image Size: 73.31 MB
-- Image ID: `sha256:031b9394e0aafd6c299e28e272b03dfd7a21118a5f4c1b957afdbd29d0e0df28`
-- Created: `2025-05-20T08:47:52.220656104Z`
+- Image Size: 72.69 MB
+- Image ID: `sha256:b3aa9543dc2fbf8e3e26c86fc06b60c0a3949562f2d25f8ce724d893d7819cd3`
+- Created: `2025-05-20T14:58:20.768289146Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.10`
   - `PYTHON_SHA256=07ab697474595e06f06647417d3c7fa97ded07afc1a7e4454c5639919b46eaea`
-  - `DOCKER_IMAGE=demisto/bigquery:1.0.0.3464951`
+  - `DOCKER_IMAGE=demisto/bigquery:1.0.0.3471440`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:952e6472c4e9b2e4c675af8009e149145d7463eb`
-  - `org.opencontainers.image.version:1.0.0.3464951`
+  - `org.opencontainers.image.revision:1f38c16f052c327752c25345881acdf5ee410931`
+  - `org.opencontainers.image.version:1.0.0.3471440`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/bigquery:1.0.0.3464951
+Signatures for demisto/bigquery:1.0.0.3471440
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.3464951   973a86dc6b5494d187676ad7a4706d04a6e902fb815692520e0749efb16e9f13   (Repo Admin)
+1.0.0.3471440   3e98d8b20e63243191ab1ed248fec6dd0d332a53cbd503c7a5345edfe4052944   (Repo Admin)
 
-Administrative keys for demisto/bigquery:1.0.0.3464951
+Administrative keys for demisto/bigquery:1.0.0.3471440
 
   Repository Key:	50ce3296886516edcfde3c34148b7b31a0e70e68821c9e335e9851cee5284a2b
   Root Key:	e5ef65a9e7371056cf85e6b0a6be6717871b78e3fb0e40e863e477f2253acfac
@@ -59,7 +59,7 @@ Administrative keys for demisto/bigquery:1.0.0.3464951
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.1.31
+* Version: 2025.4.26
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -68,7 +68,7 @@ Administrative keys for demisto/bigquery:1.0.0.3464951
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.1
+* Version: 3.4.2
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -122,7 +122,7 @@ Administrative keys for demisto/bigquery:1.0.0.3464951
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.38.0
+* Version: 2.40.1
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-auth-library-python
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -131,7 +131,7 @@ Administrative keys for demisto/bigquery:1.0.0.3464951
 ### `google-cloud-bigquery`
 
 * Summary: Google BigQuery API client library
-* Version: 3.31.0
+* Version: 3.33.0
 * Pypi: https://pypi.org/project/google-cloud-bigquery/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -149,7 +149,7 @@ Administrative keys for demisto/bigquery:1.0.0.3464951
 ### `google-crc32c`
 
 * Summary: A python wrapper of the C library 'Google CRC32C'
-* Version: 1.7.0
+* Version: 1.7.1
 * Pypi: https://pypi.org/project/google-crc32c/
 * Homepage: https://github.com/googleapis/python-crc32c
 * Author: Google LLC googleapis-packages@google.com
@@ -167,7 +167,7 @@ Administrative keys for demisto/bigquery:1.0.0.3464951
 ### `googleapis-common-protos`
 
 * Summary: Common protobufs used in Google APIs
-* Version: 1.69.2
+* Version: 1.70.0
 * Pypi: https://pypi.org/project/googleapis-common-protos/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -239,7 +239,7 @@ Administrative keys for demisto/bigquery:1.0.0.3464951
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 24.2
+* Version: 25.0
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -285,7 +285,7 @@ Administrative keys for demisto/bigquery:1.0.0.3464951
 ### `pyasn1_modules`
 
 * Summary: A collection of ASN.1-based protocols modules
-* Version: 0.4.1
+* Version: 0.4.2
 * Pypi: https://pypi.org/project/pyasn1-modules/
 * Homepage: https://github.com/pyasn1/pyasn1-modules
 * Author: Ilya Etingof etingof@gmail.com
@@ -367,7 +367,7 @@ Administrative keys for demisto/bigquery:1.0.0.3464951
 ### `rsa`
 
 * Summary: Pure-Python RSA implementation
-* Version: 4.9
+* Version: 4.9.1
 * Pypi: https://pypi.org/project/rsa/
 * Homepage: None
 * Author: Sybren A. Stüvel sybren@stuvel.eu
@@ -411,11 +411,10 @@ Administrative keys for demisto/bigquery:1.0.0.3464951
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.3.0
+* Version: 2.4.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
-* License: 
 
 ## `OS Packages`
 

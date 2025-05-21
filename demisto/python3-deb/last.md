@@ -1,9 +1,9 @@
-# `demisto/python3-deb:3.12.10.3416668`
+# `demisto/python3-deb:3.12.10.3471258`
 
 ## Docker Metadata
-- Image Size: 62.73 MB
-- Image ID: `sha256:1059a8065119378334cc0bf02fb83f7ba2fdf2b7d3143f9ffd5fe780568b94b8`
-- Created: `2025-05-15T13:47:49.384007004Z`
+- Image Size: 61.65 MB
+- Image ID: `sha256:e1c0809604b51365fe9d9ab11d7563a1db17f5df4347a1b54904797e9dc42f37`
+- Created: `2025-05-20T14:46:33.544077328Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.10`
   - `PYTHON_SHA256=07ab697474595e06f06647417d3c7fa97ded07afc1a7e4454c5639919b46eaea`
-  - `DOCKER_IMAGE=demisto/python3-deb:3.12.10.3416668`
+  - `DOCKER_IMAGE=demisto/python3-deb:3.12.10.3471258`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:63db45afdd89672e12d4623c9450d46aed55f05a`
-  - `org.opencontainers.image.version:3.12.10.3416668`
+  - `org.opencontainers.image.revision:909b9889eb5b14195872dc288e14f794f7df971f`
+  - `org.opencontainers.image.version:3.12.10.3471258`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3-deb:3.12.10.3416668
+Signatures for demisto/python3-deb:3.12.10.3471258
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.10.3416668   44965119d633391ed4085b2f17b4dd211f860f60b4d5fc8ff41729b2fd2f688a   (Repo Admin)
+3.12.10.3471258   44a37c6fd6236ded6e98a7873db41c66693a1b3580c68a36c45e6303cf85f3f6   (Repo Admin)
 
-Administrative keys for demisto/python3-deb:3.12.10.3416668
+Administrative keys for demisto/python3-deb:3.12.10.3471258
 
   Repository Key:	02e9781b8a12b1475cfa9e28c569a3337f9d9e664134162d21f48e09aa975ab6
   Root Key:	c368f2dcb34a0aaabd33ee9559bd094b84c7f57f4742bde05f5a21486a524ce9
@@ -204,7 +204,7 @@ Administrative keys for demisto/python3-deb:3.12.10.3416668
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.7.1
+* Version: 80.8.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
