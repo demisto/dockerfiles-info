@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.3596998`
+# `demisto/google-vision-api:1.0.0.3609729`
 
 ## Docker Metadata
-- Image Size: 134.82 MB
-- Image ID: `sha256:868b3d622164834f8bebe71088af5c7d9504e2f5bfef29b56048a5f07365eb9b`
-- Created: `2025-05-30T14:57:52.564120583Z`
+- Image Size: 134.74 MB
+- Image ID: `sha256:c35ca8b42204bbf4535ef123b93b71b735b92c8a0146afe16a464b264d9aa847`
+- Created: `2025-06-02T15:56:56.038690398Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.10`
   - `PYTHON_SHA256=07ab697474595e06f06647417d3c7fa97ded07afc1a7e4454c5639919b46eaea`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.3596998`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.3609729`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:4e609f78d951f44fc139255a3fde03e9220c27bd`
-  - `org.opencontainers.image.version:1.0.0.3596998`
+  - `org.opencontainers.image.revision:0e80d8ccc2685128271c1ecb366992121dcc6523`
+  - `org.opencontainers.image.version:1.0.0.3609729`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-vision-api:1.0.0.3596998
+Signatures for demisto/google-vision-api:1.0.0.3609729
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.3596998   49298ca781f31038e3b24cf34c2559eb08645ff8eb44bfde66d1b5766daec692   (Repo Admin)
+1.0.0.3609729   67f0aad71acc6360d949cec0fd3edf43052e7554c213938571774a1c1d305de2   (Repo Admin)
 
-Administrative keys for demisto/google-vision-api:1.0.0.3596998
+Administrative keys for demisto/google-vision-api:1.0.0.3609729
 
   Repository Key:	8f699c169d21da1343c2ea4f465fe5f19ace3822c0fd85c2d1a054379abf30dd
   Root Key:	23130201a9ea6e060cceb9cf5a1998649873c190c980fe0d6c487df1fadbc6ef
@@ -293,7 +293,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.3596998
 ### `grpcio`
 
 * Summary: HTTP/2-based RPC framework
-* Version: 1.71.0
+* Version: 1.72.1
 * Pypi: https://pypi.org/project/grpcio/
 * Homepage: https://grpc.io
 * Author: The gRPC Authors grpc-io@googlegroups.com
@@ -609,7 +609,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.3596998
 
 ### `typing_extensions`
 
-* Summary: Backported and Experimental Type Hints for Python 3.8+
+* Summary: Backported and Experimental Type Hints for Python 3.9+
 * Version: 4.13.2
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
@@ -639,8 +639,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.3596998
 * Pypi: https://pypi.org/project/uritemplate/
 * Homepage: https://uritemplate.readthedocs.org
 * Author: Ian Stapleton Cordasco graffatcolmingov@gmail.com
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* License: BSD 3-Clause License or Apache License, Version 2.0
 
 ### `urllib3`
 
