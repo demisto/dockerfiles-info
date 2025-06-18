@@ -1,9 +1,9 @@
-# `demisto/elasticsearch:1.0.0.3748842`
+# `demisto/elasticsearch:1.0.0.3847815`
 
 ## Docker Metadata
-- Image Size: 36.90 MB
-- Image ID: `sha256:da71d0b318f403b46f2cd66fe1e5780821aff8d9e40afec903e8a3ea99514b9c`
-- Created: `2025-06-11T15:38:01.148012886Z`
+- Image Size: 37.09 MB
+- Image ID: `sha256:be35d25140f79f90ba583e963e9d81f398b399be7622b3e367300a1a6770501d`
+- Created: `2025-06-18T08:51:31.055687048Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.8`
   - `PYTHON_SHA256=c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e`
-  - `DOCKER_IMAGE=demisto/elasticsearch:1.0.0.3748842`
+  - `DOCKER_IMAGE=demisto/elasticsearch:1.0.0.3847815`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d2e4c5e2d716b5362ccc879ef62dd2164b5f71a5`
-  - `org.opencontainers.image.version:1.0.0.3748842`
+  - `org.opencontainers.image.revision:2633b4961fdd15010c6205fa778e0ae47e565af1`
+  - `org.opencontainers.image.version:1.0.0.3847815`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/elasticsearch:1.0.0.3748842
+Signatures for demisto/elasticsearch:1.0.0.3847815
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.3748842   ce640192c02d9220910326eb48a9bb6f45b9c4c2c099438d887e45362f9071fe   (Repo Admin)
+1.0.0.3847815   2670363918c57d678a3c546bb63970809f9d275f2b5d0ce2090196097c19360d   (Repo Admin)
 
-Administrative keys for demisto/elasticsearch:1.0.0.3748842
+Administrative keys for demisto/elasticsearch:1.0.0.3847815
 
   Repository Key:	1441e36bc524b7da5715b616fd7d4799cecad740ed6511b91781000f6341c0f7
   Root Key:	cc9e00c1bd0fdb7f09104e09d01c0d25d1ce8ea381bb97c38bd5f68dcc0017d9
@@ -47,7 +47,7 @@ Administrative keys for demisto/elasticsearch:1.0.0.3748842
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.4.26
+* Version: 2025.6.15
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -182,7 +182,7 @@ Administrative keys for demisto/elasticsearch:1.0.0.3748842
 ### `opensearch-py`
 
 * Summary: Python client for OpenSearch
-* Version: 2.8.0
+* Version: 3.0.0
 * Pypi: https://pypi.org/project/opensearch-py/
 * Homepage: https://github.com/opensearch-project/opensearch-py
 * Author: Aleksei Atavin, Denis Zalevskiy, Rushi Agrawal, Shephali Mittal axeo@aiven.io, dez@aiven.io, rushi.agr@gmail.com, shephalm@amazon.com
