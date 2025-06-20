@@ -1,9 +1,9 @@
-# `demisto/bs4-py3:1.0.0.3725026`
+# `demisto/bs4-py3:1.0.0.3876017`
 
 ## Docker Metadata
 - Image Size: 38.97 MB
-- Image ID: `sha256:dadfe4bcfbc370492c8230c16cec06dca68725174f698fbe1b22a8bedf13819f`
-- Created: `2025-06-10T13:14:13.466040417Z`
+- Image ID: `sha256:658fc43983650e300040ad390daa9d05ee2cdaca9297b303394b6b06d7003406`
+- Created: `2025-06-19T14:40:15.465945745Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.8`
   - `PYTHON_SHA256=c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e`
-  - `DOCKER_IMAGE=demisto/bs4-py3:1.0.0.3725026`
+  - `DOCKER_IMAGE=demisto/bs4-py3:1.0.0.3876017`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b6d67f56ea1662f219fd0be3b31cecf129a042be`
-  - `org.opencontainers.image.version:1.0.0.3725026`
+  - `org.opencontainers.image.revision:b9490f60d9fde585f0c6106a13e14d5c9448c593`
+  - `org.opencontainers.image.version:1.0.0.3876017`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/bs4-py3:1.0.0.3725026
+Signatures for demisto/bs4-py3:1.0.0.3876017
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.3725026   77002deb7a6e4424cb475b71a55d6ae7c00936ec72f8f10b0c29929d87a5e823   (Repo Admin)
+1.0.0.3876017   beaa47ec2307804d3cf8c39da2c1df9c5d8e293bee34a7423dbe545012e8b100   (Repo Admin)
 
-Administrative keys for demisto/bs4-py3:1.0.0.3725026
+Administrative keys for demisto/bs4-py3:1.0.0.3876017
 
   Repository Key:	fc9cbf4689986a4a2d5017f4dd0b370dce28ed2737afc29128c2210af398286f
   Root Key:	f7385792275ba0f0d12370037412b97339e7663ef387d70b9e49964071d61cd3
@@ -128,11 +128,11 @@ Administrative keys for demisto/bs4-py3:1.0.0.3725026
 ### `Markdown`
 
 * Summary: Python implementation of John Gruber's Markdown.
-* Version: 3.7
+* Version: 3.8.1
 * Pypi: https://pypi.org/project/Markdown/
 * Homepage: None
 * Author: Manfred Stienstra, Yuri Takhteyev Waylan limberg <python.markdown@gmail.com>
-* License: BSD 3-Clause License
+* License: 
 
 ### `more-itertools`
 
