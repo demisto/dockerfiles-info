@@ -5,7 +5,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: '0 14 * * *'
+    - cron: '0 5 * * 0-4' # 5 AM UTC, Sunday through Thursday
   pull_request:
     types: [ labeled ]
 
