@@ -1,9 +1,9 @@
-# `demisto/argus-toolbelt:3.0.0.3749933`
+# `demisto/argus-toolbelt:3.0.0.3913418`
 
 ## Docker Metadata
-- Image Size: 39.10 MB
-- Image ID: `sha256:09053422bf623978656a33f4806e41f8162fc58b0270befb48749df24fc80bb7`
-- Created: `2025-06-11T16:47:38.852531667Z`
+- Image Size: 39.48 MB
+- Image ID: `sha256:da4415222072160670d09cb0add12ab73013f5a0c945e833ab7bafbc001af5ec`
+- Created: `2025-06-22T08:20:07.657629161Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.8`
   - `PYTHON_SHA256=c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e`
-  - `DOCKER_IMAGE=demisto/argus-toolbelt:3.0.0.3749933`
+  - `DOCKER_IMAGE=demisto/argus-toolbelt:3.0.0.3913418`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d0d91725959ae1b6fd8cf723d0ca49b55d3c8b1f`
-  - `org.opencontainers.image.version:3.0.0.3749933`
+  - `org.opencontainers.image.revision:ece46c43444a5e0bc9bd016a05a0457a39428307`
+  - `org.opencontainers.image.version:3.0.0.3913418`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/argus-toolbelt:3.0.0.3749933
+Signatures for demisto/argus-toolbelt:3.0.0.3913418
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-3.0.0.3749933   52f9f73e6031b22794f46666ed1dec07a0a56cab33ada7d0f55f8a1762d8a909   (Repo Admin)
+3.0.0.3913418   4bf0f3172ae52e822fb5b60b63c8bab32268c3c1d7adddeb1d0f37786a259d4a   (Repo Admin)
 
-Administrative keys for demisto/argus-toolbelt:3.0.0.3749933
+Administrative keys for demisto/argus-toolbelt:3.0.0.3913418
 
   Repository Key:	f8adef8bf4435c65d5978dd102ae48b29ab4b71d66ffc3a80fa05ca5f2503855
   Root Key:	9e4fc820cbbfedb52175005447b910adb588f852ad15f9114b983a4cfc166af7
@@ -47,7 +47,7 @@ Administrative keys for demisto/argus-toolbelt:3.0.0.3749933
 ### `argus-api`
 
 * Summary: SDK for the Argus API
-* Version: 3.19.0
+* Version: 4.0.0
 * Pypi: https://pypi.org/project/argus-api/
 * Homepage: https://mnemonic.io
 * Author: mnemonic opensource@mnemonic.no
@@ -56,7 +56,7 @@ Administrative keys for demisto/argus-toolbelt:3.0.0.3749933
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.4.26
+* Version: 2025.6.15
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -119,7 +119,7 @@ Administrative keys for demisto/argus-toolbelt:3.0.0.3749933
 ### `importlib_metadata`
 
 * Summary: Read metadata from Python packages
-* Version: 8.6.1
+* Version: 8.7.0
 * Pypi: https://pypi.org/project/importlib-metadata/
 * Homepage: None
 * Author: "Jason R. Coombs" <jaraco@jaraco.com>
@@ -149,8 +149,8 @@ Administrative keys for demisto/argus-toolbelt:3.0.0.3749933
 * Version: 3.2.2
 * Pypi: https://pypi.org/project/oauthlib/
 * Homepage: https://github.com/oauthlib/oauthlib
-* Author: The OAuthlib Community idan@gazit.me
-* License :: OSI Approved :: BSD License
+* Author: The OAuthlib Community
+* License: BSD
 
 ### `olefile`
 
@@ -264,7 +264,7 @@ Administrative keys for demisto/argus-toolbelt:3.0.0.3749933
 ### `typing_extensions`
 
 * Summary: Backported and Experimental Type Hints for Python 3.9+
-* Version: 4.12.2
+* Version: 4.14.0
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
@@ -282,7 +282,7 @@ Administrative keys for demisto/argus-toolbelt:3.0.0.3749933
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.4.0
+* Version: 2.5.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -291,7 +291,7 @@ Administrative keys for demisto/argus-toolbelt:3.0.0.3749933
 ### `zipp`
 
 * Summary: Backport of pathlib-compatible object wrapper for zip files
-* Version: 3.21.0
+* Version: 3.23.0
 * Pypi: https://pypi.org/project/zipp/
 * Homepage: None
 * Author: "Jason R. Coombs" <jaraco@jaraco.com>
