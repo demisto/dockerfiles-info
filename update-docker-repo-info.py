@@ -615,7 +615,7 @@ def read_dockers_from_all_yml_files(directory):
             with open(file_path, 'r') as file:
                 data = yaml.safe_load(file)  # Load the YAML file
 
-                if not data.get('deprecated') and data.get('type') != 'javascript':
+                if data.get('type') != 'javascript':
                     docker_images = set()
                     script_value = data.get('script', {})
                     
