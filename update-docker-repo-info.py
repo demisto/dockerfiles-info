@@ -450,7 +450,7 @@ def inspect_image_tag(image_name, image_tag, force=False, is_last_tag=False):
         subprocess.call(["docker", "rmi", full_name])
 
 
-def process_image(image_name, force):
+def process_image(image_name: str, force: bool):
     global REMOVED_IMAGES
     global ADDED_IMAGES
     global FAILED_INSPECT_IMAGES
@@ -473,7 +473,7 @@ def process_image(image_name, force):
             return
     
     # get all the image tags for this image from docker_images_metadata.json
-    docker_images_metadata = DOCKER_IMAGES_METADATA_FILE_CONTENT.get("docker_images",{}).get(image_name.replace('demisto/', ''))
+    docker_images_metadata = DOCKER_IMAGES_METADATA_FILE_CONTENT.get("docker_images", {}).get(image_name.replace('demisto/', ''))
     
     # get the image tags we use in content repo that not exists in docker_images_metadata.json
     tags_need_to_add = []
@@ -504,11 +504,17 @@ def process_image(image_name, force):
                     os.remove(tag_md_file)
                 REMOVED_IMAGES.append(f"{image_name}:{tag}")
 
+    # if no tags remain for this docker image, remove the entire docker entry
+    if not docker_images_metadata:
+        image_short_name = image_name.replace('demisto/', '')
+        if image_short_name in DOCKER_IMAGES_METADATA_FILE_CONTENT.get("docker_images", {}):
+            del DOCKER_IMAGES_METADATA_FILE_CONTENT["docker_images"][image_short_name]
+            print(f"Removed entire docker image entry '{image_short_name}' as it has no remaining tags")
 
     # inspect image tags and create the info files
     for tag_to_add in tags_need_to_add:
         try:
-            inspect_image_tag(image_name,tag_to_add,force, last_tag == tag_to_add)
+            inspect_image_tag(image_name,tag_to_add, force, last_tag == tag_to_add)
         except Exception as e:
             print(f'Failed to inspect {f"{image_name}:{tag}"} error: {e}')
             print(traceback.format_exc())
