@@ -1,9 +1,9 @@
-# `demisto/anyrun-sdk:1.0.0.3958004`
+# `demisto/anyrun-sdk:1.0.0.3970895`
 
 ## Docker Metadata
 - Image Size: 37.06 MB
-- Image ID: `sha256:4559e6eab6165e266966fab62dad21d012da64465f58f097bd4abce84e77b2e7`
-- Created: `2025-06-24T15:11:40.409492791Z`
+- Image ID: `sha256:0201eff34e200de7eae2a47c059af8e3f07502078d4dae01033adc264bc364b7`
+- Created: `2025-06-25T15:21:12.112349929Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.8`
   - `PYTHON_SHA256=c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e`
-  - `DOCKER_IMAGE=demisto/anyrun-sdk:1.0.0.3958004`
+  - `DOCKER_IMAGE=demisto/anyrun-sdk:1.0.0.3970895`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:4ec61243598b09335f490d49f0f4da3cf37b7a10`
-  - `org.opencontainers.image.version:1.0.0.3958004`
+  - `org.opencontainers.image.revision:1443c5bf34343704a29f799667c23f25bd0b7a29`
+  - `org.opencontainers.image.version:1.0.0.3970895`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/anyrun-sdk:1.0.0.3958004
+Signatures for demisto/anyrun-sdk:1.0.0.3970895
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.3958004   d042acc0ae8ffc771212a00e0b9ff021bc6618676e95c4f0a42857658e40a41e   (Repo Admin)
+1.0.0.3970895   a6475ec575737de8ce845db313036affeffa4207adf5b60810a66c8cc5570e47   (Repo Admin)
 
-Administrative keys for demisto/anyrun-sdk:1.0.0.3958004
+Administrative keys for demisto/anyrun-sdk:1.0.0.3970895
 
   Repository Key:	28cf2a1f1522749b25862956422fefd2db6e0932cc66350962900e445a339f15
   Root Key:	18b019a8016161d3fe08bfe2c0c13bd1066f77a766d489c88ae472f89b83cdb8
@@ -83,7 +83,7 @@ Administrative keys for demisto/anyrun-sdk:1.0.0.3958004
 ### `anyrun-sdk`
 
 * Summary: This is the official Python client library for ANY.RUN. Automate management of ANY.RUN REST endpoints
-* Version: 1.9.5
+* Version: 1.9.6
 * Pypi: https://pypi.org/project/anyrun-sdk/
 * Homepage: None
 * Author: Semen Shalnev <anyrun-integrations@any.run>
@@ -182,7 +182,7 @@ Administrative keys for demisto/anyrun-sdk:1.0.0.3958004
 ### `multidict`
 
 * Summary: multidict implementation
-* Version: 6.5.0
+* Version: 6.5.1
 * Pypi: https://pypi.org/project/multidict/
 * Homepage: https://github.com/aio-libs/multidict
 * Author: Andrew Svetlov andrew.svetlov@gmail.com
