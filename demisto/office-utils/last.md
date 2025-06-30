@@ -1,22 +1,22 @@
-# `demisto/office-utils:2.0.0.2020302`
+# `demisto/office-utils:2.0.0.3998874`
 
 ## Docker Metadata
-- Image Size: 343.21 MB
-- Image ID: `sha256:bf158a74b861b64f8a73ae5ca892c74720c2c99f447d22dfe8feb60a3d432152`
-- Created: `2025-01-20T08:54:50.063548255Z`
+- Image Size: 351.94 MB
+- Image ID: `sha256:82cf5bc1b0800694a7fa5d63601a335a6414bd4dcb14b9bf735582e699055b24`
+- Created: `2025-06-29T09:42:35.586076465Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.7`
-  - `PYTHON_SHA256=24887b92e2afd4a2ac602419ad4b596372f67ac9b077190f459aba390faf5550`
-  - `DOCKER_IMAGE=demisto/office-utils:2.0.0.2020302`
+  - `PYTHON_VERSION=3.12.10`
+  - `PYTHON_SHA256=07ab697474595e06f06647417d3c7fa97ded07afc1a7e4454c5639919b46eaea`
+  - `DOCKER_IMAGE=demisto/office-utils:2.0.0.3998874`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:5c27aa9cb0611248fab69f0ef5f0f919ae6fc2a7`
-  - `org.opencontainers.image.version:2.0.0.2020302`
+  - `org.opencontainers.image.revision:245890d6e38b9eafdb8ee0e0d6c720800d0205c1`
+  - `org.opencontainers.image.version:2.0.0.3998874`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/office-utils:2.0.0.2020302
+Signatures for demisto/office-utils:2.0.0.3998874
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-2.0.0.2020302   1d72c99b6f86c5b929a3d361890227e2c64304403c0e1aae3da1ca3d7f826512   (Repo Admin)
+2.0.0.3998874   6ffb228d2e596b13beebfa6fb8f02c29c67e9e81668938bcd788dca44a08f2ef   (Repo Admin)
 
-Administrative keys for demisto/office-utils:2.0.0.2020302
+Administrative keys for demisto/office-utils:2.0.0.3998874
 
   Repository Key:	3a4e6badcc5023897b94615e99ccda82c8860d4ff99ecf2265114159988451a7
   Root Key:	418c6990bf0cea59a956bbce3ae604a81c73789363c762e505b15050987a27cf
@@ -50,7 +50,7 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2024.8.30
+* Version: 2025.4.26
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -59,7 +59,7 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.0
+* Version: 3.4.2
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -95,7 +95,7 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.16.1
+* Version: 3.18.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -122,16 +122,16 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 ### `lxml`
 
 * Summary: Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.
-* Version: 5.3.0
+* Version: 5.4.0
 * Pypi: https://pypi.org/project/lxml/
 * Homepage: https://lxml.de/
-* Author: lxml dev team lxml-dev@lxml.de
+* Author: lxml dev team lxml@lxml.de
 * License :: OSI Approved :: BSD License
 
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.5.0
+* Version: 10.7.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -169,7 +169,7 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 * Summary: Powerful data structures for data analysis, time series, and statistics
 * Version: 2.2.3
 * Pypi: https://pypi.org/project/pandas/
-* Homepage: https://pandas.pydata.org
+* Homepage: None
 * Author: The Pandas Development Team <pandas-dev@python.org>
 * License :: OSI Approved :: BSD License
 
@@ -180,12 +180,12 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 * Pypi: https://pypi.org/project/pillow/
 * Homepage: None
 * Author: "Jeffrey A. Clark" <aclark@aclark.net>
-* License :: OSI Approved :: CMU License (MIT-CMU)
+* License: MIT-CMU
 
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.0.1
+* Version: 25.1.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -213,7 +213,7 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 ### `python-docx`
 
 * Summary: Create, read, and update Microsoft Word .docx files.
-* Version: 1.1.2
+* Version: 1.2.0
 * Pypi: https://pypi.org/project/python-docx/
 * Homepage: None
 * Author: Steve Canny <stcanny@gmail.com>
@@ -276,11 +276,10 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 75.6.0
+* Version: 80.9.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
-* License :: OSI Approved :: MIT License
 
 ### `six`
 
@@ -294,7 +293,7 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.1.3
+* Version: 5.3.0
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
@@ -302,12 +301,11 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 
 ### `typing_extensions`
 
-* Summary: Backported and Experimental Type Hints for Python 3.8+
-* Version: 4.12.2
+* Summary: Backported and Experimental Type Hints for Python 3.9+
+* Version: 4.14.0
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
-* License :: OSI Approved :: Python Software Foundation License
 
 ### `tzdata`
 
@@ -330,17 +328,16 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.2.3
+* Version: 2.4.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
-* License :: OSI Approved :: MIT License
 
 ### `XlsxWriter`
 
 * Summary: A Python module for creating Excel XLSX files.
 * Version: 3.2.0
-* Pypi: https://pypi.org/project/XlsxWriter/
+* Pypi: https://pypi.org/project/xlsxwriter/
 * Homepage: https://github.com/jmcnamara/XlsxWriter
 * Author: John McNamara jmcnamara@cpan.org
 * License :: OSI Approved :: BSD License
@@ -375,7 +372,7 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 * fontconfig	2.13.1-4.2
 * fontconfig-config	2.13.1-4.2
 * fonts-dejavu-core	2.37-2
-* fonts-opensymbol	2:102.11+LibO7.0.4-4+deb11u12
+* fonts-opensymbol	2:102.11+LibO7.0.4-4+deb11u13
 * gcc-10-base:amd64	10.2.1-6
 * gcc-9-base:amd64	9.3.0-22
 * gnupg	2.2.27-2+deb11u2
@@ -415,12 +412,12 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 * libbrotli1:amd64	1.0.9-2+b2
 * libbsd0:amd64	0.11.3-1+deb11u1
 * libbz2-1.0:amd64	1.0.8-4
-* libc-bin	2.31-13+deb11u11
-* libc6:amd64	2.31-13+deb11u11
+* libc-bin	2.31-13+deb11u13
+* libc6:amd64	2.31-13+deb11u13
 * libcairo2:amd64	1.16.0-5
 * libcap-ng0:amd64	0.7.9-2.2+b1
-* libcap2-bin	1:2.44-1
-* libcap2:amd64	1:2.44-1
+* libcap2-bin	1:2.44-1+deb11u1
+* libcap2:amd64	1:2.44-1+deb11u1
 * libcdr-0.1-1:amd64	0.1.6-2
 * libclucene-contribs1v5:amd64	2.3.3.4+dfsg-1+b1
 * libclucene-core1v5:amd64	2.3.3.4+dfsg-1+b1
@@ -429,7 +426,7 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 * libcom-err2:amd64	1.46.6-1~bpo11+1
 * libcrypt1:amd64	1:4.4.18-4
 * libcups2:amd64	2.3.3op2-3+deb11u9
-* libcurl3-gnutls:amd64	7.74.0-1.3+deb11u14
+* libcurl3-gnutls:amd64	7.74.0-1.3+deb11u15
 * libdb5.3:amd64	5.3.28+dfsg1-0.8
 * libdbus-1-3:amd64	1.12.28-0+deb11u1
 * libdconf1:amd64	0.38.0-2
@@ -442,26 +439,26 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 * libepoxy0:amd64	1.5.5-1
 * libepubgen-0.1-1:amd64	0.1.1-1
 * libetonyek-0.1-1:amd64	0.1.9-4
-* libexpat1:amd64	2.2.10-2+deb11u6
+* libexpat1:amd64	2.2.10-2+deb11u7
 * libext2fs2:amd64	1.46.6-1~bpo11+1
 * libexttextcat-2.0-0:amd64	3.4.5-1
 * libexttextcat-data	3.4.5-1
 * libffi7:amd64	3.3-6
 * libfontconfig1:amd64	2.13.1-4.2
 * libfreehand-0.1-1	0.1.2-3
-* libfreetype6:amd64	2.10.4+dfsg-1+deb11u1
+* libfreetype6:amd64	2.10.4+dfsg-1+deb11u2
 * libgcc-s1:amd64	10.2.1-6
 * libgcrypt20:amd64	1.8.7-6
 * libgdbm6:amd64	1.19-2
 * libgfortran5:amd64	10.2.1-6
-* libglib2.0-0:amd64	2.66.8-1+deb11u5
+* libglib2.0-0:amd64	2.66.8-1+deb11u6
 * libgmp10:amd64	2:6.2.1+dfsg-1+deb11u1
-* libgnutls30:amd64	3.7.1-5+deb11u6
+* libgnutls30:amd64	3.7.1-5+deb11u7
 * libgpg-error0:amd64	1.38-2
 * libgpgme11:amd64	1.14.0-1+b2
 * libgpgmepp6:amd64	1.14.0-1+b2
 * libgraphite2-3:amd64	1.3.14-1
-* libgssapi-krb5-2:amd64	1.18.3-6+deb11u5
+* libgssapi-krb5-2:amd64	1.18.3-6+deb11u6
 * libgstreamer-plugins-base1.0-0:amd64	1.18.4-2+deb11u3
 * libgstreamer1.0-0:amd64	1.18.4-2.1+deb11u1
 * libharfbuzz-icu0:amd64	2.7.4-1
@@ -470,14 +467,14 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 * libhunspell-1.7-0:amd64	1.7.0-3
 * libhyphen0:amd64	2.8.8-7
 * libice6:amd64	2:1.0.10-1
-* libicu67:amd64	67.1-7
+* libicu67:amd64	67.1-7+deb11u1
 * libidn2-0:amd64	2.3.0-5
 * libjbig0:amd64	2.1-3.1+b2
 * libjpeg62-turbo:amd64	1:2.0.6-4
-* libk5crypto3:amd64	1.18.3-6+deb11u5
+* libk5crypto3:amd64	1.18.3-6+deb11u6
 * libkeyutils1:amd64	1.6.1-2
-* libkrb5-3:amd64	1.18.3-6+deb11u5
-* libkrb5support0:amd64	1.18.3-6+deb11u5
+* libkrb5-3:amd64	1.18.3-6+deb11u6
+* libkrb5support0:amd64	1.18.3-6+deb11u6
 * libksba8:amd64	1.5.0-3+deb11u2
 * liblangtag-common	0.6.3-2
 * liblangtag1:amd64	0.6.3-2
@@ -506,7 +503,7 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 * libnumbertext-1.0-0:amd64	1.0.7-1
 * libnumbertext-data	1.0.7-1
 * libodfgen-0.1-1:amd64	0.1.8-2
-* libopenjp2-7:amd64	2.4.0-3
+* libopenjp2-7:amd64	2.4.0-3+deb11u1
 * liborc-0.4-0:amd64	1:0.4.32-1
 * liborcus-0.16-0:amd64	0.16.1-3+b2
 * liborcus-parser-0.16-0:amd64	0.16.1-3+b2
@@ -521,13 +518,13 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 * libpcsclite1:amd64	1.9.1-1
 * libpixman-1-0:amd64	0.40.0-1.1~deb11u1
 * libpng16-16:amd64	1.6.37-3
-* libpoppler102:amd64	20.09.0-3.1+deb11u1
+* libpoppler102:amd64	20.09.0-3.1+deb11u2
 * libprocps8:amd64	2:3.3.17-5
 * libpsl5:amd64	0.21.0-1.2
 * libpython3-stdlib:amd64	3.9.2-3
-* libpython3.9-minimal:amd64	3.9.2-1+deb11u2
-* libpython3.9-stdlib:amd64	3.9.2-1+deb11u2
-* libpython3.9:amd64	3.9.2-1+deb11u2
+* libpython3.9-minimal:amd64	3.9.2-1+deb11u3
+* libpython3.9-stdlib:amd64	3.9.2-1+deb11u3
+* libpython3.9:amd64	3.9.2-1+deb11u3
 * libqrcodegencpp1:amd64	1.6.0-1
 * libquadmath0:amd64	10.2.1-6
 * libqxp-0.0-0	0.0.2-1+b1
@@ -535,19 +532,19 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 * librasqal3:amd64	0.9.33-0.1
 * librdf0:amd64	1.0.17-1.1+b1
 * libreadline8:amd64	8.1-1
-* libreoffice	1:7.0.4-4+deb11u12
-* libreoffice-base	1:7.0.4-4+deb11u12
-* libreoffice-base-core	1:7.0.4-4+deb11u12
-* libreoffice-base-drivers	1:7.0.4-4+deb11u12
-* libreoffice-calc	1:7.0.4-4+deb11u12
-* libreoffice-common	1:7.0.4-4+deb11u12
-* libreoffice-core	1:7.0.4-4+deb11u12
-* libreoffice-draw	1:7.0.4-4+deb11u12
-* libreoffice-impress	1:7.0.4-4+deb11u12
-* libreoffice-math	1:7.0.4-4+deb11u12
-* libreoffice-report-builder-bin	1:7.0.4-4+deb11u12
-* libreoffice-style-colibre	1:7.0.4-4+deb11u12
-* libreoffice-writer	1:7.0.4-4+deb11u12
+* libreoffice	1:7.0.4-4+deb11u13
+* libreoffice-base	1:7.0.4-4+deb11u13
+* libreoffice-base-core	1:7.0.4-4+deb11u13
+* libreoffice-base-drivers	1:7.0.4-4+deb11u13
+* libreoffice-calc	1:7.0.4-4+deb11u13
+* libreoffice-common	1:7.0.4-4+deb11u13
+* libreoffice-core	1:7.0.4-4+deb11u13
+* libreoffice-draw	1:7.0.4-4+deb11u13
+* libreoffice-impress	1:7.0.4-4+deb11u13
+* libreoffice-math	1:7.0.4-4+deb11u13
+* libreoffice-report-builder-bin	1:7.0.4-4+deb11u13
+* libreoffice-style-colibre	1:7.0.4-4+deb11u13
+* libreoffice-writer	1:7.0.4-4+deb11u13
 * librevenge-0.0-0:amd64	0.0.4-6+b1
 * librtmp1:amd64	2.4+20151223.gitfa8646d.1-2+b2
 * libsasl2-2:amd64	2.1.27+dfsg-2.1+deb11u1
@@ -562,23 +559,23 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 * libsqlite3-0:amd64	3.34.1-3+deb11u1
 * libss2:amd64	1.46.6-1~bpo11+1
 * libssh2-1:amd64	1.9.0-2+deb11u1
-* libssl1.1:amd64	1.1.1w-0+deb11u2
+* libssl1.1:amd64	1.1.1w-0+deb11u3
 * libstaroffice-0.0-0:amd64	0.0.7-1
 * libstdc++6:amd64	10.2.1-6
 * libsuitesparseconfig5:amd64	1:5.8.1+dfsg-2
 * libsystemd0:amd64	252.29-1~deb12u1~bpo11+1
-* libtasn1-6:amd64	4.16.0-2+deb11u1
-* libtiff5:amd64	4.2.0-1+deb11u5
+* libtasn1-6:amd64	4.16.0-2+deb11u2
+* libtiff5:amd64	4.2.0-1+deb11u6
 * libtinfo6:amd64	6.2+20201114-2+deb11u2
 * libtirpc-common	1.3.1-1+deb11u1
 * libtirpc3:amd64	1.3.1-1+deb11u1
 * libudev1:amd64	252.29-1~deb12u1~bpo11+1
 * libunistring2:amd64	0.9.10-4
-* libuno-cppu3	1:7.0.4-4+deb11u12
-* libuno-cppuhelpergcc3-3	1:7.0.4-4+deb11u12
-* libuno-purpenvhelpergcc3-3	1:7.0.4-4+deb11u12
-* libuno-sal3	1:7.0.4-4+deb11u12
-* libuno-salhelpergcc3-3	1:7.0.4-4+deb11u12
+* libuno-cppu3	1:7.0.4-4+deb11u13
+* libuno-cppuhelpergcc3-3	1:7.0.4-4+deb11u13
+* libuno-purpenvhelpergcc3-3	1:7.0.4-4+deb11u13
+* libuno-sal3	1:7.0.4-4+deb11u13
+* libuno-salhelpergcc3-3	1:7.0.4-4+deb11u13
 * libunwind8:amd64	1.3.2-2
 * libuuid1:amd64	2.36.1-8+deb11u2
 * libvisio-0.1-1:amd64	0.1.7-1+b1
@@ -596,17 +593,17 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 * libxdmcp6:amd64	1:1.1.2-3
 * libxext6:amd64	2:1.3.3-1.1
 * libxinerama1:amd64	2:1.1.4-2
-* libxml2:amd64	2.9.10+dfsg-6.7+deb11u5
+* libxml2:amd64	2.9.10+dfsg-6.7+deb11u7
 * libxmlsec1-nss:amd64	1.2.31-1
 * libxmlsec1:amd64	1.2.31-1
 * libxrandr2:amd64	2:1.5.1-1
 * libxrender1:amd64	1:0.9.10-1
-* libxslt1.1:amd64	1.1.34-4+deb11u1
+* libxslt1.1:amd64	1.1.34-4+deb11u2
 * libxxhash0:amd64	0.8.0-2
 * libyajl2:amd64	2.1.0-3+deb11u2
 * libzmf-0.0-0:amd64	0.0.2-1+b3
 * libzstd1:amd64	1.4.8+dfsg-2.1
-* login	1:4.8.1-1
+* login	1:4.8.1-1+deb11u1
 * logsave	1.46.6-1~bpo11+1
 * lp-solve	5.5.2.5-2
 * lsb-base	11.1.0
@@ -616,26 +613,26 @@ Administrative keys for demisto/office-utils:2.0.0.2020302
 * ncurses-base	6.2+20201114-2+deb11u2
 * ncurses-bin	6.2+20201114-2+deb11u2
 * netbase	6.3
-* openjdk-11-jre-headless:amd64	11.0.25+9-1~deb11u1
-* openssl	1.1.1w-0+deb11u2
-* passwd	1:4.8.1-1
+* openjdk-11-jre-headless:amd64	11.0.27+6-1~deb11u1
+* openssl	1.1.1w-0+deb11u3
+* passwd	1:4.8.1-1+deb11u1
 * perl-base	5.32.1-4+deb11u4
 * pinentry-curses	1.1.0-4
 * procps	2:3.3.17-5
 * python3	3.9.2-3
 * python3-minimal	3.9.2-3
-* python3-uno	1:7.0.4-4+deb11u12
-* python3.9	3.9.2-1+deb11u2
-* python3.9-minimal	3.9.2-1+deb11u2
+* python3-uno	1:7.0.4-4+deb11u13
+* python3.9	3.9.2-1+deb11u3
+* python3.9-minimal	3.9.2-1+deb11u3
 * readline-common	8.1-1
 * sed	4.7-1
 * sensible-utils	0.0.14
 * sysvinit-utils	2.96-7+deb11u1
 * tar	1.34+dfsg-1+deb11u1
-* tzdata	2024b-0+deb11u1
-* ucf	3.0043
-* uno-libs-private	1:7.0.4-4+deb11u12
-* ure	1:7.0.4-4+deb11u12
+* tzdata	2025b-0+deb11u1
+* ucf	3.0043+deb11u2
+* uno-libs-private	1:7.0.4-4+deb11u13
+* ure	1:7.0.4-4+deb11u13
 * util-linux	2.36.1-8+deb11u2
 * x11-common	1:7.7+22
 * zlib1g:amd64	1:1.2.11.dfsg-2+deb11u2
