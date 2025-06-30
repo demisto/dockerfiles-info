@@ -660,7 +660,7 @@ def main():
     parser = argparse.ArgumentParser(description='Fetch docker repo info. Will fetch the docker image and then generate license info',
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("--docker-image", help="The docker image name to use (ie: demisto/python). Optional." +
-                        "If not specified will scan all images in the demisto organization", nargs="?")
+                        "If not specified will scan all images in the demisto organization.", nargs="?")
     parser.add_argument("--force", help="Force refetch even if license data already exists", action='store_true')
     parser.add_argument("--no-verify-ssl", help="Don't verify ssl certs for requests (for testing behind corp firewall)", action='store_true')
     parser.add_argument("--slack-token", help="The token for slack.")
