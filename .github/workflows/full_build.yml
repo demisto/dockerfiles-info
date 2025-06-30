@@ -37,10 +37,17 @@ jobs:
       - name: Run update-docker-repo-info script
         env:
           SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+          SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
           SLACK_TEST_CHANNEL: ${{ secrets.SLACK_TEST_CHANNEL }}
           DOCKERHUB_USER: ${{ secrets.DOCKERHUB_USER }}
           DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}
-        run: pipenv run ./update-docker-repo-info.py --slack-token "$SLACK_TOKEN" --slack-channel "$SLACK_TEST_CHANNEL" --dockerhub-user "$DOCKERHUB_USER" --dockerhub-password "$DOCKERHUB_PASSWORD"
+        run: |
+          if [[ "${{ github.event.label.name }}" == "test-dockers-update" ]]; then
+              CHANNEL="$SLACK_TEST_CHANNEL"
+          else
+              CHANNEL="$SLACK_CHANNEL"
+          fi
+            pipenv run ./update-docker-repo-info.py --slack-token "$SLACK_TOKEN" --slack-channel "$CHANNEL" --dockerhub-user "$DOCKERHUB_USER" --dockerhub-password "$DOCKERHUB_PASSWORD"
 
       - name: Configure Git for commit
         run: |

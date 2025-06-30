@@ -504,12 +504,6 @@ def process_image(image_name: str, force: bool):
                     os.remove(tag_md_file)
                 REMOVED_IMAGES.append(f"{image_name}:{tag}")
 
-    # if no tags remain for this docker image, remove the entire docker entry
-    if not docker_images_metadata:
-        image_short_name = image_name.replace('demisto/', '')
-        if image_short_name in DOCKER_IMAGES_METADATA_FILE_CONTENT.get("docker_images", {}):
-            del DOCKER_IMAGES_METADATA_FILE_CONTENT["docker_images"][image_short_name]
-            print(f"Removed entire docker image entry '{image_short_name}' as it has no remaining tags")
 
     # inspect image tags and create the info files
     for tag_to_add in tags_need_to_add:
@@ -571,13 +565,19 @@ def generate_csv():
 
 
 def save_to_docker_files_metadata_json_file():
-    if DOCKER_IMAGES_METADATA_FILE_CONTENT:
-        with open("docker_images_metadata.json", "w") as fp:
-            fp.write(json.dumps(DOCKER_IMAGES_METADATA_FILE_CONTENT, indent=4))
-    else:
+    if not DOCKER_IMAGES_METADATA_FILE_CONTENT:
         print(
             f'{DOCKER_IMAGES_METADATA_FILE_CONTENT=} is empty, to avoid overriding the file, python version will not be added'
         )
+        return
+    docker_images: dict = DOCKER_IMAGES_METADATA_FILE_CONTENT["docker_images"]
+    #Remove empty docker image entries (where the value is an empty dict)
+    docker_images = {k: v for k, v in docker_images.items() if v}
+    DOCKER_IMAGES_METADATA_FILE_CONTENT["docker_images"] = docker_images
+
+    with open("docker_images_metadata.json", "w") as fp:
+        fp.write(json.dumps(DOCKER_IMAGES_METADATA_FILE_CONTENT, indent=4, sort_keys=True))
+    print("Successfully saved to 'docker_images_metadata.json'.")
 
 
 def checkout_dockerfiles_repo():
