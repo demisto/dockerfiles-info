@@ -570,8 +570,8 @@ def save_to_docker_files_metadata_json_file():
             f'{DOCKER_IMAGES_METADATA_FILE_CONTENT=} is empty, to avoid overriding the file, python version will not be added'
         )
         return
+    # Remove empty docker image entries (where the value is an empty dict)
     docker_images: dict = DOCKER_IMAGES_METADATA_FILE_CONTENT["docker_images"]
-    #Remove empty docker image entries (where the value is an empty dict)
     docker_images = {k: v for k, v in docker_images.items() if v}
     DOCKER_IMAGES_METADATA_FILE_CONTENT["docker_images"] = docker_images
 
