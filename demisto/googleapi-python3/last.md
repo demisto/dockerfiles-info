@@ -1,9 +1,9 @@
-# `demisto/googleapi-python3:1.0.0.3869138`
+# `demisto/googleapi-python3:1.0.0.3982780`
 
 ## Docker Metadata
-- Image Size: 80.52 MB
-- Image ID: `sha256:a6d33675f61147c84d677ae6318c47f838fc110470b63b7ce8fc7f8c1079b24d`
-- Created: `2025-06-19T08:33:32.5596956Z`
+- Image Size: 80.57 MB
+- Image ID: `sha256:188f39c7fe782c6259729f1d0a28903e59b1435a87c6adace07f79c7b479dbe8`
+- Created: `2025-06-26T15:13:07.133520818Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.10`
   - `PYTHON_SHA256=07ab697474595e06f06647417d3c7fa97ded07afc1a7e4454c5639919b46eaea`
-  - `DOCKER_IMAGE=demisto/googleapi-python3:1.0.0.3869138`
+  - `DOCKER_IMAGE=demisto/googleapi-python3:1.0.0.3982780`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:157d1e23cc15899d382740a07bda3206d0cf05cc`
-  - `org.opencontainers.image.version:1.0.0.3869138`
+  - `org.opencontainers.image.revision:cbce86f0917307223411414dbdd2d0d2e9efb4b0`
+  - `org.opencontainers.image.version:1.0.0.3982780`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/googleapi-python3:1.0.0.3869138
+Signatures for demisto/googleapi-python3:1.0.0.3982780
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.3869138   e5b5f02d926012eb760ea2ec899102d535384729a140cdc59cffea8803f89e0f   (Repo Admin)
+1.0.0.3982780   8299461a3956b402f4d79316c46421cf97f4255fee8cbfc7cce4fa5052767f60   (Repo Admin)
 
-Administrative keys for demisto/googleapi-python3:1.0.0.3869138
+Administrative keys for demisto/googleapi-python3:1.0.0.3982780
 
   Repository Key:	b14f1cdad56bfcc44f0ba4af89b0ec4910e16f20c7c6ab86d496a5786dc49c4c
   Root Key:	8fe3e320ac3b88f7823a158cd05468872ae8ac2135e8ca4f9e70d707440f05d4
@@ -122,7 +122,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.3869138
 ### `google-api-python-client`
 
 * Summary: Google API Client Library for Python
-* Version: 2.172.0
+* Version: 2.174.0
 * Pypi: https://pypi.org/project/google-api-python-client/
 * Homepage: https://github.com/googleapis/google-api-python-client/
 * Author: Google LLC googleapis-packages@google.com
