@@ -450,7 +450,7 @@ def inspect_image_tag(image_name, image_tag, force=False, is_last_tag=False):
         subprocess.call(["docker", "rmi", full_name])
 
 
-def process_image(image_name, force):
+def process_image(image_name: str, force: bool):
     global REMOVED_IMAGES
     global ADDED_IMAGES
     global FAILED_INSPECT_IMAGES
@@ -473,7 +473,7 @@ def process_image(image_name, force):
             return
     
     # get all the image tags for this image from docker_images_metadata.json
-    docker_images_metadata = DOCKER_IMAGES_METADATA_FILE_CONTENT.get("docker_images",{}).get(image_name.replace('demisto/', ''))
+    docker_images_metadata = DOCKER_IMAGES_METADATA_FILE_CONTENT.get("docker_images", {}).get(image_name.replace('demisto/', ''))
     
     # get the image tags we use in content repo that not exists in docker_images_metadata.json
     tags_need_to_add = []
@@ -508,7 +508,7 @@ def process_image(image_name, force):
     # inspect image tags and create the info files
     for tag_to_add in tags_need_to_add:
         try:
-            inspect_image_tag(image_name,tag_to_add,force, last_tag == tag_to_add)
+            inspect_image_tag(image_name,tag_to_add, force, last_tag == tag_to_add)
         except Exception as e:
             print(f'Failed to inspect {f"{image_name}:{tag}"} error: {e}')
             print(traceback.format_exc())
@@ -565,13 +565,19 @@ def generate_csv():
 
 
 def save_to_docker_files_metadata_json_file():
-    if DOCKER_IMAGES_METADATA_FILE_CONTENT:
-        with open("docker_images_metadata.json", "w") as fp:
-            fp.write(json.dumps(DOCKER_IMAGES_METADATA_FILE_CONTENT, indent=4))
-    else:
+    if not DOCKER_IMAGES_METADATA_FILE_CONTENT:
         print(
             f'{DOCKER_IMAGES_METADATA_FILE_CONTENT=} is empty, to avoid overriding the file, python version will not be added'
         )
+        return
+    # Remove empty docker image entries (where the value is an empty dict)
+    docker_images: dict = DOCKER_IMAGES_METADATA_FILE_CONTENT["docker_images"]
+    docker_images = {k: v for k, v in docker_images.items() if v}
+    DOCKER_IMAGES_METADATA_FILE_CONTENT["docker_images"] = docker_images
+
+    with open("docker_images_metadata.json", "w") as fp:
+        fp.write(json.dumps(DOCKER_IMAGES_METADATA_FILE_CONTENT, indent=4, sort_keys=True))
+    print("Successfully saved to 'docker_images_metadata.json'.")
 
 
 def checkout_dockerfiles_repo():
@@ -615,7 +621,7 @@ def read_dockers_from_all_yml_files(directory):
             with open(file_path, 'r') as file:
                 data = yaml.safe_load(file)  # Load the YAML file
 
-                if not data.get('deprecated') and data.get('type') != 'javascript':
+                if data.get('type') != 'javascript':
                     docker_images = set()
                     script_value = data.get('script', {})
                     
@@ -654,7 +660,7 @@ def main():
     parser = argparse.ArgumentParser(description='Fetch docker repo info. Will fetch the docker image and then generate license info',
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("--docker-image", help="The docker image name to use (ie: demisto/python). Optional." +
-                        "If not specified will scan all images in the demisto organization", nargs="?")
+                        "If not specified will scan all images in the demisto organization.", nargs="?")
     parser.add_argument("--force", help="Force refetch even if license data already exists", action='store_true')
     parser.add_argument("--no-verify-ssl", help="Don't verify ssl certs for requests (for testing behind corp firewall)", action='store_true')
     parser.add_argument("--slack-token", help="The token for slack.")
