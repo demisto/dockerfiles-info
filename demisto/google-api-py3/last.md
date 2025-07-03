@@ -1,22 +1,22 @@
-# `demisto/google-api-py3:1.0.0.3982986`
+# `demisto/google-api-py3:1.0.0.4039782`
 
 ## Docker Metadata
-- Image Size: 85.40 MB
-- Image ID: `sha256:a4b3e3a5c5ed401ad1e1afa9dcf62334a23256baef9d149ee6e70b25c6d28c74`
-- Created: `2025-06-26T15:23:38.397176868Z`
+- Image Size: 76.47 MB
+- Image ID: `sha256:9c28442cb4fe971dacabbb4af7fdd5e989471c5cd2adc9492cb593f16db6f515`
+- Created: `2025-07-02T15:08:36.329638908Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.10`
-  - `PYTHON_SHA256=07ab697474595e06f06647417d3c7fa97ded07afc1a7e4454c5639919b46eaea`
-  - `DOCKER_IMAGE=demisto/google-api-py3:1.0.0.3982986`
+  - `PYTHON_VERSION=3.12.11`
+  - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
+  - `DOCKER_IMAGE=demisto/google-api-py3:1.0.0.4039782`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:28854bf66ef6e00d463c1b540adb8f3d79623a68`
-  - `org.opencontainers.image.version:1.0.0.3982986`
+  - `org.opencontainers.image.revision:872f77e29bef204accfebbcc1451942895bb5bd8`
+  - `org.opencontainers.image.version:1.0.0.4039782`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-api-py3:1.0.0.3982986
+Signatures for demisto/google-api-py3:1.0.0.4039782
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.3982986   dddacd14f52a1e351ef795bf95440cd920ab3add42233a0cd27d4627babacb5c   (Repo Admin)
+1.0.0.4039782   d97c45d11e71acc7c5a1b7ae30d65f2f9ef66cb7aa6f79adb7f84d1ad21793be   (Repo Admin)
 
-Administrative keys for demisto/google-api-py3:1.0.0.3982986
+Administrative keys for demisto/google-api-py3:1.0.0.4039782
 
   Repository Key:	5770a83f9c9b9436ad3c6e6acfe7a826fe9e3f460f7ad22dfb9f894f371071a6
   Root Key:	95f47db9a4f5902373f46f558d53e073d895578cef7f0b44205d77f956ba04d4
@@ -86,7 +86,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.3982986
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 45.0.4
+* Version: 45.0.5
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The cryptography developers <cryptography-dev@python.org> The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -95,7 +95,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.3982986
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.2.0
+* Version: 1.2.2
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub opensource@zyte.com
@@ -303,7 +303,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.3982986
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2024.2
+* Version: 2025.2
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -383,7 +383,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.3982986
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.2
+* Version: 5.3.1
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -453,13 +453,13 @@ Administrative keys for demisto/google-api-py3:1.0.0.3982986
 * libgmp10:amd64	2:6.2.1+dfsg-1+deb11u1
 * libgnutls30:amd64	3.7.1-5+deb11u7
 * libgpg-error0:amd64	1.38-2
-* libgssapi-krb5-2:amd64	1.18.3-6+deb11u6
+* libgssapi-krb5-2:amd64	1.18.3-6+deb11u7
 * libhogweed6:amd64	3.7.3-1
 * libidn2-0:amd64	2.3.0-5
-* libk5crypto3:amd64	1.18.3-6+deb11u6
+* libk5crypto3:amd64	1.18.3-6+deb11u7
 * libkeyutils1:amd64	1.6.1-2
-* libkrb5-3:amd64	1.18.3-6+deb11u6
-* libkrb5support0:amd64	1.18.3-6+deb11u6
+* libkrb5-3:amd64	1.18.3-6+deb11u7
+* libkrb5support0:amd64	1.18.3-6+deb11u7
 * liblz4-1:amd64	1.9.3-2
 * liblzma5:amd64	5.2.5-2.1~deb11u1
 * libmount1:amd64	2.36.1-8+deb11u2
