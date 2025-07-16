@@ -1,9 +1,9 @@
-# `demisto/kubernetespy:1.0.0.4098820`
+# `demisto/kubernetespy:1.0.0.4181675`
 
 ## Docker Metadata
-- Image Size: 35.64 MB
-- Image ID: `sha256:8f044805385ad7b6eed640f4dd75a21a7d5d41e240a155cf4adb9ca771a6a0cc`
-- Created: `2025-07-08T13:07:03.237744683Z`
+- Image Size: 33.15 MB
+- Image ID: `sha256:66e9ebafe4a2f243b2ff471d52900a77fc9c5e9d466a3fe7c9d22e5822dd3c1b`
+- Created: `2025-07-16T01:06:45.543077313Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/kubernetespy:1.0.0.4098820`
+  - `DOCKER_IMAGE=demisto/kubernetespy:1.0.0.4181675`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:587f064c648d38609a8cc7fcd9fbf2de28f47fb8`
-  - `org.opencontainers.image.version:1.0.0.4098820`
+  - `org.opencontainers.image.revision:36f065ec440fcd3efdd9ffa0f3a3a6ec19c74bdb`
+  - `org.opencontainers.image.version:1.0.0.4181675`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.22.0`
+  - `VERSION_ID=3.22.1`
   - `PRETTY_NAME="Alpine Linux v3.22"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/kubernetespy:1.0.0.4098820
+Signatures for demisto/kubernetespy:1.0.0.4181675
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4098820   4797ce928e630d5b398b6e3a8f5e90e7cf0b801e480e753b5904c8be92bbfdd9   (Repo Admin)
+1.0.0.4181675   12a2c79c221bd1a343f2e328aa05cc7d076395e8e5b69f3e005f4f3c2ed8d3e2   (Repo Admin)
 
-Administrative keys for demisto/kubernetespy:1.0.0.4098820
+Administrative keys for demisto/kubernetespy:1.0.0.4181675
 
   Repository Key:	03a79bd0c19fe3f3f09344f835963bf8106b7bda03c79e185219d2b53847228c
   Root Key:	153a4404808e50fdd7e66cfc9281170d666b8b9324ce95cdd5b82d69ed5d1f1b
@@ -342,16 +342,16 @@ Administrative keys for demisto/kubernetespy:1.0.0.4098820
 
 ## `OS Packages`
 
-* .python-rundeps-20250604.171311 noarch {.python-rundeps}
+* .python-rundeps-20250715.193427 noarch {.python-rundeps}
 * alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.22.0-r0 x86_64 {alpine-base}
+* alpine-release-3.22.1-r0 x86_64 {alpine-base}
 * apk-tools-2.14.9-r2 x86_64 {apk-tools}
 * busybox-1.37.0-r18 x86_64 {busybox}
 * busybox-binsh-1.37.0-r18 x86_64 {busybox}
-* ca-certificates-20241121-r2 x86_64 {ca-certificates}
-* ca-certificates-bundle-20241121-r2 x86_64 {ca-certificates}
+* ca-certificates-20250619-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20250619-r0 x86_64 {ca-certificates}
 * gdbm-1.24-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}

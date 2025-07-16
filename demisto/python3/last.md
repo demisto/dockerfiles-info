@@ -1,9 +1,9 @@
-# `demisto/python3:3.12.11.4095827`
+# `demisto/python3:3.12.11.4181428`
 
 ## Docker Metadata
-- Image Size: 31.41 MB
-- Image ID: `sha256:ecdc5046d26bc207009d8a9c9776ba811bb52f7c68e0d2d1372ece1036e7fcdd`
-- Created: `2025-07-08T09:49:28.216498989Z`
+- Image Size: 28.92 MB
+- Image ID: `sha256:9fad11afb21fbbe8ec7b2f06c5e2b050caa924d60da0815e24fadea53a1531c2`
+- Created: `2025-07-16T00:34:37.150653411Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/python3:3.12.11.4095827`
+  - `DOCKER_IMAGE=demisto/python3:3.12.11.4181428`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b03806198f41dff3defdeccdbf46b58864844a8f`
-  - `org.opencontainers.image.version:3.12.11.4095827`
+  - `org.opencontainers.image.revision:46ddd87a3d377d206b60e791307293b9dee9a617`
+  - `org.opencontainers.image.version:3.12.11.4181428`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.22.0`
+  - `VERSION_ID=3.22.1`
   - `PRETTY_NAME="Alpine Linux v3.22"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3:3.12.11.4095827
+Signatures for demisto/python3:3.12.11.4181428
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.11.4095827   3818cad7d1b16a3758069f977aa7ce46ae565e6966daea98e078a6bdcff4746a   (Repo Admin)
+3.12.11.4181428   fd71182b0b0331a67c0da2434be9515fe21300e5f4d9d034afb66d0b0216b0b1   (Repo Admin)
 
-Administrative keys for demisto/python3:3.12.11.4095827
+Administrative keys for demisto/python3:3.12.11.4181428
 
   Repository Key:	dd922c0a78cf908782d68ed2f99cae9350740fc2da582a1cb5c03e530ba2dd31
   Root Key:	46ab19438bfff81c925ab27466b52b175de43bad8e8a19cc878e9288246bff8d
@@ -252,16 +252,16 @@ Administrative keys for demisto/python3:3.12.11.4095827
 
 ## `OS Packages`
 
-* .python-rundeps-20250604.171311 noarch {.python-rundeps}
+* .python-rundeps-20250715.193427 noarch {.python-rundeps}
 * alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.22.0-r0 x86_64 {alpine-base}
+* alpine-release-3.22.1-r0 x86_64 {alpine-base}
 * apk-tools-2.14.9-r2 x86_64 {apk-tools}
 * busybox-1.37.0-r18 x86_64 {busybox}
 * busybox-binsh-1.37.0-r18 x86_64 {busybox}
-* ca-certificates-20241121-r2 x86_64 {ca-certificates}
-* ca-certificates-bundle-20241121-r2 x86_64 {ca-certificates}
+* ca-certificates-20250619-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20250619-r0 x86_64 {ca-certificates}
 * gdbm-1.24-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}

@@ -1,9 +1,9 @@
-# `demisto/datadog-api-client:1.0.0.4027767`
+# `demisto/datadog-api-client:1.0.0.4176959`
 
 ## Docker Metadata
-- Image Size: 32.62 MB
-- Image ID: `sha256:d174ff697ed2b8afcdf810881fec401b7ab00799e06d214367d5703174b62505`
-- Created: `2025-07-01T15:34:06.151914205Z`
+- Image Size: 34.89 MB
+- Image ID: `sha256:fafcd1359f155a589134777b73e5d230ef0452862b56309c77412c08f97429ff`
+- Created: `2025-07-15T14:27:47.129493592Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/datadog-api-client:1.0.0.4027767`
+  - `DOCKER_IMAGE=demisto/datadog-api-client:1.0.0.4176959`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:c044e443d7b7317d68ab74b7ab84099393bbde4e`
-  - `org.opencontainers.image.version:1.0.0.4027767`
+  - `org.opencontainers.image.revision:06940ec8bec2b93d9c02c4a0298b1ec1b621fde7`
+  - `org.opencontainers.image.version:1.0.0.4176959`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/datadog-api-client:1.0.0.4027767
+Signatures for demisto/datadog-api-client:1.0.0.4176959
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4027767   51a719295d7d7b4b3111710fd9a3880c011669a24abd7c7ff0fa18424e70c725   (Repo Admin)
+1.0.0.4176959   3710ddfc85b2a736ef97683098a813f3bb645cde3930a5ac1578c200e7210bd8   (Repo Admin)
 
-Administrative keys for demisto/datadog-api-client:1.0.0.4027767
+Administrative keys for demisto/datadog-api-client:1.0.0.4176959
 
   Repository Key:	656d78d0ce1bf497326f1f73e1748d6dc41faace8487b29f8cf74838cf932cd9
   Root Key:	f37ef2584cf450f8c9dd9e8721f92ef81e852897ae167f699bb2c8bffa6ecd86
@@ -47,7 +47,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.4027767
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.6.15
+* Version: 2025.7.14
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -65,7 +65,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.4027767
 ### `datadog-api-client`
 
 * Summary: Collection of all Datadog Public endpoints
-* Version: 2.39.0
+* Version: 2.40.0
 * Pypi: https://pypi.org/project/datadog-api-client/
 * Homepage: https://github.com/DataDog/datadog-api-client-python
 * Author: Datadog, Inc. packages@datadoghq.com
@@ -80,6 +80,15 @@ Administrative keys for demisto/datadog-api-client:1.0.0.4027767
 * Author: Scrapinghub opensource@zyte.com
 * License :: OSI Approved :: BSD License
 
+### `deepmerge`
+
+* Summary: A toolset for deeply merging Python dictionaries.
+* Version: 2.0
+* Pypi: https://pypi.org/project/deepmerge/
+* Homepage: None
+* Author: Yusuke Tsutsumi <yusuke@tsutsumi.io>
+* License :: OSI Approved :: MIT License
+
 ### `defusedxml`
 
 * Summary: XML bomb protection for Python stdlib modules
@@ -92,7 +101,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.4027767
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.16.1
+* Version: 3.18.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -119,7 +128,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.4027767
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.5.0
+* Version: 10.7.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -227,7 +236,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.4027767
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.1.3
+* Version: 5.3.0
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
@@ -236,7 +245,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.4027767
 ### `typing_extensions`
 
 * Summary: Backported and Experimental Type Hints for Python 3.9+
-* Version: 4.14.0
+* Version: 4.14.1
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
@@ -277,13 +286,13 @@ Administrative keys for demisto/datadog-api-client:1.0.0.4027767
 * libapk2-2.14.9-r2 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.2-r2 x86_64 {e2fsprogs}
-* libcrypto3-3.5.0-r0 x86_64 {openssl}
+* libcrypto3-3.5.1-r0 x86_64 {openssl}
 * libffi-3.4.8-r0 x86_64 {libffi}
 * libintl-0.24.1-r0 x86_64 {gettext}
 * libncursesw-6.5_p20250503-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
 * libpanelw-6.5_p20250503-r0 x86_64 {ncurses}
-* libssl3-3.5.0-r0 x86_64 {openssl}
+* libssl3-3.5.1-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
 * libuuid-2.41-r9 x86_64 {util-linux}
