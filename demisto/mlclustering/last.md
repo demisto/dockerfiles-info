@@ -1,9 +1,9 @@
-# `demisto/mlclustering:1.0.0.4101237`
+# `demisto/mlclustering:1.0.0.4213008`
 
 ## Docker Metadata
-- Image Size: 195.61 MB
-- Image ID: `sha256:806d5d7fc25612fb33f54942c5e1761f1d1ef708652c28361e16b0109f53a86d`
-- Created: `2025-07-08T15:32:12.59034845Z`
+- Image Size: 190.89 MB
+- Image ID: `sha256:e84d96ab639db516a6957c9f2d5701277b26026a90a46c91031a9c723da88358`
+- Created: `2025-07-18T15:04:03.885725191Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/mlclustering:1.0.0.4101237`
+  - `DOCKER_IMAGE=demisto/mlclustering:1.0.0.4213008`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:f495cdd45a680aa1e25f62ec37136cd4a88aeef0`
-  - `org.opencontainers.image.version:1.0.0.4101237`
+  - `org.opencontainers.image.revision:f29be3cbfd60f5665e9effe898d82f2a9d8d7d55`
+  - `org.opencontainers.image.version:1.0.0.4213008`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/mlclustering:1.0.0.4101237
+Signatures for demisto/mlclustering:1.0.0.4213008
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4101237   fc8e38bfb68244240142477091893675eb9becc753b004d667399e6469b2cbda   (Repo Admin)
+1.0.0.4213008   163cbb3aa6905ec4621f58caa4865c7b56f1076baa803788a904af21e6666272   (Repo Admin)
 
-Administrative keys for demisto/mlclustering:1.0.0.4101237
+Administrative keys for demisto/mlclustering:1.0.0.4213008
 
   Repository Key:	d8855dc0db9e2ead8c2f610d59993d791267c23029f0e34d7599fdc315359432
   Root Key:	e037f02a27ce45de827cee6fb6e79e9a04241487236ec6abf050019f6a7e7f13
@@ -249,16 +249,15 @@ Administrative keys for demisto/mlclustering:1.0.0.4101237
 ### `scikit-learn`
 
 * Summary: A set of python modules for machine learning and data mining
-* Version: 1.7.0
+* Version: 1.7.1
 * Pypi: https://pypi.org/project/scikit-learn/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: BSD License
 
 ### `scipy`
 
 * Summary: Fundamental algorithms for scientific computing in Python
-* Version: 1.15.3
+* Version: 1.16.0
 * Pypi: https://pypi.org/project/scipy/
 * Homepage: None
 * Author: None
