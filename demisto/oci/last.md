@@ -1,9 +1,9 @@
-# `demisto/oci:1.0.0.4177103`
+# `demisto/oci:1.0.0.4258094`
 
 ## Docker Metadata
-- Image Size: 75.50 MB
-- Image ID: `sha256:25d76f7c503773a630f9c108391862e06935b5dc2e6c62bacc7b0bd16a7ddca5`
-- Created: `2025-07-15T14:37:45.891634682Z`
+- Image Size: 73.39 MB
+- Image ID: `sha256:a2d069c8cf67ea63dfe9921bf69cb3d5e6b907309c229ed4c1836f7d2e71ab3d`
+- Created: `2025-07-22T15:12:47.00391286Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/oci:1.0.0.4177103`
+  - `DOCKER_IMAGE=demisto/oci:1.0.0.4258094`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:8baea19f06cf1f4d79e26f2a6b57a2c4cbdd44a2`
-  - `org.opencontainers.image.version:1.0.0.4177103`
+  - `org.opencontainers.image.revision:6f7999dc07beb3c209efce5d901c42fabeaf3b59`
+  - `org.opencontainers.image.version:1.0.0.4258094`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.22.0`
+  - `VERSION_ID=3.22.1`
   - `PRETTY_NAME="Alpine Linux v3.22"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/oci:1.0.0.4177103
+Signatures for demisto/oci:1.0.0.4258094
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4177103   4dd8965dc10c938bb68755783164c5eec733d980d4a7a013c5f071e79f9e7952   (Repo Admin)
+1.0.0.4258094   93eb437fabcdad922b2fcb0e9f4434f35a0484ffc61d5ce8b226439f10aa67b5   (Repo Admin)
 
-Administrative keys for demisto/oci:1.0.0.4177103
+Administrative keys for demisto/oci:1.0.0.4258094
 
   Repository Key:	2cc50bdbe67fd75478233e92583764f227d51416d68a400f91f13954268ef489
   Root Key:	6c4262e4f5f1c456c5e9a45765790ff209f55ce49fc37ed2a3dc8a833e52de92
@@ -155,7 +155,7 @@ Administrative keys for demisto/oci:1.0.0.4177103
 ### `oci`
 
 * Summary: Oracle Cloud Infrastructure Python SDK
-* Version: 2.155.2
+* Version: 2.156.0
 * Pypi: https://pypi.org/project/oci/
 * Homepage: https://docs.oracle.com/en-us/iaas/tools/python/latest/index.html
 * Author: Oracle joe.levy@oracle.com
@@ -307,16 +307,16 @@ Administrative keys for demisto/oci:1.0.0.4177103
 
 ## `OS Packages`
 
-* .python-rundeps-20250604.171311 noarch {.python-rundeps}
+* .python-rundeps-20250715.193427 noarch {.python-rundeps}
 * alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.22.0-r0 x86_64 {alpine-base}
+* alpine-release-3.22.1-r0 x86_64 {alpine-base}
 * apk-tools-2.14.9-r2 x86_64 {apk-tools}
 * busybox-1.37.0-r18 x86_64 {busybox}
 * busybox-binsh-1.37.0-r18 x86_64 {busybox}
-* ca-certificates-20241121-r2 x86_64 {ca-certificates}
-* ca-certificates-bundle-20241121-r2 x86_64 {ca-certificates}
+* ca-certificates-20250619-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20250619-r0 x86_64 {ca-certificates}
 * gdbm-1.24-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
