@@ -1,9 +1,9 @@
-# `demisto/fastapi:0.115.12.3243695`
+# `demisto/fastapi:0.116.1.4266494`
 
 ## Docker Metadata
-- Image Size: 203.73 MB
-- Image ID: `sha256:f9b7d5697320258fc24b476974f3958b8e474915264c1f1033fb9afbde7973ab`
-- Created: `2025-04-27T12:28:34.61922058Z`
+- Image Size: 210.04 MB
+- Image ID: `sha256:01f68f2bdbabe77c140644d276f2eca489f3c0e298a7e391a8115e78f3add3b6`
+- Created: `2025-07-23T08:51:24.59752917Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D`
   - `PYTHON_VERSION=3.11.10`
   - `PYTHON_SHA256=07a4356e912900e61a15cb0949a06c4a05012e213ecd6b4e84d0f67aabbee372`
-  - `DOCKER_IMAGE=demisto/fastapi:0.115.12.3243695`
+  - `DOCKER_IMAGE=demisto/fastapi:0.116.1.4266494`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:4cc00226619c7b5571ec8acb9f1d5d072b04bd06`
-  - `org.opencontainers.image.version:0.115.12.3243695`
+  - `org.opencontainers.image.revision:4e4880ae70ea86bccf5506100ea7bd8b3e3c93b1`
+  - `org.opencontainers.image.version:0.116.1.4266494`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/fastapi:0.115.12.3243695
+Signatures for demisto/fastapi:0.116.1.4266494
 
-SIGNED TAG         DIGEST                                                             SIGNERS
-0.115.12.3243695   494f2803572134bb787fb1484234444c9181a4fc9a2cb7767cc9538a6d87a631   (Repo Admin)
+SIGNED TAG        DIGEST                                                             SIGNERS
+0.116.1.4266494   057fb83c60e7685a35d99229ece21c4cdcc962adfdc50251bf829b5694a95722   (Repo Admin)
 
-Administrative keys for demisto/fastapi:0.115.12.3243695
+Administrative keys for demisto/fastapi:0.116.1.4266494
 
   Repository Key:	0271ad1efe39b86e62ae7b94055f6a242fcc87508e09e3e3642e5b835eec0955
   Root Key:	5e03c5b300f950846c7027ad151ca45f71a4a03330a1805f070015d4aee41282
@@ -56,7 +56,7 @@ Administrative keys for demisto/fastapi:0.115.12.3243695
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.4.26
+* Version: 2025.7.14
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -74,11 +74,11 @@ Administrative keys for demisto/fastapi:0.115.12.3243695
 ### `click`
 
 * Summary: Composable command line interface toolkit
-* Version: 8.1.8
+* Version: 8.2.1
 * Pypi: https://pypi.org/project/click/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: BSD License
+* License: 
 
 ### `dateparser`
 
@@ -101,7 +101,7 @@ Administrative keys for demisto/fastapi:0.115.12.3243695
 ### `fastapi`
 
 * Summary: FastAPI framework, high performance, easy to learn, fast to code, ready for production
-* Version: 0.115.12
+* Version: 0.116.1
 * Pypi: https://pypi.org/project/fastapi/
 * Homepage: None
 * Author: =?utf-8?q?Sebasti=C3=A1n_Ram=C3=ADrez?= <tiangolo@gmail.com>
@@ -200,7 +200,7 @@ Administrative keys for demisto/fastapi:0.115.12.3243695
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.1
+* Version: 25.1.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -291,7 +291,7 @@ Administrative keys for demisto/fastapi:0.115.12.3243695
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 75.5.0
+* Version: 80.9.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -319,7 +319,7 @@ Administrative keys for demisto/fastapi:0.115.12.3243695
 ### `starlette`
 
 * Summary: The little ASGI library that shines.
-* Version: 0.46.2
+* Version: 0.47.2
 * Pypi: https://pypi.org/project/starlette/
 * Homepage: None
 * Author: Tom Christie <tom@tomchristie.com>
@@ -336,8 +336,8 @@ Administrative keys for demisto/fastapi:0.115.12.3243695
 
 ### `typing_extensions`
 
-* Summary: Backported and Experimental Type Hints for Python 3.8+
-* Version: 4.13.2
+* Summary: Backported and Experimental Type Hints for Python 3.9+
+* Version: 4.14.1
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
@@ -364,7 +364,7 @@ Administrative keys for demisto/fastapi:0.115.12.3243695
 ### `uvicorn`
 
 * Summary: The lightning-fast ASGI server.
-* Version: 0.34.2
+* Version: 0.35.0
 * Pypi: https://pypi.org/project/uvicorn/
 * Homepage: None
 * Author: Tom Christie <tom@tomchristie.com>, Marcelo Trylesinski <marcelotryle@gmail.com>
@@ -388,8 +388,8 @@ Administrative keys for demisto/fastapi:0.115.12.3243695
 * apk-tools-2.14.4-r1 x86_64 {apk-tools}
 * busybox-1.36.1-r29 x86_64 {busybox}
 * busybox-binsh-1.36.1-r29 x86_64 {busybox}
-* ca-certificates-20240705-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20240705-r0 x86_64 {ca-certificates}
+* ca-certificates-20250619-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20250619-r0 x86_64 {ca-certificates}
 * gc-8.2.6-r0 x86_64 {gc}
 * gdbm-1.23-r1 x86_64 {gdbm}
 * gmp-6.3.0-r1 x86_64 {gmp}
@@ -400,14 +400,14 @@ Administrative keys for demisto/fastapi:0.115.12.3243695
 * krb5-libs-1.21.3-r0 x86_64 {krb5}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.0-r5 x86_64 {e2fsprogs}
-* libcrypto3-3.3.3-r0 x86_64 {openssl}
+* libcrypto3-3.3.4-r0 x86_64 {openssl}
 * libffi-3.4.6-r0 x86_64 {libffi}
-* libgcc-13.2.1_git20240309-r0 x86_64 {gcc}
+* libgcc-13.2.1_git20240309-r1 x86_64 {gcc}
 * libintl-0.22.5-r0 x86_64 {gettext}
 * libncursesw-6.4_p20240420-r2 x86_64 {ncurses}
 * libnsl-2.0.1-r0 x86_64 {libnsl}
 * libpanelw-6.4_p20240420-r2 x86_64 {ncurses}
-* libssl3-3.3.3-r0 x86_64 {openssl}
+* libssl3-3.3.4-r0 x86_64 {openssl}
 * libstdc++-13.2.1_git20240309-r1 x86_64 {gcc}
 * libtirpc-1.3.4-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.3.4-r0 x86_64 {libtirpc}
@@ -415,14 +415,14 @@ Administrative keys for demisto/fastapi:0.115.12.3243695
 * libuuid-2.40.1-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
 * musl-1.2.5-r1 x86_64 {musl}
-* musl-utils-1.2.5-r0 x86_64 {musl}
+* musl-utils-1.2.5-r1 x86_64 {musl}
 * ncurses-terminfo-base-6.4_p20240420-r2 x86_64 {ncurses}
 * pcre2-10.43-r0 x86_64 {pcre2}
 * readline-8.2.10-r0 x86_64 {readline}
 * scanelf-1.3.7-r2 x86_64 {pax-utils}
-* sqlite-libs-3.45.3-r1 x86_64 {sqlite}
+* sqlite-libs-3.45.3-r2 x86_64 {sqlite}
 * ssl_client-1.36.1-r29 x86_64 {busybox}
 * swig-4.2.1-r2 x86_64 {swig}
-* tzdata-2024b-r0 x86_64 {tzdata}
-* xz-libs-5.6.2-r0 x86_64 {xz}
+* tzdata-2025b-r0 x86_64 {tzdata}
+* xz-libs-5.6.2-r1 x86_64 {xz}
 * zlib-1.3.1-r1 x86_64 {zlib}
