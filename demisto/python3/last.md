@@ -1,9 +1,9 @@
-# `demisto/python3:3.12.11.4208709`
+# `demisto/python3:3.12.11.4284848`
 
 ## Docker Metadata
-- Image Size: 28.92 MB
-- Image ID: `sha256:d9e18d78a08d08c8d30bb7e899db083d707bfc71adafb07957e8b06d42ae0b42`
-- Created: `2025-07-18T01:07:45.858721896Z`
+- Image Size: 29.75 MB
+- Image ID: `sha256:487a87e08f06dcd0f3035df93045f7f8cb7680abe19999c5c322140913c337a8`
+- Created: `2025-07-24T13:17:31.443157922Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/python3:3.12.11.4208709`
+  - `DOCKER_IMAGE=demisto/python3:3.12.11.4284848`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3efddc475dc5b665819c52ba340324d6b872c8e4`
-  - `org.opencontainers.image.version:3.12.11.4208709`
+  - `org.opencontainers.image.revision:3fd76f7332900cdb5c2826b9d395bd729cbd7a61`
+  - `org.opencontainers.image.version:3.12.11.4284848`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3:3.12.11.4208709
+Signatures for demisto/python3:3.12.11.4284848
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.11.4208709   8eac5c8342672e931bedf415fc02f7d09ab6e46eea8da9c22a37467b8f89eb62   (Repo Admin)
+3.12.11.4284848   e5d77f6d6a10e9d1708a7b7837cfaec29dcf46ac1e64db73b70eedf71892b189   (Repo Admin)
 
-Administrative keys for demisto/python3:3.12.11.4208709
+Administrative keys for demisto/python3:3.12.11.4284848
 
   Repository Key:	dd922c0a78cf908782d68ed2f99cae9350740fc2da582a1cb5c03e530ba2dd31
   Root Key:	46ab19438bfff81c925ab27466b52b175de43bad8e8a19cc878e9288246bff8d
@@ -285,7 +285,7 @@ Administrative keys for demisto/python3:3.12.11.4208709
 * ncurses-terminfo-base-6.5_p20250503-r0 x86_64 {ncurses}
 * readline-8.2.13-r1 x86_64 {readline}
 * scanelf-1.3.8-r1 x86_64 {pax-utils}
-* sqlite-libs-3.49.2-r0 x86_64 {sqlite}
+* sqlite-libs-3.49.2-r1 x86_64 {sqlite}
 * ssl_client-1.37.0-r18 x86_64 {busybox}
 * tzdata-2025b-r0 x86_64 {tzdata}
 * xz-libs-5.8.1-r0 x86_64 {xz}
