@@ -1,9 +1,9 @@
-# `demisto/boto3py3:1.0.0.4257932`
+# `demisto/boto3py3:1.0.0.4429755`
 
 ## Docker Metadata
-- Image Size: 42.90 MB
-- Image ID: `sha256:bedfe3410be14c81a75ff8c42b9772ad7c707ea5a25024fcc7230246772d69dc`
-- Created: `2025-07-22T15:03:19.913372862Z`
+- Image Size: 43.80 MB
+- Image ID: `sha256:029640b9064cab101b3a6373f089acc7cf9c47fd9167eeb5c1b5e9f7c0983e08`
+- Created: `2025-08-05T16:46:55.147392417Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.4257932`
+  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.4429755`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:78f5050f6b916f52b05431321d88301e1af9d189`
-  - `org.opencontainers.image.version:1.0.0.4257932`
+  - `org.opencontainers.image.revision:914eb0b31801c3aab732cdd7515c9f60a9a1b74a`
+  - `org.opencontainers.image.version:1.0.0.4429755`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/boto3py3:1.0.0.4257932
+Signatures for demisto/boto3py3:1.0.0.4429755
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4257932   1b11ce57a559c2683785c24d21dd81b81214fdc348d96f1f2ab789c3a88edf25   (Repo Admin)
+1.0.0.4429755   79b0a15bc96140238c2896f4806f9bfa6117d69a554ed3e667dc28a122ef0b67   (Repo Admin)
 
-Administrative keys for demisto/boto3py3:1.0.0.4257932
+Administrative keys for demisto/boto3py3:1.0.0.4429755
 
   Repository Key:	cfe86d8f6e0178e2a77477d651d16cfc814b6e47b04f1f04d94917fb248a1ae8
   Root Key:	c4222af787cfc1a173f56c5eab482e5c4602eae4bb767431e17594c786c162f8
@@ -47,7 +47,7 @@ Administrative keys for demisto/boto3py3:1.0.0.4257932
 ### `boto3`
 
 * Summary: The AWS SDK for Python
-* Version: 1.39.10
+* Version: 1.40.2
 * Pypi: https://pypi.org/project/boto3/
 * Homepage: https://github.com/boto/boto3
 * Author: Amazon Web Services
@@ -56,7 +56,7 @@ Administrative keys for demisto/boto3py3:1.0.0.4257932
 ### `botocore`
 
 * Summary: Low-level, data-driven core of boto 3.
-* Version: 1.39.10
+* Version: 1.40.2
 * Pypi: https://pypi.org/project/botocore/
 * Homepage: https://github.com/boto/botocore
 * Author: Amazon Web Services
@@ -164,11 +164,11 @@ Administrative keys for demisto/boto3py3:1.0.0.4257932
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.1.1
+* Version: 25.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `PySocks`
 
@@ -212,9 +212,9 @@ Administrative keys for demisto/boto3py3:1.0.0.4257932
 * Summary: Alternative regular expression module, to replace re.
 * Version: 2024.11.6
 * Pypi: https://pypi.org/project/regex/
-* Homepage: https://github.com/mrabarnett/mrab-regex
-* Author: Matthew Barnett regex@mrabarnett.plus.com
-* License :: OSI Approved :: Apache Software License
+* Homepage: None
+* Author: Matthew Barnett <regex@mrabarnett.plus.com>
+* License: Apache Software License
 
 ### `requests`
 
@@ -321,7 +321,7 @@ Administrative keys for demisto/boto3py3:1.0.0.4257932
 * ncurses-terminfo-base-6.5_p20250503-r0 x86_64 {ncurses}
 * readline-8.2.13-r1 x86_64 {readline}
 * scanelf-1.3.8-r1 x86_64 {pax-utils}
-* sqlite-libs-3.49.2-r0 x86_64 {sqlite}
+* sqlite-libs-3.49.2-r1 x86_64 {sqlite}
 * ssl_client-1.37.0-r18 x86_64 {busybox}
 * tzdata-2025b-r0 x86_64 {tzdata}
 * xz-libs-5.8.1-r0 x86_64 {xz}
