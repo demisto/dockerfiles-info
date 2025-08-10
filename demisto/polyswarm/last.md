@@ -1,9 +1,9 @@
-# `demisto/polyswarm:1.0.0.4098979`
+# `demisto/polyswarm:1.0.0.4447191`
 
 ## Docker Metadata
-- Image Size: 34.47 MB
-- Image ID: `sha256:ff55894602723dad06e86f902c51b3567bd51df437d90d144bbc55fece4ccd83`
-- Created: `2025-07-08T13:13:12.620850089Z`
+- Image Size: 32.83 MB
+- Image ID: `sha256:2c4070c68f4e807dee9881fa35d78dddb8bfbb9f7125d3b1c6dd88e86523e1da`
+- Created: `2025-08-07T07:50:25.02091506Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/polyswarm:1.0.0.4098979`
+  - `DOCKER_IMAGE=demisto/polyswarm:1.0.0.4447191`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:dffa5ff78bef7bcc9fc1ac0bcf41df6174310ff2`
-  - `org.opencontainers.image.version:1.0.0.4098979`
+  - `org.opencontainers.image.revision:4ae3da3e9c0761f95bd2c7b2b5b2539bc1451cd7`
+  - `org.opencontainers.image.version:1.0.0.4447191`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.22.0`
+  - `VERSION_ID=3.22.1`
   - `PRETTY_NAME="Alpine Linux v3.22"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/polyswarm:1.0.0.4098979
+Signatures for demisto/polyswarm:1.0.0.4447191
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4098979   31660a9a974143c9976992cabdf29a93315d6218bb0827d716a28dccf40227f9   (Repo Admin)
+1.0.0.4447191   714db9e4802fac64e7e5080772bb7fae0a0bd0e410a6ce1b50cf2b07eea6b68b   (Repo Admin)
 
-Administrative keys for demisto/polyswarm:1.0.0.4098979
+Administrative keys for demisto/polyswarm:1.0.0.4447191
 
   Repository Key:	19666d476ef29dc749a6520049a21fa067e2b7d162f27d2e0b3deef644178dd7
   Root Key:	d2b52b512ccc7f8c7ac3da65cfdcfb4b28c59071dd53af74640cdfb6b5d7b36a
@@ -47,7 +47,7 @@ Administrative keys for demisto/polyswarm:1.0.0.4098979
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.4.26
+* Version: 2025.8.3
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -60,7 +60,7 @@ Administrative keys for demisto/polyswarm:1.0.0.4098979
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `click`
 
@@ -164,16 +164,16 @@ Administrative keys for demisto/polyswarm:1.0.0.4098979
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.1.1
+* Version: 25.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `polyswarm`
 
 * Summary: CLI for using the PolySwarm Customer APIs
-* Version: 3.7.0
+* Version: 3.11.0
 * Pypi: https://pypi.org/project/polyswarm/
 * Homepage: https://github.com/polyswarm/polyswarm-cli
 * Author: PolySwarm Developers info@polyswarm.io
@@ -182,7 +182,7 @@ Administrative keys for demisto/polyswarm:1.0.0.4098979
 ### `polyswarm-api`
 
 * Summary: Client library to simplify interacting with the PolySwarm consumer API
-* Version: 3.8.0
+* Version: 3.13.2
 * Pypi: https://pypi.org/project/polyswarm-api/
 * Homepage: https://github.com/polyswarm/polyswarm-api
 * Author: PolySwarm Developers info@polyswarm.io
@@ -239,9 +239,9 @@ Administrative keys for demisto/polyswarm:1.0.0.4098979
 * Summary: Alternative regular expression module, to replace re.
 * Version: 2024.11.6
 * Pypi: https://pypi.org/project/regex/
-* Homepage: https://github.com/mrabarnett/mrab-regex
-* Author: Matthew Barnett regex@mrabarnett.plus.com
-* License :: OSI Approved :: Apache Software License
+* Homepage: None
+* Author: Matthew Barnett <regex@mrabarnett.plus.com>
+* License: Apache Software License
 
 ### `requests`
 
@@ -306,16 +306,16 @@ Administrative keys for demisto/polyswarm:1.0.0.4098979
 
 ## `OS Packages`
 
-* .python-rundeps-20250604.171311 noarch {.python-rundeps}
+* .python-rundeps-20250715.193427 noarch {.python-rundeps}
 * alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.22.0-r0 x86_64 {alpine-base}
+* alpine-release-3.22.1-r0 x86_64 {alpine-base}
 * apk-tools-2.14.9-r2 x86_64 {apk-tools}
 * busybox-1.37.0-r18 x86_64 {busybox}
 * busybox-binsh-1.37.0-r18 x86_64 {busybox}
-* ca-certificates-20241121-r2 x86_64 {ca-certificates}
-* ca-certificates-bundle-20241121-r2 x86_64 {ca-certificates}
+* ca-certificates-20250619-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20250619-r0 x86_64 {ca-certificates}
 * gdbm-1.24-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
@@ -339,7 +339,7 @@ Administrative keys for demisto/polyswarm:1.0.0.4098979
 * ncurses-terminfo-base-6.5_p20250503-r0 x86_64 {ncurses}
 * readline-8.2.13-r1 x86_64 {readline}
 * scanelf-1.3.8-r1 x86_64 {pax-utils}
-* sqlite-libs-3.49.2-r0 x86_64 {sqlite}
+* sqlite-libs-3.49.2-r1 x86_64 {sqlite}
 * ssl_client-1.37.0-r18 x86_64 {busybox}
 * tzdata-2025b-r0 x86_64 {tzdata}
 * xz-libs-5.8.1-r0 x86_64 {xz}
