@@ -1,7 +1,7 @@
 variables:
-  CURRENT_BRANCH_NAME: sk_dockerfiles_info_ci  # "${INFRA_BRANCH}"
+  CURRENT_BRANCH_NAME: $INFRA_BRANCH
 
 include:
   - file: "/.gitlab/ci/dockerfiles-info/.gitlab-ci.yml"
-    ref: sk_dockerfiles_info_ci  # "${INFRA_BRANCH}"
+    ref: $INFRA_BRANCH
     project: "${CI_PROJECT_NAMESPACE}/infra"
