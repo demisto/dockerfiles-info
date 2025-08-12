@@ -1,9 +1,9 @@
-# `demisto/boto3py3:1.0.0.4460491`
+# `demisto/boto3py3:1.0.0.4493475`
 
 ## Docker Metadata
 - Image Size: 43.83 MB
-- Image ID: `sha256:d2344572166e59fe8f97974d6119a65f04e9b8e4d3451cfcdfe482b0e3f9511a`
-- Created: `2025-08-08T14:46:09.310711165Z`
+- Image ID: `sha256:e8be92f6322baf332db3c4a47b2393ae6d5bee3ad7a8c3cee076c4b27943a3e2`
+- Created: `2025-08-11T21:11:01.427586649Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.4460491`
+  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.4493475`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:a3f7360b5c663e671ba0b29f79eae0f0a0dcc82c`
-  - `org.opencontainers.image.version:1.0.0.4460491`
+  - `org.opencontainers.image.revision:d015124ee0c10e74d8666b8a4c637be6a54d7e9b`
+  - `org.opencontainers.image.version:1.0.0.4493475`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/boto3py3:1.0.0.4460491
+Signatures for demisto/boto3py3:1.0.0.4493475
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4460491   be84e13b8a06448469376cd831d0b20fff82d1cc0ebe1632f483ee3f98c6aa90   (Repo Admin)
+1.0.0.4493475   57b883a462553b50cf372cf0faba7010106d8c0e38e176fe351c2a3440589202   (Repo Admin)
 
-Administrative keys for demisto/boto3py3:1.0.0.4460491
+Administrative keys for demisto/boto3py3:1.0.0.4493475
 
   Repository Key:	cfe86d8f6e0178e2a77477d651d16cfc814b6e47b04f1f04d94917fb248a1ae8
   Root Key:	c4222af787cfc1a173f56c5eab482e5c4602eae4bb767431e17594c786c162f8
@@ -47,7 +47,7 @@ Administrative keys for demisto/boto3py3:1.0.0.4460491
 ### `boto3`
 
 * Summary: The AWS SDK for Python
-* Version: 1.40.5
+* Version: 1.40.6
 * Pypi: https://pypi.org/project/boto3/
 * Homepage: https://github.com/boto/boto3
 * Author: Amazon Web Services
@@ -56,7 +56,7 @@ Administrative keys for demisto/boto3py3:1.0.0.4460491
 ### `botocore`
 
 * Summary: Low-level, data-driven core of boto 3.
-* Version: 1.40.5
+* Version: 1.40.6
 * Pypi: https://pypi.org/project/botocore/
 * Homepage: https://github.com/boto/botocore
 * Author: Amazon Web Services
