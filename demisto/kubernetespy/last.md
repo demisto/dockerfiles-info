@@ -1,9 +1,9 @@
-# `demisto/kubernetespy:1.0.0.4181675`
+# `demisto/kubernetespy:1.0.0.4508691`
 
 ## Docker Metadata
-- Image Size: 33.15 MB
-- Image ID: `sha256:66e9ebafe4a2f243b2ff471d52900a77fc9c5e9d466a3fe7c9d22e5822dd3c1b`
-- Created: `2025-07-16T01:06:45.543077313Z`
+- Image Size: 33.65 MB
+- Image ID: `sha256:c7c7a29c05e05fb7349af5269af63685df3ba26c5953549784123272b6fdb9e0`
+- Created: `2025-08-13T01:06:23.784620588Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/kubernetespy:1.0.0.4181675`
+  - `DOCKER_IMAGE=demisto/kubernetespy:1.0.0.4508691`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:36f065ec440fcd3efdd9ffa0f3a3a6ec19c74bdb`
-  - `org.opencontainers.image.version:1.0.0.4181675`
+  - `org.opencontainers.image.revision:669b939cccd39efd5f751633136dd952cfd503a7`
+  - `org.opencontainers.image.version:1.0.0.4508691`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/kubernetespy:1.0.0.4181675
+Signatures for demisto/kubernetespy:1.0.0.4508691
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4181675   12a2c79c221bd1a343f2e328aa05cc7d076395e8e5b69f3e005f4f3c2ed8d3e2   (Repo Admin)
+1.0.0.4508691   7a37633f778baaa7b060c84c2a11aba91f648c53f6d141f2289085e2d885036c   (Repo Admin)
 
-Administrative keys for demisto/kubernetespy:1.0.0.4181675
+Administrative keys for demisto/kubernetespy:1.0.0.4508691
 
   Repository Key:	03a79bd0c19fe3f3f09344f835963bf8106b7bda03c79e185219d2b53847228c
   Root Key:	153a4404808e50fdd7e66cfc9281170d666b8b9324ce95cdd5b82d69ed5d1f1b
@@ -69,7 +69,7 @@ Administrative keys for demisto/kubernetespy:1.0.0.4181675
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `dateparser`
 
@@ -182,11 +182,11 @@ Administrative keys for demisto/kubernetespy:1.0.0.4181675
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.1.1
+* Version: 25.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `pyasn1`
 
@@ -248,9 +248,9 @@ Administrative keys for demisto/kubernetespy:1.0.0.4181675
 * Summary: Alternative regular expression module, to replace re.
 * Version: 2024.11.6
 * Pypi: https://pypi.org/project/regex/
-* Homepage: https://github.com/mrabarnett/mrab-regex
-* Author: Matthew Barnett regex@mrabarnett.plus.com
-* License :: OSI Approved :: Apache Software License
+* Homepage: None
+* Author: Matthew Barnett <regex@mrabarnett.plus.com>
+* License: Apache Software License
 
 ### `requests`
 
@@ -342,14 +342,14 @@ Administrative keys for demisto/kubernetespy:1.0.0.4181675
 
 ## `OS Packages`
 
-* .python-rundeps-20250715.193427 noarch {.python-rundeps}
+* .python-rundeps-20250812.224446 noarch {.python-rundeps}
 * alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
 * alpine-release-3.22.1-r0 x86_64 {alpine-base}
 * apk-tools-2.14.9-r2 x86_64 {apk-tools}
-* busybox-1.37.0-r18 x86_64 {busybox}
-* busybox-binsh-1.37.0-r18 x86_64 {busybox}
+* busybox-1.37.0-r19 x86_64 {busybox}
+* busybox-binsh-1.37.0-r19 x86_64 {busybox}
 * ca-certificates-20250619-r0 x86_64 {ca-certificates}
 * ca-certificates-bundle-20250619-r0 x86_64 {ca-certificates}
 * gdbm-1.24-r0 x86_64 {gdbm}
@@ -375,8 +375,8 @@ Administrative keys for demisto/kubernetespy:1.0.0.4181675
 * ncurses-terminfo-base-6.5_p20250503-r0 x86_64 {ncurses}
 * readline-8.2.13-r1 x86_64 {readline}
 * scanelf-1.3.8-r1 x86_64 {pax-utils}
-* sqlite-libs-3.49.2-r0 x86_64 {sqlite}
-* ssl_client-1.37.0-r18 x86_64 {busybox}
+* sqlite-libs-3.49.2-r1 x86_64 {sqlite}
+* ssl_client-1.37.0-r19 x86_64 {busybox}
 * tzdata-2025b-r0 x86_64 {tzdata}
 * xz-libs-5.8.1-r0 x86_64 {xz}
 * zlib-1.3.1-r2 x86_64 {zlib}
