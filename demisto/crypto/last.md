@@ -1,9 +1,9 @@
-# `demisto/crypto:1.0.0.3984129`
+# `demisto/crypto:1.0.0.4578119`
 
 ## Docker Metadata
-- Image Size: 41.82 MB
-- Image ID: `sha256:5e32e853f59876d734f38a98fb0f78c05107ba5f03cc9483680d6069688b06f1`
-- Created: `2025-06-26T17:02:40.133283863Z`
+- Image Size: 45.33 MB
+- Image ID: `sha256:f75f08d303fa537aebbe0684a4d7f7656b33b6a5da6aac465421e282fdb947fa`
+- Created: `2025-08-19T14:23:54.495863485Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/crypto:1.0.0.3984129`
+  - `DOCKER_IMAGE=demisto/crypto:1.0.0.4578119`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:8787e7b3a96148af70b0e73aa52d0800d01e23e3`
-  - `org.opencontainers.image.version:1.0.0.3984129`
+  - `org.opencontainers.image.revision:dd51f53771a45e99e79c6f5e3728badda7ed7cce`
+  - `org.opencontainers.image.version:1.0.0.4578119`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.22.0`
+  - `VERSION_ID=3.22.1`
   - `PRETTY_NAME="Alpine Linux v3.22"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/crypto:1.0.0.3984129
+Signatures for demisto/crypto:1.0.0.4578119
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.3984129   760c54d7f61d7c122cbc3b4d8f2ac272b58bfce4a80a94bda8be6f515a776b95   (Repo Admin)
+1.0.0.4578119   eda68b7f059a6478cf37019717e01d6091997a3f3550b5aef7c2e22c25f02d85   (Repo Admin)
 
-Administrative keys for demisto/crypto:1.0.0.3984129
+Administrative keys for demisto/crypto:1.0.0.4578119
 
   Repository Key:	220ec19f346d59cc2cd852f42c8e3b659f963a92d6981d7ca1f4ca77409d6a6c
   Root Key:	ee857216bbb94fc0d393463890ba6b4e0a8945b3fee2eb1caee5027b76b21570
@@ -47,7 +47,7 @@ Administrative keys for demisto/crypto:1.0.0.3984129
 ### `beautifulsoup4`
 
 * Summary: Screen-scraping library
-* Version: 4.13.3
+* Version: 4.13.4
 * Pypi: https://pypi.org/project/beautifulsoup4/
 * Homepage: None
 * Author: Leonard Richardson <leonardr@segfault.org>
@@ -65,7 +65,7 @@ Administrative keys for demisto/crypto:1.0.0.3984129
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.4.26
+* Version: 2025.8.3
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -83,16 +83,16 @@ Administrative keys for demisto/crypto:1.0.0.3984129
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.2
+* Version: 3.4.3
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 44.0.2
+* Version: 45.0.6
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The cryptography developers <cryptography-dev@python.org> The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -107,6 +107,15 @@ Administrative keys for demisto/crypto:1.0.0.3984129
 * Author: Scrapinghub opensource@zyte.com
 * License :: OSI Approved :: BSD License
 
+### `deepmerge`
+
+* Summary: A toolset for deeply merging Python dictionaries.
+* Version: 2.0
+* Pypi: https://pypi.org/project/deepmerge/
+* Homepage: None
+* Author: Yusuke Tsutsumi <yusuke@tsutsumi.io>
+* License :: OSI Approved :: MIT License
+
 ### `defusedxml`
 
 * Summary: XML bomb protection for Python stdlib modules
@@ -119,7 +128,7 @@ Administrative keys for demisto/crypto:1.0.0.3984129
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.16.1
+* Version: 3.18.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -146,7 +155,7 @@ Administrative keys for demisto/crypto:1.0.0.3984129
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.5.0
+* Version: 10.7.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -155,7 +164,7 @@ Administrative keys for demisto/crypto:1.0.0.3984129
 ### `msal`
 
 * Summary: The Microsoft Authentication Library (MSAL) for Python library enables your app to access the Microsoft Cloud by supporting authentication of users with Microsoft Azure Active Directory accounts (AAD) and Microsoft Accounts (MSA) using industry standard OAuth2 and OpenID Connect.
-* Version: 1.32.0
+* Version: 1.33.0
 * Pypi: https://pypi.org/project/msal/
 * Homepage: https://github.com/AzureAD/microsoft-authentication-library-for-python
 * Author: Microsoft Corporation nugetaad@microsoft.com
@@ -173,11 +182,10 @@ Administrative keys for demisto/crypto:1.0.0.3984129
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.1.1
+* Version: 25.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
-* License :: OSI Approved :: MIT License
 
 ### `pycparser`
 
@@ -191,7 +199,7 @@ Administrative keys for demisto/crypto:1.0.0.3984129
 ### `pycryptodomex`
 
 * Summary: Cryptographic library for Python
-* Version: 3.22.0
+* Version: 3.23.0
 * Pypi: https://pypi.org/project/pycryptodomex/
 * Homepage: https://www.pycryptodome.org
 * Author: Helder Eijs helderijs@gmail.com
@@ -210,7 +218,7 @@ Administrative keys for demisto/crypto:1.0.0.3984129
 ### `pyOpenSSL`
 
 * Summary: Python wrapper module around the OpenSSL library
-* Version: 25.0.0
+* Version: 25.1.0
 * Pypi: https://pypi.org/project/pyOpenSSL/
 * Homepage: https://pyopenssl.org/
 * Author: The pyOpenSSL developers cryptography-dev@python.org
@@ -267,14 +275,14 @@ Administrative keys for demisto/crypto:1.0.0.3984129
 * Summary: Alternative regular expression module, to replace re.
 * Version: 2024.11.6
 * Pypi: https://pypi.org/project/regex/
-* Homepage: https://github.com/mrabarnett/mrab-regex
-* Author: Matthew Barnett regex@mrabarnett.plus.com
-* License :: OSI Approved :: Apache Software License
+* Homepage: None
+* Author: Matthew Barnett <regex@mrabarnett.plus.com>
+* License: Apache Software License
 
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.4
+* Version: 2.32.5
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -309,7 +317,7 @@ Administrative keys for demisto/crypto:1.0.0.3984129
 ### `soupsieve`
 
 * Summary: A modern CSS selector implementation for Beautiful Soup.
-* Version: 2.6
+* Version: 2.7
 * Pypi: https://pypi.org/project/soupsieve/
 * Homepage: None
 * Author: Isaac Muse <Isaac.Muse@gmail.com>
@@ -318,7 +326,7 @@ Administrative keys for demisto/crypto:1.0.0.3984129
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.1.3
+* Version: 5.3.0
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
@@ -327,7 +335,7 @@ Administrative keys for demisto/crypto:1.0.0.3984129
 ### `typing_extensions`
 
 * Summary: Backported and Experimental Type Hints for Python 3.9+
-* Version: 4.13.1
+* Version: 4.14.1
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
@@ -344,23 +352,23 @@ Administrative keys for demisto/crypto:1.0.0.3984129
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.4.0
+* Version: 2.5.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 
 ## `OS Packages`
 
-* .python-rundeps-20250604.171311 noarch {.python-rundeps}
+* .python-rundeps-20250812.224446 noarch {.python-rundeps}
 * alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.22.0-r0 x86_64 {alpine-base}
+* alpine-release-3.22.1-r0 x86_64 {alpine-base}
 * apk-tools-2.14.9-r2 x86_64 {apk-tools}
-* busybox-1.37.0-r18 x86_64 {busybox}
-* busybox-binsh-1.37.0-r18 x86_64 {busybox}
-* ca-certificates-20241121-r2 x86_64 {ca-certificates}
-* ca-certificates-bundle-20241121-r2 x86_64 {ca-certificates}
+* busybox-1.37.0-r19 x86_64 {busybox}
+* busybox-binsh-1.37.0-r19 x86_64 {busybox}
+* ca-certificates-20250619-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20250619-r0 x86_64 {ca-certificates}
 * gdbm-1.24-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
@@ -368,13 +376,13 @@ Administrative keys for demisto/crypto:1.0.0.3984129
 * libapk2-2.14.9-r2 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.2-r2 x86_64 {e2fsprogs}
-* libcrypto3-3.5.0-r0 x86_64 {openssl}
+* libcrypto3-3.5.2-r0 x86_64 {openssl}
 * libffi-3.4.8-r0 x86_64 {libffi}
 * libintl-0.24.1-r0 x86_64 {gettext}
 * libncursesw-6.5_p20250503-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
 * libpanelw-6.5_p20250503-r0 x86_64 {ncurses}
-* libssl3-3.5.0-r0 x86_64 {openssl}
+* libssl3-3.5.2-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
 * libuuid-2.41-r9 x86_64 {util-linux}
@@ -384,8 +392,8 @@ Administrative keys for demisto/crypto:1.0.0.3984129
 * ncurses-terminfo-base-6.5_p20250503-r0 x86_64 {ncurses}
 * readline-8.2.13-r1 x86_64 {readline}
 * scanelf-1.3.8-r1 x86_64 {pax-utils}
-* sqlite-libs-3.49.2-r0 x86_64 {sqlite}
-* ssl_client-1.37.0-r18 x86_64 {busybox}
+* sqlite-libs-3.49.2-r1 x86_64 {sqlite}
+* ssl_client-1.37.0-r19 x86_64 {busybox}
 * tzdata-2025b-r0 x86_64 {tzdata}
 * xz-libs-5.8.1-r0 x86_64 {xz}
 * zlib-1.3.1-r2 x86_64 {zlib}
