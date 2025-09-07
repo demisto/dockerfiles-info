@@ -1,9 +1,9 @@
-# `demisto/sane-pdf-reports:1.0.0.4667916`
+# `demisto/sane-pdf-reports:1.0.0.4757735`
 
 ## Docker Metadata
-- Image Size: 941.22 MB
-- Image ID: `sha256:1d23e8a297e514682fe761feb527bd1ed0dd2232fb1ad6f9e4580b02ea59c573`
-- Created: `2025-08-27T09:30:04.712999973Z`
+- Image Size: 941.35 MB
+- Image ID: `sha256:5d7002161b8eec0c27625a76b33956cbd6cd9a5250ae235d28cde922173dbb96`
+- Created: `2025-09-04T05:12:21.544839885Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/sane-pdf-reports:1.0.0.4667916`
+  - `DOCKER_IMAGE=demisto/sane-pdf-reports:1.0.0.4757735`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:ad37f26581a7664775ab5ea1c824f4a3806bff3a`
-  - `org.opencontainers.image.version:1.0.0.4667916`
+  - `org.opencontainers.image.revision:bd93534685bead699b5ded4bc57db5c306ddba2e`
+  - `org.opencontainers.image.version:1.0.0.4757735`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sane-pdf-reports:1.0.0.4667916
+Signatures for demisto/sane-pdf-reports:1.0.0.4757735
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4667916   4c439f773cbfaa474eff3a1979d3f2b6c7bfcd5f89d75dfb5ebde523d4c1adcf   (Repo Admin)
+1.0.0.4757735   2df09df6438ace430d29c6a8b4077838d78f0b13c554f597b54f19bcdcf35c6e   (Repo Admin)
 
-Administrative keys for demisto/sane-pdf-reports:1.0.0.4667916
+Administrative keys for demisto/sane-pdf-reports:1.0.0.4757735
 
   Repository Key:	a49126a1ef2d8b2a122417046a0568ce3d14ed56e32e723f3cb956a369091e4b
   Root Key:	3c9d875c8980465612892e36819738cac8450f51c69e5dbdbf71867f33cd59eb
@@ -113,11 +113,10 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.4667916
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.7.0
+* Version: 10.8.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
-* License :: OSI Approved :: MIT License
 
 ### `olefile`
 

@@ -1,9 +1,9 @@
-# `demisto/privx-api:34.0.1.4418653`
+# `demisto/privx-api:34.0.1.4775911`
 
 ## Docker Metadata
-- Image Size: 32.01 MB
-- Image ID: `sha256:1a16859d6dec72b54f4aad00e30095fec1276ae9157942bc6d029c9f623cf336`
-- Created: `2025-08-04T17:31:18.374846584Z`
+- Image Size: 32.03 MB
+- Image ID: `sha256:4e2f4aabbe71f7a9d1ee5931648889de678f9d49253408add4673330311fa18a`
+- Created: `2025-09-05T14:45:18.809811592Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/privx-api:34.0.1.4418653`
+  - `DOCKER_IMAGE=demisto/privx-api:34.0.1.4775911`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:82ec7f238a47dcbbd47c08b5fe9f45b444f3af60`
-  - `org.opencontainers.image.version:34.0.1.4418653`
+  - `org.opencontainers.image.revision:b8ee8de1813359b7db1aca8178b95a0e3517e4d0`
+  - `org.opencontainers.image.version:34.0.1.4775911`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/privx-api:34.0.1.4418653
+Signatures for demisto/privx-api:34.0.1.4775911
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-34.0.1.4418653   76de3a6c3e5252b02c0df725c9b345e58d438dcd50941dd690ec77cae85ed11a   (Repo Admin)
+34.0.1.4775911   22878cb7b6dc40d2c0a60c0ca311e99a050a28bb0e84fa4505d967d4d849572b   (Repo Admin)
 
-Administrative keys for demisto/privx-api:34.0.1.4418653
+Administrative keys for demisto/privx-api:34.0.1.4775911
 
   Repository Key:	db14d1f798f421abb00abd9eab141e6d1f763760aeddee91d0319ed58725cccd
   Root Key:	1e3267ba56b5e6d19c690a107f2fa7420c9b39ec6667cf9707a6dd1ff2e5f915
@@ -47,7 +47,7 @@ Administrative keys for demisto/privx-api:34.0.1.4418653
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.4.26
+* Version: 2025.8.3
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -56,11 +56,11 @@ Administrative keys for demisto/privx-api:34.0.1.4418653
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.2
+* Version: 3.4.3
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `dateparser`
 
@@ -150,7 +150,7 @@ Administrative keys for demisto/privx-api:34.0.1.4418653
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
-* License :: OSI Approved :: MIT License
+* License: 
 
 ### `olefile`
 
@@ -228,7 +228,7 @@ Administrative keys for demisto/privx-api:34.0.1.4418653
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.4
+* Version: 2.32.5
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -315,14 +315,14 @@ Administrative keys for demisto/privx-api:34.0.1.4418653
 
 ## `OS Packages`
 
-* .python-rundeps-20250715.193427 noarch {.python-rundeps}
+* .python-rundeps-20250812.224446 noarch {.python-rundeps}
 * alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
 * alpine-release-3.22.1-r0 x86_64 {alpine-base}
 * apk-tools-2.14.9-r2 x86_64 {apk-tools}
-* busybox-1.37.0-r18 x86_64 {busybox}
-* busybox-binsh-1.37.0-r18 x86_64 {busybox}
+* busybox-1.37.0-r19 x86_64 {busybox}
+* busybox-binsh-1.37.0-r19 x86_64 {busybox}
 * ca-certificates-20250619-r0 x86_64 {ca-certificates}
 * ca-certificates-bundle-20250619-r0 x86_64 {ca-certificates}
 * gdbm-1.24-r0 x86_64 {gdbm}
@@ -349,7 +349,7 @@ Administrative keys for demisto/privx-api:34.0.1.4418653
 * readline-8.2.13-r1 x86_64 {readline}
 * scanelf-1.3.8-r1 x86_64 {pax-utils}
 * sqlite-libs-3.49.2-r1 x86_64 {sqlite}
-* ssl_client-1.37.0-r18 x86_64 {busybox}
+* ssl_client-1.37.0-r19 x86_64 {busybox}
 * tzdata-2025b-r0 x86_64 {tzdata}
 * xz-libs-5.8.1-r0 x86_64 {xz}
 * zlib-1.3.1-r2 x86_64 {zlib}
