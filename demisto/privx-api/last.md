@@ -1,9 +1,9 @@
-# `demisto/privx-api:34.0.1.4775911`
+# `demisto/privx-api:34.0.1.4803653`
 
 ## Docker Metadata
-- Image Size: 32.03 MB
-- Image ID: `sha256:4e2f4aabbe71f7a9d1ee5931648889de678f9d49253408add4673330311fa18a`
-- Created: `2025-09-05T14:45:18.809811592Z`
+- Image Size: 32.96 MB
+- Image ID: `sha256:b947d8c9273bf65138184e37e19ba831b3542ff7ff4e62b01b2c5297ab61a137`
+- Created: `2025-09-08T10:44:47.880779666Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/privx-api:34.0.1.4775911`
+  - `DOCKER_IMAGE=demisto/privx-api:34.0.1.4803653`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b8ee8de1813359b7db1aca8178b95a0e3517e4d0`
-  - `org.opencontainers.image.version:34.0.1.4775911`
+  - `org.opencontainers.image.revision:950996f2ba6740f6d4c5afbde60cecf1a31e0466`
+  - `org.opencontainers.image.version:34.0.1.4803653`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/privx-api:34.0.1.4775911
+Signatures for demisto/privx-api:34.0.1.4803653
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-34.0.1.4775911   22878cb7b6dc40d2c0a60c0ca311e99a050a28bb0e84fa4505d967d4d849572b   (Repo Admin)
+34.0.1.4803653   7b69c9676f9df05706ce151e698eefbdd3823ba3755831bf8281cf3408dfe354   (Repo Admin)
 
-Administrative keys for demisto/privx-api:34.0.1.4775911
+Administrative keys for demisto/privx-api:34.0.1.4803653
 
   Repository Key:	db14d1f798f421abb00abd9eab141e6d1f763760aeddee91d0319ed58725cccd
   Root Key:	1e3267ba56b5e6d19c690a107f2fa7420c9b39ec6667cf9707a6dd1ff2e5f915
@@ -219,11 +219,10 @@ Administrative keys for demisto/privx-api:34.0.1.4775911
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2025.9.1
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
-* License: Apache Software License
 
 ### `requests`
 

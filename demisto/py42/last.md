@@ -1,9 +1,9 @@
-# `demisto/py42:1.0.0.4508744`
+# `demisto/py42:1.0.0.4804201`
 
 ## Docker Metadata
-- Image Size: 37.48 MB
-- Image ID: `sha256:4ed1f737e4a8d985ef7ccc31ab0e90edef669af416c445dea31edb2ab067e277`
-- Created: `2025-08-13T01:14:25.490110566Z`
+- Image Size: 37.99 MB
+- Image ID: `sha256:7660ff1dfd77cc898979a07043ee1329d32702f316e6f089294454f42e8b793f`
+- Created: `2025-09-08T11:13:00.02073892Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/py42:1.0.0.4508744`
+  - `DOCKER_IMAGE=demisto/py42:1.0.0.4804201`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:ef155c37181a14cac147e9e4f0b916e558497f05`
-  - `org.opencontainers.image.version:1.0.0.4508744`
+  - `org.opencontainers.image.revision:c36e7be7f05403debbbc45516d95bc43e8972b17`
+  - `org.opencontainers.image.version:1.0.0.4804201`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py42:1.0.0.4508744
+Signatures for demisto/py42:1.0.0.4804201
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4508744   136f9bd24156d328c6a32a944dacaf1daf43b72b7228d15db4c22a83d381c721   (Repo Admin)
+1.0.0.4804201   cf76f1088910c5fc64f4970e5f6cdfa2eda1366f0e06ef4f9fa0da6970c11452   (Repo Admin)
 
-Administrative keys for demisto/py42:1.0.0.4508744
+Administrative keys for demisto/py42:1.0.0.4804201
 
   Repository Key:	3c75429c5eb61fb0aac581ea5b93eb9af0c83e8f13ee6564514dc6dfd78596c6
   Root Key:	12bc1f08d14709a595beca8be8435a3758c8440cae99f67152d04ac3f7fcd556
@@ -56,7 +56,7 @@ Administrative keys for demisto/py42:1.0.0.4508744
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.6.15
+* Version: 2025.8.3
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -65,7 +65,7 @@ Administrative keys for demisto/py42:1.0.0.4508744
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.2
+* Version: 3.4.3
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -159,7 +159,7 @@ Administrative keys for demisto/py42:1.0.0.4508744
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
-* License :: OSI Approved :: MIT License
+* License: 
 
 ### `olefile`
 
@@ -264,7 +264,7 @@ Administrative keys for demisto/py42:1.0.0.4508744
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.4
+* Version: 2.32.5
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
