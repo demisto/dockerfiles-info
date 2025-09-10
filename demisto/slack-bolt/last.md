@@ -1,9 +1,9 @@
-# `demisto/slack-bolt:1.0.0.4688346`
+# `demisto/slack-bolt:1.0.0.4821522`
 
 ## Docker Metadata
-- Image Size: 31.55 MB
-- Image ID: `sha256:2a75e2d928c6569f3ad08d2548d8c62788514267221c9c56410127cb2beadee0`
-- Created: `2025-08-28T15:17:30.559875857Z`
+- Image Size: 34.15 MB
+- Image ID: `sha256:c6d02f5cc55981f84855588a69d3074c3fed1affb68bb56f08fdff2df95d348f`
+- Created: `2025-09-09T13:20:05.792646475Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/slack-bolt:1.0.0.4688346`
+  - `DOCKER_IMAGE=demisto/slack-bolt:1.0.0.4821522`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:97dbd29ad0a5cf46d7b757dc5b3085a8ed2d3135`
-  - `org.opencontainers.image.version:1.0.0.4688346`
+  - `org.opencontainers.image.revision:c9b36c7436930cf46799c5433291d43f2f4211c8`
+  - `org.opencontainers.image.version:1.0.0.4821522`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/slack-bolt:1.0.0.4688346
+Signatures for demisto/slack-bolt:1.0.0.4821522
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4688346   df95ecbe7ec5395afaabf16c3c0ca6e90995c164c45703fa9a75aa7ddd70a062   (Repo Admin)
+1.0.0.4821522   d103f4872d71070d66e91aa41d5fd12114d186674a1e3a63a620a7d950a81a2c   (Repo Admin)
 
-Administrative keys for demisto/slack-bolt:1.0.0.4688346
+Administrative keys for demisto/slack-bolt:1.0.0.4821522
 
   Repository Key:	80346ddf85a4b432f318bee73755ced1f289a5f70cacc6972b672d0281005f32
   Root Key:	0f94a9b920d41592552019b115ce1e0a5164dccbd4a617dfab8ce89d152a6102
@@ -128,11 +128,10 @@ Administrative keys for demisto/slack-bolt:1.0.0.4688346
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.7.0
+* Version: 10.8.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
-* License :: OSI Approved :: MIT License
 
 ### `olefile`
 
@@ -285,7 +284,7 @@ Administrative keys for demisto/slack-bolt:1.0.0.4688346
 * alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
 * alpine-release-3.22.1-r0 x86_64 {alpine-base}
-* apk-tools-2.14.9-r2 x86_64 {apk-tools}
+* apk-tools-2.14.9-r3 x86_64 {apk-tools}
 * busybox-1.37.0-r19 x86_64 {busybox}
 * busybox-binsh-1.37.0-r19 x86_64 {busybox}
 * ca-certificates-20250619-r0 x86_64 {ca-certificates}
@@ -294,16 +293,16 @@ Administrative keys for demisto/slack-bolt:1.0.0.4688346
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.21.3-r0 x86_64 {krb5}
-* libapk2-2.14.9-r2 x86_64 {apk-tools}
+* libapk2-2.14.9-r3 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.2-r2 x86_64 {e2fsprogs}
-* libcrypto3-3.5.1-r0 x86_64 {openssl}
+* libcrypto3-3.5.2-r0 x86_64 {openssl}
 * libffi-3.4.8-r0 x86_64 {libffi}
 * libintl-0.24.1-r0 x86_64 {gettext}
 * libncursesw-6.5_p20250503-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
 * libpanelw-6.5_p20250503-r0 x86_64 {ncurses}
-* libssl3-3.5.1-r0 x86_64 {openssl}
+* libssl3-3.5.2-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
 * libuuid-2.41-r9 x86_64 {util-linux}
