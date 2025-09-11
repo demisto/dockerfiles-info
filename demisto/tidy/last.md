@@ -1,9 +1,9 @@
-# `demisto/tidy:1.0.0.4580113`
+# `demisto/tidy:1.0.0.4836093`
 
 ## Docker Metadata
-- Image Size: 128.96 MB
-- Image ID: `sha256:f828a2f70adb77d8aeecdd8c699cb6c7c2312e585aafbce937bd771929e92276`
-- Created: `2025-08-19T16:59:01.593840958Z`
+- Image Size: 128.83 MB
+- Image ID: `sha256:19d4609e76ac6232c8b21e3f485d4c47f4b0b1324a257d80dc42957e71996cb1`
+- Created: `2025-09-10T13:23:15.577195746Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/tidy:1.0.0.4580113`
+  - `DOCKER_IMAGE=demisto/tidy:1.0.0.4836093`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d2a9a2f48440852ba608a2fe3ecee24b3f16f814`
-  - `org.opencontainers.image.version:1.0.0.4580113`
+  - `org.opencontainers.image.revision:88c6753a72073f048637303b1055e32918434c43`
+  - `org.opencontainers.image.version:1.0.0.4836093`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/tidy:1.0.0.4580113
+Signatures for demisto/tidy:1.0.0.4836093
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4580113   6e437ece1b9f9e1977701e9d37fb19a130e6f1677aa301c27d1142a94e2b4770   (Repo Admin)
+1.0.0.4836093   449bece0c25f4a20fdf892a25d4d7d56ebd4f61cc8aa9225154ff56ed57b70d0   (Repo Admin)
 
-Administrative keys for demisto/tidy:1.0.0.4580113
+Administrative keys for demisto/tidy:1.0.0.4836093
 
   Repository Key:	5f17b9d56ce23d820632c3aab69771c41c29b4a5ff9dfe8cbea5e4ca7cc9857b
   Root Key:	35b6195205c264962e7a1726995d97d4c9f7d85c8a9c9909105016d7f930b79e
@@ -92,11 +92,10 @@ Administrative keys for demisto/tidy:1.0.0.4580113
 ### `cffi`
 
 * Summary: Foreign Function Interface for Python calling C code.
-* Version: 1.17.1
+* Version: 2.0.0
 * Pypi: https://pypi.org/project/cffi/
-* Homepage: http://cffi.readthedocs.org
-* Author: Armin Rigo, Maciej Fijalkowski python-cffi@googlegroups.com
-* License :: OSI Approved :: MIT License
+* Homepage: None
+* Author: Armin Rigo, Maciej Fijalkowski
 
 ### `charset-normalizer`
 
@@ -200,11 +199,10 @@ Administrative keys for demisto/tidy:1.0.0.4580113
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.7.0
+* Version: 10.8.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
-* License :: OSI Approved :: MIT License
 
 ### `msal`
 
@@ -312,8 +310,8 @@ Administrative keys for demisto/tidy:1.0.0.4580113
 * Version: 1.5.0
 * Pypi: https://pypi.org/project/PyNaCl/
 * Homepage: https://github.com/pyca/pynacl/
-* Author: The PyNaCl developers cryptography-dev@python.org
-* License: Apache License 2.0
+* Author: The PyNaCl developers <cryptography-dev@python.org>
+* License :: OSI Approved :: Apache Software License
 
 ### `pyOpenSSL`
 
@@ -340,7 +338,7 @@ Administrative keys for demisto/tidy:1.0.0.4580113
 * Pypi: https://pypi.org/project/pyspnego/
 * Homepage: None
 * Author: Jordan Borean <jborean93@gmail.com>
-* License :: OSI Approved :: MIT License
+* License: MIT License
 
 ### `python-daemon`
 
@@ -519,7 +517,7 @@ Administrative keys for demisto/tidy:1.0.0.4580113
 * alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
 * alpine-release-3.22.1-r0 x86_64 {alpine-base}
-* apk-tools-2.14.9-r2 x86_64 {apk-tools}
+* apk-tools-2.14.9-r3 x86_64 {apk-tools}
 * busybox-1.37.0-r19 x86_64 {busybox}
 * busybox-binsh-1.37.0-r19 x86_64 {busybox}
 * ca-certificates-20250619-r0 x86_64 {ca-certificates}
@@ -528,7 +526,7 @@ Administrative keys for demisto/tidy:1.0.0.4580113
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.21.3-r0 x86_64 {krb5}
-* libapk2-2.14.9-r2 x86_64 {apk-tools}
+* libapk2-2.14.9-r3 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.2-r2 x86_64 {e2fsprogs}
 * libcrypto3-3.5.2-r0 x86_64 {openssl}

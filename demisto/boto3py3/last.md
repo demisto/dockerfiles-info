@@ -1,9 +1,9 @@
-# `demisto/boto3py3:1.0.0.4766888`
+# `demisto/boto3py3:1.0.0.4837250`
 
 ## Docker Metadata
-- Image Size: 43.51 MB
-- Image ID: `sha256:33814c56f7845ec2457f3df8d17523a162581e7c5c6491e89e759b86b7a4277b`
-- Created: `2025-09-04T14:58:58.882424514Z`
+- Image Size: 46.12 MB
+- Image ID: `sha256:af4be61a93322fbd4ea9d99abfec861cabe5639277f148383d14133e1e58b779`
+- Created: `2025-09-10T14:24:00.67084963Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.4766888`
+  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.4837250`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:49ef7b2ac2d7aff5c44d1d3025fe3f192b25def6`
-  - `org.opencontainers.image.version:1.0.0.4766888`
+  - `org.opencontainers.image.revision:d87fe25a8ab1f4e8f7b8a3686e33473e986eeb39`
+  - `org.opencontainers.image.version:1.0.0.4837250`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/boto3py3:1.0.0.4766888
+Signatures for demisto/boto3py3:1.0.0.4837250
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4766888   3574ab8007910b89029aa9c26acc13a469c944b12d98e000784cd22d0837ced7   (Repo Admin)
+1.0.0.4837250   2891c400de0c908e8f558e4cd2ebe760abfabef5aeb0da9768ae25e3759644d7   (Repo Admin)
 
-Administrative keys for demisto/boto3py3:1.0.0.4766888
+Administrative keys for demisto/boto3py3:1.0.0.4837250
 
   Repository Key:	cfe86d8f6e0178e2a77477d651d16cfc814b6e47b04f1f04d94917fb248a1ae8
   Root Key:	c4222af787cfc1a173f56c5eab482e5c4602eae4bb767431e17594c786c162f8
@@ -47,7 +47,7 @@ Administrative keys for demisto/boto3py3:1.0.0.4766888
 ### `boto3`
 
 * Summary: The AWS SDK for Python
-* Version: 1.40.23
+* Version: 1.40.27
 * Pypi: https://pypi.org/project/boto3/
 * Homepage: https://github.com/boto/boto3
 * Author: Amazon Web Services
@@ -56,7 +56,7 @@ Administrative keys for demisto/boto3py3:1.0.0.4766888
 ### `botocore`
 
 * Summary: Low-level, data-driven core of boto 3.
-* Version: 1.40.23
+* Version: 1.40.27
 * Pypi: https://pypi.org/project/botocore/
 * Homepage: https://github.com/boto/botocore
 * Author: Amazon Web Services
@@ -146,11 +146,10 @@ Administrative keys for demisto/boto3py3:1.0.0.4766888
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.7.0
+* Version: 10.8.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
-* License: 
 
 ### `olefile`
 
@@ -237,7 +236,7 @@ Administrative keys for demisto/boto3py3:1.0.0.4766888
 ### `s3transfer`
 
 * Summary: An Amazon S3 Transfer Manager
-* Version: 0.13.1
+* Version: 0.14.0
 * Pypi: https://pypi.org/project/s3transfer/
 * Homepage: https://github.com/boto/s3transfer
 * Author: Amazon Web Services kyknapp1@gmail.com
@@ -293,7 +292,7 @@ Administrative keys for demisto/boto3py3:1.0.0.4766888
 * alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
 * alpine-release-3.22.1-r0 x86_64 {alpine-base}
-* apk-tools-2.14.9-r2 x86_64 {apk-tools}
+* apk-tools-2.14.9-r3 x86_64 {apk-tools}
 * busybox-1.37.0-r19 x86_64 {busybox}
 * busybox-binsh-1.37.0-r19 x86_64 {busybox}
 * ca-certificates-20250619-r0 x86_64 {ca-certificates}
@@ -302,16 +301,16 @@ Administrative keys for demisto/boto3py3:1.0.0.4766888
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.21.3-r0 x86_64 {krb5}
-* libapk2-2.14.9-r2 x86_64 {apk-tools}
+* libapk2-2.14.9-r3 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.2-r2 x86_64 {e2fsprogs}
-* libcrypto3-3.5.1-r0 x86_64 {openssl}
+* libcrypto3-3.5.2-r0 x86_64 {openssl}
 * libffi-3.4.8-r0 x86_64 {libffi}
 * libintl-0.24.1-r0 x86_64 {gettext}
 * libncursesw-6.5_p20250503-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
 * libpanelw-6.5_p20250503-r0 x86_64 {ncurses}
-* libssl3-3.5.1-r0 x86_64 {openssl}
+* libssl3-3.5.2-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
 * libuuid-2.41-r9 x86_64 {util-linux}

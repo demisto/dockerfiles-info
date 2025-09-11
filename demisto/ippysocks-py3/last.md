@@ -1,9 +1,9 @@
-# `demisto/ippysocks-py3:1.0.0.4028570`
+# `demisto/ippysocks-py3:1.0.0.4835250`
 
 ## Docker Metadata
-- Image Size: 56.55 MB
-- Image ID: `sha256:175b4655ab004ffbaad746c457b8ab2acaa77de49eea16e024e41edddb8e2c8d`
-- Created: `2025-07-01T16:57:37.897771498Z`
+- Image Size: 69.78 MB
+- Image ID: `sha256:c729284c0d5ad4700fa486c5e0bdd9cf8fe88d7457119bcf046c3aacf5e53f7f`
+- Created: `2025-09-10T12:34:15.380924509Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,18 +12,18 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/ippysocks-py3:1.0.0.4028570`
+  - `DOCKER_IMAGE=demisto/ippysocks-py3:1.0.0.4835250`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3bff239730ff422f7e69075f9e1070b761e11eb2`
-  - `org.opencontainers.image.version:1.0.0.4028570`
+  - `org.opencontainers.image.revision:5c0280abd6b57aa48d964fbefb3400711b3e9a81`
+  - `org.opencontainers.image.version:1.0.0.4835250`
 
 - OS Release:
-  - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
+  - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
   - `NAME="Debian GNU/Linux"`
-  - `VERSION_ID="11"`
-  - `VERSION="11 (bullseye)"`
-  - `VERSION_CODENAME=bullseye`
+  - `VERSION_ID="12"`
+  - `VERSION="12 (bookworm)"`
+  - `VERSION_CODENAME=bookworm`
   - `ID=debian`
   - `HOME_URL="https://www.debian.org/"`
   - `SUPPORT_URL="https://www.debian.org/support"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/ippysocks-py3:1.0.0.4028570
+Signatures for demisto/ippysocks-py3:1.0.0.4835250
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4028570   f9fa484b8bbb62e89c87fa1b6d2efc7a60734ca7429ef916e199e83ef99830b5   (Repo Admin)
+1.0.0.4835250   bd86a4d722240fb1c23e23b09e68b60873a54a6608a10516a8561b09465644ff   (Repo Admin)
 
-Administrative keys for demisto/ippysocks-py3:1.0.0.4028570
+Administrative keys for demisto/ippysocks-py3:1.0.0.4835250
 
   Repository Key:	e44c7afabeca5185fe1e6bcf908b3bb53fc1c0b900b9f55f382833f1536f42d8
   Root Key:	c90f2820ccc5affd363c1610cc94f6b04ffa25a9afd57f2ad9279ddc3b16944d
@@ -50,7 +50,7 @@ Administrative keys for demisto/ippysocks-py3:1.0.0.4028570
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.4.26
+* Version: 2025.8.3
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -59,11 +59,11 @@ Administrative keys for demisto/ippysocks-py3:1.0.0.4028570
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.2
+* Version: 3.4.3
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `dateparser`
 
@@ -131,11 +131,10 @@ Administrative keys for demisto/ippysocks-py3:1.0.0.4028570
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.7.0
+* Version: 10.8.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
-* License :: OSI Approved :: MIT License
 
 ### `olefile`
 
@@ -149,11 +148,11 @@ Administrative keys for demisto/ippysocks-py3:1.0.0.4028570
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.1.1
+* Version: 25.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `PySocks`
 
@@ -206,14 +205,14 @@ Administrative keys for demisto/ippysocks-py3:1.0.0.4028570
 * Summary: Alternative regular expression module, to replace re.
 * Version: 2024.11.6
 * Pypi: https://pypi.org/project/regex/
-* Homepage: https://github.com/mrabarnett/mrab-regex
-* Author: Matthew Barnett regex@mrabarnett.plus.com
-* License :: OSI Approved :: Apache Software License
+* Homepage: None
+* Author: Matthew Barnett <regex@mrabarnett.plus.com>
+* License: Apache Software License
 
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.4
+* Version: 2.32.5
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -273,110 +272,110 @@ Administrative keys for demisto/ippysocks-py3:1.0.0.4028570
 
 ## `OS Packages`
 
-* adduser	3.118+deb11u1
-* apt	2.2.4
-* base-files	11.1+deb11u11
-* base-passwd	3.5.51
-* bash	5.1-2+deb11u1
-* bsdutils	1:2.36.1-8+deb11u2
-* ca-certificates	20210119
-* coreutils	8.32-4+b1
-* dash	0.5.11+git20200708+dd9ef66-5
-* debconf	1.5.77
-* debian-archive-keyring	2021.1.1+deb11u1
-* debianutils	4.11.2
-* diffutils	1:3.7-5
-* dpkg	1.20.13
-* e2fsprogs	1.46.6-1~bpo11+1
-* findutils	4.8.0-1
-* gcc-10-base:amd64	10.2.1-6
-* gcc-9-base:amd64	9.3.0-22
-* gpgv	2.2.27-2+deb11u2
-* grep	3.6-1+deb11u1
-* gzip	1.10-4+deb11u1
-* hostname	3.23
-* init-system-helpers	1.64~bpo11+1
-* libacl1:amd64	2.2.53-10
-* libapt-pkg6.0:amd64	2.2.4
-* libattr1:amd64	1:2.4.48-6
-* libaudit-common	1:3.0-2
-* libaudit1:amd64	1:3.0-2
-* libblkid1:amd64	2.36.1-8+deb11u2
-* libbz2-1.0:amd64	1.0.8-4
-* libc-bin	2.31-13+deb11u13
-* libc6:amd64	2.31-13+deb11u13
-* libcap-ng0:amd64	0.7.9-2.2+b1
-* libcom-err2:amd64	1.46.6-1~bpo11+1
-* libcrypt1:amd64	1:4.4.18-4
-* libdb5.3:amd64	5.3.28+dfsg1-0.8
-* libdebconfclient0:amd64	0.260
-* libext2fs2:amd64	1.46.6-1~bpo11+1
-* libffi7:amd64	3.3-6
-* libgcc-s1:amd64	10.2.1-6
-* libgcrypt20:amd64	1.8.7-6
-* libgdbm6:amd64	1.19-2
-* libgmp10:amd64	2:6.2.1+dfsg-1+deb11u1
-* libgnutls30:amd64	3.7.1-5+deb11u7
-* libgpg-error0:amd64	1.38-2
-* libgssapi-krb5-2:amd64	1.18.3-6+deb11u7
-* libhogweed6:amd64	3.7.3-1
-* libidn2-0:amd64	2.3.0-5
-* libk5crypto3:amd64	1.18.3-6+deb11u7
-* libkeyutils1:amd64	1.6.1-2
-* libkrb5-3:amd64	1.18.3-6+deb11u7
-* libkrb5support0:amd64	1.18.3-6+deb11u7
-* liblz4-1:amd64	1.9.3-2
-* liblzma5:amd64	5.2.5-2.1~deb11u1
-* libmount1:amd64	2.36.1-8+deb11u2
-* libncurses6:amd64	6.2+20201114-2+deb11u2
-* libncursesw6:amd64	6.2+20201114-2+deb11u2
-* libnettle8:amd64	3.7.3-1
+* adduser	3.134
+* apt	2.6.1
+* base-files	12.4+deb12u12
+* base-passwd	3.6.1
+* bash	5.2.15-2+b9
+* bsdutils	1:2.38.1-5+deb12u3
+* ca-certificates	20230311+deb12u1
+* coreutils	9.1-1
+* dash	0.5.12-2
+* debconf	1.5.82
+* debian-archive-keyring	2023.3+deb12u2
+* debianutils	5.7-0.5~deb12u1
+* diffutils	1:3.8-4
+* dpkg	1.21.22
+* e2fsprogs	1.47.2-3~bpo12+1
+* findutils	4.9.0-4
+* gcc-12-base:amd64	12.2.0-14+deb12u1
+* gpgv	2.2.40-1.1+deb12u1
+* grep	3.8-5
+* gzip	1.12-1
+* hostname	3.23+nmu1
+* init-system-helpers	1.65.2+deb12u1
+* libacl1:amd64	2.3.1-3
+* libapt-pkg6.0:amd64	2.6.1
+* libattr1:amd64	1:2.5.1-4
+* libaudit-common	1:3.0.9-1
+* libaudit1:amd64	1:3.0.9-1
+* libblkid1:amd64	2.38.1-5+deb12u3
+* libbz2-1.0:amd64	1.0.8-5+b1
+* libc-bin	2.36-9+deb12u13
+* libc6:amd64	2.36-9+deb12u13
+* libcap-ng0:amd64	0.8.3-1+b3
+* libcap2:amd64	1:2.66-4+deb12u2
+* libcom-err2:amd64	1.47.2-3~bpo12+1
+* libcrypt1:amd64	1:4.4.33-2
+* libdb5.3:amd64	5.3.28+dfsg2-1
+* libdebconfclient0:amd64	0.270
+* libext2fs2:amd64	1.47.2-3~bpo12+1
+* libffi8:amd64	3.4.4-1
+* libgcc-s1:amd64	12.2.0-14+deb12u1
+* libgcrypt20:amd64	1.10.1-3
+* libgdbm6:amd64	1.23-3
+* libgmp10:amd64	2:6.2.1+dfsg1-1.1
+* libgnutls30:amd64	3.7.9-2+deb12u5
+* libgpg-error0:amd64	1.46-1
+* libgssapi-krb5-2:amd64	1.20.1-2+deb12u4
+* libhogweed6:amd64	3.8.1-2
+* libidn2-0:amd64	2.3.3-1+b1
+* libk5crypto3:amd64	1.20.1-2+deb12u4
+* libkeyutils1:amd64	1.6.3-2
+* libkrb5-3:amd64	1.20.1-2+deb12u4
+* libkrb5support0:amd64	1.20.1-2+deb12u4
+* liblz4-1:amd64	1.9.4-1
+* liblzma5:amd64	5.4.1-1
+* libmd0:amd64	1.0.4-2
+* libmount1:amd64	2.38.1-5+deb12u3
+* libncursesw6:amd64	6.4-4
+* libnettle8:amd64	3.8.1-2
 * libnsl2:amd64	1.3.0-2
-* libp11-kit0:amd64	0.23.22-1
-* libpam-modules-bin	1.4.0-9+deb11u1
-* libpam-modules:amd64	1.4.0-9+deb11u1
-* libpam-runtime	1.4.0-9+deb11u1
-* libpam0g:amd64	1.4.0-9+deb11u1
-* libpcre2-8-0:amd64	10.36-2+deb11u1
-* libpcre3:amd64	2:8.39-13
-* libprocps8:amd64	2:3.3.17-5
-* libreadline8:amd64	8.1-1
-* libseccomp2:amd64	2.5.1-1+deb11u1
-* libselinux1:amd64	3.1-3
-* libsemanage-common	3.1-1
-* libsemanage1:amd64	3.1-1+b2
-* libsepol1:amd64	3.1-1+deb11u1
-* libsmartcols1:amd64	2.36.1-8+deb11u2
-* libsqlite3-0:amd64	3.34.1-3+deb11u1
-* libss2:amd64	1.46.6-1~bpo11+1
-* libssl1.1:amd64	1.1.1w-0+deb11u3
-* libstdc++6:amd64	10.2.1-6
-* libsystemd0:amd64	252.29-1~deb12u1~bpo11+1
-* libtasn1-6:amd64	4.16.0-2+deb11u2
-* libtinfo6:amd64	6.2+20201114-2+deb11u2
-* libtirpc-common	1.3.1-1+deb11u1
-* libtirpc3:amd64	1.3.1-1+deb11u1
-* libudev1:amd64	252.29-1~deb12u1~bpo11+1
-* libunistring2:amd64	0.9.10-4
-* libuuid1:amd64	2.36.1-8+deb11u2
-* libxxhash0:amd64	0.8.0-2
-* libzstd1:amd64	1.4.8+dfsg-2.1
-* login	1:4.8.1-1+deb11u1
-* logsave	1.46.6-1~bpo11+1
-* lsb-base	11.1.0
-* mawk	1.3.4.20200120-2
-* mount	2.36.1-8+deb11u2
-* ncurses-base	6.2+20201114-2+deb11u2
-* ncurses-bin	6.2+20201114-2+deb11u2
-* netbase	6.3
-* openssl	1.1.1w-0+deb11u3
-* passwd	1:4.8.1-1+deb11u1
-* perl-base	5.32.1-4+deb11u4
-* procps	2:3.3.17-5
-* readline-common	8.1-1
-* sed	4.7-1
-* sysvinit-utils	2.96-7+deb11u1
-* tar	1.34+dfsg-1+deb11u1
-* tzdata	2025b-0+deb11u1
-* util-linux	2.36.1-8+deb11u2
-* zlib1g:amd64	1:1.2.11.dfsg-2+deb11u2
+* libp11-kit0:amd64	0.24.1-2
+* libpam-modules-bin	1.5.2-6+deb12u1
+* libpam-modules:amd64	1.5.2-6+deb12u1
+* libpam-runtime	1.5.2-6+deb12u1
+* libpam0g:amd64	1.5.2-6+deb12u1
+* libpcre2-8-0:amd64	10.42-1
+* libproc2-0:amd64	2:4.0.2-3
+* libreadline8:amd64	8.2-1.3
+* libseccomp2:amd64	2.5.4-1+deb12u1
+* libselinux1:amd64	3.4-1+b6
+* libsemanage-common	3.4-1
+* libsemanage2:amd64	3.4-1+b5
+* libsepol2:amd64	3.4-2.1
+* libsmartcols1:amd64	2.38.1-5+deb12u3
+* libsqlite3-0:amd64	3.40.1-2+deb12u2
+* libss2:amd64	1.47.2-3~bpo12+1
+* libssl3:amd64	3.0.17-1~deb12u2
+* libstdc++6:amd64	12.2.0-14+deb12u1
+* libsystemd0:amd64	254.26-1~bpo12+1
+* libtasn1-6:amd64	4.19.0-2+deb12u1
+* libtinfo6:amd64	6.4-4
+* libtirpc-common	1.3.3+ds-1
+* libtirpc3:amd64	1.3.3+ds-1
+* libudev1:amd64	254.26-1~bpo12+1
+* libunistring2:amd64	1.0-2
+* libuuid1:amd64	2.38.1-5+deb12u3
+* libxxhash0:amd64	0.8.1-1
+* libzstd1:amd64	1.5.4+dfsg2-5
+* login	1:4.13+dfsg1-1+deb12u1
+* logsave	1.47.2-3~bpo12+1
+* mawk	1.3.4.20200120-3.1
+* mount	2.38.1-5+deb12u3
+* ncurses-base	6.4-4
+* ncurses-bin	6.4-4
+* netbase	6.4
+* openssl	3.0.17-1~deb12u2
+* passwd	1:4.13+dfsg1-1+deb12u1
+* perl-base	5.36.0-7+deb12u3
+* procps	2:4.0.2-3
+* readline-common	8.2-1.3
+* sed	4.9-1
+* sysvinit-utils	3.08-3~bpo12+2
+* tar	1.34+dfsg-1.2+deb12u1
+* tzdata	2025b-0+deb12u2
+* usr-is-merged	37~deb12u1
+* util-linux	2.38.1-5+deb12u3
+* util-linux-extra	2.38.1-5+deb12u3
+* zlib1g:amd64	1:1.2.13.dfsg-1
