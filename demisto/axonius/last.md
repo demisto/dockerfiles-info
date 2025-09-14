@@ -1,40 +1,40 @@
-# `demisto/axonius:1.1.0.3749274`
+# `demisto/axonius:1.1.0.4857456`
 
 ## Docker Metadata
-- Image Size: 56.30 MB
-- Image ID: `sha256:8fcfbfdf5352de8b68810c7598b7118126362ca9941a8413683022284c81b2c7`
-- Created: `2025-06-11T16:02:03.74160687Z`
+- Image Size: 49.56 MB
+- Image ID: `sha256:aa980b79dd8db3220e67fb83da631e4282eda27ee66980abb33f437fa6c85316`
+- Created: `2025-09-11T23:37:11.670100661Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.8`
-  - `PYTHON_SHA256=c909157bb25ec114e5869124cc2a9c4a4d4c1e957ca4ff553f1edc692101154e`
-  - `DOCKER_IMAGE=demisto/axonius:1.1.0.3749274`
+  - `PYTHON_VERSION=3.12.11`
+  - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
+  - `DOCKER_IMAGE=demisto/axonius:1.1.0.4857456`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:fc02082f0d1ebb65f59a50afeb11199fccb40d1d`
-  - `org.opencontainers.image.version:1.1.0.3749274`
+  - `org.opencontainers.image.revision:627fef86f695a176e6186b4ff0b8bc91a02c7020`
+  - `org.opencontainers.image.version:1.1.0.4857456`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.21.3`
-  - `PRETTY_NAME="Alpine Linux v3.21"`
+  - `VERSION_ID=3.22.1`
+  - `PRETTY_NAME="Alpine Linux v3.22"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/axonius:1.1.0.3749274
+Signatures for demisto/axonius:1.1.0.4857456
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.1.0.3749274   d1dffd1aa0eb10261ea0342a106c090381b2dc060478394ca5ebdd3cdff9f381   (Repo Admin)
+1.1.0.4857456   a7c5bc041a5d7acdaec6637332db48d5975b2920f6dee2b0c55f52e0f67a1333   (Repo Admin)
 
-Administrative keys for demisto/axonius:1.1.0.3749274
+Administrative keys for demisto/axonius:1.1.0.4857456
 
   Repository Key:	d372d953558700918fd1e3b70e9904c67a112c8eccf11cb2a96b5780ff25cde2
   Root Key:	3f86396f6bc2411e827bcb61c209b7e5a6e62db5b91b6f0042ae9258e77a3dde
@@ -53,10 +53,10 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 * Author: wbond will@wbond.net
 * License :: OSI Approved :: MIT License
 
-### `axonius-api-client`
+### `axonius_api_client`
 
 * Summary: Axonius API client for Python
-* Version: 5.0.20
+* Version: 5.0.21
 * Pypi: https://pypi.org/project/axonius-api-client/
 * Homepage: https://github.com/Axonius/axonius_api_client
 * Author: Axonius support@axonius.com
@@ -65,7 +65,7 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 ### `beautifulsoup4`
 
 * Summary: Screen-scraping library
-* Version: 4.13.3
+* Version: 4.13.4
 * Pypi: https://pypi.org/project/beautifulsoup4/
 * Homepage: None
 * Author: Leonard Richardson <leonardr@segfault.org>
@@ -92,7 +92,7 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 ### `cachetools`
 
 * Summary: Extensible memoizing collections and decorators
-* Version: 5.5.1
+* Version: 6.2.0
 * Pypi: https://pypi.org/project/cachetools/
 * Homepage: https://github.com/tkem/cachetools/
 * Author: Thomas Kemmer tkemmer@computer.org
@@ -101,7 +101,7 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.4.26
+* Version: 2025.8.3
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -110,34 +110,32 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 ### `cffi`
 
 * Summary: Foreign Function Interface for Python calling C code.
-* Version: 1.17.1
+* Version: 2.0.0
 * Pypi: https://pypi.org/project/cffi/
-* Homepage: http://cffi.readthedocs.org
-* Author: Armin Rigo, Maciej Fijalkowski python-cffi@googlegroups.com
-* License :: OSI Approved :: MIT License
+* Homepage: None
+* Author: Armin Rigo, Maciej Fijalkowski
 
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.2
+* Version: 3.4.3
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `click`
 
 * Summary: Composable command line interface toolkit
-* Version: 8.1.8
+* Version: 8.2.1
 * Pypi: https://pypi.org/project/click/
 * Homepage: None
 * Author: None
-* License: 
 
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 44.0.1
+* Version: 45.0.7
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The cryptography developers <cryptography-dev@python.org> The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -155,11 +153,20 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.2.0
+* Version: 1.2.2
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub opensource@zyte.com
 * License :: OSI Approved :: BSD License
+
+### `deepmerge`
+
+* Summary: A toolset for deeply merging Python dictionaries.
+* Version: 2.0
+* Pypi: https://pypi.org/project/deepmerge/
+* Homepage: None
+* Author: Yusuke Tsutsumi <yusuke@tsutsumi.io>
+* License :: OSI Approved :: MIT License
 
 ### `defusedxml`
 
@@ -173,7 +180,7 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.16.1
+* Version: 3.18.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -191,7 +198,7 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 ### `fuzzyfinder`
 
 * Summary: Fuzzy Finder implemented in Python.
-* Version: 2.2.0
+* Version: 2.3.0
 * Pypi: https://pypi.org/project/fuzzyfinder/
 * Homepage: None
 * Author: Amjith Ramanujam <amjith.r@gmail.com>
@@ -227,29 +234,27 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.5.0
+* Version: 10.8.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
-* License :: OSI Approved :: MIT License
 
 ### `msal`
 
 * Summary: The Microsoft Authentication Library (MSAL) for Python library enables your app to access the Microsoft Cloud by supporting authentication of users with Microsoft Azure Active Directory accounts (AAD) and Microsoft Accounts (MSA) using industry standard OAuth2 and OpenID Connect.
-* Version: 1.32.0
+* Version: 1.33.0
 * Pypi: https://pypi.org/project/msal/
 * Homepage: https://github.com/AzureAD/microsoft-authentication-library-for-python
 * Author: Microsoft Corporation nugetaad@microsoft.com
 * License :: OSI Approved :: MIT License
 
-### `mypy-extensions`
+### `mypy_extensions`
 
 * Summary: Type system extensions for programs checked with the mypy type checker.
-* Version: 1.0.0
+* Version: 1.1.0
 * Pypi: https://pypi.org/project/mypy-extensions/
 * Homepage: None
 * Author: The mypy developers <jukka.lehtosalo@iki.fi>
-* License: MIT License
 
 ### `olefile`
 
@@ -263,7 +268,7 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 24.2
+* Version: 25.0
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -273,16 +278,15 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.1.1
+* Version: 25.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
-* License :: OSI Approved :: MIT License
 
 ### `pycparser`
 
 * Summary: C parser in Python
-* Version: 2.22
+* Version: 2.23
 * Pypi: https://pypi.org/project/pycparser/
 * Homepage: https://github.com/eliben/pycparser
 * Author: Eli Bendersky eliben@gmail.com
@@ -291,7 +295,7 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 ### `pycryptodomex`
 
 * Summary: Cryptographic library for Python
-* Version: 3.22.0
+* Version: 3.23.0
 * Pypi: https://pypi.org/project/pycryptodomex/
 * Homepage: https://www.pycryptodome.org
 * Author: Helder Eijs helderijs@gmail.com
@@ -310,7 +314,7 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 ### `pyOpenSSL`
 
 * Summary: Python wrapper module around the OpenSSL library
-* Version: 25.0.0
+* Version: 25.1.0
 * Pypi: https://pypi.org/project/pyOpenSSL/
 * Homepage: https://pyopenssl.org/
 * Author: The pyOpenSSL developers cryptography-dev@python.org
@@ -338,7 +342,7 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 ### `python-dotenv`
 
 * Summary: Read key-value pairs from a .env file and set them as environment variables
-* Version: 1.0.1
+* Version: 1.1.1
 * Pypi: https://pypi.org/project/python-dotenv/
 * Homepage: https://github.com/theskumar/python-dotenv
 * Author: Saurabh Kumar me+github@saurabh-kumar.com
@@ -347,7 +351,7 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2024.2
+* Version: 2025.2
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -376,14 +380,14 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 * Summary: Alternative regular expression module, to replace re.
 * Version: 2024.11.6
 * Pypi: https://pypi.org/project/regex/
-* Homepage: https://github.com/mrabarnett/mrab-regex
-* Author: Matthew Barnett regex@mrabarnett.plus.com
-* License :: OSI Approved :: Apache Software License
+* Homepage: None
+* Author: Matthew Barnett <regex@mrabarnett.plus.com>
+* License: Apache Software License
 
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.4
+* Version: 2.32.5
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -401,7 +405,7 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.3.0
+* Version: 80.9.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -418,7 +422,7 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 ### `soupsieve`
 
 * Summary: A modern CSS selector implementation for Beautiful Soup.
-* Version: 2.6
+* Version: 2.7
 * Pypi: https://pypi.org/project/soupsieve/
 * Homepage: None
 * Author: Isaac Muse <Isaac.Muse@gmail.com>
@@ -436,7 +440,7 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.1.3
+* Version: 5.3.0
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
@@ -445,11 +449,10 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 ### `typing_extensions`
 
 * Summary: Backported and Experimental Type Hints for Python 3.9+
-* Version: 4.12.2
+* Version: 4.15.0
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
-* License: 
 
 ### `typing-inspect`
 
@@ -463,7 +466,7 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.2
+* Version: 5.3.1
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -478,11 +481,11 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 * License: MIT
 
-### `XlsxWriter`
+### `xlsxwriter`
 
 * Summary: A Python module for creating Excel XLSX files.
-* Version: 3.2.2
-* Pypi: https://pypi.org/project/XlsxWriter/
+* Version: 3.2.5
+* Pypi: https://pypi.org/project/xlsxwriter/
 * Homepage: https://github.com/jmcnamara/XlsxWriter
 * Author: John McNamara jmcnamara@cpan.org
 * License :: OSI Approved :: BSD License
@@ -490,7 +493,7 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 ### `xmltodict`
 
 * Summary: Makes working with XML feel like you are working with JSON
-* Version: 0.14.2
+* Version: 0.15.1
 * Pypi: https://pypi.org/project/xmltodict/
 * Homepage: https://github.com/martinblech/xmltodict
 * Author: Martin Blech martinblech@gmail.com
@@ -498,40 +501,41 @@ Administrative keys for demisto/axonius:1.1.0.3749274
 
 ## `OS Packages`
 
-* .python-rundeps-20250124.193505 noarch {.python-rundeps}
-* alpine-baselayout-3.6.8-r1 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.6.8-r1 x86_64 {alpine-baselayout}
+* .python-rundeps-20250812.224446 noarch {.python-rundeps}
+* alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
+* alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.21.3-r0 x86_64 {alpine-base}
-* apk-tools-2.14.6-r3 x86_64 {apk-tools}
-* busybox-1.37.0-r12 x86_64 {busybox}
-* busybox-binsh-1.37.0-r12 x86_64 {busybox}
-* ca-certificates-20241121-r1 x86_64 {ca-certificates}
-* ca-certificates-bundle-20241121-r1 x86_64 {ca-certificates}
+* alpine-release-3.22.1-r0 x86_64 {alpine-base}
+* apk-tools-2.14.9-r3 x86_64 {apk-tools}
+* busybox-1.37.0-r19 x86_64 {busybox}
+* busybox-binsh-1.37.0-r19 x86_64 {busybox}
+* ca-certificates-20250619-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20250619-r0 x86_64 {ca-certificates}
 * gdbm-1.24-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.21.3-r0 x86_64 {krb5}
+* libapk2-2.14.9-r3 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
-* libcom_err-1.47.1-r1 x86_64 {e2fsprogs}
-* libcrypto3-3.3.3-r0 x86_64 {openssl}
-* libffi-3.4.7-r0 x86_64 {libffi}
-* libintl-0.22.5-r0 x86_64 {gettext}
-* libncursesw-6.5_p20241006-r3 x86_64 {ncurses}
-* libnsl-2.0.1-r0 x86_64 {libnsl}
-* libpanelw-6.5_p20241006-r3 x86_64 {ncurses}
-* libssl3-3.3.3-r0 x86_64 {openssl}
+* libcom_err-1.47.2-r2 x86_64 {e2fsprogs}
+* libcrypto3-3.5.2-r0 x86_64 {openssl}
+* libffi-3.4.8-r0 x86_64 {libffi}
+* libintl-0.24.1-r0 x86_64 {gettext}
+* libncursesw-6.5_p20250503-r0 x86_64 {ncurses}
+* libnsl-2.0.1-r1 x86_64 {libnsl}
+* libpanelw-6.5_p20250503-r0 x86_64 {ncurses}
+* libssl3-3.5.2-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
-* libuuid-2.40.4-r1 x86_64 {util-linux}
+* libuuid-2.41-r9 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.5-r9 x86_64 {musl}
-* musl-utils-1.2.5-r9 x86_64 {musl}
-* ncurses-terminfo-base-6.5_p20241006-r3 x86_64 {ncurses}
-* readline-8.2.13-r0 x86_64 {readline}
+* musl-1.2.5-r10 x86_64 {musl}
+* musl-utils-1.2.5-r10 x86_64 {musl}
+* ncurses-terminfo-base-6.5_p20250503-r0 x86_64 {ncurses}
+* readline-8.2.13-r1 x86_64 {readline}
 * scanelf-1.3.8-r1 x86_64 {pax-utils}
-* sqlite-libs-3.48.0-r1 x86_64 {sqlite}
-* ssl_client-1.37.0-r12 x86_64 {busybox}
+* sqlite-libs-3.49.2-r1 x86_64 {sqlite}
+* ssl_client-1.37.0-r19 x86_64 {busybox}
 * tzdata-2025b-r0 x86_64 {tzdata}
-* xz-libs-5.6.3-r1 x86_64 {xz}
+* xz-libs-5.8.1-r0 x86_64 {xz}
 * zlib-1.3.1-r2 x86_64 {zlib}

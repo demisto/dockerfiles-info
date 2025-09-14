@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.4749472`
+# `demisto/google-vision-api:1.0.0.4859028`
 
 ## Docker Metadata
-- Image Size: 132.44 MB
-- Image ID: `sha256:a8b93af737b122101ee3ec59880464672e384bbdd6c166ddd29d14e00430ebf5`
-- Created: `2025-09-03T13:55:07.483054059Z`
+- Image Size: 141.52 MB
+- Image ID: `sha256:f69523d316f42ea356923e8945f6a978224c14d8fb87e12034a68f41f1bf77d3`
+- Created: `2025-09-12T05:38:22.503671672Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.4749472`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.4859028`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b2c0774b7748ae5c77f5b372df43a67d50d77e79`
-  - `org.opencontainers.image.version:1.0.0.4749472`
+  - `org.opencontainers.image.revision:654a3391872596af12da0cafd9787ff54b09c194`
+  - `org.opencontainers.image.version:1.0.0.4859028`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-vision-api:1.0.0.4749472
+Signatures for demisto/google-vision-api:1.0.0.4859028
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4749472   f4507eae29d67cb23545cfa6f5e9bbb5918673679266a77adfe60ab990a4cedb   (Repo Admin)
+1.0.0.4859028   0511b57b229082bcc61851d86b02337ad7f5d5b533ed7a121b172c6c7ec4ea0c   (Repo Admin)
 
-Administrative keys for demisto/google-vision-api:1.0.0.4749472
+Administrative keys for demisto/google-vision-api:1.0.0.4859028
 
   Repository Key:	8f699c169d21da1343c2ea4f465fe5f19ace3822c0fd85c2d1a054379abf30dd
   Root Key:	23130201a9ea6e060cceb9cf5a1998649873c190c980fe0d6c487df1fadbc6ef
@@ -157,7 +157,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.4749472
 ### `google-api-python-client`
 
 * Summary: Google API Client Library for Python
-* Version: 2.179.0
+* Version: 2.181.0
 * Pypi: https://pypi.org/project/google-api-python-client/
 * Homepage: https://github.com/googleapis/google-api-python-client/
 * Author: Google LLC googleapis-packages@google.com
@@ -184,7 +184,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.4749472
 ### `google-auth-oauthlib`
 
 * Summary: Google Authentication Library
-* Version: 1.2.1
+* Version: 1.2.2
 * Pypi: https://pypi.org/project/google-auth-oauthlib/
 * Homepage: https://github.com/GoogleCloudPlatform/google-auth-library-python-oauthlib
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -193,7 +193,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.4749472
 ### `google-cloud-aiplatform`
 
 * Summary: Vertex AI API client library
-* Version: 1.111.0
+* Version: 1.112.0
 * Pypi: https://pypi.org/project/google-cloud-aiplatform/
 * Homepage: https://github.com/googleapis/python-aiplatform
 * Author: Google LLC googleapis-packages@google.com
@@ -202,7 +202,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.4749472
 ### `google-cloud-bigquery`
 
 * Summary: Google BigQuery API client library
-* Version: 3.36.0
+* Version: 3.37.0
 * Pypi: https://pypi.org/project/google-cloud-bigquery/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -238,7 +238,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.4749472
 ### `google-cloud-vision`
 
 * Summary: Google Cloud Vision API client library
-* Version: 3.10.1
+* Version: 3.10.2
 * Pypi: https://pypi.org/project/google-cloud-vision/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-vision
 * Author: Google LLC googleapis-packages@google.com
@@ -256,7 +256,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.4749472
 ### `google-genai`
 
 * Summary: GenAI Python SDK
-* Version: 1.31.0
+* Version: 1.36.0
 * Pypi: https://pypi.org/project/google-genai/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -328,7 +328,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.4749472
 ### `httplib2`
 
 * Summary: A comprehensive HTTP client library.
-* Version: 0.30.0
+* Version: 0.31.0
 * Pypi: https://pypi.org/project/httplib2/
 * Homepage: https://github.com/httplib2/httplib2
 * Author: Joe Gregorio joe@bitworking.org
@@ -355,16 +355,15 @@ Administrative keys for demisto/google-vision-api:1.0.0.4749472
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.7.0
+* Version: 10.8.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
-* License: 
 
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.3.2
+* Version: 2.3.3
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.
@@ -382,11 +381,11 @@ Administrative keys for demisto/google-vision-api:1.0.0.4749472
 ### `oauthlib`
 
 * Summary: A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
-* Version: 3.2.2
+* Version: 3.3.1
 * Pypi: https://pypi.org/project/oauthlib/
 * Homepage: https://github.com/oauthlib/oauthlib
 * Author: The OAuthlib Community
-* License: BSD
+* License: BSD-3-Clause
 
 ### `olefile`
 
@@ -428,7 +427,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.4749472
 ### `protobuf`
 
 * Summary: None
-* Version: 6.32.0
+* Version: 6.32.1
 * Pypi: https://pypi.org/project/protobuf/
 * Homepage: https://developers.google.com/protocol-buffers/
 * Author: protobuf@googlegroups.com protobuf@googlegroups.com
@@ -472,12 +471,12 @@ Administrative keys for demisto/google-vision-api:1.0.0.4749472
 
 ### `pyparsing`
 
-* Summary: pyparsing module - Classes and methods to define and execute parsing grammars
+* Summary: pyparsing - Classes and methods to define and execute parsing grammars
 * Version: 3.2.3
 * Pypi: https://pypi.org/project/pyparsing/
 * Homepage: None
 * Author: Paul McGuire <ptmcg.gm+pyparsing@gmail.com>
-* License :: OSI Approved :: MIT License
+* License: 
 
 ### `PySocks`
 
@@ -670,9 +669,9 @@ Administrative keys for demisto/google-vision-api:1.0.0.4749472
 
 * adduser	3.134
 * apt	2.6.1
-* base-files	12.4+deb12u11
+* base-files	12.4+deb12u12
 * base-passwd	3.6.1
-* bash	5.2.15-2+b8
+* bash	5.2.15-2+b9
 * bsdutils	1:2.38.1-5+deb12u3
 * ca-certificates	20230311+deb12u1
 * coreutils	9.1-1
@@ -685,11 +684,11 @@ Administrative keys for demisto/google-vision-api:1.0.0.4749472
 * e2fsprogs	1.47.2-3~bpo12+1
 * findutils	4.9.0-4
 * gcc-12-base:amd64	12.2.0-14+deb12u1
-* gpgv	2.2.40-1.1
+* gpgv	2.2.40-1.1+deb12u1
 * grep	3.8-5
 * gzip	1.12-1
 * hostname	3.23+nmu1
-* init-system-helpers	1.65.2
+* init-system-helpers	1.65.2+deb12u1
 * libacl1:amd64	2.3.1-3
 * libapt-pkg6.0:amd64	2.6.1
 * libattr1:amd64	1:2.5.1-4
@@ -697,10 +696,10 @@ Administrative keys for demisto/google-vision-api:1.0.0.4749472
 * libaudit1:amd64	1:3.0.9-1
 * libblkid1:amd64	2.38.1-5+deb12u3
 * libbz2-1.0:amd64	1.0.8-5+b1
-* libc-bin	2.36-9+deb12u10
-* libc6:amd64	2.36-9+deb12u10
+* libc-bin	2.36-9+deb12u13
+* libc6:amd64	2.36-9+deb12u13
 * libcap-ng0:amd64	0.8.3-1+b3
-* libcap2:amd64	1:2.66-4+deb12u1
+* libcap2:amd64	1:2.66-4+deb12u2
 * libcom-err2:amd64	1.47.2-3~bpo12+1
 * libcrypt1:amd64	1:4.4.33-2
 * libdb5.3:amd64	5.3.28+dfsg2-1
@@ -713,13 +712,13 @@ Administrative keys for demisto/google-vision-api:1.0.0.4749472
 * libgmp10:amd64	2:6.2.1+dfsg1-1.1
 * libgnutls30:amd64	3.7.9-2+deb12u5
 * libgpg-error0:amd64	1.46-1
-* libgssapi-krb5-2:amd64	1.20.1-2+deb12u3
+* libgssapi-krb5-2:amd64	1.20.1-2+deb12u4
 * libhogweed6:amd64	3.8.1-2
 * libidn2-0:amd64	2.3.3-1+b1
-* libk5crypto3:amd64	1.20.1-2+deb12u3
+* libk5crypto3:amd64	1.20.1-2+deb12u4
 * libkeyutils1:amd64	1.6.3-2
-* libkrb5-3:amd64	1.20.1-2+deb12u3
-* libkrb5support0:amd64	1.20.1-2+deb12u3
+* libkrb5-3:amd64	1.20.1-2+deb12u4
+* libkrb5support0:amd64	1.20.1-2+deb12u4
 * liblz4-1:amd64	1.9.4-1
 * liblzma5:amd64	5.4.1-1
 * libmd0:amd64	1.0.4-2
@@ -741,9 +740,9 @@ Administrative keys for demisto/google-vision-api:1.0.0.4749472
 * libsemanage2:amd64	3.4-1+b5
 * libsepol2:amd64	3.4-2.1
 * libsmartcols1:amd64	2.38.1-5+deb12u3
-* libsqlite3-0:amd64	3.40.1-2+deb12u1
+* libsqlite3-0:amd64	3.40.1-2+deb12u2
 * libss2:amd64	1.47.2-3~bpo12+1
-* libssl3:amd64	3.0.17-1~deb12u1
+* libssl3:amd64	3.0.17-1~deb12u2
 * libstdc++6:amd64	12.2.0-14+deb12u1
 * libsystemd0:amd64	254.26-1~bpo12+1
 * libtasn1-6:amd64	4.19.0-2+deb12u1
@@ -762,15 +761,15 @@ Administrative keys for demisto/google-vision-api:1.0.0.4749472
 * ncurses-base	6.4-4
 * ncurses-bin	6.4-4
 * netbase	6.4
-* openssl	3.0.17-1~deb12u1
+* openssl	3.0.17-1~deb12u2
 * passwd	1:4.13+dfsg1-1+deb12u1
-* perl-base	5.36.0-7+deb12u2
+* perl-base	5.36.0-7+deb12u3
 * procps	2:4.0.2-3
 * readline-common	8.2-1.3
 * sed	4.9-1
 * sysvinit-utils	3.08-3~bpo12+2
 * tar	1.34+dfsg-1.2+deb12u1
-* tzdata	2025b-0+deb12u1
+* tzdata	2025b-0+deb12u2
 * usr-is-merged	37~deb12u1
 * util-linux	2.38.1-5+deb12u3
 * util-linux-extra	2.38.1-5+deb12u3
