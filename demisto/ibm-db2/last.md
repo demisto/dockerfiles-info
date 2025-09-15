@@ -1,9 +1,9 @@
-# `demisto/ibm-db2:1.0.0.4834573`
+# `demisto/ibm-db2:1.0.0.4880658`
 
 ## Docker Metadata
-- Image Size: 126.82 MB
-- Image ID: `sha256:c2345cb03e4fe82c6d16e705ac495ebbaf7446ac8aef35974d13589a85729b57`
-- Created: `2025-09-10T11:57:17.193277277Z`
+- Image Size: 126.78 MB
+- Image ID: `sha256:6783046bc47f1a584bf952ff1ed2bdb19984e88e59f11a69cc8a69cb34d39dac`
+- Created: `2025-09-14T16:45:31.791030918Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/ibm-db2:1.0.0.4834573`
+  - `DOCKER_IMAGE=demisto/ibm-db2:1.0.0.4880658`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:35b277efb68fc9d9c65276a160925b273e66dcd6`
-  - `org.opencontainers.image.version:1.0.0.4834573`
+  - `org.opencontainers.image.revision:3eaa9c2260bb5985205bb1dd30d89081fdd27934`
+  - `org.opencontainers.image.version:1.0.0.4880658`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/ibm-db2:1.0.0.4834573
+Signatures for demisto/ibm-db2:1.0.0.4880658
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4834573   2ff3fad9a4d74ed82650534732dbd1369726893f0e985fa0f04357b88761760d   (Repo Admin)
+1.0.0.4880658   6bd26cc14846d7e76bd6526605a6e94417394fe4bf1f26dda7622285efb70005   (Repo Admin)
 
-Administrative keys for demisto/ibm-db2:1.0.0.4834573
+Administrative keys for demisto/ibm-db2:1.0.0.4880658
 
   Repository Key:	6337a735f6ada949bd0fc77c9c4f02002ca37e4c371d55673dac6e742082bced
   Root Key:	a251db0468b1c8b663b1987336e3e6a7935be0ec4d244474d3a2907656934763
@@ -104,7 +104,7 @@ Administrative keys for demisto/ibm-db2:1.0.0.4834573
 ### `ibm_db`
 
 * Summary: Python DBI driver for DB2 (LUW, zOS, i5)
-* Version: 3.2.5
+* Version: 3.2.7
 * Pypi: https://pypi.org/project/ibm-db/
 * Homepage: http://pypi.python.org/pypi/ibm_db/
 * Author: IBM Application Development Team earamma.kanasavi@ibm.com

@@ -1,9 +1,9 @@
-# `demisto/dxl:1.0.0.4828185`
+# `demisto/dxl:1.0.0.4880558`
 
 ## Docker Metadata
-- Image Size: 33.49 MB
-- Image ID: `sha256:d99bb3969f4e2471a79cfa70e6d9639bd3e8e5e6f60403f9ad475c6879ea5f3c`
-- Created: `2025-09-10T00:53:31.592852882Z`
+- Image Size: 33.51 MB
+- Image ID: `sha256:256e3365ddb630832cf49808dabcf2f63a8569f6fd7dcc37aed3ab667978d7b7`
+- Created: `2025-09-14T16:31:20.502467768Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
   - `PYTHON_VERSION=3.9.23`
   - `PYTHON_SHA256=61a42919e13d539f7673cf11d1c404380e28e540510860b9d242196e165709c9`
-  - `DOCKER_IMAGE=demisto/dxl:1.0.0.4828185`
+  - `DOCKER_IMAGE=demisto/dxl:1.0.0.4880558`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b2af43207bba4b457772301b6832380d69c393ee`
-  - `org.opencontainers.image.version:1.0.0.4828185`
+  - `org.opencontainers.image.revision:8d2a974af1350d7c38aaa488b1d343c06a7a80a8`
+  - `org.opencontainers.image.version:1.0.0.4880558`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/dxl:1.0.0.4828185
+Signatures for demisto/dxl:1.0.0.4880558
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4828185   db4b282c68e80c1e525840fa786af9efad6b0576cdbb81ceac465f9306a7e97c   (Repo Admin)
+1.0.0.4880558   46cd6f53f6bfd3f008f53fcababacab40b6c5246334eeb3739b817a3d5ee81ab   (Repo Admin)
 
-Administrative keys for demisto/dxl:1.0.0.4828185
+Administrative keys for demisto/dxl:1.0.0.4880558
 
   Repository Key:	63a4ff99780318ae8a16abf65cc2a7c94b68f679d0431e2b63a249887c19c629
   Root Key:	5ad3d6ba2b55f3b32263beecfdb5a93b7e66df11d6f1ef19b655f7a5a668fc97
@@ -56,7 +56,7 @@ Administrative keys for demisto/dxl:1.0.0.4828185
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.4.26
+* Version: 2025.8.3
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -65,7 +65,7 @@ Administrative keys for demisto/dxl:1.0.0.4828185
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.2
+* Version: 3.4.3
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -164,7 +164,7 @@ Administrative keys for demisto/dxl:1.0.0.4828185
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.6.0
+* Version: 10.8.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -255,7 +255,7 @@ Administrative keys for demisto/dxl:1.0.0.4828185
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.4
+* Version: 2.32.5
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
