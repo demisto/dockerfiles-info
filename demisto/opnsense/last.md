@@ -1,9 +1,9 @@
-# `demisto/opnsense:1.0.0.4123694`
+# `demisto/opnsense:1.0.0.4889421`
 
 ## Docker Metadata
-- Image Size: 31.94 MB
-- Image ID: `sha256:8dc062079f84465a334b5998ea26d9b505912ba06a1c608e4d8ae22a4a401b94`
-- Created: `2025-07-10T10:01:20.289727826Z`
+- Image Size: 32.91 MB
+- Image ID: `sha256:569a72c219d987cdcef697f08996c62444e256adddfd04e94c8865926152983b`
+- Created: `2025-09-15T11:42:18.312996967Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/opnsense:1.0.0.4123694`
+  - `DOCKER_IMAGE=demisto/opnsense:1.0.0.4889421`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:f0ab7ffbd04124a931a5cfc4e1a14d3604a7c426`
-  - `org.opencontainers.image.version:1.0.0.4123694`
+  - `org.opencontainers.image.revision:3fb180975abc29faaf9116970b4f4b911a674eba`
+  - `org.opencontainers.image.version:1.0.0.4889421`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.22.0`
+  - `VERSION_ID=3.22.1`
   - `PRETTY_NAME="Alpine Linux v3.22"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/opnsense:1.0.0.4123694
+Signatures for demisto/opnsense:1.0.0.4889421
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4123694   adffc7f624472e981348090d0c4dbe8bc2595687c7b1cc3772766bbe4f3edfe5   (Repo Admin)
+1.0.0.4889421   6cbf973812147d1defe54f14ef0681c84a62edfb82f1d4d4194cc40dd3845aec   (Repo Admin)
 
-Administrative keys for demisto/opnsense:1.0.0.4123694
+Administrative keys for demisto/opnsense:1.0.0.4889421
 
   Repository Key:	9c77beb801cd0ed9e6b029f18540c985233f8151d964e30d014eb05874bba0a0
   Root Key:	ffc8037c34ebd17487a676511bd4d76ecfcfc64ca0eff01a2984343957e40239
@@ -47,7 +47,7 @@ Administrative keys for demisto/opnsense:1.0.0.4123694
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.4.26
+* Version: 2025.8.3
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -56,11 +56,11 @@ Administrative keys for demisto/opnsense:1.0.0.4123694
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.2
+* Version: 3.4.3
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `dateparser`
 
@@ -119,11 +119,10 @@ Administrative keys for demisto/opnsense:1.0.0.4123694
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.7.0
+* Version: 10.8.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
-* License :: OSI Approved :: MIT License
 
 ### `olefile`
 
@@ -137,20 +136,20 @@ Administrative keys for demisto/opnsense:1.0.0.4123694
 ### `pbr`
 
 * Summary: Python Build Reasonableness
-* Version: 6.1.0
+* Version: 7.0.1
 * Pypi: https://pypi.org/project/pbr/
 * Homepage: https://docs.openstack.org/pbr/latest/
 * Author: OpenStack openstack-discuss@lists.openstack.org
-* License :: OSI Approved :: Apache Software License
+* License: Apache-2.0
 
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.1.1
+* Version: 25.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `pyopnsense2`
 
@@ -203,14 +202,14 @@ Administrative keys for demisto/opnsense:1.0.0.4123694
 * Summary: Alternative regular expression module, to replace re.
 * Version: 2024.11.6
 * Pypi: https://pypi.org/project/regex/
-* Homepage: https://github.com/mrabarnett/mrab-regex
-* Author: Matthew Barnett regex@mrabarnett.plus.com
-* License :: OSI Approved :: Apache Software License
+* Homepage: None
+* Author: Matthew Barnett <regex@mrabarnett.plus.com>
+* License: Apache Software License
 
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.4
+* Version: 2.32.5
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -270,30 +269,30 @@ Administrative keys for demisto/opnsense:1.0.0.4123694
 
 ## `OS Packages`
 
-* .python-rundeps-20250604.171311 noarch {.python-rundeps}
+* .python-rundeps-20250812.224446 noarch {.python-rundeps}
 * alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.22.0-r0 x86_64 {alpine-base}
-* apk-tools-2.14.9-r2 x86_64 {apk-tools}
-* busybox-1.37.0-r18 x86_64 {busybox}
-* busybox-binsh-1.37.0-r18 x86_64 {busybox}
-* ca-certificates-20241121-r2 x86_64 {ca-certificates}
-* ca-certificates-bundle-20241121-r2 x86_64 {ca-certificates}
+* alpine-release-3.22.1-r0 x86_64 {alpine-base}
+* apk-tools-2.14.9-r3 x86_64 {apk-tools}
+* busybox-1.37.0-r19 x86_64 {busybox}
+* busybox-binsh-1.37.0-r19 x86_64 {busybox}
+* ca-certificates-20250619-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20250619-r0 x86_64 {ca-certificates}
 * gdbm-1.24-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.21.3-r0 x86_64 {krb5}
-* libapk2-2.14.9-r2 x86_64 {apk-tools}
+* libapk2-2.14.9-r3 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.2-r2 x86_64 {e2fsprogs}
-* libcrypto3-3.5.1-r0 x86_64 {openssl}
+* libcrypto3-3.5.2-r0 x86_64 {openssl}
 * libffi-3.4.8-r0 x86_64 {libffi}
 * libintl-0.24.1-r0 x86_64 {gettext}
 * libncursesw-6.5_p20250503-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
 * libpanelw-6.5_p20250503-r0 x86_64 {ncurses}
-* libssl3-3.5.1-r0 x86_64 {openssl}
+* libssl3-3.5.2-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
 * libuuid-2.41-r9 x86_64 {util-linux}
@@ -303,8 +302,8 @@ Administrative keys for demisto/opnsense:1.0.0.4123694
 * ncurses-terminfo-base-6.5_p20250503-r0 x86_64 {ncurses}
 * readline-8.2.13-r1 x86_64 {readline}
 * scanelf-1.3.8-r1 x86_64 {pax-utils}
-* sqlite-libs-3.49.2-r0 x86_64 {sqlite}
-* ssl_client-1.37.0-r18 x86_64 {busybox}
+* sqlite-libs-3.49.2-r1 x86_64 {sqlite}
+* ssl_client-1.37.0-r19 x86_64 {busybox}
 * tzdata-2025b-r0 x86_64 {tzdata}
 * xz-libs-5.8.1-r0 x86_64 {xz}
 * zlib-1.3.1-r2 x86_64 {zlib}
