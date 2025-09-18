@@ -1,9 +1,9 @@
-# `demisto/bs4-py3:1.0.0.4889644`
+# `demisto/bs4-py3:1.0.0.4914801`
 
 ## Docker Metadata
 - Image Size: 37.95 MB
-- Image ID: `sha256:f7f81f459a40b5e4432c47a661434a8c6eaab12f2829336b3a98d9725a89f2e3`
-- Created: `2025-09-15T11:51:51.103305268Z`
+- Image ID: `sha256:640ba3fb96e93748ec726248509749981dafab58ad2a975820c2ee50e9adc565`
+- Created: `2025-09-17T08:57:38.601466221Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/bs4-py3:1.0.0.4889644`
+  - `DOCKER_IMAGE=demisto/bs4-py3:1.0.0.4914801`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:37eac3d53774539b56feeb558a0dcc3023c4e7a6`
-  - `org.opencontainers.image.version:1.0.0.4889644`
+  - `org.opencontainers.image.revision:c7faf05c43b5203796419a22f70244521e3c42cb`
+  - `org.opencontainers.image.version:1.0.0.4914801`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/bs4-py3:1.0.0.4889644
+Signatures for demisto/bs4-py3:1.0.0.4914801
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4889644   de6bbb31a2e36d0272a27dba2a94b90b89789fb5000bbab98dfccb2092ee3c2c   (Repo Admin)
+1.0.0.4914801   3330e0083d894b13b1ca50cb391cba2def29ddc33e140c5fdd7d8bbdf820eb5c   (Repo Admin)
 
-Administrative keys for demisto/bs4-py3:1.0.0.4889644
+Administrative keys for demisto/bs4-py3:1.0.0.4914801
 
   Repository Key:	fc9cbf4689986a4a2d5017f4dd0b370dce28ed2737afc29128c2210af398286f
   Root Key:	f7385792275ba0f0d12370037412b97339e7663ef387d70b9e49964071d61cd3
@@ -295,10 +295,10 @@ Administrative keys for demisto/bs4-py3:1.0.0.4889644
 ### `xmltodict`
 
 * Summary: Makes working with XML feel like you are working with JSON
-* Version: 1.0.0
+* Version: 1.0.1
 * Pypi: https://pypi.org/project/xmltodict/
-* Homepage: https://github.com/martinblech/xmltodict
-* Author: Martin Blech martinblech@gmail.com
+* Homepage: None
+* Author: Martin Blech
 * License :: OSI Approved :: MIT License
 
 ## `OS Packages`

@@ -1,9 +1,9 @@
-# `demisto/google-api-py3:1.0.0.4858022`
+# `demisto/google-api-py3:1.0.0.4914875`
 
 ## Docker Metadata
-- Image Size: 89.69 MB
-- Image ID: `sha256:7e7eb8cf7df4787f5a33021066049df83cce1c71365d925a152c9c632089433c`
-- Created: `2025-09-12T00:41:07.573860229Z`
+- Image Size: 89.75 MB
+- Image ID: `sha256:4b87249e510553021d70f81e4be74da4e423132ff3f35825cc6fbc08df808320`
+- Created: `2025-09-17T09:02:35.395741317Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/google-api-py3:1.0.0.4858022`
+  - `DOCKER_IMAGE=demisto/google-api-py3:1.0.0.4914875`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:9a422985698bc671f64dc09ea1b95751b9aa96fe`
-  - `org.opencontainers.image.version:1.0.0.4858022`
+  - `org.opencontainers.image.revision:32329432f2e6a4689ba32cf1dd4c158b7ecb8259`
+  - `org.opencontainers.image.version:1.0.0.4914875`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-api-py3:1.0.0.4858022
+Signatures for demisto/google-api-py3:1.0.0.4914875
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4858022   89d4bc147a4f3fbf79161f8e14776c75ec3c6b23db6513ff3213f9b386123b59   (Repo Admin)
+1.0.0.4914875   45b3999d3a42184c828b9776d1ae988bdb121072f265c0860ec2070da68b93a3   (Repo Admin)
 
-Administrative keys for demisto/google-api-py3:1.0.0.4858022
+Administrative keys for demisto/google-api-py3:1.0.0.4914875
 
   Repository Key:	5770a83f9c9b9436ad3c6e6acfe7a826fe9e3f460f7ad22dfb9f894f371071a6
   Root Key:	95f47db9a4f5902373f46f558d53e073d895578cef7f0b44205d77f956ba04d4
@@ -88,7 +88,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.4858022
 * Version: 45.0.7
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
-* Author: The cryptography developers <cryptography-dev@python.org> The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
+* Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
 * License: Apache-2.0 OR BSD-3-Clause
 
 ### `dateparser`
@@ -139,7 +139,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.4858022
 ### `google-api-python-client`
 
 * Summary: Google API Client Library for Python
-* Version: 2.181.0
+* Version: 2.182.0
 * Pypi: https://pypi.org/project/google-api-python-client/
 * Homepage: https://github.com/googleapis/google-api-python-client/
 * Author: Google LLC googleapis-packages@google.com
@@ -273,11 +273,10 @@ Administrative keys for demisto/google-api-py3:1.0.0.4858022
 ### `pyparsing`
 
 * Summary: pyparsing - Classes and methods to define and execute parsing grammars
-* Version: 3.2.3
+* Version: 3.2.4
 * Pypi: https://pypi.org/project/pyparsing/
 * Homepage: None
 * Author: Paul McGuire <ptmcg.gm+pyparsing@gmail.com>
-* License: 
 
 ### `PySocks`
 
