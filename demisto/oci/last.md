@@ -1,9 +1,9 @@
-# `demisto/oci:1.0.0.4905459`
+# `demisto/oci:1.0.0.5041669`
 
 ## Docker Metadata
-- Image Size: 76.45 MB
-- Image ID: `sha256:38406a42f53a64f09d1d0a6f2bce980915286bafeb60dd89dce402c1ef75c7af`
-- Created: `2025-09-16T13:48:40.862635664Z`
+- Image Size: 76.73 MB
+- Image ID: `sha256:759ef5165b51ec738f3489a9b619945e0e9f9a7478bef175c1248f6df2915e15`
+- Created: `2025-09-23T14:29:23.366276826Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/oci:1.0.0.4905459`
+  - `DOCKER_IMAGE=demisto/oci:1.0.0.5041669`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b5cae9aff3e436acf98a32197bba434dcce17efc`
-  - `org.opencontainers.image.version:1.0.0.4905459`
+  - `org.opencontainers.image.revision:0a9ddbd2a7bd8be8cfc60222fff978b62f314c14`
+  - `org.opencontainers.image.version:1.0.0.5041669`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/oci:1.0.0.4905459
+Signatures for demisto/oci:1.0.0.5041669
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4905459   2168ba61eecabb77d79b880399cfb268af447e6c95d5a566c394347dffbd5f06   (Repo Admin)
+1.0.0.5041669   531cb460fc37ef4d808f52c4f1312e39abac971b82399c5433021f2230b7418f   (Repo Admin)
 
-Administrative keys for demisto/oci:1.0.0.4905459
+Administrative keys for demisto/oci:1.0.0.5041669
 
   Repository Key:	2cc50bdbe67fd75478233e92583764f227d51416d68a400f91f13954268ef489
   Root Key:	6c4262e4f5f1c456c5e9a45765790ff209f55ce49fc37ed2a3dc8a833e52de92
@@ -153,7 +153,7 @@ Administrative keys for demisto/oci:1.0.0.4905459
 ### `oci`
 
 * Summary: Oracle Cloud Infrastructure Python SDK
-* Version: 2.160.1
+* Version: 2.160.2
 * Pypi: https://pypi.org/project/oci/
 * Homepage: https://docs.oracle.com/en-us/iaas/tools/python/latest/index.html
 * Author: Oracle joe.levy@oracle.com
