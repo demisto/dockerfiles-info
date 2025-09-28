@@ -1,9 +1,9 @@
-# `demisto/python3-deb:3.12.11.4801753`
+# `demisto/python3-deb:3.12.11.5107264`
 
 ## Docker Metadata
-- Image Size: 68.55 MB
-- Image ID: `sha256:76b47936052f37b4de90985ee7ab6cb5e32ad41d273ac7c2d2c72533577df1c7`
-- Created: `2025-09-08T08:52:43.710756317Z`
+- Image Size: 56.39 MB
+- Image ID: `sha256:3f168e8a876324573e8e91adb4cf38a3edbc648da42c90210404b2f9811b5a7e`
+- Created: `2025-09-26T14:20:24.309013129Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/python3-deb:3.12.11.4801753`
+  - `DOCKER_IMAGE=demisto/python3-deb:3.12.11.5107264`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:73265639022e2baff3ce636fcea7b04fd90409b9`
-  - `org.opencontainers.image.version:3.12.11.4801753`
+  - `org.opencontainers.image.revision:67ba54aaa406b294d81d4937fe2ddc3b2fae06b6`
+  - `org.opencontainers.image.version:3.12.11.5107264`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3-deb:3.12.11.4801753
+Signatures for demisto/python3-deb:3.12.11.5107264
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.11.4801753   3c3e01f08fa7b9ba8e3416e96e87d4f24b8ae8fc5299bd79ea45d5efe9995c8c   (Repo Admin)
+3.12.11.5107264   88ead622c610f734ec517dabc9522b6d496f7633d7f0e4a55237fbed2cb42313   (Repo Admin)
 
-Administrative keys for demisto/python3-deb:3.12.11.4801753
+Administrative keys for demisto/python3-deb:3.12.11.5107264
 
   Repository Key:	02e9781b8a12b1475cfa9e28c569a3337f9d9e664134162d21f48e09aa975ab6
   Root Key:	c368f2dcb34a0aaabd33ee9559bd094b84c7f57f4742bde05f5a21486a524ce9
@@ -167,7 +167,7 @@ Administrative keys for demisto/python3-deb:3.12.11.4801753
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
-* Version: 6.0.2
+* Version: 6.0.3
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net

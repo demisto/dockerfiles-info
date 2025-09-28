@@ -1,9 +1,9 @@
-# `demisto/ansible-runner:1.0.0.5022508`
+# `demisto/ansible-runner:1.0.0.5107486`
 
 ## Docker Metadata
-- Image Size: 253.40 MB
-- Image ID: `sha256:99c7b69266d891f66e50eae2ba3ee838aa146e5590a3093657f09f98364e96ae`
-- Created: `2025-09-22T14:32:57.726372016Z`
+- Image Size: 254.26 MB
+- Image ID: `sha256:6e4b12313238d082a74dd1e2f944960e1b358040d6e3563a30c1c08158886747`
+- Created: `2025-09-26T14:33:41.31345641Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/ansible-runner:1.0.0.5022508`
+  - `DOCKER_IMAGE=demisto/ansible-runner:1.0.0.5107486`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:2cdc43227501831942086a9bae455e2611629dff`
-  - `org.opencontainers.image.version:1.0.0.5022508`
+  - `org.opencontainers.image.revision:c111e8589212c460262edc63952553b4c486bf22`
+  - `org.opencontainers.image.version:1.0.0.5107486`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/ansible-runner:1.0.0.5022508
+Signatures for demisto/ansible-runner:1.0.0.5107486
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5022508   e1b886f1af174093d16c4b146eaeda66e62a4cd413ce7b97c6e162f97c7eb8dd   (Repo Admin)
+1.0.0.5107486   7b2195dfcb5dcca8ace8a031beec2dd9351953bf7adffbfaa83048ecd198e318   (Repo Admin)
 
-Administrative keys for demisto/ansible-runner:1.0.0.5022508
+Administrative keys for demisto/ansible-runner:1.0.0.5107486
 
   Repository Key:	6d8d5ea0bdf840b020da4fdcaa226ede39d89829334ed61e4c224e22dfb57892
   Root Key:	fadafeb34133272ea0e8afc68ced4a43733965778e577dc6d01d0862d57bbc5c
@@ -850,7 +850,7 @@ Administrative keys for demisto/ansible-runner:1.0.0.5022508
 ### `hcloud`
 
 * Summary: Official Hetzner Cloud python library
-* Version: 2.6.0
+* Version: 2.7.0
 * Pypi: https://pypi.org/project/hcloud/
 * Homepage: https://github.com/hetznercloud/hcloud-python
 * Author: Hetzner Cloud GmbH support-cloud@hetzner.com
@@ -989,7 +989,7 @@ Administrative keys for demisto/ansible-runner:1.0.0.5022508
 * Pypi: https://pypi.org/project/MarkupSafe/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: BSD License
+* License: Copyright 2010 Pallets
 
 ### `microsoft-kiota-abstractions`
 
@@ -1471,7 +1471,7 @@ Administrative keys for demisto/ansible-runner:1.0.0.5022508
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
-* Version: 6.0.2
+* Version: 6.0.3
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net

@@ -1,9 +1,9 @@
-# `demisto/sane-pdf-reports:1.0.0.4757735`
+# `demisto/sane-pdf-reports:1.0.0.5109993`
 
 ## Docker Metadata
-- Image Size: 941.35 MB
-- Image ID: `sha256:5d7002161b8eec0c27625a76b33956cbd6cd9a5250ae235d28cde922173dbb96`
-- Created: `2025-09-04T05:12:21.544839885Z`
+- Image Size: 942.63 MB
+- Image ID: `sha256:326bc2798e65c9c0b7e80b6de903ab98164888d0425f11c08a57f7cc0f1a9cf7`
+- Created: `2025-09-26T17:17:18.169680856Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/sane-pdf-reports:1.0.0.4757735`
+  - `DOCKER_IMAGE=demisto/sane-pdf-reports:1.0.0.5109993`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:bd93534685bead699b5ded4bc57db5c306ddba2e`
-  - `org.opencontainers.image.version:1.0.0.4757735`
+  - `org.opencontainers.image.revision:904ab3cb29254771e26820afa961285028ae55f7`
+  - `org.opencontainers.image.version:1.0.0.5109993`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sane-pdf-reports:1.0.0.4757735
+Signatures for demisto/sane-pdf-reports:1.0.0.5109993
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4757735   2df09df6438ace430d29c6a8b4077838d78f0b13c554f597b54f19bcdcf35c6e   (Repo Admin)
+1.0.0.5109993   6c17b579181813bf184c12336477f2f063670342e65814d6b90f47250a021d8f   (Repo Admin)
 
-Administrative keys for demisto/sane-pdf-reports:1.0.0.4757735
+Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 
   Repository Key:	a49126a1ef2d8b2a122417046a0568ce3d14ed56e32e723f3cb956a369091e4b
   Root Key:	3c9d875c8980465612892e36819738cac8450f51c69e5dbdbf71867f33cd59eb
@@ -167,7 +167,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.4757735
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
-* Version: 6.0.2
+* Version: 6.0.3
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net
@@ -326,7 +326,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.4757735
 * libcolord2:amd64	1.4.5-3
 * libcom-err2:amd64	1.46.6-1~bpo11+1
 * libcrypt1:amd64	1:4.4.18-4
-* libcups2:amd64	2.3.3op2-3+deb11u9
+* libcups2:amd64	2.3.3op2-3+deb11u10
 * libdatrie1:amd64	0.2.13-1
 * libdb5.3:amd64	5.3.28+dfsg1-0.8
 * libdbus-1-3:amd64	1.12.28-0+deb11u1
@@ -420,10 +420,10 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.4757735
 * libnspr4:amd64	2:4.29-1
 * libnss3:amd64	2:3.61-1+deb11u4
 * libp11-kit0:amd64	0.23.22-1
-* libpam-modules-bin	1.4.0-9+deb11u1
-* libpam-modules:amd64	1.4.0-9+deb11u1
-* libpam-runtime	1.4.0-9+deb11u1
-* libpam0g:amd64	1.4.0-9+deb11u1
+* libpam-modules-bin	1.4.0-9+deb11u2
+* libpam-modules:amd64	1.4.0-9+deb11u2
+* libpam-runtime	1.4.0-9+deb11u2
+* libpam0g:amd64	1.4.0-9+deb11u2
 * libpango-1.0-0:amd64	1.46.2-3
 * libpangocairo-1.0-0:amd64	1.46.2-3
 * libpangoft2-1.0-0:amd64	1.46.2-3
