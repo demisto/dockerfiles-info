@@ -1,9 +1,9 @@
-# `demisto/glpi:1.0.0.4858102`
+# `demisto/glpi:1.0.0.5151292`
 
 ## Docker Metadata
 - Image Size: 32.94 MB
-- Image ID: `sha256:fa49962cf5b37c6944f3c254bf6619634469792d6b593517f243828797b38ded`
-- Created: `2025-09-12T00:56:01.959014901Z`
+- Image ID: `sha256:1e84354292f852cb7c3fe5af28b1765dc42dc67f2459af25c1c5b01303d51a8c`
+- Created: `2025-09-28T13:52:52.417193509Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/glpi:1.0.0.4858102`
+  - `DOCKER_IMAGE=demisto/glpi:1.0.0.5151292`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:9b6e653d0a656e52d84c163e386a147aaaa05dc3`
-  - `org.opencontainers.image.version:1.0.0.4858102`
+  - `org.opencontainers.image.revision:0f1d8289e72bdd8069110824ef6a8c61aff18e1d`
+  - `org.opencontainers.image.version:1.0.0.5151292`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/glpi:1.0.0.4858102
+Signatures for demisto/glpi:1.0.0.5151292
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4858102   a033a2657f1c7362935f49c4f692e1273a977e9c9d75c7cfe00d7a94ceb33d3c   (Repo Admin)
+1.0.0.5151292   4dba3f456bbb8ad6bb727e63ae8ab8388ffd5ea4e306a9636490b1b11d14f080   (Repo Admin)
 
-Administrative keys for demisto/glpi:1.0.0.4858102
+Administrative keys for demisto/glpi:1.0.0.5151292
 
   Repository Key:	7f8ea3c76ab5a16606d318c8baf945d9d3660a82014e085c9ab1f27cf34469e7
   Root Key:	9774b80e7316213a52d704c068e0133a3c93be49c754bafc88743395abbe8886
@@ -47,7 +47,7 @@ Administrative keys for demisto/glpi:1.0.0.4858102
 ### `bcrypt`
 
 * Summary: Modern password hashing for your software and your servers
-* Version: 4.3.0
+* Version: 5.0.0
 * Pypi: https://pypi.org/project/bcrypt/
 * Homepage: None
 * Author: The Python Cryptographic Authority developers <cryptography-dev@python.org>
