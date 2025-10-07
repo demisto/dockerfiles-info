@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.5239443`
+# `demisto/google-vision-api:1.0.0.5295733`
 
 ## Docker Metadata
-- Image Size: 129.82 MB
-- Image ID: `sha256:defd1ef0428d7d7e91214dce0a389910dec8cd7e4851d40aaf6ad59f3b136227`
-- Created: `2025-10-03T14:25:17.735618602Z`
+- Image Size: 129.97 MB
+- Image ID: `sha256:11cc2f53296270c96d5c9b0507597d891e51877db7b522376cee2d0ba1178e42`
+- Created: `2025-10-06T15:01:35.704372287Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.5239443`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.5295733`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:7ce36da74cc3f4b2bae74d8c9cab9214a79c567b`
-  - `org.opencontainers.image.version:1.0.0.5239443`
+  - `org.opencontainers.image.revision:eb49444b186500b75017d2ed1ff0216c62edbfd8`
+  - `org.opencontainers.image.version:1.0.0.5295733`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-vision-api:1.0.0.5239443
+Signatures for demisto/google-vision-api:1.0.0.5295733
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5239443   2308e144a2c26984be78cf7ad21efb98652401d0869014263fdb4c956040089d   (Repo Admin)
+1.0.0.5295733   92d66a91f9df49586233a9fbfd1570f0a0131b19d1264ea2bd8a33c0e47775cc   (Repo Admin)
 
-Administrative keys for demisto/google-vision-api:1.0.0.5239443
+Administrative keys for demisto/google-vision-api:1.0.0.5295733
 
   Repository Key:	8f699c169d21da1343c2ea4f465fe5f19ace3822c0fd85c2d1a054379abf30dd
   Root Key:	23130201a9ea6e060cceb9cf5a1998649873c190c980fe0d6c487df1fadbc6ef
@@ -76,7 +76,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.5239443
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.8.3
+* Version: 2025.10.5
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -193,7 +193,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.5239443
 ### `google-cloud-aiplatform`
 
 * Summary: Vertex AI API client library
-* Version: 1.118.0
+* Version: 1.119.0
 * Pypi: https://pypi.org/project/google-cloud-aiplatform/
 * Homepage: https://github.com/googleapis/python-aiplatform
 * Author: Google LLC googleapis-packages@google.com
@@ -256,7 +256,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.5239443
 ### `google-genai`
 
 * Summary: GenAI Python SDK
-* Version: 1.39.1
+* Version: 1.41.0
 * Pypi: https://pypi.org/project/google-genai/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -454,7 +454,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.5239443
 ### `pydantic`
 
 * Summary: Data validation using Python type hints
-* Version: 2.11.9
+* Version: 2.11.10
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.io>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
