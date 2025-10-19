@@ -1,9 +1,9 @@
-# `demisto/sklearn:1.0.0.5204891`
+# `demisto/sklearn:1.0.0.5411667`
 
 ## Docker Metadata
-- Image Size: 256.10 MB
-- Image ID: `sha256:acfc031c8d56d1456e7b4d04121afb0eea6d82a41697ffbf0275925c8d9e5d21`
-- Created: `2025-09-30T14:37:22.258435105Z`
+- Image Size: 256.99 MB
+- Image ID: `sha256:9459d9a76471ef56e19be95d377794c3f855e700ff6f11f46a9274274747ccf5`
+- Created: `2025-10-16T14:31:30.887525941Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,14 +12,14 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/sklearn:1.0.0.5204891`
+  - `DOCKER_IMAGE=demisto/sklearn:1.0.0.5411667`
   - `NLTK_DATA=/ml/nltk_data`
   - `OPENBLAS_NUM_THREADS=1`
   - `OMP_NUM_THREADS=4`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:9030fd52bd06983732adff19707c0f48967fb47f`
-  - `org.opencontainers.image.version:1.0.0.5204891`
+  - `org.opencontainers.image.revision:f33f119b0970f4ac1204a3f72e71914f91237332`
+  - `org.opencontainers.image.version:1.0.0.5411667`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sklearn:1.0.0.5204891
+Signatures for demisto/sklearn:1.0.0.5411667
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5204891   6e36a298ba135ac935c72a1071b405f2faafd217ac18dccddb95bcad7f4362d6   (Repo Admin)
+1.0.0.5411667   a0155375413c133c29c75f497f0c2d93ea92fab7b19848d7a54eb558b172464b   (Repo Admin)
 
-Administrative keys for demisto/sklearn:1.0.0.5204891
+Administrative keys for demisto/sklearn:1.0.0.5411667
 
   Repository Key:	2475832d78c902e8999df2055c0f69226a85caf5ee20d300c05ffb6e87dd9f7c
   Root Key:	8ab906212f9f7b6d82f5edb3d677b0df40095899339fa0b36ecd00b68b304458
@@ -77,11 +77,10 @@ Administrative keys for demisto/sklearn:1.0.0.5204891
 ### `click`
 
 * Summary: Composable command line interface toolkit
-* Version: 8.1.8
+* Version: 8.3.0
 * Pypi: https://pypi.org/project/click/
 * Homepage: None
 * Author: None
-* License: 
 
 ### `dateparser`
 
@@ -144,7 +143,7 @@ Administrative keys for demisto/sklearn:1.0.0.5204891
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License :: OSI Approved :: BSD License
+* License: 
 
 ### `joblib`
 
@@ -175,7 +174,7 @@ Administrative keys for demisto/sklearn:1.0.0.5204891
 ### `nltk`
 
 * Summary: Natural Language Toolkit
-* Version: 3.9.1
+* Version: 3.9.2
 * Pypi: https://pypi.org/project/nltk/
 * Homepage: https://www.nltk.org/
 * Author: NLTK Team nltk.team@gmail.com
@@ -184,7 +183,7 @@ Administrative keys for demisto/sklearn:1.0.0.5204891
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.3.3
+* Version: 2.3.4
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.
@@ -257,11 +256,10 @@ Administrative keys for demisto/sklearn:1.0.0.5204891
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2025.9.18
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
-* License: Apache Software License
 
 ### `requests`
 
@@ -406,7 +404,7 @@ Administrative keys for demisto/sklearn:1.0.0.5204891
 * libapk2-2.14.9-r3 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.2-r2 x86_64 {e2fsprogs}
-* libcrypto3-3.5.3-r1 x86_64 {openssl}
+* libcrypto3-3.5.4-r0 x86_64 {openssl}
 * libffi-3.4.8-r0 x86_64 {libffi}
 * libgcc-14.2.0-r6 x86_64 {gcc}
 * libgfortran-14.2.0-r6 x86_64 {gcc}
@@ -416,7 +414,7 @@ Administrative keys for demisto/sklearn:1.0.0.5204891
 * libnsl-2.0.1-r1 x86_64 {libnsl}
 * libpanelw-6.5_p20250503-r0 x86_64 {ncurses}
 * libquadmath-14.2.0-r6 x86_64 {gcc}
-* libssl3-3.5.3-r1 x86_64 {openssl}
+* libssl3-3.5.4-r0 x86_64 {openssl}
 * libstdc++-14.2.0-r6 x86_64 {gcc}
 * libtirpc-1.3.5-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
