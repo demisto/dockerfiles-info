@@ -1,9 +1,9 @@
-# `demisto/auth-utils:1.0.0.5427065`
+# `demisto/auth-utils:1.0.0.5476008`
 
 ## Docker Metadata
 - Image Size: 63.28 MB
-- Image ID: `sha256:114dc1cef5bef778b4cb4a181a1ab023cb34f4037c6318c884fd8e886ece6d00`
-- Created: `2025-10-17T14:28:41.19762246Z`
+- Image ID: `sha256:65d80d808978117a84e452c5c07a9bfa4e58755dccf015eee7de0c5e7d8f927b`
+- Created: `2025-10-20T15:43:47.705025781Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/auth-utils:1.0.0.5427065`
+  - `DOCKER_IMAGE=demisto/auth-utils:1.0.0.5476008`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:8cf4e5d07f01670d08f61986b0f8f59ad9b0f2bf`
-  - `org.opencontainers.image.version:1.0.0.5427065`
+  - `org.opencontainers.image.revision:7dcea16a2d4e00fb3db6df17170fdfd2935e8dd6`
+  - `org.opencontainers.image.version:1.0.0.5476008`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/auth-utils:1.0.0.5427065
+Signatures for demisto/auth-utils:1.0.0.5476008
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5427065   bfac6a7b38302c8a2338796d005c8e7c794355181611dd874bcb968a3a1e30c7   (Repo Admin)
+1.0.0.5476008   a29ea7fa0cd0cc85dcced042fa904c31b4be543b51150ed69f758dce9e52b110   (Repo Admin)
 
-Administrative keys for demisto/auth-utils:1.0.0.5427065
+Administrative keys for demisto/auth-utils:1.0.0.5476008
 
   Repository Key:	c4e5c6491d37f197ee11c3bcf27402ded5e35e8dfd04aa5f3ca6306c1589acb9
   Root Key:	afc48b6ceb8bef3948a8d982cf3a6e357efca688125da7e062bdd41bfc9b9546
@@ -361,7 +361,7 @@ Administrative keys for demisto/auth-utils:1.0.0.5427065
 ### `pydantic`
 
 * Summary: Data validation using Python type hints
-* Version: 2.12.2
+* Version: 2.12.3
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.io>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>, Douwe Maan <hi@douwe.me>
