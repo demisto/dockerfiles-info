@@ -1,27 +1,27 @@
-# `demisto/m2crypto:1.0.0.5220164`
+# `demisto/m2crypto:1.0.0.5525915`
 
 ## Docker Metadata
-- Image Size: 155.23 MB
-- Image ID: `sha256:34aa3d45bc35f8400407bfa8d6c0e9827291a58cb66009bca31d48d554334cae`
-- Created: `2025-10-02T14:27:12.370680501Z`
+- Image Size: 149.75 MB
+- Image ID: `sha256:c564e18e70188eb094caaff41752fac4796095179786a8482ece994e7440eee9`
+- Created: `2025-10-23T07:36:41.362201282Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.11`
-  - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/m2crypto:1.0.0.5220164`
+  - `PYTHON_VERSION=3.12.12`
+  - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
+  - `DOCKER_IMAGE=demisto/m2crypto:1.0.0.5525915`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:1d42f762f1a3580556578273fcee8cd74a87c989`
-  - `org.opencontainers.image.version:1.0.0.5220164`
+  - `org.opencontainers.image.revision:a49f7f66278bccfb76109f184f832d82e032ca40`
+  - `org.opencontainers.image.version:1.0.0.5525915`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.22.1`
+  - `VERSION_ID=3.22.2`
   - `PRETTY_NAME="Alpine Linux v3.22"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/m2crypto:1.0.0.5220164
+Signatures for demisto/m2crypto:1.0.0.5525915
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5220164   8194c8169506ef0a93aa080abbab158213470a97a5df722630ebceacf6e95b37   (Repo Admin)
+1.0.0.5525915   9310ba0499c4a40e398619e774dc3e9377fa81515f0eec2fab8475803c5a3932   (Repo Admin)
 
-Administrative keys for demisto/m2crypto:1.0.0.5220164
+Administrative keys for demisto/m2crypto:1.0.0.5525915
 
   Repository Key:	aa1fbb8fbce342528d43f52e3c3ca6ab4919d9ef5bfb5e90d5439d5e0c60ee36
   Root Key:	f094d23c15652c96e7f8b03075235b6818d33a95767cd6a1f1bd0f26d56024a8
@@ -47,7 +47,7 @@ Administrative keys for demisto/m2crypto:1.0.0.5220164
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.6.15
+* Version: 2025.8.3
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -56,7 +56,7 @@ Administrative keys for demisto/m2crypto:1.0.0.5220164
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.2
+* Version: 3.4.3
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -114,7 +114,7 @@ Administrative keys for demisto/m2crypto:1.0.0.5220164
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License :: OSI Approved :: BSD License
+* License: 
 
 ### `M2Crypto`
 
@@ -145,7 +145,7 @@ Administrative keys for demisto/m2crypto:1.0.0.5220164
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.2
+* Version: 25.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -182,7 +182,7 @@ Administrative keys for demisto/m2crypto:1.0.0.5220164
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
-* Version: 6.0.2
+* Version: 6.0.3
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net
@@ -200,7 +200,7 @@ Administrative keys for demisto/m2crypto:1.0.0.5220164
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.4
+* Version: 2.32.5
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -260,16 +260,16 @@ Administrative keys for demisto/m2crypto:1.0.0.5220164
 
 ## `OS Packages`
 
-* .python-rundeps-20250812.224446 noarch {.python-rundeps}
+* .python-rundeps-20251009.223815 noarch {.python-rundeps}
 * alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.22.1-r0 x86_64 {alpine-base}
+* alpine-release-3.22.2-r0 x86_64 {alpine-base}
 * apk-tools-2.14.9-r3 x86_64 {apk-tools}
 * busybox-1.37.0-r19 x86_64 {busybox}
 * busybox-binsh-1.37.0-r19 x86_64 {busybox}
-* ca-certificates-20250619-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20250619-r0 x86_64 {ca-certificates}
+* ca-certificates-20250911-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20250911-r0 x86_64 {ca-certificates}
 * gdbm-1.24-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
@@ -293,7 +293,7 @@ Administrative keys for demisto/m2crypto:1.0.0.5220164
 * musl-1.2.5-r10 x86_64 {musl}
 * musl-utils-1.2.5-r10 x86_64 {musl}
 * ncurses-terminfo-base-6.5_p20250503-r0 x86_64 {ncurses}
-* pcre2-10.43-r1 x86_64 {pcre2}
+* pcre2-10.46-r0 x86_64 {pcre2}
 * readline-8.2.13-r1 x86_64 {readline}
 * scanelf-1.3.8-r1 x86_64 {pax-utils}
 * sqlite-libs-3.49.2-r1 x86_64 {sqlite}

@@ -1,9 +1,9 @@
-# `demisto/ansible-runner:1.0.0.5490508`
+# `demisto/ansible-runner:1.0.0.5533917`
 
 ## Docker Metadata
-- Image Size: 239.91 MB
-- Image ID: `sha256:9c568648c4a8f58669c389dd227ed171ea79569d6537b9170d6a72ccde707112`
-- Created: `2025-10-21T11:23:22.696286483Z`
+- Image Size: 240.09 MB
+- Image ID: `sha256:5178925f19577626fb471e92f5c159620d0d89c5be464f1f14ec9aab0286b732`
+- Created: `2025-10-23T14:36:27.448429003Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/ansible-runner:1.0.0.5490508`
+  - `DOCKER_IMAGE=demisto/ansible-runner:1.0.0.5533917`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:7b0471baa7d488c85aa2b0d2c1a00254171cac24`
-  - `org.opencontainers.image.version:1.0.0.5490508`
+  - `org.opencontainers.image.revision:ab7a0974d704eed46e6c7940fcabceaf84c8be7d`
+  - `org.opencontainers.image.version:1.0.0.5533917`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/ansible-runner:1.0.0.5490508
+Signatures for demisto/ansible-runner:1.0.0.5533917
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5490508   9fb553b3f55a3998ac9fc995b6dc6bb7593f2b16cf3a323a40773b8e20a12d18   (Repo Admin)
+1.0.0.5533917   d7c0a83d77b1331350fdcb9a9df4f3827c3a4b6afab6aed592819682f57b4750   (Repo Admin)
 
-Administrative keys for demisto/ansible-runner:1.0.0.5490508
+Administrative keys for demisto/ansible-runner:1.0.0.5533917
 
   Repository Key:	6d8d5ea0bdf840b020da4fdcaa226ede39d89829334ed61e4c224e22dfb57892
   Root Key:	fadafeb34133272ea0e8afc68ced4a43733965778e577dc6d01d0862d57bbc5c
@@ -519,9 +519,9 @@ Administrative keys for demisto/ansible-runner:1.0.0.5490508
 * Summary: Microsoft Azure Network Management Client Library for Python
 * Version: 26.0.0
 * Pypi: https://pypi.org/project/azure-mgmt-network/
-* Homepage: https://github.com/Azure/azure-sdk-for-python
-* Author: Microsoft Corporation azpysdkhelp@microsoft.com
-* License :: OSI Approved :: MIT License
+* Homepage: None
+* Author: Microsoft Corporation <azpysdkhelp@microsoft.com> License-Expression: MIT
+* License: MIT License
 
 ### `azure-mgmt-notificationhubs`
 
@@ -627,9 +627,9 @@ Administrative keys for demisto/ansible-runner:1.0.0.5490508
 * Summary: Microsoft Azure Storage Management Client Library for Python
 * Version: 23.1.0
 * Pypi: https://pypi.org/project/azure-mgmt-storage/
-* Homepage: https://github.com/Azure/azure-sdk-for-python
-* Author: Microsoft Corporation azpysdkhelp@microsoft.com
-* License :: OSI Approved :: MIT License
+* Homepage: None
+* Author: Microsoft Corporation <azpysdkhelp@microsoft.com> License-Expression: MIT
+* License: MIT License
 
 ### `azure-mgmt-trafficmanager`
 
@@ -1110,7 +1110,7 @@ Administrative keys for demisto/ansible-runner:1.0.0.5490508
 ### `msgraph-sdk`
 
 * Summary: The Microsoft Graph Python SDK
-* Version: 1.46.0
+* Version: 1.47.0
 * Pypi: https://pypi.org/project/msgraph-sdk/
 * Homepage: None
 * Author: Microsoft <graphtooling+python@microsoft.com>
@@ -1272,7 +1272,7 @@ Administrative keys for demisto/ansible-runner:1.0.0.5490508
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.2
+* Version: 25.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
