@@ -1,27 +1,27 @@
-# `demisto/datadog-api-client:1.0.0.4893383`
+# `demisto/datadog-api-client:1.0.0.5598595`
 
 ## Docker Metadata
-- Image Size: 35.78 MB
-- Image ID: `sha256:845b34f7ae95b4404b5baef1325b53ed0c6c4d6fb2e7f4658bd1d6b538c9eca6`
-- Created: `2025-09-15T15:19:40.298607991Z`
+- Image Size: 32.97 MB
+- Image ID: `sha256:59883eddb024dd96203a46fc32767f933567975c5180fed635295c1d67253898`
+- Created: `2025-10-27T16:06:13.911506323Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.11`
-  - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/datadog-api-client:1.0.0.4893383`
+  - `PYTHON_VERSION=3.12.12`
+  - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
+  - `DOCKER_IMAGE=demisto/datadog-api-client:1.0.0.5598595`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:9724e4888fe16ca58cb242c596891c38baf6990f`
-  - `org.opencontainers.image.version:1.0.0.4893383`
+  - `org.opencontainers.image.revision:ce633a808955ea5122dfcbee9da1ac0c639dadac`
+  - `org.opencontainers.image.version:1.0.0.5598595`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.22.1`
+  - `VERSION_ID=3.22.2`
   - `PRETTY_NAME="Alpine Linux v3.22"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/datadog-api-client:1.0.0.4893383
+Signatures for demisto/datadog-api-client:1.0.0.5598595
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4893383   f8fc1a35feabaad22872f9285c34cf72813eb135ed2fe063f5e4faa448c8637a   (Repo Admin)
+1.0.0.5598595   2831abd798b703a36aa70275966988c51b1bf13d0f8b493335a4b25d10b9c722   (Repo Admin)
 
-Administrative keys for demisto/datadog-api-client:1.0.0.4893383
+Administrative keys for demisto/datadog-api-client:1.0.0.5598595
 
   Repository Key:	656d78d0ce1bf497326f1f73e1748d6dc41faace8487b29f8cf74838cf932cd9
   Root Key:	f37ef2584cf450f8c9dd9e8721f92ef81e852897ae167f699bb2c8bffa6ecd86
@@ -47,7 +47,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.4893383
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.8.3
+* Version: 2025.10.5
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -56,7 +56,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.4893383
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.2
+* Version: 3.4.3
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -65,7 +65,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.4893383
 ### `datadog-api-client`
 
 * Summary: Collection of all Datadog Public endpoints
-* Version: 2.43.0
+* Version: 2.45.0
 * Pypi: https://pypi.org/project/datadog-api-client/
 * Homepage: https://github.com/DataDog/datadog-api-client-python
 * Author: Datadog, Inc. packages@datadoghq.com
@@ -123,7 +123,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.4893383
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License :: OSI Approved :: BSD License
+* License: 
 
 ### `more-itertools`
 
@@ -145,7 +145,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.4893383
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.2
+* Version: 25.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -182,7 +182,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.4893383
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
-* Version: 6.0.2
+* Version: 6.0.3
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net
@@ -200,7 +200,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.4893383
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.4
+* Version: 2.32.5
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -268,16 +268,16 @@ Administrative keys for demisto/datadog-api-client:1.0.0.4893383
 
 ## `OS Packages`
 
-* .python-rundeps-20250812.224446 noarch {.python-rundeps}
+* .python-rundeps-20251009.223815 noarch {.python-rundeps}
 * alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.22.1-r0 x86_64 {alpine-base}
+* alpine-release-3.22.2-r0 x86_64 {alpine-base}
 * apk-tools-2.14.9-r3 x86_64 {apk-tools}
 * busybox-1.37.0-r19 x86_64 {busybox}
 * busybox-binsh-1.37.0-r19 x86_64 {busybox}
-* ca-certificates-20250619-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20250619-r0 x86_64 {ca-certificates}
+* ca-certificates-20250911-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20250911-r0 x86_64 {ca-certificates}
 * gdbm-1.24-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
@@ -285,13 +285,13 @@ Administrative keys for demisto/datadog-api-client:1.0.0.4893383
 * libapk2-2.14.9-r3 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.2-r2 x86_64 {e2fsprogs}
-* libcrypto3-3.5.2-r0 x86_64 {openssl}
+* libcrypto3-3.5.4-r0 x86_64 {openssl}
 * libffi-3.4.8-r0 x86_64 {libffi}
 * libintl-0.24.1-r0 x86_64 {gettext}
 * libncursesw-6.5_p20250503-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
 * libpanelw-6.5_p20250503-r0 x86_64 {ncurses}
-* libssl3-3.5.2-r0 x86_64 {openssl}
+* libssl3-3.5.4-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
 * libuuid-2.41-r9 x86_64 {util-linux}
