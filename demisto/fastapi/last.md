@@ -1,9 +1,9 @@
-# `demisto/fastapi:0.120.0.5547621`
+# `demisto/fastapi:0.120.1.5622230`
 
 ## Docker Metadata
 - Image Size: 155.44 MB
-- Image ID: `sha256:58b4b1c3bb5453e8bb544c7a25b98d093c6caf147754666459d586e6338132f4`
-- Created: `2025-10-24T14:26:44.710216459Z`
+- Image ID: `sha256:6d4503972f4a7b02c32039d68c501c9ec11f9e3605810e2626e4286fb08732a0`
+- Created: `2025-10-28T23:05:44.211875666Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/fastapi:0.120.0.5547621`
+  - `DOCKER_IMAGE=demisto/fastapi:0.120.1.5622230`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b6fd055737104f5b326329c8ea8edce8f0ce9d5f`
-  - `org.opencontainers.image.version:0.120.0.5547621`
+  - `org.opencontainers.image.revision:af60b539c8f7bf6a098ff07a85a616f2afd55137`
+  - `org.opencontainers.image.version:0.120.1.5622230`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/fastapi:0.120.0.5547621
+Signatures for demisto/fastapi:0.120.1.5622230
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-0.120.0.5547621   c75fe1c779bd4802bbd6789ed0e5f6fbcb9ead55681fb1db3f310dd4a417cd32   (Repo Admin)
+0.120.1.5622230   6c6a558623564ef8066e189d6a15e9490fdabbd5361da0b84e041c5a548cf546   (Repo Admin)
 
-Administrative keys for demisto/fastapi:0.120.0.5547621
+Administrative keys for demisto/fastapi:0.120.1.5622230
 
   Repository Key:	0271ad1efe39b86e62ae7b94055f6a242fcc87508e09e3e3642e5b835eec0955
   Root Key:	5e03c5b300f950846c7027ad151ca45f71a4a03330a1805f070015d4aee41282
@@ -47,7 +47,7 @@ Administrative keys for demisto/fastapi:0.120.0.5547621
 ### `annotated-doc`
 
 * Summary: Document parameters, class attributes, return types, and variables inline, with Annotated.
-* Version: 0.0.2
+* Version: 0.0.3
 * Pypi: https://pypi.org/project/annotated-doc/
 * Homepage: None
 * Author: Sebastián Ramírez Sebastián Ramírez <tiangolo@gmail.com>
@@ -117,11 +117,10 @@ Administrative keys for demisto/fastapi:0.120.0.5547621
 ### `fastapi`
 
 * Summary: FastAPI framework, high performance, easy to learn, fast to code, ready for production
-* Version: 0.120.0
+* Version: 0.120.1
 * Pypi: https://pypi.org/project/fastapi/
 * Homepage: None
 * Author: =?utf-8?q?Sebasti=C3=A1n_Ram=C3=ADrez?= <tiangolo@gmail.com>
-* License :: OSI Approved :: MIT License
 
 ### `fastapi-utils`
 
@@ -332,11 +331,10 @@ Administrative keys for demisto/fastapi:0.120.0.5547621
 ### `starlette`
 
 * Summary: The little ASGI library that shines.
-* Version: 0.48.0
+* Version: 0.49.1
 * Pypi: https://pypi.org/project/starlette/
 * Homepage: None
-* Author: Tom Christie <tom@tomchristie.com>, Marcelo Trylesinski <marcelotryle@gmail.com>
-* License :: OSI Approved :: BSD License
+* Author: Tom Christie <tom@tomchristie.com>
 
 ### `tldextract`
 

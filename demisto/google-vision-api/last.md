@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.5533767`
+# `demisto/google-vision-api:1.0.0.5615779`
 
 ## Docker Metadata
-- Image Size: 130.86 MB
-- Image ID: `sha256:03614aed19022570de5fcd7f517d3948d0ad022e7cec6855b7414fe99d375f05`
-- Created: `2025-10-23T14:28:05.094336669Z`
+- Image Size: 130.88 MB
+- Image ID: `sha256:f77e0374984f821b31b1c9bd6599f2921d272dba2c5951a5a50e7d069bc6b394`
+- Created: `2025-10-28T14:39:38.394154814Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.5533767`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.5615779`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:15c1244a31ca37a3f5d3ddb661151cd2458ea34b`
-  - `org.opencontainers.image.version:1.0.0.5533767`
+  - `org.opencontainers.image.revision:12c54662298fb92222752aed78c545c77698a010`
+  - `org.opencontainers.image.version:1.0.0.5615779`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-vision-api:1.0.0.5533767
+Signatures for demisto/google-vision-api:1.0.0.5615779
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5533767   e967bcc477012308a9df0553b05e19d9ac8eb11d1d9f84f4aea48aa42cc17034   (Repo Admin)
+1.0.0.5615779   7cdcec3030d65c6a12f6460857ec57e93e40cdfa5f3d8934c2d6b881504c65e7   (Repo Admin)
 
-Administrative keys for demisto/google-vision-api:1.0.0.5533767
+Administrative keys for demisto/google-vision-api:1.0.0.5615779
 
   Repository Key:	8f699c169d21da1343c2ea4f465fe5f19ace3822c0fd85c2d1a054379abf30dd
   Root Key:	23130201a9ea6e060cceb9cf5a1998649873c190c980fe0d6c487df1fadbc6ef
@@ -148,7 +148,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.5533767
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.27.0
+* Version: 2.28.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
