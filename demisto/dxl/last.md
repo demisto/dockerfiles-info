@@ -1,22 +1,22 @@
-# `demisto/dxl:1.0.0.5502165`
+# `demisto/dxl:1.0.0.5629082`
 
 ## Docker Metadata
-- Image Size: 30.02 MB
-- Image ID: `sha256:109b43dfa4f1bc74f230823217e86018b7b9b12138a529e8fb1e16db16d6d8cd`
-- Created: `2025-10-22T00:44:56.155257217Z`
+- Image Size: 31.76 MB
+- Image ID: `sha256:b0a96d6aace3d08f4ba021728f4806deb9a9ae8cfb975a841f96afc3cf78b6f7`
+- Created: `2025-10-29T09:56:31.648173183Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
-  - `GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568`
-  - `PYTHON_VERSION=3.9.24`
-  - `PYTHON_SHA256=668391afabd5083faafa4543753d190f82f33ce6ba22d6e9ac728b43644b278a`
-  - `DOCKER_IMAGE=demisto/dxl:1.0.0.5502165`
+  - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
+  - `PYTHON_VERSION=3.12.12`
+  - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
+  - `DOCKER_IMAGE=demisto/dxl:1.0.0.5629082`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3d0fb8bd67c2bcbc03bcd529893bbb58d965e37d`
-  - `org.opencontainers.image.version:1.0.0.5502165`
+  - `org.opencontainers.image.revision:2dd005c60ab0d349a6eb1e2b08bbecc63febd781`
+  - `org.opencontainers.image.version:1.0.0.5629082`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/dxl:1.0.0.5502165
+Signatures for demisto/dxl:1.0.0.5629082
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5502165   99e8783d693ad592040fcb4dc43c6394ca05024fb506bd5d0b15402f4cc8aba4   (Repo Admin)
+1.0.0.5629082   6c24a67c0b07af79d57d649a225eae7db55673b7cb0b46803d3697bc6aa0e9dd   (Repo Admin)
 
-Administrative keys for demisto/dxl:1.0.0.5502165
+Administrative keys for demisto/dxl:1.0.0.5629082
 
   Repository Key:	63a4ff99780318ae8a16abf65cc2a7c94b68f679d0431e2b63a249887c19c629
   Root Key:	5ad3d6ba2b55f3b32263beecfdb5a93b7e66df11d6f1ef19b655f7a5a668fc97
@@ -56,7 +56,7 @@ Administrative keys for demisto/dxl:1.0.0.5502165
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.8.3
+* Version: 2025.10.5
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -65,7 +65,7 @@ Administrative keys for demisto/dxl:1.0.0.5502165
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.3
+* Version: 3.4.4
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -88,6 +88,15 @@ Administrative keys for demisto/dxl:1.0.0.5502165
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub opensource@zyte.com
 * License :: OSI Approved :: BSD License
+
+### `deepmerge`
+
+* Summary: A toolset for deeply merging Python dictionaries.
+* Version: 2.0
+* Pypi: https://pypi.org/project/deepmerge/
+* Homepage: None
+* Author: Yusuke Tsutsumi <yusuke@tsutsumi.io>
+* License :: OSI Approved :: MIT License
 
 ### `defusedxml`
 
@@ -137,7 +146,7 @@ Administrative keys for demisto/dxl:1.0.0.5502165
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.18.0
+* Version: 3.20.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -155,11 +164,10 @@ Administrative keys for demisto/dxl:1.0.0.5502165
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.11
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License: 
 
 ### `more-itertools`
 
@@ -168,7 +176,6 @@ Administrative keys for demisto/dxl:1.0.0.5502165
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
-* License: 
 
 ### `msgpack`
 
@@ -188,19 +195,10 @@ Administrative keys for demisto/dxl:1.0.0.5502165
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
-### `oscrypto`
-
-* Summary: TLS (SSL) sockets, key generation, encryption, decryption, signing, verification and KDFs using the OS crypto libraries. Does not require a compiler, and relies on the OS for patching. Works on Windows, OS X and Linux/BSD.
-* Version: 1.3.0
-* Pypi: https://pypi.org/project/oscrypto/
-* Homepage: https://github.com/wbond/oscrypto
-* Author: wbond will@wbond.net
-* License :: OSI Approved :: MIT License
-
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.2
+* Version: 25.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -246,11 +244,10 @@ Administrative keys for demisto/dxl:1.0.0.5502165
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2025.10.22
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
-* License: Apache Software License
 
 ### `requests`
 
@@ -264,7 +261,7 @@ Administrative keys for demisto/dxl:1.0.0.5502165
 ### `requests-file`
 
 * Summary: File transport adapter for Requests
-* Version: 2.1.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/requests-file/
 * Homepage: None
 * Author: David Shea <reallylongword@gmail.com>
@@ -277,7 +274,6 @@ Administrative keys for demisto/dxl:1.0.0.5502165
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
-* License: 
 
 ### `six`
 
@@ -291,7 +287,7 @@ Administrative keys for demisto/dxl:1.0.0.5502165
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.2.0
+* Version: 5.3.0
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
@@ -313,20 +309,10 @@ Administrative keys for demisto/dxl:1.0.0.5502165
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
-* License: 
-
-### `wheel`
-
-* Summary: A built-package format for Python
-* Version: 0.45.1
-* Pypi: https://pypi.org/project/wheel/
-* Homepage: None
-* Author: Daniel Holth <dholth@fastmail.fm>
-* License :: OSI Approved :: MIT License
 
 ## `OS Packages`
 
-* .python-rundeps-20251009.224644 noarch {.python-rundeps}
+* .python-rundeps-20251009.223815 noarch {.python-rundeps}
 * alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
