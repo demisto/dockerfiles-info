@@ -1,9 +1,9 @@
-# `demisto/ml:1.0.0.5736576`
+# `demisto/ml:1.0.0.5768129`
 
 ## Docker Metadata
-- Image Size: 1004.75 MB
-- Image ID: `sha256:2e71f473135dd2ca286be717e43fca9b0b602de8c73b9cdceb9b563824a8c928`
-- Created: `2025-11-05T05:10:11.725252936Z`
+- Image Size: 993.14 MB
+- Image ID: `sha256:28f115413ecf5303c7eec4576ba26afc2233c411086c1f7aee77c91d6a565fd6`
+- Created: `2025-11-07T14:45:07.467991622Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,14 +12,14 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/ml:1.0.0.5736576`
+  - `DOCKER_IMAGE=demisto/ml:1.0.0.5768129`
   - `HF_HOME=/ml/.cache`
   - `NLTK_DATA=/ml/nltk_data`
   - `MPLCONFIGDIR=/ml/matplotlib`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:048ffd090c74ee9ad37121afadaf52054816d714`
-  - `org.opencontainers.image.version:1.0.0.5736576`
+  - `org.opencontainers.image.revision:f5090aa084b2733c2ab2a9ad5abc9ae7d279d03a`
+  - `org.opencontainers.image.version:1.0.0.5768129`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -35,12 +35,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/ml:1.0.0.5736576
+Signatures for demisto/ml:1.0.0.5768129
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5736576   a98c4b0d60f4c9d7075aa5140066550b71b29a458ee773b0be7bb9660b9e962b   (Repo Admin)
+1.0.0.5768129   a57351f2341e0cf5bb628111c76a709520647fc91e1010e4cf92aecf0c6f5aec   (Repo Admin)
 
-Administrative keys for demisto/ml:1.0.0.5736576
+Administrative keys for demisto/ml:1.0.0.5768129
 
   Repository Key:	ac15e70d1328e4ee6a571a4f26d48cb7a7a71057e1c418659434a29c5f420dec
   Root Key:	9bed0b81bc81568c748fc3dce530b735db8f1ee1b0f960a5a6d7b9a7386637c6
@@ -337,15 +337,6 @@ Administrative keys for demisto/ml:1.0.0.5736576
 * Author: The Nucleic Development Team <sccolbert@gmail.com>
 * License :: BSD 3-Clause License
 
-### `langcodes`
-
-* Summary: Tools for labeling human languages with IETF language tags
-* Version: 3.5.0
-* Pypi: https://pypi.org/project/langcodes/
-* Homepage: None
-* Author: Elia Robyn Speer <rspeer@arborelia.net>
-* License :: OSI Approved :: MIT License
-
 ### `langdetect`
 
 * Summary: Language detection library ported from Google's language-detection.
@@ -354,15 +345,6 @@ Administrative keys for demisto/ml:1.0.0.5736576
 * Homepage: https://github.com/Mimino666/langdetect
 * Author: Michal Mimino Danilak michal.danilak@gmail.com
 * License :: OSI Approved :: Apache Software License
-
-### `language_data`
-
-* Summary: Supplementary data about languages used by the langcodes module
-* Version: 1.3.0
-* Pypi: https://pypi.org/project/language-data/
-* Homepage: None
-* Author: Elia Robyn Speer <rspeer@arborelia.net>
-* License :: OSI Approved :: MIT License
 
 ### `lazy_loader`
 
@@ -382,24 +364,6 @@ Administrative keys for demisto/ml:1.0.0.5736576
 * Author: Marco Tulio Ribeiro marcotcr@gmail.com
 * License: BSD
 
-### `marisa-trie`
-
-* Summary: Static memory-efficient and fast Trie-like structures for Python.
-* Version: 1.2.1
-* Pypi: https://pypi.org/project/marisa-trie/
-* Homepage: None
-* Author: Mikhail Korobov <kmike84@gmail.com>
-* License: MIT
-
-### `markdown-it-py`
-
-* Summary: Python port of markdown-it. Markdown parsing, done right!
-* Version: 3.0.0
-* Pypi: https://pypi.org/project/markdown-it-py/
-* Homepage: None
-* Author: Chris Sewell <chrisj_sewell@hotmail.com>
-* License :: OSI Approved :: MIT License
-
 ### `MarkupSafe`
 
 * Summary: Safely add untrusted strings to HTML/XML markup.
@@ -417,15 +381,6 @@ Administrative keys for demisto/ml:1.0.0.5736576
 * Homepage: None
 * Author: John D. Hunter, Michael Droettboom Unknown <matplotlib-users@python.org>
 * License :: OSI Approved :: Python Software Foundation License
-
-### `mdurl`
-
-* Summary: Markdown URL utilities
-* Version: 0.1.2
-* Pypi: https://pypi.org/project/mdurl/
-* Homepage: 
-* Author: Taneli Hukkinen <hukkin@users.noreply.github.com>
-* License :: OSI Approved :: MIT License
 
 ### `ml_dtypes`
 
@@ -624,15 +579,6 @@ Administrative keys for demisto/ml:1.0.0.5736576
 * Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
 * License: MIT
 
-### `Pygments`
-
-* Summary: Pygments is a syntax highlighting package written in Python.
-* Version: 2.19.1
-* Pypi: https://pypi.org/project/Pygments/
-* Homepage: None
-* Author: Georg Brandl <georg@python.org>
-* License :: OSI Approved :: BSD License
-
 ### `pyparsing`
 
 * Summary: pyparsing - Classes and methods to define and execute parsing grammars
@@ -706,15 +652,6 @@ Administrative keys for demisto/ml:1.0.0.5736576
 * Author: David Shea <reallylongword@gmail.com>
 * License :: OSI Approved :: Apache Software License
 
-### `rich`
-
-* Summary: Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
-* Version: 13.9.4
-* Pypi: https://pypi.org/project/rich/
-* Homepage: https://github.com/Textualize/rich
-* Author: Will McGugan willmcgugan@gmail.com
-* License :: OSI Approved :: MIT License
-
 ### `safetensors`
 
 * Summary: None
@@ -759,15 +696,6 @@ Administrative keys for demisto/ml:1.0.0.5736576
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
 
-### `shellingham`
-
-* Summary: Tool to Detect Surrounding Shell
-* Version: 1.5.4
-* Pypi: https://pypi.org/project/shellingham/
-* Homepage: https://github.com/sarugaku/shellingham
-* Author: Tzu-ping Chung uranusjr@gmail.com
-* License :: OSI Approved :: ISC License (ISCL)
-
 ### `six`
 
 * Summary: Python 2 and 3 compatibility utilities
@@ -789,7 +717,7 @@ Administrative keys for demisto/ml:1.0.0.5736576
 ### `spacy`
 
 * Summary: Industrial-strength Natural Language Processing (NLP) in Python
-* Version: 3.8.5
+* Version: 3.8.8
 * Pypi: https://pypi.org/project/spacy/
 * Homepage: https://spacy.io
 * Author: Explosion contact@explosion.ai
@@ -913,11 +841,11 @@ Administrative keys for demisto/ml:1.0.0.5736576
 * Author: The Hugging Face team (past and future) with the help of all our contributors (https://github.com/huggingface/transformers/graphs/contributors) transformers@huggingface.co
 * License :: OSI Approved :: Apache Software License
 
-### `typer`
+### `typer-slim`
 
 * Summary: Typer, build great CLIs. Easy to code. Based on Python type hints.
-* Version: 0.15.2
-* Pypi: https://pypi.org/project/typer/
+* Version: 0.20.0
+* Pypi: https://pypi.org/project/typer-slim/
 * Homepage: None
 * Author: =?utf-8?q?Sebasti=C3=A1n_Ram=C3=ADrez?= <tiangolo@gmail.com>
 * License :: OSI Approved :: MIT License
@@ -977,7 +905,7 @@ Administrative keys for demisto/ml:1.0.0.5736576
 ### `weasel`
 
 * Summary: Weasel: A small and easy workflow system
-* Version: 0.4.1
+* Version: 0.4.2
 * Pypi: https://pypi.org/project/weasel/
 * Homepage: https://github.com/explosion/weasel/
 * Author: Explosion contact@explosion.ai
