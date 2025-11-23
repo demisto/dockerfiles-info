@@ -1,27 +1,27 @@
-# `demisto/elasticsearch:1.0.0.4861252`
+# `demisto/elasticsearch:1.0.0.5954979`
 
 ## Docker Metadata
-- Image Size: 36.10 MB
-- Image ID: `sha256:805dc725c5b5f123edcf1c22018e36deaac3f8e884a4431a21c67504ff54c2e5`
-- Created: `2025-09-12T14:26:48.505569068Z`
+- Image Size: 41.56 MB
+- Image ID: `sha256:8c258e6c3a15078d0d732dc8f473c93ec3147b5547d619ad5a34cc62b58c3e8a`
+- Created: `2025-11-21T14:27:33.942044542Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.11`
-  - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/elasticsearch:1.0.0.4861252`
+  - `PYTHON_VERSION=3.12.12`
+  - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
+  - `DOCKER_IMAGE=demisto/elasticsearch:1.0.0.5954979`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3a7ef2bbddc1c28a44677d91298f0ae39a6ebda9`
-  - `org.opencontainers.image.version:1.0.0.4861252`
+  - `org.opencontainers.image.revision:c2d1d1a16f81f131ec488d26ebf2d5a7bb1fc9c0`
+  - `org.opencontainers.image.version:1.0.0.5954979`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.22.1`
+  - `VERSION_ID=3.22.2`
   - `PRETTY_NAME="Alpine Linux v3.22"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/elasticsearch:1.0.0.4861252
+Signatures for demisto/elasticsearch:1.0.0.5954979
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4861252   97900bed17b65ecf39ce7620a58d7c87f0f59652914998322ecb74192a7df6ec   (Repo Admin)
+1.0.0.5954979   be99c1862d19c0eb9fd1d529b137b4804a58e4f1af67977592ea24c045592a60   (Repo Admin)
 
-Administrative keys for demisto/elasticsearch:1.0.0.4861252
+Administrative keys for demisto/elasticsearch:1.0.0.5954979
 
   Repository Key:	1441e36bc524b7da5715b616fd7d4799cecad740ed6511b91781000f6341c0f7
   Root Key:	cc9e00c1bd0fdb7f09104e09d01c0d25d1ce8ea381bb97c38bd5f68dcc0017d9
@@ -47,7 +47,7 @@ Administrative keys for demisto/elasticsearch:1.0.0.4861252
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.8.3
+* Version: 2025.11.12
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -56,7 +56,7 @@ Administrative keys for demisto/elasticsearch:1.0.0.4861252
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.2
+* Version: 3.4.4
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -101,7 +101,7 @@ Administrative keys for demisto/elasticsearch:1.0.0.4861252
 ### `elasticsearch`
 
 * Summary: Python client for Elasticsearch
-* Version: 8.19.1
+* Version: 8.19.2
 * Pypi: https://pypi.org/project/elasticsearch/
 * Homepage: None
 * Author: Elastic Client Library Maintainers <client-libs@elastic.co>
@@ -152,14 +152,22 @@ Administrative keys for demisto/elasticsearch:1.0.0.4861252
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
+### `grpcio`
+
+* Summary: HTTP/2-based RPC framework
+* Version: 1.76.0
+* Pypi: https://pypi.org/project/grpcio/
+* Homepage: https://grpc.io
+* Author: The gRPC Authors grpc-io@googlegroups.com
+* License :: OSI Approved :: Apache Software License
+
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.11
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License :: OSI Approved :: BSD License
 
 ### `more-itertools`
 
@@ -187,10 +195,19 @@ Administrative keys for demisto/elasticsearch:1.0.0.4861252
 * Author: Honza Král, Guian Gumpac honza.kral@gmail.com, guiang@bitquilltech.com
 * License :: OSI Approved :: Apache Software License
 
+### `opensearch-protobufs`
+
+* Summary: None
+* Version: 0.19.0
+* Pypi: https://pypi.org/project/opensearch-protobufs/
+* Homepage: https://opensearch.org/
+* Author: OpenSearch Team
+* License :: OSI Approved :: Apache Software License
+
 ### `opensearch-py`
 
 * Summary: Python client for OpenSearch
-* Version: 3.0.0
+* Version: 3.1.0
 * Pypi: https://pypi.org/project/opensearch-py/
 * Homepage: https://github.com/opensearch-project/opensearch-py
 * Author: Aleksei Atavin, Denis Zalevskiy, Rushi Agrawal, Shephali Mittal axeo@aiven.io, dez@aiven.io, rushi.agr@gmail.com, shephalm@amazon.com
@@ -199,11 +216,20 @@ Administrative keys for demisto/elasticsearch:1.0.0.4861252
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.2
+* Version: 25.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
 * License: MIT
+
+### `protobuf`
+
+* Summary: None
+* Version: 6.33.1
+* Pypi: https://pypi.org/project/protobuf/
+* Homepage: https://developers.google.com/protocol-buffers/
+* Author: protobuf@googlegroups.com protobuf@googlegroups.com
+* License: 3-Clause BSD License
 
 ### `PySocks`
 
@@ -236,7 +262,7 @@ Administrative keys for demisto/elasticsearch:1.0.0.4861252
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
-* Version: 6.0.2
+* Version: 6.0.3
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net
@@ -254,7 +280,7 @@ Administrative keys for demisto/elasticsearch:1.0.0.4861252
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.4
+* Version: 2.32.5
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -323,16 +349,16 @@ Administrative keys for demisto/elasticsearch:1.0.0.4861252
 
 ## `OS Packages`
 
-* .python-rundeps-20250812.224446 noarch {.python-rundeps}
+* .python-rundeps-20251009.223815 noarch {.python-rundeps}
 * alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.22.1-r0 x86_64 {alpine-base}
+* alpine-release-3.22.2-r0 x86_64 {alpine-base}
 * apk-tools-2.14.9-r3 x86_64 {apk-tools}
 * busybox-1.37.0-r19 x86_64 {busybox}
 * busybox-binsh-1.37.0-r19 x86_64 {busybox}
-* ca-certificates-20250619-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20250619-r0 x86_64 {ca-certificates}
+* ca-certificates-20250911-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20250911-r0 x86_64 {ca-certificates}
 * gdbm-1.24-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
@@ -340,13 +366,13 @@ Administrative keys for demisto/elasticsearch:1.0.0.4861252
 * libapk2-2.14.9-r3 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.2-r2 x86_64 {e2fsprogs}
-* libcrypto3-3.5.2-r0 x86_64 {openssl}
+* libcrypto3-3.5.4-r0 x86_64 {openssl}
 * libffi-3.4.8-r0 x86_64 {libffi}
 * libintl-0.24.1-r0 x86_64 {gettext}
 * libncursesw-6.5_p20250503-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
 * libpanelw-6.5_p20250503-r0 x86_64 {ncurses}
-* libssl3-3.5.2-r0 x86_64 {openssl}
+* libssl3-3.5.4-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
 * libuuid-2.41-r9 x86_64 {util-linux}

@@ -1,9 +1,9 @@
-# `demisto/commvault:1.0.0.5866153`
+# `demisto/commvault:1.0.0.5944762`
 
 ## Docker Metadata
 - Image Size: 39.40 MB
-- Image ID: `sha256:c4592413f414d2bddc7f8877b08a60cfca406eceb7d5ec5bf8df60e4a4319f95`
-- Created: `2025-11-14T14:26:49.385674084Z`
+- Image ID: `sha256:43c4f723f4925f1268567c90ad89f473f8d7e0bf1822c36a893b022f36f53025`
+- Created: `2025-11-20T14:27:23.107461306Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/commvault:1.0.0.5866153`
+  - `DOCKER_IMAGE=demisto/commvault:1.0.0.5944762`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:c230077095998dfc7391d7bb4b0b3d023cf76ed0`
-  - `org.opencontainers.image.version:1.0.0.5866153`
+  - `org.opencontainers.image.revision:dfb538635fd3acbdcd25862acc8dc6dcd376616a`
+  - `org.opencontainers.image.version:1.0.0.5944762`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/commvault:1.0.0.5866153
+Signatures for demisto/commvault:1.0.0.5944762
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5866153   20efc98a5d79aa5c10750adee61293f13d9f9949c24c67b7187768ae331c0ec6   (Repo Admin)
+1.0.0.5944762   fb0601e3b1648775304888825756fa7341c29237b861840549ae9c2d7b036b9e   (Repo Admin)
 
-Administrative keys for demisto/commvault:1.0.0.5866153
+Administrative keys for demisto/commvault:1.0.0.5944762
 
   Repository Key:	64321e4bf89f6f2f2c1f4b7d25030e7220c7309e9d60d0cb1dba7ce333c096da
   Root Key:	f3d406a543e986d36d553f83059154f0fc457f73f4391bb8af24bc3501bd86f2
@@ -125,7 +125,7 @@ Administrative keys for demisto/commvault:1.0.0.5866153
 ### `fastapi`
 
 * Summary: FastAPI framework, high performance, easy to learn, fast to code, ready for production
-* Version: 0.121.2
+* Version: 0.121.3
 * Pypi: https://pypi.org/project/fastapi/
 * Homepage: None
 * Author: =?utf-8?q?Sebasti=C3=A1n_Ram=C3=ADrez?= <tiangolo@gmail.com>
@@ -328,7 +328,7 @@ Administrative keys for demisto/commvault:1.0.0.5866153
 ### `starlette`
 
 * Summary: The little ASGI library that shines.
-* Version: 0.49.3
+* Version: 0.50.0
 * Pypi: https://pypi.org/project/starlette/
 * Homepage: None
 * Author: Tom Christie <tom@tomchristie.com>
