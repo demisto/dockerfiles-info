@@ -1,27 +1,27 @@
-# `demisto/slackv3:1.0.0.5301537`
+# `demisto/slackv3:1.0.0.5973718`
 
 ## Docker Metadata
-- Image Size: 59.50 MB
-- Image ID: `sha256:613f80d62998ea9282393270b874fdc73035860f3f9a6ef66267fab23a78d2a9`
-- Created: `2025-10-07T14:23:15.141558809Z`
+- Image Size: 57.11 MB
+- Image ID: `sha256:301b7e8197316522fee45edbd6ccf1050041d189d305e5077818ac4ffd8e3645`
+- Created: `2025-11-23T14:38:24.415843052Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.11`
-  - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/slackv3:1.0.0.5301537`
+  - `PYTHON_VERSION=3.12.12`
+  - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
+  - `DOCKER_IMAGE=demisto/slackv3:1.0.0.5973718`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:9f4c0a2bf56422312e19ad24d6e30aa62bd4908e`
-  - `org.opencontainers.image.version:1.0.0.5301537`
+  - `org.opencontainers.image.revision:395b863de7bad0dd73d266b90c2fd257b71f0218`
+  - `org.opencontainers.image.version:1.0.0.5973718`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.22.1`
+  - `VERSION_ID=3.22.2`
   - `PRETTY_NAME="Alpine Linux v3.22"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/slackv3:1.0.0.5301537
+Signatures for demisto/slackv3:1.0.0.5973718
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5301537   852ef2b094a7e13860b4a9c6c8084702c8bc09ae06cfdcfba99132874e5df47a   (Repo Admin)
+1.0.0.5973718   cbc1a91197b38f3628043a7eacca718744f4a796c3adc44888e9caff61fe64f6   (Repo Admin)
 
-Administrative keys for demisto/slackv3:1.0.0.5301537
+Administrative keys for demisto/slackv3:1.0.0.5973718
 
   Repository Key:	6602ad934dd5a009ec1f1b9c2c790ddc5e51f314fe5de01189f72a28fc0aba8c
   Root Key:	c0823ae6697e9a99e1b889b37b9d4b7e34e645d912fdc7c06f1e1121ab88576a
@@ -65,9 +65,9 @@ Administrative keys for demisto/slackv3:1.0.0.5301537
 ### `aiohttp`
 
 * Summary: Async http client/server framework (asyncio)
-* Version: 3.13.0
+* Version: 3.13.2
 * Pypi: https://pypi.org/project/aiohttp/
-* Homepage: https://github.com/aio-libs/aiohttp
+* Homepage: None
 * Author: None
 * License: Apache-2.0 AND MIT
 
@@ -96,7 +96,7 @@ Administrative keys for demisto/slackv3:1.0.0.5301537
 * Pypi: https://pypi.org/project/boto3/
 * Homepage: https://github.com/boto/boto3
 * Author: Amazon Web Services
-* License :: OSI Approved :: Apache Software License
+* License: Apache License 2.0
 
 ### `botocore`
 
@@ -105,12 +105,12 @@ Administrative keys for demisto/slackv3:1.0.0.5301537
 * Pypi: https://pypi.org/project/botocore/
 * Homepage: https://github.com/boto/botocore
 * Author: Amazon Web Services
-* License :: OSI Approved :: Apache Software License
+* License: Apache License 2.0
 
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.6.15
+* Version: 2025.8.3
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -127,7 +127,7 @@ Administrative keys for demisto/slackv3:1.0.0.5301537
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.2
+* Version: 3.4.3
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -199,11 +199,10 @@ Administrative keys for demisto/slackv3:1.0.0.5301537
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.11
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License :: OSI Approved :: BSD License
 
 ### `jmespath`
 
@@ -243,7 +242,7 @@ Administrative keys for demisto/slackv3:1.0.0.5301537
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.2
+* Version: 25.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -252,7 +251,7 @@ Administrative keys for demisto/slackv3:1.0.0.5301537
 ### `propcache`
 
 * Summary: Accelerated property cache
-* Version: 0.4.0
+* Version: 0.4.1
 * Pypi: https://pypi.org/project/propcache/
 * Homepage: https://github.com/aio-libs/propcache
 * Author: Andrew Svetlov andrew.svetlov@gmail.com
@@ -307,7 +306,7 @@ Administrative keys for demisto/slackv3:1.0.0.5301537
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
-* Version: 6.0.2
+* Version: 6.0.3
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net
@@ -325,7 +324,7 @@ Administrative keys for demisto/slackv3:1.0.0.5301537
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.4
+* Version: 2.32.5
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -369,7 +368,7 @@ Administrative keys for demisto/slackv3:1.0.0.5301537
 ### `slack_sdk`
 
 * Summary: The Slack API Platform SDK for Python
-* Version: 3.37.0
+* Version: 3.39.0
 * Pypi: https://pypi.org/project/slack-sdk/
 * Homepage: https://github.com/slackapi/python-slack-sdk
 * Author: Slack Technologies, LLC opensource@slack.com
@@ -447,16 +446,16 @@ Administrative keys for demisto/slackv3:1.0.0.5301537
 
 ## `OS Packages`
 
-* .python-rundeps-20250812.224446 noarch {.python-rundeps}
+* .python-rundeps-20251009.223815 noarch {.python-rundeps}
 * alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.22.1-r0 x86_64 {alpine-base}
+* alpine-release-3.22.2-r0 x86_64 {alpine-base}
 * apk-tools-2.14.9-r3 x86_64 {apk-tools}
 * busybox-1.37.0-r19 x86_64 {busybox}
 * busybox-binsh-1.37.0-r19 x86_64 {busybox}
-* ca-certificates-20250619-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20250619-r0 x86_64 {ca-certificates}
+* ca-certificates-20250911-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20250911-r0 x86_64 {ca-certificates}
 * gdbm-1.24-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
@@ -464,13 +463,13 @@ Administrative keys for demisto/slackv3:1.0.0.5301537
 * libapk2-2.14.9-r3 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.2-r2 x86_64 {e2fsprogs}
-* libcrypto3-3.5.2-r0 x86_64 {openssl}
+* libcrypto3-3.5.4-r0 x86_64 {openssl}
 * libffi-3.4.8-r0 x86_64 {libffi}
 * libintl-0.24.1-r0 x86_64 {gettext}
 * libncursesw-6.5_p20250503-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
 * libpanelw-6.5_p20250503-r0 x86_64 {ncurses}
-* libssl3-3.5.2-r0 x86_64 {openssl}
+* libssl3-3.5.4-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
 * libuuid-2.41-r9 x86_64 {util-linux}

@@ -1,9 +1,9 @@
-# `demisto/feed-performance-test:1.0.5599808`
+# `demisto/feed-performance-test:1.0.5976515`
 
 ## Docker Metadata
 - Image Size: 221.84 MB
-- Image ID: `sha256:5b9bdad62bd182221bf4f4fd3258d3ee3df1d765c011dc44eabbf41de185fc59`
-- Created: `2025-10-27T17:49:48.232212195Z`
+- Image ID: `sha256:8c2bc44711e25e5c50f5f547a11b1a0dc29a8d6ca56dd26d6f16a3ca07d65fad`
+- Created: `2025-11-23T17:56:16.07812369Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/feed-performance-test:1.0.5599808`
+  - `DOCKER_IMAGE=demisto/feed-performance-test:1.0.5976515`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:598c808809c09af76e2a5250582a12547681a806`
-  - `org.opencontainers.image.version:1.0.5599808`
+  - `org.opencontainers.image.revision:a82b68f6a23fec1d99c2581df846246c23493737`
+  - `org.opencontainers.image.version:1.0.5976515`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/feed-performance-test:1.0.5599808
+Signatures for demisto/feed-performance-test:1.0.5976515
 
 SIGNED TAG    DIGEST                                                             SIGNERS
-1.0.5599808   cbee47c07cfdb248eb814f3a6cb3e98349190a6f3c3f8127fe42492acc42f62a   (Repo Admin)
+1.0.5976515   9fd58c7be556571f31b6eec8a5607474e8c2317f8198872f532e1436460b64cf   (Repo Admin)
 
-Administrative keys for demisto/feed-performance-test:1.0.5599808
+Administrative keys for demisto/feed-performance-test:1.0.5976515
 
   Repository Key:	34d2a14a13a72668f827e0bcb38019b128e2e5d7cc15abbb0d5818df7a2a4efa
   Root Key:	bfdf6b1052100f768458c08d6dd2c1d34213a96991024d9cdffe98c6870e88d9

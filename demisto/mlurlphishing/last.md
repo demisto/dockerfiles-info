@@ -1,9 +1,9 @@
-# `demisto/mlurlphishing:1.0.0.5736550`
+# `demisto/mlurlphishing:1.0.0.5978388`
 
 ## Docker Metadata
 - Image Size: 453.55 MB
-- Image ID: `sha256:c51687e81296021f961c16810e68341cd284c0403eac13b9772c360511a777ab`
-- Created: `2025-11-05T05:01:42.496500616Z`
+- Image ID: `sha256:f8704da0ffff8112582faa0a2ee9d9f8d27b4645705fcbfb56e95a0268bf7c56`
+- Created: `2025-11-23T20:40:51.355770768Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/mlurlphishing:1.0.0.5736550`
+  - `DOCKER_IMAGE=demisto/mlurlphishing:1.0.0.5978388`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:f84011cc12519ba98ec2e19e75cccbd56b78dc7c`
-  - `org.opencontainers.image.version:1.0.0.5736550`
+  - `org.opencontainers.image.revision:12bcb9b13a4f8f0c24800a3dbb3cda30f56a452e`
+  - `org.opencontainers.image.version:1.0.0.5978388`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/mlurlphishing:1.0.0.5736550
+Signatures for demisto/mlurlphishing:1.0.0.5978388
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5736550   6029b78df27e692ffd2cc4aad795c63bda21d05d64a0ad698e209cc0f74f548b   (Repo Admin)
+1.0.0.5978388   7fdb8ff7965ce9b788bc6a9f5f430436c46325926d3022a5d69bcbf7d669b8fc   (Repo Admin)
 
-Administrative keys for demisto/mlurlphishing:1.0.0.5736550
+Administrative keys for demisto/mlurlphishing:1.0.0.5978388
 
   Repository Key:	e5e487892f4b685d7bd7e618b93e3dfb5f95fba6f9ec5fab9ca352b90f883bdd
   Root Key:	07ff7f57a2eaa3728c60e2951e4cf879d6d58772a97dbc78fb15b7792aa7d232
@@ -615,7 +615,7 @@ Administrative keys for demisto/mlurlphishing:1.0.0.5736550
 * libxxhash0:amd64	0.8.1-1
 * libz3-4:amd64	4.8.12-3.1
 * libzstd1:amd64	1.5.4+dfsg2-5
-* linux-libc-dev:amd64	6.1.153-1
+* linux-libc-dev:amd64	6.1.158-1
 * login	1:4.13+dfsg1-1+deb12u1
 * logsave	1.47.2-3~bpo12+1
 * mawk	1.3.4.20200120-3.1
