@@ -1,9 +1,9 @@
-# `demisto/boto3py3:1.0.0.5983318`
+# `demisto/mcp:1.0.0.5982836`
 
 ## Docker Metadata
-- Image Size: 43.39 MB
-- Image ID: `sha256:401e000228edb3a1e246253b2b6e7e277f0f6acfec950e7402487e4be63f9db3`
-- Created: `2025-11-24T09:32:05.095777889Z`
+- Image Size: 41.32 MB
+- Image ID: `sha256:b88d5af872810bec1dc363629c5d327b555ca861ebacef2586e77f1e31a329e3`
+- Created: `2025-11-24T09:06:08.558290263Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.5983318`
+  - `DOCKER_IMAGE=demisto/mcp:1.0.0.5982836`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:a371e4dbd088c62ad62aa8ad5085e06c9568dd5d`
-  - `org.opencontainers.image.version:1.0.0.5983318`
+  - `org.opencontainers.image.revision:e5c5ca4ffa4293b72c6d75f08f874061d3101c10`
+  - `org.opencontainers.image.version:1.0.0.5982836`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,47 +29,63 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/boto3py3:1.0.0.5983318
+Signatures for demisto/mcp:1.0.0.5982836
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5983318   5201165a580a5425b85a5da83cfca49aff0966a854fcbceade707878b4431b14   (Repo Admin)
+1.0.0.5982836   850071d19792e8a3c2edcd7b27de07a4a50dab3124524430fec11b17107944eb   (Repo Admin)
 
-Administrative keys for demisto/boto3py3:1.0.0.5983318
+Administrative keys for demisto/mcp:1.0.0.5982836
 
-  Repository Key:	cfe86d8f6e0178e2a77477d651d16cfc814b6e47b04f1f04d94917fb248a1ae8
-  Root Key:	c4222af787cfc1a173f56c5eab482e5c4602eae4bb767431e17594c786c162f8
+  Repository Key:	33380d20e18cb2980bcdfa01f031d099d2db52b45122f978a80246c9ee48daab
+  Root Key:	e45106a7e5d7cc94d559856627cc933af59af78ae3e8d2e9f677904e5b94e13f
 
 ```
 
 ## `Python Packages`
 
 
-### `boto3`
+### `annotated-types`
 
-* Summary: The AWS SDK for Python
-* Version: 1.41.2
-* Pypi: https://pypi.org/project/boto3/
-* Homepage: https://github.com/boto/boto3
-* Author: Amazon Web Services
-* License: Apache-2.0
+* Summary: Reusable constraint types to use with typing.Annotated
+* Version: 0.7.0
+* Pypi: https://pypi.org/project/annotated-types/
+* Homepage: None
+* Author: Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Samuel Colvin <s@muelcolvin.com>, Zac Hatfield-Dodds <zac@zhd.dev>
+* License :: OSI Approved :: MIT License
 
-### `botocore`
+### `anyio`
 
-* Summary: Low-level, data-driven core of boto 3.
-* Version: 1.41.2
-* Pypi: https://pypi.org/project/botocore/
-* Homepage: https://github.com/boto/botocore
-* Author: Amazon Web Services
-* License: Apache-2.0
+* Summary: High-level concurrency and networking framework on top of asyncio or Trio
+* Version: 4.11.0
+* Pypi: https://pypi.org/project/anyio/
+* Homepage: None
+* Author: Alex Grönholm <alex.gronholm@nextday.fi>
+
+### `attrs`
+
+* Summary: Classes Without Boilerplate
+* Version: 25.4.0
+* Pypi: https://pypi.org/project/attrs/
+* Homepage: None
+* Author: Hynek Schlawack <hs@ox.cx>
+* License :: MIT License
 
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.8.3
+* Version: 2025.11.12
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+
+### `cffi`
+
+* Summary: Foreign Function Interface for Python calling C code.
+* Version: 2.0.0
+* Pypi: https://pypi.org/project/cffi/
+* Homepage: None
+* Author: Armin Rigo, Maciej Fijalkowski
 
 ### `charset-normalizer`
 
@@ -79,6 +95,22 @@ Administrative keys for demisto/boto3py3:1.0.0.5983318
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
 * License: MIT
+
+### `click`
+
+* Summary: Composable command line interface toolkit
+* Version: 8.3.1
+* Pypi: https://pypi.org/project/click/
+* Homepage: None
+* Author: None
+
+### `cryptography`
+
+* Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
+* Version: 46.0.3
+* Pypi: https://pypi.org/project/cryptography/
+* Homepage: None
+* Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
 
 ### `dateparser`
 
@@ -125,22 +157,73 @@ Administrative keys for demisto/boto3py3:1.0.0.5983318
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
+### `h11`
+
+* Summary: A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
+* Version: 0.16.0
+* Pypi: https://pypi.org/project/h11/
+* Homepage: https://github.com/python-hyper/h11
+* Author: Nathaniel J. Smith njs@pobox.com
+* License :: OSI Approved :: MIT License
+
+### `httpcore`
+
+* Summary: A minimal low-level HTTP client.
+* Version: 1.0.9
+* Pypi: https://pypi.org/project/httpcore/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+* License :: OSI Approved :: BSD License
+
+### `httpx`
+
+* Summary: The next generation HTTP client.
+* Version: 0.28.1
+* Pypi: https://pypi.org/project/httpx/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+* License :: OSI Approved :: BSD License
+
+### `httpx-sse`
+
+* Summary: Consume Server-Sent Event (SSE) messages with HTTPX.
+* Version: 0.4.3
+* Pypi: https://pypi.org/project/httpx-sse/
+* Homepage: None
+* Author: Florimond Manca <florimond.manca@protonmail.com>
+* License: MIT
+
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.11
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License: 
 
-### `jmespath`
+### `jsonschema`
 
-* Summary: JSON Matching Expressions
-* Version: 1.0.1
-* Pypi: https://pypi.org/project/jmespath/
-* Homepage: https://github.com/jmespath/jmespath.py
-* Author: James Saryerwinnie js@jamesls.com
+* Summary: An implementation of JSON Schema validation for Python
+* Version: 4.25.1
+* Pypi: https://pypi.org/project/jsonschema/
+* Homepage: None
+* Author: Julian Berman <Julian+jsonschema@GrayVines.com>
+
+### `jsonschema-specifications`
+
+* Summary: The JSON Schema meta-schemas and vocabularies, exposed as a Registry
+* Version: 2025.9.1
+* Pypi: https://pypi.org/project/jsonschema-specifications/
+* Homepage: None
+* Author: Julian Berman <Julian+jsonschema-specifications@GrayVines.com>
+
+### `mcp`
+
+* Summary: Model Context Protocol SDK
+* Version: 1.22.0
+* Pypi: https://pypi.org/project/mcp/
+* Homepage: None
+* Author: Anthropic, PBC.
 * License :: OSI Approved :: MIT License
 
 ### `more-itertools`
@@ -169,6 +252,49 @@ Administrative keys for demisto/boto3py3:1.0.0.5983318
 * Author: The pip developers <distutils-sig@python.org>
 * License: MIT
 
+### `pycparser`
+
+* Summary: C parser in Python
+* Version: 2.23
+* Pypi: https://pypi.org/project/pycparser/
+* Homepage: https://github.com/eliben/pycparser
+* Author: Eli Bendersky eliben@gmail.com
+* License :: OSI Approved :: BSD License
+
+### `pydantic`
+
+* Summary: Data validation using Python type hints
+* Version: 2.12.4
+* Pypi: https://pypi.org/project/pydantic/
+* Homepage: None
+* Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.io>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>, Douwe Maan <hi@douwe.me>
+
+### `pydantic_core`
+
+* Summary: Core functionality for Pydantic validation and serialization
+* Version: 2.41.5
+* Pypi: https://pypi.org/project/pydantic_core/
+* Homepage: https://github.com/pydantic/pydantic-core
+* Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
+
+### `pydantic-settings`
+
+* Summary: Settings management using Pydantic
+* Version: 2.12.0
+* Pypi: https://pypi.org/project/pydantic-settings/
+* Homepage: None
+* Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>
+* License :: OSI Approved :: MIT License
+
+### `PyJWT`
+
+* Summary: JSON Web Token implementation in Python
+* Version: 2.10.1
+* Pypi: https://pypi.org/project/PyJWT/
+* Homepage: None
+* Author: Jose Padilla <hello@jpadilla.com>
+* License :: OSI Approved :: MIT License
+
 ### `PySocks`
 
 * Summary: A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information.
@@ -188,6 +314,23 @@ Administrative keys for demisto/boto3py3:1.0.0.5983318
 * License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: BSD License
 
+### `python-dotenv`
+
+* Summary: Read key-value pairs from a .env file and set them as environment variables
+* Version: 1.2.1
+* Pypi: https://pypi.org/project/python-dotenv/
+* Homepage: None
+* Author: Saurabh Kumar <me+github@saurabh-kumar.com>
+
+### `python-multipart`
+
+* Summary: A streaming multipart parser for Python
+* Version: 0.0.20
+* Pypi: https://pypi.org/project/python-multipart/
+* Homepage: None
+* Author: Andrew Dunham <andrew@du.nham.ca>, Marcelo Trylesinski <marcelotryle@gmail.com>
+* License :: OSI Approved :: Apache Software License
+
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
@@ -205,6 +348,14 @@ Administrative keys for demisto/boto3py3:1.0.0.5983318
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net
 * License :: OSI Approved :: MIT License
+
+### `referencing`
+
+* Summary: JSON Referencing + Python
+* Version: 0.37.0
+* Pypi: https://pypi.org/project/referencing/
+* Homepage: None
+* Author: Julian Berman <Julian+referencing@GrayVines.com>
 
 ### `regex`
 
@@ -233,14 +384,13 @@ Administrative keys for demisto/boto3py3:1.0.0.5983318
 * Author: David Shea <reallylongword@gmail.com>
 * License :: OSI Approved :: Apache Software License
 
-### `s3transfer`
+### `rpds-py`
 
-* Summary: An Amazon S3 Transfer Manager
-* Version: 0.15.0
-* Pypi: https://pypi.org/project/s3transfer/
-* Homepage: https://github.com/boto/s3transfer
-* Author: Amazon Web Services kyknapp1@gmail.com
-* License :: OSI Approved :: Apache Software License
+* Summary: Python bindings to Rust's persistent data structures (rpds)
+* Version: 0.29.0
+* Pypi: https://pypi.org/project/rpds-py/
+* Homepage: None
+* Author: Julian Berman <Julian+rpds@GrayVines.com>
 
 ### `setuptools`
 
@@ -259,6 +409,32 @@ Administrative keys for demisto/boto3py3:1.0.0.5983318
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
+### `sniffio`
+
+* Summary: Sniff out which async library your code is running under
+* Version: 1.3.1
+* Pypi: https://pypi.org/project/sniffio/
+* Homepage: 
+* Author: "Nathaniel J. Smith" <njs@pobox.com>
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: MIT License
+
+### `sse-starlette`
+
+* Summary: SSE plugin for Starlette
+* Version: 3.0.3
+* Pypi: https://pypi.org/project/sse-starlette/
+* Homepage: None
+* Author: sysid <sysid@gmx.de>
+
+### `starlette`
+
+* Summary: The little ASGI library that shines.
+* Version: 0.50.0
+* Pypi: https://pypi.org/project/starlette/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
@@ -267,6 +443,22 @@ Administrative keys for demisto/boto3py3:1.0.0.5983318
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
 * License :: OSI Approved :: BSD License
+
+### `typing_extensions`
+
+* Summary: Backported and Experimental Type Hints for Python 3.9+
+* Version: 4.15.0
+* Pypi: https://pypi.org/project/typing-extensions/
+* Homepage: None
+* Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
+
+### `typing-inspection`
+
+* Summary: Runtime typing introspection tools
+* Version: 0.4.2
+* Pypi: https://pypi.org/project/typing-inspection/
+* Homepage: None
+* Author: Victorien Plot <contact@vctrn.dev>
 
 ### `tzlocal`
 
@@ -284,6 +476,14 @@ Administrative keys for demisto/boto3py3:1.0.0.5983318
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
+
+### `uvicorn`
+
+* Summary: The lightning-fast ASGI server.
+* Version: 0.38.0
+* Pypi: https://pypi.org/project/uvicorn/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
 
 ## `OS Packages`
 
