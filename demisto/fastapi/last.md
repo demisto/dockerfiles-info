@@ -1,9 +1,9 @@
-# `demisto/fastapi:0.121.3.5944678`
+# `demisto/fastapi:0.122.0.6007016`
 
 ## Docker Metadata
-- Image Size: 155.44 MB
-- Image ID: `sha256:f932d68ab1701a3405d5e3a9114292d94f7a9e0dec410e633a5648f5af5b0914`
-- Created: `2025-11-20T14:22:50.170611905Z`
+- Image Size: 155.94 MB
+- Image ID: `sha256:75eeb73615942e7a04dab996d3f2dddc23582c62f1e9d88b28411076140b0d5d`
+- Created: `2025-11-25T14:22:33.993408364Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/fastapi:0.121.3.5944678`
+  - `DOCKER_IMAGE=demisto/fastapi:0.122.0.6007016`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3cbf9bb975ef8f245925c61d8214633ba9532dec`
-  - `org.opencontainers.image.version:0.121.3.5944678`
+  - `org.opencontainers.image.revision:bbe6b30328d43bdf4b760b725f9a96a2a3801a24`
+  - `org.opencontainers.image.version:0.122.0.6007016`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/fastapi:0.121.3.5944678
+Signatures for demisto/fastapi:0.122.0.6007016
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-0.121.3.5944678   835e6015f2548eab8f2027b801b031785c43a1ddd8ccb8f9d81564136fed1d1d   (Repo Admin)
+0.122.0.6007016   5c3338c5b07f55a148c2d34e9e3ff7fadd0798b3e436dad69afe5106e542ee58   (Repo Admin)
 
-Administrative keys for demisto/fastapi:0.121.3.5944678
+Administrative keys for demisto/fastapi:0.122.0.6007016
 
   Repository Key:	0271ad1efe39b86e62ae7b94055f6a242fcc87508e09e3e3642e5b835eec0955
   Root Key:	5e03c5b300f950846c7027ad151ca45f71a4a03330a1805f070015d4aee41282
@@ -116,7 +116,7 @@ Administrative keys for demisto/fastapi:0.121.3.5944678
 ### `fastapi`
 
 * Summary: FastAPI framework, high performance, easy to learn, fast to code, ready for production
-* Version: 0.121.3
+* Version: 0.122.0
 * Pypi: https://pypi.org/project/fastapi/
 * Homepage: None
 * Author: =?utf-8?q?Sebasti=C3=A1n_Ram=C3=ADrez?= <tiangolo@gmail.com>
@@ -385,8 +385,8 @@ Administrative keys for demisto/fastapi:0.121.3.5944678
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
 * alpine-release-3.22.2-r0 x86_64 {alpine-base}
 * apk-tools-2.14.9-r3 x86_64 {apk-tools}
-* busybox-1.37.0-r19 x86_64 {busybox}
-* busybox-binsh-1.37.0-r19 x86_64 {busybox}
+* busybox-1.37.0-r20 x86_64 {busybox}
+* busybox-binsh-1.37.0-r20 x86_64 {busybox}
 * ca-certificates-20250911-r0 x86_64 {ca-certificates}
 * ca-certificates-bundle-20250911-r0 x86_64 {ca-certificates}
 * gdbm-1.24-r0 x86_64 {gdbm}
@@ -416,7 +416,7 @@ Administrative keys for demisto/fastapi:0.121.3.5944678
 * readline-8.2.13-r1 x86_64 {readline}
 * scanelf-1.3.8-r1 x86_64 {pax-utils}
 * sqlite-libs-3.49.2-r1 x86_64 {sqlite}
-* ssl_client-1.37.0-r19 x86_64 {busybox}
+* ssl_client-1.37.0-r20 x86_64 {busybox}
 * swig-4.3.0-r1 x86_64 {swig}
 * tzdata-2025b-r0 x86_64 {tzdata}
 * xz-libs-5.8.1-r0 x86_64 {xz}

@@ -1,27 +1,27 @@
-# `demisto/pymisp2:2.5.17.2.5085941`
+# `demisto/pymisp2:2.5.17.3.6007072`
 
 ## Docker Metadata
-- Image Size: 46.26 MB
-- Image ID: `sha256:08ebbbdaa59c7c771d1428cddb61dbc61f2bbef6748af33ec5976c9dc5d13772`
-- Created: `2025-09-25T14:24:07.668977033Z`
+- Image Size: 43.16 MB
+- Image ID: `sha256:8aa94ba8a829ba47304c1dbda9ca254941cad216b46b66a7d32970ea230f08dd`
+- Created: `2025-11-25T14:27:45.268508187Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.11`
-  - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/pymisp2:2.5.17.2.5085941`
+  - `PYTHON_VERSION=3.12.12`
+  - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
+  - `DOCKER_IMAGE=demisto/pymisp2:2.5.17.3.6007072`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:e285155c835522863d4069c0e2cab1af482b3757`
-  - `org.opencontainers.image.version:2.5.17.2.5085941`
+  - `org.opencontainers.image.revision:f8631698cf8f1a9af09ac3c88ddaf522876977db`
+  - `org.opencontainers.image.version:2.5.17.3.6007072`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.22.1`
+  - `VERSION_ID=3.22.2`
   - `PRETTY_NAME="Alpine Linux v3.22"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pymisp2:2.5.17.2.5085941
+Signatures for demisto/pymisp2:2.5.17.3.6007072
 
 SIGNED TAG         DIGEST                                                             SIGNERS
-2.5.17.2.5085941   917c386e7005a752113439f38a766a7c2635228bf8c3442637c63fddbeaf8489   (Repo Admin)
+2.5.17.3.6007072   b6c41bc013ed9e5ac44c555bf745825ef9db3707a80c43ecfd3a1cc7f915e1f8   (Repo Admin)
 
-Administrative keys for demisto/pymisp2:2.5.17.2.5085941
+Administrative keys for demisto/pymisp2:2.5.17.3.6007072
 
   Repository Key:	09ebfde17c018d76be98417c3488d04725c1df92e6ce8f476cc60d3c4c25a1c0
   Root Key:	666b28cbde1c31c51d6bdfbbffa40a304c13a07abd31eac34b7442ce7df9eca4
@@ -137,7 +137,7 @@ Administrative keys for demisto/pymisp2:2.5.17.2.5085941
 ### `Deprecated`
 
 * Summary: Python @deprecated decorator to deprecate old python classes, functions or methods.
-* Version: 1.2.18
+* Version: 1.3.1
 * Pypi: https://pypi.org/project/Deprecated/
 * Homepage: https://github.com/laurent-laporte-pro/deprecated
 * Author: Laurent LAPORTE laurent.laporte.pro@gmail.com
@@ -186,7 +186,7 @@ Administrative keys for demisto/pymisp2:2.5.17.2.5085941
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License :: OSI Approved :: BSD License
+* License: 
 
 ### `lark`
 
@@ -235,7 +235,7 @@ Administrative keys for demisto/pymisp2:2.5.17.2.5085941
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.2
+* Version: 25.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -252,7 +252,7 @@ Administrative keys for demisto/pymisp2:2.5.17.2.5085941
 ### `pymisp`
 
 * Summary: Python API for MISP.
-* Version: 2.5.17.2
+* Version: 2.5.17.3
 * Pypi: https://pypi.org/project/pymisp/
 * Homepage: None
 * Author: Raphaël Vinot raphael.vinot@circl.lu
@@ -297,7 +297,7 @@ Administrative keys for demisto/pymisp2:2.5.17.2.5085941
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
-* Version: 6.0.2
+* Version: 6.0.3
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net
@@ -406,21 +406,21 @@ Administrative keys for demisto/pymisp2:2.5.17.2.5085941
 * Version: 1.17.2
 * Pypi: https://pypi.org/project/wrapt/
 * Homepage: https://github.com/GrahamDumpleton/wrapt
-* Author: Graham Dumpleton Graham.Dumpleton@gmail.com
-* License :: OSI Approved :: BSD License
+* Author: Graham Dumpleton Graham Dumpleton <Graham.Dumpleton@gmail.com>
+* License: BSD
 
 ## `OS Packages`
 
-* .python-rundeps-20250812.224446 noarch {.python-rundeps}
+* .python-rundeps-20251009.223815 noarch {.python-rundeps}
 * alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.22.1-r0 x86_64 {alpine-base}
+* alpine-release-3.22.2-r0 x86_64 {alpine-base}
 * apk-tools-2.14.9-r3 x86_64 {apk-tools}
 * busybox-1.37.0-r19 x86_64 {busybox}
 * busybox-binsh-1.37.0-r19 x86_64 {busybox}
-* ca-certificates-20250619-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20250619-r0 x86_64 {ca-certificates}
+* ca-certificates-20250911-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20250911-r0 x86_64 {ca-certificates}
 * gdbm-1.24-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
@@ -428,13 +428,13 @@ Administrative keys for demisto/pymisp2:2.5.17.2.5085941
 * libapk2-2.14.9-r3 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.2-r2 x86_64 {e2fsprogs}
-* libcrypto3-3.5.2-r0 x86_64 {openssl}
+* libcrypto3-3.5.4-r0 x86_64 {openssl}
 * libffi-3.4.8-r0 x86_64 {libffi}
 * libintl-0.24.1-r0 x86_64 {gettext}
 * libncursesw-6.5_p20250503-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
 * libpanelw-6.5_p20250503-r0 x86_64 {ncurses}
-* libssl3-3.5.2-r0 x86_64 {openssl}
+* libssl3-3.5.4-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
 * libuuid-2.41-r9 x86_64 {util-linux}
