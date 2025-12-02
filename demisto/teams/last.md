@@ -1,9 +1,9 @@
-# `demisto/teams:1.0.0.4835986`
+# `demisto/teams:1.0.0.6091526`
 
 ## Docker Metadata
-- Image Size: 55.79 MB
-- Image ID: `sha256:90561a21406ad3a2e6fe3fdf82cf0aad2bb8d6e6b1d5c9c059d378b1b7429317`
-- Created: `2025-09-10T13:12:00.985183541Z`
+- Image Size: 56.61 MB
+- Image ID: `sha256:90171cf0c5d7cc31c80f6f8541168478de48254f0f81015d9218f69b39358198`
+- Created: `2025-12-02T05:00:28.793739027Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/teams:1.0.0.4835986`
+  - `DOCKER_IMAGE=demisto/teams:1.0.0.6091526`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:77ce80e948c2d3c41ce8cebc5a3e99b75b54c704`
-  - `org.opencontainers.image.version:1.0.0.4835986`
+  - `org.opencontainers.image.revision:52864c0d6f7589012687ee345226c9005ba5c230`
+  - `org.opencontainers.image.version:1.0.0.6091526`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/teams:1.0.0.4835986
+Signatures for demisto/teams:1.0.0.6091526
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4835986   d2f92a2401c0ea8c480dab6b32465c6d2f0b4c7bf9622a78a73921eeb53871f9   (Repo Admin)
+1.0.0.6091526   c85835a59aab22a589e5250bca646950dd2c50af36a12b15133d2592bcc6ce03   (Repo Admin)
 
-Administrative keys for demisto/teams:1.0.0.4835986
+Administrative keys for demisto/teams:1.0.0.6091526
 
   Repository Key:	b2887129b50f5a1b5836d11a274fe06aacb9538dbf9c9414e50f3a80e882457d
   Root Key:	c46423baa7a81cc607a4aaf966f67d987d95440212144e8845a433e291cf7eb9
@@ -47,7 +47,7 @@ Administrative keys for demisto/teams:1.0.0.4835986
 ### `beautifulsoup4`
 
 * Summary: Screen-scraping library
-* Version: 4.13.4
+* Version: 4.13.5
 * Pypi: https://pypi.org/project/beautifulsoup4/
 * Homepage: None
 * Author: Leonard Richardson <leonardr@segfault.org>
@@ -108,11 +108,10 @@ Administrative keys for demisto/teams:1.0.0.4835986
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 45.0.7
+* Version: 46.0.1
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
-* Author: The cryptography developers <cryptography-dev@python.org> The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
-* License: Apache-2.0 OR BSD-3-Clause
+* Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
 
 ### `dateparser`
 
@@ -170,7 +169,7 @@ Administrative keys for demisto/teams:1.0.0.4835986
 ### `gevent`
 
 * Summary: Coroutine-based network library
-* Version: 25.8.2
+* Version: 25.9.1
 * Pypi: https://pypi.org/project/gevent/
 * Homepage: http://www.gevent.org/
 * Author: Denis Bilenko denis.bilenko@gmail.com
@@ -192,7 +191,7 @@ Administrative keys for demisto/teams:1.0.0.4835986
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License :: OSI Approved :: BSD License
+* License: 
 
 ### `itsdangerous`
 
@@ -215,11 +214,10 @@ Administrative keys for demisto/teams:1.0.0.4835986
 ### `MarkupSafe`
 
 * Summary: Safely add untrusted strings to HTML/XML markup.
-* Version: 3.0.2
+* Version: 3.0.3
 * Pypi: https://pypi.org/project/MarkupSafe/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: BSD License
 
 ### `more-itertools`
 
@@ -259,7 +257,7 @@ Administrative keys for demisto/teams:1.0.0.4835986
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.2
+* Version: 25.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -267,7 +265,7 @@ Administrative keys for demisto/teams:1.0.0.4835986
 ### `pycparser`
 
 * Summary: C parser in Python
-* Version: 2.22
+* Version: 2.23
 * Pypi: https://pypi.org/project/pycparser/
 * Homepage: https://github.com/eliben/pycparser
 * Author: Eli Bendersky eliben@gmail.com
@@ -295,7 +293,7 @@ Administrative keys for demisto/teams:1.0.0.4835986
 ### `pyOpenSSL`
 
 * Summary: Python wrapper module around the OpenSSL library
-* Version: 25.1.0
+* Version: 25.3.0
 * Pypi: https://pypi.org/project/pyOpenSSL/
 * Homepage: https://pyopenssl.org/
 * Author: The pyOpenSSL developers cryptography-dev@python.org
@@ -394,7 +392,7 @@ Administrative keys for demisto/teams:1.0.0.4835986
 ### `soupsieve`
 
 * Summary: A modern CSS selector implementation for Beautiful Soup.
-* Version: 2.7
+* Version: 2.8
 * Pypi: https://pypi.org/project/soupsieve/
 * Homepage: None
 * Author: Isaac Muse <Isaac.Muse@gmail.com>
@@ -412,7 +410,7 @@ Administrative keys for demisto/teams:1.0.0.4835986
 ### `typing_extensions`
 
 * Summary: Backported and Experimental Type Hints for Python 3.9+
-* Version: 4.14.1
+* Version: 4.15.0
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
@@ -437,25 +435,24 @@ Administrative keys for demisto/teams:1.0.0.4835986
 ### `Werkzeug`
 
 * Summary: The comprehensive WSGI web application library.
-* Version: 3.1.3
+* Version: 3.1.4
 * Pypi: https://pypi.org/project/Werkzeug/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: BSD License
 
 ### `zope.event`
 
 * Summary: Very basic event publishing system
-* Version: 5.1.1
+* Version: 6.0
 * Pypi: https://pypi.org/project/zope.event/
 * Homepage: https://github.com/zopefoundation/zope.event
 * Author: Zope Foundation and Contributors zope-dev@zope.dev
-* License :: OSI Approved :: Zope Public License
+* License: ZPL-2.1
 
 ### `zope.interface`
 
 * Summary: Interfaces for Python
-* Version: 7.2
+* Version: 8.0
 * Pypi: https://pypi.org/project/zope.interface/
 * Homepage: https://github.com/zopefoundation/zope.interface
 * Author: Zope Foundation and Contributors zope-dev@zope.dev
@@ -480,13 +477,13 @@ Administrative keys for demisto/teams:1.0.0.4835986
 * libapk2-2.14.9-r3 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.2-r2 x86_64 {e2fsprogs}
-* libcrypto3-3.5.2-r0 x86_64 {openssl}
+* libcrypto3-3.5.4-r0 x86_64 {openssl}
 * libffi-3.4.8-r0 x86_64 {libffi}
 * libintl-0.24.1-r0 x86_64 {gettext}
 * libncursesw-6.5_p20250503-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
 * libpanelw-6.5_p20250503-r0 x86_64 {ncurses}
-* libssl3-3.5.2-r0 x86_64 {openssl}
+* libssl3-3.5.4-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r0 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
 * libuuid-2.41-r9 x86_64 {util-linux}
