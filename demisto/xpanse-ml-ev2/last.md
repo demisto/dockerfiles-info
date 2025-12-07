@@ -1,9 +1,9 @@
-# `demisto/xpanse-ml-ev2:1.0.0.5898550`
+# `demisto/xpanse-ml-ev2:1.0.0.6159595`
 
 ## Docker Metadata
-- Image Size: 171.55 MB
-- Image ID: `sha256:591d3a7839f771297a69ddf759880f2455baf25323d239493d705b1f976726ad`
-- Created: `2025-11-17T14:36:11.40213809Z`
+- Image Size: 171.85 MB
+- Image ID: `sha256:85ff971454b90bec5d94aef4cd949db3e476c9e24883262583c837e300a14707`
+- Created: `2025-12-06T01:48:12.412252444Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.5898550`
+  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.6159595`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b946f3b7c72832fd69b40c807e62d7a5168d6a7a`
-  - `org.opencontainers.image.version:1.0.0.5898550`
+  - `org.opencontainers.image.revision:a8c3a4f4e1f5159ca35208f05cb369023ed4a6a6`
+  - `org.opencontainers.image.version:1.0.0.6159595`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/xpanse-ml-ev2:1.0.0.5898550
+Signatures for demisto/xpanse-ml-ev2:1.0.0.6159595
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5898550   eb745277e3044c9b35ab771c75c04204cfb0fc142ee47434364623471d188950   (Repo Admin)
+1.0.0.6159595   a7b9cf353c79eeaad81c5f57d78161218e69a77515e92514792ce05a7ce7a1bd   (Repo Admin)
 
-Administrative keys for demisto/xpanse-ml-ev2:1.0.0.5898550
+Administrative keys for demisto/xpanse-ml-ev2:1.0.0.6159595
 
   Repository Key:	fa55b8182edbcafca39872dc58748778b2ff80634214e1872a9351313e618c45
   Root Key:	4324e3baaaa90dedc0be93f30c2271fb7bbaa8de8949e6c3996a45c6e81637d2
@@ -425,7 +425,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.5898550
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.5.0
+* Version: 2.6.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>

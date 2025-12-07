@@ -1,9 +1,9 @@
-# `demisto/tidy:1.0.0.5973718`
+# `demisto/tidy:1.0.0.6159611`
 
 ## Docker Metadata
-- Image Size: 131.68 MB
-- Image ID: `sha256:f989fbcc7e1fce2149c413a8a9afa61d81062bf2c048f3e430a68b3c2583b89a`
-- Created: `2025-11-23T14:41:27.538706807Z`
+- Image Size: 131.98 MB
+- Image ID: `sha256:af615d9f99a8b772806ed8adb46a76231b1c9c5c53f6154ad895a137ea624e37`
+- Created: `2025-12-06T01:52:28.968730438Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/tidy:1.0.0.5973718`
+  - `DOCKER_IMAGE=demisto/tidy:1.0.0.6159611`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:395b863de7bad0dd73d266b90c2fd257b71f0218`
-  - `org.opencontainers.image.version:1.0.0.5973718`
+  - `org.opencontainers.image.revision:dc670ae12c665d384ff8cab3e4b36622387f775d`
+  - `org.opencontainers.image.version:1.0.0.6159611`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/tidy:1.0.0.5973718
+Signatures for demisto/tidy:1.0.0.6159611
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5973718   795d3779b2893ddd6612bfef6dc98b6a9762823f32b545bdfa3fff8f029029d4   (Repo Admin)
+1.0.0.6159611   3c4d56d8493222f2f7066deba5690397e4f41637e4ffaf3c84412480ab3e2b17   (Repo Admin)
 
-Administrative keys for demisto/tidy:1.0.0.5973718
+Administrative keys for demisto/tidy:1.0.0.6159611
 
   Repository Key:	5f17b9d56ce23d820632c3aab69771c41c29b4a5ff9dfe8cbea5e4ca7cc9857b
   Root Key:	35b6195205c264962e7a1726995d97d4c9f7d85c8a9c9909105016d7f930b79e
@@ -493,7 +493,7 @@ Administrative keys for demisto/tidy:1.0.0.5973718
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.5.0
+* Version: 2.6.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -544,9 +544,9 @@ Administrative keys for demisto/tidy:1.0.0.5973718
 * musl-1.2.5-r10 x86_64 {musl}
 * musl-utils-1.2.5-r10 x86_64 {musl}
 * ncurses-terminfo-base-6.5_p20250503-r0 x86_64 {ncurses}
-* openssh-client-common-10.0_p1-r9 x86_64 {openssh}
-* openssh-client-default-10.0_p1-r9 x86_64 {openssh}
-* openssh-keygen-10.0_p1-r9 x86_64 {openssh}
+* openssh-client-common-10.0_p1-r10 x86_64 {openssh}
+* openssh-client-default-10.0_p1-r10 x86_64 {openssh}
+* openssh-keygen-10.0_p1-r10 x86_64 {openssh}
 * openssl-3.5.4-r0 x86_64 {openssl}
 * popt-1.19-r4 x86_64 {popt}
 * readline-8.2.13-r1 x86_64 {readline}

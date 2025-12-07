@@ -1,22 +1,22 @@
-# `demisto/snowflake:1.0.0.5342067`
+# `demisto/snowflake:1.0.0.6159791`
 
 ## Docker Metadata
-- Image Size: 80.39 MB
-- Image ID: `sha256:7807c0bf1f11f7d9f3f2e58ee870fc800f92d35097ac1f4650b7f3078f22d5a9`
-- Created: `2025-10-12T08:07:52.796632007Z`
+- Image Size: 81.53 MB
+- Image ID: `sha256:3d0bed889b9281df7821f21e3952bfaa30f6132e20b9a3e9bff0263624d95430`
+- Created: `2025-12-06T02:32:10.660135513Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.11`
-  - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/snowflake:1.0.0.5342067`
+  - `PYTHON_VERSION=3.12.12`
+  - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
+  - `DOCKER_IMAGE=demisto/snowflake:1.0.0.6159791`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:aba99526a25be94240f3caec6d20fbf0c16221e9`
-  - `org.opencontainers.image.version:1.0.0.5342067`
+  - `org.opencontainers.image.revision:e6aa42da29118ebabe86cf8280f1d6a8e1e549b3`
+  - `org.opencontainers.image.version:1.0.0.6159791`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/snowflake:1.0.0.5342067
+Signatures for demisto/snowflake:1.0.0.6159791
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5342067   bfe974751da0fb26f860f2733b96ee353b65467740d369014eee03465557d975   (Repo Admin)
+1.0.0.6159791   c1eef6a1181e997ace69330e86dea3951efb6f59ec76c723db406d81b6b78b54   (Repo Admin)
 
-Administrative keys for demisto/snowflake:1.0.0.5342067
+Administrative keys for demisto/snowflake:1.0.0.6159791
 
   Repository Key:	e5af6c8f1edf3b7b609ca6e966b4b02cda62a847f7886ade144fdd863264d2dc
   Root Key:	62fa4117d95ea03c7a2357871e30ec66d7a624e3b931de015922a0c52d289cac
@@ -59,25 +59,25 @@ Administrative keys for demisto/snowflake:1.0.0.5342067
 ### `boto3`
 
 * Summary: The AWS SDK for Python
-* Version: 1.40.48
+* Version: 1.42.1
 * Pypi: https://pypi.org/project/boto3/
 * Homepage: https://github.com/boto/boto3
 * Author: Amazon Web Services
-* License :: OSI Approved :: Apache Software License
+* License: Apache-2.0
 
 ### `botocore`
 
 * Summary: Low-level, data-driven core of boto 3.
-* Version: 1.40.48
+* Version: 1.42.1
 * Pypi: https://pypi.org/project/botocore/
 * Homepage: https://github.com/boto/botocore
 * Author: Amazon Web Services
-* License :: OSI Approved :: Apache Software License
+* License: Apache-2.0
 
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.10.5
+* Version: 2025.11.12
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -94,7 +94,7 @@ Administrative keys for demisto/snowflake:1.0.0.5342067
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.3
+* Version: 3.4.4
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -103,7 +103,7 @@ Administrative keys for demisto/snowflake:1.0.0.5342067
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 46.0.2
+* Version: 46.0.3
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -147,11 +147,10 @@ Administrative keys for demisto/snowflake:1.0.0.5342067
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.11
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License: 
 
 ### `jmespath`
 
@@ -192,7 +191,7 @@ Administrative keys for demisto/snowflake:1.0.0.5342067
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.2
+* Version: 25.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -301,7 +300,7 @@ Administrative keys for demisto/snowflake:1.0.0.5342067
 ### `s3transfer`
 
 * Summary: An Amazon S3 Transfer Manager
-* Version: 0.14.0
+* Version: 0.16.0
 * Pypi: https://pypi.org/project/s3transfer/
 * Homepage: https://github.com/boto/s3transfer
 * Author: Amazon Web Services kyknapp1@gmail.com
@@ -327,7 +326,7 @@ Administrative keys for demisto/snowflake:1.0.0.5342067
 ### `snowflake-connector-python`
 
 * Summary: Snowflake Connector for Python
-* Version: 4.0.0
+* Version: 4.1.1
 * Pypi: https://pypi.org/project/snowflake-connector-python/
 * Homepage: https://www.snowflake.com/
 * Author: Snowflake, Inc snowflake-python-libraries-dl@snowflake.com
@@ -380,7 +379,7 @@ Administrative keys for demisto/snowflake:1.0.0.5342067
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.5.0
+* Version: 2.6.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -462,7 +461,7 @@ Administrative keys for demisto/snowflake:1.0.0.5342067
 * libsmartcols1:amd64	2.38.1-5+deb12u3
 * libsqlite3-0:amd64	3.40.1-2+deb12u2
 * libss2:amd64	1.47.2-3~bpo12+1
-* libssl3:amd64	3.0.17-1~deb12u2
+* libssl3:amd64	3.0.17-1~deb12u3
 * libstdc++6:amd64	12.2.0-14+deb12u1
 * libsystemd0:amd64	254.26-1~bpo12+1
 * libtasn1-6:amd64	4.19.0-2+deb12u1
@@ -481,7 +480,7 @@ Administrative keys for demisto/snowflake:1.0.0.5342067
 * ncurses-base	6.4-4
 * ncurses-bin	6.4-4
 * netbase	6.4
-* openssl	3.0.17-1~deb12u2
+* openssl	3.0.17-1~deb12u3
 * passwd	1:4.13+dfsg1-1+deb12u1
 * perl-base	5.36.0-7+deb12u3
 * procps	2:4.0.2-3

@@ -1,9 +1,9 @@
-# `demisto/xsoar-tools:1.0.0.6023010`
+# `demisto/xsoar-tools:1.0.0.6153189`
 
 ## Docker Metadata
-- Image Size: 121.67 MB
-- Image ID: `sha256:2d01f0f5d8df19728485507d8d9e3bc5d79e9e1155558e0253bda4f90f78d9c6`
-- Created: `2025-11-26T13:06:34.008298099Z`
+- Image Size: 121.97 MB
+- Image ID: `sha256:8e303c981345030f2aad3e6b6e77f44c0099122519c440e7f05fb1326a8f92b4`
+- Created: `2025-12-05T05:23:40.649679757Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,31 +12,31 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/xsoar-tools:1.0.0.6023010`
+  - `DOCKER_IMAGE=demisto/xsoar-tools:1.0.0.6153189`
   - `DEMISTO_SDK_IGNORE_CONTENT_WARNING=true`
   - `DEMISTO_SDK_SKIP_LOGGER_SETUP=true`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:728e3415dfb18ddcca4b36a2a35ad89fd02f3b58`
-  - `org.opencontainers.image.version:1.0.0.6023010`
+  - `org.opencontainers.image.revision:a8440d9abed36878c297b5113ba14b346c1f25a9`
+  - `org.opencontainers.image.version:1.0.0.6153189`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.22.2`
-  - `PRETTY_NAME="Alpine Linux v3.22"`
+  - `VERSION_ID=3.23.0`
+  - `PRETTY_NAME="Alpine Linux v3.23"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/xsoar-tools:1.0.0.6023010
+Signatures for demisto/xsoar-tools:1.0.0.6153189
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6023010   342ce7cf919b0bb01ea559d38ffc6995c7ee1ba77e9651f66ec167f7c0c4bc4f   (Repo Admin)
+1.0.0.6153189   233b084f3a791c38d32ebd616a38d2ec878da9e30c631c0a36a63f444651b410   (Repo Admin)
 
-Administrative keys for demisto/xsoar-tools:1.0.0.6023010
+Administrative keys for demisto/xsoar-tools:1.0.0.6153189
 
   Repository Key:	cf22d1c7d99eaa36ee3a4c4e143589874b21f83068fff42ce971ffaa44c737b6
   Root Key:	83b859e2320bd9a76afcab59964970ff8ba4b4719fa697c8c032e27151f016e6
@@ -962,7 +962,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.6023010
 * Pypi: https://pypi.org/project/pyspellchecker/
 * Homepage: None
 * Author: Tyler Barrus <barrust@gmail.com>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `pytest`
 
@@ -1324,11 +1324,10 @@ Administrative keys for demisto/xsoar-tools:1.0.0.6023010
 ### `Werkzeug`
 
 * Summary: The comprehensive WSGI web application library.
-* Version: 3.1.3
+* Version: 3.1.4
 * Pypi: https://pypi.org/project/Werkzeug/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: BSD License
 
 ### `yamlordereddictloader`
 
@@ -1341,56 +1340,57 @@ Administrative keys for demisto/xsoar-tools:1.0.0.6023010
 
 ## `OS Packages`
 
-* .python-rundeps-20251009.223815 noarch {.python-rundeps}
-* alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
-* alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.22.2-r0 x86_64 {alpine-base}
-* apk-tools-2.14.9-r3 x86_64 {apk-tools}
-* brotli-libs-1.1.0-r2 x86_64 {brotli}
-* busybox-1.37.0-r19 x86_64 {busybox}
-* busybox-binsh-1.37.0-r19 x86_64 {busybox}
+* .python-rundeps-20251204.004031 noarch {.python-rundeps}
+* alpine-baselayout-3.7.1-r8 x86_64 {alpine-baselayout}
+* alpine-baselayout-data-3.7.1-r8 x86_64 {alpine-baselayout}
+* alpine-keys-2.6-r0 x86_64 {alpine-keys}
+* alpine-release-3.23.0-r0 x86_64 {alpine-base}
+* apk-tools-3.0.1-r1 x86_64 {apk-tools}
+* brotli-libs-1.2.0-r0 x86_64 {brotli}
+* busybox-1.37.0-r29 x86_64 {busybox}
+* busybox-binsh-1.37.0-r29 x86_64 {busybox}
 * c-ares-1.34.5-r0 x86_64 {c-ares}
-* ca-certificates-20250911-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20250911-r0 x86_64 {ca-certificates}
-* gdbm-1.24-r0 x86_64 {gdbm}
-* git-2.49.1-r0 x86_64 {git}
-* git-init-template-2.49.1-r0 x86_64 {git}
+* ca-certificates-20251003-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20251003-r0 x86_64 {ca-certificates}
+* gdbm-1.26-r0 x86_64 {gdbm}
+* git-2.52.0-r0 x86_64 {git}
+* git-init-template-2.52.0-r0 x86_64 {git}
 * grep-3.12-r0 x86_64 {grep}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.21.3-r0 x86_64 {krb5}
-* libapk2-2.14.9-r3 x86_64 {apk-tools}
+* krb5-libs-1.22.1-r0 x86_64 {krb5}
+* libapk-3.0.1-r1 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
-* libcom_err-1.47.2-r2 x86_64 {e2fsprogs}
+* libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.4-r0 x86_64 {openssl}
-* libcurl-8.14.1-r2 x86_64 {curl}
+* libcurl-8.17.0-r1 x86_64 {curl}
 * libexpat-2.7.3-r0 x86_64 {expat}
-* libffi-3.4.8-r0 x86_64 {libffi}
-* libgcc-14.2.0-r6 x86_64 {gcc}
-* libidn2-2.3.7-r0 x86_64 {libidn2}
-* libintl-0.24.1-r0 x86_64 {gettext}
-* libncursesw-6.5_p20250503-r0 x86_64 {ncurses}
+* libffi-3.5.2-r0 x86_64 {libffi}
+* libgcc-15.2.0-r2 x86_64 {gcc}
+* libidn2-2.3.8-r0 x86_64 {libidn2}
+* libintl-0.24.1-r1 x86_64 {gettext}
+* libncursesw-6.5_p20251123-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
-* libpanelw-6.5_p20250503-r0 x86_64 {ncurses}
+* libpanelw-6.5_p20251123-r0 x86_64 {ncurses}
 * libpsl-0.21.5-r3 x86_64 {libpsl}
 * libssl3-3.5.4-r0 x86_64 {openssl}
-* libstdc++-14.2.0-r6 x86_64 {gcc}
-* libtirpc-1.3.5-r0 x86_64 {libtirpc}
-* libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
-* libunistring-1.3-r0 x86_64 {libunistring}
-* libuuid-2.41-r9 x86_64 {util-linux}
+* libstdc++-15.2.0-r2 x86_64 {gcc}
+* libtirpc-1.3.5-r1 x86_64 {libtirpc}
+* libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
+* libunistring-1.4.1-r0 x86_64 {libunistring}
+* libuuid-2.41.2-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.5-r10 x86_64 {musl}
-* musl-utils-1.2.5-r10 x86_64 {musl}
-* ncurses-terminfo-base-6.5_p20250503-r0 x86_64 {ncurses}
-* nghttp2-libs-1.65.0-r0 x86_64 {nghttp2}
-* pcre2-10.46-r0 x86_64 {pcre2}
-* readline-8.2.13-r1 x86_64 {readline}
-* scanelf-1.3.8-r1 x86_64 {pax-utils}
-* sqlite-libs-3.49.2-r1 x86_64 {sqlite}
-* ssl_client-1.37.0-r19 x86_64 {busybox}
+* musl-1.2.5-r21 x86_64 {musl}
+* musl-utils-1.2.5-r21 x86_64 {musl}
+* ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
+* nghttp2-libs-1.68.0-r0 x86_64 {nghttp2}
+* nghttp3-1.13.1-r0 x86_64 {nghttp3}
+* pcre2-10.47-r0 x86_64 {pcre2}
+* readline-8.3.1-r0 x86_64 {readline}
+* scanelf-1.3.8-r2 x86_64 {pax-utils}
+* sqlite-libs-3.51.1-r0 x86_64 {sqlite}
+* ssl_client-1.37.0-r29 x86_64 {busybox}
 * tzdata-2025b-r0 x86_64 {tzdata}
 * xz-libs-5.8.1-r0 x86_64 {xz}
 * zlib-1.3.1-r2 x86_64 {zlib}
-* zstd-libs-1.5.7-r0 x86_64 {zstd}
+* zstd-libs-1.5.7-r2 x86_64 {zstd}
