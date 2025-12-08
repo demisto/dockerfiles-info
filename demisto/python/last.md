@@ -1,9 +1,9 @@
-# `demisto/python:2.7.18.76921`
-## 🔴 IMPORTANT: This image is deprecated 🔴
+# `demisto/python:2.7.18.6174823`
+
 ## Docker Metadata
-- Image Size: 29.12 MB
-- Image ID: `sha256:30271df38da81bba68d7f488530b891be1f1d0dc2acf0d741ad2bb0a3bbb50b2`
-- Created: `2023-10-10T12:01:16.932426678Z`
+- Image Size: 27.14 MB
+- Image ID: `sha256:5107067e3ea942557e7ad4501ca3a6b30424a8862d4559d0ca2e48316177b7ac`
+- Created: `2025-12-07T13:49:09.053684476Z`
 - Arch: `linux`/`amd64`
 - Command: `["python2"]`
 - Environment:
@@ -15,31 +15,29 @@
   - `PYTHON_PIP_VERSION=20.3.4`
   - `PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/831b5dd0bec03caf24aa6d736a28dc2ba80f91cc/public/2.7/get-pip.py`
   - `PYTHON_GET_PIP_SHA256=40ee07eac6674b8d60fce2bbabc148cf0e2f1408c167683f110fd608b8d6f416`
-  - `DOCKER_IMAGE=demisto/python:2.7.18.76921`
-  - `DEPRECATED_IMAGE=true`
-  - `DEPRECATED_REASON=Python 2 is EOL. Use the python3 image instead.`
+  - `DOCKER_IMAGE=demisto/python:2.7.18.6174823`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:bbffc944aa1455e64f6fa6141ff6b9d471ac6bac`
-  - `org.opencontainers.image.version:2.7.18.76921`
+  - `org.opencontainers.image.revision:99a3cdda03981ecdd9f4e677bf2868ef2de387b6`
+  - `org.opencontainers.image.version:2.7.18.6174823`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.15.9`
-  - `PRETTY_NAME="Alpine Linux v3.15"`
+  - `VERSION_ID=3.18.12`
+  - `PRETTY_NAME="Alpine Linux v3.18"`
   - `HOME_URL="https://alpinelinux.org/"`
-  - `BUG_REPORT_URL="https://bugs.alpinelinux.org/"`
+  - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/python:2.7.18.76921
+Signatures for demisto/python:2.7.18.6174823
 
-SIGNED TAG          DIGEST                                                             SIGNERS
-2.7.18.76921        aa000dae340ebad1d3458228aeb72cbae35fca55db8c2015afc07b4198dd89a8   (Repo Admin)
+SIGNED TAG       DIGEST                                                             SIGNERS
+2.7.18.6174823   89e51764322643d8c2cb19b682f24c524baba1b227c66ed73b0760e7bef9b33c   (Repo Admin)
 
-Administrative keys for demisto/python:2.7.18.76921
+Administrative keys for demisto/python:2.7.18.6174823
 
   Repository Key:	ccb50f3fb003d5c1e17b1f4af01b96ac5fe5d5ae8fd1ab62ec3ad3e82c23b521
   Root Key:	35a9e53c27cb0ab12eefb619eabf4869f5a5c604f1f7a21a589762ca2bc41e26
@@ -91,13 +89,13 @@ Administrative keys for demisto/python:2.7.18.76921
 * Version: 2.10
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
-* Author: Kim Davies <kim@cynosure.com.au>
-* License :: OSI Approved :: BSD License
+* Author: Kim Davies <kim+pypi@gumleaf.org>
+* License: BSD-like
 
 ### `olefile`
 
 * Summary: Python package to parse, read and write Microsoft OLE2 files (Structured Storage or Compound Document, Microsoft Office)
-* Version: 0.46
+* Version: 0.47
 * Pypi: https://pypi.org/project/olefile/
 * Homepage: https://www.decalage.info/python/olefileio
 * Author: Philippe Lagadec nospam@decalage.info
@@ -108,9 +106,9 @@ Administrative keys for demisto/python:2.7.18.76921
 * Summary: The PyPA recommended tool for installing Python packages.
 * Version: 20.3.4
 * Pypi: https://pypi.org/project/pip/
-* Homepage: https://pip.pypa.io/
-* Author: The pip developers distutils-sig@python.org
-* License :: OSI Approved :: MIT License
+* Homepage: None
+* Author: The pip developers <distutils-sig@python.org>
+* License: MIT
 
 ### `PySocks`
 
@@ -124,7 +122,7 @@ Administrative keys for demisto/python:2.7.18.76921
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 2.8.2
+* Version: 2.9.0.post0
 * Pypi: https://pypi.org/project/python-dateutil/
 * Homepage: https://github.com/dateutil/dateutil
 * Author: Gustavo Niemeyer gustavo@niemeyer.net
@@ -134,7 +132,7 @@ Administrative keys for demisto/python:2.7.18.76921
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2023.3.post1
+* Version: 2025.2
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -154,9 +152,9 @@ Administrative keys for demisto/python:2.7.18.76921
 * Summary: Alternative regular expression module, to replace re.
 * Version: 2021.7.6
 * Pypi: https://pypi.org/project/regex/
-* Homepage: https://github.com/mrabarnett/mrab-regex
-* Author: Matthew Barnett regex@mrabarnett.plus.com
-* License :: OSI Approved :: Apache Software License
+* Homepage: None
+* Author: Matthew Barnett <regex@mrabarnett.plus.com>
+* License: Apache Software License
 
 ### `requests`
 
@@ -170,10 +168,10 @@ Administrative keys for demisto/python:2.7.18.76921
 ### `requests-file`
 
 * Summary: File transport adapter for Requests
-* Version: 1.5.1
+* Version: 1.4.3
 * Pypi: https://pypi.org/project/requests-file/
-* Homepage: http://github.com/dashea/requests-file
-* Author: David Shea reallylongword@gmail.com
+* Homepage: None
+* Author: David Shea <reallylongword@gmail.com>
 * License :: OSI Approved :: Apache Software License
 
 ### `setuptools`
@@ -181,14 +179,14 @@ Administrative keys for demisto/python:2.7.18.76921
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
 * Version: 44.1.1
 * Pypi: https://pypi.org/project/setuptools/
-* Homepage: https://github.com/pypa/setuptools
-* Author: Python Packaging Authority distutils-sig@python.org
-* License :: OSI Approved :: MIT License
+* Homepage: None
+* Author: Python Packaging Authority <distutils-sig@python.org>
+* License: UNKNOWN
 
 ### `six`
 
 * Summary: Python 2 and 3 compatibility utilities
-* Version: 1.16.0
+* Version: 1.17.0
 * Pypi: https://pypi.org/project/six/
 * Homepage: https://github.com/benjaminp/six
 * Author: Benjamin Peterson benjamin@python.org
@@ -199,7 +197,7 @@ Administrative keys for demisto/python:2.7.18.76921
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
 * Version: 2.2.3
 * Pypi: https://pypi.org/project/tldextract/
-* Homepage: 
+* Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
 * License :: OSI Approved :: BSD License
 
@@ -208,60 +206,62 @@ Administrative keys for demisto/python:2.7.18.76921
 * Summary: tzinfo object for the local timezone
 * Version: 2.1
 * Pypi: https://pypi.org/project/tzlocal/
-* Homepage: 
-* Author: Lennart Regebro regebro@gmail.com
+* Homepage: None
+* Author: Lennart Regebro <regebro@gmail.com>
 * License :: OSI Approved :: MIT License
 
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 1.26.17
+* Version: 1.26.20
 * Pypi: https://pypi.org/project/urllib3/
-* Homepage: 
+* Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `wheel`
 
 * Summary: A built-package format for Python
 * Version: 0.37.1
 * Pypi: https://pypi.org/project/wheel/
-* Homepage: 
+* Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
 * License :: OSI Approved :: MIT License
 
 ## `OS Packages`
 
-* .python-rundeps-20231010.120046 noarch {.python-rundeps}
-* alpine-baselayout-3.2.0-r18 x86_64 {alpine-baselayout}
+* .python-rundeps-20251207.134828 noarch {.python-rundeps}
+* alpine-baselayout-3.4.3-r1 x86_64 {alpine-baselayout}
+* alpine-baselayout-data-3.4.3-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.4-r1 x86_64 {alpine-keys}
-* apk-tools-2.12.7-r3 x86_64 {apk-tools}
-* busybox-1.34.1-r7 x86_64 {busybox}
-* ca-certificates-20230506-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20230506-r0 x86_64 {ca-certificates}
-* expat-2.5.0-r0 x86_64 {expat}
-* gdbm-1.22-r0 x86_64 {gdbm}
-* keyutils-libs-1.6.3-r0 x86_64 {keyutils}
+* apk-tools-2.14.4-r0 x86_64 {apk-tools}
+* busybox-1.36.1-r7 x86_64 {busybox}
+* busybox-binsh-1.36.1-r7 x86_64 {busybox}
+* ca-certificates-20241121-r1 x86_64 {ca-certificates}
+* ca-certificates-bundle-20241121-r1 x86_64 {ca-certificates}
+* gdbm-1.23-r1 x86_64 {gdbm}
+* keyutils-libs-1.6.3-r3 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.19.4-r0 x86_64 {krb5}
-* libbz2-1.0.8-r1 x86_64 {bzip2}
-* libc-utils-0.7.2-r3 x86_64 {libc-dev}
-* libcom_err-1.46.6-r0 x86_64 {e2fsprogs}
-* libcrypto1.1-1.1.1w-r0 x86_64 {openssl}
-* libffi-3.4.2-r1 x86_64 {libffi}
-* libintl-0.21-r0 x86_64 {gettext}
-* libnsl-1.3.0-r0 x86_64 {libnsl}
-* libretls-3.3.4-r3 x86_64 {libretls}
-* libssl1.1-1.1.1w-r0 x86_64 {openssl}
-* libtirpc-1.3.2-r1 x86_64 {libtirpc}
-* libtirpc-conf-1.3.2-r1 x86_64 {libtirpc}
-* libverto-0.3.2-r0 x86_64 {libverto}
-* musl-1.2.2-r9 x86_64 {musl}
-* musl-utils-1.2.2-r9 x86_64 {musl}
-* ncurses-libs-6.3_p20211120-r2 x86_64 {ncurses}
-* ncurses-terminfo-base-6.3_p20211120-r2 x86_64 {ncurses}
-* readline-8.1.1-r0 x86_64 {readline}
-* scanelf-1.3.3-r0 x86_64 {pax-utils}
-* sqlite-libs-3.36.0-r0 x86_64 {sqlite}
-* ssl_client-1.34.1-r7 x86_64 {busybox}
-* zlib-1.2.12-r3 x86_64 {zlib}
+* krb5-libs-1.20.2-r1 x86_64 {krb5}
+* libbz2-1.0.8-r5 x86_64 {bzip2}
+* libc-utils-0.7.2-r5 x86_64 {libc-dev}
+* libcom_err-1.47.0-r2 x86_64 {e2fsprogs}
+* libcrypto3-3.1.8-r0 x86_64 {openssl}
+* libexpat-2.7.0-r0 x86_64 {expat}
+* libffi-3.4.4-r2 x86_64 {libffi}
+* libintl-0.21.1-r7 x86_64 {gettext}
+* libncursesw-6.4_p20230506-r0 x86_64 {ncurses}
+* libnsl-2.0.0-r0 x86_64 {libnsl}
+* libpanelw-6.4_p20230506-r0 x86_64 {ncurses}
+* libssl3-3.1.8-r0 x86_64 {openssl}
+* libtirpc-1.3.3-r2 x86_64 {libtirpc}
+* libtirpc-conf-1.3.3-r2 x86_64 {libtirpc}
+* libverto-0.3.2-r2 x86_64 {libverto}
+* musl-1.2.4-r3 x86_64 {musl}
+* musl-utils-1.2.4-r3 x86_64 {musl}
+* ncurses-terminfo-base-6.4_p20230506-r0 x86_64 {ncurses}
+* readline-8.2.1-r1 x86_64 {readline}
+* scanelf-1.3.7-r1 x86_64 {pax-utils}
+* sqlite-libs-3.41.2-r3 x86_64 {sqlite}
+* ssl_client-1.36.1-r7 x86_64 {busybox}
+* zlib-1.2.13-r1 x86_64 {zlib}
