@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.6127110`
+# `demisto/google-vision-api:1.0.0.6192476`
 
 ## Docker Metadata
-- Image Size: 131.59 MB
-- Image ID: `sha256:2789d0a14aed1149de36b04d5b20cfb51dcd8634b1fe2b39f93f99104f04ce23`
-- Created: `2025-12-03T14:36:53.603079663Z`
+- Image Size: 131.89 MB
+- Image ID: `sha256:385b51ac9effc79a93b33f40a059a92606edc47070427736d45faa631e35024b`
+- Created: `2025-12-08T14:27:44.442988068Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.6127110`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.6192476`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:1e246366d18a45281f1ea69fe81943ca27167969`
-  - `org.opencontainers.image.version:1.0.0.6127110`
+  - `org.opencontainers.image.revision:17c3da383ac73afc7c077aaaa99727441e237f4a`
+  - `org.opencontainers.image.version:1.0.0.6192476`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-vision-api:1.0.0.6127110
+Signatures for demisto/google-vision-api:1.0.0.6192476
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6127110   0b456ce0d479b0a23331c8f176b96d4979e8432a0c25c3ef61768f90fa6ba5c7   (Repo Admin)
+1.0.0.6192476   c175ceadf341679086a4fbb953a852bdcf8a007159bf500c935553a483f15eda   (Repo Admin)
 
-Administrative keys for demisto/google-vision-api:1.0.0.6127110
+Administrative keys for demisto/google-vision-api:1.0.0.6192476
 
   Repository Key:	8f699c169d21da1343c2ea4f465fe5f19ace3822c0fd85c2d1a054379abf30dd
   Root Key:	23130201a9ea6e060cceb9cf5a1998649873c190c980fe0d6c487df1fadbc6ef
@@ -646,7 +646,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.6127110
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.5.0
+* Version: 2.6.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
