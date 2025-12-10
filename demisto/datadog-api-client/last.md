@@ -1,9 +1,9 @@
-# `demisto/datadog-api-client:1.0.0.5598595`
+# `demisto/datadog-api-client:1.0.0.6210030`
 
 ## Docker Metadata
-- Image Size: 32.97 MB
-- Image ID: `sha256:59883eddb024dd96203a46fc32767f933567975c5180fed635295c1d67253898`
-- Created: `2025-10-27T16:06:13.911506323Z`
+- Image Size: 33.64 MB
+- Image ID: `sha256:6de398e8aa0e39d7b5988b98844c4851cd3ad4a290b34ef50fb86213c4b46386`
+- Created: `2025-12-09T14:23:08.239467099Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,29 +12,29 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/datadog-api-client:1.0.0.5598595`
+  - `DOCKER_IMAGE=demisto/datadog-api-client:1.0.0.6210030`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:ce633a808955ea5122dfcbee9da1ac0c639dadac`
-  - `org.opencontainers.image.version:1.0.0.5598595`
+  - `org.opencontainers.image.revision:de958012c6342ca78365b345065caf8c8409a4e3`
+  - `org.opencontainers.image.version:1.0.0.6210030`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.22.2`
-  - `PRETTY_NAME="Alpine Linux v3.22"`
+  - `VERSION_ID=3.23.0`
+  - `PRETTY_NAME="Alpine Linux v3.23"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/datadog-api-client:1.0.0.5598595
+Signatures for demisto/datadog-api-client:1.0.0.6210030
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5598595   2831abd798b703a36aa70275966988c51b1bf13d0f8b493335a4b25d10b9c722   (Repo Admin)
+1.0.0.6210030   d2aeef52b33ef0752790bc093e17e1cb074cdda2e6700e66bd8a02f79c7bb9eb   (Repo Admin)
 
-Administrative keys for demisto/datadog-api-client:1.0.0.5598595
+Administrative keys for demisto/datadog-api-client:1.0.0.6210030
 
   Repository Key:	656d78d0ce1bf497326f1f73e1748d6dc41faace8487b29f8cf74838cf932cd9
   Root Key:	f37ef2584cf450f8c9dd9e8721f92ef81e852897ae167f699bb2c8bffa6ecd86
@@ -47,7 +47,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.5598595
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.10.5
+* Version: 2025.11.12
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -65,7 +65,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.5598595
 ### `datadog-api-client`
 
 * Summary: Collection of all Datadog Public endpoints
-* Version: 2.45.0
+* Version: 2.47.0
 * Pypi: https://pypi.org/project/datadog-api-client/
 * Homepage: https://github.com/DataDog/datadog-api-client-python
 * Author: Datadog, Inc. packages@datadoghq.com
@@ -261,48 +261,48 @@ Administrative keys for demisto/datadog-api-client:1.0.0.5598595
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.5.0
+* Version: 2.6.1
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 
 ## `OS Packages`
 
-* .python-rundeps-20251009.223815 noarch {.python-rundeps}
-* alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
-* alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.22.2-r0 x86_64 {alpine-base}
-* apk-tools-2.14.9-r3 x86_64 {apk-tools}
-* busybox-1.37.0-r19 x86_64 {busybox}
-* busybox-binsh-1.37.0-r19 x86_64 {busybox}
-* ca-certificates-20250911-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20250911-r0 x86_64 {ca-certificates}
-* gdbm-1.24-r0 x86_64 {gdbm}
+* .python-rundeps-20251204.004031 noarch {.python-rundeps}
+* alpine-baselayout-3.7.1-r8 x86_64 {alpine-baselayout}
+* alpine-baselayout-data-3.7.1-r8 x86_64 {alpine-baselayout}
+* alpine-keys-2.6-r0 x86_64 {alpine-keys}
+* alpine-release-3.23.0-r0 x86_64 {alpine-base}
+* apk-tools-3.0.1-r1 x86_64 {apk-tools}
+* busybox-1.37.0-r29 x86_64 {busybox}
+* busybox-binsh-1.37.0-r29 x86_64 {busybox}
+* ca-certificates-20251003-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20251003-r0 x86_64 {ca-certificates}
+* gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.21.3-r0 x86_64 {krb5}
-* libapk2-2.14.9-r3 x86_64 {apk-tools}
+* krb5-libs-1.22.1-r0 x86_64 {krb5}
+* libapk-3.0.1-r1 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
-* libcom_err-1.47.2-r2 x86_64 {e2fsprogs}
+* libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.4-r0 x86_64 {openssl}
-* libffi-3.4.8-r0 x86_64 {libffi}
-* libintl-0.24.1-r0 x86_64 {gettext}
-* libncursesw-6.5_p20250503-r0 x86_64 {ncurses}
+* libffi-3.5.2-r0 x86_64 {libffi}
+* libintl-0.24.1-r1 x86_64 {gettext}
+* libncursesw-6.5_p20251123-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
-* libpanelw-6.5_p20250503-r0 x86_64 {ncurses}
+* libpanelw-6.5_p20251123-r0 x86_64 {ncurses}
 * libssl3-3.5.4-r0 x86_64 {openssl}
-* libtirpc-1.3.5-r0 x86_64 {libtirpc}
-* libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
-* libuuid-2.41-r9 x86_64 {util-linux}
+* libtirpc-1.3.5-r1 x86_64 {libtirpc}
+* libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
+* libuuid-2.41.2-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.5-r10 x86_64 {musl}
-* musl-utils-1.2.5-r10 x86_64 {musl}
-* ncurses-terminfo-base-6.5_p20250503-r0 x86_64 {ncurses}
-* readline-8.2.13-r1 x86_64 {readline}
-* scanelf-1.3.8-r1 x86_64 {pax-utils}
-* sqlite-libs-3.49.2-r1 x86_64 {sqlite}
-* ssl_client-1.37.0-r19 x86_64 {busybox}
+* musl-1.2.5-r21 x86_64 {musl}
+* musl-utils-1.2.5-r21 x86_64 {musl}
+* ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
+* readline-8.3.1-r0 x86_64 {readline}
+* scanelf-1.3.8-r2 x86_64 {pax-utils}
+* sqlite-libs-3.51.1-r0 x86_64 {sqlite}
+* ssl_client-1.37.0-r29 x86_64 {busybox}
 * tzdata-2025b-r0 x86_64 {tzdata}
 * xz-libs-5.8.1-r0 x86_64 {xz}
 * zlib-1.3.1-r2 x86_64 {zlib}

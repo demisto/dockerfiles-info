@@ -1,9 +1,9 @@
-# `demisto/feed-performance-test:1.0.6153274`
+# `demisto/feed-performance-test:1.0.6209362`
 
 ## Docker Metadata
-- Image Size: 221.96 MB
-- Image ID: `sha256:4e2eefbc78a8ec32c4ca7aace757c7765bba61479879463ce9144f687fda8f27`
-- Created: `2025-12-05T06:07:24.158564427Z`
+- Image Size: 221.97 MB
+- Image ID: `sha256:622f1219c8e48226a1ee5c028c76651a6358d1c0dafbd729b8b6d3f8ddb5c7e4`
+- Created: `2025-12-09T14:21:57.04350794Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/feed-performance-test:1.0.6153274`
+  - `DOCKER_IMAGE=demisto/feed-performance-test:1.0.6209362`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d8a37aaaacc104914df9df03eb978e35bd6f0a43`
-  - `org.opencontainers.image.version:1.0.6153274`
+  - `org.opencontainers.image.revision:b3bd63a6e7d8c21f4f8417e6b854644b407f1e4c`
+  - `org.opencontainers.image.version:1.0.6209362`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/feed-performance-test:1.0.6153274
+Signatures for demisto/feed-performance-test:1.0.6209362
 
 SIGNED TAG    DIGEST                                                             SIGNERS
-1.0.6153274   0f401a353fb160547c710673632ed86edac082255eae91048a9a732dd361736d   (Repo Admin)
+1.0.6209362   0ef1d63e1b4aeff9b85ff5915fc8e24196de00365a1a63b4b4583c356baccf77   (Repo Admin)
 
-Administrative keys for demisto/feed-performance-test:1.0.6153274
+Administrative keys for demisto/feed-performance-test:1.0.6209362
 
   Repository Key:	34d2a14a13a72668f827e0bcb38019b128e2e5d7cc15abbb0d5818df7a2a4efa
   Root Key:	bfdf6b1052100f768458c08d6dd2c1d34213a96991024d9cdffe98c6870e88d9
@@ -47,7 +47,7 @@ Administrative keys for demisto/feed-performance-test:1.0.6153274
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.8.3
+* Version: 2025.11.12
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -56,7 +56,7 @@ Administrative keys for demisto/feed-performance-test:1.0.6153274
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.3
+* Version: 3.4.4
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -92,7 +92,7 @@ Administrative keys for demisto/feed-performance-test:1.0.6153274
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.18.0
+* Version: 3.20.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -110,11 +110,10 @@ Administrative keys for demisto/feed-performance-test:1.0.6153274
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.11
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License: 
 
 ### `more-itertools`
 
@@ -182,11 +181,10 @@ Administrative keys for demisto/feed-performance-test:1.0.6153274
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2025.11.3
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
-* License: Apache Software License
 
 ### `requests`
 
@@ -200,7 +198,7 @@ Administrative keys for demisto/feed-performance-test:1.0.6153274
 ### `requests-file`
 
 * Summary: File transport adapter for Requests
-* Version: 2.1.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/requests-file/
 * Homepage: None
 * Author: David Shea <reallylongword@gmail.com>
@@ -244,7 +242,7 @@ Administrative keys for demisto/feed-performance-test:1.0.6153274
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.5.0
+* Version: 2.6.1
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>

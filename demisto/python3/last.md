@@ -1,9 +1,9 @@
-# `demisto/python3:3.12.12.6151721`
+# `demisto/python3:3.12.12.6204436`
 
 ## Docker Metadata
-- Image Size: 29.10 MB
-- Image ID: `sha256:e9e46065eac470153bf39709a05efa4d04cb3a453223cbcacfd7bd571b759ba8`
-- Created: `2025-12-05T01:01:04.032668684Z`
+- Image Size: 29.11 MB
+- Image ID: `sha256:f66090ae51747814925be829940b14001e8e4598ca05164948855f3dc366b5b2`
+- Created: `2025-12-09T09:53:51.996958392Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/python3:3.12.12.6151721`
+  - `DOCKER_IMAGE=demisto/python3:3.12.12.6204436`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:7ae84bb767ccc66a8bb0c0d8c28825ab03aadd0a`
-  - `org.opencontainers.image.version:3.12.12.6151721`
+  - `org.opencontainers.image.revision:e93f4897104722269f6e49b0c5e5e13cfb0a4ef2`
+  - `org.opencontainers.image.version:3.12.12.6204436`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3:3.12.12.6151721
+Signatures for demisto/python3:3.12.12.6204436
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.12.6151721   e8e969997f064d616d42d048fc1a3462e01d7ea69785033f0f4ac0cd233d0d3a   (Repo Admin)
+3.12.12.6204436   ad419204750102a0a4631265b82f66471807a180d0907d06ffba1aa8b7fd7829   (Repo Admin)
 
-Administrative keys for demisto/python3:3.12.12.6151721
+Administrative keys for demisto/python3:3.12.12.6204436
 
   Repository Key:	dd922c0a78cf908782d68ed2f99cae9350740fc2da582a1cb5c03e530ba2dd31
   Root Key:	46ab19438bfff81c925ab27466b52b175de43bad8e8a19cc878e9288246bff8d
@@ -47,7 +47,7 @@ Administrative keys for demisto/python3:3.12.12.6151721
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.8.3
+* Version: 2025.11.12
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -56,7 +56,7 @@ Administrative keys for demisto/python3:3.12.12.6151721
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.3
+* Version: 3.4.4
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -92,7 +92,7 @@ Administrative keys for demisto/python3:3.12.12.6151721
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.18.0
+* Version: 3.20.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -110,11 +110,10 @@ Administrative keys for demisto/python3:3.12.12.6151721
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.11
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License: 
 
 ### `more-itertools`
 
@@ -182,11 +181,10 @@ Administrative keys for demisto/python3:3.12.12.6151721
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2025.11.3
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
-* License: Apache Software License
 
 ### `requests`
 
@@ -200,7 +198,7 @@ Administrative keys for demisto/python3:3.12.12.6151721
 ### `requests-file`
 
 * Summary: File transport adapter for Requests
-* Version: 2.1.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/requests-file/
 * Homepage: None
 * Author: David Shea <reallylongword@gmail.com>
@@ -244,7 +242,7 @@ Administrative keys for demisto/python3:3.12.12.6151721
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.5.0
+* Version: 2.6.1
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
