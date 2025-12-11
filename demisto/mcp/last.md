@@ -1,9 +1,9 @@
-# `demisto/mcp:1.0.0.6211397`
+# `demisto/mcp:1.0.0.6227187`
 
 ## Docker Metadata
 - Image Size: 41.29 MB
-- Image ID: `sha256:423f90f635e77e9c69fd7263c77ae3c0d5fdfbc4bd494823f6d06c1cbe49975b`
-- Created: `2025-12-09T15:32:01.765353325Z`
+- Image ID: `sha256:cd85c1aad228212cf8712ed6974628de90b18dfb31e0fd3cdb6a53d1fc9dc2b0`
+- Created: `2025-12-10T14:53:50.816862871Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/mcp:1.0.0.6211397`
+  - `DOCKER_IMAGE=demisto/mcp:1.0.0.6227187`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:6f8b677fea77bde87bf5ceb546bc42f03dc6978a`
-  - `org.opencontainers.image.version:1.0.0.6211397`
+  - `org.opencontainers.image.revision:88e491d3a0deae83729f637efd826563d9b5219c`
+  - `org.opencontainers.image.version:1.0.0.6227187`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/mcp:1.0.0.6211397
+Signatures for demisto/mcp:1.0.0.6227187
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6211397   1a6c504f7bb1922f6fc5f65d4227cffdc713b04024d5f5651f7ee7fe25a79fcb   (Repo Admin)
+1.0.0.6227187   3bf77722fab7aab53a5556d417e7c8badab0318137e571c0fc0ba564ea11959c   (Repo Admin)
 
-Administrative keys for demisto/mcp:1.0.0.6211397
+Administrative keys for demisto/mcp:1.0.0.6227187
 
   Repository Key:	33380d20e18cb2980bcdfa01f031d099d2db52b45122f978a80246c9ee48daab
   Root Key:	e45106a7e5d7cc94d559856627cc933af59af78ae3e8d2e9f677904e5b94e13f
@@ -220,7 +220,7 @@ Administrative keys for demisto/mcp:1.0.0.6211397
 ### `mcp`
 
 * Summary: Model Context Protocol SDK
-* Version: 1.23.2
+* Version: 1.23.3
 * Pypi: https://pypi.org/project/mcp/
 * Homepage: None
 * Author: Anthropic, PBC.
