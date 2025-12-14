@@ -1,9 +1,9 @@
-# `demisto/mcp:1.0.0.6227187`
+# `demisto/mcp:1.0.0.6253883`
 
 ## Docker Metadata
-- Image Size: 41.29 MB
-- Image ID: `sha256:cd85c1aad228212cf8712ed6974628de90b18dfb31e0fd3cdb6a53d1fc9dc2b0`
-- Created: `2025-12-10T14:53:50.816862871Z`
+- Image Size: 41.30 MB
+- Image ID: `sha256:27361d70643e5d11d3ad32b46d90588e7fa244c2af17e7eef70ab82c9eeb505c`
+- Created: `2025-12-12T14:47:21.409219132Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/mcp:1.0.0.6227187`
+  - `DOCKER_IMAGE=demisto/mcp:1.0.0.6253883`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:88e491d3a0deae83729f637efd826563d9b5219c`
-  - `org.opencontainers.image.version:1.0.0.6227187`
+  - `org.opencontainers.image.revision:e2bda51d158ae95a96d1bb2840f353d9bd5d08c8`
+  - `org.opencontainers.image.version:1.0.0.6253883`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/mcp:1.0.0.6227187
+Signatures for demisto/mcp:1.0.0.6253883
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6227187   3bf77722fab7aab53a5556d417e7c8badab0318137e571c0fc0ba564ea11959c   (Repo Admin)
+1.0.0.6253883   351a159e941e62f2df9aa961bb058ef55801b5cc79de36a4e58e10ec3e7ec2d6   (Repo Admin)
 
-Administrative keys for demisto/mcp:1.0.0.6227187
+Administrative keys for demisto/mcp:1.0.0.6253883
 
   Repository Key:	33380d20e18cb2980bcdfa01f031d099d2db52b45122f978a80246c9ee48daab
   Root Key:	e45106a7e5d7cc94d559856627cc933af59af78ae3e8d2e9f677904e5b94e13f
@@ -220,7 +220,7 @@ Administrative keys for demisto/mcp:1.0.0.6227187
 ### `mcp`
 
 * Summary: Model Context Protocol SDK
-* Version: 1.23.3
+* Version: 1.24.0
 * Pypi: https://pypi.org/project/mcp/
 * Homepage: None
 * Author: Anthropic, PBC.

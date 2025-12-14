@@ -1,9 +1,9 @@
-# `demisto/slack:1.0.0.6208788`
+# `demisto/slack:1.0.0.6243329`
 
 ## Docker Metadata
-- Image Size: 34.58 MB
-- Image ID: `sha256:fee9f21b414301f9d2921ea388372bbaf0287695d292f630f834d9da9dfcc158`
-- Created: `2025-12-09T13:21:25.358179414Z`
+- Image Size: 34.32 MB
+- Image ID: `sha256:1311acf54ca6e38ddac9eebf203f7c743cd6041c9f1ff14d4fc8916b8143edf7`
+- Created: `2025-12-11T14:25:42.704326236Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/slack:1.0.0.6208788`
+  - `DOCKER_IMAGE=demisto/slack:1.0.0.6243329`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:0996d36bd68667408b4848eafb8271febf57556d`
-  - `org.opencontainers.image.version:1.0.0.6208788`
+  - `org.opencontainers.image.revision:87059a8764d8532af85c849b6a378a85ed00eecd`
+  - `org.opencontainers.image.version:1.0.0.6243329`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/slack:1.0.0.6208788
+Signatures for demisto/slack:1.0.0.6243329
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6208788   85d2659a8d2e5743b514d3a143185b0b14aa0e3d378d7ac668ce83b1ca89a15b   (Repo Admin)
+1.0.0.6243329   475bcc7015d274b78ab04160873ebeb01469f4570b4ceee2c0ca3086f9e6acec   (Repo Admin)
 
-Administrative keys for demisto/slack:1.0.0.6208788
+Administrative keys for demisto/slack:1.0.0.6243329
 
   Repository Key:	10c8dadbc6a8a686ed6cf54ee889490f228785166fbf6a39d91a0d8aa9494f05
   Root Key:	29861457fdef72df55f28820db7e4266a64b3830996bb399c3898fc935220f89
@@ -47,7 +47,7 @@ Administrative keys for demisto/slack:1.0.0.6208788
 ### `aiodns`
 
 * Summary: Simple DNS resolver for asyncio
-* Version: 3.5.0
+* Version: 3.6.1
 * Pypi: https://pypi.org/project/aiodns/
 * Homepage: https://github.com/saghul/aiodns
 * Author: Saúl Ibarra Corretgé s@saghul.net
@@ -101,11 +101,10 @@ Administrative keys for demisto/slack:1.0.0.6208788
 ### `cffi`
 
 * Summary: Foreign Function Interface for Python calling C code.
-* Version: 1.17.1
+* Version: 2.0.0
 * Pypi: https://pypi.org/project/cffi/
 * Homepage: None
 * Author: Armin Rigo, Maciej Fijalkowski
-* License: MIT
 
 ### `charset-normalizer`
 
@@ -226,16 +225,16 @@ Administrative keys for demisto/slack:1.0.0.6208788
 ### `pycares`
 
 * Summary: Python interface for c-ares
-* Version: 4.9.0
+* Version: 4.11.0
 * Pypi: https://pypi.org/project/pycares/
-* Homepage: http://github.com/saghul/pycares
-* Author: Saúl Ibarra Corretgé s@saghul.net
-* License :: OSI Approved :: MIT License
+* Homepage: None
+* Author: Saúl Ibarra Corretgé <s@saghul.net>
+* License: MIT
 
 ### `pycparser`
 
 * Summary: C parser in Python
-* Version: 2.22
+* Version: 2.23
 * Pypi: https://pypi.org/project/pycparser/
 * Homepage: https://github.com/eliben/pycparser
 * Author: Eli Bendersky eliben@gmail.com
