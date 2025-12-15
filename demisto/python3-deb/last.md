@@ -1,9 +1,9 @@
-# `demisto/python3-deb:3.12.12.5919128`
+# `demisto/python3-deb:3.12.12.6269782`
 
 ## Docker Metadata
-- Image Size: 56.39 MB
-- Image ID: `sha256:d76d326e81b94f441fcbf1ff312bdf87157794ed986dd3c2eda5e0bc4ca52112`
-- Created: `2025-11-19T00:54:00.185346681Z`
+- Image Size: 56.41 MB
+- Image ID: `sha256:c0898e5b9064aa28c2e30bda09a9d1e23ed8cb1312bf4865331f67a064db5d95`
+- Created: `2025-12-14T12:19:17.533298581Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/python3-deb:3.12.12.5919128`
+  - `DOCKER_IMAGE=demisto/python3-deb:3.12.12.6269782`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:13f5e5562de3b498079176fed0d79cd7654a96a4`
-  - `org.opencontainers.image.version:3.12.12.5919128`
+  - `org.opencontainers.image.revision:c44f4cb91a7b65d8948cf94a9cc1825f3757facb`
+  - `org.opencontainers.image.version:3.12.12.6269782`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3-deb:3.12.12.5919128
+Signatures for demisto/python3-deb:3.12.12.6269782
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.12.5919128   08417c40fd492c73a4a218c3dc8ea776daa5405c1eb2db14af5fa09fd3b09dea   (Repo Admin)
+3.12.12.6269782   d7b2b24371214a32c61f0fdb84c4169cfd04f1777999ef1029593e59d9a506fd   (Repo Admin)
 
-Administrative keys for demisto/python3-deb:3.12.12.5919128
+Administrative keys for demisto/python3-deb:3.12.12.6269782
 
   Repository Key:	02e9781b8a12b1475cfa9e28c569a3337f9d9e664134162d21f48e09aa975ab6
   Root Key:	c368f2dcb34a0aaabd33ee9559bd094b84c7f57f4742bde05f5a21486a524ce9
@@ -50,7 +50,7 @@ Administrative keys for demisto/python3-deb:3.12.12.5919128
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.8.3
+* Version: 2025.11.12
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -59,7 +59,7 @@ Administrative keys for demisto/python3-deb:3.12.12.5919128
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.3
+* Version: 3.4.4
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -86,7 +86,7 @@ Administrative keys for demisto/python3-deb:3.12.12.5919128
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.18.0
+* Version: 3.20.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -104,11 +104,10 @@ Administrative keys for demisto/python3-deb:3.12.12.5919128
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.11
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License: 
 
 ### `more-itertools`
 
@@ -176,11 +175,10 @@ Administrative keys for demisto/python3-deb:3.12.12.5919128
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2025.11.3
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
-* License: Apache Software License
 
 ### `requests`
 
@@ -194,7 +192,7 @@ Administrative keys for demisto/python3-deb:3.12.12.5919128
 ### `requests-file`
 
 * Summary: File transport adapter for Requests
-* Version: 2.1.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/requests-file/
 * Homepage: None
 * Author: David Shea <reallylongword@gmail.com>
@@ -238,7 +236,7 @@ Administrative keys for demisto/python3-deb:3.12.12.5919128
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.5.0
+* Version: 2.6.1
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
