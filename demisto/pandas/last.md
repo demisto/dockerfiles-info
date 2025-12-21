@@ -1,9 +1,9 @@
-# `demisto/pandas:1.0.0.5493115`
+# `demisto/pandas:1.0.0.6337967`
 
 ## Docker Metadata
-- Image Size: 73.13 MB
-- Image ID: `sha256:da0ed0e09ae3b90cd163679b1b69250ee29308aa054e320c7a98dc5f0816d049`
-- Created: `2025-10-21T13:19:25.895557088Z`
+- Image Size: 73.26 MB
+- Image ID: `sha256:f7deaca71df9ac4abd2f5001b3b63e2ba2dd1ff0ad4065eafa8a9adbecd2aefa`
+- Created: `2025-12-18T15:14:58.895772041Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,29 +12,29 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/pandas:1.0.0.5493115`
+  - `DOCKER_IMAGE=demisto/pandas:1.0.0.6337967`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:5f19c01ee1cf7748205e821fd5542f2a89fc81bb`
-  - `org.opencontainers.image.version:1.0.0.5493115`
+  - `org.opencontainers.image.revision:86da4333ddfa3d989313efa3b06be1f43cb17ff1`
+  - `org.opencontainers.image.version:1.0.0.6337967`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.22.2`
-  - `PRETTY_NAME="Alpine Linux v3.22"`
+  - `VERSION_ID=3.23.0`
+  - `PRETTY_NAME="Alpine Linux v3.23"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/pandas:1.0.0.5493115
+Signatures for demisto/pandas:1.0.0.6337967
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5493115   7b187547bd7c81e920d0b1d78e92c8be95ac0d447abb001b1148851453166590   (Repo Admin)
+1.0.0.6337967   0fcba83e9026601eafad3652369098a446ad4277eabd70f8ba277ffc26066c6e   (Repo Admin)
 
-Administrative keys for demisto/pandas:1.0.0.5493115
+Administrative keys for demisto/pandas:1.0.0.6337967
 
   Repository Key:	2f6ee3bf40841c74b6ba712de24e83f42dfc7130fefdd4c8f0c0b2efc4645334
   Root Key:	c6252cb6471003ca794a0f88bd8ddd88095fb61c82729c39b9a73ae382c98ad8
@@ -47,7 +47,7 @@ Administrative keys for demisto/pandas:1.0.0.5493115
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.8.3
+* Version: 2025.11.12
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -56,7 +56,7 @@ Administrative keys for demisto/pandas:1.0.0.5493115
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.3
+* Version: 3.4.4
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -92,7 +92,7 @@ Administrative keys for demisto/pandas:1.0.0.5493115
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.18.0
+* Version: 3.20.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -110,11 +110,10 @@ Administrative keys for demisto/pandas:1.0.0.5493115
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.11
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License: 
 
 ### `more-itertools`
 
@@ -127,11 +126,11 @@ Administrative keys for demisto/pandas:1.0.0.5493115
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.3.3
+* Version: 2.3.5
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.
-* License :: OSI Approved :: BSD License
+* License: Copyright (c) 2005-2025, NumPy Developers.
 
 ### `olefile`
 
@@ -163,7 +162,7 @@ Administrative keys for demisto/pandas:1.0.0.5493115
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.2
+* Version: 25.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -209,11 +208,10 @@ Administrative keys for demisto/pandas:1.0.0.5493115
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2025.11.3
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
-* License: Apache Software License
 
 ### `requests`
 
@@ -227,7 +225,7 @@ Administrative keys for demisto/pandas:1.0.0.5493115
 ### `requests-file`
 
 * Summary: File transport adapter for Requests
-* Version: 2.1.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/requests-file/
 * Homepage: None
 * Author: David Shea <reallylongword@gmail.com>
@@ -266,7 +264,7 @@ Administrative keys for demisto/pandas:1.0.0.5493115
 * Pypi: https://pypi.org/project/tzdata/
 * Homepage: https://github.com/python/tzdata
 * Author: Python Software Foundation datetime-sig@python.org
-* License :: OSI Approved :: Apache Software License
+* License: Apache-2.0
 
 ### `tzlocal`
 
@@ -280,50 +278,50 @@ Administrative keys for demisto/pandas:1.0.0.5493115
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.5.0
+* Version: 2.6.1
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 
 ## `OS Packages`
 
-* .python-rundeps-20251009.223815 noarch {.python-rundeps}
-* alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
-* alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.22.2-r0 x86_64 {alpine-base}
-* apk-tools-2.14.9-r3 x86_64 {apk-tools}
-* busybox-1.37.0-r19 x86_64 {busybox}
-* busybox-binsh-1.37.0-r19 x86_64 {busybox}
-* ca-certificates-20250911-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20250911-r0 x86_64 {ca-certificates}
-* gdbm-1.24-r0 x86_64 {gdbm}
+* .python-rundeps-20251204.004031 noarch {.python-rundeps}
+* alpine-baselayout-3.7.1-r8 x86_64 {alpine-baselayout}
+* alpine-baselayout-data-3.7.1-r8 x86_64 {alpine-baselayout}
+* alpine-keys-2.6-r0 x86_64 {alpine-keys}
+* alpine-release-3.23.0-r0 x86_64 {alpine-base}
+* apk-tools-3.0.1-r1 x86_64 {apk-tools}
+* busybox-1.37.0-r29 x86_64 {busybox}
+* busybox-binsh-1.37.0-r29 x86_64 {busybox}
+* ca-certificates-20251003-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20251003-r0 x86_64 {ca-certificates}
+* gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.21.3-r0 x86_64 {krb5}
-* libapk2-2.14.9-r3 x86_64 {apk-tools}
+* krb5-libs-1.22.1-r0 x86_64 {krb5}
+* libapk-3.0.1-r1 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
-* libcom_err-1.47.2-r2 x86_64 {e2fsprogs}
+* libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.4-r0 x86_64 {openssl}
-* libffi-3.4.8-r0 x86_64 {libffi}
-* libgcc-14.2.0-r6 x86_64 {gcc}
-* libintl-0.24.1-r0 x86_64 {gettext}
-* libncursesw-6.5_p20250503-r0 x86_64 {ncurses}
+* libffi-3.5.2-r0 x86_64 {libffi}
+* libgcc-15.2.0-r2 x86_64 {gcc}
+* libintl-0.24.1-r1 x86_64 {gettext}
+* libncursesw-6.5_p20251123-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
-* libpanelw-6.5_p20250503-r0 x86_64 {ncurses}
+* libpanelw-6.5_p20251123-r0 x86_64 {ncurses}
 * libssl3-3.5.4-r0 x86_64 {openssl}
-* libstdc++-14.2.0-r6 x86_64 {gcc}
-* libtirpc-1.3.5-r0 x86_64 {libtirpc}
-* libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
-* libuuid-2.41-r9 x86_64 {util-linux}
+* libstdc++-15.2.0-r2 x86_64 {gcc}
+* libtirpc-1.3.5-r1 x86_64 {libtirpc}
+* libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
+* libuuid-2.41.2-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.5-r10 x86_64 {musl}
-* musl-utils-1.2.5-r10 x86_64 {musl}
-* ncurses-terminfo-base-6.5_p20250503-r0 x86_64 {ncurses}
-* readline-8.2.13-r1 x86_64 {readline}
-* scanelf-1.3.8-r1 x86_64 {pax-utils}
-* sqlite-libs-3.49.2-r1 x86_64 {sqlite}
-* ssl_client-1.37.0-r19 x86_64 {busybox}
+* musl-1.2.5-r21 x86_64 {musl}
+* musl-utils-1.2.5-r21 x86_64 {musl}
+* ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
+* readline-8.3.1-r0 x86_64 {readline}
+* scanelf-1.3.8-r2 x86_64 {pax-utils}
+* sqlite-libs-3.51.1-r0 x86_64 {sqlite}
+* ssl_client-1.37.0-r29 x86_64 {busybox}
 * tzdata-2025b-r0 x86_64 {tzdata}
 * xz-libs-5.8.1-r0 x86_64 {xz}
 * zlib-1.3.1-r2 x86_64 {zlib}

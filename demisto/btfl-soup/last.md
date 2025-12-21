@@ -1,40 +1,40 @@
-# `demisto/btfl-soup:1.0.1.5185022`
+# `demisto/btfl-soup:1.0.1.6337886`
 
 ## Docker Metadata
-- Image Size: 35.54 MB
-- Image ID: `sha256:cfcf7af27ca1d4080dd3292516a99be0d3bc363334b737db2b249400bd359137`
-- Created: `2025-09-29T18:29:04.937035145Z`
+- Image Size: 32.64 MB
+- Image ID: `sha256:ed5ae704d71693bcdfe7636da09f819634ea7f89f20492a5592a82f99b65b691`
+- Created: `2025-12-18T15:05:54.943069107Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.11`
-  - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.5185022`
+  - `PYTHON_VERSION=3.12.12`
+  - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
+  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.6337886`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:c9ba1cdfc6d6f5e688cd9e382eca7addf3a7ed6f`
-  - `org.opencontainers.image.version:1.0.1.5185022`
+  - `org.opencontainers.image.revision:cdf36e3f4b41f5bcea87f7d00854eb42aa9c9129`
+  - `org.opencontainers.image.version:1.0.1.6337886`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.22.1`
-  - `PRETTY_NAME="Alpine Linux v3.22"`
+  - `VERSION_ID=3.23.0`
+  - `PRETTY_NAME="Alpine Linux v3.23"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/btfl-soup:1.0.1.5185022
+Signatures for demisto/btfl-soup:1.0.1.6337886
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.1.5185022   f6abf73c0e8810f226605495dcc02e01e56ba420262cbd11e855533f96baba01   (Repo Admin)
+1.0.1.6337886   cc35f18d692d2e9da060add3c87d881829fc8b60ba77ec1fbb246dfa16223938   (Repo Admin)
 
-Administrative keys for demisto/btfl-soup:1.0.1.5185022
+Administrative keys for demisto/btfl-soup:1.0.1.6337886
 
   Repository Key:	2df9352dc8d80b6e208c7ff147fac5fe0db694f8ad563e69a8c0688b62620cb4
   Root Key:	48666b9a08f1927653d7c7246d50c6a1b3a7f7ff8ff8be1557cce0991627ccf4
@@ -47,7 +47,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.5185022
 ### `beautifulsoup4`
 
 * Summary: Screen-scraping library
-* Version: 4.14.2
+* Version: 4.14.3
 * Pypi: https://pypi.org/project/beautifulsoup4/
 * Homepage: None
 * Author: Leonard Richardson <leonardr@segfault.org>
@@ -56,7 +56,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.5185022
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.6.15
+* Version: 2025.11.12
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -65,7 +65,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.5185022
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.2
+* Version: 3.4.4
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -101,7 +101,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.5185022
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.18.0
+* Version: 3.20.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -119,16 +119,15 @@ Administrative keys for demisto/btfl-soup:1.0.1.5185022
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.11
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License :: OSI Approved :: BSD License
 
 ### `markdownify`
 
 * Summary: Convert HTML to markdown.
-* Version: 1.2.0
+* Version: 1.2.2
 * Pypi: https://pypi.org/project/markdownify/
 * Homepage: None
 * Author: Matthew Tretter <m@tthewwithanm.com>
@@ -154,7 +153,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.5185022
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.2
+* Version: 25.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -210,7 +209,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.5185022
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
-* Version: 6.0.2
+* Version: 6.0.3
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net
@@ -219,16 +218,15 @@ Administrative keys for demisto/btfl-soup:1.0.1.5185022
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2025.11.3
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
-* License: Apache Software License
 
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.4
+* Version: 2.32.5
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -237,7 +235,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.5185022
 ### `requests-file`
 
 * Summary: File transport adapter for Requests
-* Version: 2.1.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/requests-file/
 * Homepage: None
 * Author: David Shea <reallylongword@gmail.com>
@@ -307,48 +305,48 @@ Administrative keys for demisto/btfl-soup:1.0.1.5185022
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.5.0
+* Version: 2.6.1
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 
 ## `OS Packages`
 
-* .python-rundeps-20250812.224446 noarch {.python-rundeps}
-* alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
-* alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.22.1-r0 x86_64 {alpine-base}
-* apk-tools-2.14.9-r3 x86_64 {apk-tools}
-* busybox-1.37.0-r19 x86_64 {busybox}
-* busybox-binsh-1.37.0-r19 x86_64 {busybox}
-* ca-certificates-20250619-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20250619-r0 x86_64 {ca-certificates}
-* gdbm-1.24-r0 x86_64 {gdbm}
+* .python-rundeps-20251204.004031 noarch {.python-rundeps}
+* alpine-baselayout-3.7.1-r8 x86_64 {alpine-baselayout}
+* alpine-baselayout-data-3.7.1-r8 x86_64 {alpine-baselayout}
+* alpine-keys-2.6-r0 x86_64 {alpine-keys}
+* alpine-release-3.23.0-r0 x86_64 {alpine-base}
+* apk-tools-3.0.1-r1 x86_64 {apk-tools}
+* busybox-1.37.0-r29 x86_64 {busybox}
+* busybox-binsh-1.37.0-r29 x86_64 {busybox}
+* ca-certificates-20251003-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20251003-r0 x86_64 {ca-certificates}
+* gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.21.3-r0 x86_64 {krb5}
-* libapk2-2.14.9-r3 x86_64 {apk-tools}
+* krb5-libs-1.22.1-r0 x86_64 {krb5}
+* libapk-3.0.1-r1 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
-* libcom_err-1.47.2-r2 x86_64 {e2fsprogs}
-* libcrypto3-3.5.2-r0 x86_64 {openssl}
-* libffi-3.4.8-r0 x86_64 {libffi}
-* libintl-0.24.1-r0 x86_64 {gettext}
-* libncursesw-6.5_p20250503-r0 x86_64 {ncurses}
+* libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
+* libcrypto3-3.5.4-r0 x86_64 {openssl}
+* libffi-3.5.2-r0 x86_64 {libffi}
+* libintl-0.24.1-r1 x86_64 {gettext}
+* libncursesw-6.5_p20251123-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
-* libpanelw-6.5_p20250503-r0 x86_64 {ncurses}
-* libssl3-3.5.2-r0 x86_64 {openssl}
-* libtirpc-1.3.5-r0 x86_64 {libtirpc}
-* libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
-* libuuid-2.41-r9 x86_64 {util-linux}
+* libpanelw-6.5_p20251123-r0 x86_64 {ncurses}
+* libssl3-3.5.4-r0 x86_64 {openssl}
+* libtirpc-1.3.5-r1 x86_64 {libtirpc}
+* libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
+* libuuid-2.41.2-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.5-r10 x86_64 {musl}
-* musl-utils-1.2.5-r10 x86_64 {musl}
-* ncurses-terminfo-base-6.5_p20250503-r0 x86_64 {ncurses}
-* readline-8.2.13-r1 x86_64 {readline}
-* scanelf-1.3.8-r1 x86_64 {pax-utils}
-* sqlite-libs-3.49.2-r1 x86_64 {sqlite}
-* ssl_client-1.37.0-r19 x86_64 {busybox}
+* musl-1.2.5-r21 x86_64 {musl}
+* musl-utils-1.2.5-r21 x86_64 {musl}
+* ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
+* readline-8.3.1-r0 x86_64 {readline}
+* scanelf-1.3.8-r2 x86_64 {pax-utils}
+* sqlite-libs-3.51.1-r0 x86_64 {sqlite}
+* ssl_client-1.37.0-r29 x86_64 {busybox}
 * tzdata-2025b-r0 x86_64 {tzdata}
 * xz-libs-5.8.1-r0 x86_64 {xz}
 * zlib-1.3.1-r2 x86_64 {zlib}

@@ -1,40 +1,40 @@
-# `demisto/syslog:1.0.0.4856330`
+# `demisto/syslog:1.0.0.6342117`
 
 ## Docker Metadata
-- Image Size: 39.07 MB
-- Image ID: `sha256:5be323ebfd667dba1f08c252ed7640c246646b8df31dd5d64ea3bd48771d94a0`
-- Created: `2025-09-11T20:35:35.823255945Z`
+- Image Size: 34.56 MB
+- Image ID: `sha256:a2aa3dfc11f9a7cdde6797c7a231e49a1860bf2e2cc32d0bdf9f7116671c9c7b`
+- Created: `2025-12-18T21:14:08.288745024Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.11`
-  - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/syslog:1.0.0.4856330`
+  - `PYTHON_VERSION=3.12.12`
+  - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
+  - `DOCKER_IMAGE=demisto/syslog:1.0.0.6342117`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:86e865d2b3b65c80f31eb84674bd0fc3fefe68dd`
-  - `org.opencontainers.image.version:1.0.0.4856330`
+  - `org.opencontainers.image.revision:6ae130539a26523b0e6f661d154747edcd09b163`
+  - `org.opencontainers.image.version:1.0.0.6342117`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.22.1`
-  - `PRETTY_NAME="Alpine Linux v3.22"`
+  - `VERSION_ID=3.23.0`
+  - `PRETTY_NAME="Alpine Linux v3.23"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/syslog:1.0.0.4856330
+Signatures for demisto/syslog:1.0.0.6342117
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.4856330   82c307af311e917e2c5eeb2254c44ce873c47993b30911d1f0bc22049b8b583b   (Repo Admin)
+1.0.0.6342117   2c3f565e5f48a0d24ed336e608d472429c7c93f95e5fb62f398ab8efeaa147c0   (Repo Admin)
 
-Administrative keys for demisto/syslog:1.0.0.4856330
+Administrative keys for demisto/syslog:1.0.0.6342117
 
   Repository Key:	11a15eab07f7e41e73476072cbde030a8e584e5848dd9ccae061af343ee287fc
   Root Key:	aa0c2d0ebdc015b28c4b791550a2c77436f62ed42305803a88c33cca848a9422
@@ -47,7 +47,7 @@ Administrative keys for demisto/syslog:1.0.0.4856330
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.6.15
+* Version: 2025.11.12
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -56,7 +56,7 @@ Administrative keys for demisto/syslog:1.0.0.4856330
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.2
+* Version: 3.4.4
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -92,7 +92,7 @@ Administrative keys for demisto/syslog:1.0.0.4856330
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.18.0
+* Version: 3.20.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -110,7 +110,7 @@ Administrative keys for demisto/syslog:1.0.0.4856330
 ### `gevent`
 
 * Summary: Coroutine-based network library
-* Version: 25.8.2
+* Version: 25.9.1
 * Pypi: https://pypi.org/project/gevent/
 * Homepage: http://www.gevent.org/
 * Author: Denis Bilenko denis.bilenko@gmail.com
@@ -119,7 +119,7 @@ Administrative keys for demisto/syslog:1.0.0.4856330
 ### `greenlet`
 
 * Summary: Lightweight in-process concurrent programming
-* Version: 3.2.4
+* Version: 3.3.0
 * Pypi: https://pypi.org/project/greenlet/
 * Homepage: https://greenlet.readthedocs.io/
 * Author: Alexey Borzenkov snaury@gmail.com
@@ -128,11 +128,10 @@ Administrative keys for demisto/syslog:1.0.0.4856330
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.11
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License :: OSI Approved :: BSD License
 
 ### `lark-parser`
 
@@ -163,7 +162,7 @@ Administrative keys for demisto/syslog:1.0.0.4856330
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.2
+* Version: 25.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -200,7 +199,7 @@ Administrative keys for demisto/syslog:1.0.0.4856330
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
-* Version: 6.0.2
+* Version: 6.0.3
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net
@@ -209,16 +208,15 @@ Administrative keys for demisto/syslog:1.0.0.4856330
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2025.11.3
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
-* License: Apache Software License
 
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.4
+* Version: 2.32.5
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -227,7 +225,7 @@ Administrative keys for demisto/syslog:1.0.0.4856330
 ### `requests-file`
 
 * Summary: File transport adapter for Requests
-* Version: 2.1.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/requests-file/
 * Homepage: None
 * Author: David Shea <reallylongword@gmail.com>
@@ -298,7 +296,7 @@ Administrative keys for demisto/syslog:1.0.0.4856330
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.5.0
+* Version: 2.6.1
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -306,16 +304,16 @@ Administrative keys for demisto/syslog:1.0.0.4856330
 ### `zope.event`
 
 * Summary: Very basic event publishing system
-* Version: 5.1.1
+* Version: 6.1
 * Pypi: https://pypi.org/project/zope.event/
 * Homepage: https://github.com/zopefoundation/zope.event
 * Author: Zope Foundation and Contributors zope-dev@zope.dev
-* License :: OSI Approved :: Zope Public License
+* License: ZPL-2.1
 
 ### `zope.interface`
 
 * Summary: Interfaces for Python
-* Version: 7.2
+* Version: 8.1.1
 * Pypi: https://pypi.org/project/zope.interface/
 * Homepage: https://github.com/zopefoundation/zope.interface
 * Author: Zope Foundation and Contributors zope-dev@zope.dev
@@ -323,41 +321,41 @@ Administrative keys for demisto/syslog:1.0.0.4856330
 
 ## `OS Packages`
 
-* .python-rundeps-20250812.224446 noarch {.python-rundeps}
-* alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
-* alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.22.1-r0 x86_64 {alpine-base}
-* apk-tools-2.14.9-r3 x86_64 {apk-tools}
-* busybox-1.37.0-r19 x86_64 {busybox}
-* busybox-binsh-1.37.0-r19 x86_64 {busybox}
-* ca-certificates-20250619-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20250619-r0 x86_64 {ca-certificates}
-* gdbm-1.24-r0 x86_64 {gdbm}
+* .python-rundeps-20251204.004031 noarch {.python-rundeps}
+* alpine-baselayout-3.7.1-r8 x86_64 {alpine-baselayout}
+* alpine-baselayout-data-3.7.1-r8 x86_64 {alpine-baselayout}
+* alpine-keys-2.6-r0 x86_64 {alpine-keys}
+* alpine-release-3.23.0-r0 x86_64 {alpine-base}
+* apk-tools-3.0.1-r1 x86_64 {apk-tools}
+* busybox-1.37.0-r29 x86_64 {busybox}
+* busybox-binsh-1.37.0-r29 x86_64 {busybox}
+* ca-certificates-20251003-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20251003-r0 x86_64 {ca-certificates}
+* gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.21.3-r0 x86_64 {krb5}
-* libapk2-2.14.9-r3 x86_64 {apk-tools}
+* krb5-libs-1.22.1-r0 x86_64 {krb5}
+* libapk-3.0.1-r1 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
-* libcom_err-1.47.2-r2 x86_64 {e2fsprogs}
-* libcrypto3-3.5.2-r0 x86_64 {openssl}
-* libffi-3.4.8-r0 x86_64 {libffi}
-* libintl-0.24.1-r0 x86_64 {gettext}
-* libncursesw-6.5_p20250503-r0 x86_64 {ncurses}
+* libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
+* libcrypto3-3.5.4-r0 x86_64 {openssl}
+* libffi-3.5.2-r0 x86_64 {libffi}
+* libintl-0.24.1-r1 x86_64 {gettext}
+* libncursesw-6.5_p20251123-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
-* libpanelw-6.5_p20250503-r0 x86_64 {ncurses}
-* libssl3-3.5.2-r0 x86_64 {openssl}
-* libtirpc-1.3.5-r0 x86_64 {libtirpc}
-* libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
-* libuuid-2.41-r9 x86_64 {util-linux}
+* libpanelw-6.5_p20251123-r0 x86_64 {ncurses}
+* libssl3-3.5.4-r0 x86_64 {openssl}
+* libtirpc-1.3.5-r1 x86_64 {libtirpc}
+* libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
+* libuuid-2.41.2-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.5-r10 x86_64 {musl}
-* musl-utils-1.2.5-r10 x86_64 {musl}
-* ncurses-terminfo-base-6.5_p20250503-r0 x86_64 {ncurses}
-* readline-8.2.13-r1 x86_64 {readline}
-* scanelf-1.3.8-r1 x86_64 {pax-utils}
-* sqlite-libs-3.49.2-r1 x86_64 {sqlite}
-* ssl_client-1.37.0-r19 x86_64 {busybox}
+* musl-1.2.5-r21 x86_64 {musl}
+* musl-utils-1.2.5-r21 x86_64 {musl}
+* ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
+* readline-8.3.1-r0 x86_64 {readline}
+* scanelf-1.3.8-r2 x86_64 {pax-utils}
+* sqlite-libs-3.51.1-r0 x86_64 {sqlite}
+* ssl_client-1.37.0-r29 x86_64 {busybox}
 * tzdata-2025b-r0 x86_64 {tzdata}
 * xz-libs-5.8.1-r0 x86_64 {xz}
 * zlib-1.3.1-r2 x86_64 {zlib}

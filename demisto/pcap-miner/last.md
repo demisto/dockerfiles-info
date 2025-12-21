@@ -1,9 +1,9 @@
-# `demisto/pcap-miner:1.0.0.5989324`
+# `demisto/pcap-miner:1.0.0.6337967`
 
 ## Docker Metadata
-- Image Size: 100.00 MB
-- Image ID: `sha256:0eb4ff1c83bd8cbf61930683126ddeba8253e9868b1a20be55e76ef3d8694837`
-- Created: `2025-11-24T14:13:46.087319924Z`
+- Image Size: 102.08 MB
+- Image ID: `sha256:1f5816bb25226ae73f223250a3c6397711958be613ed0ac4f6183a1e4ff4a903`
+- Created: `2025-12-18T15:16:20.49488796Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,29 +12,29 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/pcap-miner:1.0.0.5989324`
+  - `DOCKER_IMAGE=demisto/pcap-miner:1.0.0.6337967`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:e70b13ebe759da4de6c71052b885d5cc43576982`
-  - `org.opencontainers.image.version:1.0.0.5989324`
+  - `org.opencontainers.image.revision:86da4333ddfa3d989313efa3b06be1f43cb17ff1`
+  - `org.opencontainers.image.version:1.0.0.6337967`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.22.2`
-  - `PRETTY_NAME="Alpine Linux v3.22"`
+  - `VERSION_ID=3.23.2`
+  - `PRETTY_NAME="Alpine Linux v3.23"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/pcap-miner:1.0.0.5989324
+Signatures for demisto/pcap-miner:1.0.0.6337967
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5989324   974c94442430f69ea25591e966d928b0d91fba3a06596bd5c81fe7ad0b9e8dcf   (Repo Admin)
+1.0.0.6337967   e0343129b8cc397868060014afd5ad088fa1b6a5658f5731bb59b6b4323307cf   (Repo Admin)
 
-Administrative keys for demisto/pcap-miner:1.0.0.5989324
+Administrative keys for demisto/pcap-miner:1.0.0.6337967
 
   Repository Key:	96a3823375c52caeaf2d0fea331785c2a44bcdd81fc771ac59b0e581e05d9621
   Root Key:	9ba37c9e3fcbf21715b56cb970082bb72679ac3092e6ae254674b94ae77f43ee
@@ -56,7 +56,7 @@ Administrative keys for demisto/pcap-miner:1.0.0.5989324
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.8.3
+* Version: 2025.11.12
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -65,7 +65,7 @@ Administrative keys for demisto/pcap-miner:1.0.0.5989324
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.3
+* Version: 3.4.4
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -101,7 +101,7 @@ Administrative keys for demisto/pcap-miner:1.0.0.5989324
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.18.0
+* Version: 3.20.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -119,11 +119,10 @@ Administrative keys for demisto/pcap-miner:1.0.0.5989324
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.11
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License: 
 
 ### `lxml`
 
@@ -228,11 +227,10 @@ Administrative keys for demisto/pcap-miner:1.0.0.5989324
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2025.11.3
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
-* License: Apache Software License
 
 ### `requests`
 
@@ -246,7 +244,7 @@ Administrative keys for demisto/pcap-miner:1.0.0.5989324
 ### `requests-file`
 
 * Summary: File transport adapter for Requests
-* Version: 2.1.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/requests-file/
 * Homepage: None
 * Author: David Shea <reallylongword@gmail.com>
@@ -272,7 +270,7 @@ Administrative keys for demisto/pcap-miner:1.0.0.5989324
 ### `termcolor`
 
 * Summary: ANSI color formatting for output in terminal
-* Version: 3.1.0
+* Version: 3.2.0
 * Pypi: https://pypi.org/project/termcolor/
 * Homepage: None
 * Author: Konstantin Lepa <konstantin.lepa@gmail.com>
@@ -298,80 +296,80 @@ Administrative keys for demisto/pcap-miner:1.0.0.5989324
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.5.0
+* Version: 2.6.1
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 
 ## `OS Packages`
 
-* .python-rundeps-20251009.223815 noarch {.python-rundeps}
-* alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
-* alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.22.2-r0 x86_64 {alpine-base}
-* apk-tools-2.14.9-r3 x86_64 {apk-tools}
-* brotli-libs-1.1.0-r2 x86_64 {brotli}
-* busybox-1.37.0-r20 x86_64 {busybox}
-* busybox-binsh-1.37.0-r20 x86_64 {busybox}
-* c-ares-1.34.5-r0 x86_64 {c-ares}
-* ca-certificates-20250911-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20250911-r0 x86_64 {ca-certificates}
-* gdbm-1.24-r0 x86_64 {gdbm}
-* glib-2.84.4-r0 x86_64 {glib}
-* gmp-6.3.0-r3 x86_64 {gmp}
-* gnutls-3.8.8-r0 x86_64 {gnutls}
+* .python-rundeps-20251204.004031 noarch {.python-rundeps}
+* alpine-baselayout-3.7.1-r8 x86_64 {alpine-baselayout}
+* alpine-baselayout-data-3.7.1-r8 x86_64 {alpine-baselayout}
+* alpine-keys-2.6-r0 x86_64 {alpine-keys}
+* alpine-release-3.23.2-r0 x86_64 {alpine-base}
+* apk-tools-3.0.3-r1 x86_64 {apk-tools}
+* brotli-libs-1.2.0-r0 x86_64 {brotli}
+* busybox-1.37.0-r30 x86_64 {busybox}
+* busybox-binsh-1.37.0-r30 x86_64 {busybox}
+* c-ares-1.34.6-r0 x86_64 {c-ares}
+* ca-certificates-20251003-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20251003-r0 x86_64 {ca-certificates}
+* gdbm-1.26-r0 x86_64 {gdbm}
+* glib-2.86.3-r0 x86_64 {glib}
+* gmp-6.3.0-r4 x86_64 {gmp}
+* gnutls-3.8.11-r0 x86_64 {gnutls}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.21.3-r0 x86_64 {krb5}
-* libapk2-2.14.9-r3 x86_64 {apk-tools}
-* libblkid-2.41-r9 x86_64 {util-linux}
+* krb5-libs-1.22.1-r0 x86_64 {krb5}
+* libapk-3.0.3-r1 x86_64 {apk-tools}
+* libblkid-2.41.2-r0 x86_64 {util-linux}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
-* libcap2-2.76-r0 x86_64 {libcap}
-* libcom_err-1.47.2-r2 x86_64 {e2fsprogs}
+* libcap2-2.77-r0 x86_64 {libcap}
+* libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.4-r0 x86_64 {openssl}
-* libeconf-0.6.3-r0 x86_64 {libeconf}
-* libffi-3.4.8-r0 x86_64 {libffi}
-* libgcrypt-1.10.3-r1 x86_64 {libgcrypt}
+* libeconf-0.8.0-r0 x86_64 {libeconf}
+* libffi-3.5.2-r0 x86_64 {libffi}
+* libgcrypt-1.11.2-r0 x86_64 {libgcrypt}
 * libgpg-error-1.55-r0 x86_64 {libgpg-error}
-* libidn2-2.3.7-r0 x86_64 {libidn2}
-* libintl-0.24.1-r0 x86_64 {gettext}
+* libidn2-2.3.8-r0 x86_64 {libidn2}
+* libintl-0.24.1-r1 x86_64 {gettext}
 * libmagic-5.46-r2 x86_64 {file}
 * libmaxminddb-libs-1.9.1-r0 x86_64 {libmaxminddb}
-* libmount-2.41-r9 x86_64 {util-linux}
-* libncursesw-6.5_p20250503-r0 x86_64 {ncurses}
+* libmount-2.41.2-r0 x86_64 {util-linux}
+* libncursesw-6.5_p20251123-r0 x86_64 {ncurses}
 * libnl3-3.11.0-r0 x86_64 {libnl3}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
-* libpanelw-6.5_p20250503-r0 x86_64 {ncurses}
+* libpanelw-6.5_p20251123-r0 x86_64 {ncurses}
 * libpcap-1.10.5-r1 x86_64 {libpcap}
-* libsmi-0.5.0-r4 x86_64 {libsmi}
-* libssh-0.11.2-r0 x86_64 {libssh}
+* libsmi-0.5.0-r5 x86_64 {libsmi}
+* libssh-0.11.3-r0 x86_64 {libssh}
 * libssl3-3.5.4-r0 x86_64 {openssl}
 * libtasn1-4.20.0-r0 x86_64 {libtasn1}
-* libtirpc-1.3.5-r0 x86_64 {libtirpc}
-* libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
-* libunistring-1.3-r0 x86_64 {libunistring}
-* libuuid-2.41-r9 x86_64 {util-linux}
+* libtirpc-1.3.5-r1 x86_64 {libtirpc}
+* libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
+* libunistring-1.4.1-r0 x86_64 {libunistring}
+* libuuid-2.41.2-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
 * libxml2-2.13.9-r0 x86_64 {libxml2}
 * libxslt-1.1.43-r3 x86_64 {libxslt}
-* lua5.4-libs-5.4.7-r0 x86_64 {lua5.4}
+* lua5.4-libs-5.4.8-r0 x86_64 {lua5.4}
 * lz4-libs-1.10.0-r0 x86_64 {lz4}
-* musl-1.2.5-r10 x86_64 {musl}
-* musl-utils-1.2.5-r10 x86_64 {musl}
-* ncurses-terminfo-base-6.5_p20250503-r0 x86_64 {ncurses}
-* nettle-3.10.1-r0 x86_64 {nettle}
-* nghttp2-libs-1.65.0-r0 x86_64 {nghttp2}
+* musl-1.2.5-r21 x86_64 {musl}
+* musl-utils-1.2.5-r21 x86_64 {musl}
+* ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
+* nettle-3.10.2-r0 x86_64 {nettle}
+* nghttp2-libs-1.68.0-r0 x86_64 {nghttp2}
 * p11-kit-0.25.5-r2 x86_64 {p11-kit}
-* pcre2-10.46-r0 x86_64 {pcre2}
-* readline-8.2.13-r1 x86_64 {readline}
-* scanelf-1.3.8-r1 x86_64 {pax-utils}
+* pcre2-10.47-r0 x86_64 {pcre2}
+* readline-8.3.1-r0 x86_64 {readline}
+* scanelf-1.3.8-r2 x86_64 {pax-utils}
 * speexdsp-1.2.1-r2 x86_64 {speexdsp}
-* sqlite-libs-3.49.2-r1 x86_64 {sqlite}
-* ssl_client-1.37.0-r20 x86_64 {busybox}
-* tshark-4.6.0-r0 x86_64 {wireshark}
-* tzdata-2025b-r0 x86_64 {tzdata}
-* wireshark-common-4.6.0-r0 x86_64 {wireshark}
+* sqlite-libs-3.51.1-r0 x86_64 {sqlite}
+* ssl_client-1.37.0-r30 x86_64 {busybox}
+* tshark-4.6.2-r0 x86_64 {wireshark}
+* tzdata-2025c-r0 x86_64 {tzdata}
+* wireshark-common-4.6.2-r0 x86_64 {wireshark}
 * xz-libs-5.8.1-r0 x86_64 {xz}
 * zlib-1.3.1-r2 x86_64 {zlib}
-* zstd-libs-1.5.7-r0 x86_64 {zstd}
+* zstd-libs-1.5.7-r2 x86_64 {zstd}
