@@ -1,9 +1,9 @@
-# `demisto/ibm-db2:1.0.0.5978337`
+# `demisto/ibm-db2:1.0.0.6373981`
 
 ## Docker Metadata
-- Image Size: 114.62 MB
-- Image ID: `sha256:3bacf96a980684a3444903436102b04aae5873b2530f5515e5f28ea75e135ff3`
-- Created: `2025-11-23T20:33:25.747885645Z`
+- Image Size: 114.64 MB
+- Image ID: `sha256:a137cdcf67b17f4cd3dbf08f40c5bef88e2ae72fad66560f946e71bc91a2a62e`
+- Created: `2025-12-21T23:21:30.418233209Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/ibm-db2:1.0.0.5978337`
+  - `DOCKER_IMAGE=demisto/ibm-db2:1.0.0.6373981`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:8600072d460b2c5d22cb41333e385bf4f11bdb35`
-  - `org.opencontainers.image.version:1.0.0.5978337`
+  - `org.opencontainers.image.revision:020a172561cbad4f2f77bbc19e3c03b8d37fe12b`
+  - `org.opencontainers.image.version:1.0.0.6373981`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/ibm-db2:1.0.0.5978337
+Signatures for demisto/ibm-db2:1.0.0.6373981
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5978337   ef2f2c98ef340359dffc857860c0fa314cb2696bd8f78ef77059672edfe2aef3   (Repo Admin)
+1.0.0.6373981   4fa16eccb49b4880911d816c49a0f3205b82933ec80f9b1b601526da5b517819   (Repo Admin)
 
-Administrative keys for demisto/ibm-db2:1.0.0.5978337
+Administrative keys for demisto/ibm-db2:1.0.0.6373981
 
   Repository Key:	6337a735f6ada949bd0fc77c9c4f02002ca37e4c371d55673dac6e742082bced
   Root Key:	a251db0468b1c8b663b1987336e3e6a7935be0ec4d244474d3a2907656934763
@@ -50,7 +50,7 @@ Administrative keys for demisto/ibm-db2:1.0.0.5978337
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.8.3
+* Version: 2025.11.12
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -59,7 +59,7 @@ Administrative keys for demisto/ibm-db2:1.0.0.5978337
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.3
+* Version: 3.4.4
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -86,7 +86,7 @@ Administrative keys for demisto/ibm-db2:1.0.0.5978337
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.18.0
+* Version: 3.20.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -104,7 +104,7 @@ Administrative keys for demisto/ibm-db2:1.0.0.5978337
 ### `ibm_db`
 
 * Summary: Python DBI driver for DB2 (LUW, zOS, i5)
-* Version: 3.2.7
+* Version: 3.2.8
 * Pypi: https://pypi.org/project/ibm-db/
 * Homepage: http://pypi.python.org/pypi/ibm_db/
 * Author: IBM Application Development Team earamma.kanasavi@ibm.com
@@ -113,11 +113,10 @@ Administrative keys for demisto/ibm-db2:1.0.0.5978337
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.11
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License: 
 
 ### `more-itertools`
 
@@ -185,11 +184,10 @@ Administrative keys for demisto/ibm-db2:1.0.0.5978337
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2025.11.3
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
-* License: Apache Software License
 
 ### `requests`
 
@@ -203,7 +201,7 @@ Administrative keys for demisto/ibm-db2:1.0.0.5978337
 ### `requests-file`
 
 * Summary: File transport adapter for Requests
-* Version: 2.1.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/requests-file/
 * Homepage: None
 * Author: David Shea <reallylongword@gmail.com>
@@ -247,7 +245,7 @@ Administrative keys for demisto/ibm-db2:1.0.0.5978337
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.5.0
+* Version: 2.6.1
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
