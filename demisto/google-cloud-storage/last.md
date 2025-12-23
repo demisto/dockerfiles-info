@@ -1,9 +1,9 @@
-# `demisto/google-cloud-storage:1.0.0.6320099`
+# `demisto/google-cloud-storage:1.0.0.6387824`
 
 ## Docker Metadata
-- Image Size: 43.16 MB
-- Image ID: `sha256:7afea32ea94d405aac121b4b25d487c3a3a255b10bbf48ee178b2d2187a14f23`
-- Created: `2025-12-17T14:27:34.197882777Z`
+- Image Size: 42.66 MB
+- Image ID: `sha256:6e92eabaa8b02ec769609e0b6b1a8655cc53bd9e1aea43064606dc9243ea5336`
+- Created: `2025-12-22T17:20:41.5268781Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/google-cloud-storage:1.0.0.6320099`
+  - `DOCKER_IMAGE=demisto/google-cloud-storage:1.0.0.6387824`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:bb2423941439c200fe38ff33749d2f30062fd7db`
-  - `org.opencontainers.image.version:1.0.0.6320099`
+  - `org.opencontainers.image.revision:2ba69c0ae23441b304761286eb27dd12b8ad1ea3`
+  - `org.opencontainers.image.version:1.0.0.6387824`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-cloud-storage:1.0.0.6320099
+Signatures for demisto/google-cloud-storage:1.0.0.6387824
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6320099   a8c069f5beb1b2d4d03d798b1ba5933fb3dcd08c9065ce40f4c64e8991d18822   (Repo Admin)
+1.0.0.6387824   d09347b8719b88de4655a3ca6599160a5e26454a4b42b7a5c7b1d4493e53209d   (Repo Admin)
 
-Administrative keys for demisto/google-cloud-storage:1.0.0.6320099
+Administrative keys for demisto/google-cloud-storage:1.0.0.6387824
 
   Repository Key:	2ab3d4f7a65f14d64dba54c7aded1079c285fff5ad812fc19854d63a0c782c18
   Root Key:	3c2392b332f73092db366898dd6e161ffbf0aff1d5cfedf61a69e056c49a538e
@@ -109,7 +109,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.6320099
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.18.0
+* Version: 3.20.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -176,7 +176,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.6320099
 * Pypi: https://pypi.org/project/google-crc32c/
 * Homepage: https://github.com/googleapis/python-crc32c
 * Author: Google LLC googleapis-packages@google.com
-* License: Apache 2.0
+* License :: BSD 3-Clause License
 
 ### `google-resumable-media`
 
@@ -238,7 +238,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.6320099
 * Pypi: https://pypi.org/project/importlib-metadata/
 * Homepage: None
 * Author: "Jason R. Coombs" <jaraco@jaraco.com>
-* License :: OSI Approved :: Apache Software License
+* License: 
 
 ### `more-itertools`
 
@@ -366,11 +366,10 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.6320099
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2025.11.3
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
-* License: Apache Software License
 
 ### `requests`
 
@@ -384,7 +383,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.6320099
 ### `requests-file`
 
 * Summary: File transport adapter for Requests
-* Version: 2.1.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/requests-file/
 * Homepage: None
 * Author: David Shea <reallylongword@gmail.com>

@@ -1,9 +1,9 @@
-# `demisto/sixgill:1.0.0.6159840`
+# `demisto/sixgill:1.0.0.6383083`
 
 ## Docker Metadata
-- Image Size: 29.47 MB
-- Image ID: `sha256:b38363977ec9d2e193144b190376cdc3accffaa872ac5499fa812a43607e4bb0`
-- Created: `2025-12-06T02:47:53.733157837Z`
+- Image Size: 29.99 MB
+- Image ID: `sha256:cf68d946e593aadbcbffc514c8a1b5fdd21d3b258ab3fdb2536ed31494776389`
+- Created: `2025-12-22T13:39:52.00175053Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/sixgill:1.0.0.6159840`
+  - `DOCKER_IMAGE=demisto/sixgill:1.0.0.6383083`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:2500a4e0abcd6ddaa54bac3f8e10e81364c4a5bd`
-  - `org.opencontainers.image.version:1.0.0.6159840`
+  - `org.opencontainers.image.revision:8a541184a400433669480bb98fc214eccacf898d`
+  - `org.opencontainers.image.version:1.0.0.6383083`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sixgill:1.0.0.6159840
+Signatures for demisto/sixgill:1.0.0.6383083
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6159840   f9784ad345fd86d34d68cded57ca6823ccb41502259899d8e81cf5b5c0182497   (Repo Admin)
+1.0.0.6383083   bc9ee2dd576e97a65082b2951de83d0a7b6f6a2fc4d9b0f50704f5bd374b974d   (Repo Admin)
 
-Administrative keys for demisto/sixgill:1.0.0.6159840
+Administrative keys for demisto/sixgill:1.0.0.6383083
 
   Repository Key:	58244cace1e0dfca02588d350912308d7a945334b498b7ac5b817eed4f1bcdb9
   Root Key:	19c64b4ec94df00225df70fe86343f3282ab1ce2fd26da1f766d1aaed185ae8e
@@ -92,7 +92,7 @@ Administrative keys for demisto/sixgill:1.0.0.6159840
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.18.0
+* Version: 3.20.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -182,11 +182,10 @@ Administrative keys for demisto/sixgill:1.0.0.6159840
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2025.11.3
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
-* License: Apache Software License
 
 ### `requests`
 
@@ -200,7 +199,7 @@ Administrative keys for demisto/sixgill:1.0.0.6159840
 ### `requests-file`
 
 * Summary: File transport adapter for Requests
-* Version: 2.1.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/requests-file/
 * Homepage: None
 * Author: David Shea <reallylongword@gmail.com>
