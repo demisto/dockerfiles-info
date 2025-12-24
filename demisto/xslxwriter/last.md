@@ -1,9 +1,9 @@
-# `demisto/xslxwriter:1.0.0.6390188`
+# `demisto/xslxwriter:1.0.0.6393313`
 
 ## Docker Metadata
 - Image Size: 29.57 MB
-- Image ID: `sha256:ac1e3038448e00d88b0a580718ccd368177158dc6126b5ebb7991d92c10e2d0a`
-- Created: `2025-12-22T21:21:27.871293956Z`
+- Image ID: `sha256:3632381b90c86f40e63756902313c1ff81c1f342c5b573e5a9d8179d1a379668`
+- Created: `2025-12-23T05:21:09.697327913Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/xslxwriter:1.0.0.6390188`
+  - `DOCKER_IMAGE=demisto/xslxwriter:1.0.0.6393313`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:bbc13a3f897a3355236c413002f9375466b42d1f`
-  - `org.opencontainers.image.version:1.0.0.6390188`
+  - `org.opencontainers.image.revision:21931ff105d28694aef0dba899aaf4ff4a2bec08`
+  - `org.opencontainers.image.version:1.0.0.6393313`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/xslxwriter:1.0.0.6390188
+Signatures for demisto/xslxwriter:1.0.0.6393313
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6390188   0efa01f9f7298dc658e3afe6b6e3198a6b83fec7ae3126ad37dcf445d20da4c3   (Repo Admin)
+1.0.0.6393313   5e463bf28a16e8d5a2949b7bde24d859a0fb296bb28ead4755a0424684af6985   (Repo Admin)
 
-Administrative keys for demisto/xslxwriter:1.0.0.6390188
+Administrative keys for demisto/xslxwriter:1.0.0.6393313
 
   Repository Key:	e8e49cc819a4d512f17fe094d10e77951bf5c234b81c81951f98209ad7acee26
   Root Key:	8d2a002fae9ef037f48c319a0600f8e47c3bc4eb31a4f3d4e96c37e9d1397a60
