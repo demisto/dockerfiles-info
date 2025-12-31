@@ -1,9 +1,9 @@
-# `demisto/xpanse-ml-ev2:1.0.0.6226767`
+# `demisto/xpanse-ml-ev2:1.0.0.6494591`
 
 ## Docker Metadata
-- Image Size: 171.96 MB
-- Image ID: `sha256:7a05ee3b784bd52fd2b77c6423e7ffb606bf6facdbffb2b7482d9aca71b696eb`
-- Created: `2025-12-10T14:35:58.243634503Z`
+- Image Size: 171.25 MB
+- Image ID: `sha256:1fa6c4056bd3c4088a7c6b3a3b6b6f3d69bdb3c45857f4eb9042c9df5ed67389`
+- Created: `2025-12-31T05:06:50.480052217Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.6226767`
+  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.6494591`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:ef53a58d78ef19b96ebda580b751010c956d8784`
-  - `org.opencontainers.image.version:1.0.0.6226767`
+  - `org.opencontainers.image.revision:24a3b76682757d5b51881901adfdc5017aa72707`
+  - `org.opencontainers.image.version:1.0.0.6494591`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/xpanse-ml-ev2:1.0.0.6226767
+Signatures for demisto/xpanse-ml-ev2:1.0.0.6494591
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6226767   aa724e83c8d5325a8067b8707374ce6a1e479bf5b968ea8d7ed16b1b38efdb27   (Repo Admin)
+1.0.0.6494591   babe7f9dedae430d090b91a018715c011df881d0700eded3adff2681a533fcf0   (Repo Admin)
 
-Administrative keys for demisto/xpanse-ml-ev2:1.0.0.6226767
+Administrative keys for demisto/xpanse-ml-ev2:1.0.0.6494591
 
   Repository Key:	fa55b8182edbcafca39872dc58748778b2ff80634214e1872a9351313e618c45
   Root Key:	4324e3baaaa90dedc0be93f30c2271fb7bbaa8de8949e6c3996a45c6e81637d2
@@ -52,9 +52,9 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.6226767
 * Summary: Extensible memoizing collections and decorators
 * Version: 6.2.2
 * Pypi: https://pypi.org/project/cachetools/
-* Homepage: https://github.com/tkem/cachetools/
-* Author: Thomas Kemmer tkemmer@computer.org
-* License :: OSI Approved :: MIT License
+* Homepage: None
+* Author: Thomas Kemmer <tkemmer@computer.org>
+* License: MIT
 
 ### `certifi`
 
@@ -104,7 +104,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.6226767
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.18.0
+* Version: 3.20.1
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -162,7 +162,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.6226767
 * Pypi: https://pypi.org/project/google-crc32c/
 * Homepage: https://github.com/googleapis/python-crc32c
 * Author: Google LLC googleapis-packages@google.com
-* License: Apache 2.0
+* License :: BSD 3-Clause License
 
 ### `google-resumable-media`
 
@@ -197,7 +197,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.6226767
 * Pypi: https://pypi.org/project/joblib/
 * Homepage: None
 * Author: Gael Varoquaux <gael.varoquaux@normalesup.org>
-* License :: OSI Approved :: BSD License
+* License: BSD 3-Clause
 
 ### `more-itertools`
 
@@ -210,11 +210,10 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.6226767
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.3.5
+* Version: 2.4.0
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.
-* License :: OSI Approved :: BSD License
 
 ### `olefile`
 
@@ -319,11 +318,10 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.6226767
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2025.11.3
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
-* License: Apache Software License
 
 ### `requests`
 
@@ -337,7 +335,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.6226767
 ### `requests-file`
 
 * Summary: File transport adapter for Requests
-* Version: 2.1.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/requests-file/
 * Homepage: None
 * Author: David Shea <reallylongword@gmail.com>
@@ -398,11 +396,10 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.6226767
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.0
+* Version: 5.3.1
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
-* License :: OSI Approved :: BSD License
 
 ### `tzdata`
 
@@ -411,7 +408,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.6226767
 * Pypi: https://pypi.org/project/tzdata/
 * Homepage: https://github.com/python/tzdata
 * Author: Python Software Foundation datetime-sig@python.org
-* License :: OSI Approved :: Apache Software License
+* License: Apache-2.0
 
 ### `tzlocal`
 
