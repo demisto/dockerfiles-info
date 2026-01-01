@@ -1,9 +1,9 @@
-# `demisto/google-kms:1.0.0.6373981`
+# `demisto/google-kms:1.0.0.6494721`
 
 ## Docker Metadata
-- Image Size: 71.68 MB
-- Image ID: `sha256:c54965a0b92f33cfaf9aa6fc3caf9ccb67630c504b05ccf7b5fa6a3a8b4bbb3d`
-- Created: `2025-12-21T23:20:16.558704964Z`
+- Image Size: 71.38 MB
+- Image ID: `sha256:d9f71db2dfdad831f8a21200454b8420db9b5c88e3427776398d92e61f728dc9`
+- Created: `2025-12-31T05:31:49.327323656Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/google-kms:1.0.0.6373981`
+  - `DOCKER_IMAGE=demisto/google-kms:1.0.0.6494721`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:020a172561cbad4f2f77bbc19e3c03b8d37fe12b`
-  - `org.opencontainers.image.version:1.0.0.6373981`
+  - `org.opencontainers.image.revision:33928c729034fa7921c1d3c1fc8bd11e459cc462`
+  - `org.opencontainers.image.version:1.0.0.6494721`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-kms:1.0.0.6373981
+Signatures for demisto/google-kms:1.0.0.6494721
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6373981   d7857a6579c1c42045ffd0b38259d8350be6eaa028d35fa1d5576fc12322769a   (Repo Admin)
+1.0.0.6494721   220375afbe1ec1d6970114795fb990f7a55913568e3b53225e34aca6a8081d7d   (Repo Admin)
 
-Administrative keys for demisto/google-kms:1.0.0.6373981
+Administrative keys for demisto/google-kms:1.0.0.6494721
 
   Repository Key:	3968c10ba3e31bc8df33d81159ca1fe0b3299a456046b6bf78410ae84ede0850
   Root Key:	d0fd563a2245b5e45fc961df4aaaa6e8aaca915308df0a0eeb6c829867f63a34
@@ -110,7 +110,7 @@ Administrative keys for demisto/google-kms:1.0.0.6373981
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.20.0
+* Version: 3.20.1
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -359,11 +359,10 @@ Administrative keys for demisto/google-kms:1.0.0.6373981
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.0
+* Version: 5.3.1
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
-* License :: OSI Approved :: BSD License
 
 ### `typing_extensions`
 
