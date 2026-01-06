@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.6253844`
+# `demisto/google-vision-api:1.0.0.6561802`
 
 ## Docker Metadata
-- Image Size: 131.89 MB
-- Image ID: `sha256:377abdcbe2a59aa34b96e43c2a0f4d1c0b6802194469cab950250e0ed4be332e`
-- Created: `2025-12-12T14:39:58.530677894Z`
+- Image Size: 131.24 MB
+- Image ID: `sha256:3f265e9e15d04b3e185bc17d7c13b39e67dc807996ed349117e4a47de1ad4a65`
+- Created: `2026-01-05T14:31:20.335653388Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.6253844`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.6561802`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:87f4a35d6d8da3e9f4d153ed18c90b5a228d2590`
-  - `org.opencontainers.image.version:1.0.0.6253844`
+  - `org.opencontainers.image.revision:7e72765c8efd2bfb9c5c6df65a52db57d927a0fb`
+  - `org.opencontainers.image.version:1.0.0.6561802`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-vision-api:1.0.0.6253844
+Signatures for demisto/google-vision-api:1.0.0.6561802
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6253844   8f249d639b2dcd46f58e88ff33f1a8081700289c377008da1c06725d189d0de1   (Repo Admin)
+1.0.0.6561802   a5c1ddd89d705f87c91162a858863a4389f30e7d0cc5797a5f52955dda4528dd   (Repo Admin)
 
-Administrative keys for demisto/google-vision-api:1.0.0.6253844
+Administrative keys for demisto/google-vision-api:1.0.0.6561802
 
   Repository Key:	8f699c169d21da1343c2ea4f465fe5f19ace3822c0fd85c2d1a054379abf30dd
   Root Key:	23130201a9ea6e060cceb9cf5a1998649873c190c980fe0d6c487df1fadbc6ef
@@ -67,16 +67,15 @@ Administrative keys for demisto/google-vision-api:1.0.0.6253844
 ### `cachetools`
 
 * Summary: Extensible memoizing collections and decorators
-* Version: 6.2.2
+* Version: 6.2.4
 * Pypi: https://pypi.org/project/cachetools/
 * Homepage: None
 * Author: Thomas Kemmer <tkemmer@computer.org>
-* License: MIT
 
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.11.12
+* Version: 2026.1.4
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -130,7 +129,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.6253844
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.18.0
+* Version: 3.20.1
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -175,7 +174,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.6253844
 ### `google-auth-httplib2`
 
 * Summary: Google Authentication Library: httplib2 transport
-* Version: 0.2.1
+* Version: 0.3.0
 * Pypi: https://pypi.org/project/google-auth-httplib2/
 * Homepage: https://github.com/GoogleCloudPlatform/google-auth-library-python-httplib2
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -206,7 +205,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.6253844
 * Pypi: https://pypi.org/project/google-cloud-bigquery/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
-* License :: OSI Approved :: Apache Software License
+* License: Apache 2.0
 
 ### `google-cloud-core`
 
@@ -251,7 +250,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.6253844
 * Pypi: https://pypi.org/project/google-crc32c/
 * Homepage: https://github.com/googleapis/python-crc32c
 * Author: Google LLC googleapis-packages@google.com
-* License: Apache 2.0
+* License :: BSD 3-Clause License
 
 ### `google-genai`
 
@@ -365,7 +364,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.6253844
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.
-* License :: OSI Approved :: BSD License
+* License: Copyright (c) 2005-2025, NumPy Developers.
 
 ### `oauth2client`
 
@@ -513,11 +512,10 @@ Administrative keys for demisto/google-vision-api:1.0.0.6253844
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2025.11.3
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
-* License: Apache Software License
 
 ### `requests`
 
@@ -531,7 +529,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.6253844
 ### `requests-file`
 
 * Summary: File transport adapter for Requests
-* Version: 2.1.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/requests-file/
 * Homepage: None
 * Author: David Shea <reallylongword@gmail.com>
@@ -603,11 +601,10 @@ Administrative keys for demisto/google-vision-api:1.0.0.6253844
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.0
+* Version: 5.3.1
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
-* License :: OSI Approved :: BSD License
 
 ### `typing_extensions`
 
