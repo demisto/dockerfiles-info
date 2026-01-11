@@ -1,9 +1,9 @@
-# `demisto/falcon-mcp:1.0.0.6111948`
+# `demisto/falcon-mcp:1.0.0.6620147`
 
 ## Docker Metadata
-- Image Size: 42.93 MB
-- Image ID: `sha256:d4353ede167efe942557a74e262108b759f4816590a94b07ab9404cd85b7eba8`
-- Created: `2025-12-03T09:28:18.820058949Z`
+- Image Size: 43.52 MB
+- Image ID: `sha256:db4109cd4fccff27fb4c2151e2094480bd15036ab28290ec42517b865308b403`
+- Created: `2026-01-09T14:50:23.393468854Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,29 +12,29 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/falcon-mcp:1.0.0.6111948`
+  - `DOCKER_IMAGE=demisto/falcon-mcp:1.0.0.6620147`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:c0819e52cf935ed206bedc59d0dd2b04f12cdb0d`
-  - `org.opencontainers.image.version:1.0.0.6111948`
+  - `org.opencontainers.image.revision:728ddb7a7c369fb2754300f7e5bddf9efb477a0f`
+  - `org.opencontainers.image.version:1.0.0.6620147`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.22.2`
-  - `PRETTY_NAME="Alpine Linux v3.22"`
+  - `VERSION_ID=3.23.0`
+  - `PRETTY_NAME="Alpine Linux v3.23"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/falcon-mcp:1.0.0.6111948
+Signatures for demisto/falcon-mcp:1.0.0.6620147
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6111948   c04ad18fe2071f46c3dd559c021f9182c2db624bc49dec3d46e496777e0d01f4   (Repo Admin)
+1.0.0.6620147   d5c097637cb1c787c51599a059439bcfa2f3a57ad334a353b8886c3985d88e36   (Repo Admin)
 
-Administrative keys for demisto/falcon-mcp:1.0.0.6111948
+Administrative keys for demisto/falcon-mcp:1.0.0.6620147
 
   Repository Key:	a03232c4922392f2cb358048180f8fb3c53f5db2f411407beccdc21f49c5f0e1
   Root Key:	1071849aa39c114dff6ba6e5c4e12ac3636a8de422869836878ca48277291639
@@ -56,7 +56,7 @@ Administrative keys for demisto/falcon-mcp:1.0.0.6111948
 ### `anyio`
 
 * Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.12.0
+* Version: 4.12.1
 * Pypi: https://pypi.org/project/anyio/
 * Homepage: None
 * Author: Alex Grönholm <alex.gronholm@nextday.fi>
@@ -73,7 +73,7 @@ Administrative keys for demisto/falcon-mcp:1.0.0.6111948
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.11.12
+* Version: 2026.1.4
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -107,7 +107,7 @@ Administrative keys for demisto/falcon-mcp:1.0.0.6111948
 ### `crowdstrike-falconpy`
 
 * Summary: The CrowdStrike Falcon SDK for Python
-* Version: 1.5.4
+* Version: 1.6.0
 * Pypi: https://pypi.org/project/crowdstrike-falconpy/
 * Homepage: None
 * Author: CrowdStrike <falconpy@crowdstrike.com>
@@ -151,7 +151,7 @@ Administrative keys for demisto/falcon-mcp:1.0.0.6111948
 ### `falcon-mcp`
 
 * Summary: CrowdStrike Falcon MCP Server
-* Version: 0.3.0
+* Version: 0.4.1
 * Pypi: https://pypi.org/project/falcon-mcp/
 * Homepage: None
 * Author: CrowdStrike <cloud-integrations@crowdstrike.com>
@@ -222,7 +222,7 @@ Administrative keys for demisto/falcon-mcp:1.0.0.6111948
 ### `jsonschema`
 
 * Summary: An implementation of JSON Schema validation for Python
-* Version: 4.25.1
+* Version: 4.26.0
 * Pypi: https://pypi.org/project/jsonschema/
 * Homepage: None
 * Author: Julian Berman <Julian+jsonschema@GrayVines.com>
@@ -238,7 +238,7 @@ Administrative keys for demisto/falcon-mcp:1.0.0.6111948
 ### `mcp`
 
 * Summary: Model Context Protocol SDK
-* Version: 1.23.1
+* Version: 1.25.0
 * Pypi: https://pypi.org/project/mcp/
 * Homepage: None
 * Author: Anthropic, PBC.
@@ -343,7 +343,7 @@ Administrative keys for demisto/falcon-mcp:1.0.0.6111948
 ### `python-multipart`
 
 * Summary: A streaming multipart parser for Python
-* Version: 0.0.20
+* Version: 0.0.21
 * Pypi: https://pypi.org/project/python-multipart/
 * Homepage: None
 * Author: Andrew Dunham <andrew@du.nham.ca>, Marcelo Trylesinski <marcelotryle@gmail.com>
@@ -440,7 +440,7 @@ Administrative keys for demisto/falcon-mcp:1.0.0.6111948
 ### `sse-starlette`
 
 * Summary: SSE plugin for Starlette
-* Version: 3.0.3
+* Version: 3.1.2
 * Pypi: https://pypi.org/project/sse-starlette/
 * Homepage: None
 * Author: sysid <sysid@gmx.de>
@@ -460,7 +460,7 @@ Administrative keys for demisto/falcon-mcp:1.0.0.6111948
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
-* License :: OSI Approved :: BSD License
+* License: BSD-3-Clause
 
 ### `typing_extensions`
 
@@ -490,7 +490,7 @@ Administrative keys for demisto/falcon-mcp:1.0.0.6111948
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.5.0
+* Version: 2.6.3
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -498,48 +498,48 @@ Administrative keys for demisto/falcon-mcp:1.0.0.6111948
 ### `uvicorn`
 
 * Summary: The lightning-fast ASGI server.
-* Version: 0.38.0
+* Version: 0.40.0
 * Pypi: https://pypi.org/project/uvicorn/
 * Homepage: None
 * Author: Tom Christie <tom@tomchristie.com>
 
 ## `OS Packages`
 
-* .python-rundeps-20251009.223815 noarch {.python-rundeps}
-* alpine-baselayout-3.7.0-r0 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.7.0-r0 x86_64 {alpine-baselayout}
-* alpine-keys-2.5-r0 x86_64 {alpine-keys}
-* alpine-release-3.22.2-r0 x86_64 {alpine-base}
-* apk-tools-2.14.9-r3 x86_64 {apk-tools}
-* busybox-1.37.0-r19 x86_64 {busybox}
-* busybox-binsh-1.37.0-r19 x86_64 {busybox}
-* ca-certificates-20250911-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20250911-r0 x86_64 {ca-certificates}
-* gdbm-1.24-r0 x86_64 {gdbm}
+* .python-rundeps-20251204.004031 noarch {.python-rundeps}
+* alpine-baselayout-3.7.1-r8 x86_64 {alpine-baselayout}
+* alpine-baselayout-data-3.7.1-r8 x86_64 {alpine-baselayout}
+* alpine-keys-2.6-r0 x86_64 {alpine-keys}
+* alpine-release-3.23.0-r0 x86_64 {alpine-base}
+* apk-tools-3.0.1-r1 x86_64 {apk-tools}
+* busybox-1.37.0-r29 x86_64 {busybox}
+* busybox-binsh-1.37.0-r29 x86_64 {busybox}
+* ca-certificates-20251003-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20251003-r0 x86_64 {ca-certificates}
+* gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.21.3-r0 x86_64 {krb5}
-* libapk2-2.14.9-r3 x86_64 {apk-tools}
+* krb5-libs-1.22.1-r0 x86_64 {krb5}
+* libapk-3.0.1-r1 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
-* libcom_err-1.47.2-r2 x86_64 {e2fsprogs}
+* libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.4-r0 x86_64 {openssl}
-* libffi-3.4.8-r0 x86_64 {libffi}
-* libintl-0.24.1-r0 x86_64 {gettext}
-* libncursesw-6.5_p20250503-r0 x86_64 {ncurses}
+* libffi-3.5.2-r0 x86_64 {libffi}
+* libintl-0.24.1-r1 x86_64 {gettext}
+* libncursesw-6.5_p20251123-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
-* libpanelw-6.5_p20250503-r0 x86_64 {ncurses}
+* libpanelw-6.5_p20251123-r0 x86_64 {ncurses}
 * libssl3-3.5.4-r0 x86_64 {openssl}
-* libtirpc-1.3.5-r0 x86_64 {libtirpc}
-* libtirpc-conf-1.3.5-r0 x86_64 {libtirpc}
-* libuuid-2.41-r9 x86_64 {util-linux}
+* libtirpc-1.3.5-r1 x86_64 {libtirpc}
+* libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
+* libuuid-2.41.2-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.5-r10 x86_64 {musl}
-* musl-utils-1.2.5-r10 x86_64 {musl}
-* ncurses-terminfo-base-6.5_p20250503-r0 x86_64 {ncurses}
-* readline-8.2.13-r1 x86_64 {readline}
-* scanelf-1.3.8-r1 x86_64 {pax-utils}
-* sqlite-libs-3.49.2-r1 x86_64 {sqlite}
-* ssl_client-1.37.0-r19 x86_64 {busybox}
+* musl-1.2.5-r21 x86_64 {musl}
+* musl-utils-1.2.5-r21 x86_64 {musl}
+* ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
+* readline-8.3.1-r0 x86_64 {readline}
+* scanelf-1.3.8-r2 x86_64 {pax-utils}
+* sqlite-libs-3.51.1-r0 x86_64 {sqlite}
+* ssl_client-1.37.0-r29 x86_64 {busybox}
 * tzdata-2025b-r0 x86_64 {tzdata}
 * xz-libs-5.8.1-r0 x86_64 {xz}
 * zlib-1.3.1-r2 x86_64 {zlib}
