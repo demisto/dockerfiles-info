@@ -1,9 +1,9 @@
-# `demisto/xsoar-tools:1.0.0.6153189`
+# `demisto/xsoar-tools:1.0.0.6654318`
 
 ## Docker Metadata
-- Image Size: 121.97 MB
-- Image ID: `sha256:8e303c981345030f2aad3e6b6e77f44c0099122519c440e7f05fb1326a8f92b4`
-- Created: `2025-12-05T05:23:40.649679757Z`
+- Image Size: 121.99 MB
+- Image ID: `sha256:441918bcb6a811c25e33844a7d40cde37e90d3860bfa2cf3bc0ebd647df9d946`
+- Created: `2026-01-12T18:23:21.961318115Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/xsoar-tools:1.0.0.6153189`
+  - `DOCKER_IMAGE=demisto/xsoar-tools:1.0.0.6654318`
   - `DEMISTO_SDK_IGNORE_CONTENT_WARNING=true`
   - `DEMISTO_SDK_SKIP_LOGGER_SETUP=true`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:a8440d9abed36878c297b5113ba14b346c1f25a9`
-  - `org.opencontainers.image.version:1.0.0.6153189`
+  - `org.opencontainers.image.revision:00ac42091b39b9089331bd6bd930482b6d9caae6`
+  - `org.opencontainers.image.version:1.0.0.6654318`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -31,12 +31,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/xsoar-tools:1.0.0.6153189
+Signatures for demisto/xsoar-tools:1.0.0.6654318
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6153189   233b084f3a791c38d32ebd616a38d2ec878da9e30c631c0a36a63f444651b410   (Repo Admin)
+1.0.0.6654318   ee5de2810980584e4dd591a6e60a239c82f3d76525585c2cda02e614566c2c47   (Repo Admin)
 
-Administrative keys for demisto/xsoar-tools:1.0.0.6153189
+Administrative keys for demisto/xsoar-tools:1.0.0.6654318
 
   Repository Key:	cf22d1c7d99eaa36ee3a4c4e143589874b21f83068fff42ce971ffaa44c737b6
   Root Key:	83b859e2320bd9a76afcab59964970ff8ba4b4719fa697c8c032e27151f016e6
@@ -113,9 +113,9 @@ Administrative keys for demisto/xsoar-tools:1.0.0.6153189
 * Summary: Extensible memoizing collections and decorators
 * Version: 6.2.2
 * Pypi: https://pypi.org/project/cachetools/
-* Homepage: https://github.com/tkem/cachetools/
-* Author: Thomas Kemmer tkemmer@computer.org
-* License :: OSI Approved :: MIT License
+* Homepage: None
+* Author: Thomas Kemmer <tkemmer@computer.org>
+* License: MIT
 
 ### `certifi`
 
@@ -193,7 +193,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.6153189
 * Version: 7.3.4
 * Pypi: https://pypi.org/project/coverage/
 * Homepage: https://github.com/coveragepy/coveragepy
-* Author: Ned Batchelder and 245 others ned@nedbatchelder.com
+* Author: Ned Batchelder and 248 others ned@nedbatchelder.com
 * License: Apache-2.0
 
 ### `cryptography`
@@ -243,7 +243,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.6153189
 ### `demisto-py`
 
 * Summary: "A Python library for the Demisto API"
-* Version: 3.2.21
+* Version: 3.2.22
 * Pypi: https://pypi.org/project/demisto-py/
 * Homepage: https://github.com/demisto/demisto-py
 * Author: Demisto
@@ -427,7 +427,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.6153189
 * Pypi: https://pypi.org/project/google-crc32c/
 * Homepage: https://github.com/googleapis/python-crc32c
 * Author: Google LLC googleapis-packages@google.com
-* License: Apache 2.0
+* License :: BSD 3-Clause License
 
 ### `google-resumable-media`
 
@@ -560,7 +560,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.6153189
 * Pypi: https://pypi.org/project/joblib/
 * Homepage: None
 * Author: Gael Varoquaux <gael.varoquaux@normalesup.org>
-* License :: OSI Approved :: BSD License
+* License: BSD 3-Clause
 
 ### `json5`
 
@@ -931,7 +931,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.6153189
 ### `PyNaCl`
 
 * Summary: Python binding to the Networking and Cryptography (NaCl) library
-* Version: 1.6.1
+* Version: 1.6.2
 * Pypi: https://pypi.org/project/PyNaCl/
 * Homepage: https://github.com/pyca/pynacl/
 * Author: The PyNaCl developers <cryptography-dev@python.org>
@@ -1210,7 +1210,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.6153189
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
-* License :: OSI Approved :: BSD License
+* License: BSD-3-Clause
 
 ### `toml`
 
@@ -1246,8 +1246,8 @@ Administrative keys for demisto/xsoar-tools:1.0.0.6153189
 * Version: 0.16.1
 * Pypi: https://pypi.org/project/typer/
 * Homepage: None
-* Author: =?utf-8?q?Sebasti=C3=A1n_Ram=C3=ADrez?= <tiangolo@gmail.com>
-* License :: OSI Approved :: MIT License
+* Author: Sebastián Ramírez <tiangolo@gmail.com>
+* License: 
 
 ### `typing_extensions`
 
@@ -1269,11 +1269,10 @@ Administrative keys for demisto/xsoar-tools:1.0.0.6153189
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.0.7
+* Version: 2.6.3
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
-* License: 
 
 ### `uv`
 
@@ -1349,7 +1348,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.6153189
 * brotli-libs-1.2.0-r0 x86_64 {brotli}
 * busybox-1.37.0-r29 x86_64 {busybox}
 * busybox-binsh-1.37.0-r29 x86_64 {busybox}
-* c-ares-1.34.5-r0 x86_64 {c-ares}
+* c-ares-1.34.6-r0 x86_64 {c-ares}
 * ca-certificates-20251003-r0 x86_64 {ca-certificates}
 * ca-certificates-bundle-20251003-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
