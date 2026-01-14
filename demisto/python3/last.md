@@ -1,9 +1,9 @@
-# `demisto/python3:3.12.12.6391686`
+# `demisto/python3:3.12.12.6663663`
 
 ## Docker Metadata
-- Image Size: 29.12 MB
-- Image ID: `sha256:84579b2fbe525418925896da9fea52f17862fef3e3121935f496b51bc4b8d73a`
-- Created: `2025-12-23T00:56:59.793761336Z`
+- Image Size: 29.11 MB
+- Image ID: `sha256:4376a01c57fd9d5d78a8d4b7a0189e43110d052b02abad1e9c42be4d3e192b81`
+- Created: `2026-01-13T11:35:03.359955705Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/python3:3.12.12.6391686`
+  - `DOCKER_IMAGE=demisto/python3:3.12.12.6663663`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:1fccabf1bf581bf7b0ddb17e6bdad3ab596fe4b3`
-  - `org.opencontainers.image.version:3.12.12.6391686`
+  - `org.opencontainers.image.revision:5f4cf02708fd46234bbfbce46445ee04fd63f142`
+  - `org.opencontainers.image.version:3.12.12.6663663`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3:3.12.12.6391686
+Signatures for demisto/python3:3.12.12.6663663
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.12.6391686   1066fb8ab391f17345fc34369f6a4829721622a4a61c6328b7a8cd37f5d4881d   (Repo Admin)
+3.12.12.6663663   ceeefa3e85a79a938e158d2fcab87e5e9f68ea885d877b2cf431015fa760b71f   (Repo Admin)
 
-Administrative keys for demisto/python3:3.12.12.6391686
+Administrative keys for demisto/python3:3.12.12.6663663
 
   Repository Key:	dd922c0a78cf908782d68ed2f99cae9350740fc2da582a1cb5c03e530ba2dd31
   Root Key:	46ab19438bfff81c925ab27466b52b175de43bad8e8a19cc878e9288246bff8d
@@ -47,7 +47,7 @@ Administrative keys for demisto/python3:3.12.12.6391686
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.11.12
+* Version: 2026.1.4
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -92,7 +92,7 @@ Administrative keys for demisto/python3:3.12.12.6391686
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.20.1
+* Version: 3.20.3
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -224,11 +224,10 @@ Administrative keys for demisto/python3:3.12.12.6391686
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.0
+* Version: 5.3.1
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
-* License :: OSI Approved :: BSD License
 
 ### `tzlocal`
 
@@ -242,7 +241,7 @@ Administrative keys for demisto/python3:3.12.12.6391686
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.6.1
+* Version: 2.6.3
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
