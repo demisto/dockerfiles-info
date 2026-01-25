@@ -1,9 +1,9 @@
-# `demisto/syslog:1.0.0.6800631`
+# `demisto/syslog:1.0.0.6835941`
 
 ## Docker Metadata
-- Image Size: 35.53 MB
-- Image ID: `sha256:96c98fbf73adda53371b0eff4f4b1c7f1f7d4a3a140fcf4264c63cf4d3a8dc78`
-- Created: `2026-01-20T17:49:11.418495575Z`
+- Image Size: 39.16 MB
+- Image ID: `sha256:9d2f8f4f4a568336d7a154fc6791515ccaf4cd82d04a5279e1fc32460615591d`
+- Created: `2026-01-22T14:43:11.465948471Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/syslog:1.0.0.6800631`
+  - `DOCKER_IMAGE=demisto/syslog:1.0.0.6835941`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:5159e020de1d77932d4f9dd6a81a2166b85356fb`
-  - `org.opencontainers.image.version:1.0.0.6800631`
+  - `org.opencontainers.image.revision:bf03755de60284bebb2d1c878a0da39d1f391403`
+  - `org.opencontainers.image.version:1.0.0.6835941`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/syslog:1.0.0.6800631
+Signatures for demisto/syslog:1.0.0.6835941
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6800631   50fdcc9c05201cba4f1d79ac24dc4a2371ba06d814225911d23c8f792b650c38   (Repo Admin)
+1.0.0.6835941   528e60a3af335dcf6b45729ac77f18fbde43d86c60d3d305e648420fae342630   (Repo Admin)
 
-Administrative keys for demisto/syslog:1.0.0.6800631
+Administrative keys for demisto/syslog:1.0.0.6835941
 
   Repository Key:	11a15eab07f7e41e73476072cbde030a8e584e5848dd9ccae061af343ee287fc
   Root Key:	aa0c2d0ebdc015b28c4b791550a2c77436f62ed42305803a88c33cca848a9422
@@ -121,8 +121,8 @@ Administrative keys for demisto/syslog:1.0.0.6800631
 * Summary: Lightweight in-process concurrent programming
 * Version: 3.3.0
 * Pypi: https://pypi.org/project/greenlet/
-* Homepage: https://greenlet.readthedocs.io/
-* Author: Alexey Borzenkov snaury@gmail.com
+* Homepage: None
+* Author: Alexey Borzenkov <snaury@gmail.com>
 * License: MIT AND Python-2.0
 
 ### `idna`
@@ -243,7 +243,7 @@ Administrative keys for demisto/syslog:1.0.0.6800631
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.9.0
+* Version: 80.10.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
