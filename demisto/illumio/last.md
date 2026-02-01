@@ -1,9 +1,9 @@
-# `demisto/illumio:1.0.0.6337886`
+# `demisto/illumio:1.0.0.6932158`
 
 ## Docker Metadata
-- Image Size: 29.25 MB
-- Image ID: `sha256:09f46f120ce2b8c18af0edc8af72f4718ea58276b271df7e73c2992e38a96ed1`
-- Created: `2025-12-18T15:14:51.662707102Z`
+- Image Size: 30.05 MB
+- Image ID: `sha256:f8217e8975bf53f9e00555902f3fe67581c5080c18bb2f1ea0ddac97a1a40900`
+- Created: `2026-01-29T14:27:02.639532143Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/illumio:1.0.0.6337886`
+  - `DOCKER_IMAGE=demisto/illumio:1.0.0.6932158`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:cdf36e3f4b41f5bcea87f7d00854eb42aa9c9129`
-  - `org.opencontainers.image.version:1.0.0.6337886`
+  - `org.opencontainers.image.revision:cc8d140169f9683ca56b0fdf4214e43456cf39b9`
+  - `org.opencontainers.image.version:1.0.0.6932158`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.23.0`
+  - `VERSION_ID=3.23.2`
   - `PRETTY_NAME="Alpine Linux v3.23"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/illumio:1.0.0.6337886
+Signatures for demisto/illumio:1.0.0.6932158
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6337886   c0b0655a107a4f0e5404bbce73983e8564a17058b383b6327c1211584ee29479   (Repo Admin)
+1.0.0.6932158   b7538b5b9153e442148b6fbe38cad582fa7da4c8f1634b5b6926965d8ecab543   (Repo Admin)
 
-Administrative keys for demisto/illumio:1.0.0.6337886
+Administrative keys for demisto/illumio:1.0.0.6932158
 
   Repository Key:	5a898788944e64338f580afebbe044ce869e8d090fe16a3871f9b6ddbf14e856
   Root Key:	98d5a151a931d2f5eff576444930f7780f97e27fc4827d51c1b2bd3ad7558f34
@@ -47,7 +47,7 @@ Administrative keys for demisto/illumio:1.0.0.6337886
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.11.12
+* Version: 2026.1.4
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -92,7 +92,7 @@ Administrative keys for demisto/illumio:1.0.0.6337886
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.20.0
+* Version: 3.20.3
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -141,10 +141,18 @@ Administrative keys for demisto/illumio:1.0.0.6337886
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
+### `packaging`
+
+* Summary: Core utilities for Python packages
+* Version: 26.0
+* Pypi: https://pypi.org/project/packaging/
+* Homepage: None
+* Author: Donald Stufft <donald@stufft.io>
+
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.3
+* Version: 26.0
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -190,7 +198,7 @@ Administrative keys for demisto/illumio:1.0.0.6337886
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2025.11.3
+* Version: 2026.1.15
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -216,7 +224,7 @@ Administrative keys for demisto/illumio:1.0.0.6337886
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.9.0
+* Version: 80.10.2
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -233,11 +241,10 @@ Administrative keys for demisto/illumio:1.0.0.6337886
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.0
+* Version: 5.3.1
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
-* License :: OSI Approved :: BSD License
 
 ### `tzlocal`
 
@@ -251,28 +258,36 @@ Administrative keys for demisto/illumio:1.0.0.6337886
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.6.1
+* Version: 2.6.3
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 
+### `wheel`
+
+* Summary: Command line tool for manipulating wheel files
+* Version: 0.46.3
+* Pypi: https://pypi.org/project/wheel/
+* Homepage: None
+* Author: Daniel Holth <dholth@fastmail.fm>
+
 ## `OS Packages`
 
-* .python-rundeps-20251204.004031 noarch {.python-rundeps}
+* .python-rundeps-20251218.004441 noarch {.python-rundeps}
 * alpine-baselayout-3.7.1-r8 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.1-r8 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.23.0-r0 x86_64 {alpine-base}
-* apk-tools-3.0.1-r1 x86_64 {apk-tools}
-* busybox-1.37.0-r29 x86_64 {busybox}
-* busybox-binsh-1.37.0-r29 x86_64 {busybox}
+* alpine-release-3.23.2-r0 x86_64 {alpine-base}
+* apk-tools-3.0.3-r1 x86_64 {apk-tools}
+* busybox-1.37.0-r30 x86_64 {busybox}
+* busybox-binsh-1.37.0-r30 x86_64 {busybox}
 * ca-certificates-20251003-r0 x86_64 {ca-certificates}
 * ca-certificates-bundle-20251003-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.1-r0 x86_64 {krb5}
-* libapk-3.0.1-r1 x86_64 {apk-tools}
+* libapk-3.0.3-r1 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.4-r0 x86_64 {openssl}
@@ -291,8 +306,8 @@ Administrative keys for demisto/illumio:1.0.0.6337886
 * ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
 * readline-8.3.1-r0 x86_64 {readline}
 * scanelf-1.3.8-r2 x86_64 {pax-utils}
-* sqlite-libs-3.51.1-r0 x86_64 {sqlite}
-* ssl_client-1.37.0-r29 x86_64 {busybox}
-* tzdata-2025b-r0 x86_64 {tzdata}
-* xz-libs-5.8.1-r0 x86_64 {xz}
+* sqlite-libs-3.51.2-r0 x86_64 {sqlite}
+* ssl_client-1.37.0-r30 x86_64 {busybox}
+* tzdata-2025c-r0 x86_64 {tzdata}
+* xz-libs-5.8.2-r0 x86_64 {xz}
 * zlib-1.3.1-r2 x86_64 {zlib}

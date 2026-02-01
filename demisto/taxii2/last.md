@@ -1,9 +1,9 @@
-# `demisto/taxii2:1.0.0.6387944`
+# `demisto/taxii2:1.0.0.6932158`
 
 ## Docker Metadata
-- Image Size: 78.41 MB
-- Image ID: `sha256:192c81dc2517e659dcc855bbdb6d70fce9a5c36a1a23499a7d068c49cfdb632c`
-- Created: `2025-12-22T17:33:28.494052919Z`
+- Image Size: 76.49 MB
+- Image ID: `sha256:44e127813f2780f64a36a848f024d60a6d3bb773e84a69f872280aeb380cb245`
+- Created: `2026-01-29T14:32:58.50873976Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/taxii2:1.0.0.6387944`
+  - `DOCKER_IMAGE=demisto/taxii2:1.0.0.6932158`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:ba4d375cd0189d5faea35371a163343382eefcb9`
-  - `org.opencontainers.image.version:1.0.0.6387944`
+  - `org.opencontainers.image.revision:cc8d140169f9683ca56b0fdf4214e43456cf39b9`
+  - `org.opencontainers.image.version:1.0.0.6932158`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/taxii2:1.0.0.6387944
+Signatures for demisto/taxii2:1.0.0.6932158
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6387944   3f7b73b2de4102692592c5c2aafb019faa1bbf99eaf3ec80cda96346ea86251f   (Repo Admin)
+1.0.0.6932158   918bb39546e49ca121935dd7a93666f77cbec75f223e1f0039cf704b9c0579ff   (Repo Admin)
 
-Administrative keys for demisto/taxii2:1.0.0.6387944
+Administrative keys for demisto/taxii2:1.0.0.6932158
 
   Repository Key:	160407e8a2a764f875bd0d73fd2d359f91a5e4651635be29bced4de786aa9744
   Root Key:	4b36f63fcc0f902948865f2537cc5b1a3c4c47b7c80f72c67ee7e29095ef5a8d
@@ -59,7 +59,7 @@ Administrative keys for demisto/taxii2:1.0.0.6387944
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.8.3
+* Version: 2026.1.4
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -68,7 +68,7 @@ Administrative keys for demisto/taxii2:1.0.0.6387944
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.3
+* Version: 3.4.4
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -95,7 +95,7 @@ Administrative keys for demisto/taxii2:1.0.0.6387944
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.20.0
+* Version: 3.20.3
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -113,11 +113,10 @@ Administrative keys for demisto/taxii2:1.0.0.6387944
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.11
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License: 
 
 ### `more-itertools`
 
@@ -136,10 +135,18 @@ Administrative keys for demisto/taxii2:1.0.0.6387944
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
+### `packaging`
+
+* Summary: Core utilities for Python packages
+* Version: 26.0
+* Pypi: https://pypi.org/project/packaging/
+* Homepage: None
+* Author: Donald Stufft <donald@stufft.io>
+
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.3
+* Version: 26.0
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -194,7 +201,7 @@ Administrative keys for demisto/taxii2:1.0.0.6387944
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2025.11.3
+* Version: 2026.1.15
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -220,7 +227,7 @@ Administrative keys for demisto/taxii2:1.0.0.6387944
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.9.0
+* Version: 80.10.2
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -228,7 +235,7 @@ Administrative keys for demisto/taxii2:1.0.0.6387944
 ### `simplejson`
 
 * Summary: Simple, fast, extensible JSON encoder/decoder for Python
-* Version: 3.20.1
+* Version: 3.20.2
 * Pypi: https://pypi.org/project/simplejson/
 * Homepage: https://github.com/simplejson/simplejson
 * Author: Bob Ippolito bob@redivi.com
@@ -274,11 +281,10 @@ Administrative keys for demisto/taxii2:1.0.0.6387944
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.0
+* Version: 5.3.1
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
-* License :: OSI Approved :: BSD License
 
 ### `tzlocal`
 
@@ -292,10 +298,18 @@ Administrative keys for demisto/taxii2:1.0.0.6387944
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.6.0
+* Version: 2.6.3
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
+
+### `wheel`
+
+* Summary: Command line tool for manipulating wheel files
+* Version: 0.46.3
+* Pypi: https://pypi.org/project/wheel/
+* Homepage: None
+* Author: Daniel Holth <dholth@fastmail.fm>
 
 ### `yara-python`
 
@@ -310,9 +324,9 @@ Administrative keys for demisto/taxii2:1.0.0.6387944
 
 * adduser	3.134
 * apt	2.6.1
-* base-files	12.4+deb12u12
+* base-files	12.4+deb12u13
 * base-passwd	3.6.1
-* bash	5.2.15-2+b9
+* bash	5.2.15-2+b10
 * bsdutils	1:2.38.1-5+deb12u3
 * ca-certificates	20230311+deb12u1
 * coreutils	9.1-1
@@ -325,7 +339,7 @@ Administrative keys for demisto/taxii2:1.0.0.6387944
 * e2fsprogs	1.47.2-3~bpo12+1
 * findutils	4.9.0-4
 * gcc-12-base:amd64	12.2.0-14+deb12u1
-* gpgv	2.2.40-1.1+deb12u1
+* gpgv	2.2.40-1.1+deb12u2
 * grep	3.8-5
 * gzip	1.12-1
 * hostname	3.23+nmu1
@@ -340,7 +354,7 @@ Administrative keys for demisto/taxii2:1.0.0.6387944
 * libc-bin	2.36-9+deb12u13
 * libc6:amd64	2.36-9+deb12u13
 * libcap-ng0:amd64	0.8.3-1+b3
-* libcap2:amd64	1:2.66-4+deb12u2
+* libcap2:amd64	1:2.66-4+deb12u2+b2
 * libcom-err2:amd64	1.47.2-3~bpo12+1
 * libcrypt1:amd64	1:4.4.33-2
 * libdb5.3:amd64	5.3.28+dfsg2-1
@@ -371,10 +385,10 @@ Administrative keys for demisto/taxii2:1.0.0.6387944
 * libnettle8:amd64	3.8.1-2
 * libnsl2:amd64	1.3.0-2
 * libp11-kit0:amd64	0.24.1-2
-* libpam-modules-bin	1.5.2-6+deb12u1
-* libpam-modules:amd64	1.5.2-6+deb12u1
-* libpam-runtime	1.5.2-6+deb12u1
-* libpam0g:amd64	1.5.2-6+deb12u1
+* libpam-modules-bin	1.5.2-6+deb12u2
+* libpam-modules:amd64	1.5.2-6+deb12u2
+* libpam-runtime	1.5.2-6+deb12u2
+* libpam0g:amd64	1.5.2-6+deb12u2
 * libpcre2-8-0:amd64	10.42-1
 * libproc2-0:amd64	2:4.0.2-3
 * libreadline8:amd64	8.2-1.3
@@ -386,7 +400,7 @@ Administrative keys for demisto/taxii2:1.0.0.6387944
 * libsmartcols1:amd64	2.38.1-5+deb12u3
 * libsqlite3-0:amd64	3.40.1-2+deb12u2
 * libss2:amd64	1.47.2-3~bpo12+1
-* libssl3:amd64	3.0.17-1~deb12u3
+* libssl3:amd64	3.0.18-1~deb12u1
 * libstdc++6:amd64	12.2.0-14+deb12u1
 * libsystemd0:amd64	254.26-1~bpo12+1
 * libtasn1-6:amd64	4.19.0-2+deb12u1
@@ -399,15 +413,15 @@ Administrative keys for demisto/taxii2:1.0.0.6387944
 * libxxhash0:amd64	0.8.1-1
 * libyara9:amd64	4.2.3-4
 * libzstd1:amd64	1.5.4+dfsg2-5
-* login	1:4.13+dfsg1-1+deb12u1
+* login	1:4.13+dfsg1-1+deb12u2
 * logsave	1.47.2-3~bpo12+1
 * mawk	1.3.4.20200120-3.1
 * mount	2.38.1-5+deb12u3
 * ncurses-base	6.4-4
 * ncurses-bin	6.4-4
 * netbase	6.4
-* openssl	3.0.17-1~deb12u3
-* passwd	1:4.13+dfsg1-1+deb12u1
+* openssl	3.0.18-1~deb12u1
+* passwd	1:4.13+dfsg1-1+deb12u2
 * perl-base	5.36.0-7+deb12u3
 * procps	2:4.0.2-3
 * readline-common	8.2-1.3

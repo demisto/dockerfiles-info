@@ -1,9 +1,9 @@
-# `demisto/sublime:1.0.0.6472944`
+# `demisto/sublime:1.0.0.6932158`
 
 ## Docker Metadata
-- Image Size: 33.18 MB
-- Image ID: `sha256:b6157d22480326c9457c578037bcc54495127e6bd5aae454e6a2d965a075935e`
-- Created: `2025-12-29T14:41:52.259378229Z`
+- Image Size: 36.22 MB
+- Image ID: `sha256:8588bb371759f7a6229b5cc287b24dc68b486a3f4db8afb0cb5c4db9a80e709b`
+- Created: `2026-01-29T14:30:58.187918228Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/sublime:1.0.0.6472944`
+  - `DOCKER_IMAGE=demisto/sublime:1.0.0.6932158`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:cf78f421a8035f3a313f75aef66b7f718b68184d`
-  - `org.opencontainers.image.version:1.0.0.6472944`
+  - `org.opencontainers.image.revision:cc8d140169f9683ca56b0fdf4214e43456cf39b9`
+  - `org.opencontainers.image.version:1.0.0.6932158`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.23.2`
+  - `VERSION_ID=3.23.3`
   - `PRETTY_NAME="Alpine Linux v3.23"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sublime:1.0.0.6472944
+Signatures for demisto/sublime:1.0.0.6932158
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6472944   12b08c42cfb5ab50d64d0137227e393313df4a8780a2fef3451083e5bd3d209f   (Repo Admin)
+1.0.0.6932158   2073e6942216ecc54488efded3f8f23124f47a2cf9e1b1ff9a216441298f0b69   (Repo Admin)
 
-Administrative keys for demisto/sublime:1.0.0.6472944
+Administrative keys for demisto/sublime:1.0.0.6932158
 
   Repository Key:	075a49d7dff397e372a207ab887e729d746ab13303e9e58fc7276a405301972b
   Root Key:	253ae621fcd29505a7a8eac2abe32e59b3cc213083c9e41636257d07927bca74
@@ -56,16 +56,15 @@ Administrative keys for demisto/sublime:1.0.0.6472944
 ### `cachetools`
 
 * Summary: Extensible memoizing collections and decorators
-* Version: 5.5.1
+* Version: 6.2.4
 * Pypi: https://pypi.org/project/cachetools/
 * Homepage: None
 * Author: Thomas Kemmer <tkemmer@computer.org>
-* License: MIT
 
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.11.12
+* Version: 2026.1.4
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -83,11 +82,10 @@ Administrative keys for demisto/sublime:1.0.0.6472944
 ### `click`
 
 * Summary: Composable command line interface toolkit
-* Version: 8.1.8
+* Version: 8.3.1
 * Pypi: https://pypi.org/project/click/
 * Homepage: None
 * Author: None
-* License: 
 
 ### `click-default-group`
 
@@ -125,14 +123,13 @@ Administrative keys for demisto/sublime:1.0.0.6472944
 * Author: Dave Hughes dave@waveform.org.uk
 * License :: OSI Approved :: MIT License
 
-### `compressed_rtf`
+### `compressed-rtf`
 
 * Summary: Compressed Rich Text Format (RTF) compression and decompression package
-* Version: 1.0.6
+* Version: 1.0.7
 * Pypi: https://pypi.org/project/compressed-rtf/
 * Homepage: https://github.com/delimitry/compressed_rtf
 * Author: Dmitry Alimov
-* License: MIT
 
 ### `dateparser`
 
@@ -164,7 +161,7 @@ Administrative keys for demisto/sublime:1.0.0.6472944
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.20.1
+* Version: 3.20.3
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -226,11 +223,10 @@ Administrative keys for demisto/sublime:1.0.0.6472944
 ### `MarkupSafe`
 
 * Summary: Safely add untrusted strings to HTML/XML markup.
-* Version: 3.0.2
+* Version: 3.0.3
 * Pypi: https://pypi.org/project/MarkupSafe/
 * Homepage: None
 * Author: None
-* License: Copyright 2010 Pallets
 
 ### `more-itertools`
 
@@ -258,10 +254,18 @@ Administrative keys for demisto/sublime:1.0.0.6472944
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
+### `packaging`
+
+* Summary: Core utilities for Python packages
+* Version: 26.0
+* Pypi: https://pypi.org/project/packaging/
+* Homepage: None
+* Author: Donald Stufft <donald@stufft.io>
+
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.3
+* Version: 26.0
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -270,7 +274,7 @@ Administrative keys for demisto/sublime:1.0.0.6472944
 ### `prompt_toolkit`
 
 * Summary: Library for building powerful interactive command lines in Python
-* Version: 3.0.50
+* Version: 3.0.52
 * Pypi: https://pypi.org/project/prompt-toolkit/
 * Homepage: None
 * Author: Jonathan Slenders
@@ -316,11 +320,10 @@ Administrative keys for demisto/sublime:1.0.0.6472944
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2025.11.3
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
-* License: Apache Software License
 
 ### `requests`
 
@@ -343,7 +346,7 @@ Administrative keys for demisto/sublime:1.0.0.6472944
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.9.0
+* Version: 80.10.2
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -369,7 +372,7 @@ Administrative keys for demisto/sublime:1.0.0.6472944
 ### `structlog`
 
 * Summary: Structured Logging for Python
-* Version: 25.1.0
+* Version: 25.5.0
 * Pypi: https://pypi.org/project/structlog/
 * Homepage: None
 * Author: Hynek Schlawack <hs@ox.cx>
@@ -388,11 +391,10 @@ Administrative keys for demisto/sublime:1.0.0.6472944
 ### `termcolor`
 
 * Summary: ANSI color formatting for output in terminal
-* Version: 2.5.0
+* Version: 3.3.0
 * Pypi: https://pypi.org/project/termcolor/
 * Homepage: None
 * Author: Konstantin Lepa <konstantin.lepa@gmail.com>
-* License: MIT
 
 ### `tldextract`
 
@@ -401,6 +403,14 @@ Administrative keys for demisto/sublime:1.0.0.6472944
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
+
+### `typing_extensions`
+
+* Summary: Backported and Experimental Type Hints for Python 3.9+
+* Version: 4.15.0
+* Pypi: https://pypi.org/project/typing-extensions/
+* Homepage: None
+* Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 
 ### `tzlocal`
 
@@ -414,7 +424,7 @@ Administrative keys for demisto/sublime:1.0.0.6472944
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.6.2
+* Version: 2.6.3
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -422,20 +432,27 @@ Administrative keys for demisto/sublime:1.0.0.6472944
 ### `wcwidth`
 
 * Summary: Measures the displayed width of unicode strings in a terminal
-* Version: 0.2.13
+* Version: 0.2.14
 * Pypi: https://pypi.org/project/wcwidth/
-* Homepage: https://github.com/jquast/wcwidth
-* Author: Jeff Quast contact@jeffquast.com
-* License :: OSI Approved :: MIT License
+* Homepage: None
+* Author: Jeff Quast <contact@jeffquast.com>
+* License: MIT
 
 ### `websockets`
 
 * Summary: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
-* Version: 14.2
+* Version: 16.0
 * Pypi: https://pypi.org/project/websockets/
 * Homepage: None
 * Author: Aymeric Augustin <aymeric.augustin@m4x.org>
-* License :: OSI Approved :: BSD License
+
+### `wheel`
+
+* Summary: Command line tool for manipulating wheel files
+* Version: 0.46.3
+* Pypi: https://pypi.org/project/wheel/
+* Homepage: None
+* Author: Daniel Holth <dholth@fastmail.fm>
 
 ## `OS Packages`
 
@@ -443,7 +460,7 @@ Administrative keys for demisto/sublime:1.0.0.6472944
 * alpine-baselayout-3.7.1-r8 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.1-r8 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.23.2-r0 x86_64 {alpine-base}
+* alpine-release-3.23.3-r0 x86_64 {alpine-base}
 * apk-tools-3.0.3-r1 x86_64 {apk-tools}
 * busybox-1.37.0-r30 x86_64 {busybox}
 * busybox-binsh-1.37.0-r30 x86_64 {busybox}
@@ -456,13 +473,13 @@ Administrative keys for demisto/sublime:1.0.0.6472944
 * libapk-3.0.3-r1 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.4-r0 x86_64 {openssl}
+* libcrypto3-3.5.5-r0 x86_64 {openssl}
 * libffi-3.5.2-r0 x86_64 {libffi}
 * libintl-0.24.1-r1 x86_64 {gettext}
 * libncursesw-6.5_p20251123-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
 * libpanelw-6.5_p20251123-r0 x86_64 {ncurses}
-* libssl3-3.5.4-r0 x86_64 {openssl}
+* libssl3-3.5.5-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.41.2-r0 x86_64 {util-linux}
@@ -472,8 +489,8 @@ Administrative keys for demisto/sublime:1.0.0.6472944
 * ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
 * readline-8.3.1-r0 x86_64 {readline}
 * scanelf-1.3.8-r2 x86_64 {pax-utils}
-* sqlite-libs-3.51.1-r0 x86_64 {sqlite}
+* sqlite-libs-3.51.2-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r30 x86_64 {busybox}
 * tzdata-2025c-r0 x86_64 {tzdata}
-* xz-libs-5.8.1-r0 x86_64 {xz}
+* xz-libs-5.8.2-r0 x86_64 {xz}
 * zlib-1.3.1-r2 x86_64 {zlib}

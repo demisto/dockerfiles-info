@@ -1,9 +1,9 @@
-# `demisto/python3:3.12.12.6922358`
+# `demisto/python3:3.12.12.6947692`
 
 ## Docker Metadata
 - Image Size: 28.95 MB
-- Image ID: `sha256:05aa53d07c1fc685b12c38b556df511d1f82a1d93b06550a373bad17cc4a75e5`
-- Created: `2026-01-29T00:54:52.673699474Z`
+- Image ID: `sha256:302b117568b5b72a09baf0da1a2f22a04d30f656e81de5ca35071fee62422c55`
+- Created: `2026-01-31T01:05:30.317268338Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/python3:3.12.12.6922358`
+  - `DOCKER_IMAGE=demisto/python3:3.12.12.6947692`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:c39978743800b4e87ebbbc56aa05c52a1416f51a`
-  - `org.opencontainers.image.version:3.12.12.6922358`
+  - `org.opencontainers.image.revision:076a04d0da24dd21dc3807ea476e5568ebe9b202`
+  - `org.opencontainers.image.version:3.12.12.6947692`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3:3.12.12.6922358
+Signatures for demisto/python3:3.12.12.6947692
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.12.6922358   660f486968b2f2b7370c491bf388b281b256793f6cdffd8845a3a88a2d652d08   (Repo Admin)
+3.12.12.6947692   548392a8a8a263965895e75431d24bfec09e8d5fdf87fd18dd39f76f583a8a60   (Repo Admin)
 
-Administrative keys for demisto/python3:3.12.12.6922358
+Administrative keys for demisto/python3:3.12.12.6947692
 
   Repository Key:	dd922c0a78cf908782d68ed2f99cae9350740fc2da582a1cb5c03e530ba2dd31
   Root Key:	46ab19438bfff81c925ab27466b52b175de43bad8e8a19cc878e9288246bff8d
@@ -143,7 +143,7 @@ Administrative keys for demisto/python3:3.12.12.6922358
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.3
+* Version: 26.0
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>

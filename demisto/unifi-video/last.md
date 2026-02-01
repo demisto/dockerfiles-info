@@ -1,9 +1,9 @@
-# `demisto/unifi-video:1.0.0.6379681`
+# `demisto/unifi-video:1.0.0.6932158`
 
 ## Docker Metadata
-- Image Size: 233.36 MB
-- Image ID: `sha256:8628299712b3007d7faf472a326f6e1392cecfd8dd452764f5e21e21bba5a425`
-- Created: `2025-12-22T10:22:17.950324455Z`
+- Image Size: 234.88 MB
+- Image ID: `sha256:5c11a28a6c5614a7bfe56a903987419efef0512f31364f5b90e365c3f72841b9`
+- Created: `2026-01-29T14:33:51.471529227Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/unifi-video:1.0.0.6379681`
+  - `DOCKER_IMAGE=demisto/unifi-video:1.0.0.6932158`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:dca0a241820525119ab8f5ad8f40398c7ce7dc96`
-  - `org.opencontainers.image.version:1.0.0.6379681`
+  - `org.opencontainers.image.revision:cc8d140169f9683ca56b0fdf4214e43456cf39b9`
+  - `org.opencontainers.image.version:1.0.0.6932158`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/unifi-video:1.0.0.6379681
+Signatures for demisto/unifi-video:1.0.0.6932158
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6379681   bbce9b8945242059702c914de58741b493e39fef42669f7efe0f5105d362ad0b   (Repo Admin)
+1.0.0.6932158   9e3215499a56e67141c3bc06e16a1df60fce6c93b5123ab9c2ccacc1895bbfdc   (Repo Admin)
 
-Administrative keys for demisto/unifi-video:1.0.0.6379681
+Administrative keys for demisto/unifi-video:1.0.0.6932158
 
   Repository Key:	e972be77ca864ed5e650ef2eb72d354a93ae8117f099d8b990ec59c3f901cd06
   Root Key:	8880f0994c7c47d9059dbb45eead1e0071907356eb3b991fb65130f02162953a
@@ -50,7 +50,7 @@ Administrative keys for demisto/unifi-video:1.0.0.6379681
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.11.12
+* Version: 2026.1.4
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -86,7 +86,7 @@ Administrative keys for demisto/unifi-video:1.0.0.6379681
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.20.0
+* Version: 3.20.3
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -153,10 +153,18 @@ Administrative keys for demisto/unifi-video:1.0.0.6379681
 * Author: None
 * License :: OSI Approved :: Apache Software License
 
+### `packaging`
+
+* Summary: Core utilities for Python packages
+* Version: 26.0
+* Pypi: https://pypi.org/project/packaging/
+* Homepage: None
+* Author: Donald Stufft <donald@stufft.io>
+
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.3
+* Version: 26.0
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -202,7 +210,7 @@ Administrative keys for demisto/unifi-video:1.0.0.6379681
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2025.11.3
+* Version: 2026.1.15
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -228,7 +236,7 @@ Administrative keys for demisto/unifi-video:1.0.0.6379681
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.9.0
+* Version: 80.10.2
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -245,11 +253,10 @@ Administrative keys for demisto/unifi-video:1.0.0.6379681
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.0
+* Version: 5.3.1
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
-* License :: OSI Approved :: BSD License
 
 ### `tzlocal`
 
@@ -272,18 +279,26 @@ Administrative keys for demisto/unifi-video:1.0.0.6379681
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.6.1
+* Version: 2.6.3
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
+
+### `wheel`
+
+* Summary: Command line tool for manipulating wheel files
+* Version: 0.46.3
+* Pypi: https://pypi.org/project/wheel/
+* Homepage: None
+* Author: Daniel Holth <dholth@fastmail.fm>
 
 ## `OS Packages`
 
 * adduser	3.134
 * apt	2.6.1
-* base-files	12.4+deb12u12
+* base-files	12.4+deb12u13
 * base-passwd	3.6.1
-* bash	5.2.15-2+b9
+* bash	5.2.15-2+b10
 * bsdutils	1:2.38.1-5+deb12u3
 * ca-certificates	20230311+deb12u1
 * coreutils	9.1-1
@@ -296,7 +311,7 @@ Administrative keys for demisto/unifi-video:1.0.0.6379681
 * e2fsprogs	1.47.2-3~bpo12+1
 * findutils	4.9.0-4
 * gcc-12-base:amd64	12.2.0-14+deb12u1
-* gpgv	2.2.40-1.1+deb12u1
+* gpgv	2.2.40-1.1+deb12u2
 * grep	3.8-5
 * gzip	1.12-1
 * hostname	3.23+nmu1
@@ -312,7 +327,7 @@ Administrative keys for demisto/unifi-video:1.0.0.6379681
 * libc-bin	2.36-9+deb12u13
 * libc6:amd64	2.36-9+deb12u13
 * libcap-ng0:amd64	0.8.3-1+b3
-* libcap2:amd64	1:2.66-4+deb12u2
+* libcap2:amd64	1:2.66-4+deb12u2+b2
 * libcom-err2:amd64	1.47.2-3~bpo12+1
 * libcrypt1:amd64	1:4.4.33-2
 * libdb5.3:amd64	5.3.28+dfsg2-1
@@ -336,7 +351,7 @@ Administrative keys for demisto/unifi-video:1.0.0.6379681
 * libgl1-mesa-glx:amd64	22.3.6-1+deb12u1
 * libgl1:amd64	1.6.0-1
 * libglapi-mesa:amd64	22.3.6-1+deb12u1
-* libglib2.0-0:amd64	2.74.6-2+deb12u7
+* libglib2.0-0:amd64	2.74.6-2+deb12u8
 * libglvnd0:amd64	1.6.0-1
 * libglx-mesa0:amd64	22.3.6-1+deb12u1
 * libglx0:amd64	1.6.0-1
@@ -361,10 +376,10 @@ Administrative keys for demisto/unifi-video:1.0.0.6379681
 * libnettle8:amd64	3.8.1-2
 * libnsl2:amd64	1.3.0-2
 * libp11-kit0:amd64	0.24.1-2
-* libpam-modules-bin	1.5.2-6+deb12u1
-* libpam-modules:amd64	1.5.2-6+deb12u1
-* libpam-runtime	1.5.2-6+deb12u1
-* libpam0g:amd64	1.5.2-6+deb12u1
+* libpam-modules-bin	1.5.2-6+deb12u2
+* libpam-modules:amd64	1.5.2-6+deb12u2
+* libpam-runtime	1.5.2-6+deb12u2
+* libpam0g:amd64	1.5.2-6+deb12u2
 * libpciaccess0:amd64	0.17-2
 * libpcre2-8-0:amd64	10.42-1
 * libperl5.36:amd64	5.36.0-7+deb12u3
@@ -382,7 +397,7 @@ Administrative keys for demisto/unifi-video:1.0.0.6379681
 * libsmartcols1:amd64	2.38.1-5+deb12u3
 * libsqlite3-0:amd64	3.40.1-2+deb12u2
 * libss2:amd64	1.47.2-3~bpo12+1
-* libssl3:amd64	3.0.17-1~deb12u3
+* libssl3:amd64	3.0.18-1~deb12u2
 * libstdc++6:amd64	12.2.0-14+deb12u1
 * libsystemd0:amd64	254.26-1~bpo12+1
 * libtasn1-6:amd64	4.19.0-2+deb12u1
@@ -408,22 +423,22 @@ Administrative keys for demisto/unifi-video:1.0.0.6379681
 * libxdmcp6:amd64	1:1.1.2-3
 * libxext6:amd64	2:1.3.4-1+b1
 * libxfixes3:amd64	1:6.0.0-2
-* libxml2:amd64	2.9.14+dfsg-1.3~deb12u4
+* libxml2:amd64	2.9.14+dfsg-1.3~deb12u5
 * libxrender1:amd64	1:0.9.10-1.1
 * libxshmfence1:amd64	1.3-1
 * libxxf86vm1:amd64	1:1.1.4-1+b2
 * libxxhash0:amd64	0.8.1-1
 * libz3-4:amd64	4.8.12-3.1
 * libzstd1:amd64	1.5.4+dfsg2-5
-* login	1:4.13+dfsg1-1+deb12u1
+* login	1:4.13+dfsg1-1+deb12u2
 * logsave	1.47.2-3~bpo12+1
 * mawk	1.3.4.20200120-3.1
 * mount	2.38.1-5+deb12u3
 * ncurses-base	6.4-4
 * ncurses-bin	6.4-4
 * netbase	6.4
-* openssl	3.0.17-1~deb12u3
-* passwd	1:4.13+dfsg1-1+deb12u1
+* openssl	3.0.18-1~deb12u2
+* passwd	1:4.13+dfsg1-1+deb12u2
 * perl	5.36.0-7+deb12u3
 * perl-base	5.36.0-7+deb12u3
 * perl-modules-5.36	5.36.0-7+deb12u3

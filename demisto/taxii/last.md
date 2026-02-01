@@ -1,9 +1,9 @@
-# `demisto/taxii:1.0.0.6387440`
+# `demisto/taxii:1.0.0.6932158`
 
 ## Docker Metadata
-- Image Size: 42.52 MB
-- Image ID: `sha256:52c1855b40117b3d989989915b6c10d4eacff610b6451a5fefc3e620aff63991`
-- Created: `2025-12-22T16:49:38.696245637Z`
+- Image Size: 42.08 MB
+- Image ID: `sha256:f99df4fe8d5660d00c4338ce73f01ee87dc5eb58ad07b9611a89b296af49b0f8`
+- Created: `2026-01-29T14:31:50.070077569Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/taxii:1.0.0.6387440`
+  - `DOCKER_IMAGE=demisto/taxii:1.0.0.6932158`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:6e56addc4b027bd518020a9876503ca0a7f70639`
-  - `org.opencontainers.image.version:1.0.0.6387440`
+  - `org.opencontainers.image.revision:cc8d140169f9683ca56b0fdf4214e43456cf39b9`
+  - `org.opencontainers.image.version:1.0.0.6932158`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.23.0`
+  - `VERSION_ID=3.23.2`
   - `PRETTY_NAME="Alpine Linux v3.23"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/taxii:1.0.0.6387440
+Signatures for demisto/taxii:1.0.0.6932158
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6387440   c00e7756271a5c5541e456b2f538b92f1d3084417d7d434468c13285ac0d0a72   (Repo Admin)
+1.0.0.6932158   df92aaf010234164567488cf8121a09f11f7b5bc4b9d6577b8580038073bdd18   (Repo Admin)
 
-Administrative keys for demisto/taxii:1.0.0.6387440
+Administrative keys for demisto/taxii:1.0.0.6932158
 
   Repository Key:	e4d1140f2317822debbb995b6bfdb0d014d69a98bb5ad2430433c95c311184b3
   Root Key:	0cfe3b20862e965095cc96c97d3bd4aed117b78cd941957bafe1ddf016cfa6b9
@@ -65,7 +65,7 @@ Administrative keys for demisto/taxii:1.0.0.6387440
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2024.12.14
+* Version: 2026.1.4
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -74,7 +74,7 @@ Administrative keys for demisto/taxii:1.0.0.6387440
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.1
+* Version: 3.4.4
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -83,7 +83,7 @@ Administrative keys for demisto/taxii:1.0.0.6387440
 ### `colorlog`
 
 * Summary: Add colours to the output of Python's logging module.
-* Version: 6.9.0
+* Version: 6.10.1
 * Pypi: https://pypi.org/project/colorlog/
 * Homepage: https://github.com/borntyping/python-colorlog
 * Author: Sam Clements sam@borntyping.co.uk
@@ -119,7 +119,7 @@ Administrative keys for demisto/taxii:1.0.0.6387440
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.20.0
+* Version: 3.20.3
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -137,7 +137,7 @@ Administrative keys for demisto/taxii:1.0.0.6387440
 ### `furl`
 
 * Summary: URL manipulation made simple.
-* Version: 2.1.3
+* Version: 2.1.4
 * Pypi: https://pypi.org/project/furl/
 * Homepage: https://github.com/gruns/furl
 * Author: Ansgar Grunseid grunseid@gmail.com
@@ -146,11 +146,10 @@ Administrative keys for demisto/taxii:1.0.0.6387440
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.11
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License: 
 
 ### `libtaxii`
 
@@ -208,16 +207,24 @@ Administrative keys for demisto/taxii:1.0.0.6387440
 ### `orderedmultidict`
 
 * Summary: Ordered Multivalue Dictionary
-* Version: 1.0.1
+* Version: 1.0.2
 * Pypi: https://pypi.org/project/orderedmultidict/
 * Homepage: https://github.com/gruns/orderedmultidict
 * Author: Ansgar Grunseid grunseid@gmail.com
 * License :: Unlicense
 
+### `packaging`
+
+* Summary: Core utilities for Python packages
+* Version: 26.0
+* Pypi: https://pypi.org/project/packaging/
+* Homepage: None
+* Author: Donald Stufft <donald@stufft.io>
+
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.3
+* Version: 26.0
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -226,11 +233,11 @@ Administrative keys for demisto/taxii:1.0.0.6387440
 ### `pyasn1`
 
 * Summary: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
-* Version: 0.6.1
+* Version: 0.6.2
 * Pypi: https://pypi.org/project/pyasn1/
-* Homepage: https://github.com/pyasn1/pyasn1
-* Author: Ilya Etingof etingof@gmail.com
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Ilya Etingof <etingof@gmail.com>
+* License: BSD-2-Clause
 
 ### `pycryptodome`
 
@@ -264,7 +271,7 @@ Administrative keys for demisto/taxii:1.0.0.6387440
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2024.2
+* Version: 2025.2
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -282,7 +289,7 @@ Administrative keys for demisto/taxii:1.0.0.6387440
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2025.11.3
+* Version: 2026.1.15
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -290,7 +297,7 @@ Administrative keys for demisto/taxii:1.0.0.6387440
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.3
+* Version: 2.32.5
 * Pypi: https://pypi.org/project/requests/
 * Homepage: https://requests.readthedocs.io
 * Author: Kenneth Reitz me@kennethreitz.org
@@ -317,7 +324,7 @@ Administrative keys for demisto/taxii:1.0.0.6387440
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.9.0
+* Version: 80.10.2
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -334,7 +341,7 @@ Administrative keys for demisto/taxii:1.0.0.6387440
 ### `soupsieve`
 
 * Summary: A modern CSS selector implementation for Beautiful Soup.
-* Version: 2.8
+* Version: 2.8.3
 * Pypi: https://pypi.org/project/soupsieve/
 * Homepage: None
 * Author: Isaac Muse <Isaac.Muse@gmail.com>
@@ -343,11 +350,10 @@ Administrative keys for demisto/taxii:1.0.0.6387440
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.0
+* Version: 5.3.1
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
-* License :: OSI Approved :: BSD License
 
 ### `typing_extensions`
 
@@ -369,28 +375,36 @@ Administrative keys for demisto/taxii:1.0.0.6387440
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.6.0
+* Version: 2.6.3
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 
+### `wheel`
+
+* Summary: Command line tool for manipulating wheel files
+* Version: 0.46.3
+* Pypi: https://pypi.org/project/wheel/
+* Homepage: None
+* Author: Daniel Holth <dholth@fastmail.fm>
+
 ## `OS Packages`
 
-* .python-rundeps-20251204.004031 noarch {.python-rundeps}
+* .python-rundeps-20251218.004441 noarch {.python-rundeps}
 * alpine-baselayout-3.7.1-r8 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.1-r8 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.23.0-r0 x86_64 {alpine-base}
-* apk-tools-3.0.1-r1 x86_64 {apk-tools}
-* busybox-1.37.0-r29 x86_64 {busybox}
-* busybox-binsh-1.37.0-r29 x86_64 {busybox}
+* alpine-release-3.23.2-r0 x86_64 {alpine-base}
+* apk-tools-3.0.3-r1 x86_64 {apk-tools}
+* busybox-1.37.0-r30 x86_64 {busybox}
+* busybox-binsh-1.37.0-r30 x86_64 {busybox}
 * ca-certificates-20251003-r0 x86_64 {ca-certificates}
 * ca-certificates-bundle-20251003-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.1-r0 x86_64 {krb5}
-* libapk-3.0.1-r1 x86_64 {apk-tools}
+* libapk-3.0.3-r1 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.4-r0 x86_64 {openssl}
@@ -411,8 +425,8 @@ Administrative keys for demisto/taxii:1.0.0.6387440
 * ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
 * readline-8.3.1-r0 x86_64 {readline}
 * scanelf-1.3.8-r2 x86_64 {pax-utils}
-* sqlite-libs-3.51.1-r0 x86_64 {sqlite}
-* ssl_client-1.37.0-r29 x86_64 {busybox}
-* tzdata-2025b-r0 x86_64 {tzdata}
-* xz-libs-5.8.1-r0 x86_64 {xz}
+* sqlite-libs-3.51.2-r0 x86_64 {sqlite}
+* ssl_client-1.37.0-r30 x86_64 {busybox}
+* tzdata-2025c-r0 x86_64 {tzdata}
+* xz-libs-5.8.2-r0 x86_64 {xz}
 * zlib-1.3.1-r2 x86_64 {zlib}
