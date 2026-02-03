@@ -1,9 +1,9 @@
-# `demisto/python3-deb:3.12.12.6878467`
+# `demisto/python3-deb:3.12.12.6979213`
 
 ## Docker Metadata
-- Image Size: 56.37 MB
-- Image ID: `sha256:2503ae33be0dc51a7451158dbfeba0c7eaf424c4758d4956ffbd02e42ee25b7c`
-- Created: `2026-01-26T11:06:37.760162163Z`
+- Image Size: 59.27 MB
+- Image ID: `sha256:c1e489f447b8886f79e1ef1d3d472bf6f8b6c8c432c32c87e69633444ce5449c`
+- Created: `2026-02-02T14:07:30.956110244Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/python3-deb:3.12.12.6878467`
+  - `DOCKER_IMAGE=demisto/python3-deb:3.12.12.6979213`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:607ca509ae35706e2f17208dd7ff80999f7f87e5`
-  - `org.opencontainers.image.version:3.12.12.6878467`
+  - `org.opencontainers.image.revision:9dcf03cdae66db65e41e0fe87e4bdd77f8862731`
+  - `org.opencontainers.image.version:3.12.12.6979213`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3-deb:3.12.12.6878467
+Signatures for demisto/python3-deb:3.12.12.6979213
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.12.6878467   9389c3a4258e8e8b3fd99ac7fb3ef6ade2f49039766aab95274b1db7e7cd95cb   (Repo Admin)
+3.12.12.6979213   45ad1ab7b460e4a3d4b0f26dbf1fd05f328426481c7826a348479773fe8a1ad3   (Repo Admin)
 
-Administrative keys for demisto/python3-deb:3.12.12.6878467
+Administrative keys for demisto/python3-deb:3.12.12.6979213
 
   Repository Key:	02e9781b8a12b1475cfa9e28c569a3337f9d9e664134162d21f48e09aa975ab6
   Root Key:	c368f2dcb34a0aaabd33ee9559bd094b84c7f57f4742bde05f5a21486a524ce9
@@ -137,7 +137,7 @@ Administrative keys for demisto/python3-deb:3.12.12.6878467
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.3
+* Version: 26.0
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -333,7 +333,7 @@ Administrative keys for demisto/python3-deb:3.12.12.6878467
 * libsmartcols1:amd64	2.38.1-5+deb12u3
 * libsqlite3-0:amd64	3.40.1-2+deb12u2
 * libss2:amd64	1.47.2-3~bpo12+1
-* libssl3:amd64	3.0.18-1~deb12u1
+* libssl3:amd64	3.0.18-1~deb12u2
 * libstdc++6:amd64	12.2.0-14+deb12u1
 * libsystemd0:amd64	254.26-1~bpo12+1
 * libtasn1-6:amd64	4.19.0-2+deb12u1
@@ -352,7 +352,7 @@ Administrative keys for demisto/python3-deb:3.12.12.6878467
 * ncurses-base	6.4-4
 * ncurses-bin	6.4-4
 * netbase	6.4
-* openssl	3.0.18-1~deb12u1
+* openssl	3.0.18-1~deb12u2
 * passwd	1:4.13+dfsg1-1+deb12u2
 * perl-base	5.36.0-7+deb12u3
 * procps	2:4.0.2-3

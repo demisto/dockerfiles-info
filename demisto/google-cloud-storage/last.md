@@ -1,9 +1,9 @@
-# `demisto/google-cloud-storage:1.0.0.6911103`
+# `demisto/google-cloud-storage:1.0.0.6982241`
 
 ## Docker Metadata
-- Image Size: 48.28 MB
-- Image ID: `sha256:b80a74eaba756d41a1ef3d76059f6602f14ccacca5e77a5b702e30386adb1bf5`
-- Created: `2026-01-28T11:09:14.340128039Z`
+- Image Size: 47.30 MB
+- Image ID: `sha256:5519259cf02c1ebe0bdd6d327d735465bd746ddd5a96653e818c701c68dc5c3a`
+- Created: `2026-02-02T16:34:05.555145082Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/google-cloud-storage:1.0.0.6911103`
+  - `DOCKER_IMAGE=demisto/google-cloud-storage:1.0.0.6982241`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:818a50298ce7b19e0cfbfed4267ed3ff88eeb83d`
-  - `org.opencontainers.image.version:1.0.0.6911103`
+  - `org.opencontainers.image.revision:2fb66baee562f0a1c1141f78ea8b8dda1eee1f03`
+  - `org.opencontainers.image.version:1.0.0.6982241`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.23.2`
+  - `VERSION_ID=3.23.3`
   - `PRETTY_NAME="Alpine Linux v3.23"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-cloud-storage:1.0.0.6911103
+Signatures for demisto/google-cloud-storage:1.0.0.6982241
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6911103   695b88dc8d429f6448d1cab5fbcef3eebd9621e3f1fe0809d14419f99fc538d4   (Repo Admin)
+1.0.0.6982241   2df759efe8aa831a61f7bb10453d0104b9181eac0f3625af8ba53a6b57ff8121   (Repo Admin)
 
-Administrative keys for demisto/google-cloud-storage:1.0.0.6911103
+Administrative keys for demisto/google-cloud-storage:1.0.0.6982241
 
   Repository Key:	2ab3d4f7a65f14d64dba54c7aded1079c285fff5ad812fc19854d63a0c782c18
   Root Key:	3c2392b332f73092db366898dd6e161ffbf0aff1d5cfedf61a69e056c49a538e
@@ -73,7 +73,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.6911103
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 46.0.3
+* Version: 46.0.4
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -162,7 +162,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.6911103
 ### `google-cloud-storage`
 
 * Summary: Google Cloud Storage API client library
-* Version: 3.8.0
+* Version: 3.9.0
 * Pypi: https://pypi.org/project/google-cloud-storage/
 * Homepage: https://github.com/googleapis/python-storage
 * Author: Google LLC googleapis-packages@google.com
@@ -290,7 +290,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.6911103
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.3
+* Version: 26.0
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -308,7 +308,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.6911103
 ### `protobuf`
 
 * Summary: None
-* Version: 6.33.4
+* Version: 6.33.5
 * Pypi: https://pypi.org/project/protobuf/
 * Homepage: https://developers.google.com/protocol-buffers/
 * Author: protobuf@googlegroups.com protobuf@googlegroups.com
@@ -480,11 +480,11 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.6911103
 
 ## `OS Packages`
 
-* .python-rundeps-20251218.004441 noarch {.python-rundeps}
+* .python-rundeps-20260128.034049 noarch {.python-rundeps}
 * alpine-baselayout-3.7.1-r8 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.1-r8 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.23.2-r0 x86_64 {alpine-base}
+* alpine-release-3.23.3-r0 x86_64 {alpine-base}
 * apk-tools-3.0.3-r1 x86_64 {apk-tools}
 * busybox-1.37.0-r30 x86_64 {busybox}
 * busybox-binsh-1.37.0-r30 x86_64 {busybox}
@@ -497,14 +497,14 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.6911103
 * libapk-3.0.3-r1 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.4-r0 x86_64 {openssl}
+* libcrypto3-3.5.5-r0 x86_64 {openssl}
 * libffi-3.5.2-r0 x86_64 {libffi}
 * libgcc-15.2.0-r2 x86_64 {gcc}
 * libintl-0.24.1-r1 x86_64 {gettext}
 * libncursesw-6.5_p20251123-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
 * libpanelw-6.5_p20251123-r0 x86_64 {ncurses}
-* libssl3-3.5.4-r0 x86_64 {openssl}
+* libssl3-3.5.5-r0 x86_64 {openssl}
 * libstdc++-15.2.0-r2 x86_64 {gcc}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
