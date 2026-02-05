@@ -1,9 +1,9 @@
-# `demisto/python3:3.12.12.6947692`
+# `demisto/python3:3.12.12.7019815`
 
 ## Docker Metadata
-- Image Size: 28.95 MB
-- Image ID: `sha256:302b117568b5b72a09baf0da1a2f22a04d30f656e81de5ca35071fee62422c55`
-- Created: `2026-01-31T01:05:30.317268338Z`
+- Image Size: 29.14 MB
+- Image ID: `sha256:6563af8873d4ecf9cd86d82dae336fdc4b35a49a6a8b48bc36d7147c8e2585eb`
+- Created: `2026-02-05T00:59:19.371081189Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/python3:3.12.12.6947692`
+  - `DOCKER_IMAGE=demisto/python3:3.12.12.7019815`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:076a04d0da24dd21dc3807ea476e5568ebe9b202`
-  - `org.opencontainers.image.version:3.12.12.6947692`
+  - `org.opencontainers.image.revision:f8f2c3ac67578148b06968610a3aa929d762a92f`
+  - `org.opencontainers.image.version:3.12.12.7019815`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3:3.12.12.6947692
+Signatures for demisto/python3:3.12.12.7019815
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.12.6947692   548392a8a8a263965895e75431d24bfec09e8d5fdf87fd18dd39f76f583a8a60   (Repo Admin)
+3.12.12.7019815   ef991afbb3042b9e75968b0f0a0e77fba5f3fd3dff0b7362def3fef97ed80a58   (Repo Admin)
 
-Administrative keys for demisto/python3:3.12.12.6947692
+Administrative keys for demisto/python3:3.12.12.7019815
 
   Repository Key:	dd922c0a78cf908782d68ed2f99cae9350740fc2da582a1cb5c03e530ba2dd31
   Root Key:	46ab19438bfff81c925ab27466b52b175de43bad8e8a19cc878e9288246bff8d
@@ -143,7 +143,7 @@ Administrative keys for demisto/python3:3.12.12.6947692
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.0
+* Version: 26.0.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -264,12 +264,12 @@ Administrative keys for demisto/python3:3.12.12.6947692
 
 ## `OS Packages`
 
-* .python-rundeps-20260128.034049 noarch {.python-rundeps}
+* .python-rundeps-20260204.202045 noarch {.python-rundeps}
 * alpine-baselayout-3.7.1-r8 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.1-r8 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
 * alpine-release-3.23.3-r0 x86_64 {alpine-base}
-* apk-tools-3.0.3-r1 x86_64 {apk-tools}
+* apk-tools-3.0.4-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r30 x86_64 {busybox}
 * busybox-binsh-1.37.0-r30 x86_64 {busybox}
 * ca-certificates-20251003-r0 x86_64 {ca-certificates}
@@ -278,7 +278,7 @@ Administrative keys for demisto/python3:3.12.12.6947692
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.1-r0 x86_64 {krb5}
-* libapk-3.0.3-r1 x86_64 {apk-tools}
+* libapk-3.0.4-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.5-r0 x86_64 {openssl}
