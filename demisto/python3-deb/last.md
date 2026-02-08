@@ -1,9 +1,9 @@
-# `demisto/python3-deb:3.12.12.7003619`
+# `demisto/python3-deb:3.12.12.7043132`
 
 ## Docker Metadata
-- Image Size: 56.37 MB
-- Image ID: `sha256:ab78db0c23f59cd57c364544d70c8103a5994dbf0556803312e6f096f36c42a6`
-- Created: `2026-02-04T00:52:38.595561105Z`
+- Image Size: 57.33 MB
+- Image ID: `sha256:01568aeb06c7ad8b2aa79c443f9a7d4b039062191a7b3c9fa6748f35148ca705`
+- Created: `2026-02-07T01:05:21.734146354Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/python3-deb:3.12.12.7003619`
+  - `DOCKER_IMAGE=demisto/python3-deb:3.12.12.7043132`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:dc7d0122858681bfb1d028476774f2a1b41e0ccb`
-  - `org.opencontainers.image.version:3.12.12.7003619`
+  - `org.opencontainers.image.revision:6e10fef810b53734b10f0a972911f4e990e2f5db`
+  - `org.opencontainers.image.version:3.12.12.7043132`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3-deb:3.12.12.7003619
+Signatures for demisto/python3-deb:3.12.12.7043132
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.12.7003619   5b23e54fe7c98b4c3b52c52fc631bb6ffaad04729ef51d8b0714e438bccd6d7d   (Repo Admin)
+3.12.12.7043132   1cee69ad02c3d10019752d30088defdd79cdbf0d1a7eefd6bf5af1ce5aa7b59f   (Repo Admin)
 
-Administrative keys for demisto/python3-deb:3.12.12.7003619
+Administrative keys for demisto/python3-deb:3.12.12.7043132
 
   Repository Key:	02e9781b8a12b1475cfa9e28c569a3337f9d9e664134162d21f48e09aa975ab6
   Root Key:	c368f2dcb34a0aaabd33ee9559bd094b84c7f57f4742bde05f5a21486a524ce9
@@ -68,7 +68,7 @@ Administrative keys for demisto/python3-deb:3.12.12.7003619
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.2.2
+* Version: 1.3.0
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub opensource@zyte.com
@@ -137,7 +137,7 @@ Administrative keys for demisto/python3-deb:3.12.12.7003619
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.0
+* Version: 26.0.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -209,7 +209,7 @@ Administrative keys for demisto/python3-deb:3.12.12.7003619
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.10.2
+* Version: 81.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
