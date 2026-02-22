@@ -1,9 +1,9 @@
-# `demisto/pycountry:1.0.0.6979213`
+# `demisto/pycountry:1.0.0.7194517`
 
 ## Docker Metadata
-- Image Size: 34.82 MB
-- Image ID: `sha256:b7f4e8fc915a95cf38047e6e62f5bb2664a6ca364649ff146b712064e40fe168`
-- Created: `2026-02-02T14:03:40.244722573Z`
+- Image Size: 36.47 MB
+- Image ID: `sha256:5e702caa3ce611a55c598a341ea29f9fa709659343081520035f1a724ff15da6`
+- Created: `2026-02-17T17:09:34.902273217Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/pycountry:1.0.0.6979213`
+  - `DOCKER_IMAGE=demisto/pycountry:1.0.0.7194517`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:9dcf03cdae66db65e41e0fe87e4bdd77f8862731`
-  - `org.opencontainers.image.version:1.0.0.6979213`
+  - `org.opencontainers.image.revision:bbe578c2277450286b884c2420cb43b9c3a2e151`
+  - `org.opencontainers.image.version:1.0.0.7194517`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pycountry:1.0.0.6979213
+Signatures for demisto/pycountry:1.0.0.7194517
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6979213   661bb168d1feec6b32ce771f01c345cda4ebb803f869300aab7f54ae458eae31   (Repo Admin)
+1.0.0.7194517   96e48e389dfdc6cfaf95a28c9d85291b16dbfaa9238ccc6c00c1e838ac227b2d   (Repo Admin)
 
-Administrative keys for demisto/pycountry:1.0.0.6979213
+Administrative keys for demisto/pycountry:1.0.0.7194517
 
   Repository Key:	62aa6b98b482539082ac223380a4cb53efbf6a099b971bfed4dce868f7779997
   Root Key:	aef7d5e6e3d3513ad524f188b8ef4109202fbec149d66f9c5de3e9bd8674dd9d
@@ -96,7 +96,7 @@ Administrative keys for demisto/pycountry:1.0.0.6979213
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -143,7 +143,7 @@ Administrative keys for demisto/pycountry:1.0.0.6979213
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.0
+* Version: 26.0.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -152,9 +152,9 @@ Administrative keys for demisto/pycountry:1.0.0.6979213
 ### `pycountry`
 
 * Summary: ISO country, subdivision, language, currency and script definitions and their translations
-* Version: 24.6.1
+* Version: 26.2.16
 * Pypi: https://pypi.org/project/pycountry/
-* Homepage: https://github.com/flyingcircusio/pycountry
+* Homepage: None
 * Author: Christian Theune ct@flyingcircus.io
 * License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)
 

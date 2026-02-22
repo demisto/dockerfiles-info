@@ -1,9 +1,9 @@
-# `demisto/py3-tools:1.0.0.6978288`
+# `demisto/py3-tools:1.0.0.7186534`
 
 ## Docker Metadata
-- Image Size: 70.79 MB
-- Image ID: `sha256:2e193850c1f045edee0a21d7de553f6732a1cadf684e53475bbfdadd8ac460f9`
-- Created: `2026-02-02T13:36:09.412414002Z`
+- Image Size: 70.45 MB
+- Image ID: `sha256:328e3a52bc5ebeac5f2d055e38e637f93a96c35616c122628650206980d3c658`
+- Created: `2026-02-17T10:24:39.368498856Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/py3-tools:1.0.0.6978288`
+  - `DOCKER_IMAGE=demisto/py3-tools:1.0.0.7186534`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:db9f814fc320af5b00693f9537ec44cf0baf5023`
-  - `org.opencontainers.image.version:1.0.0.6978288`
+  - `org.opencontainers.image.revision:27815dc3f40f052798a64110ac5f675dcc35cc8f`
+  - `org.opencontainers.image.version:1.0.0.7186534`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py3-tools:1.0.0.6978288
+Signatures for demisto/py3-tools:1.0.0.7186534
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6978288   0b53fa019c02b227115ded8b61ec6f4d3f208e1d3eb3ed247be60d7007824ece   (Repo Admin)
+1.0.0.7186534   29ca00e9e8480e0e3fa752055e64031a66930ffdcad6253983b1f7419e79cf40   (Repo Admin)
 
-Administrative keys for demisto/py3-tools:1.0.0.6978288
+Administrative keys for demisto/py3-tools:1.0.0.7186534
 
   Repository Key:	1b56229e5721c693499b3207de8556f64f4132a6f26e179574b23c3a4cb1ea83
   Root Key:	2f6650ee63d96525c75c75b7122a6e9ac95c253c019bb768504bdc9179c1bd7c
@@ -110,7 +110,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `antlr4-python3-runtime`
 
 * Summary: ANTLR 4.13.2 runtime for Python 3
-* Version: 4.9.3
+* Version: 4.13.2
 * Pypi: https://pypi.org/project/antlr4-python3-runtime/
 * Homepage: None
 * Author: Terence Parr, Sam Harwell Eric Vergnaud <eric.vergnaud@wanadoo.fr>
@@ -119,7 +119,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `anyio`
 
 * Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.10.0
+* Version: 4.12.1
 * Pypi: https://pypi.org/project/anyio/
 * Homepage: None
 * Author: Alex Grönholm <alex.gronholm@nextday.fi>
@@ -161,7 +161,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `attrs`
 
 * Summary: Classes Without Boilerplate
-* Version: 25.3.0
+* Version: 25.4.0
 * Pypi: https://pypi.org/project/attrs/
 * Homepage: None
 * Author: Hynek Schlawack <hs@ox.cx>
@@ -188,7 +188,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.8.3
+* Version: 2026.1.4
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -197,16 +197,15 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `cffi`
 
 * Summary: Foreign Function Interface for Python calling C code.
-* Version: 1.17.1
+* Version: 2.0.0
 * Pypi: https://pypi.org/project/cffi/
 * Homepage: None
 * Author: Armin Rigo, Maciej Fijalkowski
-* License: MIT
 
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.3
+* Version: 3.4.4
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -233,7 +232,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 46.0.0
+* Version: 46.0.5
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -331,16 +330,16 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.20.1
+* Version: 3.20.3
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `frozenlist`
 
 * Summary: A list-like structure which implements collections.abc.MutableSequence
-* Version: 1.7.0
+* Version: 1.8.0
 * Pypi: https://pypi.org/project/frozenlist/
 * Homepage: https://github.com/aio-libs/frozenlist
 * Author: None
@@ -358,7 +357,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `geographiclib`
 
 * Summary: The geodesic routines from GeographicLib
-* Version: 2.0
+* Version: 2.1
 * Pypi: https://pypi.org/project/geographiclib/
 * Homepage: https://geographiclib.sourceforge.io/Python/
 * Author: Charles Karney karney@alum.mit.edu
@@ -385,7 +384,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `graphql-core`
 
 * Summary: GraphQL implementation for Python, a port of GraphQL.js, the JavaScript reference implementation for GraphQL.
-* Version: 3.2.6
+* Version: 3.2.7
 * Pypi: https://pypi.org/project/graphql-core/
 * Homepage: https://github.com/graphql-python/graphql-core
 * Author: Christoph Zwerschke cito@online.de
@@ -396,23 +395,49 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 * Summary: HTTP/2-based RPC framework
 * Version: 1.76.0
 * Pypi: https://pypi.org/project/grpcio/
-* Homepage: https://grpc.io
-* Author: The gRPC Authors grpc-io@googlegroups.com
-* License :: OSI Approved :: Apache Software License
+* Homepage: None
+* Author: The gRPC Authors <grpc-io@googlegroups.com>
+* License: Apache License 2.0
+
+### `h11`
+
+* Summary: A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
+* Version: 0.16.0
+* Pypi: https://pypi.org/project/h11/
+* Homepage: https://github.com/python-hyper/h11
+* Author: Nathaniel J. Smith njs@pobox.com
+* License :: OSI Approved :: MIT License
+
+### `httpcore`
+
+* Summary: A minimal low-level HTTP client.
+* Version: 1.0.9
+* Pypi: https://pypi.org/project/httpcore/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+* License :: OSI Approved :: BSD License
+
+### `httpx`
+
+* Summary: The next generation HTTP client.
+* Version: 0.28.1
+* Pypi: https://pypi.org/project/httpx/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+* License :: OSI Approved :: BSD License
 
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.11
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License: 
 
 ### `imap-tools`
 
 * Summary: Work with email by IMAP
-* Version: 1.11.0
+* Version: 1.11.1
 * Pypi: https://pypi.org/project/imap-tools/
 * Homepage: https://github.com/ikvk/imap_tools
 * Author: Vladimir Kaukin KaukinVK@ya.ru
@@ -421,7 +446,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `IMAPClient`
 
 * Summary: Easy-to-use, Pythonic and complete IMAP client library
-* Version: 3.0.1
+* Version: 3.1.0
 * Pypi: https://pypi.org/project/IMAPClient/
 * Homepage: https://github.com/mjs/imapclient/
 * Author: Menno Finlay-Smits hello@menno.io
@@ -430,7 +455,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `intezer_sdk`
 
 * Summary: Intezer Analyze SDK
-* Version: 1.22.0
+* Version: 1.24.1
 * Pypi: https://pypi.org/project/intezer-sdk/
 * Homepage: https://github.com/intezer/analyze-python-sdk
 * Author: Intezer Labs ltd. info@intezer.com
@@ -493,11 +518,10 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `MarkupSafe`
 
 * Summary: Safely add untrusted strings to HTML/XML markup.
-* Version: 3.0.2
+* Version: 3.0.3
 * Pypi: https://pypi.org/project/MarkupSafe/
 * Homepage: None
 * Author: None
-* License: Copyright 2010 Pallets
 
 ### `minio`
 
@@ -519,7 +543,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `multidict`
 
 * Summary: multidict implementation
-* Version: 6.6.4
+* Version: 6.7.1
 * Pypi: https://pypi.org/project/multidict/
 * Homepage: https://github.com/aio-libs/multidict
 * Author: Andrew Svetlov andrew.svetlov@gmail.com
@@ -573,11 +597,10 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 25.0
+* Version: 26.0
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
-* License: 
 
 ### `paho-mqtt`
 
@@ -591,7 +614,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.0
+* Version: 26.0.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -600,7 +623,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `propcache`
 
 * Summary: Accelerated property cache
-* Version: 0.3.2
+* Version: 0.4.1
 * Pypi: https://pypi.org/project/propcache/
 * Homepage: https://github.com/aio-libs/propcache
 * Author: Andrew Svetlov andrew.svetlov@gmail.com
@@ -609,7 +632,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `protobuf`
 
 * Summary: None
-* Version: 6.33.1
+* Version: 6.33.5
 * Pypi: https://pypi.org/project/protobuf/
 * Homepage: https://developers.google.com/protocol-buffers/
 * Author: protobuf@googlegroups.com protobuf@googlegroups.com
@@ -636,11 +659,10 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `pycparser`
 
 * Summary: C parser in Python
-* Version: 2.22
+* Version: 3.0
 * Pypi: https://pypi.org/project/pycparser/
 * Homepage: None
 * Author: Eli Bendersky <eliben@gmail.com>
-* License: BSD-3-Clause
 
 ### `pycryptodome`
 
@@ -735,7 +757,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
-* Version: 6.0.2
+* Version: 6.0.3
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net
@@ -779,7 +801,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `requests-file`
 
 * Summary: File transport adapter for Requests
-* Version: 2.1.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/requests-file/
 * Homepage: None
 * Author: David Shea <reallylongword@gmail.com>
@@ -841,7 +863,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `simplejson`
 
 * Summary: Simple, fast, extensible JSON encoder/decoder for Python
-* Version: 3.20.1
+* Version: 3.20.2
 * Pypi: https://pypi.org/project/simplejson/
 * Homepage: https://github.com/simplejson/simplejson
 * Author: Bob Ippolito bob@redivi.com
@@ -857,20 +879,10 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
-### `sniffio`
-
-* Summary: Sniff out which async library your code is running under
-* Version: 1.3.1
-* Pypi: https://pypi.org/project/sniffio/
-* Homepage: 
-* Author: "Nathaniel J. Smith" <njs@pobox.com>
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: MIT License
-
 ### `soupsieve`
 
 * Summary: A modern CSS selector implementation for Beautiful Soup.
-* Version: 2.7
+* Version: 2.8.3
 * Pypi: https://pypi.org/project/soupsieve/
 * Homepage: None
 * Author: Isaac Muse <Isaac.Muse@gmail.com>
@@ -879,7 +891,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `stix2`
 
 * Summary: Produce and consume STIX 2 JSON content
-* Version: 3.0.1
+* Version: 3.0.2
 * Pypi: https://pypi.org/project/stix2/
 * Homepage: https://oasis-open.github.io/cti-documentation/
 * Author: OASIS Cyber Threat Intelligence Technical Committee cti-users@lists.oasis-open.org
@@ -888,7 +900,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `stix2-patterns`
 
 * Summary: Validate STIX 2 Patterns.
-* Version: 2.0.0
+* Version: 2.1.2
 * Pypi: https://pypi.org/project/stix2-patterns/
 * Homepage: https://github.com/oasis-open/cti-pattern-validator
 * Author: OASIS Cyber Threat Intelligence Technical Committee cti-users@lists.oasis-open.org
@@ -950,7 +962,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `typing_extensions`
 
 * Summary: Backported and Experimental Type Hints for Python 3.9+
-* Version: 4.14.1
+* Version: 4.15.0
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
@@ -966,7 +978,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `tzdata`
 
 * Summary: Provider of IANA time zone data
-* Version: 2025.2
+* Version: 2025.3
 * Pypi: https://pypi.org/project/tzdata/
 * Homepage: https://github.com/python/tzdata
 * Author: Python Software Foundation datetime-sig@python.org
@@ -1010,7 +1022,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `websocket-client`
 
 * Summary: WebSocket client for Python with low level API options
-* Version: 1.8.0
+* Version: 1.9.0
 * Pypi: https://pypi.org/project/websocket-client/
 * Homepage: https://github.com/websocket-client/websocket-client.git
 * Author: liris liris.pp@gmail.com
@@ -1019,7 +1031,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `Werkzeug`
 
 * Summary: The comprehensive WSGI web application library.
-* Version: 3.1.4
+* Version: 3.1.5
 * Pypi: https://pypi.org/project/Werkzeug/
 * Homepage: None
 * Author: None
@@ -1044,7 +1056,7 @@ Administrative keys for demisto/py3-tools:1.0.0.6978288
 ### `yarl`
 
 * Summary: Yet another URL library
-* Version: 1.20.1
+* Version: 1.22.0
 * Pypi: https://pypi.org/project/yarl/
 * Homepage: https://github.com/aio-libs/yarl
 * Author: Andrew Svetlov andrew.svetlov@gmail.com
