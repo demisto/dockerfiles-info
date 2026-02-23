@@ -1,9 +1,9 @@
-# `demisto/exodusintelligence:1.0.0.6894486`
+# `demisto/exodusintelligence:1.0.0.7262139`
 
 ## Docker Metadata
-- Image Size: 58.48 MB
-- Image ID: `sha256:440c83874698bc222ec3d0f7fe88b2f70e164aaeb5563a012a514c0575984c8d`
-- Created: `2026-01-27T10:53:55.635779371Z`
+- Image Size: 58.33 MB
+- Image ID: `sha256:b88917394e5c9fdbb86387add104b443490db34169f9831b9a8be8380090d98c`
+- Created: `2026-02-22T12:24:12.584702417Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/exodusintelligence:1.0.0.6894486`
+  - `DOCKER_IMAGE=demisto/exodusintelligence:1.0.0.7262139`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:bc59b397f3d791fb2b01333257fca04666e27bdc`
-  - `org.opencontainers.image.version:1.0.0.6894486`
+  - `org.opencontainers.image.revision:53f61ddcc3ad7c997219e35aae8d14c293ddff81`
+  - `org.opencontainers.image.version:1.0.0.7262139`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/exodusintelligence:1.0.0.6894486
+Signatures for demisto/exodusintelligence:1.0.0.7262139
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6894486   1b76a1939c3eba0600bc6593c3ea9685e3ff83a3364513c97015fde81e4bf8e2   (Repo Admin)
+1.0.0.7262139   1c02c4596516b31bbd664a4361d54ffc2a05abb82716d4dd3af0459a3684d0b4   (Repo Admin)
 
-Administrative keys for demisto/exodusintelligence:1.0.0.6894486
+Administrative keys for demisto/exodusintelligence:1.0.0.7262139
 
   Repository Key:	ac288cdb5ec62327c4ca533a9a5caf63f59b65001dd191602de19daa4b26c097
   Root Key:	54427a42481b7865031081a8837d65b78ad79eb8b9c5386edaf47177ad75e648
@@ -76,7 +76,7 @@ Administrative keys for demisto/exodusintelligence:1.0.0.6894486
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.2.2
+* Version: 1.3.0
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub opensource@zyte.com
@@ -107,7 +107,7 @@ Administrative keys for demisto/exodusintelligence:1.0.0.6894486
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -154,7 +154,7 @@ Administrative keys for demisto/exodusintelligence:1.0.0.6894486
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.3
+* Version: 26.0.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -243,7 +243,7 @@ Administrative keys for demisto/exodusintelligence:1.0.0.6894486
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.10.2
+* Version: 82.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -367,7 +367,7 @@ Administrative keys for demisto/exodusintelligence:1.0.0.6894486
 * libsmartcols1:amd64	2.38.1-5+deb12u3
 * libsqlite3-0:amd64	3.40.1-2+deb12u2
 * libss2:amd64	1.47.2-3~bpo12+1
-* libssl3:amd64	3.0.18-1~deb12u1
+* libssl3:amd64	3.0.18-1~deb12u2
 * libstdc++6:amd64	12.2.0-14+deb12u1
 * libsystemd0:amd64	254.26-1~bpo12+1
 * libtasn1-6:amd64	4.19.0-2+deb12u1
@@ -386,7 +386,7 @@ Administrative keys for demisto/exodusintelligence:1.0.0.6894486
 * ncurses-base	6.4-4
 * ncurses-bin	6.4-4
 * netbase	6.4
-* openssl	3.0.18-1~deb12u1
+* openssl	3.0.18-1~deb12u2
 * passwd	1:4.13+dfsg1-1+deb12u2
 * perl-base	5.36.0-7+deb12u3
 * procps	2:4.0.2-3
