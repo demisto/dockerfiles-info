@@ -1,9 +1,9 @@
-# `demisto/google-api-py3:1.0.0.7262139`
+# `demisto/google-api-py3:1.0.0.7274801`
 
 ## Docker Metadata
 - Image Size: 77.79 MB
-- Image ID: `sha256:b4dabdc179788114b81e5c115d3ca054fa8de722cf547fd90cf9c8b9c98da7be`
-- Created: `2026-02-22T12:52:12.650494887Z`
+- Image ID: `sha256:bb22e75f1386cae274d866d623e44cb61e84e76b28ba78f2bb81b7d0911e7413`
+- Created: `2026-02-23T06:44:37.326631911Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/google-api-py3:1.0.0.7262139`
+  - `DOCKER_IMAGE=demisto/google-api-py3:1.0.0.7274801`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
   - `org.opencontainers.image.revision:53f61ddcc3ad7c997219e35aae8d14c293ddff81`
-  - `org.opencontainers.image.version:1.0.0.7262139`
+  - `org.opencontainers.image.version:1.0.0.7274801`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,10 +32,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/google-api-py3:1.0.0.7262139
+Signatures for demisto/google-api-py3:1.0.0.7274801
 
+SIGNED TAG      DIGEST                                                             SIGNERS
+1.0.0.7274801   27c69c0c7fb10fe46ff949f37ca5d770e1e4c078929c3c466c41c5a773cee034   (Repo Admin)
 
-Administrative keys for demisto/google-api-py3:1.0.0.7262139
+Administrative keys for demisto/google-api-py3:1.0.0.7274801
 
   Repository Key:	5770a83f9c9b9436ad3c6e6acfe7a826fe9e3f460f7ad22dfb9f894f371071a6
   Root Key:	95f47db9a4f5902373f46f558d53e073d895578cef7f0b44205d77f956ba04d4

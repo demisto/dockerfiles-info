@@ -1,9 +1,9 @@
-# `demisto/python-phash:1.0.0.6911470`
+# `demisto/python-phash:1.0.0.7274801`
 
 ## Docker Metadata
-- Image Size: 129.71 MB
-- Image ID: `sha256:a30311a8f17edd161f1a7859076baee49f313d059a667ebba40de89ed6d23bb9`
-- Created: `2026-01-28T11:22:03.062470063Z`
+- Image Size: 129.84 MB
+- Image ID: `sha256:4c769e0da0be8ba650957708c1b2e1ffb2c9ddc46dac1f3b1a491951e1fddf4b`
+- Created: `2026-02-23T07:03:12.84865158Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/python-phash:1.0.0.6911470`
+  - `DOCKER_IMAGE=demisto/python-phash:1.0.0.7274801`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:340fde6e41431469d118dc43feea352b84709028`
-  - `org.opencontainers.image.version:1.0.0.6911470`
+  - `org.opencontainers.image.revision:53f61ddcc3ad7c997219e35aae8d14c293ddff81`
+  - `org.opencontainers.image.version:1.0.0.7274801`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python-phash:1.0.0.6911470
+Signatures for demisto/python-phash:1.0.0.7274801
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6911470   c016a17afe1f25be6c54bf40aa33fc71a518b508a0fa2b27746128014d6f2da5   (Repo Admin)
+1.0.0.7274801   68740e22a7247c1ce5313f721f96a9374f1e192357a853b9764dc6f3483cb259   (Repo Admin)
 
-Administrative keys for demisto/python-phash:1.0.0.6911470
+Administrative keys for demisto/python-phash:1.0.0.7274801
 
   Repository Key:	afd24ac28e84bb7486f68ac5383804ec45da22c2ccf7173cfcbc9dd01c307825
   Root Key:	74955e198de43e2588878e3d64a5e8ed836c4f756e77b7433efd73ab9b367157
@@ -68,7 +68,7 @@ Administrative keys for demisto/python-phash:1.0.0.6911470
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.2.2
+* Version: 1.3.0
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub opensource@zyte.com
@@ -90,7 +90,7 @@ Administrative keys for demisto/python-phash:1.0.0.6911470
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -129,7 +129,7 @@ Administrative keys for demisto/python-phash:1.0.0.6911470
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.4.1
+* Version: 2.4.2
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.
@@ -154,7 +154,7 @@ Administrative keys for demisto/python-phash:1.0.0.6911470
 ### `pillow`
 
 * Summary: Python Imaging Library (fork)
-* Version: 12.1.0
+* Version: 12.1.1
 * Pypi: https://pypi.org/project/pillow/
 * Homepage: None
 * Author: "Jeffrey A. Clark" <aclark@aclark.net>
@@ -162,7 +162,7 @@ Administrative keys for demisto/python-phash:1.0.0.6911470
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.3
+* Version: 26.0.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -251,7 +251,7 @@ Administrative keys for demisto/python-phash:1.0.0.6911470
 ### `setuptools`
 
 * Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.10.2
+* Version: 82.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -375,7 +375,7 @@ Administrative keys for demisto/python-phash:1.0.0.6911470
 * libsmartcols1:amd64	2.38.1-5+deb12u3
 * libsqlite3-0:amd64	3.40.1-2+deb12u2
 * libss2:amd64	1.47.2-3~bpo12+1
-* libssl3:amd64	3.0.18-1~deb12u1
+* libssl3:amd64	3.0.18-1~deb12u2
 * libstdc++6:amd64	12.2.0-14+deb12u1
 * libsystemd0:amd64	254.26-1~bpo12+1
 * libtasn1-6:amd64	4.19.0-2+deb12u1
@@ -394,7 +394,7 @@ Administrative keys for demisto/python-phash:1.0.0.6911470
 * ncurses-base	6.4-4
 * ncurses-bin	6.4-4
 * netbase	6.4
-* openssl	3.0.18-1~deb12u1
+* openssl	3.0.18-1~deb12u2
 * passwd	1:4.13+dfsg1-1+deb12u2
 * perl-base	5.36.0-7+deb12u3
 * procps	2:4.0.2-3
