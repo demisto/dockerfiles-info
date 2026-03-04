@@ -1,9 +1,9 @@
-# `demisto/google-api-py3:1.0.0.7274801`
+# `demisto/google-api-py3:1.0.0.7418446`
 
 ## Docker Metadata
-- Image Size: 77.79 MB
-- Image ID: `sha256:bb22e75f1386cae274d866d623e44cb61e84e76b28ba78f2bb81b7d0911e7413`
-- Created: `2026-02-23T06:44:37.326631911Z`
+- Image Size: 78.01 MB
+- Image ID: `sha256:06ea55a2352a9a977282966ab1daf63d6302a2d9048afa7601f64253d21fe3a9`
+- Created: `2026-03-03T15:40:55.474876083Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/google-api-py3:1.0.0.7274801`
+  - `DOCKER_IMAGE=demisto/google-api-py3:1.0.0.7418446`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:53f61ddcc3ad7c997219e35aae8d14c293ddff81`
-  - `org.opencontainers.image.version:1.0.0.7274801`
+  - `org.opencontainers.image.revision:d3b977f1b52f748412f030d46bb00228e35074d4`
+  - `org.opencontainers.image.version:1.0.0.7418446`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-api-py3:1.0.0.7274801
+Signatures for demisto/google-api-py3:1.0.0.7418446
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7274801   27c69c0c7fb10fe46ff949f37ca5d770e1e4c078929c3c466c41c5a773cee034   (Repo Admin)
+1.0.0.7418446   484154f385234d1107c7ac822340daf9a036140da0e621bed4daf0e3d6384bfd   (Repo Admin)
 
-Administrative keys for demisto/google-api-py3:1.0.0.7274801
+Administrative keys for demisto/google-api-py3:1.0.0.7418446
 
   Repository Key:	5770a83f9c9b9436ad3c6e6acfe7a826fe9e3f460f7ad22dfb9f894f371071a6
   Root Key:	95f47db9a4f5902373f46f558d53e073d895578cef7f0b44205d77f956ba04d4
@@ -50,7 +50,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.7274801
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.1.4
+* Version: 2026.2.25
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -129,7 +129,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.7274801
 ### `google-api-python-client`
 
 * Summary: Google API Client Library for Python
-* Version: 2.190.0
+* Version: 2.191.0
 * Pypi: https://pypi.org/project/google-api-python-client/
 * Homepage: https://github.com/googleapis/google-api-python-client/
 * Author: Google LLC googleapis-packages@google.com

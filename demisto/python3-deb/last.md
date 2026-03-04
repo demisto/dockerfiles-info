@@ -1,22 +1,22 @@
-# `demisto/python3-deb:3.12.12.7333634`
+# `demisto/python3-deb:3.12.13.7425833`
 
 ## Docker Metadata
 - Image Size: 56.23 MB
-- Image ID: `sha256:7bbc93c32fd236f1d994a2098318fa82b583a8a553f79d60f0a689814bacf11d`
-- Created: `2026-02-26T06:56:02.454703271Z`
+- Image ID: `sha256:9605b80c5dbe553268669ce5c6fba523eb71bc84f5a92532e2d4e90a72ffe1ed`
+- Created: `2026-03-04T03:41:51.483052551Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.12`
-  - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/python3-deb:3.12.12.7333634`
+  - `PYTHON_VERSION=3.12.13`
+  - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
+  - `DOCKER_IMAGE=demisto/python3-deb:3.12.13.7425833`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3557d20536a26e2f073d2928e79d86e56b58afb2`
-  - `org.opencontainers.image.version:3.12.12.7333634`
+  - `org.opencontainers.image.revision:1a8b4da9cb1eba6108a120818a497cc2696b4ef8`
+  - `org.opencontainers.image.version:3.12.13.7425833`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3-deb:3.12.12.7333634
+Signatures for demisto/python3-deb:3.12.13.7425833
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.12.7333634   6e02061b1c03887b0728c7d8b55cb9113f5f2595c1bce6b324ced2c8bf23bf2c   (Repo Admin)
+3.12.13.7425833   160d2b3f5fbfdfd56375d3bab751100feb88c0fe7d61e3092d833494bbc9da3c   (Repo Admin)
 
-Administrative keys for demisto/python3-deb:3.12.12.7333634
+Administrative keys for demisto/python3-deb:3.12.13.7425833
 
   Repository Key:	02e9781b8a12b1475cfa9e28c569a3337f9d9e664134162d21f48e09aa975ab6
   Root Key:	c368f2dcb34a0aaabd33ee9559bd094b84c7f57f4742bde05f5a21486a524ce9

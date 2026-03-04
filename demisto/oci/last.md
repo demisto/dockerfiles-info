@@ -1,9 +1,9 @@
-# `demisto/oci:1.0.0.7323034`
+# `demisto/oci:1.0.0.7418446`
 
 ## Docker Metadata
-- Image Size: 75.85 MB
-- Image ID: `sha256:37182fd820f9571f682de28c3175f69b2025ca014d9bd2e072f7aa9927d246aa`
-- Created: `2026-02-25T14:47:39.395730857Z`
+- Image Size: 76.48 MB
+- Image ID: `sha256:e64ed4946caef974f9a2de84bdc1dc9ee9d94e05f26e4ddf722509b8aa76881c`
+- Created: `2026-03-03T15:43:52.719728177Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/oci:1.0.0.7323034`
+  - `DOCKER_IMAGE=demisto/oci:1.0.0.7418446`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:9eecb9eadee9316423cd1e8382bc8af1fe853477`
-  - `org.opencontainers.image.version:1.0.0.7323034`
+  - `org.opencontainers.image.revision:d3b977f1b52f748412f030d46bb00228e35074d4`
+  - `org.opencontainers.image.version:1.0.0.7418446`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/oci:1.0.0.7323034
+Signatures for demisto/oci:1.0.0.7418446
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7323034   b69be9582e960b98ae9d06684b6f7a3b9c6da574581f4c4aa1c7ccff38926b32   (Repo Admin)
+1.0.0.7418446   474dd2c2eb9bfa76207027318bb40d6c98119db2207d2ecc81ac5def8cde672a   (Repo Admin)
 
-Administrative keys for demisto/oci:1.0.0.7323034
+Administrative keys for demisto/oci:1.0.0.7418446
 
   Repository Key:	2cc50bdbe67fd75478233e92583764f227d51416d68a400f91f13954268ef489
   Root Key:	6c4262e4f5f1c456c5e9a45765790ff209f55ce49fc37ed2a3dc8a833e52de92
@@ -47,7 +47,7 @@ Administrative keys for demisto/oci:1.0.0.7323034
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.1.4
+* Version: 2026.2.25
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -82,11 +82,10 @@ Administrative keys for demisto/oci:1.0.0.7323034
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 45.0.7
+* Version: 46.0.5
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
-* License: Apache-2.0 OR BSD-3-Clause
 
 ### `dateparser`
 
@@ -152,7 +151,7 @@ Administrative keys for demisto/oci:1.0.0.7323034
 ### `oci`
 
 * Summary: Oracle Cloud Infrastructure Python SDK
-* Version: 2.167.3
+* Version: 2.168.0
 * Pypi: https://pypi.org/project/oci/
 * Homepage: https://docs.oracle.com/en-us/iaas/tools/python/latest/index.html
 * Author: Oracle joe.levy@oracle.com
@@ -196,7 +195,7 @@ Administrative keys for demisto/oci:1.0.0.7323034
 ### `pyOpenSSL`
 
 * Summary: Python wrapper module around the OpenSSL library
-* Version: 25.1.0
+* Version: 25.3.0
 * Pypi: https://pypi.org/project/pyOpenSSL/
 * Homepage: https://pyopenssl.org/
 * Author: The pyOpenSSL developers cryptography-dev@python.org
@@ -224,7 +223,7 @@ Administrative keys for demisto/oci:1.0.0.7323034
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2025.2
+* Version: 2026.1.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net

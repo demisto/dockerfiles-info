@@ -1,22 +1,22 @@
-# `demisto/python3:3.12.12.7090913`
+# `demisto/python3:3.12.13.7425833`
 
 ## Docker Metadata
-- Image Size: 28.93 MB
-- Image ID: `sha256:2a3510e96d861dad846a7305b5c06535f662a616a6f0ac12a1a7e440a0f6eb60`
-- Created: `2026-02-10T10:06:39.066199146Z`
+- Image Size: 28.94 MB
+- Image ID: `sha256:acd30c8458bc6966dba116dd2e8b591d06c501a83de23233e9b3a0f09bbf4262`
+- Created: `2026-03-04T03:39:46.165255215Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.12`
-  - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/python3:3.12.12.7090913`
+  - `PYTHON_VERSION=3.12.13`
+  - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
+  - `DOCKER_IMAGE=demisto/python3:3.12.13.7425833`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:e649d419f4d21484e0a86cd5e0ee440c5da9ca97`
-  - `org.opencontainers.image.version:3.12.12.7090913`
+  - `org.opencontainers.image.revision:1a8b4da9cb1eba6108a120818a497cc2696b4ef8`
+  - `org.opencontainers.image.version:3.12.13.7425833`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3:3.12.12.7090913
+Signatures for demisto/python3:3.12.13.7425833
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.12.7090913   f3dab2311d6e104c89d7372d18daf62aed83fc37704f25848731722c0522f176   (Repo Admin)
+3.12.13.7425833   ed28f52b2bcaea29b7cf568d6634eec729a05a1293da04592cde5beb55af9174   (Repo Admin)
 
-Administrative keys for demisto/python3:3.12.12.7090913
+Administrative keys for demisto/python3:3.12.13.7425833
 
   Repository Key:	dd922c0a78cf908782d68ed2f99cae9350740fc2da582a1cb5c03e530ba2dd31
   Root Key:	46ab19438bfff81c925ab27466b52b175de43bad8e8a19cc878e9288246bff8d
@@ -96,7 +96,7 @@ Administrative keys for demisto/python3:3.12.12.7090913
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -264,12 +264,12 @@ Administrative keys for demisto/python3:3.12.12.7090913
 
 ## `OS Packages`
 
-* .python-rundeps-20260204.202045 noarch {.python-rundeps}
+* .python-rundeps-20260303.201742 noarch {.python-rundeps}
 * alpine-baselayout-3.7.1-r8 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.1-r8 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
 * alpine-release-3.23.3-r0 x86_64 {alpine-base}
-* apk-tools-3.0.4-r0 x86_64 {apk-tools}
+* apk-tools-3.0.5-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r30 x86_64 {busybox}
 * busybox-binsh-1.37.0-r30 x86_64 {busybox}
 * ca-certificates-20251003-r0 x86_64 {ca-certificates}
@@ -278,7 +278,7 @@ Administrative keys for demisto/python3:3.12.12.7090913
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.1-r0 x86_64 {krb5}
-* libapk-3.0.4-r0 x86_64 {apk-tools}
+* libapk-3.0.5-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.5-r0 x86_64 {openssl}
