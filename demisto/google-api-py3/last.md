@@ -1,9 +1,9 @@
-# `demisto/google-api-py3:1.0.0.7418446`
+# `demisto/google-api-py3:1.0.0.7464646`
 
 ## Docker Metadata
-- Image Size: 78.01 MB
-- Image ID: `sha256:06ea55a2352a9a977282966ab1daf63d6302a2d9048afa7601f64253d21fe3a9`
-- Created: `2026-03-03T15:40:55.474876083Z`
+- Image Size: 78.28 MB
+- Image ID: `sha256:00fb69dac3dc858ad281e834c25af72e1b86f3cae4d838d89a8e4913b7a825e7`
+- Created: `2026-03-06T15:43:16.024273489Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/google-api-py3:1.0.0.7418446`
+  - `DOCKER_IMAGE=demisto/google-api-py3:1.0.0.7464646`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d3b977f1b52f748412f030d46bb00228e35074d4`
-  - `org.opencontainers.image.version:1.0.0.7418446`
+  - `org.opencontainers.image.revision:8260dcf6be49bd1359cc98b20e240c94ea4e3eb1`
+  - `org.opencontainers.image.version:1.0.0.7464646`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-api-py3:1.0.0.7418446
+Signatures for demisto/google-api-py3:1.0.0.7464646
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7418446   484154f385234d1107c7ac822340daf9a036140da0e621bed4daf0e3d6384bfd   (Repo Admin)
+1.0.0.7464646   8e0e72dabc72857e7d3b194a88dae6f245a1ca13548b50aa79c0888702257d61   (Repo Admin)
 
-Administrative keys for demisto/google-api-py3:1.0.0.7418446
+Administrative keys for demisto/google-api-py3:1.0.0.7464646
 
   Repository Key:	5770a83f9c9b9436ad3c6e6acfe7a826fe9e3f460f7ad22dfb9f894f371071a6
   Root Key:	95f47db9a4f5902373f46f558d53e073d895578cef7f0b44205d77f956ba04d4
@@ -67,7 +67,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.7418446
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.4
+* Version: 3.4.5
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -129,7 +129,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.7418446
 ### `google-api-python-client`
 
 * Summary: Google API Client Library for Python
-* Version: 2.191.0
+* Version: 2.192.0
 * Pypi: https://pypi.org/project/google-api-python-client/
 * Homepage: https://github.com/googleapis/google-api-python-client/
 * Author: Google LLC googleapis-packages@google.com

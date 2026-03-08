@@ -1,9 +1,9 @@
-# `demisto/crypto:1.0.0.7323034`
+# `demisto/crypto:1.0.0.7454509`
 
 ## Docker Metadata
-- Image Size: 44.91 MB
-- Image ID: `sha256:ed7e3691a33f41f7bc76f434ae6e419c03bc3749e45397a4dcaabe463b4e0d42`
-- Created: `2026-02-25T14:41:58.730371792Z`
+- Image Size: 45.06 MB
+- Image ID: `sha256:8b24c82e279428e73d09d8b07f804db594af18936d888212191abc4e9197055c`
+- Created: `2026-03-05T15:41:01.666644798Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/crypto:1.0.0.7323034`
+  - `DOCKER_IMAGE=demisto/crypto:1.0.0.7454509`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:9eecb9eadee9316423cd1e8382bc8af1fe853477`
-  - `org.opencontainers.image.version:1.0.0.7323034`
+  - `org.opencontainers.image.revision:58e75755b4e45d9889fa323bf88df619a53e2161`
+  - `org.opencontainers.image.version:1.0.0.7454509`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/crypto:1.0.0.7323034
+Signatures for demisto/crypto:1.0.0.7454509
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7323034   4ddd467f51ad480ce01b928905f8acfdda8267342463093c5db4a2820cf6afad   (Repo Admin)
+1.0.0.7454509   51cec58fb646a9394ac29c02f7db63ca5f6675afaa05592ce1cbdd72affbc3d2   (Repo Admin)
 
-Administrative keys for demisto/crypto:1.0.0.7323034
+Administrative keys for demisto/crypto:1.0.0.7454509
 
   Repository Key:	220ec19f346d59cc2cd852f42c8e3b659f963a92d6981d7ca1f4ca77409d6a6c
   Root Key:	ee857216bbb94fc0d393463890ba6b4e0a8945b3fee2eb1caee5027b76b21570
@@ -65,7 +65,7 @@ Administrative keys for demisto/crypto:1.0.0.7323034
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.1.4
+* Version: 2026.2.25
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -160,7 +160,7 @@ Administrative keys for demisto/crypto:1.0.0.7323034
 ### `msal`
 
 * Summary: The Microsoft Authentication Library (MSAL) for Python library enables your app to access the Microsoft Cloud by supporting authentication of users with Microsoft Azure Active Directory accounts (AAD) and Microsoft Accounts (MSA) using industry standard OAuth2 and OpenID Connect.
-* Version: 1.35.0
+* Version: 1.35.1
 * Pypi: https://pypi.org/project/msal/
 * Homepage: https://github.com/AzureAD/microsoft-authentication-library-for-python
 * Author: Microsoft Corporation nugetaad@microsoft.com
