@@ -1,9 +1,9 @@
-# `demisto/syslog:1.0.0.6979213`
+# `demisto/syslog:1.0.0.7529797`
 
 ## Docker Metadata
-- Image Size: 34.43 MB
-- Image ID: `sha256:6aa62a2e3cb65bcaa7c1bdf7e2ee672a7fc81d523822fd7bb9730b9619cc24f1`
-- Created: `2026-02-02T14:11:35.055486319Z`
+- Image Size: 37.72 MB
+- Image ID: `sha256:bd585d9ae1ab9ec21a3bbf38da9380e466b1292a83b08473b41a567ddb657740`
+- Created: `2026-03-09T19:03:39.956269643Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/syslog:1.0.0.6979213`
+  - `DOCKER_IMAGE=demisto/syslog:1.0.0.7529797`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:9dcf03cdae66db65e41e0fe87e4bdd77f8862731`
-  - `org.opencontainers.image.version:1.0.0.6979213`
+  - `org.opencontainers.image.revision:0b695aebcc63abfade793ef3a1824228ec28380d`
+  - `org.opencontainers.image.version:1.0.0.7529797`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/syslog:1.0.0.6979213
+Signatures for demisto/syslog:1.0.0.7529797
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6979213   f15a076e8a4fa2db70fbef4630e767101fcf893f2726c13ccf66f74c491ab039   (Repo Admin)
+1.0.0.7529797   aeb4f36f9a632fe239d34285e6679621e268431f795deea1d6ea99de0a28cb97   (Repo Admin)
 
-Administrative keys for demisto/syslog:1.0.0.6979213
+Administrative keys for demisto/syslog:1.0.0.7529797
 
   Repository Key:	11a15eab07f7e41e73476072cbde030a8e584e5848dd9ccae061af343ee287fc
   Root Key:	aa0c2d0ebdc015b28c4b791550a2c77436f62ed42305803a88c33cca848a9422
@@ -96,7 +96,7 @@ Administrative keys for demisto/syslog:1.0.0.6979213
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -169,7 +169,7 @@ Administrative keys for demisto/syslog:1.0.0.6979213
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.0
+* Version: 26.0.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -249,8 +249,8 @@ Administrative keys for demisto/syslog:1.0.0.6979213
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.10.2
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
+* Version: 82.0.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>

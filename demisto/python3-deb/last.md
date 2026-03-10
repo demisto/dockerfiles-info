@@ -1,9 +1,9 @@
-# `demisto/python3-deb:3.12.13.7425833`
+# `demisto/python3-deb:3.12.13.7529797`
 
 ## Docker Metadata
-- Image Size: 56.23 MB
-- Image ID: `sha256:9605b80c5dbe553268669ce5c6fba523eb71bc84f5a92532e2d4e90a72ffe1ed`
-- Created: `2026-03-04T03:41:51.483052551Z`
+- Image Size: 56.24 MB
+- Image ID: `sha256:2a8562dc400e26276d1d24d1e4cdbedabec841d3ccc7c8df73a324ca8fb338ba`
+- Created: `2026-03-09T18:57:20.980542296Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/python3-deb:3.12.13.7425833`
+  - `DOCKER_IMAGE=demisto/python3-deb:3.12.13.7529797`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:1a8b4da9cb1eba6108a120818a497cc2696b4ef8`
-  - `org.opencontainers.image.version:3.12.13.7425833`
+  - `org.opencontainers.image.revision:0b695aebcc63abfade793ef3a1824228ec28380d`
+  - `org.opencontainers.image.version:3.12.13.7529797`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3-deb:3.12.13.7425833
+Signatures for demisto/python3-deb:3.12.13.7529797
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.13.7425833   160d2b3f5fbfdfd56375d3bab751100feb88c0fe7d61e3092d833494bbc9da3c   (Repo Admin)
+3.12.13.7529797   a74c37c1d24c5139fd7537fb3f97c8a9b1e7c27bd01e7099502e90e25373c548   (Repo Admin)
 
-Administrative keys for demisto/python3-deb:3.12.13.7425833
+Administrative keys for demisto/python3-deb:3.12.13.7529797
 
   Repository Key:	02e9781b8a12b1475cfa9e28c569a3337f9d9e664134162d21f48e09aa975ab6
   Root Key:	c368f2dcb34a0aaabd33ee9559bd094b84c7f57f4742bde05f5a21486a524ce9
@@ -208,8 +208,8 @@ Administrative keys for demisto/python3-deb:3.12.13.7425833
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 82.0.0
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
+* Version: 82.0.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>

@@ -1,9 +1,9 @@
-# `demisto/mlclustering:1.0.0.6997316`
+# `demisto/mlclustering:1.0.0.7529797`
 
 ## Docker Metadata
-- Image Size: 196.06 MB
-- Image ID: `sha256:ca7f7fe49f6e981b568efa8be8ee85cb47b8a903d5f47a03219ccae2b2c70606`
-- Created: `2026-02-03T15:02:56.424013804Z`
+- Image Size: 196.20 MB
+- Image ID: `sha256:5f1347d97c5e6bb7ba6e2c071a6cccdbe89f09c3f84ccb8ba40f507e51e2d6c7`
+- Created: `2026-03-09T18:50:06.539550368Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/mlclustering:1.0.0.6997316`
+  - `DOCKER_IMAGE=demisto/mlclustering:1.0.0.7529797`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b9cabc6dcd25f98fa1331485407a432969259cb0`
-  - `org.opencontainers.image.version:1.0.0.6997316`
+  - `org.opencontainers.image.revision:0b695aebcc63abfade793ef3a1824228ec28380d`
+  - `org.opencontainers.image.version:1.0.0.7529797`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/mlclustering:1.0.0.6997316
+Signatures for demisto/mlclustering:1.0.0.7529797
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6997316   58aa28af7d49c4b75509c12aecf2310a6213ef40c859d5af0251ff8b09c78311   (Repo Admin)
+1.0.0.7529797   f5c69af789086b1134460c9b92a17fed2b7d5a10e7f0c9a54dc229ed7c115ab6   (Repo Admin)
 
-Administrative keys for demisto/mlclustering:1.0.0.6997316
+Administrative keys for demisto/mlclustering:1.0.0.7529797
 
   Repository Key:	d8855dc0db9e2ead8c2f610d59993d791267c23029f0e34d7599fdc315359432
   Root Key:	e037f02a27ce45de827cee6fb6e79e9a04241487236ec6abf050019f6a7e7f13
@@ -99,7 +99,7 @@ Administrative keys for demisto/mlclustering:1.0.0.6997316
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -146,7 +146,7 @@ Administrative keys for demisto/mlclustering:1.0.0.6997316
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.4.2
+* Version: 2.4.3
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.
@@ -180,7 +180,7 @@ Administrative keys for demisto/mlclustering:1.0.0.6997316
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.0
+* Version: 26.0.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -268,7 +268,7 @@ Administrative keys for demisto/mlclustering:1.0.0.6997316
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
 * Version: 80.10.2
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None

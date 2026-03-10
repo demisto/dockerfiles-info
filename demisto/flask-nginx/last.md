@@ -1,9 +1,9 @@
-# `demisto/flask-nginx:1.0.0.7080992`
+# `demisto/flask-nginx:1.0.0.7529797`
 
 ## Docker Metadata
-- Image Size: 61.62 MB
-- Image ID: `sha256:fe86b85b763419ec0f7d025d824a087e9275853130fe9df42aef11112ad654fe`
-- Created: `2026-02-09T16:28:39.327444389Z`
+- Image Size: 61.68 MB
+- Image ID: `sha256:e6e27ecc9786369a9e5747f57421452690379a8d3f73e371965cafe6f716558b`
+- Created: `2026-03-09T18:45:20.724478186Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,12 +12,12 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/flask-nginx:1.0.0.7080992`
+  - `DOCKER_IMAGE=demisto/flask-nginx:1.0.0.7529797`
   - `TLDEXTRACT_CACHE=/tldextractcahce`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:c0b9141e6c8696c0bd9572ff1e8991e7e15b0d7a`
-  - `org.opencontainers.image.version:1.0.0.7080992`
+  - `org.opencontainers.image.revision:0b695aebcc63abfade793ef3a1824228ec28380d`
+  - `org.opencontainers.image.version:1.0.0.7529797`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -30,12 +30,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/flask-nginx:1.0.0.7080992
+Signatures for demisto/flask-nginx:1.0.0.7529797
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7080992   dd6d0e909a3664122df5195edffe9714c1017a4b27f70007cb3054e3f1d10c55   (Repo Admin)
+1.0.0.7529797   e057410c820097d4311240ffb6b4ddedae1067f451c873561f69ec5f2520b646   (Repo Admin)
 
-Administrative keys for demisto/flask-nginx:1.0.0.7080992
+Administrative keys for demisto/flask-nginx:1.0.0.7529797
 
   Repository Key:	cd63e9ddedff7202ae30dbdf34477d2a1fff7906e95e8e7f2f3af318667b30dc
   Root Key:	cfc5a8f3acd3234daa9939e8b8f675e46931b2d3ab302521f4a391a28dfd2750
@@ -48,7 +48,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.7080992
 ### `antlr4-python3-runtime`
 
 * Summary: ANTLR 4.13.2 runtime for Python 3
-* Version: 4.9.3
+* Version: 4.13.2
 * Pypi: https://pypi.org/project/antlr4-python3-runtime/
 * Homepage: None
 * Author: Terence Parr, Sam Harwell Eric Vergnaud <eric.vergnaud@wanadoo.fr>
@@ -157,7 +157,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.7080992
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `Flask`
 
@@ -397,8 +397,8 @@ Administrative keys for demisto/flask-nginx:1.0.0.7080992
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 82.0.0
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
+* Version: 82.0.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -424,7 +424,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.7080992
 ### `stix2-patterns`
 
 * Summary: Validate STIX 2 Patterns.
-* Version: 2.0.0
+* Version: 2.1.1
 * Pypi: https://pypi.org/project/stix2-patterns/
 * Homepage: https://github.com/oasis-open/cti-pattern-validator
 * Author: OASIS Cyber Threat Intelligence Technical Committee cti-users@lists.oasis-open.org
@@ -538,7 +538,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.7080992
 * musl-1.2.5-r21 x86_64 {musl}
 * musl-utils-1.2.5-r21 x86_64 {musl}
 * ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
-* nginx-1.28.2-r0 x86_64 {nginx}
+* nginx-1.28.2-r1 x86_64 {nginx}
 * pcre2-10.47-r0 x86_64 {pcre2}
 * readline-8.3.1-r0 x86_64 {readline}
 * scanelf-1.3.8-r2 x86_64 {pax-utils}

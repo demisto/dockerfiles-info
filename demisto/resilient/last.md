@@ -1,9 +1,9 @@
-# `demisto/resilient:2.0.0.6915292`
+# `demisto/resilient:2.0.0.7529797`
 
 ## Docker Metadata
-- Image Size: 38.36 MB
-- Image ID: `sha256:c0ec9e9b08314b1211adbc57975c17509493d8f2f84424e9300587604c52aee3`
-- Created: `2026-01-28T14:25:19.40724923Z`
+- Image Size: 40.57 MB
+- Image ID: `sha256:7af8b4254cf1678fcaba3f70bb66e4d3a9e320539aa3276f2b2f49d8d9502426`
+- Created: `2026-03-09T18:58:32.67039176Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/resilient:2.0.0.6915292`
+  - `DOCKER_IMAGE=demisto/resilient:2.0.0.7529797`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:bf6007b9ed942d23067b03824f203ef2a9c79729`
-  - `org.opencontainers.image.version:2.0.0.6915292`
+  - `org.opencontainers.image.revision:0b695aebcc63abfade793ef3a1824228ec28380d`
+  - `org.opencontainers.image.version:2.0.0.7529797`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/resilient:2.0.0.6915292
+Signatures for demisto/resilient:2.0.0.7529797
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-2.0.0.6915292   699bae833075f4e68426eff6d88c2ce89a4197c462523445682154a2b9566e96   (Repo Admin)
+2.0.0.7529797   91006dd2c886c871b1993f8cb5fae41491e6af5d5c3d1b70a9e9008fedcfc91c   (Repo Admin)
 
-Administrative keys for demisto/resilient:2.0.0.6915292
+Administrative keys for demisto/resilient:2.0.0.7529797
 
   Repository Key:	340f325f258fea45d859ef9e990df5386417801e41e75ee4fa30f8e867ecfa76
   Root Key:	69a4e373f0a534b83dc07ff1c791e1e5340a3d32b53c79962624e91a94ba1d44
@@ -82,7 +82,7 @@ Administrative keys for demisto/resilient:2.0.0.6915292
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 46.0.4
+* Version: 46.0.5
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -121,7 +121,7 @@ Administrative keys for demisto/resilient:2.0.0.6915292
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -209,7 +209,7 @@ Administrative keys for demisto/resilient:2.0.0.6915292
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.3
+* Version: 26.0.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -323,8 +323,8 @@ Administrative keys for demisto/resilient:2.0.0.6915292
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.10.2
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
+* Version: 82.0.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>

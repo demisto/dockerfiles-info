@@ -1,9 +1,9 @@
-# `demisto/bs4-tld:1.0.0.7274801`
+# `demisto/bs4-tld:1.0.0.7529797`
 
 ## Docker Metadata
-- Image Size: 32.80 MB
-- Image ID: `sha256:95302fe8e1460ac55cf1306c534eaf4ab56ddba932f4f97f9399e38b6addb6d1`
-- Created: `2026-02-23T05:48:38.973129404Z`
+- Image Size: 32.82 MB
+- Image ID: `sha256:48a74abc743dd55b327cdc2bde2d669bfe7e4428f6af62875f023f231a13706e`
+- Created: `2026-03-09T18:41:57.876217259Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/bs4-tld:1.0.0.7274801`
+  - `DOCKER_IMAGE=demisto/bs4-tld:1.0.0.7529797`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:53f61ddcc3ad7c997219e35aae8d14c293ddff81`
-  - `org.opencontainers.image.version:1.0.0.7274801`
+  - `org.opencontainers.image.revision:0b695aebcc63abfade793ef3a1824228ec28380d`
+  - `org.opencontainers.image.version:1.0.0.7529797`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/bs4-tld:1.0.0.7274801
+Signatures for demisto/bs4-tld:1.0.0.7529797
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7274801   cd438957c6b06d00f6cb1f42fa46d7cedc1c41a343d771d80d6bf0ee570f8f13   (Repo Admin)
+1.0.0.7529797   4597a5ea5e83abc428a58661b0b7a527c2c2cb0b1e0ba145faf9bb2b39398af1   (Repo Admin)
 
-Administrative keys for demisto/bs4-tld:1.0.0.7274801
+Administrative keys for demisto/bs4-tld:1.0.0.7529797
 
   Repository Key:	c35e55a31c0b5eb40a287c3dc6201e42f9cae3c14443084040c3a4ebf3223478
   Root Key:	e43cfea7ae473e233abfa9b68fcb3bccdbdcc02e543e1230ea5d54d245dc5045
@@ -260,7 +260,7 @@ Administrative keys for demisto/bs4-tld:1.0.0.7274801
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
 * Version: 80.10.2
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
@@ -287,10 +287,10 @@ Administrative keys for demisto/bs4-tld:1.0.0.7274801
 ### `tld`
 
 * Summary: Extract the top-level domain (TLD) from the URL given.
-* Version: 0.13.1
+* Version: 0.13.2
 * Pypi: https://pypi.org/project/tld/
-* Homepage: https://github.com/barseghyanartur/tld
-* Author: Artur Barseghyan artur.barseghyan@gmail.com
+* Homepage: None
+* Author: Artur Barseghyan <artur.barseghyan@gmail.com>
 * License :: GNU Lesser General Public License v2 or Later (LGPLv2+)
 
 ### `tldextract`

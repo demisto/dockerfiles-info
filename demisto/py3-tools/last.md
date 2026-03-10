@@ -1,9 +1,9 @@
-# `demisto/py3-tools:1.0.0.7436613`
+# `demisto/py3-tools:1.0.0.7529797`
 
 ## Docker Metadata
-- Image Size: 70.83 MB
-- Image ID: `sha256:bfc7af814c752dbe4861b1b992319b815a2220236f78147190ce5be34f5e82d3`
-- Created: `2026-03-04T15:42:38.775500498Z`
+- Image Size: 70.84 MB
+- Image ID: `sha256:a4abc36de1df6b7f36a850fadbe346065dda610970923757f00e435a33733063`
+- Created: `2026-03-09T18:55:12.073545456Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/py3-tools:1.0.0.7436613`
+  - `DOCKER_IMAGE=demisto/py3-tools:1.0.0.7529797`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:643f50fc29a570c3a17917512cdd705291714697`
-  - `org.opencontainers.image.version:1.0.0.7436613`
+  - `org.opencontainers.image.revision:0b695aebcc63abfade793ef3a1824228ec28380d`
+  - `org.opencontainers.image.version:1.0.0.7529797`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py3-tools:1.0.0.7436613
+Signatures for demisto/py3-tools:1.0.0.7529797
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7436613   dfcfcf030db61b5d57a0d5b99878dd9a1e881e1172d9f5458ecde1bce3486aea   (Repo Admin)
+1.0.0.7529797   13054a86a8fb5f01b18f09aeeea7f9a6bb1a770ba42857330032552c4d60d36b   (Repo Admin)
 
-Administrative keys for demisto/py3-tools:1.0.0.7436613
+Administrative keys for demisto/py3-tools:1.0.0.7529797
 
   Repository Key:	1b56229e5721c693499b3207de8556f64f4132a6f26e179574b23c3a4cb1ea83
   Root Key:	2f6650ee63d96525c75c75b7122a6e9ac95c253c019bb768504bdc9179c1bd7c
@@ -854,7 +854,7 @@ Administrative keys for demisto/py3-tools:1.0.0.7436613
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
 * Version: 80.10.2
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
@@ -936,10 +936,10 @@ Administrative keys for demisto/py3-tools:1.0.0.7436613
 ### `tld`
 
 * Summary: Extract the top-level domain (TLD) from the URL given.
-* Version: 0.13.1
+* Version: 0.13.2
 * Pypi: https://pypi.org/project/tld/
-* Homepage: https://github.com/barseghyanartur/tld
-* Author: Artur Barseghyan artur.barseghyan@gmail.com
+* Homepage: None
+* Author: Artur Barseghyan <artur.barseghyan@gmail.com>
 * License :: GNU Lesser General Public License v2 or Later (LGPLv2+)
 
 ### `tldextract`

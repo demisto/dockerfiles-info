@@ -1,9 +1,9 @@
-# `demisto/taxii-server:1.0.0.7418446`
+# `demisto/taxii-server:1.0.0.7529797`
 
 ## Docker Metadata
-- Image Size: 70.48 MB
-- Image ID: `sha256:a048cff4fe6a132fadaa9fdd9dff4aa871ecf3be699e61a1c1c210a2fba5d2b7`
-- Created: `2026-03-03T15:49:59.073330362Z`
+- Image Size: 70.53 MB
+- Image ID: `sha256:4bbc62363a210522afe06bed6ed6a73e35b3a1b00921b74e3630f9ccfd6b7e86`
+- Created: `2026-03-09T19:05:57.545049307Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/taxii-server:1.0.0.7418446`
+  - `DOCKER_IMAGE=demisto/taxii-server:1.0.0.7529797`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d3b977f1b52f748412f030d46bb00228e35074d4`
-  - `org.opencontainers.image.version:1.0.0.7418446`
+  - `org.opencontainers.image.revision:0b695aebcc63abfade793ef3a1824228ec28380d`
+  - `org.opencontainers.image.version:1.0.0.7529797`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/taxii-server:1.0.0.7418446
+Signatures for demisto/taxii-server:1.0.0.7529797
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7418446   761c8059d1e079f71c407117dc8dff00c2bb7adcc5b989b6068f43a447e5d73b   (Repo Admin)
+1.0.0.7529797   65c3419df0f501eefdacb8f89c5d389dd9045488550fa266550bbdc2ef2a11ab   (Repo Admin)
 
-Administrative keys for demisto/taxii-server:1.0.0.7418446
+Administrative keys for demisto/taxii-server:1.0.0.7529797
 
   Repository Key:	9ef8564fa84f2c2a9b3cb72380bbb793c6f93f7a9c14fda15e8ef55002438ea4
   Root Key:	4676b8f4dd877e51675691d3a41d90911c6077f1c6abe945fb451c502b760d8e
@@ -477,8 +477,8 @@ Administrative keys for demisto/taxii-server:1.0.0.7418446
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 82.0.0
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
+* Version: 82.0.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -644,4 +644,4 @@ Administrative keys for demisto/taxii-server:1.0.0.7418446
 * ssl_client-1.37.0-r30 x86_64 {busybox}
 * tzdata-2025c-r0 x86_64 {tzdata}
 * xz-libs-5.8.2-r0 x86_64 {xz}
-* zlib-1.3.1-r2 x86_64 {zlib}
+* zlib-1.3.2-r0 x86_64 {zlib}

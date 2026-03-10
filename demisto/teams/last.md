@@ -1,9 +1,9 @@
-# `demisto/teams:1.0.0.6979213`
+# `demisto/teams:1.0.0.7529797`
 
 ## Docker Metadata
-- Image Size: 53.95 MB
-- Image ID: `sha256:af56941d1eb7e3fca22efcfb06c17fdc484f1627f0c040ccea68d8e017d8109d`
-- Created: `2026-02-02T14:15:08.025032997Z`
+- Image Size: 57.24 MB
+- Image ID: `sha256:e3e3a4baf950577658769afdc23f3260683e1332072efd15b7ca000422b85557`
+- Created: `2026-03-09T19:07:06.493056357Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/teams:1.0.0.6979213`
+  - `DOCKER_IMAGE=demisto/teams:1.0.0.7529797`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:9dcf03cdae66db65e41e0fe87e4bdd77f8862731`
-  - `org.opencontainers.image.version:1.0.0.6979213`
+  - `org.opencontainers.image.revision:0b695aebcc63abfade793ef3a1824228ec28380d`
+  - `org.opencontainers.image.version:1.0.0.7529797`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/teams:1.0.0.6979213
+Signatures for demisto/teams:1.0.0.7529797
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6979213   e3a2c329f0376371d5060389efdd4f67ebeaaa1e9679924d3fd82b1b12bdd702   (Repo Admin)
+1.0.0.7529797   34f892269044a2707eae9aae7464a9a15c82b878a2d91564553c19a77285141b   (Repo Admin)
 
-Administrative keys for demisto/teams:1.0.0.6979213
+Administrative keys for demisto/teams:1.0.0.7529797
 
   Repository Key:	b2887129b50f5a1b5836d11a274fe06aacb9538dbf9c9414e50f3a80e882457d
   Root Key:	c46423baa7a81cc607a4aaf966f67d987d95440212144e8845a433e291cf7eb9
@@ -147,7 +147,7 @@ Administrative keys for demisto/teams:1.0.0.6979213
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `Flask`
 
@@ -263,7 +263,7 @@ Administrative keys for demisto/teams:1.0.0.6979213
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.0
+* Version: 26.0.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -377,8 +377,8 @@ Administrative keys for demisto/teams:1.0.0.6979213
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.10.2
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
+* Version: 82.0.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>

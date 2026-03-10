@@ -1,9 +1,9 @@
-# `demisto/sklearn:1.0.0.7323034`
+# `demisto/sklearn:1.0.0.7529797`
 
 ## Docker Metadata
-- Image Size: 253.36 MB
-- Image ID: `sha256:bbd656139a5beb239dfd84b2bb098376e6eb29978ae5f3d7428dafe2d8853537`
-- Created: `2026-02-25T15:00:11.786487602Z`
+- Image Size: 253.41 MB
+- Image ID: `sha256:c34b3c7b6c446d1e8146d74c3eecf767a4314c5c01894bd0215135ba71f4f301`
+- Created: `2026-03-09T19:01:45.014749209Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,14 +12,14 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/sklearn:1.0.0.7323034`
+  - `DOCKER_IMAGE=demisto/sklearn:1.0.0.7529797`
   - `NLTK_DATA=/ml/nltk_data`
   - `OPENBLAS_NUM_THREADS=1`
   - `OMP_NUM_THREADS=4`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:9eecb9eadee9316423cd1e8382bc8af1fe853477`
-  - `org.opencontainers.image.version:1.0.0.7323034`
+  - `org.opencontainers.image.revision:0b695aebcc63abfade793ef3a1824228ec28380d`
+  - `org.opencontainers.image.version:1.0.0.7529797`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sklearn:1.0.0.7323034
+Signatures for demisto/sklearn:1.0.0.7529797
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7323034   d5f391d33594d0a236aa4d367b52a5c7136776d2bdac034d946e35ff89444755   (Repo Admin)
+1.0.0.7529797   6133d194d9ed382d81530b4c7d014535ea8cebfad16a66a73daa61f014f48c7c   (Repo Admin)
 
-Administrative keys for demisto/sklearn:1.0.0.7323034
+Administrative keys for demisto/sklearn:1.0.0.7529797
 
   Repository Key:	2475832d78c902e8999df2055c0f69226a85caf5ee20d300c05ffb6e87dd9f7c
   Root Key:	8ab906212f9f7b6d82f5edb3d677b0df40095899339fa0b36ecd00b68b304458
@@ -180,7 +180,7 @@ Administrative keys for demisto/sklearn:1.0.0.7323034
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.4.2
+* Version: 2.4.3
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.
@@ -302,7 +302,7 @@ Administrative keys for demisto/sklearn:1.0.0.7323034
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
 * Version: 80.10.2
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
@@ -431,4 +431,4 @@ Administrative keys for demisto/sklearn:1.0.0.7323034
 * ssl_client-1.37.0-r30 x86_64 {busybox}
 * tzdata-2025c-r0 x86_64 {tzdata}
 * xz-libs-5.8.2-r0 x86_64 {xz}
-* zlib-1.3.1-r2 x86_64 {zlib}
+* zlib-1.3.2-r0 x86_64 {zlib}
