@@ -1,9 +1,9 @@
-# `demisto/oci:1.0.0.7418446`
+# `demisto/oci:1.0.0.7557763`
 
 ## Docker Metadata
-- Image Size: 76.48 MB
-- Image ID: `sha256:e64ed4946caef974f9a2de84bdc1dc9ee9d94e05f26e4ddf722509b8aa76881c`
-- Created: `2026-03-03T15:43:52.719728177Z`
+- Image Size: 76.79 MB
+- Image ID: `sha256:e9328ff3b2c91b01eb0002f880b93930b6765d5f8c442f65506d698beb1d7328`
+- Created: `2026-03-10T15:45:32.851712261Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/oci:1.0.0.7418446`
+  - `DOCKER_IMAGE=demisto/oci:1.0.0.7557763`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d3b977f1b52f748412f030d46bb00228e35074d4`
-  - `org.opencontainers.image.version:1.0.0.7418446`
+  - `org.opencontainers.image.revision:565b3a982948a2b76b84449a532ea9f4ed9201e2`
+  - `org.opencontainers.image.version:1.0.0.7557763`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/oci:1.0.0.7418446
+Signatures for demisto/oci:1.0.0.7557763
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7418446   474dd2c2eb9bfa76207027318bb40d6c98119db2207d2ecc81ac5def8cde672a   (Repo Admin)
+1.0.0.7557763   c61c8220225dcc04eb4c961d7e812ed72861ea33d5684808483ff800b7a86d1e   (Repo Admin)
 
-Administrative keys for demisto/oci:1.0.0.7418446
+Administrative keys for demisto/oci:1.0.0.7557763
 
   Repository Key:	2cc50bdbe67fd75478233e92583764f227d51416d68a400f91f13954268ef489
   Root Key:	6c4262e4f5f1c456c5e9a45765790ff209f55ce49fc37ed2a3dc8a833e52de92
@@ -151,7 +151,7 @@ Administrative keys for demisto/oci:1.0.0.7418446
 ### `oci`
 
 * Summary: Oracle Cloud Infrastructure Python SDK
-* Version: 2.168.0
+* Version: 2.168.1
 * Pypi: https://pypi.org/project/oci/
 * Homepage: https://docs.oracle.com/en-us/iaas/tools/python/latest/index.html
 * Author: Oracle joe.levy@oracle.com
@@ -266,7 +266,7 @@ Administrative keys for demisto/oci:1.0.0.7418446
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
 * Version: 80.10.2
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None

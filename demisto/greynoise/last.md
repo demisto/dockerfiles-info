@@ -1,9 +1,9 @@
-# `demisto/greynoise:1.0.0.6977652`
+# `demisto/greynoise:1.0.0.7557763`
 
 ## Docker Metadata
-- Image Size: 30.93 MB
-- Image ID: `sha256:70382f48f52eba57c33e67477c4b3bbe01fd472a057bf6d50bd7e800972d1c8d`
-- Created: `2026-02-02T12:45:20.819669895Z`
+- Image Size: 31.33 MB
+- Image ID: `sha256:a39a2880a95d59f700b4eb6403806f80252fb328b17f5afc03f078bb6631fa2b`
+- Created: `2026-03-10T15:42:40.988288617Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/greynoise:1.0.0.6977652`
+  - `DOCKER_IMAGE=demisto/greynoise:1.0.0.7557763`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:5b575a4210b9bf5c7074aba553358174922d71a0`
-  - `org.opencontainers.image.version:1.0.0.6977652`
+  - `org.opencontainers.image.revision:565b3a982948a2b76b84449a532ea9f4ed9201e2`
+  - `org.opencontainers.image.version:1.0.0.7557763`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/greynoise:1.0.0.6977652
+Signatures for demisto/greynoise:1.0.0.7557763
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6977652   89b189d39f0651b7b463a2e979dbe713cb861444d04fb1f88bda623ef606cddf   (Repo Admin)
+1.0.0.7557763   dca454d60fd0c5df274b1f429a94e0c3938ad6dc76c9f99244d5c7bf23157332   (Repo Admin)
 
-Administrative keys for demisto/greynoise:1.0.0.6977652
+Administrative keys for demisto/greynoise:1.0.0.7557763
 
   Repository Key:	dcc6de6a7bd5abc31f2c8bdced514b1e7dc9f91942192614a668073a58e6f25f
   Root Key:	250fe3c8758a6b551ab2ec142fd29b541bffdfa107cc3b4b0667d02cd60ae504
@@ -47,16 +47,16 @@ Administrative keys for demisto/greynoise:1.0.0.6977652
 ### `ansimarkup`
 
 * Summary: Produce colored terminal text with an xml-like markup
-* Version: 2.1.0
+* Version: 2.2.0
 * Pypi: https://pypi.org/project/ansimarkup/
-* Homepage: 
-* Author: Georgi Valkov <georgi.t.valkov@gmail.com>
+* Homepage: None
+* Author: Georgi Valkov Georgi Valkov <georgi.t.valkov@gmail.com>
 * License :: OSI Approved :: BSD License
 
 ### `cachetools`
 
 * Summary: Extensible memoizing collections and decorators
-* Version: 7.0.0
+* Version: 7.0.5
 * Pypi: https://pypi.org/project/cachetools/
 * Homepage: None
 * Author: Thomas Kemmer <tkemmer@computer.org>
@@ -64,7 +64,7 @@ Administrative keys for demisto/greynoise:1.0.0.6977652
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.1.4
+* Version: 2026.2.25
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -73,7 +73,7 @@ Administrative keys for demisto/greynoise:1.0.0.6977652
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.4
+* Version: 3.4.5
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -158,7 +158,7 @@ Administrative keys for demisto/greynoise:1.0.0.6977652
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -172,7 +172,7 @@ Administrative keys for demisto/greynoise:1.0.0.6977652
 ### `greynoise`
 
 * Summary: Abstraction to interact with GreyNoise API.
-* Version: 3.0.1
+* Version: 3.0.2
 * Pypi: https://pypi.org/project/greynoise/
 * Homepage: None
 * Author: GreyNoise Intelligence <support@greynoise.io>
@@ -231,7 +231,7 @@ Administrative keys for demisto/greynoise:1.0.0.6977652
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.0
+* Version: 26.0.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -311,7 +311,7 @@ Administrative keys for demisto/greynoise:1.0.0.6977652
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
 * Version: 80.10.2
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
@@ -354,7 +354,7 @@ Administrative keys for demisto/greynoise:1.0.0.6977652
 ### `wcwidth`
 
 * Summary: Measures the displayed width of unicode strings in a terminal
-* Version: 0.5.3
+* Version: 0.6.0
 * Pypi: https://pypi.org/project/wcwidth/
 * Homepage: None
 * Author: Jeff Quast <contact@jeffquast.com>

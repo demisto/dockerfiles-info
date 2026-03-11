@@ -1,9 +1,9 @@
-# `demisto/argus-toolbelt:3.0.0.6977863`
+# `demisto/argus-toolbelt:3.0.0.7557763`
 
 ## Docker Metadata
-- Image Size: 33.95 MB
-- Image ID: `sha256:b5504e6109ae4f5aa147c5c76af7d2db2f1f660ded1e65b167bf1e68208d8dd5`
-- Created: `2026-02-02T12:59:47.990716028Z`
+- Image Size: 34.51 MB
+- Image ID: `sha256:6f72a30151a7c4b473381b05bfc6d96c4568baaa06b8046a38ad5ee983eb06b7`
+- Created: `2026-03-10T15:40:23.246663357Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/argus-toolbelt:3.0.0.6977863`
+  - `DOCKER_IMAGE=demisto/argus-toolbelt:3.0.0.7557763`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:f5c63b08ff396ba96c141dc3223dd6f4a04d1f1e`
-  - `org.opencontainers.image.version:3.0.0.6977863`
+  - `org.opencontainers.image.revision:565b3a982948a2b76b84449a532ea9f4ed9201e2`
+  - `org.opencontainers.image.version:3.0.0.7557763`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/argus-toolbelt:3.0.0.6977863
+Signatures for demisto/argus-toolbelt:3.0.0.7557763
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-3.0.0.6977863   3903e1d97a3a6c9cc1976208ff32a6d363e0314f6269cba9709a8d274dc24ad8   (Repo Admin)
+3.0.0.7557763   07ff7e82c702f572de74d64a4114265ed51c11ee7bbd330d4b96e34246dbd84a   (Repo Admin)
 
-Administrative keys for demisto/argus-toolbelt:3.0.0.6977863
+Administrative keys for demisto/argus-toolbelt:3.0.0.7557763
 
   Repository Key:	f8adef8bf4435c65d5978dd102ae48b29ab4b71d66ffc3a80fa05ca5f2503855
   Root Key:	9e4fc820cbbfedb52175005447b910adb588f852ad15f9114b983a4cfc166af7
@@ -47,7 +47,7 @@ Administrative keys for demisto/argus-toolbelt:3.0.0.6977863
 ### `argus-api`
 
 * Summary: SDK for the Argus API
-* Version: 5.0.0
+* Version: 5.1.0
 * Pypi: https://pypi.org/project/argus-api/
 * Homepage: https://mnemonic.io
 * Author: mnemonic opensource@mnemonic.no
@@ -56,7 +56,7 @@ Administrative keys for demisto/argus-toolbelt:3.0.0.6977863
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.1.4
+* Version: 2026.2.25
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -65,7 +65,7 @@ Administrative keys for demisto/argus-toolbelt:3.0.0.6977863
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.4
+* Version: 3.4.5
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -105,7 +105,7 @@ Administrative keys for demisto/argus-toolbelt:3.0.0.6977863
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -169,7 +169,7 @@ Administrative keys for demisto/argus-toolbelt:3.0.0.6977863
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.0
+* Version: 26.0.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -240,7 +240,7 @@ Administrative keys for demisto/argus-toolbelt:3.0.0.6977863
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
 * Version: 80.10.2
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
