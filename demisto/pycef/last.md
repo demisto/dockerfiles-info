@@ -1,9 +1,9 @@
-# `demisto/pycef:1.0.0.6978288`
+# `demisto/pycef:1.0.0.7658182`
 
 ## Docker Metadata
 - Image Size: 30.12 MB
-- Image ID: `sha256:f502ae858d25a0f991c84a32533821939a85f805a81dd370bfd943fcf72f64da`
-- Created: `2026-02-02T13:41:29.938893892Z`
+- Image ID: `sha256:3e1fdd46d9486d2afcceaa967ddb96eed554d3f7c45d41b3cd54fd6ccbbbb5fa`
+- Created: `2026-03-13T15:43:20.014718792Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/pycef:1.0.0.6978288`
+  - `DOCKER_IMAGE=demisto/pycef:1.0.0.7658182`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:db9f814fc320af5b00693f9537ec44cf0baf5023`
-  - `org.opencontainers.image.version:1.0.0.6978288`
+  - `org.opencontainers.image.revision:b049e0a7b915c3d261cfeca19189fe00988a6a7e`
+  - `org.opencontainers.image.version:1.0.0.7658182`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pycef:1.0.0.6978288
+Signatures for demisto/pycef:1.0.0.7658182
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6978288   8e48c3ca9d9f89f45adc8adc4219d20feda0a0e136ac783ba9eb61314950abae   (Repo Admin)
+1.0.0.7658182   978ff60e65aa593f9cd93098a84c30743942b47aa2af20e4d083b65febec837d   (Repo Admin)
 
-Administrative keys for demisto/pycef:1.0.0.6978288
+Administrative keys for demisto/pycef:1.0.0.7658182
 
   Repository Key:	918fdbbf5e3799958f69b31aab467c6482a646abd9476acb3829e235aea19993
   Root Key:	c2c417921223bacffff6b6494a3bff8b1419188538a9317cf1c25d8db2f857e4
@@ -96,7 +96,7 @@ Administrative keys for demisto/pycef:1.0.0.6978288
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -152,7 +152,7 @@ Administrative keys for demisto/pycef:1.0.0.6978288
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.0
+* Version: 26.0.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -170,7 +170,7 @@ Administrative keys for demisto/pycef:1.0.0.6978288
 ### `PyJWT`
 
 * Summary: JSON Web Token implementation in Python
-* Version: 2.11.0
+* Version: 2.12.0
 * Pypi: https://pypi.org/project/PyJWT/
 * Homepage: None
 * Author: Jose Padilla <hello@jpadilla.com>
@@ -240,7 +240,7 @@ Administrative keys for demisto/pycef:1.0.0.6978288
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
 * Version: 80.10.2
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None

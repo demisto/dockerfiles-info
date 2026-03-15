@@ -1,9 +1,9 @@
-# `demisto/google-cloud-storage:1.0.0.7039514`
+# `demisto/google-cloud-storage:1.0.0.7658182`
 
 ## Docker Metadata
-- Image Size: 47.40 MB
-- Image ID: `sha256:cf014b7226453886942c42971d82f040e0d2e1416b05cd894130b8f7e5057937`
-- Created: `2026-02-06T14:37:40.62072228Z`
+- Image Size: 48.95 MB
+- Image ID: `sha256:8595a704b446246da4a9949f0faa0dcb210d63953dc25785e27dce8560ae0066`
+- Created: `2026-03-13T15:42:18.589656009Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/google-cloud-storage:1.0.0.7039514`
+  - `DOCKER_IMAGE=demisto/google-cloud-storage:1.0.0.7658182`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:1ef65ba6024ed13dcf559689972bf23d082ed5cf`
-  - `org.opencontainers.image.version:1.0.0.7039514`
+  - `org.opencontainers.image.revision:b049e0a7b915c3d261cfeca19189fe00988a6a7e`
+  - `org.opencontainers.image.version:1.0.0.7658182`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-cloud-storage:1.0.0.7039514
+Signatures for demisto/google-cloud-storage:1.0.0.7658182
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7039514   6db49d5e8d2e850d9cdcd711f5e92a933fce29cef272c20f03639e1c9157a023   (Repo Admin)
+1.0.0.7658182   15cb805cad852e0e21a6b0223563a049b7da41e161c6c221f8f345cf85e225d1   (Repo Admin)
 
-Administrative keys for demisto/google-cloud-storage:1.0.0.7039514
+Administrative keys for demisto/google-cloud-storage:1.0.0.7658182
 
   Repository Key:	2ab3d4f7a65f14d64dba54c7aded1079c285fff5ad812fc19854d63a0c782c18
   Root Key:	3c2392b332f73092db366898dd6e161ffbf0aff1d5cfedf61a69e056c49a538e
@@ -47,7 +47,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.7039514
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.1.4
+* Version: 2026.2.25
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -64,7 +64,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.7039514
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.4
+* Version: 3.4.5
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -73,7 +73,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.7039514
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 46.0.4
+* Version: 46.0.5
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -112,7 +112,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.7039514
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -126,7 +126,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.7039514
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.29.0
+* Version: 2.30.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -135,7 +135,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.7039514
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.48.0
+* Version: 2.49.1
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-auth-library-python
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -153,9 +153,9 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.7039514
 ### `google-cloud-pubsub`
 
 * Summary: Google Cloud Pub/Sub API client library
-* Version: 2.35.0
+* Version: 2.36.0
 * Pypi: https://pypi.org/project/google-cloud-pubsub/
-* Homepage: https://github.com/googleapis/python-pubsub
+* Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-pubsub
 * Author: Google LLC googleapis-packages@google.com
 * License :: OSI Approved :: Apache Software License
 
@@ -189,7 +189,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.7039514
 ### `googleapis-common-protos`
 
 * Summary: Common protobufs used in Google APIs
-* Version: 1.72.0
+* Version: 1.73.0
 * Pypi: https://pypi.org/project/googleapis-common-protos/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -256,7 +256,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.7039514
 ### `opentelemetry-api`
 
 * Summary: OpenTelemetry Python API
-* Version: 1.39.1
+* Version: 1.40.0
 * Pypi: https://pypi.org/project/opentelemetry-api/
 * Homepage: None
 * Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
@@ -264,7 +264,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.7039514
 ### `opentelemetry-sdk`
 
 * Summary: OpenTelemetry Python SDK
-* Version: 1.39.1
+* Version: 1.40.0
 * Pypi: https://pypi.org/project/opentelemetry-sdk/
 * Homepage: None
 * Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
@@ -272,7 +272,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.7039514
 ### `opentelemetry-semantic-conventions`
 
 * Summary: OpenTelemetry Semantic Conventions
-* Version: 0.60b1
+* Version: 0.61b0
 * Pypi: https://pypi.org/project/opentelemetry-semantic-conventions/
 * Homepage: None
 * Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
@@ -412,7 +412,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.7039514
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
 * Version: 80.10.2
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None

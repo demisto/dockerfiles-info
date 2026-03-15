@@ -1,9 +1,9 @@
-# `demisto/snowflake:1.0.0.7260599`
+# `demisto/snowflake:1.0.0.7663857`
 
 ## Docker Metadata
 - Image Size: 80.65 MB
-- Image ID: `sha256:920967b1a54c38b9a8380c2a5bf3a9d99ddf2f2f2ffedd221dd482daef7fd7ac`
-- Created: `2026-02-22T10:45:45.351584587Z`
+- Image ID: `sha256:098c9ccdb12aea5187decf24eb4d50082bc249b7aba1bccdc0a264f428347dea`
+- Created: `2026-03-14T06:42:55.397439517Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/snowflake:1.0.0.7260599`
+  - `DOCKER_IMAGE=demisto/snowflake:1.0.0.7663857`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:01a122226e77bdb5c2f3a1b0781290cb7b356e5c`
-  - `org.opencontainers.image.version:1.0.0.7260599`
+  - `org.opencontainers.image.revision:6d2585c4c3b29f94b9c09fcce23df8a3b33a48a6`
+  - `org.opencontainers.image.version:1.0.0.7663857`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/snowflake:1.0.0.7260599
+Signatures for demisto/snowflake:1.0.0.7663857
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7260599   d1ba92d3315f3b855b5001c39f77a805251729587b9431c66b104ddfb165d26c   (Repo Admin)
+1.0.0.7663857   a3a1e030eb9f47d2c1355a17b1aaaa02bf73fb13a85596bc2cc90bf3619bc9cb   (Repo Admin)
 
-Administrative keys for demisto/snowflake:1.0.0.7260599
+Administrative keys for demisto/snowflake:1.0.0.7663857
 
   Repository Key:	e5af6c8f1edf3b7b609ca6e966b4b02cda62a847f7886ade144fdd863264d2dc
   Root Key:	62fa4117d95ea03c7a2357871e30ec66d7a624e3b931de015922a0c52d289cac
@@ -215,7 +215,7 @@ Administrative keys for demisto/snowflake:1.0.0.7260599
 ### `PyJWT`
 
 * Summary: JSON Web Token implementation in Python
-* Version: 2.11.0
+* Version: 2.12.0
 * Pypi: https://pypi.org/project/PyJWT/
 * Homepage: None
 * Author: Jose Padilla <hello@jpadilla.com>
@@ -303,7 +303,7 @@ Administrative keys for demisto/snowflake:1.0.0.7260599
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
 * Version: 82.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None

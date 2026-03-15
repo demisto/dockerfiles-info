@@ -1,9 +1,9 @@
-# `demisto/mcp:1.0.0.6978288`
+# `demisto/mcp:1.0.0.7663857`
 
 ## Docker Metadata
-- Image Size: 40.95 MB
-- Image ID: `sha256:944011d9521a9e88753ce83b96282162d23b7a4fdc914145364465109c73c802`
-- Created: `2026-02-02T13:26:38.899323594Z`
+- Image Size: 40.96 MB
+- Image ID: `sha256:f0f5738d21b51bc757795297a9544c00e7262e5e28fea0edf543a55cdb9c035e`
+- Created: `2026-03-14T06:40:50.892742107Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/mcp:1.0.0.6978288`
+  - `DOCKER_IMAGE=demisto/mcp:1.0.0.7663857`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:db9f814fc320af5b00693f9537ec44cf0baf5023`
-  - `org.opencontainers.image.version:1.0.0.6978288`
+  - `org.opencontainers.image.revision:6d2585c4c3b29f94b9c09fcce23df8a3b33a48a6`
+  - `org.opencontainers.image.version:1.0.0.7663857`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/mcp:1.0.0.6978288
+Signatures for demisto/mcp:1.0.0.7663857
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6978288   025687da5768d8603664c12cb70d7705da2eca5ef7a8e4812877382fb71b5d40   (Repo Admin)
+1.0.0.7663857   642c0a6e450b33e434fca4806e0692ecd7cd1221ba70f0aa3cfdd08c97da8728   (Repo Admin)
 
-Administrative keys for demisto/mcp:1.0.0.6978288
+Administrative keys for demisto/mcp:1.0.0.7663857
 
   Repository Key:	33380d20e18cb2980bcdfa01f031d099d2db52b45122f978a80246c9ee48daab
   Root Key:	e45106a7e5d7cc94d559856627cc933af59af78ae3e8d2e9f677904e5b94e13f
@@ -107,7 +107,7 @@ Administrative keys for demisto/mcp:1.0.0.6978288
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 46.0.4
+* Version: 46.0.5
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -146,7 +146,7 @@ Administrative keys for demisto/mcp:1.0.0.6978288
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -254,7 +254,7 @@ Administrative keys for demisto/mcp:1.0.0.6978288
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.0
+* Version: 26.0.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -296,7 +296,7 @@ Administrative keys for demisto/mcp:1.0.0.6978288
 ### `PyJWT`
 
 * Summary: JSON Web Token implementation in Python
-* Version: 2.11.0
+* Version: 2.12.0
 * Pypi: https://pypi.org/project/PyJWT/
 * Homepage: None
 * Author: Jose Padilla <hello@jpadilla.com>
@@ -399,7 +399,7 @@ Administrative keys for demisto/mcp:1.0.0.6978288
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
 * Version: 80.10.2
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None

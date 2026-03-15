@@ -1,9 +1,9 @@
-# `demisto/slackv3:1.0.0.6976072`
+# `demisto/slackv3:1.0.0.7658182`
 
 ## Docker Metadata
-- Image Size: 57.05 MB
-- Image ID: `sha256:aecd4786b6afbd491d6ae448f1ddf27a9c72cc1ceebc45abcf9348e6b855b81c`
-- Created: `2026-02-02T11:20:17.193252969Z`
+- Image Size: 56.87 MB
+- Image ID: `sha256:3c3c0f9fc7bf213093497d365190a5461dde61ac847a3084a1d059e0c3a06ddf`
+- Created: `2026-03-13T15:47:07.513008296Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/slackv3:1.0.0.6976072`
+  - `DOCKER_IMAGE=demisto/slackv3:1.0.0.7658182`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:ede3f6bbe777ab3484edffd3407a40a3e7652d30`
-  - `org.opencontainers.image.version:1.0.0.6976072`
+  - `org.opencontainers.image.revision:b049e0a7b915c3d261cfeca19189fe00988a6a7e`
+  - `org.opencontainers.image.version:1.0.0.7658182`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/slackv3:1.0.0.6976072
+Signatures for demisto/slackv3:1.0.0.7658182
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6976072   9ac40d44f26d0ae3babdc15d65ce67d725cdd058d88d772c1111f8b530e1e305   (Repo Admin)
+1.0.0.7658182   f83d2050ba2420ffdfe2f4d69dbddabdd7ab7db0973cafa884efff60288e559e   (Repo Admin)
 
-Administrative keys for demisto/slackv3:1.0.0.6976072
+Administrative keys for demisto/slackv3:1.0.0.7658182
 
   Repository Key:	6602ad934dd5a009ec1f1b9c2c790ddc5e51f314fe5de01189f72a28fc0aba8c
   Root Key:	c0823ae6697e9a99e1b889b37b9d4b7e34e645d912fdc7c06f1e1121ab88576a
@@ -92,7 +92,7 @@ Administrative keys for demisto/slackv3:1.0.0.6976072
 ### `boto3`
 
 * Summary: The AWS SDK for Python
-* Version: 1.42.39
+* Version: 1.42.67
 * Pypi: https://pypi.org/project/boto3/
 * Homepage: https://github.com/boto/boto3
 * Author: Amazon Web Services
@@ -101,7 +101,7 @@ Administrative keys for demisto/slackv3:1.0.0.6976072
 ### `botocore`
 
 * Summary: Low-level, data-driven core of boto 3.
-* Version: 1.42.39
+* Version: 1.42.67
 * Pypi: https://pypi.org/project/botocore/
 * Homepage: https://github.com/boto/botocore
 * Author: Amazon Web Services
@@ -167,7 +167,7 @@ Administrative keys for demisto/slackv3:1.0.0.6976072
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `frozenlist`
 
@@ -190,7 +190,7 @@ Administrative keys for demisto/slackv3:1.0.0.6976072
 ### `greenlet`
 
 * Summary: Lightweight in-process concurrent programming
-* Version: 3.3.1
+* Version: 3.3.2
 * Pypi: https://pypi.org/project/greenlet/
 * Homepage: None
 * Author: Alexey Borzenkov <snaury@gmail.com>
@@ -249,7 +249,7 @@ Administrative keys for demisto/slackv3:1.0.0.6976072
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.0
+* Version: 26.0.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -354,7 +354,7 @@ Administrative keys for demisto/slackv3:1.0.0.6976072
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
 * Version: 80.10.2
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
@@ -372,7 +372,7 @@ Administrative keys for demisto/slackv3:1.0.0.6976072
 ### `slack_sdk`
 
 * Summary: The Slack API Platform SDK for Python
-* Version: 3.39.0
+* Version: 3.41.0
 * Pypi: https://pypi.org/project/slack-sdk/
 * Homepage: https://github.com/slackapi/python-slack-sdk
 * Author: Slack Technologies, LLC opensource@slack.com
@@ -381,7 +381,7 @@ Administrative keys for demisto/slackv3:1.0.0.6976072
 ### `SQLAlchemy`
 
 * Summary: Database Abstraction Library
-* Version: 2.0.46
+* Version: 2.0.48
 * Pypi: https://pypi.org/project/SQLAlchemy/
 * Homepage: https://www.sqlalchemy.org
 * Author: Mike Bayer mike_mp@zzzcomputing.com
@@ -449,11 +449,11 @@ Administrative keys for demisto/slackv3:1.0.0.6976072
 ### `yarl`
 
 * Summary: Yet another URL library
-* Version: 1.22.0
+* Version: 1.23.0
 * Pypi: https://pypi.org/project/yarl/
 * Homepage: https://github.com/aio-libs/yarl
 * Author: Andrew Svetlov andrew.svetlov@gmail.com
-* License :: OSI Approved :: Apache Software License
+* License: Apache-2.0
 
 ## `OS Packages`
 
