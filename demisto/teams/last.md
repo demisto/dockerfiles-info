@@ -1,9 +1,9 @@
-# `demisto/teams:1.0.0.7658182`
+# `demisto/teams:1.0.0.7704170`
 
 ## Docker Metadata
 - Image Size: 57.24 MB
-- Image ID: `sha256:ea20cfc02896edcf7d0cc796ec8a1c19a0d765e8de002b0a89bdc69eacbbe2bc`
-- Created: `2026-03-13T15:48:41.796935613Z`
+- Image ID: `sha256:3085ce4633702000985fa18319fc065b2d604b3b7aab384930b269f25bc9bf18`
+- Created: `2026-03-16T15:58:47.304548557Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/teams:1.0.0.7658182`
+  - `DOCKER_IMAGE=demisto/teams:1.0.0.7704170`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b049e0a7b915c3d261cfeca19189fe00988a6a7e`
-  - `org.opencontainers.image.version:1.0.0.7658182`
+  - `org.opencontainers.image.revision:6a328bb7fd5f91ad643e94327b9b2e97652e3be9`
+  - `org.opencontainers.image.version:1.0.0.7704170`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/teams:1.0.0.7658182
+Signatures for demisto/teams:1.0.0.7704170
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7658182   78b8293e5a794ea8069ec0b5948c9b286f529144d55ffabf7ff5b0c6ffbeb4dc   (Repo Admin)
+1.0.0.7704170   a485e11725d7acc0ddcfd3ad5df8b847d152ca8528643bc10fe7f0dbb087f368   (Repo Admin)
 
-Administrative keys for demisto/teams:1.0.0.7658182
+Administrative keys for demisto/teams:1.0.0.7704170
 
   Repository Key:	b2887129b50f5a1b5836d11a274fe06aacb9538dbf9c9414e50f3a80e882457d
   Root Key:	c46423baa7a81cc607a4aaf966f67d987d95440212144e8845a433e291cf7eb9
@@ -289,7 +289,7 @@ Administrative keys for demisto/teams:1.0.0.7658182
 ### `PyJWT`
 
 * Summary: JSON Web Token implementation in Python
-* Version: 2.12.0
+* Version: 2.12.1
 * Pypi: https://pypi.org/project/PyJWT/
 * Homepage: None
 * Author: Jose Padilla <hello@jpadilla.com>

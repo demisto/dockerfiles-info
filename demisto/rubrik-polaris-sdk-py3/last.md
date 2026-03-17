@@ -1,9 +1,9 @@
-# `demisto/rubrik-polaris-sdk-py3:1.0.0.7658182`
+# `demisto/rubrik-polaris-sdk-py3:1.0.0.7704170`
 
 ## Docker Metadata
 - Image Size: 78.63 MB
-- Image ID: `sha256:8e004e7e33c1cffb04fdf2396df781570c9a47e045c4fb4841d1142605dae673`
-- Created: `2026-03-13T15:44:56.02772373Z`
+- Image ID: `sha256:7869824cf2faa5593435270b9f95451bf3dd21652effce7ecabde3bbe9365b5c`
+- Created: `2026-03-16T15:56:16.067896571Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/rubrik-polaris-sdk-py3:1.0.0.7658182`
+  - `DOCKER_IMAGE=demisto/rubrik-polaris-sdk-py3:1.0.0.7704170`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b049e0a7b915c3d261cfeca19189fe00988a6a7e`
-  - `org.opencontainers.image.version:1.0.0.7658182`
+  - `org.opencontainers.image.revision:6a328bb7fd5f91ad643e94327b9b2e97652e3be9`
+  - `org.opencontainers.image.version:1.0.0.7704170`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/rubrik-polaris-sdk-py3:1.0.0.7658182
+Signatures for demisto/rubrik-polaris-sdk-py3:1.0.0.7704170
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7658182   9c9490f0be00b114683ae5bc8a210ec245680286bed8eb8e1ccfa63fefa6081a   (Repo Admin)
+1.0.0.7704170   963bad16b504b601f9724ddbe4f472ca1a5f845083d3f86061ed03420e24b3d6   (Repo Admin)
 
-Administrative keys for demisto/rubrik-polaris-sdk-py3:1.0.0.7658182
+Administrative keys for demisto/rubrik-polaris-sdk-py3:1.0.0.7704170
 
   Repository Key:	1b281dec395e4830206052ca7e6c1135c52928081c5362ecffc899f4a6ec19ef
   Root Key:	649e02f412238022e9aa6b004a5838206b0b4e0ca4f4a6c5b8afd2a5a75e420d
@@ -320,7 +320,7 @@ Administrative keys for demisto/rubrik-polaris-sdk-py3:1.0.0.7658182
 ### `PyJWT`
 
 * Summary: JSON Web Token implementation in Python
-* Version: 2.12.0
+* Version: 2.12.1
 * Pypi: https://pypi.org/project/PyJWT/
 * Homepage: None
 * Author: Jose Padilla <hello@jpadilla.com>

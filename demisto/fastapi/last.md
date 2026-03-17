@@ -1,9 +1,9 @@
-# `demisto/fastapi:0.125.0.7194517`
+# `demisto/fastapi:0.125.0.7704170`
 
 ## Docker Metadata
-- Image Size: 171.66 MB
-- Image ID: `sha256:6c429aa40f554e61688884f70a7ed7e78b9201d510f1cbcbedc4773b4321008c`
-- Created: `2026-02-17T17:07:48.692544138Z`
+- Image Size: 171.86 MB
+- Image ID: `sha256:050b98069bbc8d013a4e7534bb842d6c8579cf6a49e46ff99c1b67bb70b615f1`
+- Created: `2026-03-16T15:45:33.716753091Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/fastapi:0.125.0.7194517`
+  - `DOCKER_IMAGE=demisto/fastapi:0.125.0.7704170`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:bbe578c2277450286b884c2420cb43b9c3a2e151`
-  - `org.opencontainers.image.version:0.125.0.7194517`
+  - `org.opencontainers.image.revision:6a328bb7fd5f91ad643e94327b9b2e97652e3be9`
+  - `org.opencontainers.image.version:0.125.0.7704170`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/fastapi:0.125.0.7194517
+Signatures for demisto/fastapi:0.125.0.7704170
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-0.125.0.7194517   7284b7a1cf225f86f1a452e5a0ca93bf6beda18273873149093e6ee9b6d461bd   (Repo Admin)
+0.125.0.7704170   40201b01ef9de5df95a6becf17eab32407ac6e4d811c84b0eb194954fd0a0b37   (Repo Admin)
 
-Administrative keys for demisto/fastapi:0.125.0.7194517
+Administrative keys for demisto/fastapi:0.125.0.7704170
 
   Repository Key:	0271ad1efe39b86e62ae7b94055f6a242fcc87508e09e3e3642e5b835eec0955
   Root Key:	5e03c5b300f950846c7027ad151ca45f71a4a03330a1805f070015d4aee41282
@@ -318,7 +318,7 @@ Administrative keys for demisto/fastapi:0.125.0.7194517
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
 * Version: 80.10.2
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
@@ -377,7 +377,7 @@ Administrative keys for demisto/fastapi:0.125.0.7194517
 ### `uvicorn`
 
 * Summary: The lightning-fast ASGI server.
-* Version: 0.41.0
+* Version: 0.42.0
 * Pypi: https://pypi.org/project/uvicorn/
 * Homepage: None
 * Author: Tom Christie <tom@tomchristie.com>
@@ -397,7 +397,7 @@ Administrative keys for demisto/fastapi:0.125.0.7194517
 * alpine-baselayout-data-3.7.1-r8 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
 * alpine-release-3.23.3-r0 x86_64 {alpine-base}
-* apk-tools-3.0.4-r0 x86_64 {apk-tools}
+* apk-tools-3.0.5-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r30 x86_64 {busybox}
 * busybox-binsh-1.37.0-r30 x86_64 {busybox}
 * ca-certificates-20251003-r0 x86_64 {ca-certificates}
@@ -406,7 +406,7 @@ Administrative keys for demisto/fastapi:0.125.0.7194517
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.1-r0 x86_64 {krb5}
-* libapk-3.0.4-r0 x86_64 {apk-tools}
+* libapk-3.0.5-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.5-r0 x86_64 {openssl}
@@ -431,6 +431,6 @@ Administrative keys for demisto/fastapi:0.125.0.7194517
 * sqlite-libs-3.51.2-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r30 x86_64 {busybox}
 * swig-4.4.0-r0 x86_64 {swig}
-* tzdata-2025c-r0 x86_64 {tzdata}
+* tzdata-2026a-r0 x86_64 {tzdata}
 * xz-libs-5.8.2-r0 x86_64 {xz}
-* zlib-1.3.1-r2 x86_64 {zlib}
+* zlib-1.3.2-r0 x86_64 {zlib}

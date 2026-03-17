@@ -1,27 +1,27 @@
-# `demisto/crypto:1.0.0.7454509`
+# `demisto/crypto:1.0.0.7704170`
 
 ## Docker Metadata
-- Image Size: 45.06 MB
-- Image ID: `sha256:8b24c82e279428e73d09d8b07f804db594af18936d888212191abc4e9197055c`
-- Created: `2026-03-05T15:41:01.666644798Z`
+- Image Size: 42.02 MB
+- Image ID: `sha256:2df351b486ae3e206b75fd43c79f544912546d7211d114bbe35a5ed18faf2260`
+- Created: `2026-03-16T15:43:37.230636656Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.12`
-  - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/crypto:1.0.0.7454509`
+  - `PYTHON_VERSION=3.12.13`
+  - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
+  - `DOCKER_IMAGE=demisto/crypto:1.0.0.7704170`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:58e75755b4e45d9889fa323bf88df619a53e2161`
-  - `org.opencontainers.image.version:1.0.0.7454509`
+  - `org.opencontainers.image.revision:6a328bb7fd5f91ad643e94327b9b2e97652e3be9`
+  - `org.opencontainers.image.version:1.0.0.7704170`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.23.2`
+  - `VERSION_ID=3.23.3`
   - `PRETTY_NAME="Alpine Linux v3.23"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/crypto:1.0.0.7454509
+Signatures for demisto/crypto:1.0.0.7704170
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7454509   51cec58fb646a9394ac29c02f7db63ca5f6675afaa05592ce1cbdd72affbc3d2   (Repo Admin)
+1.0.0.7704170   4860b700512a33d5f5c5c37316ce704c699a7e1a5831252248d9a17e330e95ef   (Repo Admin)
 
-Administrative keys for demisto/crypto:1.0.0.7454509
+Administrative keys for demisto/crypto:1.0.0.7704170
 
   Repository Key:	220ec19f346d59cc2cd852f42c8e3b659f963a92d6981d7ca1f4ca77409d6a6c
   Root Key:	ee857216bbb94fc0d393463890ba6b4e0a8945b3fee2eb1caee5027b76b21570
@@ -82,7 +82,7 @@ Administrative keys for demisto/crypto:1.0.0.7454509
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.4
+* Version: 3.4.6
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -99,7 +99,7 @@ Administrative keys for demisto/crypto:1.0.0.7454509
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.2.2
+* Version: 1.3.0
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub opensource@zyte.com
@@ -212,7 +212,7 @@ Administrative keys for demisto/crypto:1.0.0.7454509
 ### `PyJWT`
 
 * Summary: JSON Web Token implementation in Python
-* Version: 2.11.0
+* Version: 2.12.1
 * Pypi: https://pypi.org/project/PyJWT/
 * Homepage: None
 * Author: Jose Padilla <hello@jpadilla.com>
@@ -220,7 +220,7 @@ Administrative keys for demisto/crypto:1.0.0.7454509
 ### `pyOpenSSL`
 
 * Summary: Python wrapper module around the OpenSSL library
-* Version: 25.3.0
+* Version: 26.0.0
 * Pypi: https://pypi.org/project/pyOpenSSL/
 * Homepage: https://pyopenssl.org/
 * Author: The pyOpenSSL developers cryptography-dev@python.org
@@ -300,8 +300,8 @@ Administrative keys for demisto/crypto:1.0.0.7454509
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.10.2
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
+* Version: 82.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -367,12 +367,12 @@ Administrative keys for demisto/crypto:1.0.0.7454509
 
 ## `OS Packages`
 
-* .python-rundeps-20251218.004441 noarch {.python-rundeps}
+* .python-rundeps-20260303.201742 noarch {.python-rundeps}
 * alpine-baselayout-3.7.1-r8 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.1-r8 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.23.2-r0 x86_64 {alpine-base}
-* apk-tools-3.0.3-r1 x86_64 {apk-tools}
+* alpine-release-3.23.3-r0 x86_64 {alpine-base}
+* apk-tools-3.0.5-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r30 x86_64 {busybox}
 * busybox-binsh-1.37.0-r30 x86_64 {busybox}
 * ca-certificates-20251003-r0 x86_64 {ca-certificates}
@@ -381,7 +381,7 @@ Administrative keys for demisto/crypto:1.0.0.7454509
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.1-r0 x86_64 {krb5}
-* libapk-3.0.3-r1 x86_64 {apk-tools}
+* libapk-3.0.5-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.5-r0 x86_64 {openssl}
@@ -402,6 +402,6 @@ Administrative keys for demisto/crypto:1.0.0.7454509
 * scanelf-1.3.8-r2 x86_64 {pax-utils}
 * sqlite-libs-3.51.2-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r30 x86_64 {busybox}
-* tzdata-2025c-r0 x86_64 {tzdata}
+* tzdata-2026a-r0 x86_64 {tzdata}
 * xz-libs-5.8.2-r0 x86_64 {xz}
 * zlib-1.3.1-r2 x86_64 {zlib}
