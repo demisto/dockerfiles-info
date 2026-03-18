@@ -1,9 +1,9 @@
-# `demisto/google-kms:1.0.0.7274801`
+# `demisto/google-kms:1.0.0.7742802`
 
 ## Docker Metadata
-- Image Size: 71.26 MB
-- Image ID: `sha256:f08e796f8cc4399e4a185b037f0775aa2d86e30446b5d7bf193dcea0338ec968`
-- Created: `2026-02-23T06:48:11.441972259Z`
+- Image Size: 71.70 MB
+- Image ID: `sha256:073edd6f4b82d93c31771967bdac5f9d270dc6aa939d00bcfba0ebb3d6c027e0`
+- Created: `2026-03-17T21:49:30.835449694Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/google-kms:1.0.0.7274801`
+  - `DOCKER_IMAGE=demisto/google-kms:1.0.0.7742802`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:53f61ddcc3ad7c997219e35aae8d14c293ddff81`
-  - `org.opencontainers.image.version:1.0.0.7274801`
+  - `org.opencontainers.image.revision:fcfda433aa51361e4b8e7ee0592f37e540be555f`
+  - `org.opencontainers.image.version:1.0.0.7742802`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-kms:1.0.0.7274801
+Signatures for demisto/google-kms:1.0.0.7742802
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7274801   2e35f83570ac391818639d28cf5cc3b2ad3d161cf3b1925173d2598e52953394   (Repo Admin)
+1.0.0.7742802   0ee1222f69fb4e9141b35cf70e7d3d79f008f2363018c70bb33e46faa07222e2   (Repo Admin)
 
-Administrative keys for demisto/google-kms:1.0.0.7274801
+Administrative keys for demisto/google-kms:1.0.0.7742802
 
   Repository Key:	3968c10ba3e31bc8df33d81159ca1fe0b3299a456046b6bf78410ae84ede0850
   Root Key:	d0fd563a2245b5e45fc961df4aaaa6e8aaca915308df0a0eeb6c829867f63a34
@@ -50,7 +50,7 @@ Administrative keys for demisto/google-kms:1.0.0.7274801
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.1.4
+* Version: 2026.2.25
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -67,7 +67,7 @@ Administrative keys for demisto/google-kms:1.0.0.7274801
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.4
+* Version: 3.4.6
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -120,7 +120,7 @@ Administrative keys for demisto/google-kms:1.0.0.7274801
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.29.0
+* Version: 2.30.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -129,7 +129,7 @@ Administrative keys for demisto/google-kms:1.0.0.7274801
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.48.0
+* Version: 2.49.1
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-auth-library-python
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -138,7 +138,7 @@ Administrative keys for demisto/google-kms:1.0.0.7274801
 ### `google-cloud-kms`
 
 * Summary: Google Cloud Kms API client library
-* Version: 3.10.0
+* Version: 3.11.0
 * Pypi: https://pypi.org/project/google-cloud-kms/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-kms
 * Author: Google LLC googleapis-packages@google.com
@@ -147,7 +147,7 @@ Administrative keys for demisto/google-kms:1.0.0.7274801
 ### `googleapis-common-protos`
 
 * Summary: Common protobufs used in Google APIs
-* Version: 1.72.0
+* Version: 1.73.0
 * Pypi: https://pypi.org/project/googleapis-common-protos/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -241,7 +241,7 @@ Administrative keys for demisto/google-kms:1.0.0.7274801
 ### `pyasn1`
 
 * Summary: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
-* Version: 0.6.2
+* Version: 0.6.3
 * Pypi: https://pypi.org/project/pyasn1/
 * Homepage: None
 * Author: Ilya Etingof <etingof@gmail.com>
@@ -338,7 +338,7 @@ Administrative keys for demisto/google-kms:1.0.0.7274801
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
 * Version: 82.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None

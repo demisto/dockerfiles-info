@@ -1,28 +1,28 @@
-# `demisto/flask-nginx:1.0.0.7529797`
+# `demisto/flask-nginx:1.0.0.7742802`
 
 ## Docker Metadata
-- Image Size: 61.68 MB
-- Image ID: `sha256:e6e27ecc9786369a9e5747f57421452690379a8d3f73e371965cafe6f716558b`
-- Created: `2026-03-09T18:45:20.724478186Z`
+- Image Size: 59.28 MB
+- Image ID: `sha256:a63a19c66ca963550db3523ffda6989e9718844b5f5694203b193c71e0b3b3f2`
+- Created: `2026-03-17T21:43:03.522940878Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.12`
-  - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/flask-nginx:1.0.0.7529797`
+  - `PYTHON_VERSION=3.12.13`
+  - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
+  - `DOCKER_IMAGE=demisto/flask-nginx:1.0.0.7742802`
   - `TLDEXTRACT_CACHE=/tldextractcahce`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:0b695aebcc63abfade793ef3a1824228ec28380d`
-  - `org.opencontainers.image.version:1.0.0.7529797`
+  - `org.opencontainers.image.revision:fcfda433aa51361e4b8e7ee0592f37e540be555f`
+  - `org.opencontainers.image.version:1.0.0.7742802`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.23.2`
+  - `VERSION_ID=3.23.3`
   - `PRETTY_NAME="Alpine Linux v3.23"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -30,12 +30,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/flask-nginx:1.0.0.7529797
+Signatures for demisto/flask-nginx:1.0.0.7742802
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7529797   e057410c820097d4311240ffb6b4ddedae1067f451c873561f69ec5f2520b646   (Repo Admin)
+1.0.0.7742802   7524883e22c193a729cdfa1bba4f2937ab2295e5cb697f8fc51e0a2d6a7354a1   (Repo Admin)
 
-Administrative keys for demisto/flask-nginx:1.0.0.7529797
+Administrative keys for demisto/flask-nginx:1.0.0.7742802
 
   Repository Key:	cd63e9ddedff7202ae30dbdf34477d2a1fff7906e95e8e7f2f3af318667b30dc
   Root Key:	cfc5a8f3acd3234daa9939e8b8f675e46931b2d3ab302521f4a391a28dfd2750
@@ -84,7 +84,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.7529797
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.1.4
+* Version: 2026.2.25
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -101,7 +101,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.7529797
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.4
+* Version: 3.4.6
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -118,7 +118,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.7529797
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 46.0.4
+* Version: 46.0.5
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -126,7 +126,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.7529797
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.2.2
+* Version: 1.3.0
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub opensource@zyte.com
@@ -153,7 +153,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.7529797
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.20.3
+* Version: 3.25.2
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -162,7 +162,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.7529797
 ### `Flask`
 
 * Summary: A simple framework for building complex web applications.
-* Version: 3.1.2
+* Version: 3.1.3
 * Pypi: https://pypi.org/project/Flask/
 * Homepage: None
 * Author: None
@@ -197,7 +197,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.7529797
 ### `greenlet`
 
 * Summary: Lightweight in-process concurrent programming
-* Version: 3.3.1
+* Version: 3.3.2
 * Pypi: https://pypi.org/project/greenlet/
 * Homepage: None
 * Author: Alexey Borzenkov <snaury@gmail.com>
@@ -247,7 +247,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.7529797
 ### `msal`
 
 * Summary: The Microsoft Authentication Library (MSAL) for Python library enables your app to access the Microsoft Cloud by supporting authentication of users with Microsoft Azure Active Directory accounts (AAD) and Microsoft Accounts (MSA) using industry standard OAuth2 and OpenID Connect.
-* Version: 1.34.0
+* Version: 1.35.1
 * Pypi: https://pypi.org/project/msal/
 * Homepage: https://github.com/AzureAD/microsoft-authentication-library-for-python
 * Author: Microsoft Corporation nugetaad@microsoft.com
@@ -308,16 +308,15 @@ Administrative keys for demisto/flask-nginx:1.0.0.7529797
 ### `PyJWT`
 
 * Summary: JSON Web Token implementation in Python
-* Version: 2.10.1
+* Version: 2.12.1
 * Pypi: https://pypi.org/project/PyJWT/
 * Homepage: None
 * Author: Jose Padilla <hello@jpadilla.com>
-* License: MIT
 
 ### `pyOpenSSL`
 
 * Summary: Python wrapper module around the OpenSSL library
-* Version: 25.3.0
+* Version: 26.0.0
 * Pypi: https://pypi.org/project/pyOpenSSL/
 * Homepage: https://pyopenssl.org/
 * Author: The pyOpenSSL developers cryptography-dev@python.org
@@ -345,7 +344,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.7529797
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2025.2
+* Version: 2026.1.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -424,7 +423,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.7529797
 ### `stix2-patterns`
 
 * Summary: Validate STIX 2 Patterns.
-* Version: 2.1.1
+* Version: 2.1.2
 * Pypi: https://pypi.org/project/stix2-patterns/
 * Homepage: https://github.com/oasis-open/cti-pattern-validator
 * Author: OASIS Cyber Threat Intelligence Technical Committee cti-users@lists.oasis-open.org
@@ -475,7 +474,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.7529797
 ### `Werkzeug`
 
 * Summary: The comprehensive WSGI web application library.
-* Version: 3.1.5
+* Version: 3.1.6
 * Pypi: https://pypi.org/project/Werkzeug/
 * Homepage: None
 * Author: None
@@ -507,12 +506,12 @@ Administrative keys for demisto/flask-nginx:1.0.0.7529797
 
 ## `OS Packages`
 
-* .python-rundeps-20251218.004441 noarch {.python-rundeps}
+* .python-rundeps-20260303.201742 noarch {.python-rundeps}
 * alpine-baselayout-3.7.1-r8 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.1-r8 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.23.2-r0 x86_64 {alpine-base}
-* apk-tools-3.0.3-r1 x86_64 {apk-tools}
+* alpine-release-3.23.3-r0 x86_64 {alpine-base}
+* apk-tools-3.0.5-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r30 x86_64 {busybox}
 * busybox-binsh-1.37.0-r30 x86_64 {busybox}
 * ca-certificates-20251003-r0 x86_64 {ca-certificates}
@@ -521,7 +520,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.7529797
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.1-r0 x86_64 {krb5}
-* libapk-3.0.3-r1 x86_64 {apk-tools}
+* libapk-3.0.5-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.5-r0 x86_64 {openssl}
@@ -544,6 +543,6 @@ Administrative keys for demisto/flask-nginx:1.0.0.7529797
 * scanelf-1.3.8-r2 x86_64 {pax-utils}
 * sqlite-libs-3.51.2-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r30 x86_64 {busybox}
-* tzdata-2025c-r0 x86_64 {tzdata}
+* tzdata-2026a-r0 x86_64 {tzdata}
 * xz-libs-5.8.2-r0 x86_64 {xz}
 * zlib-1.3.1-r2 x86_64 {zlib}

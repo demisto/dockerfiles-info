@@ -1,27 +1,27 @@
-# `demisto/py3ews:5.6.0.6978288`
+# `demisto/py3ews:5.6.0.7742802`
 
 ## Docker Metadata
-- Image Size: 56.96 MB
-- Image ID: `sha256:921d515d41990274e388b25a9683bbc155ce9bfa5a0bbcc64c88d7fc9c093f1c`
-- Created: `2026-02-02T13:38:49.264774013Z`
+- Image Size: 55.50 MB
+- Image ID: `sha256:7bd01d1c27ab8b42e67ad4b222f5845427f9fac2bd6a9d703cdbf695f6b1eeb2`
+- Created: `2026-03-17T21:58:13.436341752Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.12`
-  - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/py3ews:5.6.0.6978288`
+  - `PYTHON_VERSION=3.12.13`
+  - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
+  - `DOCKER_IMAGE=demisto/py3ews:5.6.0.7742802`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:db9f814fc320af5b00693f9537ec44cf0baf5023`
-  - `org.opencontainers.image.version:5.6.0.6978288`
+  - `org.opencontainers.image.revision:fcfda433aa51361e4b8e7ee0592f37e540be555f`
+  - `org.opencontainers.image.version:5.6.0.7742802`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.23.2`
+  - `VERSION_ID=3.23.3`
   - `PRETTY_NAME="Alpine Linux v3.23"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py3ews:5.6.0.6978288
+Signatures for demisto/py3ews:5.6.0.7742802
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-5.6.0.6978288   8d20e0a10267aeaa46807e5f33809488862c654831aa200fd03ee2bbcf7f6105   (Repo Admin)
+5.6.0.7742802   c26c1c294aefc293b8fb29f8c1416385b3b7de4f6d0425656003de7adc254766   (Repo Admin)
 
-Administrative keys for demisto/py3ews:5.6.0.6978288
+Administrative keys for demisto/py3ews:5.6.0.7742802
 
   Repository Key:	49e0be19d4c430aaef147539b64259bbc85885e5bd03918079e6a66d693cb8be
   Root Key:	e2c459fee62c0ca5b39fcd6a3cd86c53a1506042ad92cc59aada6a00a0e1bbf4
@@ -74,7 +74,7 @@ Administrative keys for demisto/py3ews:5.6.0.6978288
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.1.4
+* Version: 2026.2.25
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -90,17 +90,17 @@ Administrative keys for demisto/py3ews:5.6.0.6978288
 
 ### `chardet`
 
-* Summary: Universal encoding detector for Python 3
-* Version: 5.2.0
+* Summary: Universal character encoding detector
+* Version: 7.1.0
 * Pypi: https://pypi.org/project/chardet/
-* Homepage: https://github.com/chardet/chardet
-* Author: Mark Pilgrim mark@diveintomark.org
-* License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+* Homepage: None
+* Author: Dan Blanchard <dan.blanchard@gmail.com>
+* License :: OSI Approved :: MIT License
 
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.4
+* Version: 3.4.6
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -109,7 +109,7 @@ Administrative keys for demisto/py3ews:5.6.0.6978288
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 46.0.4
+* Version: 46.0.5
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -117,7 +117,7 @@ Administrative keys for demisto/py3ews:5.6.0.6978288
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.2.2
+* Version: 1.3.0
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub opensource@zyte.com
@@ -174,7 +174,7 @@ Administrative keys for demisto/py3ews:5.6.0.6978288
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -231,7 +231,7 @@ Administrative keys for demisto/py3ews:5.6.0.6978288
 ### `msal`
 
 * Summary: The Microsoft Authentication Library (MSAL) for Python library enables your app to access the Microsoft Cloud by supporting authentication of users with Microsoft Azure Active Directory accounts (AAD) and Microsoft Accounts (MSA) using industry standard OAuth2 and OpenID Connect.
-* Version: 1.34.0
+* Version: 1.35.1
 * Pypi: https://pypi.org/project/msal/
 * Homepage: https://github.com/AzureAD/microsoft-authentication-library-for-python
 * Author: Microsoft Corporation nugetaad@microsoft.com
@@ -275,7 +275,7 @@ Administrative keys for demisto/py3ews:5.6.0.6978288
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.0
+* Version: 26.0.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -310,16 +310,15 @@ Administrative keys for demisto/py3ews:5.6.0.6978288
 ### `PyJWT`
 
 * Summary: JSON Web Token implementation in Python
-* Version: 2.10.1
+* Version: 2.12.1
 * Pypi: https://pypi.org/project/PyJWT/
 * Homepage: None
 * Author: Jose Padilla <hello@jpadilla.com>
-* License: MIT
 
 ### `pyOpenSSL`
 
 * Summary: Python wrapper module around the OpenSSL library
-* Version: 25.3.0
+* Version: 26.0.0
 * Pypi: https://pypi.org/project/pyOpenSSL/
 * Homepage: https://pyopenssl.org/
 * Author: The pyOpenSSL developers cryptography-dev@python.org
@@ -347,7 +346,7 @@ Administrative keys for demisto/py3ews:5.6.0.6978288
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2025.2
+* Version: 2026.1.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -374,7 +373,7 @@ Administrative keys for demisto/py3ews:5.6.0.6978288
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.1.15
+* Version: 2026.2.28
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -417,8 +416,8 @@ Administrative keys for demisto/py3ews:5.6.0.6978288
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.10.2
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
+* Version: 82.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -493,12 +492,12 @@ Administrative keys for demisto/py3ews:5.6.0.6978288
 
 ## `OS Packages`
 
-* .python-rundeps-20251218.004441 noarch {.python-rundeps}
+* .python-rundeps-20260303.201742 noarch {.python-rundeps}
 * alpine-baselayout-3.7.1-r8 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.1-r8 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.23.2-r0 x86_64 {alpine-base}
-* apk-tools-3.0.3-r1 x86_64 {apk-tools}
+* alpine-release-3.23.3-r0 x86_64 {alpine-base}
+* apk-tools-3.0.5-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r30 x86_64 {busybox}
 * busybox-binsh-1.37.0-r30 x86_64 {busybox}
 * ca-certificates-20251003-r0 x86_64 {ca-certificates}
@@ -507,7 +506,7 @@ Administrative keys for demisto/py3ews:5.6.0.6978288
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.1-r0 x86_64 {krb5}
-* libapk-3.0.3-r1 x86_64 {apk-tools}
+* libapk-3.0.5-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.5-r0 x86_64 {openssl}
@@ -534,9 +533,9 @@ Administrative keys for demisto/py3ews:5.6.0.6978288
 * scanelf-1.3.8-r2 x86_64 {pax-utils}
 * sqlite-libs-3.51.2-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r30 x86_64 {busybox}
-* tzdata-2025c-r0 x86_64 {tzdata}
+* tzdata-2026a-r0 x86_64 {tzdata}
 * xz-5.8.2-r0 x86_64 {xz}
 * xz-dev-5.8.2-r0 x86_64 {xz}
 * xz-libs-5.8.2-r0 x86_64 {xz}
-* zlib-1.3.1-r2 x86_64 {zlib}
-* zlib-dev-1.3.1-r2 x86_64 {zlib}
+* zlib-1.3.2-r0 x86_64 {zlib}
+* zlib-dev-1.3.2-r0 x86_64 {zlib}
