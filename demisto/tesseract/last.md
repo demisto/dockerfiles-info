@@ -1,9 +1,9 @@
-# `demisto/tesseract:1.0.0.7822742`
+# `demisto/tesseract:1.0.0.7837600`
 
 ## Docker Metadata
 - Image Size: 330.01 MB
-- Image ID: `sha256:7ebc78fd7fd0b9981b7ad73d760439002262b869f8ba0d11577a65800604e23e`
-- Created: `2026-03-22T03:59:28.36813988Z`
+- Image ID: `sha256:ba15d894a30011af359d2460720891839b1e4992a2ec1a33ff337557594ad1dc`
+- Created: `2026-03-22T16:13:22.865009094Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/tesseract:1.0.0.7822742`
+  - `DOCKER_IMAGE=demisto/tesseract:1.0.0.7837600`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:0b620dfdf7bcc258d1a88e80ba934513252e09f2`
-  - `org.opencontainers.image.version:1.0.0.7822742`
+  - `org.opencontainers.image.revision:deacdf3b967a3553f29793c0d3be28963f5af896`
+  - `org.opencontainers.image.version:1.0.0.7837600`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/tesseract:1.0.0.7822742
+Signatures for demisto/tesseract:1.0.0.7837600
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7822742   7fa16358fc0e79f3b769d6e3e1bdf6ac6869b90a45dd2bf30d6a4f2f6ed41caf   (Repo Admin)
+1.0.0.7837600   db132c5cb9af509997207b50997aa42c5e089450190bb40834c739d7d84b0041   (Repo Admin)
 
-Administrative keys for demisto/tesseract:1.0.0.7822742
+Administrative keys for demisto/tesseract:1.0.0.7837600
 
   Repository Key:	8c9e5e7fd85628c7b2a9f92f3b76b36e2ae34ba4ba64d45cb5133562db3e13de
   Root Key:	31fe5dd141a39796b4809023561ed21329865cc82a4db3b4eebf92cec1858212

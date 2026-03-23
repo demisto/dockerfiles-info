@@ -1,9 +1,9 @@
-# `demisto/pyotrs:1.0.0.7822742`
+# `demisto/pyotrs:1.0.0.7837600`
 
 ## Docker Metadata
 - Image Size: 29.44 MB
-- Image ID: `sha256:da0a3981e7c7f3f291109d4e87a51e5950922ee86f025b8ae9adc5813465b2ef`
-- Created: `2026-03-22T03:43:43.442791797Z`
+- Image ID: `sha256:a28c02416317f66989ca647f1182d877b4533b4735461608ffc28201f4e8e6b9`
+- Created: `2026-03-22T15:51:09.025554093Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/pyotrs:1.0.0.7822742`
+  - `DOCKER_IMAGE=demisto/pyotrs:1.0.0.7837600`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:0b620dfdf7bcc258d1a88e80ba934513252e09f2`
-  - `org.opencontainers.image.version:1.0.0.7822742`
+  - `org.opencontainers.image.revision:deacdf3b967a3553f29793c0d3be28963f5af896`
+  - `org.opencontainers.image.version:1.0.0.7837600`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pyotrs:1.0.0.7822742
+Signatures for demisto/pyotrs:1.0.0.7837600
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7822742   27167de06e3596a19867bec970d1256fec872b1dff82c5b30251995d29ebdfbd   (Repo Admin)
+1.0.0.7837600   d194258c256873f5f966fa99c1d33b200893ba0dfd3134fa39c8b945d0c6ad52   (Repo Admin)
 
-Administrative keys for demisto/pyotrs:1.0.0.7822742
+Administrative keys for demisto/pyotrs:1.0.0.7837600
 
   Repository Key:	782309d28429e1aceccd81f3d7d55f0c5894e977094a87d68fecb539782252ff
   Root Key:	ab48f05aa4b215579b18849df811e516cd1c89bad845984fe614208efbeda33e
