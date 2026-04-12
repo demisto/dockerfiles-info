@@ -1,9 +1,9 @@
-# `demisto/unzip:1.0.0.7837600`
+# `demisto/unzip:1.0.0.8160132`
 
 ## Docker Metadata
 - Image Size: 59.73 MB
-- Image ID: `sha256:e086c4689613085a08e99b32647ac4e94d0812d789a663e8a90e263ce249f914`
-- Created: `2026-03-22T16:15:37.971158283Z`
+- Image ID: `sha256:f68d2868cd3d6d0c813c45afb0707b958dd4a51c9459357292004d1f3d9e0979`
+- Created: `2026-04-09T23:25:00.980176679Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/unzip:1.0.0.7837600`
+  - `DOCKER_IMAGE=demisto/unzip:1.0.0.8160132`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:deacdf3b967a3553f29793c0d3be28963f5af896`
-  - `org.opencontainers.image.version:1.0.0.7837600`
+  - `org.opencontainers.image.revision:426e26934b5d76a035de6ab9755e6d0e569db886`
+  - `org.opencontainers.image.version:1.0.0.8160132`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/unzip:1.0.0.7837600
+Signatures for demisto/unzip:1.0.0.8160132
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7837600   b6f5a85c7b2d30aeff580387dca47b1cca7139058fa9572462eb155c4e14aa74   (Repo Admin)
+1.0.0.8160132   5aa4553266806ca3c3a568eaa3ebc41a0ad1c4e13574b01cfb29938e363cc834   (Repo Admin)
 
-Administrative keys for demisto/unzip:1.0.0.7837600
+Administrative keys for demisto/unzip:1.0.0.8160132
 
   Repository Key:	8502dcd9747d860601254c8e2e908005624ef59c37b18c2dd72db1eb8e0d37e3
   Root Key:	f7ee2f631342ff2873fc4281c1baba874434a8fca0834d6a2c3fa6ee6b04e3be
@@ -193,8 +193,8 @@ Administrative keys for demisto/unzip:1.0.0.7837600
 * Summary: Python HTTP for Humans.
 * Version: 2.32.5
 * Pypi: https://pypi.org/project/requests/
-* Homepage: https://requests.readthedocs.io
-* Author: Kenneth Reitz me@kennethreitz.org
+* Homepage: None
+* Author: Kenneth Reitz <me@kennethreitz.org>
 * License :: OSI Approved :: Apache Software License
 
 ### `requests-file`

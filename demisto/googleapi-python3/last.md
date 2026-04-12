@@ -1,9 +1,9 @@
-# `demisto/googleapi-python3:1.0.0.7742802`
+# `demisto/googleapi-python3:1.0.0.8160132`
 
 ## Docker Metadata
 - Image Size: 79.20 MB
-- Image ID: `sha256:b2802f98f92ebd53cdad6a588a0eb40d68429febd9069fd27dd2d6b540ec18da`
-- Created: `2026-03-17T21:53:21.498201122Z`
+- Image ID: `sha256:03cd40cdfdd7795ac4bd2e32be60c3a2ddb1cb0797f2e962302384c38f2edbbf`
+- Created: `2026-04-09T22:19:55.987681704Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/googleapi-python3:1.0.0.7742802`
+  - `DOCKER_IMAGE=demisto/googleapi-python3:1.0.0.8160132`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:fcfda433aa51361e4b8e7ee0592f37e540be555f`
-  - `org.opencontainers.image.version:1.0.0.7742802`
+  - `org.opencontainers.image.revision:426e26934b5d76a035de6ab9755e6d0e569db886`
+  - `org.opencontainers.image.version:1.0.0.8160132`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/googleapi-python3:1.0.0.7742802
+Signatures for demisto/googleapi-python3:1.0.0.8160132
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7742802   653fc29d84ea5ccba64b2c1276464bf0bd27e82f8020e2390caa333868605e7d   (Repo Admin)
+1.0.0.8160132   efa3de52571a73f8fc96e4b3974062b972e396213b5dc1c959dd6997e1864fdb   (Repo Admin)
 
-Administrative keys for demisto/googleapi-python3:1.0.0.7742802
+Administrative keys for demisto/googleapi-python3:1.0.0.8160132
 
   Repository Key:	b14f1cdad56bfcc44f0ba4af89b0ec4910e16f20c7c6ab86d496a5786dc49c4c
   Root Key:	8fe3e320ac3b88f7823a158cd05468872ae8ac2135e8ca4f9e70d707440f05d4
@@ -76,7 +76,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.7742802
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 46.0.5
+* Version: 46.0.7
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -149,7 +149,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.7742802
 * Summary: Google Authentication Library: httplib2 transport
 * Version: 0.3.0
 * Pypi: https://pypi.org/project/google-auth-httplib2/
-* Homepage: https://github.com/GoogleCloudPlatform/google-auth-library-python-httplib2
+* Homepage: https://github.com/googleapis/google-cloud-python/packages/google-auth-httplib2
 * Author: Google Cloud Platform googleapis-packages@google.com
 * License :: OSI Approved :: Apache Software License
 
@@ -158,7 +158,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.7742802
 * Summary: Google Cloud API client core library
 * Version: 2.5.0
 * Pypi: https://pypi.org/project/google-cloud-core/
-* Homepage: https://github.com/googleapis/python-cloud-core
+* Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-core
 * Author: Google LLC googleapis-packages@google.com
 * License :: OSI Approved :: Apache Software License
 
@@ -360,8 +360,8 @@ Administrative keys for demisto/googleapi-python3:1.0.0.7742802
 * Summary: Python HTTP for Humans.
 * Version: 2.32.5
 * Pypi: https://pypi.org/project/requests/
-* Homepage: https://requests.readthedocs.io
-* Author: Kenneth Reitz me@kennethreitz.org
+* Homepage: None
+* Author: Kenneth Reitz <me@kennethreitz.org>
 * License :: OSI Approved :: Apache Software License
 
 ### `requests-file`

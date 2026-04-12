@@ -1,9 +1,9 @@
-# `demisto/google-cloud-translate:1.0.0.7742802`
+# `demisto/google-cloud-translate:1.0.0.8160132`
 
 ## Docker Metadata
-- Image Size: 71.03 MB
-- Image ID: `sha256:2ad98042c75ac683a711a1086addbd5801766fe3ead3be3f0a20c4b6123fa18b`
-- Created: `2026-03-17T21:46:59.246682279Z`
+- Image Size: 71.70 MB
+- Image ID: `sha256:b364351cd107f1ee4c15d765ff6a2a0980f4956b61e299c79e33706386056a67`
+- Created: `2026-04-09T22:13:45.524759586Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/google-cloud-translate:1.0.0.7742802`
+  - `DOCKER_IMAGE=demisto/google-cloud-translate:1.0.0.8160132`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:fcfda433aa51361e4b8e7ee0592f37e540be555f`
-  - `org.opencontainers.image.version:1.0.0.7742802`
+  - `org.opencontainers.image.revision:426e26934b5d76a035de6ab9755e6d0e569db886`
+  - `org.opencontainers.image.version:1.0.0.8160132`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-cloud-translate:1.0.0.7742802
+Signatures for demisto/google-cloud-translate:1.0.0.8160132
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7742802   b61d8b9292581b87af31e763c606a297e7fdcc362d07d4fc2e0c9bbe9b59d778   (Repo Admin)
+1.0.0.8160132   32a3ab2ce70ea78d2495c67b1adc88cabda59383a375b285c224c0cfb9f50f16   (Repo Admin)
 
-Administrative keys for demisto/google-cloud-translate:1.0.0.7742802
+Administrative keys for demisto/google-cloud-translate:1.0.0.8160132
 
   Repository Key:	09cd7f9d31e99f8c90dae52da10888c2a3779290ce38e52739c73bd91866a375
   Root Key:	42aa8b794987daaa5c6574d46a5483e72b0bc2daaba1c2e9968501ae78c35283
@@ -50,7 +50,7 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.7742802
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.1.4
+* Version: 2026.2.25
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -67,7 +67,7 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.7742802
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.4
+* Version: 3.4.7
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -76,7 +76,7 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.7742802
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 46.0.5
+* Version: 46.0.7
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -120,7 +120,7 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.7742802
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.29.0
+* Version: 2.30.2
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -129,7 +129,7 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.7742802
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.48.0
+* Version: 2.49.1
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-auth-library-python
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -138,16 +138,16 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.7742802
 ### `google-cloud-core`
 
 * Summary: Google Cloud API client core library
-* Version: 2.5.0
+* Version: 2.5.1
 * Pypi: https://pypi.org/project/google-cloud-core/
-* Homepage: https://github.com/googleapis/python-cloud-core
+* Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-core
 * Author: Google LLC googleapis-packages@google.com
 * License :: OSI Approved :: Apache Software License
 
 ### `google-cloud-translate`
 
 * Summary: Google Cloud Translate API client library
-* Version: 3.24.0
+* Version: 3.25.0
 * Pypi: https://pypi.org/project/google-cloud-translate/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-translate
 * Author: Google LLC googleapis-packages@google.com
@@ -156,7 +156,7 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.7742802
 ### `googleapis-common-protos`
 
 * Summary: Common protobufs used in Google APIs
-* Version: 1.72.0
+* Version: 1.74.0
 * Pypi: https://pypi.org/project/googleapis-common-protos/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -165,7 +165,7 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.7742802
 ### `grpc-google-iam-v1`
 
 * Summary: IAM API client library
-* Version: 0.14.3
+* Version: 0.14.4
 * Pypi: https://pypi.org/project/grpc-google-iam-v1/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -174,7 +174,7 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.7742802
 ### `grpcio`
 
 * Summary: HTTP/2-based RPC framework
-* Version: 1.78.0
+* Version: 1.80.0
 * Pypi: https://pypi.org/project/grpcio/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -182,7 +182,7 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.7742802
 ### `grpcio-status`
 
 * Summary: Status proto mapping for gRPC
-* Version: 1.78.0
+* Version: 1.80.0
 * Pypi: https://pypi.org/project/grpcio-status/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -232,7 +232,7 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.7742802
 ### `proto-plus`
 
 * Summary: Beautiful, Pythonic protocol buffers
-* Version: 1.27.1
+* Version: 1.27.2
 * Pypi: https://pypi.org/project/proto-plus/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -241,7 +241,7 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.7742802
 ### `protobuf`
 
 * Summary: None
-* Version: 6.33.5
+* Version: 6.33.6
 * Pypi: https://pypi.org/project/protobuf/
 * Homepage: https://developers.google.com/protocol-buffers/
 * Author: protobuf@googlegroups.com protobuf@googlegroups.com
@@ -321,10 +321,10 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.7742802
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.5
+* Version: 2.33.1
 * Pypi: https://pypi.org/project/requests/
-* Homepage: https://requests.readthedocs.io
-* Author: Kenneth Reitz me@kennethreitz.org
+* Homepage: None
+* Author: Kenneth Reitz <me@kennethreitz.org>
 * License :: OSI Approved :: Apache Software License
 
 ### `requests-file`

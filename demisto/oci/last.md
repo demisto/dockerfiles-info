@@ -1,9 +1,9 @@
-# `demisto/oci:1.0.0.7762963`
+# `demisto/oci:1.0.0.8160132`
 
 ## Docker Metadata
-- Image Size: 76.63 MB
-- Image ID: `sha256:dd3204dd13831f05ca318402ca628e723f7c646e9eadf3cefb432b8a9a4b74c9`
-- Created: `2026-03-18T15:54:11.156765988Z`
+- Image Size: 77.28 MB
+- Image ID: `sha256:430f95869862ec5bd271b7b41e98a890986ef62926e8a639be6bbb6ab16a1852`
+- Created: `2026-04-09T22:32:30.261802248Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/oci:1.0.0.7762963`
+  - `DOCKER_IMAGE=demisto/oci:1.0.0.8160132`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:eccab9bfc913b4cca83198d79ec95493067b85bc`
-  - `org.opencontainers.image.version:1.0.0.7762963`
+  - `org.opencontainers.image.revision:426e26934b5d76a035de6ab9755e6d0e569db886`
+  - `org.opencontainers.image.version:1.0.0.8160132`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/oci:1.0.0.7762963
+Signatures for demisto/oci:1.0.0.8160132
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.7762963   322999539c842efcbd1d986754a94b37dfe3ae384bcd682711219c7820cc20be   (Repo Admin)
+1.0.0.8160132   e714b412053f092fbf99f7e69c2243698659de710c9b5286706380ad61626f7d   (Repo Admin)
 
-Administrative keys for demisto/oci:1.0.0.7762963
+Administrative keys for demisto/oci:1.0.0.8160132
 
   Repository Key:	2cc50bdbe67fd75478233e92583764f227d51416d68a400f91f13954268ef489
   Root Key:	6c4262e4f5f1c456c5e9a45765790ff209f55ce49fc37ed2a3dc8a833e52de92
@@ -82,7 +82,7 @@ Administrative keys for demisto/oci:1.0.0.7762963
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 46.0.5
+* Version: 46.0.6
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -151,7 +151,7 @@ Administrative keys for demisto/oci:1.0.0.7762963
 ### `oci`
 
 * Summary: Oracle Cloud Infrastructure Python SDK
-* Version: 2.168.2
+* Version: 2.168.3
 * Pypi: https://pypi.org/project/oci/
 * Homepage: https://docs.oracle.com/en-us/iaas/tools/python/latest/index.html
 * Author: Oracle joe.levy@oracle.com
@@ -251,8 +251,8 @@ Administrative keys for demisto/oci:1.0.0.7762963
 * Summary: Python HTTP for Humans.
 * Version: 2.32.5
 * Pypi: https://pypi.org/project/requests/
-* Homepage: https://requests.readthedocs.io
-* Author: Kenneth Reitz me@kennethreitz.org
+* Homepage: None
+* Author: Kenneth Reitz <me@kennethreitz.org>
 * License :: OSI Approved :: Apache Software License
 
 ### `requests-file`
@@ -352,7 +352,7 @@ Administrative keys for demisto/oci:1.0.0.7762963
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.41.2-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.5-r21 x86_64 {musl}
+* musl-1.2.5-r22 x86_64 {musl}
 * musl-utils-1.2.5-r21 x86_64 {musl}
 * ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
 * readline-8.3.1-r0 x86_64 {readline}
