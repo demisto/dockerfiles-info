@@ -1,9 +1,9 @@
-# `demisto/py3ews:5.6.0.8160132`
+# `demisto/py3ews:5.6.0.8227177`
 
 ## Docker Metadata
-- Image Size: 63.81 MB
-- Image ID: `sha256:2720f79421bce54699275dcc1076ac938dbb562908a09a85df1a25aaf00b8cb7`
-- Created: `2026-04-09T22:43:12.817336263Z`
+- Image Size: 63.82 MB
+- Image ID: `sha256:12acec1cf7d29fe9f39420046e51cd00294e9ebaa460e36cf11b761a79628f6a`
+- Created: `2026-04-13T18:43:57.310202163Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/py3ews:5.6.0.8160132`
+  - `DOCKER_IMAGE=demisto/py3ews:5.6.0.8227177`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:426e26934b5d76a035de6ab9755e6d0e569db886`
-  - `org.opencontainers.image.version:5.6.0.8160132`
+  - `org.opencontainers.image.revision:675e04b829e2f73f344779960da4052fb4417d1c`
+  - `org.opencontainers.image.version:5.6.0.8227177`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py3ews:5.6.0.8160132
+Signatures for demisto/py3ews:5.6.0.8227177
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-5.6.0.8160132   a9ce949787d3e4fc43bf89a2615d526782b0f4c1eae40cf5d10783357ec94dab   (Repo Admin)
+5.6.0.8227177   83ecaf4b9b6eb4d63bcbb86b3f5f3bfd618f31cc8d5f155ea16c3df2b2454452   (Repo Admin)
 
-Administrative keys for demisto/py3ews:5.6.0.8160132
+Administrative keys for demisto/py3ews:5.6.0.8227177
 
   Repository Key:	49e0be19d4c430aaef147539b64259bbc85885e5bd03918079e6a66d693cb8be
   Root Key:	e2c459fee62c0ca5b39fcd6a3cd86c53a1506042ad92cc59aada6a00a0e1bbf4
@@ -91,7 +91,7 @@ Administrative keys for demisto/py3ews:5.6.0.8160132
 ### `chardet`
 
 * Summary: Universal character encoding detector
-* Version: 7.4.1
+* Version: 7.4.2
 * Pypi: https://pypi.org/project/chardet/
 * Homepage: None
 * Author: Dan Blanchard <dan.blanchard@gmail.com>
@@ -523,7 +523,7 @@ Administrative keys for demisto/py3ews:5.6.0.8160132
 * libxml2-utils-2.13.9-r0 x86_64 {libxml2}
 * libxslt-1.1.43-r3 x86_64 {libxslt}
 * libxslt-dev-1.1.43-r3 x86_64 {libxslt}
-* musl-1.2.5-r22 x86_64 {musl}
+* musl-1.2.5-r23 x86_64 {musl}
 * musl-utils-1.2.5-r21 x86_64 {musl}
 * ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
 * pkgconf-2.5.1-r0 x86_64 {pkgconf}
