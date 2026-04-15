@@ -1,9 +1,9 @@
-# `demisto/py3ews:5.6.0.8227177`
+# `demisto/py3ews:5.6.0.8251518`
 
 ## Docker Metadata
 - Image Size: 63.82 MB
-- Image ID: `sha256:12acec1cf7d29fe9f39420046e51cd00294e9ebaa460e36cf11b761a79628f6a`
-- Created: `2026-04-13T18:43:57.310202163Z`
+- Image ID: `sha256:14fb04cdddad0c153ee841574ca21b418c3f35419682a76a8a1a6033133831c6`
+- Created: `2026-04-14T15:43:20.606585375Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/py3ews:5.6.0.8227177`
+  - `DOCKER_IMAGE=demisto/py3ews:5.6.0.8251518`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:675e04b829e2f73f344779960da4052fb4417d1c`
-  - `org.opencontainers.image.version:5.6.0.8227177`
+  - `org.opencontainers.image.revision:7aaf58447a03ce189d70a20af4f243d431a27b72`
+  - `org.opencontainers.image.version:5.6.0.8251518`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py3ews:5.6.0.8227177
+Signatures for demisto/py3ews:5.6.0.8251518
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-5.6.0.8227177   83ecaf4b9b6eb4d63bcbb86b3f5f3bfd618f31cc8d5f155ea16c3df2b2454452   (Repo Admin)
+5.6.0.8251518   f0ecd61f74a7cf758e0d563328a23eafe000a3a41ecd257a038f5f147ee5998b   (Repo Admin)
 
-Administrative keys for demisto/py3ews:5.6.0.8227177
+Administrative keys for demisto/py3ews:5.6.0.8251518
 
   Repository Key:	49e0be19d4c430aaef147539b64259bbc85885e5bd03918079e6a66d693cb8be
   Root Key:	e2c459fee62c0ca5b39fcd6a3cd86c53a1506042ad92cc59aada6a00a0e1bbf4
@@ -91,7 +91,7 @@ Administrative keys for demisto/py3ews:5.6.0.8227177
 ### `chardet`
 
 * Summary: Universal character encoding detector
-* Version: 7.4.2
+* Version: 7.4.3
 * Pypi: https://pypi.org/project/chardet/
 * Homepage: None
 * Author: Dan Blanchard <dan.blanchard@gmail.com>
