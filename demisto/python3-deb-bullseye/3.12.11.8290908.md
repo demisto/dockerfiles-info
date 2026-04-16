@@ -1,9 +1,9 @@
-# `demisto/python3-deb-bullseye:3.12.11.5107758`
+# `demisto/python3-deb-bullseye:3.12.11.8290908`
 
 ## Docker Metadata
-- Image Size: 57.56 MB
-- Image ID: `sha256:67e9dcd233729bdcc4849cb0bd6bad385625a28e87d32e604deecf7e8e8a4e85`
-- Created: `2025-09-26T14:52:07.292802577Z`
+- Image Size: 60.25 MB
+- Image ID: `sha256:f2a56364f6e2c2e7d429ba6f4ba2623570a52b21d2ae5fa7523c2ae9ab39ceee`
+- Created: `2026-04-15T21:40:09.159451498Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/python3-deb-bullseye:3.12.11.5107758`
+  - `DOCKER_IMAGE=demisto/python3-deb-bullseye:3.12.11.8290908`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:a5c69e779a26a9faaa49d60e4e7a1954813cd676`
-  - `org.opencontainers.image.version:3.12.11.5107758`
+  - `org.opencontainers.image.revision:6a30091b77f6ecf6eadf32629f3a11cec553f344`
+  - `org.opencontainers.image.version:3.12.11.8290908`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3-deb-bullseye:3.12.11.5107758
+Signatures for demisto/python3-deb-bullseye:3.12.11.8290908
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.11.5107758   409b644efacc80375c83844a32dc925b0a0fac1aa8d484b6e20d433048e0ae12   (Repo Admin)
+3.12.11.8290908   7f07a44c5f2197c78dc2088f28061bfceb266ea71d8342904df6932a37ed554e   (Repo Admin)
 
-Administrative keys for demisto/python3-deb-bullseye:3.12.11.5107758
+Administrative keys for demisto/python3-deb-bullseye:3.12.11.8290908
 
   Repository Key:	ce5800f6f1ec4ee79ebae3f71a05301859a14836ddcaf20e2faf06f5db281c03
   Root Key:	1d02609ff9a0efe9ca9340ac62ce6c9bbc44528fd7563fd3ca6165d6806c47b2
@@ -50,7 +50,7 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.5107758
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.8.3
+* Version: 2026.2.25
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -59,7 +59,7 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.5107758
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.3
+* Version: 3.4.7
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -68,7 +68,7 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.5107758
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.2.2
+* Version: 1.4.0
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub opensource@zyte.com
@@ -86,11 +86,11 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.5107758
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.18.0
+* Version: 3.28.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -104,16 +104,15 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.5107758
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.11
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License :: OSI Approved :: BSD License
 
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.8.0
+* Version: 11.0.2
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -130,7 +129,7 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.5107758
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.2
+* Version: 26.0.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -158,7 +157,7 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.5107758
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2025.2
+* Version: 2026.1.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -176,25 +175,24 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.5107758
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2026.4.4
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
-* License: Apache Software License
 
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.5
+* Version: 2.33.1
 * Pypi: https://pypi.org/project/requests/
-* Homepage: https://requests.readthedocs.io
-* Author: Kenneth Reitz me@kennethreitz.org
+* Homepage: None
+* Author: Kenneth Reitz <me@kennethreitz.org>
 * License :: OSI Approved :: Apache Software License
 
 ### `requests-file`
 
 * Summary: File transport adapter for Requests
-* Version: 2.1.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/requests-file/
 * Homepage: None
 * Author: David Shea <reallylongword@gmail.com>
@@ -202,8 +200,8 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.5107758
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.9.0
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
+* Version: 82.0.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -220,11 +218,10 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.5107758
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.0
+* Version: 5.3.1
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
-* License :: OSI Approved :: BSD License
 
 ### `tzlocal`
 
@@ -238,7 +235,7 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.5107758
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.5.0
+* Version: 2.6.3
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -251,7 +248,7 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.5107758
 * base-passwd	3.5.51
 * bash	5.1-2+deb11u1
 * bsdutils	1:2.36.1-8+deb11u2
-* ca-certificates	20210119
+* ca-certificates	20230311+deb12u1~deb11u1
 * coreutils	8.32-4+b1
 * dash	0.5.11+git20200708+dd9ef66-5
 * debconf	1.5.77
@@ -263,7 +260,7 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.5107758
 * findutils	4.8.0-1
 * gcc-10-base:amd64	10.2.1-6
 * gcc-9-base:amd64	9.3.0-22
-* gpgv	2.2.27-2+deb11u2
+* gpgv	2.2.27-2+deb11u3
 * grep	3.6-1+deb11u1
 * gzip	1.10-4+deb11u1
 * hostname	3.23
@@ -288,7 +285,7 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.5107758
 * libgcrypt20:amd64	1.8.7-6
 * libgdbm6:amd64	1.19-2
 * libgmp10:amd64	2:6.2.1+dfsg-1+deb11u1
-* libgnutls30:amd64	3.7.1-5+deb11u8
+* libgnutls30:amd64	3.7.1-5+deb11u9
 * libgpg-error0:amd64	1.38-2
 * libgssapi-krb5-2:amd64	1.18.3-6+deb11u7
 * libhogweed6:amd64	3.7.3-1
@@ -321,7 +318,7 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.5107758
 * libsmartcols1:amd64	2.36.1-8+deb11u2
 * libsqlite3-0:amd64	3.34.1-3+deb11u1
 * libss2:amd64	1.46.6-1~bpo11+1
-* libssl1.1:amd64	1.1.1w-0+deb11u3
+* libssl1.1:amd64	1.1.1w-0+deb11u5
 * libstdc++6:amd64	10.2.1-6
 * libsystemd0:amd64	252.29-1~deb12u1~bpo11+1
 * libtasn1-6:amd64	4.16.0-2+deb11u2
@@ -341,7 +338,7 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.5107758
 * ncurses-base	6.2+20201114-2+deb11u2
 * ncurses-bin	6.2+20201114-2+deb11u2
 * netbase	6.3
-* openssl	1.1.1w-0+deb11u3
+* openssl	1.1.1w-0+deb11u5
 * passwd	1:4.8.1-1+deb11u1
 * perl-base	5.32.1-4+deb11u4
 * procps	2:3.3.17-5
@@ -349,6 +346,6 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.5107758
 * sed	4.7-1
 * sysvinit-utils	2.96-7+deb11u1
 * tar	1.34+dfsg-1+deb11u1
-* tzdata	2025b-0+deb11u1
+* tzdata	2025b-0+deb11u2
 * util-linux	2.36.1-8+deb11u2
 * zlib1g:amd64	1:1.2.11.dfsg-2+deb11u2
