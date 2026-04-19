@@ -1,9 +1,9 @@
-# `demisto/python3:3.12.13.8294662`
+# `demisto/python3:3.12.13.8319994`
 
 ## Docker Metadata
 - Image Size: 28.81 MB
-- Image ID: `sha256:021cdde1d751566af4c3b0cb2959431180daf0cf79a640b9aae56ae119bb72c8`
-- Created: `2026-04-16T03:40:20.052072899Z`
+- Image ID: `sha256:d3e55a970942b827dc3c45846a24ecd1010860232da7537efb34a83590de7968`
+- Created: `2026-04-17T03:39:57.817619583Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/python3:3.12.13.8294662`
+  - `DOCKER_IMAGE=demisto/python3:3.12.13.8319994`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:c5ef8fe793233b6a98830ba8ec43924d2114a641`
-  - `org.opencontainers.image.version:3.12.13.8294662`
+  - `org.opencontainers.image.revision:c86131f1b6db48894e5a08e747a0a6df6af67ecb`
+  - `org.opencontainers.image.version:3.12.13.8319994`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3:3.12.13.8294662
+Signatures for demisto/python3:3.12.13.8319994
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.13.8294662   3b99f9ea92c0e89bb6b962063d3a30ffa78afc8f31242012d4f67c81f04189e3   (Repo Admin)
+3.12.13.8319994   fa911e5c0d974f0e7e63372ed41c151e53f85c663b337ceabe491ccc2448e4c8   (Repo Admin)
 
-Administrative keys for demisto/python3:3.12.13.8294662
+Administrative keys for demisto/python3:3.12.13.8319994
 
   Repository Key:	dd922c0a78cf908782d68ed2f99cae9350740fc2da582a1cb5c03e530ba2dd31
   Root Key:	46ab19438bfff81c925ab27466b52b175de43bad8e8a19cc878e9288246bff8d

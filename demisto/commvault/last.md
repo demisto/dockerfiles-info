@@ -1,9 +1,9 @@
-# `demisto/commvault:1.0.0.8187750`
+# `demisto/commvault:1.0.0.8326531`
 
 ## Docker Metadata
-- Image Size: 42.80 MB
-- Image ID: `sha256:03bd4cec67082501973143aefd641e95e09f9aefa92bc4473f9419e1bc64c20a`
-- Created: `2026-04-12T09:48:18.530735679Z`
+- Image Size: 42.82 MB
+- Image ID: `sha256:e6bb0e3721682f7e639c7150492e486266cfe4ecf6328240f18154af66a04c6b`
+- Created: `2026-04-17T15:41:51.463613352Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/commvault:1.0.0.8187750`
+  - `DOCKER_IMAGE=demisto/commvault:1.0.0.8326531`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:1bc213933d259416646b0f343033e769107d16fe`
-  - `org.opencontainers.image.version:1.0.0.8187750`
+  - `org.opencontainers.image.revision:4bf2aca8404812bd5843658eb15a7cc776eae0c4`
+  - `org.opencontainers.image.version:1.0.0.8326531`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/commvault:1.0.0.8187750
+Signatures for demisto/commvault:1.0.0.8326531
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8187750   9e96b865ac8fa80fdadb1bda0ce2c38ba23777bb41d0ca7190d72dfe4ba8fb0c   (Repo Admin)
+1.0.0.8326531   c3cc93519aba257dd097358af90a356482e070597652ffbee21eade678e45425   (Repo Admin)
 
-Administrative keys for demisto/commvault:1.0.0.8187750
+Administrative keys for demisto/commvault:1.0.0.8326531
 
   Repository Key:	64321e4bf89f6f2f2c1f4b7d25030e7220c7309e9d60d0cb1dba7ce333c096da
   Root Key:	f3d406a543e986d36d553f83059154f0fc457f73f4391bb8af24bc3501bd86f2
@@ -125,7 +125,7 @@ Administrative keys for demisto/commvault:1.0.0.8187750
 ### `fastapi`
 
 * Summary: FastAPI framework, high performance, easy to learn, fast to code, ready for production
-* Version: 0.135.3
+* Version: 0.136.0
 * Pypi: https://pypi.org/project/fastapi/
 * Homepage: None
 * Author: Sebastián Ramírez <tiangolo@gmail.com>
@@ -228,17 +228,17 @@ Administrative keys for demisto/commvault:1.0.0.8187750
 ### `pydantic`
 
 * Summary: Data validation using Python type hints
-* Version: 2.12.5
+* Version: 2.13.2
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
-* Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.io>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>, Douwe Maan <hi@douwe.me>
+* Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.dev>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
 
 ### `pydantic_core`
 
 * Summary: Core functionality for Pydantic validation and serialization
-* Version: 2.41.5
+* Version: 2.46.2
 * Pypi: https://pypi.org/project/pydantic_core/
-* Homepage: https://github.com/pydantic/pydantic-core
+* Homepage: https://github.com/pydantic/pydantic
 * Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
 
 ### `PySocks`
