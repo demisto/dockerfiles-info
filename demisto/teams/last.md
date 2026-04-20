@@ -1,9 +1,9 @@
-# `demisto/teams:1.0.0.8160132`
+# `demisto/teams:1.0.0.8352166`
 
 ## Docker Metadata
-- Image Size: 57.20 MB
-- Image ID: `sha256:c1953bff0a827e90eec708bc7a5aa2fe59e0bf7b868c78d45fae2ff763ecf96a`
-- Created: `2026-04-09T23:02:49.237340585Z`
+- Image Size: 57.23 MB
+- Image ID: `sha256:0246402a2bf27044caa620dc98add4c5155c2a841ba4b694e77ab632c4ccc318`
+- Created: `2026-04-19T12:46:10.098132386Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/teams:1.0.0.8160132`
+  - `DOCKER_IMAGE=demisto/teams:1.0.0.8352166`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:426e26934b5d76a035de6ab9755e6d0e569db886`
-  - `org.opencontainers.image.version:1.0.0.8160132`
+  - `org.opencontainers.image.revision:3a7a065f491d4626fb3dcd8f66b1151d14a47a4f`
+  - `org.opencontainers.image.version:1.0.0.8352166`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/teams:1.0.0.8160132
+Signatures for demisto/teams:1.0.0.8352166
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8160132   e4b635fa5e7a563c1633d024e71135c143d6bd5d6cd9aa8e9306144c72984b28   (Repo Admin)
+1.0.0.8352166   a6062ef91afec957398672978f771dc76125921a00bff65fbdf589a002ab7dbf   (Repo Admin)
 
-Administrative keys for demisto/teams:1.0.0.8160132
+Administrative keys for demisto/teams:1.0.0.8352166
 
   Repository Key:	b2887129b50f5a1b5836d11a274fe06aacb9538dbf9c9414e50f3a80e882457d
   Root Key:	c46423baa7a81cc607a4aaf966f67d987d95440212144e8845a433e291cf7eb9
@@ -100,7 +100,7 @@ Administrative keys for demisto/teams:1.0.0.8160132
 ### `click`
 
 * Summary: Composable command line interface toolkit
-* Version: 8.3.1
+* Version: 8.3.2
 * Pypi: https://pypi.org/project/click/
 * Homepage: None
 * Author: None
@@ -437,7 +437,7 @@ Administrative keys for demisto/teams:1.0.0.8160132
 ### `Werkzeug`
 
 * Summary: The comprehensive WSGI web application library.
-* Version: 3.1.6
+* Version: 3.1.8
 * Pypi: https://pypi.org/project/Werkzeug/
 * Homepage: None
 * Author: None
@@ -462,7 +462,7 @@ Administrative keys for demisto/teams:1.0.0.8160132
 ### `zope.interface`
 
 * Summary: Interfaces for Python
-* Version: 8.2
+* Version: 8.3
 * Pypi: https://pypi.org/project/zope.interface/
 * Homepage: None
 * Author: Zope Foundation and contributors <zope-dev@zope.dev>
@@ -497,7 +497,7 @@ Administrative keys for demisto/teams:1.0.0.8160132
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.41.2-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.5-r22 x86_64 {musl}
+* musl-1.2.5-r23 x86_64 {musl}
 * musl-utils-1.2.5-r21 x86_64 {musl}
 * ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
 * readline-8.3.1-r0 x86_64 {readline}

@@ -1,9 +1,9 @@
-# `demisto/sane-pdf-reports:1.0.0.5109993`
+# `demisto/sane-pdf-reports:1.0.0.8356897`
 
 ## Docker Metadata
-- Image Size: 942.63 MB
-- Image ID: `sha256:326bc2798e65c9c0b7e80b6de903ab98164888d0425f11c08a57f7cc0f1a9cf7`
-- Created: `2025-09-26T17:17:18.169680856Z`
+- Image Size: 971.14 MB
+- Image ID: `sha256:7b4d1699febbd0d30e5d2c79ab562008f380b95b9010c10979dd190491b41d9b`
+- Created: `2026-04-19T15:44:57.197779192Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/sane-pdf-reports:1.0.0.5109993`
+  - `DOCKER_IMAGE=demisto/sane-pdf-reports:1.0.0.8356897`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:904ab3cb29254771e26820afa961285028ae55f7`
-  - `org.opencontainers.image.version:1.0.0.5109993`
+  - `org.opencontainers.image.revision:0d456737125b6517724f0d6a9116dcdb20a8161f`
+  - `org.opencontainers.image.version:1.0.0.8356897`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sane-pdf-reports:1.0.0.5109993
+Signatures for demisto/sane-pdf-reports:1.0.0.8356897
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.5109993   6c17b579181813bf184c12336477f2f063670342e65814d6b90f47250a021d8f   (Repo Admin)
+1.0.0.8356897   4f4d237853696cdb354531191914fd79419d06c8802611b6c8bab87dd83ca1cf   (Repo Admin)
 
-Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
+Administrative keys for demisto/sane-pdf-reports:1.0.0.8356897
 
   Repository Key:	a49126a1ef2d8b2a122417046a0568ce3d14ed56e32e723f3cb956a369091e4b
   Root Key:	3c9d875c8980465612892e36819738cac8450f51c69e5dbdbf71867f33cd59eb
@@ -50,7 +50,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.8.3
+* Version: 2026.2.25
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -59,7 +59,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.3
+* Version: 3.4.7
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -68,7 +68,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.2.2
+* Version: 1.4.0
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub opensource@zyte.com
@@ -86,11 +86,11 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.18.0
+* Version: 3.28.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -104,16 +104,15 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.11
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License :: OSI Approved :: BSD License
 
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.8.0
+* Version: 11.0.2
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -130,7 +129,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.2
+* Version: 26.0.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -158,7 +157,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2025.2
+* Version: 2026.1.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -176,25 +175,24 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2026.4.4
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
-* License: Apache Software License
 
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.5
+* Version: 2.33.1
 * Pypi: https://pypi.org/project/requests/
-* Homepage: https://requests.readthedocs.io
-* Author: Kenneth Reitz me@kennethreitz.org
+* Homepage: None
+* Author: Kenneth Reitz <me@kennethreitz.org>
 * License :: OSI Approved :: Apache Software License
 
 ### `requests-file`
 
 * Summary: File transport adapter for Requests
-* Version: 2.1.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/requests-file/
 * Homepage: None
 * Author: David Shea <reallylongword@gmail.com>
@@ -202,8 +200,8 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.9.0
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
+* Version: 82.0.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -220,11 +218,10 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.0
+* Version: 5.3.1
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
-* License :: OSI Approved :: BSD License
 
 ### `tzlocal`
 
@@ -238,7 +235,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.5.0
+* Version: 2.6.3
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -267,7 +264,6 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 * debian-archive-keyring	2021.1.1+deb11u1
 * debianutils	4.11.2
 * diffutils	1:3.7-5
-* distro-info-data	0.51+deb11u9
 * dpkg	1.20.13
 * e2fsprogs	1.46.6-1~bpo11+1
 * findutils	4.8.0-1
@@ -288,7 +284,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 * glib-networking-common	2.66.0-2
 * glib-networking-services	2.66.0-2
 * glib-networking:amd64	2.66.0-2
-* gpgv	2.2.27-2+deb11u2
+* gpgv	2.2.27-2+deb11u3
 * grep	3.6-1+deb11u1
 * gsettings-desktop-schemas	3.38.0-2
 * gtk-update-icon-cache	3.24.24-4+deb11u4
@@ -300,8 +296,8 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 * libacl1:amd64	2.2.53-10
 * libapparmor1:amd64	2.13.6-10
 * libapt-pkg6.0:amd64	2.2.4
-* libasound2-data	1.2.4-1.1
-* libasound2:amd64	1.2.4-1.1
+* libasound2-data	1.2.4-1.1+deb11u1
+* libasound2:amd64	1.2.4-1.1+deb11u1
 * libatk-bridge2.0-0:amd64	2.38.0-1
 * libatk1.0-0:amd64	2.36.0-2
 * libatk1.0-data	2.36.0-2
@@ -361,21 +357,21 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 * libgcrypt20:amd64	1.8.7-6
 * libgdbm-compat4:amd64	1.19-2
 * libgdbm6:amd64	1.19-2
-* libgdk-pixbuf-2.0-0:amd64	2.42.2+dfsg-1+deb11u3
+* libgdk-pixbuf-2.0-0:amd64	2.42.2+dfsg-1+deb11u5
 * libgdk-pixbuf-xlib-2.0-0:amd64	2.40.2-2
 * libgdk-pixbuf2.0-0:amd64	2.40.2-2
-* libgdk-pixbuf2.0-bin	2.42.2+dfsg-1+deb11u3
-* libgdk-pixbuf2.0-common	2.42.2+dfsg-1+deb11u3
+* libgdk-pixbuf2.0-bin	2.42.2+dfsg-1+deb11u5
+* libgdk-pixbuf2.0-common	2.42.2+dfsg-1+deb11u5
 * libgl1-mesa-dri:amd64	20.3.5-1
 * libgl1:amd64	1.3.2-1
 * libglapi-mesa:amd64	20.3.5-1
-* libglib2.0-0:amd64	2.66.8-1+deb11u6
-* libglib2.0-data	2.66.8-1+deb11u6
+* libglib2.0-0:amd64	2.66.8-1+deb11u8
+* libglib2.0-data	2.66.8-1+deb11u8
 * libglvnd0:amd64	1.3.2-1
 * libglx-mesa0:amd64	20.3.5-1
 * libglx0:amd64	1.3.2-1
 * libgmp10:amd64	2:6.2.1+dfsg-1+deb11u1
-* libgnutls30:amd64	3.7.1-5+deb11u8
+* libgnutls30:amd64	3.7.1-5+deb11u9
 * libgpg-error0:amd64	1.38-2
 * libgraphite2-3:amd64	1.3.14-1
 * libgssapi-krb5-2:amd64	1.18.3-6+deb11u7
@@ -409,7 +405,6 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 * libmd0:amd64	1.0.3-3
 * libmount1:amd64	2.36.1-8+deb11u2
 * libmpc3:amd64	1.2.0-1
-* libmpdec3:amd64	2.5.1-1
 * libmpfr6:amd64	4.1.0-3
 * libncurses6:amd64	6.2+20201114-2+deb11u2
 * libncursesw6:amd64	6.2+20201114-2+deb11u2
@@ -418,7 +413,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 * libnode72:amd64	12.22.12~dfsg-1~deb11u7
 * libnsl2:amd64	1.3.0-2
 * libnspr4:amd64	2:4.29-1
-* libnss3:amd64	2:3.61-1+deb11u4
+* libnss3:amd64	2:3.61-1+deb11u5
 * libp11-kit0:amd64	0.23.22-1
 * libpam-modules-bin	1.4.0-9+deb11u2
 * libpam-modules:amd64	1.4.0-9+deb11u2
@@ -430,15 +425,12 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 * libpciaccess0:amd64	0.16-1
 * libpcre2-8-0:amd64	10.36-2+deb11u1
 * libpcre3:amd64	2:8.39-13
-* libperl5.32:amd64	5.32.1-4+deb11u4
+* libperl5.32:amd64	5.32.1-4+deb11u5
 * libpixman-1-0:amd64	0.40.0-1.1~deb11u1
-* libpng16-16:amd64	1.6.37-3
+* libpng16-16:amd64	1.6.37-3+deb11u3
 * libprocps8:amd64	2:3.3.17-5
 * libproxy1v5:amd64	0.4.17-1
 * libpsl5:amd64	0.21.0-1.2
-* libpython3-stdlib:amd64	3.9.2-3
-* libpython3.9-minimal:amd64	3.9.2-1+deb11u3
-* libpython3.9-stdlib:amd64	3.9.2-1+deb11u3
 * libreadline8:amd64	8.1-1
 * librest-0.7-0:amd64	0.8.1-1.1
 * librsvg2-2:amd64	2.50.3+dfsg-1+deb11u1
@@ -455,17 +447,17 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 * libsepol1:amd64	3.1-1+deb11u1
 * libsm6:amd64	2:1.2.3-1
 * libsmartcols1:amd64	2.36.1-8+deb11u2
-* libsoup-gnome2.4-1:amd64	2.72.0-2+deb11u2
-* libsoup2.4-1:amd64	2.72.0-2+deb11u2
+* libsoup-gnome2.4-1:amd64	2.72.0-2+deb11u3
+* libsoup2.4-1:amd64	2.72.0-2+deb11u3
 * libsqlite3-0:amd64	3.34.1-3+deb11u1
 * libss2:amd64	1.46.6-1~bpo11+1
-* libssl1.1:amd64	1.1.1w-0+deb11u3
+* libssl1.1:amd64	1.1.1w-0+deb11u5
 * libstdc++6:amd64	10.2.1-6
 * libsystemd0:amd64	252.29-1~deb12u1~bpo11+1
 * libtasn1-6:amd64	4.16.0-2+deb11u2
 * libthai-data	0.1.28-3
 * libthai0:amd64	0.1.28-3
-* libtiff5:amd64	4.2.0-1+deb11u6
+* libtiff5:amd64	4.2.0-1+deb11u8
 * libtinfo6:amd64	6.2+20201114-2+deb11u2
 * libtirpc-common	1.3.1-1+deb11u1
 * libtirpc3:amd64	1.3.1-1+deb11u1
@@ -510,7 +502,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 * libxinerama1:amd64	2:1.1.4-2
 * libxkbcommon0:amd64	1.0.3-2
 * libxkbfile1:amd64	1:1.1.0-1
-* libxml2:amd64	2.9.10+dfsg-6.7+deb11u8
+* libxml2:amd64	2.9.10+dfsg-6.7+deb11u9
 * libxmu6:amd64	2:1.1.2-2+b3
 * libxmuu1:amd64	2:1.1.2-2+b3
 * libxpm4:amd64	1:3.5.12-1.1+deb11u1
@@ -530,10 +522,8 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 * login	1:4.8.1-1+deb11u1
 * logsave	1.46.6-1~bpo11+1
 * lsb-base	11.1.0
-* lsb-release	11.1.0
 * manpages	5.10-1
 * mawk	1.3.4.20200120-2
-* media-types	4.0.0
 * mesa-vulkan-drivers:amd64	20.3.5-1
 * mount	2.36.1-8+deb11u2
 * ncurses-base	6.2+20201114-2+deb11u2
@@ -542,15 +532,11 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 * nodejs	12.22.12~dfsg-1~deb11u7
 * nodejs-doc	12.22.12~dfsg-1~deb11u7
 * passwd	1:4.8.1-1+deb11u1
-* perl	5.32.1-4+deb11u4
-* perl-base	5.32.1-4+deb11u4
-* perl-modules-5.32	5.32.1-4+deb11u4
+* perl	5.32.1-4+deb11u5
+* perl-base	5.32.1-4+deb11u5
+* perl-modules-5.32	5.32.1-4+deb11u5
 * procps	2:3.3.17-5
 * publicsuffix	20220811.1734-0+deb11u1
-* python3	3.9.2-3
-* python3-minimal	3.9.2-3
-* python3.9	3.9.2-1+deb11u3
-* python3.9-minimal	3.9.2-1+deb11u3
 * readline-common	8.1-1
 * sed	4.7-1
 * sensible-utils	0.0.14
@@ -558,7 +544,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.5109993
 * sysvinit-utils	2.96-7+deb11u1
 * tar	1.34+dfsg-1+deb11u1
 * termit	3.1-1
-* tzdata	2025b-0+deb11u1
+* tzdata	2025b-0+deb11u2
 * ucf	3.0043+deb11u2
 * util-linux	2.36.1-8+deb11u2
 * wget	1.21-1+deb11u2
