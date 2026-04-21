@@ -1,9 +1,9 @@
-# `demisto/pan-os-python:1.0.0.8227177`
+# `demisto/pan-os-python:1.0.0.8381167`
 
 ## Docker Metadata
 - Image Size: 38.28 MB
-- Image ID: `sha256:ed2124b587f787f31e38721ba2b63555ba44172423b8602a822dab69df477a90`
-- Created: `2026-04-13T18:42:48.44288021Z`
+- Image ID: `sha256:ac81891f9bc555e1809be0dcc437ca7f9a471080ed79cc5f11a9d18974656381`
+- Created: `2026-04-20T17:34:49.930517666Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/pan-os-python:1.0.0.8227177`
+  - `DOCKER_IMAGE=demisto/pan-os-python:1.0.0.8381167`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:675e04b829e2f73f344779960da4052fb4417d1c`
-  - `org.opencontainers.image.version:1.0.0.8227177`
+  - `org.opencontainers.image.revision:80d7645a8cd7531b2ea031c70de70be24aaf319a`
+  - `org.opencontainers.image.version:1.0.0.8381167`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pan-os-python:1.0.0.8227177
+Signatures for demisto/pan-os-python:1.0.0.8381167
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8227177   3365b95c5d1288d26212ea4b45ccb6a29ef90fc65504c571a8c21b2a297bbb6c   (Repo Admin)
+1.0.0.8381167   fdae6ebb39b9717c0c40c879f4a7f3b1eeac5d55648bd198aa5a430e0fd9d471   (Repo Admin)
 
-Administrative keys for demisto/pan-os-python:1.0.0.8227177
+Administrative keys for demisto/pan-os-python:1.0.0.8381167
 
   Repository Key:	d9667d30881c35eff1ceae5623fb5ea0956ed798e00c412f492431a71dbe984a
   Root Key:	55ffcdc3759351d0dad62cff61527c964a94d72bf04b0dc27b5defebd0cac69a
@@ -118,7 +118,7 @@ Administrative keys for demisto/pan-os-python:1.0.0.8227177
 ### `lxml`
 
 * Summary: Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.
-* Version: 6.0.4
+* Version: 6.1.0
 * Pypi: https://pypi.org/project/lxml/
 * Homepage: https://lxml.de/
 * Author: lxml dev team lxml@lxml.de

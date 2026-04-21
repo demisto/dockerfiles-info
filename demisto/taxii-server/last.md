@@ -1,9 +1,9 @@
-# `demisto/taxii-server:1.0.0.8240011`
+# `demisto/taxii-server:1.0.0.8381167`
 
 ## Docker Metadata
-- Image Size: 67.36 MB
-- Image ID: `sha256:6edaae80ab04d69f8921857a41e2be73f24269382d4624689be0bf34abe9046c`
-- Created: `2026-04-14T10:18:33.825631302Z`
+- Image Size: 67.37 MB
+- Image ID: `sha256:a1ef90484727d6ca7b69999266d9ee2112f4bfc9d855814a30d237534595c28e`
+- Created: `2026-04-20T17:37:36.643824406Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/taxii-server:1.0.0.8240011`
+  - `DOCKER_IMAGE=demisto/taxii-server:1.0.0.8381167`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:e51ab96f84104c923e42254435dfc8e7c62e4a5b`
-  - `org.opencontainers.image.version:1.0.0.8240011`
+  - `org.opencontainers.image.revision:80d7645a8cd7531b2ea031c70de70be24aaf319a`
+  - `org.opencontainers.image.version:1.0.0.8381167`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/taxii-server:1.0.0.8240011
+Signatures for demisto/taxii-server:1.0.0.8381167
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8240011   634dfbf56008d7e7d23095bfd2301cfbaaf6f42ceb382e05dc8ef5f77dd1cb32   (Repo Admin)
+1.0.0.8381167   a23f302fc942ad4f5e904e44050ce50364fe80a88dd99c8a96ebbb21c15bcfbc   (Repo Admin)
 
-Administrative keys for demisto/taxii-server:1.0.0.8240011
+Administrative keys for demisto/taxii-server:1.0.0.8381167
 
   Repository Key:	9ef8564fa84f2c2a9b3cb72380bbb793c6f93f7a9c14fda15e8ef55002438ea4
   Root Key:	4676b8f4dd877e51675691d3a41d90911c6077f1c6abe945fb451c502b760d8e
@@ -257,7 +257,7 @@ Administrative keys for demisto/taxii-server:1.0.0.8240011
 ### `lxml`
 
 * Summary: Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.
-* Version: 6.0.4
+* Version: 6.1.0
 * Pypi: https://pypi.org/project/lxml/
 * Homepage: https://lxml.de/
 * Author: lxml dev team lxml@lxml.de
