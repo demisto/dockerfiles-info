@@ -1,9 +1,9 @@
-# `demisto/pcap-miner:1.0.0.8187750`
+# `demisto/pcap-miner:1.0.0.8399333`
 
 ## Docker Metadata
-- Image Size: 104.62 MB
-- Image ID: `sha256:9a1155de1eed44e8f14230974466c0cff3dcf00eb50bec96dd32d7c2fcfff571`
-- Created: `2026-04-12T10:04:19.736684365Z`
+- Image Size: 105.07 MB
+- Image ID: `sha256:0de9632eb9074c397ab67d6bc5a42173c72f6b27021fe3cc3b51758bfb5c845a`
+- Created: `2026-04-22T02:33:43.520199412Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/pcap-miner:1.0.0.8187750`
+  - `DOCKER_IMAGE=demisto/pcap-miner:1.0.0.8399333`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:1bc213933d259416646b0f343033e769107d16fe`
-  - `org.opencontainers.image.version:1.0.0.8187750`
+  - `org.opencontainers.image.revision:9cee0fe09d45fd1266ea34e0e7c2e80459ec4726`
+  - `org.opencontainers.image.version:1.0.0.8399333`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.23.3`
+  - `VERSION_ID=3.23.4`
   - `PRETTY_NAME="Alpine Linux v3.23"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pcap-miner:1.0.0.8187750
+Signatures for demisto/pcap-miner:1.0.0.8399333
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8187750   7291ac7f8be9400986f00c770cbce9a3068444150a93234e2d332b4da674a494   (Repo Admin)
+1.0.0.8399333   d79a7af03d0033077c0843c7df6b9f4fff9f1d67a90db4d11e1996214677fb48   (Repo Admin)
 
-Administrative keys for demisto/pcap-miner:1.0.0.8187750
+Administrative keys for demisto/pcap-miner:1.0.0.8399333
 
   Repository Key:	96a3823375c52caeaf2d0fea331785c2a44bcdd81fc771ac59b0e581e05d9621
   Root Key:	9ba37c9e3fcbf21715b56cb970082bb72679ac3092e6ae254674b94ae77f43ee
@@ -127,7 +127,7 @@ Administrative keys for demisto/pcap-miner:1.0.0.8187750
 ### `lxml`
 
 * Summary: Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.
-* Version: 6.0.3
+* Version: 6.1.0
 * Pypi: https://pypi.org/project/lxml/
 * Homepage: https://lxml.de/
 * Author: lxml dev team lxml@lxml.de
@@ -312,14 +312,14 @@ Administrative keys for demisto/pcap-miner:1.0.0.8187750
 * alpine-baselayout-3.7.2-r0 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.23.3-r0 x86_64 {alpine-base}
-* apk-tools-3.0.5-r0 x86_64 {apk-tools}
+* alpine-release-3.23.4-r0 x86_64 {alpine-base}
+* apk-tools-3.0.6-r0 x86_64 {apk-tools}
 * brotli-libs-1.2.0-r0 x86_64 {brotli}
 * busybox-1.37.0-r30 x86_64 {busybox}
 * busybox-binsh-1.37.0-r30 x86_64 {busybox}
 * c-ares-1.34.6-r0 x86_64 {c-ares}
-* ca-certificates-20251003-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20251003-r0 x86_64 {ca-certificates}
+* ca-certificates-20260413-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20260413-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * glib-2.86.3-r0 x86_64 {glib}
 * gmp-6.3.0-r4 x86_64 {gmp}
@@ -327,7 +327,7 @@ Administrative keys for demisto/pcap-miner:1.0.0.8187750
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.1-r0 x86_64 {krb5}
-* libapk-3.0.5-r0 x86_64 {apk-tools}
+* libapk-3.0.6-r0 x86_64 {apk-tools}
 * libblkid-2.41.4-r0 x86_64 {util-linux}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcap2-2.78-r0 x86_64 {libcap}

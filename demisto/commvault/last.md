@@ -1,9 +1,9 @@
-# `demisto/commvault:1.0.0.8381167`
+# `demisto/commvault:1.0.0.8394447`
 
 ## Docker Metadata
 - Image Size: 42.83 MB
-- Image ID: `sha256:842dda3b8007cbb3b479e0316bce8ecd05f57d5eed6a8d09b93cf324e2155090`
-- Created: `2026-04-20T17:32:16.766968944Z`
+- Image ID: `sha256:0025c43859ab29e406ae45ef6d2bb98262f7432ab518499672cff4ad19d8f34b`
+- Created: `2026-04-21T17:32:33.154170486Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/commvault:1.0.0.8381167`
+  - `DOCKER_IMAGE=demisto/commvault:1.0.0.8394447`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:80d7645a8cd7531b2ea031c70de70be24aaf319a`
-  - `org.opencontainers.image.version:1.0.0.8381167`
+  - `org.opencontainers.image.revision:5756573368eef3ac4c5a3b1b6434ff8b2bee33e6`
+  - `org.opencontainers.image.version:1.0.0.8394447`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/commvault:1.0.0.8381167
+Signatures for demisto/commvault:1.0.0.8394447
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8381167   99ea4d3300a6365c849f99ccedc06ae0990151d44f8d8b009bddab1e77d409b0   (Repo Admin)
+1.0.0.8394447   898818a85c03b3b04535d0d1bfb44087b1a5671d9135b3bed259d3803109a193   (Repo Admin)
 
-Administrative keys for demisto/commvault:1.0.0.8381167
+Administrative keys for demisto/commvault:1.0.0.8394447
 
   Repository Key:	64321e4bf89f6f2f2c1f4b7d25030e7220c7309e9d60d0cb1dba7ce333c096da
   Root Key:	f3d406a543e986d36d553f83059154f0fc457f73f4391bb8af24bc3501bd86f2
@@ -391,7 +391,7 @@ Administrative keys for demisto/commvault:1.0.0.8381167
 ### `uvicorn`
 
 * Summary: The lightning-fast ASGI server.
-* Version: 0.44.0
+* Version: 0.45.0
 * Pypi: https://pypi.org/project/uvicorn/
 * Homepage: None
 * Author: Tom Christie <tom@tomchristie.com>

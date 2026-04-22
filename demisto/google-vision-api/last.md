@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.8164263`
+# `demisto/google-vision-api:1.0.0.8394447`
 
 ## Docker Metadata
 - Image Size: 116.16 MB
-- Image ID: `sha256:ba8b34f5d5badf53d922c9325647ac7098e00c8d54eaff7b5b428380cb618f5c`
-- Created: `2026-04-10T08:21:20.42065863Z`
+- Image ID: `sha256:a5e8f70cf06386feb35b982ee2f959aeaa97a3d5fc9379f28c8c07e9134d835d`
+- Created: `2026-04-21T17:34:56.580429072Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.12`
   - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.8164263`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.8394447`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:06d7f6ff0a5cc530f3c943592338926b9dc183c3`
-  - `org.opencontainers.image.version:1.0.0.8164263`
+  - `org.opencontainers.image.revision:5756573368eef3ac4c5a3b1b6434ff8b2bee33e6`
+  - `org.opencontainers.image.version:1.0.0.8394447`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-vision-api:1.0.0.8164263
+Signatures for demisto/google-vision-api:1.0.0.8394447
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8164263   df0dedcaf73be5417932ef3c9cc71e8807fec2c4bd7bdd4c84db6822022233e6   (Repo Admin)
+1.0.0.8394447   bf6826901e9eb1e6af42e29680fe4327dd77c37183b4c0620bce3fbcafe12ce6   (Repo Admin)
 
-Administrative keys for demisto/google-vision-api:1.0.0.8164263
+Administrative keys for demisto/google-vision-api:1.0.0.8394447
 
   Repository Key:	8f699c169d21da1343c2ea4f465fe5f19ace3822c0fd85c2d1a054379abf30dd
   Root Key:	23130201a9ea6e060cceb9cf5a1998649873c190c980fe0d6c487df1fadbc6ef
@@ -67,7 +67,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.8164263
 ### `cachetools`
 
 * Summary: Extensible memoizing collections and decorators
-* Version: 7.0.5
+* Version: 7.0.6
 * Pypi: https://pypi.org/project/cachetools/
 * Homepage: None
 * Author: Thomas Kemmer <tkemmer@computer.org>
@@ -474,14 +474,14 @@ Administrative keys for demisto/google-vision-api:1.0.0.8164263
 * Version: 2.12.5
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
-* Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.io>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>, Douwe Maan <hi@douwe.me>
+* Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.dev>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
 
 ### `pydantic_core`
 
 * Summary: Core functionality for Pydantic validation and serialization
 * Version: 2.41.5
 * Pypi: https://pypi.org/project/pydantic_core/
-* Homepage: https://github.com/pydantic/pydantic-core
+* Homepage: https://github.com/pydantic/pydantic
 * Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
 
 ### `pyparsing`
