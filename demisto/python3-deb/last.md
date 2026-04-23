@@ -1,9 +1,9 @@
-# `demisto/python3-deb:3.12.13.8167125`
+# `demisto/python3-deb:3.12.13.8411476`
 
 ## Docker Metadata
-- Image Size: 59.22 MB
-- Image ID: `sha256:67f7595bdf438f904b553933419a40021e5f0ce22ab7d5ce27007de3da9679ca`
-- Created: `2026-04-10T15:42:49.340396583Z`
+- Image Size: 56.36 MB
+- Image ID: `sha256:ec15afbf3db39971032b00611b87ccb49d4a7dbb7d1d5cec2cf54fd77f1f0aba`
+- Created: `2026-04-23T02:33:23.688912275Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/python3-deb:3.12.13.8167125`
+  - `DOCKER_IMAGE=demisto/python3-deb:3.12.13.8411476`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:6ffa3293ffd67881ebe06278b7e7c2785627811e`
-  - `org.opencontainers.image.version:3.12.13.8167125`
+  - `org.opencontainers.image.revision:257d3f5325a7acfae0ee183cb2421c83bbf1b4b9`
+  - `org.opencontainers.image.version:3.12.13.8411476`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3-deb:3.12.13.8167125
+Signatures for demisto/python3-deb:3.12.13.8411476
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.13.8167125   7f347d2f1f2ce8ac4497fed510f6161ee712db79a1b55e378e61ec17e09cbdf2   (Repo Admin)
+3.12.13.8411476   ab4370fa0c7763eb0b5d6870bd10ab82d8bea6e901bd17ebb95577cf788641f0   (Repo Admin)
 
-Administrative keys for demisto/python3-deb:3.12.13.8167125
+Administrative keys for demisto/python3-deb:3.12.13.8411476
 
   Repository Key:	02e9781b8a12b1475cfa9e28c569a3337f9d9e664134162d21f48e09aa975ab6
   Root Key:	c368f2dcb34a0aaabd33ee9559bd094b84c7f57f4742bde05f5a21486a524ce9
@@ -251,7 +251,7 @@ Administrative keys for demisto/python3-deb:3.12.13.8167125
 ### `wheel`
 
 * Summary: Command line tool for manipulating wheel files
-* Version: 0.46.3
+* Version: 0.47.0
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
