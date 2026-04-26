@@ -1,9 +1,9 @@
-# `demisto/python3-deb:3.12.13.8411476`
+# `demisto/python3-deb:3.12.13.8430800`
 
 ## Docker Metadata
-- Image Size: 56.36 MB
-- Image ID: `sha256:ec15afbf3db39971032b00611b87ccb49d4a7dbb7d1d5cec2cf54fd77f1f0aba`
-- Created: `2026-04-23T02:33:23.688912275Z`
+- Image Size: 56.38 MB
+- Image ID: `sha256:337c892e5d029d4d93a12ad8d2074fcebc459f1905437aa64a07931b68a527e2`
+- Created: `2026-04-23T20:31:58.915910263Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/python3-deb:3.12.13.8411476`
+  - `DOCKER_IMAGE=demisto/python3-deb:3.12.13.8430800`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:257d3f5325a7acfae0ee183cb2421c83bbf1b4b9`
-  - `org.opencontainers.image.version:3.12.13.8411476`
+  - `org.opencontainers.image.revision:04df75cfea1056857f208cf078df7a233697102d`
+  - `org.opencontainers.image.version:3.12.13.8430800`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3-deb:3.12.13.8411476
+Signatures for demisto/python3-deb:3.12.13.8430800
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.13.8411476   ab4370fa0c7763eb0b5d6870bd10ab82d8bea6e901bd17ebb95577cf788641f0   (Repo Admin)
+3.12.13.8430800   3eb37628e9fa6ed5c6dd41d43fe64308808a12849dd54debc829e60372c26a9d   (Repo Admin)
 
-Administrative keys for demisto/python3-deb:3.12.13.8411476
+Administrative keys for demisto/python3-deb:3.12.13.8430800
 
   Repository Key:	02e9781b8a12b1475cfa9e28c569a3337f9d9e664134162d21f48e09aa975ab6
   Root Key:	c368f2dcb34a0aaabd33ee9559bd094b84c7f57f4742bde05f5a21486a524ce9
@@ -129,7 +129,7 @@ Administrative keys for demisto/python3-deb:3.12.13.8411476
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.0
+* Version: 26.1
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>

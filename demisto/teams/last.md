@@ -1,9 +1,9 @@
-# `demisto/teams:1.0.0.8352166`
+# `demisto/teams:1.0.0.8425368`
 
 ## Docker Metadata
-- Image Size: 57.23 MB
-- Image ID: `sha256:0246402a2bf27044caa620dc98add4c5155c2a841ba4b694e77ab632c4ccc318`
-- Created: `2026-04-19T12:46:10.098132386Z`
+- Image Size: 54.38 MB
+- Image ID: `sha256:de3dfb07824fb386c81a563a0e1284db59bdcb35ca87ac3b102064ee1e7a70e8`
+- Created: `2026-04-23T14:52:58.426859059Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/teams:1.0.0.8352166`
+  - `DOCKER_IMAGE=demisto/teams:1.0.0.8425368`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3a7a065f491d4626fb3dcd8f66b1151d14a47a4f`
-  - `org.opencontainers.image.version:1.0.0.8352166`
+  - `org.opencontainers.image.revision:861c764f72840ba5b652ded26b1e99fc3b68fe76`
+  - `org.opencontainers.image.version:1.0.0.8425368`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/teams:1.0.0.8352166
+Signatures for demisto/teams:1.0.0.8425368
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8352166   a6062ef91afec957398672978f771dc76125921a00bff65fbdf589a002ab7dbf   (Repo Admin)
+1.0.0.8425368   cd9b4c0cecb003958bdf465ac4b237fc440a48e41f4279dc1178b4ab1102158f   (Repo Admin)
 
-Administrative keys for demisto/teams:1.0.0.8352166
+Administrative keys for demisto/teams:1.0.0.8425368
 
   Repository Key:	b2887129b50f5a1b5836d11a274fe06aacb9538dbf9c9414e50f3a80e882457d
   Root Key:	c46423baa7a81cc607a4aaf966f67d987d95440212144e8845a433e291cf7eb9
@@ -91,7 +91,7 @@ Administrative keys for demisto/teams:1.0.0.8352166
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.6
+* Version: 3.4.7
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -100,7 +100,7 @@ Administrative keys for demisto/teams:1.0.0.8352166
 ### `click`
 
 * Summary: Composable command line interface toolkit
-* Version: 8.3.2
+* Version: 8.3.3
 * Pypi: https://pypi.org/project/click/
 * Homepage: None
 * Author: None
@@ -108,7 +108,7 @@ Administrative keys for demisto/teams:1.0.0.8352166
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 46.0.5
+* Version: 46.0.7
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -116,7 +116,7 @@ Administrative keys for demisto/teams:1.0.0.8352166
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.3.0
+* Version: 1.4.0
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub opensource@zyte.com
@@ -228,7 +228,7 @@ Administrative keys for demisto/teams:1.0.0.8352166
 ### `msal`
 
 * Summary: The Microsoft Authentication Library (MSAL) for Python library enables your app to access the Microsoft Cloud by supporting authentication of users with Microsoft Azure Active Directory accounts (AAD) and Microsoft Accounts (MSA) using industry standard OAuth2 and OpenID Connect.
-* Version: 1.35.1
+* Version: 1.36.0
 * Pypi: https://pypi.org/project/msal/
 * Homepage: https://github.com/AzureAD/microsoft-authentication-library-for-python
 * Author: Microsoft Corporation nugetaad@microsoft.com
@@ -325,7 +325,7 @@ Administrative keys for demisto/teams:1.0.0.8352166
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2025.2
+* Version: 2026.1.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -352,7 +352,7 @@ Administrative keys for demisto/teams:1.0.0.8352166
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.1.15
+* Version: 2026.2.28
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -360,7 +360,7 @@ Administrative keys for demisto/teams:1.0.0.8352166
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.5
+* Version: 2.33.1
 * Pypi: https://pypi.org/project/requests/
 * Homepage: None
 * Author: Kenneth Reitz <me@kennethreitz.org>
@@ -470,8 +470,8 @@ Administrative keys for demisto/teams:1.0.0.8352166
 ## `OS Packages`
 
 * .python-rundeps-20260303.201742 noarch {.python-rundeps}
-* alpine-baselayout-3.7.1-r8 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.7.1-r8 x86_64 {alpine-baselayout}
+* alpine-baselayout-3.7.2-r0 x86_64 {alpine-baselayout}
+* alpine-baselayout-data-3.7.2-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
 * alpine-release-3.23.3-r0 x86_64 {alpine-base}
 * apk-tools-3.0.5-r0 x86_64 {apk-tools}
@@ -495,10 +495,10 @@ Administrative keys for demisto/teams:1.0.0.8352166
 * libssl3-3.5.6-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
-* libuuid-2.41.2-r0 x86_64 {util-linux}
+* libuuid-2.41.4-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
 * musl-1.2.5-r23 x86_64 {musl}
-* musl-utils-1.2.5-r21 x86_64 {musl}
+* musl-utils-1.2.5-r22 x86_64 {musl}
 * ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
 * readline-8.3.1-r0 x86_64 {readline}
 * scanelf-1.3.8-r2 x86_64 {pax-utils}
@@ -506,4 +506,4 @@ Administrative keys for demisto/teams:1.0.0.8352166
 * ssl_client-1.37.0-r30 x86_64 {busybox}
 * tzdata-2026a-r0 x86_64 {tzdata}
 * xz-libs-5.8.2-r0 x86_64 {xz}
-* zlib-1.3.1-r2 x86_64 {zlib}
+* zlib-1.3.2-r0 x86_64 {zlib}

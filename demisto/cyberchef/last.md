@@ -1,9 +1,9 @@
-# `demisto/cyberchef:1.0.0.8187750`
+# `demisto/cyberchef:1.0.0.8425368`
 
 ## Docker Metadata
-- Image Size: 236.54 MB
-- Image ID: `sha256:bd9b0b6d9be661d6de365e90df0070a506bb04cc589b9e97c58477cfa5093c43`
-- Created: `2026-04-12T09:50:23.033598363Z`
+- Image Size: 234.53 MB
+- Image ID: `sha256:5f32f0d49ed48c4ff286e674c70fb83bdbb451050ea54ecd4698925bcbd28cb2`
+- Created: `2026-04-23T14:32:55.289461437Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,17 +12,17 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/cyberchef:1.0.0.8187750`
+  - `DOCKER_IMAGE=demisto/cyberchef:1.0.0.8425368`
   - `NODE_PATH=/usr/local/lib/node_modules`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:1bc213933d259416646b0f343033e769107d16fe`
-  - `org.opencontainers.image.version:1.0.0.8187750`
+  - `org.opencontainers.image.revision:861c764f72840ba5b652ded26b1e99fc3b68fe76`
+  - `org.opencontainers.image.version:1.0.0.8425368`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.23.3`
+  - `VERSION_ID=3.23.4`
   - `PRETTY_NAME="Alpine Linux v3.23"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -30,12 +30,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/cyberchef:1.0.0.8187750
+Signatures for demisto/cyberchef:1.0.0.8425368
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8187750   35350f00a235c446a7180bdcf1ea1a1156aeedcc9f693ac07b4f7d596f2d9e49   (Repo Admin)
+1.0.0.8425368   02ea96a4791ccb3e720cf53299aec8ca22e56909caff25caf534718ecfc7a33f   (Repo Admin)
 
-Administrative keys for demisto/cyberchef:1.0.0.8187750
+Administrative keys for demisto/cyberchef:1.0.0.8425368
 
   Repository Key:	87faffbf9cfa242d5efcd5063441e580183ea8dc81f914176971dd74db952ebd
   Root Key:	617486d64dbbca7eb8b024a5a1e37dfbeef728381cc5a25de5b60b8d4a2b55dc
@@ -265,26 +265,26 @@ Administrative keys for demisto/cyberchef:1.0.0.8187750
 
 ## `OS Packages`
 
-* .python-rundeps-20260303.201742 noarch {.python-rundeps}
+* .python-rundeps-20260415.205216 noarch {.python-rundeps}
 * ada-libs-3.3.0-r0 x86_64 {ada}
 * alpine-baselayout-3.7.2-r0 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.23.3-r0 x86_64 {alpine-base}
-* apk-tools-3.0.5-r0 x86_64 {apk-tools}
+* alpine-release-3.23.4-r0 x86_64 {alpine-base}
+* apk-tools-3.0.6-r0 x86_64 {apk-tools}
 * brotli-libs-1.2.0-r0 x86_64 {brotli}
 * busybox-1.37.0-r30 x86_64 {busybox}
 * busybox-binsh-1.37.0-r30 x86_64 {busybox}
 * c-ares-1.34.6-r0 x86_64 {c-ares}
-* ca-certificates-20251003-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20251003-r0 x86_64 {ca-certificates}
+* ca-certificates-20260413-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20260413-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * icu-data-en-76.1-r1 x86_64 {icu}
 * icu-libs-76.1-r1 x86_64 {icu}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.1-r0 x86_64 {krb5}
-* libapk-3.0.5-r0 x86_64 {apk-tools}
+* libapk-3.0.6-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.6-r0 x86_64 {openssl}
@@ -301,7 +301,7 @@ Administrative keys for demisto/cyberchef:1.0.0.8187750
 * libuuid-2.41.4-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
 * musl-1.2.5-r23 x86_64 {musl}
-* musl-utils-1.2.5-r22 x86_64 {musl}
+* musl-utils-1.2.5-r23 x86_64 {musl}
 * ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
 * nghttp2-libs-1.68.0-r0 x86_64 {nghttp2}
 * nodejs-24.14.1-r0 x86_64 {nodejs}
