@@ -1,9 +1,9 @@
-# `demisto/datadog-api-client:1.0.0.8187750`
+# `demisto/datadog-api-client:1.0.0.8516410`
 
 ## Docker Metadata
-- Image Size: 37.51 MB
-- Image ID: `sha256:882274bdddc116dece784954fad27e44c409f8584ab9dbd2372004463bc2f5dc`
-- Created: `2026-04-12T09:52:40.837347692Z`
+- Image Size: 38.08 MB
+- Image ID: `sha256:93e8dcca6743d715092dc88e1d462e2c776f7d696d086d9df31c5ba9293d53f8`
+- Created: `2026-04-27T20:32:56.677610268Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/datadog-api-client:1.0.0.8187750`
+  - `DOCKER_IMAGE=demisto/datadog-api-client:1.0.0.8516410`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:1bc213933d259416646b0f343033e769107d16fe`
-  - `org.opencontainers.image.version:1.0.0.8187750`
+  - `org.opencontainers.image.revision:da67c74953de1850799c8e0573abd7bc99825ab6`
+  - `org.opencontainers.image.version:1.0.0.8516410`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/datadog-api-client:1.0.0.8187750
+Signatures for demisto/datadog-api-client:1.0.0.8516410
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8187750   ded11a358624e3d820b6587efe6373bcc7b17be4c0ee4c7868543cea0f8a7c10   (Repo Admin)
+1.0.0.8516410   77a202323c9ead04ad37bf94ca699a40e3938de4e83e38ff3d4bab9cb19fe2b8   (Repo Admin)
 
-Administrative keys for demisto/datadog-api-client:1.0.0.8187750
+Administrative keys for demisto/datadog-api-client:1.0.0.8516410
 
   Repository Key:	656d78d0ce1bf497326f1f73e1748d6dc41faace8487b29f8cf74838cf932cd9
   Root Key:	f37ef2584cf450f8c9dd9e8721f92ef81e852897ae167f699bb2c8bffa6ecd86
@@ -47,7 +47,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.8187750
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.2.25
+* Version: 2026.4.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -65,7 +65,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.8187750
 ### `datadog-api-client`
 
 * Summary: Collection of all Datadog Public endpoints
-* Version: 2.53.0
+* Version: 2.54.0
 * Pypi: https://pypi.org/project/datadog-api-client/
 * Homepage: https://github.com/DataDog/datadog-api-client-python
 * Author: Datadog, Inc. packages@datadoghq.com
@@ -152,7 +152,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.8187750
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.0.1
+* Version: 26.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>

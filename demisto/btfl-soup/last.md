@@ -1,9 +1,9 @@
-# `demisto/btfl-soup:1.0.1.8356897`
+# `demisto/btfl-soup:1.0.1.8516410`
 
 ## Docker Metadata
 - Image Size: 37.03 MB
-- Image ID: `sha256:296154b7bfbeaade477d24d0384ba67e924a52ec21dc8f1e6861eba7902a27f9`
-- Created: `2026-04-19T15:39:43.157984249Z`
+- Image ID: `sha256:c61fb2a62bd267d284309ff28d070d66b43af9102511a9bbca971903ab6abe61`
+- Created: `2026-04-27T20:32:03.93896439Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.8356897`
+  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.8516410`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:0d456737125b6517724f0d6a9116dcdb20a8161f`
-  - `org.opencontainers.image.version:1.0.1.8356897`
+  - `org.opencontainers.image.revision:da67c74953de1850799c8e0573abd7bc99825ab6`
+  - `org.opencontainers.image.version:1.0.1.8516410`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/btfl-soup:1.0.1.8356897
+Signatures for demisto/btfl-soup:1.0.1.8516410
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.1.8356897   71c8b23dbda87817f579c4e96b4895a1136a87e3da79cd0edcd15f86c2242de8   (Repo Admin)
+1.0.1.8516410   44d74a1dcc841def45342d77003e1fbc7af52ff4c0551a383ad233da39eb061b   (Repo Admin)
 
-Administrative keys for demisto/btfl-soup:1.0.1.8356897
+Administrative keys for demisto/btfl-soup:1.0.1.8516410
 
   Repository Key:	2df9352dc8d80b6e208c7ff147fac5fe0db694f8ad563e69a8c0688b62620cb4
   Root Key:	48666b9a08f1927653d7c7246d50c6a1b3a7f7ff8ff8be1557cce0991627ccf4
@@ -144,7 +144,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.8356897
 ### `nh3`
 
 * Summary: Python binding to Ammonia HTML sanitizer Rust crate
-* Version: 0.3.4
+* Version: 0.3.5
 * Pypi: https://pypi.org/project/nh3/
 * Homepage: None
 * Author: messense <messense@icloud.com>
@@ -170,7 +170,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.8356897
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.0.1
+* Version: 26.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
