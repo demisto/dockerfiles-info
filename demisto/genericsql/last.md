@@ -1,22 +1,22 @@
-# `demisto/genericsql:1.1.0.6915573`
+# `demisto/genericsql:1.2.0.8544956`
 
 ## Docker Metadata
-- Image Size: 218.68 MB
-- Image ID: `sha256:bf393e41d529755d39d119135d32059c0a8304d0922c8637ebed6f51f0922c81`
-- Created: `2026-01-28T14:44:24.930510929Z`
+- Image Size: 360.63 MB
+- Image ID: `sha256:93fd20168bbac87c4d362bc17f7b96d5ddaf78fd41f7d250297dca2029f1a650`
+- Created: `2026-04-28T17:33:52.386646906Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.12`
-  - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/genericsql:1.1.0.6915573`
+  - `PYTHON_VERSION=3.12.13`
+  - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
+  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.8544956`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:466a101a515a385069cb50e38baf50755739e8fd`
-  - `org.opencontainers.image.version:1.1.0.6915573`
+  - `org.opencontainers.image.revision:7b8110c53aa0dc242970d1c2c250865b29538739`
+  - `org.opencontainers.image.version:1.2.0.8544956`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/genericsql:1.1.0.6915573
+Signatures for demisto/genericsql:1.2.0.8544956
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.1.0.6915573   25c6e8c1c74f0d305b4d0af63d8177fcdcfd810fd5772e10475f10cba20795b7   (Repo Admin)
+1.2.0.8544956   ce790a5e799f9a62bb53550acfcfc389cee700a2b2f02223b8e896e26bdb087d   (Repo Admin)
 
-Administrative keys for demisto/genericsql:1.1.0.6915573
+Administrative keys for demisto/genericsql:1.2.0.8544956
 
   Repository Key:	b02fc99a72d78e9f5becfe15406ea942db310f3c3af9a7833b215eddb323f7cd
   Root Key:	d11245d830d935ed4846941604c024388aca83a60142ae5319409b1f6091afe1
@@ -50,7 +50,7 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.1.4
+* Version: 2026.4.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -67,7 +67,7 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.4
+* Version: 3.4.7
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -76,24 +76,15 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 46.0.4
+* Version: 47.0.0
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
 
-### `cx_Oracle`
-
-* Summary: Python interface to Oracle
-* Version: 8.3.0
-* Pypi: https://pypi.org/project/cx-Oracle/
-* Homepage: https://oracle.github.io/python-cx_Oracle
-* Author: "Anthony Tuininga", "anthony.tuininga@gmail.com",
-* License :: OSI Approved :: BSD License
-
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.2.2
+* Version: 1.4.0
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub opensource@zyte.com
@@ -120,11 +111,11 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.20.3
+* Version: 3.25.2
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -138,7 +129,7 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 ### `greenlet`
 
 * Summary: Lightweight in-process concurrent programming
-* Version: 3.3.1
+* Version: 3.5.0
 * Pypi: https://pypi.org/project/greenlet/
 * Homepage: None
 * Author: Alexey Borzenkov <snaury@gmail.com>
@@ -146,7 +137,7 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.11
+* Version: 3.13
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -163,7 +154,7 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.8.0
+* Version: 11.0.2
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -177,20 +168,29 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
+### `oracledb`
+
+* Summary: Python interface to Oracle Database
+* Version: 3.4.2
+* Pypi: https://pypi.org/project/oracledb/
+* Homepage: None
+* Author: Anthony Tuininga <anthony.tuininga@oracle.com>
+
 ### `orjson`
 
 * Summary: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
-* Version: 3.11.5
+* Version: 3.11.8
 * Pypi: https://pypi.org/project/orjson/
 * Homepage: None
 * Author: None
 * License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: MIT License
+* License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.0
+* Version: 26.1
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -198,7 +198,7 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.3
+* Version: 26.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -207,7 +207,7 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 ### `psycopg2-binary`
 
 * Summary: psycopg2 - Python-PostgreSQL Database Adapter
-* Version: 2.9.11
+* Version: 2.9.12
 * Pypi: https://pypi.org/project/psycopg2-binary/
 * Homepage: https://psycopg.org/
 * Author: Federico Di Gregorio fog@initd.org
@@ -270,7 +270,7 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2025.2
+* Version: 2026.1.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -288,7 +288,7 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.1.15
+* Version: 2026.4.4
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -296,10 +296,10 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.5
+* Version: 2.33.1
 * Pypi: https://pypi.org/project/requests/
-* Homepage: https://requests.readthedocs.io
-* Author: Kenneth Reitz me@kennethreitz.org
+* Homepage: None
+* Author: Kenneth Reitz <me@kennethreitz.org>
 * License :: OSI Approved :: Apache Software License
 
 ### `requests-file`
@@ -313,8 +313,8 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.10.2
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
+* Version: 82.0.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -331,7 +331,7 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 ### `SQLAlchemy`
 
 * Summary: Database Abstraction Library
-* Version: 2.0.46
+* Version: 2.0.49
 * Pypi: https://pypi.org/project/SQLAlchemy/
 * Homepage: https://www.sqlalchemy.org
 * Author: Mike Bayer mike_mp@zzzcomputing.com
@@ -348,7 +348,7 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 ### `trino`
 
 * Summary: Client for the Trino distributed SQL Engine
-* Version: 0.336.0
+* Version: 0.337.0
 * Pypi: https://pypi.org/project/trino/
 * Homepage: https://github.com/trinodb/trino-python-client
 * Author: Trino Team python-client@trino.io
@@ -382,7 +382,7 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 ### `wheel`
 
 * Summary: Command line tool for manipulating wheel files
-* Version: 0.46.3
+* Version: 0.47.0
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
@@ -459,7 +459,7 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 * libgcrypt20:amd64	1.10.1-3
 * libgdbm6:amd64	1.23-3
 * libgmp10:amd64	2:6.2.1+dfsg1-1.1
-* libgnutls30:amd64	3.7.9-2+deb12u5
+* libgnutls30:amd64	3.7.9-2+deb12u6
 * libgpg-error0:amd64	1.46-1
 * libgssapi-krb5-2:amd64	1.20.1-2+deb12u4
 * libhogweed6:amd64	3.8.1-2
@@ -488,7 +488,7 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 * libpam-runtime	1.5.2-6+deb12u2
 * libpam0g:amd64	1.5.2-6+deb12u2
 * libpcre2-8-0:amd64	10.42-1
-* libpq5:amd64	15.15-0+deb12u1
+* libpq5:amd64	15.16-0+deb12u1
 * libproc2-0:amd64	2:4.0.2-3
 * libpsl5:amd64	0.21.2-1
 * libreadline8:amd64	8.2-1.3
@@ -502,7 +502,7 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 * libsmartcols1:amd64	2.38.1-5+deb12u3
 * libsqlite3-0:amd64	3.40.1-2+deb12u2
 * libss2:amd64	1.47.2-3~bpo12+1
-* libssl3:amd64	3.0.18-1~deb12u2
+* libssl3:amd64	3.0.19-1~deb12u2
 * libstdc++6:amd64	12.2.0-14+deb12u1
 * libsybdb5:amd64	1.3.17+ds-2
 * libsystemd0:amd64	254.26-1~bpo12+1
@@ -516,17 +516,17 @@ Administrative keys for demisto/genericsql:1.1.0.6915573
 * libuuid1:amd64	2.38.1-5+deb12u3
 * libxxhash0:amd64	0.8.1-1
 * libzstd1:amd64	1.5.4+dfsg2-5
-* linux-libc-dev:amd64	6.1.159-1
+* linux-libc-dev:amd64	6.1.164-1
 * login	1:4.13+dfsg1-1+deb12u2
 * logsave	1.47.2-3~bpo12+1
 * mawk	1.3.4.20200120-3.1
 * mount	2.38.1-5+deb12u3
-* msodbcsql18	18.6.1.1-1
+* msodbcsql18	18.6.2.1-1
 * ncurses-base	6.4-4
 * ncurses-bin	6.4-4
 * netbase	6.4
 * odbcinst	2.3.11-2+deb12u1
-* openssl	3.0.18-1~deb12u2
+* openssl	3.0.19-1~deb12u2
 * passwd	1:4.13+dfsg1-1+deb12u2
 * perl-base	5.36.0-7+deb12u3
 * pinentry-curses	1.2.1-1
