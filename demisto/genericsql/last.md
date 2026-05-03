@@ -1,9 +1,9 @@
-# `demisto/genericsql:1.2.0.8544956`
+# `demisto/genericsql:1.2.0.8659208`
 
 ## Docker Metadata
-- Image Size: 360.63 MB
-- Image ID: `sha256:93fd20168bbac87c4d362bc17f7b96d5ddaf78fd41f7d250297dca2029f1a650`
-- Created: `2026-04-28T17:33:52.386646906Z`
+- Image Size: 360.64 MB
+- Image ID: `sha256:cc5ffb75bfe501b6df628860ef7f892b63c196607be207e2397c8fc26123a818`
+- Created: `2026-05-03T00:00:44.407237511Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.8544956`
+  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.8659208`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:7b8110c53aa0dc242970d1c2c250865b29538739`
-  - `org.opencontainers.image.version:1.2.0.8544956`
+  - `org.opencontainers.image.revision:07511aa682889d2236117caa031cf3d079409a41`
+  - `org.opencontainers.image.version:1.2.0.8659208`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/genericsql:1.2.0.8544956
+Signatures for demisto/genericsql:1.2.0.8659208
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.2.0.8544956   ce790a5e799f9a62bb53550acfcfc389cee700a2b2f02223b8e896e26bdb087d   (Repo Admin)
+1.2.0.8659208   252fb968ce6fd565cffcfd793baafed14c63d06a018f1ca1a54f0528c4feac01   (Repo Admin)
 
-Administrative keys for demisto/genericsql:1.2.0.8544956
+Administrative keys for demisto/genericsql:1.2.0.8659208
 
   Repository Key:	b02fc99a72d78e9f5becfe15406ea942db310f3c3af9a7833b215eddb323f7cd
   Root Key:	d11245d830d935ed4846941604c024388aca83a60142ae5319409b1f6091afe1
@@ -234,7 +234,7 @@ Administrative keys for demisto/genericsql:1.2.0.8544956
 ### `PyMySQL`
 
 * Summary: Pure Python MySQL Driver
-* Version: 1.1.2
+* Version: 1.1.3
 * Pypi: https://pypi.org/project/PyMySQL/
 * Homepage: None
 * Author: Inada Naoki <songofacandy@gmail.com>, Yutaka Matsubara <yutaka.matsubara@gmail.com>
@@ -516,7 +516,7 @@ Administrative keys for demisto/genericsql:1.2.0.8544956
 * libuuid1:amd64	2.38.1-5+deb12u3
 * libxxhash0:amd64	0.8.1-1
 * libzstd1:amd64	1.5.4+dfsg2-5
-* linux-libc-dev:amd64	6.1.164-1
+* linux-libc-dev:amd64	6.1.170-1
 * login	1:4.13+dfsg1-1+deb12u2
 * logsave	1.47.2-3~bpo12+1
 * mawk	1.3.4.20200120-3.1
