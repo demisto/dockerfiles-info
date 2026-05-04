@@ -1,9 +1,9 @@
-# `demisto/pcap-miner:1.0.0.8399333`
+# `demisto/pcap-miner:1.0.0.8673559`
 
 ## Docker Metadata
-- Image Size: 105.07 MB
-- Image ID: `sha256:0de9632eb9074c397ab67d6bc5a42173c72f6b27021fe3cc3b51758bfb5c845a`
-- Created: `2026-04-22T02:33:43.520199412Z`
+- Image Size: 101.54 MB
+- Image ID: `sha256:148b523d5d2ed730c749303d859e2221d776bf45257a2e5318a51d71fb4d7df2`
+- Created: `2026-05-03T11:37:15.75440767Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/pcap-miner:1.0.0.8399333`
+  - `DOCKER_IMAGE=demisto/pcap-miner:1.0.0.8673559`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:9cee0fe09d45fd1266ea34e0e7c2e80459ec4726`
-  - `org.opencontainers.image.version:1.0.0.8399333`
+  - `org.opencontainers.image.revision:1f622ecd40bb831b0c3987515d5eae12f786ed59`
+  - `org.opencontainers.image.version:1.0.0.8673559`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pcap-miner:1.0.0.8399333
+Signatures for demisto/pcap-miner:1.0.0.8673559
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8399333   d79a7af03d0033077c0843c7df6b9f4fff9f1d67a90db4d11e1996214677fb48   (Repo Admin)
+1.0.0.8673559   aabc7d0ceb082fa0cc99e938a9714db42acb76d0ebe076b1493210f9e38e01ff   (Repo Admin)
 
-Administrative keys for demisto/pcap-miner:1.0.0.8399333
+Administrative keys for demisto/pcap-miner:1.0.0.8673559
 
   Repository Key:	96a3823375c52caeaf2d0fea331785c2a44bcdd81fc771ac59b0e581e05d9621
   Root Key:	9ba37c9e3fcbf21715b56cb970082bb72679ac3092e6ae254674b94ae77f43ee
@@ -153,7 +153,7 @@ Administrative keys for demisto/pcap-miner:1.0.0.8399333
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.0
+* Version: 26.2
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -161,7 +161,7 @@ Administrative keys for demisto/pcap-miner:1.0.0.8399333
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.0.1
+* Version: 26.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -301,14 +301,14 @@ Administrative keys for demisto/pcap-miner:1.0.0.8399333
 ### `wheel`
 
 * Summary: Command line tool for manipulating wheel files
-* Version: 0.46.3
+* Version: 0.47.0
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
 
 ## `OS Packages`
 
-* .python-rundeps-20260303.201742 noarch {.python-rundeps}
+* .python-rundeps-20260415.205216 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r0 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
@@ -323,7 +323,7 @@ Administrative keys for demisto/pcap-miner:1.0.0.8399333
 * gdbm-1.26-r0 x86_64 {gdbm}
 * glib-2.86.3-r0 x86_64 {glib}
 * gmp-6.3.0-r4 x86_64 {gmp}
-* gnutls-3.8.12-r0 x86_64 {gnutls}
+* gnutls-3.8.13-r0 x86_64 {gnutls}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.1-r0 x86_64 {krb5}
@@ -364,7 +364,7 @@ Administrative keys for demisto/pcap-miner:1.0.0.8399333
 * musl-utils-1.2.5-r23 x86_64 {musl}
 * ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
 * nettle-3.10.2-r0 x86_64 {nettle}
-* nghttp2-libs-1.68.0-r0 x86_64 {nghttp2}
+* nghttp2-libs-1.69.0-r0 x86_64 {nghttp2}
 * p11-kit-0.25.5-r2 x86_64 {p11-kit}
 * pcre2-10.47-r0 x86_64 {pcre2}
 * readline-8.3.1-r0 x86_64 {readline}
@@ -372,9 +372,9 @@ Administrative keys for demisto/pcap-miner:1.0.0.8399333
 * speexdsp-1.2.1-r2 x86_64 {speexdsp}
 * sqlite-libs-3.51.2-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r30 x86_64 {busybox}
-* tshark-4.6.4-r0 x86_64 {wireshark}
-* tzdata-2026a-r0 x86_64 {tzdata}
-* wireshark-common-4.6.4-r0 x86_64 {wireshark}
-* xz-libs-5.8.2-r0 x86_64 {xz}
+* tshark-4.6.5-r0 x86_64 {wireshark}
+* tzdata-2026b-r0 x86_64 {tzdata}
+* wireshark-common-4.6.5-r0 x86_64 {wireshark}
+* xz-libs-5.8.3-r0 x86_64 {xz}
 * zlib-1.3.2-r0 x86_64 {zlib}
 * zstd-libs-1.5.7-r2 x86_64 {zstd}
