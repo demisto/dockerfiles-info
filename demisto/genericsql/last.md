@@ -1,9 +1,9 @@
-# `demisto/genericsql:1.2.0.8659208`
+# `demisto/genericsql:1.2.0.8729300`
 
 ## Docker Metadata
-- Image Size: 360.64 MB
-- Image ID: `sha256:cc5ffb75bfe501b6df628860ef7f892b63c196607be207e2397c8fc26123a818`
-- Created: `2026-05-03T00:00:44.407237511Z`
+- Image Size: 360.69 MB
+- Image ID: `sha256:1346d553f1e957eaf185679bc27cd230c946f8aae4407f5cc1983545aa5fb054`
+- Created: `2026-05-04T20:35:54.483181532Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.8659208`
+  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.8729300`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:07511aa682889d2236117caa031cf3d079409a41`
-  - `org.opencontainers.image.version:1.2.0.8659208`
+  - `org.opencontainers.image.revision:58f1528de52f0b5f1686828f297b6f68830d5e58`
+  - `org.opencontainers.image.version:1.2.0.8729300`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/genericsql:1.2.0.8659208
+Signatures for demisto/genericsql:1.2.0.8729300
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.2.0.8659208   252fb968ce6fd565cffcfd793baafed14c63d06a018f1ca1a54f0528c4feac01   (Repo Admin)
+1.2.0.8729300   bc86f6858ffe16e9b0d7d7116fd3b02c57e28a2d9db6aad0aac303bcefff0461   (Repo Admin)
 
-Administrative keys for demisto/genericsql:1.2.0.8659208
+Administrative keys for demisto/genericsql:1.2.0.8729300
 
   Repository Key:	b02fc99a72d78e9f5becfe15406ea942db310f3c3af9a7833b215eddb323f7cd
   Root Key:	d11245d830d935ed4846941604c024388aca83a60142ae5319409b1f6091afe1
@@ -171,7 +171,7 @@ Administrative keys for demisto/genericsql:1.2.0.8659208
 ### `oracledb`
 
 * Summary: Python interface to Oracle Database
-* Version: 3.4.2
+* Version: 4.0.0
 * Pypi: https://pypi.org/project/oracledb/
 * Homepage: None
 * Author: Anthony Tuininga <anthony.tuininga@oracle.com>
@@ -198,7 +198,7 @@ Administrative keys for demisto/genericsql:1.2.0.8659208
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1
+* Version: 26.1.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
