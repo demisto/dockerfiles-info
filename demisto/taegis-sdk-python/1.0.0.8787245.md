@@ -1,9 +1,9 @@
-# `demisto/auth-utils:1.0.0.8799626`
+# `demisto/taegis-sdk-python:1.0.0.8787245`
 
 ## Docker Metadata
-- Image Size: 56.21 MB
-- Image ID: `sha256:7d90c647af4c088fed93506c0a57fcaaf489b02fb642e27a8ddf8d8ca3234a2d`
-- Created: `2026-05-06T17:31:11.320113635Z`
+- Image Size: 40.07 MB
+- Image ID: `sha256:3cc52a6eb1b2ca66e2b3ef17bbdde418c767c773b79438df17c9fe3ed355570f`
+- Created: `2026-05-06T11:38:31.603847684Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/auth-utils:1.0.0.8799626`
+  - `DOCKER_IMAGE=demisto/taegis-sdk-python:1.0.0.8787245`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:289c0ca0d6d12e150574caeac18befa99cd6ea0e`
-  - `org.opencontainers.image.version:1.0.0.8799626`
+  - `org.opencontainers.image.revision:6f924ca284254be1bef231dc6106d46a6390f9a4`
+  - `org.opencontainers.image.version:1.0.0.8787245`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,15 +29,15 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/auth-utils:1.0.0.8799626
+Signatures for demisto/taegis-sdk-python:1.0.0.8787245
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8799626   b6bc0d431cab18a2125306cd3ce80a361626c28528f0cf59a88afe02d1f58c4d   (Repo Admin)
+1.0.0.8787245   46ccab2c60c4d349af8da74d57e17067014dffc41b2f85e55b36aaf6058d6386   (Repo Admin)
 
-Administrative keys for demisto/auth-utils:1.0.0.8799626
+Administrative keys for demisto/taegis-sdk-python:1.0.0.8787245
 
-  Repository Key:	c4e5c6491d37f197ee11c3bcf27402ded5e35e8dfd04aa5f3ca6306c1589acb9
-  Root Key:	afc48b6ceb8bef3948a8d982cf3a6e357efca688125da7e062bdd41bfc9b9546
+  Repository Key:	5adfc3de73d3fba8d8bec6eaa61ea68538d8f17fafe647c69721a127bac1649c
+  Root Key:	6173d20ae6055adefcf7d467dae31a8f0ebef28cc95a8f7200e3d7426bc53f73
 
 ```
 
@@ -71,100 +71,58 @@ Administrative keys for demisto/auth-utils:1.0.0.8799626
 * Author: None
 * License :: OSI Approved :: Apache Software License
 
-### `annotated-types`
+### `anyio`
 
-* Summary: Reusable constraint types to use with typing.Annotated
-* Version: 0.7.0
-* Pypi: https://pypi.org/project/annotated-types/
+* Summary: High-level concurrency and networking framework on top of asyncio or Trio
+* Version: 4.13.0
+* Pypi: https://pypi.org/project/anyio/
 * Homepage: None
-* Author: Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Samuel Colvin <s@muelcolvin.com>, Zac Hatfield-Dodds <zac@zhd.dev>
-* License :: OSI Approved :: MIT License
+* Author: Alex Grönholm <alex.gronholm@nextday.fi>
 
 ### `attrs`
 
 * Summary: Classes Without Boilerplate
-* Version: 24.3.0
+* Version: 26.1.0
 * Pypi: https://pypi.org/project/attrs/
 * Homepage: None
 * Author: Hynek Schlawack <hs@ox.cx>
 * License :: MIT License
 
-### `azure-core`
+### `backoff`
 
-* Summary: Microsoft Azure Core Library for Python
-* Version: 1.40.0
-* Pypi: https://pypi.org/project/azure-core/
-* Homepage: None
-* Author: Microsoft Corporation <azpysdkhelp@microsoft.com> License-Expression: MIT
-
-### `azure-identity`
-
-* Summary: Microsoft Azure Identity Library for Python
-* Version: 1.25.3
-* Pypi: https://pypi.org/project/azure-identity/
-* Homepage: None
-* Author: Microsoft Corporation <azpysdkhelp@microsoft.com> License-Expression: MIT
-
-### `azure-kusto-data`
-
-* Summary: Kusto Data Client
-* Version: 6.0.4
-* Pypi: https://pypi.org/project/azure-kusto-data/
-* Homepage: None
-* Author: Microsoft Corporation Microsoft Corporation <kustalk@microsoft.com>
+* Summary: Function decoration for backoff and retry
+* Version: 2.2.1
+* Pypi: https://pypi.org/project/backoff/
+* Homepage: https://github.com/litl/backoff
+* Author: Bob Green rgreen@aquent.com
 * License :: OSI Approved :: MIT License
-
-### `beautifulsoup4`
-
-* Summary: Screen-scraping library
-* Version: 4.14.3
-* Pypi: https://pypi.org/project/beautifulsoup4/
-* Homepage: None
-* Author: Leonard Richardson <leonardr@segfault.org>
-* License :: OSI Approved :: MIT License
-
-### `bs4`
-
-* Summary: Dummy package for Beautiful Soup (beautifulsoup4)
-* Version: 0.0.2
-* Pypi: https://pypi.org/project/bs4/
-* Homepage: None
-* Author: Leonard Richardson <leonardr@segfault.org>
-* License: MIT License
 
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2024.12.14
+* Version: 2026.4.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
-### `cffi`
-
-* Summary: Foreign Function Interface for Python calling C code.
-* Version: 2.0.0
-* Pypi: https://pypi.org/project/cffi/
-* Homepage: None
-* Author: Armin Rigo, Maciej Fijalkowski
-
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.1
+* Version: 3.4.7
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
 * License: MIT
 
-### `cryptography`
+### `dataclasses-json`
 
-* Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 46.0.7
-* Pypi: https://pypi.org/project/cryptography/
-* Homepage: None
-* Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
+* Summary: Easily serialize dataclasses to and from JSON.
+* Version: 0.6.7
+* Pypi: https://pypi.org/project/dataclasses-json/
+* Homepage: https://github.com/lidatong/dataclasses-json
+* Author: Charles Li charles.dt.li@gmail.com
+* License :: OSI Approved :: MIT License
 
 ### `dateparser`
 
@@ -193,19 +151,10 @@ Administrative keys for demisto/auth-utils:1.0.0.8799626
 * Author: Christian Heimes christian@python.org
 * License :: OSI Approved :: Python Software Foundation License
 
-### `edgegrid-python`
-
-* Summary: {OPEN} client authentication protocol for python-requests
-* Version: 2.0.3
-* Pypi: https://pypi.org/project/edgegrid-python/
-* Homepage: https://github.com/akamai/AkamaiOPEN-edgegrid-python
-* Author: None
-* License :: Apache License 2.0
-
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.20.3
+* Version: 3.29.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -214,11 +163,11 @@ Administrative keys for demisto/auth-utils:1.0.0.8799626
 ### `frozenlist`
 
 * Summary: A list-like structure which implements collections.abc.MutableSequence
-* Version: 1.5.0
+* Version: 1.8.0
 * Pypi: https://pypi.org/project/frozenlist/
 * Homepage: https://github.com/aio-libs/frozenlist
 * Author: None
-* License: Apache 2
+* License: Apache-2.0
 
 ### `funcy`
 
@@ -229,22 +178,57 @@ Administrative keys for demisto/auth-utils:1.0.0.8799626
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
+### `gql`
+
+* Summary: GraphQL client for Python
+* Version: 4.0.0
+* Pypi: https://pypi.org/project/gql/
+* Homepage: https://github.com/graphql-python/gql
+* Author: Syrus Akbary me@syrusakbary.com
+* License: MIT
+
+### `graphql-core`
+
+* Summary: GraphQL implementation for Python, a port of GraphQL.js, the JavaScript reference implementation for GraphQL.
+* Version: 3.2.8
+* Pypi: https://pypi.org/project/graphql-core/
+* Homepage: https://github.com/graphql-python/graphql-core
+* Author: Christoph Zwerschke cito@online.de
+* License :: OSI Approved :: MIT License
+
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.13
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License: 
 
-### `ijson`
+### `Jinja2`
 
-* Summary: Iterative JSON parser with standard Python iterator interfaces
-* Version: 3.4.0.post0
-* Pypi: https://pypi.org/project/ijson/
+* Summary: A very fast and expressive template engine.
+* Version: 3.1.6
+* Pypi: https://pypi.org/project/Jinja2/
 * Homepage: None
-* Author: Rodrigo Tobar <rtobar@icrar.org>, Ivan Sagalaev <maniac@softwaremaniacs.org>
+* Author: None
+* License :: OSI Approved :: BSD License
+
+### `MarkupSafe`
+
+* Summary: Safely add untrusted strings to HTML/XML markup.
+* Version: 3.0.3
+* Pypi: https://pypi.org/project/MarkupSafe/
+* Homepage: None
+* Author: None
+
+### `marshmallow`
+
+* Summary: A lightweight library for converting complex datatypes to and from native Python datatypes.
+* Version: 3.26.2
+* Pypi: https://pypi.org/project/marshmallow/
+* Homepage: None
+* Author: Steven Loria <oss@stevenloria.com>
+* License: 
 
 ### `more-itertools`
 
@@ -254,32 +238,22 @@ Administrative keys for demisto/auth-utils:1.0.0.8799626
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
 
-### `msal`
-
-* Summary: The Microsoft Authentication Library (MSAL) for Python library enables your app to access the Microsoft Cloud by supporting authentication of users with Microsoft Azure Active Directory accounts (AAD) and Microsoft Accounts (MSA) using industry standard OAuth2 and OpenID Connect.
-* Version: 1.36.0
-* Pypi: https://pypi.org/project/msal/
-* Homepage: https://github.com/AzureAD/microsoft-authentication-library-for-python
-* Author: Microsoft Corporation nugetaad@microsoft.com
-* License :: OSI Approved :: MIT License
-
-### `msal-extensions`
-
-* Summary: Microsoft Authentication Library extensions (MSAL EX) provides a persistence API that can save your data on disk, encrypted on Windows, macOS and Linux. Concurrent data access will be coordinated by a file lock mechanism.
-* Version: 1.2.0
-* Pypi: https://pypi.org/project/msal-extensions/
-* Homepage: None
-* Author: None
-* License :: MIT License
-
 ### `multidict`
 
 * Summary: multidict implementation
-* Version: 6.1.0
+* Version: 6.7.1
 * Pypi: https://pypi.org/project/multidict/
 * Homepage: https://github.com/aio-libs/multidict
 * Author: Andrew Svetlov andrew.svetlov@gmail.com
-* License: Apache 2
+* License: Apache License 2.0
+
+### `mypy_extensions`
+
+* Summary: Type system extensions for programs checked with the mypy type checker.
+* Version: 1.1.0
+* Pypi: https://pypi.org/project/mypy-extensions/
+* Homepage: None
+* Author: The mypy developers <jukka.lehtosalo@iki.fi>
 
 ### `oauthlib`
 
@@ -302,19 +276,10 @@ Administrative keys for demisto/auth-utils:1.0.0.8799626
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.0
+* Version: 26.2
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
-
-### `pem`
-
-* Summary: PEM file parsing in Python.
-* Version: 23.1.0
-* Pypi: https://pypi.org/project/pem/
-* Homepage: 
-* Author: Hynek Schlawack <hs@ox.cx>
-* License :: OSI Approved :: MIT License
 
 ### `pip`
 
@@ -323,59 +288,16 @@ Administrative keys for demisto/auth-utils:1.0.0.8799626
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
-
-### `portalocker`
-
-* Summary: Wraps the portalocker recipe for easy usage
-* Version: 2.10.1
-* Pypi: https://pypi.org/project/portalocker/
-* Homepage: None
-* Author: Rick van Hattem <wolph@wol.ph>
-* License :: PSF license
+* License: MIT
 
 ### `propcache`
 
 * Summary: Accelerated property cache
-* Version: 0.2.1
+* Version: 0.4.1
 * Pypi: https://pypi.org/project/propcache/
 * Homepage: https://github.com/aio-libs/propcache
 * Author: Andrew Svetlov andrew.svetlov@gmail.com
 * License :: OSI Approved :: Apache Software License
-
-### `pycparser`
-
-* Summary: C parser in Python
-* Version: 2.22
-* Pypi: https://pypi.org/project/pycparser/
-* Homepage: None
-* Author: Eli Bendersky <eliben@gmail.com>
-* License: BSD-3-Clause
-
-### `pycryptodomex`
-
-* Summary: Cryptographic library for Python
-* Version: 3.23.0
-* Pypi: https://pypi.org/project/pycryptodomex/
-* Homepage: https://www.pycryptodome.org
-* Author: Helder Eijs helderijs@gmail.com
-* License :: OSI Approved :: BSD License
-* License :: Public Domain
-
-### `pydantic`
-
-* Summary: Data validation using Python type hints
-* Version: 2.13.4
-* Pypi: https://pypi.org/project/pydantic/
-* Homepage: None
-* Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.dev>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
-
-### `pydantic_core`
-
-* Summary: Core functionality for Pydantic validation and serialization
-* Version: 2.46.4
-* Pypi: https://pypi.org/project/pydantic_core/
-* Homepage: https://github.com/pydantic/pydantic
-* Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
 
 ### `PyJWT`
 
@@ -385,24 +307,6 @@ Administrative keys for demisto/auth-utils:1.0.0.8799626
 * Homepage: None
 * Author: Jose Padilla <hello@jpadilla.com>
 
-### `pykerberos`
-
-* Summary: High-level interface to Kerberos
-* Version: 1.2.4
-* Pypi: https://pypi.org/project/pykerberos/
-* Homepage: https://github.com/02strich/pykerberos
-* Author: 
-* License :: OSI Approved :: Apache Software License
-
-### `pyOpenSSL`
-
-* Summary: Python wrapper module around the OpenSSL library
-* Version: 26.0.0
-* Pypi: https://pypi.org/project/pyOpenSSL/
-* Homepage: https://pyopenssl.org/
-* Author: The pyOpenSSL developers cryptography-dev@python.org
-* License :: OSI Approved :: Apache Software License
-
 ### `PySocks`
 
 * Summary: A Python SOCKS client module. See https://github.com/Anorov/PySocks for more information.
@@ -411,15 +315,6 @@ Administrative keys for demisto/auth-utils:1.0.0.8799626
 * Homepage: https://github.com/Anorov/PySocks
 * Author: Anorov anorov.vorona@gmail.com
 * License: BSD
-
-### `pyspnego`
-
-* Summary: Windows Negotiate Authentication Client and Server
-* Version: 0.11.2
-* Pypi: https://pypi.org/project/pyspnego/
-* Homepage: None
-* Author: Jordan Borean <jborean93@gmail.com>
-* License: MIT License
 
 ### `python-dateutil`
 
@@ -440,15 +335,6 @@ Administrative keys for demisto/auth-utils:1.0.0.8799626
 * Author: Stuart Bishop stuart@stuartbishop.net
 * License :: OSI Approved :: MIT License
 
-### `pywinrm`
-
-* Summary: Python library for Windows Remote Management
-* Version: 0.5.0
-* Pypi: https://pypi.org/project/pywinrm/
-* Homepage: None
-* Author: Alexey Diyan <alexey.diyan@gmail.com>
-* License :: OSI Approved :: MIT License
-
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
@@ -456,15 +342,6 @@ Administrative keys for demisto/auth-utils:1.0.0.8799626
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net
-* License :: OSI Approved :: MIT License
-
-### `pyzipper`
-
-* Summary: AES encryption for zipfile.
-* Version: 0.3.6
-* Pypi: https://pypi.org/project/pyzipper/
-* Homepage: https://github.com/danifus/pyzipper
-* Author: Daniel Hillier daniel.hillier@gmail.com
 * License :: OSI Approved :: MIT License
 
 ### `regex`
@@ -478,7 +355,7 @@ Administrative keys for demisto/auth-utils:1.0.0.8799626
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.4
+* Version: 2.33.1
 * Pypi: https://pypi.org/project/requests/
 * Homepage: None
 * Author: Kenneth Reitz <me@kennethreitz.org>
@@ -492,15 +369,6 @@ Administrative keys for demisto/auth-utils:1.0.0.8799626
 * Homepage: None
 * Author: David Shea <reallylongword@gmail.com>
 * License :: OSI Approved :: Apache Software License
-
-### `requests_ntlm`
-
-* Summary: This package allows for HTTP NTLM authentication using the requests library.
-* Version: 1.3.0
-* Pypi: https://pypi.org/project/requests-ntlm/
-* Homepage: https://github.com/requests/requests-ntlm
-* Author: Ben Toews mastahyeti@gmail.com
-* License :: OSI Approved :: ISC License (ISCL)
 
 ### `requests-oauthlib`
 
@@ -537,14 +405,14 @@ Administrative keys for demisto/auth-utils:1.0.0.8799626
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
-### `soupsieve`
+### `taegis-sdk-python`
 
-* Summary: A modern CSS selector implementation for Beautiful Soup.
-* Version: 2.8.3
-* Pypi: https://pypi.org/project/soupsieve/
+* Summary: Taegis Python SDK
+* Version: 1.6.14
+* Pypi: https://pypi.org/project/taegis-sdk-python/
 * Homepage: None
-* Author: Isaac Muse <Isaac.Muse@gmail.com>
-* License :: OSI Approved :: MIT License
+* Author: Micah Pegman <sdks@secureworks.com>
+* License :: OSI Approved :: Apache Software License
 
 ### `tldextract`
 
@@ -562,13 +430,14 @@ Administrative keys for demisto/auth-utils:1.0.0.8799626
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 
-### `typing-inspection`
+### `typing-inspect`
 
-* Summary: Runtime typing introspection tools
-* Version: 0.4.2
-* Pypi: https://pypi.org/project/typing-inspection/
-* Homepage: None
-* Author: Victorien Plot <contact@vctrn.dev>
+* Summary: Runtime inspection utilities for typing module.
+* Version: 0.9.0
+* Pypi: https://pypi.org/project/typing-inspect/
+* Homepage: https://github.com/ilevkivskyi/typing_inspect
+* Author: Ivan Levkivskyi levkivskyi@gmail.com
+* License :: OSI Approved :: MIT License
 
 ### `tzlocal`
 
@@ -587,6 +456,14 @@ Administrative keys for demisto/auth-utils:1.0.0.8799626
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 
+### `websockets`
+
+* Summary: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
+* Version: 16.0
+* Pypi: https://pypi.org/project/websockets/
+* Homepage: None
+* Author: Aymeric Augustin <aymeric.augustin@m4x.org>
+
 ### `wheel`
 
 * Summary: Command line tool for manipulating wheel files
@@ -595,19 +472,10 @@ Administrative keys for demisto/auth-utils:1.0.0.8799626
 * Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
 
-### `xmltodict`
-
-* Summary: Makes working with XML feel like you are working with JSON
-* Version: 0.14.2
-* Pypi: https://pypi.org/project/xmltodict/
-* Homepage: None
-* Author: Martin Blech
-* License: MIT
-
 ### `yarl`
 
 * Summary: Yet another URL library
-* Version: 1.18.3
+* Version: 1.23.0
 * Pypi: https://pypi.org/project/yarl/
 * Homepage: https://github.com/aio-libs/yarl
 * Author: Andrew Svetlov andrew.svetlov@gmail.com
@@ -625,10 +493,8 @@ Administrative keys for demisto/auth-utils:1.0.0.8799626
 * busybox-binsh-1.37.0-r30 x86_64 {busybox}
 * ca-certificates-20251003-r0 x86_64 {ca-certificates}
 * ca-certificates-bundle-20251003-r0 x86_64 {ca-certificates}
-* e2fsprogs-libs-1.47.3-r0 x86_64 {e2fsprogs}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
-* krb5-1.22.1-r0 x86_64 {krb5}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.1-r0 x86_64 {krb5}
 * libapk-3.0.5-r0 x86_64 {apk-tools}
@@ -648,9 +514,6 @@ Administrative keys for demisto/auth-utils:1.0.0.8799626
 * musl-1.2.5-r23 x86_64 {musl}
 * musl-utils-1.2.5-r22 x86_64 {musl}
 * ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
-* openssl-3.5.6-r0 x86_64 {openssl}
-* openssl-dev-3.5.6-r0 x86_64 {openssl}
-* pkgconf-2.5.1-r0 x86_64 {pkgconf}
 * readline-8.3.1-r0 x86_64 {readline}
 * scanelf-1.3.8-r2 x86_64 {pax-utils}
 * sqlite-libs-3.51.2-r0 x86_64 {sqlite}

@@ -275,6 +275,7 @@ docker_images_metadata.json example:
 * [demisto/symantec_mss](demisto/symantec_mss/last.md)
 * [demisto/syslog](demisto/syslog/last.md)
 * [demisto/tableau](demisto/tableau/last.md)
+* [demisto/taegis-sdk-python](demisto/taegis-sdk-python/last.md)
 * [demisto/taxii](demisto/taxii/last.md)
 * [demisto/taxii-server](demisto/taxii-server/last.md)
 * [demisto/taxii2](demisto/taxii2/last.md)
@@ -317,4 +318,4 @@ docker_images_metadata.json example:
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2026-05-06 06:16:23.840522
+Last updated: 2026-05-07 06:13:26.932296
