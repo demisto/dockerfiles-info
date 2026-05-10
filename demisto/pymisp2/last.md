@@ -1,9 +1,9 @@
-# `demisto/pymisp2:2.5.34.1.8544956`
+# `demisto/pymisp2:2.5.34.1.8856325`
 
 ## Docker Metadata
-- Image Size: 47.16 MB
-- Image ID: `sha256:2f1be11c74d315171990b430200f0e14bd2d849c1ed8cd41253a501d58e1326c`
-- Created: `2026-04-28T17:43:53.956966907Z`
+- Image Size: 47.46 MB
+- Image ID: `sha256:63ead5d2798b595c964408910322f24fc74944ea8177d7ca1046a0bda9caf8ea`
+- Created: `2026-05-09T23:49:47.539008339Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/pymisp2:2.5.34.1.8544956`
+  - `DOCKER_IMAGE=demisto/pymisp2:2.5.34.1.8856325`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:7b8110c53aa0dc242970d1c2c250865b29538739`
-  - `org.opencontainers.image.version:2.5.34.1.8544956`
+  - `org.opencontainers.image.revision:8a71415bed417b69858215eedcf2867a915bca59`
+  - `org.opencontainers.image.version:2.5.34.1.8856325`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pymisp2:2.5.34.1.8544956
+Signatures for demisto/pymisp2:2.5.34.1.8856325
 
 SIGNED TAG         DIGEST                                                             SIGNERS
-2.5.34.1.8544956   1b799130906bc86d4cf57b8df1d5b04eaa463d8a6f109e2d3fb0c58fe6f130d8   (Repo Admin)
+2.5.34.1.8856325   3fd66dca7d044b97e9308a24eea313105afa442e2c9f428167a12c008ecefb1c   (Repo Admin)
 
-Administrative keys for demisto/pymisp2:2.5.34.1.8544956
+Administrative keys for demisto/pymisp2:2.5.34.1.8856325
 
   Repository Key:	09ebfde17c018d76be98417c3488d04725c1df92e6ce8f476cc60d3c4c25a1c0
   Root Key:	666b28cbde1c31c51d6bdfbbffa40a304c13a07abd31eac34b7442ce7df9eca4
@@ -241,7 +241,7 @@ Administrative keys for demisto/pymisp2:2.5.34.1.8544956
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1
+* Version: 26.1.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -399,7 +399,7 @@ Administrative keys for demisto/pymisp2:2.5.34.1.8544956
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.6.3
+* Version: 2.7.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
