@@ -1,9 +1,9 @@
-# `demisto/sane-pdf-reports:1.0.0.8356897`
+# `demisto/sane-pdf-reports:1.0.0.8864201`
 
 ## Docker Metadata
-- Image Size: 971.14 MB
-- Image ID: `sha256:7b4d1699febbd0d30e5d2c79ab562008f380b95b9010c10979dd190491b41d9b`
-- Created: `2026-04-19T15:44:57.197779192Z`
+- Image Size: 936.11 MB
+- Image ID: `sha256:a56b0c630319dfb76387425e54b38a3bf20553186a52deb26199186cc9530154`
+- Created: `2026-05-10T08:53:05.624396207Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/sane-pdf-reports:1.0.0.8356897`
+  - `DOCKER_IMAGE=demisto/sane-pdf-reports:1.0.0.8864201`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:0d456737125b6517724f0d6a9116dcdb20a8161f`
-  - `org.opencontainers.image.version:1.0.0.8356897`
+  - `org.opencontainers.image.revision:f61d464165ad9b680380457f05f7165005afe064`
+  - `org.opencontainers.image.version:1.0.0.8864201`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sane-pdf-reports:1.0.0.8356897
+Signatures for demisto/sane-pdf-reports:1.0.0.8864201
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8356897   4f4d237853696cdb354531191914fd79419d06c8802611b6c8bab87dd83ca1cf   (Repo Admin)
+1.0.0.8864201   d0275edca7ad79d4e8a9b87648bc7a21e7a3cb9486a6d2a46165b91292cf63b5   (Repo Admin)
 
-Administrative keys for demisto/sane-pdf-reports:1.0.0.8356897
+Administrative keys for demisto/sane-pdf-reports:1.0.0.8864201
 
   Repository Key:	a49126a1ef2d8b2a122417046a0568ce3d14ed56e32e723f3cb956a369091e4b
   Root Key:	3c9d875c8980465612892e36819738cac8450f51c69e5dbdbf71867f33cd59eb
@@ -129,7 +129,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.8356897
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.0.1
+* Version: 26.1.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -395,7 +395,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.8356897
 * libkeyutils1:amd64	1.6.1-2
 * libkrb5-3:amd64	1.18.3-6+deb11u7
 * libkrb5support0:amd64	1.18.3-6+deb11u7
-* liblcms2-2:amd64	2.12~rc1-2
+* liblcms2-2:amd64	2.12~rc1-2+deb11u1
 * libldap-2.4-2:amd64	2.4.57+dfsg-3+deb11u1
 * libldap-common	2.4.57+dfsg-3+deb11u1
 * libllvm11:amd64	1:11.0.1-2
@@ -427,7 +427,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.8356897
 * libpcre3:amd64	2:8.39-13
 * libperl5.32:amd64	5.32.1-4+deb11u5
 * libpixman-1-0:amd64	0.40.0-1.1~deb11u1
-* libpng16-16:amd64	1.6.37-3+deb11u3
+* libpng16-16:amd64	1.6.37-3+deb11u4
 * libprocps8:amd64	2:3.3.17-5
 * libproxy1v5:amd64	0.4.17-1
 * libpsl5:amd64	0.21.0-1.2
@@ -544,7 +544,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.8356897
 * sysvinit-utils	2.96-7+deb11u1
 * tar	1.34+dfsg-1+deb11u1
 * termit	3.1-1
-* tzdata	2025b-0+deb11u2
+* tzdata	2026b-0+deb11u1
 * ucf	3.0043+deb11u2
 * util-linux	2.36.1-8+deb11u2
 * wget	1.21-1+deb11u2
