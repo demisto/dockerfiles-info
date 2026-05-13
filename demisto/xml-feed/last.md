@@ -1,9 +1,9 @@
-# `demisto/xml-feed:1.0.0.8240011`
+# `demisto/xml-feed:1.0.0.8969573`
 
 ## Docker Metadata
-- Image Size: 45.37 MB
-- Image ID: `sha256:1e5c9ebd98d402ae0c04935c072d026d139c6704c82282aea63f461655912c29`
-- Created: `2026-04-14T10:19:28.892191182Z`
+- Image Size: 42.09 MB
+- Image ID: `sha256:9f7b012f95a77bc2798a3c1cc647a2aaf7920aabba296d4eb54b484786acead5`
+- Created: `2026-05-13T05:52:52.338342357Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/xml-feed:1.0.0.8240011`
+  - `DOCKER_IMAGE=demisto/xml-feed:1.0.0.8969573`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:e51ab96f84104c923e42254435dfc8e7c62e4a5b`
-  - `org.opencontainers.image.version:1.0.0.8240011`
+  - `org.opencontainers.image.revision:b18087dc4a6ce3516583af3315b5c5292fa02c96`
+  - `org.opencontainers.image.version:1.0.0.8969573`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.23.3`
+  - `VERSION_ID=3.23.4`
   - `PRETTY_NAME="Alpine Linux v3.23"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/xml-feed:1.0.0.8240011
+Signatures for demisto/xml-feed:1.0.0.8969573
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8240011   55460a1dd2dfbe5cb5991645c0b5b12fd6234953f7d8a779b5fc34e9a61840f6   (Repo Admin)
+1.0.0.8969573   f84043dbb2570f61a7b240126e35acf6ef7e18c23fde1f9100d271fddf379228   (Repo Admin)
 
-Administrative keys for demisto/xml-feed:1.0.0.8240011
+Administrative keys for demisto/xml-feed:1.0.0.8969573
 
   Repository Key:	d7a3851a8dedb4115adcc29e389c8f4d8da1d1f3e14194f9b8b72d361f790180
   Root Key:	56e0e4f8c06deea10a7afdef3d7792c83adefa42dd2b4621a72875f1e39241ab
@@ -65,7 +65,7 @@ Administrative keys for demisto/xml-feed:1.0.0.8240011
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.2.25
+* Version: 2026.4.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -91,7 +91,7 @@ Administrative keys for demisto/xml-feed:1.0.0.8240011
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 46.0.7
+* Version: 48.0.0
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -144,7 +144,7 @@ Administrative keys for demisto/xml-feed:1.0.0.8240011
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.11
+* Version: 3.14
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -178,7 +178,7 @@ Administrative keys for demisto/xml-feed:1.0.0.8240011
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.0
+* Version: 26.1
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -186,7 +186,7 @@ Administrative keys for demisto/xml-feed:1.0.0.8240011
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.0.1
+* Version: 26.1.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -220,7 +220,7 @@ Administrative keys for demisto/xml-feed:1.0.0.8240011
 ### `pyOpenSSL`
 
 * Summary: Python wrapper module around the OpenSSL library
-* Version: 26.0.0
+* Version: 26.2.0
 * Pypi: https://pypi.org/project/pyOpenSSL/
 * Homepage: https://pyopenssl.org/
 * Author: The pyOpenSSL developers cryptography-dev@python.org
@@ -283,7 +283,7 @@ Administrative keys for demisto/xml-feed:1.0.0.8240011
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.33.1
+* Version: 2.34.0
 * Pypi: https://pypi.org/project/requests/
 * Homepage: None
 * Author: Kenneth Reitz <me@kennethreitz.org>
@@ -352,7 +352,7 @@ Administrative keys for demisto/xml-feed:1.0.0.8240011
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.6.3
+* Version: 2.7.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -360,7 +360,7 @@ Administrative keys for demisto/xml-feed:1.0.0.8240011
 ### `wheel`
 
 * Summary: Command line tool for manipulating wheel files
-* Version: 0.46.3
+* Version: 0.47.0
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
@@ -375,21 +375,21 @@ Administrative keys for demisto/xml-feed:1.0.0.8240011
 
 ## `OS Packages`
 
-* .python-rundeps-20260303.201742 noarch {.python-rundeps}
+* .python-rundeps-20260415.205216 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r0 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.23.3-r0 x86_64 {alpine-base}
-* apk-tools-3.0.5-r0 x86_64 {apk-tools}
+* alpine-release-3.23.4-r0 x86_64 {alpine-base}
+* apk-tools-3.0.6-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r30 x86_64 {busybox}
 * busybox-binsh-1.37.0-r30 x86_64 {busybox}
-* ca-certificates-20251003-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20251003-r0 x86_64 {ca-certificates}
+* ca-certificates-20260413-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20260413-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.1-r0 x86_64 {krb5}
-* libapk-3.0.5-r0 x86_64 {apk-tools}
+* libapk-3.0.6-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.6-r0 x86_64 {openssl}
@@ -404,12 +404,12 @@ Administrative keys for demisto/xml-feed:1.0.0.8240011
 * libuuid-2.41.4-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
 * musl-1.2.5-r23 x86_64 {musl}
-* musl-utils-1.2.5-r22 x86_64 {musl}
+* musl-utils-1.2.5-r23 x86_64 {musl}
 * ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
 * readline-8.3.1-r0 x86_64 {readline}
 * scanelf-1.3.8-r2 x86_64 {pax-utils}
 * sqlite-libs-3.51.2-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r30 x86_64 {busybox}
-* tzdata-2026a-r0 x86_64 {tzdata}
-* xz-libs-5.8.2-r0 x86_64 {xz}
+* tzdata-2026b-r0 x86_64 {tzdata}
+* xz-libs-5.8.3-r0 x86_64 {xz}
 * zlib-1.3.2-r0 x86_64 {zlib}
