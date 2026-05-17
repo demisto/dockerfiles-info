@@ -1,9 +1,9 @@
-# `demisto/mlclustering:1.0.0.8992440`
+# `demisto/mlclustering:1.0.0.9062583`
 
 ## Docker Metadata
-- Image Size: 172.39 MB
-- Image ID: `sha256:277cdc194e344412f5bafe1f2da5223c4fe2e4bf0043678c86eac8827a2c3f5f`
-- Created: `2026-05-13T17:31:59.263512528Z`
+- Image Size: 183.18 MB
+- Image ID: `sha256:7159238d424dd0db989310b4c3d96cad3c6fa8100af027ebab3e3173b0c249de`
+- Created: `2026-05-17T05:33:28.465070626Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/mlclustering:1.0.0.8992440`
+  - `DOCKER_IMAGE=demisto/mlclustering:1.0.0.9062583`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:ae0915e06c30b8157a536e9c61021422a82bf953`
-  - `org.opencontainers.image.version:1.0.0.8992440`
+  - `org.opencontainers.image.revision:2e94824e92daa86b1c09dae17c882912752eed1a`
+  - `org.opencontainers.image.version:1.0.0.9062583`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/mlclustering:1.0.0.8992440
+Signatures for demisto/mlclustering:1.0.0.9062583
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8992440   de7111af43aafdf6c838aae27098aede434da7c05466bd2ae6f4caf00ed10c1f   (Repo Admin)
+1.0.0.9062583   5b46c2913720b330a1a25c3f27ebdfd96b73b75f2c44c64748d96963bb796cdf   (Repo Admin)
 
-Administrative keys for demisto/mlclustering:1.0.0.8992440
+Administrative keys for demisto/mlclustering:1.0.0.9062583
 
   Repository Key:	d8855dc0db9e2ead8c2f610d59993d791267c23029f0e34d7599fdc315359432
   Root Key:	e037f02a27ce45de827cee6fb6e79e9a04241487236ec6abf050019f6a7e7f13
@@ -122,7 +122,7 @@ Administrative keys for demisto/mlclustering:1.0.0.8992440
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.14
+* Version: 3.15
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -146,7 +146,7 @@ Administrative keys for demisto/mlclustering:1.0.0.8992440
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.4.4
+* Version: 2.4.5
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.
@@ -234,7 +234,7 @@ Administrative keys for demisto/mlclustering:1.0.0.8992440
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.34.0
+* Version: 2.34.2
 * Pypi: https://pypi.org/project/requests/
 * Homepage: None
 * Author: Kenneth Reitz <me@kennethreitz.org>
@@ -329,9 +329,9 @@ Administrative keys for demisto/mlclustering:1.0.0.8992440
 
 * adduser	3.134
 * apt	2.6.1
-* base-files	12.4+deb12u13
+* base-files	12.4+deb12u14
 * base-passwd	3.6.1
-* bash	5.2.15-2+b10
+* bash	5.2.15-2+b13
 * bsdutils	1:2.38.1-5+deb12u3
 * ca-certificates	20230311+deb12u1
 * coreutils	9.1-1
@@ -340,7 +340,7 @@ Administrative keys for demisto/mlclustering:1.0.0.8992440
 * debian-archive-keyring	2023.3+deb12u2
 * debianutils	5.7-0.5~deb12u1
 * diffutils	1:3.8-4
-* dpkg	1.21.22
+* dpkg	1.21.23
 * e2fsprogs	1.47.2-3~bpo12+1
 * findutils	4.9.0-4
 * gcc-12-base:amd64	12.2.0-14+deb12u1
@@ -356,10 +356,10 @@ Administrative keys for demisto/mlclustering:1.0.0.8992440
 * libaudit1:amd64	1:3.0.9-1
 * libblkid1:amd64	2.38.1-5+deb12u3
 * libbz2-1.0:amd64	1.0.8-5+b1
-* libc-bin	2.36-9+deb12u13
-* libc6:amd64	2.36-9+deb12u13
+* libc-bin	2.36-9+deb12u14
+* libc6:amd64	2.36-9+deb12u14
 * libcap-ng0:amd64	0.8.3-1+b3
-* libcap2:amd64	1:2.66-4+deb12u2+b2
+* libcap2:amd64	1:2.66-4+deb12u3+b1
 * libcom-err2:amd64	1.47.2-3~bpo12+1
 * libcrypt1:amd64	1:4.4.33-2
 * libdb5.3:amd64	5.3.28+dfsg2-1
@@ -402,7 +402,7 @@ Administrative keys for demisto/mlclustering:1.0.0.8992440
 * libsmartcols1:amd64	2.38.1-5+deb12u3
 * libsqlite3-0:amd64	3.40.1-2+deb12u2
 * libss2:amd64	1.47.2-3~bpo12+1
-* libssl3:amd64	3.0.19-1~deb12u2
+* libssl3:amd64	3.0.20-1~deb12u1
 * libstdc++6:amd64	12.2.0-14+deb12u1
 * libsystemd0:amd64	254.26-1~bpo12+1
 * libtasn1-6:amd64	4.19.0-2+deb12u1
@@ -421,15 +421,15 @@ Administrative keys for demisto/mlclustering:1.0.0.8992440
 * ncurses-base	6.4-4
 * ncurses-bin	6.4-4
 * netbase	6.4
-* openssl	3.0.19-1~deb12u2
+* openssl	3.0.20-1~deb12u1
 * passwd	1:4.13+dfsg1-1+deb12u2
 * perl-base	5.36.0-7+deb12u3
 * procps	2:4.0.2-3
 * readline-common	8.2-1.3
-* sed	4.9-1
+* sed	4.9-1+deb12u1
 * sysvinit-utils	3.08-3~bpo12+2
 * tar	1.34+dfsg-1.2+deb12u1
-* tzdata	2025b-0+deb12u2
+* tzdata	2026b-0+deb12u1
 * usr-is-merged	37~deb12u1
 * util-linux	2.38.1-5+deb12u3
 * util-linux-extra	2.38.1-5+deb12u3

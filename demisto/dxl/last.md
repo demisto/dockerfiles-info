@@ -1,9 +1,9 @@
-# `demisto/dxl:1.0.0.8927230`
+# `demisto/dxl:1.0.0.9059085`
 
 ## Docker Metadata
 - Image Size: 35.98 MB
-- Image ID: `sha256:6953313c08c5c77e75409c6a3570ddbbafc02a5541db2cbf995047f6adaeea5a`
-- Created: `2026-05-11T23:31:40.590726433Z`
+- Image ID: `sha256:68c391ac5e69064a4c43e93bdc809f8062321dae71c8f49bdcff798183956dab`
+- Created: `2026-05-16T23:49:12.351959353Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/dxl:1.0.0.8927230`
+  - `DOCKER_IMAGE=demisto/dxl:1.0.0.9059085`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:6d1c8689ab3c46e8facb62da5e608472f4470683`
-  - `org.opencontainers.image.version:1.0.0.8927230`
+  - `org.opencontainers.image.revision:71e82694117520902dd8affb536dd007b7b35286`
+  - `org.opencontainers.image.version:1.0.0.9059085`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/dxl:1.0.0.8927230
+Signatures for demisto/dxl:1.0.0.9059085
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8927230   1e3618b335977c6d9b0ce19a0114c71ec8f8c71d06f964289c82934ce40c6841   (Repo Admin)
+1.0.0.9059085   573ef298951782e19873b251058657b5699eff33c5bc6a4415ab01065705ad2b   (Repo Admin)
 
-Administrative keys for demisto/dxl:1.0.0.8927230
+Administrative keys for demisto/dxl:1.0.0.9059085
 
   Repository Key:	63a4ff99780318ae8a16abf65cc2a7c94b68f679d0431e2b63a249887c19c629
   Root Key:	5ad3d6ba2b55f3b32263beecfdb5a93b7e66df11d6f1ef19b655f7a5a668fc97
@@ -164,7 +164,7 @@ Administrative keys for demisto/dxl:1.0.0.8927230
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.14
+* Version: 3.15
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -260,7 +260,7 @@ Administrative keys for demisto/dxl:1.0.0.8927230
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.34.0
+* Version: 2.34.2
 * Pypi: https://pypi.org/project/requests/
 * Homepage: None
 * Author: Kenneth Reitz <me@kennethreitz.org>
