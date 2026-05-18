@@ -1,22 +1,22 @@
-# `demisto/ntlm:1.0.0.8924769`
+# `demisto/ntlm:1.0.0.9067966`
 
 ## Docker Metadata
-- Image Size: 61.85 MB
-- Image ID: `sha256:2fde6f1dd7d14b196c8664739e9db977ae984e6922268183cf6f2bd71285ffd6`
-- Created: `2026-05-11T20:42:41.860799628Z`
+- Image Size: 72.77 MB
+- Image ID: `sha256:4a379ac6e80bae75e22ca0a935ea8a6f8b46af2dc4761a7ffb3aca1648547c2d`
+- Created: `2026-05-17T08:56:31.60810633Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.12`
-  - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/ntlm:1.0.0.8924769`
+  - `PYTHON_VERSION=3.12.13`
+  - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
+  - `DOCKER_IMAGE=demisto/ntlm:1.0.0.9067966`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:8ad533157cb00cfafa062d70a7973371896e503a`
-  - `org.opencontainers.image.version:1.0.0.8924769`
+  - `org.opencontainers.image.revision:a7984ffbd110e24a54603aad658c153c518ce970`
+  - `org.opencontainers.image.version:1.0.0.9067966`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/ntlm:1.0.0.8924769
+Signatures for demisto/ntlm:1.0.0.9067966
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8924769   ac9064999506ecf2b54954470ebdc88bfb3acd2b6181bcedd2311928e6b5395f   (Repo Admin)
+1.0.0.9067966   7d7f4313f081d9f58088edbc84f720d886895ab499cfc6db3b589c2c15c9f37f   (Repo Admin)
 
-Administrative keys for demisto/ntlm:1.0.0.8924769
+Administrative keys for demisto/ntlm:1.0.0.9067966
 
   Repository Key:	b98d2d7f00554f997a829c20eefc94d106e6ab907b55531868f1bac2dbff5598
   Root Key:	abe1f46dd0ad7e68a070d55d4bb9f66c9d87105e87ab545ccdec48375854ff2b
@@ -50,7 +50,7 @@ Administrative keys for demisto/ntlm:1.0.0.8924769
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.1.4
+* Version: 2026.4.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -67,7 +67,7 @@ Administrative keys for demisto/ntlm:1.0.0.8924769
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.4
+* Version: 3.4.7
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -76,7 +76,7 @@ Administrative keys for demisto/ntlm:1.0.0.8924769
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 46.0.7
+* Version: 48.0.0
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -84,7 +84,7 @@ Administrative keys for demisto/ntlm:1.0.0.8924769
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.3.0
+* Version: 1.4.0
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub opensource@zyte.com
@@ -102,7 +102,7 @@ Administrative keys for demisto/ntlm:1.0.0.8924769
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.20.3
+* Version: 3.25.2
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -120,7 +120,7 @@ Administrative keys for demisto/ntlm:1.0.0.8924769
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.11
+* Version: 3.15
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -128,7 +128,7 @@ Administrative keys for demisto/ntlm:1.0.0.8924769
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.8.0
+* Version: 11.0.2
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -154,7 +154,7 @@ Administrative keys for demisto/ntlm:1.0.0.8924769
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.0
+* Version: 26.1
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -198,7 +198,7 @@ Administrative keys for demisto/ntlm:1.0.0.8924769
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2025.2
+* Version: 2026.1.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -216,7 +216,7 @@ Administrative keys for demisto/ntlm:1.0.0.8924769
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.1.15
+* Version: 2026.4.4
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -224,7 +224,7 @@ Administrative keys for demisto/ntlm:1.0.0.8924769
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.5
+* Version: 2.34.2
 * Pypi: https://pypi.org/project/requests/
 * Homepage: None
 * Author: Kenneth Reitz <me@kennethreitz.org>
@@ -251,7 +251,7 @@ Administrative keys for demisto/ntlm:1.0.0.8924769
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 82.0.0
+* Version: 82.0.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -293,7 +293,7 @@ Administrative keys for demisto/ntlm:1.0.0.8924769
 ### `wheel`
 
 * Summary: Command line tool for manipulating wheel files
-* Version: 0.46.3
+* Version: 0.47.0
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
@@ -302,9 +302,9 @@ Administrative keys for demisto/ntlm:1.0.0.8924769
 
 * adduser	3.134
 * apt	2.6.1
-* base-files	12.4+deb12u13
+* base-files	12.4+deb12u14
 * base-passwd	3.6.1
-* bash	5.2.15-2+b10
+* bash	5.2.15-2+b13
 * bsdutils	1:2.38.1-5+deb12u3
 * ca-certificates	20230311+deb12u1
 * coreutils	9.1-1
@@ -313,7 +313,7 @@ Administrative keys for demisto/ntlm:1.0.0.8924769
 * debian-archive-keyring	2023.3+deb12u2
 * debianutils	5.7-0.5~deb12u1
 * diffutils	1:3.8-4
-* dpkg	1.21.22
+* dpkg	1.21.23
 * e2fsprogs	1.47.2-3~bpo12+1
 * findutils	4.9.0-4
 * gcc-12-base:amd64	12.2.0-14+deb12u1
@@ -329,10 +329,10 @@ Administrative keys for demisto/ntlm:1.0.0.8924769
 * libaudit1:amd64	1:3.0.9-1
 * libblkid1:amd64	2.38.1-5+deb12u3
 * libbz2-1.0:amd64	1.0.8-5+b1
-* libc-bin	2.36-9+deb12u13
-* libc6:amd64	2.36-9+deb12u13
+* libc-bin	2.36-9+deb12u14
+* libc6:amd64	2.36-9+deb12u14
 * libcap-ng0:amd64	0.8.3-1+b3
-* libcap2:amd64	1:2.66-4+deb12u2+b2
+* libcap2:amd64	1:2.66-4+deb12u3+b1
 * libcom-err2:amd64	1.47.2-3~bpo12+1
 * libcrypt1:amd64	1:4.4.33-2
 * libdb5.3:amd64	5.3.28+dfsg2-1
@@ -343,7 +343,7 @@ Administrative keys for demisto/ntlm:1.0.0.8924769
 * libgcrypt20:amd64	1.10.1-3
 * libgdbm6:amd64	1.23-3
 * libgmp10:amd64	2:6.2.1+dfsg1-1.1
-* libgnutls30:amd64	3.7.9-2+deb12u5
+* libgnutls30:amd64	3.7.9-2+deb12u6
 * libgpg-error0:amd64	1.46-1
 * libgssapi-krb5-2:amd64	1.20.1-2+deb12u4
 * libhogweed6:amd64	3.8.1-2
@@ -375,7 +375,7 @@ Administrative keys for demisto/ntlm:1.0.0.8924769
 * libsmartcols1:amd64	2.38.1-5+deb12u3
 * libsqlite3-0:amd64	3.40.1-2+deb12u2
 * libss2:amd64	1.47.2-3~bpo12+1
-* libssl3:amd64	3.0.18-1~deb12u2
+* libssl3:amd64	3.0.20-1~deb12u1
 * libstdc++6:amd64	12.2.0-14+deb12u1
 * libsystemd0:amd64	254.26-1~bpo12+1
 * libtasn1-6:amd64	4.19.0-2+deb12u1
@@ -394,15 +394,15 @@ Administrative keys for demisto/ntlm:1.0.0.8924769
 * ncurses-base	6.4-4
 * ncurses-bin	6.4-4
 * netbase	6.4
-* openssl	3.0.18-1~deb12u2
+* openssl	3.0.20-1~deb12u1
 * passwd	1:4.13+dfsg1-1+deb12u2
 * perl-base	5.36.0-7+deb12u3
 * procps	2:4.0.2-3
 * readline-common	8.2-1.3
-* sed	4.9-1
+* sed	4.9-1+deb12u1
 * sysvinit-utils	3.08-3~bpo12+2
 * tar	1.34+dfsg-1.2+deb12u1
-* tzdata	2025b-0+deb12u2
+* tzdata	2026b-0+deb12u1
 * usr-is-merged	37~deb12u1
 * util-linux	2.38.1-5+deb12u3
 * util-linux-extra	2.38.1-5+deb12u3

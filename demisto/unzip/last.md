@@ -1,9 +1,9 @@
-# `demisto/unzip:1.0.0.8943333`
+# `demisto/unzip:1.0.0.9067966`
 
 ## Docker Metadata
-- Image Size: 59.79 MB
-- Image ID: `sha256:18987ee18c8861fb059f02130ff29b2d70c7efbde6f8fd0b6cc272127a135e67`
-- Created: `2026-05-12T11:45:03.475839784Z`
+- Image Size: 71.14 MB
+- Image ID: `sha256:6fca856aeea016d0547639a732f105d9a6a416ecf4dff819e78e827ee980bc7a`
+- Created: `2026-05-17T09:48:06.334882462Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/unzip:1.0.0.8943333`
+  - `DOCKER_IMAGE=demisto/unzip:1.0.0.9067966`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:75a8037595af773369547f4a385de152da916d17`
-  - `org.opencontainers.image.version:1.0.0.8943333`
+  - `org.opencontainers.image.revision:a7984ffbd110e24a54603aad658c153c518ce970`
+  - `org.opencontainers.image.version:1.0.0.9067966`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/unzip:1.0.0.8943333
+Signatures for demisto/unzip:1.0.0.9067966
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8943333   3b4578d9f6163732f7defe653266d89a5b623c77340576974b50f4eb6a59b511   (Repo Admin)
+1.0.0.9067966   3292f80844e7525c372c83544914b1ea103dd93759948fc1bad21f8f23c750e3   (Repo Admin)
 
-Administrative keys for demisto/unzip:1.0.0.8943333
+Administrative keys for demisto/unzip:1.0.0.9067966
 
   Repository Key:	8502dcd9747d860601254c8e2e908005624ef59c37b18c2dd72db1eb8e0d37e3
   Root Key:	f7ee2f631342ff2873fc4281c1baba874434a8fca0834d6a2c3fa6ee6b04e3be
@@ -104,7 +104,7 @@ Administrative keys for demisto/unzip:1.0.0.8943333
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.14
+* Version: 3.15
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -191,7 +191,7 @@ Administrative keys for demisto/unzip:1.0.0.8943333
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.34.0
+* Version: 2.34.2
 * Pypi: https://pypi.org/project/requests/
 * Homepage: None
 * Author: Kenneth Reitz <me@kennethreitz.org>
@@ -260,9 +260,9 @@ Administrative keys for demisto/unzip:1.0.0.8943333
 
 * adduser	3.134
 * apt	2.6.1
-* base-files	12.4+deb12u13
+* base-files	12.4+deb12u14
 * base-passwd	3.6.1
-* bash	5.2.15-2+b10
+* bash	5.2.15-2+b13
 * bsdutils	1:2.38.1-5+deb12u3
 * ca-certificates	20230311+deb12u1
 * coreutils	9.1-1
@@ -271,7 +271,7 @@ Administrative keys for demisto/unzip:1.0.0.8943333
 * debian-archive-keyring	2023.3+deb12u2
 * debianutils	5.7-0.5~deb12u1
 * diffutils	1:3.8-4
-* dpkg	1.21.22
+* dpkg	1.21.23
 * e2fsprogs	1.47.2-3~bpo12+1
 * findutils	4.9.0-4
 * gcc-12-base:amd64	12.2.0-14+deb12u1
@@ -287,10 +287,10 @@ Administrative keys for demisto/unzip:1.0.0.8943333
 * libaudit1:amd64	1:3.0.9-1
 * libblkid1:amd64	2.38.1-5+deb12u3
 * libbz2-1.0:amd64	1.0.8-5+b1
-* libc-bin	2.36-9+deb12u13
-* libc6:amd64	2.36-9+deb12u13
+* libc-bin	2.36-9+deb12u14
+* libc6:amd64	2.36-9+deb12u14
 * libcap-ng0:amd64	0.8.3-1+b3
-* libcap2:amd64	1:2.66-4+deb12u2+b2
+* libcap2:amd64	1:2.66-4+deb12u3+b1
 * libcom-err2:amd64	1.47.2-3~bpo12+1
 * libcrypt1:amd64	1:4.4.33-2
 * libdb5.3:amd64	5.3.28+dfsg2-1
@@ -333,7 +333,7 @@ Administrative keys for demisto/unzip:1.0.0.8943333
 * libsmartcols1:amd64	2.38.1-5+deb12u3
 * libsqlite3-0:amd64	3.40.1-2+deb12u2
 * libss2:amd64	1.47.2-3~bpo12+1
-* libssl3:amd64	3.0.19-1~deb12u2
+* libssl3:amd64	3.0.20-1~deb12u1
 * libstdc++6:amd64	12.2.0-14+deb12u1
 * libsystemd0:amd64	254.26-1~bpo12+1
 * libtasn1-6:amd64	4.19.0-2+deb12u1
@@ -352,17 +352,17 @@ Administrative keys for demisto/unzip:1.0.0.8943333
 * ncurses-base	6.4-4
 * ncurses-bin	6.4-4
 * netbase	6.4
-* openssl	3.0.19-1~deb12u2
-* p7zip	16.02+dfsg-8
-* p7zip-full	16.02+dfsg-8
+* openssl	3.0.20-1~deb12u1
+* p7zip	16.02+really25.01+dfsg-0+deb12u1
+* p7zip-full	16.02+really25.01+dfsg-0+deb12u1
 * passwd	1:4.13+dfsg1-1+deb12u2
 * perl-base	5.36.0-7+deb12u3
 * procps	2:4.0.2-3
 * readline-common	8.2-1.3
-* sed	4.9-1
+* sed	4.9-1+deb12u1
 * sysvinit-utils	3.08-3~bpo12+2
 * tar	1.34+dfsg-1.2+deb12u1
-* tzdata	2025b-0+deb12u2
+* tzdata	2026b-0+deb12u1
 * unrar	1:6.2.6-1+deb12u1
 * usr-is-merged	37~deb12u1
 * util-linux	2.38.1-5+deb12u3
