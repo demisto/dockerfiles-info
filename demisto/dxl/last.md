@@ -1,9 +1,9 @@
-# `demisto/dxl:1.0.0.9059085`
+# `demisto/dxl:1.0.0.9224111`
 
 ## Docker Metadata
 - Image Size: 35.98 MB
-- Image ID: `sha256:68c391ac5e69064a4c43e93bdc809f8062321dae71c8f49bdcff798183956dab`
-- Created: `2026-05-16T23:49:12.351959353Z`
+- Image ID: `sha256:3bdd2acbe33df0d2754dc912307f7e400b06ce7caa49500d3460644b739a949f`
+- Created: `2026-05-23T23:46:14.522576571Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/dxl:1.0.0.9059085`
+  - `DOCKER_IMAGE=demisto/dxl:1.0.0.9224111`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:71e82694117520902dd8affb536dd007b7b35286`
-  - `org.opencontainers.image.version:1.0.0.9059085`
+  - `org.opencontainers.image.revision:001d9b28f1c92dff8386081e99f96b4c69cd428e`
+  - `org.opencontainers.image.version:1.0.0.9224111`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/dxl:1.0.0.9059085
+Signatures for demisto/dxl:1.0.0.9224111
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.9059085   573ef298951782e19873b251058657b5699eff33c5bc6a4415ab01065705ad2b   (Repo Admin)
+1.0.0.9224111   9844e26428b815e61f652629887a1cf0866e98db40ec7908505a81fc3af84d15   (Repo Admin)
 
-Administrative keys for demisto/dxl:1.0.0.9059085
+Administrative keys for demisto/dxl:1.0.0.9224111
 
   Repository Key:	63a4ff99780318ae8a16abf65cc2a7c94b68f679d0431e2b63a249887c19c629
   Root Key:	5ad3d6ba2b55f3b32263beecfdb5a93b7e66df11d6f1ef19b655f7a5a668fc97
@@ -172,7 +172,7 @@ Administrative keys for demisto/dxl:1.0.0.9059085
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.0.2
+* Version: 11.1.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>

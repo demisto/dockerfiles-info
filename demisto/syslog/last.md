@@ -1,9 +1,9 @@
-# `demisto/syslog:1.0.0.8936013`
+# `demisto/syslog:1.0.0.9198200`
 
 ## Docker Metadata
 - Image Size: 34.93 MB
-- Image ID: `sha256:a9a6c4dd4dfc60435265018b9e0df24190b900733c271e2c8f739ac82c2f8a2e`
-- Created: `2026-05-12T09:12:49.890942641Z`
+- Image ID: `sha256:942e6f51c6fa833b08c1f36c377d6c59d4aa260f85b0c8f7ff284e0890038779`
+- Created: `2026-05-21T17:37:43.57066569Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/syslog:1.0.0.8936013`
+  - `DOCKER_IMAGE=demisto/syslog:1.0.0.9198200`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:41878194a7aeb4baa357b6278c3fad520afd0245`
-  - `org.opencontainers.image.version:1.0.0.8936013`
+  - `org.opencontainers.image.revision:219fc32265d05efc2c686d5385bbebfeff80dd8d`
+  - `org.opencontainers.image.version:1.0.0.9198200`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/syslog:1.0.0.8936013
+Signatures for demisto/syslog:1.0.0.9198200
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8936013   c9fb63ba017ec8ba9fcafb2eab6afcb284d42174a509db8b94f647a01b91fafa   (Repo Admin)
+1.0.0.9198200   1c3c5cdd00a448f2913cace6677afbd5ae07cc509ccdaf65aec74fda1d3b7aa0   (Repo Admin)
 
-Administrative keys for demisto/syslog:1.0.0.8936013
+Administrative keys for demisto/syslog:1.0.0.9198200
 
   Repository Key:	11a15eab07f7e41e73476072cbde030a8e584e5848dd9ccae061af343ee287fc
   Root Key:	aa0c2d0ebdc015b28c4b791550a2c77436f62ed42305803a88c33cca848a9422
@@ -110,7 +110,7 @@ Administrative keys for demisto/syslog:1.0.0.8936013
 ### `gevent`
 
 * Summary: Coroutine-based network library
-* Version: 26.4.0
+* Version: 26.5.0
 * Pypi: https://pypi.org/project/gevent/
 * Homepage: http://www.gevent.org/
 * Author: Denis Bilenko denis.bilenko@gmail.com
@@ -119,7 +119,7 @@ Administrative keys for demisto/syslog:1.0.0.8936013
 ### `greenlet`
 
 * Summary: Lightweight in-process concurrent programming
-* Version: 3.5.0
+* Version: 3.5.1
 * Pypi: https://pypi.org/project/greenlet/
 * Homepage: None
 * Author: Alexey Borzenkov <snaury@gmail.com>

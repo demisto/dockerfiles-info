@@ -1,9 +1,9 @@
-# `demisto/python3-deb-bullseye:3.12.11.9059085`
+# `demisto/python3-deb-bullseye:3.12.11.9224111`
 
 ## Docker Metadata
 - Image Size: 62.43 MB
-- Image ID: `sha256:9a0fd135b8828f13556c65f25d90ccc82f5e4096defb5e883920fe08da0fba07`
-- Created: `2026-05-16T23:57:11.640073544Z`
+- Image ID: `sha256:a7df51dd46b8c9dea6bd6775b05c9241fcd4d59d40c2f02e57a41a3f8e2b29b7`
+- Created: `2026-05-24T00:03:47.01841116Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/python3-deb-bullseye:3.12.11.9059085`
+  - `DOCKER_IMAGE=demisto/python3-deb-bullseye:3.12.11.9224111`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:71e82694117520902dd8affb536dd007b7b35286`
-  - `org.opencontainers.image.version:3.12.11.9059085`
+  - `org.opencontainers.image.revision:001d9b28f1c92dff8386081e99f96b4c69cd428e`
+  - `org.opencontainers.image.version:3.12.11.9224111`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3-deb-bullseye:3.12.11.9059085
+Signatures for demisto/python3-deb-bullseye:3.12.11.9224111
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.11.9059085   8cf3e74809be261f04932ba745a25f720c1cd2fc95a46253676c226e8b334ee4   (Repo Admin)
+3.12.11.9224111   f0b670fc00935172dc99ed3d9ecabc23b53d171748ede5b2c9cf98f0e7c27b13   (Repo Admin)
 
-Administrative keys for demisto/python3-deb-bullseye:3.12.11.9059085
+Administrative keys for demisto/python3-deb-bullseye:3.12.11.9224111
 
   Repository Key:	ce5800f6f1ec4ee79ebae3f71a05301859a14836ddcaf20e2faf06f5db281c03
   Root Key:	1d02609ff9a0efe9ca9340ac62ce6c9bbc44528fd7563fd3ca6165d6806c47b2
@@ -112,7 +112,7 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.9059085
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.0.2
+* Version: 11.1.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -285,7 +285,7 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.9059085
 * libgcrypt20:amd64	1.8.7-6
 * libgdbm6:amd64	1.19-2
 * libgmp10:amd64	2:6.2.1+dfsg-1+deb11u1
-* libgnutls30:amd64	3.7.1-5+deb11u9
+* libgnutls30:amd64	3.7.1-5+deb11u10
 * libgpg-error0:amd64	1.38-2
 * libgssapi-krb5-2:amd64	1.18.3-6+deb11u7
 * libhogweed6:amd64	3.7.3-1

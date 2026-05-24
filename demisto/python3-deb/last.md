@@ -1,9 +1,9 @@
-# `demisto/python3-deb:3.12.13.9189054`
+# `demisto/python3-deb:3.12.13.9224111`
 
 ## Docker Metadata
-- Image Size: 57.70 MB
-- Image ID: `sha256:a533ae85e98d6b1467c1a83a7e3cca30be06c1728232d2254d9c2df62ae9f6c0`
-- Created: `2026-05-21T02:32:14.1000613Z`
+- Image Size: 58.93 MB
+- Image ID: `sha256:72fd11464b49210feb5320427bb2f67891ddf309d0b19fe82fe7a940fa31d8ab`
+- Created: `2026-05-23T23:54:08.121358782Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/python3-deb:3.12.13.9189054`
+  - `DOCKER_IMAGE=demisto/python3-deb:3.12.13.9224111`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:288e88f3e16282b1669f6c09a0fbf1856aba4000`
-  - `org.opencontainers.image.version:3.12.13.9189054`
+  - `org.opencontainers.image.revision:001d9b28f1c92dff8386081e99f96b4c69cd428e`
+  - `org.opencontainers.image.version:3.12.13.9224111`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3-deb:3.12.13.9189054
+Signatures for demisto/python3-deb:3.12.13.9224111
 
 SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.13.9189054   c0eed0d97c890df98070c0f0ac9c3da2452f205abfbf2217b268c7233c9fa112   (Repo Admin)
+3.12.13.9224111   0a7d8365193944719952fe96aa9ea6511ef0414bcb602890f7c41fdd087a8d26   (Repo Admin)
 
-Administrative keys for demisto/python3-deb:3.12.13.9189054
+Administrative keys for demisto/python3-deb:3.12.13.9224111
 
   Repository Key:	02e9781b8a12b1475cfa9e28c569a3337f9d9e664134162d21f48e09aa975ab6
   Root Key:	c368f2dcb34a0aaabd33ee9559bd094b84c7f57f4742bde05f5a21486a524ce9
@@ -112,7 +112,7 @@ Administrative keys for demisto/python3-deb:3.12.13.9189054
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.0.2
+* Version: 11.1.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -298,18 +298,18 @@ Administrative keys for demisto/python3-deb:3.12.13.9189054
 * libext2fs2:amd64	1.47.2-3~bpo12+1
 * libffi8:amd64	3.4.4-1
 * libgcc-s1:amd64	12.2.0-14+deb12u1
-* libgcrypt20:amd64	1.10.1-3
+* libgcrypt20:amd64	1.10.1-3+deb12u1
 * libgdbm6:amd64	1.23-3
 * libgmp10:amd64	2:6.2.1+dfsg1-1.1
 * libgnutls30:amd64	3.7.9-2+deb12u7
 * libgpg-error0:amd64	1.46-1
-* libgssapi-krb5-2:amd64	1.20.1-2+deb12u4
+* libgssapi-krb5-2:amd64	1.20.1-2+deb12u5
 * libhogweed6:amd64	3.8.1-2
 * libidn2-0:amd64	2.3.3-1+b1
-* libk5crypto3:amd64	1.20.1-2+deb12u4
+* libk5crypto3:amd64	1.20.1-2+deb12u5
 * libkeyutils1:amd64	1.6.3-2
-* libkrb5-3:amd64	1.20.1-2+deb12u4
-* libkrb5support0:amd64	1.20.1-2+deb12u4
+* libkrb5-3:amd64	1.20.1-2+deb12u5
+* libkrb5support0:amd64	1.20.1-2+deb12u5
 * liblz4-1:amd64	1.9.4-1
 * liblzma5:amd64	5.4.1-1
 * libmd0:amd64	1.0.4-2
