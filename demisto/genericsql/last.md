@@ -1,9 +1,9 @@
-# `demisto/genericsql:1.2.0.9232374`
+# `demisto/genericsql:1.2.0.9311457`
 
 ## Docker Metadata
-- Image Size: 363.35 MB
-- Image ID: `sha256:7a37dcb9c6eeac923b13c1e22e5721ad0b70303c2f7a813138b376badf453cf2`
-- Created: `2026-05-24T08:37:34.640898154Z`
+- Image Size: 363.33 MB
+- Image ID: `sha256:ce2cf905d365bbabc410b092e7d469a0773c647495a1a6c071b03993c31bb6a7`
+- Created: `2026-05-25T23:35:29.559896615Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.9232374`
+  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.9311457`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:8c0b55bb987e4025df77cc5b82abf4373ac688d4`
-  - `org.opencontainers.image.version:1.2.0.9232374`
+  - `org.opencontainers.image.revision:f63f7d94ff0440b9ad75457ae4bd21fa3e483de2`
+  - `org.opencontainers.image.version:1.2.0.9311457`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/genericsql:1.2.0.9232374
+Signatures for demisto/genericsql:1.2.0.9311457
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.2.0.9232374   731154d05b57a8c6b82e81e88ee4099888969f128a7af772053ce33f9fa264eb   (Repo Admin)
+1.2.0.9311457   31abb598be730caa544d3427381741204f5c2b4b956fdbdf8b84076b2bada80d   (Repo Admin)
 
-Administrative keys for demisto/genericsql:1.2.0.9232374
+Administrative keys for demisto/genericsql:1.2.0.9311457
 
   Repository Key:	b02fc99a72d78e9f5becfe15406ea942db310f3c3af9a7833b215eddb323f7cd
   Root Key:	d11245d830d935ed4846941604c024388aca83a60142ae5319409b1f6091afe1
@@ -331,7 +331,7 @@ Administrative keys for demisto/genericsql:1.2.0.9232374
 ### `SQLAlchemy`
 
 * Summary: Database Abstraction Library
-* Version: 2.0.49
+* Version: 2.0.50
 * Pypi: https://pypi.org/project/SQLAlchemy/
 * Homepage: https://www.sqlalchemy.org
 * Author: Mike Bayer mike_mp@zzzcomputing.com

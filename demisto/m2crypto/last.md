@@ -1,9 +1,9 @@
-# `demisto/m2crypto:1.0.0.9075026`
+# `demisto/m2crypto:1.0.0.9311457`
 
 ## Docker Metadata
-- Image Size: 161.85 MB
-- Image ID: `sha256:7a2c3e579fa9787b3fb1223cc503d55b42c316d39f8490c4b1e42ad92fa5c95c`
-- Created: `2026-05-17T11:56:12.604502198Z`
+- Image Size: 161.87 MB
+- Image ID: `sha256:86164760dea3ad741297a380f9896f22cd82f2e7e4905bd4d2dfba39ab9cc5c9`
+- Created: `2026-05-25T23:38:17.855010275Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/m2crypto:1.0.0.9075026`
+  - `DOCKER_IMAGE=demisto/m2crypto:1.0.0.9311457`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:65f3ec79f62180f4c9b52fb0ff0a451a4d089749`
-  - `org.opencontainers.image.version:1.0.0.9075026`
+  - `org.opencontainers.image.revision:f63f7d94ff0440b9ad75457ae4bd21fa3e483de2`
+  - `org.opencontainers.image.version:1.0.0.9311457`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/m2crypto:1.0.0.9075026
+Signatures for demisto/m2crypto:1.0.0.9311457
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.9075026   22f8553c53047c36d59ffdef59f1901ebb10e51d76649b6b8183614c2f44f9c8   (Repo Admin)
+1.0.0.9311457   7536b3d93f7d5aaf309a9cda6a03c92b2a4087229a4e2ec69fcbdd47eb33676b   (Repo Admin)
 
-Administrative keys for demisto/m2crypto:1.0.0.9075026
+Administrative keys for demisto/m2crypto:1.0.0.9311457
 
   Repository Key:	aa1fbb8fbce342528d43f52e3c3ca6ab4919d9ef5bfb5e90d5439d5e0c60ee36
   Root Key:	f094d23c15652c96e7f8b03075235b6818d33a95767cd6a1f1bd0f26d56024a8
@@ -118,7 +118,7 @@ Administrative keys for demisto/m2crypto:1.0.0.9075026
 ### `M2Crypto`
 
 * Summary: A Python crypto and SSL toolkit
-* Version: 0.47.0
+* Version: 0.48.0
 * Pypi: https://pypi.org/project/M2Crypto/
 * Homepage: None
 * Author: Ng Pheng Siong ngps@sandbox.rulemaker.net
