@@ -1,9 +1,9 @@
-# `demisto/oci:1.0.0.8943333`
+# `demisto/oci:1.0.0.9397137`
 
 ## Docker Metadata
-- Image Size: 78.31 MB
-- Image ID: `sha256:75945e1972e848e5e5fd75b3e37e71f29fe4f546cddc21bc53b00cc41f6ac1ec`
-- Created: `2026-05-12T11:42:12.119696906Z`
+- Image Size: 78.70 MB
+- Image ID: `sha256:77099867b02a3131f0601b3c67dd5a3cf4d1561b15df7a5e41938a87a030d4d6`
+- Created: `2026-05-26T23:33:36.17363694Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/oci:1.0.0.8943333`
+  - `DOCKER_IMAGE=demisto/oci:1.0.0.9397137`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:75a8037595af773369547f4a385de152da916d17`
-  - `org.opencontainers.image.version:1.0.0.8943333`
+  - `org.opencontainers.image.revision:582996af77192e7d72eea75f526b286894c03655`
+  - `org.opencontainers.image.version:1.0.0.9397137`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/oci:1.0.0.8943333
+Signatures for demisto/oci:1.0.0.9397137
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8943333   a3187ac30f917f4be99c694b07651262f2a04fbf46a71c46f5837632753d8405   (Repo Admin)
+1.0.0.9397137   05fd56a52e55e8833e44f6df7e083bf9268274e902c0a291f7cc7438231ed692   (Repo Admin)
 
-Administrative keys for demisto/oci:1.0.0.8943333
+Administrative keys for demisto/oci:1.0.0.9397137
 
   Repository Key:	2cc50bdbe67fd75478233e92583764f227d51416d68a400f91f13954268ef489
   Root Key:	6c4262e4f5f1c456c5e9a45765790ff209f55ce49fc37ed2a3dc8a833e52de92
@@ -47,7 +47,7 @@ Administrative keys for demisto/oci:1.0.0.8943333
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.4.22
+* Version: 2026.5.20
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -151,7 +151,7 @@ Administrative keys for demisto/oci:1.0.0.8943333
 ### `oci`
 
 * Summary: Oracle Cloud Infrastructure Python SDK
-* Version: 2.174.0
+* Version: 2.176.0
 * Pypi: https://pypi.org/project/oci/
 * Homepage: https://docs.oracle.com/en-us/iaas/tools/python/latest/index.html
 * Author: Oracle joe.levy@oracle.com
