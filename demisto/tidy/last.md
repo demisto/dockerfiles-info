@@ -1,9 +1,9 @@
-# `demisto/tidy:1.0.0.9191027`
+# `demisto/tidy:1.0.0.9523457`
 
 ## Docker Metadata
-- Image Size: 125.39 MB
-- Image ID: `sha256:453589603a55e82b58cb137467d5967be0d57073ae4d857d6f2eca2114f644ab`
-- Created: `2026-05-21T05:51:22.508530223Z`
+- Image Size: 125.40 MB
+- Image ID: `sha256:ade68674bade6738628cb4c7c81dd212a3b100a49222ea07d02d39d35e0e013f`
+- Created: `2026-05-28T17:34:17.394964198Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/tidy:1.0.0.9191027`
+  - `DOCKER_IMAGE=demisto/tidy:1.0.0.9523457`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d191dd20035a923cbf0e0040615fcd87064118bb`
-  - `org.opencontainers.image.version:1.0.0.9191027`
+  - `org.opencontainers.image.revision:6ae99ba70954d8db938b863ee8103d7becbdecb6`
+  - `org.opencontainers.image.version:1.0.0.9523457`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/tidy:1.0.0.9191027
+Signatures for demisto/tidy:1.0.0.9523457
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.9191027   78eed2ef5a093bdde5bc4d8317ff0bd83ca2ca7377a56cfc92521b25b10865df   (Repo Admin)
+1.0.0.9523457   a613399a7dc7454910a33d831ee0d2c730fbd81610c1d391b251291f89fa6bb9   (Repo Admin)
 
-Administrative keys for demisto/tidy:1.0.0.9191027
+Administrative keys for demisto/tidy:1.0.0.9523457
 
   Repository Key:	5f17b9d56ce23d820632c3aab69771c41c29b4a5ff9dfe8cbea5e4ca7cc9857b
   Root Key:	35b6195205c264962e7a1726995d97d4c9f7d85c8a9c9909105016d7f930b79e
