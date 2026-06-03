@@ -1,9 +1,9 @@
-# `demisto/carbon-black-cloud:1.0.0.8425368`
+# `demisto/carbon-black-cloud:1.0.0.9763788`
 
 ## Docker Metadata
-- Image Size: 51.36 MB
-- Image ID: `sha256:2b757c1041c45bfdbc97d56cbe5616c385e151c0d4df2585c2a0202f1233bcb4`
-- Created: `2026-04-23T14:30:54.038046379Z`
+- Image Size: 51.65 MB
+- Image ID: `sha256:ee8c192691a94dc1293ebf7fe87234fb3beb6f2dab2356320ccede5476179b34`
+- Created: `2026-06-02T11:35:15.690256215Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/carbon-black-cloud:1.0.0.8425368`
+  - `DOCKER_IMAGE=demisto/carbon-black-cloud:1.0.0.9763788`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:861c764f72840ba5b652ded26b1e99fc3b68fe76`
-  - `org.opencontainers.image.version:1.0.0.8425368`
+  - `org.opencontainers.image.revision:f02cd5c25a3dc23768feec6746f613a64c741a6b`
+  - `org.opencontainers.image.version:1.0.0.9763788`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/carbon-black-cloud:1.0.0.8425368
+Signatures for demisto/carbon-black-cloud:1.0.0.9763788
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8425368   3d40ac4e4c4c68c22090f776cb77dd209319c7c2017e41a3b892d5371204ffb2   (Repo Admin)
+1.0.0.9763788   e5a16bd6c226dab5ce21eddc56a5c699ee60c9b452853ca3bda5bc557a0f5859   (Repo Admin)
 
-Administrative keys for demisto/carbon-black-cloud:1.0.0.8425368
+Administrative keys for demisto/carbon-black-cloud:1.0.0.9763788
 
   Repository Key:	61d6fc3fd56dba570055ea01490dd7c769bba5e2f00fcfb3de58f512ded5c117
   Root Key:	251a1564486be32835baf0388fe80e667a4516fdfcc3d16d2037dc5db7b1e226
@@ -56,7 +56,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.8425368
 ### `boto3`
 
 * Summary: The AWS SDK for Python
-* Version: 1.42.94
+* Version: 1.43.18
 * Pypi: https://pypi.org/project/boto3/
 * Homepage: https://github.com/boto/boto3
 * Author: Amazon Web Services
@@ -65,7 +65,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.8425368
 ### `botocore`
 
 * Summary: Low-level, data-driven core of boto 3.
-* Version: 1.42.94
+* Version: 1.43.18
 * Pypi: https://pypi.org/project/botocore/
 * Homepage: https://github.com/boto/botocore
 * Author: Amazon Web Services
@@ -74,7 +74,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.8425368
 ### `cachetools`
 
 * Summary: Extensible memoizing collections and decorators
-* Version: 7.0.6
+* Version: 7.1.4
 * Pypi: https://pypi.org/project/cachetools/
 * Homepage: None
 * Author: Thomas Kemmer <tkemmer@computer.org>
@@ -100,7 +100,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.8425368
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.4.22
+* Version: 2026.5.20
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -163,7 +163,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.8425368
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.13
+* Version: 3.17
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -213,7 +213,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.8425368
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.1
+* Version: 26.2
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -221,16 +221,16 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.8425368
 ### `pika`
 
 * Summary: Pika Python AMQP Client Library
-* Version: 1.3.2
+* Version: 1.4.1
 * Pypi: https://pypi.org/project/pika/
-* Homepage: 
-* Author: 
+* Homepage: None
+* Author: None
 * License :: OSI Approved :: BSD License
 
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.0.1
+* Version: 26.1.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -248,7 +248,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.8425368
 ### `protobuf`
 
 * Summary: None
-* Version: 7.34.1
+* Version: 7.35.0
 * Pypi: https://pypi.org/project/protobuf/
 * Homepage: https://developers.google.com/protocol-buffers/
 * Author: protobuf@googlegroups.com protobuf@googlegroups.com
@@ -318,7 +318,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.8425368
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.33.1
+* Version: 2.34.2
 * Pypi: https://pypi.org/project/requests/
 * Homepage: None
 * Author: Kenneth Reitz <me@kennethreitz.org>
@@ -336,7 +336,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.8425368
 ### `rpds-py`
 
 * Summary: Python bindings to Rust's persistent data structures (rpds)
-* Version: 0.30.0
+* Version: 2026.5.1
 * Pypi: https://pypi.org/project/rpds-py/
 * Homepage: None
 * Author: Julian Berman <Julian+rpds@GrayVines.com>
@@ -344,7 +344,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.8425368
 ### `s3transfer`
 
 * Summary: An Amazon S3 Transfer Manager
-* Version: 0.16.1
+* Version: 0.18.0
 * Pypi: https://pypi.org/project/s3transfer/
 * Homepage: https://github.com/boto/s3transfer
 * Author: Amazon Web Services kyknapp1@gmail.com
@@ -413,7 +413,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.8425368
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.6.3
+* Version: 2.7.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -430,7 +430,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.8425368
 ### `wcwidth`
 
 * Summary: Measures the displayed width of unicode strings in a terminal
-* Version: 0.6.0
+* Version: 0.7.0
 * Pypi: https://pypi.org/project/wcwidth/
 * Homepage: None
 * Author: Jeff Quast <contact@jeffquast.com>
@@ -438,7 +438,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.8425368
 ### `wheel`
 
 * Summary: Command line tool for manipulating wheel files
-* Version: 0.46.3
+* Version: 0.47.0
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
@@ -480,6 +480,6 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.8425368
 * scanelf-1.3.8-r2 x86_64 {pax-utils}
 * sqlite-libs-3.51.2-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r30 x86_64 {busybox}
-* tzdata-2026a-r0 x86_64 {tzdata}
-* xz-libs-5.8.2-r0 x86_64 {xz}
+* tzdata-2026b-r0 x86_64 {tzdata}
+* xz-libs-5.8.3-r0 x86_64 {xz}
 * zlib-1.3.2-r0 x86_64 {zlib}

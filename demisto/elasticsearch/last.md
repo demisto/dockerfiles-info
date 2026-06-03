@@ -1,9 +1,9 @@
-# `demisto/elasticsearch:1.0.0.8425368`
+# `demisto/elasticsearch:1.0.0.9763788`
 
 ## Docker Metadata
-- Image Size: 41.58 MB
-- Image ID: `sha256:a53e5f609137289d1c0ffd5d627bf05c2c7abad008b98468b07bd70920c71b6e`
-- Created: `2026-04-23T14:34:25.633603967Z`
+- Image Size: 41.41 MB
+- Image ID: `sha256:c8f0420f4d9226a3296ef25536d7bd96af14e162f6e1a6c002dbffd387d0bc41`
+- Created: `2026-06-02T11:36:38.389683299Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/elasticsearch:1.0.0.8425368`
+  - `DOCKER_IMAGE=demisto/elasticsearch:1.0.0.9763788`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:861c764f72840ba5b652ded26b1e99fc3b68fe76`
-  - `org.opencontainers.image.version:1.0.0.8425368`
+  - `org.opencontainers.image.revision:f02cd5c25a3dc23768feec6746f613a64c741a6b`
+  - `org.opencontainers.image.version:1.0.0.9763788`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/elasticsearch:1.0.0.8425368
+Signatures for demisto/elasticsearch:1.0.0.9763788
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8425368   7405bccdd8caefc80018a6842183bc21482c5319d6d461f8b59763e9ef64e3fd   (Repo Admin)
+1.0.0.9763788   555e2fef2efae3f03d1f5bbf7e5ab2108dbf550bb9c2d824798c32289a59da37   (Repo Admin)
 
-Administrative keys for demisto/elasticsearch:1.0.0.8425368
+Administrative keys for demisto/elasticsearch:1.0.0.9763788
 
   Repository Key:	1441e36bc524b7da5715b616fd7d4799cecad740ed6511b91781000f6341c0f7
   Root Key:	cc9e00c1bd0fdb7f09104e09d01c0d25d1ce8ea381bb97c38bd5f68dcc0017d9
@@ -47,7 +47,7 @@ Administrative keys for demisto/elasticsearch:1.0.0.8425368
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.4.22
+* Version: 2026.5.20
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -110,7 +110,7 @@ Administrative keys for demisto/elasticsearch:1.0.0.8425368
 ### `elasticsearch-dsl`
 
 * Summary: Python client for Elasticsearch
-* Version: 8.15.4
+* Version: 8.18.0
 * Pypi: https://pypi.org/project/elasticsearch-dsl/
 * Homepage: https://github.com/elasticsearch/elasticsearch-dsl-py
 * Author: Elastic Client Library Maintainers client-libs@elastic.co
@@ -163,7 +163,7 @@ Administrative keys for demisto/elasticsearch:1.0.0.8425368
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.13
+* Version: 3.17
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -197,7 +197,7 @@ Administrative keys for demisto/elasticsearch:1.0.0.8425368
 ### `opensearch-protobufs`
 
 * Summary: None
-* Version: 0.19.0
+* Version: 1.2.0
 * Pypi: https://pypi.org/project/opensearch-protobufs/
 * Homepage: https://opensearch.org/
 * Author: OpenSearch Team
@@ -206,7 +206,7 @@ Administrative keys for demisto/elasticsearch:1.0.0.8425368
 ### `opensearch-py`
 
 * Summary: Python client for OpenSearch
-* Version: 3.1.0
+* Version: 3.2.0
 * Pypi: https://pypi.org/project/opensearch-py/
 * Homepage: https://github.com/opensearch-project/opensearch-py
 * Author: Aleksei Atavin, Denis Zalevskiy, Rushi Agrawal, Shephali Mittal axeo@aiven.io, dez@aiven.io, rushi.agr@gmail.com, shephalm@amazon.com
@@ -215,7 +215,7 @@ Administrative keys for demisto/elasticsearch:1.0.0.8425368
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.0
+* Version: 26.1
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -223,7 +223,7 @@ Administrative keys for demisto/elasticsearch:1.0.0.8425368
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.0.1
+* Version: 26.1.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -232,7 +232,7 @@ Administrative keys for demisto/elasticsearch:1.0.0.8425368
 ### `protobuf`
 
 * Summary: None
-* Version: 7.34.1
+* Version: 7.35.0
 * Pypi: https://pypi.org/project/protobuf/
 * Homepage: https://developers.google.com/protocol-buffers/
 * Author: protobuf@googlegroups.com protobuf@googlegroups.com
@@ -286,7 +286,7 @@ Administrative keys for demisto/elasticsearch:1.0.0.8425368
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.33.1
+* Version: 2.34.2
 * Pypi: https://pypi.org/project/requests/
 * Homepage: None
 * Author: Kenneth Reitz <me@kennethreitz.org>
@@ -346,7 +346,7 @@ Administrative keys for demisto/elasticsearch:1.0.0.8425368
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.6.3
+* Version: 2.7.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -354,7 +354,7 @@ Administrative keys for demisto/elasticsearch:1.0.0.8425368
 ### `wheel`
 
 * Summary: Command line tool for manipulating wheel files
-* Version: 0.46.3
+* Version: 0.47.0
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
@@ -396,6 +396,6 @@ Administrative keys for demisto/elasticsearch:1.0.0.8425368
 * scanelf-1.3.8-r2 x86_64 {pax-utils}
 * sqlite-libs-3.51.2-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r30 x86_64 {busybox}
-* tzdata-2026a-r0 x86_64 {tzdata}
-* xz-libs-5.8.2-r0 x86_64 {xz}
+* tzdata-2026b-r0 x86_64 {tzdata}
+* xz-libs-5.8.3-r0 x86_64 {xz}
 * zlib-1.3.2-r0 x86_64 {zlib}
