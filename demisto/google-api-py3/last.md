@@ -1,9 +1,9 @@
-# `demisto/google-api-py3:1.0.0.8516410`
+# `demisto/google-api-py3:1.0.0.9837750`
 
 ## Docker Metadata
-- Image Size: 78.77 MB
-- Image ID: `sha256:3bd18aa8bd9ee540899968ecd322906fe8d66f5e37a553777babcb1f7f35a0aa`
-- Created: `2026-04-27T20:34:08.122902396Z`
+- Image Size: 81.62 MB
+- Image ID: `sha256:563635d31f866bcb953522a7fe042c2dbc5dce1a9496c28420f835b51c9721f5`
+- Created: `2026-06-03T17:38:13.485747833Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/google-api-py3:1.0.0.8516410`
+  - `DOCKER_IMAGE=demisto/google-api-py3:1.0.0.9837750`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:da67c74953de1850799c8e0573abd7bc99825ab6`
-  - `org.opencontainers.image.version:1.0.0.8516410`
+  - `org.opencontainers.image.revision:2047c851cd9382e3bea2b6f24bc9050887d6ac5c`
+  - `org.opencontainers.image.version:1.0.0.9837750`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-api-py3:1.0.0.8516410
+Signatures for demisto/google-api-py3:1.0.0.9837750
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8516410   4bea8fabe6697d7c24ac4d8d4882550866a3b6b44f23536b2d34eba14f3d377a   (Repo Admin)
+1.0.0.9837750   d1482c5d9be410ccbe95511b7bd10f1d57202756516e60757a9f681c09754574   (Repo Admin)
 
-Administrative keys for demisto/google-api-py3:1.0.0.8516410
+Administrative keys for demisto/google-api-py3:1.0.0.9837750
 
   Repository Key:	5770a83f9c9b9436ad3c6e6acfe7a826fe9e3f460f7ad22dfb9f894f371071a6
   Root Key:	95f47db9a4f5902373f46f558d53e073d895578cef7f0b44205d77f956ba04d4
@@ -50,7 +50,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.4.22
+* Version: 2026.5.20
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -76,7 +76,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 47.0.0
+* Version: 48.0.0
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -120,7 +120,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.30.3
+* Version: 2.31.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -129,7 +129,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 ### `google-api-python-client`
 
 * Summary: Google API Client Library for Python
-* Version: 2.194.0
+* Version: 2.197.0
 * Pypi: https://pypi.org/project/google-api-python-client/
 * Homepage: https://github.com/googleapis/google-api-python-client/
 * Author: Google LLC googleapis-packages@google.com
@@ -138,7 +138,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.49.2
+* Version: 2.53.0
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-auth-library-python
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -147,7 +147,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 ### `google-auth-httplib2`
 
 * Summary: Google Authentication Library: httplib2 transport
-* Version: 0.3.1
+* Version: 0.4.0
 * Pypi: https://pypi.org/project/google-auth-httplib2/
 * Homepage: https://github.com/googleapis/google-cloud-python/packages/google-auth-httplib2
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -156,7 +156,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 ### `googleapis-common-protos`
 
 * Summary: Common protobufs used in Google APIs
-* Version: 1.74.0
+* Version: 1.75.0
 * Pypi: https://pypi.org/project/googleapis-common-protos/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -174,7 +174,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.13
+* Version: 3.18
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -182,7 +182,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.0.2
+* Version: 11.1.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -208,7 +208,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.0
+* Version: 26.1
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -216,7 +216,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1
+* Version: 26.1.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -225,7 +225,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 ### `proto-plus`
 
 * Summary: Beautiful, Pythonic protocol buffers
-* Version: 1.27.2
+* Version: 1.28.0
 * Pypi: https://pypi.org/project/proto-plus/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -234,7 +234,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 ### `protobuf`
 
 * Summary: None
-* Version: 7.34.1
+* Version: 7.35.0
 * Pypi: https://pypi.org/project/protobuf/
 * Homepage: https://developers.google.com/protocol-buffers/
 * Author: protobuf@googlegroups.com protobuf@googlegroups.com
@@ -322,7 +322,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.33.1
+* Version: 2.34.2
 * Pypi: https://pypi.org/project/requests/
 * Homepage: None
 * Author: Kenneth Reitz <me@kennethreitz.org>
@@ -392,7 +392,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.6.3
+* Version: 2.7.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -409,9 +409,9 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 
 * adduser	3.134
 * apt	2.6.1
-* base-files	12.4+deb12u13
+* base-files	12.4+deb12u14
 * base-passwd	3.6.1
-* bash	5.2.15-2+b10
+* bash	5.2.15-2+b13
 * bsdutils	1:2.38.1-5+deb12u3
 * ca-certificates	20230311+deb12u1
 * coreutils	9.1-1
@@ -420,7 +420,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 * debian-archive-keyring	2023.3+deb12u2
 * debianutils	5.7-0.5~deb12u1
 * diffutils	1:3.8-4
-* dpkg	1.21.22
+* dpkg	1.21.23
 * e2fsprogs	1.47.2-3~bpo12+1
 * findutils	4.9.0-4
 * gcc-12-base:amd64	12.2.0-14+deb12u1
@@ -436,10 +436,10 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 * libaudit1:amd64	1:3.0.9-1
 * libblkid1:amd64	2.38.1-5+deb12u3
 * libbz2-1.0:amd64	1.0.8-5+b1
-* libc-bin	2.36-9+deb12u13
-* libc6:amd64	2.36-9+deb12u13
+* libc-bin	2.36-9+deb12u14
+* libc6:amd64	2.36-9+deb12u14
 * libcap-ng0:amd64	0.8.3-1+b3
-* libcap2:amd64	1:2.66-4+deb12u2+b2
+* libcap2:amd64	1:2.66-4+deb12u3+b1
 * libcom-err2:amd64	1.47.2-3~bpo12+1
 * libcrypt1:amd64	1:4.4.33-2
 * libdb5.3:amd64	5.3.28+dfsg2-1
@@ -447,18 +447,18 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 * libext2fs2:amd64	1.47.2-3~bpo12+1
 * libffi8:amd64	3.4.4-1
 * libgcc-s1:amd64	12.2.0-14+deb12u1
-* libgcrypt20:amd64	1.10.1-3
+* libgcrypt20:amd64	1.10.1-3+deb12u1
 * libgdbm6:amd64	1.23-3
 * libgmp10:amd64	2:6.2.1+dfsg1-1.1
-* libgnutls30:amd64	3.7.9-2+deb12u6
+* libgnutls30:amd64	3.7.9-2+deb12u7
 * libgpg-error0:amd64	1.46-1
-* libgssapi-krb5-2:amd64	1.20.1-2+deb12u4
+* libgssapi-krb5-2:amd64	1.20.1-2+deb12u5
 * libhogweed6:amd64	3.8.1-2
 * libidn2-0:amd64	2.3.3-1+b1
-* libk5crypto3:amd64	1.20.1-2+deb12u4
+* libk5crypto3:amd64	1.20.1-2+deb12u5
 * libkeyutils1:amd64	1.6.3-2
-* libkrb5-3:amd64	1.20.1-2+deb12u4
-* libkrb5support0:amd64	1.20.1-2+deb12u4
+* libkrb5-3:amd64	1.20.1-2+deb12u5
+* libkrb5support0:amd64	1.20.1-2+deb12u5
 * liblz4-1:amd64	1.9.4-1
 * liblzma5:amd64	5.4.1-1
 * libmd0:amd64	1.0.4-2
@@ -482,7 +482,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 * libsmartcols1:amd64	2.38.1-5+deb12u3
 * libsqlite3-0:amd64	3.40.1-2+deb12u2
 * libss2:amd64	1.47.2-3~bpo12+1
-* libssl3:amd64	3.0.19-1~deb12u2
+* libssl3:amd64	3.0.20-1~deb12u1
 * libstdc++6:amd64	12.2.0-14+deb12u1
 * libsystemd0:amd64	254.26-1~bpo12+1
 * libtasn1-6:amd64	4.19.0-2+deb12u1
@@ -501,15 +501,15 @@ Administrative keys for demisto/google-api-py3:1.0.0.8516410
 * ncurses-base	6.4-4
 * ncurses-bin	6.4-4
 * netbase	6.4
-* openssl	3.0.19-1~deb12u2
+* openssl	3.0.20-1~deb12u1
 * passwd	1:4.13+dfsg1-1+deb12u2
 * perl-base	5.36.0-7+deb12u3
 * procps	2:4.0.2-3
 * readline-common	8.2-1.3
-* sed	4.9-1
+* sed	4.9-1+deb12u1
 * sysvinit-utils	3.08-3~bpo12+2
 * tar	1.34+dfsg-1.2+deb12u1
-* tzdata	2025b-0+deb12u2
+* tzdata	2026b-0+deb12u1
 * usr-is-merged	37~deb12u1
 * util-linux	2.38.1-5+deb12u3
 * util-linux-extra	2.38.1-5+deb12u3

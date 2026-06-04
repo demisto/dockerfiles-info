@@ -1,9 +1,9 @@
-# `demisto/commvault:1.0.0.9311457`
+# `demisto/commvault:1.0.0.9845633`
 
 ## Docker Metadata
 - Image Size: 39.65 MB
-- Image ID: `sha256:a1b7baaf22ac5464707b06275b06b56d8f315d56d9dcad4f1df88f9c949c3755`
-- Created: `2026-05-25T23:32:12.872561575Z`
+- Image ID: `sha256:ae9fc9d11d3e2e7059208526cf1c116f20db8c4abdf433b2b4d4250a7c6a9cdb`
+- Created: `2026-06-04T02:32:38.398439932Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/commvault:1.0.0.9311457`
+  - `DOCKER_IMAGE=demisto/commvault:1.0.0.9845633`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:f63f7d94ff0440b9ad75457ae4bd21fa3e483de2`
-  - `org.opencontainers.image.version:1.0.0.9311457`
+  - `org.opencontainers.image.revision:18a4bb5b91046bb272ca41ae87bd8343e6aafff4`
+  - `org.opencontainers.image.version:1.0.0.9845633`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/commvault:1.0.0.9311457
+Signatures for demisto/commvault:1.0.0.9845633
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.9311457   83d7ed57d1814744ad53ddc73c7da0afb141f0f20f63e65be0aa2c6b726a0caa   (Repo Admin)
+1.0.0.9845633   aa1be79bd7511a0e318c23144ef4dcebc0f0e7bd35f285de03292d7daa41e5ea   (Repo Admin)
 
-Administrative keys for demisto/commvault:1.0.0.9311457
+Administrative keys for demisto/commvault:1.0.0.9845633
 
   Repository Key:	64321e4bf89f6f2f2c1f4b7d25030e7220c7309e9d60d0cb1dba7ce333c096da
   Root Key:	f3d406a543e986d36d553f83059154f0fc457f73f4391bb8af24bc3501bd86f2
@@ -219,7 +219,7 @@ Administrative keys for demisto/commvault:1.0.0.9311457
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.1
+* Version: 26.1.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -391,7 +391,7 @@ Administrative keys for demisto/commvault:1.0.0.9311457
 ### `uvicorn`
 
 * Summary: The lightning-fast ASGI server.
-* Version: 0.48.0
+* Version: 0.49.0
 * Pypi: https://pypi.org/project/uvicorn/
 * Homepage: None
 * Author: Tom Christie <tom@tomchristie.com>

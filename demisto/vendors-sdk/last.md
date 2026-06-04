@@ -1,9 +1,9 @@
-# `demisto/vendors-sdk:1.0.0.9502264`
+# `demisto/vendors-sdk:1.0.0.9843526`
 
 ## Docker Metadata
-- Image Size: 59.74 MB
-- Image ID: `sha256:8192a2c28f6343c85c86c8737893f7e2ee5f4268dc52a48e30585ef95a49d8c4`
-- Created: `2026-05-28T11:33:53.055245942Z`
+- Image Size: 85.63 MB
+- Image ID: `sha256:d6ac1d047b78065978b0f3ae9b9bb622437ee54fe7e81a9940cf4d6692573693`
+- Created: `2026-06-03T23:38:00.764778075Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/vendors-sdk:1.0.0.9502264`
+  - `DOCKER_IMAGE=demisto/vendors-sdk:1.0.0.9843526`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:f62bbf9974a48d14b5072d2e927e11895765d81f`
-  - `org.opencontainers.image.version:1.0.0.9502264`
+  - `org.opencontainers.image.revision:4020a23ac35a7bb51af6f1794f181de1f492b1a6`
+  - `org.opencontainers.image.version:1.0.0.9843526`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/vendors-sdk:1.0.0.9502264
+Signatures for demisto/vendors-sdk:1.0.0.9843526
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.9502264   8cf67f32fd77db93988ab112ef8d1c31f3d3a13c6ab5390a4cd6dc864402337d   (Repo Admin)
+1.0.0.9843526   6028524acc600611a8d1b76966f99ec2544c92d26a88bf123dfe5408a12fa72f   (Repo Admin)
 
-Administrative keys for demisto/vendors-sdk:1.0.0.9502264
+Administrative keys for demisto/vendors-sdk:1.0.0.9843526
 
   Repository Key:	f7dfc0037eccdafa60ded6b5769bd2583b547d45fbfd45c04be27ac139183b93
   Root Key:	3ed1be34c4951d9d572e55512f325e47f0123e938ee74dc62732b68d76b341a4
@@ -43,6 +43,14 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 
 ## `Python Packages`
 
+
+### `annotated-doc`
+
+* Summary: Document parameters, class attributes, return types, and variables inline, with Annotated.
+* Version: 0.0.4
+* Pypi: https://pypi.org/project/annotated-doc/
+* Homepage: None
+* Author: =?utf-8?q?Sebasti=C3=A1n_Ram=C3=ADrez?= <tiangolo@gmail.com>
 
 ### `annotated-types`
 
@@ -56,7 +64,7 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 ### `antlr4-python3-runtime`
 
 * Summary: ANTLR 4.13.2 runtime for Python 3
-* Version: 4.9.3
+* Version: 4.13.2
 * Pypi: https://pypi.org/project/antlr4-python3-runtime/
 * Homepage: None
 * Author: Terence Parr, Sam Harwell Eric Vergnaud <eric.vergnaud@wanadoo.fr>
@@ -65,11 +73,10 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 ### `anyio`
 
 * Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.9.0
+* Version: 4.13.0
 * Pypi: https://pypi.org/project/anyio/
 * Homepage: None
 * Author: Alex Grönholm <alex.gronholm@nextday.fi>
-* License: MIT
 
 ### `avro-python3`
 
@@ -80,19 +87,53 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 * Author: Apache Avro dev@avro.apache.org
 * License :: OSI Approved :: Apache Software License
 
+### `boto3`
+
+* Summary: The AWS SDK for Python
+* Version: 1.43.19
+* Pypi: https://pypi.org/project/boto3/
+* Homepage: https://github.com/boto/boto3
+* Author: Amazon Web Services
+* License: Apache-2.0
+
+### `botocore`
+
+* Summary: Low-level, data-driven core of boto 3.
+* Version: 1.43.19
+* Pypi: https://pypi.org/project/botocore/
+* Homepage: https://github.com/boto/botocore
+* Author: Amazon Web Services
+* License: Apache-2.0
+
+### `cachetools`
+
+* Summary: Extensible memoizing collections and decorators
+* Version: 7.0.6
+* Pypi: https://pypi.org/project/cachetools/
+* Homepage: None
+* Author: Thomas Kemmer <tkemmer@computer.org>
+
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.6.15
+* Version: 2026.5.20
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
+### `cffi`
+
+* Summary: Foreign Function Interface for Python calling C code.
+* Version: 2.0.0
+* Pypi: https://pypi.org/project/cffi/
+* Homepage: None
+* Author: Armin Rigo, Maciej Fijalkowski
+
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.2
+* Version: 3.4.7
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -101,7 +142,7 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 ### `click`
 
 * Summary: Composable command line interface toolkit
-* Version: 8.2.1
+* Version: 8.4.1
 * Pypi: https://pypi.org/project/click/
 * Homepage: None
 * Author: None
@@ -123,6 +164,14 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 * Homepage: None
 * Author: "Confluent Inc." <support@confluent.io>
 * License :: OSI Approved :: Apache Software License
+
+### `cryptography`
+
+* Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
+* Version: 48.0.0
+* Pypi: https://pypi.org/project/cryptography/
+* Homepage: None
+* Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
 
 ### `cyberintegrations`
 
@@ -178,10 +227,19 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 * Author: Christian Heimes christian@python.org
 * License :: OSI Approved :: Python Software Foundation License
 
+### `deprecation`
+
+* Summary: A library to handle automated deprecations
+* Version: 2.1.0
+* Pypi: https://pypi.org/project/deprecation/
+* Homepage: http://deprecation.readthedocs.io/
+* Author: Brian Curtin brian@python.org
+* License :: OSI Approved :: Apache Software License
+
 ### `domaintools_api`
 
 * Summary: DomainTools Official Python API
-* Version: 2.5.0
+* Version: 2.7.4
 * Pypi: https://pypi.org/project/domaintools-api/
 * Homepage: None
 * Author: DomainTools <integrations@domaintools.com>
@@ -190,16 +248,24 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 ### `duo_client`
 
 * Summary: Reference client for Duo Security APIs
-* Version: 5.5.0
+* Version: 5.6.1
 * Pypi: https://pypi.org/project/duo-client/
 * Homepage: https://github.com/duosecurity/duo_client_python
 * Author: Duo Security, Inc. support@duosecurity.com
 * License :: OSI Approved :: BSD License
 
+### `fastapi`
+
+* Summary: FastAPI framework, high performance, easy to learn, fast to code, ready for production
+* Version: 0.136.3
+* Pypi: https://pypi.org/project/fastapi/
+* Homepage: None
+* Author: Sebastián Ramírez <tiangolo@gmail.com>
+
 ### `fastavro`
 
 * Summary: Fast read/write of AVRO files
-* Version: 1.12.1
+* Version: 1.12.2
 * Pypi: https://pypi.org/project/fastavro/
 * Homepage: https://github.com/fastavro/fastavro
 * Author: Miki Tebeka miki.tebeka@gmail.com
@@ -214,14 +280,23 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 * Author: None
 * License :: OSI Approved :: MIT License
 
+### `filigran_sseclient`
+
+* Summary: Python API client for OpenCTI.
+* Version: 1.0.2
+* Pypi: https://pypi.org/project/filigran-sseclient/
+* Homepage: https://github.com/FiligranHQ/filigran-sseclient
+* Author: Filigran contact@filigran.io
+* License :: OSI Approved :: MIT License
+
 ### `fp-NGFW-SMC-python`
 
 * Summary: Python based API to Forcepoint NGFW Management Center
-* Version: 1.0.28
+* Version: 1.0.33
 * Pypi: https://pypi.org/project/fp-NGFW-SMC-python/
 * Homepage: None
 * Author: Forcepoint <PSIRT@forcepoint.com>
-* License: Apache 2.0
+* License: Apache License (2.0)
 
 ### `funcy`
 
@@ -250,6 +325,14 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 * Author: Tom Christie <tom@tomchristie.com>
 * License :: OSI Approved :: BSD License
 
+### `httptools`
+
+* Summary: A collection of framework independent HTTP protocol utils.
+* Version: 0.8.0
+* Pypi: https://pypi.org/project/httptools/
+* Homepage: None
+* Author: Yury Selivanov <yury@magic.io>
+
 ### `httpx`
 
 * Summary: The next generation HTTP client.
@@ -262,25 +345,41 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.17
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License: 
+
+### `importlib_metadata`
+
+* Summary: Read metadata from Python packages
+* Version: 8.7.1
+* Pypi: https://pypi.org/project/importlib-metadata/
+* Homepage: None
+* Author: "Jason R. Coombs" <jaraco@jaraco.com>
 
 ### `jbxapi`
 
 * Summary: API for Joe Sandbox
-* Version: 3.23.0
+* Version: 3.24.0
 * Pypi: https://pypi.org/project/jbxapi/
 * Homepage: None
 * Author: Joe Security LLC
 * License :: OSI Approved :: MIT License
 
+### `jmespath`
+
+* Summary: JSON Matching Expressions
+* Version: 1.1.0
+* Pypi: https://pypi.org/project/jmespath/
+* Homepage: https://github.com/jmespath/jmespath.py
+* Author: James Saryerwinnie js@jamesls.com
+* License :: OSI Approved :: MIT License
+
 ### `markdown-it-py`
 
 * Summary: Python port of markdown-it. Markdown parsing, done right!
-* Version: 3.0.0
+* Version: 4.2.0
 * Pypi: https://pypi.org/project/markdown-it-py/
 * Homepage: None
 * Author: Chris Sewell <chrisj_sewell@hotmail.com>
@@ -312,10 +411,34 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
+### `opentelemetry-api`
+
+* Summary: OpenTelemetry Python API
+* Version: 1.35.0
+* Pypi: https://pypi.org/project/opentelemetry-api/
+* Homepage: None
+* Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
+
+### `opentelemetry-sdk`
+
+* Summary: OpenTelemetry Python SDK
+* Version: 1.35.0
+* Pypi: https://pypi.org/project/opentelemetry-sdk/
+* Homepage: None
+* Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
+
+### `opentelemetry-semantic-conventions`
+
+* Summary: OpenTelemetry Semantic Conventions
+* Version: 0.56b0
+* Pypi: https://pypi.org/project/opentelemetry-semantic-conventions/
+* Homepage: None
+* Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
+
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.1
+* Version: 26.2
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -332,11 +455,27 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.1
+* Version: 26.1.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
 * License: MIT
+
+### `prometheus_client`
+
+* Summary: Python client for the Prometheus monitoring system.
+* Version: 0.25.0
+* Pypi: https://pypi.org/project/prometheus-client/
+* Homepage: None
+* Author: The Prometheus Authors <prometheus-developers@googlegroups.com>
+
+### `pycparser`
+
+* Summary: C parser in Python
+* Version: 3.0
+* Pypi: https://pypi.org/project/pycparser/
+* Homepage: None
+* Author: Eli Bendersky <eliben@gmail.com>
 
 ### `pycryptodomex`
 
@@ -351,7 +490,7 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 ### `pycti`
 
 * Summary: Python API client for OpenCTI.
-* Version: 5.3.7
+* Version: 7.260529.0
 * Pypi: https://pypi.org/project/pycti/
 * Homepage: https://github.com/OpenCTI-Platform/opencti/client-python
 * Author: Filigran contact@filigran.io
@@ -360,7 +499,7 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 ### `pydantic`
 
 * Summary: Data validation using Python type hints
-* Version: 2.11.7
+* Version: 2.13.4
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.dev>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -368,20 +507,18 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 ### `pydantic_core`
 
 * Summary: Core functionality for Pydantic validation and serialization
-* Version: 2.33.2
+* Version: 2.46.4
 * Pypi: https://pypi.org/project/pydantic_core/
 * Homepage: https://github.com/pydantic/pydantic
 * Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
-* License: MIT
 
 ### `Pygments`
 
 * Summary: Pygments is a syntax highlighting package written in Python.
-* Version: 2.19.1
+* Version: 2.20.0
 * Pypi: https://pypi.org/project/Pygments/
 * Homepage: None
 * Author: Georg Brandl <georg@python.org>
-* License: BSD-2-Clause
 
 ### `pyhcl`
 
@@ -391,6 +528,14 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 * Homepage: https://github.com/virtuald/pyhcl
 * Author: Dustin Spicuzza dustin@virtualroadside.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+
+### `PyJWT`
+
+* Summary: JSON Web Token implementation in Python
+* Version: 2.13.0
+* Pypi: https://pypi.org/project/PyJWT/
+* Homepage: None
+* Author: Jose Padilla <hello@jpadilla.com>
 
 ### `PySocks`
 
@@ -411,14 +556,23 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 * License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: BSD License
 
+### `python-dotenv`
+
+* Summary: Read key-value pairs from a .env file and set them as environment variables
+* Version: 1.2.2
+* Pypi: https://pypi.org/project/python-dotenv/
+* Homepage: None
+* Author: Saurabh Kumar <me+github@saurabh-kumar.com>
+* License: BSD-3-Clause
+
 ### `python-json-logger`
 
 * Summary: JSON Log Formatter for the Python Logging Package
-* Version: 2.0.7
+* Version: 4.0.0
 * Pypi: https://pypi.org/project/python-json-logger/
 * Homepage: None
 * Author: Zakaria Zajac <zak@madzak.com>, Nicholas Hairs <info+python-json-logger@nicholashairs.com>
-* License: BSD
+* License: BSD-2-Clause License
 
 ### `python-magic`
 
@@ -432,7 +586,7 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2025.2
+* Version: 2026.2
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -441,7 +595,7 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
-* Version: 6.0.2
+* Version: 6.0.3
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net
@@ -450,25 +604,23 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 ### `pyzipper`
 
 * Summary: AES encryption for zipfile.
-* Version: 0.3.6
+* Version: 0.4.0
 * Pypi: https://pypi.org/project/pyzipper/
 * Homepage: None
 * Author: Daniel Hillier <daniel.hillier@gmail.com>
-* License: MIT
 
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2026.5.9
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
-* License: Apache Software License
 
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.4
+* Version: 2.33.1
 * Pypi: https://pypi.org/project/requests/
 * Homepage: None
 * Author: Kenneth Reitz <me@kennethreitz.org>
@@ -495,16 +647,25 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 ### `rich`
 
 * Summary: Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
-* Version: 14.0.0
+* Version: 15.0.0
 * Pypi: https://pypi.org/project/rich/
 * Homepage: None
 * Author: Will McGugan willmcgugan@gmail.com
 * License :: OSI Approved :: MIT License
 
+### `s3transfer`
+
+* Summary: An Amazon S3 Transfer Manager
+* Version: 0.18.0
+* Pypi: https://pypi.org/project/s3transfer/
+* Homepage: https://github.com/boto/s3transfer
+* Author: Amazon Web Services kyknapp1@gmail.com
+* License :: OSI Approved :: Apache Software License
+
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 82.0.0
+* Version: 82.0.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -521,11 +682,11 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 ### `simplejson`
 
 * Summary: Simple, fast, extensible JSON encoder/decoder for Python
-* Version: 3.20.1
+* Version: 4.1.1
 * Pypi: https://pypi.org/project/simplejson/
 * Homepage: https://github.com/simplejson/simplejson
 * Author: Bob Ippolito bob@redivi.com
-* License: MIT License
+* License: MIT OR AFL-2.1
 
 ### `six`
 
@@ -536,29 +697,18 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
-### `sniffio`
+### `starlette`
 
-* Summary: Sniff out which async library your code is running under
-* Version: 1.3.1
-* Pypi: https://pypi.org/project/sniffio/
-* Homepage: 
-* Author: "Nathaniel J. Smith" <njs@pobox.com>
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: MIT License
-
-### `sseclient`
-
-* Summary: Python client library for reading Server Sent Event streams.
-* Version: 0.0.27
-* Pypi: https://pypi.org/project/sseclient/
-* Homepage: https://github.com/btubbs/sseclient
-* Author: Brent Tubbs brent.tubbs@gmail.com
-* License :: OSI Approved :: MIT License
+* Summary: The little ASGI library that shines.
+* Version: 1.2.1
+* Pypi: https://pypi.org/project/starlette/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
 
 ### `stix2`
 
 * Summary: Produce and consume STIX 2 JSON content
-* Version: 3.0.1
+* Version: 3.0.2
 * Pypi: https://pypi.org/project/stix2/
 * Homepage: https://oasis-open.github.io/cti-documentation/
 * Author: OASIS Cyber Threat Intelligence Technical Committee cti-users@lists.oasis-open.org
@@ -567,7 +717,7 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 ### `stix2-patterns`
 
 * Summary: Validate STIX 2 Patterns.
-* Version: 2.0.0
+* Version: 2.1.2
 * Pypi: https://pypi.org/project/stix2-patterns/
 * Homepage: https://github.com/oasis-open/cti-pattern-validator
 * Author: OASIS Cyber Threat Intelligence Technical Committee cti-users@lists.oasis-open.org
@@ -584,16 +734,15 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 ### `typer`
 
 * Summary: Typer, build great CLIs. Easy to code. Based on Python type hints.
-* Version: 0.16.0
+* Version: 0.26.5
 * Pypi: https://pypi.org/project/typer/
 * Homepage: None
 * Author: Sebastián Ramírez <tiangolo@gmail.com>
-* License: 
 
 ### `typing_extensions`
 
 * Summary: Backported and Experimental Type Hints for Python 3.9+
-* Version: 4.14.0
+* Version: 4.15.0
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
@@ -601,7 +750,7 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 ### `typing-inspection`
 
 * Summary: Runtime typing introspection tools
-* Version: 0.4.1
+* Version: 0.4.2
 * Pypi: https://pypi.org/project/typing-inspection/
 * Homepage: None
 * Author: Victorien Plot <contact@vctrn.dev>
@@ -623,6 +772,41 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 
+### `uvicorn`
+
+* Summary: The lightning-fast ASGI server.
+* Version: 0.48.0
+* Pypi: https://pypi.org/project/uvicorn/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+
+### `uvloop`
+
+* Summary: Fast implementation of asyncio event loop on top of libuv
+* Version: 0.22.1
+* Pypi: https://pypi.org/project/uvloop/
+* Homepage: None
+* Author: Yury Selivanov <yury@magic.io>
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: MIT License
+
+### `watchfiles`
+
+* Summary: Simple, modern and high performance file watching and code reload in python.
+* Version: 1.2.0
+* Pypi: https://pypi.org/project/watchfiles/
+* Homepage: https://github.com/samuelcolvin/watchfiles
+* Author: Samuel Colvin <s@muelcolvin.com>
+* License :: OSI Approved :: MIT License
+
+### `websockets`
+
+* Summary: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
+* Version: 16.0
+* Pypi: https://pypi.org/project/websockets/
+* Homepage: None
+* Author: Aymeric Augustin <aymeric.augustin@m4x.org>
+
 ### `wheel`
 
 * Summary: Command line tool for manipulating wheel files
@@ -630,6 +814,14 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
+
+### `zipp`
+
+* Summary: Backport of pathlib-compatible object wrapper for zip files
+* Version: 4.1.0
+* Pypi: https://pypi.org/project/zipp/
+* Homepage: None
+* Author: "Jason R. Coombs" <jaraco@jaraco.com>
 
 ## `OS Packages`
 
@@ -660,7 +852,7 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 * libcrypto3-3.5.6-r0 x86_64 {openssl}
 * libcurl-8.20.0-r1 x86_64 {curl}
 * libffi-3.5.2-r0 x86_64 {libffi}
-* libgcc-15.2.0-r3 x86_64 {gcc}
+* libgcc-15.2.0-r5 x86_64 {gcc}
 * libidn2-2.3.8-r0 x86_64 {libidn2}
 * libidn2-dev-2.3.8-r0 x86_64 {libidn2}
 * libintl-0.24.1-r1 x86_64 {gettext}
@@ -675,7 +867,7 @@ Administrative keys for demisto/vendors-sdk:1.0.0.9502264
 * librdkafka-dev-2.14.1-r0 x86_64 {librdkafka}
 * libsasl-2.1.28-r9 x86_64 {cyrus-sasl}
 * libssl3-3.5.6-r0 x86_64 {openssl}
-* libstdc++-15.2.0-r3 x86_64 {gcc}
+* libstdc++-15.2.0-r5 x86_64 {gcc}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libunistring-1.4.2-r0 x86_64 {libunistring}

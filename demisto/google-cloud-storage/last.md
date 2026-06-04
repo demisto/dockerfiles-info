@@ -1,9 +1,9 @@
-# `demisto/google-cloud-storage:1.0.0.9726609`
+# `demisto/google-cloud-storage:1.0.0.9847183`
 
 ## Docker Metadata
-- Image Size: 48.36 MB
-- Image ID: `sha256:634868b95ebb2bb69975d0413e80c1eeb0383677259b49937972294989e724df`
-- Created: `2026-06-01T17:31:31.210156057Z`
+- Image Size: 48.38 MB
+- Image ID: `sha256:4ab06f1d5425241c413725a8d7ee24efb5b796f0455bc56cd6caaedc604cd45d`
+- Created: `2026-06-04T05:33:12.47606827Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/google-cloud-storage:1.0.0.9726609`
+  - `DOCKER_IMAGE=demisto/google-cloud-storage:1.0.0.9847183`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:ed7918ea2b4fcbc02e24c075d56e3a042c9676ca`
-  - `org.opencontainers.image.version:1.0.0.9726609`
+  - `org.opencontainers.image.revision:db7a4838c08802e0c8f17629270916627840c2ea`
+  - `org.opencontainers.image.version:1.0.0.9847183`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-cloud-storage:1.0.0.9726609
+Signatures for demisto/google-cloud-storage:1.0.0.9847183
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.9726609   690f3536483c7e726b3ce77d750edd88e4aed0718fa145a1d76b40d4435bbccf   (Repo Admin)
+1.0.0.9847183   44b52e3cdfb722f954878ec25a94330134a6997b5924eefb0b3c5d56d0f8eb81   (Repo Admin)
 
-Administrative keys for demisto/google-cloud-storage:1.0.0.9726609
+Administrative keys for demisto/google-cloud-storage:1.0.0.9847183
 
   Repository Key:	2ab3d4f7a65f14d64dba54c7aded1079c285fff5ad812fc19854d63a0c782c18
   Root Key:	3c2392b332f73092db366898dd6e161ffbf0aff1d5cfedf61a69e056c49a538e
@@ -126,7 +126,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.9726609
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.30.3
+* Version: 2.31.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -153,7 +153,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.9726609
 ### `google-cloud-pubsub`
 
 * Summary: Google Cloud Pub/Sub API client library
-* Version: 2.38.0
+* Version: 2.39.0
 * Pypi: https://pypi.org/project/google-cloud-pubsub/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-pubsub
 * Author: Google LLC googleapis-packages@google.com
@@ -162,9 +162,9 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.9726609
 ### `google-cloud-storage`
 
 * Summary: Google Cloud Storage API client library
-* Version: 3.10.1
+* Version: 3.11.0
 * Pypi: https://pypi.org/project/google-cloud-storage/
-* Homepage: https://github.com/googleapis/python-storage
+* Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-storage
 * Author: Google LLC googleapis-packages@google.com
 * License :: OSI Approved :: Apache Software License
 
@@ -180,9 +180,9 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.9726609
 ### `google-resumable-media`
 
 * Summary: Utilities for Google Media Downloads and Resumable Uploads
-* Version: 2.9.0
+* Version: 2.10.0
 * Pypi: https://pypi.org/project/google-resumable-media/
-* Homepage: https://github.com/googleapis/google-resumable-media-python
+* Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-resumable-media
 * Author: Google Cloud Platform googleapis-publisher@google.com
 * License :: OSI Approved :: Apache Software License
 
@@ -207,7 +207,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.9726609
 ### `grpcio`
 
 * Summary: HTTP/2-based RPC framework
-* Version: 1.80.0
+* Version: 1.81.0
 * Pypi: https://pypi.org/project/grpcio/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -215,7 +215,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.9726609
 ### `grpcio-status`
 
 * Summary: Status proto mapping for gRPC
-* Version: 1.80.0
+* Version: 1.81.0
 * Pypi: https://pypi.org/project/grpcio-status/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -223,7 +223,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.9726609
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.16
+* Version: 3.18
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -298,7 +298,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.9726609
 ### `protobuf`
 
 * Summary: None
-* Version: 6.33.6
+* Version: 7.35.0
 * Pypi: https://pypi.org/project/protobuf/
 * Homepage: https://developers.google.com/protocol-buffers/
 * Author: protobuf@googlegroups.com protobuf@googlegroups.com
