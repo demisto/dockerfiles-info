@@ -1,9 +1,9 @@
-# `demisto/taegis-sdk-python:1.0.0.9397137`
+# `demisto/taegis-sdk-python:1.0.0.9898764`
 
 ## Docker Metadata
-- Image Size: 40.41 MB
-- Image ID: `sha256:ddac230f092d4742a528f65fe1293d61527fdc7c3d488fa3e869bfa9e36e9342`
-- Created: `2026-05-26T23:35:34.657904557Z`
+- Image Size: 40.48 MB
+- Image ID: `sha256:9a23a33a8267ebae2c6b12dcab32e5cf117f50450709db41fa1c0134dd026fe8`
+- Created: `2026-06-06T23:48:10.099142887Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/taegis-sdk-python:1.0.0.9397137`
+  - `DOCKER_IMAGE=demisto/taegis-sdk-python:1.0.0.9898764`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:582996af77192e7d72eea75f526b286894c03655`
-  - `org.opencontainers.image.version:1.0.0.9397137`
+  - `org.opencontainers.image.revision:139bfee314257e39b04ec94b796b6587aa360471`
+  - `org.opencontainers.image.version:1.0.0.9898764`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/taegis-sdk-python:1.0.0.9397137
+Signatures for demisto/taegis-sdk-python:1.0.0.9898764
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.9397137   a1359b487723a0b9702a87a1fe5540e11748657e30e1d462888e98e809b45a06   (Repo Admin)
+1.0.0.9898764   a64150a35e7e4cd694ce56015788ff664f797a6ccd538a12ee265fc5de3af266   (Repo Admin)
 
-Administrative keys for demisto/taegis-sdk-python:1.0.0.9397137
+Administrative keys for demisto/taegis-sdk-python:1.0.0.9898764
 
   Repository Key:	5adfc3de73d3fba8d8bec6eaa61ea68538d8f17fafe647c69721a127bac1649c
   Root Key:	6173d20ae6055adefcf7d467dae31a8f0ebef28cc95a8f7200e3d7426bc53f73
@@ -56,7 +56,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9397137
 ### `aiohttp`
 
 * Summary: Async http client/server framework (asyncio)
-* Version: 3.13.5
+* Version: 3.14.0
 * Pypi: https://pypi.org/project/aiohttp/
 * Homepage: None
 * Author: None
@@ -154,7 +154,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9397137
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.29.0
+* Version: 3.29.1
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -190,7 +190,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9397137
 ### `graphql-core`
 
 * Summary: GraphQL implementation for Python, a port of GraphQL.js, the JavaScript reference implementation for GraphQL.
-* Version: 3.2.8
+* Version: 3.2.11
 * Pypi: https://pypi.org/project/graphql-core/
 * Homepage: https://github.com/graphql-python/graphql-core
 * Author: Christoph Zwerschke cito@online.de
@@ -199,7 +199,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9397137
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.16
+* Version: 3.18
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -284,7 +284,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9397137
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.1
+* Version: 26.1.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -408,7 +408,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9397137
 ### `taegis-sdk-python`
 
 * Summary: Taegis Python SDK
-* Version: 1.6.16
+* Version: 1.6.17
 * Pypi: https://pypi.org/project/taegis-sdk-python/
 * Homepage: None
 * Author: Micah Pegman <sdks@secureworks.com>

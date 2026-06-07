@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.9845633`
+# `demisto/google-vision-api:1.0.0.9898764`
 
 ## Docker Metadata
-- Image Size: 121.98 MB
-- Image ID: `sha256:06cba0306a62e4373400effd25c044650ce87396077f19aaedb2caa60555225b`
-- Created: `2026-06-04T02:37:08.981026459Z`
+- Image Size: 122.02 MB
+- Image ID: `sha256:869a7e0bde23b5604b04849117503131d5e97251a234d234c607da13f54736db`
+- Created: `2026-06-06T23:42:25.317356493Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.9845633`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.9898764`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:18a4bb5b91046bb272ca41ae87bd8343e6aafff4`
-  - `org.opencontainers.image.version:1.0.0.9845633`
+  - `org.opencontainers.image.revision:139bfee314257e39b04ec94b796b6587aa360471`
+  - `org.opencontainers.image.version:1.0.0.9898764`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-vision-api:1.0.0.9845633
+Signatures for demisto/google-vision-api:1.0.0.9898764
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.9845633   50d40de2892dd6ed10dfa8160976d1c09d2a5a7a90235153cb73e6c5a05ee2e7   (Repo Admin)
+1.0.0.9898764   405b51e7f1c92ee803776c6dff934e0a01d859f707bfb0c610b6950261242613   (Repo Admin)
 
-Administrative keys for demisto/google-vision-api:1.0.0.9845633
+Administrative keys for demisto/google-vision-api:1.0.0.9898764
 
   Repository Key:	8f699c169d21da1343c2ea4f465fe5f19ace3822c0fd85c2d1a054379abf30dd
   Root Key:	23130201a9ea6e060cceb9cf5a1998649873c190c980fe0d6c487df1fadbc6ef
@@ -216,7 +216,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.9845633
 ### `google-cloud-aiplatform`
 
 * Summary: Vertex AI API client library
-* Version: 1.155.0
+* Version: 1.156.0
 * Pypi: https://pypi.org/project/google-cloud-aiplatform/
 * Homepage: https://github.com/googleapis/python-aiplatform
 * Author: Google LLC googleapis-packages@google.com
@@ -279,7 +279,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.9845633
 ### `google-genai`
 
 * Summary: GenAI Python SDK
-* Version: 2.7.0
+* Version: 2.8.0
 * Pypi: https://pypi.org/project/google-genai/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
