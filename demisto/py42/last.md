@@ -1,9 +1,9 @@
-# `demisto/py42:1.0.0.9059085`
+# `demisto/py42:1.0.0.9923115`
 
 ## Docker Metadata
-- Image Size: 42.98 MB
-- Image ID: `sha256:5745b25560af2742edca3750cb16a6075b8efe969d308568bf3726c87615ea2a`
-- Created: `2026-05-16T23:52:09.996794515Z`
+- Image Size: 42.95 MB
+- Image ID: `sha256:9b53a06a058c267b81404e45fa6ba999843650314e4eeead829e07649e0667ef`
+- Created: `2026-06-07T14:37:51.250543849Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/py42:1.0.0.9059085`
+  - `DOCKER_IMAGE=demisto/py42:1.0.0.9923115`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:71e82694117520902dd8affb536dd007b7b35286`
-  - `org.opencontainers.image.version:1.0.0.9059085`
+  - `org.opencontainers.image.revision:d1d62768baa261e7c861a57a7fdac1bb2de0f501`
+  - `org.opencontainers.image.version:1.0.0.9923115`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py42:1.0.0.9059085
+Signatures for demisto/py42:1.0.0.9923115
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.9059085   e015dfbe9f5ab613035d13f87c53e183fbb574b7059e137e5a59d5c0cc2de5da   (Repo Admin)
+1.0.0.9923115   25ee95ae5c3f7c9b008ea3769baf0e0aedaaaa03174c3796e732bce7ec26f830   (Repo Admin)
 
-Administrative keys for demisto/py42:1.0.0.9059085
+Administrative keys for demisto/py42:1.0.0.9923115
 
   Repository Key:	3c75429c5eb61fb0aac581ea5b93eb9af0c83e8f13ee6564514dc6dfd78596c6
   Root Key:	12bc1f08d14709a595beca8be8435a3758c8440cae99f67152d04ac3f7fcd556
@@ -65,7 +65,7 @@ Administrative keys for demisto/py42:1.0.0.9059085
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.4.22
+* Version: 2026.5.20
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -128,7 +128,7 @@ Administrative keys for demisto/py42:1.0.0.9059085
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.15
+* Version: 3.18
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -145,7 +145,7 @@ Administrative keys for demisto/py42:1.0.0.9059085
 ### `markdown-it-py`
 
 * Summary: Python port of markdown-it. Markdown parsing, done right!
-* Version: 4.0.0
+* Version: 4.2.0
 * Pypi: https://pypi.org/project/markdown-it-py/
 * Homepage: None
 * Author: Chris Sewell <chrisj_sewell@hotmail.com>
@@ -188,7 +188,7 @@ Administrative keys for demisto/py42:1.0.0.9059085
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.1
+* Version: 26.1.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -206,7 +206,7 @@ Administrative keys for demisto/py42:1.0.0.9059085
 ### `pydantic`
 
 * Summary: Data validation using Python type hints
-* Version: 2.13.3
+* Version: 2.13.4
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.dev>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -214,7 +214,7 @@ Administrative keys for demisto/py42:1.0.0.9059085
 ### `pydantic_core`
 
 * Summary: Core functionality for Pydantic validation and serialization
-* Version: 2.46.3
+* Version: 2.46.4
 * Pypi: https://pypi.org/project/pydantic_core/
 * Homepage: https://github.com/pydantic/pydantic
 * Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -222,7 +222,7 @@ Administrative keys for demisto/py42:1.0.0.9059085
 ### `pydantic-settings`
 
 * Summary: Settings management using Pydantic
-* Version: 2.14.0
+* Version: 2.14.1
 * Pypi: https://pypi.org/project/pydantic-settings/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>

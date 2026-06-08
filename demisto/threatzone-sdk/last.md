@@ -1,27 +1,27 @@
-# `demisto/datadog-api-client:1.0.0.6210030`
+# `demisto/threatzone-sdk:1.0.3.9923115`
 
 ## Docker Metadata
-- Image Size: 33.64 MB
-- Image ID: `sha256:6de398e8aa0e39d7b5988b98844c4851cd3ad4a290b34ef50fb86213c4b46386`
-- Created: `2025-12-09T14:23:08.239467099Z`
+- Image Size: 33.93 MB
+- Image ID: `sha256:e5262ae2a02f7a4811edb306d18d099d78bb6dfa9647097882f59ab3aa44450a`
+- Created: `2026-06-07T14:38:45.558760202Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.12`
-  - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/datadog-api-client:1.0.0.6210030`
+  - `PYTHON_VERSION=3.12.13`
+  - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
+  - `DOCKER_IMAGE=demisto/threatzone-sdk:1.0.3.9923115`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:de958012c6342ca78365b345065caf8c8409a4e3`
-  - `org.opencontainers.image.version:1.0.0.6210030`
+  - `org.opencontainers.image.revision:d1d62768baa261e7c861a57a7fdac1bb2de0f501`
+  - `org.opencontainers.image.version:1.0.3.9923115`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.23.0`
+  - `VERSION_ID=3.23.4`
   - `PRETTY_NAME="Alpine Linux v3.23"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -29,25 +29,42 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/datadog-api-client:1.0.0.6210030
+Signatures for demisto/threatzone-sdk:1.0.3.9923115
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.6210030   d2aeef52b33ef0752790bc093e17e1cb074cdda2e6700e66bd8a02f79c7bb9eb   (Repo Admin)
+1.0.3.9923115   035793925b51eb211aec194b6c70811dbbb3148535f6931e1cc3c8c0999e0ac7   (Repo Admin)
 
-Administrative keys for demisto/datadog-api-client:1.0.0.6210030
+Administrative keys for demisto/threatzone-sdk:1.0.3.9923115
 
-  Repository Key:	656d78d0ce1bf497326f1f73e1748d6dc41faace8487b29f8cf74838cf932cd9
-  Root Key:	f37ef2584cf450f8c9dd9e8721f92ef81e852897ae167f699bb2c8bffa6ecd86
+  Repository Key:	13c992281402ae4d786c408fb729f54392e41435adf3c019a4be904878f1a389
+  Root Key:	241211c38d515274dc0a41b86dd719350909ff7edf1ed87dbd0743accd241afa
 
 ```
 
 ## `Python Packages`
 
 
+### `annotated-types`
+
+* Summary: Reusable constraint types to use with typing.Annotated
+* Version: 0.7.0
+* Pypi: https://pypi.org/project/annotated-types/
+* Homepage: None
+* Author: Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Samuel Colvin <s@muelcolvin.com>, Zac Hatfield-Dodds <zac@zhd.dev>
+* License :: OSI Approved :: MIT License
+
+### `anyio`
+
+* Summary: High-level concurrency and networking framework on top of asyncio or Trio
+* Version: 4.13.0
+* Pypi: https://pypi.org/project/anyio/
+* Homepage: None
+* Author: Alex Grönholm <alex.gronholm@nextday.fi>
+
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.11.12
+* Version: 2026.5.20
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -56,25 +73,16 @@ Administrative keys for demisto/datadog-api-client:1.0.0.6210030
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.3
+* Version: 3.4.7
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
 * License: MIT
 
-### `datadog-api-client`
-
-* Summary: Collection of all Datadog Public endpoints
-* Version: 2.47.0
-* Pypi: https://pypi.org/project/datadog-api-client/
-* Homepage: https://github.com/DataDog/datadog-api-client-python
-* Author: Datadog, Inc. packages@datadoghq.com
-* License :: OSI Approved :: BSD License
-
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.2.2
+* Version: 1.4.0
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub opensource@zyte.com
@@ -101,11 +109,11 @@ Administrative keys for demisto/datadog-api-client:1.0.0.6210030
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.18.0
+* Version: 3.20.3
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -116,14 +124,40 @@ Administrative keys for demisto/datadog-api-client:1.0.0.6210030
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
+### `h11`
+
+* Summary: A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
+* Version: 0.16.0
+* Pypi: https://pypi.org/project/h11/
+* Homepage: https://github.com/python-hyper/h11
+* Author: Nathaniel J. Smith njs@pobox.com
+* License :: OSI Approved :: MIT License
+
+### `httpcore`
+
+* Summary: A minimal low-level HTTP client.
+* Version: 1.0.9
+* Pypi: https://pypi.org/project/httpcore/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+* License :: OSI Approved :: BSD License
+
+### `httpx`
+
+* Summary: The next generation HTTP client.
+* Version: 0.28.1
+* Pypi: https://pypi.org/project/httpx/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+* License :: OSI Approved :: BSD License
+
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.10
+* Version: 3.17
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-* License: 
 
 ### `more-itertools`
 
@@ -142,14 +176,38 @@ Administrative keys for demisto/datadog-api-client:1.0.0.6210030
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
+### `packaging`
+
+* Summary: Core utilities for Python packages
+* Version: 26.1
+* Pypi: https://pypi.org/project/packaging/
+* Homepage: None
+* Author: Donald Stufft <donald@stufft.io>
+
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.3
+* Version: 26.1.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
 * License: MIT
+
+### `pydantic`
+
+* Summary: Data validation using Python type hints
+* Version: 2.13.4
+* Pypi: https://pypi.org/project/pydantic/
+* Homepage: None
+* Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.dev>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
+
+### `pydantic_core`
+
+* Summary: Core functionality for Pydantic validation and serialization
+* Version: 2.46.4
+* Pypi: https://pypi.org/project/pydantic_core/
+* Homepage: https://github.com/pydantic/pydantic
+* Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
 
 ### `PySocks`
 
@@ -173,7 +231,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.6210030
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2025.2
+* Version: 2026.1.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -191,25 +249,24 @@ Administrative keys for demisto/datadog-api-client:1.0.0.6210030
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2024.11.6
+* Version: 2026.2.28
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
-* License: Apache Software License
 
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.5
+* Version: 2.34.2
 * Pypi: https://pypi.org/project/requests/
-* Homepage: https://requests.readthedocs.io
-* Author: Kenneth Reitz me@kennethreitz.org
+* Homepage: None
+* Author: Kenneth Reitz <me@kennethreitz.org>
 * License :: OSI Approved :: Apache Software License
 
 ### `requests-file`
 
 * Summary: File transport adapter for Requests
-* Version: 2.1.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/requests-file/
 * Homepage: None
 * Author: David Shea <reallylongword@gmail.com>
@@ -217,8 +274,8 @@ Administrative keys for demisto/datadog-api-client:1.0.0.6210030
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.9.0
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
+* Version: 82.0.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -232,14 +289,22 @@ Administrative keys for demisto/datadog-api-client:1.0.0.6210030
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
+### `threatzone`
+
+* Summary: Python SDK for the Threat.Zone malware analysis platform
+* Version: 1.0.3
+* Pypi: https://pypi.org/project/threatzone/
+* Homepage: None
+* Author: Malwation <info@malwation.com>
+* License :: OSI Approved :: MIT License
+
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.0
+* Version: 5.3.1
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
-* License :: OSI Approved :: BSD License
 
 ### `typing_extensions`
 
@@ -248,6 +313,14 @@ Administrative keys for demisto/datadog-api-client:1.0.0.6210030
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
+
+### `typing-inspection`
+
+* Summary: Runtime typing introspection tools
+* Version: 0.4.2
+* Pypi: https://pypi.org/project/typing-inspection/
+* Homepage: None
+* Author: Victorien Plot <contact@vctrn.dev>
 
 ### `tzlocal`
 
@@ -261,48 +334,56 @@ Administrative keys for demisto/datadog-api-client:1.0.0.6210030
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.6.1
+* Version: 2.7.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
 
+### `wheel`
+
+* Summary: Command line tool for manipulating wheel files
+* Version: 0.47.0
+* Pypi: https://pypi.org/project/wheel/
+* Homepage: None
+* Author: Daniel Holth <dholth@fastmail.fm>
+
 ## `OS Packages`
 
-* .python-rundeps-20251204.004031 noarch {.python-rundeps}
-* alpine-baselayout-3.7.1-r8 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.7.1-r8 x86_64 {alpine-baselayout}
+* .python-rundeps-20260415.205216 noarch {.python-rundeps}
+* alpine-baselayout-3.7.2-r0 x86_64 {alpine-baselayout}
+* alpine-baselayout-data-3.7.2-r0 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.23.0-r0 x86_64 {alpine-base}
-* apk-tools-3.0.1-r1 x86_64 {apk-tools}
-* busybox-1.37.0-r29 x86_64 {busybox}
-* busybox-binsh-1.37.0-r29 x86_64 {busybox}
-* ca-certificates-20251003-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20251003-r0 x86_64 {ca-certificates}
+* alpine-release-3.23.4-r0 x86_64 {alpine-base}
+* apk-tools-3.0.6-r0 x86_64 {apk-tools}
+* busybox-1.37.0-r30 x86_64 {busybox}
+* busybox-binsh-1.37.0-r30 x86_64 {busybox}
+* ca-certificates-20260413-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20260413-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.1-r0 x86_64 {krb5}
-* libapk-3.0.1-r1 x86_64 {apk-tools}
+* libapk-3.0.6-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.4-r0 x86_64 {openssl}
+* libcrypto3-3.5.6-r0 x86_64 {openssl}
 * libffi-3.5.2-r0 x86_64 {libffi}
 * libintl-0.24.1-r1 x86_64 {gettext}
 * libncursesw-6.5_p20251123-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
 * libpanelw-6.5_p20251123-r0 x86_64 {ncurses}
-* libssl3-3.5.4-r0 x86_64 {openssl}
+* libssl3-3.5.6-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
-* libuuid-2.41.2-r0 x86_64 {util-linux}
+* libuuid-2.41.4-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.5-r21 x86_64 {musl}
-* musl-utils-1.2.5-r21 x86_64 {musl}
+* musl-1.2.5-r23 x86_64 {musl}
+* musl-utils-1.2.5-r23 x86_64 {musl}
 * ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
 * readline-8.3.1-r0 x86_64 {readline}
 * scanelf-1.3.8-r2 x86_64 {pax-utils}
-* sqlite-libs-3.51.1-r0 x86_64 {sqlite}
-* ssl_client-1.37.0-r29 x86_64 {busybox}
-* tzdata-2025b-r0 x86_64 {tzdata}
-* xz-libs-5.8.1-r0 x86_64 {xz}
-* zlib-1.3.1-r2 x86_64 {zlib}
+* sqlite-libs-3.51.2-r0 x86_64 {sqlite}
+* ssl_client-1.37.0-r30 x86_64 {busybox}
+* tzdata-2026b-r0 x86_64 {tzdata}
+* xz-libs-5.8.3-r0 x86_64 {xz}
+* zlib-1.3.2-r0 x86_64 {zlib}

@@ -1,9 +1,9 @@
-# `demisto/py3-tools:1.0.0.8544956`
+# `demisto/py3-tools:1.0.0.9923115`
 
 ## Docker Metadata
-- Image Size: 69.73 MB
-- Image ID: `sha256:ab8f7afd833221158241a48a5876f2e40772e1f45dbe2aa3f2e02706ca59075d`
-- Created: `2026-04-28T17:42:23.354561229Z`
+- Image Size: 70.04 MB
+- Image ID: `sha256:fc4c28fcb11cf2a1c414afb14159b0dac3eca2b4d5835f9911e5f67b2cc1dc3b`
+- Created: `2026-06-07T14:35:57.22064937Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/py3-tools:1.0.0.8544956`
+  - `DOCKER_IMAGE=demisto/py3-tools:1.0.0.9923115`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:7b8110c53aa0dc242970d1c2c250865b29538739`
-  - `org.opencontainers.image.version:1.0.0.8544956`
+  - `org.opencontainers.image.revision:d1d62768baa261e7c861a57a7fdac1bb2de0f501`
+  - `org.opencontainers.image.version:1.0.0.9923115`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py3-tools:1.0.0.8544956
+Signatures for demisto/py3-tools:1.0.0.9923115
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8544956   dbb71aeb850ceed89711878ad554576616ec7fb0eaae6f91e95efb35b1d0f910   (Repo Admin)
+1.0.0.9923115   3bdcc22be15e814812e6460e789bcaf8e6ff7bdbd65fd843a4b3aad66faa43f1   (Repo Admin)
 
-Administrative keys for demisto/py3-tools:1.0.0.8544956
+Administrative keys for demisto/py3-tools:1.0.0.9923115
 
   Repository Key:	1b56229e5721c693499b3207de8556f64f4132a6f26e179574b23c3a4cb1ea83
   Root Key:	2f6650ee63d96525c75c75b7122a6e9ac95c253c019bb768504bdc9179c1bd7c
@@ -437,7 +437,7 @@ Administrative keys for demisto/py3-tools:1.0.0.8544956
 ### `imap-tools`
 
 * Summary: Work with email by IMAP
-* Version: 1.11.1
+* Version: 1.13.0
 * Pypi: https://pypi.org/project/imap-tools/
 * Homepage: https://github.com/ikvk/imap_tools
 * Author: Vladimir Kaukin KaukinVK@ya.ru
@@ -613,7 +613,7 @@ Administrative keys for demisto/py3-tools:1.0.0.8544956
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1
+* Version: 26.1.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -776,9 +776,9 @@ Administrative keys for demisto/py3-tools:1.0.0.8544956
 * Summary: AES encryption for zipfile.
 * Version: 0.3.6
 * Pypi: https://pypi.org/project/pyzipper/
-* Homepage: https://github.com/danifus/pyzipper
-* Author: Daniel Hillier daniel.hillier@gmail.com
-* License :: OSI Approved :: MIT License
+* Homepage: None
+* Author: Daniel Hillier <daniel.hillier@gmail.com>
+* License: MIT
 
 ### `regex`
 
@@ -918,7 +918,7 @@ Administrative keys for demisto/py3-tools:1.0.0.8544956
 * Summary: Python STOMP client, supporting versions 1.0, 1.1 and 1.2 of the protocol
 * Version: 8.2.0
 * Pypi: https://pypi.org/project/stomp.py/
-* Homepage: https://github.com/jasonrbriggs/stomp.py
+* Homepage: None
 * Author: Jason R Briggs jasonrbriggs@gmail.com
 * License :: OSI Approved :: Apache Software License
 
@@ -1003,7 +1003,7 @@ Administrative keys for demisto/py3-tools:1.0.0.8544956
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.6.3
+* Version: 2.7.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
