@@ -1,9 +1,9 @@
-# `demisto/sklearn:1.0.0.8969573`
+# `demisto/sklearn:1.0.0.9964932`
 
 ## Docker Metadata
-- Image Size: 250.57 MB
-- Image ID: `sha256:187f117ebed001a58ac0e8b627ad20bcce00df7ce3449662e3cf326d931332b7`
-- Created: `2026-05-13T05:46:24.222341057Z`
+- Image Size: 250.62 MB
+- Image ID: `sha256:c6356f8cd2a4a42af57ddc4b4521c41a0d5e7e473ae034cbd169bf56eb2f02a9`
+- Created: `2026-06-08T17:39:25.336645203Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,14 +12,14 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/sklearn:1.0.0.8969573`
+  - `DOCKER_IMAGE=demisto/sklearn:1.0.0.9964932`
   - `NLTK_DATA=/ml/nltk_data`
   - `OPENBLAS_NUM_THREADS=1`
   - `OMP_NUM_THREADS=4`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b18087dc4a6ce3516583af3315b5c5292fa02c96`
-  - `org.opencontainers.image.version:1.0.0.8969573`
+  - `org.opencontainers.image.revision:5782dd74110205dc452620249afe25f84d43072c`
+  - `org.opencontainers.image.version:1.0.0.9964932`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sklearn:1.0.0.8969573
+Signatures for demisto/sklearn:1.0.0.9964932
 
 SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8969573   ddbc2009d2bfdcc16855067b9e9738dd6a1ac157a15a469b3f2ca3cc31467973   (Repo Admin)
+1.0.0.9964932   33d891f811cfe7370858afde119fd01011eb01e076e77c6ae559529ecd241496   (Repo Admin)
 
-Administrative keys for demisto/sklearn:1.0.0.8969573
+Administrative keys for demisto/sklearn:1.0.0.9964932
 
   Repository Key:	2475832d78c902e8999df2055c0f69226a85caf5ee20d300c05ffb6e87dd9f7c
   Root Key:	8ab906212f9f7b6d82f5edb3d677b0df40095899339fa0b36ecd00b68b304458
@@ -50,7 +50,7 @@ Administrative keys for demisto/sklearn:1.0.0.8969573
 ### `beautifulsoup4`
 
 * Summary: Screen-scraping library
-* Version: 4.14.3
+* Version: 4.15.0
 * Pypi: https://pypi.org/project/beautifulsoup4/
 * Homepage: None
 * Author: Leonard Richardson <leonardr@segfault.org>
@@ -180,7 +180,7 @@ Administrative keys for demisto/sklearn:1.0.0.8969573
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.4.4
+* Version: 2.4.6
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.
@@ -214,7 +214,7 @@ Administrative keys for demisto/sklearn:1.0.0.8969573
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.1
+* Version: 26.1.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -320,7 +320,7 @@ Administrative keys for demisto/sklearn:1.0.0.8969573
 ### `soupsieve`
 
 * Summary: A modern CSS selector implementation for Beautiful Soup.
-* Version: 2.8.3
+* Version: 2.8.4
 * Pypi: https://pypi.org/project/soupsieve/
 * Homepage: None
 * Author: Isaac Muse <Isaac.Muse@gmail.com>
