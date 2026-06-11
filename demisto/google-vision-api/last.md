@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.9898764`
+# `demisto/google-vision-api:1.0.0.10038503`
 
 ## Docker Metadata
-- Image Size: 122.02 MB
-- Image ID: `sha256:869a7e0bde23b5604b04849117503131d5e97251a234d234c607da13f54736db`
-- Created: `2026-06-06T23:42:25.317356493Z`
+- Image Size: 122.04 MB
+- Image ID: `sha256:dabc66e85845fee647129efd0d3bc472c36d22fdf1cd2419ed6523a37e5f8398`
+- Created: `2026-06-10T17:41:19.201135229Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.9898764`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.10038503`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:139bfee314257e39b04ec94b796b6587aa360471`
-  - `org.opencontainers.image.version:1.0.0.9898764`
+  - `org.opencontainers.image.revision:bf1d844f27e65dd4a4b96b7d42d146b0d21689a9`
+  - `org.opencontainers.image.version:1.0.0.10038503`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-vision-api:1.0.0.9898764
+Signatures for demisto/google-vision-api:1.0.0.10038503
 
-SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.9898764   405b51e7f1c92ee803776c6dff934e0a01d859f707bfb0c610b6950261242613   (Repo Admin)
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.10038503   6607fdccbb3c6a9fb610acd5642e979f98572ed01eb9b83a52beee38925ccf65   (Repo Admin)
 
-Administrative keys for demisto/google-vision-api:1.0.0.9898764
+Administrative keys for demisto/google-vision-api:1.0.0.10038503
 
   Repository Key:	8f699c169d21da1343c2ea4f465fe5f19ace3822c0fd85c2d1a054379abf30dd
   Root Key:	23130201a9ea6e060cceb9cf5a1998649873c190c980fe0d6c487df1fadbc6ef
@@ -109,7 +109,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.9898764
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 48.0.0
+* Version: 48.0.1
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -216,7 +216,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.9898764
 ### `google-cloud-aiplatform`
 
 * Summary: Vertex AI API client library
-* Version: 1.156.0
+* Version: 1.157.0
 * Pypi: https://pypi.org/project/google-cloud-aiplatform/
 * Homepage: https://github.com/googleapis/python-aiplatform
 * Author: Google LLC googleapis-packages@google.com

@@ -1,9 +1,9 @@
-# `demisto/flask-nginx:1.0.0.8969573`
+# `demisto/flask-nginx:1.0.0.10049856`
 
 ## Docker Metadata
-- Image Size: 56.44 MB
-- Image ID: `sha256:9e471dc4de3f90bab912d6d8b407afb9aafb2709569c8029541536d23b3804de`
-- Created: `2026-05-13T05:32:27.849286968Z`
+- Image Size: 56.73 MB
+- Image ID: `sha256:d478ba3994d5100baf024169a1a20f7de1137eb96e4c80d3b26f707c7e75406f`
+- Created: `2026-06-11T05:33:16.01978806Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,12 +12,12 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/flask-nginx:1.0.0.8969573`
+  - `DOCKER_IMAGE=demisto/flask-nginx:1.0.0.10049856`
   - `TLDEXTRACT_CACHE=/tldextractcahce`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b18087dc4a6ce3516583af3315b5c5292fa02c96`
-  - `org.opencontainers.image.version:1.0.0.8969573`
+  - `org.opencontainers.image.revision:bcb64433a82b097f2a2cc16330ec779caaca65d0`
+  - `org.opencontainers.image.version:1.0.0.10049856`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -30,12 +30,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/flask-nginx:1.0.0.8969573
+Signatures for demisto/flask-nginx:1.0.0.10049856
 
-SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8969573   b862514e5703db39fdcbe540ecaafa72079289cb98c7158624dae2df197464fb   (Repo Admin)
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.10049856   a6dd64651f8cd7d9cdf7ab087ec945f44c57df4a9050af18b8d5740d4cca321f   (Repo Admin)
 
-Administrative keys for demisto/flask-nginx:1.0.0.8969573
+Administrative keys for demisto/flask-nginx:1.0.0.10049856
 
   Repository Key:	cd63e9ddedff7202ae30dbdf34477d2a1fff7906e95e8e7f2f3af318667b30dc
   Root Key:	cfc5a8f3acd3234daa9939e8b8f675e46931b2d3ab302521f4a391a28dfd2750
@@ -84,7 +84,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.8969573
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.4.22
+* Version: 2026.5.20
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -110,7 +110,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.8969573
 ### `click`
 
 * Summary: Composable command line interface toolkit
-* Version: 8.3.3
+* Version: 8.4.1
 * Pypi: https://pypi.org/project/click/
 * Homepage: None
 * Author: None
@@ -153,7 +153,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.8969573
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.29.0
+* Version: 3.29.3
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -188,7 +188,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.8969573
 ### `gevent`
 
 * Summary: Coroutine-based network library
-* Version: 26.4.0
+* Version: 26.5.0
 * Pypi: https://pypi.org/project/gevent/
 * Homepage: http://www.gevent.org/
 * Author: Denis Bilenko denis.bilenko@gmail.com
@@ -197,7 +197,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.8969573
 ### `greenlet`
 
 * Summary: Lightweight in-process concurrent programming
-* Version: 3.5.0
+* Version: 3.5.1
 * Pypi: https://pypi.org/project/greenlet/
 * Homepage: None
 * Author: Alexey Borzenkov <snaury@gmail.com>
@@ -205,7 +205,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.8969573
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.15
+* Version: 3.18
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -282,7 +282,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.8969573
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.1
+* Version: 26.1.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -364,9 +364,9 @@ Administrative keys for demisto/flask-nginx:1.0.0.8969573
 * Summary: AES encryption for zipfile.
 * Version: 0.3.6
 * Pypi: https://pypi.org/project/pyzipper/
-* Homepage: https://github.com/danifus/pyzipper
-* Author: Daniel Hillier daniel.hillier@gmail.com
-* License :: OSI Approved :: MIT License
+* Homepage: None
+* Author: Daniel Hillier <daniel.hillier@gmail.com>
+* License: MIT
 
 ### `regex`
 
@@ -379,7 +379,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.8969573
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.34.0
+* Version: 2.34.2
 * Pypi: https://pypi.org/project/requests/
 * Homepage: None
 * Author: Kenneth Reitz <me@kennethreitz.org>
@@ -498,7 +498,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.8969573
 ### `zope.interface`
 
 * Summary: Interfaces for Python
-* Version: 8.4
+* Version: 8.5
 * Pypi: https://pypi.org/project/zope.interface/
 * Homepage: None
 * Author: Zope Foundation and contributors <zope-dev@zope.dev>
@@ -536,7 +536,7 @@ Administrative keys for demisto/flask-nginx:1.0.0.8969573
 * musl-1.2.5-r23 x86_64 {musl}
 * musl-utils-1.2.5-r23 x86_64 {musl}
 * ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
-* nginx-1.28.3-r0 x86_64 {nginx}
+* nginx-1.28.3-r3 x86_64 {nginx}
 * pcre2-10.47-r0 x86_64 {pcre2}
 * readline-8.3.1-r0 x86_64 {readline}
 * scanelf-1.3.8-r2 x86_64 {pax-utils}
