@@ -1,9 +1,9 @@
-# `demisto/py42:1.0.0.9923115`
+# `demisto/py42:1.0.0.10120494`
 
 ## Docker Metadata
-- Image Size: 42.95 MB
-- Image ID: `sha256:9b53a06a058c267b81404e45fa6ba999843650314e4eeead829e07649e0667ef`
-- Created: `2026-06-07T14:37:51.250543849Z`
+- Image Size: 41.61 MB
+- Image ID: `sha256:3b83b94b8d2067ca102c8c074433cf8750089e6125657d8e63ac7173c6822f07`
+- Created: `2026-06-14T05:55:29.776509929Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,29 +12,29 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/py42:1.0.0.9923115`
+  - `DOCKER_IMAGE=demisto/py42:1.0.0.10120494`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d1d62768baa261e7c861a57a7fdac1bb2de0f501`
-  - `org.opencontainers.image.version:1.0.0.9923115`
+  - `org.opencontainers.image.revision:beab5396de416b6cb91c551932ae2995cfc712a0`
+  - `org.opencontainers.image.version:1.0.0.10120494`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.23.3`
-  - `PRETTY_NAME="Alpine Linux v3.23"`
+  - `VERSION_ID=3.24.1`
+  - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/py42:1.0.0.9923115
+Signatures for demisto/py42:1.0.0.10120494
 
-SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.9923115   25ee95ae5c3f7c9b008ea3769baf0e0aedaaaa03174c3796e732bce7ec26f830   (Repo Admin)
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.10120494   0129baf5ddd7fcd7a7cf238320e4b24a36765f3783b7fbb7d7cd396e57aec471   (Repo Admin)
 
-Administrative keys for demisto/py42:1.0.0.9923115
+Administrative keys for demisto/py42:1.0.0.10120494
 
   Repository Key:	3c75429c5eb61fb0aac581ea5b93eb9af0c83e8f13ee6564514dc6dfd78596c6
   Root Key:	12bc1f08d14709a595beca8be8435a3758c8440cae99f67152d04ac3f7fcd556
@@ -180,7 +180,7 @@ Administrative keys for demisto/py42:1.0.0.9923115
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.0
+* Version: 26.1
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -267,7 +267,7 @@ Administrative keys for demisto/py42:1.0.0.9923115
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.1.post1
+* Version: 2026.2
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -285,7 +285,7 @@ Administrative keys for demisto/py42:1.0.0.9923115
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.4.4
+* Version: 2026.5.9
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -387,48 +387,48 @@ Administrative keys for demisto/py42:1.0.0.9923115
 ### `wheel`
 
 * Summary: Command line tool for manipulating wheel files
-* Version: 0.46.3
+* Version: 0.47.0
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
 
 ## `OS Packages`
 
-* .python-rundeps-20260303.201742 noarch {.python-rundeps}
-* alpine-baselayout-3.7.2-r0 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.7.2-r0 x86_64 {alpine-baselayout}
+* .python-rundeps-20260610.204951 noarch {.python-rundeps}
+* alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
+* alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.23.3-r0 x86_64 {alpine-base}
-* apk-tools-3.0.5-r0 x86_64 {apk-tools}
-* busybox-1.37.0-r30 x86_64 {busybox}
-* busybox-binsh-1.37.0-r30 x86_64 {busybox}
-* ca-certificates-20251003-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20251003-r0 x86_64 {ca-certificates}
+* alpine-release-3.24.1-r0 x86_64 {alpine-base}
+* apk-tools-3.0.6-r0 x86_64 {apk-tools}
+* busybox-1.37.0-r31 x86_64 {busybox}
+* busybox-binsh-1.37.0-r31 x86_64 {busybox}
+* ca-certificates-20260611-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20260611-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.22.1-r0 x86_64 {krb5}
-* libapk-3.0.5-r0 x86_64 {apk-tools}
+* krb5-libs-1.22.2-r1 x86_64 {krb5}
+* libapk-3.0.6-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
-* libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.6-r0 x86_64 {openssl}
-* libffi-3.5.2-r0 x86_64 {libffi}
-* libintl-0.24.1-r1 x86_64 {gettext}
-* libncursesw-6.5_p20251123-r0 x86_64 {ncurses}
-* libnsl-2.0.1-r1 x86_64 {libnsl}
-* libpanelw-6.5_p20251123-r0 x86_64 {ncurses}
-* libssl3-3.5.6-r0 x86_64 {openssl}
+* libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
+* libcrypto3-3.5.7-r0 x86_64 {openssl}
+* libffi-3.5.2-r1 x86_64 {libffi}
+* libintl-1.0-r0 x86_64 {gettext}
+* libncursesw-6.6_p20260516-r0 x86_64 {ncurses}
+* libnsl-2.0.1-r2 x86_64 {libnsl}
+* libpanelw-6.6_p20260516-r0 x86_64 {ncurses}
+* libssl3-3.5.7-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
-* libuuid-2.41.4-r0 x86_64 {util-linux}
+* libuuid-2.42-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.5-r23 x86_64 {musl}
-* musl-utils-1.2.5-r22 x86_64 {musl}
-* ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
-* readline-8.3.1-r0 x86_64 {readline}
-* scanelf-1.3.8-r2 x86_64 {pax-utils}
-* sqlite-libs-3.51.2-r0 x86_64 {sqlite}
-* ssl_client-1.37.0-r30 x86_64 {busybox}
-* tzdata-2026a-r0 x86_64 {tzdata}
-* xz-libs-5.8.2-r0 x86_64 {xz}
+* musl-1.2.6-r2 x86_64 {musl}
+* musl-utils-1.2.6-r2 x86_64 {musl}
+* ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
+* readline-8.3.3-r1 x86_64 {readline}
+* scanelf-1.3.9-r1 x86_64 {pax-utils}
+* sqlite-libs-3.53.2-r0 x86_64 {sqlite}
+* ssl_client-1.37.0-r31 x86_64 {busybox}
+* tzdata-2026b-r0 x86_64 {tzdata}
+* xz-libs-5.8.3-r0 x86_64 {xz}
 * zlib-1.3.2-r0 x86_64 {zlib}

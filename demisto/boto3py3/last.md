@@ -1,9 +1,9 @@
-# `demisto/boto3py3:1.0.0.10038503`
+# `demisto/boto3py3:1.0.0.10116658`
 
 ## Docker Metadata
-- Image Size: 48.05 MB
-- Image ID: `sha256:d65edc3c43d655c24370990612ef518755bd3c2bdcfde9f312c542a9ac8f9fba`
-- Created: `2026-06-10T17:30:43.20772327Z`
+- Image Size: 50.90 MB
+- Image ID: `sha256:1dca0655df552b90dbd8e90f04d10434bd93fbf8401194f56fcf28af486c5cb1`
+- Created: `2026-06-13T23:38:56.780034224Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.10038503`
+  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.10116658`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:bf1d844f27e65dd4a4b96b7d42d146b0d21689a9`
-  - `org.opencontainers.image.version:1.0.0.10038503`
+  - `org.opencontainers.image.revision:be8ad1c131aa0804177afbc5507b8c83c8223a6a`
+  - `org.opencontainers.image.version:1.0.0.10116658`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/boto3py3:1.0.0.10038503
+Signatures for demisto/boto3py3:1.0.0.10116658
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10038503   076204596e89b8d66abd04bc46e55458d6a0fd0c75fb75956696e6c4aa99839b   (Repo Admin)
+1.0.0.10116658   55b3de8fa68bd033c66694de1c9cf3d2c08c1c88a85901c95f12e28718b23961   (Repo Admin)
 
-Administrative keys for demisto/boto3py3:1.0.0.10038503
+Administrative keys for demisto/boto3py3:1.0.0.10116658
 
   Repository Key:	cfe86d8f6e0178e2a77477d651d16cfc814b6e47b04f1f04d94917fb248a1ae8
   Root Key:	c4222af787cfc1a173f56c5eab482e5c4602eae4bb767431e17594c786c162f8
@@ -47,7 +47,7 @@ Administrative keys for demisto/boto3py3:1.0.0.10038503
 ### `boto3`
 
 * Summary: The AWS SDK for Python
-* Version: 1.43.26
+* Version: 1.43.28
 * Pypi: https://pypi.org/project/boto3/
 * Homepage: https://github.com/boto/boto3
 * Author: Amazon Web Services
@@ -56,7 +56,7 @@ Administrative keys for demisto/boto3py3:1.0.0.10038503
 ### `botocore`
 
 * Summary: Low-level, data-driven core of boto 3.
-* Version: 1.43.26
+* Version: 1.43.28
 * Pypi: https://pypi.org/project/botocore/
 * Homepage: https://github.com/boto/botocore
 * Author: Amazon Web Services
@@ -317,13 +317,13 @@ Administrative keys for demisto/boto3py3:1.0.0.10038503
 * libapk-3.0.5-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.6-r0 x86_64 {openssl}
+* libcrypto3-3.5.7-r0 x86_64 {openssl}
 * libffi-3.5.2-r0 x86_64 {libffi}
 * libintl-0.24.1-r1 x86_64 {gettext}
 * libncursesw-6.5_p20251123-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r1 x86_64 {libnsl}
 * libpanelw-6.5_p20251123-r0 x86_64 {ncurses}
-* libssl3-3.5.6-r0 x86_64 {openssl}
+* libssl3-3.5.7-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.41.4-r0 x86_64 {util-linux}
@@ -331,6 +331,7 @@ Administrative keys for demisto/boto3py3:1.0.0.10038503
 * musl-1.2.5-r23 x86_64 {musl}
 * musl-utils-1.2.5-r22 x86_64 {musl}
 * ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
+* openssl-3.5.7-r0 x86_64 {openssl}
 * readline-8.3.1-r0 x86_64 {readline}
 * scanelf-1.3.8-r2 x86_64 {pax-utils}
 * sqlite-libs-3.51.2-r0 x86_64 {sqlite}
