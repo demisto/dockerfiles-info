@@ -1,9 +1,9 @@
-# `demisto/auth-utils:1.0.0.9964932`
+# `demisto/auth-utils:1.0.0.10133006`
 
 ## Docker Metadata
-- Image Size: 56.65 MB
-- Image ID: `sha256:ba32bd0ccfef3aaaccabb3cebe72b701cdb1c82ca34c85e0a860cc862069e99c`
-- Created: `2026-06-08T17:31:15.38139172Z`
+- Image Size: 60.59 MB
+- Image ID: `sha256:004cfb0fb260aa59d64a820bd5b6695f9a63a8f728c8cebf66a6ba3b78f7d1ea`
+- Created: `2026-06-14T11:44:48.579283581Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,29 +12,29 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/auth-utils:1.0.0.9964932`
+  - `DOCKER_IMAGE=demisto/auth-utils:1.0.0.10133006`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:5782dd74110205dc452620249afe25f84d43072c`
-  - `org.opencontainers.image.version:1.0.0.9964932`
+  - `org.opencontainers.image.revision:d9afa12aeecec26152165734c2ab0f6e5d645b03`
+  - `org.opencontainers.image.version:1.0.0.10133006`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.23.3`
-  - `PRETTY_NAME="Alpine Linux v3.23"`
+  - `VERSION_ID=3.24.1`
+  - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/auth-utils:1.0.0.9964932
+Signatures for demisto/auth-utils:1.0.0.10133006
 
-SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.9964932   d90bc3f6aef22bedb351b0ed8b4314469c917c45f44d5dabaecc1e8b55bbe289   (Repo Admin)
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.10133006   db8f2dd0a64f92e5a3fbc6843a01834afed4afe4a3dc3e0d7099eadb8e7d5403   (Repo Admin)
 
-Administrative keys for demisto/auth-utils:1.0.0.9964932
+Administrative keys for demisto/auth-utils:1.0.0.10133006
 
   Repository Key:	c4e5c6491d37f197ee11c3bcf27402ded5e35e8dfd04aa5f3ca6306c1589acb9
   Root Key:	afc48b6ceb8bef3948a8d982cf3a6e357efca688125da7e062bdd41bfc9b9546
@@ -117,7 +117,7 @@ Administrative keys for demisto/auth-utils:1.0.0.9964932
 ### `beautifulsoup4`
 
 * Summary: Screen-scraping library
-* Version: 4.14.3
+* Version: 4.15.0
 * Pypi: https://pypi.org/project/beautifulsoup4/
 * Homepage: None
 * Author: Leonard Richardson <leonardr@segfault.org>
@@ -301,7 +301,7 @@ Administrative keys for demisto/auth-utils:1.0.0.9964932
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.0
+* Version: 26.1
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -396,7 +396,7 @@ Administrative keys for demisto/auth-utils:1.0.0.9964932
 ### `pyOpenSSL`
 
 * Summary: Python wrapper module around the OpenSSL library
-* Version: 26.0.0
+* Version: 26.3.0
 * Pypi: https://pypi.org/project/pyOpenSSL/
 * Homepage: https://pyopenssl.org/
 * Author: The pyOpenSSL developers cryptography-dev@python.org
@@ -460,11 +460,10 @@ Administrative keys for demisto/auth-utils:1.0.0.9964932
 ### `pyzipper`
 
 * Summary: AES encryption for zipfile.
-* Version: 0.3.6
+* Version: 0.4.0
 * Pypi: https://pypi.org/project/pyzipper/
 * Homepage: None
 * Author: Daniel Hillier <daniel.hillier@gmail.com>
-* License: MIT
 
 ### `regex`
 
@@ -539,7 +538,7 @@ Administrative keys for demisto/auth-utils:1.0.0.9964932
 ### `soupsieve`
 
 * Summary: A modern CSS selector implementation for Beautiful Soup.
-* Version: 2.8.3
+* Version: 2.8.4
 * Pypi: https://pypi.org/project/soupsieve/
 * Homepage: None
 * Author: Isaac Muse <Isaac.Muse@gmail.com>
@@ -589,7 +588,7 @@ Administrative keys for demisto/auth-utils:1.0.0.9964932
 ### `wheel`
 
 * Summary: Command line tool for manipulating wheel files
-* Version: 0.46.3
+* Version: 0.47.0
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
@@ -614,46 +613,46 @@ Administrative keys for demisto/auth-utils:1.0.0.9964932
 
 ## `OS Packages`
 
-* .python-rundeps-20260303.201742 noarch {.python-rundeps}
-* alpine-baselayout-3.7.2-r0 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.7.2-r0 x86_64 {alpine-baselayout}
+* .python-rundeps-20260610.204951 noarch {.python-rundeps}
+* alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
+* alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.23.3-r0 x86_64 {alpine-base}
-* apk-tools-3.0.5-r0 x86_64 {apk-tools}
-* busybox-1.37.0-r30 x86_64 {busybox}
-* busybox-binsh-1.37.0-r30 x86_64 {busybox}
-* ca-certificates-20251003-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20251003-r0 x86_64 {ca-certificates}
-* e2fsprogs-libs-1.47.3-r0 x86_64 {e2fsprogs}
+* alpine-release-3.24.1-r0 x86_64 {alpine-base}
+* apk-tools-3.0.6-r0 x86_64 {apk-tools}
+* busybox-1.37.0-r31 x86_64 {busybox}
+* busybox-binsh-1.37.0-r31 x86_64 {busybox}
+* ca-certificates-20260611-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20260611-r0 x86_64 {ca-certificates}
+* e2fsprogs-libs-1.47.4-r0 x86_64 {e2fsprogs}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
-* krb5-1.22.1-r0 x86_64 {krb5}
+* krb5-1.22.2-r1 x86_64 {krb5}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.22.1-r0 x86_64 {krb5}
-* libapk-3.0.5-r0 x86_64 {apk-tools}
+* krb5-libs-1.22.2-r1 x86_64 {krb5}
+* libapk-3.0.6-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
-* libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.6-r0 x86_64 {openssl}
-* libffi-3.5.2-r0 x86_64 {libffi}
-* libintl-0.24.1-r1 x86_64 {gettext}
-* libncursesw-6.5_p20251123-r0 x86_64 {ncurses}
-* libnsl-2.0.1-r1 x86_64 {libnsl}
-* libpanelw-6.5_p20251123-r0 x86_64 {ncurses}
-* libssl3-3.5.6-r0 x86_64 {openssl}
+* libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
+* libcrypto3-3.5.7-r0 x86_64 {openssl}
+* libffi-3.5.2-r1 x86_64 {libffi}
+* libintl-1.0-r0 x86_64 {gettext}
+* libncursesw-6.6_p20260516-r0 x86_64 {ncurses}
+* libnsl-2.0.1-r2 x86_64 {libnsl}
+* libpanelw-6.6_p20260516-r0 x86_64 {ncurses}
+* libssl3-3.5.7-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
-* libuuid-2.41.4-r0 x86_64 {util-linux}
+* libuuid-2.42-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.5-r23 x86_64 {musl}
-* musl-utils-1.2.5-r22 x86_64 {musl}
-* ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
-* openssl-3.5.6-r0 x86_64 {openssl}
-* openssl-dev-3.5.6-r0 x86_64 {openssl}
+* musl-1.2.6-r2 x86_64 {musl}
+* musl-utils-1.2.6-r2 x86_64 {musl}
+* ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
+* openssl-3.5.7-r0 x86_64 {openssl}
+* openssl-dev-3.5.7-r0 x86_64 {openssl}
 * pkgconf-2.5.1-r0 x86_64 {pkgconf}
-* readline-8.3.1-r0 x86_64 {readline}
-* scanelf-1.3.8-r2 x86_64 {pax-utils}
-* sqlite-libs-3.51.2-r0 x86_64 {sqlite}
-* ssl_client-1.37.0-r30 x86_64 {busybox}
-* tzdata-2026a-r0 x86_64 {tzdata}
-* xz-libs-5.8.2-r0 x86_64 {xz}
+* readline-8.3.3-r1 x86_64 {readline}
+* scanelf-1.3.9-r1 x86_64 {pax-utils}
+* sqlite-libs-3.53.2-r0 x86_64 {sqlite}
+* ssl_client-1.37.0-r31 x86_64 {busybox}
+* tzdata-2026b-r0 x86_64 {tzdata}
+* xz-libs-5.8.3-r0 x86_64 {xz}
 * zlib-1.3.2-r0 x86_64 {zlib}

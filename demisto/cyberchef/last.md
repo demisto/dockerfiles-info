@@ -1,9 +1,9 @@
-# `demisto/cyberchef:1.0.0.9067966`
+# `demisto/cyberchef:1.0.0.10133006`
 
 ## Docker Metadata
-- Image Size: 188.46 MB
-- Image ID: `sha256:c54385e57b09424910897432e944fb04703e914fdf746b8d630ff775b26ab708`
-- Created: `2026-05-17T08:45:50.6165604Z`
+- Image Size: 191.33 MB
+- Image ID: `sha256:c13ab17924b73b0fc71810b1d6e93f315af06dc9132f4a7173d5076ad0767cd4`
+- Created: `2026-06-14T12:08:23.127840523Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,30 +12,30 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/cyberchef:1.0.0.9067966`
+  - `DOCKER_IMAGE=demisto/cyberchef:1.0.0.10133006`
   - `NODE_PATH=/usr/local/lib/node_modules`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:a7984ffbd110e24a54603aad658c153c518ce970`
-  - `org.opencontainers.image.version:1.0.0.9067966`
+  - `org.opencontainers.image.revision:d9afa12aeecec26152165734c2ab0f6e5d645b03`
+  - `org.opencontainers.image.version:1.0.0.10133006`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.23.4`
-  - `PRETTY_NAME="Alpine Linux v3.23"`
+  - `VERSION_ID=3.24.1`
+  - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/cyberchef:1.0.0.9067966
+Signatures for demisto/cyberchef:1.0.0.10133006
 
-SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.9067966   f968cb88b4a82fddb9e8f83855abbf1919534c54bfe13f83e2afd4ef77bcbc7c   (Repo Admin)
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.10133006   383844c0760aacf563ea5726001ad25fae2f309102e0ea43642dc5ede0a52082   (Repo Admin)
 
-Administrative keys for demisto/cyberchef:1.0.0.9067966
+Administrative keys for demisto/cyberchef:1.0.0.10133006
 
   Repository Key:	87faffbf9cfa242d5efcd5063441e580183ea8dc81f914176971dd74db952ebd
   Root Key:	617486d64dbbca7eb8b024a5a1e37dfbeef728381cc5a25de5b60b8d4a2b55dc
@@ -144,7 +144,7 @@ Administrative keys for demisto/cyberchef:1.0.0.9067966
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.1
+* Version: 26.1.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -265,53 +265,53 @@ Administrative keys for demisto/cyberchef:1.0.0.9067966
 
 ## `OS Packages`
 
-* .python-rundeps-20260415.205216 noarch {.python-rundeps}
+* .python-rundeps-20260610.204951 noarch {.python-rundeps}
 * ada-libs-3.3.0-r0 x86_64 {ada}
-* alpine-baselayout-3.7.2-r0 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.7.2-r0 x86_64 {alpine-baselayout}
+* alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
+* alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.23.4-r0 x86_64 {alpine-base}
+* alpine-release-3.24.1-r0 x86_64 {alpine-base}
 * apk-tools-3.0.6-r0 x86_64 {apk-tools}
-* brotli-libs-1.2.0-r0 x86_64 {brotli}
-* busybox-1.37.0-r30 x86_64 {busybox}
-* busybox-binsh-1.37.0-r30 x86_64 {busybox}
+* brotli-libs-1.2.0-r1 x86_64 {brotli}
+* busybox-1.37.0-r31 x86_64 {busybox}
+* busybox-binsh-1.37.0-r31 x86_64 {busybox}
 * c-ares-1.34.6-r0 x86_64 {c-ares}
-* ca-certificates-20260413-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20260413-r0 x86_64 {ca-certificates}
+* ca-certificates-20260611-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20260611-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
-* icu-data-en-76.1-r1 x86_64 {icu}
-* icu-libs-76.1-r1 x86_64 {icu}
+* icu-data-en-78.1-r0 x86_64 {icu}
+* icu-libs-78.1-r0 x86_64 {icu}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.22.1-r0 x86_64 {krb5}
+* krb5-libs-1.22.2-r1 x86_64 {krb5}
 * libapk-3.0.6-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
-* libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.6-r0 x86_64 {openssl}
-* libffi-3.5.2-r0 x86_64 {libffi}
-* libgcc-15.2.0-r2 x86_64 {gcc}
-* libintl-0.24.1-r1 x86_64 {gettext}
-* libncursesw-6.5_p20251123-r0 x86_64 {ncurses}
-* libnsl-2.0.1-r1 x86_64 {libnsl}
-* libpanelw-6.5_p20251123-r0 x86_64 {ncurses}
-* libssl3-3.5.6-r0 x86_64 {openssl}
-* libstdc++-15.2.0-r2 x86_64 {gcc}
+* libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
+* libcrypto3-3.5.7-r0 x86_64 {openssl}
+* libffi-3.5.2-r1 x86_64 {libffi}
+* libgcc-15.2.0-r5 x86_64 {gcc}
+* libintl-1.0-r0 x86_64 {gettext}
+* libncursesw-6.6_p20260516-r0 x86_64 {ncurses}
+* libnsl-2.0.1-r2 x86_64 {libnsl}
+* libpanelw-6.6_p20260516-r0 x86_64 {ncurses}
+* libssl3-3.5.7-r0 x86_64 {openssl}
+* libstdc++-15.2.0-r5 x86_64 {gcc}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
-* libuuid-2.41.4-r0 x86_64 {util-linux}
+* libuuid-2.42-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.5-r23 x86_64 {musl}
-* musl-utils-1.2.5-r23 x86_64 {musl}
-* ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
+* musl-1.2.6-r2 x86_64 {musl}
+* musl-utils-1.2.6-r2 x86_64 {musl}
+* ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * nghttp2-libs-1.69.0-r0 x86_64 {nghttp2}
-* nodejs-24.14.1-r0 x86_64 {nodejs}
-* npm-11.11.0-r0 x86_64 {npm}
-* readline-8.3.1-r0 x86_64 {readline}
-* scanelf-1.3.8-r2 x86_64 {pax-utils}
-* simdjson-3.12.0-r0 x86_64 {simdjson}
-* simdutf-7.5.0-r1 x86_64 {simdutf}
-* sqlite-libs-3.51.2-r0 x86_64 {sqlite}
-* ssl_client-1.37.0-r30 x86_64 {busybox}
+* nodejs-24.16.0-r0 x86_64 {nodejs}
+* npm-11.12.1-r0 x86_64 {npm}
+* readline-8.3.3-r1 x86_64 {readline}
+* scanelf-1.3.9-r1 x86_64 {pax-utils}
+* simdjson-4.2.4-r0 x86_64 {simdjson}
+* simdutf-9.0.0-r0 x86_64 {simdutf}
+* sqlite-libs-3.53.2-r0 x86_64 {sqlite}
+* ssl_client-1.37.0-r31 x86_64 {busybox}
 * tzdata-2026b-r0 x86_64 {tzdata}
 * xz-libs-5.8.3-r0 x86_64 {xz}
 * zlib-1.3.2-r0 x86_64 {zlib}

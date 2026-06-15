@@ -1,22 +1,22 @@
-# `demisto/aquatone:2.0.0.6373981`
+# `demisto/aquatone:2.0.0.10133006`
 
 ## Docker Metadata
-- Image Size: 70.40 MB
-- Image ID: `sha256:93dd80b15b4499d16eb794032b5a74a83420b1f15f90f3ceba311b5204e68eab`
-- Created: `2025-12-21T23:11:42.022017492Z`
+- Image Size: 69.76 MB
+- Image ID: `sha256:8e0ee899a97d4263bd18c36dd588322bea841e9da8a4583c0a741009926c7c87`
+- Created: `2026-06-14T11:37:54.855173225Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.12`
-  - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/aquatone:2.0.0.6373981`
+  - `PYTHON_VERSION=3.12.13`
+  - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
+  - `DOCKER_IMAGE=demisto/aquatone:2.0.0.10133006`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:020a172561cbad4f2f77bbc19e3c03b8d37fe12b`
-  - `org.opencontainers.image.version:2.0.0.6373981`
+  - `org.opencontainers.image.revision:d9afa12aeecec26152165734c2ab0f6e5d645b03`
+  - `org.opencontainers.image.version:2.0.0.10133006`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/aquatone:2.0.0.6373981
+Signatures for demisto/aquatone:2.0.0.10133006
 
-SIGNED TAG      DIGEST                                                             SIGNERS
-2.0.0.6373981   134626b16d78790828c989e4114e7cbf40aaadfbedb8b5e0acd16b0272eb1f15   (Repo Admin)
+SIGNED TAG       DIGEST                                                             SIGNERS
+2.0.0.10133006   71e5ae59430385d715d451953a41c97b49d4b4cb5242f2954d67d4e76ca4cdeb   (Repo Admin)
 
-Administrative keys for demisto/aquatone:2.0.0.6373981
+Administrative keys for demisto/aquatone:2.0.0.10133006
 
   Repository Key:	eafc1437f438d0700e427590d57e4ea24076f1472ef0a051cfd62a8cb54360f3
   Root Key:	b5afd9749ec9d89b80148cb7908cb1c5d2b8c18ee47b87a08c3c9aac17596370
@@ -50,7 +50,7 @@ Administrative keys for demisto/aquatone:2.0.0.6373981
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.11.12
+* Version: 2026.4.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -59,7 +59,7 @@ Administrative keys for demisto/aquatone:2.0.0.6373981
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.4
+* Version: 3.4.7
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -68,7 +68,7 @@ Administrative keys for demisto/aquatone:2.0.0.6373981
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.2.2
+* Version: 1.4.0
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: https://github.com/scrapinghub/dateparser
 * Author: Scrapinghub opensource@zyte.com
@@ -86,11 +86,11 @@ Administrative keys for demisto/aquatone:2.0.0.6373981
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.20.0
+* Version: 3.25.2
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: The Unlicense (Unlicense)
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -104,7 +104,7 @@ Administrative keys for demisto/aquatone:2.0.0.6373981
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.11
+* Version: 3.15
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -112,7 +112,7 @@ Administrative keys for demisto/aquatone:2.0.0.6373981
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.8.0
+* Version: 11.1.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -126,10 +126,18 @@ Administrative keys for demisto/aquatone:2.0.0.6373981
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
+### `packaging`
+
+* Summary: Core utilities for Python packages
+* Version: 26.1
+* Pypi: https://pypi.org/project/packaging/
+* Homepage: None
+* Author: Donald Stufft <donald@stufft.io>
+
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 25.3
+* Version: 26.1.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -157,7 +165,7 @@ Administrative keys for demisto/aquatone:2.0.0.6373981
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2025.2
+* Version: 2026.1.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -175,7 +183,7 @@ Administrative keys for demisto/aquatone:2.0.0.6373981
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2025.11.3
+* Version: 2026.4.4
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -183,10 +191,10 @@ Administrative keys for demisto/aquatone:2.0.0.6373981
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.5
+* Version: 2.34.2
 * Pypi: https://pypi.org/project/requests/
-* Homepage: https://requests.readthedocs.io
-* Author: Kenneth Reitz me@kennethreitz.org
+* Homepage: None
+* Author: Kenneth Reitz <me@kennethreitz.org>
 * License :: OSI Approved :: Apache Software License
 
 ### `requests-file`
@@ -200,8 +208,8 @@ Administrative keys for demisto/aquatone:2.0.0.6373981
 
 ### `setuptools`
 
-* Summary: Easily download, build, install, upgrade, and uninstall Python packages
-* Version: 80.9.0
+* Summary: Most extensible Python build backend with support for C/C++ extension modules
+* Version: 82.0.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -218,11 +226,10 @@ Administrative keys for demisto/aquatone:2.0.0.6373981
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.0
+* Version: 5.3.1
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
-* License :: OSI Approved :: BSD License
 
 ### `tzlocal`
 
@@ -236,18 +243,26 @@ Administrative keys for demisto/aquatone:2.0.0.6373981
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.6.1
+* Version: 2.7.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
+
+### `wheel`
+
+* Summary: Command line tool for manipulating wheel files
+* Version: 0.47.0
+* Pypi: https://pypi.org/project/wheel/
+* Homepage: None
+* Author: Daniel Holth <dholth@fastmail.fm>
 
 ## `OS Packages`
 
 * adduser	3.134
 * apt	2.6.1
-* base-files	12.4+deb12u12
+* base-files	12.4+deb12u14
 * base-passwd	3.6.1
-* bash	5.2.15-2+b9
+* bash	5.2.15-2+b13
 * bsdutils	1:2.38.1-5+deb12u3
 * ca-certificates	20230311+deb12u1
 * coreutils	9.1-1
@@ -256,11 +271,11 @@ Administrative keys for demisto/aquatone:2.0.0.6373981
 * debian-archive-keyring	2023.3+deb12u2
 * debianutils	5.7-0.5~deb12u1
 * diffutils	1:3.8-4
-* dpkg	1.21.22
+* dpkg	1.21.23
 * e2fsprogs	1.47.2-3~bpo12+1
 * findutils	4.9.0-4
 * gcc-12-base:amd64	12.2.0-14+deb12u1
-* gpgv	2.2.40-1.1+deb12u1
+* gpgv	2.2.40-1.1+deb12u2
 * grep	3.8-5
 * gzip	1.12-1
 * hostname	3.23+nmu1
@@ -273,10 +288,10 @@ Administrative keys for demisto/aquatone:2.0.0.6373981
 * libblkid1:amd64	2.38.1-5+deb12u3
 * libbsd0:amd64	0.11.7-2
 * libbz2-1.0:amd64	1.0.8-5+b1
-* libc-bin	2.36-9+deb12u13
-* libc6:amd64	2.36-9+deb12u13
+* libc-bin	2.36-9+deb12u14
+* libc6:amd64	2.36-9+deb12u14
 * libcap-ng0:amd64	0.8.3-1+b3
-* libcap2:amd64	1:2.66-4+deb12u2
+* libcap2:amd64	1:2.66-4+deb12u3+b1
 * libcom-err2:amd64	1.47.2-3~bpo12+1
 * libcrypt1:amd64	1:4.4.33-2
 * libdb5.3:amd64	5.3.28+dfsg2-1
@@ -285,18 +300,18 @@ Administrative keys for demisto/aquatone:2.0.0.6373981
 * libext2fs2:amd64	1.47.2-3~bpo12+1
 * libffi8:amd64	3.4.4-1
 * libgcc-s1:amd64	12.2.0-14+deb12u1
-* libgcrypt20:amd64	1.10.1-3
+* libgcrypt20:amd64	1.10.1-3+deb12u1
 * libgdbm6:amd64	1.23-3
 * libgmp10:amd64	2:6.2.1+dfsg1-1.1
-* libgnutls30:amd64	3.7.9-2+deb12u5
+* libgnutls30:amd64	3.7.9-2+deb12u7
 * libgpg-error0:amd64	1.46-1
-* libgssapi-krb5-2:amd64	1.20.1-2+deb12u4
+* libgssapi-krb5-2:amd64	1.20.1-2+deb12u5
 * libhogweed6:amd64	3.8.1-2
 * libidn2-0:amd64	2.3.3-1+b1
-* libk5crypto3:amd64	1.20.1-2+deb12u4
+* libk5crypto3:amd64	1.20.1-2+deb12u5
 * libkeyutils1:amd64	1.6.3-2
-* libkrb5-3:amd64	1.20.1-2+deb12u4
-* libkrb5support0:amd64	1.20.1-2+deb12u4
+* libkrb5-3:amd64	1.20.1-2+deb12u5
+* libkrb5support0:amd64	1.20.1-2+deb12u5
 * liblz4-1:amd64	1.9.4-1
 * liblzma5:amd64	5.4.1-1
 * libmd0:amd64	1.0.4-2
@@ -306,10 +321,10 @@ Administrative keys for demisto/aquatone:2.0.0.6373981
 * libnettle8:amd64	3.8.1-2
 * libnsl2:amd64	1.3.0-2
 * libp11-kit0:amd64	0.24.1-2
-* libpam-modules-bin	1.5.2-6+deb12u1
-* libpam-modules:amd64	1.5.2-6+deb12u1
-* libpam-runtime	1.5.2-6+deb12u1
-* libpam0g:amd64	1.5.2-6+deb12u1
+* libpam-modules-bin	1.5.2-6+deb12u2
+* libpam-modules:amd64	1.5.2-6+deb12u2
+* libpam-runtime	1.5.2-6+deb12u2
+* libpam0g:amd64	1.5.2-6+deb12u2
 * libpcre2-8-0:amd64	10.42-1
 * libproc2-0:amd64	2:4.0.2-3
 * libreadline8:amd64	8.2-1.3
@@ -323,7 +338,7 @@ Administrative keys for demisto/aquatone:2.0.0.6373981
 * libsmartcols1:amd64	2.38.1-5+deb12u3
 * libsqlite3-0:amd64	3.40.1-2+deb12u2
 * libss2:amd64	1.47.2-3~bpo12+1
-* libssl3:amd64	3.0.17-1~deb12u3
+* libssl3:amd64	3.0.20-1~deb12u2
 * libstdc++6:amd64	12.2.0-14+deb12u1
 * libsystemd0:amd64	254.26-1~bpo12+1
 * libtasn1-6:amd64	4.19.0-2+deb12u1
@@ -336,15 +351,15 @@ Administrative keys for demisto/aquatone:2.0.0.6373981
 * libxxhash0:amd64	0.8.1-1
 * libyaml-0-2:amd64	0.2.5-1
 * libzstd1:amd64	1.5.4+dfsg2-5
-* login	1:4.13+dfsg1-1+deb12u1
+* login	1:4.13+dfsg1-1+deb12u2
 * logsave	1.47.2-3~bpo12+1
 * mawk	1.3.4.20200120-3.1
 * mount	2.38.1-5+deb12u3
 * ncurses-base	6.4-4
 * ncurses-bin	6.4-4
 * netbase	6.4
-* openssl	3.0.17-1~deb12u3
-* passwd	1:4.13+dfsg1-1+deb12u1
+* openssl	3.0.20-1~deb12u2
+* passwd	1:4.13+dfsg1-1+deb12u2
 * perl-base	5.36.0-7+deb12u3
 * procps	2:4.0.2-3
 * rake	13.0.6-3
@@ -357,10 +372,10 @@ Administrative keys for demisto/aquatone:2.0.0.6373981
 * ruby-xmlrpc	0.3.2-2
 * ruby3.1	3.1.2-7+deb12u1
 * rubygems-integration	1.18
-* sed	4.9-1
+* sed	4.9-1+deb12u1
 * sysvinit-utils	3.08-3~bpo12+2
 * tar	1.34+dfsg-1.2+deb12u1
-* tzdata	2025b-0+deb12u2
+* tzdata	2026b-0+deb12u1
 * usr-is-merged	37~deb12u1
 * util-linux	2.38.1-5+deb12u3
 * util-linux-extra	2.38.1-5+deb12u3
