@@ -1,9 +1,9 @@
-# `demisto/lxml:1.0.0.8943333`
+# `demisto/lxml:1.0.0.10170191`
 
 ## Docker Metadata
-- Image Size: 35.04 MB
-- Image ID: `sha256:ab0cb8e66bfc8d62f0d5e802156f9bf13028b84549ce9de9addf02b69f053817`
-- Created: `2026-05-12T11:38:48.748908876Z`
+- Image Size: 37.48 MB
+- Image ID: `sha256:e06462436c4aae1b6f012daf8df37743a40e76c3ee7c457a73fdf9d12424bc02`
+- Created: `2026-06-15T11:32:04.073907628Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,29 +12,29 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/lxml:1.0.0.8943333`
+  - `DOCKER_IMAGE=demisto/lxml:1.0.0.10170191`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:75a8037595af773369547f4a385de152da916d17`
-  - `org.opencontainers.image.version:1.0.0.8943333`
+  - `org.opencontainers.image.revision:c78525590f54bf40530a214dc81f052c4e7cca9b`
+  - `org.opencontainers.image.version:1.0.0.10170191`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.23.4`
-  - `PRETTY_NAME="Alpine Linux v3.23"`
+  - `VERSION_ID=3.24.1`
+  - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/lxml:1.0.0.8943333
+Signatures for demisto/lxml:1.0.0.10170191
 
-SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8943333   a0d4f5ab65d0fb25e363a02234c34e2d84f8445906a53f0933659d6c89ad9b1b   (Repo Admin)
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.10170191   9fc175e3274f234e64e7674aec7ed0a5a47577f83e6728a0a885cfb554de90d6   (Repo Admin)
 
-Administrative keys for demisto/lxml:1.0.0.8943333
+Administrative keys for demisto/lxml:1.0.0.10170191
 
   Repository Key:	d6a959f5a5c50e0679623fd0166265f7c2340de7292c2bc74d4374ae9d3a0fbc
   Root Key:	6c23ea353bfd62303c2d9d3ff6ca3bd20e46f24fb96e058585bb99760b5c2654
@@ -67,9 +67,9 @@ Administrative keys for demisto/lxml:1.0.0.8943333
 * Summary: Date parsing library designed to parse dates from HTML pages
 * Version: 1.4.0
 * Pypi: https://pypi.org/project/dateparser/
-* Homepage: https://github.com/scrapinghub/dateparser
-* Author: Scrapinghub opensource@zyte.com
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Scrapinghub <opensource@zyte.com>
+* License: BSD
 
 ### `deepmerge`
 
@@ -110,7 +110,7 @@ Administrative keys for demisto/lxml:1.0.0.8943333
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.14
+* Version: 3.15
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -118,7 +118,7 @@ Administrative keys for demisto/lxml:1.0.0.8943333
 ### `lxml`
 
 * Summary: Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.
-* Version: 6.1.0
+* Version: 6.1.1
 * Pypi: https://pypi.org/project/lxml/
 * Homepage: https://lxml.de/
 * Author: lxml dev team lxml@lxml.de
@@ -152,7 +152,7 @@ Administrative keys for demisto/lxml:1.0.0.8943333
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.1
+* Version: 26.1.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -206,7 +206,7 @@ Administrative keys for demisto/lxml:1.0.0.8943333
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.34.0
+* Version: 2.34.2
 * Pypi: https://pypi.org/project/requests/
 * Homepage: None
 * Author: Kenneth Reitz <me@kennethreitz.org>
@@ -253,7 +253,7 @@ Administrative keys for demisto/lxml:1.0.0.8943333
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `urllib3`
 
@@ -273,43 +273,43 @@ Administrative keys for demisto/lxml:1.0.0.8943333
 
 ## `OS Packages`
 
-* .python-rundeps-20260415.205216 noarch {.python-rundeps}
-* alpine-baselayout-3.7.2-r0 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.7.2-r0 x86_64 {alpine-baselayout}
+* .python-rundeps-20260610.204951 noarch {.python-rundeps}
+* alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
+* alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.23.4-r0 x86_64 {alpine-base}
+* alpine-release-3.24.1-r0 x86_64 {alpine-base}
 * apk-tools-3.0.6-r0 x86_64 {apk-tools}
-* busybox-1.37.0-r30 x86_64 {busybox}
-* busybox-binsh-1.37.0-r30 x86_64 {busybox}
-* ca-certificates-20260413-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20260413-r0 x86_64 {ca-certificates}
+* busybox-1.37.0-r31 x86_64 {busybox}
+* busybox-binsh-1.37.0-r31 x86_64 {busybox}
+* ca-certificates-20260611-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20260611-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.22.1-r0 x86_64 {krb5}
+* krb5-libs-1.22.2-r1 x86_64 {krb5}
 * libapk-3.0.6-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
-* libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.6-r0 x86_64 {openssl}
-* libffi-3.5.2-r0 x86_64 {libffi}
-* libintl-0.24.1-r1 x86_64 {gettext}
-* libncursesw-6.5_p20251123-r0 x86_64 {ncurses}
-* libnsl-2.0.1-r1 x86_64 {libnsl}
-* libpanelw-6.5_p20251123-r0 x86_64 {ncurses}
-* libssl3-3.5.6-r0 x86_64 {openssl}
+* libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
+* libcrypto3-3.5.7-r0 x86_64 {openssl}
+* libffi-3.5.2-r1 x86_64 {libffi}
+* libintl-1.0-r0 x86_64 {gettext}
+* libncursesw-6.6_p20260516-r0 x86_64 {ncurses}
+* libnsl-2.0.1-r2 x86_64 {libnsl}
+* libpanelw-6.6_p20260516-r0 x86_64 {ncurses}
+* libssl3-3.5.7-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
-* libuuid-2.41.4-r0 x86_64 {util-linux}
+* libuuid-2.42-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* libxml2-2.13.9-r0 x86_64 {libxml2}
+* libxml2-2.13.9-r2 x86_64 {libxml2}
 * libxslt-1.1.43-r3 x86_64 {libxslt}
-* musl-1.2.5-r23 x86_64 {musl}
-* musl-utils-1.2.5-r23 x86_64 {musl}
-* ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
-* readline-8.3.1-r0 x86_64 {readline}
-* scanelf-1.3.8-r2 x86_64 {pax-utils}
-* sqlite-libs-3.51.2-r0 x86_64 {sqlite}
-* ssl_client-1.37.0-r30 x86_64 {busybox}
+* musl-1.2.6-r2 x86_64 {musl}
+* musl-utils-1.2.6-r2 x86_64 {musl}
+* ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
+* readline-8.3.3-r1 x86_64 {readline}
+* scanelf-1.3.9-r1 x86_64 {pax-utils}
+* sqlite-libs-3.53.2-r0 x86_64 {sqlite}
+* ssl_client-1.37.0-r31 x86_64 {busybox}
 * tzdata-2026b-r0 x86_64 {tzdata}
 * xz-libs-5.8.3-r0 x86_64 {xz}
 * zlib-1.3.2-r0 x86_64 {zlib}

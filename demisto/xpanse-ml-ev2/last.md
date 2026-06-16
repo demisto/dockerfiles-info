@@ -1,9 +1,9 @@
-# `demisto/xpanse-ml-ev2:1.0.0.9845633`
+# `demisto/xpanse-ml-ev2:1.0.0.10182333`
 
 ## Docker Metadata
-- Image Size: 177.77 MB
-- Image ID: `sha256:1cbb36c13ca0c1bbf8ed37cee2de780641ddb66b7bbe9a886660c18c37d9a485`
-- Created: `2026-06-04T02:41:04.273916955Z`
+- Image Size: 180.42 MB
+- Image ID: `sha256:ae7cc08d1bbaed5034e3feb414d828cb0e7a0ce2096a85989123a17b2e368639`
+- Created: `2026-06-15T17:45:43.252615542Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.9845633`
+  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.10182333`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:18a4bb5b91046bb272ca41ae87bd8343e6aafff4`
-  - `org.opencontainers.image.version:1.0.0.9845633`
+  - `org.opencontainers.image.revision:fd913e186e7ef18866fc55e1d004893fa55dc06b`
+  - `org.opencontainers.image.version:1.0.0.10182333`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/xpanse-ml-ev2:1.0.0.9845633
+Signatures for demisto/xpanse-ml-ev2:1.0.0.10182333
 
-SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.9845633   6aa0f77320b28df7c45d05e4cd6932fd175f222e5f6b10c47b9517df90f7813f   (Repo Admin)
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.10182333   d0716dc56b83da7c7355787d80e01cfc463fa01903ddc71afdd1d00248bc00a2   (Repo Admin)
 
-Administrative keys for demisto/xpanse-ml-ev2:1.0.0.9845633
+Administrative keys for demisto/xpanse-ml-ev2:1.0.0.10182333
 
   Repository Key:	fa55b8182edbcafca39872dc58748778b2ff80634214e1872a9351313e618c45
   Root Key:	4324e3baaaa90dedc0be93f30c2271fb7bbaa8de8949e6c3996a45c6e81637d2
@@ -76,7 +76,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.9845633
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 48.0.0
+* Version: 49.0.0
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -86,9 +86,9 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.9845633
 * Summary: Date parsing library designed to parse dates from HTML pages
 * Version: 1.4.0
 * Pypi: https://pypi.org/project/dateparser/
-* Homepage: https://github.com/scrapinghub/dateparser
-* Author: Scrapinghub opensource@zyte.com
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Scrapinghub <opensource@zyte.com>
+* License: BSD
 
 ### `defusedxml`
 
@@ -138,9 +138,9 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.9845633
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.53.0
+* Version: 2.54.0
 * Pypi: https://pypi.org/project/google-auth/
-* Homepage: https://github.com/googleapis/google-auth-library-python
+* Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
 * Author: Google Cloud Platform googleapis-packages@google.com
 * License :: OSI Approved :: Apache Software License
 
@@ -156,7 +156,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.9845633
 ### `google-cloud-storage`
 
 * Summary: Google Cloud Storage API client library
-* Version: 3.11.0
+* Version: 3.12.0
 * Pypi: https://pypi.org/project/google-cloud-storage/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-storage
 * Author: Google LLC googleapis-packages@google.com
@@ -268,7 +268,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.9845633
 ### `protobuf`
 
 * Summary: None
-* Version: 7.35.0
+* Version: 7.35.1
 * Pypi: https://pypi.org/project/protobuf/
 * Homepage: https://developers.google.com/protocol-buffers/
 * Author: protobuf@googlegroups.com protobuf@googlegroups.com
@@ -421,7 +421,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.9845633
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `urllib3`
 
@@ -516,7 +516,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.9845633
 * libsmartcols1:amd64	2.38.1-5+deb12u3
 * libsqlite3-0:amd64	3.40.1-2+deb12u2
 * libss2:amd64	1.47.2-3~bpo12+1
-* libssl3:amd64	3.0.20-1~deb12u1
+* libssl3:amd64	3.0.20-1~deb12u2
 * libstdc++6:amd64	12.2.0-14+deb12u1
 * libsystemd0:amd64	254.26-1~bpo12+1
 * libtasn1-6:amd64	4.19.0-2+deb12u1
@@ -535,7 +535,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.9845633
 * ncurses-base	6.4-4
 * ncurses-bin	6.4-4
 * netbase	6.4
-* openssl	3.0.20-1~deb12u1
+* openssl	3.0.20-1~deb12u2
 * passwd	1:4.13+dfsg1-1+deb12u2
 * perl-base	5.36.0-7+deb12u3
 * procps	2:4.0.2-3
