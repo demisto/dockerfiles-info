@@ -1,9 +1,9 @@
-# `demisto/keeper-ksm:1.0.0.10133006`
+# `demisto/keeper-ksm:1.0.0.10221838`
 
 ## Docker Metadata
-- Image Size: 44.89 MB
-- Image ID: `sha256:0dae87baecd77951fc4e14b0f56613c37b19569ab5340216274587710c541f2b`
-- Created: `2026-06-14T12:50:47.866746804Z`
+- Image Size: 44.92 MB
+- Image ID: `sha256:f9421ae7a56d19f50b2eb0e108b0fc8bdfd449b6232d0a29734fd2e3d9d3ad89`
+- Created: `2026-06-16T17:43:17.815841579Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/keeper-ksm:1.0.0.10133006`
+  - `DOCKER_IMAGE=demisto/keeper-ksm:1.0.0.10221838`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d9afa12aeecec26152165734c2ab0f6e5d645b03`
-  - `org.opencontainers.image.version:1.0.0.10133006`
+  - `org.opencontainers.image.revision:872da1e9b934f6efd00e8b07348554005389082e`
+  - `org.opencontainers.image.version:1.0.0.10221838`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/keeper-ksm:1.0.0.10133006
+Signatures for demisto/keeper-ksm:1.0.0.10221838
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10133006   171cfe0792bcb9ac444c5bc905b9e5aec4f06e3b40bbd14d357146a6f07f398b   (Repo Admin)
+1.0.0.10221838   ea7bd352e3840b0a594768e80c1f912529515bf9e6c3655992a0584bfcdf08c0   (Repo Admin)
 
-Administrative keys for demisto/keeper-ksm:1.0.0.10133006
+Administrative keys for demisto/keeper-ksm:1.0.0.10221838
 
   Repository Key:	15b699a86f7961f8d601739d6f7daa4a316f9654b2a53bb566ef7fb254ac7cc3
   Root Key:	ffb0e21d57578c1bff72d80ffe3fc3a65674b3e30f021164c30797a8a8994aa7
@@ -101,9 +101,9 @@ Administrative keys for demisto/keeper-ksm:1.0.0.10133006
 * Summary: Date parsing library designed to parse dates from HTML pages
 * Version: 1.4.0
 * Pypi: https://pypi.org/project/dateparser/
-* Homepage: https://github.com/scrapinghub/dateparser
-* Author: Scrapinghub opensource@zyte.com
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Scrapinghub <opensource@zyte.com>
+* License: BSD
 
 ### `deepmerge`
 
@@ -161,7 +161,7 @@ Administrative keys for demisto/keeper-ksm:1.0.0.10133006
 ### `keeper-secrets-manager-core`
 
 * Summary: Keeper Secrets Manager for Python 3
-* Version: 17.2.1
+* Version: 17.3.0
 * Pypi: https://pypi.org/project/keeper-secrets-manager-core/
 * Homepage: https://github.com/Keeper-Security/secrets-manager
 * Author: Keeper Security sm@keepersecurity.com
@@ -170,7 +170,7 @@ Administrative keys for demisto/keeper-ksm:1.0.0.10133006
 ### `keeper-secrets-manager-helper`
 
 * Summary: Keeper Secrets Manager SDK helper for managing records.
-* Version: 1.1.1
+* Version: 1.1.2
 * Pypi: https://pypi.org/project/keeper-secrets-manager-helper/
 * Homepage: https://github.com/Keeper-Security/secrets-manager
 * Author: Keeper Security sm@keepersecurity.com
@@ -373,7 +373,7 @@ Administrative keys for demisto/keeper-ksm:1.0.0.10133006
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `urllib3`
 
