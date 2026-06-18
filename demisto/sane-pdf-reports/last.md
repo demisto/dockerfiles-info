@@ -1,9 +1,9 @@
-# `demisto/sane-pdf-reports:1.0.0.9988134`
+# `demisto/sane-pdf-reports:1.0.0.10238860`
 
 ## Docker Metadata
-- Image Size: 912.95 MB
-- Image ID: `sha256:f004f9fdba4c3b7da2d8e2574736070f194d6e25dfeec18da85d8d59f3e07490`
-- Created: `2026-06-09T11:43:52.467307943Z`
+- Image Size: 913.31 MB
+- Image ID: `sha256:3c4a04f8849fdca3a0d0e56179316f6bf6e611c4f33ceeb59e2679b4295b92e3`
+- Created: `2026-06-17T08:39:41.544411356Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/sane-pdf-reports:1.0.0.9988134`
+  - `DOCKER_IMAGE=demisto/sane-pdf-reports:1.0.0.10238860`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:90df4156374f7f3c5e48f42f8e11990c63736939`
-  - `org.opencontainers.image.version:1.0.0.9988134`
+  - `org.opencontainers.image.revision:95029ab77c565258bf886a81aa4120b65dfcec96`
+  - `org.opencontainers.image.version:1.0.0.10238860`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sane-pdf-reports:1.0.0.9988134
+Signatures for demisto/sane-pdf-reports:1.0.0.10238860
 
-SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.9988134   1a469e63e239610894b44c990cf6ff3cbf4a20c2e482d4583f65469ac225d420   (Repo Admin)
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.10238860   ecfba14f47f4b7ddba8ba5ede8a4f18099f9a7cd523161050b25d4587bb7ec04   (Repo Admin)
 
-Administrative keys for demisto/sane-pdf-reports:1.0.0.9988134
+Administrative keys for demisto/sane-pdf-reports:1.0.0.10238860
 
   Repository Key:	a49126a1ef2d8b2a122417046a0568ce3d14ed56e32e723f3cb956a369091e4b
   Root Key:	3c9d875c8980465612892e36819738cac8450f51c69e5dbdbf71867f33cd59eb
@@ -70,9 +70,9 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.9988134
 * Summary: Date parsing library designed to parse dates from HTML pages
 * Version: 1.4.0
 * Pypi: https://pypi.org/project/dateparser/
-* Homepage: https://github.com/scrapinghub/dateparser
-* Author: Scrapinghub opensource@zyte.com
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Scrapinghub <opensource@zyte.com>
+* License: BSD
 
 ### `defusedxml`
 
@@ -230,7 +230,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.9988134
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `urllib3`
 
@@ -451,7 +451,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.9988134
 * libsoup2.4-1:amd64	2.72.0-2+deb11u3
 * libsqlite3-0:amd64	3.34.1-3+deb11u1
 * libss2:amd64	1.46.6-1~bpo11+1
-* libssl1.1:amd64	1.1.1w-0+deb11u7
+* libssl1.1:amd64	1.1.1w-0+deb11u8
 * libstdc++6:amd64	10.2.1-6
 * libsystemd0:amd64	252.29-1~deb12u1~bpo11+1
 * libtasn1-6:amd64	4.16.0-2+deb11u2
