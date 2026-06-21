@@ -1,9 +1,9 @@
-# `demisto/py42:1.0.0.10120494`
+# `demisto/py42:1.0.0.10325753`
 
 ## Docker Metadata
 - Image Size: 41.61 MB
-- Image ID: `sha256:3b83b94b8d2067ca102c8c074433cf8750089e6125657d8e63ac7173c6822f07`
-- Created: `2026-06-14T05:55:29.776509929Z`
+- Image ID: `sha256:300ccd46b0818e86b5b8dca7fb99710811b41cb9ff3f9976ee81d2d68d089d9b`
+- Created: `2026-06-20T23:41:04.695383498Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/py42:1.0.0.10120494`
+  - `DOCKER_IMAGE=demisto/py42:1.0.0.10325753`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:beab5396de416b6cb91c551932ae2995cfc712a0`
-  - `org.opencontainers.image.version:1.0.0.10120494`
+  - `org.opencontainers.image.revision:78942520d59138ccfe8ea608c9dd44d946d73e55`
+  - `org.opencontainers.image.version:1.0.0.10325753`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py42:1.0.0.10120494
+Signatures for demisto/py42:1.0.0.10325753
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10120494   0129baf5ddd7fcd7a7cf238320e4b24a36765f3783b7fbb7d7cd396e57aec471   (Repo Admin)
+1.0.0.10325753   b22c3405c8a07ebb408c3a5e4ebd049c4a16b87659fc39a5ca05d58be8a0004e   (Repo Admin)
 
-Administrative keys for demisto/py42:1.0.0.10120494
+Administrative keys for demisto/py42:1.0.0.10325753
 
   Repository Key:	3c75429c5eb61fb0aac581ea5b93eb9af0c83e8f13ee6564514dc6dfd78596c6
   Root Key:	12bc1f08d14709a595beca8be8435a3758c8440cae99f67152d04ac3f7fcd556
@@ -85,9 +85,9 @@ Administrative keys for demisto/py42:1.0.0.10120494
 * Summary: Date parsing library designed to parse dates from HTML pages
 * Version: 1.4.0
 * Pypi: https://pypi.org/project/dateparser/
-* Homepage: https://github.com/scrapinghub/dateparser
-* Author: Scrapinghub opensource@zyte.com
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Scrapinghub <opensource@zyte.com>
+* License: BSD
 
 ### `deepmerge`
 
@@ -222,7 +222,7 @@ Administrative keys for demisto/py42:1.0.0.10120494
 ### `pydantic-settings`
 
 * Summary: Settings management using Pydantic
-* Version: 2.14.1
+* Version: 2.14.2
 * Pypi: https://pypi.org/project/pydantic-settings/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>
@@ -374,7 +374,7 @@ Administrative keys for demisto/py42:1.0.0.10120494
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `urllib3`
 

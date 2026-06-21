@@ -1,9 +1,9 @@
-# `demisto/dxl:1.0.0.10133006`
+# `demisto/dxl:1.0.0.10328200`
 
 ## Docker Metadata
-- Image Size: 34.64 MB
-- Image ID: `sha256:6b1eaafda19062965f147bc0f49fef2d394c53c4c594b5f766e644b06d1879d2`
-- Created: `2026-06-14T12:13:29.81077392Z`
+- Image Size: 32.45 MB
+- Image ID: `sha256:43dacf564168ea54a3982725540d8d653f9b82278d45d27bff2a9af25cf59342`
+- Created: `2026-06-21T05:31:33.136572151Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/dxl:1.0.0.10133006`
+  - `DOCKER_IMAGE=demisto/dxl:1.0.0.10328200`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d9afa12aeecec26152165734c2ab0f6e5d645b03`
-  - `org.opencontainers.image.version:1.0.0.10133006`
+  - `org.opencontainers.image.revision:fa10da90c382b8887e0fa3fff9ddc5e800f056fb`
+  - `org.opencontainers.image.version:1.0.0.10328200`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/dxl:1.0.0.10133006
+Signatures for demisto/dxl:1.0.0.10328200
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10133006   c545190dfccbfaa580831149622eb367197b0971d98edaa903c17fd300eb2205   (Repo Admin)
+1.0.0.10328200   90232f28bbad228bbb04e9925d75e38fea09ada55a3506bf03d262b3629f0767   (Repo Admin)
 
-Administrative keys for demisto/dxl:1.0.0.10133006
+Administrative keys for demisto/dxl:1.0.0.10328200
 
   Repository Key:	63a4ff99780318ae8a16abf65cc2a7c94b68f679d0431e2b63a249887c19c629
   Root Key:	5ad3d6ba2b55f3b32263beecfdb5a93b7e66df11d6f1ef19b655f7a5a668fc97
@@ -56,7 +56,7 @@ Administrative keys for demisto/dxl:1.0.0.10133006
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.5.20
+* Version: 2026.6.17
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -83,11 +83,10 @@ Administrative keys for demisto/dxl:1.0.0.10133006
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.0
+* Version: 1.4.1
 * Pypi: https://pypi.org/project/dateparser/
-* Homepage: https://github.com/scrapinghub/dateparser
-* Author: Scrapinghub opensource@zyte.com
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Scrapinghub <opensource@zyte.com>
 
 ### `deepmerge`
 
@@ -303,11 +302,10 @@ Administrative keys for demisto/dxl:1.0.0.10133006
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.3.1
+* Version: 5.4.3
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
-* License :: OSI Approved :: MIT License
 
 ### `urllib3`
 
@@ -327,7 +325,7 @@ Administrative keys for demisto/dxl:1.0.0.10133006
 
 ## `OS Packages`
 
-* .python-rundeps-20260610.204951 noarch {.python-rundeps}
+* .python-rundeps-20260616.002526 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
@@ -353,7 +351,7 @@ Administrative keys for demisto/dxl:1.0.0.10133006
 * libssl3-3.5.7-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
-* libuuid-2.42-r0 x86_64 {util-linux}
+* libuuid-2.42.1-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
 * musl-1.2.6-r2 x86_64 {musl}
 * musl-utils-1.2.6-r2 x86_64 {musl}

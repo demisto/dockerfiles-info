@@ -1,9 +1,9 @@
-# `demisto/tidy:1.0.0.10133006`
+# `demisto/tidy:1.0.0.10325753`
 
 ## Docker Metadata
-- Image Size: 120.40 MB
-- Image ID: `sha256:9da632a92d52d2b0915378643c2f313fe82453440149aa81690d73565e94cf29`
-- Created: `2026-06-14T13:25:44.023199377Z`
+- Image Size: 121.00 MB
+- Image ID: `sha256:adfc6aaee43a3e9edb565fd8cec01df4047c837e2285c17920356d16e8ed530e`
+- Created: `2026-06-20T23:45:59.381136928Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/tidy:1.0.0.10133006`
+  - `DOCKER_IMAGE=demisto/tidy:1.0.0.10325753`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d9afa12aeecec26152165734c2ab0f6e5d645b03`
-  - `org.opencontainers.image.version:1.0.0.10133006`
+  - `org.opencontainers.image.revision:78942520d59138ccfe8ea608c9dd44d946d73e55`
+  - `org.opencontainers.image.version:1.0.0.10325753`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/tidy:1.0.0.10133006
+Signatures for demisto/tidy:1.0.0.10325753
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10133006   e3594756e0b881e8ebe2e269a4b459dd89729d807ffa409a2487e413cea874cd   (Repo Admin)
+1.0.0.10325753   88010d83ab98fbeb448cab1171f3ce98c575949e633842de374eac20df671a9b   (Repo Admin)
 
-Administrative keys for demisto/tidy:1.0.0.10133006
+Administrative keys for demisto/tidy:1.0.0.10325753
 
   Repository Key:	5f17b9d56ce23d820632c3aab69771c41c29b4a5ff9dfe8cbea5e4ca7cc9857b
   Root Key:	35b6195205c264962e7a1726995d97d4c9f7d85c8a9c9909105016d7f930b79e
@@ -119,9 +119,9 @@ Administrative keys for demisto/tidy:1.0.0.10133006
 * Summary: Date parsing library designed to parse dates from HTML pages
 * Version: 1.4.0
 * Pypi: https://pypi.org/project/dateparser/
-* Homepage: https://github.com/scrapinghub/dateparser
-* Author: Scrapinghub opensource@zyte.com
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Scrapinghub <opensource@zyte.com>
+* License: BSD
 
 ### `deepmerge`
 
@@ -486,7 +486,7 @@ Administrative keys for demisto/tidy:1.0.0.10133006
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `urllib3`
 

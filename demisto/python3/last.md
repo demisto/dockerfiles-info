@@ -1,9 +1,9 @@
-# `demisto/python3:3.12.13.10230415`
+# `demisto/python3:3.12.13.10325753`
 
 ## Docker Metadata
-- Image Size: 28.84 MB
-- Image ID: `sha256:d996a9dbc6178a2f1b44515fd64679aaef82f2ae2a82b71b6432af3203208d6a`
-- Created: `2026-06-17T02:30:24.836763248Z`
+- Image Size: 28.85 MB
+- Image ID: `sha256:6ffcc66450e5117ba398c20cb1b91f9fe23e2bfd08d7d7c27066869adefd955c`
+- Created: `2026-06-20T23:42:32.99031396Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/python3:3.12.13.10230415`
+  - `DOCKER_IMAGE=demisto/python3:3.12.13.10325753`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:f33ef129328369f01a34618f05ed0393018f56f7`
-  - `org.opencontainers.image.version:3.12.13.10230415`
+  - `org.opencontainers.image.revision:78942520d59138ccfe8ea608c9dd44d946d73e55`
+  - `org.opencontainers.image.version:3.12.13.10325753`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3:3.12.13.10230415
+Signatures for demisto/python3:3.12.13.10325753
 
 SIGNED TAG         DIGEST                                                             SIGNERS
-3.12.13.10230415   15b5dd04c6842653803ee655929d865b0cd78d80de0419172b04fe3a03191839   (Repo Admin)
+3.12.13.10325753   7caac6108570a8cb20aef42c4b759cef0709019146305e64cf388c8c6b845831   (Repo Admin)
 
-Administrative keys for demisto/python3:3.12.13.10230415
+Administrative keys for demisto/python3:3.12.13.10325753
 
   Repository Key:	dd922c0a78cf908782d68ed2f99cae9350740fc2da582a1cb5c03e530ba2dd31
   Root Key:	46ab19438bfff81c925ab27466b52b175de43bad8e8a19cc878e9288246bff8d
@@ -290,7 +290,7 @@ Administrative keys for demisto/python3:3.12.13.10230415
 * libssl3-3.5.7-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
-* libuuid-2.42-r0 x86_64 {util-linux}
+* libuuid-2.42.1-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
 * musl-1.2.6-r2 x86_64 {musl}
 * musl-utils-1.2.6-r2 x86_64 {musl}

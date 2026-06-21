@@ -1,9 +1,9 @@
-# `demisto/mcp:1.0.0.10262473`
+# `demisto/mcp:1.0.0.10325753`
 
 ## Docker Metadata
-- Image Size: 44.26 MB
-- Image ID: `sha256:6b6fd32f3a3229990aeb153434749c646816511ad999a5720762b5260952025b`
-- Created: `2026-06-17T17:34:45.591618101Z`
+- Image Size: 44.27 MB
+- Image ID: `sha256:12283f60d97b4355e67631309709eff126ed401088cefd6e8aa174af9ae482ed`
+- Created: `2026-06-20T23:39:55.372149484Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/mcp:1.0.0.10262473`
+  - `DOCKER_IMAGE=demisto/mcp:1.0.0.10325753`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:8b2c3bdd091f4b5df05480009f4be2c1c917b872`
-  - `org.opencontainers.image.version:1.0.0.10262473`
+  - `org.opencontainers.image.revision:78942520d59138ccfe8ea608c9dd44d946d73e55`
+  - `org.opencontainers.image.version:1.0.0.10325753`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/mcp:1.0.0.10262473
+Signatures for demisto/mcp:1.0.0.10325753
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10262473   1d697bafac2c1389d4ccfc39be2ebb63c84dea64cc9a195df374155d5ed79457   (Repo Admin)
+1.0.0.10325753   1bd423bd5aab64e2fb144de8a98248221ecc459413a7c6d79f0fb35a0f1ff6a4   (Repo Admin)
 
-Administrative keys for demisto/mcp:1.0.0.10262473
+Administrative keys for demisto/mcp:1.0.0.10325753
 
   Repository Key:	33380d20e18cb2980bcdfa01f031d099d2db52b45122f978a80246c9ee48daab
   Root Key:	e45106a7e5d7cc94d559856627cc933af59af78ae3e8d2e9f677904e5b94e13f
@@ -287,7 +287,7 @@ Administrative keys for demisto/mcp:1.0.0.10262473
 ### `pydantic-settings`
 
 * Summary: Settings management using Pydantic
-* Version: 2.14.1
+* Version: 2.14.2
 * Pypi: https://pypi.org/project/pydantic-settings/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>
