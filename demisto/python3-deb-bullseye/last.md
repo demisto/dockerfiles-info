@@ -1,9 +1,9 @@
-# `demisto/python3-deb-bullseye:3.12.11.9224111`
+# `demisto/python3-deb-bullseye:3.12.11.10404775`
 
 ## Docker Metadata
-- Image Size: 62.43 MB
-- Image ID: `sha256:a7df51dd46b8c9dea6bd6775b05c9241fcd4d59d40c2f02e57a41a3f8e2b29b7`
-- Created: `2026-05-24T00:03:47.01841116Z`
+- Image Size: 69.23 MB
+- Image ID: `sha256:f700960e346733fb9875011939419c52efd573a07ad246f1709989de15e86f98`
+- Created: `2026-06-23T14:58:14.172909159Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/python3-deb-bullseye:3.12.11.9224111`
+  - `DOCKER_IMAGE=demisto/python3-deb-bullseye:3.12.11.10404775`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:001d9b28f1c92dff8386081e99f96b4c69cd428e`
-  - `org.opencontainers.image.version:3.12.11.9224111`
+  - `org.opencontainers.image.revision:a2d35f69e81bcbad07c13f7030e4c41c9c6fa98a`
+  - `org.opencontainers.image.version:3.12.11.10404775`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3-deb-bullseye:3.12.11.9224111
+Signatures for demisto/python3-deb-bullseye:3.12.11.10404775
 
-SIGNED TAG        DIGEST                                                             SIGNERS
-3.12.11.9224111   f0b670fc00935172dc99ed3d9ecabc23b53d171748ede5b2c9cf98f0e7c27b13   (Repo Admin)
+SIGNED TAG         DIGEST                                                             SIGNERS
+3.12.11.10404775   af9ec2d205d6f3a504721ef594acb2a288c0f205bffd6ba363764a60c6c759bb   (Repo Admin)
 
-Administrative keys for demisto/python3-deb-bullseye:3.12.11.9224111
+Administrative keys for demisto/python3-deb-bullseye:3.12.11.10404775
 
   Repository Key:	ce5800f6f1ec4ee79ebae3f71a05301859a14836ddcaf20e2faf06f5db281c03
   Root Key:	1d02609ff9a0efe9ca9340ac62ce6c9bbc44528fd7563fd3ca6165d6806c47b2
@@ -68,11 +68,10 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.9224111
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.0
+* Version: 1.4.1
 * Pypi: https://pypi.org/project/dateparser/
-* Homepage: https://github.com/scrapinghub/dateparser
-* Author: Scrapinghub opensource@zyte.com
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Scrapinghub <opensource@zyte.com>
 
 ### `defusedxml`
 
@@ -129,7 +128,7 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.9224111
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.1
+* Version: 26.1.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -157,7 +156,7 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.9224111
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.1.post1
+* Version: 2026.2
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -175,7 +174,7 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.9224111
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.4.4
+* Version: 2026.5.9
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -226,11 +225,10 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.9224111
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.3.1
+* Version: 5.4
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
-* License :: OSI Approved :: MIT License
 
 ### `urllib3`
 
@@ -272,8 +270,8 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.9224111
 * libaudit1:amd64	1:3.0-2
 * libblkid1:amd64	2.36.1-8+deb11u2
 * libbz2-1.0:amd64	1.0.8-4
-* libc-bin	2.31-13+deb11u13
-* libc6:amd64	2.31-13+deb11u13
+* libc-bin	2.31-13+deb11u14
+* libc6:amd64	2.31-13+deb11u14
 * libcap-ng0:amd64	0.7.9-2.2+b1
 * libcom-err2:amd64	1.46.6-1~bpo11+1
 * libcrypt1:amd64	1:4.4.18-4
@@ -287,13 +285,13 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.9224111
 * libgmp10:amd64	2:6.2.1+dfsg-1+deb11u1
 * libgnutls30:amd64	3.7.1-5+deb11u10
 * libgpg-error0:amd64	1.38-2
-* libgssapi-krb5-2:amd64	1.18.3-6+deb11u7
+* libgssapi-krb5-2:amd64	1.18.3-6+deb11u8
 * libhogweed6:amd64	3.7.3-1
 * libidn2-0:amd64	2.3.0-5
-* libk5crypto3:amd64	1.18.3-6+deb11u7
+* libk5crypto3:amd64	1.18.3-6+deb11u8
 * libkeyutils1:amd64	1.6.1-2
-* libkrb5-3:amd64	1.18.3-6+deb11u7
-* libkrb5support0:amd64	1.18.3-6+deb11u7
+* libkrb5-3:amd64	1.18.3-6+deb11u8
+* libkrb5support0:amd64	1.18.3-6+deb11u8
 * liblz4-1:amd64	1.9.3-2
 * liblzma5:amd64	5.2.5-2.1~deb11u1
 * libmount1:amd64	2.36.1-8+deb11u2
@@ -318,7 +316,7 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.9224111
 * libsmartcols1:amd64	2.36.1-8+deb11u2
 * libsqlite3-0:amd64	3.34.1-3+deb11u1
 * libss2:amd64	1.46.6-1~bpo11+1
-* libssl1.1:amd64	1.1.1w-0+deb11u5
+* libssl1.1:amd64	1.1.1w-0+deb11u8
 * libstdc++6:amd64	10.2.1-6
 * libsystemd0:amd64	252.29-1~deb12u1~bpo11+1
 * libtasn1-6:amd64	4.16.0-2+deb11u2
@@ -338,7 +336,7 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.9224111
 * ncurses-base	6.2+20201114-2+deb11u2
 * ncurses-bin	6.2+20201114-2+deb11u2
 * netbase	6.3
-* openssl	1.1.1w-0+deb11u5
+* openssl	1.1.1w-0+deb11u8
 * passwd	1:4.8.1-1+deb11u1
 * perl-base	5.32.1-4+deb11u5
 * procps	2:3.3.17-5
