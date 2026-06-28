@@ -1,9 +1,9 @@
-# `demisto/pyotrs:1.0.0.10133006`
+# `demisto/pyotrs:1.0.0.10477637`
 
 ## Docker Metadata
-- Image Size: 32.59 MB
-- Image ID: `sha256:1571439680bf685d17e503ba47e1d045122c68b216ec647b7ac4afd9b95efb14`
-- Created: `2026-06-14T13:09:28.708551386Z`
+- Image Size: 32.60 MB
+- Image ID: `sha256:aaf37c8138b2e1909846e2fdb0589e770aca0729d3a314c25b8f52e0ee649b26`
+- Created: `2026-06-25T17:39:03.436197865Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/pyotrs:1.0.0.10133006`
+  - `DOCKER_IMAGE=demisto/pyotrs:1.0.0.10477637`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d9afa12aeecec26152165734c2ab0f6e5d645b03`
-  - `org.opencontainers.image.version:1.0.0.10133006`
+  - `org.opencontainers.image.revision:92c8eb3829d73704634c9579d9dd5d3583b250da`
+  - `org.opencontainers.image.version:1.0.0.10477637`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pyotrs:1.0.0.10133006
+Signatures for demisto/pyotrs:1.0.0.10477637
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10133006   3cda57e949f8c68609831a7fe0bcf80e1bc366fc50b3520d4e8c79249c7f7008   (Repo Admin)
+1.0.0.10477637   8719e98bb8a7710ce7eb80b4034479886059cf73c71c8b1f471611f63603bc81   (Repo Admin)
 
-Administrative keys for demisto/pyotrs:1.0.0.10133006
+Administrative keys for demisto/pyotrs:1.0.0.10477637
 
   Repository Key:	782309d28429e1aceccd81f3d7d55f0c5894e977094a87d68fecb539782252ff
   Root Key:	ab48f05aa4b215579b18849df811e516cd1c89bad845984fe614208efbeda33e
@@ -65,7 +65,7 @@ Administrative keys for demisto/pyotrs:1.0.0.10133006
 ### `click`
 
 * Summary: Composable command line interface toolkit
-* Version: 8.4.1
+* Version: 8.4.2
 * Pypi: https://pypi.org/project/click/
 * Homepage: None
 * Author: None
@@ -84,9 +84,9 @@ Administrative keys for demisto/pyotrs:1.0.0.10133006
 * Summary: Date parsing library designed to parse dates from HTML pages
 * Version: 1.4.0
 * Pypi: https://pypi.org/project/dateparser/
-* Homepage: https://github.com/scrapinghub/dateparser
-* Author: Scrapinghub opensource@zyte.com
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Scrapinghub <opensource@zyte.com>
+* License: BSD
 
 ### `deepmerge`
 
@@ -287,7 +287,7 @@ Administrative keys for demisto/pyotrs:1.0.0.10133006
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `urllib3`
 

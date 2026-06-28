@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.10408886`
+# `demisto/google-vision-api:1.0.0.10507473`
 
 ## Docker Metadata
-- Image Size: 122.56 MB
-- Image ID: `sha256:4ac94e2614770c204eab954bd19b542ad75cbb94cb139da5642b0dfbeca2e71b`
-- Created: `2026-06-23T17:40:06.186048653Z`
+- Image Size: 122.91 MB
+- Image ID: `sha256:6f5029a0583b40a9563b76de07c87ebbd9e7fda0ba9da79e44338b6365c78033`
+- Created: `2026-06-27T23:45:36.619185175Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.10408886`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.10507473`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:16f187240529b996aba00adb727438ce756e293c`
-  - `org.opencontainers.image.version:1.0.0.10408886`
+  - `org.opencontainers.image.revision:ad7158b46491eaa8bc4ed891549a2d3f104fe921`
+  - `org.opencontainers.image.version:1.0.0.10507473`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-vision-api:1.0.0.10408886
+Signatures for demisto/google-vision-api:1.0.0.10507473
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10408886   d7ae9c6ec34261e469940238e334dd4f23891f0738fcff8f9b34ec4772318bb3   (Repo Admin)
+1.0.0.10507473   166e1ea144662e6d3d22d0cdc68bb6ef224f59ea15d73713848a0b3f0dedc6da   (Repo Admin)
 
-Administrative keys for demisto/google-vision-api:1.0.0.10408886
+Administrative keys for demisto/google-vision-api:1.0.0.10507473
 
   Repository Key:	8f699c169d21da1343c2ea4f465fe5f19ace3822c0fd85c2d1a054379abf30dd
   Root Key:	23130201a9ea6e060cceb9cf5a1998649873c190c980fe0d6c487df1fadbc6ef
@@ -180,7 +180,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.10408886
 ### `google-api-python-client`
 
 * Summary: Google API Client Library for Python
-* Version: 2.197.0
+* Version: 2.198.0
 * Pypi: https://pypi.org/project/google-api-python-client/
 * Homepage: https://github.com/googleapis/google-api-python-client/
 * Author: Google LLC googleapis-packages@google.com
@@ -189,7 +189,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.10408886
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.55.0
+* Version: 2.55.1
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -348,7 +348,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.10408886
 ### `httplib2`
 
 * Summary: A comprehensive HTTP client library.
-* Version: 0.31.2
+* Version: 0.32.0
 * Pypi: https://pypi.org/project/httplib2/
 * Homepage: https://github.com/httplib2/httplib2
 * Author: Joe Gregorio joe@bitworking.org
