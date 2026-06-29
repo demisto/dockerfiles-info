@@ -1,9 +1,9 @@
-# `demisto/devo:1.0.0.9285614`
+# `demisto/devo:1.0.0.10516471`
 
 ## Docker Metadata
-- Image Size: 112.39 MB
-- Image ID: `sha256:0ce9aa6ef73888e70fe53c9d86f60d76f3d3ec8f911498886cf58d184272e590`
-- Created: `2026-05-25T14:33:16.564133769Z`
+- Image Size: 101.60 MB
+- Image ID: `sha256:0fca660c648cdd35e2fb89b3c8228e838b7d6722655a3152a90e3974f3258169`
+- Created: `2026-06-28T08:36:59.301688005Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/devo:1.0.0.9285614`
+  - `DOCKER_IMAGE=demisto/devo:1.0.0.10516471`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b6613b9c32314b2338ecf4ee10259a7cb178d55c`
-  - `org.opencontainers.image.version:1.0.0.9285614`
+  - `org.opencontainers.image.revision:6842c1782cd8d4807ec2dac944f146402c1c6bd8`
+  - `org.opencontainers.image.version:1.0.0.10516471`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/devo:1.0.0.9285614
+Signatures for demisto/devo:1.0.0.10516471
 
-SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.9285614   2652b19a87e5d8ad5f7a5df0e073c6666bdccca21357d9a98a9a7d0801bac7cc   (Repo Admin)
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.10516471   9aad58e3ce1ffce388f8635542099beae6d05930d9ce59edfd16d7088910b491   (Repo Admin)
 
-Administrative keys for demisto/devo:1.0.0.9285614
+Administrative keys for demisto/devo:1.0.0.10516471
 
   Repository Key:	8acbad29258c3af802a3ff19936a5e477ad72cb853dee0373658ff953e5c7acd
   Root Key:	75e01057889069369a886a938165cc788450448b2d71e1b6a9c611a6bbccecd1
@@ -76,7 +76,7 @@ Administrative keys for demisto/devo:1.0.0.9285614
 ### `click`
 
 * Summary: Composable command line interface toolkit
-* Version: 8.3.3
+* Version: 8.4.2
 * Pypi: https://pypi.org/project/click/
 * Homepage: None
 * Author: None
@@ -84,7 +84,7 @@ Administrative keys for demisto/devo:1.0.0.9285614
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 46.0.7
+* Version: 49.0.0
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -92,11 +92,10 @@ Administrative keys for demisto/devo:1.0.0.9285614
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.0
+* Version: 1.4.1
 * Pypi: https://pypi.org/project/dateparser/
-* Homepage: https://github.com/scrapinghub/dateparser
-* Author: Scrapinghub opensource@zyte.com
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Scrapinghub <opensource@zyte.com>
 
 ### `defusedxml`
 
@@ -110,7 +109,7 @@ Administrative keys for demisto/devo:1.0.0.9285614
 ### `devo-sdk`
 
 * Summary: Devo Software Development Kit for Python.
-* Version: 7.0.0
+* Version: 7.0.1
 * Pypi: https://pypi.org/project/devo-sdk/
 * Homepage: https://github.com/DevoInc/python-sdk
 * Author: Devo, Inc. support@devo.com
@@ -145,7 +144,7 @@ Administrative keys for demisto/devo:1.0.0.9285614
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.0.2
+* Version: 11.1.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -196,7 +195,7 @@ Administrative keys for demisto/devo:1.0.0.9285614
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.1
+* Version: 26.1.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -213,7 +212,7 @@ Administrative keys for demisto/devo:1.0.0.9285614
 ### `pyOpenSSL`
 
 * Summary: Python wrapper module around the OpenSSL library
-* Version: 26.0.0
+* Version: 26.3.0
 * Pypi: https://pypi.org/project/pyOpenSSL/
 * Homepage: https://pyopenssl.org/
 * Author: The pyOpenSSL developers cryptography-dev@python.org
@@ -259,7 +258,7 @@ Administrative keys for demisto/devo:1.0.0.9285614
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.4.4
+* Version: 2026.5.9
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -318,11 +317,10 @@ Administrative keys for demisto/devo:1.0.0.9285614
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.3.1
+* Version: 5.4
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
-* License :: OSI Approved :: MIT License
 
 ### `urllib3`
 
@@ -382,18 +380,18 @@ Administrative keys for demisto/devo:1.0.0.9285614
 * libext2fs2:amd64	1.47.2-3~bpo12+1
 * libffi8:amd64	3.4.4-1
 * libgcc-s1:amd64	12.2.0-14+deb12u1
-* libgcrypt20:amd64	1.10.1-3
+* libgcrypt20:amd64	1.10.1-3+deb12u1
 * libgdbm6:amd64	1.23-3
 * libgmp10:amd64	2:6.2.1+dfsg1-1.1
-* libgnutls30:amd64	3.7.9-2+deb12u6
+* libgnutls30:amd64	3.7.9-2+deb12u7
 * libgpg-error0:amd64	1.46-1
-* libgssapi-krb5-2:amd64	1.20.1-2+deb12u4
+* libgssapi-krb5-2:amd64	1.20.1-2+deb12u5
 * libhogweed6:amd64	3.8.1-2
 * libidn2-0:amd64	2.3.3-1+b1
-* libk5crypto3:amd64	1.20.1-2+deb12u4
+* libk5crypto3:amd64	1.20.1-2+deb12u5
 * libkeyutils1:amd64	1.6.3-2
-* libkrb5-3:amd64	1.20.1-2+deb12u4
-* libkrb5support0:amd64	1.20.1-2+deb12u4
+* libkrb5-3:amd64	1.20.1-2+deb12u5
+* libkrb5support0:amd64	1.20.1-2+deb12u5
 * liblz4-1:amd64	1.9.4-1
 * liblzma5:amd64	5.4.1-1
 * libmd0:amd64	1.0.4-2
@@ -417,7 +415,7 @@ Administrative keys for demisto/devo:1.0.0.9285614
 * libsmartcols1:amd64	2.38.1-5+deb12u3
 * libsqlite3-0:amd64	3.40.1-2+deb12u2
 * libss2:amd64	1.47.2-3~bpo12+1
-* libssl3:amd64	3.0.20-1~deb12u1
+* libssl3:amd64	3.0.20-1~deb12u2
 * libstdc++6:amd64	12.2.0-14+deb12u1
 * libsystemd0:amd64	254.26-1~bpo12+1
 * libtasn1-6:amd64	4.19.0-2+deb12u1
@@ -436,7 +434,7 @@ Administrative keys for demisto/devo:1.0.0.9285614
 * ncurses-base	6.4-4
 * ncurses-bin	6.4-4
 * netbase	6.4
-* openssl	3.0.20-1~deb12u1
+* openssl	3.0.20-1~deb12u2
 * passwd	1:4.13+dfsg1-1+deb12u2
 * perl-base	5.36.0-7+deb12u3
 * procps	2:4.0.2-3
