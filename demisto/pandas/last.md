@@ -1,9 +1,9 @@
-# `demisto/pandas:1.0.0.10120494`
+# `demisto/pandas:1.0.0.10576958`
 
 ## Docker Metadata
-- Image Size: 74.10 MB
-- Image ID: `sha256:e84f7f1d3f97cd85aac3b27e7430183ae937cba9fe2fd71aca297844f11fe6fc`
-- Created: `2026-06-14T05:49:31.803351434Z`
+- Image Size: 74.11 MB
+- Image ID: `sha256:cfa6df4ddffd4a35a75d11cbe7bf4bfadec7448cfccd5832db3ce311323e206c`
+- Created: `2026-06-29T20:40:42.349439816Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/pandas:1.0.0.10120494`
+  - `DOCKER_IMAGE=demisto/pandas:1.0.0.10576958`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:beab5396de416b6cb91c551932ae2995cfc712a0`
-  - `org.opencontainers.image.version:1.0.0.10120494`
+  - `org.opencontainers.image.revision:11f69d64002cf367a9ff60aeab90f44023c2560b`
+  - `org.opencontainers.image.version:1.0.0.10576958`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pandas:1.0.0.10120494
+Signatures for demisto/pandas:1.0.0.10576958
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10120494   be25ae817790efa9d3cf70739a34ecbf9216e15ef2c3a43103476cc4617f4781   (Repo Admin)
+1.0.0.10576958   de57bd539433ac488f87e65946d66cdf4d3cde9ec83d06276c0c678d223a0c50   (Repo Admin)
 
-Administrative keys for demisto/pandas:1.0.0.10120494
+Administrative keys for demisto/pandas:1.0.0.10576958
 
   Repository Key:	2f6ee3bf40841c74b6ba712de24e83f42dfc7130fefdd4c8f0c0b2efc4645334
   Root Key:	c6252cb6471003ca794a0f88bd8ddd88095fb61c82729c39b9a73ae382c98ad8
@@ -67,9 +67,9 @@ Administrative keys for demisto/pandas:1.0.0.10120494
 * Summary: Date parsing library designed to parse dates from HTML pages
 * Version: 1.4.0
 * Pypi: https://pypi.org/project/dateparser/
-* Homepage: https://github.com/scrapinghub/dateparser
-* Author: Scrapinghub opensource@zyte.com
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Scrapinghub <opensource@zyte.com>
+* License: BSD
 
 ### `deepmerge`
 
@@ -126,7 +126,7 @@ Administrative keys for demisto/pandas:1.0.0.10120494
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.4.6
+* Version: 2.5.0
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.
@@ -151,7 +151,7 @@ Administrative keys for demisto/pandas:1.0.0.10120494
 ### `pandas`
 
 * Summary: Powerful data structures for data analysis, time series, and statistics
-* Version: 3.0.3
+* Version: 3.0.4
 * Pypi: https://pypi.org/project/pandas/
 * Homepage: None
 * Author: The Pandas Development Team <pandas-dev@python.org>
@@ -270,7 +270,7 @@ Administrative keys for demisto/pandas:1.0.0.10120494
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `urllib3`
 
