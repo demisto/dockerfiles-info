@@ -1,9 +1,9 @@
-# `demisto/snowflake:1.0.0.10238860`
+# `demisto/snowflake:1.0.0.10687384`
 
 ## Docker Metadata
-- Image Size: 82.59 MB
-- Image ID: `sha256:30074930529269c1e6a8f5bcf781a2fd6f44b277c70eaf6df046637ddd1751eb`
-- Created: `2026-06-17T08:44:57.359068755Z`
+- Image Size: 82.70 MB
+- Image ID: `sha256:260e47946b84e1553186dc178c12948ea54a8d49859472fbb8030bf12ea70f7d`
+- Created: `2026-07-02T17:35:34.07684328Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/snowflake:1.0.0.10238860`
+  - `DOCKER_IMAGE=demisto/snowflake:1.0.0.10687384`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:95029ab77c565258bf886a81aa4120b65dfcec96`
-  - `org.opencontainers.image.version:1.0.0.10238860`
+  - `org.opencontainers.image.revision:700384d4bdfc442a04406ed6afa5b57ef38717eb`
+  - `org.opencontainers.image.version:1.0.0.10687384`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/snowflake:1.0.0.10238860
+Signatures for demisto/snowflake:1.0.0.10687384
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10238860   a4078e8337b218ba57e30076922214fd2d41da557f7c5cf081977ea1492fdedb   (Repo Admin)
+1.0.0.10687384   3f4cbdcf03fcbf38d8003ccc866fbd10cce575c7d39244dbdabfd721ede516b8   (Repo Admin)
 
-Administrative keys for demisto/snowflake:1.0.0.10238860
+Administrative keys for demisto/snowflake:1.0.0.10687384
 
   Repository Key:	e5af6c8f1edf3b7b609ca6e966b4b02cda62a847f7886ade144fdd863264d2dc
   Root Key:	62fa4117d95ea03c7a2357871e30ec66d7a624e3b931de015922a0c52d289cac
@@ -59,7 +59,7 @@ Administrative keys for demisto/snowflake:1.0.0.10238860
 ### `boto3`
 
 * Summary: The AWS SDK for Python
-* Version: 1.43.31
+* Version: 1.43.39
 * Pypi: https://pypi.org/project/boto3/
 * Homepage: https://github.com/boto/boto3
 * Author: Amazon Web Services
@@ -68,7 +68,7 @@ Administrative keys for demisto/snowflake:1.0.0.10238860
 ### `botocore`
 
 * Summary: Low-level, data-driven core of boto 3.
-* Version: 1.43.31
+* Version: 1.43.39
 * Pypi: https://pypi.org/project/botocore/
 * Homepage: https://github.com/boto/botocore
 * Author: Amazon Web Services
@@ -77,7 +77,7 @@ Administrative keys for demisto/snowflake:1.0.0.10238860
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.5.20
+* Version: 2026.6.17
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -321,7 +321,7 @@ Administrative keys for demisto/snowflake:1.0.0.10238860
 ### `snowflake-connector-python`
 
 * Summary: Snowflake Connector for Python
-* Version: 4.6.0
+* Version: 4.7.0
 * Pypi: https://pypi.org/project/snowflake-connector-python/
 * Homepage: https://www.snowflake.com/
 * Author: Snowflake, Inc snowflake-python-libraries-dl@snowflake.com
@@ -356,7 +356,7 @@ Administrative keys for demisto/snowflake:1.0.0.10238860
 ### `typing_extensions`
 
 * Summary: Backported and Experimental Type Hints for Python 3.9+
-* Version: 4.15.0
+* Version: 4.16.0
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
