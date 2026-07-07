@@ -1,9 +1,9 @@
-# `demisto/taxii-server:1.0.0.10133006`
+# `demisto/taxii-server:1.0.0.10786156`
 
 ## Docker Metadata
-- Image Size: 67.30 MB
-- Image ID: `sha256:8dc11f1a0e8c4bd6699db685084a21aa58f1f828c27941d4e06836f9998347b3`
-- Created: `2026-06-14T13:21:52.432483545Z`
+- Image Size: 70.65 MB
+- Image ID: `sha256:559213bf5aeb1c1e53603f66a7ca9e9adb24ab247680e0c6a3b5334b2f7c17c0`
+- Created: `2026-07-06T17:52:27.263338401Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/taxii-server:1.0.0.10133006`
+  - `DOCKER_IMAGE=demisto/taxii-server:1.0.0.10786156`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d9afa12aeecec26152165734c2ab0f6e5d645b03`
-  - `org.opencontainers.image.version:1.0.0.10133006`
+  - `org.opencontainers.image.revision:db14c692ddc4b6c32c6ebae77a997379b072a718`
+  - `org.opencontainers.image.version:1.0.0.10786156`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/taxii-server:1.0.0.10133006
+Signatures for demisto/taxii-server:1.0.0.10786156
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10133006   ce3585006db09e988aed969f6035c691a29b22940b6f593216baa9f8a3e76e80   (Repo Admin)
+1.0.0.10786156   02b8104da588b78cf65f3e7905ca18fbe05d7bd032ad32f3016a178044ae2cfc   (Repo Admin)
 
-Administrative keys for demisto/taxii-server:1.0.0.10133006
+Administrative keys for demisto/taxii-server:1.0.0.10786156
 
   Repository Key:	9ef8564fa84f2c2a9b3cb72380bbb793c6f93f7a9c14fda15e8ef55002438ea4
   Root Key:	4676b8f4dd877e51675691d3a41d90911c6077f1c6abe945fb451c502b760d8e
@@ -145,9 +145,9 @@ Administrative keys for demisto/taxii-server:1.0.0.10133006
 * Summary: Date parsing library designed to parse dates from HTML pages
 * Version: 1.4.0
 * Pypi: https://pypi.org/project/dateparser/
-* Homepage: https://github.com/scrapinghub/dateparser
-* Author: Scrapinghub opensource@zyte.com
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Scrapinghub <opensource@zyte.com>
+* License: BSD
 
 ### `deepmerge`
 
@@ -476,7 +476,7 @@ Administrative keys for demisto/taxii-server:1.0.0.10133006
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 82.0.1
+* Version: 83.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -540,7 +540,7 @@ Administrative keys for demisto/taxii-server:1.0.0.10133006
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `urllib3`
 

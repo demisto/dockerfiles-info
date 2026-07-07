@@ -1,9 +1,9 @@
-# `demisto/stringsifter:3.20230711.10238860`
+# `demisto/stringsifter:3.20230711.10786156`
 
 ## Docker Metadata
-- Image Size: 180.45 MB
-- Image ID: `sha256:0490292ba977c975ce6823f618a9dd617763e048a9d46b58a4c288ea0679310c`
-- Created: `2026-06-17T08:46:39.944713191Z`
+- Image Size: 180.46 MB
+- Image ID: `sha256:d38a7fd913bddaa42a77ec435437ce2532fd3636289d8312b82c43cdce843932`
+- Created: `2026-07-06T17:48:26.292957039Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D`
   - `PYTHON_VERSION=3.11.10`
   - `PYTHON_SHA256=07a4356e912900e61a15cb0949a06c4a05012e213ecd6b4e84d0f67aabbee372`
-  - `DOCKER_IMAGE=demisto/stringsifter:3.20230711.10238860`
+  - `DOCKER_IMAGE=demisto/stringsifter:3.20230711.10786156`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:95029ab77c565258bf886a81aa4120b65dfcec96`
-  - `org.opencontainers.image.version:3.20230711.10238860`
+  - `org.opencontainers.image.revision:db14c692ddc4b6c32c6ebae77a997379b072a718`
+  - `org.opencontainers.image.version:3.20230711.10786156`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/stringsifter:3.20230711.10238860
+Signatures for demisto/stringsifter:3.20230711.10786156
 
 SIGNED TAG            DIGEST                                                             SIGNERS
-3.20230711.10238860   9fd1393bc0dfe1ddaf3944aba0c04c7d3638d64392ba1832c155f5b6ff9b37a6   (Repo Admin)
+3.20230711.10786156   ff105fbe14d0c760b53404be44de7eede25c532bb750b0c0740e53fc4d97c088   (Repo Admin)
 
-Administrative keys for demisto/stringsifter:3.20230711.10238860
+Administrative keys for demisto/stringsifter:3.20230711.10786156
 
   Repository Key:	e79a38f401d65a7524436f6bffcdc38d6ea22e7b91d9b6b4767f4c26ea8256f5
   Root Key:	e19be3503eadbab5a0dcf9fa3ce087c922552bee00fc99af76aecec9360c7d27
@@ -276,7 +276,7 @@ Administrative keys for demisto/stringsifter:3.20230711.10238860
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 82.0.1
+* Version: 83.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>

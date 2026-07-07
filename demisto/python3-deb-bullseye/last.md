@@ -1,9 +1,9 @@
-# `demisto/python3-deb-bullseye:3.12.11.10404775`
+# `demisto/python3-deb-bullseye:3.12.11.10786156`
 
 ## Docker Metadata
 - Image Size: 69.23 MB
-- Image ID: `sha256:f700960e346733fb9875011939419c52efd573a07ad246f1709989de15e86f98`
-- Created: `2026-06-23T14:58:14.172909159Z`
+- Image ID: `sha256:c48ff675eeaba3c571118d19ae55868893e8635c0d10fccf8548091c61f4b33b`
+- Created: `2026-07-06T17:41:40.991013428Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/python3-deb-bullseye:3.12.11.10404775`
+  - `DOCKER_IMAGE=demisto/python3-deb-bullseye:3.12.11.10786156`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:a2d35f69e81bcbad07c13f7030e4c41c9c6fa98a`
-  - `org.opencontainers.image.version:3.12.11.10404775`
+  - `org.opencontainers.image.revision:db14c692ddc4b6c32c6ebae77a997379b072a718`
+  - `org.opencontainers.image.version:3.12.11.10786156`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3-deb-bullseye:3.12.11.10404775
+Signatures for demisto/python3-deb-bullseye:3.12.11.10786156
 
 SIGNED TAG         DIGEST                                                             SIGNERS
-3.12.11.10404775   af9ec2d205d6f3a504721ef594acb2a288c0f205bffd6ba363764a60c6c759bb   (Repo Admin)
+3.12.11.10786156   7f148a83aa2d1b4cece62ba85e17167f4abc577f91ae5229dec8b23c34da511b   (Repo Admin)
 
-Administrative keys for demisto/python3-deb-bullseye:3.12.11.10404775
+Administrative keys for demisto/python3-deb-bullseye:3.12.11.10786156
 
   Repository Key:	ce5800f6f1ec4ee79ebae3f71a05301859a14836ddcaf20e2faf06f5db281c03
   Root Key:	1d02609ff9a0efe9ca9340ac62ce6c9bbc44528fd7563fd3ca6165d6806c47b2
@@ -200,7 +200,7 @@ Administrative keys for demisto/python3-deb-bullseye:3.12.11.10404775
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 82.0.1
+* Version: 83.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>

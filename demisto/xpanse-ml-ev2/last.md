@@ -1,9 +1,9 @@
-# `demisto/xpanse-ml-ev2:1.0.0.10576958`
+# `demisto/xpanse-ml-ev2:1.0.0.10786156`
 
 ## Docker Metadata
-- Image Size: 180.38 MB
-- Image ID: `sha256:a8974e09c0d9e64877cd8bba589a452404fca1a06eaca22fb9fb6e8912a908e2`
-- Created: `2026-06-29T20:46:46.108959506Z`
+- Image Size: 180.41 MB
+- Image ID: `sha256:54c91b6589a017d3e7eec23babe7565488909c0702409685aaabc15db00acfc9`
+- Created: `2026-07-06T17:58:54.440132611Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.10576958`
+  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.10786156`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:11f69d64002cf367a9ff60aeab90f44023c2560b`
-  - `org.opencontainers.image.version:1.0.0.10576958`
+  - `org.opencontainers.image.revision:db14c692ddc4b6c32c6ebae77a997379b072a718`
+  - `org.opencontainers.image.version:1.0.0.10786156`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/xpanse-ml-ev2:1.0.0.10576958
+Signatures for demisto/xpanse-ml-ev2:1.0.0.10786156
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10576958   3a2473dd78ce927ebc92a7ff7204da3e01f1fe8246c1e6727caec3beb38139f2   (Repo Admin)
+1.0.0.10786156   27455897f018f68902b1dccfd00fa261776de3406e31b1f5a82fe577ec96c7bd   (Repo Admin)
 
-Administrative keys for demisto/xpanse-ml-ev2:1.0.0.10576958
+Administrative keys for demisto/xpanse-ml-ev2:1.0.0.10786156
 
   Repository Key:	fa55b8182edbcafca39872dc58748778b2ff80634214e1872a9351313e618c45
   Root Key:	4324e3baaaa90dedc0be93f30c2271fb7bbaa8de8949e6c3996a45c6e81637d2
@@ -216,7 +216,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.10576958
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.5.0
+* Version: 2.5.1
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.

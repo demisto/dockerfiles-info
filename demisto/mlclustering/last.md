@@ -1,9 +1,9 @@
-# `demisto/mlclustering:1.0.0.10576958`
+# `demisto/mlclustering:1.0.0.10786156`
 
 ## Docker Metadata
-- Image Size: 187.75 MB
-- Image ID: `sha256:d1a1a0a6d9083759c51653c4aa0260141f067e72872b41297c1324b4b4dd2dfd`
-- Created: `2026-06-29T20:35:40.049601666Z`
+- Image Size: 187.77 MB
+- Image ID: `sha256:aa66815ac1231835579f05704a504e00c29dc02256db288b92c2791f11691648`
+- Created: `2026-07-06T17:37:20.692501961Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/mlclustering:1.0.0.10576958`
+  - `DOCKER_IMAGE=demisto/mlclustering:1.0.0.10786156`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:11f69d64002cf367a9ff60aeab90f44023c2560b`
-  - `org.opencontainers.image.version:1.0.0.10576958`
+  - `org.opencontainers.image.revision:db14c692ddc4b6c32c6ebae77a997379b072a718`
+  - `org.opencontainers.image.version:1.0.0.10786156`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/mlclustering:1.0.0.10576958
+Signatures for demisto/mlclustering:1.0.0.10786156
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10576958   283e582f5b6aaf0c4fec4438908b97e008ccdb1d75116da72e97038bab4dcff8   (Repo Admin)
+1.0.0.10786156   8e49ccf3bc997dc9b35d2c0388b32a58329a9ba9fae10665900a9169dea48f36   (Repo Admin)
 
-Administrative keys for demisto/mlclustering:1.0.0.10576958
+Administrative keys for demisto/mlclustering:1.0.0.10786156
 
   Repository Key:	d8855dc0db9e2ead8c2f610d59993d791267c23029f0e34d7599fdc315359432
   Root Key:	e037f02a27ce45de827cee6fb6e79e9a04241487236ec6abf050019f6a7e7f13
@@ -154,7 +154,7 @@ Administrative keys for demisto/mlclustering:1.0.0.10576958
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.5.0
+* Version: 2.5.1
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.

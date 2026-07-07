@@ -1,9 +1,9 @@
-# `demisto/python3-deb:3.12.13.10448099`
+# `demisto/python3-deb:3.12.13.10786156`
 
 ## Docker Metadata
 - Image Size: 56.41 MB
-- Image ID: `sha256:1e8bd88b86bc1adafca0a631f375788e2dda8cee5965252de037c1700741b404`
-- Created: `2026-06-25T02:33:47.494755761Z`
+- Image ID: `sha256:d95465bb49c16ded1c03afbf1538a3d2e5e3274c6fd92f42c3f25bf9dc2b5467`
+- Created: `2026-07-06T17:39:53.675954175Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/python3-deb:3.12.13.10448099`
+  - `DOCKER_IMAGE=demisto/python3-deb:3.12.13.10786156`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:aa22afced2ccc72de68fd62e1279a251beadde1f`
-  - `org.opencontainers.image.version:3.12.13.10448099`
+  - `org.opencontainers.image.revision:db14c692ddc4b6c32c6ebae77a997379b072a718`
+  - `org.opencontainers.image.version:3.12.13.10786156`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3-deb:3.12.13.10448099
+Signatures for demisto/python3-deb:3.12.13.10786156
 
 SIGNED TAG         DIGEST                                                             SIGNERS
-3.12.13.10448099   6ab5ec8cc6dcd5c98c75b9921fa5e9d135a24c596dc28e9ae48bd4dc145bbff4   (Repo Admin)
+3.12.13.10786156   53dca8b7dba658ead755c79931e50427831d836e89d041a8c2dcb18b007974e7   (Repo Admin)
 
-Administrative keys for demisto/python3-deb:3.12.13.10448099
+Administrative keys for demisto/python3-deb:3.12.13.10786156
 
   Repository Key:	02e9781b8a12b1475cfa9e28c569a3337f9d9e664134162d21f48e09aa975ab6
   Root Key:	c368f2dcb34a0aaabd33ee9559bd094b84c7f57f4742bde05f5a21486a524ce9
@@ -208,7 +208,7 @@ Administrative keys for demisto/python3-deb:3.12.13.10448099
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 82.0.1
+* Version: 83.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>

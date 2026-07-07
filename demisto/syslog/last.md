@@ -1,9 +1,9 @@
-# `demisto/syslog:1.0.0.10133006`
+# `demisto/syslog:1.0.0.10786156`
 
 ## Docker Metadata
-- Image Size: 37.38 MB
-- Image ID: `sha256:4a4c19742cd030c4e001b0abd10df7092056df469f92a0c629df9d7d931ffaa4`
-- Created: `2026-06-14T13:18:36.094292053Z`
+- Image Size: 40.69 MB
+- Image ID: `sha256:410baf90caafe4f0e5e84cfd871e6f190448594d4cfd8932dfb804a953aa59bb`
+- Created: `2026-07-06T17:50:04.497977445Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/syslog:1.0.0.10133006`
+  - `DOCKER_IMAGE=demisto/syslog:1.0.0.10786156`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d9afa12aeecec26152165734c2ab0f6e5d645b03`
-  - `org.opencontainers.image.version:1.0.0.10133006`
+  - `org.opencontainers.image.revision:db14c692ddc4b6c32c6ebae77a997379b072a718`
+  - `org.opencontainers.image.version:1.0.0.10786156`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/syslog:1.0.0.10133006
+Signatures for demisto/syslog:1.0.0.10786156
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10133006   e80f2dee30fdd61ed35f648ad7dcb6daa2bdf291e69737bc1024e2313f8f9c1d   (Repo Admin)
+1.0.0.10786156   c5cb3ee95efc460f3fa45b34a6dc9c3e59dffe52af510a95b9ad8968e55d1868   (Repo Admin)
 
-Administrative keys for demisto/syslog:1.0.0.10133006
+Administrative keys for demisto/syslog:1.0.0.10786156
 
   Repository Key:	11a15eab07f7e41e73476072cbde030a8e584e5848dd9ccae061af343ee287fc
   Root Key:	aa0c2d0ebdc015b28c4b791550a2c77436f62ed42305803a88c33cca848a9422
@@ -67,9 +67,9 @@ Administrative keys for demisto/syslog:1.0.0.10133006
 * Summary: Date parsing library designed to parse dates from HTML pages
 * Version: 1.4.0
 * Pypi: https://pypi.org/project/dateparser/
-* Homepage: https://github.com/scrapinghub/dateparser
-* Author: Scrapinghub opensource@zyte.com
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Scrapinghub <opensource@zyte.com>
+* License: BSD
 
 ### `deepmerge`
 
@@ -250,7 +250,7 @@ Administrative keys for demisto/syslog:1.0.0.10133006
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 82.0.1
+* Version: 83.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -297,7 +297,7 @@ Administrative keys for demisto/syslog:1.0.0.10133006
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `urllib3`
 

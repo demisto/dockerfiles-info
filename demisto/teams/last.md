@@ -1,9 +1,9 @@
-# `demisto/teams:1.0.0.10133006`
+# `demisto/teams:1.0.0.10786156`
 
 ## Docker Metadata
-- Image Size: 53.73 MB
-- Image ID: `sha256:800633ae7527bff7b0a2db03155ee65e11abe71e1396a334dfab7cec5c1a4a55`
-- Created: `2026-06-14T13:23:04.924484052Z`
+- Image Size: 57.04 MB
+- Image ID: `sha256:f1ebef421e218ae186b58ef8d3e1dff0979acfe5c8253555c7310ba3e611cda1`
+- Created: `2026-07-06T17:53:34.148178988Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/teams:1.0.0.10133006`
+  - `DOCKER_IMAGE=demisto/teams:1.0.0.10786156`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d9afa12aeecec26152165734c2ab0f6e5d645b03`
-  - `org.opencontainers.image.version:1.0.0.10133006`
+  - `org.opencontainers.image.revision:db14c692ddc4b6c32c6ebae77a997379b072a718`
+  - `org.opencontainers.image.version:1.0.0.10786156`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/teams:1.0.0.10133006
+Signatures for demisto/teams:1.0.0.10786156
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10133006   6d69a7c5b0518203c250c5084ef2f5a486ae47c347028005f84414336682f328   (Repo Admin)
+1.0.0.10786156   143678b613a124b744009c3c828ebfb3726372cd38238af478055843f7fb5520   (Repo Admin)
 
-Administrative keys for demisto/teams:1.0.0.10133006
+Administrative keys for demisto/teams:1.0.0.10786156
 
   Repository Key:	b2887129b50f5a1b5836d11a274fe06aacb9538dbf9c9414e50f3a80e882457d
   Root Key:	c46423baa7a81cc607a4aaf966f67d987d95440212144e8845a433e291cf7eb9
@@ -118,9 +118,9 @@ Administrative keys for demisto/teams:1.0.0.10133006
 * Summary: Date parsing library designed to parse dates from HTML pages
 * Version: 1.4.0
 * Pypi: https://pypi.org/project/dateparser/
-* Homepage: https://github.com/scrapinghub/dateparser
-* Author: Scrapinghub opensource@zyte.com
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Scrapinghub <opensource@zyte.com>
+* License: BSD
 
 ### `deepmerge`
 
@@ -377,7 +377,7 @@ Administrative keys for demisto/teams:1.0.0.10133006
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 82.0.1
+* Version: 83.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -423,7 +423,7 @@ Administrative keys for demisto/teams:1.0.0.10133006
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `urllib3`
 
