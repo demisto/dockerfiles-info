@@ -1,9 +1,9 @@
-# `demisto/oci:1.0.0.10608895`
+# `demisto/oci:1.0.0.10826530`
 
 ## Docker Metadata
-- Image Size: 81.70 MB
-- Image ID: `sha256:b75f66222d53a8ef6daa0a885d1d52b09a9069c0b66d8de1abc2d9e0523110e9`
-- Created: `2026-06-30T17:41:40.631888185Z`
+- Image Size: 81.75 MB
+- Image ID: `sha256:ebd974fa40bf72c1b2b11e71ee5605668285195c4c98eaf96d725c10925a9d3b`
+- Created: `2026-07-07T17:44:41.866366394Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/oci:1.0.0.10608895`
+  - `DOCKER_IMAGE=demisto/oci:1.0.0.10826530`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3faffb32810e14470590fb2e5551e6cfb7eec334`
-  - `org.opencontainers.image.version:1.0.0.10608895`
+  - `org.opencontainers.image.revision:26aeb81c39c7ba09fc931d1168fb6f69cd9a4813`
+  - `org.opencontainers.image.version:1.0.0.10826530`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/oci:1.0.0.10608895
+Signatures for demisto/oci:1.0.0.10826530
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10608895   37267dff270c071da9cfb59b4c40035d36c4244dc2468642b60e90f807d471af   (Repo Admin)
+1.0.0.10826530   707c3d75163218d922c1760fabc1136a315ca92f9f471f09e8bea76a108dd869   (Repo Admin)
 
-Administrative keys for demisto/oci:1.0.0.10608895
+Administrative keys for demisto/oci:1.0.0.10826530
 
   Repository Key:	2cc50bdbe67fd75478233e92583764f227d51416d68a400f91f13954268ef489
   Root Key:	6c4262e4f5f1c456c5e9a45765790ff209f55ce49fc37ed2a3dc8a833e52de92
@@ -56,7 +56,7 @@ Administrative keys for demisto/oci:1.0.0.10608895
 ### `cffi`
 
 * Summary: Foreign Function Interface for Python calling C code.
-* Version: 2.0.0
+* Version: 2.1.0
 * Pypi: https://pypi.org/project/cffi/
 * Homepage: None
 * Author: Armin Rigo, Maciej Fijalkowski
@@ -160,7 +160,7 @@ Administrative keys for demisto/oci:1.0.0.10608895
 ### `oci`
 
 * Summary: Oracle Cloud Infrastructure Python SDK
-* Version: 2.181.0
+* Version: 2.181.1
 * Pypi: https://pypi.org/project/oci/
 * Homepage: https://docs.oracle.com/en-us/iaas/tools/python/latest/index.html
 * Author: Oracle jyoti.s.saini@oracle.com
@@ -200,6 +200,14 @@ Administrative keys for demisto/oci:1.0.0.10608895
 * Pypi: https://pypi.org/project/pycparser/
 * Homepage: None
 * Author: Eli Bendersky <eliben@gmail.com>
+
+### `PyJWT`
+
+* Summary: JSON Web Token implementation in Python
+* Version: 2.13.0
+* Pypi: https://pypi.org/project/PyJWT/
+* Homepage: None
+* Author: Jose Padilla <hello@jpadilla.com>
 
 ### `pyOpenSSL`
 
@@ -301,7 +309,7 @@ Administrative keys for demisto/oci:1.0.0.10608895
 ### `typing_extensions`
 
 * Summary: Backported and Experimental Type Hints for Python 3.9+
-* Version: 4.15.0
+* Version: 4.16.0
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>

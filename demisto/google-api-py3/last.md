@@ -1,9 +1,9 @@
-# `demisto/google-api-py3:1.0.0.10507473`
+# `demisto/google-api-py3:1.0.0.10826530`
 
 ## Docker Metadata
-- Image Size: 82.00 MB
-- Image ID: `sha256:6de3cd36adcf29e0c4cb6b0610b2cd95a976b0d6d0d933f2e6a77a0357237003`
-- Created: `2026-06-27T23:43:32.16922215Z`
+- Image Size: 82.01 MB
+- Image ID: `sha256:210a1993fa1185d53031aa5cd65f12244bc4f01e85da0d9b91cf42972081f5a9`
+- Created: `2026-07-07T17:30:53.503707383Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/google-api-py3:1.0.0.10507473`
+  - `DOCKER_IMAGE=demisto/google-api-py3:1.0.0.10826530`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:ad7158b46491eaa8bc4ed891549a2d3f104fe921`
-  - `org.opencontainers.image.version:1.0.0.10507473`
+  - `org.opencontainers.image.revision:26aeb81c39c7ba09fc931d1168fb6f69cd9a4813`
+  - `org.opencontainers.image.version:1.0.0.10826530`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-api-py3:1.0.0.10507473
+Signatures for demisto/google-api-py3:1.0.0.10826530
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10507473   d76443d3df2686a9f32a1a5b3f927c6400dd68f554f45d4f95d2f780c012a8a8   (Repo Admin)
+1.0.0.10826530   4d34f2fe33681afb8af2a31f7ec47d225b5a0899d0d6820c073eeb7e9ec9ab81   (Repo Admin)
 
-Administrative keys for demisto/google-api-py3:1.0.0.10507473
+Administrative keys for demisto/google-api-py3:1.0.0.10826530
 
   Repository Key:	5770a83f9c9b9436ad3c6e6acfe7a826fe9e3f460f7ad22dfb9f894f371071a6
   Root Key:	95f47db9a4f5902373f46f558d53e073d895578cef7f0b44205d77f956ba04d4
@@ -59,7 +59,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.10507473
 ### `cffi`
 
 * Summary: Foreign Function Interface for Python calling C code.
-* Version: 2.0.0
+* Version: 2.1.0
 * Pypi: https://pypi.org/project/cffi/
 * Homepage: None
 * Author: Armin Rigo, Maciej Fijalkowski
