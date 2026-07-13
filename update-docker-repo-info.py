@@ -21,7 +21,7 @@ import traceback
 from slack_notifier import slack_notifier
 
 
-assert sys.version_info >= (3, 9), "Script compatible with python 3.9 and higher only"
+assert sys.version_info >= (3, 11), "Script compatible with python 3.11 and higher only"
 
 VERIFY_SSL = True
 OLD_TAG_THRESHOLD_IN_MONTHS = 6
