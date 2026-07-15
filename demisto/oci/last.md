@@ -1,9 +1,9 @@
-# `demisto/oci:1.0.0.10826530`
+# `demisto/oci:1.0.0.11031183`
 
 ## Docker Metadata
-- Image Size: 81.75 MB
-- Image ID: `sha256:ebd974fa40bf72c1b2b11e71ee5605668285195c4c98eaf96d725c10925a9d3b`
-- Created: `2026-07-07T17:44:41.866366394Z`
+- Image Size: 82.10 MB
+- Image ID: `sha256:7dd77df12e50e7c3dec5401fd57d67aa90fe4da3cf2a70c25a9757cc3c8204be`
+- Created: `2026-07-14T17:36:26.729544728Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/oci:1.0.0.10826530`
+  - `DOCKER_IMAGE=demisto/oci:1.0.0.11031183`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:26aeb81c39c7ba09fc931d1168fb6f69cd9a4813`
-  - `org.opencontainers.image.version:1.0.0.10826530`
+  - `org.opencontainers.image.revision:326bc359e472c498ce249fbbaabd5a3621391032`
+  - `org.opencontainers.image.version:1.0.0.11031183`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,10 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/oci:1.0.0.10826530
+No signatures for demisto/oci:1.0.0.11031183
 
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10826530   707c3d75163218d922c1760fabc1136a315ca92f9f471f09e8bea76a108dd869   (Repo Admin)
 
-Administrative keys for demisto/oci:1.0.0.10826530
+Administrative keys for demisto/oci:1.0.0.11031183
 
   Repository Key:	2cc50bdbe67fd75478233e92583764f227d51416d68a400f91f13954268ef489
   Root Key:	6c4262e4f5f1c456c5e9a45765790ff209f55ce49fc37ed2a3dc8a833e52de92
@@ -82,7 +80,7 @@ Administrative keys for demisto/oci:1.0.0.10826530
 ### `crc32c`
 
 * Summary: A python package implementing the crc32c algorithm in hardware and software
-* Version: 2.7.1
+* Version: 2.8
 * Pypi: https://pypi.org/project/crc32c/
 * Homepage: None
 * Author: Rodrigo Tobar <rtobar@icrar.org>
@@ -160,7 +158,7 @@ Administrative keys for demisto/oci:1.0.0.10826530
 ### `oci`
 
 * Summary: Oracle Cloud Infrastructure Python SDK
-* Version: 2.181.1
+* Version: 2.182.0
 * Pypi: https://pypi.org/project/oci/
 * Homepage: https://docs.oracle.com/en-us/iaas/tools/python/latest/index.html
 * Author: Oracle jyoti.s.saini@oracle.com
