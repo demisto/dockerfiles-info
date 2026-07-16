@@ -18,6 +18,7 @@ import time
 import codecs
 import yaml
 import traceback
+from collections import defaultdict
 from slack_notifier import slack_notifier
 
 
@@ -591,10 +592,11 @@ def save_docker_images_list_json(all_docker_images_with_js: dict[str, list[str]]
         print('all_docker_images_with_js is empty, skipping docker_images_list.json generation')
         return
 
-    docker_images_list: list[str] = []
-    for image_name, tags in sorted(all_docker_images_with_js.items()):
-        for tag in sorted(tags):
-            docker_images_list.append(f"{image_name}:{tag}")
+    docker_images_list: list[str] = [
+        f"{image_name}:{tag}"
+        for image_name, tags in sorted(all_docker_images_with_js.items())
+        for tag in sorted(tags)
+    ]
 
     with open(DOCKER_IMAGES_LIST_JSON, "w") as fp:
         fp.write(json.dumps(docker_images_list, indent=4, sort_keys=True))
@@ -642,8 +644,8 @@ def read_dockers_from_all_yml_files(directory: str) -> tuple[dict[str, list[str]
             - all_docker_images_with_js: dict of ALL images (incl. JS) for docker_images_list.json
     """
     yml_files = get_yaml_files_in_directory(directory)
-    all_docker_image: dict[str, set[str]] = {}
-    all_docker_images_with_js: dict[str, set[str]] = {}
+    all_docker_image: defaultdict[str, set[str]] = defaultdict(set)
+    all_docker_images_with_js: defaultdict[str, set[str]] = defaultdict(set)
     for file_path in yml_files:
         try:
             with open(file_path, 'r') as file:
@@ -670,28 +672,20 @@ def read_dockers_from_all_yml_files(directory: str) -> tuple[dict[str, list[str]
                     image_name, tag = docker_image.split(':')
 
                     # Always add to all_docker_images_with_js (for docker_images_list.json)
-                    if image_name not in all_docker_images_with_js:
-                        all_docker_images_with_js[image_name] = {tag}
-                    else:
-                        all_docker_images_with_js[image_name].add(tag)
+                    all_docker_images_with_js[image_name].add(tag)
 
                     # Only add non-JS to all_docker_image (for process_image flow)
                     if not is_javascript:
-                        if image_name not in all_docker_image:
-                            all_docker_image[image_name] = {tag}
-                        else:
-                            all_docker_image[image_name].add(tag)  # add tag if it's not already present
+                        all_docker_image[image_name].add(tag)
 
         except Exception as e:
             print(f"Error reading {file_path}: {e}")
 
-    # Convert sets to lists (for the final output)
-    for key in all_docker_image:
-        all_docker_image[key] = list(all_docker_image[key])
-    for key in all_docker_images_with_js:
-        all_docker_images_with_js[key] = list(all_docker_images_with_js[key])
-            
-    return all_docker_image, all_docker_images_with_js
+    # Convert sets to sorted lists (for the final output)
+    return (
+        {k: sorted(v) for k, v in all_docker_image.items()},
+        {k: sorted(v) for k, v in all_docker_images_with_js.items()},
+    )
 
 
 def main():
