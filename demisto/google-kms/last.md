@@ -1,9 +1,9 @@
-# `demisto/google-kms:1.0.0.11009641`
+# `demisto/google-kms:1.0.0.11122955`
 
 ## Docker Metadata
-- Image Size: 72.50 MB
-- Image ID: `sha256:31763b985e40fdb33e0182add5f0adc84e9a0a8d8a793d2fc2f4e3ce029fb11c`
-- Created: `2026-07-14T09:12:11.287606709Z`
+- Image Size: 72.52 MB
+- Image ID: `sha256:d8d10d443d0d52b733a623c3478634a1269834b3a8b16d28eb3bc512b1e9c143`
+- Created: `2026-07-18T23:43:43.805956609Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/google-kms:1.0.0.11009641`
+  - `DOCKER_IMAGE=demisto/google-kms:1.0.0.11122955`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:e59783bb118b07ee5de381cc23a5c3b8ee951f38`
-  - `org.opencontainers.image.version:1.0.0.11009641`
+  - `org.opencontainers.image.revision:61a492d0f42a9b9c8f6e89d4a5ed621aebf84418`
+  - `org.opencontainers.image.version:1.0.0.11122955`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-kms:1.0.0.11009641
+Signatures for demisto/google-kms:1.0.0.11122955
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11009641   0cc84181cd099e692a79716381af9c812acd113f669253aacedca13230cbddd6   (Repo Admin)
+1.0.0.11122955   ee895da1cff4458de8140c3b276bc911e861f053157ca3d34074f3af6e50a528   (Repo Admin)
 
-Administrative keys for demisto/google-kms:1.0.0.11009641
+Administrative keys for demisto/google-kms:1.0.0.11122955
 
   Repository Key:	3968c10ba3e31bc8df33d81159ca1fe0b3299a456046b6bf78410ae84ede0850
   Root Key:	d0fd563a2245b5e45fc961df4aaaa6e8aaca915308df0a0eeb6c829867f63a34
@@ -119,7 +119,7 @@ Administrative keys for demisto/google-kms:1.0.0.11009641
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.31.0
+* Version: 2.32.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -137,7 +137,7 @@ Administrative keys for demisto/google-kms:1.0.0.11009641
 ### `google-cloud-kms`
 
 * Summary: Google Cloud Kms API client library
-* Version: 3.15.0
+* Version: 3.16.0
 * Pypi: https://pypi.org/project/google-cloud-kms/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-kms
 * Author: Google LLC googleapis-packages@google.com

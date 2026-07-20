@@ -1,9 +1,9 @@
-# `demisto/genericsql:1.2.0.11064810`
+# `demisto/genericsql:1.2.0.11164446`
 
 ## Docker Metadata
-- Image Size: 361.27 MB
-- Image ID: `sha256:5a32e3bb9b4fdf508d8a14c06f5466eb93a22b2592e6f7f68776aacd21905e3a`
-- Created: `2026-07-15T20:49:59.916931838Z`
+- Image Size: 361.28 MB
+- Image ID: `sha256:7da35855b854e4f50f4a951f5c29e9ff016a6026d95d591356f87a196b30425e`
+- Created: `2026-07-20T05:35:02.904589282Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.11064810`
+  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.11164446`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3b4dd876af32db6391299b741dfc3b2512203c62`
-  - `org.opencontainers.image.version:1.2.0.11064810`
+  - `org.opencontainers.image.revision:4927f20173728093f7d28bfa3180ae1bfe156601`
+  - `org.opencontainers.image.version:1.2.0.11164446`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/genericsql:1.2.0.11064810
+Signatures for demisto/genericsql:1.2.0.11164446
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.2.0.11064810   2c0ae8437f58efc46498d3488ee9b39ae91350825cbf4a70e878a4ad7f0184e2   (Repo Admin)
+1.2.0.11164446   0565377eea92ab06b2eac3a99d0c81e5d164a00e06c51869a562821546ca6bed   (Repo Admin)
 
-Administrative keys for demisto/genericsql:1.2.0.11064810
+Administrative keys for demisto/genericsql:1.2.0.11164446
 
   Repository Key:	b02fc99a72d78e9f5becfe15406ea942db310f3c3af9a7833b215eddb323f7cd
   Root Key:	d11245d830d935ed4846941604c024388aca83a60142ae5319409b1f6091afe1
@@ -515,7 +515,7 @@ Administrative keys for demisto/genericsql:1.2.0.11064810
 * libuuid1:amd64	2.38.1-5+deb12u3
 * libxxhash0:amd64	0.8.1-1
 * libzstd1:amd64	1.5.4+dfsg2-5
-* linux-libc-dev:amd64	6.1.176-1
+* linux-libc-dev:amd64	6.1.177-1
 * login	1:4.13+dfsg1-1+deb12u2
 * logsave	1.47.2-3~bpo12+1
 * mawk	1.3.4.20200120-3.1
