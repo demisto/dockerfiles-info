@@ -18,6 +18,7 @@ import time
 import codecs
 import yaml
 import traceback
+from collections import defaultdict
 from slack_notifier import slack_notifier
 
 
@@ -28,6 +29,7 @@ OLD_TAG_THRESHOLD_IN_MONTHS = 6
 DOCKERFILES_DIR = os.path.abspath(os.getenv('DOCKERFILES_DIR', '.dockerfiles'))
 CONTENT_DIR = os.path.abspath(os.getenv('CONTENT_DIR', '.content'))
 DOCKER_IMAGES_METADATA = "docker_images_metadata.json"
+DOCKER_IMAGES_LIST_JSON = "docker_images_list.json"
 DOCKER_IMAGE_REGEX_PATTERN = r'^demisto/([^\s:]+):(\d+(\.\d+)*)$'
 DOCKERHUB_ACCESS_TOKEN = ''
 DOCKERHUB_USER = ''
@@ -580,6 +582,27 @@ def save_to_docker_files_metadata_json_file():
     print("Successfully saved to 'docker_images_metadata.json'.")
 
 
+def save_docker_images_list_json(all_docker_images_with_js: dict[str, list[str]]) -> None:
+    """Generate a flat JSON list of ALL docker images in use by content.
+
+    Includes Python, PowerShell, and JavaScript images.
+    Saves to DOCKER_IMAGES_LIST_JSON file.
+    """
+    if not all_docker_images_with_js:
+        print('all_docker_images_with_js is empty, skipping docker_images_list.json generation')
+        return
+
+    docker_images_list: list[str] = [
+        f"{image_name}:{tag}"
+        for image_name, tags in sorted(all_docker_images_with_js.items())
+        for tag in sorted(tags)
+    ]
+
+    with open(DOCKER_IMAGES_LIST_JSON, "w") as fp:
+        fp.write(json.dumps(docker_images_list, indent=4, sort_keys=True))
+    print(f"Successfully saved {len(docker_images_list)} images to '{DOCKER_IMAGES_LIST_JSON}'.")
+
+
 def checkout_dockerfiles_repo():
     if os.path.exists(DOCKERFILES_DIR):
         print(f'dockerfiles dir {DOCKERFILES_DIR} exists. Skipping checkout!')
@@ -612,48 +635,57 @@ def get_yaml_files_in_directory(directory):
 
     return yml_files
 
-def read_dockers_from_all_yml_files(directory):
-    """Get the docker images from yml files"""
+def read_dockers_from_all_yml_files(directory: str) -> tuple[dict[str, list[str]], dict[str, list[str]]]:
+    """Get the docker images from yml files.
+
+    Returns:
+        tuple: (all_docker_image, all_docker_images_with_js)
+            - all_docker_image: dict of non-JS images for process_image flow
+            - all_docker_images_with_js: dict of ALL images (incl. JS) for docker_images_list.json
+    """
     yml_files = get_yaml_files_in_directory(directory)
-    all_docker_image = {}
+    all_docker_image: defaultdict[str, set[str]] = defaultdict(set)
+    all_docker_images_with_js: defaultdict[str, set[str]] = defaultdict(set)
     for file_path in yml_files:
         try:
             with open(file_path, 'r') as file:
                 data = yaml.safe_load(file)  # Load the YAML file
 
-                if data.get('type') != 'javascript':
-                    docker_images = set()
-                    script_value = data.get('script', {})
+                docker_images: set[str] = set()
+                script_value = data.get('script', {})
                     
-                    # get the alt_dockerimages value
-                    if data.get('alt_dockerimages'):
-                        docker_images.update(data.get('alt_dockerimages'))
-                    elif script_value and isinstance(script_value,dict) and script_value.get('alt_dockerimages'):
-                        docker_images.update(data.get('script').get('alt_dockerimages'))
+                # get the alt_dockerimages value
+                if data.get('alt_dockerimages'):
+                    docker_images.update(data.get('alt_dockerimages'))
+                elif script_value and isinstance(script_value,dict) and script_value.get('alt_dockerimages'):
+                    docker_images.update(data.get('script').get('alt_dockerimages'))
 
-                    # get the docker image
-                    if data.get('dockerimage'):
-                        docker_images.add(data.get('dockerimage'))
-                    elif script_value and isinstance(script_value,dict) and script_value.get('dockerimage'):
-                        docker_images.add(data.get('script').get('dockerimage'))
+                # get the docker image
+                if data.get('dockerimage'):
+                    docker_images.add(data.get('dockerimage'))
+                elif script_value and isinstance(script_value,dict) and script_value.get('dockerimage'):
+                    docker_images.add(data.get('script').get('dockerimage'))
 
-                    # update all_docker_image dict
-                    for docker_image in docker_images:
-                        image_name, tag = docker_image.split(':')
-                        
-                        # add the tag to the dictionary, ensuring the list of tags is distinct
-                        if image_name not in all_docker_image:
-                            all_docker_image[image_name] = {tag}
-                        else:
-                            all_docker_image[image_name].add(tag)  # add tag if it's not already present
+                is_javascript: bool = data.get('type') == 'javascript'
+
+                for docker_image in docker_images:
+                    image_name, tag = docker_image.split(':')
+
+                    # Always add to all_docker_images_with_js (for docker_images_list.json)
+                    all_docker_images_with_js[image_name].add(tag)
+
+                    # Only add non-JS to all_docker_image (for process_image flow)
+                    if not is_javascript:
+                        all_docker_image[image_name].add(tag)
+
         except Exception as e:
             print(f"Error reading {file_path}: {e}")
 
-    # Convert sets to lists (for the final output)
-    for key in all_docker_image:
-        all_docker_image[key] = list(all_docker_image[key])
-            
-    return all_docker_image
+    # Convert sets to sorted lists (for the final output)
+    return (
+        {k: sorted(v) for k, v in all_docker_image.items()},
+        {k: sorted(v) for k, v in all_docker_images_with_js.items()},
+    )
 
 
 def main():
@@ -681,7 +713,7 @@ def main():
 
     # set CONTENT_DOCKER_IMAGES value with all the docker images we use in content repo
     checkout_content_repo()
-    all_content_dockers = read_dockers_from_all_yml_files(f'{CONTENT_DIR}/Packs')
+    all_content_dockers, all_content_dockers_with_js = read_dockers_from_all_yml_files(f'{CONTENT_DIR}/Packs')
     global CONTENT_DOCKER_IMAGES
     CONTENT_DOCKER_IMAGES = all_content_dockers
     
@@ -701,6 +733,7 @@ def main():
     generate_readme_listing()
     generate_csv()
     save_to_docker_files_metadata_json_file()
+    save_docker_images_list_json(all_content_dockers_with_js)
     
     # send Slack notification
     global REMOVED_IMAGES
