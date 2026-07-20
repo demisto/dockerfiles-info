@@ -1,9 +1,9 @@
-# `demisto/snowflake:1.0.0.10687384`
+# `demisto/snowflake:1.0.0.11131287`
 
 ## Docker Metadata
-- Image Size: 82.70 MB
-- Image ID: `sha256:260e47946b84e1553186dc178c12948ea54a8d49859472fbb8030bf12ea70f7d`
-- Created: `2026-07-02T17:35:34.07684328Z`
+- Image Size: 83.20 MB
+- Image ID: `sha256:4d83a99d09b61f7a640a84579758f21650f5559f83cee2d81e6471c6ac2533c1`
+- Created: `2026-07-19T08:36:10.160745137Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/snowflake:1.0.0.10687384`
+  - `DOCKER_IMAGE=demisto/snowflake:1.0.0.11131287`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:700384d4bdfc442a04406ed6afa5b57ef38717eb`
-  - `org.opencontainers.image.version:1.0.0.10687384`
+  - `org.opencontainers.image.revision:5d8435ec378a572dfb0e7464dc3ba0e463dc38d4`
+  - `org.opencontainers.image.version:1.0.0.11131287`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/snowflake:1.0.0.10687384
+Signatures for demisto/snowflake:1.0.0.11131287
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10687384   3f4cbdcf03fcbf38d8003ccc866fbd10cce575c7d39244dbdabfd721ede516b8   (Repo Admin)
+1.0.0.11131287   04443cc3a265f38bb9716130a469c13259ee5a40ec95b8ea37811168ddecd5e5   (Repo Admin)
 
-Administrative keys for demisto/snowflake:1.0.0.10687384
+Administrative keys for demisto/snowflake:1.0.0.11131287
 
   Repository Key:	e5af6c8f1edf3b7b609ca6e966b4b02cda62a847f7886ade144fdd863264d2dc
   Root Key:	62fa4117d95ea03c7a2357871e30ec66d7a624e3b931de015922a0c52d289cac
@@ -59,7 +59,7 @@ Administrative keys for demisto/snowflake:1.0.0.10687384
 ### `boto3`
 
 * Summary: The AWS SDK for Python
-* Version: 1.43.39
+* Version: 1.43.49
 * Pypi: https://pypi.org/project/boto3/
 * Homepage: https://github.com/boto/boto3
 * Author: Amazon Web Services
@@ -68,7 +68,7 @@ Administrative keys for demisto/snowflake:1.0.0.10687384
 ### `botocore`
 
 * Summary: Low-level, data-driven core of boto 3.
-* Version: 1.43.39
+* Version: 1.43.49
 * Pypi: https://pypi.org/project/botocore/
 * Homepage: https://github.com/boto/botocore
 * Author: Amazon Web Services
@@ -86,7 +86,7 @@ Administrative keys for demisto/snowflake:1.0.0.10687384
 ### `cffi`
 
 * Summary: Foreign Function Interface for Python calling C code.
-* Version: 2.0.0
+* Version: 2.1.0
 * Pypi: https://pypi.org/project/cffi/
 * Homepage: None
 * Author: Armin Rigo, Maciej Fijalkowski
@@ -94,7 +94,7 @@ Administrative keys for demisto/snowflake:1.0.0.10687384
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.7
+* Version: 3.4.9
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -129,7 +129,7 @@ Administrative keys for demisto/snowflake:1.0.0.10687384
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.29.4
+* Version: 3.30.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -295,7 +295,7 @@ Administrative keys for demisto/snowflake:1.0.0.10687384
 ### `s3transfer`
 
 * Summary: An Amazon S3 Transfer Manager
-* Version: 0.19.0
+* Version: 0.19.1
 * Pypi: https://pypi.org/project/s3transfer/
 * Homepage: https://github.com/boto/s3transfer
 * Author: Amazon Web Services kyknapp1@gmail.com
@@ -321,7 +321,7 @@ Administrative keys for demisto/snowflake:1.0.0.10687384
 ### `snowflake-connector-python`
 
 * Summary: Snowflake Connector for Python
-* Version: 4.7.0
+* Version: 4.7.1
 * Pypi: https://pypi.org/project/snowflake-connector-python/
 * Homepage: https://www.snowflake.com/
 * Author: Snowflake, Inc snowflake-python-libraries-dl@snowflake.com

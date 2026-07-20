@@ -1,9 +1,9 @@
-# `demisto/genericsql:1.2.0.11126445`
+# `demisto/genericsql:1.2.0.11164446`
 
 ## Docker Metadata
-- Image Size: 361.27 MB
-- Image ID: `sha256:a891a5fff955f0f45abb2c053a7cb9c5b2de97c901b34c2e5359706e29018cbe`
-- Created: `2026-07-19T05:36:58.964507923Z`
+- Image Size: 361.28 MB
+- Image ID: `sha256:7da35855b854e4f50f4a951f5c29e9ff016a6026d95d591356f87a196b30425e`
+- Created: `2026-07-20T05:35:02.904589282Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.11126445`
+  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.11164446`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:8497bdbf5861c612514b69bed1eac32661023bcb`
-  - `org.opencontainers.image.version:1.2.0.11126445`
+  - `org.opencontainers.image.revision:4927f20173728093f7d28bfa3180ae1bfe156601`
+  - `org.opencontainers.image.version:1.2.0.11164446`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/genericsql:1.2.0.11126445
+Signatures for demisto/genericsql:1.2.0.11164446
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.2.0.11126445   da863c909d93bcd453f4e0bf088c89e1fe3ffc62b32aa7dfa766103b5e5a0fae   (Repo Admin)
+1.2.0.11164446   0565377eea92ab06b2eac3a99d0c81e5d164a00e06c51869a562821546ca6bed   (Repo Admin)
 
-Administrative keys for demisto/genericsql:1.2.0.11126445
+Administrative keys for demisto/genericsql:1.2.0.11164446
 
   Repository Key:	b02fc99a72d78e9f5becfe15406ea942db310f3c3af9a7833b215eddb323f7cd
   Root Key:	d11245d830d935ed4846941604c024388aca83a60142ae5319409b1f6091afe1
