@@ -1,9 +1,9 @@
-# `demisto/py3ews:5.6.0.10399583`
+# `demisto/py3ews:5.6.0.11193239`
 
 ## Docker Metadata
-- Image Size: 58.87 MB
-- Image ID: `sha256:e680e63e9ae404afea331dd8e5a95cca3009186c67fbe0a8a27c1dad6f11653d`
-- Created: `2026-06-23T11:34:23.826013293Z`
+- Image Size: 54.38 MB
+- Image ID: `sha256:c71293ccaa8753d085a2be09bceb9549bafb54b0ea311fa1c1691ccfc3f8331c`
+- Created: `2026-07-21T04:14:48.505621799Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/py3ews:5.6.0.10399583`
+  - `DOCKER_IMAGE=demisto/py3ews:5.6.0.11193239`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b99d4cfa27db852540c328d8a8bd3f2b3b71e513`
-  - `org.opencontainers.image.version:5.6.0.10399583`
+  - `org.opencontainers.image.revision:56ea857ca737442eef106df08a6b23d2f369edc5`
+  - `org.opencontainers.image.version:5.6.0.11193239`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py3ews:5.6.0.10399583
+Signatures for demisto/py3ews:5.6.0.11193239
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-5.6.0.10399583   f0864f078232fc30743cd438f3a56a499dd6198b0edd822258b149cc12fdbd4f   (Repo Admin)
+5.6.0.11193239   54baae9c59506765e01863f14751f2dd9b1067e4ba6079f099a36bca51121acb   (Repo Admin)
 
-Administrative keys for demisto/py3ews:5.6.0.10399583
+Administrative keys for demisto/py3ews:5.6.0.11193239
 
   Repository Key:	49e0be19d4c430aaef147539b64259bbc85885e5bd03918079e6a66d693cb8be
   Root Key:	e2c459fee62c0ca5b39fcd6a3cd86c53a1506042ad92cc59aada6a00a0e1bbf4
@@ -124,7 +124,7 @@ Administrative keys for demisto/py3ews:5.6.0.10399583
 ### `deepmerge`
 
 * Summary: A toolset for deeply merging Python dictionaries.
-* Version: 2.0
+* Version: 2.1.0
 * Pypi: https://pypi.org/project/deepmerge/
 * Homepage: None
 * Author: Yusuke Tsutsumi <yusuke@tsutsumi.io>
@@ -221,7 +221,7 @@ Administrative keys for demisto/py3ews:5.6.0.10399583
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.8.0
+* Version: 11.1.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -487,7 +487,7 @@ Administrative keys for demisto/py3ews:5.6.0.10399583
 
 ## `OS Packages`
 
-* .python-rundeps-20260610.204951 noarch {.python-rundeps}
+* .python-rundeps-20260616.002526 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
@@ -513,7 +513,7 @@ Administrative keys for demisto/py3ews:5.6.0.10399583
 * libssl3-3.5.7-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
-* libuuid-2.42-r0 x86_64 {util-linux}
+* libuuid-2.42.1-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
 * libxml2-2.13.9-r2 x86_64 {libxml2}
 * libxml2-dev-2.13.9-r2 x86_64 {libxml2}
