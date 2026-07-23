@@ -1,9 +1,9 @@
-# `demisto/boto3py3:1.0.0.11252302`
+# `demisto/anthropic:1.0.0.11252302`
 
 ## Docker Metadata
-- Image Size: 44.69 MB
-- Image ID: `sha256:965129f7bb363e59be667df92eab4015025afdb82cf2241bfc80f238540bac7f`
-- Created: `2026-07-22T14:40:19.093581846Z`
+- Image Size: 57.73 MB
+- Image ID: `sha256:de4c3a759bfc8d354fc768636028976fb90b619bc97f474a9f982a47a6a82d55`
+- Created: `2026-07-22T14:39:15.083354583Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,7 +12,7 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.11252302`
+  - `DOCKER_IMAGE=demisto/anthropic:1.0.0.11252302`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
   - `org.opencontainers.image.revision:e20984c4d67d41a71bd40014c3d954f4e0cc06d7`
@@ -29,20 +29,46 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/boto3py3:1.0.0.11252302
+Signatures for demisto/anthropic:1.0.0.11252302
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11252302   9cd350b792b8857d2bd303ca8eb2f6895fbdf251d76580f303dcebeda9878376   (Repo Admin)
+1.0.0.11252302   6bdb97287e37ab42b90e998aeb5d7025ccf4b5d13ddca9e5017d087855188706   (Repo Admin)
 
-Administrative keys for demisto/boto3py3:1.0.0.11252302
+Administrative keys for demisto/anthropic:1.0.0.11252302
 
-  Repository Key:	cfe86d8f6e0178e2a77477d651d16cfc814b6e47b04f1f04d94917fb248a1ae8
-  Root Key:	c4222af787cfc1a173f56c5eab482e5c4602eae4bb767431e17594c786c162f8
+  Repository Key:	2617f6c9a61902bde807f93e09cf25a0effec88291d98cfe4be996d33408e124
+  Root Key:	f242075666b632d8df93f6d63a5051d1301bbd5ff69a49afb33dd281046f367e
 
 ```
 
 ## `Python Packages`
 
+
+### `annotated-types`
+
+* Summary: Reusable constraint types to use with typing.Annotated
+* Version: 0.7.0
+* Pypi: https://pypi.org/project/annotated-types/
+* Homepage: None
+* Author: Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Samuel Colvin <s@muelcolvin.com>, Zac Hatfield-Dodds <zac@zhd.dev>
+* License :: OSI Approved :: MIT License
+
+### `anthropic`
+
+* Summary: The official Python library for the anthropic API
+* Version: 0.117.1
+* Pypi: https://pypi.org/project/anthropic/
+* Homepage: None
+* Author: Anthropic <support@anthropic.com>
+* License :: OSI Approved :: MIT License
+
+### `anyio`
+
+* Summary: High-level concurrency and networking framework on top of asyncio or Trio
+* Version: 4.14.2
+* Pypi: https://pypi.org/project/anyio/
+* Homepage: None
+* Author: Alex Grönholm <alex.gronholm@nextday.fi>
 
 ### `boto3`
 
@@ -65,20 +91,36 @@ Administrative keys for demisto/boto3py3:1.0.0.11252302
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.4.22
+* Version: 2026.7.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
 
+### `cffi`
+
+* Summary: Foreign Function Interface for Python calling C code.
+* Version: 2.1.0
+* Pypi: https://pypi.org/project/cffi/
+* Homepage: None
+* Author: Armin Rigo, Maciej Fijalkowski
+
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.7
+* Version: 3.4.9
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
 * License: MIT
+
+### `cryptography`
+
+* Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
+* Version: 49.0.0
+* Pypi: https://pypi.org/project/cryptography/
+* Homepage: None
+* Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
 
 ### `dateparser`
 
@@ -106,6 +148,24 @@ Administrative keys for demisto/boto3py3:1.0.0.11252302
 * Author: Christian Heimes christian@python.org
 * License :: OSI Approved :: Python Software Foundation License
 
+### `distro`
+
+* Summary: Distro - an OS platform information API
+* Version: 1.9.0
+* Pypi: https://pypi.org/project/distro/
+* Homepage: https://github.com/python-distro/distro
+* Author: Nir Cohen nir36g@gmail.com
+* License :: OSI Approved :: Apache Software License
+
+### `docstring_parser`
+
+* Summary: Parse Python docstrings in reST, Google and Numpydoc format
+* Version: 0.18.0
+* Pypi: https://pypi.org/project/docstring-parser/
+* Homepage: None
+* Author: Marcin Kurczewski <dash@wind.garden>
+* License :: OSI Approved :: MIT License
+
 ### `filelock`
 
 * Summary: A platform independent file lock.
@@ -124,13 +184,57 @@ Administrative keys for demisto/boto3py3:1.0.0.11252302
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
+### `google-auth`
+
+* Summary: Google Authentication Library
+* Version: 2.56.2
+* Pypi: https://pypi.org/project/google-auth/
+* Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
+* Author: Google Cloud Platform googleapis-packages@google.com
+* License :: OSI Approved :: Apache Software License
+
+### `h11`
+
+* Summary: A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
+* Version: 0.16.0
+* Pypi: https://pypi.org/project/h11/
+* Homepage: https://github.com/python-hyper/h11
+* Author: Nathaniel J. Smith njs@pobox.com
+* License :: OSI Approved :: MIT License
+
+### `httpcore`
+
+* Summary: A minimal low-level HTTP client.
+* Version: 1.0.9
+* Pypi: https://pypi.org/project/httpcore/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+* License :: OSI Approved :: BSD License
+
+### `httpx`
+
+* Summary: The next generation HTTP client.
+* Version: 0.28.1
+* Pypi: https://pypi.org/project/httpx/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+* License :: OSI Approved :: BSD License
+
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.15
+* Version: 3.18
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
+
+### `jiter`
+
+* Summary: Fast iterable JSON parser.
+* Version: 0.16.0
+* Pypi: https://pypi.org/project/jiter/
+* Homepage: https://github.com/pydantic/jiter/
+* Author: Samuel Colvin <s@muelcolvin.com>
 
 ### `jmespath`
 
@@ -174,6 +278,48 @@ Administrative keys for demisto/boto3py3:1.0.0.11252302
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
 * License: MIT
+
+### `pyasn1`
+
+* Summary: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
+* Version: 0.6.4
+* Pypi: https://pypi.org/project/pyasn1/
+* Homepage: None
+* Author: Ilya Etingof <etingof@gmail.com>
+* License: BSD-2-Clause
+
+### `pyasn1_modules`
+
+* Summary: A collection of ASN.1-based protocols modules
+* Version: 0.4.2
+* Pypi: https://pypi.org/project/pyasn1-modules/
+* Homepage: https://github.com/pyasn1/pyasn1-modules
+* Author: Ilya Etingof etingof@gmail.com
+* License :: OSI Approved :: BSD License
+
+### `pycparser`
+
+* Summary: C parser in Python
+* Version: 3.0
+* Pypi: https://pypi.org/project/pycparser/
+* Homepage: None
+* Author: Eli Bendersky <eliben@gmail.com>
+
+### `pydantic`
+
+* Summary: Data validation using Python type hints
+* Version: 2.13.4
+* Pypi: https://pypi.org/project/pydantic/
+* Homepage: None
+* Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.dev>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
+
+### `pydantic_core`
+
+* Summary: Core functionality for Pydantic validation and serialization
+* Version: 2.46.4
+* Pypi: https://pypi.org/project/pydantic_core/
+* Homepage: https://github.com/pydantic/pydantic
+* Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
 
 ### `PySocks`
 
@@ -264,6 +410,16 @@ Administrative keys for demisto/boto3py3:1.0.0.11252302
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
+### `sniffio`
+
+* Summary: Sniff out which async library your code is running under
+* Version: 1.3.1
+* Pypi: https://pypi.org/project/sniffio/
+* Homepage: 
+* Author: "Nathaniel J. Smith" <njs@pobox.com>
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: MIT License
+
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
@@ -271,6 +427,22 @@ Administrative keys for demisto/boto3py3:1.0.0.11252302
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
+
+### `typing_extensions`
+
+* Summary: Backported and Experimental Type Hints for Python 3.9+
+* Version: 4.16.0
+* Pypi: https://pypi.org/project/typing-extensions/
+* Homepage: None
+* Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
+
+### `typing-inspection`
+
+* Summary: Runtime typing introspection tools
+* Version: 0.4.2
+* Pypi: https://pypi.org/project/typing-inspection/
+* Homepage: None
+* Author: Victorien Plot <contact@vctrn.dev>
 
 ### `tzlocal`
 
@@ -329,7 +501,6 @@ Administrative keys for demisto/boto3py3:1.0.0.11252302
 * musl-1.2.6-r2 x86_64 {musl}
 * musl-utils-1.2.6-r2 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
-* openssl-3.5.7-r0 x86_64 {openssl}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.2-r0 x86_64 {sqlite}

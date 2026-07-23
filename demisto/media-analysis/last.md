@@ -1,9 +1,9 @@
-# `demisto/py-ews:5.6.0.11252302`
+# `demisto/media-analysis:1.0.0.11245029`
 
 ## Docker Metadata
-- Image Size: 144.45 MB
-- Image ID: `sha256:6809d48aebca3d045c3f5956fd495b31ee1033885224348c832300d05982d640`
-- Created: `2026-07-22T14:57:19.161874133Z`
+- Image Size: 861.18 MB
+- Image ID: `sha256:8ef6ec5e6b39049f13f878c3fa2034e38e0b0660945f955e7207a7eb23aa35f5`
+- Created: `2026-07-22T11:32:57.820291806Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,14 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.11252302`
+  - `DOCKER_IMAGE=demisto/media-analysis:1.0.0.11245029`
+  - `PYTHONUNBUFFERED=1`
+  - `PIP_NO_CACHE_DIR=1`
+  - `EASYOCR_MODULE_PATH=/root/.EasyOCR`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:e20984c4d67d41a71bd40014c3d954f4e0cc06d7`
-  - `org.opencontainers.image.version:5.6.0.11252302`
+  - `org.opencontainers.image.revision:158ae6bc1e4643d638d082f24cdb1b1d1cc741fa`
+  - `org.opencontainers.image.version:1.0.0.11245029`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,63 +35,29 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py-ews:5.6.0.11252302
+Signatures for demisto/media-analysis:1.0.0.11245029
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-5.6.0.11252302   86c3ab9e1c3c2c8a8491947d4860918a523cb8626a50846ccf72a08c1fc6d04c   (Repo Admin)
+1.0.0.11245029   1de6f7ed33fc52b966e313a84cf916d500797eaf41956449556241bfea68f635   (Repo Admin)
 
-Administrative keys for demisto/py-ews:5.6.0.11252302
+Administrative keys for demisto/media-analysis:1.0.0.11245029
 
-  Repository Key:	c8b3a877659c96dd5e16db568d8f817a6eabb390ecfda3f567a6bc1929408237
-  Root Key:	61b6aad19eee856a8c06a402a23627b05539b427be49b6335a4b309706ee1cdc
+  Repository Key:	0fa438b62cb496178fe838db5b9af57847c39a3689425b8951802843c4f59c78
+  Root Key:	8ae67e74a2185e0bdf5ae8944891c1eded58df3771e05dad80bfb1194531b3da
 
 ```
 
 ## `Python Packages`
 
 
-### `asn1crypto`
-
-* Summary: Fast ASN.1 parser and serializer with definitions for private keys, public keys, certificates, CRL, OCSP, CMS, PKCS#3, PKCS#7, PKCS#8, PKCS#12, PKCS#5, X.509 and TSP
-* Version: 1.5.1
-* Pypi: https://pypi.org/project/asn1crypto/
-* Homepage: https://github.com/wbond/asn1crypto
-* Author: wbond will@wbond.net
-* License :: OSI Approved :: MIT License
-
-### `cached-property`
-
-* Summary: A decorator for caching properties in classes.
-* Version: 2.0.1
-* Pypi: https://pypi.org/project/cached-property/
-* Homepage: https://github.com/pydanny/cached-property
-* Author: Daniel Roy Greenfeld daniel@feldroy.com
-* License :: OSI Approved :: BSD License
-
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.4.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
 * License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
-
-### `cffi`
-
-* Summary: Foreign Function Interface for Python calling C code.
-* Version: 2.1.0
-* Pypi: https://pypi.org/project/cffi/
-* Homepage: None
-* Author: Armin Rigo, Maciej Fijalkowski
-
-### `chardet`
-
-* Summary: Universal character encoding detector
-* Version: 7.4.3
-* Pypi: https://pypi.org/project/chardet/
-* Homepage: None
-* Author: Dan Blanchard <dan.blanchard@gmail.com>
 
 ### `charset-normalizer`
 
@@ -99,14 +68,6 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
 * License: MIT
 
-### `cryptography`
-
-* Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 49.0.0
-* Pypi: https://pypi.org/project/cryptography/
-* Homepage: None
-* Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
-
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
@@ -114,15 +75,6 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
-
-### `decorator`
-
-* Summary: Decorators for Humans
-* Version: 5.3.1
-* Pypi: https://pypi.org/project/decorator/
-* Homepage: None
-* Author: Michele Simionato <michele.simionato@gmail.com>
-* License: BSD-2-Clause
 
 ### `defusedxml`
 
@@ -133,49 +85,31 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 * Author: Christian Heimes christian@python.org
 * License :: OSI Approved :: Python Software Foundation License
 
-### `distlib`
+### `easyocr`
 
-* Summary: Distribution utilities
-* Version: 0.4.3
-* Pypi: https://pypi.org/project/distlib/
-* Homepage: https://github.com/pypa/distlib
-* Author: Vinay Sajip vinay_sajip@red-dove.com
-* License :: OSI Approved :: Python Software Foundation License
-
-### `dnspython`
-
-* Summary: DNS toolkit
-* Version: 2.8.0
-* Pypi: https://pypi.org/project/dnspython/
-* Homepage: None
-* Author: Bob Halley <halley@dnspython.org>
-* License :: ISC License
-
-### `enum34`
-
-* Summary: Python 3.4 Enum backported to 3.3, 3.2, 3.1, 2.7, 2.6, 2.5, and 2.4
-* Version: 1.1.10
-* Pypi: https://pypi.org/project/enum34/
-* Homepage: https://bitbucket.org/stoneleaf/enum34
-* Author: Ethan Furman ethan@stoneleaf.us
-* License :: OSI Approved :: BSD License
-
-### `exchangelib`
-
-* Summary: Client for Microsoft Exchange Web Services (EWS)
-* Version: 5.6.0
-* Pypi: https://pypi.org/project/exchangelib/
-* Homepage: None
-* Author: Erik Cederstrand <erik@cederstrand.dk>
+* Summary: End-to-End Multi-Lingual Optical Character Recognition (OCR) Solution
+* Version: 1.7.2
+* Pypi: https://pypi.org/project/easyocr/
+* Homepage: https://github.com/jaidedai/easyocr
+* Author: Rakpong Kittinaradorn r.kittinaradorn@gmail.com
+* License: Apache License 2.0
 
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.25.2
+* Version: 3.31.2
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
 * License :: OSI Approved :: MIT License
+
+### `fsspec`
+
+* Summary: File-system specification
+* Version: 2026.6.0
+* Pypi: https://pypi.org/project/fsspec/
+* Homepage: None
+* Author: None
 
 ### `funcy`
 
@@ -186,67 +120,54 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
-### `future`
+### `greenlet`
 
-* Summary: Clean single-source support for Python 3 and 2
-* Version: 1.0.0
-* Pypi: https://pypi.org/project/future/
-* Homepage: https://python-future.org
-* Author: Ed Schofield ed@pythoncharmers.com
-* License :: OSI Approved :: MIT License
-
-### `gssapi`
-
-* Summary: Python GSSAPI Wrapper
-* Version: 1.11.1
-* Pypi: https://pypi.org/project/gssapi/
-* Homepage: https://github.com/pythongssapi/python-gssapi
-* Author: The Python GSSAPI Team jborean93@gmail.com
-* License: ISC
+* Summary: Lightweight in-process concurrent programming
+* Version: 3.5.3
+* Pypi: https://pypi.org/project/greenlet/
+* Homepage: None
+* Author: Alexey Borzenkov <snaury@gmail.com>
 
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.18
+* Version: 3.15
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
 
-### `ipaddress`
+### `ImageIO`
 
-* Summary: IPv4/IPv6 manipulation library
-* Version: 1.0.23
-* Pypi: https://pypi.org/project/ipaddress/
-* Homepage: https://github.com/phihag/ipaddress
-* Author: Philipp Hagemeister phihag@phihag.de
-* License :: OSI Approved :: Python Software Foundation License
-
-### `isodate`
-
-* Summary: An ISO 8601 date/time/duration parser and formatter
-* Version: 0.7.2
-* Pypi: https://pypi.org/project/isodate/
+* Summary: Read and write images and video across all major formats. Supports scientific and volumetric data.
+* Version: 2.37.4
+* Pypi: https://pypi.org/project/ImageIO/
 * Homepage: None
-* Author: Gerhard Weis
+* Author: ImageIO contributors
+
+### `Jinja2`
+
+* Summary: A very fast and expressive template engine.
+* Version: 3.1.6
+* Pypi: https://pypi.org/project/Jinja2/
+* Homepage: None
+* Author: None
 * License :: OSI Approved :: BSD License
 
-### `krb5`
+### `lazy-loader`
 
-* Summary: Kerberos API bindings for Python
-* Version: 0.9.0
-* Pypi: https://pypi.org/project/krb5/
-* Homepage: https://github.com/jborean93/pykrb5
-* Author: Jordan Borean jborean93@gmail.com
-* License: MIT
+* Summary: Makes it easy to load subpackages and functions on demand.
+* Version: 0.5
+* Pypi: https://pypi.org/project/lazy-loader/
+* Homepage: None
+* Author: Scientific Python Developers
 
-### `lxml`
+### `MarkupSafe`
 
-* Summary: Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.
-* Version: 6.1.1
-* Pypi: https://pypi.org/project/lxml/
-* Homepage: https://lxml.de/
-* Author: lxml dev team lxml@lxml.de
-* License: BSD-3-Clause
+* Summary: Safely add untrusted strings to HTML/XML markup.
+* Version: 3.0.3
+* Pypi: https://pypi.org/project/MarkupSafe/
+* Homepage: None
+* Author: None
 
 ### `more-itertools`
 
@@ -256,23 +177,40 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
 
-### `ntlm-auth`
+### `mpmath`
 
-* Summary: Creates NTLM authentication structures
-* Version: 1.5.0
-* Pypi: https://pypi.org/project/ntlm-auth/
-* Homepage: https://github.com/jborean93/ntlm-auth
-* Author: Jordan Borean jborean93@gmail.com
-* License :: OSI Approved :: MIT License
+* Summary: Python library for arbitrary-precision floating-point arithmetic
+* Version: 1.3.0
+* Pypi: https://pypi.org/project/mpmath/
+* Homepage: None
+* Author: Fredrik Johansson <fredrik.johansson@gmail.com>
+* License: BSD
 
-### `oauthlib`
+### `networkx`
 
-* Summary: A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
-* Version: 3.3.1
-* Pypi: https://pypi.org/project/oauthlib/
-* Homepage: https://github.com/oauthlib/oauthlib
-* Author: The OAuthlib Community
-* License: BSD-3-Clause
+* Summary: Python package for creating and manipulating graphs and networks
+* Version: 3.6.1
+* Pypi: https://pypi.org/project/networkx/
+* Homepage: None
+* Author: Aric Hagberg <hagberg@lanl.gov>
+
+### `ninja`
+
+* Summary: Ninja is a small build system with a focus on speed
+* Version: 1.13.0
+* Pypi: https://pypi.org/project/ninja/
+* Homepage: None
+* Author: Jean-Christophe Fillion-Robin <scikit-build@googlegroups.com>, Henry Schreiner <henryfs@princeton.edu>
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: BSD License
+
+### `numpy`
+
+* Summary: Fundamental package for array computing in Python
+* Version: 2.5.1
+* Pypi: https://pypi.org/project/numpy/
+* Homepage: None
+* Author: Travis E. Oliphant et al.
 
 ### `olefile`
 
@@ -283,13 +221,30 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
+### `opencv-python-headless`
+
+* Summary: Wrapper package for OpenCV python bindings.
+* Version: 5.0.0.93
+* Pypi: https://pypi.org/project/opencv-python-headless/
+* Homepage: https://github.com/opencv/opencv-python
+* Author: None
+* License :: OSI Approved :: Apache Software License
+
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.1
+* Version: 26.2
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
+
+### `pillow`
+
+* Summary: Python Imaging Library (fork)
+* Version: 12.3.0
+* Pypi: https://pypi.org/project/pillow/
+* Homepage: None
+* Author: Jeffrey 'Alex' Clark <aclark@aclark.net>
 
 ### `pip`
 
@@ -300,39 +255,31 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 * Author: The pip developers <distutils-sig@python.org>
 * License: MIT
 
-### `platformdirs`
+### `playwright`
 
-* Summary: A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`.
-* Version: 4.11.0
-* Pypi: https://pypi.org/project/platformdirs/
+* Summary: A high-level API to automate web browsers
+* Version: 1.61.0
+* Pypi: https://pypi.org/project/playwright/
 * Homepage: None
-* Author: None
+* Author: Microsoft Corporation
+
+### `pyclipper`
+
+* Summary: Cython wrapper for the C++ translation of the Angus Johnson's Clipper library (ver. 6.4.2)
+* Version: 1.4.0
+* Pypi: https://pypi.org/project/pyclipper/
+* Homepage: https://github.com/fonttools/pyclipper
+* Author: Angus Johnson, Maxime Chalton, Lukas Treyer, Gregor Ratajc me@gregorratajc.com
 * License :: OSI Approved :: MIT License
 
-### `pycparser`
+### `pyee`
 
-* Summary: C parser in Python
-* Version: 3.0
-* Pypi: https://pypi.org/project/pycparser/
+* Summary: A rough port of Node.js's EventEmitter to Python with a few tricks of its own
+* Version: 13.0.1
+* Pypi: https://pypi.org/project/pyee/
 * Homepage: None
-* Author: Eli Bendersky <eliben@gmail.com>
-
-### `Pygments`
-
-* Summary: Pygments is a syntax highlighting package written in Python.
-* Version: 2.20.0
-* Pypi: https://pypi.org/project/Pygments/
-* Homepage: None
-* Author: Georg Brandl <georg@python.org>
-
-### `pykerberos`
-
-* Summary: High-level interface to Kerberos
-* Version: 1.2.4
-* Pypi: https://pypi.org/project/pykerberos/
-* Homepage: https://github.com/02strich/pykerberos
-* Author: 
-* License :: OSI Approved :: Apache Software License
+* Author: Josh Holbrook <josh.holbrook@gmail.com>
+* License :: OSI Approved :: MIT License
 
 ### `PySocks`
 
@@ -343,13 +290,14 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 * Author: Anorov anorov.vorona@gmail.com
 * License: BSD
 
-### `pyspnego`
+### `python-bidi`
 
-* Summary: Windows Negotiate Authentication Client and Server
-* Version: 0.12.1
-* Pypi: https://pypi.org/project/pyspnego/
+* Summary: Python Bidi layout wrapping the Rust crate unicode-bidi
+* Version: 0.6.11
+* Pypi: https://pypi.org/project/python-bidi/
 * Homepage: None
-* Author: Jordan Borean <jborean93@gmail.com>
+* Author: Meir Kriheli <mkriheli@gmail.com>
+* License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
 
 ### `python-dateutil`
 
@@ -360,15 +308,6 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 * Author: Gustavo Niemeyer gustavo@niemeyer.net
 * License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: BSD License
-
-### `python-discovery`
-
-* Summary: Python interpreter discovery
-* Version: 1.5.0
-* Pypi: https://pypi.org/project/python-discovery/
-* Homepage: None
-* Author: None
-* License :: OSI Approved :: MIT License
 
 ### `pytz`
 
@@ -391,10 +330,19 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.7.10
+* Version: 2026.5.9
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
+
+### `reportlab`
+
+* Summary: The Reportlab Toolkit
+* Version: 5.0.0
+* Pypi: https://pypi.org/project/reportlab/
+* Homepage: https://www.reportlab.com/
+* Author: Andy Robinson, Robin Becker, the ReportLab team and the community reportlab-users@lists2.reportlab.com
+* License :: OSI Approved :: BSD License
 
 ### `requests`
 
@@ -414,31 +362,22 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 * Author: David Shea <reallylongword@gmail.com>
 * License :: OSI Approved :: Apache Software License
 
-### `requests-kerberos`
+### `scikit-image`
 
-* Summary: A Kerberos authentication handler for python-requests
-* Version: 0.15.0
-* Pypi: https://pypi.org/project/requests-kerberos/
-* Homepage: https://github.com/requests/requests-kerberos
-* Author: Ian Cordasco, Cory Benfield, Michael Komitee graffatcolmingov@gmail.com
-* License :: ISC License
+* Summary: Image processing in Python
+* Version: 0.26.0
+* Pypi: https://pypi.org/project/scikit-image/
+* Homepage: None
+* Author: None
+* License :: OSI Approved :: BSD License
 
-### `requests-ntlm`
+### `scipy`
 
-* Summary: This package allows for HTTP NTLM authentication using the requests library.
-* Version: 1.1.0
-* Pypi: https://pypi.org/project/requests-ntlm/
-* Homepage: https://github.com/requests/requests-ntlm
-* Author: Ben Toews mastahyeti@gmail.com
-* License :: OSI Approved :: ISC License (ISCL)
-
-### `requests-oauthlib`
-
-* Summary: OAuthlib authentication support for Requests.
-* Version: 2.0.0
-* Pypi: https://pypi.org/project/requests-oauthlib/
-* Homepage: https://github.com/requests/requests-oauthlib
-* Author: Kenneth Reitz me@kennethreitz.com
+* Summary: Fundamental algorithms for scientific computing in Python
+* Version: 1.18.0
+* Pypi: https://pypi.org/project/scipy/
+* Homepage: None
+* Author: None
 * License :: OSI Approved :: BSD License
 
 ### `setuptools`
@@ -449,6 +388,15 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
 
+### `shapely`
+
+* Summary: Manipulation and analysis of geometric objects
+* Version: 2.1.2
+* Pypi: https://pypi.org/project/shapely/
+* Homepage: None
+* Author: Sean Gillies
+* License :: OSI Approved :: BSD License
+
 ### `six`
 
 * Summary: Python 2 and 3 compatibility utilities
@@ -458,6 +406,24 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
+### `sympy`
+
+* Summary: Computer algebra system (CAS) in Python
+* Version: 1.14.0
+* Pypi: https://pypi.org/project/sympy/
+* Homepage: https://sympy.org
+* Author: SymPy development team sympy@googlegroups.com
+* License :: OSI Approved :: BSD License
+
+### `tifffile`
+
+* Summary: Read and write TIFF files
+* Version: 2026.7.14
+* Pypi: https://pypi.org/project/tifffile/
+* Homepage: https://www.cgohlke.com
+* Author: Christoph Gohlke cgohlke@cgohlke.com
+* License: BSD-3-Clause
+
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
@@ -466,19 +432,35 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
 
-### `tzdata`
+### `torch`
 
-* Summary: Provider of IANA time zone data
-* Version: 2026.3
-* Pypi: https://pypi.org/project/tzdata/
-* Homepage: https://github.com/python/tzdata
-* Author: Python Software Foundation datetime-sig@python.org
-* License: Apache-2.0
+* Summary: Tensors and Dynamic neural networks in Python with strong GPU acceleration
+* Version: 2.13.0+cpu
+* Pypi: https://pypi.org/project/torch/
+* Homepage: None
+* Author: PyTorch Team <packages@pytorch.org>
+
+### `torchvision`
+
+* Summary: image and video datasets and models for torch deep learning
+* Version: 0.28.0+cpu
+* Pypi: https://pypi.org/project/torchvision/
+* Homepage: https://github.com/pytorch/vision
+* Author: PyTorch Core Team soumith@pytorch.org
+* License: BSD
+
+### `typing_extensions`
+
+* Summary: Backported and Experimental Type Hints for Python 3.9+
+* Version: 4.16.0
+* Pypi: https://pypi.org/project/typing-extensions/
+* Homepage: None
+* Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4.4
+* Version: 5.4
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -490,15 +472,6 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
-
-### `virtualenv`
-
-* Summary: Virtual Python Environment builder
-* Version: 21.7.0
-* Pypi: https://pypi.org/project/virtualenv/
-* Homepage: None
-* Author: None
-* License :: OSI Approved :: MIT License
 
 ### `wheel`
 
@@ -512,6 +485,7 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 
 * adduser	3.134
 * apt	2.6.1
+* at-spi2-common	2.46.0-5
 * base-files	12.4+deb12u15
 * base-passwd	3.6.1
 * bash	5.2.15-2+b13
@@ -526,6 +500,9 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 * dpkg	1.21.23
 * e2fsprogs	1.47.2-3~bpo12+1
 * findutils	4.9.0-4
+* fontconfig	2.14.1-4
+* fontconfig-config	2.14.1-4
+* fonts-liberation	1:1.07.4-11
 * gcc-12-base:amd64	12.2.0-14+deb12u1
 * gpgv	2.2.40-1.1+deb12u2
 * grep	3.8-5
@@ -534,30 +511,53 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 * init-system-helpers	1.65.2+deb12u1
 * libacl1:amd64	2.3.1-3
 * libapt-pkg6.0:amd64	2.6.1
+* libasound2-data	1.2.8-1
+* libasound2:amd64	1.2.8-1+b1
+* libatk-bridge2.0-0:amd64	2.46.0-5
+* libatk1.0-0:amd64	2.46.0-5
+* libatspi2.0-0:amd64	2.46.0-5
 * libattr1:amd64	1:2.5.1-4
 * libaudit-common	1:3.0.9-1
 * libaudit1:amd64	1:3.0.9-1
+* libavahi-client3:amd64	0.8-10+deb12u1
+* libavahi-common-data:amd64	0.8-10+deb12u1
+* libavahi-common3:amd64	0.8-10+deb12u1
 * libblkid1:amd64	2.38.1-5+deb12u3
+* libbrotli1:amd64	1.0.9-2+b6
+* libbsd0:amd64	0.11.7-2
 * libbz2-1.0:amd64	1.0.8-5+b1
 * libc-bin	2.36-9+deb12u14
 * libc6:amd64	2.36-9+deb12u14
+* libcairo2:amd64	1.16.0-7
 * libcap-ng0:amd64	0.8.3-1+b3
 * libcap2:amd64	1:2.66-4+deb12u3+b1
-* libcom-err2:amd64	1.47.0-2+b2
+* libcom-err2:amd64	1.47.2-3~bpo12+1
 * libcrypt1:amd64	1:4.4.33-2
+* libcups2:amd64	2.4.2-3+deb12u9
+* libdatrie1:amd64	0.2.13-2+b1
 * libdb5.3:amd64	5.3.28+dfsg2-1
+* libdbus-1-3:amd64	1.14.10-1~deb12u1
 * libdebconfclient0:amd64	0.270
+* libdrm-common	2.4.114-1
+* libdrm2:amd64	2.4.114-1+b1
+* libexpat1:amd64	2.5.0-1+deb12u2
 * libext2fs2:amd64	1.47.2-3~bpo12+1
 * libffi8:amd64	3.4.4-1
+* libfontconfig1:amd64	2.14.1-4
+* libfreetype6:amd64	2.12.1+dfsg-5+deb12u4
+* libfribidi0:amd64	1.0.8-2.1
+* libgbm1:amd64	22.3.6-1+deb12u2
 * libgcc-s1:amd64	12.2.0-14+deb12u1
 * libgcrypt20:amd64	1.10.1-3+deb12u1
 * libgdbm6:amd64	1.23-3
+* libglib2.0-0:amd64	2.74.6-2+deb12u9
 * libgmp10:amd64	2:6.2.1+dfsg1-1.1
 * libgnutls30:amd64	3.7.9-2+deb12u7
 * libgpg-error0:amd64	1.46-1
+* libgraphite2-3:amd64	1.3.14-1+deb12u1
 * libgssapi-krb5-2:amd64	1.20.1-2+deb12u5
+* libharfbuzz0b:amd64	6.0.0+dfsg-3
 * libhogweed6:amd64	3.8.1-2
-* libicu72:amd64	72.1-3+deb12u1
 * libidn2-0:amd64	2.3.3-1+b1
 * libk5crypto3:amd64	1.20.1-2+deb12u5
 * libkeyutils1:amd64	1.6.3-2
@@ -570,12 +570,17 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 * libncursesw6:amd64	6.4-4
 * libnettle8:amd64	3.8.1-2
 * libnsl2:amd64	1.3.0-2
+* libnspr4:amd64	2:4.35-1
+* libnss3:amd64	2:3.87.1-1+deb12u3
 * libp11-kit0:amd64	0.24.1-2
 * libpam-modules-bin	1.5.2-6+deb12u2
 * libpam-modules:amd64	1.5.2-6+deb12u2
 * libpam-runtime	1.5.2-6+deb12u2
 * libpam0g:amd64	1.5.2-6+deb12u2
+* libpango-1.0-0:amd64	1.50.12+ds-1
 * libpcre2-8-0:amd64	10.42-1
+* libpixman-1-0:amd64	0.42.2-1
+* libpng16-16:amd64	1.6.39-2+deb12u5
 * libproc2-0:amd64	2:4.0.2-3
 * libreadline8:amd64	8.2-1.3
 * libseccomp2:amd64	2.5.4-1+deb12u1
@@ -590,14 +595,30 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 * libstdc++6:amd64	12.2.0-14+deb12u1
 * libsystemd0:amd64	254.26-1~bpo12+1
 * libtasn1-6:amd64	4.19.0-2+deb12u1
+* libthai-data	0.1.29-1
+* libthai0:amd64	0.1.29-1
 * libtinfo6:amd64	6.4-4
 * libtirpc-common	1.3.3+ds-1
 * libtirpc3:amd64	1.3.3+ds-1
 * libudev1:amd64	254.26-1~bpo12+1
 * libunistring2:amd64	1.0-2
 * libuuid1:amd64	2.38.1-5+deb12u3
-* libxml2:amd64	2.9.14+dfsg-1.3~deb12u6
-* libxslt1.1:amd64	1.1.35-1+deb12u4
+* libwayland-server0:amd64	1.21.0-1
+* libx11-6:amd64	2:1.8.4-2+deb12u2
+* libx11-data	2:1.8.4-2+deb12u2
+* libxau6:amd64	1:1.0.9-1
+* libxcb-render0:amd64	1.15-1
+* libxcb-shm0:amd64	1.15-1
+* libxcb1:amd64	1.15-1
+* libxcomposite1:amd64	1:0.4.5-1
+* libxdamage1:amd64	1:1.1.6-1
+* libxdmcp6:amd64	1:1.1.2-3
+* libxext6:amd64	2:1.3.4-1+b1
+* libxfixes3:amd64	1:6.0.0-2
+* libxi6:amd64	2:1.8-1+b1
+* libxkbcommon0:amd64	1.5.0-1
+* libxrandr2:amd64	2:1.5.2-2+b1
+* libxrender1:amd64	1:0.9.10-1.1
 * libxxhash0:amd64	0.8.1-1
 * libzstd1:amd64	1.5.4+dfsg2-5
 * login	1:4.13+dfsg1-1+deb12u2
@@ -619,4 +640,5 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 * usr-is-merged	37~deb12u1
 * util-linux	2.38.1-5+deb12u3
 * util-linux-extra	2.38.1-5+deb12u3
+* xkb-data	2.35.1-1
 * zlib1g:amd64	1:1.2.13.dfsg-1
