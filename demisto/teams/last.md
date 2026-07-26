@@ -1,9 +1,9 @@
-# `demisto/teams:1.0.0.11206988`
+# `demisto/teams:1.0.0.11285256`
 
 ## Docker Metadata
-- Image Size: 54.29 MB
-- Image ID: `sha256:3568d4f54b7f59c715ee80524ef19de8f78676340a88f8b31c3b1c6dd7ffc72d`
-- Created: `2026-07-21T12:16:33.491914204Z`
+- Image Size: 54.33 MB
+- Image ID: `sha256:5d077638948e710cf8387b29c2e4e64034da28fb0dfec1b0f7b4a7b5f2ed069d`
+- Created: `2026-07-23T18:00:06.822276081Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/teams:1.0.0.11206988`
+  - `DOCKER_IMAGE=demisto/teams:1.0.0.11285256`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:925db68ab8a56e595c18d3c984ede443bbecb647`
-  - `org.opencontainers.image.version:1.0.0.11206988`
+  - `org.opencontainers.image.revision:f10470a20cdd7b968ee4c8fec53019eae7c55798`
+  - `org.opencontainers.image.version:1.0.0.11285256`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/teams:1.0.0.11206988
+Signatures for demisto/teams:1.0.0.11285256
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11206988   eb660c5c7fd66a5c6e6fa20609643a4cf11afc11f4db5e06e494ecc0ee399a83   (Repo Admin)
+1.0.0.11285256   bef4f93db05ea4ce04c47a0852be814b04794d03cb85f74a9f17d8540f22d85b   (Repo Admin)
 
-Administrative keys for demisto/teams:1.0.0.11206988
+Administrative keys for demisto/teams:1.0.0.11285256
 
   Repository Key:	b2887129b50f5a1b5836d11a274fe06aacb9538dbf9c9414e50f3a80e882457d
   Root Key:	c46423baa7a81cc607a4aaf966f67d987d95440212144e8845a433e291cf7eb9
@@ -168,7 +168,7 @@ Administrative keys for demisto/teams:1.0.0.11206988
 ### `gevent`
 
 * Summary: Coroutine-based network library
-* Version: 26.5.0
+* Version: 26.7.0
 * Pypi: https://pypi.org/project/gevent/
 * Homepage: http://www.gevent.org/
 * Author: Denis Bilenko denis.bilenko@gmail.com
@@ -177,7 +177,7 @@ Administrative keys for demisto/teams:1.0.0.11206988
 ### `greenlet`
 
 * Summary: Lightweight in-process concurrent programming
-* Version: 3.5.1
+* Version: 3.5.4
 * Pypi: https://pypi.org/project/greenlet/
 * Homepage: None
 * Author: Alexey Borzenkov <snaury@gmail.com>

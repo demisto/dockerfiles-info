@@ -1,9 +1,9 @@
-# `demisto/syslog:1.0.0.10786156`
+# `demisto/syslog:1.0.0.11285256`
 
 ## Docker Metadata
-- Image Size: 40.69 MB
-- Image ID: `sha256:410baf90caafe4f0e5e84cfd871e6f190448594d4cfd8932dfb804a953aa59bb`
-- Created: `2026-07-06T17:50:04.497977445Z`
+- Image Size: 37.70 MB
+- Image ID: `sha256:d1b474bb0339da8974cccac856b7a2c9ed4804349f1a29c4a9022cd06563f95a`
+- Created: `2026-07-23T17:56:51.939273808Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/syslog:1.0.0.10786156`
+  - `DOCKER_IMAGE=demisto/syslog:1.0.0.11285256`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:db14c692ddc4b6c32c6ebae77a997379b072a718`
-  - `org.opencontainers.image.version:1.0.0.10786156`
+  - `org.opencontainers.image.revision:f10470a20cdd7b968ee4c8fec53019eae7c55798`
+  - `org.opencontainers.image.version:1.0.0.11285256`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/syslog:1.0.0.10786156
+Signatures for demisto/syslog:1.0.0.11285256
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10786156   c5cb3ee95efc460f3fa45b34a6dc9c3e59dffe52af510a95b9ad8968e55d1868   (Repo Admin)
+1.0.0.11285256   3a5f0e82cb1583fcb5a3ea56ab3fe2d849e7b7133f8b8e1c8525d018b16525b6   (Repo Admin)
 
-Administrative keys for demisto/syslog:1.0.0.10786156
+Administrative keys for demisto/syslog:1.0.0.11285256
 
   Repository Key:	11a15eab07f7e41e73476072cbde030a8e584e5848dd9ccae061af343ee287fc
   Root Key:	aa0c2d0ebdc015b28c4b791550a2c77436f62ed42305803a88c33cca848a9422
@@ -65,16 +65,15 @@ Administrative keys for demisto/syslog:1.0.0.10786156
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.0
+* Version: 1.4.1
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
-* License: BSD
 
 ### `deepmerge`
 
 * Summary: A toolset for deeply merging Python dictionaries.
-* Version: 2.0
+* Version: 2.1.0
 * Pypi: https://pypi.org/project/deepmerge/
 * Homepage: None
 * Author: Yusuke Tsutsumi <yusuke@tsutsumi.io>
@@ -110,7 +109,7 @@ Administrative keys for demisto/syslog:1.0.0.10786156
 ### `gevent`
 
 * Summary: Coroutine-based network library
-* Version: 26.5.0
+* Version: 26.7.0
 * Pypi: https://pypi.org/project/gevent/
 * Homepage: http://www.gevent.org/
 * Author: Denis Bilenko denis.bilenko@gmail.com
@@ -119,7 +118,7 @@ Administrative keys for demisto/syslog:1.0.0.10786156
 ### `greenlet`
 
 * Summary: Lightweight in-process concurrent programming
-* Version: 3.5.1
+* Version: 3.5.4
 * Pypi: https://pypi.org/project/greenlet/
 * Homepage: None
 * Author: Alexey Borzenkov <snaury@gmail.com>
@@ -144,7 +143,7 @@ Administrative keys for demisto/syslog:1.0.0.10786156
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.8.0
+* Version: 11.1.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -215,7 +214,7 @@ Administrative keys for demisto/syslog:1.0.0.10786156
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.2.28
+* Version: 2026.5.9
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -333,7 +332,7 @@ Administrative keys for demisto/syslog:1.0.0.10786156
 
 ## `OS Packages`
 
-* .python-rundeps-20260610.204951 noarch {.python-rundeps}
+* .python-rundeps-20260616.002526 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
@@ -359,7 +358,7 @@ Administrative keys for demisto/syslog:1.0.0.10786156
 * libssl3-3.5.7-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
-* libuuid-2.42-r0 x86_64 {util-linux}
+* libuuid-2.42.1-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
 * musl-1.2.6-r2 x86_64 {musl}
 * musl-utils-1.2.6-r2 x86_64 {musl}

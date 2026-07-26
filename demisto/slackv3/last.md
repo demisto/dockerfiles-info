@@ -1,9 +1,9 @@
-# `demisto/slackv3:1.0.0.11221748`
+# `demisto/slackv3:1.0.0.11285256`
 
 ## Docker Metadata
 - Image Size: 57.50 MB
-- Image ID: `sha256:45870bbea872e5c73f6f53f609203b770c459d52a09da29528e026968cef053e`
-- Created: `2026-07-21T17:42:18.910602619Z`
+- Image ID: `sha256:9595251ad02f23d8343956a6234275aeb80c9809e10e28984b5b1651d7dcca00`
+- Created: `2026-07-23T17:55:39.776146528Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/slackv3:1.0.0.11221748`
+  - `DOCKER_IMAGE=demisto/slackv3:1.0.0.11285256`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:0cfcbd17e2075551a5c89922468931cbbb4541b1`
-  - `org.opencontainers.image.version:1.0.0.11221748`
+  - `org.opencontainers.image.revision:f10470a20cdd7b968ee4c8fec53019eae7c55798`
+  - `org.opencontainers.image.version:1.0.0.11285256`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/slackv3:1.0.0.11221748
+Signatures for demisto/slackv3:1.0.0.11285256
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11221748   01677ff2c5ac631b1028397fcbc6c1968dcdbade5dec06d734818d45349eb3ec   (Repo Admin)
+1.0.0.11285256   d37fac6441e9751a547e8d31258a278a68a44e314c62543b620f9600da3afcb4   (Repo Admin)
 
-Administrative keys for demisto/slackv3:1.0.0.11221748
+Administrative keys for demisto/slackv3:1.0.0.11285256
 
   Repository Key:	6602ad934dd5a009ec1f1b9c2c790ddc5e51f314fe5de01189f72a28fc0aba8c
   Root Key:	c0823ae6697e9a99e1b889b37b9d4b7e34e645d912fdc7c06f1e1121ab88576a
@@ -64,7 +64,7 @@ Administrative keys for demisto/slackv3:1.0.0.11221748
 ### `aiohttp`
 
 * Summary: Async http client/server framework (asyncio)
-* Version: 3.14.2
+* Version: 3.14.3
 * Pypi: https://pypi.org/project/aiohttp/
 * Homepage: None
 * Author: None

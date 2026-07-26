@@ -1,9 +1,9 @@
-# `demisto/pan-os-python:1.0.0.11195141`
+# `demisto/pan-os-python:1.0.0.11285256`
 
 ## Docker Metadata
 - Image Size: 34.64 MB
-- Image ID: `sha256:93e4458cb114046cf2ab32bc3be9ccd25dcffdd0c26475a697a77850b496b86b`
-- Created: `2026-07-21T07:22:56.653719198Z`
+- Image ID: `sha256:4a77cc6017a99f516fe380e482bfcc1da8d4858f15b3a4d7e86ed76dfafbf2cc`
+- Created: `2026-07-23T17:49:34.82262547Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/pan-os-python:1.0.0.11195141`
+  - `DOCKER_IMAGE=demisto/pan-os-python:1.0.0.11285256`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:a168542d16036d94b10904acd03b36fd2de35ab1`
-  - `org.opencontainers.image.version:1.0.0.11195141`
+  - `org.opencontainers.image.revision:f10470a20cdd7b968ee4c8fec53019eae7c55798`
+  - `org.opencontainers.image.version:1.0.0.11285256`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pan-os-python:1.0.0.11195141
+Signatures for demisto/pan-os-python:1.0.0.11285256
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11195141   56ca76fbb23a514639adea7d3fec98040822158260fb0d63550e21d016be2cb6   (Repo Admin)
+1.0.0.11285256   86567155405b4b67565dd084fe353e3e45dc380c2f19973363b329f6b4f1e263   (Repo Admin)
 
-Administrative keys for demisto/pan-os-python:1.0.0.11195141
+Administrative keys for demisto/pan-os-python:1.0.0.11285256
 
   Repository Key:	d9667d30881c35eff1ceae5623fb5ea0956ed798e00c412f492431a71dbe984a
   Root Key:	55ffcdc3759351d0dad62cff61527c964a94d72bf04b0dc27b5defebd0cac69a
@@ -151,7 +151,7 @@ Administrative keys for demisto/pan-os-python:1.0.0.11195141
 ### `pan-os-python`
 
 * Summary: Framework for interacting with Palo Alto Networks devices via API
-* Version: 1.13.0
+* Version: 1.13.1
 * Pypi: https://pypi.org/project/pan-os-python/
 * Homepage: https://github.com/PaloAltoNetworks/pan-os-python
 * Author: Palo Alto Networks devrel@paloaltonetworks.com

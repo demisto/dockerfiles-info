@@ -1,9 +1,9 @@
-# `demisto/google-cloud-translate:1.0.0.11185775`
+# `demisto/google-cloud-translate:1.0.0.11314142`
 
 ## Docker Metadata
 - Image Size: 71.85 MB
-- Image ID: `sha256:187b0efd37d35be63b4dca600e1e749ac964d245da724f65631ac61b49ec6d13`
-- Created: `2026-07-20T17:35:00.071778298Z`
+- Image ID: `sha256:c38c0e2b5e78cd109e3d0a7587cdb4488a609f41fd956aaf162a7a318e3fbf0b`
+- Created: `2026-07-26T00:15:48.765270896Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/google-cloud-translate:1.0.0.11185775`
+  - `DOCKER_IMAGE=demisto/google-cloud-translate:1.0.0.11314142`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:f9de9d6203142006e0152ad2b3c73ca79fb0c176`
-  - `org.opencontainers.image.version:1.0.0.11185775`
+  - `org.opencontainers.image.revision:8e71f2c54ad40a9973588a49b808c6aea2a6ffca`
+  - `org.opencontainers.image.version:1.0.0.11314142`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-cloud-translate:1.0.0.11185775
+Signatures for demisto/google-cloud-translate:1.0.0.11314142
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11185775   d6073ce59848a6e63cdda02cc76ba84913a310aa991a135a1a9fb1fefb5f973e   (Repo Admin)
+1.0.0.11314142   3ff63726dea9da909a87f816628733c6b912ca05d47ef438c50424b7b27c5d0b   (Repo Admin)
 
-Administrative keys for demisto/google-cloud-translate:1.0.0.11185775
+Administrative keys for demisto/google-cloud-translate:1.0.0.11314142
 
   Repository Key:	09cd7f9d31e99f8c90dae52da10888c2a3779290ce38e52739c73bd91866a375
   Root Key:	42aa8b794987daaa5c6574d46a5483e72b0bc2daaba1c2e9968501ae78c35283
@@ -249,7 +249,7 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.11185775
 ### `pyasn1`
 
 * Summary: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
-* Version: 0.6.3
+* Version: 0.6.4
 * Pypi: https://pypi.org/project/pyasn1/
 * Homepage: None
 * Author: Ilya Etingof <etingof@gmail.com>

@@ -1,9 +1,9 @@
-# `demisto/opnsense:1.0.0.11195141`
+# `demisto/opnsense:1.0.0.11285256`
 
 ## Docker Metadata
-- Image Size: 29.51 MB
-- Image ID: `sha256:31c8ed515210628739f8cc4393ebd4474d4b552ff71bfa5955d72ce144f6ea8e`
-- Created: `2026-07-21T07:22:04.105599842Z`
+- Image Size: 31.72 MB
+- Image ID: `sha256:b7ca7e746f4f8b86f96457502a6bcd00e824cf9e6d585fa67674cc32dd2d4a94`
+- Created: `2026-07-23T17:48:51.652872164Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/opnsense:1.0.0.11195141`
+  - `DOCKER_IMAGE=demisto/opnsense:1.0.0.11285256`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:a168542d16036d94b10904acd03b36fd2de35ab1`
-  - `org.opencontainers.image.version:1.0.0.11195141`
+  - `org.opencontainers.image.revision:f10470a20cdd7b968ee4c8fec53019eae7c55798`
+  - `org.opencontainers.image.version:1.0.0.11285256`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/opnsense:1.0.0.11195141
+Signatures for demisto/opnsense:1.0.0.11285256
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11195141   44f3931cb3861c4979c8adeea4f095e9b938a2061456e40b25740f968fbf6f6e   (Repo Admin)
+1.0.0.11285256   6cb3453965a0857aef47df584d8e679ceeab8da0767030f9251ca4d04de347fe   (Repo Admin)
 
-Administrative keys for demisto/opnsense:1.0.0.11195141
+Administrative keys for demisto/opnsense:1.0.0.11285256
 
   Repository Key:	9c77beb801cd0ed9e6b029f18540c985233f8151d964e30d014eb05874bba0a0
   Root Key:	ffc8037c34ebd17487a676511bd4d76ecfcfc64ca0eff01a2984343957e40239
@@ -232,7 +232,7 @@ Administrative keys for demisto/opnsense:1.0.0.11195141
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 82.0.1
+* Version: 83.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>

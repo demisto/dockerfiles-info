@@ -1,9 +1,9 @@
-# `demisto/anthropic:1.0.0.11252302`
+# `demisto/anthropic:1.0.0.11314142`
 
 ## Docker Metadata
-- Image Size: 57.73 MB
-- Image ID: `sha256:de4c3a759bfc8d354fc768636028976fb90b619bc97f474a9f982a47a6a82d55`
-- Created: `2026-07-22T14:39:15.083354583Z`
+- Image Size: 57.76 MB
+- Image ID: `sha256:7a94fa525a175788825d9c6fefe707f26197f99b07a7fd18c776afce3755bbf9`
+- Created: `2026-07-25T23:37:39.680765787Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/anthropic:1.0.0.11252302`
+  - `DOCKER_IMAGE=demisto/anthropic:1.0.0.11314142`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:e20984c4d67d41a71bd40014c3d954f4e0cc06d7`
-  - `org.opencontainers.image.version:1.0.0.11252302`
+  - `org.opencontainers.image.revision:8e71f2c54ad40a9973588a49b808c6aea2a6ffca`
+  - `org.opencontainers.image.version:1.0.0.11314142`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/anthropic:1.0.0.11252302
+Signatures for demisto/anthropic:1.0.0.11314142
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11252302   6bdb97287e37ab42b90e998aeb5d7025ccf4b5d13ddca9e5017d087855188706   (Repo Admin)
+1.0.0.11314142   3522413c4ecc171f58acac7c843c97f9838ecf8b12c8cb0128fa09eb38b29535   (Repo Admin)
 
-Administrative keys for demisto/anthropic:1.0.0.11252302
+Administrative keys for demisto/anthropic:1.0.0.11314142
 
   Repository Key:	2617f6c9a61902bde807f93e09cf25a0effec88291d98cfe4be996d33408e124
   Root Key:	f242075666b632d8df93f6d63a5051d1301bbd5ff69a49afb33dd281046f367e
@@ -47,7 +47,7 @@ Administrative keys for demisto/anthropic:1.0.0.11252302
 ### `annotated-types`
 
 * Summary: Reusable constraint types to use with typing.Annotated
-* Version: 0.7.0
+* Version: 0.8.0
 * Pypi: https://pypi.org/project/annotated-types/
 * Homepage: None
 * Author: Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Samuel Colvin <s@muelcolvin.com>, Zac Hatfield-Dodds <zac@zhd.dev>
@@ -56,7 +56,7 @@ Administrative keys for demisto/anthropic:1.0.0.11252302
 ### `anthropic`
 
 * Summary: The official Python library for the anthropic API
-* Version: 0.117.1
+* Version: 0.119.0
 * Pypi: https://pypi.org/project/anthropic/
 * Homepage: None
 * Author: Anthropic <support@anthropic.com>
@@ -73,7 +73,7 @@ Administrative keys for demisto/anthropic:1.0.0.11252302
 ### `boto3`
 
 * Summary: The AWS SDK for Python
-* Version: 1.43.53
+* Version: 1.43.55
 * Pypi: https://pypi.org/project/boto3/
 * Homepage: https://github.com/boto/boto3
 * Author: Amazon Web Services
@@ -82,7 +82,7 @@ Administrative keys for demisto/anthropic:1.0.0.11252302
 ### `botocore`
 
 * Summary: Low-level, data-driven core of boto 3.
-* Version: 1.43.53
+* Version: 1.43.55
 * Pypi: https://pypi.org/project/botocore/
 * Homepage: https://github.com/boto/botocore
 * Author: Amazon Web Services
@@ -387,7 +387,7 @@ Administrative keys for demisto/anthropic:1.0.0.11252302
 ### `s3transfer`
 
 * Summary: An Amazon S3 Transfer Manager
-* Version: 0.19.1
+* Version: 0.19.2
 * Pypi: https://pypi.org/project/s3transfer/
 * Homepage: https://github.com/boto/s3transfer
 * Author: Amazon Web Services kyknapp1@gmail.com

@@ -1,9 +1,9 @@
-# `demisto/auth-utils:1.0.0.11221748`
+# `demisto/auth-utils:1.0.0.11285256`
 
 ## Docker Metadata
 - Image Size: 53.99 MB
-- Image ID: `sha256:6005138f5fb59344959cfebb7d110b63d7c12626e37c80aa63bda0d1cb8068b6`
-- Created: `2026-07-21T17:31:21.114119396Z`
+- Image ID: `sha256:791d460700d0bace59aaa69e9d77d178d5d3235a6b9ff3391540beec085dffd6`
+- Created: `2026-07-23T17:34:08.946424784Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/auth-utils:1.0.0.11221748`
+  - `DOCKER_IMAGE=demisto/auth-utils:1.0.0.11285256`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:0cfcbd17e2075551a5c89922468931cbbb4541b1`
-  - `org.opencontainers.image.version:1.0.0.11221748`
+  - `org.opencontainers.image.revision:f10470a20cdd7b968ee4c8fec53019eae7c55798`
+  - `org.opencontainers.image.version:1.0.0.11285256`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/auth-utils:1.0.0.11221748
+Signatures for demisto/auth-utils:1.0.0.11285256
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11221748   199d28dc7eeb50c77ad00f9c51051d9c48e7a338c381cff768af8114810085a4   (Repo Admin)
+1.0.0.11285256   8bbad7ea39a8d61dafb933a1687b3d11c57e34e3c7c7da9ce0d2d416ef2983d9   (Repo Admin)
 
-Administrative keys for demisto/auth-utils:1.0.0.11221748
+Administrative keys for demisto/auth-utils:1.0.0.11285256
 
   Repository Key:	c4e5c6491d37f197ee11c3bcf27402ded5e35e8dfd04aa5f3ca6306c1589acb9
   Root Key:	afc48b6ceb8bef3948a8d982cf3a6e357efca688125da7e062bdd41bfc9b9546
@@ -56,7 +56,7 @@ Administrative keys for demisto/auth-utils:1.0.0.11221748
 ### `aiohttp`
 
 * Summary: Async http client/server framework (asyncio)
-* Version: 3.14.2
+* Version: 3.14.3
 * Pypi: https://pypi.org/project/aiohttp/
 * Homepage: None
 * Author: None
