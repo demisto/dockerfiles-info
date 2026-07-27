@@ -592,14 +592,14 @@ def save_docker_images_list_json(all_docker_images_with_js: dict[str, list[str]]
         print('all_docker_images_with_js is empty, skipping docker_images_list.json generation')
         return
 
-    docker_images_list: list[str] = [
+    docker_images_list: list[str] = sorted(
         f"{image_name}:{tag}"
-        for image_name, tags in sorted(all_docker_images_with_js.items())
-        for tag in sorted(tags)
-    ]
+        for image_name, tags in all_docker_images_with_js.items()
+        for tag in tags
+    )
 
     with open(DOCKER_IMAGES_LIST_JSON, "w") as fp:
-        fp.write(json.dumps(docker_images_list, indent=4, sort_keys=True))
+        fp.write(json.dumps(docker_images_list, indent=4))
     print(f"Successfully saved {len(docker_images_list)} images to '{DOCKER_IMAGES_LIST_JSON}'.")
 
 
