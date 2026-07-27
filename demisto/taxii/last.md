@@ -1,9 +1,9 @@
-# `demisto/taxii:1.0.0.11206988`
+# `demisto/taxii:1.0.0.11345326`
 
 ## Docker Metadata
 - Image Size: 42.24 MB
-- Image ID: `sha256:9d77fbe06a3db25fe68d84c302d97c8461a2c3747da2b90e2eff8922a51f2fb2`
-- Created: `2026-07-21T12:12:44.957051024Z`
+- Image ID: `sha256:7e80513138608d4f57eee90e4abe352732a94ca2f29b9031cb6fa50997db24da`
+- Created: `2026-07-27T02:32:45.123215454Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/taxii:1.0.0.11206988`
+  - `DOCKER_IMAGE=demisto/taxii:1.0.0.11345326`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:925db68ab8a56e595c18d3c984ede443bbecb647`
-  - `org.opencontainers.image.version:1.0.0.11206988`
+  - `org.opencontainers.image.revision:8c6fc924bf38251a9c5eb78cb579cd8dc61e70df`
+  - `org.opencontainers.image.version:1.0.0.11345326`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/taxii:1.0.0.11206988
+Signatures for demisto/taxii:1.0.0.11345326
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11206988   b63644c342cb55654f04ec2a44469f7829ef7c1657a577dcce0d62e10c51e6bb   (Repo Admin)
+1.0.0.11345326   7433033c5405123b13050ba0a433922c299b23c64fb702833b4fd203353bb3f7   (Repo Admin)
 
-Administrative keys for demisto/taxii:1.0.0.11206988
+Administrative keys for demisto/taxii:1.0.0.11345326
 
   Repository Key:	e4d1140f2317822debbb995b6bfdb0d014d69a98bb5ad2430433c95c311184b3
   Root Key:	0cfe3b20862e965095cc96c97d3bd4aed117b78cd941957bafe1ddf016cfa6b9
@@ -241,7 +241,7 @@ Administrative keys for demisto/taxii:1.0.0.11206988
 ### `pyasn1`
 
 * Summary: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
-* Version: 0.6.3
+* Version: 0.6.4
 * Pypi: https://pypi.org/project/pyasn1/
 * Homepage: None
 * Author: Ilya Etingof <etingof@gmail.com>

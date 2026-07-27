@@ -1,9 +1,9 @@
-# `demisto/btfl-soup:1.0.1.11200773`
+# `demisto/btfl-soup:1.0.1.11343422`
 
 ## Docker Metadata
 - Image Size: 33.38 MB
-- Image ID: `sha256:20142ed1302adc995dd30994d9f289cdf882313a2cb88b4c46361dc4d2b3c1fc`
-- Created: `2026-07-21T08:59:01.848125713Z`
+- Image ID: `sha256:768aeb96ec4464185378a974fe482472fdbe57d73dc213352467604211f87157`
+- Created: `2026-07-26T23:32:18.031666305Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.11200773`
+  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.11343422`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:ed9133582e75facdae693dad5119989584e3ad33`
-  - `org.opencontainers.image.version:1.0.1.11200773`
+  - `org.opencontainers.image.revision:ff79ea07e6066751d980f2da10cdc80c509dd117`
+  - `org.opencontainers.image.version:1.0.1.11343422`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/btfl-soup:1.0.1.11200773
+Signatures for demisto/btfl-soup:1.0.1.11343422
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.1.11200773   709d9fef5a8a699ae0d82d2c5acbf543cbdf0e750c18ecf9c1310fe0a304a648   (Repo Admin)
+1.0.1.11343422   1bc1175e39b0ec94bae9ae0b88718c1ed430f5da96d1b1662681ffdadb76da9e   (Repo Admin)
 
-Administrative keys for demisto/btfl-soup:1.0.1.11200773
+Administrative keys for demisto/btfl-soup:1.0.1.11343422
 
   Repository Key:	2df9352dc8d80b6e208c7ff147fac5fe0db694f8ad563e69a8c0688b62620cb4
   Root Key:	48666b9a08f1927653d7c7246d50c6a1b3a7f7ff8ff8be1557cce0991627ccf4
@@ -178,7 +178,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.11200773
 ### `pyasn1`
 
 * Summary: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
-* Version: 0.6.3
+* Version: 0.6.4
 * Pypi: https://pypi.org/project/pyasn1/
 * Homepage: None
 * Author: Ilya Etingof <etingof@gmail.com>
