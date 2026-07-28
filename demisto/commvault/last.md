@@ -1,9 +1,9 @@
-# `demisto/commvault:1.0.0.11285256`
+# `demisto/commvault:1.0.0.11376519`
 
 ## Docker Metadata
 - Image Size: 42.75 MB
-- Image ID: `sha256:d571ce5976bc62531e8ae2eb711c8353b444f50001238251d35d236ac1dd3d5a`
-- Created: `2026-07-23T17:36:09.309875279Z`
+- Image ID: `sha256:0fe582f74a31295ccbba92dbb40d005fd2d8480c2c4f2fefd7fe3b83466289f0`
+- Created: `2026-07-27T17:39:39.372937494Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/commvault:1.0.0.11285256`
+  - `DOCKER_IMAGE=demisto/commvault:1.0.0.11376519`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:f10470a20cdd7b968ee4c8fec53019eae7c55798`
-  - `org.opencontainers.image.version:1.0.0.11285256`
+  - `org.opencontainers.image.revision:69b7362ac3487df181c67e9be223b1098957d129`
+  - `org.opencontainers.image.version:1.0.0.11376519`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/commvault:1.0.0.11285256
+Signatures for demisto/commvault:1.0.0.11376519
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11285256   2ee603e1a33098d8dea462bb7c55e33a60a05a716d2b320055f0b6e724fb19be   (Repo Admin)
+1.0.0.11376519   697f12aa37dca996274ed96b483e72b24c40ff9faa4935fd544f194622f3d516   (Repo Admin)
 
-Administrative keys for demisto/commvault:1.0.0.11285256
+Administrative keys for demisto/commvault:1.0.0.11376519
 
   Repository Key:	64321e4bf89f6f2f2c1f4b7d25030e7220c7309e9d60d0cb1dba7ce333c096da
   Root Key:	f3d406a543e986d36d553f83059154f0fc457f73f4391bb8af24bc3501bd86f2
@@ -55,7 +55,7 @@ Administrative keys for demisto/commvault:1.0.0.11285256
 ### `annotated-types`
 
 * Summary: Reusable constraint types to use with typing.Annotated
-* Version: 0.7.0
+* Version: 0.8.0
 * Pypi: https://pypi.org/project/annotated-types/
 * Homepage: None
 * Author: Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Samuel Colvin <s@muelcolvin.com>, Zac Hatfield-Dodds <zac@zhd.dev>
@@ -124,7 +124,7 @@ Administrative keys for demisto/commvault:1.0.0.11285256
 ### `fastapi`
 
 * Summary: FastAPI framework, high performance, easy to learn, fast to code, ready for production
-* Version: 0.139.2
+* Version: 0.140.1
 * Pypi: https://pypi.org/project/fastapi/
 * Homepage: None
 * Author: Sebastián Ramírez <tiangolo@gmail.com>

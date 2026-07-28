@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.11314142`
+# `demisto/google-vision-api:1.0.0.11376519`
 
 ## Docker Metadata
-- Image Size: 120.84 MB
-- Image ID: `sha256:9b613844351d004541b5357efa404e56a9f63bd9d9713d3c176c869814f83387`
-- Created: `2026-07-26T00:18:01.412786359Z`
+- Image Size: 121.15 MB
+- Image ID: `sha256:8358b1336cbdb213131b2f2c86e9a0517a4c5bfb6c4c7378496cfad857c71985`
+- Created: `2026-07-27T17:42:19.743700178Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.11314142`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.11376519`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:8e71f2c54ad40a9973588a49b808c6aea2a6ffca`
-  - `org.opencontainers.image.version:1.0.0.11314142`
+  - `org.opencontainers.image.revision:69b7362ac3487df181c67e9be223b1098957d129`
+  - `org.opencontainers.image.version:1.0.0.11376519`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-vision-api:1.0.0.11314142
+Signatures for demisto/google-vision-api:1.0.0.11376519
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11314142   7bca985e43904e62ada43ed2f8c3fe3dc5b3b8036d8fb0e2c41c9d76549098c3   (Repo Admin)
+1.0.0.11376519   3e898cf08423a3d7f1c1911dd5da01f6fca26ce24872158103ee5759acc5b05f   (Repo Admin)
 
-Administrative keys for demisto/google-vision-api:1.0.0.11314142
+Administrative keys for demisto/google-vision-api:1.0.0.11376519
 
   Repository Key:	8f699c169d21da1343c2ea4f465fe5f19ace3822c0fd85c2d1a054379abf30dd
   Root Key:	23130201a9ea6e060cceb9cf5a1998649873c190c980fe0d6c487df1fadbc6ef
@@ -512,7 +512,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.11314142
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.2
+* Version: 2026.3.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
