@@ -1,9 +1,9 @@
-# `demisto/faker3:1.0.0.11285256`
+# `demisto/faker3:1.0.0.11376519`
 
 ## Docker Metadata
 - Image Size: 32.87 MB
-- Image ID: `sha256:c902c327d016074cd6232b05dd8c62b67f3d8b06012ab423e311f98b63d48fdc`
-- Created: `2026-07-23T17:38:24.36245734Z`
+- Image ID: `sha256:10fba73320be9acf0ea30f67c2778f1fbbcbcae9a1cd97de20fd29bfb707cc44`
+- Created: `2026-07-27T17:40:27.237411499Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/faker3:1.0.0.11285256`
+  - `DOCKER_IMAGE=demisto/faker3:1.0.0.11376519`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:f10470a20cdd7b968ee4c8fec53019eae7c55798`
-  - `org.opencontainers.image.version:1.0.0.11285256`
+  - `org.opencontainers.image.revision:69b7362ac3487df181c67e9be223b1098957d129`
+  - `org.opencontainers.image.version:1.0.0.11376519`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/faker3:1.0.0.11285256
+Signatures for demisto/faker3:1.0.0.11376519
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11285256   b124c28cca4fe89af865e2e16f9160881d893b137d9f1cba5762d16105938740   (Repo Admin)
+1.0.0.11376519   8fabaa3d61d4816ede3d35e5242f5578d902b577a6a8e6782ef1aa3b4e5df571   (Repo Admin)
 
-Administrative keys for demisto/faker3:1.0.0.11285256
+Administrative keys for demisto/faker3:1.0.0.11376519
 
   Repository Key:	e5d44c90ec1e283217374c92514ddf896735e8536e705ef7271611ff44c7b99b
   Root Key:	d10c08e25ea8c26554ffe6d1931deeb6f6ad3540e21d89603e3c16d533e3deab
@@ -91,7 +91,7 @@ Administrative keys for demisto/faker3:1.0.0.11285256
 ### `Faker`
 
 * Summary: Faker is a Python package that generates fake data for you.
-* Version: 40.35.0
+* Version: 40.36.0
 * Pypi: https://pypi.org/project/Faker/
 * Homepage: https://github.com/joke2k/faker
 * Author: joke2k joke2k@gmail.com

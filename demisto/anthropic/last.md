@@ -1,9 +1,9 @@
-# `demisto/anthropic:1.0.0.11314142`
+# `demisto/anthropic:1.0.0.11376519`
 
 ## Docker Metadata
-- Image Size: 57.76 MB
-- Image ID: `sha256:7a94fa525a175788825d9c6fefe707f26197f99b07a7fd18c776afce3755bbf9`
-- Created: `2026-07-25T23:37:39.680765787Z`
+- Image Size: 57.77 MB
+- Image ID: `sha256:d4b7587f411f1cc2d6073c90203b63b2ccfa72b5b78bc0326c79adce0b393a4d`
+- Created: `2026-07-27T17:37:38.451287741Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/anthropic:1.0.0.11314142`
+  - `DOCKER_IMAGE=demisto/anthropic:1.0.0.11376519`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:8e71f2c54ad40a9973588a49b808c6aea2a6ffca`
-  - `org.opencontainers.image.version:1.0.0.11314142`
+  - `org.opencontainers.image.revision:69b7362ac3487df181c67e9be223b1098957d129`
+  - `org.opencontainers.image.version:1.0.0.11376519`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/anthropic:1.0.0.11314142
+Signatures for demisto/anthropic:1.0.0.11376519
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11314142   3522413c4ecc171f58acac7c843c97f9838ecf8b12c8cb0128fa09eb38b29535   (Repo Admin)
+1.0.0.11376519   3d2a68862bfb7396597364d2b586d4f8a61c86c2e4bec02af98267b516bad935   (Repo Admin)
 
-Administrative keys for demisto/anthropic:1.0.0.11314142
+Administrative keys for demisto/anthropic:1.0.0.11376519
 
   Repository Key:	2617f6c9a61902bde807f93e09cf25a0effec88291d98cfe4be996d33408e124
   Root Key:	f242075666b632d8df93f6d63a5051d1301bbd5ff69a49afb33dd281046f367e
@@ -56,7 +56,7 @@ Administrative keys for demisto/anthropic:1.0.0.11314142
 ### `anthropic`
 
 * Summary: The official Python library for the anthropic API
-* Version: 0.119.0
+* Version: 0.120.0
 * Pypi: https://pypi.org/project/anthropic/
 * Homepage: None
 * Author: Anthropic <support@anthropic.com>
@@ -73,7 +73,7 @@ Administrative keys for demisto/anthropic:1.0.0.11314142
 ### `boto3`
 
 * Summary: The AWS SDK for Python
-* Version: 1.43.55
+* Version: 1.43.56
 * Pypi: https://pypi.org/project/boto3/
 * Homepage: https://github.com/boto/boto3
 * Author: Amazon Web Services
@@ -82,7 +82,7 @@ Administrative keys for demisto/anthropic:1.0.0.11314142
 ### `botocore`
 
 * Summary: Low-level, data-driven core of boto 3.
-* Version: 1.43.55
+* Version: 1.43.56
 * Pypi: https://pypi.org/project/botocore/
 * Homepage: https://github.com/boto/botocore
 * Author: Amazon Web Services

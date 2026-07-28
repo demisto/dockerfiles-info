@@ -1,9 +1,9 @@
-# `demisto/taxii:1.0.0.11345326`
+# `demisto/taxii:1.0.0.11376519`
 
 ## Docker Metadata
-- Image Size: 42.24 MB
-- Image ID: `sha256:7e80513138608d4f57eee90e4abe352732a94ca2f29b9031cb6fa50997db24da`
-- Created: `2026-07-27T02:32:45.123215454Z`
+- Image Size: 42.55 MB
+- Image ID: `sha256:ebcb15f75c4b487e12abf046e0819e1a18a7bd264b16797055b26da92f4f8bf9`
+- Created: `2026-07-27T17:45:59.688458744Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/taxii:1.0.0.11345326`
+  - `DOCKER_IMAGE=demisto/taxii:1.0.0.11376519`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:8c6fc924bf38251a9c5eb78cb579cd8dc61e70df`
-  - `org.opencontainers.image.version:1.0.0.11345326`
+  - `org.opencontainers.image.revision:69b7362ac3487df181c67e9be223b1098957d129`
+  - `org.opencontainers.image.version:1.0.0.11376519`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/taxii:1.0.0.11345326
+Signatures for demisto/taxii:1.0.0.11376519
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11345326   7433033c5405123b13050ba0a433922c299b23c64fb702833b4fd203353bb3f7   (Repo Admin)
+1.0.0.11376519   5d26d589ff30c1d5492af9510ee6879104256e99cdd57f27ebdd2a0f5f87731c   (Repo Admin)
 
-Administrative keys for demisto/taxii:1.0.0.11345326
+Administrative keys for demisto/taxii:1.0.0.11376519
 
   Repository Key:	e4d1140f2317822debbb995b6bfdb0d014d69a98bb5ad2430433c95c311184b3
   Root Key:	0cfe3b20862e965095cc96c97d3bd4aed117b78cd941957bafe1ddf016cfa6b9
@@ -279,7 +279,7 @@ Administrative keys for demisto/taxii:1.0.0.11345326
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.2
+* Version: 2026.3.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
