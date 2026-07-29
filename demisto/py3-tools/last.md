@@ -1,9 +1,9 @@
-# `demisto/py3-tools:1.0.0.11376519`
+# `demisto/py3-tools:1.0.0.11410839`
 
 ## Docker Metadata
-- Image Size: 72.01 MB
-- Image ID: `sha256:bc56d502fcbdafbfaf11c19df251ceb6e8956fab580cd15afbc9022f2aa5c5c2`
-- Created: `2026-07-27T17:44:30.730875989Z`
+- Image Size: 71.86 MB
+- Image ID: `sha256:48093536ff4daab123e278bb00092bcb0c970999c68d129c2a238d5854d34afd`
+- Created: `2026-07-28T17:43:14.869949783Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/py3-tools:1.0.0.11376519`
+  - `DOCKER_IMAGE=demisto/py3-tools:1.0.0.11410839`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:69b7362ac3487df181c67e9be223b1098957d129`
-  - `org.opencontainers.image.version:1.0.0.11376519`
+  - `org.opencontainers.image.revision:b58344827273376ffb207cd6113284f2a7a84884`
+  - `org.opencontainers.image.version:1.0.0.11410839`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +29,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py3-tools:1.0.0.11376519
+Signatures for demisto/py3-tools:1.0.0.11410839
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11376519   8455eb38d4104580eaaba3a28de8b3d78b268082f8d8d5a87b0342a671ef37aa   (Repo Admin)
+1.0.0.11410839   5e5cade79d325c8ba408eb4f4688a5798700654163d5be47d204a69b56f95ba7   (Repo Admin)
 
-Administrative keys for demisto/py3-tools:1.0.0.11376519
+Administrative keys for demisto/py3-tools:1.0.0.11410839
 
   Repository Key:	1b56229e5721c693499b3207de8556f64f4132a6f26e179574b23c3a4cb1ea83
   Root Key:	2f6650ee63d96525c75c75b7122a6e9ac95c253c019bb768504bdc9179c1bd7c
@@ -324,7 +324,7 @@ Administrative keys for demisto/py3-tools:1.0.0.11376519
 * Pypi: https://pypi.org/project/feedparser/
 * Homepage: https://github.com/kurtmckee/feedparser
 * Author: Kurt McKee contactme@kurtmckee.org
-* License :: OSI Approved :: BSD License
+* License: BSD-2-Clause
 
 ### `filelock`
 
@@ -428,7 +428,7 @@ Administrative keys for demisto/py3-tools:1.0.0.11376519
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.11
+* Version: 3.15
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>

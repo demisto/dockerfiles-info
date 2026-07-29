@@ -333,7 +333,6 @@
             "demisto/tidy",
             "demisto/flask-nginx",
             "demisto/keeper-ksm",
-            "demisto/oci",
             "demisto/mcp",
             "demisto/axonius",
             "demisto/vendors-sdk",
@@ -341,7 +340,8 @@
             "demisto/rubrik-polaris-sdk-py3",
             "demisto/auth-utils",
             "demisto/taxii-server",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/oci"
         ],
         "home_page": "http://github.com/jpadilla/pyjwt",
         "licenses": [
@@ -509,7 +509,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -594,7 +593,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -623,18 +621,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -785,7 +785,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -870,7 +869,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -899,18 +897,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -940,8 +940,8 @@
             "demisto/xsoar-tools",
             "demisto/vendors-sdk",
             "demisto/ml",
-            "demisto/parse-emails",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/parse-emails"
         ],
         "home_page": "http://pygments.org/",
         "licenses": [
@@ -1192,6 +1192,18 @@
         "pypi_url": "https://pypi.org/project/aiosignal/",
         "summary": "aiosignal: a list of registered asynchronous callbacks"
     },
+    "aiosqlite": {
+        "author": "Amethyst Reese <amethyst@n7.gg>",
+        "docker_images": [
+            "demisto/panw-iot"
+        ],
+        "home_page": null,
+        "licenses": [
+            "License :: OSI Approved :: MIT License"
+        ],
+        "pypi_url": "https://pypi.org/project/aiosqlite/",
+        "summary": "asyncio bridge to the standard sqlite3 module"
+    },
     "algorithmia": {
         "author": "Algorithmia support@algorithmia.com",
         "docker_images": [
@@ -1428,9 +1440,9 @@
             "demisto/auth-utils",
             "demisto/ml",
             "demisto/google-vision-api",
+            "demisto/anthropic",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/commvault"
         ],
         "home_page": "",
         "licenses": [
@@ -1517,9 +1529,10 @@
             "demisto/ml",
             "demisto/google-vision-api",
             "demisto/ansible-runner",
+            "demisto/anthropic",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/panw-iot",
+            "demisto/commvault"
         ],
         "home_page": "",
         "licenses": [
@@ -1725,6 +1738,18 @@
         ],
         "pypi_url": "https://pypi.org/project/async-timeout/",
         "summary": "Timeout context manager for asyncio programs"
+    },
+    "asyncua": {
+        "author": "Olivier Roulet-Dubonnet <olivier.roulet@gmail.com>",
+        "docker_images": [
+            "demisto/panw-iot"
+        ],
+        "home_page": null,
+        "licenses": [
+            "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)"
+        ],
+        "pypi_url": "https://pypi.org/project/asyncua/",
+        "summary": "Pure Python OPC-UA client and server library"
     },
     "attrs": {
         "author": "Hynek Schlawack hs@ox.cx",
@@ -2489,7 +2514,6 @@
             "demisto/fetch-data",
             "demisto/py3-tools-ubi",
             "demisto/demisto-sdk",
-            "demisto/panw-iot",
             "demisto/pymisp2",
             "demisto/sklearn",
             "demisto/pytmv1",
@@ -2510,7 +2534,8 @@
             "demisto/bs4-tld",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/panw-iot"
         ],
         "home_page": "http://www.crummy.com/software/BeautifulSoup/bs4/",
         "licenses": [
@@ -2595,8 +2620,8 @@
             "demisto/vendors-sdk",
             "demisto/slackv3",
             "demisto/rubrik-polaris-sdk-py3",
-            "demisto/boto3py3",
-            "demisto/anthropic"
+            "demisto/anthropic",
+            "demisto/boto3py3"
         ],
         "home_page": "https://github.com/boto/boto3",
         "licenses": [
@@ -2616,8 +2641,8 @@
             "demisto/vendors-sdk",
             "demisto/slackv3",
             "demisto/rubrik-polaris-sdk-py3",
-            "demisto/boto3py3",
-            "demisto/anthropic"
+            "demisto/anthropic",
+            "demisto/boto3py3"
         ],
         "home_page": "https://github.com/boto/botocore",
         "licenses": [
@@ -2667,7 +2692,6 @@
             "demisto/py3-native",
             "demisto/oauthlib",
             "demisto/fetch-data",
-            "demisto/panw-iot",
             "demisto/crypto",
             "demisto/python_pancloud_v2",
             "demisto/py3ews",
@@ -2679,7 +2703,8 @@
             "demisto/xsoar-tools",
             "demisto/teams",
             "demisto/auth-utils",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/panw-iot"
         ],
         "home_page": "https://pypi.python.org/pypi/beautifulsoup4",
         "licenses": [
@@ -2939,7 +2964,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -3024,7 +3048,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -3053,18 +3076,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -3095,7 +3120,6 @@
             "demisto/demisto-sdk",
             "demisto/slack",
             "demisto/falcon-mcp",
-            "demisto/panw-iot",
             "demisto/vmware",
             "demisto/smbprotocol",
             "demisto/pymisp2",
@@ -3117,7 +3141,6 @@
             "demisto/tidy",
             "demisto/flask-nginx",
             "demisto/keeper-ksm",
-            "demisto/oci",
             "demisto/mcp",
             "demisto/py-ews",
             "demisto/axonius",
@@ -3131,13 +3154,15 @@
             "demisto/rubrik-polaris-sdk-py3",
             "demisto/xpanse-ml-ev2",
             "demisto/auth-utils",
-            "demisto/parse-emails",
             "demisto/google-vision-api",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
+            "demisto/anthropic",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci"
         ],
         "home_page": "http://cffi.readthedocs.org",
         "licenses": [
@@ -3217,8 +3242,8 @@
             "demisto/python",
             "demisto/py3ews",
             "demisto/py-ews",
-            "demisto/parse-emails",
-            "demisto/google-vision-api"
+            "demisto/google-vision-api",
+            "demisto/parse-emails"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -3310,7 +3335,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -3395,7 +3419,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -3424,18 +3447,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "https://github.com/ousret/charset_normalizer",
         "licenses": [
@@ -3862,7 +3887,6 @@
             "demisto/oauthlib",
             "demisto/demisto-sdk",
             "demisto/falcon-mcp",
-            "demisto/panw-iot",
             "demisto/vmware",
             "demisto/smbprotocol",
             "demisto/pymisp2",
@@ -3883,7 +3907,6 @@
             "demisto/tidy",
             "demisto/flask-nginx",
             "demisto/keeper-ksm",
-            "demisto/oci",
             "demisto/mcp",
             "demisto/py-ews",
             "demisto/axonius",
@@ -3896,13 +3919,15 @@
             "demisto/rubrik-polaris-sdk-py3",
             "demisto/xpanse-ml-ev2",
             "demisto/auth-utils",
-            "demisto/parse-emails",
             "demisto/google-vision-api",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
+            "demisto/anthropic",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci"
         ],
         "home_page": "https://github.com/pyca/cryptography",
         "licenses": [
@@ -4171,7 +4196,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -4256,7 +4280,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -4285,18 +4308,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -4396,7 +4421,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/anyrun-sdk",
             "demisto/mcp",
             "demisto/axonius",
@@ -4414,15 +4438,16 @@
             "demisto/auth-utils",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/taxii",
             "demisto/taxii-server",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": null,
         "licenses": [
@@ -4510,7 +4535,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -4595,7 +4619,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -4624,18 +4647,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "https://github.com/tiran/defusedxml",
         "licenses": [
@@ -4824,14 +4849,14 @@
             "demisto/dnspython",
             "demisto/py3-native",
             "demisto/py3-tools-ubi",
-            "demisto/panw-iot",
             "demisto/netutils",
             "demisto/dnstwist",
             "demisto/py3ews",
             "demisto/ippysocks-py3",
             "demisto/py-ews",
             "demisto/ansible-runner",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/panw-iot"
         ],
         "home_page": "http://www.dnspython.org",
         "licenses": [
@@ -5510,7 +5535,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -5595,7 +5619,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -5624,18 +5647,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "https://github.com/benediktschmitt/py-filelock",
         "licenses": [
@@ -5937,7 +5962,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -6022,7 +6046,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -6051,18 +6074,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -6759,9 +6784,9 @@
             "demisto/ml",
             "demisto/google-vision-api",
             "demisto/ansible-runner",
+            "demisto/anthropic",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/commvault"
         ],
         "home_page": "https://github.com/python-hyper/h11",
         "licenses": [
@@ -6856,8 +6881,8 @@
             "demisto/ml",
             "demisto/google-vision-api",
             "demisto/ansible-runner",
-            "demisto/py3-tools",
-            "demisto/anthropic"
+            "demisto/anthropic",
+            "demisto/py3-tools"
         ],
         "home_page": null,
         "licenses": [
@@ -6908,8 +6933,8 @@
             "demisto/ml",
             "demisto/google-vision-api",
             "demisto/ansible-runner",
-            "demisto/py3-tools",
-            "demisto/anthropic"
+            "demisto/anthropic",
+            "demisto/py3-tools"
         ],
         "home_page": "",
         "licenses": [
@@ -7136,7 +7161,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -7221,7 +7245,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -7250,18 +7273,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -7703,10 +7728,10 @@
             "demisto/vendors-sdk",
             "demisto/slackv3",
             "demisto/rubrik-polaris-sdk-py3",
-            "demisto/boto3py3",
             "demisto/ansible-runner",
-            "demisto/py3-tools",
-            "demisto/anthropic"
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/py3-tools"
         ],
         "home_page": "https://github.com/jmespath/jmespath.py",
         "licenses": [
@@ -8706,7 +8731,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -8791,7 +8815,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -8820,18 +8843,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "",
         "licenses": [
@@ -9327,7 +9352,6 @@
             "demisto/machine-learning",
             "demisto/sane-doc-reports",
             "demisto/fetch-data",
-            "demisto/panw-iot",
             "demisto/stringsifter",
             "demisto/chromium",
             "demisto/sklearn",
@@ -9345,7 +9369,8 @@
             "demisto/devo",
             "demisto/mlclustering",
             "demisto/xpanse-ml-ev2",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/panw-iot"
         ],
         "home_page": "https://www.numpy.org",
         "licenses": [
@@ -9384,15 +9409,15 @@
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
             "demisto/demisto-sdk",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/py3ews",
             "demisto/py-ews",
             "demisto/auth-utils",
-            "demisto/parse-emails",
             "demisto/google-vision-api",
             "demisto/ansible-runner",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/parse-emails",
+            "demisto/panw-iot"
         ],
         "home_page": "https://github.com/oauthlib/oauthlib",
         "licenses": [
@@ -9549,7 +9574,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -9634,7 +9658,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -9663,18 +9686,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -10018,7 +10043,6 @@
             "demisto/demisto-sdk",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -10102,7 +10126,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -10130,18 +10153,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "https://github.com/pypa/packaging",
         "licenses": [
@@ -10231,7 +10256,6 @@
             "demisto/pytan",
             "demisto/machine-learning",
             "demisto/fetch-data",
-            "demisto/panw-iot",
             "demisto/sklearn",
             "demisto/mlurlphishing",
             "demisto/xsoar-tools",
@@ -10240,7 +10264,8 @@
             "demisto/devo",
             "demisto/mlclustering",
             "demisto/xpanse-ml-ev2",
-            "demisto/ml"
+            "demisto/ml",
+            "demisto/panw-iot"
         ],
         "home_page": "http://pandas.pydata.org",
         "licenses": [
@@ -10650,7 +10675,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -10735,7 +10759,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -10764,18 +10787,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -11143,13 +11168,13 @@
         "author": "Giampaolo Rodola g.rodola@gmail.com",
         "docker_images": [
             "demisto/py3-native",
-            "demisto/panw-iot",
             "demisto/netutils",
             "demisto/chromium",
             "demisto/keepercommander",
             "demisto/fastapi",
             "demisto/tidy",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/panw-iot"
         ],
         "home_page": "https://github.com/giampaolo/psutil",
         "licenses": [
@@ -11266,14 +11291,15 @@
             "demisto/tidy",
             "demisto/flask-nginx",
             "demisto/keeper-ksm",
-            "demisto/oci",
             "demisto/axonius",
             "demisto/teams",
             "demisto/devo",
             "demisto/auth-utils",
-            "demisto/parse-emails",
             "demisto/taxii-server",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci"
         ],
         "home_page": "https://pyopenssl.org/",
         "licenses": [
@@ -11393,7 +11419,6 @@
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
             "demisto/demisto-sdk",
-            "demisto/panw-iot",
             "demisto/ldap",
             "demisto/googleapi-python3",
             "demisto/google-api-py3",
@@ -11409,8 +11434,9 @@
             "demisto/bs4-tld",
             "demisto/google-vision-api",
             "demisto/taxii",
+            "demisto/anthropic",
             "demisto/py3-tools",
-            "demisto/anthropic"
+            "demisto/panw-iot"
         ],
         "home_page": "https://github.com/etingof/pyasn1",
         "licenses": [
@@ -11587,7 +11613,6 @@
             "demisto/demisto-sdk",
             "demisto/slack",
             "demisto/falcon-mcp",
-            "demisto/panw-iot",
             "demisto/vmware",
             "demisto/smbprotocol",
             "demisto/pymisp2",
@@ -11609,7 +11634,6 @@
             "demisto/tidy",
             "demisto/flask-nginx",
             "demisto/keeper-ksm",
-            "demisto/oci",
             "demisto/mcp",
             "demisto/py-ews",
             "demisto/axonius",
@@ -11623,13 +11647,15 @@
             "demisto/rubrik-polaris-sdk-py3",
             "demisto/xpanse-ml-ev2",
             "demisto/auth-utils",
-            "demisto/parse-emails",
             "demisto/google-vision-api",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
+            "demisto/anthropic",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci"
         ],
         "home_page": "https://github.com/eliben/pycparser",
         "licenses": [
@@ -11663,8 +11689,8 @@
             "demisto/btfl-soup",
             "demisto/bs4-tld",
             "demisto/taxii",
-            "demisto/genericsql",
             "demisto/ansible-runner",
+            "demisto/genericsql",
             "demisto/py3-tools"
         ],
         "home_page": "https://www.pycryptodome.org",
@@ -11746,9 +11772,9 @@
             "demisto/auth-utils",
             "demisto/ml",
             "demisto/google-vision-api",
+            "demisto/anthropic",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/commvault"
         ],
         "home_page": "https://github.com/samuelcolvin/pydantic",
         "licenses": [
@@ -11802,9 +11828,9 @@
             "demisto/auth-utils",
             "demisto/ml",
             "demisto/google-vision-api",
+            "demisto/anthropic",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/commvault"
         ],
         "home_page": "https://github.com/pydantic/pydantic-core",
         "licenses": [
@@ -12042,8 +12068,8 @@
             "demisto/mlurlphishing",
             "demisto/rubrik-polaris-sdk-py3",
             "demisto/ml",
-            "demisto/parse-emails",
-            "demisto/google-vision-api"
+            "demisto/google-vision-api",
+            "demisto/parse-emails"
         ],
         "home_page": "https://github.com/pyparsing/pyparsing/",
         "licenses": [
@@ -12205,12 +12231,12 @@
         "docker_images": [
             "demisto/winrm",
             "demisto/sharepoint",
-            "demisto/panw-iot",
             "demisto/smbprotocol",
             "demisto/tidy",
             "demisto/py-ews",
             "demisto/auth-utils",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/panw-iot"
         ],
         "home_page": "",
         "licenses": [
@@ -12415,7 +12441,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -12500,7 +12525,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -12529,18 +12553,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -12915,7 +12941,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -13000,7 +13025,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -13029,18 +13053,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -13142,10 +13168,10 @@
         "docker_images": [
             "demisto/winrm",
             "demisto/py3-native",
-            "demisto/panw-iot",
             "demisto/tidy",
             "demisto/auth-utils",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/panw-iot"
         ],
         "home_page": "http://github.com/diyan/pywinrm/",
         "licenses": [
@@ -13364,7 +13390,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -13449,7 +13474,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -13478,18 +13502,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -13648,7 +13674,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -13733,7 +13758,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -13762,18 +13786,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -13894,7 +13920,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -13979,7 +14004,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -14008,18 +14032,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -14085,15 +14111,15 @@
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
             "demisto/demisto-sdk",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/py3ews",
             "demisto/py-ews",
             "demisto/auth-utils",
-            "demisto/parse-emails",
             "demisto/google-vision-api",
             "demisto/ansible-runner",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/parse-emails",
+            "demisto/panw-iot"
         ],
         "home_page": "https://github.com/requests/requests-oauthlib",
         "licenses": [
@@ -14118,8 +14144,8 @@
             "demisto/graphql",
             "demisto/py-tenable",
             "demisto/auth-utils",
-            "demisto/parse-emails",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/parse-emails"
         ],
         "home_page": "https://toolbelt.readthedocs.org",
         "licenses": [
@@ -14131,10 +14157,10 @@
     "requests_ntlm": {
         "author": "Ben Toews mastahyeti@gmail.com",
         "docker_images": [
-            "demisto/panw-iot",
             "demisto/tidy",
             "demisto/auth-utils",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/panw-iot"
         ],
         "home_page": "https://github.com/requests/requests-ntlm",
         "licenses": [
@@ -14369,8 +14395,8 @@
             "demisto/vendors-sdk",
             "demisto/slackv3",
             "demisto/rubrik-polaris-sdk-py3",
-            "demisto/boto3py3",
-            "demisto/anthropic"
+            "demisto/anthropic",
+            "demisto/boto3py3"
         ],
         "home_page": "https://github.com/boto/s3transfer",
         "licenses": [
@@ -14704,7 +14730,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -14789,7 +14814,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -14818,18 +14842,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -15067,7 +15093,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -15152,7 +15177,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -15181,18 +15205,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -15365,7 +15391,8 @@
         "docker_images": [
             "demisto/py3-native",
             "demisto/chromium",
-            "demisto/snowflake"
+            "demisto/snowflake",
+            "demisto/panw-iot"
         ],
         "home_page": "http://www.grantjenks.com/docs/sortedcontainers/",
         "licenses": [
@@ -15392,7 +15419,6 @@
             "demisto/fetch-data",
             "demisto/py3-tools-ubi",
             "demisto/demisto-sdk",
-            "demisto/panw-iot",
             "demisto/pymisp2",
             "demisto/sklearn",
             "demisto/pytmv1",
@@ -15413,7 +15439,8 @@
             "demisto/bs4-tld",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/panw-iot"
         ],
         "home_page": "https://github.com/facelessuser/soupsieve",
         "licenses": [
@@ -16162,7 +16189,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -16247,7 +16273,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -16276,18 +16301,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -16586,9 +16613,9 @@
             "demisto/auth-utils",
             "demisto/ml",
             "demisto/google-vision-api",
+            "demisto/anthropic",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/commvault"
         ],
         "home_page": null,
         "licenses": [
@@ -16614,7 +16641,6 @@
             "demisto/slack",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/vmware",
             "demisto/netutils",
@@ -16646,7 +16672,6 @@
             "demisto/mlurlphishing",
             "demisto/keeper-ksm",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/anyrun-sdk",
             "demisto/mcp",
             "demisto/axonius",
@@ -16665,15 +16690,17 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
+            "demisto/anthropic",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "",
         "licenses": [
@@ -16859,7 +16886,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -16944,7 +16970,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -16973,18 +16998,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -17189,7 +17216,6 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -17274,7 +17300,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -17303,18 +17328,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -17747,12 +17774,12 @@
             "demisto/py3-native",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/panw-iot",
             "demisto/chromium",
             "demisto/xsoar-tools",
             "demisto/slackv3",
             "demisto/ansible-runner",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/panw-iot"
         ],
         "home_page": "https://github.com/websocket-client/websocket-client.git",
         "licenses": [
@@ -17767,14 +17794,14 @@
             "demisto/websockets",
             "demisto/py3-native",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/netutils",
             "demisto/sublime",
             "demisto/keepercommander",
             "demisto/vendors-sdk",
             "demisto/slackv3",
-            "demisto/google-vision-api"
+            "demisto/google-vision-api",
+            "demisto/panw-iot"
         ],
         "home_page": "https://github.com/aaugustin/websockets",
         "licenses": [
@@ -17923,7 +17950,6 @@
             "demisto/python",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/panw-iot",
             "demisto/taegis-sdk-python",
             "demisto/xslxwriter",
             "demisto/armorblox",
@@ -18007,7 +18033,6 @@
             "demisto/octoxlabs",
             "demisto/illumio",
             "demisto/datadog-api-client",
-            "demisto/oci",
             "demisto/qrcode",
             "demisto/anyrun-sdk",
             "demisto/mcp",
@@ -18035,18 +18060,20 @@
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/bs4-tld",
-            "demisto/parse-emails",
             "demisto/faker3",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/taxii",
             "demisto/taxii-server",
-            "demisto/genericsql",
             "demisto/ansible-runner",
             "demisto/feed-performance-test",
+            "demisto/anthropic",
+            "demisto/boto3py3",
+            "demisto/genericsql",
             "demisto/py3-tools",
-            "demisto/commvault",
-            "demisto/anthropic"
+            "demisto/parse-emails",
+            "demisto/panw-iot",
+            "demisto/oci",
+            "demisto/commvault"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
@@ -18160,13 +18187,13 @@
             "demisto/servicenow",
             "demisto/winrm",
             "demisto/py3-native",
-            "demisto/panw-iot",
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/bs4-py3",
             "demisto/axonius",
             "demisto/auth-utils",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/panw-iot"
         ],
         "home_page": "https://github.com/martinblech/xmltodict",
         "licenses": [
@@ -18298,8 +18325,8 @@
             "demisto/flask-nginx",
             "demisto/teams",
             "demisto/syslog",
-            "demisto/parse-emails",
             "demisto/taxii-server",
+            "demisto/parse-emails",
             "demisto/commvault"
         ],
         "home_page": "https://github.com/zopefoundation/zope.interface",

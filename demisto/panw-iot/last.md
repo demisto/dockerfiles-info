@@ -1,22 +1,22 @@
-# `demisto/panw-iot:1.0.0.8927230`
+# `demisto/panw-iot:1.0.0.11392565`
 
 ## Docker Metadata
-- Image Size: 108.29 MB
-- Image ID: `sha256:c06104c4a813eb61b0a90cf433ad0607c1d1fb3bf27eef43501f595a4bfad2b2`
-- Created: `2026-05-11T23:39:51.86496503Z`
+- Image Size: 109.21 MB
+- Image ID: `sha256:b7a608b16d983c02e49e1850a81e8ccf5682f151d0c72bb72d5fa6e446106c3d`
+- Created: `2026-07-28T08:37:06.500419317Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.12`
-  - `PYTHON_SHA256=fb85a13414b028c49ba18bbd523c2d055a30b56b18b92ce454ea2c51edc656c4`
-  - `DOCKER_IMAGE=demisto/panw-iot:1.0.0.8927230`
+  - `PYTHON_VERSION=3.12.13`
+  - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
+  - `DOCKER_IMAGE=demisto/panw-iot:1.0.0.11392565`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:6d1c8689ab3c46e8facb62da5e608472f4470683`
-  - `org.opencontainers.image.version:1.0.0.8927230`
+  - `org.opencontainers.image.revision:4a7d3c844eb3063e3045a6ca8b27807f42c96a95`
+  - `org.opencontainers.image.version:1.0.0.11392565`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/panw-iot:1.0.0.8927230
+Signatures for demisto/panw-iot:1.0.0.11392565
 
-SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.8927230   0025614d37d55690e23d09008fc47491c291f759f2ea8bd895d05812b0879a89   (Repo Admin)
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.11392565   7e9faa8448c983a4a17bd3ebe37877596ab42d503f6d1abaddff6cdf6b5267ad   (Repo Admin)
 
-Administrative keys for demisto/panw-iot:1.0.0.8927230
+Administrative keys for demisto/panw-iot:1.0.0.11392565
 
   Repository Key:	f84c2e8b0c2528016d4cc2685c4d945b676e71061a280b8df597cc08ad61ed3a
   Root Key:	4aa89e3f3d76ea1064e0ee6b26b0f3233e7bfd07147c1ff95895b53daae7184e
@@ -47,10 +47,36 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ## `Python Packages`
 
 
+### `aiosqlite`
+
+* Summary: asyncio bridge to the standard sqlite3 module
+* Version: 0.22.1
+* Pypi: https://pypi.org/project/aiosqlite/
+* Homepage: None
+* Author: Amethyst Reese <amethyst@n7.gg>
+* License :: OSI Approved :: MIT License
+
+### `anyio`
+
+* Summary: High-level concurrency and networking framework on top of asyncio or Trio
+* Version: 4.14.2
+* Pypi: https://pypi.org/project/anyio/
+* Homepage: None
+* Author: Alex Grönholm <alex.gronholm@nextday.fi>
+
+### `asyncua`
+
+* Summary: Pure Python OPC-UA client and server library
+* Version: 2.0.1
+* Pypi: https://pypi.org/project/asyncua/
+* Homepage: None
+* Author: Olivier Roulet-Dubonnet <olivier.roulet@gmail.com>
+* License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+
 ### `beautifulsoup4`
 
 * Summary: Screen-scraping library
-* Version: 4.14.3
+* Version: 4.15.0
 * Pypi: https://pypi.org/project/beautifulsoup4/
 * Homepage: None
 * Author: Leonard Richardson <leonardr@segfault.org>
@@ -68,7 +94,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.2.25
+* Version: 2026.7.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -77,7 +103,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `cffi`
 
 * Summary: Foreign Function Interface for Python calling C code.
-* Version: 2.0.0
+* Version: 2.1.0
 * Pypi: https://pypi.org/project/cffi/
 * Homepage: None
 * Author: Armin Rigo, Maciej Fijalkowski
@@ -85,7 +111,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.6
+* Version: 3.4.9
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -94,7 +120,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 46.0.7
+* Version: 49.0.0
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -102,11 +128,10 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.2.2
+* Version: 1.4.1
 * Pypi: https://pypi.org/project/dateparser/
-* Homepage: https://github.com/scrapinghub/dateparser
-* Author: Scrapinghub opensource@zyte.com
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Scrapinghub <opensource@zyte.com>
 
 ### `defusedxml`
 
@@ -129,7 +154,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.20.3
+* Version: 3.25.2
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -147,7 +172,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.11
+* Version: 3.18
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -155,7 +180,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.8.0
+* Version: 11.1.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -163,7 +188,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.4.4
+* Version: 2.5.1
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.
@@ -198,7 +223,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.0
+* Version: 26.1
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -206,7 +231,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `pandas`
 
 * Summary: Powerful data structures for data analysis, time series, and statistics
-* Version: 3.0.3
+* Version: 3.0.5
 * Pypi: https://pypi.org/project/pandas/
 * Homepage: None
 * Author: The Pandas Development Team <pandas-dev@python.org>
@@ -223,7 +248,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.1
+* Version: 26.1.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -263,6 +288,15 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 * Homepage: None
 * Author: Eli Bendersky <eliben@gmail.com>
 
+### `pyOpenSSL`
+
+* Summary: Python wrapper module around the OpenSSL library
+* Version: 26.3.0
+* Pypi: https://pypi.org/project/pyOpenSSL/
+* Homepage: https://pyopenssl.org/
+* Author: The pyOpenSSL developers cryptography-dev@python.org
+* License :: OSI Approved :: Apache Software License
+
 ### `pysnmp`
 
 * Summary: A Python library for SNMP
@@ -301,7 +335,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `python-snap7`
 
 * Summary: Pure Python S7 communication library for Siemens PLCs
-* Version: 2.1.0
+* Version: 3.1.0
 * Pypi: https://pypi.org/project/python-snap7/
 * Homepage: None
 * Author: Gijs Molenaar <gijsmolenaar@gmail.com>
@@ -310,7 +344,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2025.2
+* Version: 2026.2
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -337,7 +371,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.1.15
+* Version: 2026.5.9
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -345,7 +379,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.32.5
+* Version: 2.34.2
 * Pypi: https://pypi.org/project/requests/
 * Homepage: None
 * Author: Kenneth Reitz <me@kennethreitz.org>
@@ -381,7 +415,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 80.10.2
+* Version: 83.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -395,10 +429,19 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 * Author: Benjamin Peterson benjamin@python.org
 * License :: OSI Approved :: MIT License
 
+### `sortedcontainers`
+
+* Summary: Sorted Containers -- Sorted List, Sorted Dict, Sorted Set
+* Version: 2.4.0
+* Pypi: https://pypi.org/project/sortedcontainers/
+* Homepage: http://www.grantjenks.com/docs/sortedcontainers/
+* Author: Grant Jenks contact@grantjenks.com
+* License :: OSI Approved :: Apache Software License
+
 ### `soupsieve`
 
 * Summary: A modern CSS selector implementation for Beautiful Soup.
-* Version: 2.8.3
+* Version: 2.9.1
 * Pypi: https://pypi.org/project/soupsieve/
 * Homepage: None
 * Author: Isaac Muse <Isaac.Muse@gmail.com>
@@ -415,7 +458,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `typing_extensions`
 
 * Summary: Backported and Experimental Type Hints for Python 3.9+
-* Version: 4.15.0
+* Version: 4.16.0
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
@@ -423,11 +466,10 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.3.1
+* Version: 5.4
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
-* License :: OSI Approved :: MIT License
 
 ### `urllib3`
 
@@ -449,7 +491,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `websockets`
 
 * Summary: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
-* Version: 16.0
+* Version: 16.1.1
 * Pypi: https://pypi.org/project/websockets/
 * Homepage: None
 * Author: Aymeric Augustin <aymeric.augustin@m4x.org>
@@ -457,7 +499,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 ### `wheel`
 
 * Summary: Command line tool for manipulating wheel files
-* Version: 0.46.3
+* Version: 0.47.0
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
@@ -474,9 +516,9 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 
 * adduser	3.134
 * apt	2.6.1
-* base-files	12.4+deb12u13
+* base-files	12.4+deb12u15
 * base-passwd	3.6.1
-* bash	5.2.15-2+b10
+* bash	5.2.15-2+b13
 * bsdutils	1:2.38.1-5+deb12u3
 * ca-certificates	20230311+deb12u1
 * coreutils	9.1-1
@@ -485,7 +527,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 * debian-archive-keyring	2023.3+deb12u2
 * debianutils	5.7-0.5~deb12u1
 * diffutils	1:3.8-4
-* dpkg	1.21.22
+* dpkg	1.21.23
 * e2fsprogs	1.47.2-3~bpo12+1
 * findutils	4.9.0-4
 * gcc-12-base:amd64	12.2.0-14+deb12u1
@@ -501,10 +543,10 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 * libaudit1:amd64	1:3.0.9-1
 * libblkid1:amd64	2.38.1-5+deb12u3
 * libbz2-1.0:amd64	1.0.8-5+b1
-* libc-bin	2.36-9+deb12u13
-* libc6:amd64	2.36-9+deb12u13
+* libc-bin	2.36-9+deb12u14
+* libc6:amd64	2.36-9+deb12u14
 * libcap-ng0:amd64	0.8.3-1+b3
-* libcap2:amd64	1:2.66-4+deb12u2+b2
+* libcap2:amd64	1:2.66-4+deb12u3+b1
 * libcom-err2:amd64	1.47.2-3~bpo12+1
 * libcrypt1:amd64	1:4.4.33-2
 * libdb5.3:amd64	5.3.28+dfsg2-1
@@ -512,20 +554,20 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 * libext2fs2:amd64	1.47.2-3~bpo12+1
 * libffi8:amd64	3.4.4-1
 * libgcc-s1:amd64	12.2.0-14+deb12u1
-* libgcrypt20:amd64	1.10.1-3
+* libgcrypt20:amd64	1.10.1-3+deb12u1
 * libgdbm6:amd64	1.23-3
 * libgmp10:amd64	2:6.2.1+dfsg1-1.1
-* libgnutls30:amd64	3.7.9-2+deb12u5
+* libgnutls30:amd64	3.7.9-2+deb12u7
 * libgpg-error0:amd64	1.46-1
-* libgssapi-krb5-2:amd64	1.20.1-2+deb12u4
+* libgssapi-krb5-2:amd64	1.20.1-2+deb12u5
 * libhogweed6:amd64	3.8.1-2
 * libidn2-0:amd64	2.3.3-1+b1
-* libk5crypto3:amd64	1.20.1-2+deb12u4
+* libk5crypto3:amd64	1.20.1-2+deb12u5
 * libkeyutils1:amd64	1.6.3-2
-* libkrb5-3:amd64	1.20.1-2+deb12u4
-* libkrb5support0:amd64	1.20.1-2+deb12u4
+* libkrb5-3:amd64	1.20.1-2+deb12u5
+* libkrb5support0:amd64	1.20.1-2+deb12u5
 * liblz4-1:amd64	1.9.4-1
-* liblzma5:amd64	5.4.1-1
+* liblzma5:amd64	5.4.1-1+deb12u1
 * libmd0:amd64	1.0.4-2
 * libmount1:amd64	2.38.1-5+deb12u3
 * libncursesw6:amd64	6.4-4
@@ -547,7 +589,7 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 * libsmartcols1:amd64	2.38.1-5+deb12u3
 * libsqlite3-0:amd64	3.40.1-2+deb12u2
 * libss2:amd64	1.47.2-3~bpo12+1
-* libssl3:amd64	3.0.18-1~deb12u2
+* libssl3:amd64	3.0.20-1~deb12u2
 * libstdc++6:amd64	12.2.0-14+deb12u1
 * libsystemd0:amd64	254.26-1~bpo12+1
 * libtasn1-6:amd64	4.19.0-2+deb12u1
@@ -566,15 +608,15 @@ Administrative keys for demisto/panw-iot:1.0.0.8927230
 * ncurses-base	6.4-4
 * ncurses-bin	6.4-4
 * netbase	6.4
-* openssl	3.0.18-1~deb12u2
+* openssl	3.0.20-1~deb12u2
 * passwd	1:4.13+dfsg1-1+deb12u2
 * perl-base	5.36.0-7+deb12u3
 * procps	2:4.0.2-3
 * readline-common	8.2-1.3
-* sed	4.9-1
+* sed	4.9-1+deb12u1
 * sysvinit-utils	3.08-3~bpo12+2
 * tar	1.34+dfsg-1.2+deb12u1
-* tzdata	2025b-0+deb12u2
+* tzdata	2026b-0+deb12u1
 * usr-is-merged	37~deb12u1
 * util-linux	2.38.1-5+deb12u3
 * util-linux-extra	2.38.1-5+deb12u3

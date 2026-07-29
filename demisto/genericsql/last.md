@@ -1,9 +1,9 @@
-# `demisto/genericsql:1.2.0.11386915`
+# `demisto/genericsql:1.2.0.11410839`
 
 ## Docker Metadata
-- Image Size: 361.30 MB
-- Image ID: `sha256:9fa1c9128ea6709def96ba36b5a9a1be8f80c00be13e6bbd08ce9f73e0be23b5`
-- Created: `2026-07-28T05:38:22.744657845Z`
+- Image Size: 361.18 MB
+- Image ID: `sha256:0a6208b56659b72063e239b81c0072760d8abab8ffe1715117e21a39aae092b4`
+- Created: `2026-07-28T17:36:02.876498393Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,11 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.11386915`
+  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.11410839`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:5f61212d69d8441a1f811dc26bec5696da87c9c3`
-  - `org.opencontainers.image.version:1.2.0.11386915`
+  - `org.opencontainers.image.revision:b58344827273376ffb207cd6113284f2a7a84884`
+  - `org.opencontainers.image.version:1.2.0.11410839`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +32,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/genericsql:1.2.0.11386915
+Signatures for demisto/genericsql:1.2.0.11410839
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.2.0.11386915   4cc640a99b01d6737bc5150dfb77744ea1c1f84649961af0b3ceed8b74729fcc   (Repo Admin)
+1.2.0.11410839   fe868744528a8978a132527bff53c66a9aabf57f4a208913b4139124bccb8d33   (Repo Admin)
 
-Administrative keys for demisto/genericsql:1.2.0.11386915
+Administrative keys for demisto/genericsql:1.2.0.11410839
 
   Repository Key:	b02fc99a72d78e9f5becfe15406ea942db310f3c3af9a7833b215eddb323f7cd
   Root Key:	d11245d830d935ed4846941604c024388aca83a60142ae5319409b1f6091afe1
@@ -136,7 +136,7 @@ Administrative keys for demisto/genericsql:1.2.0.11386915
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.13
+* Version: 3.15
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
