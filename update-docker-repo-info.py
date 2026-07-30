@@ -582,15 +582,41 @@ def save_to_docker_files_metadata_json_file():
     print("Successfully saved to 'docker_images_metadata.json'.")
 
 
-def save_docker_images_list_json(all_docker_images_with_js: dict[str, list[str]]) -> None:
+def _load_previous_docker_images_list() -> list[str]:
+    """Read the previously committed docker_images_list.json, if present.
+
+    Returns an empty list when the file does not exist or contains invalid JSON,
+    so the diff computation never aborts the run.
+    """
+    if not os.path.isfile(DOCKER_IMAGES_LIST_JSON):
+        print(f"'{DOCKER_IMAGES_LIST_JSON}' does not exist yet, treating previous list as empty.")
+        return []
+    try:
+        with open(DOCKER_IMAGES_LIST_JSON) as fp:
+            previous = json.load(fp)
+        if not isinstance(previous, list):
+            print(f"'{DOCKER_IMAGES_LIST_JSON}' is not a JSON list, treating previous list as empty.")
+            return []
+        return previous
+    except (json.JSONDecodeError, OSError) as error:
+        print(f"Could not read previous '{DOCKER_IMAGES_LIST_JSON}' ({error}), treating previous list as empty.")
+        return []
+
+
+def save_docker_images_list_json(all_docker_images_with_js: dict[str, list[str]]) -> tuple[list[str], list[str]]:
     """Generate a flat JSON list of ALL docker images in use by content.
 
     Includes Python, PowerShell, and JavaScript images.
     Saves to DOCKER_IMAGES_LIST_JSON file.
+
+    Returns:
+        tuple: (added_images, removed_images) - image:tag strings added to /
+            removed from docker_images_list.json compared to the previously
+            committed version of the file.
     """
     if not all_docker_images_with_js:
         print('all_docker_images_with_js is empty, skipping docker_images_list.json generation')
-        return
+        return [], []
 
     docker_images_list: list[str] = sorted(
         f"{image_name}:{tag}"
@@ -598,9 +624,17 @@ def save_docker_images_list_json(all_docker_images_with_js: dict[str, list[str]]
         for tag in tags
     )
 
+    # Compute the diff against the previously committed file BEFORE overwriting it.
+    previous_images = set(_load_previous_docker_images_list())
+    current_images = set(docker_images_list)
+    added_images = sorted(current_images - previous_images)
+    removed_images = sorted(previous_images - current_images)
+
     with open(DOCKER_IMAGES_LIST_JSON, "w") as fp:
         fp.write(json.dumps(docker_images_list, indent=4))
     print(f"Successfully saved {len(docker_images_list)} images to '{DOCKER_IMAGES_LIST_JSON}'.")
+    print(f"'{DOCKER_IMAGES_LIST_JSON}' diff - added: {len(added_images)}, removed: {len(removed_images)}")
+    return added_images, removed_images
 
 
 def checkout_dockerfiles_repo():
@@ -733,13 +767,18 @@ def main():
     generate_readme_listing()
     generate_csv()
     save_to_docker_files_metadata_json_file()
-    save_docker_images_list_json(all_content_dockers_with_js)
-    
+    list_added_images, list_removed_images = save_docker_images_list_json(all_content_dockers_with_js)
+
     # send Slack notification
-    global REMOVED_IMAGES
-    global ADDED_IMAGES
-    global FAILED_INSPECT_IMAGES
-    slack_notifier(args.slack_token, args.slack_channel, REMOVED_IMAGES, ADDED_IMAGES, FAILED_INSPECT_IMAGES)
+    slack_notifier(
+        args.slack_token,
+        args.slack_channel,
+        REMOVED_IMAGES,
+        ADDED_IMAGES,
+        FAILED_INSPECT_IMAGES,
+        list_added_images,
+        list_removed_images,
+    )
 
 
 if __name__ == "__main__":
