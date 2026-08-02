@@ -1,9 +1,9 @@
-# `demisto/boto3py3:1.0.0.11410839`
+# `demisto/boto3py3:1.0.0.11478621`
 
 ## Docker Metadata
-- Image Size: 44.71 MB
-- Image ID: `sha256:1992e905183d69e9f504b33c5c90f643e87ff9c5c7085285896e82cd3dc98503`
-- Created: `2026-07-28T17:30:40.34377448Z`
+- Image Size: 50.25 MB
+- Image ID: `sha256:8ad34e2ad10b2ab9e21b1cdc470ce046b483abb147cb45c5a01c3df2452f3143`
+- Created: `2026-07-30T17:56:48.518213639Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,15 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.11410839`
+  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.11478621`
 - Labels:
+  - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b58344827273376ffb207cd6113284f2a7a84884`
-  - `org.opencontainers.image.version:1.0.0.11410839`
+  - `org.opencontainers.image.revision:15cfe75af7aeab608441cd7856ceaaafeaf3918d`
+  - `org.opencontainers.image.version:1.0.0.11478621`
+  - `panw.builtby.pipeline:11479042`
+  - `panw.builtby.project:xdr/cortex-content/dockerfiles`
+  - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/boto3py3:1.0.0.11410839
+Signatures for demisto/boto3py3:1.0.0.11478621
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11410839   3ce25d96b31205e1cf91efcb1696e25ca3a1954ba2336d08726476de80f2db9d   (Repo Admin)
+1.0.0.11478621   dea92e8b7146af983d9e6e2cb132fb9bf0dce769bba1c8a60f1eb11537a517a3   (Repo Admin)
 
-Administrative keys for demisto/boto3py3:1.0.0.11410839
+Administrative keys for demisto/boto3py3:1.0.0.11478621
 
   Repository Key:	cfe86d8f6e0178e2a77477d651d16cfc814b6e47b04f1f04d94917fb248a1ae8
   Root Key:	c4222af787cfc1a173f56c5eab482e5c4602eae4bb767431e17594c786c162f8
@@ -44,10 +48,19 @@ Administrative keys for demisto/boto3py3:1.0.0.11410839
 ## `Python Packages`
 
 
+### `awscli`
+
+* Summary: Universal Command Line Environment for AWS.
+* Version: 1.45.59
+* Pypi: https://pypi.org/project/awscli/
+* Homepage: http://aws.amazon.com/cli/
+* Author: Amazon Web Services
+* License :: OSI Approved :: Apache Software License
+
 ### `boto3`
 
 * Summary: The AWS SDK for Python
-* Version: 1.43.57
+* Version: 1.43.58
 * Pypi: https://pypi.org/project/boto3/
 * Homepage: https://github.com/boto/boto3
 * Author: Amazon Web Services
@@ -56,7 +69,7 @@ Administrative keys for demisto/boto3py3:1.0.0.11410839
 ### `botocore`
 
 * Summary: Low-level, data-driven core of boto 3.
-* Version: 1.43.57
+* Version: 1.43.59
 * Pypi: https://pypi.org/project/botocore/
 * Homepage: https://github.com/boto/botocore
 * Author: Amazon Web Services
@@ -79,6 +92,15 @@ Administrative keys for demisto/boto3py3:1.0.0.11410839
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
 * License: MIT
+
+### `colorama`
+
+* Summary: Cross-platform colored terminal text.
+* Version: 0.4.6
+* Pypi: https://pypi.org/project/colorama/
+* Homepage: 
+* Author: Jonathan Hartley <tartley@tartley.com>
+* License :: OSI Approved :: BSD License
 
 ### `dateparser`
 
@@ -169,11 +191,20 @@ Administrative keys for demisto/boto3py3:1.0.0.11410839
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.2
+* Version: 26.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
 * License: MIT
+
+### `pyasn1`
+
+* Summary: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
+* Version: 0.6.4
+* Pypi: https://pypi.org/project/pyasn1/
+* Homepage: None
+* Author: Ilya Etingof <etingof@gmail.com>
+* License: BSD-2-Clause
 
 ### `PySocks`
 
@@ -236,6 +267,15 @@ Administrative keys for demisto/boto3py3:1.0.0.11410839
 * Pypi: https://pypi.org/project/requests-file/
 * Homepage: None
 * Author: David Shea <reallylongword@gmail.com>
+* License :: OSI Approved :: Apache Software License
+
+### `rsa`
+
+* Summary: Pure-Python RSA implementation
+* Version: 4.7.2
+* Pypi: https://pypi.org/project/rsa/
+* Homepage: None
+* Author: Sybren A. Stüvel sybren@stuvel.eu
 * License :: OSI Approved :: Apache Software License
 
 ### `s3transfer`

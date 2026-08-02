@@ -1,9 +1,9 @@
-# `demisto/py3-tools:1.0.0.11449351`
+# `demisto/py3-tools:1.0.0.11522841`
 
 ## Docker Metadata
-- Image Size: 74.12 MB
-- Image ID: `sha256:20f73bc15c1e0e0a0c76683733f6be3341096cff19c51899a56bc812658c7689`
-- Created: `2026-07-29T23:52:55.116272833Z`
+- Image Size: 74.11 MB
+- Image ID: `sha256:da1bac82707beb093868f4c8e1d51d9385d277fe45bbebc5035c5cf73e167c8d`
+- Created: `2026-08-01T23:48:25.895528777Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/py3-tools:1.0.0.11449351`
+  - `DOCKER_IMAGE=demisto/py3-tools:1.0.0.11522841`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:00f261352dc04953aad38dcdd09a797b1665c6db`
-  - `org.opencontainers.image.version:1.0.0.11449351`
-  - `panw.builtby.pipeline:11450223`
+  - `org.opencontainers.image.revision:e22c5f1612f515cb483f0ff8bf2a15c4025ec0b5`
+  - `org.opencontainers.image.version:1.0.0.11522841`
+  - `panw.builtby.pipeline:11523186`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py3-tools:1.0.0.11449351
+Signatures for demisto/py3-tools:1.0.0.11522841
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11449351   d7218450eb41cae1a92874a8c80339b8bf4f0d2bda6fe295869aab704f1f5eae   (Repo Admin)
+1.0.0.11522841   ac0d6bf787d6fc792529cedbe8af158cb5502182a72829fe78729daa7327a2ac   (Repo Admin)
 
-Administrative keys for demisto/py3-tools:1.0.0.11449351
+Administrative keys for demisto/py3-tools:1.0.0.11522841
 
   Repository Key:	1b56229e5721c693499b3207de8556f64f4132a6f26e179574b23c3a4cb1ea83
   Root Key:	2f6650ee63d96525c75c75b7122a6e9ac95c253c019bb768504bdc9179c1bd7c
@@ -183,7 +183,7 @@ Administrative keys for demisto/py3-tools:1.0.0.11449351
 ### `beautifulsoup4`
 
 * Summary: Screen-scraping library
-* Version: 4.14.3
+* Version: 4.15.0
 * Pypi: https://pypi.org/project/beautifulsoup4/
 * Homepage: None
 * Author: Leonard Richardson <leonardr@segfault.org>
@@ -324,11 +324,19 @@ Administrative keys for demisto/py3-tools:1.0.0.11449351
 ### `feedparser`
 
 * Summary: Universal feed parser, handles RSS 0.9x, RSS 1.0, RSS 2.0, CDF, Atom 0.3, and Atom 1.0 feeds
-* Version: 6.0.12
+* Version: 6.0.13
 * Pypi: https://pypi.org/project/feedparser/
 * Homepage: https://github.com/kurtmckee/feedparser
 * Author: Kurt McKee contactme@kurtmckee.org
 * License: BSD-2-Clause
+
+### `feedparser-sgmllib`
+
+* Summary: sgmllib from Python 2.7. For feedparser use only.
+* Version: 1.0.0
+* Pypi: https://pypi.org/project/feedparser-sgmllib/
+* Homepage: None
+* Author: None
 
 ### `filelock`
 
@@ -369,7 +377,7 @@ Administrative keys for demisto/py3-tools:1.0.0.11449351
 ### `geopy`
 
 * Summary: Python Geocoding Toolbox
-* Version: 2.4.1
+* Version: 2.5.0
 * Pypi: https://pypi.org/project/geopy/
 * Homepage: https://github.com/geopy/geopy
 * Author: None
@@ -511,7 +519,7 @@ Administrative keys for demisto/py3-tools:1.0.0.11449351
 ### `markdownify`
 
 * Summary: Convert HTML to markdown.
-* Version: 1.2.2
+* Version: 1.2.3
 * Pypi: https://pypi.org/project/markdownify/
 * Homepage: None
 * Author: Matthew Tretter <m@tthewwithanm.com>
@@ -861,15 +869,6 @@ Administrative keys for demisto/py3-tools:1.0.0.11449351
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
 
-### `sgmllib3k`
-
-* Summary: Py3k port of sgmllib.
-* Version: 1.0.0
-* Pypi: https://pypi.org/project/sgmllib3k/
-* Homepage: http://hg.hardcoded.net/sgmllib
-* Author: Hardcoded Software hsoft@hardcoded.net
-* License :: OSI Approved :: BSD License
-
 ### `simplejson`
 
 * Summary: Simple, fast, extensible JSON encoder/decoder for Python
@@ -962,7 +961,7 @@ Administrative keys for demisto/py3-tools:1.0.0.11449351
 ### `tweepy`
 
 * Summary: Library for accessing the X API (Twitter)
-* Version: 4.16.0
+* Version: 4.17.0
 * Pypi: https://pypi.org/project/tweepy/
 * Homepage: None
 * Author: Joshua Roesslein, Harmon

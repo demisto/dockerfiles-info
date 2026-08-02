@@ -1,9 +1,9 @@
-# `demisto/taegis-sdk-python:1.0.0.9898764`
+# `demisto/taegis-sdk-python:1.0.0.11442555`
 
 ## Docker Metadata
-- Image Size: 40.48 MB
-- Image ID: `sha256:9a23a33a8267ebae2c6b12dcab32e5cf117f50450709db41fa1c0134dd026fe8`
-- Created: `2026-06-06T23:48:10.099142887Z`
+- Image Size: 36.63 MB
+- Image ID: `sha256:72cde988103b1045368c4e00f0dc85ac073021643bec360b50248454c1a15756`
+- Created: `2026-07-29T17:54:18.411732927Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,29 +12,29 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/taegis-sdk-python:1.0.0.9898764`
+  - `DOCKER_IMAGE=demisto/taegis-sdk-python:1.0.0.11442555`
 - Labels:
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:139bfee314257e39b04ec94b796b6587aa360471`
-  - `org.opencontainers.image.version:1.0.0.9898764`
+  - `org.opencontainers.image.revision:e0d20d1d31a8e5a229de263fd0980bd91fe9608e`
+  - `org.opencontainers.image.version:1.0.0.11442555`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.23.3`
-  - `PRETTY_NAME="Alpine Linux v3.23"`
+  - `VERSION_ID=3.24.1`
+  - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
 
-Signatures for demisto/taegis-sdk-python:1.0.0.9898764
+Signatures for demisto/taegis-sdk-python:1.0.0.11442555
 
-SIGNED TAG      DIGEST                                                             SIGNERS
-1.0.0.9898764   a64150a35e7e4cd694ce56015788ff664f797a6ccd538a12ee265fc5de3af266   (Repo Admin)
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.11442555   003aab49619fdb8500da23c4880f1ad8494ded1ed59592d4d22b103cf5b53ee9   (Repo Admin)
 
-Administrative keys for demisto/taegis-sdk-python:1.0.0.9898764
+Administrative keys for demisto/taegis-sdk-python:1.0.0.11442555
 
   Repository Key:	5adfc3de73d3fba8d8bec6eaa61ea68538d8f17fafe647c69721a127bac1649c
   Root Key:	6173d20ae6055adefcf7d467dae31a8f0ebef28cc95a8f7200e3d7426bc53f73
@@ -47,7 +47,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9898764
 ### `aiohappyeyeballs`
 
 * Summary: Happy Eyeballs for asyncio
-* Version: 2.6.2
+* Version: 2.7.1
 * Pypi: https://pypi.org/project/aiohappyeyeballs/
 * Homepage: None
 * Author: J. Nick Koston nick@koston.org
@@ -56,7 +56,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9898764
 ### `aiohttp`
 
 * Summary: Async http client/server framework (asyncio)
-* Version: 3.14.0
+* Version: 3.14.3
 * Pypi: https://pypi.org/project/aiohttp/
 * Homepage: None
 * Author: None
@@ -74,7 +74,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9898764
 ### `anyio`
 
 * Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.13.0
+* Version: 4.14.2
 * Pypi: https://pypi.org/project/anyio/
 * Homepage: None
 * Author: Alex Grönholm <alex.gronholm@nextday.fi>
@@ -100,7 +100,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9898764
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.5.20
+* Version: 2026.7.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -109,7 +109,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9898764
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.7
+* Version: 3.4.9
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -127,16 +127,15 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9898764
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.0
+* Version: 1.4.1
 * Pypi: https://pypi.org/project/dateparser/
-* Homepage: https://github.com/scrapinghub/dateparser
-* Author: Scrapinghub opensource@zyte.com
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Scrapinghub <opensource@zyte.com>
 
 ### `deepmerge`
 
 * Summary: A toolset for deeply merging Python dictionaries.
-* Version: 2.0
+* Version: 2.1.0
 * Pypi: https://pypi.org/project/deepmerge/
 * Homepage: None
 * Author: Yusuke Tsutsumi <yusuke@tsutsumi.io>
@@ -154,7 +153,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9898764
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.29.1
+* Version: 3.32.0
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -233,7 +232,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9898764
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.8.0
+* Version: 11.1.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -284,7 +283,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9898764
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.2
+* Version: 26.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -329,7 +328,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9898764
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.1.post1
+* Version: 2026.2
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -347,7 +346,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9898764
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.2.28
+* Version: 2026.5.9
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -408,7 +407,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9898764
 ### `taegis-sdk-python`
 
 * Summary: Taegis Python SDK
-* Version: 1.6.17
+* Version: 1.6.22
 * Pypi: https://pypi.org/project/taegis-sdk-python/
 * Homepage: None
 * Author: Micah Pegman <sdks@secureworks.com>
@@ -425,7 +424,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9898764
 ### `typing_extensions`
 
 * Summary: Backported and Experimental Type Hints for Python 3.9+
-* Version: 4.15.0
+* Version: 4.16.0
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
@@ -442,11 +441,10 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9898764
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.3.1
+* Version: 5.4.3
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
-* License :: OSI Approved :: MIT License
 
 ### `urllib3`
 
@@ -459,7 +457,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9898764
 ### `websockets`
 
 * Summary: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
-* Version: 16.0
+* Version: 16.1.1
 * Pypi: https://pypi.org/project/websockets/
 * Homepage: None
 * Author: Aymeric Augustin <aymeric.augustin@m4x.org>
@@ -467,7 +465,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9898764
 ### `wheel`
 
 * Summary: Command line tool for manipulating wheel files
-* Version: 0.46.3
+* Version: 0.47.0
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
@@ -475,7 +473,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9898764
 ### `yarl`
 
 * Summary: Yet another URL library
-* Version: 1.24.2
+* Version: 1.24.5
 * Pypi: https://pypi.org/project/yarl/
 * Homepage: https://github.com/aio-libs/yarl
 * Author: Andrew Svetlov andrew.svetlov@gmail.com
@@ -483,41 +481,41 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.9898764
 
 ## `OS Packages`
 
-* .python-rundeps-20260303.201742 noarch {.python-rundeps}
-* alpine-baselayout-3.7.2-r0 x86_64 {alpine-baselayout}
-* alpine-baselayout-data-3.7.2-r0 x86_64 {alpine-baselayout}
+* .python-rundeps-20260616.002526 noarch {.python-rundeps}
+* alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
+* alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.23.3-r0 x86_64 {alpine-base}
-* apk-tools-3.0.5-r0 x86_64 {apk-tools}
-* busybox-1.37.0-r30 x86_64 {busybox}
-* busybox-binsh-1.37.0-r30 x86_64 {busybox}
-* ca-certificates-20251003-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20251003-r0 x86_64 {ca-certificates}
+* alpine-release-3.24.1-r0 x86_64 {alpine-base}
+* apk-tools-3.0.6-r0 x86_64 {apk-tools}
+* busybox-1.37.0-r31 x86_64 {busybox}
+* busybox-binsh-1.37.0-r31 x86_64 {busybox}
+* ca-certificates-20260611-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20260611-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.22.1-r0 x86_64 {krb5}
-* libapk-3.0.5-r0 x86_64 {apk-tools}
+* krb5-libs-1.22.2-r1 x86_64 {krb5}
+* libapk-3.0.6-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
-* libcom_err-1.47.3-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.6-r0 x86_64 {openssl}
-* libffi-3.5.2-r0 x86_64 {libffi}
-* libintl-0.24.1-r1 x86_64 {gettext}
-* libncursesw-6.5_p20251123-r0 x86_64 {ncurses}
-* libnsl-2.0.1-r1 x86_64 {libnsl}
-* libpanelw-6.5_p20251123-r0 x86_64 {ncurses}
-* libssl3-3.5.6-r0 x86_64 {openssl}
+* libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
+* libcrypto3-3.5.7-r0 x86_64 {openssl}
+* libffi-3.5.2-r1 x86_64 {libffi}
+* libintl-1.0-r0 x86_64 {gettext}
+* libncursesw-6.6_p20260516-r0 x86_64 {ncurses}
+* libnsl-2.0.1-r2 x86_64 {libnsl}
+* libpanelw-6.6_p20260516-r0 x86_64 {ncurses}
+* libssl3-3.5.7-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
-* libuuid-2.41.4-r0 x86_64 {util-linux}
+* libuuid-2.42.1-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.5-r23 x86_64 {musl}
-* musl-utils-1.2.5-r22 x86_64 {musl}
-* ncurses-terminfo-base-6.5_p20251123-r0 x86_64 {ncurses}
-* readline-8.3.1-r0 x86_64 {readline}
-* scanelf-1.3.8-r2 x86_64 {pax-utils}
-* sqlite-libs-3.51.2-r0 x86_64 {sqlite}
-* ssl_client-1.37.0-r30 x86_64 {busybox}
-* tzdata-2026a-r0 x86_64 {tzdata}
-* xz-libs-5.8.2-r0 x86_64 {xz}
+* musl-1.2.6-r2 x86_64 {musl}
+* musl-utils-1.2.6-r2 x86_64 {musl}
+* ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
+* readline-8.3.3-r1 x86_64 {readline}
+* scanelf-1.3.9-r1 x86_64 {pax-utils}
+* sqlite-libs-3.53.2-r0 x86_64 {sqlite}
+* ssl_client-1.37.0-r31 x86_64 {busybox}
+* tzdata-2026b-r0 x86_64 {tzdata}
+* xz-libs-5.8.3-r0 x86_64 {xz}
 * zlib-1.3.2-r0 x86_64 {zlib}

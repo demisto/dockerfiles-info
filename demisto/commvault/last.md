@@ -1,9 +1,9 @@
-# `demisto/commvault:1.0.0.11449351`
+# `demisto/commvault:1.0.0.11478621`
 
 ## Docker Metadata
 - Image Size: 44.11 MB
-- Image ID: `sha256:59c687ef6d8a5449bf41100b6ec5f337b2e15ffd2da7a0849a2bc9d0fe3ee0d9`
-- Created: `2026-07-29T23:52:39.629166141Z`
+- Image ID: `sha256:b98bc8e8484b43a717a8251c9acec2a56c98e6b2b5b5b39f0f8494c3b3b9466d`
+- Created: `2026-07-30T17:56:50.729102085Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/commvault:1.0.0.11449351`
+  - `DOCKER_IMAGE=demisto/commvault:1.0.0.11478621`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:00f261352dc04953aad38dcdd09a797b1665c6db`
-  - `org.opencontainers.image.version:1.0.0.11449351`
-  - `panw.builtby.pipeline:11450227`
+  - `org.opencontainers.image.revision:15cfe75af7aeab608441cd7856ceaaafeaf3918d`
+  - `org.opencontainers.image.version:1.0.0.11478621`
+  - `panw.builtby.pipeline:11479034`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/commvault:1.0.0.11449351
+Signatures for demisto/commvault:1.0.0.11478621
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11449351   d9d3f4e9d49487c4456f8eb2cded5514375884881004953338619b70b717c4b0   (Repo Admin)
+1.0.0.11478621   95a1f4832f6fd52ceb52700563b4d8afb46ded723518e6281c1e2f6d1b44ab39   (Repo Admin)
 
-Administrative keys for demisto/commvault:1.0.0.11449351
+Administrative keys for demisto/commvault:1.0.0.11478621
 
   Repository Key:	64321e4bf89f6f2f2c1f4b7d25030e7220c7309e9d60d0cb1dba7ce333c096da
   Root Key:	f3d406a543e986d36d553f83059154f0fc457f73f4391bb8af24bc3501bd86f2
@@ -128,7 +128,7 @@ Administrative keys for demisto/commvault:1.0.0.11449351
 ### `fastapi`
 
 * Summary: FastAPI framework, high performance, easy to learn, fast to code, ready for production
-* Version: 0.140.13
+* Version: 0.141.1
 * Pypi: https://pypi.org/project/fastapi/
 * Homepage: None
 * Author: Sebastián Ramírez <tiangolo@gmail.com>

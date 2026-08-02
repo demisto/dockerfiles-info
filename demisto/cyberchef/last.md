@@ -1,9 +1,9 @@
-# `demisto/cyberchef:1.0.0.11008530`
+# `demisto/cyberchef:1.0.0.11473180`
 
 ## Docker Metadata
-- Image Size: 189.37 MB
-- Image ID: `sha256:a8329b0f411b20827543e24214c3dded641b3f80c863b870cd8092bdb1a3788f`
-- Created: `2026-07-14T09:07:47.160220748Z`
+- Image Size: 128.63 MB
+- Image ID: `sha256:c2d1634aa3d7c2532853c5a8cedd068428c38100cef42f7ee729c0f4a040a728`
+- Created: `2026-07-30T14:44:44.108444889Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,12 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/cyberchef:1.0.0.11008530`
+  - `DOCKER_IMAGE=demisto/cyberchef:1.0.0.11473180`
   - `NODE_PATH=/usr/local/lib/node_modules`
 - Labels:
+  - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:c0cf3da8be0766266028e08d0c3a36db5c22de39`
-  - `org.opencontainers.image.version:1.0.0.11008530`
+  - `org.opencontainers.image.revision:90fda9a5fe7e69f35f0e163751cca4081303f7f8`
+  - `org.opencontainers.image.version:1.0.0.11473180`
+  - `panw.builtby.pipeline:11473949`
+  - `panw.builtby.project:xdr/cortex-content/dockerfiles`
+  - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -30,12 +34,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/cyberchef:1.0.0.11008530
+Signatures for demisto/cyberchef:1.0.0.11473180
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11008530   deac51cdab6d00612e998a5e503923e2783814a2039d3f2912d2f0308bdd6696   (Repo Admin)
+1.0.0.11473180   6c92f03b72667faa8fea41e6c8a332edfec9c2c9a51aec39c1b2827bee480949   (Repo Admin)
 
-Administrative keys for demisto/cyberchef:1.0.0.11008530
+Administrative keys for demisto/cyberchef:1.0.0.11473180
 
   Repository Key:	87faffbf9cfa242d5efcd5063441e580183ea8dc81f914176971dd74db952ebd
   Root Key:	617486d64dbbca7eb8b024a5a1e37dfbeef728381cc5a25de5b60b8d4a2b55dc
@@ -143,7 +147,7 @@ Administrative keys for demisto/cyberchef:1.0.0.11008530
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.2
+* Version: 26.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -303,7 +307,6 @@ Administrative keys for demisto/cyberchef:1.0.0.11008530
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * nghttp2-libs-1.69.0-r0 x86_64 {nghttp2}
 * nodejs-24.17.0-r0 x86_64 {nodejs}
-* npm-11.12.1-r0 x86_64 {npm}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * simdjson-4.2.4-r0 x86_64 {simdjson}

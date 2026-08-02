@@ -1,9 +1,9 @@
-# `demisto/py-ews:5.6.0.11252302`
+# `demisto/py-ews:5.6.0.11478621`
 
 ## Docker Metadata
-- Image Size: 144.45 MB
-- Image ID: `sha256:6809d48aebca3d045c3f5956fd495b31ee1033885224348c832300d05982d640`
-- Created: `2026-07-22T14:57:19.161874133Z`
+- Image Size: 150.07 MB
+- Image ID: `sha256:298968618005b5c033d76739c0a10af176175a65a424c18c989413e86fce9a1d`
+- Created: `2026-07-30T17:56:43.631677389Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,15 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.11252302`
+  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.11478621`
 - Labels:
+  - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:e20984c4d67d41a71bd40014c3d954f4e0cc06d7`
-  - `org.opencontainers.image.version:5.6.0.11252302`
+  - `org.opencontainers.image.revision:15cfe75af7aeab608441cd7856ceaaafeaf3918d`
+  - `org.opencontainers.image.version:5.6.0.11478621`
+  - `panw.builtby.pipeline:11479045`
+  - `panw.builtby.project:xdr/cortex-content/dockerfiles`
+  - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py-ews:5.6.0.11252302
+Signatures for demisto/py-ews:5.6.0.11478621
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-5.6.0.11252302   86c3ab9e1c3c2c8a8491947d4860918a523cb8626a50846ccf72a08c1fc6d04c   (Repo Admin)
+5.6.0.11478621   dc197720de12f675c686077bab474522a35a8690ebdbcdc48c941f4d79c42a3d   (Repo Admin)
 
-Administrative keys for demisto/py-ews:5.6.0.11252302
+Administrative keys for demisto/py-ews:5.6.0.11478621
 
   Repository Key:	c8b3a877659c96dd5e16db568d8f817a6eabb390ecfda3f567a6bc1929408237
   Root Key:	61b6aad19eee856a8c06a402a23627b05539b427be49b6335a4b309706ee1cdc
@@ -294,7 +298,7 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.2
+* Version: 26.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -373,7 +377,7 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.2
+* Version: 2026.3.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -494,7 +498,7 @@ Administrative keys for demisto/py-ews:5.6.0.11252302
 ### `virtualenv`
 
 * Summary: Virtual Python Environment builder
-* Version: 21.7.0
+* Version: 21.7.1
 * Pypi: https://pypi.org/project/virtualenv/
 * Homepage: None
 * Author: None
