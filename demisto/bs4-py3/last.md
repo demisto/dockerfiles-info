@@ -1,9 +1,9 @@
-# `demisto/bs4-py3:1.0.0.11200773`
+# `demisto/bs4-py3:1.0.0.11597437`
 
 ## Docker Metadata
-- Image Size: 34.79 MB
-- Image ID: `sha256:894ecb414b94d344595dacee846eb0166efbfb308777e5936129d201128a9591`
-- Created: `2026-07-21T08:57:04.5519375Z`
+- Image Size: 36.04 MB
+- Image ID: `sha256:5668ff9a82bb0181f2c1addb9b9095cf47ac0eda98c76f42ba87ef43b0f21291`
+- Created: `2026-08-03T17:46:24.572929953Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,15 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/bs4-py3:1.0.0.11200773`
+  - `DOCKER_IMAGE=demisto/bs4-py3:1.0.0.11597437`
 - Labels:
+  - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:ed9133582e75facdae693dad5119989584e3ad33`
-  - `org.opencontainers.image.version:1.0.0.11200773`
+  - `org.opencontainers.image.revision:c6663e9f93602cab35c1b28c6a55140b52f3e8b6`
+  - `org.opencontainers.image.version:1.0.0.11597437`
+  - `panw.builtby.pipeline:11598140`
+  - `panw.builtby.project:xdr/cortex-content/dockerfiles`
+  - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/bs4-py3:1.0.0.11200773
+Signatures for demisto/bs4-py3:1.0.0.11597437
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11200773   fa7fb8272ffeb8873408498b4f87b47a6edce3fdfda5f5ce65dff392027c25e7   (Repo Admin)
+1.0.0.11597437   fd8f999cdb0bcb8db7a06f47cb9759c8a46b14b12c51ac32ed65df5ab6ca1ecf   (Repo Admin)
 
-Administrative keys for demisto/bs4-py3:1.0.0.11200773
+Administrative keys for demisto/bs4-py3:1.0.0.11597437
 
   Repository Key:	fc9cbf4689986a4a2d5017f4dd0b370dce28ed2737afc29128c2210af398286f
   Root Key:	f7385792275ba0f0d12370037412b97339e7663ef387d70b9e49964071d61cd3
@@ -135,7 +139,7 @@ Administrative keys for demisto/bs4-py3:1.0.0.11200773
 ### `Markdown`
 
 * Summary: Python implementation of John Gruber's Markdown.
-* Version: 3.10.2
+* Version: 3.10.3
 * Pypi: https://pypi.org/project/Markdown/
 * Homepage: None
 * Author: Manfred Stienstra, Yuri Takhteyev Waylan limberg <python.markdown@gmail.com>
@@ -168,7 +172,7 @@ Administrative keys for demisto/bs4-py3:1.0.0.11200773
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.2
+* Version: 26.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
