@@ -1,9 +1,9 @@
-# `demisto/googleapi-python3:1.0.0.11185775`
+# `demisto/googleapi-python3:1.0.0.11658507`
 
 ## Docker Metadata
-- Image Size: 80.71 MB
-- Image ID: `sha256:c91944d21c4cfc314a9a6f51a6d0847c28765c75179df37909722e27670c2c9e`
-- Created: `2026-07-20T17:38:29.270798675Z`
+- Image Size: 84.88 MB
+- Image ID: `sha256:2780bb4bdc064eb77b783ecdb3b5a1ad680fe1e02e4fb949fe788c8ee058d17e`
+- Created: `2026-08-05T05:42:55.20594973Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,15 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/googleapi-python3:1.0.0.11185775`
+  - `DOCKER_IMAGE=demisto/googleapi-python3:1.0.0.11658507`
 - Labels:
+  - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:f9de9d6203142006e0152ad2b3c73ca79fb0c176`
-  - `org.opencontainers.image.version:1.0.0.11185775`
+  - `org.opencontainers.image.revision:29c41f9c0cbb6ff19027834f8349a3b0163a832b`
+  - `org.opencontainers.image.version:1.0.0.11658507`
+  - `panw.builtby.pipeline:11658750`
+  - `panw.builtby.project:xdr/cortex-content/dockerfiles`
+  - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/googleapi-python3:1.0.0.11185775
+Signatures for demisto/googleapi-python3:1.0.0.11658507
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11185775   146648e72b51ff818c63ac99b25cf1a99099f3f5ec8f22cb94ed5a2c4d4bc91e   (Repo Admin)
+1.0.0.11658507   bbdd7b751bdae721fdff53d33a1406e3cf5a63e52c47232018ae1b9cf3af45ad   (Repo Admin)
 
-Administrative keys for demisto/googleapi-python3:1.0.0.11185775
+Administrative keys for demisto/googleapi-python3:1.0.0.11658507
 
   Repository Key:	b14f1cdad56bfcc44f0ba4af89b0ec4910e16f20c7c6ab86d496a5786dc49c4c
   Root Key:	8fe3e320ac3b88f7823a158cd05468872ae8ac2135e8ca4f9e70d707440f05d4
@@ -50,7 +54,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.11185775
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.6.17
+* Version: 2026.7.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -59,7 +63,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.11185775
 ### `cffi`
 
 * Summary: Foreign Function Interface for Python calling C code.
-* Version: 2.1.0
+* Version: 2.1.1
 * Pypi: https://pypi.org/project/cffi/
 * Homepage: None
 * Author: Armin Rigo, Maciej Fijalkowski
@@ -76,7 +80,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.11185775
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 49.0.0
+* Version: 50.0.0
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -119,7 +123,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.11185775
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.31.0
+* Version: 2.33.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -137,7 +141,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.11185775
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.56.0
+* Version: 2.56.2
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -251,7 +255,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.11185775
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.2
+* Version: 26.2.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -260,7 +264,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.11185775
 ### `proto-plus`
 
 * Summary: Beautiful, Pythonic protocol buffers
-* Version: 1.28.1
+* Version: 1.28.2
 * Pypi: https://pypi.org/project/proto-plus/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
