@@ -1,9 +1,9 @@
-# `demisto/google-k8s-engine:1.0.0.11285256`
+# `demisto/google-k8s-engine:1.0.0.11664939`
 
 ## Docker Metadata
-- Image Size: 72.13 MB
-- Image ID: `sha256:83aafd28f7827bc8ebdbcb3ed7f70e76fd5e4d7b7c2b662d650b8bd4701580ff`
-- Created: `2026-07-23T17:39:31.652279924Z`
+- Image Size: 76.10 MB
+- Image ID: `sha256:b3a52d2889c3d5c348eab7800eed1d31b05ca9cc7d11dd7a01e391e3eb172a34`
+- Created: `2026-08-05T08:58:34.418287182Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,15 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/google-k8s-engine:1.0.0.11285256`
+  - `DOCKER_IMAGE=demisto/google-k8s-engine:1.0.0.11664939`
 - Labels:
+  - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:f10470a20cdd7b968ee4c8fec53019eae7c55798`
-  - `org.opencontainers.image.version:1.0.0.11285256`
+  - `org.opencontainers.image.revision:4ff1059d9a2c945af8627e4dbfd72f92692c8b6a`
+  - `org.opencontainers.image.version:1.0.0.11664939`
+  - `panw.builtby.pipeline:11666198`
+  - `panw.builtby.project:xdr/cortex-content/dockerfiles`
+  - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-k8s-engine:1.0.0.11285256
+Signatures for demisto/google-k8s-engine:1.0.0.11664939
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11285256   4ceb5e3b9389b272dd92e162aca2fa5d68fceb41006ff062319ad7ccbf7eca90   (Repo Admin)
+1.0.0.11664939   9c30d31754e8692177bb0390b3b19a6af39f594cd2e6ae0deebe9ced9d6ac72f   (Repo Admin)
 
-Administrative keys for demisto/google-k8s-engine:1.0.0.11285256
+Administrative keys for demisto/google-k8s-engine:1.0.0.11664939
 
   Repository Key:	fbfb793b1cd8dcd4c1e16086726ec95b98431fbb9c4a9cc8af0b7cae47f55a8a
   Root Key:	8bce9cdfcc879a0a80a4bbea156dab89352f8f0e7474b62a14639a511bdbd546
@@ -50,7 +54,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.11285256
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.5.20
+* Version: 2026.7.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -59,7 +63,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.11285256
 ### `cffi`
 
 * Summary: Foreign Function Interface for Python calling C code.
-* Version: 2.0.0
+* Version: 2.1.1
 * Pypi: https://pypi.org/project/cffi/
 * Homepage: None
 * Author: Armin Rigo, Maciej Fijalkowski
@@ -67,7 +71,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.11285256
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.7
+* Version: 3.4.9
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -76,7 +80,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.11285256
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 49.0.0
+* Version: 50.0.0
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -119,7 +123,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.11285256
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.31.0
+* Version: 2.33.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -128,7 +132,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.11285256
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.55.0
+* Version: 2.56.2
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -155,7 +159,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.11285256
 ### `grpcio`
 
 * Summary: HTTP/2-based RPC framework
-* Version: 1.81.1
+* Version: 1.83.0
 * Pypi: https://pypi.org/project/grpcio/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -163,7 +167,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.11285256
 ### `grpcio-status`
 
 * Summary: Status proto mapping for gRPC
-* Version: 1.81.1
+* Version: 1.83.0
 * Pypi: https://pypi.org/project/grpcio-status/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -204,7 +208,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.11285256
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.2
+* Version: 26.2.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -213,7 +217,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.11285256
 ### `proto-plus`
 
 * Summary: Beautiful, Pythonic protocol buffers
-* Version: 1.28.0
+* Version: 1.28.2
 * Pypi: https://pypi.org/project/proto-plus/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -345,7 +349,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.11285256
 ### `typing_extensions`
 
 * Summary: Backported and Experimental Type Hints for Python 3.9+
-* Version: 4.15.0
+* Version: 4.16.0
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>

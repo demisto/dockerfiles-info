@@ -1,9 +1,9 @@
-# `demisto/xml-feed:1.0.0.11206988`
+# `demisto/xml-feed:1.0.0.11664939`
 
 ## Docker Metadata
-- Image Size: 41.99 MB
-- Image ID: `sha256:d9aadbd7516cde0f1873b758286d180cfc7955b1e4aee5d08653eac23dfcd8a1`
-- Created: `2026-07-21T12:22:10.466964713Z`
+- Image Size: 43.66 MB
+- Image ID: `sha256:c8d3171204d8d53f2c6c9f71522ef049b4c8b6f312e251855a77e417ad4dcb88`
+- Created: `2026-08-05T08:58:30.525216531Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,15 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/xml-feed:1.0.0.11206988`
+  - `DOCKER_IMAGE=demisto/xml-feed:1.0.0.11664939`
 - Labels:
+  - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:925db68ab8a56e595c18d3c984ede443bbecb647`
-  - `org.opencontainers.image.version:1.0.0.11206988`
+  - `org.opencontainers.image.revision:4ff1059d9a2c945af8627e4dbfd72f92692c8b6a`
+  - `org.opencontainers.image.version:1.0.0.11664939`
+  - `panw.builtby.pipeline:11666191`
+  - `panw.builtby.project:xdr/cortex-content/dockerfiles`
+  - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/xml-feed:1.0.0.11206988
+Signatures for demisto/xml-feed:1.0.0.11664939
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.11664939   769320177d3aa2b5c40f8edb33e2b88af95ddd1a6147b9508a21cf57f677d831   (Repo Admin)
 
-Administrative keys for demisto/xml-feed:1.0.0.11206988
+Administrative keys for demisto/xml-feed:1.0.0.11664939
 
   Repository Key:	d7a3851a8dedb4115adcc29e389c8f4d8da1d1f3e14194f9b8b72d361f790180
   Root Key:	56e0e4f8c06deea10a7afdef3d7792c83adefa42dd2b4621a72875f1e39241ab
@@ -63,7 +69,7 @@ Administrative keys for demisto/xml-feed:1.0.0.11206988
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.5.20
+* Version: 2026.7.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -72,7 +78,7 @@ Administrative keys for demisto/xml-feed:1.0.0.11206988
 ### `cffi`
 
 * Summary: Foreign Function Interface for Python calling C code.
-* Version: 2.0.0
+* Version: 2.1.1
 * Pypi: https://pypi.org/project/cffi/
 * Homepage: None
 * Author: Armin Rigo, Maciej Fijalkowski
@@ -80,7 +86,7 @@ Administrative keys for demisto/xml-feed:1.0.0.11206988
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.7
+* Version: 3.4.9
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -89,7 +95,7 @@ Administrative keys for demisto/xml-feed:1.0.0.11206988
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 49.0.0
+* Version: 50.0.0
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -183,7 +189,7 @@ Administrative keys for demisto/xml-feed:1.0.0.11206988
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.2
+* Version: 26.2.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -217,7 +223,7 @@ Administrative keys for demisto/xml-feed:1.0.0.11206988
 ### `pyOpenSSL`
 
 * Summary: Python wrapper module around the OpenSSL library
-* Version: 26.3.0
+* Version: 26.4.0
 * Pypi: https://pypi.org/project/pyOpenSSL/
 * Homepage: https://pyopenssl.org/
 * Author: The pyOpenSSL developers cryptography-dev@python.org
@@ -314,7 +320,7 @@ Administrative keys for demisto/xml-feed:1.0.0.11206988
 ### `soupsieve`
 
 * Summary: A modern CSS selector implementation for Beautiful Soup.
-* Version: 2.8.4
+* Version: 2.9.1
 * Pypi: https://pypi.org/project/soupsieve/
 * Homepage: None
 * Author: Isaac Muse <Isaac.Muse@gmail.com>
@@ -331,7 +337,7 @@ Administrative keys for demisto/xml-feed:1.0.0.11206988
 ### `typing_extensions`
 
 * Summary: Backported and Experimental Type Hints for Python 3.9+
-* Version: 4.15.0
+* Version: 4.16.0
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>

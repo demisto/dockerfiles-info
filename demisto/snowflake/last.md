@@ -1,9 +1,9 @@
-# `demisto/snowflake:1.0.0.11131287`
+# `demisto/snowflake:1.0.0.11664939`
 
 ## Docker Metadata
-- Image Size: 83.20 MB
-- Image ID: `sha256:4d83a99d09b61f7a640a84579758f21650f5559f83cee2d81e6471c6ac2533c1`
-- Created: `2026-07-19T08:36:10.160745137Z`
+- Image Size: 87.05 MB
+- Image ID: `sha256:a8dc1edf65fe0668df045e30941be5a94a428677860ae4deeea1c98f94735a10`
+- Created: `2026-08-05T08:58:53.260420782Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,15 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/snowflake:1.0.0.11131287`
+  - `DOCKER_IMAGE=demisto/snowflake:1.0.0.11664939`
 - Labels:
+  - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:5d8435ec378a572dfb0e7464dc3ba0e463dc38d4`
-  - `org.opencontainers.image.version:1.0.0.11131287`
+  - `org.opencontainers.image.revision:4ff1059d9a2c945af8627e4dbfd72f92692c8b6a`
+  - `org.opencontainers.image.version:1.0.0.11664939`
+  - `panw.builtby.pipeline:11666197`
+  - `panw.builtby.project:xdr/cortex-content/dockerfiles`
+  - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/snowflake:1.0.0.11131287
+Signatures for demisto/snowflake:1.0.0.11664939
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11131287   04443cc3a265f38bb9716130a469c13259ee5a40ec95b8ea37811168ddecd5e5   (Repo Admin)
+1.0.0.11664939   c59cb9b417b777789cec495b1c276f00247e56088cc6707ae50d4e18444b12fb   (Repo Admin)
 
-Administrative keys for demisto/snowflake:1.0.0.11131287
+Administrative keys for demisto/snowflake:1.0.0.11664939
 
   Repository Key:	e5af6c8f1edf3b7b609ca6e966b4b02cda62a847f7886ade144fdd863264d2dc
   Root Key:	62fa4117d95ea03c7a2357871e30ec66d7a624e3b931de015922a0c52d289cac
@@ -59,7 +63,7 @@ Administrative keys for demisto/snowflake:1.0.0.11131287
 ### `boto3`
 
 * Summary: The AWS SDK for Python
-* Version: 1.43.49
+* Version: 1.43.64
 * Pypi: https://pypi.org/project/boto3/
 * Homepage: https://github.com/boto/boto3
 * Author: Amazon Web Services
@@ -68,7 +72,7 @@ Administrative keys for demisto/snowflake:1.0.0.11131287
 ### `botocore`
 
 * Summary: Low-level, data-driven core of boto 3.
-* Version: 1.43.49
+* Version: 1.43.64
 * Pypi: https://pypi.org/project/botocore/
 * Homepage: https://github.com/boto/botocore
 * Author: Amazon Web Services
@@ -77,7 +81,7 @@ Administrative keys for demisto/snowflake:1.0.0.11131287
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.6.17
+* Version: 2026.7.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -86,7 +90,7 @@ Administrative keys for demisto/snowflake:1.0.0.11131287
 ### `cffi`
 
 * Summary: Foreign Function Interface for Python calling C code.
-* Version: 2.1.0
+* Version: 2.1.1
 * Pypi: https://pypi.org/project/cffi/
 * Homepage: None
 * Author: Armin Rigo, Maciej Fijalkowski
@@ -103,7 +107,7 @@ Administrative keys for demisto/snowflake:1.0.0.11131287
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 49.0.0
+* Version: 50.0.0
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -111,11 +115,10 @@ Administrative keys for demisto/snowflake:1.0.0.11131287
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.0
+* Version: 1.4.1
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
-* License: BSD
 
 ### `defusedxml`
 
@@ -129,7 +132,7 @@ Administrative keys for demisto/snowflake:1.0.0.11131287
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.30.0
+* Version: 3.32.2
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -181,7 +184,7 @@ Administrative keys for demisto/snowflake:1.0.0.11131287
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -189,7 +192,7 @@ Administrative keys for demisto/snowflake:1.0.0.11131287
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.2
+* Version: 26.2.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -198,7 +201,7 @@ Administrative keys for demisto/snowflake:1.0.0.11131287
 ### `platformdirs`
 
 * Summary: A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`.
-* Version: 4.10.0
+* Version: 4.11.0
 * Pypi: https://pypi.org/project/platformdirs/
 * Homepage: None
 * Author: None
@@ -223,7 +226,7 @@ Administrative keys for demisto/snowflake:1.0.0.11131287
 ### `pyOpenSSL`
 
 * Summary: Python wrapper module around the OpenSSL library
-* Version: 26.3.0
+* Version: 26.4.0
 * Pypi: https://pypi.org/project/pyOpenSSL/
 * Homepage: https://pyopenssl.org/
 * Author: The pyOpenSSL developers cryptography-dev@python.org
@@ -251,7 +254,7 @@ Administrative keys for demisto/snowflake:1.0.0.11131287
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.2
+* Version: 2026.3.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -269,7 +272,7 @@ Administrative keys for demisto/snowflake:1.0.0.11131287
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.4.4
+* Version: 2026.5.9
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -295,7 +298,7 @@ Administrative keys for demisto/snowflake:1.0.0.11131287
 ### `s3transfer`
 
 * Summary: An Amazon S3 Transfer Manager
-* Version: 0.19.1
+* Version: 0.19.2
 * Pypi: https://pypi.org/project/s3transfer/
 * Homepage: https://github.com/boto/s3transfer
 * Author: Amazon Web Services kyknapp1@gmail.com
@@ -304,7 +307,7 @@ Administrative keys for demisto/snowflake:1.0.0.11131287
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 82.0.1
+* Version: 83.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -347,7 +350,7 @@ Administrative keys for demisto/snowflake:1.0.0.11131287
 ### `tomlkit`
 
 * Summary: Style preserving TOML library
-* Version: 0.15.0
+* Version: 0.15.1
 * Pypi: https://pypi.org/project/tomlkit/
 * Homepage: None
 * Author: Sébastien Eustace sebastien@eustace.io
@@ -364,11 +367,10 @@ Administrative keys for demisto/snowflake:1.0.0.11131287
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.3.1
+* Version: 5.4
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
-* License: MIT
 
 ### `urllib3`
 
@@ -390,7 +392,7 @@ Administrative keys for demisto/snowflake:1.0.0.11131287
 
 * adduser	3.134
 * apt	2.6.1
-* base-files	12.4+deb12u14
+* base-files	12.4+deb12u15
 * base-passwd	3.6.1
 * bash	5.2.15-2+b13
 * bsdutils	1:2.38.1-5+deb12u3
@@ -441,7 +443,7 @@ Administrative keys for demisto/snowflake:1.0.0.11131287
 * libkrb5-3:amd64	1.20.1-2+deb12u5
 * libkrb5support0:amd64	1.20.1-2+deb12u5
 * liblz4-1:amd64	1.9.4-1
-* liblzma5:amd64	5.4.1-1
+* liblzma5:amd64	5.4.1-1+deb12u1
 * libmd0:amd64	1.0.4-2
 * libmount1:amd64	2.38.1-5+deb12u3
 * libncursesw6:amd64	6.4-4
