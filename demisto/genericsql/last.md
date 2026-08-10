@@ -1,9 +1,9 @@
-# `demisto/genericsql:1.2.0.11643673`
+# `demisto/genericsql:1.2.0.11760210`
 
 ## Docker Metadata
-- Image Size: 375.19 MB
-- Image ID: `sha256:6bae117c60cf87b7fb21a52033a8863c7123f54944c8b78afb6f4963a0fa5911`
-- Created: `2026-08-04T18:06:03.542615227Z`
+- Image Size: 375.73 MB
+- Image ID: `sha256:8ece8fc537560c26740384d9545e39a425694104152f3c7d6842690d8aa35ac6`
+- Created: `2026-08-09T09:08:07.439309827Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.11643673`
+  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.11760210`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:f8366fb5fd6c53798f92fac0eb55bf2e9419a4d0`
-  - `org.opencontainers.image.version:1.2.0.11643673`
-  - `panw.builtby.pipeline:11644629`
+  - `org.opencontainers.image.revision:08b6538ba3f1d55322cf742eaccf1f4643368151`
+  - `org.opencontainers.image.version:1.2.0.11760210`
+  - `panw.builtby.pipeline:11761988`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/genericsql:1.2.0.11643673
+Signatures for demisto/genericsql:1.2.0.11760210
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.2.0.11643673   1997788327fd8670c121c5ce5a7e4d37209e6d8b92e356b4c38fca027d37e1c1   (Repo Admin)
+1.2.0.11760210   888de556dc8650845c5c2e832b860f8714db5ae626cbdc9a4a8e586ab9212f7b   (Repo Admin)
 
-Administrative keys for demisto/genericsql:1.2.0.11643673
+Administrative keys for demisto/genericsql:1.2.0.11760210
 
   Repository Key:	b02fc99a72d78e9f5becfe15406ea942db310f3c3af9a7833b215eddb323f7cd
   Root Key:	d11245d830d935ed4846941604c024388aca83a60142ae5319409b1f6091afe1
@@ -88,7 +88,7 @@ Administrative keys for demisto/genericsql:1.2.0.11643673
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.1
+* Version: 1.4.2
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -291,7 +291,7 @@ Administrative keys for demisto/genericsql:1.2.0.11643673
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.5.9
+* Version: 2026.7.19
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -317,7 +317,7 @@ Administrative keys for demisto/genericsql:1.2.0.11643673
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 83.0.0
+* Version: 84.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
