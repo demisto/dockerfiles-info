@@ -1,9 +1,9 @@
-# `demisto/datadog-api-client:1.0.0.11200773`
+# `demisto/datadog-api-client:1.0.0.11815981`
 
 ## Docker Metadata
-- Image Size: 35.75 MB
-- Image ID: `sha256:c68c9ce489822432a6a883d6ecbcaabaf0f1c813fd35294ca3e845b9fc15cfac`
-- Created: `2026-07-21T09:05:35.045558182Z`
+- Image Size: 37.61 MB
+- Image ID: `sha256:f7b833405dd1fe6c8405aaaf7ad086aeaaf1fd0a4bc752690a59674ab946d874`
+- Created: `2026-08-10T21:03:30.680427684Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,15 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/datadog-api-client:1.0.0.11200773`
+  - `DOCKER_IMAGE=demisto/datadog-api-client:1.0.0.11815981`
 - Labels:
+  - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:ed9133582e75facdae693dad5119989584e3ad33`
-  - `org.opencontainers.image.version:1.0.0.11200773`
+  - `org.opencontainers.image.revision:cf21e6c0405c18323f6d2365ec4bad1a32bf02b2`
+  - `org.opencontainers.image.version:1.0.0.11815981`
+  - `panw.builtby.pipeline:11816401`
+  - `panw.builtby.project:xdr/cortex-content/dockerfiles`
+  - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/datadog-api-client:1.0.0.11200773
+Signatures for demisto/datadog-api-client:1.0.0.11815981
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11200773   7e5fca5fdd35aaa0b920fb2459460e3abe60482a9907c5d199a2b8f23d8c696f   (Repo Admin)
+1.0.0.11815981   ceb54fd95c09368a9c9cd73ac7dcc5747ac1aab7a16e20171fa9427fbc4daa6c   (Repo Admin)
 
-Administrative keys for demisto/datadog-api-client:1.0.0.11200773
+Administrative keys for demisto/datadog-api-client:1.0.0.11815981
 
   Repository Key:	656d78d0ce1bf497326f1f73e1748d6dc41faace8487b29f8cf74838cf932cd9
   Root Key:	f37ef2584cf450f8c9dd9e8721f92ef81e852897ae167f699bb2c8bffa6ecd86
@@ -47,7 +51,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.11200773
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.6.17
+* Version: 2026.7.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -65,7 +69,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.11200773
 ### `datadog-api-client`
 
 * Summary: Collection of all Datadog Public endpoints
-* Version: 2.57.0
+* Version: 2.58.0
 * Pypi: https://pypi.org/project/datadog-api-client/
 * Homepage: https://github.com/DataDog/datadog-api-client-python
 * Author: Datadog, Inc. packages@datadoghq.com
@@ -151,7 +155,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.11200773
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.2
+* Version: 26.2.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -248,7 +252,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.11200773
 ### `typing_extensions`
 
 * Summary: Backported and Experimental Type Hints for Python 3.9+
-* Version: 4.15.0
+* Version: 4.16.0
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
