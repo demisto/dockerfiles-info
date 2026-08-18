@@ -1,9 +1,9 @@
-# `demisto/ibm-db2:1.0.0.11185775`
+# `demisto/ibm-db2:1.0.0.12042988`
 
 ## Docker Metadata
-- Image Size: 114.75 MB
-- Image ID: `sha256:a544c3d3c731ac186805275818146719e511d7e56ecacc43f32d37db44a431eb`
-- Created: `2026-07-20T17:39:39.540494322Z`
+- Image Size: 123.89 MB
+- Image ID: `sha256:4f476b4a0fcef6b6ab9d4bfd4cb7c3191fe8e03a9e20954cb0307716e3c772db`
+- Created: `2026-08-18T03:03:09.219452501Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,15 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/ibm-db2:1.0.0.11185775`
+  - `DOCKER_IMAGE=demisto/ibm-db2:1.0.0.12042988`
 - Labels:
+  - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:f9de9d6203142006e0152ad2b3c73ca79fb0c176`
-  - `org.opencontainers.image.version:1.0.0.11185775`
+  - `org.opencontainers.image.revision:6429df8be64a835213d4932d62d14c73d25e7cb9`
+  - `org.opencontainers.image.version:1.0.0.12042988`
+  - `panw.builtby.pipeline:12043337`
+  - `panw.builtby.project:xdr/cortex-content/dockerfiles`
+  - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
@@ -32,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/ibm-db2:1.0.0.11185775
+Signatures for demisto/ibm-db2:1.0.0.12042988
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11185775   f35c317a442a75a979b520085f9889062d12436768392a3072dc896abd392d3a   (Repo Admin)
+1.0.0.12042988   30da62c5283496c5c1330da92a622b3dc5d781541416b7c363448c24d9ebc1cc   (Repo Admin)
 
-Administrative keys for demisto/ibm-db2:1.0.0.11185775
+Administrative keys for demisto/ibm-db2:1.0.0.12042988
 
   Repository Key:	6337a735f6ada949bd0fc77c9c4f02002ca37e4c371d55673dac6e742082bced
   Root Key:	a251db0468b1c8b663b1987336e3e6a7935be0ec4d244474d3a2907656934763
@@ -103,7 +107,7 @@ Administrative keys for demisto/ibm-db2:1.0.0.11185775
 ### `ibm_db`
 
 * Summary: Python DBI driver for DB2 (LUW, zOS, i5)
-* Version: 3.2.9
+* Version: 3.3.0
 * Pypi: https://pypi.org/project/ibm-db/
 * Homepage: http://pypi.python.org/pypi/ibm_db/
 * Author: IBM Application Development Team earamma.kanasavi@ibm.com
@@ -145,7 +149,7 @@ Administrative keys for demisto/ibm-db2:1.0.0.11185775
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.2
+* Version: 26.2.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>

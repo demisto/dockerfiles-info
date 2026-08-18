@@ -1,9 +1,9 @@
-# `demisto/genericsql:1.2.0.11884772`
+# `demisto/genericsql:1.2.0.12042988`
 
 ## Docker Metadata
-- Image Size: 376.44 MB
-- Image ID: `sha256:778c089b00448f9b6c0719e3b729f8213f2695afe2a1467ed2a6470d0e5d2eb9`
-- Created: `2026-08-13T05:59:00.471172205Z`
+- Image Size: 376.52 MB
+- Image ID: `sha256:6a0ad4e77276867902b076662ec7dbf9fcf3be8cef2b334e873627898d334aca`
+- Created: `2026-08-18T03:03:54.587344679Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.11884772`
+  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.12042988`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b10cee2aceed3839540d65dcdc43c379b7e52ddf`
-  - `org.opencontainers.image.version:1.2.0.11884772`
-  - `panw.builtby.pipeline:11885885`
+  - `org.opencontainers.image.revision:6429df8be64a835213d4932d62d14c73d25e7cb9`
+  - `org.opencontainers.image.version:1.2.0.12042988`
+  - `panw.builtby.pipeline:12043332`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/genericsql:1.2.0.11884772
+Signatures for demisto/genericsql:1.2.0.12042988
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.2.0.11884772   3e1391f5fb1a8bb0de0461604a0bc4eb2794900d0427f2a87552847e0be6e553   (Repo Admin)
+1.2.0.12042988   ee48006839dc882bcf3089c9ba39a00f3f7f84fe2fc718fd11de355e32ed8a07   (Repo Admin)
 
-Administrative keys for demisto/genericsql:1.2.0.11884772
+Administrative keys for demisto/genericsql:1.2.0.12042988
 
   Repository Key:	b02fc99a72d78e9f5becfe15406ea942db310f3c3af9a7833b215eddb323f7cd
   Root Key:	d11245d830d935ed4846941604c024388aca83a60142ae5319409b1f6091afe1
@@ -132,7 +132,7 @@ Administrative keys for demisto/genericsql:1.2.0.11884772
 ### `greenlet`
 
 * Summary: Lightweight in-process concurrent programming
-* Version: 3.5.1
+* Version: 3.5.5
 * Pypi: https://pypi.org/project/greenlet/
 * Homepage: None
 * Author: Alexey Borzenkov <snaury@gmail.com>
@@ -334,7 +334,7 @@ Administrative keys for demisto/genericsql:1.2.0.11884772
 ### `SQLAlchemy`
 
 * Summary: Database Abstraction Library
-* Version: 2.0.51
+* Version: 2.0.52
 * Pypi: https://pypi.org/project/SQLAlchemy/
 * Homepage: https://www.sqlalchemy.org
 * Author: Mike Bayer mike_mp@zzzcomputing.com
@@ -491,7 +491,7 @@ Administrative keys for demisto/genericsql:1.2.0.11884772
 * libpam-runtime	1.5.2-6+deb12u2
 * libpam0g:amd64	1.5.2-6+deb12u2
 * libpcre2-8-0:amd64	10.42-1
-* libpq5:amd64	15.18-0+deb12u1
+* libpq5:amd64	15.19-0+deb12u1
 * libproc2-0:amd64	2:4.0.2-3
 * libpsl5:amd64	0.21.2-1
 * libreadline8:amd64	8.2-1.3
@@ -542,7 +542,7 @@ Administrative keys for demisto/genericsql:1.2.0.11884772
 * tzdata	2026b-0+deb12u1
 * unixodbc	2.3.11-2+deb12u1
 * unixodbc-common	2.3.11-2+deb12u1
-* unzip	6.0-28
+* unzip	6.0-28+deb12u1
 * usr-is-merged	37~deb12u1
 * util-linux	2.38.1-5+deb12u3
 * util-linux-extra	2.38.1-5+deb12u3
