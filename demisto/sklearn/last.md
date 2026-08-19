@@ -1,9 +1,9 @@
-# `demisto/sklearn:1.0.0.11879924`
+# `demisto/sklearn:1.0.0.12072219`
 
 ## Docker Metadata
-- Image Size: 220.46 MB
-- Image ID: `sha256:3f7a159555f2e539ff7ca899370485231193e3d0b582bcb4da7e2fe5c67f26e1`
-- Created: `2026-08-13T00:06:03.238312734Z`
+- Image Size: 258.05 MB
+- Image ID: `sha256:c3378e1cd6c57a06f3de4ca4a182f75fa6fa6b23a1af4a273bd62501b45fa874`
+- Created: `2026-08-18T17:52:13.567894461Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/sklearn:1.0.0.11879924`
+  - `DOCKER_IMAGE=demisto/sklearn:1.0.0.12072219`
   - `NLTK_DATA=/ml/nltk_data`
   - `OPENBLAS_NUM_THREADS=1`
   - `OMP_NUM_THREADS=4`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:c4c493ad453468888920df0ce80c3efdc4945526`
-  - `org.opencontainers.image.version:1.0.0.11879924`
-  - `panw.builtby.pipeline:11880620`
+  - `org.opencontainers.image.revision:d733444d6e71f6815859f00de92451c690dc5909`
+  - `org.opencontainers.image.version:1.0.0.12072219`
+  - `panw.builtby.pipeline:12072713`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sklearn:1.0.0.11879924
+Signatures for demisto/sklearn:1.0.0.12072219
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11879924   92addc377bac53a20460fb52f7668d407f7e088c37a2953409006c50e558433b   (Repo Admin)
+1.0.0.12072219   70978be5b335271af827191cad0a52400371db2935826736b0a0d5d12d4294d3   (Repo Admin)
 
-Administrative keys for demisto/sklearn:1.0.0.11879924
+Administrative keys for demisto/sklearn:1.0.0.12072219
 
   Repository Key:	2475832d78c902e8999df2055c0f69226a85caf5ee20d300c05ffb6e87dd9f7c
   Root Key:	8ab906212f9f7b6d82f5edb3d677b0df40095899339fa0b36ecd00b68b304458
@@ -182,7 +182,7 @@ Administrative keys for demisto/sklearn:1.0.0.11879924
 ### `nltk`
 
 * Summary: Natural Language Toolkit
-* Version: 3.10.2
+* Version: 3.10.3
 * Pypi: https://pypi.org/project/nltk/
 * Homepage: https://www.nltk.org/
 * Author: NLTK Team nltk.team@gmail.com
