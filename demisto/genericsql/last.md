@@ -1,9 +1,9 @@
-# `demisto/genericsql:1.2.0.12042988`
+# `demisto/genericsql:1.2.0.12084113`
 
 ## Docker Metadata
-- Image Size: 376.52 MB
-- Image ID: `sha256:6a0ad4e77276867902b076662ec7dbf9fcf3be8cef2b334e873627898d334aca`
-- Created: `2026-08-18T03:03:54.587344679Z`
+- Image Size: 376.69 MB
+- Image ID: `sha256:299e0b458138294b94328d18fe06f2c4c819c97db3558dd21b152048bbbc108b`
+- Created: `2026-08-19T05:43:55.791718892Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.12042988`
+  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.12084113`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:6429df8be64a835213d4932d62d14c73d25e7cb9`
-  - `org.opencontainers.image.version:1.2.0.12042988`
-  - `panw.builtby.pipeline:12043332`
+  - `org.opencontainers.image.revision:1f752868626f58eebe217108038f39e145c4b708`
+  - `org.opencontainers.image.version:1.2.0.12084113`
+  - `panw.builtby.pipeline:12084336`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/genericsql:1.2.0.12042988
+Signatures for demisto/genericsql:1.2.0.12084113
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.2.0.12042988   ee48006839dc882bcf3089c9ba39a00f3f7f84fe2fc718fd11de355e32ed8a07   (Repo Admin)
+1.2.0.12084113   11fde6b3065b2641c6a42cd5ee287fa49db5cbd7bf8bee3a6b2f6fb49b96cea3   (Repo Admin)
 
-Administrative keys for demisto/genericsql:1.2.0.12042988
+Administrative keys for demisto/genericsql:1.2.0.12084113
 
   Repository Key:	b02fc99a72d78e9f5becfe15406ea942db310f3c3af9a7833b215eddb323f7cd
   Root Key:	d11245d830d935ed4846941604c024388aca83a60142ae5319409b1f6091afe1
@@ -193,7 +193,7 @@ Administrative keys for demisto/genericsql:1.2.0.12042988
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.1
+* Version: 26.3
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
