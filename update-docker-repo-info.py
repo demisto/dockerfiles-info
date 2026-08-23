@@ -607,6 +607,8 @@ def save_docker_images_list_json(all_docker_images_with_js: dict[str, list[str]]
     """Generate a flat JSON list of ALL docker images in use by content.
 
     Includes Python, PowerShell, and JavaScript images.
+    Note: the JavaScript images reference is for a future case; currently there
+    are no JavaScript images in use in content repo.
     Saves to DOCKER_IMAGES_LIST_JSON file.
 
     Returns:
@@ -669,13 +671,36 @@ def get_yaml_files_in_directory(directory):
 
     return yml_files
 
-def read_dockers_from_all_yml_files(directory: str) -> tuple[dict[str, list[str]], dict[str, list[str]]]:
+def _get_docker_field(data: dict, field: str) -> list[str]:
+    """Resolve a docker-image field from the yml, checking the top level first
+    and falling back to the nested ``script`` dict.
+
+    Returns the values as a list (single-string fields are wrapped in a list),
+    or an empty list when the field is absent in both locations.
+    """
+    value = data.get(field)
+    if not value:
+        script_value = data.get('script')
+        if isinstance(script_value, dict):
+            value = script_value.get(field)
+    if not value:
+        return []
+    return value if isinstance(value, list) else [value]
+
+
+def read_dockers_from_all_yml_files(directory: str) -> tuple[dict[str, set[str]], dict[str, set[str]]]:
     """Get the docker images from yml files.
 
     Returns:
         tuple: (all_docker_image, all_docker_images_with_js)
             - all_docker_image: dict of non-JS images for process_image flow
             - all_docker_images_with_js: dict of ALL images (incl. JS) for docker_images_list.json
+
+    Note:
+        Tags are returned as unsorted sets. Callers sort at the point of use
+        (e.g. save_docker_images_list_json sorts the flattened list once), and
+        the non-JS dict is only used for membership/lookup where order is
+        irrelevant, so sorting here would be redundant.
     """
     yml_files = get_yaml_files_in_directory(directory)
     all_docker_image: defaultdict[str, set[str]] = defaultdict(set)
@@ -686,19 +711,11 @@ def read_dockers_from_all_yml_files(directory: str) -> tuple[dict[str, list[str]
                 data = yaml.safe_load(file)  # Load the YAML file
 
                 docker_images: set[str] = set()
-                script_value = data.get('script', {})
-                    
-                # get the alt_dockerimages value
-                if data.get('alt_dockerimages'):
-                    docker_images.update(data.get('alt_dockerimages'))
-                elif script_value and isinstance(script_value,dict) and script_value.get('alt_dockerimages'):
-                    docker_images.update(data.get('script').get('alt_dockerimages'))
 
-                # get the docker image
-                if data.get('dockerimage'):
-                    docker_images.add(data.get('dockerimage'))
-                elif script_value and isinstance(script_value,dict) and script_value.get('dockerimage'):
-                    docker_images.add(data.get('script').get('dockerimage'))
+                # Resolve both the alt_dockerimages (list) and dockerimage (single)
+                # fields, each checking the top level then the nested `script` dict.
+                docker_images.update(_get_docker_field(data, 'alt_dockerimages'))
+                docker_images.update(_get_docker_field(data, 'dockerimage'))
 
                 is_javascript: bool = data.get('type') == 'javascript'
 
@@ -715,11 +732,8 @@ def read_dockers_from_all_yml_files(directory: str) -> tuple[dict[str, list[str]
         except Exception as e:
             print(f"Error reading {file_path}: {e}")
 
-    # Convert sets to sorted lists (for the final output)
-    return (
-        {k: sorted(v) for k, v in all_docker_image.items()},
-        {k: sorted(v) for k, v in all_docker_images_with_js.items()},
-    )
+    # Return raw sets; callers sort once at the point of use where order matters.
+    return all_docker_image, all_docker_images_with_js
 
 
 def main():

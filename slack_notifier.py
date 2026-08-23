@@ -28,7 +28,12 @@ class ImageReport:
     empty_text: str | None = None
 
 
-def _post_report(client, channel_id, thread_ts, report):
+def _post_report(
+    client: WebClient,
+    channel_id: str,
+    thread_ts: str,
+    report: ImageReport,
+) -> None:
     """Upload the report's images as a threaded file, or post its empty message."""
     if report.images:
         with open(report.file_name, 'w') as f:
@@ -50,14 +55,14 @@ def _post_report(client, channel_id, thread_ts, report):
 
 
 def slack_notifier(
-    slack_token,
-    channel_id,
-    removed_images,
-    added_images,
-    failed_to_inspect_images,
-    list_added_images=None,
-    list_removed_images=None,
-):
+    slack_token: str,
+    channel_id: str,
+    removed_images: list[str],
+    added_images: list[str],
+    failed_to_inspect_images: list[str],
+    list_added_images: list[str] | None = None,
+    list_removed_images: list[str] | None = None,
+) -> None:
     # Initialize the WebClient with the token
     client = WebClient(token=slack_token)
 
