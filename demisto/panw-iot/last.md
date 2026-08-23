@@ -1,9 +1,9 @@
-# `demisto/panw-iot:1.0.0.12004243`
+# `demisto/panw-iot:1.0.0.12190000`
 
 ## Docker Metadata
-- Image Size: 127.51 MB
-- Image ID: `sha256:2690c582b2ed280174ecfeffd49b0e7f66c1785c54c332de993fda44dfb67209`
-- Created: `2026-08-17T08:58:04.714572866Z`
+- Image Size: 127.57 MB
+- Image ID: `sha256:9a8942aa93495e8819b8cd1efb039f9a599ec0d18c12d30c0fc395f654c0097b`
+- Created: `2026-08-22T23:50:13.528790247Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/panw-iot:1.0.0.12004243`
+  - `DOCKER_IMAGE=demisto/panw-iot:1.0.0.12190000`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:a5ae74089182ab39808d4a26f3a5056167717f0b`
-  - `org.opencontainers.image.version:1.0.0.12004243`
-  - `panw.builtby.pipeline:12005844`
+  - `org.opencontainers.image.revision:8a38d136babc25301e500dce698402e22293f3e8`
+  - `org.opencontainers.image.version:1.0.0.12190000`
+  - `panw.builtby.pipeline:12190307`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/panw-iot:1.0.0.12004243
+Signatures for demisto/panw-iot:1.0.0.12190000
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.12004243   a1c40c55a965cc38ce30d6be9f43bcf34b645b85c383a0b65ecc1ab9c5867c72   (Repo Admin)
+1.0.0.12190000   396644734cd622b1461669dbc0d9b569e3c5fd24618b977f0cf687248d5f5af1   (Repo Admin)
 
-Administrative keys for demisto/panw-iot:1.0.0.12004243
+Administrative keys for demisto/panw-iot:1.0.0.12190000
 
   Repository Key:	f84c2e8b0c2528016d4cc2685c4d945b676e71061a280b8df597cc08ad61ed3a
   Root Key:	4aa89e3f3d76ea1064e0ee6b26b0f3233e7bfd07147c1ff95895b53daae7184e
@@ -133,11 +133,11 @@ Administrative keys for demisto/panw-iot:1.0.0.12004243
 ### `cloudvision`
 
 * Summary: A Python library for Arista's CloudVision APIs and Provisioning Action integrations.
-* Version: 1.30.6
+* Version: 1.31.0
 * Pypi: https://pypi.org/project/cloudvision/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: Apache Software License
+* License: 
 
 ### `cryptography`
 
@@ -236,7 +236,7 @@ Administrative keys for demisto/panw-iot:1.0.0.12004243
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.18
+* Version: 3.19
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -338,7 +338,7 @@ Administrative keys for demisto/panw-iot:1.0.0.12004243
 ### `protobuf`
 
 * Summary: None
-* Version: 5.29.6
+* Version: 7.36.0
 * Pypi: https://pypi.org/project/protobuf/
 * Homepage: https://developers.google.com/protocol-buffers/
 * Author: protobuf@googlegroups.com protobuf@googlegroups.com

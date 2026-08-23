@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.12072219`
+# `demisto/google-vision-api:1.0.0.12190000`
 
 ## Docker Metadata
 - Image Size: 127.90 MB
-- Image ID: `sha256:5b2af208ac8b04f4a7a74e5790ea5052484d01d1b54b95c2363e555897b40fdd`
-- Created: `2026-08-18T17:52:06.234112375Z`
+- Image ID: `sha256:7b1f77f708ad600e282d47f02e457af9288ccce2293585f4579c187703c5b64a`
+- Created: `2026-08-22T23:50:47.146313914Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.12072219`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.12190000`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d733444d6e71f6815859f00de92451c690dc5909`
-  - `org.opencontainers.image.version:1.0.0.12072219`
-  - `panw.builtby.pipeline:12072717`
+  - `org.opencontainers.image.revision:8a38d136babc25301e500dce698402e22293f3e8`
+  - `org.opencontainers.image.version:1.0.0.12190000`
+  - `panw.builtby.pipeline:12190306`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-vision-api:1.0.0.12072219
+Signatures for demisto/google-vision-api:1.0.0.12190000
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.12072219   da3a0a0a14785531693cb415768840342f8f31b345be91b28315e06f2c08227d   (Repo Admin)
+1.0.0.12190000   4a5c9821bb1f4eaa97adc0c44bd26cdd7d7ed005e653f055a239ea601a76a120   (Repo Admin)
 
-Administrative keys for demisto/google-vision-api:1.0.0.12072219
+Administrative keys for demisto/google-vision-api:1.0.0.12190000
 
   Repository Key:	8f699c169d21da1343c2ea4f465fe5f19ace3822c0fd85c2d1a054379abf30dd
   Root Key:	23130201a9ea6e060cceb9cf5a1998649873c190c980fe0d6c487df1fadbc6ef
@@ -369,7 +369,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.12072219
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.18
+* Version: 3.19
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>

@@ -1,9 +1,9 @@
-# `demisto/genericsql:1.2.0.12084113`
+# `demisto/genericsql:1.2.0.12142820`
 
 ## Docker Metadata
-- Image Size: 376.69 MB
-- Image ID: `sha256:299e0b458138294b94328d18fe06f2c4c819c97db3558dd21b152048bbbc108b`
-- Created: `2026-08-19T05:43:55.791718892Z`
+- Image Size: 291.23 MB
+- Image ID: `sha256:1b89e452819ae65a08aeb55e5f49b8d4e24de4b4d76ac1ca4be3724f049822f6`
+- Created: `2026-08-20T14:47:46.030035559Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.12084113`
+  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.12142820`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:1f752868626f58eebe217108038f39e145c4b708`
-  - `org.opencontainers.image.version:1.2.0.12084113`
-  - `panw.builtby.pipeline:12084336`
+  - `org.opencontainers.image.revision:f410e21e07278b47ee61cecaac75029af5d8040f`
+  - `org.opencontainers.image.version:1.2.0.12142820`
+  - `panw.builtby.pipeline:12143871`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/genericsql:1.2.0.12084113
+Signatures for demisto/genericsql:1.2.0.12142820
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.2.0.12084113   11fde6b3065b2641c6a42cd5ee287fa49db5cbd7bf8bee3a6b2f6fb49b96cea3   (Repo Admin)
+1.2.0.12142820   03c4914c33ddc7e98e620d3470541c3b8e93f5cce0ac343bb8745e4b45b382de   (Repo Admin)
 
-Administrative keys for demisto/genericsql:1.2.0.12084113
+Administrative keys for demisto/genericsql:1.2.0.12142820
 
   Repository Key:	b02fc99a72d78e9f5becfe15406ea942db310f3c3af9a7833b215eddb323f7cd
   Root Key:	d11245d830d935ed4846941604c024388aca83a60142ae5319409b1f6091afe1
@@ -54,7 +54,7 @@ Administrative keys for demisto/genericsql:1.2.0.12084113
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.4.22
+* Version: 2026.7.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -71,7 +71,7 @@ Administrative keys for demisto/genericsql:1.2.0.12084113
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.7
+* Version: 3.5.1
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -140,7 +140,7 @@ Administrative keys for demisto/genericsql:1.2.0.12084113
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.15
+* Version: 3.19
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -182,7 +182,7 @@ Administrative keys for demisto/genericsql:1.2.0.12084113
 ### `orjson`
 
 * Summary: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
-* Version: 3.11.8
+* Version: 3.12.0
 * Pypi: https://pypi.org/project/orjson/
 * Homepage: None
 * Author: None
@@ -273,7 +273,7 @@ Administrative keys for demisto/genericsql:1.2.0.12084113
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.1.post1
+* Version: 2026.3.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -299,7 +299,7 @@ Administrative keys for demisto/genericsql:1.2.0.12084113
 ### `requests`
 
 * Summary: Python HTTP for Humans.
-* Version: 2.33.1
+* Version: 2.34.2
 * Pypi: https://pypi.org/project/requests/
 * Homepage: None
 * Author: Kenneth Reitz <me@kennethreitz.org>
@@ -351,7 +351,7 @@ Administrative keys for demisto/genericsql:1.2.0.12084113
 ### `trino`
 
 * Summary: Client for the Trino distributed SQL Engine
-* Version: 0.337.0
+* Version: 0.338.0
 * Pypi: https://pypi.org/project/trino/
 * Homepage: https://github.com/trinodb/trino-python-client
 * Author: Trino Team python-client@trino.io
@@ -368,11 +368,10 @@ Administrative keys for demisto/genericsql:1.2.0.12084113
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.3.1
+* Version: 5.4.4
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
-* License: MIT
 
 ### `urllib3`
 

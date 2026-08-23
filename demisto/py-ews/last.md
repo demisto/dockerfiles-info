@@ -1,9 +1,9 @@
-# `demisto/py-ews:5.6.0.12072219`
+# `demisto/py-ews:5.6.0.12149820`
 
 ## Docker Metadata
-- Image Size: 152.89 MB
-- Image ID: `sha256:723f6a5d18f41fb9b4627416433c9373b8815b6752bdec6ed35cf18c4db2b8c1`
-- Created: `2026-08-18T17:52:21.295081121Z`
+- Image Size: 152.88 MB
+- Image ID: `sha256:6a5aa21586bf8bf264b501d564279374d1c6ff3203a735f57fd27cc1e36cbcee`
+- Created: `2026-08-20T17:42:36.349262584Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.12072219`
+  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.12149820`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d733444d6e71f6815859f00de92451c690dc5909`
-  - `org.opencontainers.image.version:5.6.0.12072219`
-  - `panw.builtby.pipeline:12072721`
+  - `org.opencontainers.image.revision:753aa306f9f8f48c53827c813f84a93bfe083df0`
+  - `org.opencontainers.image.version:5.6.0.12149820`
+  - `panw.builtby.pipeline:12150368`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py-ews:5.6.0.12072219
+Signatures for demisto/py-ews:5.6.0.12149820
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-5.6.0.12072219   99b27032960e71ff1cd620ddea72454d797f86f625f82a792cb8f7e2f0476078   (Repo Admin)
+5.6.0.12149820   4f57e1eed3e35475de0cebe1ec6bcd62f12a195dd09084147e26d5e40e7d014e   (Repo Admin)
 
-Administrative keys for demisto/py-ews:5.6.0.12072219
+Administrative keys for demisto/py-ews:5.6.0.12149820
 
   Repository Key:	c8b3a877659c96dd5e16db568d8f817a6eabb390ecfda3f567a6bc1929408237
   Root Key:	61b6aad19eee856a8c06a402a23627b05539b427be49b6335a4b309706ee1cdc
@@ -324,7 +324,7 @@ Administrative keys for demisto/py-ews:5.6.0.12072219
 ### `Pygments`
 
 * Summary: Pygments is a syntax highlighting package written in Python.
-* Version: 2.20.0
+* Version: 2.21.0
 * Pypi: https://pypi.org/project/Pygments/
 * Homepage: None
 * Author: Georg Brandl <georg@python.org>

@@ -1,9 +1,9 @@
-# `demisto/oci:1.0.0.11884772`
+# `demisto/oci:1.0.0.12190000`
 
 ## Docker Metadata
-- Image Size: 84.80 MB
-- Image ID: `sha256:5897625b3ab1c8aa03dcf7c78fa33d867a3ce204d8efeb4c561077ec36a439be`
-- Created: `2026-08-13T05:58:55.176418667Z`
+- Image Size: 84.81 MB
+- Image ID: `sha256:d0de2712dee37077692896c82b0ea5fcd0235cb8be62675d9cec82d5f26b9109`
+- Created: `2026-08-22T23:50:21.147556094Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/oci:1.0.0.11884772`
+  - `DOCKER_IMAGE=demisto/oci:1.0.0.12190000`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b10cee2aceed3839540d65dcdc43c379b7e52ddf`
-  - `org.opencontainers.image.version:1.0.0.11884772`
-  - `panw.builtby.pipeline:11885883`
+  - `org.opencontainers.image.revision:8a38d136babc25301e500dce698402e22293f3e8`
+  - `org.opencontainers.image.version:1.0.0.12190000`
+  - `panw.builtby.pipeline:12190308`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/oci:1.0.0.11884772
+Signatures for demisto/oci:1.0.0.12190000
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11884772   361cab969e0310bc6c42953616b19308b0e23b4642516fcbca4cf712048e26e8   (Repo Admin)
+1.0.0.12190000   a5c0ded1e23b619bbde4b1b1a30ba88bd33b800dc532ad96d4034d1466dd2657   (Repo Admin)
 
-Administrative keys for demisto/oci:1.0.0.11884772
+Administrative keys for demisto/oci:1.0.0.12190000
 
   Repository Key:	2cc50bdbe67fd75478233e92583764f227d51416d68a400f91f13954268ef489
   Root Key:	6c4262e4f5f1c456c5e9a45765790ff209f55ce49fc37ed2a3dc8a833e52de92
@@ -163,7 +163,7 @@ Administrative keys for demisto/oci:1.0.0.11884772
 ### `oci`
 
 * Summary: Oracle Cloud Infrastructure Python SDK
-* Version: 2.184.1
+* Version: 2.184.2
 * Pypi: https://pypi.org/project/oci/
 * Homepage: https://docs.oracle.com/en-us/iaas/tools/python/latest/index.html
 * Author: Oracle jyoti.s.saini@oracle.com
