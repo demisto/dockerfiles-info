@@ -631,7 +631,7 @@ def save_docker_images_list_json(all_docker_images_with_js: dict[str, list[str]]
     removed_images = sorted(previous_images - current_images)
 
     with open(DOCKER_IMAGES_LIST_JSON, "w") as fp:
-        fp.write(json.dumps(docker_images_list, indent=4))
+        fp.write(json.dumps(docker_images_list, indent=4, sort_keys=True))
     print(f"Successfully saved {len(docker_images_list)} images to '{DOCKER_IMAGES_LIST_JSON}'.")
     print(f"'{DOCKER_IMAGES_LIST_JSON}' diff - added: {len(added_images)}, removed: {len(removed_images)}")
     return added_images, removed_images
