@@ -34,6 +34,24 @@ docker_images_metadata.json example:
 }
 ```
 
+If you need a flat list of all docker images (with their tags) that are currently in use by content, you can find it in the [docker_images_list.json](docker_images_list.json) file.
+
+This file is a JSON array of `demisto/<image>:<tag>` strings, sorted alphabetically, covering every docker image referenced by content (Python, PowerShell, and JavaScript images).
+
+> **Note:** `docker_images_list.json` is intended for use with **XSOAR 6 only**.
+
+> **Note:** The JavaScript images reference is for a future case; currently there are no JavaScript images in use in content.
+
+docker_images_list.json example:
+```
+[
+    "demisto/accessdata:1.1.0.10133006",
+    "demisto/ansible-runner:1.0.0.10189215",
+    "demisto/anyrun-sdk:1.0.0.6667586",
+    "demisto/aquatone:2.0.0.10133006"
+]
+```
+
 - NOTE: In order to test the dockers update workflow in the pull request, just add the `test-dockers-update` label and the workflow will run on your branch.
 
 
