@@ -8,10 +8,11 @@ on:
     - cron: '0 5 * * 0-4' # 5 AM UTC, Sunday through Thursday
   pull_request:
     types: [ labeled ]
+  workflow_dispatch: # Allow manually running the workflow on any branch from the Actions tab.
 
 jobs:
   update_docker_repo_info:
-    if: ${{ github.event_name == 'pull_request' && github.event.label.name == 'test-dockers-update' || github.event_name == 'schedule' }}
+    if: ${{ (github.event_name == 'pull_request' && github.event.label.name == 'test-dockers-update') || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -42,7 +43,7 @@ jobs:
           DOCKERHUB_USER: ${{ secrets.DOCKERHUB_USER }}
           DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}
         run: |
-          if [[ "${{ github.event.label.name }}" == "test-dockers-update" ]]; then
+          if [[ "${{ github.event.label.name }}" == "test-dockers-update" || "${{ github.event_name }}" == "workflow_dispatch" ]]; then
               CHANNEL="$SLACK_TEST_CHANNEL"
           else
               CHANNEL="$SLACK_CHANNEL"
