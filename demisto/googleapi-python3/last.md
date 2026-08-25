@@ -1,9 +1,9 @@
-# `demisto/googleapi-python3:1.0.0.11815981`
+# `demisto/googleapi-python3:1.0.0.12264877`
 
 ## Docker Metadata
-- Image Size: 84.90 MB
-- Image ID: `sha256:00a668aa3935bab25a2624a638ae67847966024731b40d4e3c7493880b60b1f4`
-- Created: `2026-08-10T21:03:46.367327779Z`
+- Image Size: 85.30 MB
+- Image ID: `sha256:443efd628022cc9eb4ba3dd16386d02ba77993f4379312d427b6cfd411b8fd81`
+- Created: `2026-08-24T18:16:02.230359916Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/googleapi-python3:1.0.0.11815981`
+  - `DOCKER_IMAGE=demisto/googleapi-python3:1.0.0.12264877`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:cf21e6c0405c18323f6d2365ec4bad1a32bf02b2`
-  - `org.opencontainers.image.version:1.0.0.11815981`
-  - `panw.builtby.pipeline:11816407`
+  - `org.opencontainers.image.revision:4f5f0154538547b5d7cd3c7363d9449b49f320ed`
+  - `org.opencontainers.image.version:1.0.0.12264877`
+  - `panw.builtby.pipeline:12265948`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/googleapi-python3:1.0.0.11815981
+Signatures for demisto/googleapi-python3:1.0.0.12264877
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11815981   5bdf1f728cd721e35cc868fbc53279d133b65ce8bb60ecd5a7ad5ac399c28af6   (Repo Admin)
+1.0.0.12264877   732ceb119e7af72f870b74b6cf903bc0b9159e0b17b1b04b965ae5d05b9979b9   (Repo Admin)
 
-Administrative keys for demisto/googleapi-python3:1.0.0.11815981
+Administrative keys for demisto/googleapi-python3:1.0.0.12264877
 
   Repository Key:	b14f1cdad56bfcc44f0ba4af89b0ec4910e16f20c7c6ab86d496a5786dc49c4c
   Root Key:	8fe3e320ac3b88f7823a158cd05468872ae8ac2135e8ca4f9e70d707440f05d4
@@ -71,7 +71,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.11815981
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.9
+* Version: 3.5.1
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -132,7 +132,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.11815981
 ### `google-api-python-client`
 
 * Summary: Google API Client Library for Python
-* Version: 2.198.0
+* Version: 2.199.0
 * Pypi: https://pypi.org/project/google-api-python-client/
 * Homepage: https://github.com/googleapis/google-api-python-client/
 * Author: Google LLC googleapis-packages@google.com
@@ -150,7 +150,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.11815981
 ### `google-auth-httplib2`
 
 * Summary: Google Authentication Library: httplib2 transport
-* Version: 0.4.0
+* Version: 0.4.1
 * Pypi: https://pypi.org/project/google-auth-httplib2/
 * Homepage: https://github.com/googleapis/google-cloud-python/packages/google-auth-httplib2
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -213,7 +213,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.11815981
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.18
+* Version: 3.19
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -273,7 +273,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.11815981
 ### `protobuf`
 
 * Summary: None
-* Version: 7.35.1
+* Version: 7.36.0
 * Pypi: https://pypi.org/project/protobuf/
 * Homepage: https://developers.google.com/protocol-buffers/
 * Author: protobuf@googlegroups.com protobuf@googlegroups.com

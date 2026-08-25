@@ -1,9 +1,9 @@
-# `demisto/lxml:1.0.0.11195141`
+# `demisto/lxml:1.0.0.12264877`
 
 ## Docker Metadata
-- Image Size: 34.75 MB
-- Image ID: `sha256:9723041bdf9971ed6405623959276d99237404d3f0452daad0df953a46e6c403`
-- Created: `2026-07-21T06:58:10.342574596Z`
+- Image Size: 36.00 MB
+- Image ID: `sha256:68c0b10cdb24fb2416a4f6955cbb65509dfee82c07c43bc656f53ac6810dd174`
+- Created: `2026-08-24T18:15:45.447454955Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,15 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/lxml:1.0.0.11195141`
+  - `DOCKER_IMAGE=demisto/lxml:1.0.0.12264877`
 - Labels:
+  - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:a168542d16036d94b10904acd03b36fd2de35ab1`
-  - `org.opencontainers.image.version:1.0.0.11195141`
+  - `org.opencontainers.image.revision:4f5f0154538547b5d7cd3c7363d9449b49f320ed`
+  - `org.opencontainers.image.version:1.0.0.12264877`
+  - `panw.builtby.pipeline:12265949`
+  - `panw.builtby.project:xdr/cortex-content/dockerfiles`
+  - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/lxml:1.0.0.11195141
+Signatures for demisto/lxml:1.0.0.12264877
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11195141   fcba97963431e7508e08db0cf3f50abb741d02319b64430d126be05ba3e68f09   (Repo Admin)
+1.0.0.12264877   d85db83e9aff50200d20b5c7b685ce5849ddefdd1518b2c9a82317817cf18734   (Repo Admin)
 
-Administrative keys for demisto/lxml:1.0.0.11195141
+Administrative keys for demisto/lxml:1.0.0.12264877
 
   Repository Key:	d6a959f5a5c50e0679623fd0166265f7c2340de7292c2bc74d4374ae9d3a0fbc
   Root Key:	6c23ea353bfd62303c2d9d3ff6ca3bd20e46f24fb96e058585bb99760b5c2654
@@ -117,7 +121,7 @@ Administrative keys for demisto/lxml:1.0.0.11195141
 ### `lxml`
 
 * Summary: Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.
-* Version: 6.1.1
+* Version: 6.1.2
 * Pypi: https://pypi.org/project/lxml/
 * Homepage: https://lxml.de/
 * Author: lxml dev team lxml@lxml.de
@@ -151,7 +155,7 @@ Administrative keys for demisto/lxml:1.0.0.11195141
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.2
+* Version: 26.2.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>

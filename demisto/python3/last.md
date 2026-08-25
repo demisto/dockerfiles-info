@@ -1,24 +1,24 @@
-# `demisto/python3:3.12.13.12042988`
+# `demisto/python3:3.12.14.12277297`
 
 ## Docker Metadata
-- Image Size: 29.75 MB
-- Image ID: `sha256:968cd5e931c0398d41c7a4cc479a7b6d86718fbb8d47e8e0b5959ecfa4ef648c`
-- Created: `2026-08-18T03:02:19.102625924Z`
+- Image Size: 30.49 MB
+- Image ID: `sha256:aa21047207d669cf773f75003ef3be002be87d747d2843257f19d943792ac77e`
+- Created: `2026-08-25T02:36:17.991922624Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.13`
-  - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/python3:3.12.13.12042988`
+  - `PYTHON_VERSION=3.12.14`
+  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
+  - `DOCKER_IMAGE=demisto/python3:3.12.14.12277297`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:6429df8be64a835213d4932d62d14c73d25e7cb9`
-  - `org.opencontainers.image.version:3.12.13.12042988`
-  - `panw.builtby.pipeline:12043341`
+  - `org.opencontainers.image.revision:1be69f0517d77e253913050ce63f89d073043562`
+  - `org.opencontainers.image.version:3.12.14.12277297`
+  - `panw.builtby.pipeline:12277446`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3:3.12.13.12042988
+Signatures for demisto/python3:3.12.14.12277297
 
 SIGNED TAG         DIGEST                                                             SIGNERS
-3.12.13.12042988   a0f3f58ac60a2a4d1c319220bb936e3770dc0d7002a66c3931b045b1949c0ab9   (Repo Admin)
+3.12.14.12277297   cc8c269d8c08b930aa0ed55c471c77d070c2ecedbcc6a425d42e8d117f5f9824   (Repo Admin)
 
-Administrative keys for demisto/python3:3.12.13.12042988
+Administrative keys for demisto/python3:3.12.14.12277297
 
   Repository Key:	dd922c0a78cf908782d68ed2f99cae9350740fc2da582a1cb5c03e530ba2dd31
   Root Key:	46ab19438bfff81c925ab27466b52b175de43bad8e8a19cc878e9288246bff8d
@@ -266,7 +266,7 @@ Administrative keys for demisto/python3:3.12.13.12042988
 
 ## `OS Packages`
 
-* .python-rundeps-20260616.002526 noarch {.python-rundeps}
+* .python-rundeps-20260813.193941 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
@@ -299,7 +299,7 @@ Administrative keys for demisto/python3:3.12.13.12042988
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
-* sqlite-libs-3.53.2-r0 x86_64 {sqlite}
+* sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
 * tzdata-2026c-r0 x86_64 {tzdata}
 * xz-libs-5.8.3-r0 x86_64 {xz}

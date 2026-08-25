@@ -1,9 +1,9 @@
-# `demisto/py-ews:5.6.0.12149820`
+# `demisto/py-ews:5.6.0.12264877`
 
 ## Docker Metadata
-- Image Size: 152.88 MB
-- Image ID: `sha256:6a5aa21586bf8bf264b501d564279374d1c6ff3203a735f57fd27cc1e36cbcee`
-- Created: `2026-08-20T17:42:36.349262584Z`
+- Image Size: 152.90 MB
+- Image ID: `sha256:e0e987cf8ed6fc25e1c4d4854626ca122894193f91b03e6d46827d085af26689`
+- Created: `2026-08-24T18:15:49.551277972Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.12149820`
+  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.12264877`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:753aa306f9f8f48c53827c813f84a93bfe083df0`
-  - `org.opencontainers.image.version:5.6.0.12149820`
-  - `panw.builtby.pipeline:12150368`
+  - `org.opencontainers.image.revision:4f5f0154538547b5d7cd3c7363d9449b49f320ed`
+  - `org.opencontainers.image.version:5.6.0.12264877`
+  - `panw.builtby.pipeline:12265950`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py-ews:5.6.0.12149820
+Signatures for demisto/py-ews:5.6.0.12264877
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-5.6.0.12149820   4f57e1eed3e35475de0cebe1ec6bcd62f12a195dd09084147e26d5e40e7d014e   (Repo Admin)
+5.6.0.12264877   84f14585f5d819cf673e2627e2e00ece4f976be09b6c355736715332f7630281   (Repo Admin)
 
-Administrative keys for demisto/py-ews:5.6.0.12149820
+Administrative keys for demisto/py-ews:5.6.0.12264877
 
   Repository Key:	c8b3a877659c96dd5e16db568d8f817a6eabb390ecfda3f567a6bc1929408237
   Root Key:	61b6aad19eee856a8c06a402a23627b05539b427be49b6335a4b309706ee1cdc
@@ -211,7 +211,7 @@ Administrative keys for demisto/py-ews:5.6.0.12149820
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.18
+* Version: 3.19
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -246,7 +246,7 @@ Administrative keys for demisto/py-ews:5.6.0.12149820
 ### `lxml`
 
 * Summary: Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.
-* Version: 6.1.1
+* Version: 6.1.2
 * Pypi: https://pypi.org/project/lxml/
 * Homepage: https://lxml.de/
 * Author: lxml dev team lxml@lxml.de
@@ -307,7 +307,7 @@ Administrative keys for demisto/py-ews:5.6.0.12149820
 ### `platformdirs`
 
 * Summary: A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`.
-* Version: 4.11.3
+* Version: 4.11.4
 * Pypi: https://pypi.org/project/platformdirs/
 * Homepage: None
 * Author: None
@@ -368,7 +368,7 @@ Administrative keys for demisto/py-ews:5.6.0.12149820
 ### `python-discovery`
 
 * Summary: Python interpreter discovery
-* Version: 1.5.2
+* Version: 1.5.3
 * Pypi: https://pypi.org/project/python-discovery/
 * Homepage: None
 * Author: None

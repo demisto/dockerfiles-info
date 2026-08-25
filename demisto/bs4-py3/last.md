@@ -1,9 +1,9 @@
-# `demisto/bs4-py3:1.0.0.11597437`
+# `demisto/bs4-py3:1.0.0.12264877`
 
 ## Docker Metadata
-- Image Size: 36.04 MB
-- Image ID: `sha256:5668ff9a82bb0181f2c1addb9b9095cf47ac0eda98c76f42ba87ef43b0f21291`
-- Created: `2026-08-03T17:46:24.572929953Z`
+- Image Size: 36.01 MB
+- Image ID: `sha256:b29b830d3ad84f94b779771fb52d4b3f6bb53a83ceba969c44fa5c43220abdfa`
+- Created: `2026-08-24T18:16:31.838309121Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/bs4-py3:1.0.0.11597437`
+  - `DOCKER_IMAGE=demisto/bs4-py3:1.0.0.12264877`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:c6663e9f93602cab35c1b28c6a55140b52f3e8b6`
-  - `org.opencontainers.image.version:1.0.0.11597437`
-  - `panw.builtby.pipeline:11598140`
+  - `org.opencontainers.image.revision:4f5f0154538547b5d7cd3c7363d9449b49f320ed`
+  - `org.opencontainers.image.version:1.0.0.12264877`
+  - `panw.builtby.pipeline:12265953`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/bs4-py3:1.0.0.11597437
+Signatures for demisto/bs4-py3:1.0.0.12264877
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11597437   fd8f999cdb0bcb8db7a06f47cb9759c8a46b14b12c51ac32ed65df5ab6ca1ecf   (Repo Admin)
+1.0.0.12264877   ed531235bd83594df5e072a74a41ef84df7bcfd00952c93c75cb53ce840f17cd   (Repo Admin)
 
-Administrative keys for demisto/bs4-py3:1.0.0.11597437
+Administrative keys for demisto/bs4-py3:1.0.0.12264877
 
   Repository Key:	fc9cbf4689986a4a2d5017f4dd0b370dce28ed2737afc29128c2210af398286f
   Root Key:	f7385792275ba0f0d12370037412b97339e7663ef387d70b9e49964071d61cd3
@@ -130,7 +130,7 @@ Administrative keys for demisto/bs4-py3:1.0.0.11597437
 ### `lxml`
 
 * Summary: Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.
-* Version: 6.1.1
+* Version: 6.1.2
 * Pypi: https://pypi.org/project/lxml/
 * Homepage: https://lxml.de/
 * Author: lxml dev team lxml@lxml.de
@@ -172,7 +172,7 @@ Administrative keys for demisto/bs4-py3:1.0.0.11597437
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2
+* Version: 26.2.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>

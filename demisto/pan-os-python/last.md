@@ -1,9 +1,9 @@
-# `demisto/pan-os-python:1.0.0.11285256`
+# `demisto/pan-os-python:1.0.0.12264877`
 
 ## Docker Metadata
-- Image Size: 34.64 MB
-- Image ID: `sha256:4a77cc6017a99f516fe380e482bfcc1da8d4858f15b3a4d7e86ed76dfafbf2cc`
-- Created: `2026-07-23T17:49:34.82262547Z`
+- Image Size: 35.85 MB
+- Image ID: `sha256:38fc06b1496583aad4626933d746ff26478c2a58a5e737d71309e115d835e01e`
+- Created: `2026-08-24T18:17:14.178510939Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,15 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/pan-os-python:1.0.0.11285256`
+  - `DOCKER_IMAGE=demisto/pan-os-python:1.0.0.12264877`
 - Labels:
+  - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:f10470a20cdd7b968ee4c8fec53019eae7c55798`
-  - `org.opencontainers.image.version:1.0.0.11285256`
+  - `org.opencontainers.image.revision:4f5f0154538547b5d7cd3c7363d9449b49f320ed`
+  - `org.opencontainers.image.version:1.0.0.12264877`
+  - `panw.builtby.pipeline:12265956`
+  - `panw.builtby.project:xdr/cortex-content/dockerfiles`
+  - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pan-os-python:1.0.0.11285256
+Signatures for demisto/pan-os-python:1.0.0.12264877
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11285256   86567155405b4b67565dd084fe353e3e45dc380c2f19973363b329f6b4f1e263   (Repo Admin)
+1.0.0.12264877   2f4b3f58c5f69ef6cc5d551a0ae96f72e49ea053b627f5b84a3ea402e684feb2   (Repo Admin)
 
-Administrative keys for demisto/pan-os-python:1.0.0.11285256
+Administrative keys for demisto/pan-os-python:1.0.0.12264877
 
   Repository Key:	d9667d30881c35eff1ceae5623fb5ea0956ed798e00c412f492431a71dbe984a
   Root Key:	55ffcdc3759351d0dad62cff61527c964a94d72bf04b0dc27b5defebd0cac69a
@@ -117,7 +121,7 @@ Administrative keys for demisto/pan-os-python:1.0.0.11285256
 ### `lxml`
 
 * Summary: Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.
-* Version: 6.1.1
+* Version: 6.1.2
 * Pypi: https://pypi.org/project/lxml/
 * Homepage: https://lxml.de/
 * Author: lxml dev team lxml@lxml.de
@@ -169,7 +173,7 @@ Administrative keys for demisto/pan-os-python:1.0.0.11285256
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.2
+* Version: 26.2.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>

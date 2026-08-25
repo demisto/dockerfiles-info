@@ -1,9 +1,9 @@
-# `demisto/taxii:1.0.0.11376519`
+# `demisto/taxii:1.0.0.12264877`
 
 ## Docker Metadata
-- Image Size: 42.55 MB
-- Image ID: `sha256:ebcb15f75c4b487e12abf046e0819e1a18a7bd264b16797055b26da92f4f8bf9`
-- Created: `2026-07-27T17:45:59.688458744Z`
+- Image Size: 44.04 MB
+- Image ID: `sha256:31d9dc83eee56af0935d524f974ad76cf400526c626c63aed1440f3a805afb61`
+- Created: `2026-08-24T18:16:55.009228077Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,15 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/taxii:1.0.0.11376519`
+  - `DOCKER_IMAGE=demisto/taxii:1.0.0.12264877`
 - Labels:
+  - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:69b7362ac3487df181c67e9be223b1098957d129`
-  - `org.opencontainers.image.version:1.0.0.11376519`
+  - `org.opencontainers.image.revision:4f5f0154538547b5d7cd3c7363d9449b49f320ed`
+  - `org.opencontainers.image.version:1.0.0.12264877`
+  - `panw.builtby.pipeline:12265960`
+  - `panw.builtby.project:xdr/cortex-content/dockerfiles`
+  - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/taxii:1.0.0.11376519
+Signatures for demisto/taxii:1.0.0.12264877
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11376519   5d26d589ff30c1d5492af9510ee6879104256e99cdd57f27ebdd2a0f5f87731c   (Repo Admin)
+1.0.0.12264877   5d96516256cb6f955b861969d5db834d6d9fc7527594a908ac26dd61769bbcaf   (Repo Admin)
 
-Administrative keys for demisto/taxii:1.0.0.11376519
+Administrative keys for demisto/taxii:1.0.0.12264877
 
   Repository Key:	e4d1140f2317822debbb995b6bfdb0d014d69a98bb5ad2430433c95c311184b3
   Root Key:	0cfe3b20862e965095cc96c97d3bd4aed117b78cd941957bafe1ddf016cfa6b9
@@ -162,7 +166,7 @@ Administrative keys for demisto/taxii:1.0.0.11376519
 ### `lxml`
 
 * Summary: Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.
-* Version: 6.1.1
+* Version: 6.1.2
 * Pypi: https://pypi.org/project/lxml/
 * Homepage: https://lxml.de/
 * Author: lxml dev team lxml@lxml.de
@@ -232,7 +236,7 @@ Administrative keys for demisto/taxii:1.0.0.11376519
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.2
+* Version: 26.2.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
