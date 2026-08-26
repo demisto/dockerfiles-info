@@ -1,9 +1,9 @@
-# `demisto/threatzone-sdk:1.1.1.11256202`
+# `demisto/threatzone-sdk:1.1.1.12287331`
 
 ## Docker Metadata
-- Image Size: 33.69 MB
-- Image ID: `sha256:820c083c54c9f27e665998cd0128e3d0f46d61d65395870bc98af15129269de1`
-- Created: `2026-07-22T17:32:38.451158126Z`
+- Image Size: 34.82 MB
+- Image ID: `sha256:4c7afe5c0a0aa708e826f2e0f5a27ac79079370ebe0b2374547ce8471b1a7c48`
+- Created: `2026-08-25T09:31:53.099136045Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,15 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/threatzone-sdk:1.1.1.11256202`
+  - `DOCKER_IMAGE=demisto/threatzone-sdk:1.1.1.12287331`
 - Labels:
+  - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:14bf9678fde249b73723e818f02f9f53294d8f60`
-  - `org.opencontainers.image.version:1.1.1.11256202`
+  - `org.opencontainers.image.revision:f048f0da4daf7caabe9988968e55ffe1d7527c49`
+  - `org.opencontainers.image.version:1.1.1.12287331`
+  - `panw.builtby.pipeline:12288255`
+  - `panw.builtby.project:xdr/cortex-content/dockerfiles`
+  - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/threatzone-sdk:1.1.1.11256202
+Signatures for demisto/threatzone-sdk:1.1.1.12287331
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.1.1.11256202   66234a51532f282f31cfd746ffa56caab10153fc322ef8051f3100b31f7f88ca   (Repo Admin)
+1.1.1.12287331   f74b4ceeb5ad1202eccc7566f1820bd82c4f6c5196659465ecb2af9d0d19be77   (Repo Admin)
 
-Administrative keys for demisto/threatzone-sdk:1.1.1.11256202
+Administrative keys for demisto/threatzone-sdk:1.1.1.12287331
 
   Repository Key:	13c992281402ae4d786c408fb729f54392e41435adf3c019a4be904878f1a389
   Root Key:	241211c38d515274dc0a41b86dd719350909ff7edf1ed87dbd0743accd241afa
@@ -47,7 +51,7 @@ Administrative keys for demisto/threatzone-sdk:1.1.1.11256202
 ### `annotated-types`
 
 * Summary: Reusable constraint types to use with typing.Annotated
-* Version: 0.7.0
+* Version: 0.8.0
 * Pypi: https://pypi.org/project/annotated-types/
 * Homepage: None
 * Author: Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Samuel Colvin <s@muelcolvin.com>, Zac Hatfield-Dodds <zac@zhd.dev>
@@ -153,7 +157,7 @@ Administrative keys for demisto/threatzone-sdk:1.1.1.11256202
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.18
+* Version: 3.19
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -186,7 +190,7 @@ Administrative keys for demisto/threatzone-sdk:1.1.1.11256202
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.2
+* Version: 26.2.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -271,6 +275,15 @@ Administrative keys for demisto/threatzone-sdk:1.1.1.11256202
 * Author: David Shea <reallylongword@gmail.com>
 * License :: OSI Approved :: Apache Software License
 
+### `respx`
+
+* Summary: A utility for mocking out the Python HTTPX and HTTP Core libraries.
+* Version: 0.23.1
+* Pypi: https://pypi.org/project/respx/
+* Homepage: https://lundberg.github.io/respx/
+* Author: Jonas Lundberg jonas@5monkeys.se
+* License :: OSI Approved :: BSD License
+
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
@@ -316,7 +329,7 @@ Administrative keys for demisto/threatzone-sdk:1.1.1.11256202
 ### `typing-inspection`
 
 * Summary: Runtime typing introspection tools
-* Version: 0.4.2
+* Version: 0.4.4
 * Pypi: https://pypi.org/project/typing-inspection/
 * Homepage: None
 * Author: Victorien Plot <contact@vctrn.dev>
