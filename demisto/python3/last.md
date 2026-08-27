@@ -1,9 +1,9 @@
-# `demisto/python3:3.12.14.12277297`
+# `demisto/python3:3.12.14.12343672`
 
 ## Docker Metadata
-- Image Size: 30.49 MB
-- Image ID: `sha256:aa21047207d669cf773f75003ef3be002be87d747d2843257f19d943792ac77e`
-- Created: `2026-08-25T02:36:17.991922624Z`
+- Image Size: 34.07 MB
+- Image ID: `sha256:307660191ab6cef02eb1b4153afe43e3e3895bedd50de81cdaa641a7603ebb99`
+- Created: `2026-08-26T12:59:53.790421309Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/python3:3.12.14.12277297`
+  - `DOCKER_IMAGE=demisto/python3:3.12.14.12343672`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:1be69f0517d77e253913050ce63f89d073043562`
-  - `org.opencontainers.image.version:3.12.14.12277297`
-  - `panw.builtby.pipeline:12277446`
+  - `org.opencontainers.image.revision:dad37b8c6f00ee8c3da2bd4b22c964168d66160f`
+  - `org.opencontainers.image.version:3.12.14.12343672`
+  - `panw.builtby.pipeline:12344611`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3:3.12.14.12277297
+Signatures for demisto/python3:3.12.14.12343672
 
 SIGNED TAG         DIGEST                                                             SIGNERS
-3.12.14.12277297   cc8c269d8c08b930aa0ed55c471c77d070c2ecedbcc6a425d42e8d117f5f9824   (Repo Admin)
+3.12.14.12343672   65cfeb7a9a03476284ded530270759cf4be8c78eff71bfa75a4aa64e4c938966   (Repo Admin)
 
-Administrative keys for demisto/python3:3.12.14.12277297
+Administrative keys for demisto/python3:3.12.14.12343672
 
   Repository Key:	dd922c0a78cf908782d68ed2f99cae9350740fc2da582a1cb5c03e530ba2dd31
   Root Key:	46ab19438bfff81c925ab27466b52b175de43bad8e8a19cc878e9288246bff8d
@@ -47,6 +47,14 @@ Administrative keys for demisto/python3:3.12.14.12277297
 
 ## `Python Packages`
 
+
+### `anyio`
+
+* Summary: High-level concurrency and networking framework on top of asyncio or Trio
+* Version: 4.14.2
+* Pypi: https://pypi.org/project/anyio/
+* Homepage: None
+* Author: Alex Grönholm <alex.gronholm@nextday.fi>
 
 ### `certifi`
 
@@ -60,7 +68,7 @@ Administrative keys for demisto/python3:3.12.14.12277297
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.9
+* Version: 3.5.1
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -77,7 +85,7 @@ Administrative keys for demisto/python3:3.12.14.12277297
 ### `deepmerge`
 
 * Summary: A toolset for deeply merging Python dictionaries.
-* Version: 2.1.0
+* Version: 3.0
 * Pypi: https://pypi.org/project/deepmerge/
 * Homepage: None
 * Author: Yusuke Tsutsumi <yusuke@tsutsumi.io>
@@ -95,7 +103,7 @@ Administrative keys for demisto/python3:3.12.14.12277297
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.32.2
+* Version: 3.32.4
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -110,10 +118,37 @@ Administrative keys for demisto/python3:3.12.14.12277297
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
+### `h11`
+
+* Summary: A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
+* Version: 0.16.0
+* Pypi: https://pypi.org/project/h11/
+* Homepage: https://github.com/python-hyper/h11
+* Author: Nathaniel J. Smith njs@pobox.com
+* License :: OSI Approved :: MIT License
+
+### `httpcore`
+
+* Summary: A minimal low-level HTTP client.
+* Version: 1.0.9
+* Pypi: https://pypi.org/project/httpcore/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+* License :: OSI Approved :: BSD License
+
+### `httpx`
+
+* Summary: The next generation HTTP client.
+* Version: 0.28.1
+* Pypi: https://pypi.org/project/httpx/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+* License :: OSI Approved :: BSD License
+
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.18
+* Version: 3.19
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -215,6 +250,15 @@ Administrative keys for demisto/python3:3.12.14.12277297
 * Author: David Shea <reallylongword@gmail.com>
 * License :: OSI Approved :: Apache Software License
 
+### `respx`
+
+* Summary: A utility for mocking out the Python HTTPX and HTTP Core libraries.
+* Version: 0.23.1
+* Pypi: https://pypi.org/project/respx/
+* Homepage: https://lundberg.github.io/respx/
+* Author: Jonas Lundberg jonas@5monkeys.se
+* License :: OSI Approved :: BSD License
+
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
@@ -239,6 +283,14 @@ Administrative keys for demisto/python3:3.12.14.12277297
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
+
+### `typing_extensions`
+
+* Summary: Backported and Experimental Type Hints for Python 3.9+
+* Version: 4.16.0
+* Pypi: https://pypi.org/project/typing-extensions/
+* Homepage: None
+* Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 
 ### `tzlocal`
 
@@ -283,13 +335,13 @@ Administrative keys for demisto/python3:3.12.14.12277297
 * libapk-3.0.7-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.7-r0 x86_64 {openssl}
+* libcrypto3-3.5.8-r0 x86_64 {openssl}
 * libffi-3.5.2-r1 x86_64 {libffi}
 * libintl-1.0-r0 x86_64 {gettext}
 * libncursesw-6.6_p20260516-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r2 x86_64 {libnsl}
 * libpanelw-6.6_p20260516-r0 x86_64 {ncurses}
-* libssl3-3.5.7-r0 x86_64 {openssl}
+* libssl3-3.5.8-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.42.1-r0 x86_64 {util-linux}
