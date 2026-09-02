@@ -1,9 +1,9 @@
-# `demisto/genericsql:1.2.0.12562424`
+# `demisto/genericsql:1.2.0.12613855`
 
 ## Docker Metadata
-- Image Size: 291.26 MB
-- Image ID: `sha256:bb0261bc7bc67f639cef30bb74bbde21b374ac36ae7de5b840c5ae75ba77b091`
-- Created: `2026-08-31T18:05:52.554221736Z`
+- Image Size: 296.08 MB
+- Image ID: `sha256:dd17517a0b3e9816e67727d878b26992c958cb663266b9ba39fcf78e351dcfac`
+- Created: `2026-09-01T17:46:48.775255203Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.12562424`
+  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.12613855`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:218179c87b3eb22bd3b3305b4d292c11a3d0fb0b`
-  - `org.opencontainers.image.version:1.2.0.12562424`
-  - `panw.builtby.pipeline:12563341`
+  - `org.opencontainers.image.revision:12ffef7e7877ec0488776e79ba80cf5dde790eda`
+  - `org.opencontainers.image.version:1.2.0.12613855`
+  - `panw.builtby.pipeline:12614530`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/genericsql:1.2.0.12562424
+Signatures for demisto/genericsql:1.2.0.12613855
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.2.0.12562424   b24e7e96c38c23d22707ff2dc65068c214694e81996a8a212209008873fa5d81   (Repo Admin)
+1.2.0.12613855   115f091730371ac919126a3d2e00b94822a55c99799e4bf6dd523d6ace58fcbd   (Repo Admin)
 
-Administrative keys for demisto/genericsql:1.2.0.12562424
+Administrative keys for demisto/genericsql:1.2.0.12613855
 
   Repository Key:	b02fc99a72d78e9f5becfe15406ea942db310f3c3af9a7833b215eddb323f7cd
   Root Key:	d11245d830d935ed4846941604c024388aca83a60142ae5319409b1f6091afe1

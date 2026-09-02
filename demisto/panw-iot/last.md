@@ -1,9 +1,9 @@
-# `demisto/panw-iot:1.0.0.12562424`
+# `demisto/panw-iot:1.0.0.12613855`
 
 ## Docker Metadata
-- Image Size: 127.55 MB
-- Image ID: `sha256:6e53b2341bd08d76696547e19a963bff31a6379b17abe86da4032339c5df77b8`
-- Created: `2026-08-31T18:05:37.409235493Z`
+- Image Size: 127.72 MB
+- Image ID: `sha256:d4ee3321b224c2c09458851e893ca7c01cf7bd41cfa52fb052beaaf783ab0961`
+- Created: `2026-09-01T17:45:33.160256913Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/panw-iot:1.0.0.12562424`
+  - `DOCKER_IMAGE=demisto/panw-iot:1.0.0.12613855`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:218179c87b3eb22bd3b3305b4d292c11a3d0fb0b`
-  - `org.opencontainers.image.version:1.0.0.12562424`
-  - `panw.builtby.pipeline:12563344`
+  - `org.opencontainers.image.revision:12ffef7e7877ec0488776e79ba80cf5dde790eda`
+  - `org.opencontainers.image.version:1.0.0.12613855`
+  - `panw.builtby.pipeline:12614531`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/panw-iot:1.0.0.12562424
+Signatures for demisto/panw-iot:1.0.0.12613855
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.12562424   5f7dbdba47fd0c518c5a5fba58fe04197056cbd3c3cbefb631b1d91fdc8751eb   (Repo Admin)
+1.0.0.12613855   e8c02b27d2b25b99a7e78ea694b87ae143eb21fa401a6d88439514ac1e81c9b9   (Repo Admin)
 
-Administrative keys for demisto/panw-iot:1.0.0.12562424
+Administrative keys for demisto/panw-iot:1.0.0.12613855
 
   Repository Key:	f84c2e8b0c2528016d4cc2685c4d945b676e71061a280b8df597cc08ad61ed3a
   Root Key:	4aa89e3f3d76ea1064e0ee6b26b0f3233e7bfd07147c1ff95895b53daae7184e
@@ -133,16 +133,15 @@ Administrative keys for demisto/panw-iot:1.0.0.12562424
 ### `cloudvision`
 
 * Summary: A Python library for Arista's CloudVision APIs and Provisioning Action integrations.
-* Version: 1.32.0
+* Version: 1.33.0
 * Pypi: https://pypi.org/project/cloudvision/
 * Homepage: None
 * Author: None
-* License: 
 
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 50.0.0
+* Version: 50.0.1
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -194,7 +193,7 @@ Administrative keys for demisto/panw-iot:1.0.0.12562424
 ### `grpcio`
 
 * Summary: HTTP/2-based RPC framework
-* Version: 1.83.0
+* Version: 1.83.1
 * Pypi: https://pypi.org/project/grpcio/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -252,7 +251,7 @@ Administrative keys for demisto/panw-iot:1.0.0.12562424
 ### `msgpack`
 
 * Summary: MessagePack serializer
-* Version: 1.2.1
+* Version: 1.2.2
 * Pypi: https://pypi.org/project/msgpack/
 * Homepage: None
 * Author: Inada Naoki <songofacandy@gmail.com>
@@ -338,7 +337,7 @@ Administrative keys for demisto/panw-iot:1.0.0.12562424
 ### `protobuf`
 
 * Summary: None
-* Version: 7.36.0
+* Version: 7.36.1
 * Pypi: https://pypi.org/project/protobuf/
 * Homepage: https://developers.google.com/protocol-buffers/
 * Author: protobuf@googlegroups.com protobuf@googlegroups.com
@@ -579,7 +578,7 @@ Administrative keys for demisto/panw-iot:1.0.0.12562424
 ### `websocket-client`
 
 * Summary: WebSocket client for Python with low level API options
-* Version: 1.9.0
+* Version: 1.9.1
 * Pypi: https://pypi.org/project/websocket-client/
 * Homepage: https://github.com/websocket-client/websocket-client
 * Author: liris liris.pp@gmail.com

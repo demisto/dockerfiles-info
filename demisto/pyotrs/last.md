@@ -1,9 +1,9 @@
-# `demisto/pyotrs:1.0.0.11193239`
+# `demisto/pyotrs:1.0.0.12613855`
 
 ## Docker Metadata
-- Image Size: 29.87 MB
-- Image ID: `sha256:0ecdca910af57cccd21a7795f4f6994563e56c4641e2e7542c58be1b97a3d5e0`
-- Created: `2026-07-21T04:18:23.75655763Z`
+- Image Size: 30.81 MB
+- Image ID: `sha256:550952e2e7988a0235a60ed7844bb887407149c11e488192593465448c53b06f`
+- Created: `2026-09-01T17:45:16.136392316Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,11 +12,15 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/pyotrs:1.0.0.11193239`
+  - `DOCKER_IMAGE=demisto/pyotrs:1.0.0.12613855`
 - Labels:
+  - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:56ea857ca737442eef106df08a6b23d2f369edc5`
-  - `org.opencontainers.image.version:1.0.0.11193239`
+  - `org.opencontainers.image.revision:12ffef7e7877ec0488776e79ba80cf5dde790eda`
+  - `org.opencontainers.image.version:1.0.0.12613855`
+  - `panw.builtby.pipeline:12614532`
+  - `panw.builtby.project:xdr/cortex-content/dockerfiles`
+  - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pyotrs:1.0.0.11193239
+Signatures for demisto/pyotrs:1.0.0.12613855
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11193239   c4ce6add079d521fc01a99abc24029970e87dbe86665743caccbbee3eea4cc84   (Repo Admin)
+1.0.0.12613855   2daa5c9831addb1aebfaf4775101eb3dab34d581509362f3f4f61f2832f923fc   (Repo Admin)
 
-Administrative keys for demisto/pyotrs:1.0.0.11193239
+Administrative keys for demisto/pyotrs:1.0.0.12613855
 
   Repository Key:	782309d28429e1aceccd81f3d7d55f0c5894e977094a87d68fecb539782252ff
   Root Key:	ab48f05aa4b215579b18849df811e516cd1c89bad845984fe614208efbeda33e
@@ -143,7 +147,7 @@ Administrative keys for demisto/pyotrs:1.0.0.11193239
 ### `importlib_metadata`
 
 * Summary: Read metadata from Python packages
-* Version: 9.0.0
+* Version: 9.0.1
 * Pypi: https://pypi.org/project/importlib-metadata/
 * Homepage: None
 * Author: "Jason R. Coombs" <jaraco@jaraco.com>
@@ -176,7 +180,7 @@ Administrative keys for demisto/pyotrs:1.0.0.11193239
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.2
+* Version: 26.2.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>

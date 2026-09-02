@@ -1,9 +1,9 @@
-# `demisto/polyswarm:1.0.0.12571702`
+# `demisto/polyswarm:4.3.0.12594542`
 
 ## Docker Metadata
-- Image Size: 38.11 MB
-- Image ID: `sha256:48f76074d64c289ec023beaed2c7ce6bdf51deeaa14a7c36fe7da15dff41ab8d`
-- Created: `2026-09-01T00:06:27.964040068Z`
+- Image Size: 37.50 MB
+- Image ID: `sha256:d35af28ea87f60d1b0330432806e054ac15ec10eb7a85a505055da050d40850d`
+- Created: `2026-09-01T11:41:26.113788903Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/polyswarm:1.0.0.12571702`
+  - `DOCKER_IMAGE=demisto/polyswarm:4.3.0.12594542`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:591229f9516c35dfadfb70ded850d2a41daf9b2b`
-  - `org.opencontainers.image.version:1.0.0.12571702`
-  - `panw.builtby.pipeline:12572787`
+  - `org.opencontainers.image.revision:6245a5b268b7a6f56b9c43c5c5063bcfe10b4dc7`
+  - `org.opencontainers.image.version:4.3.0.12594542`
+  - `panw.builtby.pipeline:12595255`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/polyswarm:1.0.0.12571702
+Signatures for demisto/polyswarm:4.3.0.12594542
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.12571702   39aa52ba17ff6ee9fb2040ea9434dc92b154bb2df70c623eab8b5b8228ec493a   (Repo Admin)
+4.3.0.12594542   6d32abeb658eb3ec9254a5c2e56e138eb33fdf303ee9705f8371e1a80591e818   (Repo Admin)
 
-Administrative keys for demisto/polyswarm:1.0.0.12571702
+Administrative keys for demisto/polyswarm:4.3.0.12594542
 
   Repository Key:	19666d476ef29dc749a6520049a21fa067e2b7d162f27d2e0b3deef644178dd7
   Root Key:	d2b52b512ccc7f8c7ac3da65cfdcfb4b28c59071dd53af74640cdfb6b5d7b36a
@@ -51,7 +51,7 @@ Administrative keys for demisto/polyswarm:1.0.0.12571702
 ### `anyio`
 
 * Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.13.0
+* Version: 4.14.2
 * Pypi: https://pypi.org/project/anyio/
 * Homepage: None
 * Author: Alex Grönholm <alex.gronholm@nextday.fi>
@@ -59,7 +59,7 @@ Administrative keys for demisto/polyswarm:1.0.0.12571702
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.5.20
+* Version: 2026.7.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -77,7 +77,7 @@ Administrative keys for demisto/polyswarm:1.0.0.12571702
 ### `click`
 
 * Summary: Composable command line interface toolkit
-* Version: 8.4.1
+* Version: 8.5.0
 * Pypi: https://pypi.org/project/click/
 * Homepage: None
 * Author: None
@@ -174,7 +174,7 @@ Administrative keys for demisto/polyswarm:1.0.0.12571702
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.18
+* Version: 3.19
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -225,7 +225,7 @@ Administrative keys for demisto/polyswarm:1.0.0.12571702
 ### `polyswarm`
 
 * Summary: CLI for using the PolySwarm Customer APIs
-* Version: 3.12.0
+* Version: 4.3.0
 * Pypi: https://pypi.org/project/polyswarm/
 * Homepage: None
 * Author: PolySwarm Developers <info@polyswarm.io>
@@ -234,7 +234,7 @@ Administrative keys for demisto/polyswarm:1.0.0.12571702
 ### `polyswarm_api`
 
 * Summary: Client library to simplify interacting with the PolySwarm consumer API
-* Version: 4.0.0
+* Version: 4.3.0
 * Pypi: https://pypi.org/project/polyswarm-api/
 * Homepage: None
 * Author: PolySwarm Developers <info@polyswarm.io>
@@ -243,7 +243,7 @@ Administrative keys for demisto/polyswarm:1.0.0.12571702
 ### `Pygments`
 
 * Summary: Pygments is a syntax highlighting package written in Python.
-* Version: 2.20.0
+* Version: 2.21.0
 * Pypi: https://pypi.org/project/Pygments/
 * Homepage: None
 * Author: Georg Brandl <georg@python.org>
@@ -348,7 +348,7 @@ Administrative keys for demisto/polyswarm:1.0.0.12571702
 ### `typing_extensions`
 
 * Summary: Backported and Experimental Type Hints for Python 3.9+
-* Version: 4.15.0
+* Version: 4.16.0
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
