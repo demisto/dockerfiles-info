@@ -1,22 +1,26 @@
-# `demisto/sse-client:1.0.0.10133006`
+# `demisto/sse-client:1.0.0.12701738`
 
 ## Docker Metadata
-- Image Size: 31.63 MB
-- Image ID: `sha256:f6dcfda450e693ba54e84c58aac3b3ea01cc57f950e9f53edf31ed4d8818a933`
-- Created: `2026-06-14T13:17:38.883242251Z`
+- Image Size: 34.11 MB
+- Image ID: `sha256:6bf4b27da336ccd498fe3f63a911168c1002d8ea4b29dc6e6a1e9c67c3e5139c`
+- Created: `2026-09-03T12:13:15.005114572Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.13`
-  - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/sse-client:1.0.0.10133006`
+  - `PYTHON_VERSION=3.12.14`
+  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
+  - `DOCKER_IMAGE=demisto/sse-client:1.0.0.12701738`
 - Labels:
+  - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:d9afa12aeecec26152165734c2ab0f6e5d645b03`
-  - `org.opencontainers.image.version:1.0.0.10133006`
+  - `org.opencontainers.image.revision:48d385d29cee3f0147a01ba406df1cb665e28c6f`
+  - `org.opencontainers.image.version:1.0.0.12701738`
+  - `panw.builtby.pipeline:12704018`
+  - `panw.builtby.project:xdr/cortex-content/dockerfiles`
+  - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sse-client:1.0.0.10133006
+Signatures for demisto/sse-client:1.0.0.12701738
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.10133006   308e966079430fa943d90d00b181ba5c06a6d17cbca48a1fa6825c736b7a94b3   (Repo Admin)
+1.0.0.12701738   b8fdac6a3fef1875be53308fa110373f489eaeca1d151139ced4ab1977083708   (Repo Admin)
 
-Administrative keys for demisto/sse-client:1.0.0.10133006
+Administrative keys for demisto/sse-client:1.0.0.12701738
 
   Repository Key:	f8bd875fb0b3d5cbdd641cd80ce0afc9da57d1610b56209268c4f0ec9bc6303d
   Root Key:	2eb2b8a2e191fc10ba7d6e689175d58195915ad3bef157e895d0214dc5b6aeab
@@ -44,10 +48,18 @@ Administrative keys for demisto/sse-client:1.0.0.10133006
 ## `Python Packages`
 
 
+### `anyio`
+
+* Summary: High-level concurrency and networking framework on top of asyncio or Trio
+* Version: 4.14.2
+* Pypi: https://pypi.org/project/anyio/
+* Homepage: None
+* Author: Alex Grönholm <alex.gronholm@nextday.fi>
+
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.4.22
+* Version: 2026.7.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -56,7 +68,7 @@ Administrative keys for demisto/sse-client:1.0.0.10133006
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.7
+* Version: 3.5.1
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -65,16 +77,15 @@ Administrative keys for demisto/sse-client:1.0.0.10133006
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.0
+* Version: 1.4.2
 * Pypi: https://pypi.org/project/dateparser/
-* Homepage: https://github.com/scrapinghub/dateparser
-* Author: Scrapinghub opensource@zyte.com
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Scrapinghub <opensource@zyte.com>
 
 ### `deepmerge`
 
 * Summary: A toolset for deeply merging Python dictionaries.
-* Version: 2.0
+* Version: 3.0
 * Pypi: https://pypi.org/project/deepmerge/
 * Homepage: None
 * Author: Yusuke Tsutsumi <yusuke@tsutsumi.io>
@@ -92,7 +103,7 @@ Administrative keys for demisto/sse-client:1.0.0.10133006
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.20.3
+* Version: 3.32.4
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -107,10 +118,37 @@ Administrative keys for demisto/sse-client:1.0.0.10133006
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
+### `h11`
+
+* Summary: A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
+* Version: 0.16.0
+* Pypi: https://pypi.org/project/h11/
+* Homepage: https://github.com/python-hyper/h11
+* Author: Nathaniel J. Smith njs@pobox.com
+* License :: OSI Approved :: MIT License
+
+### `httpcore`
+
+* Summary: A minimal low-level HTTP client.
+* Version: 1.0.9
+* Pypi: https://pypi.org/project/httpcore/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+* License :: OSI Approved :: BSD License
+
+### `httpx`
+
+* Summary: The next generation HTTP client.
+* Version: 0.28.1
+* Pypi: https://pypi.org/project/httpx/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+* License :: OSI Approved :: BSD License
+
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.15
+* Version: 3.19
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -118,7 +156,7 @@ Administrative keys for demisto/sse-client:1.0.0.10133006
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 10.8.0
+* Version: 11.1.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -135,7 +173,7 @@ Administrative keys for demisto/sse-client:1.0.0.10133006
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.1
+* Version: 26.3
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -143,7 +181,7 @@ Administrative keys for demisto/sse-client:1.0.0.10133006
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.2
+* Version: 26.2.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -171,7 +209,7 @@ Administrative keys for demisto/sse-client:1.0.0.10133006
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.1.post1
+* Version: 2026.3.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -189,7 +227,7 @@ Administrative keys for demisto/sse-client:1.0.0.10133006
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.2.28
+* Version: 2026.7.19
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -212,10 +250,19 @@ Administrative keys for demisto/sse-client:1.0.0.10133006
 * Author: David Shea <reallylongword@gmail.com>
 * License :: OSI Approved :: Apache Software License
 
+### `respx`
+
+* Summary: A utility for mocking out the Python HTTPX and HTTP Core libraries.
+* Version: 0.23.1
+* Pypi: https://pypi.org/project/respx/
+* Homepage: https://lundberg.github.io/respx/
+* Author: Jonas Lundberg jonas@5monkeys.se
+* License :: OSI Approved :: BSD License
+
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 82.0.1
+* Version: 84.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -241,19 +288,26 @@ Administrative keys for demisto/sse-client:1.0.0.10133006
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.1
+* Version: 5.3.2
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
 
+### `typing_extensions`
+
+* Summary: Backported and Experimental Type Hints for Python 3.9+
+* Version: 4.16.0
+* Pypi: https://pypi.org/project/typing-extensions/
+* Homepage: None
+* Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
+
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.3.1
+* Version: 5.4.4
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
-* License :: OSI Approved :: MIT License
 
 ### `urllib3`
 
@@ -266,19 +320,19 @@ Administrative keys for demisto/sse-client:1.0.0.10133006
 ### `wheel`
 
 * Summary: Command line tool for manipulating wheel files
-* Version: 0.47.0
+* Version: 0.48.0
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
 
 ## `OS Packages`
 
-* .python-rundeps-20260610.204951 noarch {.python-rundeps}
+* .python-rundeps-20260813.193941 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
 * alpine-release-3.24.1-r0 x86_64 {alpine-base}
-* apk-tools-3.0.6-r0 x86_64 {apk-tools}
+* apk-tools-3.0.7-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
 * ca-certificates-20260611-r0 x86_64 {ca-certificates}
@@ -287,27 +341,27 @@ Administrative keys for demisto/sse-client:1.0.0.10133006
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.2-r1 x86_64 {krb5}
-* libapk-3.0.6-r0 x86_64 {apk-tools}
+* libapk-3.0.7-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.7-r0 x86_64 {openssl}
+* libcrypto3-3.5.8-r0 x86_64 {openssl}
 * libffi-3.5.2-r1 x86_64 {libffi}
 * libintl-1.0-r0 x86_64 {gettext}
 * libncursesw-6.6_p20260516-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r2 x86_64 {libnsl}
 * libpanelw-6.6_p20260516-r0 x86_64 {ncurses}
-* libssl3-3.5.7-r0 x86_64 {openssl}
+* libssl3-3.5.8-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
-* libuuid-2.42-r0 x86_64 {util-linux}
+* libuuid-2.42.1-r0 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
 * musl-1.2.6-r2 x86_64 {musl}
 * musl-utils-1.2.6-r2 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
-* sqlite-libs-3.53.2-r0 x86_64 {sqlite}
+* sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026b-r0 x86_64 {tzdata}
+* tzdata-2026c-r0 x86_64 {tzdata}
 * xz-libs-5.8.3-r0 x86_64 {xz}
 * zlib-1.3.2-r0 x86_64 {zlib}

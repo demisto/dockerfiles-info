@@ -1,9 +1,9 @@
-# `demisto/google-api-py3:1.0.0.12571702`
+# `demisto/google-api-py3:1.0.0.12776751`
 
 ## Docker Metadata
-- Image Size: 84.45 MB
-- Image ID: `sha256:51a452eb5f3e6d48ee9ac9cf5c3f6a2ccfb9de42a7475821c92e6a6dda210828`
-- Created: `2026-09-01T00:06:18.325773351Z`
+- Image Size: 84.68 MB
+- Image ID: `sha256:dbb537c85d14abc642db193f66ce2c78b19cf900d9039be597f5b0e9dc151b58`
+- Created: `2026-09-05T23:52:09.379260711Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/google-api-py3:1.0.0.12571702`
+  - `DOCKER_IMAGE=demisto/google-api-py3:1.0.0.12776751`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:591229f9516c35dfadfb70ded850d2a41daf9b2b`
-  - `org.opencontainers.image.version:1.0.0.12571702`
-  - `panw.builtby.pipeline:12572778`
+  - `org.opencontainers.image.revision:cba9a20b3f7bc7e144dc001682470240421cba79`
+  - `org.opencontainers.image.version:1.0.0.12776751`
+  - `panw.builtby.pipeline:12777076`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-api-py3:1.0.0.12571702
+Signatures for demisto/google-api-py3:1.0.0.12776751
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.12571702   c81e1e40a23a762dce1c04a4125d8d088fdf67fe3aa2ef27c650e843ccc92cd3   (Repo Admin)
+1.0.0.12776751   381612b37057abc8d36057e9ef8db9eda6430fcb1c3621e98dc6dac12490cc70   (Repo Admin)
 
-Administrative keys for demisto/google-api-py3:1.0.0.12571702
+Administrative keys for demisto/google-api-py3:1.0.0.12776751
 
   Repository Key:	5770a83f9c9b9436ad3c6e6acfe7a826fe9e3f460f7ad22dfb9f894f371071a6
   Root Key:	95f47db9a4f5902373f46f558d53e073d895578cef7f0b44205d77f956ba04d4
@@ -132,7 +132,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.12571702
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.34.0
+* Version: 2.36.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -141,7 +141,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.12571702
 ### `google-api-python-client`
 
 * Summary: Google API Client Library for Python
-* Version: 2.199.0
+* Version: 2.200.0
 * Pypi: https://pypi.org/project/google-api-python-client/
 * Homepage: https://github.com/googleapis/google-api-python-client/
 * Author: Google LLC googleapis-packages@google.com
@@ -150,7 +150,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.12571702
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.56.3
+* Version: 2.57.1
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -159,7 +159,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.12571702
 ### `google-auth-httplib2`
 
 * Summary: Google Authentication Library: httplib2 transport
-* Version: 0.4.1
+* Version: 0.4.2
 * Pypi: https://pypi.org/project/google-auth-httplib2/
 * Homepage: https://github.com/googleapis/google-cloud-python/packages/google-auth-httplib2
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -168,11 +168,10 @@ Administrative keys for demisto/google-api-py3:1.0.0.12571702
 ### `googleapis-common-protos`
 
 * Summary: Common protobufs used in Google APIs
-* Version: 1.75.1
+* Version: 1.75.3
 * Pypi: https://pypi.org/project/googleapis-common-protos/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
-* License :: OSI Approved :: Apache Software License
 
 ### `h11`
 
@@ -244,6 +243,14 @@ Administrative keys for demisto/google-api-py3:1.0.0.12571702
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
+### `opentelemetry-api`
+
+* Summary: OpenTelemetry Python API
+* Version: 1.44.0
+* Pypi: https://pypi.org/project/opentelemetry-api/
+* Homepage: None
+* Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
+
 ### `packaging`
 
 * Summary: Core utilities for Python packages
@@ -264,7 +271,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.12571702
 ### `proto-plus`
 
 * Summary: Beautiful, Pythonic protocol buffers
-* Version: 1.28.3
+* Version: 1.28.4
 * Pypi: https://pypi.org/project/proto-plus/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -273,7 +280,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.12571702
 ### `protobuf`
 
 * Summary: None
-* Version: 7.36.0
+* Version: 7.36.1
 * Pypi: https://pypi.org/project/protobuf/
 * Homepage: https://developers.google.com/protocol-buffers/
 * Author: protobuf@googlegroups.com protobuf@googlegroups.com

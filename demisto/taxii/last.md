@@ -1,9 +1,9 @@
-# `demisto/taxii:1.0.0.12264877`
+# `demisto/taxii:1.0.0.12701738`
 
 ## Docker Metadata
-- Image Size: 44.04 MB
-- Image ID: `sha256:31d9dc83eee56af0935d524f974ad76cf400526c626c63aed1440f3a805afb61`
-- Created: `2026-08-24T18:16:55.009228077Z`
+- Image Size: 44.06 MB
+- Image ID: `sha256:20e091ad97d42813bc140c29776add500716aaf275d7657e3f6fb867ac7fe8de`
+- Created: `2026-09-03T12:12:50.445643013Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/taxii:1.0.0.12264877`
+  - `DOCKER_IMAGE=demisto/taxii:1.0.0.12701738`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:4f5f0154538547b5d7cd3c7363d9449b49f320ed`
-  - `org.opencontainers.image.version:1.0.0.12264877`
-  - `panw.builtby.pipeline:12265960`
+  - `org.opencontainers.image.revision:48d385d29cee3f0147a01ba406df1cb665e28c6f`
+  - `org.opencontainers.image.version:1.0.0.12701738`
+  - `panw.builtby.pipeline:12703997`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/taxii:1.0.0.12264877
+Signatures for demisto/taxii:1.0.0.12701738
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.12264877   5d96516256cb6f955b861969d5db834d6d9fc7527594a908ac26dd61769bbcaf   (Repo Admin)
+1.0.0.12701738   ac5ef99fe910941cf53c047cb65b25c89c74065b76a0a9e84e53294b470c1d79   (Repo Admin)
 
-Administrative keys for demisto/taxii:1.0.0.12264877
+Administrative keys for demisto/taxii:1.0.0.12701738
 
   Repository Key:	e4d1140f2317822debbb995b6bfdb0d014d69a98bb5ad2430433c95c311184b3
   Root Key:	0cfe3b20862e965095cc96c97d3bd4aed117b78cd941957bafe1ddf016cfa6b9
@@ -201,7 +201,7 @@ Administrative keys for demisto/taxii:1.0.0.12264877
 ### `nh3`
 
 * Summary: Python binding to Ammonia HTML sanitizer Rust crate
-* Version: 0.3.6
+* Version: 0.3.7
 * Pypi: https://pypi.org/project/nh3/
 * Homepage: None
 * Author: messense <messense@icloud.com>

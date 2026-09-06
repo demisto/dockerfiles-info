@@ -1,33 +1,34 @@
-# `demisto/mlclustering:1.0.0.11879924`
+# `demisto/mlclustering:1.0.0.12701738`
 
 ## Docker Metadata
-- Image Size: 182.65 MB
-- Image ID: `sha256:e981427a0a7d4f561044985e22da966e51efff1ea886de21388d5264934ecc51`
-- Created: `2026-08-13T00:06:16.964739957Z`
+- Image Size: 185.59 MB
+- Image ID: `sha256:ab4d5638609e3c14de5ca74e20fa1668ce0fdffdc40744ee1be87802b74aef0b`
+- Created: `2026-09-03T12:13:30.681395219Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.13`
-  - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/mlclustering:1.0.0.11879924`
+  - `PYTHON_VERSION=3.12.14`
+  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
+  - `DOCKER_IMAGE=demisto/mlclustering:1.0.0.12701738`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:c4c493ad453468888920df0ce80c3efdc4945526`
-  - `org.opencontainers.image.version:1.0.0.11879924`
-  - `panw.builtby.pipeline:11880628`
+  - `org.opencontainers.image.revision:48d385d29cee3f0147a01ba406df1cb665e28c6f`
+  - `org.opencontainers.image.version:1.0.0.12701738`
+  - `panw.builtby.pipeline:12704020`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
-  - `PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"`
+  - `PRETTY_NAME="Debian GNU/Linux 13 (trixie)"`
   - `NAME="Debian GNU/Linux"`
-  - `VERSION_ID="12"`
-  - `VERSION="12 (bookworm)"`
-  - `VERSION_CODENAME=bookworm`
+  - `VERSION_ID="13"`
+  - `VERSION="13 (trixie)"`
+  - `VERSION_CODENAME=trixie`
+  - `DEBIAN_VERSION_FULL=13.6`
   - `ID=debian`
   - `HOME_URL="https://www.debian.org/"`
   - `SUPPORT_URL="https://www.debian.org/support"`
@@ -36,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/mlclustering:1.0.0.11879924
+Signatures for demisto/mlclustering:1.0.0.12701738
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11879924   d1ad6ade96621998f968c8402a34d09e21e7e5be1d93abaa9b6c1578f14df67f   (Repo Admin)
+1.0.0.12701738   5affe9261192db5afed7d25af203752c06f46511263ae6d0b0670b785ed515a4   (Repo Admin)
 
-Administrative keys for demisto/mlclustering:1.0.0.11879924
+Administrative keys for demisto/mlclustering:1.0.0.12701738
 
   Repository Key:	d8855dc0db9e2ead8c2f610d59993d791267c23029f0e34d7599fdc315359432
   Root Key:	e037f02a27ce45de827cee6fb6e79e9a04241487236ec6abf050019f6a7e7f13
@@ -51,10 +52,18 @@ Administrative keys for demisto/mlclustering:1.0.0.11879924
 ## `Python Packages`
 
 
+### `anyio`
+
+* Summary: High-level concurrency and networking framework on top of asyncio or Trio
+* Version: 4.14.2
+* Pypi: https://pypi.org/project/anyio/
+* Homepage: None
+* Author: Alex Grönholm <alex.gronholm@nextday.fi>
+
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.4.22
+* Version: 2026.7.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -63,7 +72,7 @@ Administrative keys for demisto/mlclustering:1.0.0.11879924
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.7
+* Version: 3.5.1
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -72,7 +81,7 @@ Administrative keys for demisto/mlclustering:1.0.0.11879924
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.1
+* Version: 1.4.2
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -98,7 +107,7 @@ Administrative keys for demisto/mlclustering:1.0.0.11879924
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.25.2
+* Version: 3.32.4
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -113,6 +122,15 @@ Administrative keys for demisto/mlclustering:1.0.0.11879924
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
+### `h11`
+
+* Summary: A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
+* Version: 0.16.0
+* Pypi: https://pypi.org/project/h11/
+* Homepage: https://github.com/python-hyper/h11
+* Author: Nathaniel J. Smith njs@pobox.com
+* License :: OSI Approved :: MIT License
+
 ### `hdbscan`
 
 * Summary: Clustering based on density with variable density clusters
@@ -122,10 +140,28 @@ Administrative keys for demisto/mlclustering:1.0.0.11879924
 * Author: Leland McInnes <leland.mcinnes@gmail.com>
 * License: BSD
 
+### `httpcore`
+
+* Summary: A minimal low-level HTTP client.
+* Version: 1.0.9
+* Pypi: https://pypi.org/project/httpcore/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+* License :: OSI Approved :: BSD License
+
+### `httpx`
+
+* Summary: The next generation HTTP client.
+* Version: 0.28.1
+* Pypi: https://pypi.org/project/httpx/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+* License :: OSI Approved :: BSD License
+
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.15
+* Version: 3.19
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -174,7 +210,7 @@ Administrative keys for demisto/mlclustering:1.0.0.11879924
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.1
+* Version: 26.3
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -219,7 +255,7 @@ Administrative keys for demisto/mlclustering:1.0.0.11879924
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.2
+* Version: 2026.3.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -237,7 +273,7 @@ Administrative keys for demisto/mlclustering:1.0.0.11879924
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.5.9
+* Version: 2026.7.19
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -260,6 +296,15 @@ Administrative keys for demisto/mlclustering:1.0.0.11879924
 * Author: David Shea <reallylongword@gmail.com>
 * License :: OSI Approved :: Apache Software License
 
+### `respx`
+
+* Summary: A utility for mocking out the Python HTTPX and HTTP Core libraries.
+* Version: 0.23.1
+* Pypi: https://pypi.org/project/respx/
+* Homepage: https://lundberg.github.io/respx/
+* Author: Jonas Lundberg jonas@5monkeys.se
+* License :: OSI Approved :: BSD License
+
 ### `scikit-learn`
 
 * Summary: A set of python modules for machine learning and data mining
@@ -280,7 +325,7 @@ Administrative keys for demisto/mlclustering:1.0.0.11879924
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 83.0.0
+* Version: 84.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -306,15 +351,23 @@ Administrative keys for demisto/mlclustering:1.0.0.11879924
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.1
+* Version: 5.3.2
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
 
+### `typing_extensions`
+
+* Summary: Backported and Experimental Type Hints for Python 3.9+
+* Version: 4.16.0
+* Pypi: https://pypi.org/project/typing-extensions/
+* Homepage: None
+* Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
+
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4
+* Version: 5.4.4
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -330,117 +383,101 @@ Administrative keys for demisto/mlclustering:1.0.0.11879924
 ### `wheel`
 
 * Summary: Command line tool for manipulating wheel files
-* Version: 0.47.0
+* Version: 0.48.0
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
 
 ## `OS Packages`
 
-* adduser	3.134
-* apt	2.6.1
-* base-files	12.4+deb12u15
-* base-passwd	3.6.1
-* bash	5.2.15-2+b13
-* bsdutils	1:2.38.1-5+deb12u3
-* ca-certificates	20230311+deb12u1
-* coreutils	9.1-1
-* dash	0.5.12-2
-* debconf	1.5.82
-* debian-archive-keyring	2023.3+deb12u2
-* debianutils	5.7-0.5~deb12u1
-* diffutils	1:3.8-4
-* dpkg	1.21.23
-* e2fsprogs	1.47.2-3~bpo12+1
-* findutils	4.9.0-4
-* gcc-12-base:amd64	12.2.0-14+deb12u1
-* gpgv	2.2.40-1.1+deb12u2
-* grep	3.8-5
-* gzip	1.12-1
-* hostname	3.23+nmu1
-* init-system-helpers	1.65.2+deb12u1
-* libacl1:amd64	2.3.1-3
-* libapt-pkg6.0:amd64	2.6.1
-* libattr1:amd64	1:2.5.1-4
-* libaudit-common	1:3.0.9-1
-* libaudit1:amd64	1:3.0.9-1
-* libblkid1:amd64	2.38.1-5+deb12u3
-* libbz2-1.0:amd64	1.0.8-5+b1
-* libc-bin	2.36-9+deb12u14
-* libc6:amd64	2.36-9+deb12u14
-* libcap-ng0:amd64	0.8.3-1+b3
-* libcap2:amd64	1:2.66-4+deb12u3+b1
-* libcom-err2:amd64	1.47.2-3~bpo12+1
-* libcrypt1:amd64	1:4.4.33-2
-* libdb5.3:amd64	5.3.28+dfsg2-1
-* libdebconfclient0:amd64	0.270
-* libext2fs2:amd64	1.47.2-3~bpo12+1
-* libffi8:amd64	3.4.4-1
-* libgcc-s1:amd64	12.2.0-14+deb12u1
-* libgcrypt20:amd64	1.10.1-3+deb12u1
-* libgdbm6:amd64	1.23-3
-* libgmp10:amd64	2:6.2.1+dfsg1-1.1
-* libgnutls30:amd64	3.7.9-2+deb12u7
-* libgpg-error0:amd64	1.46-1
-* libgssapi-krb5-2:amd64	1.20.1-2+deb12u5
-* libhogweed6:amd64	3.8.1-2
-* libidn2-0:amd64	2.3.3-1+b1
-* libk5crypto3:amd64	1.20.1-2+deb12u5
-* libkeyutils1:amd64	1.6.3-2
-* libkrb5-3:amd64	1.20.1-2+deb12u5
-* libkrb5support0:amd64	1.20.1-2+deb12u5
-* liblz4-1:amd64	1.9.4-1
-* liblzma5:amd64	5.4.1-1+deb12u1
-* libmd0:amd64	1.0.4-2
-* libmount1:amd64	2.38.1-5+deb12u3
-* libncursesw6:amd64	6.4-4
-* libnettle8:amd64	3.8.1-2
-* libnsl2:amd64	1.3.0-2
-* libp11-kit0:amd64	0.24.1-2
-* libpam-modules-bin	1.5.2-6+deb12u2
-* libpam-modules:amd64	1.5.2-6+deb12u2
-* libpam-runtime	1.5.2-6+deb12u2
-* libpam0g:amd64	1.5.2-6+deb12u2
-* libpcre2-8-0:amd64	10.42-1
-* libproc2-0:amd64	2:4.0.2-3
-* libreadline8:amd64	8.2-1.3
-* libseccomp2:amd64	2.5.4-1+deb12u1
-* libselinux1:amd64	3.4-1+b6
-* libsemanage-common	3.4-1
-* libsemanage2:amd64	3.4-1+b5
-* libsepol2:amd64	3.4-2.1
-* libsmartcols1:amd64	2.38.1-5+deb12u3
-* libsqlite3-0:amd64	3.40.1-2+deb12u2
-* libss2:amd64	1.47.2-3~bpo12+1
-* libssl3:amd64	3.0.20-1~deb12u2
-* libstdc++6:amd64	12.2.0-14+deb12u1
-* libsystemd0:amd64	254.26-1~bpo12+1
-* libtasn1-6:amd64	4.19.0-2+deb12u1
-* libtinfo6:amd64	6.4-4
-* libtirpc-common	1.3.3+ds-1
-* libtirpc3:amd64	1.3.3+ds-1
-* libudev1:amd64	254.26-1~bpo12+1
-* libunistring2:amd64	1.0-2
-* libuuid1:amd64	2.38.1-5+deb12u3
-* libxxhash0:amd64	0.8.1-1
-* libzstd1:amd64	1.5.4+dfsg2-5
-* login	1:4.13+dfsg1-1+deb12u2
-* logsave	1.47.2-3~bpo12+1
-* mawk	1.3.4.20200120-3.1
-* mount	2.38.1-5+deb12u3
-* ncurses-base	6.4-4
-* ncurses-bin	6.4-4
-* netbase	6.4
-* openssl	3.0.20-1~deb12u2
-* passwd	1:4.13+dfsg1-1+deb12u2
-* perl-base	5.36.0-7+deb12u3
-* procps	2:4.0.2-3
-* readline-common	8.2-1.3
-* sed	4.9-1+deb12u1
-* sysvinit-utils	3.08-3~bpo12+2
-* tar	1.34+dfsg-1.2+deb12u1
-* tzdata	2026b-0+deb12u1
-* usr-is-merged	37~deb12u1
-* util-linux	2.38.1-5+deb12u3
-* util-linux-extra	2.38.1-5+deb12u3
-* zlib1g:amd64	1:1.2.13.dfsg-1
+* adduser	3.152
+* apt	3.0.3
+* base-files	13.8+deb13u6
+* base-passwd	3.6.7
+* bash	5.2.37-2+b9
+* bsdutils	1:2.41.5-0+deb13u1
+* ca-certificates	20250419
+* coreutils	9.7-3
+* dash	0.5.12-12
+* debconf	1.5.91
+* debian-archive-keyring	2025.1
+* debianutils	5.23.2
+* diffutils	1:3.10-4
+* dpkg	1.22.22
+* findutils	4.10.0-3
+* gcc-14-base:amd64	14.2.0-19
+* grep	3.11-4
+* gzip	1.13-1
+* hostname	3.25
+* init-system-helpers	1.69~deb13u1
+* libacl1:amd64	2.3.2-2+b1
+* libapt-pkg7.0:amd64	3.0.3
+* libattr1:amd64	1:2.5.2-3
+* libaudit-common	1:4.0.2-2
+* libaudit1:amd64	1:4.0.2-2+b2
+* libblkid1:amd64	2.41.5-0+deb13u1
+* libbsd0:amd64	0.12.2-2
+* libbz2-1.0:amd64	1.0.8-6
+* libc-bin	2.41-12+deb13u3
+* libc6:amd64	2.41-12+deb13u3
+* libcap-ng0:amd64	0.8.5-4+b1
+* libcap2:amd64	1:2.75-10+deb13u1+b1
+* libcrypt1:amd64	1:4.4.38-1
+* libdb5.3t64:amd64	5.3.28+dfsg2-9
+* libdebconfclient0:amd64	0.280
+* libffi8:amd64	3.4.8-2
+* libgcc-s1:amd64	14.2.0-19
+* libgdbm6t64:amd64	1.24-2
+* libgmp10:amd64	2:6.3.0+dfsg-3
+* libhogweed6t64:amd64	3.10.1-1
+* libidn2-0:amd64	2.3.8-2
+* liblastlog2-2:amd64	2.41.5-0+deb13u1
+* liblz4-1:amd64	1.10.0-4
+* liblzma5:amd64	5.8.1-1+deb13u1
+* libmd0:amd64	1.1.0-2+b1
+* libmount1:amd64	2.41.5-0+deb13u1
+* libncursesw6:amd64	6.5+20250216-2
+* libnettle8t64:amd64	3.10.1-1
+* libpam-modules-bin	1.7.0-5
+* libpam-modules:amd64	1.7.0-5
+* libpam-runtime	1.7.0-5
+* libpam0g:amd64	1.7.0-5
+* libpcre2-8-0:amd64	10.46-1~deb13u1
+* libproc2-0:amd64	2:4.0.4-9
+* libreadline8t64:amd64	8.2-6
+* libseccomp2:amd64	2.6.0-2
+* libselinux1:amd64	3.8.1-1
+* libsemanage-common	3.8.1-1
+* libsemanage2:amd64	3.8.1-1
+* libsepol2:amd64	3.8.1-1
+* libsmartcols1:amd64	2.41.5-0+deb13u1
+* libsqlite3-0:amd64	3.46.1-7+deb13u1
+* libssl3t64:amd64	3.5.7-1~deb13u2
+* libstdc++6:amd64	14.2.0-19
+* libsystemd0:amd64	257.13-1~deb13u1
+* libtinfo6:amd64	6.5+20250216-2
+* libudev1:amd64	257.13-1~deb13u1
+* libunistring5:amd64	1.3-2
+* libuuid1:amd64	2.41.5-0+deb13u1
+* libxxhash0:amd64	0.8.3-2
+* libzstd1:amd64	1.5.7+dfsg-1
+* login	1:4.16.0-2+really2.41.5-0+deb13u1
+* login.defs	1:4.17.4-2
+* mawk	1.3.4.20250131-1
+* mount	2.41.5-0+deb13u1
+* ncurses-base	6.5+20250216-2
+* ncurses-bin	6.5+20250216-2
+* netbase	6.5
+* openssl	3.5.7-1~deb13u2
+* openssl-provider-legacy	3.5.7-1~deb13u2
+* passwd	1:4.17.4-2
+* perl-base	5.40.1-6
+* procps	2:4.0.4-9
+* readline-common	8.2-6
+* sed	4.9-2+deb13u1
+* sqv	1.3.0-3+b2
+* sysvinit-utils	3.14-4
+* tar	1.35+dfsg-3.1
+* tzdata	2026b-0+deb13u1
+* util-linux	2.41.5-0+deb13u1
+* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1

@@ -1,22 +1,26 @@
-# `demisto/gdetect:1.0.0.11195141`
+# `demisto/gdetect:1.0.0.12689358`
 
 ## Docker Metadata
-- Image Size: 32.92 MB
-- Image ID: `sha256:47a6346b0bef5b9f859c630236d614cd006cccf319daf9e3e3c33e2015f545cc`
-- Created: `2026-07-21T06:37:52.278280874Z`
+- Image Size: 38.54 MB
+- Image ID: `sha256:5c479329c4160af972ff1dca15cd2e82b6646dcf64614114b3f07d04842b2a8f`
+- Created: `2026-09-03T08:45:54.482295921Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.13`
-  - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/gdetect:1.0.0.11195141`
+  - `PYTHON_VERSION=3.12.14`
+  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
+  - `DOCKER_IMAGE=demisto/gdetect:1.0.0.12689358`
 - Labels:
+  - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:a168542d16036d94b10904acd03b36fd2de35ab1`
-  - `org.opencontainers.image.version:1.0.0.11195141`
+  - `org.opencontainers.image.revision:96cf78e2a053066400d8da928255a8f385c6a535`
+  - `org.opencontainers.image.version:1.0.0.12689358`
+  - `panw.builtby.pipeline:12692931`
+  - `panw.builtby.project:xdr/cortex-content/dockerfiles`
+  - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -29,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/gdetect:1.0.0.11195141
+Signatures for demisto/gdetect:1.0.0.12689358
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11195141   1d885d8d04c7c264334968789f35f8853f4154a6f105f466a8b1725b8bb09139   (Repo Admin)
+1.0.0.12689358   c9f16cb99b2ea2d92d3518bcacce7e027d68cd55328336691ac3f709ea2ab60d   (Repo Admin)
 
-Administrative keys for demisto/gdetect:1.0.0.11195141
+Administrative keys for demisto/gdetect:1.0.0.12689358
 
   Repository Key:	999f10a12845778cabf2abc590cadaf6ae573aff12a438ba90f6da653493c06b
   Root Key:	2ed3379e8be89deacfcd9371333f3ff52f4f60867545f8e8a14735259abcd6da
@@ -43,6 +47,14 @@ Administrative keys for demisto/gdetect:1.0.0.11195141
 
 ## `Python Packages`
 
+
+### `anyio`
+
+* Summary: High-level concurrency and networking framework on top of asyncio or Trio
+* Version: 4.14.2
+* Pypi: https://pypi.org/project/anyio/
+* Homepage: None
+* Author: Alex Grönholm <alex.gronholm@nextday.fi>
 
 ### `certifi`
 
@@ -82,7 +94,7 @@ Administrative keys for demisto/gdetect:1.0.0.11195141
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.1
+* Version: 1.4.2
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -90,7 +102,7 @@ Administrative keys for demisto/gdetect:1.0.0.11195141
 ### `deepmerge`
 
 * Summary: A toolset for deeply merging Python dictionaries.
-* Version: 2.1.0
+* Version: 3.0
 * Pypi: https://pypi.org/project/deepmerge/
 * Homepage: None
 * Author: Yusuke Tsutsumi <yusuke@tsutsumi.io>
@@ -108,7 +120,7 @@ Administrative keys for demisto/gdetect:1.0.0.11195141
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.20.3
+* Version: 3.32.4
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -131,6 +143,33 @@ Administrative keys for demisto/gdetect:1.0.0.11195141
 * Homepage: None
 * Author: GLIMPS dev core team <contact@glimps.re>
 * License :: OSI Approved :: MIT License
+
+### `h11`
+
+* Summary: A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
+* Version: 0.16.0
+* Pypi: https://pypi.org/project/h11/
+* Homepage: https://github.com/python-hyper/h11
+* Author: Nathaniel J. Smith njs@pobox.com
+* License :: OSI Approved :: MIT License
+
+### `httpcore`
+
+* Summary: A minimal low-level HTTP client.
+* Version: 1.0.9
+* Pypi: https://pypi.org/project/httpcore/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+* License :: OSI Approved :: BSD License
+
+### `httpx`
+
+* Summary: The next generation HTTP client.
+* Version: 0.28.1
+* Pypi: https://pypi.org/project/httpx/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+* License :: OSI Approved :: BSD License
 
 ### `idna`
 
@@ -178,7 +217,7 @@ Administrative keys for demisto/gdetect:1.0.0.11195141
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.1
+* Version: 26.3
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -186,7 +225,7 @@ Administrative keys for demisto/gdetect:1.0.0.11195141
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.1.2
+* Version: 26.2.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -222,7 +261,7 @@ Administrative keys for demisto/gdetect:1.0.0.11195141
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.2
+* Version: 2026.3.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -240,7 +279,7 @@ Administrative keys for demisto/gdetect:1.0.0.11195141
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.5.9
+* Version: 2026.7.19
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -263,6 +302,15 @@ Administrative keys for demisto/gdetect:1.0.0.11195141
 * Author: David Shea <reallylongword@gmail.com>
 * License :: OSI Approved :: Apache Software License
 
+### `respx`
+
+* Summary: A utility for mocking out the Python HTTPX and HTTP Core libraries.
+* Version: 0.23.1
+* Pypi: https://pypi.org/project/respx/
+* Homepage: https://lundberg.github.io/respx/
+* Author: Jonas Lundberg jonas@5monkeys.se
+* License :: OSI Approved :: BSD License
+
 ### `rich`
 
 * Summary: Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
@@ -275,7 +323,7 @@ Administrative keys for demisto/gdetect:1.0.0.11195141
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 82.0.1
+* Version: 84.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -292,15 +340,23 @@ Administrative keys for demisto/gdetect:1.0.0.11195141
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.1
+* Version: 5.3.2
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
 
+### `typing_extensions`
+
+* Summary: Backported and Experimental Type Hints for Python 3.9+
+* Version: 4.16.0
+* Pypi: https://pypi.org/project/typing-extensions/
+* Homepage: None
+* Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
+
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4.3
+* Version: 5.4.4
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -316,19 +372,19 @@ Administrative keys for demisto/gdetect:1.0.0.11195141
 ### `wheel`
 
 * Summary: Command line tool for manipulating wheel files
-* Version: 0.47.0
+* Version: 0.48.0
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
 
 ## `OS Packages`
 
-* .python-rundeps-20260616.002526 noarch {.python-rundeps}
+* .python-rundeps-20260813.193941 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
 * alpine-release-3.24.1-r0 x86_64 {alpine-base}
-* apk-tools-3.0.6-r0 x86_64 {apk-tools}
+* apk-tools-3.0.7-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
 * ca-certificates-20260611-r0 x86_64 {ca-certificates}
@@ -337,16 +393,16 @@ Administrative keys for demisto/gdetect:1.0.0.11195141
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.2-r1 x86_64 {krb5}
-* libapk-3.0.6-r0 x86_64 {apk-tools}
+* libapk-3.0.7-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.7-r0 x86_64 {openssl}
+* libcrypto3-3.5.8-r0 x86_64 {openssl}
 * libffi-3.5.2-r1 x86_64 {libffi}
 * libintl-1.0-r0 x86_64 {gettext}
 * libncursesw-6.6_p20260516-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r2 x86_64 {libnsl}
 * libpanelw-6.6_p20260516-r0 x86_64 {ncurses}
-* libssl3-3.5.7-r0 x86_64 {openssl}
+* libssl3-3.5.8-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.42.1-r0 x86_64 {util-linux}
@@ -356,8 +412,8 @@ Administrative keys for demisto/gdetect:1.0.0.11195141
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
-* sqlite-libs-3.53.2-r0 x86_64 {sqlite}
+* sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026b-r0 x86_64 {tzdata}
+* tzdata-2026c-r0 x86_64 {tzdata}
 * xz-libs-5.8.3-r0 x86_64 {xz}
 * zlib-1.3.2-r0 x86_64 {zlib}

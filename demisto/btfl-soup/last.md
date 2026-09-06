@@ -1,24 +1,24 @@
-# `demisto/btfl-soup:1.0.1.12408181`
+# `demisto/btfl-soup:1.0.1.12689358`
 
 ## Docker Metadata
-- Image Size: 34.45 MB
-- Image ID: `sha256:b5d9dbdc0761150f4bb2ac398bf4b5c9ce9a94e30b053c354c9884eb13673970`
-- Created: `2026-08-27T17:56:33.114108105Z`
+- Image Size: 38.75 MB
+- Image ID: `sha256:411d655a735d02c8085f005ce27205bdc34922cbc310e62d30a68596e7cbc9da`
+- Created: `2026-09-03T08:45:58.707309095Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.13`
-  - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.12408181`
+  - `PYTHON_VERSION=3.12.14`
+  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
+  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.12689358`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:0efa4fd4e99d178f2379654104c2c85ce71a8241`
-  - `org.opencontainers.image.version:1.0.1.12408181`
-  - `panw.builtby.pipeline:12409213`
+  - `org.opencontainers.image.revision:96cf78e2a053066400d8da928255a8f385c6a535`
+  - `org.opencontainers.image.version:1.0.1.12689358`
+  - `panw.builtby.pipeline:12692953`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/btfl-soup:1.0.1.12408181
+Signatures for demisto/btfl-soup:1.0.1.12689358
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.1.12408181   51c99387f78f02382f2b8c1a383a5f3cd513bf7bb7de01dcd2906b0350e0ebd0   (Repo Admin)
+1.0.1.12689358   fdbc30cfe364d0110db7d3fbb5216c3db946d581cbfe9146755f68a1ab167a28   (Repo Admin)
 
-Administrative keys for demisto/btfl-soup:1.0.1.12408181
+Administrative keys for demisto/btfl-soup:1.0.1.12689358
 
   Repository Key:	2df9352dc8d80b6e208c7ff147fac5fe0db694f8ad563e69a8c0688b62620cb4
   Root Key:	48666b9a08f1927653d7c7246d50c6a1b3a7f7ff8ff8be1557cce0991627ccf4
@@ -47,6 +47,14 @@ Administrative keys for demisto/btfl-soup:1.0.1.12408181
 
 ## `Python Packages`
 
+
+### `anyio`
+
+* Summary: High-level concurrency and networking framework on top of asyncio or Trio
+* Version: 4.14.2
+* Pypi: https://pypi.org/project/anyio/
+* Homepage: None
+* Author: Alex Grönholm <alex.gronholm@nextday.fi>
 
 ### `beautifulsoup4`
 
@@ -60,7 +68,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.12408181
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.4.22
+* Version: 2026.7.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -69,7 +77,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.12408181
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.7
+* Version: 3.5.1
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -78,7 +86,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.12408181
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.1
+* Version: 1.4.2
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -86,7 +94,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.12408181
 ### `deepmerge`
 
 * Summary: A toolset for deeply merging Python dictionaries.
-* Version: 2.1.0
+* Version: 3.0
 * Pypi: https://pypi.org/project/deepmerge/
 * Homepage: None
 * Author: Yusuke Tsutsumi <yusuke@tsutsumi.io>
@@ -104,7 +112,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.12408181
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.20.3
+* Version: 3.32.4
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -119,10 +127,37 @@ Administrative keys for demisto/btfl-soup:1.0.1.12408181
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
+### `h11`
+
+* Summary: A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
+* Version: 0.16.0
+* Pypi: https://pypi.org/project/h11/
+* Homepage: https://github.com/python-hyper/h11
+* Author: Nathaniel J. Smith njs@pobox.com
+* License :: OSI Approved :: MIT License
+
+### `httpcore`
+
+* Summary: A minimal low-level HTTP client.
+* Version: 1.0.9
+* Pypi: https://pypi.org/project/httpcore/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+* License :: OSI Approved :: BSD License
+
+### `httpx`
+
+* Summary: The next generation HTTP client.
+* Version: 0.28.1
+* Pypi: https://pypi.org/project/httpx/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+* License :: OSI Approved :: BSD License
+
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.15
+* Version: 3.19
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -165,7 +200,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.12408181
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.1
+* Version: 26.3
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -220,7 +255,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.12408181
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.2
+* Version: 2026.3.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -238,7 +273,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.12408181
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.5.9
+* Version: 2026.7.19
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -261,6 +296,15 @@ Administrative keys for demisto/btfl-soup:1.0.1.12408181
 * Author: David Shea <reallylongword@gmail.com>
 * License :: OSI Approved :: Apache Software License
 
+### `respx`
+
+* Summary: A utility for mocking out the Python HTTPX and HTTP Core libraries.
+* Version: 0.23.1
+* Pypi: https://pypi.org/project/respx/
+* Homepage: https://lundberg.github.io/respx/
+* Author: Jonas Lundberg jonas@5monkeys.se
+* License :: OSI Approved :: BSD License
+
 ### `rsa`
 
 * Summary: Pure-Python RSA implementation
@@ -273,7 +317,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.12408181
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 82.0.1
+* Version: 84.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -299,7 +343,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.12408181
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.1
+* Version: 5.3.2
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
@@ -315,7 +359,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.12408181
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4.3
+* Version: 5.4.4
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -331,19 +375,19 @@ Administrative keys for demisto/btfl-soup:1.0.1.12408181
 ### `wheel`
 
 * Summary: Command line tool for manipulating wheel files
-* Version: 0.47.0
+* Version: 0.48.0
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
 
 ## `OS Packages`
 
-* .python-rundeps-20260616.002526 noarch {.python-rundeps}
+* .python-rundeps-20260813.193941 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
 * alpine-release-3.24.1-r0 x86_64 {alpine-base}
-* apk-tools-3.0.6-r0 x86_64 {apk-tools}
+* apk-tools-3.0.7-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
 * ca-certificates-20260611-r0 x86_64 {ca-certificates}
@@ -352,16 +396,16 @@ Administrative keys for demisto/btfl-soup:1.0.1.12408181
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.2-r1 x86_64 {krb5}
-* libapk-3.0.6-r0 x86_64 {apk-tools}
+* libapk-3.0.7-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.7-r0 x86_64 {openssl}
+* libcrypto3-3.5.8-r0 x86_64 {openssl}
 * libffi-3.5.2-r1 x86_64 {libffi}
 * libintl-1.0-r0 x86_64 {gettext}
 * libncursesw-6.6_p20260516-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r2 x86_64 {libnsl}
 * libpanelw-6.6_p20260516-r0 x86_64 {ncurses}
-* libssl3-3.5.7-r0 x86_64 {openssl}
+* libssl3-3.5.8-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.42.1-r0 x86_64 {util-linux}
@@ -371,8 +415,8 @@ Administrative keys for demisto/btfl-soup:1.0.1.12408181
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
-* sqlite-libs-3.53.2-r0 x86_64 {sqlite}
+* sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026b-r0 x86_64 {tzdata}
+* tzdata-2026c-r0 x86_64 {tzdata}
 * xz-libs-5.8.3-r0 x86_64 {xz}
 * zlib-1.3.2-r0 x86_64 {zlib}
