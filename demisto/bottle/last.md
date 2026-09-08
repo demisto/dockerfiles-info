@@ -1,9 +1,9 @@
-# `demisto/bottle:1.0.0.12701738`
+# `demisto/bottle:1.0.0.12833174`
 
 ## Docker Metadata
-- Image Size: 34.42 MB
-- Image ID: `sha256:81f0feaa13ea4797619aa81efbf9a5ba76dd3f93b394891712012f267a289848`
-- Created: `2026-09-03T12:13:15.323098153Z`
+- Image Size: 36.47 MB
+- Image ID: `sha256:aa7549711a8f41a502d9fe4c98489f28edb1e798df9e9e6e5d8b508eab7c661c`
+- Created: `2026-09-07T12:32:26.98004528Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/bottle:1.0.0.12701738`
+  - `DOCKER_IMAGE=demisto/bottle:1.0.0.12833174`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:48d385d29cee3f0147a01ba406df1cb665e28c6f`
-  - `org.opencontainers.image.version:1.0.0.12701738`
-  - `panw.builtby.pipeline:12704011`
+  - `org.opencontainers.image.revision:e6bdd2e7e03225131c3325800d42ca0c04fb87eb`
+  - `org.opencontainers.image.version:1.0.0.12833174`
+  - `panw.builtby.pipeline:12834374`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/bottle:1.0.0.12701738
+Signatures for demisto/bottle:1.0.0.12833174
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.12701738   66568717f918f26291cb0956b4939006a06d62a269eda5f2e4540fd070c90548   (Repo Admin)
+1.0.0.12833174   ab9e2f89f4242a934ac08f0450254a94d5203b1681bbbc3dc05d688247b68b7e   (Repo Admin)
 
-Administrative keys for demisto/bottle:1.0.0.12701738
+Administrative keys for demisto/bottle:1.0.0.12833174
 
   Repository Key:	800346c35e6d8d4e2bf2eb4887d8448ab755f9f40cb467ab0ec61d78dc896f8b
   Root Key:	c9f98e02413cd67a211f4093fabc47d720d4c4715ad161aaca49d46e74964eac
@@ -94,7 +94,7 @@ Administrative keys for demisto/bottle:1.0.0.12701738
 ### `deepmerge`
 
 * Summary: A toolset for deeply merging Python dictionaries.
-* Version: 3.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/deepmerge/
 * Homepage: None
 * Author: Yusuke Tsutsumi <yusuke@tsutsumi.io>
@@ -327,12 +327,12 @@ Administrative keys for demisto/bottle:1.0.0.12701738
 
 ## `OS Packages`
 
-* .python-rundeps-20260813.193941 noarch {.python-rundeps}
+* .python-rundeps-20260901.001029 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
 * alpine-release-3.24.1-r0 x86_64 {alpine-base}
-* apk-tools-3.0.7-r0 x86_64 {apk-tools}
+* apk-tools-3.0.8-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
 * ca-certificates-20260611-r0 x86_64 {ca-certificates}
@@ -341,7 +341,7 @@ Administrative keys for demisto/bottle:1.0.0.12701738
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.2-r1 x86_64 {krb5}
-* libapk-3.0.7-r0 x86_64 {apk-tools}
+* libapk-3.0.8-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.8-r0 x86_64 {openssl}
@@ -353,7 +353,7 @@ Administrative keys for demisto/bottle:1.0.0.12701738
 * libssl3-3.5.8-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
-* libuuid-2.42.1-r0 x86_64 {util-linux}
+* libuuid-2.42.3-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
 * musl-1.2.6-r2 x86_64 {musl}
 * musl-utils-1.2.6-r2 x86_64 {musl}
