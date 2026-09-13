@@ -1,9 +1,9 @@
-# `demisto/xpanse-ml-ev2:1.0.0.12701738`
+# `demisto/xpanse-ml-ev2:1.0.0.12973002`
 
 ## Docker Metadata
-- Image Size: 188.55 MB
-- Image ID: `sha256:92e5d875d3000a2140e9a0bb54a4115f845a2c4431b71329961c5133fab9a1fb`
-- Created: `2026-09-03T12:12:52.833199462Z`
+- Image Size: 188.64 MB
+- Image ID: `sha256:b446e9f393c154a470f833314bb88104311a3cbdcbf452061278137b79df2006`
+- Created: `2026-09-10T17:45:22.98620729Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.12701738`
+  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.12973002`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:48d385d29cee3f0147a01ba406df1cb665e28c6f`
-  - `org.opencontainers.image.version:1.0.0.12701738`
-  - `panw.builtby.pipeline:12703998`
+  - `org.opencontainers.image.revision:0e9e7d7486de01e5397036291420e0098bfc621c`
+  - `org.opencontainers.image.version:1.0.0.12973002`
+  - `panw.builtby.pipeline:12973681`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/xpanse-ml-ev2:1.0.0.12701738
+Signatures for demisto/xpanse-ml-ev2:1.0.0.12973002
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.12701738   5d7bab32bb61d8b7fd416748415dc4cb9726bc49c471cc447b8d72ec3976e19b   (Repo Admin)
+1.0.0.12973002   48f105420a960836ed419adf7806176f48f5bbca31ebad6b9a124cb848e51df6   (Repo Admin)
 
-Administrative keys for demisto/xpanse-ml-ev2:1.0.0.12701738
+Administrative keys for demisto/xpanse-ml-ev2:1.0.0.12973002
 
   Repository Key:	fa55b8182edbcafca39872dc58748778b2ff80634214e1872a9351313e618c45
   Root Key:	4324e3baaaa90dedc0be93f30c2271fb7bbaa8de8949e6c3996a45c6e81637d2
@@ -134,7 +134,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.12701738
 * Summary: A fancy and practical functional tools
 * Version: 2.0
 * Pypi: https://pypi.org/project/funcy/
-* Homepage: http://github.com/Suor/funcy
+* Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
@@ -263,7 +263,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.12701738
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.5.2
+* Version: 2.5.3
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.

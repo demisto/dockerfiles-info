@@ -1,9 +1,9 @@
-# `demisto/mlclustering:1.0.0.12701738`
+# `demisto/mlclustering:1.0.0.12973002`
 
 ## Docker Metadata
-- Image Size: 185.59 MB
-- Image ID: `sha256:ab4d5638609e3c14de5ca74e20fa1668ce0fdffdc40744ee1be87802b74aef0b`
-- Created: `2026-09-03T12:13:30.681395219Z`
+- Image Size: 185.52 MB
+- Image ID: `sha256:bd5e8f4b7c5ca74c9c81323d6f5319570f124c20b9a708b05a49807b7f991a9c`
+- Created: `2026-09-10T17:44:26.755258354Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/mlclustering:1.0.0.12701738`
+  - `DOCKER_IMAGE=demisto/mlclustering:1.0.0.12973002`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:48d385d29cee3f0147a01ba406df1cb665e28c6f`
-  - `org.opencontainers.image.version:1.0.0.12701738`
-  - `panw.builtby.pipeline:12704020`
+  - `org.opencontainers.image.revision:0e9e7d7486de01e5397036291420e0098bfc621c`
+  - `org.opencontainers.image.version:1.0.0.12973002`
+  - `panw.builtby.pipeline:12973682`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/mlclustering:1.0.0.12701738
+Signatures for demisto/mlclustering:1.0.0.12973002
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.12701738   5affe9261192db5afed7d25af203752c06f46511263ae6d0b0670b785ed515a4   (Repo Admin)
+1.0.0.12973002   58e34001c62b9c639e833cd51f86c6ae136786c0d52ab2fdcd11d57b2e4fec83   (Repo Admin)
 
-Administrative keys for demisto/mlclustering:1.0.0.12701738
+Administrative keys for demisto/mlclustering:1.0.0.12973002
 
   Repository Key:	d8855dc0db9e2ead8c2f610d59993d791267c23029f0e34d7599fdc315359432
   Root Key:	e037f02a27ce45de827cee6fb6e79e9a04241487236ec6abf050019f6a7e7f13
@@ -118,7 +118,7 @@ Administrative keys for demisto/mlclustering:1.0.0.12701738
 * Summary: A fancy and practical functional tools
 * Version: 2.0
 * Pypi: https://pypi.org/project/funcy/
-* Homepage: http://github.com/Suor/funcy
+* Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
@@ -193,7 +193,7 @@ Administrative keys for demisto/mlclustering:1.0.0.12701738
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.5.2
+* Version: 2.5.3
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.

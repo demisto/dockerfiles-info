@@ -332,7 +332,6 @@
             "demisto/tidy",
             "demisto/fastapi",
             "demisto/rubrik-polaris-sdk-py3",
-            "demisto/oci",
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/teams",
@@ -342,7 +341,8 @@
             "demisto/axonius",
             "demisto/flask-nginx",
             "demisto/keeper-ksm",
-            "demisto/mcp"
+            "demisto/mcp",
+            "demisto/oci"
         ],
         "home_page": "http://github.com/jpadilla/pyjwt",
         "licenses": [
@@ -567,7 +567,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -579,8 +578,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -610,7 +607,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -636,7 +632,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -843,7 +843,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -855,8 +854,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -886,7 +883,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -912,7 +908,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -1129,10 +1129,10 @@
             "demisto/ansible-runner",
             "demisto/auth-utils",
             "demisto/taegis-sdk-python",
-            "demisto/oci",
             "demisto/slackv3",
             "demisto/anyrun-sdk",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/oci"
         ],
         "home_page": null,
         "licenses": [
@@ -1151,10 +1151,10 @@
             "demisto/netutils",
             "demisto/auth-utils",
             "demisto/taegis-sdk-python",
-            "demisto/oci",
             "demisto/slackv3",
             "demisto/anyrun-sdk",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/oci"
         ],
         "home_page": "https://github.com/aio-libs/aiohttp",
         "licenses": [
@@ -1186,10 +1186,10 @@
             "demisto/ansible-runner",
             "demisto/auth-utils",
             "demisto/taegis-sdk-python",
-            "demisto/oci",
             "demisto/slackv3",
             "demisto/anyrun-sdk",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/oci"
         ],
         "home_page": "https://github.com/aio-libs/aiosignal",
         "licenses": [
@@ -1563,7 +1563,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -1575,8 +1574,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -1604,7 +1601,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -1630,7 +1626,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "",
         "licenses": [
@@ -1882,11 +1882,11 @@
             "demisto/carbon-black-cloud",
             "demisto/auth-utils",
             "demisto/taegis-sdk-python",
-            "demisto/oci",
             "demisto/slackv3",
             "demisto/anyrun-sdk",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/oci"
         ],
         "home_page": "https://www.attrs.org/",
         "licenses": [
@@ -2624,13 +2624,13 @@
             "demisto/taxii",
             "demisto/taxii-server",
             "demisto/py3ews",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/flask-nginx",
             "demisto/bs4-tld",
             "demisto/bs4-py3",
             "demisto/keeper-ksm",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn"
         ],
         "home_page": "http://www.crummy.com/software/BeautifulSoup/bs4/",
         "licenses": [
@@ -3114,7 +3114,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -3126,8 +3125,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -3157,7 +3154,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -3183,7 +3179,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -3235,8 +3235,6 @@
             "demisto/rubrik-polaris-sdk-py3",
             "demisto/exodusintelligence",
             "demisto/panw-iot",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/anthropic",
             "demisto/vmware",
             "demisto/py-ews",
@@ -3256,7 +3254,9 @@
             "demisto/slackv3",
             "demisto/keeper-ksm",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "http://cffi.readthedocs.org",
         "licenses": [
@@ -3487,7 +3487,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -3499,8 +3498,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -3530,7 +3527,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -3556,7 +3552,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/ousret/charset_normalizer",
         "licenses": [
@@ -3629,11 +3629,11 @@
             "demisto/keepercommander",
             "demisto/teams",
             "demisto/taxii-server",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/flask-nginx",
             "demisto/sublime",
-            "demisto/mcp"
+            "demisto/mcp",
+            "demisto/sklearn"
         ],
         "home_page": "https://palletsprojects.com/p/click/",
         "licenses": [
@@ -4015,8 +4015,6 @@
             "demisto/pymisp2",
             "demisto/rubrik-polaris-sdk-py3",
             "demisto/panw-iot",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/anthropic",
             "demisto/vmware",
             "demisto/py-ews",
@@ -4035,7 +4033,9 @@
             "demisto/flask-nginx",
             "demisto/keeper-ksm",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/pyca/cryptography",
         "licenses": [
@@ -4360,7 +4360,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -4372,8 +4371,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -4403,7 +4400,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -4429,7 +4425,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -4509,7 +4509,6 @@
             "demisto/gdetect",
             "demisto/armorblox",
             "demisto/illumio",
-            "demisto/oci",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -4530,7 +4529,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -4556,7 +4554,9 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/oci"
         ],
         "home_page": null,
         "licenses": [
@@ -4700,7 +4700,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -4712,8 +4711,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -4743,7 +4740,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -4769,7 +4765,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/tiran/defusedxml",
         "licenses": [
@@ -4894,10 +4894,10 @@
             "demisto/demisto-sdk",
             "demisto/mlurlphishing",
             "demisto/xsoar-tools",
-            "demisto/mlclustering",
-            "demisto/xpanse-ml-ev2",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://pypi.org/project/dill",
         "licenses": [
@@ -5722,7 +5722,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -5734,8 +5733,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -5765,7 +5762,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -5791,7 +5787,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/benediktschmitt/py-filelock",
         "licenses": [
@@ -5954,10 +5954,10 @@
             "demisto/ansible-runner",
             "demisto/auth-utils",
             "demisto/taegis-sdk-python",
-            "demisto/oci",
             "demisto/slackv3",
             "demisto/anyrun-sdk",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/oci"
         ],
         "home_page": "https://github.com/aio-libs/frozenlist",
         "licenses": [
@@ -6150,7 +6150,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -6162,8 +6161,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -6193,7 +6190,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -6219,7 +6215,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -6407,10 +6407,10 @@
             "demisto/google-kms",
             "demisto/google-api-py3",
             "demisto/rubrik-polaris-sdk-py3",
-            "demisto/xpanse-ml-ev2",
             "demisto/bigquery",
             "demisto/google-cloud-storage",
-            "demisto/google-k8s-engine"
+            "demisto/google-k8s-engine",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-cloud-python",
         "licenses": [
@@ -6454,11 +6454,11 @@
             "demisto/google-kms",
             "demisto/google-api-py3",
             "demisto/rubrik-polaris-sdk-py3",
-            "demisto/xpanse-ml-ev2",
             "demisto/anthropic",
             "demisto/bigquery",
             "demisto/google-cloud-storage",
-            "demisto/google-k8s-engine"
+            "demisto/google-k8s-engine",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-auth-library-python",
         "licenses": [
@@ -6545,9 +6545,9 @@
             "demisto/xsoar-tools",
             "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/xpanse-ml-ev2",
             "demisto/bigquery",
-            "demisto/google-cloud-storage"
+            "demisto/google-cloud-storage",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-cloud-python",
         "licenses": [
@@ -6627,8 +6627,8 @@
             "demisto/xsoar-tools",
             "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/xpanse-ml-ev2",
-            "demisto/google-cloud-storage"
+            "demisto/google-cloud-storage",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-cloud-python",
         "licenses": [
@@ -6668,9 +6668,9 @@
             "demisto/xsoar-tools",
             "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/xpanse-ml-ev2",
             "demisto/bigquery",
-            "demisto/google-cloud-storage"
+            "demisto/google-cloud-storage",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/googleapis/python-crc32c",
         "licenses": [
@@ -6699,9 +6699,9 @@
             "demisto/xsoar-tools",
             "demisto/google-vision-api",
             "demisto/googleapi-python3",
-            "demisto/xpanse-ml-ev2",
             "demisto/bigquery",
-            "demisto/google-cloud-storage"
+            "demisto/google-cloud-storage",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-resumable-media-python",
         "licenses": [
@@ -6726,11 +6726,11 @@
             "demisto/google-kms",
             "demisto/google-api-py3",
             "demisto/rubrik-polaris-sdk-py3",
-            "demisto/xpanse-ml-ev2",
             "demisto/keepercommander",
             "demisto/bigquery",
             "demisto/google-cloud-storage",
-            "demisto/google-k8s-engine"
+            "demisto/google-k8s-engine",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/googleapis/googleapis",
         "licenses": [
@@ -6965,7 +6965,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -6977,8 +6976,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -7006,7 +7003,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -7032,7 +7028,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/python-hyper/h11",
         "licenses": [
@@ -7172,7 +7172,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -7184,8 +7183,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -7213,7 +7210,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -7239,7 +7235,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": null,
         "licenses": [
@@ -7333,7 +7333,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -7345,8 +7344,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -7374,7 +7371,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -7400,7 +7396,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "",
         "licenses": [
@@ -7709,7 +7709,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -7721,8 +7720,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -7752,7 +7749,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -7778,7 +7774,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -8249,10 +8249,10 @@
             "demisto/mlurlphishing",
             "demisto/stringsifter",
             "demisto/xsoar-tools",
-            "demisto/mlclustering",
-            "demisto/xpanse-ml-ev2",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://joblib.readthedocs.io",
         "licenses": [
@@ -9287,7 +9287,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -9299,8 +9298,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -9330,7 +9327,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -9356,7 +9352,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "",
         "licenses": [
@@ -9524,11 +9524,11 @@
             "demisto/taegis-sdk-python",
             "demisto/graphql",
             "demisto/panw-iot",
-            "demisto/oci",
             "demisto/slackv3",
             "demisto/anyrun-sdk",
             "demisto/py-tenable",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/oci"
         ],
         "home_page": "https://github.com/aio-libs/multidict",
         "licenses": [
@@ -9594,10 +9594,10 @@
         "author": "Marco Gorelli <33491632+MarcoGorelli@users.noreply.github.com>",
         "docker_images": [
             "demisto/mlurlphishing",
-            "demisto/mlclustering",
-            "demisto/xpanse-ml-ev2",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": null,
         "licenses": [
@@ -9867,12 +9867,12 @@
             "demisto/python-phash",
             "demisto/media-analysis",
             "demisto/devo",
-            "demisto/mlclustering",
             "demisto/panw-iot",
-            "demisto/xpanse-ml-ev2",
             "demisto/pandas",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://www.numpy.org",
         "licenses": [
@@ -10133,7 +10133,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -10145,8 +10144,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -10176,7 +10173,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -10202,7 +10198,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -10607,7 +10607,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -10619,8 +10618,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -10650,7 +10647,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -10676,7 +10672,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/pypa/packaging",
         "licenses": [
@@ -10769,12 +10769,12 @@
             "demisto/mlurlphishing",
             "demisto/office-utils",
             "demisto/devo",
-            "demisto/mlclustering",
             "demisto/panw-iot",
-            "demisto/xpanse-ml-ev2",
             "demisto/pandas",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "http://pandas.pydata.org",
         "licenses": [
@@ -11241,7 +11241,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -11253,8 +11252,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -11284,7 +11281,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -11310,7 +11306,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -11592,11 +11592,11 @@
             "demisto/auth-utils",
             "demisto/taegis-sdk-python",
             "demisto/graphql",
-            "demisto/oci",
             "demisto/slackv3",
             "demisto/anyrun-sdk",
             "demisto/py-tenable",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/oci"
         ],
         "home_page": "https://github.com/aio-libs/propcache",
         "licenses": [
@@ -11618,10 +11618,10 @@
             "demisto/google-kms",
             "demisto/google-api-py3",
             "demisto/rubrik-polaris-sdk-py3",
-            "demisto/xpanse-ml-ev2",
             "demisto/bigquery",
             "demisto/google-cloud-storage",
-            "demisto/google-k8s-engine"
+            "demisto/google-k8s-engine",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/googleapis/proto-plus-python.git",
         "licenses": [
@@ -11650,14 +11650,14 @@
             "demisto/google-api-py3",
             "demisto/rubrik-polaris-sdk-py3",
             "demisto/panw-iot",
-            "demisto/xpanse-ml-ev2",
             "demisto/ml",
             "demisto/keepercommander",
             "demisto/bigquery",
             "demisto/google-cloud-storage",
             "demisto/elasticsearch",
             "demisto/google-k8s-engine",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://developers.google.com/protocol-buffers/",
         "licenses": [
@@ -11780,7 +11780,6 @@
             "demisto/tidy",
             "demisto/devo",
             "demisto/panw-iot",
-            "demisto/oci",
             "demisto/vmware",
             "demisto/snowflake",
             "demisto/crypto",
@@ -11789,7 +11788,8 @@
             "demisto/py3ews",
             "demisto/axonius",
             "demisto/flask-nginx",
-            "demisto/keeper-ksm"
+            "demisto/keeper-ksm",
+            "demisto/oci"
         ],
         "home_page": "https://pyopenssl.org/",
         "licenses": [
@@ -11919,14 +11919,14 @@
             "demisto/google-api-py3",
             "demisto/rubrik-polaris-sdk-py3",
             "demisto/panw-iot",
-            "demisto/xpanse-ml-ev2",
             "demisto/anthropic",
             "demisto/bigquery",
             "demisto/google-cloud-storage",
             "demisto/taxii",
             "demisto/google-k8s-engine",
             "demisto/bs4-tld",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/etingof/pyasn1",
         "licenses": [
@@ -11963,11 +11963,11 @@
             "demisto/google-kms",
             "demisto/google-api-py3",
             "demisto/rubrik-polaris-sdk-py3",
-            "demisto/xpanse-ml-ev2",
             "demisto/anthropic",
             "demisto/bigquery",
             "demisto/google-cloud-storage",
-            "demisto/google-k8s-engine"
+            "demisto/google-k8s-engine",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/pyasn1/pyasn1-modules",
         "licenses": [
@@ -12134,8 +12134,6 @@
             "demisto/rubrik-polaris-sdk-py3",
             "demisto/exodusintelligence",
             "demisto/panw-iot",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/anthropic",
             "demisto/vmware",
             "demisto/py-ews",
@@ -12155,7 +12153,9 @@
             "demisto/slackv3",
             "demisto/keeper-ksm",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/eliben/pycparser",
         "licenses": [
@@ -12999,7 +12999,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -13011,8 +13010,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -13042,7 +13039,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -13068,7 +13064,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -13498,7 +13498,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -13510,8 +13509,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -13541,7 +13538,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -13567,7 +13563,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -13948,7 +13948,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -13960,8 +13959,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -13991,7 +13988,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -14017,7 +14013,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -14232,7 +14232,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -14244,8 +14243,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -14275,7 +14272,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -14301,7 +14297,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -14478,7 +14478,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -14490,8 +14489,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -14521,7 +14518,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -14547,7 +14543,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -14763,7 +14763,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -14775,8 +14774,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -14804,7 +14801,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -14830,7 +14826,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://lundberg.github.io/respx/",
         "licenses": [
@@ -15102,10 +15102,10 @@
             "demisto/machine-learning",
             "demisto/mlurlphishing",
             "demisto/stringsifter",
-            "demisto/mlclustering",
-            "demisto/xpanse-ml-ev2",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "http://scikit-learn.org",
         "licenses": [
@@ -15128,10 +15128,10 @@
             "demisto/stringsifter",
             "demisto/python-phash",
             "demisto/media-analysis",
-            "demisto/mlclustering",
-            "demisto/xpanse-ml-ev2",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://www.scipy.org",
         "licenses": [
@@ -15408,7 +15408,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -15420,8 +15419,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -15451,7 +15448,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -15477,7 +15473,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -15771,7 +15771,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -15783,8 +15782,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -15814,7 +15811,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -15840,7 +15836,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -16057,13 +16057,13 @@
             "demisto/taxii",
             "demisto/taxii-server",
             "demisto/py3ews",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/flask-nginx",
             "demisto/bs4-tld",
             "demisto/bs4-py3",
             "demisto/keeper-ksm",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn"
         ],
         "home_page": "https://github.com/facelessuser/soupsieve",
         "licenses": [
@@ -16619,10 +16619,10 @@
             "demisto/py3-native",
             "demisto/mlurlphishing",
             "demisto/stringsifter",
-            "demisto/mlclustering",
-            "demisto/xpanse-ml-ev2",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/joblib/threadpoolctl",
         "licenses": [
@@ -16869,7 +16869,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -16881,8 +16880,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -16912,7 +16909,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -16938,7 +16934,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -17325,7 +17325,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -17337,8 +17336,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -17367,7 +17364,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -17393,7 +17389,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "",
         "licenses": [
@@ -17635,7 +17635,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -17647,8 +17646,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -17678,7 +17675,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -17704,7 +17700,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -17965,7 +17965,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -17977,8 +17976,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -18008,7 +18005,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -18034,7 +18030,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -18698,7 +18698,6 @@
             "demisto/graphql",
             "demisto/greynoise",
             "demisto/smbprotocol",
-            "demisto/mlclustering",
             "demisto/pymisp2",
             "demisto/syslog",
             "demisto/ibm-db2",
@@ -18710,8 +18709,6 @@
             "demisto/armorblox",
             "demisto/panw-iot",
             "demisto/illumio",
-            "demisto/oci",
-            "demisto/xpanse-ml-ev2",
             "demisto/sse-client",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -18741,7 +18738,6 @@
             "demisto/py3ews",
             "demisto/pcap-miner",
             "demisto/pycef",
-            "demisto/sklearn",
             "demisto/axonius",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
@@ -18767,7 +18763,11 @@
             "demisto/py-tenable",
             "demisto/boto3py3",
             "demisto/mcp",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/sklearn",
+            "demisto/mlclustering",
+            "demisto/oci",
+            "demisto/xpanse-ml-ev2"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
@@ -18948,11 +18948,11 @@
             "demisto/auth-utils",
             "demisto/taegis-sdk-python",
             "demisto/graphql",
-            "demisto/oci",
             "demisto/slackv3",
             "demisto/anyrun-sdk",
             "demisto/py-tenable",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/oci"
         ],
         "home_page": "https://github.com/aio-libs/yarl/",
         "licenses": [

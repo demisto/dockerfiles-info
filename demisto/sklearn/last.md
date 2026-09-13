@@ -1,9 +1,9 @@
-# `demisto/sklearn:1.0.0.12833174`
+# `demisto/sklearn:1.0.0.12973002`
 
 ## Docker Metadata
 - Image Size: 263.40 MB
-- Image ID: `sha256:a6e2682e522843a174d8cd0a5c6d1b0c25b3ae62a0f5d2072f81ddb6252f495b`
-- Created: `2026-09-07T12:33:52.84683176Z`
+- Image ID: `sha256:6f27d66b8a407eea147388382bd655578c9bf940fc33cff522e23ff27481a25f`
+- Created: `2026-09-10T17:43:54.4203576Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/sklearn:1.0.0.12833174`
+  - `DOCKER_IMAGE=demisto/sklearn:1.0.0.12973002`
   - `NLTK_DATA=/ml/nltk_data`
   - `OPENBLAS_NUM_THREADS=1`
   - `OMP_NUM_THREADS=4`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:e6bdd2e7e03225131c3325800d42ca0c04fb87eb`
-  - `org.opencontainers.image.version:1.0.0.12833174`
-  - `panw.builtby.pipeline:12834390`
+  - `org.opencontainers.image.revision:0e9e7d7486de01e5397036291420e0098bfc621c`
+  - `org.opencontainers.image.version:1.0.0.12973002`
+  - `panw.builtby.pipeline:12973680`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sklearn:1.0.0.12833174
+Signatures for demisto/sklearn:1.0.0.12973002
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.12833174   46f96a6e50cd493f2fd2fc5e03e04b28743c2de2102f3d5038e8bba489bcef82   (Repo Admin)
+1.0.0.12973002   8f8220fcc9777663f361e0692b3554a735563d9873711415394632279186aee2   (Repo Admin)
 
-Administrative keys for demisto/sklearn:1.0.0.12833174
+Administrative keys for demisto/sklearn:1.0.0.12973002
 
   Repository Key:	2475832d78c902e8999df2055c0f69226a85caf5ee20d300c05ffb6e87dd9f7c
   Root Key:	8ab906212f9f7b6d82f5edb3d677b0df40095899339fa0b36ecd00b68b304458
@@ -143,7 +143,7 @@ Administrative keys for demisto/sklearn:1.0.0.12833174
 * Summary: A fancy and practical functional tools
 * Version: 2.0
 * Pypi: https://pypi.org/project/funcy/
-* Homepage: http://github.com/Suor/funcy
+* Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
@@ -226,7 +226,7 @@ Administrative keys for demisto/sklearn:1.0.0.12833174
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.5.2
+* Version: 2.5.3
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.
