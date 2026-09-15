@@ -1,9 +1,9 @@
-# `demisto/xml-feed:1.0.0.11664939`
+# `demisto/xml-feed:1.0.0.13048120`
 
 ## Docker Metadata
-- Image Size: 43.66 MB
-- Image ID: `sha256:c8d3171204d8d53f2c6c9f71522ef049b4c8b6f312e251855a77e417ad4dcb88`
-- Created: `2026-08-05T08:58:30.525216531Z`
+- Image Size: 46.58 MB
+- Image ID: `sha256:226c4467296402048e3abdf0e98e02c873de19bce3e8e42ce0e221cdb7f1ae2e`
+- Created: `2026-09-14T14:43:41.341007868Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/xml-feed:1.0.0.11664939`
+  - `DOCKER_IMAGE=demisto/xml-feed:1.0.0.13048120`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:4ff1059d9a2c945af8627e4dbfd72f92692c8b6a`
-  - `org.opencontainers.image.version:1.0.0.11664939`
-  - `panw.builtby.pipeline:11666191`
+  - `org.opencontainers.image.revision:5cc57d8a2da37f12510a1273dd1fb7e00b093ccc`
+  - `org.opencontainers.image.version:1.0.0.13048120`
+  - `panw.builtby.pipeline:13049083`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/xml-feed:1.0.0.11664939
+Signatures for demisto/xml-feed:1.0.0.13048120
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11664939   769320177d3aa2b5c40f8edb33e2b88af95ddd1a6147b9508a21cf57f677d831   (Repo Admin)
+1.0.0.13048120   1c62c02c6814367b7656204795082738a22b277d26017262176ad0275fb0541d   (Repo Admin)
 
-Administrative keys for demisto/xml-feed:1.0.0.11664939
+Administrative keys for demisto/xml-feed:1.0.0.13048120
 
   Repository Key:	d7a3851a8dedb4115adcc29e389c8f4d8da1d1f3e14194f9b8b72d361f790180
   Root Key:	56e0e4f8c06deea10a7afdef3d7792c83adefa42dd2b4621a72875f1e39241ab
@@ -140,7 +140,7 @@ Administrative keys for demisto/xml-feed:1.0.0.11664939
 * Summary: A fancy and practical functional tools
 * Version: 2.0
 * Pypi: https://pypi.org/project/funcy/
-* Homepage: http://github.com/Suor/funcy
+* Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
@@ -393,13 +393,13 @@ Administrative keys for demisto/xml-feed:1.0.0.11664939
 * libapk-3.0.6-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.7-r0 x86_64 {openssl}
+* libcrypto3-3.5.8-r0 x86_64 {openssl}
 * libffi-3.5.2-r1 x86_64 {libffi}
 * libintl-1.0-r0 x86_64 {gettext}
 * libncursesw-6.6_p20260516-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r2 x86_64 {libnsl}
 * libpanelw-6.6_p20260516-r0 x86_64 {ncurses}
-* libssl3-3.5.7-r0 x86_64 {openssl}
+* libssl3-3.5.8-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.42.1-r0 x86_64 {util-linux}
@@ -407,6 +407,7 @@ Administrative keys for demisto/xml-feed:1.0.0.11664939
 * musl-1.2.6-r2 x86_64 {musl}
 * musl-utils-1.2.6-r2 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
+* openssl-3.5.8-r0 x86_64 {openssl}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.2-r0 x86_64 {sqlite}

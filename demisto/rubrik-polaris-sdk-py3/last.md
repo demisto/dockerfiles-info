@@ -1,9 +1,9 @@
-# `demisto/rubrik-polaris-sdk-py3:1.0.0.12701738`
+# `demisto/rubrik-polaris-sdk-py3:1.0.0.13053055`
 
 ## Docker Metadata
-- Image Size: 87.49 MB
-- Image ID: `sha256:b6c567ea78c58555f7c3fa8074903fd05eaff2ef1d62a2bf30ff13fe84bf3bb3`
-- Created: `2026-09-03T12:12:07.003580795Z`
+- Image Size: 87.50 MB
+- Image ID: `sha256:debb8ca8659c1c044f853a0bce54f4d5c2836697125e0d68d6db8df00a1d3b9b`
+- Created: `2026-09-14T18:10:34.112861138Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/rubrik-polaris-sdk-py3:1.0.0.12701738`
+  - `DOCKER_IMAGE=demisto/rubrik-polaris-sdk-py3:1.0.0.13053055`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:48d385d29cee3f0147a01ba406df1cb665e28c6f`
-  - `org.opencontainers.image.version:1.0.0.12701738`
-  - `panw.builtby.pipeline:12704021`
+  - `org.opencontainers.image.revision:31f9fd5884601ce1d255d5c045751e91e131cdaf`
+  - `org.opencontainers.image.version:1.0.0.13053055`
+  - `panw.builtby.pipeline:13054135`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/rubrik-polaris-sdk-py3:1.0.0.12701738
+Signatures for demisto/rubrik-polaris-sdk-py3:1.0.0.13053055
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.12701738   9a40d5af05db045590a877b58f87a774a40ae443a4ab5185d33592235242668c   (Repo Admin)
+1.0.0.13053055   7daf4969d88f30e5162b6dea14161076e08b2f3950281737a20871c99391705a   (Repo Admin)
 
-Administrative keys for demisto/rubrik-polaris-sdk-py3:1.0.0.12701738
+Administrative keys for demisto/rubrik-polaris-sdk-py3:1.0.0.13053055
 
   Repository Key:	1b281dec395e4830206052ca7e6c1135c52928081c5362ecffc899f4a6ec19ef
   Root Key:	649e02f412238022e9aa6b004a5838206b0b4e0ca4f4a6c5b8afd2a5a75e420d
@@ -157,7 +157,7 @@ Administrative keys for demisto/rubrik-polaris-sdk-py3:1.0.0.12701738
 * Summary: A fancy and practical functional tools
 * Version: 2.0
 * Pypi: https://pypi.org/project/funcy/
-* Homepage: http://github.com/Suor/funcy
+* Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
@@ -358,7 +358,7 @@ Administrative keys for demisto/rubrik-polaris-sdk-py3:1.0.0.12701738
 ### `PyJWT`
 
 * Summary: JSON Web Token implementation in Python
-* Version: 2.13.0
+* Version: 2.14.0
 * Pypi: https://pypi.org/project/PyJWT/
 * Homepage: None
 * Author: Jose Padilla <hello@jpadilla.com>

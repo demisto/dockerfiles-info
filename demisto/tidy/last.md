@@ -1,9 +1,9 @@
-# `demisto/tidy:1.0.0.12632044`
+# `demisto/tidy:1.0.0.13053055`
 
 ## Docker Metadata
-- Image Size: 135.14 MB
-- Image ID: `sha256:b173f1ad92fdb0408a7ad6093e9b368b5d4322e7b78d9649b973d327b0f40682`
-- Created: `2026-09-02T05:43:25.315403311Z`
+- Image Size: 135.87 MB
+- Image ID: `sha256:46c9d3caece4cd0eb16bf8a10c616d195cca0f969e6a7473e0fcd27a51f129fa`
+- Created: `2026-09-14T18:12:09.578346327Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/tidy:1.0.0.12632044`
+  - `DOCKER_IMAGE=demisto/tidy:1.0.0.13053055`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:58dd1282dd5a6daedc65a6f4ee9c502c5e111152`
-  - `org.opencontainers.image.version:1.0.0.12632044`
-  - `panw.builtby.pipeline:12632372`
+  - `org.opencontainers.image.revision:31f9fd5884601ce1d255d5c045751e91e131cdaf`
+  - `org.opencontainers.image.version:1.0.0.13053055`
+  - `panw.builtby.pipeline:13054139`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/tidy:1.0.0.12632044
+Signatures for demisto/tidy:1.0.0.13053055
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.12632044   d81633ba3e4465c78a6ec3ed5a203dc00cd30df99fcefd0f3187f72a60490d69   (Repo Admin)
+1.0.0.13053055   a638e78bfbdca0c4915e25d2175dbfcbafa7bc01146cb06298f834db8bb981ba   (Repo Admin)
 
-Administrative keys for demisto/tidy:1.0.0.12632044
+Administrative keys for demisto/tidy:1.0.0.13053055
 
   Repository Key:	5f17b9d56ce23d820632c3aab69771c41c29b4a5ff9dfe8cbea5e4ca7cc9857b
   Root Key:	35b6195205c264962e7a1726995d97d4c9f7d85c8a9c9909105016d7f930b79e
@@ -158,7 +158,7 @@ Administrative keys for demisto/tidy:1.0.0.12632044
 * Summary: A fancy and practical functional tools
 * Version: 2.0
 * Pypi: https://pypi.org/project/funcy/
-* Homepage: http://github.com/Suor/funcy
+* Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 

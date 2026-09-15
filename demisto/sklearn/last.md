@@ -1,9 +1,9 @@
-# `demisto/sklearn:1.0.0.12973002`
+# `demisto/sklearn:1.0.0.13053055`
 
 ## Docker Metadata
-- Image Size: 263.40 MB
-- Image ID: `sha256:6f27d66b8a407eea147388382bd655578c9bf940fc33cff522e23ff27481a25f`
-- Created: `2026-09-10T17:43:54.4203576Z`
+- Image Size: 263.52 MB
+- Image ID: `sha256:381a2446ab3cf0f08c457ac20e8d74d83169519232645b5f061f63be5b6d6a18`
+- Created: `2026-09-14T18:12:05.56371031Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/sklearn:1.0.0.12973002`
+  - `DOCKER_IMAGE=demisto/sklearn:1.0.0.13053055`
   - `NLTK_DATA=/ml/nltk_data`
   - `OPENBLAS_NUM_THREADS=1`
   - `OMP_NUM_THREADS=4`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:0e9e7d7486de01e5397036291420e0098bfc621c`
-  - `org.opencontainers.image.version:1.0.0.12973002`
-  - `panw.builtby.pipeline:12973680`
+  - `org.opencontainers.image.revision:31f9fd5884601ce1d255d5c045751e91e131cdaf`
+  - `org.opencontainers.image.version:1.0.0.13053055`
+  - `panw.builtby.pipeline:13054148`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sklearn:1.0.0.12973002
+Signatures for demisto/sklearn:1.0.0.13053055
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.12973002   8f8220fcc9777663f361e0692b3554a735563d9873711415394632279186aee2   (Repo Admin)
+1.0.0.13053055   48e7f2d9c6cc8c3e636508b55f0e39669ae2c29d27c627567b3c8df3070d1342   (Repo Admin)
 
-Administrative keys for demisto/sklearn:1.0.0.12973002
+Administrative keys for demisto/sklearn:1.0.0.13053055
 
   Repository Key:	2475832d78c902e8999df2055c0f69226a85caf5ee20d300c05ffb6e87dd9f7c
   Root Key:	8ab906212f9f7b6d82f5edb3d677b0df40095899339fa0b36ecd00b68b304458
@@ -93,6 +93,15 @@ Administrative keys for demisto/sklearn:1.0.0.12973002
 * Pypi: https://pypi.org/project/click/
 * Homepage: None
 * Author: None
+
+### `cloudpickle`
+
+* Summary: Pickler class to extend the standard pickle.Pickler functionality
+* Version: 3.1.2
+* Pypi: https://pypi.org/project/cloudpickle/
+* Homepage: https://github.com/cloudpipe/cloudpickle
+* Author: The cloudpickle developer team cloudpipe@googlegroups.com
+* License :: OSI Approved :: BSD License
 
 ### `dateparser`
 
@@ -185,7 +194,7 @@ Administrative keys for demisto/sklearn:1.0.0.12973002
 ### `joblib`
 
 * Summary: Lightweight pipelining with Python functions
-* Version: 1.5.3
+* Version: 1.6.0
 * Pypi: https://pypi.org/project/joblib/
 * Homepage: None
 * Author: Gael Varoquaux <gael.varoquaux@normalesup.org>
@@ -201,7 +210,7 @@ Administrative keys for demisto/sklearn:1.0.0.12973002
 ### `narwhals`
 
 * Summary: Extremely lightweight compatibility layer between dataframe libraries
-* Version: 2.22.1
+* Version: 2.26.0
 * Pypi: https://pypi.org/project/narwhals/
 * Homepage: None
 * Author: Marco Gorelli Marco Gorelli <hello_narwhals@proton.me>
@@ -341,7 +350,7 @@ Administrative keys for demisto/sklearn:1.0.0.12973002
 ### `scikit-learn`
 
 * Summary: A set of python modules for machine learning and data mining
-* Version: 1.9.0
+* Version: 1.9.1
 * Pypi: https://pypi.org/project/scikit-learn/
 * Homepage: None
 * Author: None
@@ -349,7 +358,7 @@ Administrative keys for demisto/sklearn:1.0.0.12973002
 ### `scipy`
 
 * Summary: Fundamental algorithms for scientific computing in Python
-* Version: 1.17.1
+* Version: 1.18.1
 * Pypi: https://pypi.org/project/scipy/
 * Homepage: None
 * Author: None

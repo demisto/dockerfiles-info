@@ -1,9 +1,9 @@
-# `demisto/aquatone:2.0.0.12689358`
+# `demisto/aquatone:2.0.0.13048120`
 
 ## Docker Metadata
-- Image Size: 71.94 MB
-- Image ID: `sha256:c2483178662daa50714133ef668e92711335723d79f29e95a573560ee4a8277b`
-- Created: `2026-09-03T08:45:45.449436331Z`
+- Image Size: 80.46 MB
+- Image ID: `sha256:0e6f101166f2b855f8e5970182fa2143f13065b3f74a570294344d1a56cfe8de`
+- Created: `2026-09-14T14:43:36.849653539Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/aquatone:2.0.0.12689358`
+  - `DOCKER_IMAGE=demisto/aquatone:2.0.0.13048120`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:96cf78e2a053066400d8da928255a8f385c6a535`
-  - `org.opencontainers.image.version:2.0.0.12689358`
-  - `panw.builtby.pipeline:12692926`
+  - `org.opencontainers.image.revision:5cc57d8a2da37f12510a1273dd1fb7e00b093ccc`
+  - `org.opencontainers.image.version:2.0.0.13048120`
+  - `panw.builtby.pipeline:13049079`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/aquatone:2.0.0.12689358
+Signatures for demisto/aquatone:2.0.0.13048120
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-2.0.0.12689358   8f3c2cb37a8340962eecc14859469556298e6eb1ee96295063a7e267ad059501   (Repo Admin)
+2.0.0.13048120   862cd51161e67ab623963c9844b7eb48c830788689b4729e52a0addca9d50868   (Repo Admin)
 
-Administrative keys for demisto/aquatone:2.0.0.12689358
+Administrative keys for demisto/aquatone:2.0.0.13048120
 
   Repository Key:	eafc1437f438d0700e427590d57e4ea24076f1472ef0a051cfd62a8cb54360f3
   Root Key:	b5afd9749ec9d89b80148cb7908cb1c5d2b8c18ee47b87a08c3c9aac17596370
@@ -109,7 +109,7 @@ Administrative keys for demisto/aquatone:2.0.0.12689358
 * Summary: A fancy and practical functional tools
 * Version: 2.0
 * Pypi: https://pypi.org/project/funcy/
-* Homepage: http://github.com/Suor/funcy
+* Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
@@ -341,8 +341,8 @@ Administrative keys for demisto/aquatone:2.0.0.12689358
 * libblkid1:amd64	2.41.5-0+deb13u1
 * libbsd0:amd64	0.12.2-2
 * libbz2-1.0:amd64	1.0.8-6
-* libc-bin	2.41-12+deb13u3
-* libc6:amd64	2.41-12+deb13u3
+* libc-bin	2.41-12+deb13u4
+* libc6:amd64	2.41-12+deb13u4
 * libcap-ng0:amd64	0.8.5-4+b1
 * libcap2:amd64	1:2.75-10+deb13u1+b1
 * libcrypt1:amd64	1:4.4.38-1
@@ -395,7 +395,7 @@ Administrative keys for demisto/aquatone:2.0.0.12689358
 * openssl	3.5.7-1~deb13u2
 * openssl-provider-legacy	3.5.7-1~deb13u2
 * passwd	1:4.17.4-2
-* perl-base	5.40.1-6
+* perl-base	5.40.1-6+deb13u1
 * procps	2:4.0.4-9
 * rake	13.2.1-1
 * readline-common	8.2-6

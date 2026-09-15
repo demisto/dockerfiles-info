@@ -1,9 +1,9 @@
-# `demisto/genericsql:1.2.0.12844876`
+# `demisto/genericsql:1.2.0.13053055`
 
 ## Docker Metadata
-- Image Size: 296.45 MB
-- Image ID: `sha256:d9a3f4b28ad08121b6296c5c5faf8fd07a0d45908dd484fa6b0d89f944c783ab`
-- Created: `2026-09-07T18:17:28.818437366Z`
+- Image Size: 296.62 MB
+- Image ID: `sha256:0c82f05a4de72c1d314c6843c307114d3b2903fbc9e37f5d5c4498a765d26ff4`
+- Created: `2026-09-14T18:11:36.980138491Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.12844876`
+  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.13053055`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:7017b2d5211c5638fa73ebc309ca30d9fdfcfe30`
-  - `org.opencontainers.image.version:1.2.0.12844876`
-  - `panw.builtby.pipeline:12845803`
+  - `org.opencontainers.image.revision:31f9fd5884601ce1d255d5c045751e91e131cdaf`
+  - `org.opencontainers.image.version:1.2.0.13053055`
+  - `panw.builtby.pipeline:13054143`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/genericsql:1.2.0.12844876
+Signatures for demisto/genericsql:1.2.0.13053055
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.2.0.12844876   a3ade19ec9b1bcd88e1ef0ffe75b48d6bc402911ff54c35d0f5f730fe67722ce   (Repo Admin)
+1.2.0.13053055   48a91be9d29ad83a6ceedc9e0735e514b98f4c3e49ad27cf63538c1e5d63d4ae   (Repo Admin)
 
-Administrative keys for demisto/genericsql:1.2.0.12844876
+Administrative keys for demisto/genericsql:1.2.0.13053055
 
   Repository Key:	b02fc99a72d78e9f5becfe15406ea942db310f3c3af9a7833b215eddb323f7cd
   Root Key:	d11245d830d935ed4846941604c024388aca83a60142ae5319409b1f6091afe1
@@ -125,7 +125,7 @@ Administrative keys for demisto/genericsql:1.2.0.12844876
 * Summary: A fancy and practical functional tools
 * Version: 2.0
 * Pypi: https://pypi.org/project/funcy/
-* Homepage: http://github.com/Suor/funcy
+* Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
@@ -210,7 +210,7 @@ Administrative keys for demisto/genericsql:1.2.0.12844876
 ### `psycopg2-binary`
 
 * Summary: psycopg2 - Python-PostgreSQL Database Adapter
-* Version: 2.9.12
+* Version: 2.9.13
 * Pypi: https://pypi.org/project/psycopg2-binary/
 * Homepage: https://psycopg.org/
 * Author: Federico Di Gregorio fog@initd.org
@@ -518,12 +518,12 @@ Administrative keys for demisto/genericsql:1.2.0.12844876
 * libuuid1:amd64	2.38.1-5+deb12u3
 * libxxhash0:amd64	0.8.1-1
 * libzstd1:amd64	1.5.4+dfsg2-5
-* linux-libc-dev:amd64	6.1.180-1
+* linux-libc-dev:amd64	6.1.187-1
 * login	1:4.13+dfsg1-1+deb12u2
 * logsave	1.47.2-3~bpo12+1
 * mawk	1.3.4.20200120-3.1
 * mount	2.38.1-5+deb12u3
-* msodbcsql18	18.6.2.1-1
+* msodbcsql18	18.7.1.1-1
 * ncurses-base	6.4-4
 * ncurses-bin	6.4-4
 * netbase	6.4

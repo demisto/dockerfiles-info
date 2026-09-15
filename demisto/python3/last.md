@@ -1,9 +1,9 @@
-# `demisto/python3:3.12.14.12844876`
+# `demisto/python3:3.12.14.13053055`
 
 ## Docker Metadata
-- Image Size: 36.13 MB
-- Image ID: `sha256:1716fa765518cc24474e4202313cf78a99953a975d6415cef98f57d44830bcc8`
-- Created: `2026-09-07T18:16:05.335136994Z`
+- Image Size: 36.24 MB
+- Image ID: `sha256:c050b07f0f74563eee5cc32cf628083ace0244f6841c66fe3eec03f7857843fb`
+- Created: `2026-09-14T18:11:55.187704589Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/python3:3.12.14.12844876`
+  - `DOCKER_IMAGE=demisto/python3:3.12.14.13053055`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:7017b2d5211c5638fa73ebc309ca30d9fdfcfe30`
-  - `org.opencontainers.image.version:3.12.14.12844876`
-  - `panw.builtby.pipeline:12845816`
+  - `org.opencontainers.image.revision:31f9fd5884601ce1d255d5c045751e91e131cdaf`
+  - `org.opencontainers.image.version:3.12.14.13053055`
+  - `panw.builtby.pipeline:13054145`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3:3.12.14.12844876
+Signatures for demisto/python3:3.12.14.13053055
 
 SIGNED TAG         DIGEST                                                             SIGNERS
-3.12.14.12844876   7eaceec23f4468cce35eeef2a1eeaf2e62a40925bab223ceb219fbc94eec842d   (Repo Admin)
+3.12.14.13053055   8850a22d3cdd3e59a13d2fcedb54e35bb071ac3ef30f48f05d8cfc251ba79677   (Repo Admin)
 
-Administrative keys for demisto/python3:3.12.14.12844876
+Administrative keys for demisto/python3:3.12.14.13053055
 
   Repository Key:	dd922c0a78cf908782d68ed2f99cae9350740fc2da582a1cb5c03e530ba2dd31
   Root Key:	46ab19438bfff81c925ab27466b52b175de43bad8e8a19cc878e9288246bff8d
@@ -112,9 +112,9 @@ Administrative keys for demisto/python3:3.12.14.12844876
 ### `funcy`
 
 * Summary: A fancy and practical functional tools
-* Version: 2.0
+* Version: 2.1
 * Pypi: https://pypi.org/project/funcy/
-* Homepage: http://github.com/Suor/funcy
+* Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
@@ -354,5 +354,5 @@ Administrative keys for demisto/python3:3.12.14.12844876
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
 * tzdata-2026c-r0 x86_64 {tzdata}
-* xz-libs-5.8.3-r0 x86_64 {xz}
+* xz-libs-5.8.4-r0 x86_64 {xz}
 * zlib-1.3.2-r0 x86_64 {zlib}

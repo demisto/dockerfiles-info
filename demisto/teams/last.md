@@ -1,9 +1,9 @@
-# `demisto/teams:1.0.0.12833174`
+# `demisto/teams:1.0.0.13053055`
 
 ## Docker Metadata
-- Image Size: 57.12 MB
-- Image ID: `sha256:12c108845f6f77d37c6104e27b7825233e0ba3f1f3a77ed6627053904b08db20`
-- Created: `2026-09-07T12:33:09.69150925Z`
+- Image Size: 57.20 MB
+- Image ID: `sha256:51e2e8d2083587e7fa6baf65bfea4b55a2df1c081f25bb38c7fd7185a147dfe9`
+- Created: `2026-09-14T18:11:30.711203197Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/teams:1.0.0.12833174`
+  - `DOCKER_IMAGE=demisto/teams:1.0.0.13053055`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:e6bdd2e7e03225131c3325800d42ca0c04fb87eb`
-  - `org.opencontainers.image.version:1.0.0.12833174`
-  - `panw.builtby.pipeline:12834388`
+  - `org.opencontainers.image.revision:31f9fd5884601ce1d255d5c045751e91e131cdaf`
+  - `org.opencontainers.image.version:1.0.0.13053055`
+  - `panw.builtby.pipeline:13054141`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/teams:1.0.0.12833174
+Signatures for demisto/teams:1.0.0.13053055
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.12833174   ef72622a6dbffcb82d2b034e19355bd5accb0bf41bb188e584244e8e1bf6a75a   (Repo Admin)
+1.0.0.13053055   4db8c669dea78cb622e86f7f7fb0c4016c0a15b5678af02285402227146be805   (Repo Admin)
 
-Administrative keys for demisto/teams:1.0.0.12833174
+Administrative keys for demisto/teams:1.0.0.13053055
 
   Repository Key:	b2887129b50f5a1b5836d11a274fe06aacb9538dbf9c9414e50f3a80e882457d
   Root Key:	c46423baa7a81cc607a4aaf966f67d987d95440212144e8845a433e291cf7eb9
@@ -173,7 +173,7 @@ Administrative keys for demisto/teams:1.0.0.12833174
 * Summary: A fancy and practical functional tools
 * Version: 2.0
 * Pypi: https://pypi.org/project/funcy/
-* Homepage: http://github.com/Suor/funcy
+* Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
@@ -327,7 +327,7 @@ Administrative keys for demisto/teams:1.0.0.12833174
 ### `PyJWT`
 
 * Summary: JSON Web Token implementation in Python
-* Version: 2.13.0
+* Version: 2.14.0
 * Pypi: https://pypi.org/project/PyJWT/
 * Homepage: None
 * Author: Jose Padilla <hello@jpadilla.com>

@@ -1,9 +1,9 @@
-# `demisto/reversinglabs-sdk-py3:2.0.0.12833174`
+# `demisto/reversinglabs-sdk-py3:2.0.0.13053055`
 
 ## Docker Metadata
-- Image Size: 54.43 MB
-- Image ID: `sha256:d3ad8e8b9fa33460aa6941c0123cf5176e9ea59efcc22259969a57cd45c60d6b`
-- Created: `2026-09-07T12:32:57.534119945Z`
+- Image Size: 53.88 MB
+- Image ID: `sha256:fe018a092b8624f63940015fafb2d0d5a01612c309579a48d963ff509dfaec17`
+- Created: `2026-09-14T18:11:31.350414608Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/reversinglabs-sdk-py3:2.0.0.12833174`
+  - `DOCKER_IMAGE=demisto/reversinglabs-sdk-py3:2.0.0.13053055`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:e6bdd2e7e03225131c3325800d42ca0c04fb87eb`
-  - `org.opencontainers.image.version:2.0.0.12833174`
-  - `panw.builtby.pipeline:12834389`
+  - `org.opencontainers.image.revision:31f9fd5884601ce1d255d5c045751e91e131cdaf`
+  - `org.opencontainers.image.version:2.0.0.13053055`
+  - `panw.builtby.pipeline:13054146`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/reversinglabs-sdk-py3:2.0.0.12833174
+Signatures for demisto/reversinglabs-sdk-py3:2.0.0.13053055
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-2.0.0.12833174   3c84a097f1ff80cfbbbf2e228f75fbfda000eb682dc661d379774d887534b4b0   (Repo Admin)
+2.0.0.13053055   b3528e32da4ef4ab5d06a653c33ed81c64d84581be5ff7f8b70734eb78759634   (Repo Admin)
 
-Administrative keys for demisto/reversinglabs-sdk-py3:2.0.0.12833174
+Administrative keys for demisto/reversinglabs-sdk-py3:2.0.0.13053055
 
   Repository Key:	5e93419eb6d8a31869c828bd17ef0f5e2601c6e5df2716811b48521a02b59b33
   Root Key:	2657b42befb038b71799a157f633914ee573e1f7664de856fcee8187a3db92f5
@@ -59,7 +59,7 @@ Administrative keys for demisto/reversinglabs-sdk-py3:2.0.0.12833174
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.5.20
+* Version: 2026.7.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -68,7 +68,7 @@ Administrative keys for demisto/reversinglabs-sdk-py3:2.0.0.12833174
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.7
+* Version: 3.5.1
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -114,7 +114,7 @@ Administrative keys for demisto/reversinglabs-sdk-py3:2.0.0.12833174
 * Summary: A fancy and practical functional tools
 * Version: 2.0
 * Pypi: https://pypi.org/project/funcy/
-* Homepage: http://github.com/Suor/funcy
+* Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
@@ -148,7 +148,7 @@ Administrative keys for demisto/reversinglabs-sdk-py3:2.0.0.12833174
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.18
+* Version: 3.19
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -271,7 +271,7 @@ Administrative keys for demisto/reversinglabs-sdk-py3:2.0.0.12833174
 ### `reversinglabs-sdk-py3`
 
 * Summary: Python SDK for using ReversingLabs services.
-* Version: 2.14.0
+* Version: 2.15.0
 * Pypi: https://pypi.org/project/reversinglabs-sdk-py3/
 * Homepage: https://github.com/reversinglabs/reversinglabs-sdk-py3
 * Author: ReversingLabs support@reversinglabs.com

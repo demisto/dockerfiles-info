@@ -1,9 +1,9 @@
-# `demisto/auth-utils:1.0.0.12562424`
+# `demisto/auth-utils:1.0.0.13053055`
 
 ## Docker Metadata
-- Image Size: 64.96 MB
-- Image ID: `sha256:1d054f1bd5b0ef3fe65c7d7647b914f40ed820528a205f81324e7a7b3547604b`
-- Created: `2026-08-31T18:04:28.180572748Z`
+- Image Size: 65.02 MB
+- Image ID: `sha256:80ab77a85a78cd1fcbf2215b689994663aa47009ca2507db3bd343c9982b8494`
+- Created: `2026-09-14T18:11:24.102406791Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/auth-utils:1.0.0.12562424`
+  - `DOCKER_IMAGE=demisto/auth-utils:1.0.0.13053055`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:218179c87b3eb22bd3b3305b4d292c11a3d0fb0b`
-  - `org.opencontainers.image.version:1.0.0.12562424`
-  - `panw.builtby.pipeline:12563337`
+  - `org.opencontainers.image.revision:31f9fd5884601ce1d255d5c045751e91e131cdaf`
+  - `org.opencontainers.image.version:1.0.0.13053055`
+  - `panw.builtby.pipeline:13054134`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/auth-utils:1.0.0.12562424
+Signatures for demisto/auth-utils:1.0.0.13053055
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.12562424   3fff7cf35a62d7205c5aa0bd61c2b5ee60af1ee827d497f806492046afd4a3c3   (Repo Admin)
+1.0.0.13053055   0acb3e782979fd9b33e60e01cd9cdca82c7d6e36930f7ce45e1cc7662f92ab0b   (Repo Admin)
 
-Administrative keys for demisto/auth-utils:1.0.0.12562424
+Administrative keys for demisto/auth-utils:1.0.0.13053055
 
   Repository Key:	c4e5c6491d37f197ee11c3bcf27402ded5e35e8dfd04aa5f3ca6306c1589acb9
   Root Key:	afc48b6ceb8bef3948a8d982cf3a6e357efca688125da7e062bdd41bfc9b9546
@@ -228,7 +228,7 @@ Administrative keys for demisto/auth-utils:1.0.0.12562424
 * Summary: A fancy and practical functional tools
 * Version: 2.0
 * Pypi: https://pypi.org/project/funcy/
-* Homepage: http://github.com/Suor/funcy
+* Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
@@ -366,7 +366,7 @@ Administrative keys for demisto/auth-utils:1.0.0.12562424
 ### `pydantic`
 
 * Summary: Data validation using Python type hints
-* Version: 2.13.4
+* Version: 2.13.5
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.dev>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -374,7 +374,7 @@ Administrative keys for demisto/auth-utils:1.0.0.12562424
 ### `pydantic_core`
 
 * Summary: Core functionality for Pydantic validation and serialization
-* Version: 2.46.4
+* Version: 2.46.5
 * Pypi: https://pypi.org/project/pydantic_core/
 * Homepage: https://github.com/pydantic/pydantic
 * Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -382,7 +382,7 @@ Administrative keys for demisto/auth-utils:1.0.0.12562424
 ### `PyJWT`
 
 * Summary: JSON Web Token implementation in Python
-* Version: 2.13.0
+* Version: 2.14.0
 * Pypi: https://pypi.org/project/PyJWT/
 * Homepage: None
 * Author: Jose Padilla <hello@jpadilla.com>
@@ -643,7 +643,7 @@ Administrative keys for demisto/auth-utils:1.0.0.12562424
 * libssl3-3.5.8-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
-* libuuid-2.42.1-r0 x86_64 {util-linux}
+* libuuid-2.42.3-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
 * musl-1.2.6-r2 x86_64 {musl}
 * musl-utils-1.2.6-r2 x86_64 {musl}
