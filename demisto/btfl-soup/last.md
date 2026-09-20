@@ -1,9 +1,9 @@
-# `demisto/btfl-soup:1.0.1.12689358`
+# `demisto/btfl-soup:1.0.1.13176850`
 
 ## Docker Metadata
 - Image Size: 38.75 MB
-- Image ID: `sha256:411d655a735d02c8085f005ce27205bdc34922cbc310e62d30a68596e7cbc9da`
-- Created: `2026-09-03T08:45:58.707309095Z`
+- Image ID: `sha256:0552aa51d5e75b757188cb0a6565c06cab68894c75d35dca1182c63e2919669f`
+- Created: `2026-09-20T00:23:56.296402646Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.12689358`
+  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.13176850`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:96cf78e2a053066400d8da928255a8f385c6a535`
-  - `org.opencontainers.image.version:1.0.1.12689358`
-  - `panw.builtby.pipeline:12692953`
+  - `org.opencontainers.image.revision:f1ec3da05a19fdfec93e29cf96974a890da9709b`
+  - `org.opencontainers.image.version:1.0.1.13176850`
+  - `panw.builtby.pipeline:13177204`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/btfl-soup:1.0.1.12689358
+Signatures for demisto/btfl-soup:1.0.1.13176850
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.1.12689358   fdbc30cfe364d0110db7d3fbb5216c3db946d581cbfe9146755f68a1ab167a28   (Repo Admin)
+1.0.1.13176850   2bf9fe7149c30ac0c3f14a20b3534f7a5579b403b8f4afb0b2c2d438891d0c99   (Repo Admin)
 
-Administrative keys for demisto/btfl-soup:1.0.1.12689358
+Administrative keys for demisto/btfl-soup:1.0.1.13176850
 
   Repository Key:	2df9352dc8d80b6e208c7ff147fac5fe0db694f8ad563e69a8c0688b62620cb4
   Root Key:	48666b9a08f1927653d7c7246d50c6a1b3a7f7ff8ff8be1557cce0991627ccf4
@@ -123,7 +123,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.12689358
 * Summary: A fancy and practical functional tools
 * Version: 2.0
 * Pypi: https://pypi.org/project/funcy/
-* Homepage: http://github.com/Suor/funcy
+* Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
@@ -334,7 +334,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.12689358
 ### `soupsieve`
 
 * Summary: A modern CSS selector implementation for Beautiful Soup.
-* Version: 2.8.4
+* Version: 2.9
 * Pypi: https://pypi.org/project/soupsieve/
 * Homepage: None
 * Author: Isaac Muse <Isaac.Muse@gmail.com>

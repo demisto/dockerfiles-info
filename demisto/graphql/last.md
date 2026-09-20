@@ -1,9 +1,9 @@
-# `demisto/graphql:1.0.0.12689358`
+# `demisto/graphql:1.0.0.13176850`
 
 ## Docker Metadata
-- Image Size: 36.43 MB
-- Image ID: `sha256:4729106d24395ace164fa09b6444d4904acac30e636d486836353974e14d9762`
-- Created: `2026-09-03T08:46:01.435696167Z`
+- Image Size: 35.99 MB
+- Image ID: `sha256:96c08ed13b50368a7bac955be5c61f512dd644cd044bc02eabcfa512b99eebe9`
+- Created: `2026-09-20T00:23:27.863622635Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/graphql:1.0.0.12689358`
+  - `DOCKER_IMAGE=demisto/graphql:1.0.0.13176850`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:96cf78e2a053066400d8da928255a8f385c6a535`
-  - `org.opencontainers.image.version:1.0.0.12689358`
-  - `panw.builtby.pipeline:12692947`
+  - `org.opencontainers.image.revision:f1ec3da05a19fdfec93e29cf96974a890da9709b`
+  - `org.opencontainers.image.version:1.0.0.13176850`
+  - `panw.builtby.pipeline:13177202`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/graphql:1.0.0.12689358
+Signatures for demisto/graphql:1.0.0.13176850
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.12689358   f78a912a80526345394741b09edf69fe32e06d67acb7617643394cda4e04bdd9   (Repo Admin)
+1.0.0.13176850   edd508c6f051e3cfbe269fec7942ccc253640031b8d36d13587c3612f17b6aa0   (Repo Admin)
 
-Administrative keys for demisto/graphql:1.0.0.12689358
+Administrative keys for demisto/graphql:1.0.0.13176850
 
   Repository Key:	f9b19e79a296b3e394b29ce93d483a1d6dee966f07dfc1ead47f436797b3b505
   Root Key:	3e75fae1517377de7c78b35af22a0ebf537bfb65c584dc6043ecc10c38b047dc
@@ -51,7 +51,7 @@ Administrative keys for demisto/graphql:1.0.0.12689358
 ### `anyio`
 
 * Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.13.0
+* Version: 4.14.2
 * Pypi: https://pypi.org/project/anyio/
 * Homepage: None
 * Author: Alex Grönholm <alex.gronholm@nextday.fi>
@@ -123,7 +123,7 @@ Administrative keys for demisto/graphql:1.0.0.12689358
 * Summary: A fancy and practical functional tools
 * Version: 2.0
 * Pypi: https://pypi.org/project/funcy/
-* Homepage: http://github.com/Suor/funcy
+* Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
@@ -175,7 +175,7 @@ Administrative keys for demisto/graphql:1.0.0.12689358
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.18
+* Version: 3.20
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -230,7 +230,7 @@ Administrative keys for demisto/graphql:1.0.0.12689358
 * Pypi: https://pypi.org/project/propcache/
 * Homepage: https://github.com/aio-libs/propcache
 * Author: Andrew Svetlov andrew.svetlov@gmail.com
-* License :: OSI Approved :: Apache Software License
+* License: Apache-2.0
 
 ### `PySocks`
 
@@ -341,7 +341,7 @@ Administrative keys for demisto/graphql:1.0.0.12689358
 ### `typing_extensions`
 
 * Summary: Backported and Experimental Type Hints for Python 3.9+
-* Version: 4.15.0
+* Version: 4.16.0
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>

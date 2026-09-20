@@ -1,9 +1,9 @@
-# `demisto/bigquery:1.0.0.12844876`
+# `demisto/bigquery:1.0.0.13176850`
 
 ## Docker Metadata
-- Image Size: 77.04 MB
-- Image ID: `sha256:6937418e187e85195f70bef24a83d2c797cc417076f04cfbc60c5ff9bd24b92f`
-- Created: `2026-09-07T18:17:18.255574265Z`
+- Image Size: 83.71 MB
+- Image ID: `sha256:af8de05a9f5fcdb864dc64780918a93fb04831a903425d362fe73dfc4a213a13`
+- Created: `2026-09-20T00:23:49.80379614Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/bigquery:1.0.0.12844876`
+  - `DOCKER_IMAGE=demisto/bigquery:1.0.0.13176850`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:7017b2d5211c5638fa73ebc309ca30d9fdfcfe30`
-  - `org.opencontainers.image.version:1.0.0.12844876`
-  - `panw.builtby.pipeline:12845802`
+  - `org.opencontainers.image.revision:f1ec3da05a19fdfec93e29cf96974a890da9709b`
+  - `org.opencontainers.image.version:1.0.0.13176850`
+  - `panw.builtby.pipeline:13177190`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/bigquery:1.0.0.12844876
+Signatures for demisto/bigquery:1.0.0.13176850
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.12844876   eaab87ea809fe202610e971ea0305a2b63c8b05d5ba13612d5f6817a62c61913   (Repo Admin)
+1.0.0.13176850   59a34f9cfaf64792058431d6bff1b4493b6acf1ddbde77f3de3d3155d8537076   (Repo Admin)
 
-Administrative keys for demisto/bigquery:1.0.0.12844876
+Administrative keys for demisto/bigquery:1.0.0.13176850
 
   Repository Key:	50ce3296886516edcfde3c34148b7b31a0e70e68821c9e335e9851cee5284a2b
   Root Key:	e5ef65a9e7371056cf85e6b0a6be6717871b78e3fb0e40e863e477f2253acfac
@@ -125,14 +125,14 @@ Administrative keys for demisto/bigquery:1.0.0.12844876
 * Summary: A fancy and practical functional tools
 * Version: 2.0
 * Pypi: https://pypi.org/project/funcy/
-* Homepage: http://github.com/Suor/funcy
+* Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.36.0
+* Version: 2.38.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -141,7 +141,7 @@ Administrative keys for demisto/bigquery:1.0.0.12844876
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.57.1
+* Version: 2.58.0
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -150,7 +150,7 @@ Administrative keys for demisto/bigquery:1.0.0.12844876
 ### `google-cloud-bigquery`
 
 * Summary: Google BigQuery API client library
-* Version: 3.45.0
+* Version: 3.45.1
 * Pypi: https://pypi.org/project/google-cloud-bigquery/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -194,7 +194,7 @@ Administrative keys for demisto/bigquery:1.0.0.12844876
 ### `grpcio`
 
 * Summary: HTTP/2-based RPC framework
-* Version: 1.83.1
+* Version: 1.84.0
 * Pypi: https://pypi.org/project/grpcio/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -202,7 +202,7 @@ Administrative keys for demisto/bigquery:1.0.0.12844876
 ### `grpcio-status`
 
 * Summary: Status proto mapping for gRPC
-* Version: 1.83.1
+* Version: 1.84.0
 * Pypi: https://pypi.org/project/grpcio-status/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -246,7 +246,7 @@ Administrative keys for demisto/bigquery:1.0.0.12844876
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.19
+* Version: 3.20
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -314,7 +314,7 @@ Administrative keys for demisto/bigquery:1.0.0.12844876
 ### `protobuf`
 
 * Summary: None
-* Version: 7.36.1
+* Version: 7.36.2
 * Pypi: https://pypi.org/project/protobuf/
 * Homepage: https://developers.google.com/protocol-buffers/
 * Author: protobuf@googlegroups.com protobuf@googlegroups.com
@@ -479,7 +479,7 @@ Administrative keys for demisto/bigquery:1.0.0.12844876
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.7.0
+* Version: 2.8.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -522,8 +522,8 @@ Administrative keys for demisto/bigquery:1.0.0.12844876
 * libblkid1:amd64	2.41.5-0+deb13u1
 * libbsd0:amd64	0.12.2-2
 * libbz2-1.0:amd64	1.0.8-6
-* libc-bin	2.41-12+deb13u3
-* libc6:amd64	2.41-12+deb13u3
+* libc-bin	2.41-12+deb13u4
+* libc6:amd64	2.41-12+deb13u4
 * libcap-ng0:amd64	0.8.5-4+b1
 * libcap2:amd64	1:2.75-10+deb13u1+b1
 * libcrypt1:amd64	1:4.4.38-1
