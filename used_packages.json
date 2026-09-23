@@ -97,9 +97,9 @@
         "author": "Armin Ronacher armin.ronacher@active-4.com",
         "docker_images": [
             "demisto/keepercommander",
-            "demisto/taxii-server",
             "demisto/flask-nginx",
-            "demisto/teams"
+            "demisto/teams",
+            "demisto/taxii-server"
         ],
         "home_page": "https://palletsprojects.com/p/flask/",
         "licenses": [
@@ -134,9 +134,9 @@
         "author": "Sebastian Thiel, Michael Trier byronimo@gmail.com, mtrier@gmail.com",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
             "demisto/privx-api",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/gitpython-developers/GitPython",
         "licenses": [
@@ -192,7 +192,6 @@
             "demisto/taegis-sdk-python",
             "demisto/greynoise",
             "demisto/keepercommander",
-            "demisto/taxii-server",
             "demisto/flask-nginx",
             "demisto/pysigma",
             "demisto/teams",
@@ -200,7 +199,8 @@
             "demisto/sublime",
             "demisto/ml",
             "demisto/ansible-runner",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/taxii-server"
         ],
         "home_page": "https://palletsprojects.com/p/jinja/",
         "licenses": [
@@ -239,12 +239,9 @@
             "demisto/dl-languages",
             "demisto/xsoar-tools-hf",
             "demisto/py3-tools-ubi",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/taegis-sdk-python",
             "demisto/greynoise",
             "demisto/keepercommander",
-            "demisto/taxii-server",
             "demisto/flask-nginx",
             "demisto/pysigma",
             "demisto/teams",
@@ -253,7 +250,10 @@
             "demisto/ml",
             "demisto/ansible-runner",
             "demisto/py3-tools",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/taxii-server",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://palletsprojects.com/p/markupsafe/",
         "licenses": [
@@ -266,8 +266,8 @@
         "author": "Matteo Cafasso noxdafox@gmail.com",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/noxdafox/pebble",
         "licenses": [
@@ -294,8 +294,8 @@
     "PyGithub": {
         "author": "Vincent Jacques <vincent@vincent-jacques.net>",
         "docker_images": [
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": null,
         "licenses": [
@@ -320,16 +320,11 @@
             "demisto/pydantic-jwt3",
             "demisto/py3-native",
             "demisto/oauthlib",
-            "demisto/demisto-sdk",
             "demisto/falcon-mcp",
-            "demisto/python_pancloud_v2",
-            "demisto/xsoar-tools",
             "demisto/taegis-sdk-python",
             "demisto/fastapi",
             "demisto/snowflake",
             "demisto/crypto",
-            "demisto/taxii-server",
-            "demisto/py3ews",
             "demisto/flask-nginx",
             "demisto/keeper-ksm",
             "demisto/mcp",
@@ -342,7 +337,12 @@
             "demisto/ansible-runner",
             "demisto/oci",
             "demisto/vendors-sdk",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "http://github.com/jpadilla/pyjwt",
         "licenses": [
@@ -364,12 +364,12 @@
     "PyNaCl": {
         "author": "The PyNaCl developers cryptography-dev@python.org",
         "docker_images": [
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/netmiko",
             "demisto/exodusintelligence",
             "demisto/tidy",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/pyca/pynacl/",
         "licenses": [
@@ -385,10 +385,10 @@
             "demisto/xsoar-tools-hf",
             "demisto/tableau",
             "demisto/py3-native",
-            "demisto/demisto-sdk",
             "demisto/chromium",
+            "demisto/readpdf",
             "demisto/xsoar-tools",
-            "demisto/readpdf"
+            "demisto/demisto-sdk"
         ],
         "home_page": "http://mstamy2.github.com/PyPDF2",
         "licenses": [
@@ -504,7 +504,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/python",
             "demisto/privx-api",
             "demisto/slack",
@@ -515,7 +514,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -525,14 +523,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -573,12 +568,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -586,7 +577,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -628,7 +618,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -636,7 +625,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/Anorov/PySocks",
         "licenses": [
@@ -780,7 +780,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/python",
             "demisto/privx-api",
             "demisto/slack",
@@ -791,7 +790,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -801,14 +799,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -849,12 +844,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -862,7 +853,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -904,7 +894,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -912,7 +901,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/yaml/pyyaml",
         "licenses": [
@@ -929,8 +929,6 @@
             "demisto/py2-exchangelib",
             "demisto/xsoar-tools-hf",
             "demisto/py3-native",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/carbon-black-cloud",
             "demisto/polyswarm",
             "demisto/parse-emails",
@@ -939,11 +937,13 @@
             "demisto/vmware",
             "demisto/py-ews",
             "demisto/keepercommander",
-            "demisto/py3ews",
             "demisto/py42",
             "demisto/ml",
             "demisto/ansible-runner",
-            "demisto/vendors-sdk"
+            "demisto/vendors-sdk",
+            "demisto/py3ews",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "http://pygments.org/",
         "licenses": [
@@ -1043,13 +1043,13 @@
         "author": "Armin Ronacher armin.ronacher@active-4.com",
         "docker_images": [
             "demisto/py3-tools-ubi",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/keepercommander",
-            "demisto/taxii-server",
             "demisto/flask-nginx",
             "demisto/teams",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/taxii-server",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://palletsprojects.com/p/werkzeug/",
         "licenses": [
@@ -1125,14 +1125,14 @@
         "docker_images": [
             "demisto/py3-native",
             "demisto/slack",
-            "demisto/netutils",
             "demisto/taegis-sdk-python",
             "demisto/slackv3",
             "demisto/auth-utils",
             "demisto/ansible-runner",
             "demisto/py3-tools",
             "demisto/oci",
-            "demisto/anyrun-sdk"
+            "demisto/anyrun-sdk",
+            "demisto/netutils"
         ],
         "home_page": null,
         "licenses": [
@@ -1148,13 +1148,13 @@
             "demisto/aiohttp",
             "demisto/py3-native",
             "demisto/slack",
-            "demisto/netutils",
             "demisto/taegis-sdk-python",
             "demisto/slackv3",
             "demisto/auth-utils",
             "demisto/py3-tools",
             "demisto/oci",
-            "demisto/anyrun-sdk"
+            "demisto/anyrun-sdk",
+            "demisto/netutils"
         ],
         "home_page": "https://github.com/aio-libs/aiohttp",
         "licenses": [
@@ -1164,13 +1164,13 @@
         "summary": "Async http client/server framework (asyncio)"
     },
     "aiolimiter": {
-        "author": "Martijn Pieters mj@zopatista.com",
+        "author": "Martijn Pieters <mj@zopatista.com>",
         "docker_images": [
             "demisto/netutils"
         ],
-        "home_page": "https://github.com/mjpieters/aiolimiter",
+        "home_page": null,
         "licenses": [
-            "License :: OSI Approved :: MIT License"
+            "License: MIT"
         ],
         "pypi_url": "https://pypi.org/project/aiolimiter/",
         "summary": "asyncio rate limiter, a leaky bucket implementation"
@@ -1182,14 +1182,14 @@
             "demisto/aiohttp",
             "demisto/py3-native",
             "demisto/slack",
-            "demisto/netutils",
             "demisto/taegis-sdk-python",
             "demisto/slackv3",
             "demisto/auth-utils",
             "demisto/ansible-runner",
             "demisto/py3-tools",
             "demisto/oci",
-            "demisto/anyrun-sdk"
+            "demisto/anyrun-sdk",
+            "demisto/netutils"
         ],
         "home_page": "https://github.com/aio-libs/aiosignal",
         "licenses": [
@@ -1525,13 +1525,11 @@
             "demisto/falcon-mcp",
             "demisto/opencti",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -1571,12 +1569,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -1584,7 +1578,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -1623,14 +1616,24 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "",
         "licenses": [
@@ -1825,8 +1828,8 @@
         "author": "Python Code Quality Authority code-quality@python.org",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/PyCQA/astroid",
         "licenses": [
@@ -1872,12 +1875,9 @@
             "demisto/py3-native",
             "demisto/pymisp",
             "demisto/zeep",
-            "demisto/demisto-sdk",
             "demisto/slack",
             "demisto/falcon-mcp",
             "demisto/chromium",
-            "demisto/netutils",
-            "demisto/xsoar-tools",
             "demisto/carbon-black-cloud",
             "demisto/taegis-sdk-python",
             "demisto/slackv3",
@@ -1886,7 +1886,10 @@
             "demisto/ansible-runner",
             "demisto/py3-tools",
             "demisto/oci",
-            "demisto/anyrun-sdk"
+            "demisto/anyrun-sdk",
+            "demisto/netutils",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://www.attrs.org/",
         "licenses": [
@@ -1899,8 +1902,8 @@
         "author": "Hideo Hattori hhatto.jp@gmail.com",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/hhatto/autopep8",
         "licenses": [
@@ -2562,8 +2565,8 @@
         "author": "PyCQA code-quality@python.org",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://bandit.readthedocs.io/",
         "licenses": [
@@ -2575,13 +2578,13 @@
     "bcrypt": {
         "author": "The Python Cryptographic Authority developers cryptography-dev@python.org",
         "docker_images": [
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/netmiko",
             "demisto/glpi",
             "demisto/keepercommander",
             "demisto/tidy",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/pyca/bcrypt/",
         "licenses": [
@@ -2608,15 +2611,9 @@
             "demisto/oauthlib",
             "demisto/fetch-data",
             "demisto/py3-tools-ubi",
-            "demisto/demisto-sdk",
-            "demisto/python_pancloud_v2",
             "demisto/mlurlphishing",
-            "demisto/xsoar-tools",
             "demisto/panw-iot",
             "demisto/crypto",
-            "demisto/taxii",
-            "demisto/taxii-server",
-            "demisto/py3ews",
             "demisto/flask-nginx",
             "demisto/bs4-tld",
             "demisto/keeper-ksm",
@@ -2630,7 +2627,13 @@
             "demisto/bs4-py3",
             "demisto/py3-tools",
             "demisto/pytmv1",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "http://www.crummy.com/software/BeautifulSoup/bs4/",
         "licenses": [
@@ -2655,9 +2658,9 @@
         "author": "Jason Kirtland <jek@discorporate.us>",
         "docker_images": [
             "demisto/keepercommander",
-            "demisto/taxii-server",
             "demisto/flask-nginx",
-            "demisto/teams"
+            "demisto/teams",
+            "demisto/taxii-server"
         ],
         "home_page": "",
         "licenses": [
@@ -2762,8 +2765,8 @@
         "author": "Isaac Muse Isaac.Muse@gmail.com",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/facelessuser/bracex",
         "licenses": [
@@ -2787,18 +2790,18 @@
             "demisto/py3-native",
             "demisto/oauthlib",
             "demisto/fetch-data",
-            "demisto/python_pancloud_v2",
             "demisto/panw-iot",
             "demisto/crypto",
-            "demisto/taxii-server",
-            "demisto/py3ews",
             "demisto/flask-nginx",
             "demisto/keeper-ksm",
             "demisto/teams",
             "demisto/xml-feed",
             "demisto/tidy",
             "demisto/auth-utils",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews"
         ],
         "home_page": "https://pypi.python.org/pypi/beautifulsoup4",
         "licenses": [
@@ -2861,7 +2864,6 @@
             "demisto/opencti-v4",
             "demisto/py3-native",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/opencti",
             "demisto/carbon-black-cloud",
             "demisto/greynoise",
@@ -3051,7 +3053,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/python",
             "demisto/privx-api",
             "demisto/slack",
@@ -3062,7 +3063,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -3072,14 +3072,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -3120,12 +3117,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -3133,7 +3126,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -3175,7 +3167,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -3183,7 +3174,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://certifi.io/",
         "licenses": [
@@ -3211,12 +3213,9 @@
             "demisto/python_pancloud",
             "demisto/oauthlib",
             "demisto/py3-tools-ubi",
-            "demisto/demisto-sdk",
             "demisto/slack",
             "demisto/falcon-mcp",
-            "demisto/python_pancloud_v2",
             "demisto/google-cloud-translate",
-            "demisto/xsoar-tools",
             "demisto/parse-emails",
             "demisto/devo",
             "demisto/google-api-py3",
@@ -3232,9 +3231,7 @@
             "demisto/resilient",
             "demisto/snowflake",
             "demisto/crypto",
-            "demisto/taxii-server",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
             "demisto/flask-nginx",
             "demisto/slackv3",
             "demisto/keeper-ksm",
@@ -3256,7 +3253,12 @@
             "demisto/google-cloud-storage",
             "demisto/google-kms",
             "demisto/genericsql",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "http://cffi.readthedocs.org",
         "licenses": [
@@ -3268,8 +3270,8 @@
     "cfgv": {
         "author": "Anthony Sottile asottile@umich.edu",
         "docker_images": [
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/asottile/cfgv",
         "licenses": [
@@ -3333,13 +3335,13 @@
             "demisto/feed-parser",
             "demisto/dempcap",
             "demisto/luminate",
-            "demisto/demisto-sdk",
             "demisto/python",
-            "demisto/xsoar-tools",
             "demisto/parse-emails",
             "demisto/py-ews",
+            "demisto/google-vision-api",
             "demisto/py3ews",
-            "demisto/google-vision-api"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/chardet/chardet",
         "licenses": [
@@ -3425,7 +3427,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/privx-api",
             "demisto/slack",
             "demisto/slack-bolt",
@@ -3435,7 +3436,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -3445,14 +3445,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -3493,12 +3490,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -3506,7 +3499,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -3548,7 +3540,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -3556,7 +3547,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/ousret/charset_normalizer",
         "licenses": [
@@ -3612,11 +3614,9 @@
             "demisto/py3-native",
             "demisto/nltk",
             "demisto/fetch-data",
-            "demisto/demisto-sdk",
             "demisto/falcon-mcp",
             "demisto/opencti",
             "demisto/chromium",
-            "demisto/xsoar-tools",
             "demisto/polyswarm",
             "demisto/pyotrs",
             "demisto/devo",
@@ -3624,7 +3624,6 @@
             "demisto/greynoise",
             "demisto/gdetect",
             "demisto/keepercommander",
-            "demisto/taxii-server",
             "demisto/flask-nginx",
             "demisto/mcp",
             "demisto/teams",
@@ -3633,7 +3632,10 @@
             "demisto/sklearn",
             "demisto/vendors-sdk",
             "demisto/axonius",
-            "demisto/commvault"
+            "demisto/commvault",
+            "demisto/taxii-server",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://palletsprojects.com/p/click/",
         "licenses": [
@@ -3712,7 +3714,8 @@
             "demisto/dl",
             "demisto/mlclustering",
             "demisto/xpanse-ml-ev2",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/cloudpipe/cloudpickle",
         "licenses": [
@@ -3784,8 +3787,8 @@
         "docker_images": [
             "demisto/dl-languages",
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://coloredlogs.readthedocs.io",
         "licenses": [
@@ -3875,9 +3878,9 @@
             "demisto/stix",
             "demisto/xsoar-tools-hf",
             "demisto/trustar",
-            "demisto/demisto-sdk",
             "demisto/lacework",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/jaraco/configparser/",
         "licenses": [
@@ -3930,8 +3933,8 @@
         "author": "Ned Batchelder and 149 others ned@nedbatchelder.com",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/nedbat/coveragepy",
         "licenses": [
@@ -3996,11 +3999,8 @@
             "demisto/py3-native",
             "demisto/python_pancloud",
             "demisto/oauthlib",
-            "demisto/demisto-sdk",
             "demisto/falcon-mcp",
-            "demisto/python_pancloud_v2",
             "demisto/google-cloud-translate",
-            "demisto/xsoar-tools",
             "demisto/parse-emails",
             "demisto/devo",
             "demisto/google-api-py3",
@@ -4015,9 +4015,7 @@
             "demisto/resilient",
             "demisto/snowflake",
             "demisto/crypto",
-            "demisto/taxii-server",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
             "demisto/flask-nginx",
             "demisto/keeper-ksm",
             "demisto/mcp",
@@ -4038,7 +4036,12 @@
             "demisto/google-cloud-storage",
             "demisto/google-kms",
             "demisto/genericsql",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/pyca/cryptography",
         "licenses": [
@@ -4300,7 +4303,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/python",
             "demisto/privx-api",
             "demisto/slack",
@@ -4311,7 +4313,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -4321,14 +4322,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -4369,12 +4367,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -4382,7 +4376,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -4424,7 +4417,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -4432,7 +4424,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/scrapinghub/dateparser",
         "licenses": [
@@ -4459,10 +4462,10 @@
         "docker_images": [
             "demisto/dl",
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/py-ews",
-            "demisto/resilient"
+            "demisto/resilient",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/micheles/decorator",
         "licenses": [
@@ -4480,12 +4483,8 @@
             "demisto/slack-bolt",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/python_pancloud_v2",
-            "demisto/docxpy",
-            "demisto/netutils",
             "demisto/sixgill",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/opnsense",
@@ -4510,10 +4509,6 @@
             "demisto/resilient",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -4521,7 +4516,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -4555,11 +4549,20 @@
             "demisto/vendors-sdk",
             "demisto/pytmv1",
             "demisto/pandas",
-            "demisto/boto3py3",
             "demisto/google-cloud-storage",
             "demisto/axonius",
             "demisto/commvault",
-            "demisto/anyrun-sdk"
+            "demisto/anyrun-sdk",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml"
         ],
         "home_page": null,
         "licenses": [
@@ -4641,7 +4644,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/privx-api",
             "demisto/slack",
             "demisto/slack-bolt",
@@ -4651,7 +4653,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -4661,14 +4662,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -4709,12 +4707,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -4722,7 +4716,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -4764,7 +4757,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -4772,7 +4764,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/tiran/defusedxml",
         "licenses": [
@@ -4785,9 +4788,9 @@
         "author": "",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
             "demisto/slack-bolt",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/demisto/demisto-py",
         "licenses": [
@@ -4800,8 +4803,8 @@
         "author": "Demisto",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/demisto/demisto-sdk",
         "licenses": [
@@ -4864,8 +4867,8 @@
     "dictdiffer": {
         "author": "Invenio Collaboration info@inveniosoftware.org",
         "docker_images": [
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/inveniosoftware/dictdiffer",
         "licenses": [
@@ -4878,8 +4881,8 @@
         "author": "mike.reider mike.reider@gmail.com",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/perfecto25/dictor",
         "licenses": [
@@ -4894,13 +4897,13 @@
             "demisto/xgboost",
             "demisto/dl-languages",
             "demisto/py3-native",
-            "demisto/demisto-sdk",
             "demisto/mlurlphishing",
-            "demisto/xsoar-tools",
             "demisto/mlclustering",
             "demisto/xpanse-ml-ev2",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://pypi.org/project/dill",
         "licenses": [
@@ -4914,10 +4917,10 @@
         "docker_images": [
             "demisto/stix",
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
             "demisto/qrcode",
+            "demisto/py-ews",
             "demisto/xsoar-tools",
-            "demisto/py-ews"
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://bitbucket.org/pypa/distlib",
         "licenses": [
@@ -4962,14 +4965,14 @@
             "demisto/dnspython",
             "demisto/py3-native",
             "demisto/py3-tools-ubi",
-            "demisto/netutils",
             "demisto/ippysocks-py3",
             "demisto/panw-iot",
             "demisto/py-ews",
             "demisto/dnstwist",
-            "demisto/py3ews",
             "demisto/ansible-runner",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/netutils",
+            "demisto/py3ews"
         ],
         "home_page": "http://www.dnspython.org",
         "licenses": [
@@ -4982,8 +4985,8 @@
         "author": "",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/docker/docker-py",
         "licenses": [
@@ -5011,9 +5014,9 @@
             "demisto/xsoar-tools-hf",
             "demisto/py3-native",
             "demisto/py3-tools-ubi",
-            "demisto/demisto-sdk",
+            "demisto/vmware",
             "demisto/xsoar-tools",
-            "demisto/vmware"
+            "demisto/demisto-sdk"
         ],
         "home_page": "http://docopt.org",
         "licenses": [
@@ -5663,7 +5666,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/privx-api",
             "demisto/slack",
             "demisto/slack-bolt",
@@ -5673,7 +5675,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -5683,14 +5684,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -5731,12 +5729,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -5744,7 +5738,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -5786,7 +5779,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -5794,7 +5786,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/benediktschmitt/py-filelock",
         "licenses": [
@@ -5858,8 +5861,8 @@
         "author": "Ian Lin you@example.com",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/ianlini/flatten-dict",
         "licenses": [
@@ -5936,8 +5939,8 @@
         "author": "Steve Pulec spulec@gmail.com",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/spulec/freezegun",
         "licenses": [
@@ -5953,14 +5956,14 @@
             "demisto/aiohttp",
             "demisto/py3-native",
             "demisto/slack",
-            "demisto/netutils",
             "demisto/taegis-sdk-python",
             "demisto/slackv3",
             "demisto/auth-utils",
             "demisto/ansible-runner",
             "demisto/py3-tools",
             "demisto/oci",
-            "demisto/anyrun-sdk"
+            "demisto/anyrun-sdk",
+            "demisto/netutils"
         ],
         "home_page": "https://github.com/aio-libs/frozenlist",
         "licenses": [
@@ -6090,7 +6093,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/python",
             "demisto/privx-api",
             "demisto/slack",
@@ -6101,7 +6103,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -6111,14 +6112,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -6159,12 +6157,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -6172,7 +6166,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -6214,7 +6207,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -6222,7 +6214,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "http://github.com/Suor/funcy",
         "licenses": [
@@ -6258,8 +6261,8 @@
             "demisto/trustar",
             "demisto/pykafka",
             "demisto/py-ews",
-            "demisto/py3ews",
-            "demisto/pycef"
+            "demisto/pycef",
+            "demisto/py3ews"
         ],
         "home_page": "https://python-future.org",
         "licenses": [
@@ -6341,10 +6344,10 @@
         "author": "Denis Bilenko denis.bilenko@gmail.com",
         "docker_images": [
             "demisto/syslog",
-            "demisto/taxii-server",
             "demisto/flask-nginx",
             "demisto/teams",
-            "demisto/commvault"
+            "demisto/commvault",
+            "demisto/taxii-server"
         ],
         "home_page": "http://www.gevent.org/",
         "licenses": [
@@ -6357,9 +6360,9 @@
         "author": "Sebastian Thiel byronimo@gmail.com",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
             "demisto/privx-api",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/gitpython-developers/gitdb",
         "licenses": [
@@ -6372,8 +6375,8 @@
         "author": "Aaron O Mullan aaron@friendco.de",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/nephila/giturlparse",
         "licenses": [
@@ -6402,9 +6405,7 @@
             "demisto/google-cloud-securitycenter",
             "demisto/google-api",
             "demisto/py3-native",
-            "demisto/demisto-sdk",
             "demisto/google-cloud-translate",
-            "demisto/xsoar-tools",
             "demisto/google-api-py3",
             "demisto/google-k8s-engine",
             "demisto/googleapi-python3",
@@ -6413,7 +6414,9 @@
             "demisto/bigquery",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
-            "demisto/google-kms"
+            "demisto/google-kms",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-cloud-python",
         "licenses": [
@@ -6449,9 +6452,7 @@
             "demisto/google-api",
             "demisto/py3-native",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/google-cloud-translate",
-            "demisto/xsoar-tools",
             "demisto/google-api-py3",
             "demisto/anthropic",
             "demisto/google-k8s-engine",
@@ -6461,7 +6462,9 @@
             "demisto/bigquery",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
-            "demisto/google-kms"
+            "demisto/google-kms",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-auth-library-python",
         "licenses": [
@@ -6543,14 +6546,14 @@
             "demisto/gvault",
             "demisto/xsoar-tools-hf",
             "demisto/google-api",
-            "demisto/demisto-sdk",
             "demisto/google-cloud-translate",
-            "demisto/xsoar-tools",
             "demisto/googleapi-python3",
             "demisto/xpanse-ml-ev2",
             "demisto/bigquery",
             "demisto/google-vision-api",
-            "demisto/google-cloud-storage"
+            "demisto/google-cloud-storage",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-cloud-python",
         "licenses": [
@@ -6598,8 +6601,8 @@
     "google-cloud-secret-manager": {
         "author": "Google LLC googleapis-packages@google.com",
         "docker_images": [
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-secret-manager",
         "licenses": [
@@ -6626,12 +6629,12 @@
             "demisto/gvault",
             "demisto/xsoar-tools-hf",
             "demisto/google-api",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/googleapi-python3",
             "demisto/xpanse-ml-ev2",
             "demisto/google-vision-api",
-            "demisto/google-cloud-storage"
+            "demisto/google-cloud-storage",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-cloud-python",
         "licenses": [
@@ -6667,13 +6670,13 @@
     "google-crc32c": {
         "author": "Google LLC googleapis-packages@google.com",
         "docker_images": [
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/googleapi-python3",
             "demisto/xpanse-ml-ev2",
             "demisto/bigquery",
             "demisto/google-vision-api",
-            "demisto/google-cloud-storage"
+            "demisto/google-cloud-storage",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/googleapis/python-crc32c",
         "licenses": [
@@ -6698,13 +6701,13 @@
             "demisto/gvault",
             "demisto/xsoar-tools-hf",
             "demisto/google-api",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/googleapi-python3",
             "demisto/xpanse-ml-ev2",
             "demisto/bigquery",
             "demisto/google-vision-api",
-            "demisto/google-cloud-storage"
+            "demisto/google-cloud-storage",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/GoogleCloudPlatform/google-resumable-media-python",
         "licenses": [
@@ -6721,9 +6724,7 @@
             "demisto/google-cloud-securitycenter",
             "demisto/google-api",
             "demisto/py3-native",
-            "demisto/demisto-sdk",
             "demisto/google-cloud-translate",
-            "demisto/xsoar-tools",
             "demisto/google-api-py3",
             "demisto/keepercommander",
             "demisto/google-k8s-engine",
@@ -6733,7 +6734,9 @@
             "demisto/bigquery",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
-            "demisto/google-kms"
+            "demisto/google-kms",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/googleapis/googleapis",
         "licenses": [
@@ -6798,13 +6801,13 @@
         "docker_images": [
             "demisto/py3-native",
             "demisto/syslog",
-            "demisto/taxii-server",
             "demisto/flask-nginx",
             "demisto/slackv3",
             "demisto/teams",
             "demisto/genericsql",
             "demisto/commvault",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/taxii-server"
         ],
         "home_page": "https://github.com/python-greenlet/greenlet",
         "licenses": [
@@ -6841,12 +6844,12 @@
         "author": "Google Inc googleapis-packages@google.com",
         "docker_images": [
             "demisto/google-cloud-securitycenter",
-            "demisto/demisto-sdk",
             "demisto/google-cloud-translate",
-            "demisto/xsoar-tools",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
-            "demisto/google-kms"
+            "demisto/google-kms",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/googleapis/googleapis",
         "licenses": [
@@ -6859,9 +6862,7 @@
         "author": "The gRPC Authors grpc-io@googlegroups.com",
         "docker_images": [
             "demisto/google-cloud-securitycenter",
-            "demisto/demisto-sdk",
             "demisto/google-cloud-translate",
-            "demisto/xsoar-tools",
             "demisto/panw-iot",
             "demisto/elasticsearch",
             "demisto/google-k8s-engine",
@@ -6869,7 +6870,9 @@
             "demisto/bigquery",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
-            "demisto/google-kms"
+            "demisto/google-kms",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://grpc.io",
         "licenses": [
@@ -6882,14 +6885,14 @@
         "author": "The gRPC Authors grpc-io@googlegroups.com",
         "docker_images": [
             "demisto/google-cloud-securitycenter",
-            "demisto/demisto-sdk",
             "demisto/google-cloud-translate",
-            "demisto/xsoar-tools",
             "demisto/google-k8s-engine",
             "demisto/bigquery",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
-            "demisto/google-kms"
+            "demisto/google-kms",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://grpc.io",
         "licenses": [
@@ -6930,13 +6933,11 @@
             "demisto/opencti",
             "demisto/chromium",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -6976,12 +6977,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -6989,7 +6986,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -7028,14 +7024,24 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/python-hyper/h11",
         "licenses": [
@@ -7137,13 +7143,11 @@
         "docker_images": [
             "demisto/falcon-mcp",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -7183,12 +7187,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -7196,7 +7196,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -7235,14 +7234,24 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": null,
         "licenses": [
@@ -7298,13 +7307,11 @@
         "docker_images": [
             "demisto/falcon-mcp",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -7344,12 +7351,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -7357,7 +7360,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -7396,14 +7398,24 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "",
         "licenses": [
@@ -7466,9 +7478,9 @@
         "docker_images": [
             "demisto/dl-languages",
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
+            "demisto/ansible-runner",
             "demisto/xsoar-tools",
-            "demisto/ansible-runner"
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://humanfriendly.readthedocs.io",
         "licenses": [
@@ -7517,8 +7529,8 @@
     "identify": {
         "author": "Chris Kuehl ckuehl@ocf.berkeley.edu",
         "docker_images": [
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/pre-commit/identify",
         "licenses": [
@@ -7649,7 +7661,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/python",
             "demisto/privx-api",
             "demisto/slack",
@@ -7660,7 +7671,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -7670,14 +7680,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -7718,12 +7725,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -7731,7 +7734,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -7773,7 +7775,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -7781,7 +7782,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/kjd/idna",
         "licenses": [
@@ -7832,8 +7844,8 @@
     "imagesize": {
         "author": "Yoshiki Shibukawa yoshiki@shibu.jp",
         "docker_images": [
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/shibukawa/imagesize_py",
         "licenses": [
@@ -7875,9 +7887,9 @@
             "demisto/stix",
             "demisto/xsoar-tools-hf",
             "demisto/threatconnect-tcex",
-            "demisto/demisto-sdk",
+            "demisto/argus-toolbelt",
             "demisto/xsoar-tools",
-            "demisto/argus-toolbelt"
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/python/importlib_resources",
         "licenses": [
@@ -7934,8 +7946,8 @@
         "author": "Janne Vanhala janne.vanhala@gmail.com",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/jpvanhal/inflection",
         "licenses": [
@@ -7949,9 +7961,9 @@
         "docker_images": [
             "demisto/xsoar-tools-hf",
             "demisto/py3-native",
-            "demisto/demisto-sdk",
+            "demisto/parse-emails",
             "demisto/xsoar-tools",
-            "demisto/parse-emails"
+            "demisto/demisto-sdk"
         ],
         "home_page": "http://github.com/RonnyPfannschmidt/iniconfig",
         "licenses": [
@@ -8065,9 +8077,9 @@
             "demisto/py3-native",
             "demisto/zeep",
             "demisto/py-ews",
-            "demisto/py3ews",
             "demisto/py42",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/py3ews"
         ],
         "home_page": "https://github.com/gweis/isodate/",
         "licenses": [
@@ -8080,8 +8092,8 @@
         "author": "Timothy Crosley timothy.crosley@gmail.com",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://pycqa.github.io/isort/",
         "licenses": [
@@ -8106,9 +8118,9 @@
         "author": "Armin Ronacher armin.ronacher@active-4.com",
         "docker_images": [
             "demisto/keepercommander",
-            "demisto/taxii-server",
             "demisto/flask-nginx",
-            "demisto/teams"
+            "demisto/teams",
+            "demisto/taxii-server"
         ],
         "home_page": "https://palletsprojects.com/p/itsdangerous/",
         "licenses": [
@@ -8190,9 +8202,9 @@
     "jira": {
         "author": "Ben Speakmon <ben.speakmon@gmail.com>",
         "docker_images": [
-            "demisto/demisto-sdk",
+            "demisto/parse-emails",
             "demisto/xsoar-tools",
-            "demisto/parse-emails"
+            "demisto/demisto-sdk"
         ],
         "home_page": null,
         "licenses": [
@@ -8248,14 +8260,14 @@
             "demisto/py3-native",
             "demisto/nltk",
             "demisto/fetch-data",
-            "demisto/demisto-sdk",
             "demisto/mlurlphishing",
             "demisto/stringsifter",
-            "demisto/xsoar-tools",
             "demisto/mlclustering",
             "demisto/xpanse-ml-ev2",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://joblib.readthedocs.io",
         "licenses": [
@@ -8281,8 +8293,8 @@
     "json5": {
         "author": "Dirk Pranke dpranke@chromium.org",
         "docker_images": [
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/dpranke/pyjson5",
         "licenses": [
@@ -8297,11 +8309,11 @@
             "demisto/xsoar-tools-hf",
             "demisto/threatconnect-tcex",
             "demisto/pymisp",
-            "demisto/demisto-sdk",
             "demisto/falcon-mcp",
-            "demisto/xsoar-tools",
             "demisto/carbon-black-cloud",
-            "demisto/mcp"
+            "demisto/mcp",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/Julian/jsonschema",
         "licenses": [
@@ -8313,11 +8325,11 @@
     "jsonschema-specifications": {
         "author": "Julian Berman Julian+jsonschema-specifications@GrayVines.com",
         "docker_images": [
-            "demisto/demisto-sdk",
             "demisto/falcon-mcp",
-            "demisto/xsoar-tools",
             "demisto/carbon-black-cloud",
-            "demisto/mcp"
+            "demisto/mcp",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "",
         "licenses": [
@@ -8329,9 +8341,9 @@
     "junitparser": {
         "author": "Weiwei Wang gastlygem@gmail.com",
         "docker_images": [
-            "demisto/demisto-sdk",
+            "demisto/parse-emails",
             "demisto/xsoar-tools",
-            "demisto/parse-emails"
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/weiwei/junitparser",
         "licenses": [
@@ -8698,8 +8710,8 @@
     "loguru": {
         "author": "Delgan <delgan.py@gmail.com>",
         "docker_images": [
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": null,
         "licenses": [
@@ -8742,22 +8754,22 @@
             "demisto/py3-native",
             "demisto/zeep",
             "demisto/sane-doc-reports",
-            "demisto/demisto-sdk",
             "demisto/pcap-http-extractor",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/xsoar-tools",
             "demisto/readpdf",
             "demisto/vmware",
             "demisto/py-ews",
+            "demisto/pan-os-python",
+            "demisto/ansible-runner",
+            "demisto/bs4-py3",
+            "demisto/docxpy",
             "demisto/taxii",
             "demisto/taxii-server",
             "demisto/py3ews",
             "demisto/pcap-miner",
+            "demisto/xsoar-tools",
             "demisto/lxml",
-            "demisto/pan-os-python",
-            "demisto/ansible-runner",
-            "demisto/bs4-py3"
+            "demisto/demisto-sdk"
         ],
         "home_page": "http://lxml.de/",
         "licenses": [
@@ -8770,8 +8782,8 @@
         "author": "Jonathan Underwood jonathan.underwood@gmail.com",
         "docker_images": [
             "demisto/pykafka",
-            "demisto/taxii-server",
-            "demisto/genericsql"
+            "demisto/genericsql",
+            "demisto/taxii-server"
         ],
         "home_page": "https://github.com/python-lz4/python-lz4",
         "licenses": [
@@ -8823,14 +8835,14 @@
         "author": "Chris Sewell <chrisj_sewell@hotmail.com>",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/netmiko",
             "demisto/gdetect",
             "demisto/keepercommander",
             "demisto/py42",
             "demisto/ml",
-            "demisto/vendors-sdk"
+            "demisto/vendors-sdk",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": null,
         "licenses": [
@@ -8844,10 +8856,10 @@
         "docker_images": [
             "demisto/py3-native",
             "demisto/py3-tools-ubi",
-            "demisto/taxii",
             "demisto/bs4-tld",
             "demisto/btfl-soup",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/taxii"
         ],
         "home_page": "http://github.com/matthewwithanm/python-markdownify",
         "licenses": [
@@ -8925,8 +8937,8 @@
         "author": "Tarek Ziade tarek@ziade.org",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/pycqa/mccabe",
         "licenses": [
@@ -8976,14 +8988,14 @@
         "author": "Taneli Hukkinen <hukkin@users.noreply.github.com>",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/netmiko",
             "demisto/gdetect",
             "demisto/keepercommander",
             "demisto/py42",
             "demisto/ml",
-            "demisto/vendors-sdk"
+            "demisto/vendors-sdk",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "",
         "licenses": [
@@ -9008,8 +9020,8 @@
         "author": "Travis Clarke travis.m.clarke@gmail.com",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/clarketm/mergedeep",
         "licenses": [
@@ -9228,7 +9240,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/privx-api",
             "demisto/slack",
             "demisto/slack-bolt",
@@ -9238,7 +9249,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -9248,14 +9258,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -9296,12 +9303,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -9309,7 +9312,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -9351,7 +9353,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -9359,7 +9360,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "",
         "licenses": [
@@ -9394,10 +9406,7 @@
             "demisto/pydantic-jwt3",
             "demisto/py3-native",
             "demisto/oauthlib",
-            "demisto/python_pancloud_v2",
             "demisto/crypto",
-            "demisto/taxii-server",
-            "demisto/py3ews",
             "demisto/flask-nginx",
             "demisto/keeper-ksm",
             "demisto/teams",
@@ -9405,7 +9414,10 @@
             "demisto/tidy",
             "demisto/auth-utils",
             "demisto/ansible-runner",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews"
         ],
         "home_page": "https://github.com/AzureAD/microsoft-authentication-library-for-python",
         "licenses": [
@@ -9521,7 +9533,6 @@
             "demisto/py3-native",
             "demisto/py3-tools-ubi",
             "demisto/slack",
-            "demisto/netutils",
             "demisto/taegis-sdk-python",
             "demisto/panw-iot",
             "demisto/slackv3",
@@ -9531,7 +9542,8 @@
             "demisto/graphql",
             "demisto/py3-tools",
             "demisto/oci",
-            "demisto/anyrun-sdk"
+            "demisto/anyrun-sdk",
+            "demisto/netutils"
         ],
         "home_page": "https://github.com/aio-libs/multidict",
         "licenses": [
@@ -9558,8 +9570,8 @@
         "author": "Jukka Lehtosalo jukka.lehtosalo@iki.fi",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "http://www.mypy-lang.org/",
         "licenses": [
@@ -9584,9 +9596,9 @@
     "mypy_extensions": {
         "author": "The mypy developers <jukka.lehtosalo@iki.fi>",
         "docker_images": [
-            "demisto/demisto-sdk",
             "demisto/taegis-sdk-python",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/demisto-sdk"
         ],
         "home_page": null,
         "licenses": [],
@@ -9625,8 +9637,8 @@
     "neo4j": {
         "author": "Neo4j, Inc. drivers@neo4j.com",
         "docker_images": [
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/neo4j/neo4j-python-driver",
         "licenses": [
@@ -9640,11 +9652,11 @@
         "docker_images": [
             "demisto/netaddr",
             "demisto/py3-native",
+            "demisto/flask-nginx",
+            "demisto/teams",
             "demisto/netutils",
             "demisto/taxii",
-            "demisto/taxii-server",
-            "demisto/flask-nginx",
-            "demisto/teams"
+            "demisto/taxii-server"
         ],
         "home_page": "https://github.com/drkjam/netaddr/",
         "licenses": [
@@ -9673,12 +9685,12 @@
             "demisto/dl-languages",
             "demisto/xsoar-tools-hf",
             "demisto/py3-native",
-            "demisto/demisto-sdk",
             "demisto/processing-image-file",
-            "demisto/xsoar-tools",
             "demisto/ml",
             "demisto/sklearn",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "http://networkx.github.io/",
         "licenses": [
@@ -9690,9 +9702,9 @@
     "nh3": {
         "author": "messense <messense@icloud.com>",
         "docker_images": [
-            "demisto/taxii",
             "demisto/bs4-tld",
-            "demisto/btfl-soup"
+            "demisto/btfl-soup",
+            "demisto/taxii"
         ],
         "home_page": null,
         "licenses": [
@@ -9734,10 +9746,10 @@
             "demisto/py3-native",
             "demisto/nltk",
             "demisto/fetch-data",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "http://nltk.org/",
         "licenses": [
@@ -9749,8 +9761,8 @@
     "nodeenv": {
         "author": "Eugene Kalinin e.v.kalinin@gmail.com",
         "docker_images": [
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/ekalinin/nodeenv",
         "licenses": [
@@ -9913,17 +9925,17 @@
             "demisto/tweepy",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/taegis-sdk-python",
             "demisto/parse-emails",
             "demisto/panw-iot",
             "demisto/py-ews",
-            "demisto/py3ews",
             "demisto/auth-utils",
             "demisto/ansible-runner",
             "demisto/py3-tools",
-            "demisto/google-vision-api"
+            "demisto/google-vision-api",
+            "demisto/py3ews",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/oauthlib/oauthlib",
         "licenses": [
@@ -10073,7 +10085,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/python",
             "demisto/privx-api",
             "demisto/slack",
@@ -10084,7 +10095,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -10094,14 +10104,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -10142,12 +10149,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -10155,7 +10158,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -10197,7 +10199,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -10205,7 +10206,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://www.decalage.info/python/olefileio",
         "licenses": [
@@ -10376,7 +10388,8 @@
             "demisto/vendors-sdk",
             "demisto/bigquery",
             "demisto/google-vision-api",
-            "demisto/google-cloud-storage"
+            "demisto/google-cloud-storage",
+            "demisto/demisto-sdk"
         ],
         "home_page": null,
         "licenses": [
@@ -10436,10 +10449,10 @@
             "demisto/xlrd",
             "demisto/pysmb",
             "demisto/stix",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/keepercommander",
-            "demisto/taxii-server"
+            "demisto/taxii-server",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/LuminosoInsight/ordered-set",
         "licenses": [
@@ -10489,9 +10502,9 @@
     "orjson": {
         "author": "ijl <ijl@mailbox.org> ijl <ijl@mailbox.org>",
         "docker_images": [
-            "demisto/demisto-sdk",
+            "demisto/genericsql",
             "demisto/xsoar-tools",
-            "demisto/genericsql"
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/ijl/orjson",
         "licenses": [
@@ -10554,14 +10567,12 @@
             "demisto/py3-native",
             "demisto/fetch-data",
             "demisto/py3-tools-ubi",
-            "demisto/demisto-sdk",
             "demisto/falcon-mcp",
             "demisto/opencti",
             "demisto/tesseract",
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -10569,14 +10580,11 @@
             "demisto/qrcode",
             "demisto/chromium",
             "demisto/stringsifter",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -10617,12 +10625,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -10630,7 +10634,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -10672,7 +10675,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -10680,7 +10682,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/pypa/packaging",
         "licenses": [
@@ -10790,11 +10803,11 @@
     "paramiko": {
         "author": "Jeff Forcier jeff@bitprophet.org",
         "docker_images": [
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/netmiko",
             "demisto/tidy",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/paramiko/paramiko/",
         "licenses": [
@@ -11182,7 +11195,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/python",
             "demisto/privx-api",
             "demisto/slack",
@@ -11193,7 +11205,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -11203,14 +11214,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -11251,12 +11259,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -11264,7 +11268,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -11306,7 +11309,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -11314,7 +11316,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://pip.pypa.io/",
         "licenses": [
@@ -11365,12 +11378,12 @@
         "docker_images": [
             "demisto/stix",
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
             "demisto/qrcode",
-            "demisto/xsoar-tools",
             "demisto/py-ews",
             "demisto/keepercommander",
-            "demisto/snowflake"
+            "demisto/snowflake",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/platformdirs/platformdirs",
         "licenses": [
@@ -11408,9 +11421,9 @@
         "docker_images": [
             "demisto/xsoar-tools-hf",
             "demisto/py3-native",
-            "demisto/demisto-sdk",
+            "demisto/parse-emails",
             "demisto/xsoar-tools",
-            "demisto/parse-emails"
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/pytest-dev/pluggy",
         "licenses": [
@@ -11486,8 +11499,8 @@
     "pre-commit": {
         "author": "Anthony Sottile asottile@umich.edu",
         "docker_images": [
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/pre-commit/pre-commit",
         "licenses": [
@@ -11514,8 +11527,8 @@
         "author": "Luke Maurits luke@maurits.id.au",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/jazzband/prettytable",
         "licenses": [
@@ -11591,7 +11604,6 @@
         "author": "Andrew Svetlov andrew.svetlov@gmail.com",
         "docker_images": [
             "demisto/slack",
-            "demisto/netutils",
             "demisto/taegis-sdk-python",
             "demisto/slackv3",
             "demisto/py-tenable",
@@ -11600,7 +11612,8 @@
             "demisto/graphql",
             "demisto/py3-tools",
             "demisto/oci",
-            "demisto/anyrun-sdk"
+            "demisto/anyrun-sdk",
+            "demisto/netutils"
         ],
         "home_page": "https://github.com/aio-libs/propcache",
         "licenses": [
@@ -11614,9 +11627,7 @@
         "docker_images": [
             "demisto/google-cloud-securitycenter",
             "demisto/py3-native",
-            "demisto/demisto-sdk",
             "demisto/google-cloud-translate",
-            "demisto/xsoar-tools",
             "demisto/google-api-py3",
             "demisto/google-k8s-engine",
             "demisto/googleapi-python3",
@@ -11625,7 +11636,9 @@
             "demisto/bigquery",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
-            "demisto/google-kms"
+            "demisto/google-kms",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/googleapis/proto-plus-python.git",
         "licenses": [
@@ -11644,9 +11657,7 @@
             "demisto/google-api",
             "demisto/py3-native",
             "demisto/fetch-data",
-            "demisto/demisto-sdk",
             "demisto/google-cloud-translate",
-            "demisto/xsoar-tools",
             "demisto/carbon-black-cloud",
             "demisto/google-api-py3",
             "demisto/panw-iot",
@@ -11661,7 +11672,9 @@
             "demisto/bigquery",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
-            "demisto/google-kms"
+            "demisto/google-kms",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://developers.google.com/protocol-buffers/",
         "licenses": [
@@ -11675,12 +11688,12 @@
         "docker_images": [
             "demisto/py3-native",
             "demisto/chromium",
-            "demisto/netutils",
             "demisto/fastapi",
             "demisto/panw-iot",
             "demisto/keepercommander",
             "demisto/tidy",
-            "demisto/ansible-runner"
+            "demisto/ansible-runner",
+            "demisto/netutils"
         ],
         "home_page": "https://github.com/giampaolo/psutil",
         "licenses": [
@@ -11776,15 +11789,12 @@
             "demisto/pydantic-jwt3",
             "demisto/py3-native",
             "demisto/oauthlib",
-            "demisto/python_pancloud_v2",
             "demisto/parse-emails",
             "demisto/devo",
             "demisto/panw-iot",
             "demisto/vmware",
             "demisto/snowflake",
             "demisto/crypto",
-            "demisto/taxii-server",
-            "demisto/py3ews",
             "demisto/flask-nginx",
             "demisto/keeper-ksm",
             "demisto/teams",
@@ -11793,7 +11803,10 @@
             "demisto/auth-utils",
             "demisto/ansible-runner",
             "demisto/oci",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews"
         ],
         "home_page": "https://pyopenssl.org/",
         "licenses": [
@@ -11912,14 +11925,11 @@
             "demisto/smb",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/google-cloud-translate",
-            "demisto/xsoar-tools",
             "demisto/ldap",
             "demisto/google-api-py3",
             "demisto/panw-iot",
             "demisto/anthropic",
-            "demisto/taxii",
             "demisto/google-k8s-engine",
             "demisto/bs4-tld",
             "demisto/googleapi-python3",
@@ -11930,7 +11940,10 @@
             "demisto/bigquery",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
-            "demisto/google-kms"
+            "demisto/google-kms",
+            "demisto/taxii",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/etingof/pyasn1",
         "licenses": [
@@ -11959,9 +11972,7 @@
         "docker_images": [
             "demisto/py3-native",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/google-cloud-translate",
-            "demisto/xsoar-tools",
             "demisto/google-api-py3",
             "demisto/anthropic",
             "demisto/google-k8s-engine",
@@ -11971,7 +11982,9 @@
             "demisto/bigquery",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
-            "demisto/google-kms"
+            "demisto/google-kms",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/pyasn1/pyasn1-modules",
         "licenses": [
@@ -12073,8 +12086,8 @@
         "author": "Johann C. Rocholl johann@rocholl.net",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://pycodestyle.pycqa.org/",
         "licenses": [
@@ -12114,12 +12127,9 @@
             "demisto/python_pancloud",
             "demisto/oauthlib",
             "demisto/py3-tools-ubi",
-            "demisto/demisto-sdk",
             "demisto/slack",
             "demisto/falcon-mcp",
-            "demisto/python_pancloud_v2",
             "demisto/google-cloud-translate",
-            "demisto/xsoar-tools",
             "demisto/parse-emails",
             "demisto/devo",
             "demisto/google-api-py3",
@@ -12135,9 +12145,7 @@
             "demisto/resilient",
             "demisto/snowflake",
             "demisto/crypto",
-            "demisto/taxii-server",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
             "demisto/flask-nginx",
             "demisto/slackv3",
             "demisto/keeper-ksm",
@@ -12159,7 +12167,12 @@
             "demisto/google-cloud-storage",
             "demisto/google-kms",
             "demisto/genericsql",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/eliben/pycparser",
         "licenses": [
@@ -12189,13 +12202,13 @@
             "demisto/chromium",
             "demisto/ldap",
             "demisto/readpdf",
-            "demisto/taxii",
             "demisto/bs4-tld",
             "demisto/ml",
             "demisto/btfl-soup",
             "demisto/ansible-runner",
             "demisto/py3-tools",
-            "demisto/genericsql"
+            "demisto/genericsql",
+            "demisto/taxii"
         ],
         "home_page": "https://www.pycryptodome.org",
         "licenses": [
@@ -12212,11 +12225,8 @@
             "demisto/joe-security",
             "demisto/py3-native",
             "demisto/py3-tools-ubi",
-            "demisto/python_pancloud_v2",
             "demisto/keepercommander",
             "demisto/crypto",
-            "demisto/taxii-server",
-            "demisto/py3ews",
             "demisto/flask-nginx",
             "demisto/keeper-ksm",
             "demisto/teams",
@@ -12225,7 +12235,10 @@
             "demisto/auth-utils",
             "demisto/py3-tools",
             "demisto/vendors-sdk",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews"
         ],
         "home_page": "https://www.pycryptodome.org",
         "licenses": [
@@ -12261,10 +12274,8 @@
             "demisto/py3-native",
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
-            "demisto/demisto-sdk",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/xsoar-tools",
             "demisto/fastapi",
             "demisto/threatzone-sdk",
             "demisto/anthropic",
@@ -12279,7 +12290,9 @@
             "demisto/pytmv1",
             "demisto/google-vision-api",
             "demisto/commvault",
-            "demisto/anyrun-sdk"
+            "demisto/anyrun-sdk",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/samuelcolvin/pydantic",
         "licenses": [
@@ -12441,8 +12454,8 @@
         "author": "Johan Andersson Grokzen@gmail.com",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "http://github.com/grokzen/pykwalify",
         "licenses": [
@@ -12720,8 +12733,8 @@
         "author": "Tyler Barrus barrust@gmail.com",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/barrust/pyspellchecker",
         "licenses": [
@@ -12754,9 +12767,9 @@
         "docker_images": [
             "demisto/xsoar-tools-hf",
             "demisto/py3-native",
-            "demisto/demisto-sdk",
+            "demisto/parse-emails",
             "demisto/xsoar-tools",
-            "demisto/parse-emails"
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://docs.pytest.org/en/latest/",
         "licenses": [
@@ -12769,8 +12782,8 @@
         "author": "Tomasz Kontusz tomasz.kontusz@gmail.com",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/ktosiek/pytest-freezegun",
         "licenses": [
@@ -12940,7 +12953,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/python",
             "demisto/privx-api",
             "demisto/slack",
@@ -12951,7 +12963,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -12961,14 +12972,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -13009,12 +13017,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -13022,7 +13026,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -13064,7 +13067,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -13072,7 +13074,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://dateutil.readthedocs.io",
         "licenses": [
@@ -13086,7 +13099,8 @@
         "author": null,
         "docker_images": [
             "demisto/qrcode",
-            "demisto/py-ews"
+            "demisto/py-ews",
+            "demisto/demisto-sdk"
         ],
         "home_page": null,
         "licenses": [
@@ -13101,8 +13115,8 @@
             "demisto/word-parser",
             "demisto/py3-native",
             "demisto/sane-doc-reports",
-            "demisto/docxpy",
-            "demisto/office-utils"
+            "demisto/office-utils",
+            "demisto/docxpy"
         ],
         "home_page": "https://github.com/python-openxml/python-docx",
         "licenses": [
@@ -13116,16 +13130,16 @@
         "docker_images": [
             "demisto/xsoar-tools-hf",
             "demisto/py3-native",
-            "demisto/demisto-sdk",
             "demisto/falcon-mcp",
             "demisto/opencti",
             "demisto/chromium",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/keepercommander",
             "demisto/py42",
             "demisto/vendors-sdk",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/theskumar/python-dotenv",
         "licenses": [
@@ -13137,9 +13151,9 @@
     "python-gitlab": {
         "author": "Gauvain Pocentek <gauvain@pocentek.net>",
         "docker_images": [
-            "demisto/demisto-sdk",
+            "demisto/parse-emails",
             "demisto/xsoar-tools",
-            "demisto/parse-emails"
+            "demisto/demisto-sdk"
         ],
         "home_page": null,
         "licenses": [
@@ -13199,8 +13213,8 @@
             "demisto/py3-native",
             "demisto/opencti",
             "demisto/parse-emails",
-            "demisto/pcap-miner",
-            "demisto/vendors-sdk"
+            "demisto/vendors-sdk",
+            "demisto/pcap-miner"
         ],
         "home_page": "http://github.com/ahupp/python-magic",
         "licenses": [
@@ -13439,7 +13453,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/python",
             "demisto/privx-api",
             "demisto/slack",
@@ -13450,7 +13463,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -13460,14 +13472,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -13508,12 +13517,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -13521,7 +13526,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -13563,7 +13567,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -13571,7 +13574,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "http://pythonhosted.org/pytz",
         "licenses": [
@@ -13718,10 +13732,7 @@
             "demisto/joe-security",
             "demisto/py3-native",
             "demisto/py3-tools-ubi",
-            "demisto/python_pancloud_v2",
             "demisto/crypto",
-            "demisto/taxii-server",
-            "demisto/py3ews",
             "demisto/flask-nginx",
             "demisto/keeper-ksm",
             "demisto/teams",
@@ -13730,7 +13741,10 @@
             "demisto/auth-utils",
             "demisto/py3-tools",
             "demisto/vendors-sdk",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews"
         ],
         "home_page": "https://github.com/danifus/pyzipper",
         "licenses": [
@@ -13767,11 +13781,11 @@
     "referencing": {
         "author": "Julian Berman Julian+referencing@GrayVines.com",
         "docker_images": [
-            "demisto/demisto-sdk",
             "demisto/falcon-mcp",
-            "demisto/xsoar-tools",
             "demisto/carbon-black-cloud",
-            "demisto/mcp"
+            "demisto/mcp",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "",
         "licenses": [
@@ -13889,7 +13903,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/python",
             "demisto/privx-api",
             "demisto/slack",
@@ -13900,7 +13913,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -13910,14 +13922,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -13958,12 +13967,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -13971,7 +13976,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -14013,7 +14017,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -14021,7 +14024,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://bitbucket.org/mrabarnett/mrab-regex",
         "licenses": [
@@ -14173,7 +14187,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/python",
             "demisto/privx-api",
             "demisto/slack",
@@ -14184,7 +14197,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -14194,14 +14206,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -14242,12 +14251,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -14255,7 +14260,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -14297,7 +14301,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -14305,7 +14308,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "http://python-requests.org",
         "licenses": [
@@ -14419,7 +14433,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/python",
             "demisto/privx-api",
             "demisto/slack",
@@ -14430,7 +14443,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -14440,14 +14452,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -14488,12 +14497,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -14501,7 +14506,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -14543,7 +14547,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -14551,7 +14554,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "http://github.com/dashea/requests-file",
         "licenses": [
@@ -14616,17 +14630,17 @@
             "demisto/tweepy",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/taegis-sdk-python",
             "demisto/parse-emails",
             "demisto/panw-iot",
             "demisto/py-ews",
-            "demisto/py3ews",
             "demisto/auth-utils",
             "demisto/ansible-runner",
             "demisto/py3-tools",
-            "demisto/google-vision-api"
+            "demisto/google-vision-api",
+            "demisto/py3ews",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/requests/requests-oauthlib",
         "licenses": [
@@ -14644,8 +14658,6 @@
             "demisto/py3-native",
             "demisto/zeep",
             "demisto/py3-tools-ubi",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/taegis-sdk-python",
             "demisto/parse-emails",
             "demisto/resilient",
@@ -14653,7 +14665,9 @@
             "demisto/py42",
             "demisto/auth-utils",
             "demisto/graphql",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://toolbelt.readthedocs.org",
         "licenses": [
@@ -14730,13 +14744,11 @@
         "author": "Jonas Lundberg jonas@5monkeys.se",
         "docker_images": [
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -14776,12 +14788,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -14789,7 +14797,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -14828,14 +14835,24 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://lundberg.github.io/respx/",
         "licenses": [
@@ -14884,14 +14901,14 @@
         "author": "Will McGugan willmcgugan@gmail.com",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/netmiko",
             "demisto/gdetect",
             "demisto/keepercommander",
             "demisto/py42",
             "demisto/ml",
-            "demisto/vendors-sdk"
+            "demisto/vendors-sdk",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/Textualize/rich",
         "licenses": [
@@ -14903,11 +14920,11 @@
     "rpds-py": {
         "author": "Julian Berman Julian+rpds@GrayVines.com",
         "docker_images": [
-            "demisto/demisto-sdk",
             "demisto/falcon-mcp",
-            "demisto/xsoar-tools",
             "demisto/carbon-black-cloud",
-            "demisto/mcp"
+            "demisto/mcp",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": null,
         "licenses": [
@@ -14925,15 +14942,14 @@
             "demisto/google-api",
             "demisto/py3-native",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/google-api-py3",
-            "demisto/taxii",
             "demisto/bs4-tld",
             "demisto/googleapi-python3",
             "demisto/rubrik-polaris-sdk-py3",
             "demisto/btfl-soup",
             "demisto/bigquery",
-            "demisto/google-vision-api"
+            "demisto/google-vision-api",
+            "demisto/taxii"
         ],
         "home_page": "https://stuvel.eu/rsa",
         "licenses": [
@@ -14972,10 +14988,10 @@
         "author": "Anthon van der Neut a.van.der.neut@ruamel.eu",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
             "demisto/privx-api",
+            "demisto/netmiko",
             "demisto/xsoar-tools",
-            "demisto/netmiko"
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree",
         "licenses": [
@@ -14988,9 +15004,9 @@
         "author": "Anthon van der Neut a.van.der.neut@ruamel.eu",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
             "demisto/privx-api",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://sourceforge.net/p/ruamel-yaml-clib/code/ci/default/tree",
         "licenses": [
@@ -15350,7 +15366,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/python",
             "demisto/privx-api",
             "demisto/slack",
@@ -15361,7 +15376,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -15371,14 +15385,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -15419,12 +15430,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -15432,7 +15439,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -15474,7 +15480,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -15482,7 +15487,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/pypa/setuptools",
         "licenses": [
@@ -15533,10 +15549,10 @@
     "shellingham": {
         "author": "Tzu-ping Chung uranusjr@gmail.com",
         "docker_images": [
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/ml",
-            "demisto/vendors-sdk"
+            "demisto/vendors-sdk",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/sarugaku/shellingham",
         "licenses": [
@@ -15713,7 +15729,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/python",
             "demisto/privx-api",
             "demisto/slack",
@@ -15724,7 +15739,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -15734,14 +15748,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -15782,12 +15793,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -15795,7 +15802,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -15837,7 +15843,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -15845,7 +15850,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/benjaminp/six",
         "licenses": [
@@ -15882,11 +15898,11 @@
         "author": "Slack Technologies, LLC opensource@slack.com",
         "docker_images": [
             "demisto/py3-native",
-            "demisto/demisto-sdk",
             "demisto/slack-bolt",
-            "demisto/xsoar-tools",
             "demisto/parse-emails",
-            "demisto/slackv3"
+            "demisto/slackv3",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/slackapi/python-slack-sdk",
         "licenses": [
@@ -15960,9 +15976,9 @@
         "author": "Sebastian Thiel byronimo@gmail.com",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
             "demisto/privx-api",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/gitpython-developers/smmap",
         "licenses": [
@@ -16045,15 +16061,9 @@
             "demisto/oauthlib",
             "demisto/fetch-data",
             "demisto/py3-tools-ubi",
-            "demisto/demisto-sdk",
-            "demisto/python_pancloud_v2",
             "demisto/mlurlphishing",
-            "demisto/xsoar-tools",
             "demisto/panw-iot",
             "demisto/crypto",
-            "demisto/taxii",
-            "demisto/taxii-server",
-            "demisto/py3ews",
             "demisto/flask-nginx",
             "demisto/bs4-tld",
             "demisto/keeper-ksm",
@@ -16067,7 +16077,13 @@
             "demisto/bs4-py3",
             "demisto/py3-tools",
             "demisto/pytmv1",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/facelessuser/soupsieve",
         "licenses": [
@@ -16260,8 +16276,8 @@
         "author": "OpenStack openstack-discuss@lists.openstack.org",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://docs.openstack.org/stevedore/latest/",
         "licenses": [
@@ -16481,12 +16497,12 @@
             "demisto/xsoar-tools-hf",
             "demisto/pykafka",
             "demisto/fetch-data",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/keepercommander",
             "demisto/ml",
             "demisto/ansible-runner",
-            "demisto/axonius"
+            "demisto/axonius",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://bitbucket.org/astanin/python-tabulate",
         "licenses": [
@@ -16551,10 +16567,10 @@
         "author": "Julien Danjou julien@danjou.info",
         "docker_images": [
             "demisto/dl-languages",
-            "demisto/demisto-sdk",
             "demisto/mlurlphishing",
+            "demisto/google-vision-api",
             "demisto/xsoar-tools",
-            "demisto/google-vision-api"
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/jd/tenacity",
         "licenses": [
@@ -16567,8 +16583,8 @@
         "author": "Konstantin Lepa <konstantin.lepa@gmail.com>",
         "docker_images": [
             "demisto/pcap-http-extractor",
-            "demisto/pcap-miner",
-            "demisto/sublime"
+            "demisto/sublime",
+            "demisto/pcap-miner"
         ],
         "home_page": "",
         "licenses": [
@@ -16810,7 +16826,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/python",
             "demisto/privx-api",
             "demisto/slack",
@@ -16821,7 +16836,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -16831,14 +16845,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -16879,12 +16890,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -16892,7 +16899,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -16934,7 +16940,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -16942,7 +16947,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/john-kurkowski/tldextract",
         "licenses": [
@@ -16972,9 +16988,9 @@
             "demisto/algorithmia",
             "demisto/py3-native",
             "demisto/py3-tools-ubi",
-            "demisto/demisto-sdk",
+            "demisto/py3-tools",
             "demisto/xsoar-tools",
-            "demisto/py3-tools"
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/uiri/toml",
         "licenses": [
@@ -16998,9 +17014,9 @@
     "tomlkit": {
         "author": "S\u00e9bastien Eustace sebastien@eustace.io",
         "docker_images": [
-            "demisto/demisto-sdk",
+            "demisto/snowflake",
             "demisto/xsoar-tools",
-            "demisto/snowflake"
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/sdispater/tomlkit",
         "licenses": [
@@ -17044,10 +17060,10 @@
             "demisto/py3-native",
             "demisto/nltk",
             "demisto/fetch-data",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/ml",
-            "demisto/sklearn"
+            "demisto/sklearn",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/tqdm/tqdm",
         "licenses": [
@@ -17175,10 +17191,10 @@
         "author": "Sebasti\u00e1n Ram\u00edrez tiangolo@gmail.com",
         "docker_images": [
             "demisto/dl-languages",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/ml",
-            "demisto/vendors-sdk"
+            "demisto/vendors-sdk",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/tiangolo/typer",
         "licenses": [
@@ -17279,22 +17295,17 @@
             "demisto/py3-native",
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
-            "demisto/demisto-sdk",
             "demisto/slack",
             "demisto/falcon-mcp",
             "demisto/opencti",
-            "demisto/python_pancloud_v2",
             "demisto/mlurlphishing",
             "demisto/chromium",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -17334,12 +17345,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -17347,7 +17354,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -17389,7 +17395,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -17397,7 +17402,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "",
         "licenses": [
@@ -17454,10 +17470,10 @@
             "demisto/py3-tools-ubi",
             "demisto/mlurlphishing",
             "demisto/py-ews",
-            "demisto/py3ews",
             "demisto/py-tenable",
             "demisto/ml",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/py3ews"
         ],
         "home_page": "https://github.com/python/tzdata",
         "licenses": [
@@ -17576,7 +17592,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/python",
             "demisto/privx-api",
             "demisto/slack",
@@ -17587,7 +17602,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -17597,14 +17611,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -17645,12 +17656,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -17658,7 +17665,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -17700,7 +17706,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -17708,7 +17713,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/regebro/tzlocal",
         "licenses": [
@@ -17906,7 +17922,6 @@
             "demisto/python3-ubi",
             "demisto/py3-tools-ubi",
             "demisto/kubernetespy",
-            "demisto/demisto-sdk",
             "demisto/python",
             "demisto/privx-api",
             "demisto/slack",
@@ -17917,7 +17932,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -17927,14 +17941,11 @@
             "demisto/chromium",
             "demisto/stringsifter",
             "demisto/python3-deb-bullseye",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -17975,12 +17986,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -17988,7 +17995,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -18030,7 +18036,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -18038,7 +18043,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://urllib3.readthedocs.io/",
         "licenses": [
@@ -18062,8 +18078,8 @@
     "uv": {
         "author": "uv \"Astral Software Inc.\" <hey@astral.sh>",
         "docker_images": [
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://pypi.org/project/uv/",
         "licenses": [
@@ -18250,10 +18266,10 @@
             "demisto/threatconnect",
             "demisto/stix",
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
             "demisto/qrcode",
+            "demisto/py-ews",
             "demisto/xsoar-tools",
-            "demisto/py-ews"
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://virtualenv.pypa.io/",
         "licenses": [
@@ -18338,8 +18354,8 @@
         "author": "Jendrik Seipp jendrikseipp@gmail.com",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/jendrikseipp/vulture",
         "licenses": [
@@ -18379,8 +18395,8 @@
         "author": "Isaac Muse Isaac.Muse@gmail.com",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/facelessuser/wcmatch",
         "licenses": [
@@ -18392,13 +18408,13 @@
     "wcwidth": {
         "author": "Jeff Quast contact@jeffquast.com",
         "docker_images": [
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools",
             "demisto/carbon-black-cloud",
             "demisto/greynoise",
             "demisto/vmware",
             "demisto/keepercommander",
-            "demisto/sublime"
+            "demisto/sublime",
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/jquast/wcwidth",
         "licenses": [
@@ -18492,14 +18508,14 @@
             "demisto/websockets",
             "demisto/py3-native",
             "demisto/opencti",
-            "demisto/netutils",
             "demisto/taegis-sdk-python",
             "demisto/panw-iot",
             "demisto/keepercommander",
             "demisto/slackv3",
             "demisto/sublime",
             "demisto/vendors-sdk",
-            "demisto/google-vision-api"
+            "demisto/google-vision-api",
+            "demisto/netutils"
         ],
         "home_page": "https://github.com/aaugustin/websockets",
         "licenses": [
@@ -18652,7 +18668,6 @@
             "demisto/unzip",
             "demisto/processing-image-file",
             "demisto/pcap-http-extractor",
-            "demisto/python_pancloud_v2",
             "demisto/opencv",
             "demisto/yolo-coco",
             "demisto/unifi-video",
@@ -18660,14 +18675,11 @@
             "demisto/qrcode",
             "demisto/chromium",
             "demisto/stringsifter",
-            "demisto/docxpy",
             "demisto/office-utils",
-            "demisto/netutils",
             "demisto/google-cloud-translate",
             "demisto/sixgill",
             "demisto/yarapy",
             "demisto/lacework",
-            "demisto/xsoar-tools",
             "demisto/etl2pcap",
             "demisto/carbon-black-cloud",
             "demisto/ssdeep",
@@ -18708,12 +18720,8 @@
             "demisto/snowflake",
             "demisto/crypto",
             "demisto/elasticsearch",
-            "demisto/taxii",
-            "demisto/taxii-server",
             "demisto/taxii2",
             "demisto/google-k8s-engine",
-            "demisto/py3ews",
-            "demisto/pcap-miner",
             "demisto/argus-toolbelt",
             "demisto/xslxwriter",
             "demisto/cyjax",
@@ -18721,7 +18729,6 @@
             "demisto/slackv3",
             "demisto/feed-performance-test",
             "demisto/bs4-tld",
-            "demisto/lxml",
             "demisto/accessdata",
             "demisto/pan-os-python",
             "demisto/pycountry",
@@ -18763,7 +18770,6 @@
             "demisto/pytmv1",
             "demisto/pandas",
             "demisto/bigquery",
-            "demisto/boto3py3",
             "demisto/google-vision-api",
             "demisto/google-cloud-storage",
             "demisto/google-kms",
@@ -18771,7 +18777,18 @@
             "demisto/axonius",
             "demisto/commvault",
             "demisto/anyrun-sdk",
-            "demisto/media-analysis"
+            "demisto/media-analysis",
+            "demisto/docxpy",
+            "demisto/boto3py3",
+            "demisto/netutils",
+            "demisto/taxii",
+            "demisto/taxii-server",
+            "demisto/python_pancloud_v2",
+            "demisto/py3ews",
+            "demisto/pcap-miner",
+            "demisto/xsoar-tools",
+            "demisto/lxml",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/pypa/wheel",
         "licenses": [
@@ -18854,8 +18871,8 @@
             "demisto/xlrd-py3",
             "demisto/py3-native",
             "demisto/py3-tools-ubi",
-            "demisto/taxii-server",
-            "demisto/py3-tools"
+            "demisto/py3-tools",
+            "demisto/taxii-server"
         ],
         "home_page": "http://www.python-excel.org/",
         "licenses": [
@@ -18915,8 +18932,8 @@
         "author": "Fran\u00e7ois M\u00e9nab\u00e9 francois.menabe@gmail.com",
         "docker_images": [
             "demisto/xsoar-tools-hf",
-            "demisto/demisto-sdk",
-            "demisto/xsoar-tools"
+            "demisto/xsoar-tools",
+            "demisto/demisto-sdk"
         ],
         "home_page": "https://github.com/fmenabe/python-yamlordereddictloader",
         "licenses": [
@@ -18947,7 +18964,6 @@
             "demisto/py3-native",
             "demisto/py3-tools-ubi",
             "demisto/slack",
-            "demisto/netutils",
             "demisto/taegis-sdk-python",
             "demisto/slackv3",
             "demisto/py-tenable",
@@ -18956,7 +18972,8 @@
             "demisto/graphql",
             "demisto/py3-tools",
             "demisto/oci",
-            "demisto/anyrun-sdk"
+            "demisto/anyrun-sdk",
+            "demisto/netutils"
         ],
         "home_page": "https://github.com/aio-libs/yarl/",
         "licenses": [
@@ -19004,10 +19021,10 @@
         "author": "Zope Foundation and Contributors zope-dev@zope.org",
         "docker_images": [
             "demisto/syslog",
-            "demisto/taxii-server",
             "demisto/flask-nginx",
             "demisto/teams",
-            "demisto/commvault"
+            "demisto/commvault",
+            "demisto/taxii-server"
         ],
         "home_page": "https://github.com/zopefoundation/zope.event",
         "licenses": [
@@ -19022,10 +19039,10 @@
             "demisto/py3-native",
             "demisto/parse-emails",
             "demisto/syslog",
-            "demisto/taxii-server",
             "demisto/flask-nginx",
             "demisto/teams",
-            "demisto/commvault"
+            "demisto/commvault",
+            "demisto/taxii-server"
         ],
         "home_page": "https://github.com/zopefoundation/zope.interface",
         "licenses": [
