@@ -1,9 +1,9 @@
-# `demisto/xsoar-tools:1.0.0.13438517`
+# `demisto/xsoar-tools:1.0.0.13471092`
 
 ## Docker Metadata
-- Image Size: 147.44 MB
-- Image ID: `sha256:7a9817d80afa5ad24ca7e0ffa13b5ab0145cf2a93e8fac923395e7eadfa9f192`
-- Created: `2026-09-30T17:49:39.692658517Z`
+- Image Size: 147.05 MB
+- Image ID: `sha256:a24305daac8df17c049b9ded3a358f429f26a168147b7d32c3c04e35ac5a6609`
+- Created: `2026-10-01T20:36:46.15869724Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,15 +12,15 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/xsoar-tools:1.0.0.13438517`
+  - `DOCKER_IMAGE=demisto/xsoar-tools:1.0.0.13471092`
   - `DEMISTO_SDK_IGNORE_CONTENT_WARNING=true`
   - `DEMISTO_SDK_SKIP_LOGGER_SETUP=true`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:1cbacda97fcb375a865f1deac237c16c184975e0`
-  - `org.opencontainers.image.version:1.0.0.13438517`
-  - `panw.builtby.pipeline:13438849`
+  - `org.opencontainers.image.revision:fca11e3107fc60276338bfd39688ff12c2615037`
+  - `org.opencontainers.image.version:1.0.0.13471092`
+  - `panw.builtby.pipeline:13471214`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -35,12 +35,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/xsoar-tools:1.0.0.13438517
+Signatures for demisto/xsoar-tools:1.0.0.13471092
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13438517   dfdc28c98379095e1c9a22459f8488b062a4332f4f9bb6b0454334420dbcd64d   (Repo Admin)
+1.0.0.13471092   8200ab3f5bad81c43949f601f6471e02854d26aa3b75dc9b249fb9fd32749c9f   (Repo Admin)
 
-Administrative keys for demisto/xsoar-tools:1.0.0.13438517
+Administrative keys for demisto/xsoar-tools:1.0.0.13471092
 
   Repository Key:	cf22d1c7d99eaa36ee3a4c4e143589874b21f83068fff42ce971ffaa44c737b6
   Root Key:	83b859e2320bd9a76afcab59964970ff8ba4b4719fa697c8c032e27151f016e6
@@ -319,7 +319,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13438517
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.20.3
+* Version: 3.32.7
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -1035,6 +1035,15 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13438517
 * License :: OSI Approved :: Apache Software License
 * License :: OSI Approved :: BSD License
 
+### `python-discovery`
+
+* Summary: Python interpreter discovery
+* Version: 1.6.1
+* Pypi: https://pypi.org/project/python-discovery/
+* Homepage: None
+* Author: None
+* License :: OSI Approved :: MIT License
+
 ### `python-dotenv`
 
 * Summary: Read key-value pairs from a .env file and set them as environment variables
@@ -1337,7 +1346,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13438517
 ### `virtualenv`
 
 * Summary: Virtual Python Environment builder
-* Version: 20.36.1
+* Version: 21.7.13
 * Pypi: https://pypi.org/project/virtualenv/
 * Homepage: None
 * Author: None
@@ -1441,8 +1450,8 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13438517
 * musl-1.2.6-r2 x86_64 {musl}
 * musl-utils-1.2.6-r2 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
-* nghttp2-libs-1.69.0-r0 x86_64 {nghttp2}
-* pcre2-10.48-r0 x86_64 {pcre2}
+* nghttp2-libs-1.70.0-r0 x86_64 {nghttp2}
+* pcre2-10.49-r0 x86_64 {pcre2}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
