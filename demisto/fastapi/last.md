@@ -1,9 +1,9 @@
-# `demisto/fastapi:0.141.1.13241299`
+# `demisto/fastapi:0.142.2.13587997`
 
 ## Docker Metadata
-- Image Size: 227.02 MB
-- Image ID: `sha256:260d5730369aee9908102e0e9d7961d45fa1970cb2fb002674a30dda32215716`
-- Created: `2026-09-23T08:45:58.357446705Z`
+- Image Size: 225.24 MB
+- Image ID: `sha256:c1cc92e4835a9cbcf7d55e05ab620fd03e914a54a0ddfac63735f147059b2a89`
+- Created: `2026-10-06T23:42:17.251158187Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/fastapi:0.141.1.13241299`
+  - `DOCKER_IMAGE=demisto/fastapi:0.142.2.13587997`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:8ac39e24b5265845e86ea3513ae2c36ef3839de2`
-  - `org.opencontainers.image.version:0.141.1.13241299`
-  - `panw.builtby.pipeline:13242037`
+  - `org.opencontainers.image.revision:3703d95adc955289abe63d20982c04520e939580`
+  - `org.opencontainers.image.version:0.142.2.13587997`
+  - `panw.builtby.pipeline:13588523`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/fastapi:0.141.1.13241299
+Signatures for demisto/fastapi:0.142.2.13587997
 
 SIGNED TAG         DIGEST                                                             SIGNERS
-0.141.1.13241299   094b70d43e112814dba6533e4641e5e2af10305685b3a6a1b88e974601b9af86   (Repo Admin)
+0.142.2.13587997   74abeafa2983e013f6fe440a5e64e6c9133617b47cf9c821e5e416339ddc8d78   (Repo Admin)
 
-Administrative keys for demisto/fastapi:0.141.1.13241299
+Administrative keys for demisto/fastapi:0.142.2.13587997
 
   Repository Key:	0271ad1efe39b86e62ae7b94055f6a242fcc87508e09e3e3642e5b835eec0955
   Root Key:	5e03c5b300f950846c7027ad151ca45f71a4a03330a1805f070015d4aee41282
@@ -85,7 +85,7 @@ Administrative keys for demisto/fastapi:0.141.1.13241299
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.5.1
+* Version: 3.5.2
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -102,7 +102,7 @@ Administrative keys for demisto/fastapi:0.141.1.13241299
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.2
+* Version: 1.4.3
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -110,7 +110,7 @@ Administrative keys for demisto/fastapi:0.141.1.13241299
 ### `deepmerge`
 
 * Summary: A toolset for deeply merging Python dictionaries.
-* Version: 3.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/deepmerge/
 * Homepage: None
 * Author: Yusuke Tsutsumi <yusuke@tsutsumi.io>
@@ -128,7 +128,7 @@ Administrative keys for demisto/fastapi:0.141.1.13241299
 ### `fastapi`
 
 * Summary: FastAPI framework, high performance, easy to learn, fast to code, ready for production
-* Version: 0.141.1
+* Version: 0.142.2
 * Pypi: https://pypi.org/project/fastapi/
 * Homepage: None
 * Author: Sebastián Ramírez <tiangolo@gmail.com>
@@ -145,7 +145,7 @@ Administrative keys for demisto/fastapi:0.141.1.13241299
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.32.4
+* Version: 4.0.10
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -154,7 +154,7 @@ Administrative keys for demisto/fastapi:0.141.1.13241299
 ### `funcy`
 
 * Summary: A fancy and practical functional tools
-* Version: 2.0
+* Version: 2.1
 * Pypi: https://pypi.org/project/funcy/
 * Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
@@ -229,6 +229,14 @@ Administrative keys for demisto/fastapi:0.141.1.13241299
 * Author: Philippe Lagadec nospam@decalage.info
 * License :: OSI Approved :: BSD License
 
+### `opentelemetry-api`
+
+* Summary: OpenTelemetry Python API
+* Version: 1.45.0
+* Pypi: https://pypi.org/project/opentelemetry-api/
+* Homepage: None
+* Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
+
 ### `packaging`
 
 * Summary: Core utilities for Python packages
@@ -273,7 +281,7 @@ Administrative keys for demisto/fastapi:0.141.1.13241299
 ### `PyJWT`
 
 * Summary: JSON Web Token implementation in Python
-* Version: 2.14.0
+* Version: 2.15.1
 * Pypi: https://pypi.org/project/PyJWT/
 * Homepage: None
 * Author: Jose Padilla <hello@jpadilla.com>
@@ -300,7 +308,7 @@ Administrative keys for demisto/fastapi:0.141.1.13241299
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.3.post1
+* Version: 2026.5
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -318,7 +326,7 @@ Administrative keys for demisto/fastapi:0.141.1.13241299
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.7.19
+* Version: 2026.9.29
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -370,7 +378,7 @@ Administrative keys for demisto/fastapi:0.141.1.13241299
 ### `starlette`
 
 * Summary: The little ASGI library that shines.
-* Version: 1.6.0
+* Version: 1.7.0
 * Pypi: https://pypi.org/project/starlette/
 * Homepage: None
 * Author: Tom Christie <tom@tomchristie.com>
@@ -378,7 +386,7 @@ Administrative keys for demisto/fastapi:0.141.1.13241299
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.2
+* Version: 5.4.0
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
@@ -419,7 +427,7 @@ Administrative keys for demisto/fastapi:0.141.1.13241299
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.7.0
+* Version: 2.8.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -427,7 +435,7 @@ Administrative keys for demisto/fastapi:0.141.1.13241299
 ### `uvicorn`
 
 * Summary: The lightning-fast ASGI server.
-* Version: 0.53.0
+* Version: 0.54.0
 * Pypi: https://pypi.org/project/uvicorn/
 * Homepage: None
 * Author: Tom Christie <tom@tomchristie.com>
@@ -442,7 +450,7 @@ Administrative keys for demisto/fastapi:0.141.1.13241299
 
 ## `OS Packages`
 
-* .python-rundeps-20260813.193941 noarch {.python-rundeps}
+* .python-rundeps-20260917.215302 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
@@ -459,14 +467,14 @@ Administrative keys for demisto/fastapi:0.141.1.13241299
 * libapk-3.0.8-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.8-r0 x86_64 {openssl}
+* libcrypto3-3.5.9-r0 x86_64 {openssl}
 * libffi-3.5.2-r1 x86_64 {libffi}
 * libgcc-15.2.0-r5 x86_64 {gcc}
 * libintl-1.0-r0 x86_64 {gettext}
 * libncursesw-6.6_p20260516-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r2 x86_64 {libnsl}
 * libpanelw-6.6_p20260516-r0 x86_64 {ncurses}
-* libssl3-3.5.8-r0 x86_64 {openssl}
+* libssl3-3.5.9-r0 x86_64 {openssl}
 * libstdc++-15.2.0-r5 x86_64 {gcc}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
@@ -475,12 +483,12 @@ Administrative keys for demisto/fastapi:0.141.1.13241299
 * musl-1.2.6-r2 x86_64 {musl}
 * musl-utils-1.2.6-r2 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
-* pcre2-10.48-r0 x86_64 {pcre2}
+* pcre2-10.49-r0 x86_64 {pcre2}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
 * swig-4.4.1-r1 x86_64 {swig}
-* tzdata-2026d-r0 x86_64 {tzdata}
+* tzdata-2026e-r0 x86_64 {tzdata}
 * xz-libs-5.8.4-r0 x86_64 {xz}
-* zlib-1.3.2-r0 x86_64 {zlib}
+* zlib-1.3.2-r1 x86_64 {zlib}

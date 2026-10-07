@@ -1,9 +1,9 @@
-# `demisto/taegis-sdk-python:1.0.0.13438517`
+# `demisto/taegis-sdk-python:1.0.0.13557412`
 
 ## Docker Metadata
-- Image Size: 41.79 MB
-- Image ID: `sha256:5fa89cbc93251881a9e8459e9c8944f8dc3123c54d628754d93fd959afad3f8c`
-- Created: `2026-09-30T17:48:44.098083655Z`
+- Image Size: 41.88 MB
+- Image ID: `sha256:c74b4d708146db602f33d2b02e2cbe5ccd88f1d5982c3e83c2f197122423bc41`
+- Created: `2026-10-06T05:51:24.191840751Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/taegis-sdk-python:1.0.0.13438517`
+  - `DOCKER_IMAGE=demisto/taegis-sdk-python:1.0.0.13557412`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:1cbacda97fcb375a865f1deac237c16c184975e0`
-  - `org.opencontainers.image.version:1.0.0.13438517`
-  - `panw.builtby.pipeline:13438847`
+  - `org.opencontainers.image.revision:3cf7c9a160584ee7fece11e449eab5578810eb00`
+  - `org.opencontainers.image.version:1.0.0.13557412`
+  - `panw.builtby.pipeline:13557814`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/taegis-sdk-python:1.0.0.13438517
+Signatures for demisto/taegis-sdk-python:1.0.0.13557412
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13438517   895f3569070e1ac7b2151297be19ce558d715e312890365cdcebb08e1e180d32   (Repo Admin)
+1.0.0.13557412   f3c03d4554d69f28c5f3031bad1c335b4112a475d5cc6970f7e46f8de4ca05a0   (Repo Admin)
 
-Administrative keys for demisto/taegis-sdk-python:1.0.0.13438517
+Administrative keys for demisto/taegis-sdk-python:1.0.0.13557412
 
   Repository Key:	5adfc3de73d3fba8d8bec6eaa61ea68538d8f17fafe647c69721a127bac1649c
   Root Key:	6173d20ae6055adefcf7d467dae31a8f0ebef28cc95a8f7200e3d7426bc53f73
@@ -271,7 +271,7 @@ Administrative keys for demisto/taegis-sdk-python:1.0.0.13438517
 ### `multidict`
 
 * Summary: multidict implementation
-* Version: 6.7.1
+* Version: 6.9.1
 * Pypi: https://pypi.org/project/multidict/
 * Homepage: https://github.com/aio-libs/multidict
 * Author: Andrew Svetlov andrew.svetlov@gmail.com

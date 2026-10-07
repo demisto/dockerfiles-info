@@ -1,9 +1,9 @@
-# `demisto/py3-tools:1.0.0.13176850`
+# `demisto/py3-tools:1.0.0.13557412`
 
 ## Docker Metadata
-- Image Size: 76.69 MB
-- Image ID: `sha256:b46624e40dab83a5685418478ea365aafaac8d1119ae4b140421392cc45daa5a`
-- Created: `2026-09-20T00:22:21.250985524Z`
+- Image Size: 78.68 MB
+- Image ID: `sha256:c361abb94a057111c76541eca2cea2fe386a95c96a9eb31f054a0f5b3afee20e`
+- Created: `2026-10-06T05:51:48.578065783Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,20 +12,20 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/py3-tools:1.0.0.13176850`
+  - `DOCKER_IMAGE=demisto/py3-tools:1.0.0.13557412`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:f1ec3da05a19fdfec93e29cf96974a890da9709b`
-  - `org.opencontainers.image.version:1.0.0.13176850`
-  - `panw.builtby.pipeline:13177196`
+  - `org.opencontainers.image.revision:3cf7c9a160584ee7fece11e449eab5578810eb00`
+  - `org.opencontainers.image.version:1.0.0.13557412`
+  - `panw.builtby.pipeline:13557811`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.24.1`
+  - `VERSION_ID=3.24.2`
   - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py3-tools:1.0.0.13176850
+Signatures for demisto/py3-tools:1.0.0.13557412
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13176850   be08f8e83063162284a4aa1c3124a8cd2229314f6b46059e2380dbf13c0e35aa   (Repo Admin)
+1.0.0.13557412   35882916692485096be3010820749e3a5f97da100b2f942b2ea67b6daa782d51   (Repo Admin)
 
-Administrative keys for demisto/py3-tools:1.0.0.13176850
+Administrative keys for demisto/py3-tools:1.0.0.13557412
 
   Repository Key:	1b56229e5721c693499b3207de8556f64f4132a6f26e179574b23c3a4cb1ea83
   Root Key:	2f6650ee63d96525c75c75b7122a6e9ac95c253c019bb768504bdc9179c1bd7c
@@ -244,7 +244,7 @@ Administrative keys for demisto/py3-tools:1.0.0.13176850
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.2
+* Version: 1.4.3
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -252,7 +252,7 @@ Administrative keys for demisto/py3-tools:1.0.0.13176850
 ### `deepmerge`
 
 * Summary: A toolset for deeply merging Python dictionaries.
-* Version: 3.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/deepmerge/
 * Homepage: None
 * Author: Yusuke Tsutsumi <yusuke@tsutsumi.io>
@@ -359,7 +359,7 @@ Administrative keys for demisto/py3-tools:1.0.0.13176850
 ### `funcy`
 
 * Summary: A fancy and practical functional tools
-* Version: 2.0
+* Version: 2.1
 * Pypi: https://pypi.org/project/funcy/
 * Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
@@ -394,12 +394,12 @@ Administrative keys for demisto/py3-tools:1.0.0.13176850
 
 ### `graphql-core`
 
-* Summary: GraphQL implementation for Python, a port of GraphQL.js, the JavaScript reference implementation for GraphQL.
+* Summary: GraphQL-core is a Python port of GraphQL.js, the JavaScript reference implementation for GraphQL.
 * Version: 3.2.7
 * Pypi: https://pypi.org/project/graphql-core/
-* Homepage: https://github.com/graphql-python/graphql-core
-* Author: Christoph Zwerschke cito@online.de
-* License :: OSI Approved :: MIT License
+* Homepage: None
+* Author: Christoph Zwerschke Christoph Zwerschke <cito@online.de>
+* License: MIT license
 
 ### `grpcio`
 
@@ -793,7 +793,7 @@ Administrative keys for demisto/py3-tools:1.0.0.13176850
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.7.19
+* Version: 2026.9.29
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -1003,7 +1003,7 @@ Administrative keys for demisto/py3-tools:1.0.0.13176850
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.7.0
+* Version: 2.8.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -1071,33 +1071,33 @@ Administrative keys for demisto/py3-tools:1.0.0.13176850
 
 ## `OS Packages`
 
-* .python-rundeps-20260813.193941 noarch {.python-rundeps}
+* .python-rundeps-20260917.215302 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.24.1-r0 x86_64 {alpine-base}
-* apk-tools-3.0.7-r0 x86_64 {apk-tools}
+* alpine-release-3.24.2-r0 x86_64 {alpine-base}
+* apk-tools-3.0.8-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
-* ca-certificates-20260611-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20260611-r0 x86_64 {ca-certificates}
+* ca-certificates-20260909-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20260909-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.2-r1 x86_64 {krb5}
-* libapk-3.0.7-r0 x86_64 {apk-tools}
+* libapk-3.0.8-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.8-r0 x86_64 {openssl}
+* libcrypto3-3.5.9-r0 x86_64 {openssl}
 * libffi-3.5.2-r1 x86_64 {libffi}
 * libintl-1.0-r0 x86_64 {gettext}
 * libncursesw-6.6_p20260516-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r2 x86_64 {libnsl}
 * libpanelw-6.6_p20260516-r0 x86_64 {ncurses}
-* libssl3-3.5.8-r0 x86_64 {openssl}
+* libssl3-3.5.9-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
-* libuuid-2.42.1-r0 x86_64 {util-linux}
+* libuuid-2.42.3-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
 * musl-1.2.6-r2 x86_64 {musl}
 * musl-utils-1.2.6-r2 x86_64 {musl}
@@ -1106,6 +1106,6 @@ Administrative keys for demisto/py3-tools:1.0.0.13176850
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026c-r0 x86_64 {tzdata}
-* xz-libs-5.8.3-r0 x86_64 {xz}
+* tzdata-2026d-r0 x86_64 {tzdata}
+* xz-libs-5.8.4-r0 x86_64 {xz}
 * zlib-1.3.2-r0 x86_64 {zlib}

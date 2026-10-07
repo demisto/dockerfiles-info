@@ -1,9 +1,9 @@
-# `demisto/netutils:1.0.0.13231769`
+# `demisto/netutils:1.0.0.13557412`
 
 ## Docker Metadata
-- Image Size: 49.46 MB
-- Image ID: `sha256:11adbdd26ae762bd9e7a6bb9a91e4c301cc9403ed67174b031574bf6101b3e06`
-- Created: `2026-09-22T23:40:59.421381138Z`
+- Image Size: 49.23 MB
+- Image ID: `sha256:353dbb0a33fddd63c93150b714490ab672ad238ab0dd9f337095615818a44d2b`
+- Created: `2026-10-06T05:51:34.707865377Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,20 +12,20 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/netutils:1.0.0.13231769`
+  - `DOCKER_IMAGE=demisto/netutils:1.0.0.13557412`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:9ec4a242394d371b854fae0ed622ad52719e2dee`
-  - `org.opencontainers.image.version:1.0.0.13231769`
-  - `panw.builtby.pipeline:13232006`
+  - `org.opencontainers.image.revision:3cf7c9a160584ee7fece11e449eab5578810eb00`
+  - `org.opencontainers.image.version:1.0.0.13557412`
+  - `panw.builtby.pipeline:13557813`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.24.1`
+  - `VERSION_ID=3.24.2`
   - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/netutils:1.0.0.13231769
+Signatures for demisto/netutils:1.0.0.13557412
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13231769   f83dea0110a9f13abf8ca9945f402ecef519d97a5177b234617a4a3a0a092e08   (Repo Admin)
+1.0.0.13557412   323404e856140bae7d0155678349c3cc24cec1eb6643bfbbca5448c9e37beaf7   (Repo Admin)
 
-Administrative keys for demisto/netutils:1.0.0.13231769
+Administrative keys for demisto/netutils:1.0.0.13557412
 
   Repository Key:	4a445396112768813d4eed8d7ba46d7e9c7018e8936d73f291e3b14d34043b78
   Root Key:	1b9fb0fff68f4cc0c00bc76a90e250bd8514c1f683a697b7cd30b567838b2cdd
@@ -69,11 +69,10 @@ Administrative keys for demisto/netutils:1.0.0.13231769
 ### `aiolimiter`
 
 * Summary: asyncio rate limiter, a leaky bucket implementation
-* Version: 1.2.1
+* Version: 1.3.0
 * Pypi: https://pypi.org/project/aiolimiter/
 * Homepage: None
 * Author: Martijn Pieters <mj@zopatista.com>
-* License: MIT
 
 ### `aiosignal`
 
@@ -87,7 +86,7 @@ Administrative keys for demisto/netutils:1.0.0.13231769
 ### `anyio`
 
 * Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.14.2
+* Version: 4.15.1
 * Pypi: https://pypi.org/project/anyio/
 * Homepage: None
 * Author: Alex Grönholm <alex.gronholm@nextday.fi>
@@ -157,7 +156,7 @@ Administrative keys for demisto/netutils:1.0.0.13231769
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.32.4
+* Version: 4.0.10
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -317,7 +316,7 @@ Administrative keys for demisto/netutils:1.0.0.13231769
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.3.post1
+* Version: 2026.5
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -335,7 +334,7 @@ Administrative keys for demisto/netutils:1.0.0.13231769
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.9.3
+* Version: 2026.9.29
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -387,7 +386,7 @@ Administrative keys for demisto/netutils:1.0.0.13231769
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.2
+* Version: 5.4.0
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
@@ -411,7 +410,7 @@ Administrative keys for demisto/netutils:1.0.0.13231769
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.7.0
+* Version: 2.8.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -443,20 +442,20 @@ Administrative keys for demisto/netutils:1.0.0.13231769
 
 ## `OS Packages`
 
-* .python-rundeps-20260901.001029 noarch {.python-rundeps}
+* .python-rundeps-20260917.215302 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.24.1-r0 x86_64 {alpine-base}
+* alpine-release-3.24.2-r0 x86_64 {alpine-base}
 * apk-tools-3.0.8-r0 x86_64 {apk-tools}
-* bind-libs-9.20.27-r0 x86_64 {bind}
-* bind-tools-9.20.27-r0 x86_64 {bind}
+* bind-libs-9.20.29-r0 x86_64 {bind}
+* bind-tools-9.20.29-r0 x86_64 {bind}
 * brotli-libs-1.2.0-r1 x86_64 {brotli}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
 * c-ares-1.34.8-r0 x86_64 {c-ares}
-* ca-certificates-20260611-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20260611-r0 x86_64 {ca-certificates}
+* ca-certificates-20260909-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20260909-r0 x86_64 {ca-certificates}
 * curl-8.22.0-r0 x86_64 {curl}
 * fstrm-0.6.1-r4 x86_64 {fstrm}
 * gdbm-1.26-r0 x86_64 {gdbm}
@@ -473,7 +472,7 @@ Administrative keys for demisto/netutils:1.0.0.13231769
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcap2-2.78-r0 x86_64 {libcap}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.8-r0 x86_64 {openssl}
+* libcrypto3-3.5.9-r0 x86_64 {openssl}
 * libcurl-8.22.0-r0 x86_64 {curl}
 * libffi-3.5.2-r1 x86_64 {libffi}
 * libidn2-2.3.8-r0 x86_64 {libidn2}
@@ -482,7 +481,7 @@ Administrative keys for demisto/netutils:1.0.0.13231769
 * libnsl-2.0.1-r2 x86_64 {libnsl}
 * libpanelw-6.6_p20260516-r0 x86_64 {ncurses}
 * libpsl-0.21.5-r3 x86_64 {libpsl}
-* libssl3-3.5.8-r0 x86_64 {openssl}
+* libssl3-3.5.9-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libunistring-1.4.2-r0 x86_64 {libunistring}
@@ -494,13 +493,13 @@ Administrative keys for demisto/netutils:1.0.0.13231769
 * musl-utils-1.2.6-r2 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * nghttp2-libs-1.70.0-r0 x86_64 {nghttp2}
-* openssl-3.5.8-r0 x86_64 {openssl}
+* openssl-3.5.9-r0 x86_64 {openssl}
 * protobuf-c-1.5.2-r4 x86_64 {protobuf-c}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026c-r0 x86_64 {tzdata}
+* tzdata-2026d-r0 x86_64 {tzdata}
 * userspace-rcu-0.15.3-r0 x86_64 {userspace-rcu}
 * xz-libs-5.8.4-r0 x86_64 {xz}
 * zlib-1.3.2-r0 x86_64 {zlib}
