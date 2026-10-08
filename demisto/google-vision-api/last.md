@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.13548907`
+# `demisto/google-vision-api:1.0.0.13617615`
 
 ## Docker Metadata
 - Image Size: 139.94 MB
-- Image ID: `sha256:4b9df838d485f85a3b03574c805025097a670865a354e1e261448dc5991fa8eb`
-- Created: `2026-10-05T18:00:49.045305375Z`
+- Image ID: `sha256:22ef27de3af7c30a625c6a0df5d5125c28bd4d3abe1171f87d35094dbc4cd8a8`
+- Created: `2026-10-07T17:41:23.529276741Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.13548907`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.13617615`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:10d70f2de0645ef6366ecbdd8d0853178688711a`
-  - `org.opencontainers.image.version:1.0.0.13548907`
-  - `panw.builtby.pipeline:13549497`
+  - `org.opencontainers.image.revision:cca364ba9dde46bb7d75a95c9f9bddb1f0cfafbe`
+  - `org.opencontainers.image.version:1.0.0.13617615`
+  - `panw.builtby.pipeline:13617846`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-vision-api:1.0.0.13548907
+Signatures for demisto/google-vision-api:1.0.0.13617615
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13548907   478edf02cf23a537ed0102890a86f8a876046c8dc020a16280bac8d39c74da91   (Repo Admin)
+1.0.0.13617615   6058956a87a39c9123d81e46a35dc600941d2c64be09052a30bbbbfa3cd5f2eb   (Repo Admin)
 
-Administrative keys for demisto/google-vision-api:1.0.0.13548907
+Administrative keys for demisto/google-vision-api:1.0.0.13617615
 
   Repository Key:	8f699c169d21da1343c2ea4f465fe5f19ace3822c0fd85c2d1a054379abf30dd
   Root Key:	23130201a9ea6e060cceb9cf5a1998649873c190c980fe0d6c487df1fadbc6ef
@@ -524,7 +524,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.13548907
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.4
+* Version: 2026.5
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -624,9 +624,9 @@ Administrative keys for demisto/google-vision-api:1.0.0.13548907
 * Summary: Retry code until it succeeds
 * Version: 9.1.4
 * Pypi: https://pypi.org/project/tenacity/
-* Homepage: https://github.com/jd/tenacity
-* Author: Julien Danjou julien@danjou.info
-* License :: OSI Approved :: Apache Software License
+* Homepage: None
+* Author: Julien Danjou <julien@danjou.info>
+* License: Apache 2.0
 
 ### `tldextract`
 
