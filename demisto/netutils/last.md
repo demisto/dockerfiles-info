@@ -1,9 +1,9 @@
-# `demisto/netutils:1.0.0.13617615`
+# `demisto/netutils:1.0.0.13681649`
 
 ## Docker Metadata
-- Image Size: 49.23 MB
-- Image ID: `sha256:3a947bfdc0332936f9d87c8baa7e0c6acfa53ffe83a652f8e9648566d92fe718`
-- Created: `2026-10-07T17:41:48.24773348Z`
+- Image Size: 49.40 MB
+- Image ID: `sha256:e76f0f58625005033c225ecc80f43fb91be013f2e63b8d783726cb29bb94cb15`
+- Created: `2026-10-10T23:53:14.413290467Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/netutils:1.0.0.13617615`
+  - `DOCKER_IMAGE=demisto/netutils:1.0.0.13681649`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:cca364ba9dde46bb7d75a95c9f9bddb1f0cfafbe`
-  - `org.opencontainers.image.version:1.0.0.13617615`
-  - `panw.builtby.pipeline:13617859`
+  - `org.opencontainers.image.revision:19f1adb18874dff7423db9c9a061d942fd12c5da`
+  - `org.opencontainers.image.version:1.0.0.13681649`
+  - `panw.builtby.pipeline:13682038`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/netutils:1.0.0.13617615
+Signatures for demisto/netutils:1.0.0.13681649
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13617615   c5f2533af31f1cf7c9e5ecdcfea6dbb28d47333ed7763f678228632afa5c6223   (Repo Admin)
+1.0.0.13681649   8e8e6ec12e6b24e2ee3b9f9acee4ced0787684dd55e31107e933dc7a46338efd   (Repo Admin)
 
-Administrative keys for demisto/netutils:1.0.0.13617615
+Administrative keys for demisto/netutils:1.0.0.13681649
 
   Repository Key:	4a445396112768813d4eed8d7ba46d7e9c7018e8936d73f291e3b14d34043b78
   Root Key:	1b9fb0fff68f4cc0c00bc76a90e250bd8514c1f683a697b7cd30b567838b2cdd
@@ -60,11 +60,10 @@ Administrative keys for demisto/netutils:1.0.0.13617615
 ### `aiohttp`
 
 * Summary: Async http client/server framework (asyncio)
-* Version: 3.14.3
+* Version: 3.14.4
 * Pypi: https://pypi.org/project/aiohttp/
 * Homepage: None
 * Author: None
-* License: Apache-2.0 AND MIT
 
 ### `aiolimiter`
 
@@ -150,7 +149,7 @@ Administrative keys for demisto/netutils:1.0.0.13617615
 * Version: 2.8.0
 * Pypi: https://pypi.org/project/dnspython/
 * Homepage: None
-* Author: Bob Halley <halley@dnspython.org>
+* Author: Bob Halley Bob Halley <halley@dnspython.org>
 * License :: ISC License
 
 ### `filelock`
@@ -228,8 +227,8 @@ Administrative keys for demisto/netutils:1.0.0.13617615
 * Summary: multidict implementation
 * Version: 6.7.1
 * Pypi: https://pypi.org/project/multidict/
-* Homepage: https://github.com/aio-libs/multidict
-* Author: Andrew Svetlov andrew.svetlov@gmail.com
+* Homepage: None
+* Author: Andrew Svetlov <andrew.svetlov@gmail.com>
 * License: Apache License 2.0
 
 ### `netaddr`
@@ -434,7 +433,7 @@ Administrative keys for demisto/netutils:1.0.0.13617615
 ### `yarl`
 
 * Summary: Yet another URL library
-* Version: 1.24.5
+* Version: 1.25.1
 * Pypi: https://pypi.org/project/yarl/
 * Homepage: https://github.com/aio-libs/yarl
 * Author: Andrew Svetlov andrew.svetlov@gmail.com

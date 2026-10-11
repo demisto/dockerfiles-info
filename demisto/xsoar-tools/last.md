@@ -1,9 +1,9 @@
-# `demisto/xsoar-tools:1.0.0.13548907`
+# `demisto/xsoar-tools:1.0.0.13681649`
 
 ## Docker Metadata
-- Image Size: 147.12 MB
-- Image ID: `sha256:09e2f78c09a7636a89c222d20d7bb02b152eddb6e7bbaedd28c926b69160b900`
-- Created: `2026-10-05T18:00:51.775902252Z`
+- Image Size: 147.10 MB
+- Image ID: `sha256:738908bcf07c69973663c028be8826684f1c7fb8b0eeca87e0e048490ffa1821`
+- Created: `2026-10-10T23:52:42.706361608Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,15 +12,15 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/xsoar-tools:1.0.0.13548907`
+  - `DOCKER_IMAGE=demisto/xsoar-tools:1.0.0.13681649`
   - `DEMISTO_SDK_IGNORE_CONTENT_WARNING=true`
   - `DEMISTO_SDK_SKIP_LOGGER_SETUP=true`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:10d70f2de0645ef6366ecbdd8d0853178688711a`
-  - `org.opencontainers.image.version:1.0.0.13548907`
-  - `panw.builtby.pipeline:13549501`
+  - `org.opencontainers.image.revision:19f1adb18874dff7423db9c9a061d942fd12c5da`
+  - `org.opencontainers.image.version:1.0.0.13681649`
+  - `panw.builtby.pipeline:13682040`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -35,12 +35,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/xsoar-tools:1.0.0.13548907
+Signatures for demisto/xsoar-tools:1.0.0.13681649
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13548907   c5ff46e47b9a7fb397e06de14b642f1886f60e881a922458b8288d95797fc519   (Repo Admin)
+1.0.0.13681649   9599ac1e69082f74f6499fd9c1d92b341004ae4022120f41b916d32f41075c5c   (Repo Admin)
 
-Administrative keys for demisto/xsoar-tools:1.0.0.13548907
+Administrative keys for demisto/xsoar-tools:1.0.0.13681649
 
   Repository Key:	cf22d1c7d99eaa36ee3a4c4e143589874b21f83068fff42ce971ffaa44c737b6
   Root Key:	83b859e2320bd9a76afcab59964970ff8ba4b4719fa697c8c032e27151f016e6
@@ -382,7 +382,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13548907
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.40.0
+* Version: 2.41.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -597,8 +597,8 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13548907
 * Version: 0.9.28
 * Pypi: https://pypi.org/project/json5/
 * Homepage: None
-* Author: Dirk Pranke <dpranke@chromium.org>
-* License :: OSI Approved :: Apache Software License
+* Author: Dirk Pranke <dpranke@gmail.com>
+* License: Files: Everything except for the benchmarks/*.json files.
 
 ### `jsonschema`
 
@@ -1261,9 +1261,9 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13548907
 * Summary: Retry code until it succeeds
 * Version: 8.5.0
 * Pypi: https://pypi.org/project/tenacity/
-* Homepage: https://github.com/jd/tenacity
-* Author: Julien Danjou julien@danjou.info
-* License :: OSI Approved :: Apache Software License
+* Homepage: None
+* Author: Julien Danjou <julien@danjou.info>
+* License: Apache 2.0
 
 ### `tldextract`
 
