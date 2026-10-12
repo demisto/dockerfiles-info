@@ -1,9 +1,9 @@
-# `demisto/vmware:2.0.0.12826098`
+# `demisto/vmware:2.0.0.13712671`
 
 ## Docker Metadata
-- Image Size: 75.88 MB
-- Image ID: `sha256:e6c62d44afff1a9d0be8f24ae0879d6f524641b2a253f2988868dc7f745c981e`
-- Created: `2026-09-07T10:17:19.861711818Z`
+- Image Size: 76.30 MB
+- Image ID: `sha256:c197a30884f6ceb7e3f0807ab80c6b4a364d54adb233a06975fa034633f7c5f1`
+- Created: `2026-10-12T00:14:02.953222837Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,20 +12,20 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/vmware:2.0.0.12826098`
+  - `DOCKER_IMAGE=demisto/vmware:2.0.0.13712671`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3ebc32256c6e08ab1d1a2e34a4076ef6fa15d2e3`
-  - `org.opencontainers.image.version:2.0.0.12826098`
-  - `panw.builtby.pipeline:12828395`
+  - `org.opencontainers.image.revision:301fca2985b42da6ea52a4aca8b76aaaa23d4a27`
+  - `org.opencontainers.image.version:2.0.0.13712671`
+  - `panw.builtby.pipeline:13713077`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.24.1`
+  - `VERSION_ID=3.24.2`
   - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/vmware:2.0.0.12826098
+Signatures for demisto/vmware:2.0.0.13712671
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-2.0.0.12826098   fc0c7bfac8d49a12c3201ea5428cc431c2ebd82745a2ece7c70494e7bd38dca8   (Repo Admin)
+2.0.0.13712671   9f8b338241a9bfd1c4ac0c5e4376df3b84914661e7c356ab796675cd5b11e897   (Repo Admin)
 
-Administrative keys for demisto/vmware:2.0.0.12826098
+Administrative keys for demisto/vmware:2.0.0.13712671
 
   Repository Key:	38174a6f191856f6110ec8849a2843115a8974760730f8e936629d2887d34b39
   Root Key:	7b234ebf47e7431e0241c47e628b6e9afa94ccdf5cfef739e978850e3817f024
@@ -51,7 +51,7 @@ Administrative keys for demisto/vmware:2.0.0.12826098
 ### `anyio`
 
 * Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.14.2
+* Version: 4.15.1
 * Pypi: https://pypi.org/project/anyio/
 * Homepage: None
 * Author: Alex Grönholm <alex.gronholm@nextday.fi>
@@ -76,7 +76,7 @@ Administrative keys for demisto/vmware:2.0.0.12826098
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.5.1
+* Version: 3.5.2
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -85,7 +85,7 @@ Administrative keys for demisto/vmware:2.0.0.12826098
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 50.0.1
+* Version: 50.0.2
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -93,7 +93,7 @@ Administrative keys for demisto/vmware:2.0.0.12826098
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.2
+* Version: 1.4.3
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -128,7 +128,7 @@ Administrative keys for demisto/vmware:2.0.0.12826098
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.32.4
+* Version: 4.0.10
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -137,9 +137,9 @@ Administrative keys for demisto/vmware:2.0.0.12826098
 ### `funcy`
 
 * Summary: A fancy and practical functional tools
-* Version: 2.0
+* Version: 2.1
 * Pypi: https://pypi.org/project/funcy/
-* Homepage: http://github.com/Suor/funcy
+* Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
 * License :: OSI Approved :: BSD License
 
@@ -173,7 +173,7 @@ Administrative keys for demisto/vmware:2.0.0.12826098
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.19
+* Version: 3.20
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -269,7 +269,7 @@ Administrative keys for demisto/vmware:2.0.0.12826098
 ### `pycparser`
 
 * Summary: C parser in Python
-* Version: 3.0
+* Version: 3.11
 * Pypi: https://pypi.org/project/pycparser/
 * Homepage: None
 * Author: Eli Bendersky <eliben@gmail.com>
@@ -277,7 +277,7 @@ Administrative keys for demisto/vmware:2.0.0.12826098
 ### `pyflakes`
 
 * Summary: passive checker of Python programs
-* Version: 3.4.0
+* Version: 4.0.2
 * Pypi: https://pypi.org/project/pyflakes/
 * Homepage: https://github.com/PyCQA/pyflakes
 * Author: A lot of people code-quality@python.org
@@ -286,7 +286,7 @@ Administrative keys for demisto/vmware:2.0.0.12826098
 ### `Pygments`
 
 * Summary: Pygments is a syntax highlighting package written in Python.
-* Version: 2.20.0
+* Version: 2.21.0
 * Pypi: https://pypi.org/project/Pygments/
 * Homepage: None
 * Author: Georg Brandl <georg@python.org>
@@ -322,7 +322,7 @@ Administrative keys for demisto/vmware:2.0.0.12826098
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.3.post1
+* Version: 2026.5
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -340,7 +340,7 @@ Administrative keys for demisto/vmware:2.0.0.12826098
 ### `pyvmomi`
 
 * Summary: VMware vSphere Python SDK
-* Version: 9.1.0.0
+* Version: 9.1.1.0
 * Pypi: https://pypi.org/project/pyvmomi/
 * Homepage: None
 * Author: Broadcom Inc.
@@ -358,7 +358,7 @@ Administrative keys for demisto/vmware:2.0.0.12826098
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.7.19
+* Version: 2026.9.29
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -410,7 +410,7 @@ Administrative keys for demisto/vmware:2.0.0.12826098
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.2
+* Version: 5.4.0
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
@@ -434,7 +434,7 @@ Administrative keys for demisto/vmware:2.0.0.12826098
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.7.0
+* Version: 2.8.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -496,10 +496,11 @@ Administrative keys for demisto/vmware:2.0.0.12826098
 ### `wcwidth`
 
 * Summary: Measures the displayed width of unicode strings in a terminal
-* Version: 0.8.2
+* Version: 0.9.2
 * Pypi: https://pypi.org/project/wcwidth/
 * Homepage: None
 * Author: Jeff Quast <contact@jeffquast.com>
+* License :: OSI Approved :: MIT License
 
 ### `wheel`
 
@@ -511,16 +512,16 @@ Administrative keys for demisto/vmware:2.0.0.12826098
 
 ## `OS Packages`
 
-* .python-rundeps-20260901.001029 noarch {.python-rundeps}
+* .python-rundeps-20260917.215302 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.24.1-r0 x86_64 {alpine-base}
+* alpine-release-3.24.2-r0 x86_64 {alpine-base}
 * apk-tools-3.0.8-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
-* ca-certificates-20260611-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20260611-r0 x86_64 {ca-certificates}
+* ca-certificates-20260909-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20260909-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
@@ -528,13 +529,13 @@ Administrative keys for demisto/vmware:2.0.0.12826098
 * libapk-3.0.8-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.8-r0 x86_64 {openssl}
+* libcrypto3-3.5.9-r0 x86_64 {openssl}
 * libffi-3.5.2-r1 x86_64 {libffi}
 * libintl-1.0-r0 x86_64 {gettext}
 * libncursesw-6.6_p20260516-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r2 x86_64 {libnsl}
 * libpanelw-6.6_p20260516-r0 x86_64 {ncurses}
-* libssl3-3.5.8-r0 x86_64 {openssl}
+* libssl3-3.5.9-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.42.3-r1 x86_64 {util-linux}
@@ -546,6 +547,6 @@ Administrative keys for demisto/vmware:2.0.0.12826098
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026c-r0 x86_64 {tzdata}
-* xz-libs-5.8.3-r0 x86_64 {xz}
-* zlib-1.3.2-r0 x86_64 {zlib}
+* tzdata-2026d-r0 x86_64 {tzdata}
+* xz-libs-5.8.4-r0 x86_64 {xz}
+* zlib-1.3.2-r1 x86_64 {zlib}

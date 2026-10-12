@@ -1,9 +1,9 @@
-# `demisto/pcap-miner:1.0.0.13249329`
+# `demisto/pcap-miner:1.0.0.13684671`
 
 ## Docker Metadata
-- Image Size: 84.13 MB
-- Image ID: `sha256:9dabaeb934bbfa0b05c76e24bad62600c524f1216f948440737f672b17f19c19`
-- Created: `2026-09-23T11:38:11.168386197Z`
+- Image Size: 86.61 MB
+- Image ID: `sha256:4048e2b318fd15a7835e9be6c511fb7fbc2dc500b4cd17874d457c85af29a1a5`
+- Created: `2026-10-11T05:43:11.458684947Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/pcap-miner:1.0.0.13249329`
+  - `DOCKER_IMAGE=demisto/pcap-miner:1.0.0.13684671`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b07903303f79ef6d143181b8da94f62467c66949`
-  - `org.opencontainers.image.version:1.0.0.13249329`
-  - `panw.builtby.pipeline:13249748`
+  - `org.opencontainers.image.revision:3d696bb734c835456dd2db0d349c019880761e6b`
+  - `org.opencontainers.image.version:1.0.0.13684671`
+  - `panw.builtby.pipeline:13684871`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pcap-miner:1.0.0.13249329
+Signatures for demisto/pcap-miner:1.0.0.13684671
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13249329   c4a3ce24b2aa14d8d155b12c9e285bae21f822e6672c8a3488a20a0d34795ff2   (Repo Admin)
+1.0.0.13684671   e2258a6e9ab90a9717778ecb586dec977c05465c0ce0d80fa8fe5a90cb5ac8a8   (Repo Admin)
 
-Administrative keys for demisto/pcap-miner:1.0.0.13249329
+Administrative keys for demisto/pcap-miner:1.0.0.13684671
 
   Repository Key:	96a3823375c52caeaf2d0fea331785c2a44bcdd81fc771ac59b0e581e05d9621
   Root Key:	9ba37c9e3fcbf21715b56cb970082bb72679ac3092e6ae254674b94ae77f43ee
@@ -386,7 +386,7 @@ Administrative keys for demisto/pcap-miner:1.0.0.13249329
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcap2-2.78-r0 x86_64 {libcap}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.8-r0 x86_64 {openssl}
+* libcrypto3-3.5.9-r0 x86_64 {openssl}
 * libeconf-0.8.3-r0 x86_64 {libeconf}
 * libffi-3.5.2-r1 x86_64 {libffi}
 * libgcrypt-1.12.2-r0 x86_64 {libgcrypt}
@@ -403,7 +403,7 @@ Administrative keys for demisto/pcap-miner:1.0.0.13249329
 * libpcap-1.10.7-r0 x86_64 {libpcap}
 * libsmi-0.5.0-r5 x86_64 {libsmi}
 * libssh-0.12.2-r0 x86_64 {libssh}
-* libssl3-3.5.8-r0 x86_64 {openssl}
+* libssl3-3.5.9-r0 x86_64 {openssl}
 * libtasn1-4.21.0-r0 x86_64 {libtasn1}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
@@ -418,15 +418,15 @@ Administrative keys for demisto/pcap-miner:1.0.0.13249329
 * musl-utils-1.2.6-r2 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * nettle-3.10.2-r0 x86_64 {nettle}
-* nghttp2-libs-1.69.0-r0 x86_64 {nghttp2}
+* nghttp2-libs-1.70.0-r0 x86_64 {nghttp2}
 * p11-kit-0.26.2-r0 x86_64 {p11-kit}
-* pcre2-10.48-r0 x86_64 {pcre2}
+* pcre2-10.49-r0 x86_64 {pcre2}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * speexdsp-1.2.1-r2 x86_64 {speexdsp}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026d-r0 x86_64 {tzdata}
+* tzdata-2026e-r0 x86_64 {tzdata}
 * xz-libs-5.8.4-r0 x86_64 {xz}
-* zlib-1.3.2-r0 x86_64 {zlib}
+* zlib-1.3.2-r1 x86_64 {zlib}
 * zstd-libs-1.5.7-r2 x86_64 {zstd}

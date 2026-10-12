@@ -1,9 +1,9 @@
-# `demisto/py3-tools:1.0.0.13597103`
+# `demisto/py3-tools:1.0.0.13712671`
 
 ## Docker Metadata
-- Image Size: 78.68 MB
-- Image ID: `sha256:44c8a255f36ed9538f2f14768cf4954b34f3c7aa8b11721358d42c93ad54aa04`
-- Created: `2026-10-07T10:02:50.384170654Z`
+- Image Size: 78.64 MB
+- Image ID: `sha256:2b2d6867d58616996b11dda2d4bbf3af49678a47d22929c33e4c2c54909e509d`
+- Created: `2026-10-12T00:14:03.840736819Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/py3-tools:1.0.0.13597103`
+  - `DOCKER_IMAGE=demisto/py3-tools:1.0.0.13712671`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:15e86558cb80230b99da54c587d3ead17660ba14`
-  - `org.opencontainers.image.version:1.0.0.13597103`
-  - `panw.builtby.pipeline:13601522`
+  - `org.opencontainers.image.revision:301fca2985b42da6ea52a4aca8b76aaaa23d4a27`
+  - `org.opencontainers.image.version:1.0.0.13712671`
+  - `panw.builtby.pipeline:13713073`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py3-tools:1.0.0.13597103
+Signatures for demisto/py3-tools:1.0.0.13712671
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13597103   f10458d701297cefb7878875c676db3436c3669d07a1b05a108a2215557678f1   (Repo Admin)
+1.0.0.13712671   93ea07cffffed66c038d13836746cfb713c31f80d193102ecd71964b4f90c3f3   (Repo Admin)
 
-Administrative keys for demisto/py3-tools:1.0.0.13597103
+Administrative keys for demisto/py3-tools:1.0.0.13712671
 
   Repository Key:	1b56229e5721c693499b3207de8556f64f4132a6f26e179574b23c3a4cb1ea83
   Root Key:	2f6650ee63d96525c75c75b7122a6e9ac95c253c019bb768504bdc9179c1bd7c
@@ -273,7 +273,7 @@ Administrative keys for demisto/py3-tools:1.0.0.13597103
 * Version: 2.8.0
 * Pypi: https://pypi.org/project/dnspython/
 * Homepage: None
-* Author: Bob Halley <halley@dnspython.org>
+* Author: Bob Halley Bob Halley <halley@dnspython.org>
 * License :: ISC License
 
 ### `docopt-ng`
@@ -555,8 +555,8 @@ Administrative keys for demisto/py3-tools:1.0.0.13597103
 * Summary: multidict implementation
 * Version: 6.7.1
 * Pypi: https://pypi.org/project/multidict/
-* Homepage: https://github.com/aio-libs/multidict
-* Author: Andrew Svetlov andrew.svetlov@gmail.com
+* Homepage: None
+* Author: Andrew Svetlov <andrew.svetlov@gmail.com>
 * License: Apache License 2.0
 
 ### `oauthlib`
@@ -722,7 +722,7 @@ Administrative keys for demisto/py3-tools:1.0.0.13597103
 ### `pymongo`
 
 * Summary: PyMongo - the Official MongoDB Python driver
-* Version: 4.18.1
+* Version: 4.18.2
 * Pypi: https://pypi.org/project/pymongo/
 * Homepage: None
 * Author: The MongoDB Python Team

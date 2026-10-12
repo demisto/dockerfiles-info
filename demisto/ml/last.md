@@ -1,9 +1,9 @@
-# `demisto/ml:1.0.0.13176850`
+# `demisto/ml:1.0.0.13712671`
 
 ## Docker Metadata
-- Image Size: 1077.22 MB
-- Image ID: `sha256:6f1a4fedfa08b35a8c0789d5a777fb6205aa18b5a0632a303f4cb7b5e8212197`
-- Created: `2026-09-20T00:30:02.3248911Z`
+- Image Size: 1080.93 MB
+- Image ID: `sha256:19ab88cd5350d8c2da996432fc58fc5fc6e89422051576dce4fc2163ee9cde12`
+- Created: `2026-10-12T00:18:27.287086854Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/ml:1.0.0.13176850`
+  - `DOCKER_IMAGE=demisto/ml:1.0.0.13712671`
   - `HF_HOME=/ml/.cache`
   - `NLTK_DATA=/ml/nltk_data`
   - `MPLCONFIGDIR=/ml/matplotlib`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:f1ec3da05a19fdfec93e29cf96974a890da9709b`
-  - `org.opencontainers.image.version:1.0.0.13176850`
-  - `panw.builtby.pipeline:13177193`
+  - `org.opencontainers.image.revision:301fca2985b42da6ea52a4aca8b76aaaa23d4a27`
+  - `org.opencontainers.image.version:1.0.0.13712671`
+  - `panw.builtby.pipeline:13713079`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -40,12 +40,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/ml:1.0.0.13176850
+Signatures for demisto/ml:1.0.0.13712671
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13176850   7a3287acdc447c9fe8d0d9258f5c43c588ceb2510e286893b624fc470e67e96c   (Repo Admin)
+1.0.0.13712671   c0d8e6f91672b716a106cd1f4fbd1a62010f15baa3f01e3187091c510bcffab9   (Repo Admin)
 
-Administrative keys for demisto/ml:1.0.0.13176850
+Administrative keys for demisto/ml:1.0.0.13712671
 
   Repository Key:	ac15e70d1328e4ee6a571a4f26d48cb7a7a71057e1c418659434a29c5f420dec
   Root Key:	9bed0b81bc81568c748fc3dce530b735db8f1ee1b0f960a5a6d7b9a7386637c6
@@ -978,7 +978,7 @@ Administrative keys for demisto/ml:1.0.0.13176850
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.7.0
+* Version: 2.8.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -1065,7 +1065,7 @@ Administrative keys for demisto/ml:1.0.0.13176850
 * libidn2-0:amd64	2.3.8-2
 * liblastlog2-2:amd64	2.41.5-0+deb13u1
 * liblz4-1:amd64	1.10.0-4
-* liblzma5:amd64	5.8.1-1+deb13u1
+* liblzma5:amd64	5.8.1-1+deb13u2
 * libmd0:amd64	1.1.0-2+b1
 * libmount1:amd64	2.41.5-0+deb13u1
 * libncursesw6:amd64	6.5+20250216-2
@@ -1074,7 +1074,7 @@ Administrative keys for demisto/ml:1.0.0.13176850
 * libpam-modules:amd64	1.7.0-5
 * libpam-runtime	1.7.0-5
 * libpam0g:amd64	1.7.0-5
-* libpcre2-8-0:amd64	10.46-1~deb13u2
+* libpcre2-8-0:amd64	10.46-1~deb13u3
 * libperl5.40:amd64	5.40.1-6+deb13u1
 * libproc2-0:amd64	2:4.0.4-9
 * libpython3-stdlib:amd64	3.13.5-1
@@ -1088,7 +1088,7 @@ Administrative keys for demisto/ml:1.0.0.13176850
 * libsepol2:amd64	3.8.1-1
 * libsmartcols1:amd64	2.41.5-0+deb13u1
 * libsqlite3-0:amd64	3.46.1-7+deb13u2
-* libssl3t64:amd64	3.5.7-1~deb13u2
+* libssl3t64:amd64	3.5.7-1~deb13u3
 * libstdc++6:amd64	14.2.0-19
 * libsystemd0:amd64	257.13-1~deb13u1
 * libtinfo6:amd64	6.5+20250216-2
@@ -1105,8 +1105,8 @@ Administrative keys for demisto/ml:1.0.0.13176850
 * ncurses-base	6.5+20250216-2
 * ncurses-bin	6.5+20250216-2
 * netbase	6.5
-* openssl	3.5.7-1~deb13u2
-* openssl-provider-legacy	3.5.7-1~deb13u2
+* openssl	3.5.7-1~deb13u3
+* openssl-provider-legacy	3.5.7-1~deb13u3
 * passwd	1:4.17.4-2
 * perl	5.40.1-6+deb13u1
 * perl-base	5.40.1-6+deb13u1

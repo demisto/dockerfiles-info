@@ -1,9 +1,9 @@
-# `demisto/dxl:1.0.0.13538236`
+# `demisto/dxl:1.0.0.13689907`
 
 ## Docker Metadata
-- Image Size: 38.08 MB
-- Image ID: `sha256:65ed4ffa3e30cf78077169b4aefa652fff58c77ed51bbfc4d88c632769b33d94`
-- Created: `2026-10-05T12:12:53.444620892Z`
+- Image Size: 37.62 MB
+- Image ID: `sha256:4a7522fa208a287b72b9e2767a94b2bc186c1bb6dd467dca01cc818fce599584`
+- Created: `2026-10-11T09:45:09.318058369Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/dxl:1.0.0.13538236`
+  - `DOCKER_IMAGE=demisto/dxl:1.0.0.13689907`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:ec1a006ab6ee4606a306e02708c99e69b8bd3a02`
-  - `org.opencontainers.image.version:1.0.0.13538236`
-  - `panw.builtby.pipeline:13539940`
+  - `org.opencontainers.image.revision:dd1b9fd10488eed156153670ce6c095a03951000`
+  - `org.opencontainers.image.version:1.0.0.13689907`
+  - `panw.builtby.pipeline:13691816`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/dxl:1.0.0.13538236
+Signatures for demisto/dxl:1.0.0.13689907
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13538236   494129da122c8fcc451868f60e7fbf7bf41179d65c369601767aaa786e5833f8   (Repo Admin)
+1.0.0.13689907   afc78c7e9d9900b96e5e0a2fa11b87a5ac423a3184220ea5b72517499acd9aa8   (Repo Admin)
 
-Administrative keys for demisto/dxl:1.0.0.13538236
+Administrative keys for demisto/dxl:1.0.0.13689907
 
   Repository Key:	63a4ff99780318ae8a16abf65cc2a7c94b68f679d0431e2b63a249887c19c629
   Root Key:	5ad3d6ba2b55f3b32263beecfdb5a93b7e66df11d6f1ef19b655f7a5a668fc97
@@ -218,10 +218,11 @@ Administrative keys for demisto/dxl:1.0.0.13538236
 ### `msgpack`
 
 * Summary: MessagePack serializer
-* Version: 1.2.3
+* Version: 0.6.2
 * Pypi: https://pypi.org/project/msgpack/
 * Homepage: None
 * Author: Inada Naoki <songofacandy@gmail.com>
+* License: Apache 2.0
 
 ### `olefile`
 

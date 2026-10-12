@@ -1,9 +1,9 @@
-# `demisto/boto3py3:1.0.0.13409280`
+# `demisto/boto3py3:1.0.0.13712671`
 
 ## Docker Metadata
-- Image Size: 51.14 MB
-- Image ID: `sha256:3bd8e84da5fa59ed75c1374d92a2e59700f68589b82e222fe26d9e0e11dedbaa`
-- Created: `2026-09-29T17:40:34.867511935Z`
+- Image Size: 53.68 MB
+- Image ID: `sha256:b6de0fe7cf180e351f8e254011c395cf8e09d91df666748c301b94efb33d3b3c`
+- Created: `2026-10-12T00:12:50.134223639Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.13409280`
+  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.13712671`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38793e5265ced5e2a1481909c4a1e99f6f6943f2`
-  - `org.opencontainers.image.version:1.0.0.13409280`
-  - `panw.builtby.pipeline:13409674`
+  - `org.opencontainers.image.revision:301fca2985b42da6ea52a4aca8b76aaaa23d4a27`
+  - `org.opencontainers.image.version:1.0.0.13712671`
+  - `panw.builtby.pipeline:13713071`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/boto3py3:1.0.0.13409280
+Signatures for demisto/boto3py3:1.0.0.13712671
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13409280   f713cfcf6e06ac04ad0095222ae78efb78f4e1c1d6b3135dc4823c1a6cd9fb03   (Repo Admin)
+1.0.0.13712671   ed5f0c4e059a3473376a05ec97154f3d06ef2d039b14ca89e4a2cee88b34c3d9   (Repo Admin)
 
-Administrative keys for demisto/boto3py3:1.0.0.13409280
+Administrative keys for demisto/boto3py3:1.0.0.13712671
 
   Repository Key:	cfe86d8f6e0178e2a77477d651d16cfc814b6e47b04f1f04d94917fb248a1ae8
   Root Key:	c4222af787cfc1a173f56c5eab482e5c4602eae4bb767431e17594c786c162f8
@@ -371,13 +371,13 @@ Administrative keys for demisto/boto3py3:1.0.0.13409280
 * libapk-3.0.7-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.8-r0 x86_64 {openssl}
+* libcrypto3-3.5.9-r0 x86_64 {openssl}
 * libffi-3.5.2-r1 x86_64 {libffi}
 * libintl-1.0-r0 x86_64 {gettext}
 * libncursesw-6.6_p20260516-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r2 x86_64 {libnsl}
 * libpanelw-6.6_p20260516-r0 x86_64 {ncurses}
-* libssl3-3.5.8-r0 x86_64 {openssl}
+* libssl3-3.5.9-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.42.1-r0 x86_64 {util-linux}
@@ -385,7 +385,7 @@ Administrative keys for demisto/boto3py3:1.0.0.13409280
 * musl-1.2.6-r2 x86_64 {musl}
 * musl-utils-1.2.6-r2 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
-* openssl-3.5.8-r0 x86_64 {openssl}
+* openssl-3.5.9-r0 x86_64 {openssl}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}

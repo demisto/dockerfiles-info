@@ -1,9 +1,9 @@
-# `demisto/demisto-sdk:1.39.10.13597103`
+# `demisto/demisto-sdk:1.39.10.13712671`
 
 ## Docker Metadata
-- Image Size: 674.59 MB
-- Image ID: `sha256:20f67ec8126086ed049afa70c4a6d0533076d4fdd7f409325f2019d11a1998ae`
-- Created: `2026-10-07T10:04:08.808313673Z`
+- Image Size: 674.96 MB
+- Image ID: `sha256:f5b9206f620a7d794eba6a19131cf289123240a6a1d19afc85fd9a4330a344de`
+- Created: `2026-10-12T00:15:49.960269948Z`
 - Arch: `linux`/`amd64`
 - Command: `["demisto-sdk","--help"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/demisto-sdk:1.39.10.13597103`
+  - `DOCKER_IMAGE=demisto/demisto-sdk:1.39.10.13712671`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:15e86558cb80230b99da54c587d3ead17660ba14`
-  - `org.opencontainers.image.version:1.39.10.13597103`
-  - `panw.builtby.pipeline:13601520`
+  - `org.opencontainers.image.revision:301fca2985b42da6ea52a4aca8b76aaaa23d4a27`
+  - `org.opencontainers.image.version:1.39.10.13712671`
+  - `panw.builtby.pipeline:13713074`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/demisto-sdk:1.39.10.13597103
+Signatures for demisto/demisto-sdk:1.39.10.13712671
 
 SIGNED TAG         DIGEST                                                             SIGNERS
-1.39.10.13597103   38f602f724498c10412bce238ce4c9bd2906a88040ceee4f3d4a8ec13e3c3453   (Repo Admin)
+1.39.10.13712671   c751b2ce283e7afa26a776035e17bd91b80ada4800d92c1c4d7ea7f5aeda7711   (Repo Admin)
 
-Administrative keys for demisto/demisto-sdk:1.39.10.13597103
+Administrative keys for demisto/demisto-sdk:1.39.10.13712671
 
   Repository Key:	62e2b8856f5e4331ebea7d3b1395ed9aac5729f1333c0c720e3a410932dfbea6
   Root Key:	ea99312756356d5a2b823d5a1598cca5cc9163236379e44d53a04e978a177180
@@ -596,8 +596,8 @@ Administrative keys for demisto/demisto-sdk:1.39.10.13597103
 * Version: 0.9.28
 * Pypi: https://pypi.org/project/json5/
 * Homepage: None
-* Author: Dirk Pranke <dpranke@chromium.org>
-* License :: OSI Approved :: Apache Software License
+* Author: Dirk Pranke <dpranke@gmail.com>
+* License: Files: Everything except for the benchmarks/*.json files.
 
 ### `jsonschema`
 
@@ -945,7 +945,7 @@ Administrative keys for demisto/demisto-sdk:1.39.10.13597103
 ### `PyJWT`
 
 * Summary: JSON Web Token implementation in Python
-* Version: 2.14.0
+* Version: 2.15.0
 * Pypi: https://pypi.org/project/PyJWT/
 * Homepage: None
 * Author: Jose Padilla <hello@jpadilla.com>
@@ -1565,8 +1565,8 @@ Administrative keys for demisto/demisto-sdk:1.39.10.13597103
 * liblocale-gettext-perl	1.07-7+b1
 * liblsan0:amd64	14.2.0-19
 * liblz4-1:amd64	1.10.0-4
-* liblzma-dev:amd64	5.8.1-1+deb13u1
-* liblzma5:amd64	5.8.1-1+deb13u1
+* liblzma-dev:amd64	5.8.1-1+deb13u2
+* liblzma5:amd64	5.8.1-1+deb13u2
 * libmd0:amd64	1.1.0-2+b1
 * libmount1:amd64	2.41.5-0+deb13u1
 * libmpc3:amd64	1.3.1-1+b3
@@ -1736,7 +1736,7 @@ Administrative keys for demisto/demisto-sdk:1.39.10.13597103
 * xauth	1:1.1.2-1.1
 * xorg-sgml-doctools	1:1.11-1.1
 * xtrans-dev	1.4.0-1
-* xz-utils	5.8.1-1+deb13u1
+* xz-utils	5.8.1-1+deb13u2
 * zlib1g-dev:amd64	1:1.3.dfsg+really1.3.1-1+b1
 * zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1
 * zsh	5.9-8+b24
