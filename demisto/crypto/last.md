@@ -1,9 +1,9 @@
-# `demisto/crypto:1.0.0.13447173`
+# `demisto/crypto:1.0.0.13737394`
 
 ## Docker Metadata
-- Image Size: 52.79 MB
-- Image ID: `sha256:068ee9681c4ae17594db0aebf69d39571aefb3fa4eaf3b13be53942d43c12192`
-- Created: `2026-10-01T05:39:13.518303388Z`
+- Image Size: 54.22 MB
+- Image ID: `sha256:14908334763144520a4393e7bca95bfd61170e32adbd8bf8b11b6c61ee1e02f7`
+- Created: `2026-10-12T17:36:42.949770502Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/crypto:1.0.0.13447173`
+  - `DOCKER_IMAGE=demisto/crypto:1.0.0.13737394`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:7d332545222d7c224709373c96925efe81914765`
-  - `org.opencontainers.image.version:1.0.0.13447173`
-  - `panw.builtby.pipeline:13447313`
+  - `org.opencontainers.image.revision:d26669806f0289e1e11767fa03a93eb07611999c`
+  - `org.opencontainers.image.version:1.0.0.13737394`
+  - `panw.builtby.pipeline:13737578`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/crypto:1.0.0.13447173
+Signatures for demisto/crypto:1.0.0.13737394
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13447173   b5e160b3d8e27ffa8bb7e043be3ae0fef4d50efe9c2fe3bff15c4d19244a0256   (Repo Admin)
+1.0.0.13737394   ceb41ad73085962286e7c771367c58ae8b0b2a3afce6a5d9c5eddfd63902797c   (Repo Admin)
 
-Administrative keys for demisto/crypto:1.0.0.13447173
+Administrative keys for demisto/crypto:1.0.0.13737394
 
   Repository Key:	220ec19f346d59cc2cd852f42c8e3b659f963a92d6981d7ca1f4ca77409d6a6c
   Root Key:	ee857216bbb94fc0d393463890ba6b4e0a8945b3fee2eb1caee5027b76b21570
@@ -232,7 +232,7 @@ Administrative keys for demisto/crypto:1.0.0.13447173
 ### `pycparser`
 
 * Summary: C parser in Python
-* Version: 3.0
+* Version: 3.1
 * Pypi: https://pypi.org/project/pycparser/
 * Homepage: None
 * Author: Eli Bendersky <eliben@gmail.com>
@@ -254,6 +254,15 @@ Administrative keys for demisto/crypto:1.0.0.13447173
 * Pypi: https://pypi.org/project/PyJWT/
 * Homepage: None
 * Author: Jose Padilla <hello@jpadilla.com>
+
+### `PyNaCl`
+
+* Summary: Python binding to the Networking and Cryptography (NaCl) library
+* Version: 1.6.2
+* Pypi: https://pypi.org/project/PyNaCl/
+* Homepage: https://github.com/pyca/pynacl/
+* Author: The PyNaCl developers <cryptography-dev@python.org>
+* License :: OSI Approved :: Apache Software License
 
 ### `pyOpenSSL`
 
