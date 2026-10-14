@@ -1,9 +1,9 @@
-# `demisto/googleapi-python3:1.0.0.13548907`
+# `demisto/googleapi-python3:1.0.0.13768061`
 
 ## Docker Metadata
-- Image Size: 97.61 MB
-- Image ID: `sha256:b26f01da05097d136ff694f306656a518194818b4e20a02bc5ad9b20066562cf`
-- Created: `2026-10-05T18:00:19.063297644Z`
+- Image Size: 97.65 MB
+- Image ID: `sha256:685a6be3178eab6b5b423add6172064b8a547fa7a8870b9bd3651ec365ee66d1`
+- Created: `2026-10-13T17:58:45.161886372Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/googleapi-python3:1.0.0.13548907`
+  - `DOCKER_IMAGE=demisto/googleapi-python3:1.0.0.13768061`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:10d70f2de0645ef6366ecbdd8d0853178688711a`
-  - `org.opencontainers.image.version:1.0.0.13548907`
-  - `panw.builtby.pipeline:13549496`
+  - `org.opencontainers.image.revision:3e7f9ef326753312cc75d337c587f8f7601e41bd`
+  - `org.opencontainers.image.version:1.0.0.13768061`
+  - `panw.builtby.pipeline:13768537`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/googleapi-python3:1.0.0.13548907
+Signatures for demisto/googleapi-python3:1.0.0.13768061
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13548907   868d9a16b8217dd2eb9fc557a4ec2a06177c1b6d4997e9113cb1c19520cf9982   (Repo Admin)
+1.0.0.13768061   b2e9f0d5f87bcbcc9c722308008a97cec51c1c52363e203de6ce12f1ad7a8efe   (Repo Admin)
 
-Administrative keys for demisto/googleapi-python3:1.0.0.13548907
+Administrative keys for demisto/googleapi-python3:1.0.0.13768061
 
   Repository Key:	b14f1cdad56bfcc44f0ba4af89b0ec4910e16f20c7c6ab86d496a5786dc49c4c
   Root Key:	8fe3e320ac3b88f7823a158cd05468872ae8ac2135e8ca4f9e70d707440f05d4
@@ -132,7 +132,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.13548907
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.40.0
+* Version: 2.42.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -150,7 +150,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.13548907
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.59.1
+* Version: 2.62.0
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -177,7 +177,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.13548907
 ### `google-cloud-storage`
 
 * Summary: Google Cloud Storage API client library
-* Version: 3.16.0
+* Version: 3.17.0
 * Pypi: https://pypi.org/project/google-cloud-storage/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-storage
 * Author: Google LLC googleapis-packages@google.com
@@ -282,7 +282,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.13548907
 ### `opentelemetry-api`
 
 * Summary: OpenTelemetry Python API
-* Version: 1.45.0
+* Version: 1.45.1
 * Pypi: https://pypi.org/project/opentelemetry-api/
 * Homepage: None
 * Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
@@ -343,7 +343,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.13548907
 ### `pycparser`
 
 * Summary: C parser in Python
-* Version: 3.0
+* Version: 3.11
 * Pypi: https://pypi.org/project/pycparser/
 * Homepage: None
 * Author: Eli Bendersky <eliben@gmail.com>

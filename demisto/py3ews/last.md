@@ -1,9 +1,9 @@
-# `demisto/py3ews:5.6.0.13514731`
+# `demisto/py3ews:5.6.0.13768061`
 
 ## Docker Metadata
-- Image Size: 66.14 MB
-- Image ID: `sha256:5f0d5e6f2f4e4a049eada5fd81b4f1178fff24162ccdb2ec1b69b417bdf78583`
-- Created: `2026-10-04T14:54:36.40614763Z`
+- Image Size: 66.18 MB
+- Image ID: `sha256:1e37af907267d10de29101de4a8f979ee4b6f2f3bb38054986b19d4c3c7d03f1`
+- Created: `2026-10-13T17:58:19.519823737Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/py3ews:5.6.0.13514731`
+  - `DOCKER_IMAGE=demisto/py3ews:5.6.0.13768061`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:170f4a83cd381efea4a71dff4385f9d9994fef2f`
-  - `org.opencontainers.image.version:5.6.0.13514731`
-  - `panw.builtby.pipeline:13515658`
+  - `org.opencontainers.image.revision:3e7f9ef326753312cc75d337c587f8f7601e41bd`
+  - `org.opencontainers.image.version:5.6.0.13768061`
+  - `panw.builtby.pipeline:13768535`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py3ews:5.6.0.13514731
+Signatures for demisto/py3ews:5.6.0.13768061
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-5.6.0.13514731   25354de751cc31f04e410afdc23deba2fb9dd88f0de9a0d33b388b4d25a26133   (Repo Admin)
+5.6.0.13768061   180893c844c99d3a820343c559e5a4498d9f83038fa4105db17ee4e7bba0528e   (Repo Admin)
 
-Administrative keys for demisto/py3ews:5.6.0.13514731
+Administrative keys for demisto/py3ews:5.6.0.13768061
 
   Repository Key:	49e0be19d4c430aaef147539b64259bbc85885e5bd03918079e6a66d693cb8be
   Root Key:	e2c459fee62c0ca5b39fcd6a3cd86c53a1506042ad92cc59aada6a00a0e1bbf4
@@ -154,10 +154,10 @@ Administrative keys for demisto/py3ews:5.6.0.13514731
 ### `dnspython`
 
 * Summary: DNS toolkit
-* Version: 2.8.0
+* Version: 2.9.0
 * Pypi: https://pypi.org/project/dnspython/
 * Homepage: None
-* Author: Bob Halley <halley@dnspython.org>
+* Author: Bob Halley Bob Halley <halley@dnspython.org>
 * License :: ISC License
 
 ### `enum34`

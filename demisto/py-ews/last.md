@@ -1,9 +1,9 @@
-# `demisto/py-ews:5.6.0.13597103`
+# `demisto/py-ews:5.6.0.13768061`
 
 ## Docker Metadata
-- Image Size: 133.61 MB
-- Image ID: `sha256:ce3592e9ff1d036be5e26ddd6d2dcd1cf2264bd8a1ac8094f9a56ac4f114e33f`
-- Created: `2026-10-07T10:02:57.871812592Z`
+- Image Size: 134.08 MB
+- Image ID: `sha256:a67612cada921580a238dd2749fccd08148c4b0541aaec8352fc216af1acaaa9`
+- Created: `2026-10-13T17:58:03.937521619Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.13597103`
+  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.13768061`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:15e86558cb80230b99da54c587d3ead17660ba14`
-  - `org.opencontainers.image.version:5.6.0.13597103`
-  - `panw.builtby.pipeline:13601521`
+  - `org.opencontainers.image.revision:3e7f9ef326753312cc75d337c587f8f7601e41bd`
+  - `org.opencontainers.image.version:5.6.0.13768061`
+  - `panw.builtby.pipeline:13768539`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py-ews:5.6.0.13597103
+Signatures for demisto/py-ews:5.6.0.13768061
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-5.6.0.13597103   d3e18a497a4b5395362b3f9bd1c824b02eea38bd3ce71aaaac230b16de265ab8   (Repo Admin)
+5.6.0.13768061   a913c9a442eb845e636d279a67ba36ebf29ecd0781910241e8d9f18c82e5288c   (Repo Admin)
 
-Administrative keys for demisto/py-ews:5.6.0.13597103
+Administrative keys for demisto/py-ews:5.6.0.13768061
 
   Repository Key:	c8b3a877659c96dd5e16db568d8f817a6eabb390ecfda3f567a6bc1929408237
   Root Key:	61b6aad19eee856a8c06a402a23627b05539b427be49b6335a4b309706ee1cdc
@@ -158,10 +158,10 @@ Administrative keys for demisto/py-ews:5.6.0.13597103
 ### `dnspython`
 
 * Summary: DNS toolkit
-* Version: 2.8.0
+* Version: 2.9.0
 * Pypi: https://pypi.org/project/dnspython/
 * Homepage: None
-* Author: Bob Halley <halley@dnspython.org>
+* Author: Bob Halley Bob Halley <halley@dnspython.org>
 * License :: ISC License
 
 ### `enum34`
@@ -343,7 +343,7 @@ Administrative keys for demisto/py-ews:5.6.0.13597103
 ### `platformdirs`
 
 * Summary: A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`.
-* Version: 4.12.3
+* Version: 4.13.0
 * Pypi: https://pypi.org/project/platformdirs/
 * Homepage: None
 * Author: None
@@ -352,7 +352,7 @@ Administrative keys for demisto/py-ews:5.6.0.13597103
 ### `pycparser`
 
 * Summary: C parser in Python
-* Version: 3.0
+* Version: 3.11
 * Pypi: https://pypi.org/project/pycparser/
 * Homepage: None
 * Author: Eli Bendersky <eliben@gmail.com>
@@ -404,7 +404,7 @@ Administrative keys for demisto/py-ews:5.6.0.13597103
 ### `python-discovery`
 
 * Summary: Python interpreter discovery
-* Version: 1.6.1
+* Version: 1.6.2
 * Pypi: https://pypi.org/project/python-discovery/
 * Homepage: None
 * Author: None
@@ -551,7 +551,7 @@ Administrative keys for demisto/py-ews:5.6.0.13597103
 ### `virtualenv`
 
 * Summary: Virtual Python Environment builder
-* Version: 21.14.5
+* Version: 21.14.7
 * Pypi: https://pypi.org/project/virtualenv/
 * Homepage: None
 * Author: None
@@ -617,7 +617,7 @@ Administrative keys for demisto/py-ews:5.6.0.13597103
 * libkrb5support0:amd64	1.21.3-5+deb13u1
 * liblastlog2-2:amd64	2.41.5-0+deb13u1
 * liblz4-1:amd64	1.10.0-4
-* liblzma5:amd64	5.8.1-1+deb13u1
+* liblzma5:amd64	5.8.1-1+deb13u2
 * libmd0:amd64	1.1.0-2+b1
 * libmount1:amd64	2.41.5-0+deb13u1
 * libncursesw6:amd64	6.5+20250216-2

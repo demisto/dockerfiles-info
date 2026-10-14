@@ -1,9 +1,9 @@
-# `demisto/sane-pdf-reports:1.0.0.11473180`
+# `demisto/sane-pdf-reports:1.0.0.13766451`
 
 ## Docker Metadata
-- Image Size: 951.18 MB
-- Image ID: `sha256:2ca79bb974d5fa259ab4c09dc36ac7ae8a1d130b6efee44baa2f5f1970e503a2`
-- Created: `2026-07-30T14:47:07.735269736Z`
+- Image Size: 960.99 MB
+- Image ID: `sha256:1af58fdad0ba19f24402ddf6d4009d64ae57e712e7a87b29388c2e8ddd43065f`
+- Created: `2026-10-13T16:34:10.172823867Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/sane-pdf-reports:1.0.0.11473180`
+  - `DOCKER_IMAGE=demisto/sane-pdf-reports:1.0.0.13766451`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:90fda9a5fe7e69f35f0e163751cca4081303f7f8`
-  - `org.opencontainers.image.version:1.0.0.11473180`
-  - `panw.builtby.pipeline:11473948`
+  - `org.opencontainers.image.revision:75c6fcefa82484a04572d8e97d895937a987743b`
+  - `org.opencontainers.image.version:1.0.0.13766451`
+  - `panw.builtby.pipeline:13766930`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sane-pdf-reports:1.0.0.11473180
+Signatures for demisto/sane-pdf-reports:1.0.0.13766451
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.11473180   4f2113df98d6efc77053dab2d2d9abd756a7ebada3b950c2370d92f223db070e   (Repo Admin)
+1.0.0.13766451   4578d60ad5f49608b714293959b6825f97c57f1270cbae7630f5c708972c6b88   (Repo Admin)
 
-Administrative keys for demisto/sane-pdf-reports:1.0.0.11473180
+Administrative keys for demisto/sane-pdf-reports:1.0.0.13766451
 
   Repository Key:	a49126a1ef2d8b2a122417046a0568ce3d14ed56e32e723f3cb956a369091e4b
   Root Key:	3c9d875c8980465612892e36819738cac8450f51c69e5dbdbf71867f33cd59eb
@@ -51,10 +51,18 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.11473180
 ## `Python Packages`
 
 
+### `anyio`
+
+* Summary: High-level concurrency and networking framework on top of asyncio or Trio
+* Version: 4.14.2
+* Pypi: https://pypi.org/project/anyio/
+* Homepage: None
+* Author: Alex Grönholm <alex.gronholm@nextday.fi>
+
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.4.22
+* Version: 2026.7.22
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -63,7 +71,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.11473180
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.4.7
+* Version: 3.5.1
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -72,7 +80,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.11473180
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.1
+* Version: 1.4.2
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -89,7 +97,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.11473180
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.28.0
+* Version: 3.32.4
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -100,14 +108,41 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.11473180
 * Summary: A fancy and practical functional tools
 * Version: 2.0
 * Pypi: https://pypi.org/project/funcy/
-* Homepage: http://github.com/Suor/funcy
+* Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
+* License :: OSI Approved :: BSD License
+
+### `h11`
+
+* Summary: A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
+* Version: 0.16.0
+* Pypi: https://pypi.org/project/h11/
+* Homepage: https://github.com/python-hyper/h11
+* Author: Nathaniel J. Smith njs@pobox.com
+* License :: OSI Approved :: MIT License
+
+### `httpcore`
+
+* Summary: A minimal low-level HTTP client.
+* Version: 1.0.9
+* Pypi: https://pypi.org/project/httpcore/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
+* License :: OSI Approved :: BSD License
+
+### `httpx`
+
+* Summary: The next generation HTTP client.
+* Version: 0.28.1
+* Pypi: https://pypi.org/project/httpx/
+* Homepage: None
+* Author: Tom Christie <tom@tomchristie.com>
 * License :: OSI Approved :: BSD License
 
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.15
+* Version: 3.19
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -132,7 +167,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.11473180
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2
+* Version: 26.2.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -160,7 +195,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.11473180
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.2
+* Version: 2026.3.post1
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -178,7 +213,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.11473180
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.5.9
+* Version: 2026.7.19
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -201,10 +236,19 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.11473180
 * Author: David Shea <reallylongword@gmail.com>
 * License :: OSI Approved :: Apache Software License
 
+### `respx`
+
+* Summary: A utility for mocking out the Python HTTPX and HTTP Core libraries.
+* Version: 0.23.1
+* Pypi: https://pypi.org/project/respx/
+* Homepage: https://lundberg.github.io/respx/
+* Author: Jonas Lundberg jonas@5monkeys.se
+* License :: OSI Approved :: BSD License
+
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 83.0.0
+* Version: 84.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -221,15 +265,23 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.11473180
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.1
+* Version: 5.3.2
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
 
+### `typing_extensions`
+
+* Summary: Backported and Experimental Type Hints for Python 3.9+
+* Version: 4.16.0
+* Pypi: https://pypi.org/project/typing-extensions/
+* Homepage: None
+* Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
+
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4
+* Version: 5.4.4
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -237,7 +289,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.11473180
 ### `urllib3`
 
 * Summary: HTTP library with thread-safe connection pooling, file post, and more.
-* Version: 2.7.0
+* Version: 2.8.0
 * Pypi: https://pypi.org/project/urllib3/
 * Homepage: None
 * Author: Andrey Petrov <andrey.petrov@shazow.net>
@@ -415,7 +467,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.11473180
 * libnode72:amd64	12.22.12~dfsg-1~deb11u8
 * libnsl2:amd64	1.3.0-2
 * libnspr4:amd64	2:4.29-1
-* libnss3:amd64	2:3.61-1+deb11u6
+* libnss3:amd64	2:3.61-1+deb11u7
 * libp11-kit0:amd64	0.23.22-1
 * libpam-modules-bin	1.4.0-9+deb11u2
 * libpam-modules:amd64	1.4.0-9+deb11u2

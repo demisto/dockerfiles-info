@@ -1,9 +1,9 @@
-# `demisto/xpanse-ml-ev2:1.0.0.13548907`
+# `demisto/xpanse-ml-ev2:1.0.0.13768061`
 
 ## Docker Metadata
-- Image Size: 202.61 MB
-- Image ID: `sha256:ac094651e484b77a8f5fb7d3e486f0d21d5d87ac1ef8f6e628a0fc1d28e8a65c`
-- Created: `2026-10-05T18:00:56.747795988Z`
+- Image Size: 202.93 MB
+- Image ID: `sha256:dea06034fcaead29ffa5719cf1f8f420e54f9bdf39e1592176293c2b7fe79819`
+- Created: `2026-10-13T17:58:42.427726688Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.13548907`
+  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.13768061`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:10d70f2de0645ef6366ecbdd8d0853178688711a`
-  - `org.opencontainers.image.version:1.0.0.13548907`
-  - `panw.builtby.pipeline:13549498`
+  - `org.opencontainers.image.revision:3e7f9ef326753312cc75d337c587f8f7601e41bd`
+  - `org.opencontainers.image.version:1.0.0.13768061`
+  - `panw.builtby.pipeline:13768536`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/xpanse-ml-ev2:1.0.0.13548907
+Signatures for demisto/xpanse-ml-ev2:1.0.0.13768061
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13548907   3b70842595cbb37708252f51587e785fe93cc5a6967b5124fc0ecfbe57a9a990   (Repo Admin)
+1.0.0.13768061   7026122fb5bc4d7c046b572cf28b6b8eabe5d18b1083cdfc38cd1d95ed27f3a7   (Repo Admin)
 
-Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13548907
+Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13768061
 
   Repository Key:	fa55b8182edbcafca39872dc58748778b2ff80634214e1872a9351313e618c45
   Root Key:	4324e3baaaa90dedc0be93f30c2271fb7bbaa8de8949e6c3996a45c6e81637d2
@@ -150,7 +150,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13548907
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.40.0
+* Version: 2.42.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -159,7 +159,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13548907
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.59.1
+* Version: 2.62.0
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -177,7 +177,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13548907
 ### `google-cloud-storage`
 
 * Summary: Google Cloud Storage API client library
-* Version: 3.16.0
+* Version: 3.17.0
 * Pypi: https://pypi.org/project/google-cloud-storage/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-storage
 * Author: Google LLC googleapis-packages@google.com
@@ -288,7 +288,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13548907
 ### `opentelemetry-api`
 
 * Summary: OpenTelemetry Python API
-* Version: 1.45.0
+* Version: 1.45.1
 * Pypi: https://pypi.org/project/opentelemetry-api/
 * Homepage: None
 * Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
@@ -358,7 +358,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13548907
 ### `pycparser`
 
 * Summary: C parser in Python
-* Version: 3.0
+* Version: 3.11
 * Pypi: https://pypi.org/project/pycparser/
 * Homepage: None
 * Author: Eli Bendersky <eliben@gmail.com>

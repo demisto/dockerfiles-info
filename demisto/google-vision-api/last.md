@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.13681649`
+# `demisto/google-vision-api:1.0.0.13768061`
 
 ## Docker Metadata
-- Image Size: 139.98 MB
-- Image ID: `sha256:30ba44e3b13e590f9481f40dae635bca980a48e2c1118372a4b3f03bc42f672a`
-- Created: `2026-10-10T23:52:48.58570506Z`
+- Image Size: 140.23 MB
+- Image ID: `sha256:162e078f310d43c92124a834c561533de2537413f700b27e6592d4a5362b1bfc`
+- Created: `2026-10-13T17:58:16.791154211Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.13681649`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.13768061`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:19f1adb18874dff7423db9c9a061d942fd12c5da`
-  - `org.opencontainers.image.version:1.0.0.13681649`
-  - `panw.builtby.pipeline:13682039`
+  - `org.opencontainers.image.revision:3e7f9ef326753312cc75d337c587f8f7601e41bd`
+  - `org.opencontainers.image.version:1.0.0.13768061`
+  - `panw.builtby.pipeline:13768531`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-vision-api:1.0.0.13681649
+Signatures for demisto/google-vision-api:1.0.0.13768061
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13681649   569d284abf2537cc9c81888105318a19c655967d83736d2770fb8f770ccc5633   (Repo Admin)
+1.0.0.13768061   f990a16177ff74dd8b7a53d7ca0cbb33f63933d3beaca247fe10eb6f858ac7b4   (Repo Admin)
 
-Administrative keys for demisto/google-vision-api:1.0.0.13681649
+Administrative keys for demisto/google-vision-api:1.0.0.13768061
 
   Repository Key:	8f699c169d21da1343c2ea4f465fe5f19ace3822c0fd85c2d1a054379abf30dd
   Root Key:	23130201a9ea6e060cceb9cf5a1998649873c190c980fe0d6c487df1fadbc6ef
@@ -175,7 +175,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.13681649
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.41.0
+* Version: 2.42.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -193,7 +193,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.13681649
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.61.0
+* Version: 2.62.0
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -220,7 +220,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.13681649
 ### `google-cloud-aiplatform`
 
 * Summary: Vertex AI API client library
-* Version: 2.3.0
+* Version: 2.4.0
 * Pypi: https://pypi.org/project/google-cloud-aiplatform/
 * Homepage: https://github.com/googleapis/python-aiplatform
 * Author: Google LLC googleapis-packages@google.com
@@ -256,7 +256,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.13681649
 ### `google-cloud-storage`
 
 * Summary: Google Cloud Storage API client library
-* Version: 3.16.0
+* Version: 3.17.0
 * Pypi: https://pypi.org/project/google-cloud-storage/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-storage
 * Author: Google LLC googleapis-packages@google.com
@@ -283,7 +283,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.13681649
 ### `google-genai`
 
 * Summary: GenAI Python SDK
-* Version: 2.28.0
+* Version: 2.30.1
 * Pypi: https://pypi.org/project/google-genai/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -481,7 +481,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.13681649
 ### `pydantic`
 
 * Summary: Data validation using Python type hints
-* Version: 2.13.5
+* Version: 2.14.1
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.dev>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -489,7 +489,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.13681649
 ### `pydantic_core`
 
 * Summary: Core functionality for Pydantic validation and serialization
-* Version: 2.46.5
+* Version: 2.50.1
 * Pypi: https://pypi.org/project/pydantic_core/
 * Homepage: https://github.com/pydantic/pydantic
 * Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>

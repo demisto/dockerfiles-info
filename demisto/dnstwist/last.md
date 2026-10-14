@@ -1,9 +1,9 @@
-# `demisto/dnstwist:1.0.0.13531018`
+# `demisto/dnstwist:1.0.0.13768061`
 
 ## Docker Metadata
-- Image Size: 37.73 MB
-- Image ID: `sha256:8b837216d1a034b4d651d5dfed52959852f5a3bf1a59769bbff894d66086af93`
-- Created: `2026-10-05T09:09:41.680749339Z`
+- Image Size: 37.78 MB
+- Image ID: `sha256:1e99dafea2fea2ffb4e538ea26b5cbcc22ce5baf23a26208558c57eae12d988b`
+- Created: `2026-10-13T17:58:06.521801657Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/dnstwist:1.0.0.13531018`
+  - `DOCKER_IMAGE=demisto/dnstwist:1.0.0.13768061`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:197712f5b3fff2630a6ff245c2a96564c36a359e`
-  - `org.opencontainers.image.version:1.0.0.13531018`
-  - `panw.builtby.pipeline:13532293`
+  - `org.opencontainers.image.revision:3e7f9ef326753312cc75d337c587f8f7601e41bd`
+  - `org.opencontainers.image.version:1.0.0.13768061`
+  - `panw.builtby.pipeline:13768529`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/dnstwist:1.0.0.13531018
+Signatures for demisto/dnstwist:1.0.0.13768061
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13531018   136840027521c955a2c394e0e0a7698f2944ba21ea5bbb45ddcf9a8dda443c91   (Repo Admin)
+1.0.0.13768061   12c870b5883e3d673355fa39981e21d3ada1e770549d4e02c030f370b906bc80   (Repo Admin)
 
-Administrative keys for demisto/dnstwist:1.0.0.13531018
+Administrative keys for demisto/dnstwist:1.0.0.13768061
 
   Repository Key:	a6456b5ddc3706fa9ce5d9842cc8a1e2d90d0cd64252bcc715e62b9e3d41eab4
   Root Key:	23d1adbc65c72d7578b1f88ce57a77993a7f2fdc2d0092ca4e74a607e9f4731d
@@ -103,10 +103,10 @@ Administrative keys for demisto/dnstwist:1.0.0.13531018
 ### `dnspython`
 
 * Summary: DNS toolkit
-* Version: 2.8.0
+* Version: 2.9.0
 * Pypi: https://pypi.org/project/dnspython/
 * Homepage: None
-* Author: Bob Halley <halley@dnspython.org>
+* Author: Bob Halley Bob Halley <halley@dnspython.org>
 * License :: ISC License
 
 ### `filelock`
