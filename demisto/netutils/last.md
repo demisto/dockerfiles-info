@@ -1,9 +1,9 @@
-# `demisto/netutils:1.0.0.13768061`
+# `demisto/netutils:1.0.0.13804971`
 
 ## Docker Metadata
 - Image Size: 49.44 MB
-- Image ID: `sha256:7d7035b8501ec8eb23b6f87263ce391613595b89840719c2d594dc42acf5ed45`
-- Created: `2026-10-13T17:58:04.029601057Z`
+- Image ID: `sha256:ecbbf3bc066ccb6c0880e730f2c2d5ef7b959fb1b2b95cc7a019c197c0c80cfe`
+- Created: `2026-10-14T23:48:32.274588549Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/netutils:1.0.0.13768061`
+  - `DOCKER_IMAGE=demisto/netutils:1.0.0.13804971`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3e7f9ef326753312cc75d337c587f8f7601e41bd`
-  - `org.opencontainers.image.version:1.0.0.13768061`
-  - `panw.builtby.pipeline:13768533`
+  - `org.opencontainers.image.revision:c149eca84669dac26b3da087a1148e698648fd87`
+  - `org.opencontainers.image.version:1.0.0.13804971`
+  - `panw.builtby.pipeline:13805392`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/netutils:1.0.0.13768061
+Signatures for demisto/netutils:1.0.0.13804971
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13768061   72a1d617a89f15c915c3005adb8769e9d5e7faac2ca135057ea0efc25cc8a032   (Repo Admin)
+1.0.0.13804971   e2b3f8d676ffc27d605888bf60ea577acab41a69292a9ae631eb0990b6e56c3c   (Repo Admin)
 
-Administrative keys for demisto/netutils:1.0.0.13768061
+Administrative keys for demisto/netutils:1.0.0.13804971
 
   Repository Key:	4a445396112768813d4eed8d7ba46d7e9c7018e8936d73f291e3b14d34043b78
   Root Key:	1b9fb0fff68f4cc0c00bc76a90e250bd8514c1f683a697b7cd30b567838b2cdd
@@ -60,7 +60,7 @@ Administrative keys for demisto/netutils:1.0.0.13768061
 ### `aiohttp`
 
 * Summary: Async http client/server framework (asyncio)
-* Version: 3.14.4
+* Version: 3.14.5
 * Pypi: https://pypi.org/project/aiohttp/
 * Homepage: None
 * Author: None

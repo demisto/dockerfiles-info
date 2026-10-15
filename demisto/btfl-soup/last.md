@@ -1,9 +1,9 @@
-# `demisto/btfl-soup:1.0.1.13526390`
+# `demisto/btfl-soup:1.0.1.13804971`
 
 ## Docker Metadata
 - Image Size: 40.59 MB
-- Image ID: `sha256:ce3ba85d3777fc057f058faf62dcc130a9a1530d290ddd66a87efca81a945879`
-- Created: `2026-10-05T05:40:41.104004022Z`
+- Image ID: `sha256:4ff34daad7269d00c62de28f93020884163f00dcada8a089ba85ea1b45463980`
+- Created: `2026-10-14T23:48:39.329390487Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.13526390`
+  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.13804971`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:774749c6165ed2ee87c03199b61bcb553fe5f1c6`
-  - `org.opencontainers.image.version:1.0.1.13526390`
-  - `panw.builtby.pipeline:13526669`
+  - `org.opencontainers.image.revision:c149eca84669dac26b3da087a1148e698648fd87`
+  - `org.opencontainers.image.version:1.0.1.13804971`
+  - `panw.builtby.pipeline:13805389`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/btfl-soup:1.0.1.13526390
+Signatures for demisto/btfl-soup:1.0.1.13804971
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.1.13526390   0cba69d7a84ea6f1b9763b1d08359324ae7378fd8da2605aa54659e5834504eb   (Repo Admin)
+1.0.1.13804971   c365f8dfdd5455bb9997e285dd758afa858368fe50b132ff2025e2ab9fd97832   (Repo Admin)
 
-Administrative keys for demisto/btfl-soup:1.0.1.13526390
+Administrative keys for demisto/btfl-soup:1.0.1.13804971
 
   Repository Key:	2df9352dc8d80b6e208c7ff147fac5fe0db694f8ad563e69a8c0688b62620cb4
   Root Key:	48666b9a08f1927653d7c7246d50c6a1b3a7f7ff8ff8be1557cce0991627ccf4
@@ -226,12 +226,11 @@ Administrative keys for demisto/btfl-soup:1.0.1.13526390
 ### `pycryptodome`
 
 * Summary: Cryptographic library for Python
-* Version: 3.24.0
+* Version: 3.24.1
 * Pypi: https://pypi.org/project/pycryptodome/
-* Homepage: https://www.pycryptodome.org
-* Author: Helder Eijs helderijs@gmail.com
-* License :: OSI Approved :: BSD License
-* License :: Public Domain
+* Homepage: None
+* Author: Helder Eijs <helderijs@gmail.com>
+* License: BSD, Public Domain
 
 ### `PySocks`
 
