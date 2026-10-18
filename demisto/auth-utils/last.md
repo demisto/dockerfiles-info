@@ -1,9 +1,9 @@
-# `demisto/auth-utils:1.0.0.13681649`
+# `demisto/auth-utils:1.0.0.13804971`
 
 ## Docker Metadata
 - Image Size: 65.31 MB
-- Image ID: `sha256:340b2edeceec1d849b06cd584a1e253a405aa44ef69f5c997b85170bc0037e37`
-- Created: `2026-10-10T23:52:34.474186075Z`
+- Image ID: `sha256:989e6d354c9604c0c13018118ec6c9289500cb36bf4abbdbc99439ffc91ed7e3`
+- Created: `2026-10-14T23:48:55.488235511Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.13`
   - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
-  - `DOCKER_IMAGE=demisto/auth-utils:1.0.0.13681649`
+  - `DOCKER_IMAGE=demisto/auth-utils:1.0.0.13804971`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:19f1adb18874dff7423db9c9a061d942fd12c5da`
-  - `org.opencontainers.image.version:1.0.0.13681649`
-  - `panw.builtby.pipeline:13682037`
+  - `org.opencontainers.image.revision:c149eca84669dac26b3da087a1148e698648fd87`
+  - `org.opencontainers.image.version:1.0.0.13804971`
+  - `panw.builtby.pipeline:13805390`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/auth-utils:1.0.0.13681649
+Signatures for demisto/auth-utils:1.0.0.13804971
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13681649   02b8b50c7c2e02b3cb11c217e4e3d664d6745a82ae18ecdf13e777f5b55d20da   (Repo Admin)
+1.0.0.13804971   926c5e502a64b0526f96991ad5e306c072edab2698cdc28ce930eac3efa62821   (Repo Admin)
 
-Administrative keys for demisto/auth-utils:1.0.0.13681649
+Administrative keys for demisto/auth-utils:1.0.0.13804971
 
   Repository Key:	c4e5c6491d37f197ee11c3bcf27402ded5e35e8dfd04aa5f3ca6306c1589acb9
   Root Key:	afc48b6ceb8bef3948a8d982cf3a6e357efca688125da7e062bdd41bfc9b9546
@@ -60,7 +60,7 @@ Administrative keys for demisto/auth-utils:1.0.0.13681649
 ### `aiohttp`
 
 * Summary: Async http client/server framework (asyncio)
-* Version: 3.14.4
+* Version: 3.14.5
 * Pypi: https://pypi.org/project/aiohttp/
 * Homepage: None
 * Author: None

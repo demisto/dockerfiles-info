@@ -1,9 +1,9 @@
-# `demisto/datadog-api-client:1.0.0.13712671`
+# `demisto/datadog-api-client:1.0.0.13855591`
 
 ## Docker Metadata
-- Image Size: 44.20 MB
-- Image ID: `sha256:158f9c4b0db793c196ebcbb325deaf9763205001ea68047f6851c29c314b0ce5`
-- Created: `2026-10-12T00:13:47.393076439Z`
+- Image Size: 44.60 MB
+- Image ID: `sha256:1380794de7bff6e78381ebe24fe337b85602269884dc665daad36865105263cb`
+- Created: `2026-10-17T23:52:29.734268436Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/datadog-api-client:1.0.0.13712671`
+  - `DOCKER_IMAGE=demisto/datadog-api-client:1.0.0.13855591`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:301fca2985b42da6ea52a4aca8b76aaaa23d4a27`
-  - `org.opencontainers.image.version:1.0.0.13712671`
-  - `panw.builtby.pipeline:13713070`
+  - `org.opencontainers.image.revision:66aebafe43bb6d1f8499edbe3712f16ef0b803ec`
+  - `org.opencontainers.image.version:1.0.0.13855591`
+  - `panw.builtby.pipeline:13855826`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/datadog-api-client:1.0.0.13712671
+Signatures for demisto/datadog-api-client:1.0.0.13855591
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13712671   182e73512d0774951de380abb1716f4185cba376837341f36692e0d794e52541   (Repo Admin)
+1.0.0.13855591   4b91e5995105bf5e0b977c63f7afc4797fdd2d8590046aea6db6f7f49dbfe505   (Repo Admin)
 
-Administrative keys for demisto/datadog-api-client:1.0.0.13712671
+Administrative keys for demisto/datadog-api-client:1.0.0.13855591
 
   Repository Key:	656d78d0ce1bf497326f1f73e1748d6dc41faace8487b29f8cf74838cf932cd9
   Root Key:	f37ef2584cf450f8c9dd9e8721f92ef81e852897ae167f699bb2c8bffa6ecd86
@@ -77,7 +77,7 @@ Administrative keys for demisto/datadog-api-client:1.0.0.13712671
 ### `datadog-api-client`
 
 * Summary: Collection of all Datadog Public endpoints
-* Version: 2.61.0
+* Version: 2.62.0
 * Pypi: https://pypi.org/project/datadog-api-client/
 * Homepage: https://github.com/DataDog/datadog-api-client-python
 * Author: Datadog, Inc. packages@datadoghq.com
