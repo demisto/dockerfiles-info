@@ -1,9 +1,9 @@
-# `demisto/powershell-ubuntu:7.5.0.13451595`
+# `demisto/powershell-ubuntu:7.5.0.13880591`
 
 ## Docker Metadata
-- Image Size: 178.59 MB
-- Image ID: `sha256:8030db3b4ef247ed9d6177c9ac24f44852266b18bd898400f1443569829b4cbd`
-- Created: `2026-10-01T08:47:38.652868095Z`
+- Image Size: 178.69 MB
+- Image ID: `sha256:c903a611d2ca78044ea1fbfab591eeffa3535f22858350ce69310e70db16ac7f`
+- Created: `2026-10-18T17:37:23.249029883Z`
 - Arch: `linux`/`amd64`
 - Command: `["pwsh-preview"]`
 - Environment:
@@ -14,7 +14,7 @@
   - `PS_INSTALL_FOLDER=/opt/microsoft/powershell/7`
   - `PSModuleAnalysisCachePath=/var/cache/microsoft/powershell/PSModuleAnalysisCache/ModuleAnalysisCache`
   - `POWERSHELL_DISTRIBUTION_CHANNEL=PSDocker-Ubuntu-22.04`
-  - `DOCKER_IMAGE=demisto/powershell-ubuntu:7.5.0.13451595`
+  - `DOCKER_IMAGE=demisto/powershell-ubuntu:7.5.0.13880591`
 - Labels:
   - `com.visualstudio.mscodehub.image.build.buildnumber:PSDocker-Build-561111-version_v7.5.0_channel_stable_01`
   - `com.visualstudio.mscodehub.image.build.builduri:vstfs:///Build/Build/561111`
@@ -28,9 +28,9 @@
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
   - `org.opencontainers.image.ref.name:ubuntu`
-  - `org.opencontainers.image.revision:28f4521be7aba7e760ffce500da15085120f7aaa`
-  - `org.opencontainers.image.version:7.5.0.13451595`
-  - `panw.builtby.pipeline:13452334`
+  - `org.opencontainers.image.revision:108f6971bc2c2e8d0c66cd84fdd677189504521f`
+  - `org.opencontainers.image.version:7.5.0.13880591`
+  - `panw.builtby.pipeline:13880696`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -51,12 +51,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/powershell-ubuntu:7.5.0.13451595
+Signatures for demisto/powershell-ubuntu:7.5.0.13880591
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-7.5.0.13451595   4ed3f64dae7c0467d87d8464ed8f89a58698f41ede597712671287fd3dfdb4f8   (Repo Admin)
+7.5.0.13880591   219a466d58debef09cea4a2b805b63ee2ab9b75e808fa37c59fe3e7e9264e253   (Repo Admin)
 
-Administrative keys for demisto/powershell-ubuntu:7.5.0.13451595
+Administrative keys for demisto/powershell-ubuntu:7.5.0.13880591
 
   Repository Key:	9b056fdc7eefc4a718830a1e91a246777af31d6e458a11eac5a241c987aba36c
   Root Key:	ede55c64378a2bc8ae0e4c31b58956b904597dc4c4354bfe26334df45d2e041d
@@ -155,14 +155,14 @@ Administrative keys for demisto/powershell-ubuntu:7.5.0.13451595
 * libss2:amd64	1.46.5-2ubuntu1.2
 * libssl3:amd64	3.0.2-0ubuntu1.30
 * libstdc++6:amd64	12.3.0-1ubuntu1~22.04.3
-* libsystemd0:amd64	249.11-0ubuntu3.22
+* libsystemd0:amd64	249.11-0ubuntu3.23
 * libtalloc2:amd64	2.3.3-2build1
 * libtasn1-6:amd64	4.18.0-4ubuntu0.2
 * libtevent0:amd64	0.11.0-1build1
 * libtinfo6:amd64	6.3-2ubuntu0.3
 * libtirpc3:amd64	1.3.2-2ubuntu0.1
 * libtirpc-common	1.3.2-2ubuntu0.1
-* libudev1:amd64	249.11-0ubuntu3.22
+* libudev1:amd64	249.11-0ubuntu3.23
 * libunistring2:amd64	1.0-1
 * libuuid1:amd64	2.37.2-4ubuntu3.6
 * libwbclient0:amd64	2:4.15.13+dfsg-0ubuntu1.13
@@ -177,7 +177,7 @@ Administrative keys for demisto/powershell-ubuntu:7.5.0.13451595
 * ncurses-base	6.3-2ubuntu0.3
 * ncurses-bin	6.3-2ubuntu0.3
 * netbase	6.3
-* openssh-client	1:8.9p1-3ubuntu0.17
+* openssh-client	1:8.9p1-3ubuntu0.18
 * openssl	3.0.2-0ubuntu1.30
 * passwd	1:4.8.1-2ubuntu2.2
 * perl-base	5.34.0-3ubuntu1.9
@@ -188,7 +188,7 @@ Administrative keys for demisto/powershell-ubuntu:7.5.0.13451595
 * sensible-utils	0.0.17
 * sysvinit-utils	3.01-1ubuntu1
 * tar	1.34+dfsg-1ubuntu0.1.22.04.6
-* tzdata	2026c-0ubuntu0.22.04.1
+* tzdata	2026e-0ubuntu0.22.04.1
 * ubuntu-keyring	2021.03.26
 * usrmerge	25ubuntu2
 * util-linux	2.37.2-4ubuntu3.6

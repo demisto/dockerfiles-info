@@ -1,9 +1,9 @@
-# `demisto/powershell:7.5.0.11326619`
+# `demisto/powershell:7.5.0.13862703`
 
 ## Docker Metadata
-- Image Size: 98.44 MB
-- Image ID: `sha256:b4f55ed6a642773594d79f78cb42993c37d0cdf4a5a5a584958a3e0b9b364de6`
-- Created: `2026-07-26T11:33:28.149725041Z`
+- Image Size: 102.60 MB
+- Image ID: `sha256:96526455f9a461ff7d32be9337695b4d8aaeb70ef327ac80ac00f669b9c2bb96`
+- Created: `2026-10-18T09:19:17.955367193Z`
 - Arch: `linux`/`amd64`
 - Command: `["pwsh"]`
 - Environment:
@@ -14,7 +14,7 @@
   - `LANG=en_US.UTF-8`
   - `PSModuleAnalysisCachePath=/var/cache/microsoft/powershell/PSModuleAnalysisCache/ModuleAnalysisCache`
   - `POWERSHELL_DISTRIBUTION_CHANNEL=PSDocker-Alpine-3.20`
-  - `DOCKER_IMAGE=demisto/powershell:7.5.0.11326619`
+  - `DOCKER_IMAGE=demisto/powershell:7.5.0.13862703`
 - Labels:
   - `com.visualstudio.mscodehub.image.build.buildnumber:PSDocker-Build-561111-version_v7.5.0_channel_stable_01`
   - `com.visualstudio.mscodehub.image.build.builduri:vstfs:///Build/Build/561111`
@@ -25,9 +25,13 @@
   - `com.visualstudio.mscodehub.image.build.sourceversion:e3f885c3eb5033f54ed2ebdf4218fddf51e27192`
   - `com.visualstudio.mscodehub.image.system.teamfoundationcollectionuri:https://mscodehub.visualstudio.com/`
   - `com.visualstudio.mscodehub.image.system.teamproject:PowerShellCore`
+  - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:56ecec868b9916bc3d8279dd3e63a57edbbcb9c0`
-  - `org.opencontainers.image.version:7.5.0.11326619`
+  - `org.opencontainers.image.revision:462d4ea47594cd54009f71cb16a16bdf74102e65`
+  - `org.opencontainers.image.version:7.5.0.13862703`
+  - `panw.builtby.pipeline:13864608`
+  - `panw.builtby.project:xdr/cortex-content/dockerfiles`
+  - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -40,12 +44,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/powershell:7.5.0.11326619
+Signatures for demisto/powershell:7.5.0.13862703
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-7.5.0.11326619   2afd5ceeec56d96527e322241e2931d886e2bbb799a9d2d63fe1c59280df7044   (Repo Admin)
+7.5.0.13862703   30b23e9d74e10cd1994fc3f9948550f61d37f71dfa0c38ef01cf881668e8da8e   (Repo Admin)
 
-Administrative keys for demisto/powershell:7.5.0.11326619
+Administrative keys for demisto/powershell:7.5.0.13862703
 
   Repository Key:	57c84f1c31d7e08f329627aa946d4a6b0461397feeab2dbb831c759709494e25
   Root Key:	c7b526bf78424605165be488909e6d785c0de47f5d530e099693bc39b6e78a91
@@ -83,9 +87,9 @@ Administrative keys for demisto/powershell:7.5.0.11326619
 * musl-1.2.5-r3 x86_64 {musl}
 * musl-utils-1.2.5-r3 x86_64 {musl}
 * ncurses-terminfo-base-6.4_p20240420-r2 x86_64 {ncurses}
-* openssh-client-common-10.4_p1-r0 x86_64 {openssh}
-* openssh-client-default-10.4_p1-r0 x86_64 {openssh}
-* openssh-keygen-10.4_p1-r0 x86_64 {openssh}
+* openssh-client-common-10.6_p1-r1 x86_64 {openssh}
+* openssh-client-default-10.6_p1-r1 x86_64 {openssh}
+* openssh-keygen-10.6_p1-r1 x86_64 {openssh}
 * scanelf-1.3.7-r2 x86_64 {pax-utils}
 * ssl_client-1.36.1-r31 x86_64 {busybox}
 * tzdata-2026b-r0 x86_64 {tzdata}
