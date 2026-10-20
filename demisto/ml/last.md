@@ -1,9 +1,9 @@
-# `demisto/ml:1.0.0.13712671`
+# `demisto/ml:1.0.0.13919218`
 
 ## Docker Metadata
-- Image Size: 1080.93 MB
-- Image ID: `sha256:19ab88cd5350d8c2da996432fc58fc5fc6e89422051576dce4fc2163ee9cde12`
-- Created: `2026-10-12T00:18:27.287086854Z`
+- Image Size: 1085.99 MB
+- Image ID: `sha256:05782cbaa633e7255915f78efb3105c9b05ad3b3538089e02d7bc3373f63b2f9`
+- Created: `2026-10-19T18:11:43.227598482Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/ml:1.0.0.13712671`
+  - `DOCKER_IMAGE=demisto/ml:1.0.0.13919218`
   - `HF_HOME=/ml/.cache`
   - `NLTK_DATA=/ml/nltk_data`
   - `MPLCONFIGDIR=/ml/matplotlib`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:301fca2985b42da6ea52a4aca8b76aaaa23d4a27`
-  - `org.opencontainers.image.version:1.0.0.13712671`
-  - `panw.builtby.pipeline:13713079`
+  - `org.opencontainers.image.revision:feb70d06402a78e263b32ba410b7e52c5290ef2d`
+  - `org.opencontainers.image.version:1.0.0.13919218`
+  - `panw.builtby.pipeline:13919904`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -40,12 +40,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/ml:1.0.0.13712671
+Signatures for demisto/ml:1.0.0.13919218
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13712671   c0d8e6f91672b716a106cd1f4fbd1a62010f15baa3f01e3187091c510bcffab9   (Repo Admin)
+1.0.0.13919218   5906ef1d5f9469f2dd473ddfbb86a1ff925ce6974bb0684a15a7f4c22bf1ffea   (Repo Admin)
 
-Administrative keys for demisto/ml:1.0.0.13712671
+Administrative keys for demisto/ml:1.0.0.13919218
 
   Repository Key:	ac15e70d1328e4ee6a571a4f26d48cb7a7a71057e1c418659434a29c5f420dec
   Root Key:	9bed0b81bc81568c748fc3dce530b735db8f1ee1b0f960a5a6d7b9a7386637c6
@@ -536,7 +536,7 @@ Administrative keys for demisto/ml:1.0.0.13712671
 ### `onnxruntime`
 
 * Summary: ONNX Runtime is a runtime accelerator for Machine Learning models
-* Version: 1.27.0
+* Version: 1.31.0
 * Pypi: https://pypi.org/project/onnxruntime/
 * Homepage: https://onnxruntime.ai
 * Author: Microsoft Corporation onnxruntime@microsoft.com
@@ -598,7 +598,7 @@ Administrative keys for demisto/ml:1.0.0.13712671
 ### `protobuf`
 
 * Summary: None
-* Version: 7.36.1
+* Version: 7.36.2
 * Pypi: https://pypi.org/project/protobuf/
 * Homepage: https://developers.google.com/protocol-buffers/
 * Author: protobuf@googlegroups.com protobuf@googlegroups.com
@@ -618,10 +618,9 @@ Administrative keys for demisto/ml:1.0.0.13712671
 * Summary: Cryptographic library for Python
 * Version: 3.23.0
 * Pypi: https://pypi.org/project/pycryptodome/
-* Homepage: https://www.pycryptodome.org
-* Author: Helder Eijs helderijs@gmail.com
-* License :: OSI Approved :: BSD License
-* License :: Public Domain
+* Homepage: None
+* Author: Helder Eijs <helderijs@gmail.com>
+* License: BSD, Public Domain
 
 ### `pydantic`
 
@@ -1055,7 +1054,7 @@ Administrative keys for demisto/ml:1.0.0.13712671
 * libcrypt1:amd64	1:4.4.38-1
 * libdb5.3t64:amd64	5.3.28+dfsg2-9
 * libdebconfclient0:amd64	0.280
-* libexpat1:amd64	2.8.3-1~deb13u1
+* libexpat1:amd64	2.9.0-1~deb13u1
 * libffi8:amd64	3.4.8-2
 * libgcc-s1:amd64	14.2.0-19
 * libgdbm-compat4t64:amd64	1.24-2

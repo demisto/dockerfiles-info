@@ -1,9 +1,9 @@
-# `demisto/googleapi-python3:1.0.0.13768061`
+# `demisto/googleapi-python3:1.0.0.13919218`
 
 ## Docker Metadata
-- Image Size: 97.65 MB
-- Image ID: `sha256:685a6be3178eab6b5b423add6172064b8a547fa7a8870b9bd3651ec365ee66d1`
-- Created: `2026-10-13T17:58:45.161886372Z`
+- Image Size: 97.79 MB
+- Image ID: `sha256:f2c9594ad0cd33a052d684765d0b08443e00a1499e5db68c70491177b03495a3`
+- Created: `2026-10-19T18:08:37.879126065Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/googleapi-python3:1.0.0.13768061`
+  - `DOCKER_IMAGE=demisto/googleapi-python3:1.0.0.13919218`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3e7f9ef326753312cc75d337c587f8f7601e41bd`
-  - `org.opencontainers.image.version:1.0.0.13768061`
-  - `panw.builtby.pipeline:13768537`
+  - `org.opencontainers.image.revision:feb70d06402a78e263b32ba410b7e52c5290ef2d`
+  - `org.opencontainers.image.version:1.0.0.13919218`
+  - `panw.builtby.pipeline:13919905`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/googleapi-python3:1.0.0.13768061
+Signatures for demisto/googleapi-python3:1.0.0.13919218
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13768061   b2e9f0d5f87bcbcc9c722308008a97cec51c1c52363e203de6ce12f1ad7a8efe   (Repo Admin)
+1.0.0.13919218   5c86d3b051f1f2bbb95c843960cc56a00bee4b7b1a9c12e4983e8151fb6cd2ec   (Repo Admin)
 
-Administrative keys for demisto/googleapi-python3:1.0.0.13768061
+Administrative keys for demisto/googleapi-python3:1.0.0.13919218
 
   Repository Key:	b14f1cdad56bfcc44f0ba4af89b0ec4910e16f20c7c6ab86d496a5786dc49c4c
   Root Key:	8fe3e320ac3b88f7823a158cd05468872ae8ac2135e8ca4f9e70d707440f05d4
@@ -63,7 +63,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.13768061
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.18
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -177,7 +177,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.13768061
 ### `google-cloud-storage`
 
 * Summary: Google Cloud Storage API client library
-* Version: 3.17.0
+* Version: 3.17.1
 * Pypi: https://pypi.org/project/google-cloud-storage/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-storage
 * Author: Google LLC googleapis-packages@google.com

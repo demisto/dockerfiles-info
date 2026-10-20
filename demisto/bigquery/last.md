@@ -1,9 +1,9 @@
-# `demisto/bigquery:1.0.0.13548907`
+# `demisto/bigquery:1.0.0.13919218`
 
 ## Docker Metadata
-- Image Size: 88.37 MB
-- Image ID: `sha256:df58183ababf4f0e29502af9688c0f4463e4fcc6f5b208958ee01bdb39da6326`
-- Created: `2026-10-05T18:00:05.176171032Z`
+- Image Size: 88.54 MB
+- Image ID: `sha256:d2a491a5f10cbda2b9737fa556f62dac72feb457fb809885788e19a7404222b7`
+- Created: `2026-10-19T18:08:56.734383309Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/bigquery:1.0.0.13548907`
+  - `DOCKER_IMAGE=demisto/bigquery:1.0.0.13919218`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:10d70f2de0645ef6366ecbdd8d0853178688711a`
-  - `org.opencontainers.image.version:1.0.0.13548907`
-  - `panw.builtby.pipeline:13549495`
+  - `org.opencontainers.image.revision:feb70d06402a78e263b32ba410b7e52c5290ef2d`
+  - `org.opencontainers.image.version:1.0.0.13919218`
+  - `panw.builtby.pipeline:13919903`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/bigquery:1.0.0.13548907
+Signatures for demisto/bigquery:1.0.0.13919218
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13548907   488407d494671310c169e1c4432ad6292b9945d4c76d3fe9a495cbe31966d932   (Repo Admin)
+1.0.0.13919218   56c4a5d83007a86a1126ce7ca438d6102bf6e982963c23c6ce8285c773000108   (Repo Admin)
 
-Administrative keys for demisto/bigquery:1.0.0.13548907
+Administrative keys for demisto/bigquery:1.0.0.13919218
 
   Repository Key:	50ce3296886516edcfde3c34148b7b31a0e70e68821c9e335e9851cee5284a2b
   Root Key:	e5ef65a9e7371056cf85e6b0a6be6717871b78e3fb0e40e863e477f2253acfac
@@ -63,7 +63,7 @@ Administrative keys for demisto/bigquery:1.0.0.13548907
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.18
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -132,7 +132,7 @@ Administrative keys for demisto/bigquery:1.0.0.13548907
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.40.0
+* Version: 2.42.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -141,7 +141,7 @@ Administrative keys for demisto/bigquery:1.0.0.13548907
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.59.1
+* Version: 2.62.0
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -150,7 +150,7 @@ Administrative keys for demisto/bigquery:1.0.0.13548907
 ### `google-cloud-bigquery`
 
 * Summary: Google BigQuery API client library
-* Version: 3.46.1
+* Version: 3.46.2
 * Pypi: https://pypi.org/project/google-cloud-bigquery/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -280,7 +280,7 @@ Administrative keys for demisto/bigquery:1.0.0.13548907
 ### `opentelemetry-api`
 
 * Summary: OpenTelemetry Python API
-* Version: 1.45.0
+* Version: 1.45.1
 * Pypi: https://pypi.org/project/opentelemetry-api/
 * Homepage: None
 * Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
@@ -341,7 +341,7 @@ Administrative keys for demisto/bigquery:1.0.0.13548907
 ### `pycparser`
 
 * Summary: C parser in Python
-* Version: 3.0
+* Version: 3.11
 * Pypi: https://pypi.org/project/pycparser/
 * Homepage: None
 * Author: Eli Bendersky <eliben@gmail.com>

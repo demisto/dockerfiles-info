@@ -1,9 +1,9 @@
-# `demisto/demisto-sdk:1.39.10.13712671`
+# `demisto/demisto-sdk:1.39.12.13919218`
 
 ## Docker Metadata
-- Image Size: 674.96 MB
-- Image ID: `sha256:f5b9206f620a7d794eba6a19131cf289123240a6a1d19afc85fd9a4330a344de`
-- Created: `2026-10-12T00:15:49.960269948Z`
+- Image Size: 675.07 MB
+- Image ID: `sha256:b1faf678d5e8e2bd4477a59cdd6fa988408cc7213d3e46dfb2461d4f3c7430f3`
+- Created: `2026-10-19T18:11:00.852912145Z`
 - Arch: `linux`/`amd64`
 - Command: `["demisto-sdk","--help"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/demisto-sdk:1.39.10.13712671`
+  - `DOCKER_IMAGE=demisto/demisto-sdk:1.39.12.13919218`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:301fca2985b42da6ea52a4aca8b76aaaa23d4a27`
-  - `org.opencontainers.image.version:1.39.10.13712671`
-  - `panw.builtby.pipeline:13713074`
+  - `org.opencontainers.image.revision:feb70d06402a78e263b32ba410b7e52c5290ef2d`
+  - `org.opencontainers.image.version:1.39.12.13919218`
+  - `panw.builtby.pipeline:13919908`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/demisto-sdk:1.39.10.13712671
+Signatures for demisto/demisto-sdk:1.39.12.13919218
 
 SIGNED TAG         DIGEST                                                             SIGNERS
-1.39.10.13712671   c751b2ce283e7afa26a776035e17bd91b80ada4800d92c1c4d7ea7f5aeda7711   (Repo Admin)
+1.39.12.13919218   79cea4fc4fb9f6958adf7c5e5e4dfd445700e6b5d0d4b2078fc5c5c730a9f69f   (Repo Admin)
 
-Administrative keys for demisto/demisto-sdk:1.39.10.13712671
+Administrative keys for demisto/demisto-sdk:1.39.12.13919218
 
   Repository Key:	62e2b8856f5e4331ebea7d3b1395ed9aac5729f1333c0c720e3a410932dfbea6
   Root Key:	ea99312756356d5a2b823d5a1598cca5cc9163236379e44d53a04e978a177180
@@ -257,7 +257,7 @@ Administrative keys for demisto/demisto-sdk:1.39.10.13712671
 ### `demisto-sdk`
 
 * Summary: "A Python library for the Demisto SDK"
-* Version: 1.39.10
+* Version: 1.39.12
 * Pypi: https://pypi.org/project/demisto-sdk/
 * Homepage: None
 * Author: Demisto
@@ -843,7 +843,7 @@ Administrative keys for demisto/demisto-sdk:1.39.10.13712671
 * Version: 1.6.0
 * Pypi: https://pypi.org/project/pluggy/
 * Homepage: None
-* Author: Holger Krekel <holger@merlinux.eu>
+* Author: Holger Krekel
 * License :: OSI Approved :: MIT License
 
 ### `pre-commit`
@@ -1267,7 +1267,7 @@ Administrative keys for demisto/demisto-sdk:1.39.10.13712671
 * Pypi: https://pypi.org/project/tomlkit/
 * Homepage: None
 * Author: Sébastien Eustace sebastien@eustace.io
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `tqdm`
 
@@ -1405,7 +1405,7 @@ Administrative keys for demisto/demisto-sdk:1.39.10.13712671
 * cpp-14	14.2.0-19
 * cpp-14-x86-64-linux-gnu	14.2.0-19
 * cpp-x86-64-linux-gnu	4:14.2.0-1
-* curl	8.14.1-2+deb13u5
+* curl	8.14.1-2+deb13u7
 * dash	0.5.12-12
 * debconf	1.5.91
 * debian-archive-keyring	2025.1
@@ -1486,17 +1486,17 @@ Administrative keys for demisto/demisto-sdk:1.39.10.13712671
 * libcrypt1:amd64	1:4.4.38-1
 * libctf-nobfd0:amd64	2.44-3
 * libctf0:amd64	2.44-3
-* libcurl3t64-gnutls:amd64	8.14.1-2+deb13u5
-* libcurl4-openssl-dev:amd64	8.14.1-2+deb13u5
-* libcurl4t64:amd64	8.14.1-2+deb13u5
+* libcurl3t64-gnutls:amd64	8.14.1-2+deb13u7
+* libcurl4-openssl-dev:amd64	8.14.1-2+deb13u7
+* libcurl4t64:amd64	8.14.1-2+deb13u7
 * libdb5.3t64:amd64	5.3.28+dfsg2-9
 * libdebconfclient0:amd64	0.280
 * libdpkg-perl	1.22.22
 * libedit2:amd64	3.1-20250104-1
 * liberror-perl	0.17030-1
 * libevent-2.1-7t64:amd64	2.1.13-stable-1~deb13u1
-* libexpat1-dev:amd64	2.8.3-1~deb13u1
-* libexpat1:amd64	2.8.3-1~deb13u1
+* libexpat1-dev:amd64	2.9.0-1~deb13u1
+* libexpat1:amd64	2.9.0-1~deb13u1
 * libfakeroot:amd64	1.37.1.1-1
 * libffi-dev:amd64	3.4.8-2
 * libffi8:amd64	3.4.8-2
@@ -1668,7 +1668,7 @@ Administrative keys for demisto/demisto-sdk:1.39.10.13712671
 * libz3-dev:amd64	4.13.3-1
 * libzstd-dev:amd64	1.5.7+dfsg-1
 * libzstd1:amd64	1.5.7+dfsg-1
-* linux-libc-dev	6.12.111-1
+* linux-libc-dev	6.12.113-1
 * llvm	1:19.0-63
 * llvm-19	1:19.1.7-3+b1
 * llvm-19-dev	1:19.1.7-3+b1
@@ -1689,7 +1689,7 @@ Administrative keys for demisto/demisto-sdk:1.39.10.13712671
 * ncurses-bin	6.5+20250216-2
 * netbase	6.5
 * nettle-dev:amd64	3.10.1-1
-* nodejs	24.21.0-1nodesource1
+* nodejs	24.22.0-1nodesource1
 * openssh-client	1:10.0p1-7+deb13u4
 * openssl	3.5.7-1~deb13u3
 * openssl-provider-legacy	3.5.7-1~deb13u3

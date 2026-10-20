@@ -1,9 +1,9 @@
-# `demisto/python3-deb:3.12.14.13495286`
+# `demisto/python3-deb:3.12.14.13919218`
 
 ## Docker Metadata
-- Image Size: 60.40 MB
-- Image ID: `sha256:671d9c9b657e46a249a7abf76f44bd4baf7f95fc303162076c4cba6411ea9729`
-- Created: `2026-10-04T05:44:03.309956261Z`
+- Image Size: 60.51 MB
+- Image ID: `sha256:029b70c5a2ef484d55c1e46617200d42c631c141904bb4eb4c945ed70ef22cfa`
+- Created: `2026-10-19T18:09:03.142530912Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/python3-deb:3.12.14.13495286`
+  - `DOCKER_IMAGE=demisto/python3-deb:3.12.14.13919218`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:9f48d5be4434f261431ae9627dc6587c0302003d`
-  - `org.opencontainers.image.version:3.12.14.13495286`
-  - `panw.builtby.pipeline:13495448`
+  - `org.opencontainers.image.revision:feb70d06402a78e263b32ba410b7e52c5290ef2d`
+  - `org.opencontainers.image.version:3.12.14.13919218`
+  - `panw.builtby.pipeline:13919906`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3-deb:3.12.14.13495286
+Signatures for demisto/python3-deb:3.12.14.13919218
 
 SIGNED TAG         DIGEST                                                             SIGNERS
-3.12.14.13495286   760aa9339541ef9f794230ea59d31c7017893f6a6bf7b591ab89bdebede76564   (Repo Admin)
+3.12.14.13919218   d2e5ea079323f13a1f30ac2869e0e1ae1f41d5e682ca108cba41e48c0e7d1de7   (Repo Admin)
 
-Administrative keys for demisto/python3-deb:3.12.14.13495286
+Administrative keys for demisto/python3-deb:3.12.14.13919218
 
   Repository Key:	02e9781b8a12b1475cfa9e28c569a3337f9d9e664134162d21f48e09aa975ab6
   Root Key:	c368f2dcb34a0aaabd33ee9559bd094b84c7f57f4742bde05f5a21486a524ce9
@@ -151,7 +151,7 @@ Administrative keys for demisto/python3-deb:3.12.14.13495286
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -355,7 +355,7 @@ Administrative keys for demisto/python3-deb:3.12.14.13495286
 * libhogweed6t64:amd64	3.10.1-1
 * liblastlog2-2:amd64	2.41.5-0+deb13u1
 * liblz4-1:amd64	1.10.0-4
-* liblzma5:amd64	5.8.1-1+deb13u1
+* liblzma5:amd64	5.8.1-1+deb13u2
 * libmd0:amd64	1.1.0-2+b1
 * libmount1:amd64	2.41.5-0+deb13u1
 * libncursesw6:amd64	6.5+20250216-2

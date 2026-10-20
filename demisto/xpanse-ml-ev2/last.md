@@ -1,9 +1,9 @@
-# `demisto/xpanse-ml-ev2:1.0.0.13804971`
+# `demisto/xpanse-ml-ev2:1.0.0.13919218`
 
 ## Docker Metadata
-- Image Size: 203.24 MB
-- Image ID: `sha256:ac67554a47487d56e196b8d2757ce03289285d6f25289f68463f29fd13fa4bfc`
-- Created: `2026-10-14T23:49:06.089714979Z`
+- Image Size: 203.40 MB
+- Image ID: `sha256:01ec82033b8730d5302c948117477c468aaa11063adf32c4cb4344fe60ba6e95`
+- Created: `2026-10-19T18:09:43.253345058Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.13804971`
+  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.13919218`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:c149eca84669dac26b3da087a1148e698648fd87`
-  - `org.opencontainers.image.version:1.0.0.13804971`
-  - `panw.builtby.pipeline:13805391`
+  - `org.opencontainers.image.revision:feb70d06402a78e263b32ba410b7e52c5290ef2d`
+  - `org.opencontainers.image.version:1.0.0.13919218`
+  - `panw.builtby.pipeline:13919912`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/xpanse-ml-ev2:1.0.0.13804971
+Signatures for demisto/xpanse-ml-ev2:1.0.0.13919218
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13804971   abe88f3450cda9b62fbee2461c0987cd58a126298dec84a9350a13e5458f7916   (Repo Admin)
+1.0.0.13919218   bb4dc08880b360dac855de0b2365dd4f722ee2db6a60229845476611d8c7922a   (Repo Admin)
 
-Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13804971
+Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
 
   Repository Key:	fa55b8182edbcafca39872dc58748778b2ff80634214e1872a9351313e618c45
   Root Key:	4324e3baaaa90dedc0be93f30c2271fb7bbaa8de8949e6c3996a45c6e81637d2
@@ -63,7 +63,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13804971
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.18
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -177,7 +177,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13804971
 ### `google-cloud-storage`
 
 * Summary: Google Cloud Storage API client library
-* Version: 3.17.0
+* Version: 3.17.1
 * Pypi: https://pypi.org/project/google-cloud-storage/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-storage
 * Author: Google LLC googleapis-packages@google.com

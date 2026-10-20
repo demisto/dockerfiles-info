@@ -1,9 +1,9 @@
-# `demisto/google-cloud-storage:1.0.0.13712671`
+# `demisto/google-cloud-storage:1.0.0.13919218`
 
 ## Docker Metadata
-- Image Size: 56.06 MB
-- Image ID: `sha256:2c7e32eea5cdf78ac26ae8f69b4ac10ee744ad63440acab886ac220d05ab6be7`
-- Created: `2026-10-12T00:13:54.090134079Z`
+- Image Size: 56.21 MB
+- Image ID: `sha256:4674234e3ac00f58c2b2febce77a45c334aefd133cdab2592c7712de5a337671`
+- Created: `2026-10-19T18:09:14.358475839Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/google-cloud-storage:1.0.0.13712671`
+  - `DOCKER_IMAGE=demisto/google-cloud-storage:1.0.0.13919218`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:301fca2985b42da6ea52a4aca8b76aaaa23d4a27`
-  - `org.opencontainers.image.version:1.0.0.13712671`
-  - `panw.builtby.pipeline:13713075`
+  - `org.opencontainers.image.revision:feb70d06402a78e263b32ba410b7e52c5290ef2d`
+  - `org.opencontainers.image.version:1.0.0.13919218`
+  - `panw.builtby.pipeline:13919901`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-cloud-storage:1.0.0.13712671
+Signatures for demisto/google-cloud-storage:1.0.0.13919218
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13712671   81e177abc636796360d6901727112ba8df2e40cfa4b0c7efdc8ed74dd6d81c2c   (Repo Admin)
+1.0.0.13919218   6b6d6f20f0c7e21b42535d28ec06388f77dd319c023bc518c36a11dc82cb2c7b   (Repo Admin)
 
-Administrative keys for demisto/google-cloud-storage:1.0.0.13712671
+Administrative keys for demisto/google-cloud-storage:1.0.0.13919218
 
   Repository Key:	2ab3d4f7a65f14d64dba54c7aded1079c285fff5ad812fc19854d63a0c782c18
   Root Key:	3c2392b332f73092db366898dd6e161ffbf0aff1d5cfedf61a69e056c49a538e
@@ -59,7 +59,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.13712671
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.18
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -146,7 +146,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.13712671
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.61.0
+* Version: 2.62.0
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -164,7 +164,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.13712671
 ### `google-cloud-pubsub`
 
 * Summary: Google Cloud Pub/Sub API client library
-* Version: 2.42.0
+* Version: 2.43.0
 * Pypi: https://pypi.org/project/google-cloud-pubsub/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-pubsub
 * Author: Google LLC googleapis-packages@google.com

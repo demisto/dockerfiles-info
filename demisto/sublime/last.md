@@ -1,9 +1,9 @@
-# `demisto/sublime:1.0.0.13617615`
+# `demisto/sublime:1.0.0.13919218`
 
 ## Docker Metadata
-- Image Size: 44.91 MB
-- Image ID: `sha256:c8b938fb4fa336b49362da822cb20d469294f4f9ae66c532c191ee9a0756dd6b`
-- Created: `2026-10-07T17:41:07.524065764Z`
+- Image Size: 45.08 MB
+- Image ID: `sha256:5c27bf5c2b5a4de1b1595371ecdd4893e4d0f0d890ad4a494ac285d98958fc58`
+- Created: `2026-10-19T18:09:09.438604662Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/sublime:1.0.0.13617615`
+  - `DOCKER_IMAGE=demisto/sublime:1.0.0.13919218`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:cca364ba9dde46bb7d75a95c9f9bddb1f0cfafbe`
-  - `org.opencontainers.image.version:1.0.0.13617615`
-  - `panw.builtby.pipeline:13617848`
+  - `org.opencontainers.image.revision:feb70d06402a78e263b32ba410b7e52c5290ef2d`
+  - `org.opencontainers.image.version:1.0.0.13919218`
+  - `panw.builtby.pipeline:13919907`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sublime:1.0.0.13617615
+Signatures for demisto/sublime:1.0.0.13919218
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13617615   660bcae8080224c113d6a5c782ab0b253367311c8d1a71afbf882a7e417836c4   (Repo Admin)
+1.0.0.13919218   ae95413753c182ee9bdc617b33c227b2513816706f83cec01372c221fee6226e   (Repo Admin)
 
-Administrative keys for demisto/sublime:1.0.0.13617615
+Administrative keys for demisto/sublime:1.0.0.13919218
 
   Repository Key:	075a49d7dff397e372a207ab887e729d746ab13303e9e58fc7276a405301972b
   Root Key:	253ae621fcd29505a7a8eac2abe32e59b3cc213083c9e41636257d07927bca74
@@ -269,7 +269,7 @@ Administrative keys for demisto/sublime:1.0.0.13617615
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>

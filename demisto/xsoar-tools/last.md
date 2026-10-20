@@ -1,9 +1,9 @@
-# `demisto/xsoar-tools:1.0.0.13766451`
+# `demisto/xsoar-tools:1.0.0.13919218`
 
 ## Docker Metadata
-- Image Size: 147.15 MB
-- Image ID: `sha256:a7e565df93158af912d794ec296437391835de981ec3c0f5c84bff27e7f1ca1d`
-- Created: `2026-10-13T16:31:35.670434871Z`
+- Image Size: 147.14 MB
+- Image ID: `sha256:02c7e5157b27eb93a58c3e350e652031c2f8c059d7304c576e3fa5a970a0a215`
+- Created: `2026-10-19T18:09:00.179267123Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,15 +12,15 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/xsoar-tools:1.0.0.13766451`
+  - `DOCKER_IMAGE=demisto/xsoar-tools:1.0.0.13919218`
   - `DEMISTO_SDK_IGNORE_CONTENT_WARNING=true`
   - `DEMISTO_SDK_SKIP_LOGGER_SETUP=true`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:75c6fcefa82484a04572d8e97d895937a987743b`
-  - `org.opencontainers.image.version:1.0.0.13766451`
-  - `panw.builtby.pipeline:13766932`
+  - `org.opencontainers.image.revision:feb70d06402a78e263b32ba410b7e52c5290ef2d`
+  - `org.opencontainers.image.version:1.0.0.13919218`
+  - `panw.builtby.pipeline:13919910`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -35,12 +35,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/xsoar-tools:1.0.0.13766451
+Signatures for demisto/xsoar-tools:1.0.0.13919218
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13766451   47c17903ab2a4e91df76111eb830736068971581eee08f1fa8422a53ffc9e643   (Repo Admin)
+1.0.0.13919218   ccb354bc374be0e1b825b7880ee7bd3bac53d94d67b3ae6ad1b7c9e530b1b780   (Repo Admin)
 
-Administrative keys for demisto/xsoar-tools:1.0.0.13766451
+Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 
   Repository Key:	cf22d1c7d99eaa36ee3a4c4e143589874b21f83068fff42ce971ffaa44c737b6
   Root Key:	83b859e2320bd9a76afcab59964970ff8ba4b4719fa697c8c032e27151f016e6
@@ -364,7 +364,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13766451
 ### `GitPython`
 
 * Summary: GitPython is a Python library used to interact with Git repositories
-* Version: 3.2.0
+* Version: 3.2.1
 * Pypi: https://pypi.org/project/GitPython/
 * Homepage: None
 * Author: Sebastian Thiel <byronimo@gmail.com>, Michael Trier <mtrier@gmail.com>
@@ -855,7 +855,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13766451
 * Version: 1.6.0
 * Pypi: https://pypi.org/project/pluggy/
 * Homepage: None
-* Author: Holger Krekel <holger@merlinux.eu>
+* Author: Holger Krekel
 * License :: OSI Approved :: MIT License
 
 ### `pre-commit`
@@ -1289,7 +1289,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13766451
 * Pypi: https://pypi.org/project/tomlkit/
 * Homepage: None
 * Author: Sébastien Eustace sebastien@eustace.io
-* License :: OSI Approved :: MIT License
+* License: MIT
 
 ### `tqdm`
 
@@ -1431,7 +1431,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13766451
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.9-r0 x86_64 {openssl}
 * libcurl-8.22.0-r0 x86_64 {curl}
-* libexpat-2.8.5-r0 x86_64 {expat}
+* libexpat-2.9.0-r0 x86_64 {expat}
 * libffi-3.5.2-r1 x86_64 {libffi}
 * libgcc-15.2.0-r5 x86_64 {gcc}
 * libidn2-2.3.8-r0 x86_64 {libidn2}
