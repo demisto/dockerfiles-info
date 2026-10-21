@@ -1,9 +1,9 @@
-# `demisto/pwsh-exchangev3:1.0.0.13514731`
+# `demisto/pwsh-exchangev3:1.0.0.13928755`
 
 ## Docker Metadata
-- Image Size: 197.22 MB
-- Image ID: `sha256:2b3986ef05c973705981a8d2d3d06d56e3fea31883cdabee84003f897a5149db`
-- Created: `2026-10-04T14:54:40.450487385Z`
+- Image Size: 197.32 MB
+- Image ID: `sha256:df2a613736bf8d97e69c2fe266353279b0b30f293f200bfd232d4b3673d07219`
+- Created: `2026-10-20T05:42:47.815355784Z`
 - Arch: `linux`/`amd64`
 - Command: `["pwsh-preview"]`
 - Environment:
@@ -14,7 +14,7 @@
   - `PS_INSTALL_FOLDER=/opt/microsoft/powershell/7`
   - `PSModuleAnalysisCachePath=/var/cache/microsoft/powershell/PSModuleAnalysisCache/ModuleAnalysisCache`
   - `POWERSHELL_DISTRIBUTION_CHANNEL=PSDocker-Ubuntu-22.04`
-  - `DOCKER_IMAGE=demisto/pwsh-exchangev3:1.0.0.13514731`
+  - `DOCKER_IMAGE=demisto/pwsh-exchangev3:1.0.0.13928755`
 - Labels:
   - `com.visualstudio.mscodehub.image.build.buildnumber:PSDocker-Build-561111-version_v7.5.0_channel_stable_01`
   - `com.visualstudio.mscodehub.image.build.builduri:vstfs:///Build/Build/561111`
@@ -28,9 +28,9 @@
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
   - `org.opencontainers.image.ref.name:ubuntu`
-  - `org.opencontainers.image.revision:170f4a83cd381efea4a71dff4385f9d9994fef2f`
-  - `org.opencontainers.image.version:1.0.0.13514731`
-  - `panw.builtby.pipeline:13515655`
+  - `org.opencontainers.image.revision:b4f8c0d3257c8642e5aa6d083e755085a27853fd`
+  - `org.opencontainers.image.version:1.0.0.13928755`
+  - `panw.builtby.pipeline:13928883`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -51,12 +51,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pwsh-exchangev3:1.0.0.13514731
+Signatures for demisto/pwsh-exchangev3:1.0.0.13928755
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13514731   d8d910d473ad6af696748321b316498356a47f05728664c2f4c2e841dc554b3b   (Repo Admin)
+1.0.0.13928755   d920115ec4b853dcde06dd9b9b67fc27afddf70d4d172d0cc32a09030ac037df   (Repo Admin)
 
-Administrative keys for demisto/pwsh-exchangev3:1.0.0.13514731
+Administrative keys for demisto/pwsh-exchangev3:1.0.0.13928755
 
   Repository Key:	a593c10c7db28aed29aca3d4487a18c7b78d026f264f504ac568b6e0fae40ada
   Root Key:	ada3b24d3d717d36882cbd9c2900c5990740ce128bf34fbf0be3fe098d6daeab
@@ -155,14 +155,14 @@ Administrative keys for demisto/pwsh-exchangev3:1.0.0.13514731
 * libss2:amd64	1.46.5-2ubuntu1.2
 * libssl3:amd64	3.0.2-0ubuntu1.30
 * libstdc++6:amd64	12.3.0-1ubuntu1~22.04.3
-* libsystemd0:amd64	249.11-0ubuntu3.22
+* libsystemd0:amd64	249.11-0ubuntu3.23
 * libtalloc2:amd64	2.3.3-2build1
 * libtasn1-6:amd64	4.18.0-4ubuntu0.2
 * libtevent0:amd64	0.11.0-1build1
 * libtinfo6:amd64	6.3-2ubuntu0.3
 * libtirpc3:amd64	1.3.2-2ubuntu0.1
 * libtirpc-common	1.3.2-2ubuntu0.1
-* libudev1:amd64	249.11-0ubuntu3.22
+* libudev1:amd64	249.11-0ubuntu3.23
 * libunistring2:amd64	1.0-1
 * libuuid1:amd64	2.37.2-4ubuntu3.6
 * libwbclient0:amd64	2:4.15.13+dfsg-0ubuntu1.13
@@ -177,7 +177,7 @@ Administrative keys for demisto/pwsh-exchangev3:1.0.0.13514731
 * ncurses-base	6.3-2ubuntu0.3
 * ncurses-bin	6.3-2ubuntu0.3
 * netbase	6.3
-* openssh-client	1:8.9p1-3ubuntu0.17
+* openssh-client	1:8.9p1-3ubuntu0.18
 * openssl	3.0.2-0ubuntu1.30
 * passwd	1:4.8.1-2ubuntu2.2
 * perl-base	5.34.0-3ubuntu1.9
@@ -188,7 +188,7 @@ Administrative keys for demisto/pwsh-exchangev3:1.0.0.13514731
 * sensible-utils	0.0.17
 * sysvinit-utils	3.01-1ubuntu1
 * tar	1.34+dfsg-1ubuntu0.1.22.04.6
-* tzdata	2026c-0ubuntu0.22.04.1
+* tzdata	2026e-0ubuntu0.22.04.1
 * ubuntu-keyring	2021.03.26
 * usrmerge	25ubuntu2
 * util-linux	2.37.2-4ubuntu3.6

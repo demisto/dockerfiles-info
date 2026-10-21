@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.13919218`
+# `demisto/google-vision-api:1.0.0.13957249`
 
 ## Docker Metadata
-- Image Size: 140.39 MB
-- Image ID: `sha256:97a1b29c4c63ddd059729bca8cda2f453698c5c08395ae44321deeb189694a7f`
-- Created: `2026-10-19T18:09:39.895537744Z`
+- Image Size: 140.38 MB
+- Image ID: `sha256:de018cbe04f9660d912cb5b3982da0a96992e4b2001a569ab4e8438c1b797606`
+- Created: `2026-10-20T17:42:23.751486966Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.13919218`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.13957249`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:feb70d06402a78e263b32ba410b7e52c5290ef2d`
-  - `org.opencontainers.image.version:1.0.0.13919218`
-  - `panw.builtby.pipeline:13919900`
+  - `org.opencontainers.image.revision:065c1d9c681fcef3dfd4c33274e60cad431a9ec8`
+  - `org.opencontainers.image.version:1.0.0.13957249`
+  - `panw.builtby.pipeline:13957541`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-vision-api:1.0.0.13919218
+Signatures for demisto/google-vision-api:1.0.0.13957249
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13919218   2668a7fd892eaaf60467b63471dd81480f353128e79cbe99748fd46077ad6530   (Repo Admin)
+1.0.0.13957249   c404ab259858efdbf92301ee309262760dcfe5ecae8d9336ffaeeed06381cf9f   (Repo Admin)
 
-Administrative keys for demisto/google-vision-api:1.0.0.13919218
+Administrative keys for demisto/google-vision-api:1.0.0.13957249
 
   Repository Key:	8f699c169d21da1343c2ea4f465fe5f19ace3822c0fd85c2d1a054379abf30dd
   Root Key:	23130201a9ea6e060cceb9cf5a1998649873c190c980fe0d6c487df1fadbc6ef
@@ -72,7 +72,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.13919218
 ### `cachetools`
 
 * Summary: Extensible memoizing collections and decorators
-* Version: 7.2.2
+* Version: 7.2.3
 * Pypi: https://pypi.org/project/cachetools/
 * Homepage: None
 * Author: Thomas Kemmer <tkemmer@computer.org>
@@ -428,7 +428,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.13919218
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>

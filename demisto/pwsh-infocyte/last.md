@@ -1,9 +1,9 @@
-# `demisto/pwsh-infocyte:1.1.0.11334222`
+# `demisto/pwsh-infocyte:1.1.0.13928755`
 
 ## Docker Metadata
-- Image Size: 98.61 MB
-- Image ID: `sha256:17533419d2427210840da21c872174658170736a40551c36089674965753b601`
-- Created: `2026-07-26T14:45:48.685521578Z`
+- Image Size: 102.78 MB
+- Image ID: `sha256:bf745b33523d2121fc98e17e4719bf13ae728374a2a5a260b267e87ac589cbdc`
+- Created: `2026-10-20T05:42:06.695042083Z`
 - Arch: `linux`/`amd64`
 - Command: `["pwsh"]`
 - Environment:
@@ -14,7 +14,7 @@
   - `LANG=en_US.UTF-8`
   - `PSModuleAnalysisCachePath=/var/cache/microsoft/powershell/PSModuleAnalysisCache/ModuleAnalysisCache`
   - `POWERSHELL_DISTRIBUTION_CHANNEL=PSDocker-Alpine-3.20`
-  - `DOCKER_IMAGE=demisto/pwsh-infocyte:1.1.0.11334222`
+  - `DOCKER_IMAGE=demisto/pwsh-infocyte:1.1.0.13928755`
 - Labels:
   - `com.visualstudio.mscodehub.image.build.buildnumber:PSDocker-Build-561111-version_v7.5.0_channel_stable_01`
   - `com.visualstudio.mscodehub.image.build.builduri:vstfs:///Build/Build/561111`
@@ -25,9 +25,13 @@
   - `com.visualstudio.mscodehub.image.build.sourceversion:e3f885c3eb5033f54ed2ebdf4218fddf51e27192`
   - `com.visualstudio.mscodehub.image.system.teamfoundationcollectionuri:https://mscodehub.visualstudio.com/`
   - `com.visualstudio.mscodehub.image.system.teamproject:PowerShellCore`
+  - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:81b306f9f8091b0464b56e93ad75f379b4f4b55c`
-  - `org.opencontainers.image.version:1.1.0.11334222`
+  - `org.opencontainers.image.revision:b4f8c0d3257c8642e5aa6d083e755085a27853fd`
+  - `org.opencontainers.image.version:1.1.0.13928755`
+  - `panw.builtby.pipeline:13928882`
+  - `panw.builtby.project:xdr/cortex-content/dockerfiles`
+  - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
@@ -40,12 +44,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/pwsh-infocyte:1.1.0.11334222
+Signatures for demisto/pwsh-infocyte:1.1.0.13928755
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.1.0.11334222   193bf328e08d0d3a40827e89bea3fda50b4485c4c1e6245cf04d72f785d1bc92   (Repo Admin)
+1.1.0.13928755   d6fe4e71bd31053863b8d9663418a7c66addd3414b57a5e4f0d8ec61b1118180   (Repo Admin)
 
-Administrative keys for demisto/pwsh-infocyte:1.1.0.11334222
+Administrative keys for demisto/pwsh-infocyte:1.1.0.13928755
 
   Repository Key:	c01ca20df8e20c3307aae9bc588ccc0365064e9d2e2cea0479016eee5f46c274
   Root Key:	3d193ad829fc71df2950ab77fa48ae09cca5a2a45bd82e66c2a1fd3cb8e4dd7a
@@ -83,9 +87,9 @@ Administrative keys for demisto/pwsh-infocyte:1.1.0.11334222
 * musl-1.2.5-r3 x86_64 {musl}
 * musl-utils-1.2.5-r3 x86_64 {musl}
 * ncurses-terminfo-base-6.4_p20240420-r2 x86_64 {ncurses}
-* openssh-client-common-10.4_p1-r0 x86_64 {openssh}
-* openssh-client-default-10.4_p1-r0 x86_64 {openssh}
-* openssh-keygen-10.4_p1-r0 x86_64 {openssh}
+* openssh-client-common-10.6_p1-r1 x86_64 {openssh}
+* openssh-client-default-10.6_p1-r1 x86_64 {openssh}
+* openssh-keygen-10.6_p1-r1 x86_64 {openssh}
 * scanelf-1.3.7-r2 x86_64 {pax-utils}
 * ssl_client-1.36.1-r31 x86_64 {busybox}
 * tzdata-2026b-r0 x86_64 {tzdata}
