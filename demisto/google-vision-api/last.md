@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.13957249`
+# `demisto/google-vision-api:1.0.0.14017329`
 
 ## Docker Metadata
-- Image Size: 140.38 MB
-- Image ID: `sha256:de018cbe04f9660d912cb5b3982da0a96992e4b2001a569ab4e8438c1b797606`
-- Created: `2026-10-20T17:42:23.751486966Z`
+- Image Size: 140.56 MB
+- Image ID: `sha256:38a5e18fd216d97bf823c85c361582027ba65cc615a12af56a09d6164f1518f5`
+- Created: `2026-10-22T11:59:46.829831904Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.13957249`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.14017329`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:065c1d9c681fcef3dfd4c33274e60cad431a9ec8`
-  - `org.opencontainers.image.version:1.0.0.13957249`
-  - `panw.builtby.pipeline:13957541`
+  - `org.opencontainers.image.revision:6458c15039d99288f530c5d592810f16ad416e25`
+  - `org.opencontainers.image.version:1.0.0.14017329`
+  - `panw.builtby.pipeline:14019084`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-vision-api:1.0.0.13957249
+Signatures for demisto/google-vision-api:1.0.0.14017329
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13957249   c404ab259858efdbf92301ee309262760dcfe5ecae8d9336ffaeeed06381cf9f   (Repo Admin)
+1.0.0.14017329   9c8ae007f22ed9d9f58bd802092b4c596ef78f40a65553ffcb53a9f94507e6ba   (Repo Admin)
 
-Administrative keys for demisto/google-vision-api:1.0.0.13957249
+Administrative keys for demisto/google-vision-api:1.0.0.14017329
 
   Repository Key:	8f699c169d21da1343c2ea4f465fe5f19ace3822c0fd85c2d1a054379abf30dd
   Root Key:	23130201a9ea6e060cceb9cf5a1998649873c190c980fe0d6c487df1fadbc6ef
@@ -97,7 +97,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.13957249
 ### `chardet`
 
 * Summary: Universal character encoding detector
-* Version: 7.6.0
+* Version: 7.7.0
 * Pypi: https://pypi.org/project/chardet/
 * Homepage: None
 * Author: Dan Blanchard <dan.blanchard@gmail.com>

@@ -1,9 +1,9 @@
-# `demisto/commvault:1.0.0.13538236`
+# `demisto/commvault:1.0.0.14017329`
 
 ## Docker Metadata
-- Image Size: 46.55 MB
-- Image ID: `sha256:7c942479ac5840427decd3c2886a996eae7f16b0313ddc54a02c45812cd0dce6`
-- Created: `2026-10-05T12:13:50.427272104Z`
+- Image Size: 48.13 MB
+- Image ID: `sha256:9106d99abadbe1b410ca28f9d8cdbaddfe0212ead466a9223fe54d893030b6e2`
+- Created: `2026-10-22T11:59:45.739386297Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/commvault:1.0.0.13538236`
+  - `DOCKER_IMAGE=demisto/commvault:1.0.0.14017329`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:ec1a006ab6ee4606a306e02708c99e69b8bd3a02`
-  - `org.opencontainers.image.version:1.0.0.13538236`
-  - `panw.builtby.pipeline:13539931`
+  - `org.opencontainers.image.revision:6458c15039d99288f530c5d592810f16ad416e25`
+  - `org.opencontainers.image.version:1.0.0.14017329`
+  - `panw.builtby.pipeline:14019087`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/commvault:1.0.0.13538236
+Signatures for demisto/commvault:1.0.0.14017329
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13538236   e48daed9f942a5bf9441bfcdf3aa82870f5c39418180e2f71cf60679c4c98fd9   (Repo Admin)
+1.0.0.14017329   e8ec836b3b0326fbc179eae53c1194fa8e2fd7153c555c275218cd23a19998a1   (Repo Admin)
 
-Administrative keys for demisto/commvault:1.0.0.13538236
+Administrative keys for demisto/commvault:1.0.0.14017329
 
   Repository Key:	64321e4bf89f6f2f2c1f4b7d25030e7220c7309e9d60d0cb1dba7ce333c096da
   Root Key:	f3d406a543e986d36d553f83059154f0fc457f73f4391bb8af24bc3501bd86f2
@@ -128,7 +128,7 @@ Administrative keys for demisto/commvault:1.0.0.13538236
 ### `fastapi`
 
 * Summary: FastAPI framework, high performance, easy to learn, fast to code, ready for production
-* Version: 0.142.2
+* Version: 0.144.0
 * Pypi: https://pypi.org/project/fastapi/
 * Homepage: None
 * Author: Sebastián Ramírez <tiangolo@gmail.com>
@@ -232,7 +232,7 @@ Administrative keys for demisto/commvault:1.0.0.13538236
 ### `opentelemetry-api`
 
 * Summary: OpenTelemetry Python API
-* Version: 1.45.0
+* Version: 1.45.1
 * Pypi: https://pypi.org/project/opentelemetry-api/
 * Homepage: None
 * Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
@@ -248,7 +248,7 @@ Administrative keys for demisto/commvault:1.0.0.13538236
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -257,7 +257,7 @@ Administrative keys for demisto/commvault:1.0.0.13538236
 ### `pydantic`
 
 * Summary: Data validation using Python type hints
-* Version: 2.13.5
+* Version: 2.14.1
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.dev>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -265,7 +265,7 @@ Administrative keys for demisto/commvault:1.0.0.13538236
 ### `pydantic_core`
 
 * Summary: Core functionality for Pydantic validation and serialization
-* Version: 2.46.5
+* Version: 2.50.1
 * Pypi: https://pypi.org/project/pydantic_core/
 * Homepage: https://github.com/pydantic/pydantic
 * Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -362,7 +362,7 @@ Administrative keys for demisto/commvault:1.0.0.13538236
 ### `starlette`
 
 * Summary: The little ASGI library that shines.
-* Version: 1.7.0
+* Version: 1.9.0
 * Pypi: https://pypi.org/project/starlette/
 * Homepage: None
 * Author: Tom Christie <tom@tomchristie.com>
@@ -487,7 +487,7 @@ Administrative keys for demisto/commvault:1.0.0.13538236
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.42.3-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.6-r2 x86_64 {musl}
+* musl-1.2.6-r3 x86_64 {musl}
 * musl-utils-1.2.6-r2 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * readline-8.3.3-r1 x86_64 {readline}

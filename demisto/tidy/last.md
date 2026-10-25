@@ -1,9 +1,9 @@
-# `demisto/tidy:1.0.0.13766451`
+# `demisto/tidy:1.0.0.14017329`
 
 ## Docker Metadata
-- Image Size: 135.52 MB
-- Image ID: `sha256:7e8df6f40e728f647d6cdcee85cc636ecf6ffca550e695fa5b3b4d6877b189d0`
-- Created: `2026-10-13T16:31:55.355252275Z`
+- Image Size: 135.93 MB
+- Image ID: `sha256:b249e2fc533d5f63c51b49721b978383bf49c8964b1772f8b9dac91925e91368`
+- Created: `2026-10-22T12:00:15.130749923Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/tidy:1.0.0.13766451`
+  - `DOCKER_IMAGE=demisto/tidy:1.0.0.14017329`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:75c6fcefa82484a04572d8e97d895937a987743b`
-  - `org.opencontainers.image.version:1.0.0.13766451`
-  - `panw.builtby.pipeline:13766933`
+  - `org.opencontainers.image.revision:6458c15039d99288f530c5d592810f16ad416e25`
+  - `org.opencontainers.image.version:1.0.0.14017329`
+  - `panw.builtby.pipeline:14019085`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/tidy:1.0.0.13766451
+Signatures for demisto/tidy:1.0.0.14017329
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13766451   dc9a7c09593aca49a53f0827febea2f8feb4c25813b1ab21e273e2e3ae922011   (Repo Admin)
+1.0.0.14017329   ee44eeb676248e79345bb22c0b2719997467302034e90c69c6e3a84850c1425a   (Repo Admin)
 
-Administrative keys for demisto/tidy:1.0.0.13766451
+Administrative keys for demisto/tidy:1.0.0.14017329
 
   Repository Key:	5f17b9d56ce23d820632c3aab69771c41c29b4a5ff9dfe8cbea5e4ca7cc9857b
   Root Key:	35b6195205c264962e7a1726995d97d4c9f7d85c8a9c9909105016d7f930b79e
@@ -276,7 +276,7 @@ Administrative keys for demisto/tidy:1.0.0.13766451
 ### `paramiko`
 
 * Summary: SSH2 protocol library
-* Version: 5.0.0
+* Version: 5.1.0
 * Pypi: https://pypi.org/project/paramiko/
 * Homepage: None
 * Author: Jeff Forcier <jeff@bitprophet.org>
@@ -293,7 +293,7 @@ Administrative keys for demisto/tidy:1.0.0.13766451
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -579,7 +579,7 @@ Administrative keys for demisto/tidy:1.0.0.13766451
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.9-r0 x86_64 {openssl}
-* libedit-20260508.3.1-r1 x86_64 {libedit}
+* libedit-20260512.3.1-r0 x86_64 {libedit}
 * libffi-3.5.2-r1 x86_64 {libffi}
 * libintl-1.0-r0 x86_64 {gettext}
 * libncursesw-6.6_p20260516-r0 x86_64 {ncurses}
@@ -592,7 +592,7 @@ Administrative keys for demisto/tidy:1.0.0.13766451
 * libverto-0.3.2-r2 x86_64 {libverto}
 * libxxhash-0.8.3-r1 x86_64 {xxhash}
 * lz4-libs-1.10.0-r1 x86_64 {lz4}
-* musl-1.2.6-r5 x86_64 {musl}
+* musl-1.2.6-r6 x86_64 {musl}
 * musl-utils-1.2.6-r2 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * openssh-client-common-10.6_p1-r1 x86_64 {openssh}

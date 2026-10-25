@@ -1,9 +1,9 @@
-# `demisto/py3ews:5.6.0.13768061`
+# `demisto/py3ews:5.6.0.14017329`
 
 ## Docker Metadata
-- Image Size: 66.18 MB
-- Image ID: `sha256:1e37af907267d10de29101de4a8f979ee4b6f2f3bb38054986b19d4c3c7d03f1`
-- Created: `2026-10-13T17:58:19.519823737Z`
+- Image Size: 66.63 MB
+- Image ID: `sha256:07b86fc3370c82c30e8410e5400557692440e55cba2b453dc27b1f71f480a13f`
+- Created: `2026-10-22T11:59:09.491698156Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/py3ews:5.6.0.13768061`
+  - `DOCKER_IMAGE=demisto/py3ews:5.6.0.14017329`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3e7f9ef326753312cc75d337c587f8f7601e41bd`
-  - `org.opencontainers.image.version:5.6.0.13768061`
-  - `panw.builtby.pipeline:13768535`
+  - `org.opencontainers.image.revision:6458c15039d99288f530c5d592810f16ad416e25`
+  - `org.opencontainers.image.version:5.6.0.14017329`
+  - `panw.builtby.pipeline:14019088`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py3ews:5.6.0.13768061
+Signatures for demisto/py3ews:5.6.0.14017329
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-5.6.0.13768061   180893c844c99d3a820343c559e5a4498d9f83038fa4105db17ee4e7bba0528e   (Repo Admin)
+5.6.0.14017329   82663a155f81a7d4ae535c808804055a7033683857c41f9851d45621916afbd5   (Repo Admin)
 
-Administrative keys for demisto/py3ews:5.6.0.13768061
+Administrative keys for demisto/py3ews:5.6.0.14017329
 
   Repository Key:	49e0be19d4c430aaef147539b64259bbc85885e5bd03918079e6a66d693cb8be
   Root Key:	e2c459fee62c0ca5b39fcd6a3cd86c53a1506042ad92cc59aada6a00a0e1bbf4
@@ -103,7 +103,7 @@ Administrative keys for demisto/py3ews:5.6.0.13768061
 ### `chardet`
 
 * Summary: Universal character encoding detector
-* Version: 7.6.0
+* Version: 7.7.0
 * Pypi: https://pypi.org/project/chardet/
 * Homepage: None
 * Author: Dan Blanchard <dan.blanchard@gmail.com>
@@ -312,7 +312,7 @@ Administrative keys for demisto/py3ews:5.6.0.13768061
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -563,7 +563,7 @@ Administrative keys for demisto/py3ews:5.6.0.13768061
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.42.3-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.6-r2 x86_64 {musl}
+* musl-1.2.6-r3 x86_64 {musl}
 * musl-utils-1.2.6-r2 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * readline-8.3.3-r1 x86_64 {readline}

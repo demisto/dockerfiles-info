@@ -1,9 +1,9 @@
-# `demisto/py-ews:5.6.0.13768061`
+# `demisto/py-ews:5.6.0.14065282`
 
 ## Docker Metadata
-- Image Size: 134.08 MB
-- Image ID: `sha256:a67612cada921580a238dd2749fccd08148c4b0541aaec8352fc216af1acaaa9`
-- Created: `2026-10-13T17:58:03.937521619Z`
+- Image Size: 135.56 MB
+- Image ID: `sha256:3cea18cb0ab6d12a4c80f33663229e14c391f24ba3a320e56ede520c87c298bb`
+- Created: `2026-10-25T00:59:03.882684989Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.13768061`
+  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.14065282`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3e7f9ef326753312cc75d337c587f8f7601e41bd`
-  - `org.opencontainers.image.version:5.6.0.13768061`
-  - `panw.builtby.pipeline:13768539`
+  - `org.opencontainers.image.revision:89161f7371e8ddd6080fe56955e375a8cad46b0f`
+  - `org.opencontainers.image.version:5.6.0.14065282`
+  - `panw.builtby.pipeline:14065844`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py-ews:5.6.0.13768061
+Signatures for demisto/py-ews:5.6.0.14065282
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-5.6.0.13768061   a913c9a442eb845e636d279a67ba36ebf29ecd0781910241e8d9f18c82e5288c   (Repo Admin)
+5.6.0.14065282   db1716825cbc2ff3fe0d9addc2e6f5ebd7ad34462ecbb17a20313180a97b6bda   (Repo Admin)
 
-Administrative keys for demisto/py-ews:5.6.0.13768061
+Administrative keys for demisto/py-ews:5.6.0.14065282
 
   Repository Key:	c8b3a877659c96dd5e16db568d8f817a6eabb390ecfda3f567a6bc1929408237
   Root Key:	61b6aad19eee856a8c06a402a23627b05539b427be49b6335a4b309706ee1cdc
@@ -81,7 +81,7 @@ Administrative keys for demisto/py-ews:5.6.0.13768061
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.19
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -98,7 +98,7 @@ Administrative keys for demisto/py-ews:5.6.0.13768061
 ### `chardet`
 
 * Summary: Universal character encoding detector
-* Version: 7.6.0
+* Version: 7.7.0
 * Pypi: https://pypi.org/project/chardet/
 * Homepage: None
 * Author: Dan Blanchard <dan.blanchard@gmail.com>
@@ -149,7 +149,7 @@ Administrative keys for demisto/py-ews:5.6.0.13768061
 ### `distlib`
 
 * Summary: Distribution utilities
-* Version: 0.4.3
+* Version: 0.4.4
 * Pypi: https://pypi.org/project/distlib/
 * Homepage: https://github.com/pypa/distlib
 * Author: Vinay Sajip vinay_sajip@red-dove.com
@@ -334,7 +334,7 @@ Administrative keys for demisto/py-ews:5.6.0.13768061
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -343,7 +343,7 @@ Administrative keys for demisto/py-ews:5.6.0.13768061
 ### `platformdirs`
 
 * Summary: A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`.
-* Version: 4.13.0
+* Version: 4.13.5
 * Pypi: https://pypi.org/project/platformdirs/
 * Homepage: None
 * Author: None
@@ -404,7 +404,7 @@ Administrative keys for demisto/py-ews:5.6.0.13768061
 ### `python-discovery`
 
 * Summary: Python interpreter discovery
-* Version: 1.6.2
+* Version: 1.6.4
 * Pypi: https://pypi.org/project/python-discovery/
 * Homepage: None
 * Author: None
@@ -551,7 +551,7 @@ Administrative keys for demisto/py-ews:5.6.0.13768061
 ### `virtualenv`
 
 * Summary: Virtual Python Environment builder
-* Version: 21.14.7
+* Version: 21.14.13
 * Pypi: https://pypi.org/project/virtualenv/
 * Homepage: None
 * Author: None
@@ -573,7 +573,7 @@ Administrative keys for demisto/py-ews:5.6.0.13768061
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
-* ca-certificates	20250419
+* ca-certificates	20250419+deb13u1
 * coreutils	9.7-3
 * dash	0.5.12-12
 * debconf	1.5.91
@@ -664,6 +664,6 @@ Administrative keys for demisto/py-ews:5.6.0.13768061
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026c-0+deb13u1
+* tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1
