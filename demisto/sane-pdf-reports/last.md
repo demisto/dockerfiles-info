@@ -1,9 +1,9 @@
-# `demisto/sane-pdf-reports:1.0.0.13766451`
+# `demisto/sane-pdf-reports:1.0.0.14089014`
 
 ## Docker Metadata
-- Image Size: 960.99 MB
-- Image ID: `sha256:1af58fdad0ba19f24402ddf6d4009d64ae57e712e7a87b29388c2e8ddd43065f`
-- Created: `2026-10-13T16:34:10.172823867Z`
+- Image Size: 961.92 MB
+- Image ID: `sha256:4a1c8f272c82309c6e93bbf9cf9bf281e515cb90e1fa96b300f9cce0ce49c903`
+- Created: `2026-10-25T15:53:10.844536421Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.11`
   - `PYTHON_SHA256=c30bb24b7f1e9a19b11b55a546434f74e739bb4c271a3e3a80ff4380d49f7adb`
-  - `DOCKER_IMAGE=demisto/sane-pdf-reports:1.0.0.13766451`
+  - `DOCKER_IMAGE=demisto/sane-pdf-reports:1.0.0.14089014`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:75c6fcefa82484a04572d8e97d895937a987743b`
-  - `org.opencontainers.image.version:1.0.0.13766451`
-  - `panw.builtby.pipeline:13766930`
+  - `org.opencontainers.image.revision:ce48e8dc429cd43798cf15b3e261f91b5c0b599b`
+  - `org.opencontainers.image.version:1.0.0.14089014`
+  - `panw.builtby.pipeline:14090156`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sane-pdf-reports:1.0.0.13766451
+Signatures for demisto/sane-pdf-reports:1.0.0.14089014
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13766451   4578d60ad5f49608b714293959b6825f97c57f1270cbae7630f5c708972c6b88   (Repo Admin)
+1.0.0.14089014   5443b98c325d8d88ea743c18238c184527e904f756d6c5676775ab2711e436ba   (Repo Admin)
 
-Administrative keys for demisto/sane-pdf-reports:1.0.0.13766451
+Administrative keys for demisto/sane-pdf-reports:1.0.0.14089014
 
   Repository Key:	a49126a1ef2d8b2a122417046a0568ce3d14ed56e32e723f3cb956a369091e4b
   Root Key:	3c9d875c8980465612892e36819738cac8450f51c69e5dbdbf71867f33cd59eb
@@ -62,7 +62,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.13766451
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -167,7 +167,7 @@ Administrative keys for demisto/sane-pdf-reports:1.0.0.13766451
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>

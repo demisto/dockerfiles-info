@@ -1,9 +1,9 @@
-# `demisto/py-ews:5.6.0.14065282`
+# `demisto/py-ews:5.6.0.14080282`
 
 ## Docker Metadata
-- Image Size: 135.56 MB
-- Image ID: `sha256:3cea18cb0ab6d12a4c80f33663229e14c391f24ba3a320e56ede520c87c298bb`
-- Created: `2026-10-25T00:59:03.882684989Z`
+- Image Size: 135.65 MB
+- Image ID: `sha256:c49b6d2763946da987dc7bcfa3b19bbae606f593013ecea8f222e4c070d62066`
+- Created: `2026-10-25T12:48:46.223028907Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.14065282`
+  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.14080282`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:89161f7371e8ddd6080fe56955e375a8cad46b0f`
-  - `org.opencontainers.image.version:5.6.0.14065282`
-  - `panw.builtby.pipeline:14065844`
+  - `org.opencontainers.image.revision:e6e3c385f4f4069cfb8ad37abfe3b09cbe2c419d`
+  - `org.opencontainers.image.version:5.6.0.14080282`
+  - `panw.builtby.pipeline:14081564`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py-ews:5.6.0.14065282
+Signatures for demisto/py-ews:5.6.0.14080282
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-5.6.0.14065282   db1716825cbc2ff3fe0d9addc2e6f5ebd7ad34462ecbb17a20313180a97b6bda   (Repo Admin)
+5.6.0.14080282   b91e6b3a6f9d2245ad3479420f0d7a2fd64c7dca45c81dbe924696e2060e44c0   (Repo Admin)
 
-Administrative keys for demisto/py-ews:5.6.0.14065282
+Administrative keys for demisto/py-ews:5.6.0.14080282
 
   Repository Key:	c8b3a877659c96dd5e16db568d8f817a6eabb390ecfda3f567a6bc1929408237
   Root Key:	61b6aad19eee856a8c06a402a23627b05539b427be49b6335a4b309706ee1cdc
@@ -535,7 +535,7 @@ Administrative keys for demisto/py-ews:5.6.0.14065282
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4.4
+* Version: 5.4.5
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>

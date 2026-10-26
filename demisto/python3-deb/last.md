@@ -1,24 +1,24 @@
-# `demisto/python3-deb:3.12.14.13919218`
+# `demisto/python3-deb:3.12.15.14089014`
 
 ## Docker Metadata
-- Image Size: 60.51 MB
-- Image ID: `sha256:029b70c5a2ef484d55c1e46617200d42c631c141904bb4eb4c945ed70ef22cfa`
-- Created: `2026-10-19T18:09:03.142530912Z`
+- Image Size: 58.17 MB
+- Image ID: `sha256:8010255cfe040cbd2a3cab003f378764197053e1f373d1510ad5941b15cf3678`
+- Created: `2026-10-25T15:49:02.754317317Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/python3-deb:3.12.14.13919218`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/python3-deb:3.12.15.14089014`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:feb70d06402a78e263b32ba410b7e52c5290ef2d`
-  - `org.opencontainers.image.version:3.12.14.13919218`
-  - `panw.builtby.pipeline:13919906`
+  - `org.opencontainers.image.revision:ce48e8dc429cd43798cf15b3e261f91b5c0b599b`
+  - `org.opencontainers.image.version:3.12.15.14089014`
+  - `panw.builtby.pipeline:14090157`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/python3-deb:3.12.14.13919218
+Signatures for demisto/python3-deb:3.12.15.14089014
 
 SIGNED TAG         DIGEST                                                             SIGNERS
-3.12.14.13919218   d2e5ea079323f13a1f30ac2869e0e1ae1f41d5e682ca108cba41e48c0e7d1de7   (Repo Admin)
+3.12.15.14089014   232f6a99e80848751b4a2fdaddab5f01e741e5bf04344d9a889a6668a5de6aea   (Repo Admin)
 
-Administrative keys for demisto/python3-deb:3.12.14.13919218
+Administrative keys for demisto/python3-deb:3.12.15.14089014
 
   Repository Key:	02e9781b8a12b1475cfa9e28c569a3337f9d9e664134162d21f48e09aa975ab6
   Root Key:	c368f2dcb34a0aaabd33ee9559bd094b84c7f57f4742bde05f5a21486a524ce9
@@ -63,7 +63,7 @@ Administrative keys for demisto/python3-deb:3.12.14.13919218
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -176,7 +176,7 @@ Administrative keys for demisto/python3-deb:3.12.14.13919218
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -257,7 +257,7 @@ Administrative keys for demisto/python3-deb:3.12.14.13919218
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -319,7 +319,7 @@ Administrative keys for demisto/python3-deb:3.12.14.13919218
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
-* ca-certificates	20250419
+* ca-certificates	20250419+deb13u1
 * coreutils	9.7-3
 * dash	0.5.12-12
 * debconf	1.5.91
@@ -399,6 +399,6 @@ Administrative keys for demisto/python3-deb:3.12.14.13919218
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026c-0+deb13u1
+* tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1
