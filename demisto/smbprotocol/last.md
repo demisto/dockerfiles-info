@@ -1,24 +1,24 @@
-# `demisto/smbprotocol:1.0.0.13531018`
+# `demisto/smbprotocol:1.0.0.14109060`
 
 ## Docker Metadata
-- Image Size: 66.82 MB
-- Image ID: `sha256:71604ed37ad4f367acec95b84fa4b5e38d25c99d7f7c101e108fde07e7a8b142`
-- Created: `2026-10-05T09:09:57.60995145Z`
+- Image Size: 64.63 MB
+- Image ID: `sha256:61b9b1a18ddff49810a1b81ca1338bee4d3c8972381c7ad3334f1251e2e3e625`
+- Created: `2026-10-26T11:28:59.569068356Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/smbprotocol:1.0.0.13531018`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/smbprotocol:1.0.0.14109060`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:197712f5b3fff2630a6ff245c2a96564c36a359e`
-  - `org.opencontainers.image.version:1.0.0.13531018`
-  - `panw.builtby.pipeline:13532300`
+  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
+  - `org.opencontainers.image.version:1.0.0.14109060`
+  - `panw.builtby.pipeline:14114515`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,10 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/smbprotocol:1.0.0.13531018
+No signatures for demisto/smbprotocol:1.0.0.14109060
 
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13531018   d76ee2b9907c9ada609fd13bd94e6887abbf3f0cc47297c9a974bd08e25a7011   (Repo Admin)
 
-Administrative keys for demisto/smbprotocol:1.0.0.13531018
+Administrative keys for demisto/smbprotocol:1.0.0.14109060
 
   Repository Key:	088b156df1057ad79031b6a6bd730531013970ad5f0f2e576658c981d26f4afd
   Root Key:	0240316bb804a52f9541f18c9c15faf8aa8914a0bd9c291f797123ef57f2e258
@@ -63,7 +61,7 @@ Administrative keys for demisto/smbprotocol:1.0.0.13531018
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -167,7 +165,7 @@ Administrative keys for demisto/smbprotocol:1.0.0.13531018
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -192,7 +190,7 @@ Administrative keys for demisto/smbprotocol:1.0.0.13531018
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -201,7 +199,7 @@ Administrative keys for demisto/smbprotocol:1.0.0.13531018
 ### `pycparser`
 
 * Summary: C parser in Python
-* Version: 3.0
+* Version: 3.12
 * Pypi: https://pypi.org/project/pycparser/
 * Homepage: None
 * Author: Eli Bendersky <eliben@gmail.com>
@@ -218,7 +216,7 @@ Administrative keys for demisto/smbprotocol:1.0.0.13531018
 ### `pyspnego`
 
 * Summary: Windows Negotiate Authentication Client and Server
-* Version: 0.12.3
+* Version: 0.12.4
 * Pypi: https://pypi.org/project/pyspnego/
 * Homepage: None
 * Author: Jordan Borean <jborean93@gmail.com>
@@ -289,7 +287,7 @@ Administrative keys for demisto/smbprotocol:1.0.0.13531018
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -359,7 +357,7 @@ Administrative keys for demisto/smbprotocol:1.0.0.13531018
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
-* ca-certificates	20250419
+* ca-certificates	20250419+deb13u1
 * coreutils	9.7-3
 * dash	0.5.12-12
 * debconf	1.5.91
@@ -395,7 +393,7 @@ Administrative keys for demisto/smbprotocol:1.0.0.13531018
 * libhogweed6t64:amd64	3.10.1-1
 * liblastlog2-2:amd64	2.41.5-0+deb13u1
 * liblz4-1:amd64	1.10.0-4
-* liblzma5:amd64	5.8.1-1+deb13u1
+* liblzma5:amd64	5.8.1-1+deb13u2
 * libmd0:amd64	1.1.0-2+b1
 * libmount1:amd64	2.41.5-0+deb13u1
 * libncursesw6:amd64	6.5+20250216-2
@@ -439,6 +437,6 @@ Administrative keys for demisto/smbprotocol:1.0.0.13531018
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026c-0+deb13u1
+* tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1

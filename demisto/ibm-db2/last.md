@@ -1,24 +1,24 @@
-# `demisto/ibm-db2:1.0.0.13531018`
+# `demisto/ibm-db2:1.0.0.14109060`
 
 ## Docker Metadata
-- Image Size: 109.93 MB
-- Image ID: `sha256:3581a25e2045ec7bc085555fbff76eceb359b3e071ab29211541814f409a15d2`
-- Created: `2026-10-05T09:10:46.957571664Z`
+- Image Size: 107.71 MB
+- Image ID: `sha256:8bdf2051a0b0fe99a44f2a7f20eef8b52f4a22b3564bcb1dd143cdf3af614569`
+- Created: `2026-10-26T11:30:51.411854457Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/ibm-db2:1.0.0.13531018`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/ibm-db2:1.0.0.14109060`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:197712f5b3fff2630a6ff245c2a96564c36a359e`
-  - `org.opencontainers.image.version:1.0.0.13531018`
-  - `panw.builtby.pipeline:13532316`
+  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
+  - `org.opencontainers.image.version:1.0.0.14109060`
+  - `panw.builtby.pipeline:14114478`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,10 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/ibm-db2:1.0.0.13531018
+No signatures for demisto/ibm-db2:1.0.0.14109060
 
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13531018   330148ea61d1c94cebb6050fb8a6880a49b04b4801d3f56351dba1170a70bce9   (Repo Admin)
 
-Administrative keys for demisto/ibm-db2:1.0.0.13531018
+Administrative keys for demisto/ibm-db2:1.0.0.14109060
 
   Repository Key:	6337a735f6ada949bd0fc77c9c4f02002ca37e4c371d55673dac6e742082bced
   Root Key:	a251db0468b1c8b663b1987336e3e6a7935be0ec4d244474d3a2907656934763
@@ -63,7 +61,7 @@ Administrative keys for demisto/ibm-db2:1.0.0.13531018
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -160,7 +158,7 @@ Administrative keys for demisto/ibm-db2:1.0.0.13531018
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -185,7 +183,7 @@ Administrative keys for demisto/ibm-db2:1.0.0.13531018
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -266,7 +264,7 @@ Administrative keys for demisto/ibm-db2:1.0.0.13531018
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -328,7 +326,7 @@ Administrative keys for demisto/ibm-db2:1.0.0.13531018
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
-* ca-certificates	20250419
+* ca-certificates	20250419+deb13u1
 * coreutils	9.7-3
 * dash	0.5.12-12
 * debconf	1.5.91
@@ -364,7 +362,7 @@ Administrative keys for demisto/ibm-db2:1.0.0.13531018
 * libhogweed6t64:amd64	3.10.1-1
 * liblastlog2-2:amd64	2.41.5-0+deb13u1
 * liblz4-1:amd64	1.10.0-4
-* liblzma5:amd64	5.8.1-1+deb13u1
+* liblzma5:amd64	5.8.1-1+deb13u2
 * libmd0:amd64	1.1.0-2+b1
 * libmount1:amd64	2.41.5-0+deb13u1
 * libncursesw6:amd64	6.5+20250216-2
@@ -409,6 +407,6 @@ Administrative keys for demisto/ibm-db2:1.0.0.13531018
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026c-0+deb13u1
+* tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1

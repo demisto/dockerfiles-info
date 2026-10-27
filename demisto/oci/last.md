@@ -1,31 +1,31 @@
-# `demisto/oci:1.0.0.14017329`
+# `demisto/oci:1.0.0.14109060`
 
 ## Docker Metadata
-- Image Size: 98.41 MB
-- Image ID: `sha256:2be1b5267323b97e8e7a91e154833c47caf967d10c2fe53e1f42a6ad8a20cf6e`
-- Created: `2026-10-22T11:59:53.050889314Z`
+- Image Size: 96.73 MB
+- Image ID: `sha256:62c69a8f58659ef59a123d4d36af7473989778ff732d2f0a01deb16ea6612fa4`
+- Created: `2026-10-26T11:32:41.652449712Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/oci:1.0.0.14017329`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/oci:1.0.0.14109060`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:6458c15039d99288f530c5d592810f16ad416e25`
-  - `org.opencontainers.image.version:1.0.0.14017329`
-  - `panw.builtby.pipeline:14019093`
+  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
+  - `org.opencontainers.image.version:1.0.0.14109060`
+  - `panw.builtby.pipeline:14114488`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.24.2`
+  - `VERSION_ID=3.24.3`
   - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -33,12 +33,10 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/oci:1.0.0.14017329
+No signatures for demisto/oci:1.0.0.14109060
 
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14017329   8283228566d51257353f281880483c106b23c36b0f5d50f32c600bb60524eafe   (Repo Admin)
 
-Administrative keys for demisto/oci:1.0.0.14017329
+Administrative keys for demisto/oci:1.0.0.14109060
 
   Repository Key:	2cc50bdbe67fd75478233e92583764f227d51416d68a400f91f13954268ef489
   Root Key:	6c4262e4f5f1c456c5e9a45765790ff209f55ce49fc37ed2a3dc8a833e52de92
@@ -103,7 +101,7 @@ Administrative keys for demisto/oci:1.0.0.14017329
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -181,7 +179,7 @@ Administrative keys for demisto/oci:1.0.0.14017329
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 4.0.10
+* Version: 4.2.4
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -243,7 +241,7 @@ Administrative keys for demisto/oci:1.0.0.14017329
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -251,7 +249,7 @@ Administrative keys for demisto/oci:1.0.0.14017329
 ### `multidict`
 
 * Summary: multidict implementation
-* Version: 7.1.0
+* Version: 7.2.1
 * Pypi: https://pypi.org/project/multidict/
 * Homepage: None
 * Author: Andrew Svetlov <andrew.svetlov@gmail.com>
@@ -259,7 +257,7 @@ Administrative keys for demisto/oci:1.0.0.14017329
 ### `oci`
 
 * Summary: Oracle Cloud Infrastructure Python SDK
-* Version: 2.188.0
+* Version: 2.189.0
 * Pypi: https://pypi.org/project/oci/
 * Homepage: https://docs.oracle.com/en-us/iaas/tools/python/latest/index.html
 * Author: Oracle jyoti.s.saini@oracle.com
@@ -304,7 +302,7 @@ Administrative keys for demisto/oci:1.0.0.14017329
 ### `pycparser`
 
 * Summary: C parser in Python
-* Version: 3.11
+* Version: 3.12
 * Pypi: https://pypi.org/project/pycparser/
 * Homepage: None
 * Author: Eli Bendersky <eliben@gmail.com>
@@ -409,7 +407,7 @@ Administrative keys for demisto/oci:1.0.0.14017329
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -439,10 +437,19 @@ Administrative keys for demisto/oci:1.0.0.14017329
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 
+### `tzdata`
+
+* Summary: Provider of IANA time zone data
+* Version: 2026.5
+* Pypi: https://pypi.org/project/tzdata/
+* Homepage: https://github.com/python/tzdata
+* Author: Python Software Foundation datetime-sig@python.org
+* License: Apache-2.0
+
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4.4
+* Version: 5.4.5
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -474,16 +481,16 @@ Administrative keys for demisto/oci:1.0.0.14017329
 
 ## `OS Packages`
 
-* .python-rundeps-20260917.215302 noarch {.python-rundeps}
+* .python-rundeps-20261021.230421 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.24.2-r0 x86_64 {alpine-base}
+* alpine-release-3.24.3-r0 x86_64 {alpine-base}
 * apk-tools-3.0.8-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
-* ca-certificates-20260909-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20260909-r0 x86_64 {ca-certificates}
+* ca-certificates-20261020-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20261020-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
@@ -503,12 +510,12 @@ Administrative keys for demisto/oci:1.0.0.14017329
 * libuuid-2.42.3-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
 * musl-1.2.6-r3 x86_64 {musl}
-* musl-utils-1.2.6-r2 x86_64 {musl}
+* musl-utils-1.2.6-r3 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026d-r0 x86_64 {tzdata}
+* tzdata-2026e-r0 x86_64 {tzdata}
 * xz-libs-5.8.4-r0 x86_64 {xz}
-* zlib-1.3.2-r0 x86_64 {zlib}
+* zlib-1.3.2-r1 x86_64 {zlib}

@@ -1,24 +1,24 @@
-# `demisto/opencv:1.0.0.13587997`
+# `demisto/opencv:1.0.0.14109060`
 
 ## Docker Metadata
-- Image Size: 228.93 MB
-- Image ID: `sha256:c2df89ef745c92c7d5f72df62a4b537949e788bd41a4516f62e3549a47aeb61e`
-- Created: `2026-10-06T23:42:22.106620449Z`
+- Image Size: 226.71 MB
+- Image ID: `sha256:d389b0d419117391d04182858cdef1e5cc4f390ca90e361523c86af42fc64ee0`
+- Created: `2026-10-26T11:29:38.196884393Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/opencv:1.0.0.13587997`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/opencv:1.0.0.14109060`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3703d95adc955289abe63d20982c04520e939580`
-  - `org.opencontainers.image.version:1.0.0.13587997`
-  - `panw.builtby.pipeline:13588525`
+  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
+  - `org.opencontainers.image.version:1.0.0.14109060`
+  - `panw.builtby.pipeline:14114491`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,10 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/opencv:1.0.0.13587997
+No signatures for demisto/opencv:1.0.0.14109060
 
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13587997   b5aeaad204f58d54b7f3c62eccf9aa87dfcea9f8a6a7450690aece35fd5530ec   (Repo Admin)
 
-Administrative keys for demisto/opencv:1.0.0.13587997
+Administrative keys for demisto/opencv:1.0.0.14109060
 
   Repository Key:	7509c1e0c9d86eac11cd66a4c95a32d49015aecdd8dbac6c9ac7994b8b93f9ce
   Root Key:	86af2af4921ad57bfadcc6cc1a9ee2a3713909194e8f087dbb12a906b73e55d7
@@ -63,7 +61,7 @@ Administrative keys for demisto/opencv:1.0.0.13587997
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -160,7 +158,7 @@ Administrative keys for demisto/opencv:1.0.0.13587997
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -203,7 +201,7 @@ Administrative keys for demisto/opencv:1.0.0.13587997
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -284,7 +282,7 @@ Administrative keys for demisto/opencv:1.0.0.13587997
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -346,7 +344,7 @@ Administrative keys for demisto/opencv:1.0.0.13587997
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
-* ca-certificates	20250419
+* ca-certificates	20250419+deb13u1
 * coreutils	9.7-3
 * dash	0.5.12-12
 * debconf	1.5.91
@@ -382,7 +380,7 @@ Administrative keys for demisto/opencv:1.0.0.13587997
 * libdrm2:amd64	2.4.124-2
 * libedit2:amd64	3.1-20250104-1
 * libelf1t64:amd64	0.192-4
-* libexpat1:amd64	2.8.3-1~deb13u1
+* libexpat1:amd64	2.9.0-1~deb13u1
 * libffi8:amd64	3.4.8-2
 * libgbm1:amd64	25.0.7-2+deb13u1
 * libgcc-s1:amd64	14.2.0-19
@@ -401,7 +399,7 @@ Administrative keys for demisto/opencv:1.0.0.13587997
 * liblastlog2-2:amd64	2.41.5-0+deb13u1
 * libllvm19:amd64	1:19.1.7-3+b1
 * liblz4-1:amd64	1.10.0-4
-* liblzma5:amd64	5.8.1-1+deb13u1
+* liblzma5:amd64	5.8.1-1+deb13u2
 * libmd0:amd64	1.1.0-2+b1
 * libmount1:amd64	2.41.5-0+deb13u1
 * libncursesw6:amd64	6.5+20250216-2
@@ -475,7 +473,7 @@ Administrative keys for demisto/opencv:1.0.0.13587997
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026c-0+deb13u1
+* tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * wget	1.25.0-2
 * x11-common	1:7.7+24+deb13u1

@@ -1,24 +1,24 @@
-# `demisto/ssdeep:1.0.0.13538236`
+# `demisto/ssdeep:1.0.0.14109060`
 
 ## Docker Metadata
-- Image Size: 60.71 MB
-- Image ID: `sha256:2fb4c35c5e036d6a98938f4808d0254099034f86266af705e11786848200a0ba`
-- Created: `2026-10-05T12:14:30.655397237Z`
+- Image Size: 58.48 MB
+- Image ID: `sha256:e755de03ecca78c6fca3d848b3048bc42c5b36325b162fb64ab5f3452327dd9a`
+- Created: `2026-10-26T11:32:29.65317636Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/ssdeep:1.0.0.13538236`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/ssdeep:1.0.0.14109060`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:ec1a006ab6ee4606a306e02708c99e69b8bd3a02`
-  - `org.opencontainers.image.version:1.0.0.13538236`
-  - `panw.builtby.pipeline:13539942`
+  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
+  - `org.opencontainers.image.version:1.0.0.14109060`
+  - `panw.builtby.pipeline:14114517`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,10 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/ssdeep:1.0.0.13538236
+No signatures for demisto/ssdeep:1.0.0.14109060
 
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13538236   c761c5f9d698e178c6283605bbe943c8f2c575a70a48fda31801be924d6f22c5   (Repo Admin)
 
-Administrative keys for demisto/ssdeep:1.0.0.13538236
+Administrative keys for demisto/ssdeep:1.0.0.14109060
 
   Repository Key:	314211bfccd7ec3dfa0edc5c9c0382c6ee426f2c5a4a2da3a3d41dd1f180834f
   Root Key:	962bc9dd941738bbacb775f3517a6c2fdecb1794b6e6b70f71f90c9e32ea6516
@@ -63,7 +61,7 @@ Administrative keys for demisto/ssdeep:1.0.0.13538236
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -151,7 +149,7 @@ Administrative keys for demisto/ssdeep:1.0.0.13538236
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -176,7 +174,7 @@ Administrative keys for demisto/ssdeep:1.0.0.13538236
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -257,7 +255,7 @@ Administrative keys for demisto/ssdeep:1.0.0.13538236
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -319,7 +317,7 @@ Administrative keys for demisto/ssdeep:1.0.0.13538236
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
-* ca-certificates	20250419
+* ca-certificates	20250419+deb13u1
 * coreutils	9.7-3
 * dash	0.5.12-12
 * debconf	1.5.91
@@ -355,7 +353,7 @@ Administrative keys for demisto/ssdeep:1.0.0.13538236
 * libhogweed6t64:amd64	3.10.1-1
 * liblastlog2-2:amd64	2.41.5-0+deb13u1
 * liblz4-1:amd64	1.10.0-4
-* liblzma5:amd64	5.8.1-1+deb13u1
+* liblzma5:amd64	5.8.1-1+deb13u2
 * libmd0:amd64	1.1.0-2+b1
 * libmount1:amd64	2.41.5-0+deb13u1
 * libncursesw6:amd64	6.5+20250216-2
@@ -400,6 +398,6 @@ Administrative keys for demisto/ssdeep:1.0.0.13538236
 * ssdeep	2.14.1+git20180629.57fcfff-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026c-0+deb13u1
+* tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1

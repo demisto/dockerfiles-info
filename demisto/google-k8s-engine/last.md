@@ -1,24 +1,24 @@
-# `demisto/google-k8s-engine:1.0.0.13548907`
+# `demisto/google-k8s-engine:1.0.0.14109060`
 
 ## Docker Metadata
-- Image Size: 87.66 MB
-- Image ID: `sha256:e3017512d3635af7a936fa2edd5e5ae549cb1b4b151a86ec2415afd889e5d7d8`
-- Created: `2026-10-05T18:00:16.279263903Z`
+- Image Size: 75.02 MB
+- Image ID: `sha256:52776d743670e1e04f2378db3a0a61fe94029e7bcd2011dc9faa94783897f743`
+- Created: `2026-10-26T11:29:50.945034124Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/google-k8s-engine:1.0.0.13548907`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/google-k8s-engine:1.0.0.14109060`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:10d70f2de0645ef6366ecbdd8d0853178688711a`
-  - `org.opencontainers.image.version:1.0.0.13548907`
-  - `panw.builtby.pipeline:13549493`
+  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
+  - `org.opencontainers.image.version:1.0.0.14109060`
+  - `panw.builtby.pipeline:14114473`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,10 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-k8s-engine:1.0.0.13548907
+No signatures for demisto/google-k8s-engine:1.0.0.14109060
 
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13548907   6a6183d1b8b786fc3a17a562743078c10f4d8ab988a41bb4075b7a10ff99c33c   (Repo Admin)
 
-Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
+Administrative keys for demisto/google-k8s-engine:1.0.0.14109060
 
   Repository Key:	fbfb793b1cd8dcd4c1e16086726ec95b98431fbb9c4a9cc8af0b7cae47f55a8a
   Root Key:	8bce9cdfcc879a0a80a4bbea156dab89352f8f0e7474b62a14639a511bdbd546
@@ -55,7 +53,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 ### `anyio`
 
 * Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.14.2
+* Version: 4.15.1
 * Pypi: https://pypi.org/project/anyio/
 * Homepage: None
 * Author: Alex Grönholm <alex.gronholm@nextday.fi>
@@ -63,7 +61,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -114,7 +112,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.32.4
+* Version: 4.0.10
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -132,7 +130,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.40.0
+* Version: 2.43.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -141,7 +139,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.59.1
+* Version: 2.62.0
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -159,7 +157,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 ### `googleapis-common-protos`
 
 * Summary: Common protobufs used in Google APIs
-* Version: 1.75.5
+* Version: 1.76.0
 * Pypi: https://pypi.org/project/googleapis-common-protos/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -167,7 +165,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 ### `grpcio`
 
 * Summary: HTTP/2-based RPC framework
-* Version: 1.84.0
+* Version: 1.85.0
 * Pypi: https://pypi.org/project/grpcio/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -175,7 +173,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 ### `grpcio-status`
 
 * Summary: Status proto mapping for gRPC
-* Version: 1.84.0
+* Version: 1.85.0
 * Pypi: https://pypi.org/project/grpcio-status/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -218,7 +216,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -235,7 +233,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 ### `opentelemetry-api`
 
 * Summary: OpenTelemetry Python API
-* Version: 1.45.0
+* Version: 1.45.1
 * Pypi: https://pypi.org/project/opentelemetry-api/
 * Homepage: None
 * Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
@@ -251,7 +249,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -296,7 +294,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 ### `pycparser`
 
 * Summary: C parser in Python
-* Version: 3.0
+* Version: 3.12
 * Pypi: https://pypi.org/project/pycparser/
 * Homepage: None
 * Author: Eli Bendersky <eliben@gmail.com>
@@ -323,7 +321,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.3.post1
+* Version: 2026.5
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -341,7 +339,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.9.3
+* Version: 2026.9.29
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -376,7 +374,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -393,7 +391,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.2
+* Version: 5.4.0
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
@@ -438,7 +436,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
-* ca-certificates	20250419
+* ca-certificates	20250419+deb13u1
 * coreutils	9.7-3
 * dash	0.5.12-12
 * debconf	1.5.91
@@ -474,7 +472,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 * libhogweed6t64:amd64	3.10.1-1
 * liblastlog2-2:amd64	2.41.5-0+deb13u1
 * liblz4-1:amd64	1.10.0-4
-* liblzma5:amd64	5.8.1-1+deb13u1
+* liblzma5:amd64	5.8.1-1+deb13u2
 * libmd0:amd64	1.1.0-2+b1
 * libmount1:amd64	2.41.5-0+deb13u1
 * libncursesw6:amd64	6.5+20250216-2
@@ -483,7 +481,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 * libpam-modules:amd64	1.7.0-5
 * libpam-runtime	1.7.0-5
 * libpam0g:amd64	1.7.0-5
-* libpcre2-8-0:amd64	10.46-1~deb13u2
+* libpcre2-8-0:amd64	10.46-1~deb13u3
 * libproc2-0:amd64	2:4.0.4-9
 * libreadline8t64:amd64	8.2-6
 * libseccomp2:amd64	2.6.0-2
@@ -493,7 +491,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 * libsepol2:amd64	3.8.1-1
 * libsmartcols1:amd64	2.41.5-0+deb13u1
 * libsqlite3-0:amd64	3.46.1-7+deb13u2
-* libssl3t64:amd64	3.5.7-1~deb13u2
+* libssl3t64:amd64	3.5.7-1~deb13u3
 * libstdc++6:amd64	14.2.0-19
 * libsystemd0:amd64	257.13-1~deb13u1
 * libtinfo6:amd64	6.5+20250216-2
@@ -508,8 +506,8 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 * ncurses-base	6.5+20250216-2
 * ncurses-bin	6.5+20250216-2
 * netbase	6.5
-* openssl	3.5.7-1~deb13u2
-* openssl-provider-legacy	3.5.7-1~deb13u2
+* openssl	3.5.7-1~deb13u3
+* openssl-provider-legacy	3.5.7-1~deb13u3
 * passwd	1:4.17.4-2
 * perl-base	5.40.1-6+deb13u1
 * procps	2:4.0.4-9
@@ -518,6 +516,6 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.13548907
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026c-0+deb13u1
+* tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1

@@ -1,31 +1,31 @@
-# `demisto/boto3py3:1.0.0.13919218`
+# `demisto/boto3py3:1.0.0.14109060`
 
 ## Docker Metadata
-- Image Size: 53.76 MB
-- Image ID: `sha256:317b27ab2ef4d1fb76ec08b392ebb65e1e2711b1353e4f7d1c73a8320ce2d5fe`
-- Created: `2026-10-19T18:10:04.262205255Z`
+- Image Size: 51.10 MB
+- Image ID: `sha256:bbb7d4a3eb9625a96207901e89d065dde5fcbb08ff1173fa9b03778ade631b42`
+- Created: `2026-10-26T11:26:53.885036018Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.13919218`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.14109060`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:feb70d06402a78e263b32ba410b7e52c5290ef2d`
-  - `org.opencontainers.image.version:1.0.0.13919218`
-  - `panw.builtby.pipeline:13919899`
+  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
+  - `org.opencontainers.image.version:1.0.0.14109060`
+  - `panw.builtby.pipeline:14114455`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.24.1`
+  - `VERSION_ID=3.24.3`
   - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -33,12 +33,10 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/boto3py3:1.0.0.13919218
+No signatures for demisto/boto3py3:1.0.0.14109060
 
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13919218   2296e53c1a099cfefd1217178da1cbf4fbdc4cf4d915ce255801a6c007d5eca3   (Repo Admin)
 
-Administrative keys for demisto/boto3py3:1.0.0.13919218
+Administrative keys for demisto/boto3py3:1.0.0.14109060
 
   Repository Key:	cfe86d8f6e0178e2a77477d651d16cfc814b6e47b04f1f04d94917fb248a1ae8
   Root Key:	c4222af787cfc1a173f56c5eab482e5c4602eae4bb767431e17594c786c162f8
@@ -51,7 +49,7 @@ Administrative keys for demisto/boto3py3:1.0.0.13919218
 ### `anyio`
 
 * Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.14.2
+* Version: 4.15.1
 * Pypi: https://pypi.org/project/anyio/
 * Homepage: None
 * Author: Alex Grönholm <alex.gronholm@nextday.fi>
@@ -59,7 +57,7 @@ Administrative keys for demisto/boto3py3:1.0.0.13919218
 ### `boto3`
 
 * Summary: The AWS SDK for Python (Boto3)
-* Version: 1.43.114
+* Version: 1.43.118
 * Pypi: https://pypi.org/project/boto3/
 * Homepage: https://github.com/boto/boto3
 * Author: Amazon Web Services
@@ -68,7 +66,7 @@ Administrative keys for demisto/boto3py3:1.0.0.13919218
 ### `botocore`
 
 * Summary: Low-level, data-driven core of boto 3.
-* Version: 1.43.114
+* Version: 1.43.118
 * Pypi: https://pypi.org/project/botocore/
 * Homepage: https://github.com/boto/botocore
 * Author: Amazon Web Services
@@ -77,7 +75,7 @@ Administrative keys for demisto/boto3py3:1.0.0.13919218
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -86,7 +84,7 @@ Administrative keys for demisto/boto3py3:1.0.0.13919218
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.5.1
+* Version: 3.5.2
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -95,7 +93,7 @@ Administrative keys for demisto/boto3py3:1.0.0.13919218
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.2
+* Version: 1.4.3
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -103,7 +101,7 @@ Administrative keys for demisto/boto3py3:1.0.0.13919218
 ### `deepmerge`
 
 * Summary: A toolset for deeply merging Python dictionaries.
-* Version: 3.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/deepmerge/
 * Homepage: None
 * Author: Yusuke Tsutsumi <yusuke@tsutsumi.io>
@@ -121,7 +119,7 @@ Administrative keys for demisto/boto3py3:1.0.0.13919218
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.32.4
+* Version: 4.2.4
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -130,7 +128,7 @@ Administrative keys for demisto/boto3py3:1.0.0.13919218
 ### `funcy`
 
 * Summary: A fancy and practical functional tools
-* Version: 2.0
+* Version: 2.1
 * Pypi: https://pypi.org/project/funcy/
 * Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
@@ -166,7 +164,7 @@ Administrative keys for demisto/boto3py3:1.0.0.13919218
 ### `idna`
 
 * Summary: Internationalized Domain Names in Applications (IDNA)
-* Version: 3.19
+* Version: 3.20
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
@@ -183,7 +181,7 @@ Administrative keys for demisto/boto3py3:1.0.0.13919218
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -208,7 +206,7 @@ Administrative keys for demisto/boto3py3:1.0.0.13919218
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -236,7 +234,7 @@ Administrative keys for demisto/boto3py3:1.0.0.13919218
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.3.post1
+* Version: 2026.5
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -254,7 +252,7 @@ Administrative keys for demisto/boto3py3:1.0.0.13919218
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.7.19
+* Version: 2026.9.29
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -289,7 +287,7 @@ Administrative keys for demisto/boto3py3:1.0.0.13919218
 ### `s3transfer`
 
 * Summary: An Amazon S3 Transfer Manager
-* Version: 0.19.2
+* Version: 0.19.3
 * Pypi: https://pypi.org/project/s3transfer/
 * Homepage: https://github.com/boto/s3transfer
 * Author: Amazon Web Services kyknapp1@gmail.com
@@ -298,7 +296,7 @@ Administrative keys for demisto/boto3py3:1.0.0.13919218
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -315,7 +313,7 @@ Administrative keys for demisto/boto3py3:1.0.0.13919218
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.2
+* Version: 5.4.0
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
@@ -328,10 +326,19 @@ Administrative keys for demisto/boto3py3:1.0.0.13919218
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 
+### `tzdata`
+
+* Summary: Provider of IANA time zone data
+* Version: 2026.5
+* Pypi: https://pypi.org/project/tzdata/
+* Homepage: https://github.com/python/tzdata
+* Author: Python Software Foundation datetime-sig@python.org
+* License: Apache-2.0
+
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4.4
+* Version: 5.4.5
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -354,21 +361,21 @@ Administrative keys for demisto/boto3py3:1.0.0.13919218
 
 ## `OS Packages`
 
-* .python-rundeps-20260813.193941 noarch {.python-rundeps}
+* .python-rundeps-20261021.230421 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.24.1-r0 x86_64 {alpine-base}
-* apk-tools-3.0.7-r0 x86_64 {apk-tools}
+* alpine-release-3.24.3-r0 x86_64 {alpine-base}
+* apk-tools-3.0.8-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
-* ca-certificates-20260611-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20260611-r0 x86_64 {ca-certificates}
+* ca-certificates-20261020-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20261020-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.2-r1 x86_64 {krb5}
-* libapk-3.0.7-r0 x86_64 {apk-tools}
+* libapk-3.0.8-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.9-r0 x86_64 {openssl}
@@ -380,16 +387,16 @@ Administrative keys for demisto/boto3py3:1.0.0.13919218
 * libssl3-3.5.9-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
-* libuuid-2.42.1-r0 x86_64 {util-linux}
+* libuuid-2.42.3-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.6-r2 x86_64 {musl}
-* musl-utils-1.2.6-r2 x86_64 {musl}
+* musl-1.2.6-r3 x86_64 {musl}
+* musl-utils-1.2.6-r3 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * openssl-3.5.9-r0 x86_64 {openssl}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026c-r0 x86_64 {tzdata}
-* xz-libs-5.8.3-r0 x86_64 {xz}
-* zlib-1.3.2-r0 x86_64 {zlib}
+* tzdata-2026e-r0 x86_64 {tzdata}
+* xz-libs-5.8.4-r0 x86_64 {xz}
+* zlib-1.3.2-r1 x86_64 {zlib}

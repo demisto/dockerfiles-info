@@ -1,24 +1,24 @@
-# `demisto/xpanse-ml-ev2:1.0.0.13919218`
+# `demisto/xpanse-ml-ev2:1.0.0.14109060`
 
 ## Docker Metadata
-- Image Size: 203.40 MB
-- Image ID: `sha256:01ec82033b8730d5302c948117477c468aaa11063adf32c4cb4344fe60ba6e95`
-- Created: `2026-10-19T18:09:43.253345058Z`
+- Image Size: 190.04 MB
+- Image ID: `sha256:cfae33c06a9b55cc3ca801b0169118f91c04889c2808355213e9214c63f36cdc`
+- Created: `2026-10-26T11:29:11.650966169Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.13919218`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.14109060`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:feb70d06402a78e263b32ba410b7e52c5290ef2d`
-  - `org.opencontainers.image.version:1.0.0.13919218`
-  - `panw.builtby.pipeline:13919912`
+  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
+  - `org.opencontainers.image.version:1.0.0.14109060`
+  - `panw.builtby.pipeline:14114516`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,10 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/xpanse-ml-ev2:1.0.0.13919218
+No signatures for demisto/xpanse-ml-ev2:1.0.0.14109060
 
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13919218   bb4dc08880b360dac855de0b2365dd4f722ee2db6a60229845476611d8c7922a   (Repo Admin)
 
-Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
+Administrative keys for demisto/xpanse-ml-ev2:1.0.0.14109060
 
   Repository Key:	fa55b8182edbcafca39872dc58748778b2ff80634214e1872a9351313e618c45
   Root Key:	4324e3baaaa90dedc0be93f30c2271fb7bbaa8de8949e6c3996a45c6e81637d2
@@ -55,7 +53,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
 ### `anyio`
 
 * Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.14.2
+* Version: 4.15.1
 * Pypi: https://pypi.org/project/anyio/
 * Homepage: None
 * Author: Alex Grönholm <alex.gronholm@nextday.fi>
@@ -63,7 +61,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.10.18
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -132,7 +130,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.32.4
+* Version: 4.0.10
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -150,7 +148,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.42.0
+* Version: 2.43.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -204,7 +202,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
 ### `googleapis-common-protos`
 
 * Summary: Common protobufs used in Google APIs
-* Version: 1.75.5
+* Version: 1.76.0
 * Pypi: https://pypi.org/project/googleapis-common-protos/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -255,7 +253,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -263,7 +261,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
 ### `narwhals`
 
 * Summary: Extremely lightweight compatibility layer between dataframe libraries
-* Version: 2.26.0
+* Version: 2.27.1
 * Pypi: https://pypi.org/project/narwhals/
 * Homepage: None
 * Author: Marco Gorelli Marco Gorelli <hello_narwhals@proton.me>
@@ -304,16 +302,15 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
 ### `pandas`
 
 * Summary: Powerful data structures for data analysis, time series, and statistics
-* Version: 3.0.6
+* Version: 3.1.0
 * Pypi: https://pypi.org/project/pandas/
 * Homepage: None
 * Author: The Pandas Development Team <pandas-dev@python.org>
-* License :: OSI Approved :: BSD License
 
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -358,7 +355,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
 ### `pycparser`
 
 * Summary: C parser in Python
-* Version: 3.11
+* Version: 3.12
 * Pypi: https://pypi.org/project/pycparser/
 * Homepage: None
 * Author: Eli Bendersky <eliben@gmail.com>
@@ -375,7 +372,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 2.9.0.post0
+* Version: 3.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
 * Homepage: https://github.com/dateutil/dateutil
 * Author: Gustavo Niemeyer gustavo@niemeyer.net
@@ -385,7 +382,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.3.post1
+* Version: 2026.5
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -403,7 +400,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.9.3
+* Version: 2026.9.29
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -455,7 +452,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -480,7 +477,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.2
+* Version: 5.4.0
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
@@ -492,6 +489,15 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
+
+### `tzdata`
+
+* Summary: Provider of IANA time zone data
+* Version: 2026.5
+* Pypi: https://pypi.org/project/tzdata/
+* Homepage: https://github.com/python/tzdata
+* Author: Python Software Foundation datetime-sig@python.org
+* License: Apache-2.0
 
 ### `tzlocal`
 
@@ -525,7 +531,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
-* ca-certificates	20250419
+* ca-certificates	20250419+deb13u1
 * coreutils	9.7-3
 * dash	0.5.12-12
 * debconf	1.5.91
@@ -562,7 +568,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
 * libidn2-0:amd64	2.3.8-2
 * liblastlog2-2:amd64	2.41.5-0+deb13u1
 * liblz4-1:amd64	1.10.0-4
-* liblzma5:amd64	5.8.1-1+deb13u1
+* liblzma5:amd64	5.8.1-1+deb13u2
 * libmd0:amd64	1.1.0-2+b1
 * libmount1:amd64	2.41.5-0+deb13u1
 * libncursesw6:amd64	6.5+20250216-2
@@ -571,7 +577,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
 * libpam-modules:amd64	1.7.0-5
 * libpam-runtime	1.7.0-5
 * libpam0g:amd64	1.7.0-5
-* libpcre2-8-0:amd64	10.46-1~deb13u2
+* libpcre2-8-0:amd64	10.46-1~deb13u3
 * libproc2-0:amd64	2:4.0.4-9
 * libreadline8t64:amd64	8.2-6
 * libseccomp2:amd64	2.6.0-2
@@ -607,6 +613,6 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.13919218
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026c-0+deb13u1
+* tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1

@@ -1,31 +1,31 @@
-# `demisto/carbon-black-cloud:1.0.0.13538236`
+# `demisto/carbon-black-cloud:1.0.0.14109060`
 
 ## Docker Metadata
-- Image Size: 60.61 MB
-- Image ID: `sha256:bbe5e39bec2f89e466b1849e9af2df61c4be91250dc84ec48cf9623c28bb82d9`
-- Created: `2026-10-05T12:14:42.604299013Z`
+- Image Size: 58.95 MB
+- Image ID: `sha256:d3b696f6e3fedb8697dd0eada7df8de4c059120d3b68a39756edd30262627bfc`
+- Created: `2026-10-26T11:29:35.552010731Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/carbon-black-cloud:1.0.0.13538236`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/carbon-black-cloud:1.0.0.14109060`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:ec1a006ab6ee4606a306e02708c99e69b8bd3a02`
-  - `org.opencontainers.image.version:1.0.0.13538236`
-  - `panw.builtby.pipeline:13539946`
+  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
+  - `org.opencontainers.image.version:1.0.0.14109060`
+  - `panw.builtby.pipeline:14114457`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.24.2`
+  - `VERSION_ID=3.24.3`
   - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -33,12 +33,10 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/carbon-black-cloud:1.0.0.13538236
+No signatures for demisto/carbon-black-cloud:1.0.0.14109060
 
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13538236   11bc5d738eb009dbad8e6a551aaac637042c9a240e59d22a491a943ac41717fa   (Repo Admin)
 
-Administrative keys for demisto/carbon-black-cloud:1.0.0.13538236
+Administrative keys for demisto/carbon-black-cloud:1.0.0.14109060
 
   Repository Key:	61d6fc3fd56dba570055ea01490dd7c769bba5e2f00fcfb3de58f512ded5c117
   Root Key:	251a1564486be32835baf0388fe80e667a4516fdfcc3d16d2037dc5db7b1e226
@@ -68,7 +66,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.13538236
 ### `boto3`
 
 * Summary: The AWS SDK for Python (Boto3)
-* Version: 1.43.108
+* Version: 1.43.118
 * Pypi: https://pypi.org/project/boto3/
 * Homepage: https://github.com/boto/boto3
 * Author: Amazon Web Services
@@ -77,7 +75,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.13538236
 ### `botocore`
 
 * Summary: Low-level, data-driven core of boto 3.
-* Version: 1.43.108
+* Version: 1.43.118
 * Pypi: https://pypi.org/project/botocore/
 * Homepage: https://github.com/boto/botocore
 * Author: Amazon Web Services
@@ -86,7 +84,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.13538236
 ### `cachetools`
 
 * Summary: Extensible memoizing collections and decorators
-* Version: 7.2.0
+* Version: 7.2.5
 * Pypi: https://pypi.org/project/cachetools/
 * Homepage: None
 * Author: Thomas Kemmer <tkemmer@computer.org>
@@ -112,7 +110,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.13538236
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -156,7 +154,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.13538236
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 4.0.10
+* Version: 4.2.4
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -234,7 +232,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.13538236
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -268,7 +266,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.13538236
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -391,7 +389,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.13538236
 ### `s3transfer`
 
 * Summary: An Amazon S3 Transfer Manager
-* Version: 0.19.2
+* Version: 0.19.3
 * Pypi: https://pypi.org/project/s3transfer/
 * Homepage: https://github.com/boto/s3transfer
 * Author: Amazon Web Services kyknapp1@gmail.com
@@ -409,7 +407,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.13538236
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -448,10 +446,19 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.13538236
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 
+### `tzdata`
+
+* Summary: Provider of IANA time zone data
+* Version: 2026.5
+* Pypi: https://pypi.org/project/tzdata/
+* Homepage: https://github.com/python/tzdata
+* Author: Python Software Foundation datetime-sig@python.org
+* License: Apache-2.0
+
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4.4
+* Version: 5.4.5
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -467,7 +474,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.13538236
 ### `validators`
 
 * Summary: Python Data Validation for Humans™
-* Version: 0.35.0
+* Version: 0.36.0
 * Pypi: https://pypi.org/project/validators/
 * Homepage: None
 * Author: Konsta Vesterinen <konsta@fastmonkeys.com>
@@ -476,7 +483,7 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.13538236
 ### `wcwidth`
 
 * Summary: Measures the displayed width of unicode strings in a terminal
-* Version: 0.9.2
+* Version: 0.9.4
 * Pypi: https://pypi.org/project/wcwidth/
 * Homepage: None
 * Author: Jeff Quast <contact@jeffquast.com>
@@ -492,16 +499,16 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.13538236
 
 ## `OS Packages`
 
-* .python-rundeps-20260917.215302 noarch {.python-rundeps}
+* .python-rundeps-20261021.230421 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.24.2-r0 x86_64 {alpine-base}
+* alpine-release-3.24.3-r0 x86_64 {alpine-base}
 * apk-tools-3.0.8-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
-* ca-certificates-20260909-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20260909-r0 x86_64 {ca-certificates}
+* ca-certificates-20261020-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20261020-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
@@ -520,13 +527,13 @@ Administrative keys for demisto/carbon-black-cloud:1.0.0.13538236
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.42.3-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.6-r2 x86_64 {musl}
-* musl-utils-1.2.6-r2 x86_64 {musl}
+* musl-1.2.6-r3 x86_64 {musl}
+* musl-utils-1.2.6-r3 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026d-r0 x86_64 {tzdata}
+* tzdata-2026e-r0 x86_64 {tzdata}
 * xz-libs-5.8.4-r0 x86_64 {xz}
-* zlib-1.3.2-r0 x86_64 {zlib}
+* zlib-1.3.2-r1 x86_64 {zlib}

@@ -1,31 +1,31 @@
-# `demisto/polyswarm:4.5.0.13551892`
+# `demisto/polyswarm:4.7.0.14109060`
 
 ## Docker Metadata
-- Image Size: 39.45 MB
-- Image ID: `sha256:98e9c19046fb381eae144bf8ceab91d3fa8ce06250f0594b2afc8367dd2d2af4`
-- Created: `2026-10-05T20:35:41.386219529Z`
+- Image Size: 37.33 MB
+- Image ID: `sha256:736142b3f045d68c5168cd70197470420dee9e1c7d5156d851981cfe8c3bed69`
+- Created: `2026-10-26T11:29:24.950787046Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/polyswarm:4.5.0.13551892`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/polyswarm:4.7.0.14109060`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:36231ef5d6e50d0627e370bbbc44b49c6d7880ff`
-  - `org.opencontainers.image.version:4.5.0.13551892`
-  - `panw.builtby.pipeline:13552036`
+  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
+  - `org.opencontainers.image.version:4.7.0.14109060`
+  - `panw.builtby.pipeline:14114496`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.24.2`
+  - `VERSION_ID=3.24.3`
   - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -33,12 +33,10 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/polyswarm:4.5.0.13551892
+No signatures for demisto/polyswarm:4.7.0.14109060
 
-SIGNED TAG       DIGEST                                                             SIGNERS
-4.5.0.13551892   b81d01e1357fd95cac765bc4ece94cc7ce7a365097969196f6cb8d5e3feb6ab4   (Repo Admin)
 
-Administrative keys for demisto/polyswarm:4.5.0.13551892
+Administrative keys for demisto/polyswarm:4.7.0.14109060
 
   Repository Key:	19666d476ef29dc749a6520049a21fa067e2b7d162f27d2e0b3deef644178dd7
   Root Key:	d2b52b512ccc7f8c7ac3da65cfdcfb4b28c59071dd53af74640cdfb6b5d7b36a
@@ -59,7 +57,7 @@ Administrative keys for demisto/polyswarm:4.5.0.13551892
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -129,7 +127,7 @@ Administrative keys for demisto/polyswarm:4.5.0.13551892
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 4.0.10
+* Version: 4.2.4
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -191,7 +189,7 @@ Administrative keys for demisto/polyswarm:4.5.0.13551892
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -216,7 +214,7 @@ Administrative keys for demisto/polyswarm:4.5.0.13551892
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -225,7 +223,7 @@ Administrative keys for demisto/polyswarm:4.5.0.13551892
 ### `polyswarm`
 
 * Summary: CLI for using the PolySwarm Customer APIs
-* Version: 4.5.0
+* Version: 4.7.0
 * Pypi: https://pypi.org/project/polyswarm/
 * Homepage: None
 * Author: PolySwarm Developers <info@polyswarm.io>
@@ -234,7 +232,7 @@ Administrative keys for demisto/polyswarm:4.5.0.13551892
 ### `polyswarm_api`
 
 * Summary: Client library to simplify interacting with the PolySwarm consumer API
-* Version: 4.5.0
+* Version: 4.8.0
 * Pypi: https://pypi.org/project/polyswarm-api/
 * Homepage: None
 * Author: PolySwarm Developers <info@polyswarm.io>
@@ -260,7 +258,7 @@ Administrative keys for demisto/polyswarm:4.5.0.13551892
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 2.9.0.post0
+* Version: 3.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
 * Homepage: https://github.com/dateutil/dateutil
 * Author: Gustavo Niemeyer gustavo@niemeyer.net
@@ -323,7 +321,7 @@ Administrative keys for demisto/polyswarm:4.5.0.13551892
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -353,10 +351,19 @@ Administrative keys for demisto/polyswarm:4.5.0.13551892
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 
+### `tzdata`
+
+* Summary: Provider of IANA time zone data
+* Version: 2026.5
+* Pypi: https://pypi.org/project/tzdata/
+* Homepage: https://github.com/python/tzdata
+* Author: Python Software Foundation datetime-sig@python.org
+* License: Apache-2.0
+
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4.4
+* Version: 5.4.5
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -379,16 +386,16 @@ Administrative keys for demisto/polyswarm:4.5.0.13551892
 
 ## `OS Packages`
 
-* .python-rundeps-20260917.215302 noarch {.python-rundeps}
+* .python-rundeps-20261021.230421 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.24.2-r0 x86_64 {alpine-base}
+* alpine-release-3.24.3-r0 x86_64 {alpine-base}
 * apk-tools-3.0.8-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
-* ca-certificates-20260909-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20260909-r0 x86_64 {ca-certificates}
+* ca-certificates-20261020-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20261020-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
@@ -407,13 +414,13 @@ Administrative keys for demisto/polyswarm:4.5.0.13551892
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.42.3-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.6-r2 x86_64 {musl}
-* musl-utils-1.2.6-r2 x86_64 {musl}
+* musl-1.2.6-r3 x86_64 {musl}
+* musl-utils-1.2.6-r3 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026d-r0 x86_64 {tzdata}
+* tzdata-2026e-r0 x86_64 {tzdata}
 * xz-libs-5.8.4-r0 x86_64 {xz}
-* zlib-1.3.2-r0 x86_64 {zlib}
+* zlib-1.3.2-r1 x86_64 {zlib}

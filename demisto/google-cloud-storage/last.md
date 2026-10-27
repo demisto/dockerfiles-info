@@ -1,31 +1,31 @@
-# `demisto/google-cloud-storage:1.0.0.13919218`
+# `demisto/google-cloud-storage:1.0.0.14109060`
 
 ## Docker Metadata
-- Image Size: 56.21 MB
-- Image ID: `sha256:4674234e3ac00f58c2b2febce77a45c334aefd133cdab2592c7712de5a337671`
-- Created: `2026-10-19T18:09:14.358475839Z`
+- Image Size: 53.96 MB
+- Image ID: `sha256:074ed48daf88cd280ac2d10864f2e483afe1ac89ce87a24aba0a7a25d9b63442`
+- Created: `2026-10-26T11:29:23.364587281Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/google-cloud-storage:1.0.0.13919218`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/google-cloud-storage:1.0.0.14109060`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:feb70d06402a78e263b32ba410b7e52c5290ef2d`
-  - `org.opencontainers.image.version:1.0.0.13919218`
-  - `panw.builtby.pipeline:13919901`
+  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
+  - `org.opencontainers.image.version:1.0.0.14109060`
+  - `panw.builtby.pipeline:14114477`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.24.2`
+  - `VERSION_ID=3.24.3`
   - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -33,12 +33,10 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-cloud-storage:1.0.0.13919218
+No signatures for demisto/google-cloud-storage:1.0.0.14109060
 
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13919218   6b6d6f20f0c7e21b42535d28ec06388f77dd319c023bc518c36a11dc82cb2c7b   (Repo Admin)
 
-Administrative keys for demisto/google-cloud-storage:1.0.0.13919218
+Administrative keys for demisto/google-cloud-storage:1.0.0.14109060
 
   Repository Key:	2ab3d4f7a65f14d64dba54c7aded1079c285fff5ad812fc19854d63a0c782c18
   Root Key:	3c2392b332f73092db366898dd6e161ffbf0aff1d5cfedf61a69e056c49a538e
@@ -59,7 +57,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.13919218
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.10.18
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -119,7 +117,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.13919218
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 4.0.10
+* Version: 4.2.4
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -137,7 +135,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.13919218
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.42.0
+* Version: 2.43.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -173,7 +171,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.13919218
 ### `google-cloud-storage`
 
 * Summary: Google Cloud Storage API client library
-* Version: 3.17.0
+* Version: 3.17.1
 * Pypi: https://pypi.org/project/google-cloud-storage/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-storage
 * Author: Google LLC googleapis-packages@google.com
@@ -200,7 +198,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.13919218
 ### `googleapis-common-protos`
 
 * Summary: Common protobufs used in Google APIs
-* Version: 1.75.5
+* Version: 1.76.0
 * Pypi: https://pypi.org/project/googleapis-common-protos/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -208,7 +206,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.13919218
 ### `grpc-google-iam-v1`
 
 * Summary: IAM API client library
-* Version: 0.14.5
+* Version: 0.14.6
 * Pypi: https://pypi.org/project/grpc-google-iam-v1/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -217,7 +215,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.13919218
 ### `grpcio`
 
 * Summary: HTTP/2-based RPC framework
-* Version: 1.84.0
+* Version: 1.84.1
 * Pypi: https://pypi.org/project/grpcio/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -225,7 +223,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.13919218
 ### `grpcio-status`
 
 * Summary: Status proto mapping for gRPC
-* Version: 1.84.0
+* Version: 1.84.1
 * Pypi: https://pypi.org/project/grpcio-status/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -268,7 +266,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.13919218
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -317,7 +315,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.13919218
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -362,7 +360,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.13919218
 ### `pycparser`
 
 * Summary: C parser in Python
-* Version: 3.11
+* Version: 3.12
 * Pypi: https://pypi.org/project/pycparser/
 * Homepage: None
 * Author: Eli Bendersky <eliben@gmail.com>
@@ -379,7 +377,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.13919218
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 2.9.0.post0
+* Version: 3.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
 * Homepage: https://github.com/dateutil/dateutil
 * Author: Gustavo Niemeyer gustavo@niemeyer.net
@@ -442,7 +440,7 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.13919218
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -472,10 +470,19 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.13919218
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 
+### `tzdata`
+
+* Summary: Provider of IANA time zone data
+* Version: 2026.5
+* Pypi: https://pypi.org/project/tzdata/
+* Homepage: https://github.com/python/tzdata
+* Author: Python Software Foundation datetime-sig@python.org
+* License: Apache-2.0
+
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4.4
+* Version: 5.4.5
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -498,16 +505,16 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.13919218
 
 ## `OS Packages`
 
-* .python-rundeps-20260917.215302 noarch {.python-rundeps}
+* .python-rundeps-20261021.230421 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.24.2-r0 x86_64 {alpine-base}
+* alpine-release-3.24.3-r0 x86_64 {alpine-base}
 * apk-tools-3.0.8-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
-* ca-certificates-20260909-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20260909-r0 x86_64 {ca-certificates}
+* ca-certificates-20261020-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20261020-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
@@ -528,13 +535,13 @@ Administrative keys for demisto/google-cloud-storage:1.0.0.13919218
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.42.3-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.6-r2 x86_64 {musl}
-* musl-utils-1.2.6-r2 x86_64 {musl}
+* musl-1.2.6-r3 x86_64 {musl}
+* musl-utils-1.2.6-r3 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026d-r0 x86_64 {tzdata}
+* tzdata-2026e-r0 x86_64 {tzdata}
 * xz-libs-5.8.4-r0 x86_64 {xz}
-* zlib-1.3.2-r0 x86_64 {zlib}
+* zlib-1.3.2-r1 x86_64 {zlib}

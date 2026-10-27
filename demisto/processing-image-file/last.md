@@ -1,24 +1,24 @@
-# `demisto/processing-image-file:1.0.0.13557412`
+# `demisto/processing-image-file:1.0.0.14109060`
 
 ## Docker Metadata
-- Image Size: 309.30 MB
-- Image ID: `sha256:03dbb764b8b631a60ded5537617c60e3b6781d9e4e8503903a35372d5a016d01`
-- Created: `2026-10-06T05:51:50.963893404Z`
+- Image Size: 307.35 MB
+- Image ID: `sha256:7ca6403ddad523fb7f742a5032be99c2977f2d10e3f8b899cd1a1570b7a6cc0e`
+- Created: `2026-10-26T11:32:48.497254824Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/processing-image-file:1.0.0.13557412`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/processing-image-file:1.0.0.14109060`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3cf7c9a160584ee7fece11e449eab5578810eb00`
-  - `org.opencontainers.image.version:1.0.0.13557412`
-  - `panw.builtby.pipeline:13557812`
+  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
+  - `org.opencontainers.image.version:1.0.0.14109060`
+  - `panw.builtby.pipeline:14114501`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,10 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/processing-image-file:1.0.0.13557412
+No signatures for demisto/processing-image-file:1.0.0.14109060
 
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13557412   ded7b81271ff980e0b665a2e6dc04583f869088aa268029cf8830a3d52d26861   (Repo Admin)
 
-Administrative keys for demisto/processing-image-file:1.0.0.13557412
+Administrative keys for demisto/processing-image-file:1.0.0.14109060
 
   Repository Key:	a0f861fb47a97850b39a452cefdf9dc0be9cf15fc5bd7d7324e919d46238104e
   Root Key:	a1442115d0fe58a5223aeac31edee34ef8c4adbdc8d794929e460cb0904e1728
@@ -63,7 +61,7 @@ Administrative keys for demisto/processing-image-file:1.0.0.13557412
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -151,7 +149,7 @@ Administrative keys for demisto/processing-image-file:1.0.0.13557412
 ### `ImageIO`
 
 * Summary: Read and write images and video across all major formats. Supports scientific and volumetric data.
-* Version: 2.37.3
+* Version: 2.38.1
 * Pypi: https://pypi.org/project/ImageIO/
 * Homepage: None
 * Author: ImageIO contributors
@@ -159,7 +157,7 @@ Administrative keys for demisto/processing-image-file:1.0.0.13557412
 ### `lazy-loader`
 
 * Summary: Makes it easy to load subpackages and functions on demand.
-* Version: 0.5
+* Version: 0.6
 * Pypi: https://pypi.org/project/lazy-loader/
 * Homepage: None
 * Author: Scientific Python Developers
@@ -167,7 +165,7 @@ Administrative keys for demisto/processing-image-file:1.0.0.13557412
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -175,7 +173,7 @@ Administrative keys for demisto/processing-image-file:1.0.0.13557412
 ### `networkx`
 
 * Summary: Python package for creating and manipulating graphs and networks
-* Version: 3.6.1
+* Version: 3.7
 * Pypi: https://pypi.org/project/networkx/
 * Homepage: None
 * Author: Aric Hagberg <hagberg@lanl.gov>
@@ -183,7 +181,7 @@ Administrative keys for demisto/processing-image-file:1.0.0.13557412
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.5.1
+* Version: 2.5.4
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.
@@ -209,7 +207,7 @@ Administrative keys for demisto/processing-image-file:1.0.0.13557412
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -217,7 +215,7 @@ Administrative keys for demisto/processing-image-file:1.0.0.13557412
 ### `pillow`
 
 * Summary: Python Imaging Library (fork)
-* Version: 12.3.0
+* Version: 13.0.0
 * Pypi: https://pypi.org/project/pillow/
 * Homepage: None
 * Author: Jeffrey 'Alex' Clark <aclark@aclark.net>
@@ -225,7 +223,7 @@ Administrative keys for demisto/processing-image-file:1.0.0.13557412
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -315,7 +313,7 @@ Administrative keys for demisto/processing-image-file:1.0.0.13557412
 ### `scipy`
 
 * Summary: Fundamental algorithms for scientific computing in Python
-* Version: 1.18.0
+* Version: 1.18.1
 * Pypi: https://pypi.org/project/scipy/
 * Homepage: None
 * Author: None
@@ -324,7 +322,7 @@ Administrative keys for demisto/processing-image-file:1.0.0.13557412
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -341,7 +339,7 @@ Administrative keys for demisto/processing-image-file:1.0.0.13557412
 ### `tifffile`
 
 * Summary: Read and write TIFF files
-* Version: 2026.6.1
+* Version: 2026.10.15
 * Pypi: https://pypi.org/project/tifffile/
 * Homepage: https://www.cgohlke.com
 * Author: Christoph Gohlke cgohlke@cgohlke.com
@@ -390,7 +388,7 @@ Administrative keys for demisto/processing-image-file:1.0.0.13557412
 ### `zxing-cpp`
 
 * Summary: Python bindings for the zxing-cpp barcode library
-* Version: 3.1.0
+* Version: 3.1.1
 * Pypi: https://pypi.org/project/zxing-cpp/
 * Homepage: None
 * Author: zxing-cpp community <zxingcpp@gmail.com>
@@ -403,7 +401,7 @@ Administrative keys for demisto/processing-image-file:1.0.0.13557412
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
-* ca-certificates	20250419
+* ca-certificates	20250419+deb13u1
 * coreutils	9.7-3
 * dash	0.5.12-12
 * debconf	1.5.91
@@ -442,7 +440,7 @@ Administrative keys for demisto/processing-image-file:1.0.0.13557412
 * libdrm2:amd64	2.4.124-2
 * libedit2:amd64	3.1-20250104-1
 * libelf1t64:amd64	0.192-4
-* libexpat1:amd64	2.8.3-1~deb13u1
+* libexpat1:amd64	2.9.0-1~deb13u1
 * libffi8:amd64	3.4.8-2
 * libgbm1:amd64	25.0.7-2+deb13u1
 * libgcc-s1:amd64	14.2.0-19
@@ -464,7 +462,7 @@ Administrative keys for demisto/processing-image-file:1.0.0.13557412
 * liblastlog2-2:amd64	2.41.5-0+deb13u1
 * libllvm19:amd64	1:19.1.7-3+b1
 * liblz4-1:amd64	1.10.0-4
-* liblzma5:amd64	5.8.1-1+deb13u1
+* liblzma5:amd64	5.8.1-1+deb13u2
 * libmd0:amd64	1.1.0-2+b1
 * libmount1:amd64	2.41.5-0+deb13u1
 * libncursesw6:amd64	6.5+20250216-2
@@ -525,7 +523,7 @@ Administrative keys for demisto/processing-image-file:1.0.0.13557412
 * libxxhash0:amd64	0.8.3-2
 * libz3-4:amd64	4.13.3-1
 * libzstd1:amd64	1.5.7+dfsg-1
-* linux-libc-dev	6.12.111-1
+* linux-libc-dev	6.12.113-1
 * login	1:4.16.0-2+really2.41.5-0+deb13u1
 * login.defs	1:4.17.4-2
 * mawk	1.3.4.20250131-1
@@ -545,7 +543,7 @@ Administrative keys for demisto/processing-image-file:1.0.0.13557412
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026c-0+deb13u1
+* tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * wget	1.25.0-2
 * x11-common	1:7.7+24+deb13u1

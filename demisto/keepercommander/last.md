@@ -1,24 +1,24 @@
-# `demisto/keepercommander:1.0.0.13768061`
+# `demisto/keepercommander:1.0.0.14109060`
 
 ## Docker Metadata
-- Image Size: 125.95 MB
-- Image ID: `sha256:17ba8bc367d457644c35b91846c5e36bfb9c373a89818296616f260bbb34cf86`
-- Created: `2026-10-13T17:58:18.689918859Z`
+- Image Size: 113.30 MB
+- Image ID: `sha256:96cd17a1192c738b021aaa75be6376ed6216007e567f234ff8f9944946d4232f`
+- Created: `2026-10-26T11:28:59.225032416Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/keepercommander:1.0.0.13768061`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/keepercommander:1.0.0.14109060`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3e7f9ef326753312cc75d337c587f8f7601e41bd`
-  - `org.opencontainers.image.version:1.0.0.13768061`
-  - `panw.builtby.pipeline:13768534`
+  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
+  - `org.opencontainers.image.version:1.0.0.14109060`
+  - `panw.builtby.pipeline:14114486`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,10 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/keepercommander:1.0.0.13768061
+No signatures for demisto/keepercommander:1.0.0.14109060
 
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13768061   cc1d14db427b9e1c9c9b64257c9083db4e01fea855ad5a597bd16346e4d85e45   (Repo Admin)
 
-Administrative keys for demisto/keepercommander:1.0.0.13768061
+Administrative keys for demisto/keepercommander:1.0.0.14109060
 
   Repository Key:	6b4c4c8538fa4913cdd4302f4b122f560b2edd89f4c9989713eefaef50dd0cfb
   Root Key:	52d43b84cdd7efdb974a7041cb968424eb2d6032575ffb6b68028bc0f84efc3f
@@ -64,7 +62,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 ### `anyio`
 
 * Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.14.2
+* Version: 4.15.1
 * Pypi: https://pypi.org/project/anyio/
 * Homepage: None
 * Author: Alex Grönholm <alex.gronholm@nextday.fi>
@@ -72,11 +70,10 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 ### `asciitree`
 
 * Summary: Draws ASCII trees.
-* Version: 0.3.3
+* Version: 1.0.0
 * Pypi: https://pypi.org/project/asciitree/
-* Homepage: http://github.com/mbr/asciitree
-* Author: Marc Brinkmann git@marcbrinkmann.de
-* License: MIT
+* Homepage: None
+* Author: Marc Brinkmann <git@marcbrinkmann.de>
 
 ### `bcrypt`
 
@@ -99,7 +96,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -186,7 +183,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.32.4
+* Version: 4.0.10
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -211,7 +208,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 ### `fonttools`
 
 * Summary: Tools to manipulate font files
-* Version: 4.66.1
+* Version: 4.67.0
 * Pypi: https://pypi.org/project/fonttools/
 * Homepage: http://github.com/fonttools/fonttools
 * Author: Just van Rossum just@letterror.com
@@ -340,7 +337,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 ### `keeper-pam-webrtc-rs`
 
 * Summary: Keeper PAM WebRTC for Python - A secure, stable, and high-performance Tube API for Python, providing WebRTC-based secure tunneling with enterprise-grade security and reliability optimizations.
-* Version: 2.2.7
+* Version: 2.2.9
 * Pypi: https://pypi.org/project/keeper-pam-webrtc-rs/
 * Homepage: None
 * Author: None
@@ -428,7 +425,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -462,7 +459,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 ### `pillow`
 
 * Summary: Python Imaging Library (fork)
-* Version: 12.3.0
+* Version: 13.0.0
 * Pypi: https://pypi.org/project/pillow/
 * Homepage: None
 * Author: Jeffrey 'Alex' Clark <aclark@aclark.net>
@@ -470,7 +467,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -479,7 +476,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 ### `platformdirs`
 
 * Summary: A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`.
-* Version: 4.13.0
+* Version: 4.13.5
 * Pypi: https://pypi.org/project/platformdirs/
 * Homepage: None
 * Author: None
@@ -515,7 +512,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 ### `pycparser`
 
 * Summary: C parser in Python
-* Version: 3.11
+* Version: 3.12
 * Pypi: https://pypi.org/project/pycparser/
 * Homepage: None
 * Author: Eli Bendersky <eliben@gmail.com>
@@ -556,8 +553,8 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 
 ### `pyngrok`
 
-* Summary: A Python wrapper for ngrok
-* Version: 8.1.2
+* Summary: The complete ngrok agent for Python: programmatic tunnels for ingress, inspection, webhooks, demos, and APIs
+* Version: 9.0.3
 * Pypi: https://pypi.org/project/pyngrok/
 * Homepage: None
 * Author: Alex Laird <contact@alexlaird.com>
@@ -602,7 +599,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.3.post1
+* Version: 2026.5
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -620,7 +617,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.9.3
+* Version: 2026.9.29
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -672,7 +669,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -706,7 +703,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.2
+* Version: 5.4.0
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
@@ -730,7 +727,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4.4
+* Version: 5.4.5
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -746,7 +743,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 ### `wcwidth`
 
 * Summary: Measures the displayed width of unicode strings in a terminal
-* Version: 0.9.2
+* Version: 0.9.4
 * Pypi: https://pypi.org/project/wcwidth/
 * Homepage: None
 * Author: Jeff Quast <contact@jeffquast.com>
@@ -755,7 +752,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 ### `websockets`
 
 * Summary: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
-* Version: 17.2
+* Version: 17.3
 * Pypi: https://pypi.org/project/websockets/
 * Homepage: None
 * Author: Aymeric Augustin <aymeric.augustin@m4x.org>
@@ -779,7 +776,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 ### `wrapt`
 
 * Summary: Module for decorators, wrappers and monkey patching.
-* Version: 2.5.0
+* Version: 2.5.1
 * Pypi: https://pypi.org/project/wrapt/
 * Homepage: None
 * Author: Graham Dumpleton <Graham.Dumpleton@gmail.com>
@@ -801,7 +798,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
-* ca-certificates	20250419
+* ca-certificates	20250419+deb13u1
 * coreutils	9.7-3
 * dash	0.5.12-12
 * debconf	1.5.91
@@ -837,7 +834,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 * libhogweed6t64:amd64	3.10.1-1
 * liblastlog2-2:amd64	2.41.5-0+deb13u1
 * liblz4-1:amd64	1.10.0-4
-* liblzma5:amd64	5.8.1-1+deb13u1
+* liblzma5:amd64	5.8.1-1+deb13u2
 * libmd0:amd64	1.1.0-2+b1
 * libmount1:amd64	2.41.5-0+deb13u1
 * libncursesw6:amd64	6.5+20250216-2
@@ -846,7 +843,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 * libpam-modules:amd64	1.7.0-5
 * libpam-runtime	1.7.0-5
 * libpam0g:amd64	1.7.0-5
-* libpcre2-8-0:amd64	10.46-1~deb13u2
+* libpcre2-8-0:amd64	10.46-1~deb13u3
 * libproc2-0:amd64	2:4.0.4-9
 * libreadline8t64:amd64	8.2-6
 * libseccomp2:amd64	2.6.0-2
@@ -856,7 +853,7 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 * libsepol2:amd64	3.8.1-1
 * libsmartcols1:amd64	2.41.5-0+deb13u1
 * libsqlite3-0:amd64	3.46.1-7+deb13u2
-* libssl3t64:amd64	3.5.7-1~deb13u2
+* libssl3t64:amd64	3.5.7-1~deb13u3
 * libstdc++6:amd64	14.2.0-19
 * libsystemd0:amd64	257.13-1~deb13u1
 * libtinfo6:amd64	6.5+20250216-2
@@ -871,8 +868,8 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 * ncurses-base	6.5+20250216-2
 * ncurses-bin	6.5+20250216-2
 * netbase	6.5
-* openssl	3.5.7-1~deb13u2
-* openssl-provider-legacy	3.5.7-1~deb13u2
+* openssl	3.5.7-1~deb13u3
+* openssl-provider-legacy	3.5.7-1~deb13u3
 * passwd	1:4.17.4-2
 * perl-base	5.40.1-6+deb13u1
 * procps	2:4.0.4-9
@@ -881,6 +878,6 @@ Administrative keys for demisto/keepercommander:1.0.0.13768061
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026c-0+deb13u1
+* tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1

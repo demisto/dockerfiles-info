@@ -1,24 +1,24 @@
-# `demisto/tesseract:1.0.0.13597103`
+# `demisto/tesseract:1.0.0.14109060`
 
 ## Docker Metadata
-- Image Size: 334.75 MB
-- Image ID: `sha256:9c9f0e62bb1a94c5fdf0e6e408925a31369d383efcba3f107f4cf906289a755b`
-- Created: `2026-10-07T10:03:33.501085136Z`
+- Image Size: 332.58 MB
+- Image ID: `sha256:4c4d0ad07febffc5ef7c5e262daa781e8f8223975f890a50e954a88dc0991667`
+- Created: `2026-10-26T11:28:58.154273401Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/tesseract:1.0.0.13597103`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/tesseract:1.0.0.14109060`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:15e86558cb80230b99da54c587d3ead17660ba14`
-  - `org.opencontainers.image.version:1.0.0.13597103`
-  - `panw.builtby.pipeline:13601525`
+  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
+  - `org.opencontainers.image.version:1.0.0.14109060`
+  - `panw.builtby.pipeline:14114519`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,10 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/tesseract:1.0.0.13597103
+No signatures for demisto/tesseract:1.0.0.14109060
 
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13597103   7c52267b91effbe4b69544b19cf32f743bf611417973eeb22b55d9ac115feb20   (Repo Admin)
 
-Administrative keys for demisto/tesseract:1.0.0.13597103
+Administrative keys for demisto/tesseract:1.0.0.14109060
 
   Repository Key:	8c9e5e7fd85628c7b2a9f92f3b76b36e2ae34ba4ba64d45cb5133562db3e13de
   Root Key:	31fe5dd141a39796b4809023561ed21329865cc82a4db3b4eebf92cec1858212
@@ -63,7 +61,7 @@ Administrative keys for demisto/tesseract:1.0.0.13597103
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -151,7 +149,7 @@ Administrative keys for demisto/tesseract:1.0.0.13597103
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -176,7 +174,7 @@ Administrative keys for demisto/tesseract:1.0.0.13597103
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -257,7 +255,7 @@ Administrative keys for demisto/tesseract:1.0.0.13597103
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -319,7 +317,7 @@ Administrative keys for demisto/tesseract:1.0.0.13597103
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
-* ca-certificates	20250419
+* ca-certificates	20250419+deb13u1
 * coreutils	9.7-3
 * dash	0.5.12-12
 * debconf	1.5.91
@@ -348,7 +346,7 @@ Administrative keys for demisto/tesseract:1.0.0.13597103
 * libaudit-common	1:4.0.2-2+deb13u1
 * libaudit1:amd64	1:4.0.2-2+deb13u1
 * libblkid1:amd64	2.41.5-0+deb13u1
-* libbrotli1:amd64	1.1.0-2+b7
+* libbrotli1:amd64	1.1.0-2+deb13u1
 * libbsd0:amd64	0.12.2-2
 * libbz2-1.0:amd64	1.0.8-6
 * libc-bin	2.41-12+deb13u4
@@ -361,7 +359,7 @@ Administrative keys for demisto/tesseract:1.0.0.13597103
 * libde265-0:amd64	1.0.15-1+deb13u2
 * libdebconfclient0:amd64	0.280
 * libdeflate0:amd64	1.23-2
-* libexpat1:amd64	2.8.3-1~deb13u1
+* libexpat1:amd64	2.9.0-1~deb13u1
 * libffi8:amd64	3.4.8-2
 * libfftw3-double3:amd64	3.3.10-2+b1
 * libfontconfig1:amd64	2.15.0-2.3
@@ -374,9 +372,9 @@ Administrative keys for demisto/tesseract:1.0.0.13597103
 * libgmp10:amd64	2:6.3.0+dfsg-3
 * libgnutls30t64:amd64	3.8.9-3+deb13u4
 * libgomp1:amd64	14.2.0-19
-* libheif-plugin-dav1d:amd64	1.23.4-1~deb13u1
-* libheif-plugin-libde265:amd64	1.23.4-1~deb13u1
-* libheif1:amd64	1.23.4-1~deb13u1
+* libheif-plugin-dav1d:amd64	1.23.6-2~deb13u1
+* libheif-plugin-libde265:amd64	1.23.6-2~deb13u1
+* libheif1:amd64	1.23.6-2~deb13u1
 * libhogweed6t64:amd64	3.10.1-1
 * libidn2-0:amd64	2.3.8-2
 * libjbig0:amd64	2.1-6.1+b2
@@ -388,7 +386,7 @@ Administrative keys for demisto/tesseract:1.0.0.13597103
 * liblqr-1-0:amd64	0.4.2-2.1+b2
 * libltdl7:amd64	2.5.4-4
 * liblz4-1:amd64	1.10.0-4
-* liblzma5:amd64	5.8.1-1+deb13u1
+* liblzma5:amd64	5.8.1-1+deb13u2
 * libmagic-mgc	1:5.46-5
 * libmagic1t64:amd64	1:5.46-5
 * libmagickcore-7.q16-10:amd64	8:7.1.1.43+dfsg1-1+deb13u12
@@ -459,7 +457,7 @@ Administrative keys for demisto/tesseract:1.0.0.13597103
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026c-0+deb13u1
+* tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * wget	1.25.0-2
 * xdg-user-dirs	0.18-2

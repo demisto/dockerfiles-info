@@ -1,31 +1,31 @@
-# `demisto/mcp:1.0.0.13526390`
+# `demisto/mcp:1.0.0.14109060`
 
 ## Docker Metadata
-- Image Size: 48.89 MB
-- Image ID: `sha256:20a133db32a57ef56b9a356f309c66926a6625cadb40b42b9231bc86d7a2ddac`
-- Created: `2026-10-05T05:40:47.286474947Z`
+- Image Size: 46.98 MB
+- Image ID: `sha256:b66b8d750bb484e1d3f89f4e90909228d89977fa14bbb661c47df47bf7d38901`
+- Created: `2026-10-26T11:32:32.261765649Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/mcp:1.0.0.13526390`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/mcp:1.0.0.14109060`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:774749c6165ed2ee87c03199b61bcb553fe5f1c6`
-  - `org.opencontainers.image.version:1.0.0.13526390`
-  - `panw.builtby.pipeline:13526668`
+  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
+  - `org.opencontainers.image.version:1.0.0.14109060`
+  - `panw.builtby.pipeline:14114487`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.24.2`
+  - `VERSION_ID=3.24.3`
   - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -33,12 +33,10 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/mcp:1.0.0.13526390
+No signatures for demisto/mcp:1.0.0.14109060
 
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13526390   88f2dc13b7be95b284ff17ef6917071ff14b79172a40f6aa10e56242e87ad734   (Repo Admin)
 
-Administrative keys for demisto/mcp:1.0.0.13526390
+Administrative keys for demisto/mcp:1.0.0.14109060
 
   Repository Key:	33380d20e18cb2980bcdfa01f031d099d2db52b45122f978a80246c9ee48daab
   Root Key:	e45106a7e5d7cc94d559856627cc933af59af78ae3e8d2e9f677904e5b94e13f
@@ -77,7 +75,7 @@ Administrative keys for demisto/mcp:1.0.0.13526390
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -145,7 +143,7 @@ Administrative keys for demisto/mcp:1.0.0.13526390
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 4.0.10
+* Version: 4.2.4
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -181,7 +179,7 @@ Administrative keys for demisto/mcp:1.0.0.13526390
 ### `httpcore2`
 
 * Summary: A minimal low-level HTTP client.
-* Version: 2.13.1
+* Version: 2.16.0
 * Pypi: https://pypi.org/project/httpcore2/
 * Homepage: None
 * Author: Tom Christie <tom@tomchristie.com>
@@ -199,7 +197,7 @@ Administrative keys for demisto/mcp:1.0.0.13526390
 ### `httpx2`
 
 * Summary: The next generation HTTP client.
-* Version: 2.13.1
+* Version: 2.16.0
 * Pypi: https://pypi.org/project/httpx2/
 * Homepage: None
 * Author: Tom Christie <tom@tomchristie.com>
@@ -250,7 +248,7 @@ Administrative keys for demisto/mcp:1.0.0.13526390
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -267,7 +265,7 @@ Administrative keys for demisto/mcp:1.0.0.13526390
 ### `opentelemetry-api`
 
 * Summary: OpenTelemetry Python API
-* Version: 1.45.0
+* Version: 1.45.1
 * Pypi: https://pypi.org/project/opentelemetry-api/
 * Homepage: None
 * Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
@@ -283,7 +281,7 @@ Administrative keys for demisto/mcp:1.0.0.13526390
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -292,7 +290,7 @@ Administrative keys for demisto/mcp:1.0.0.13526390
 ### `pycparser`
 
 * Summary: C parser in Python
-* Version: 3.0
+* Version: 3.12
 * Pypi: https://pypi.org/project/pycparser/
 * Homepage: None
 * Author: Eli Bendersky <eliben@gmail.com>
@@ -300,7 +298,7 @@ Administrative keys for demisto/mcp:1.0.0.13526390
 ### `pydantic`
 
 * Summary: Data validation using Python type hints
-* Version: 2.13.5
+* Version: 2.14.1
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.dev>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -308,7 +306,7 @@ Administrative keys for demisto/mcp:1.0.0.13526390
 ### `pydantic_core`
 
 * Summary: Core functionality for Pydantic validation and serialization
-* Version: 2.46.5
+* Version: 2.50.1
 * Pypi: https://pypi.org/project/pydantic_core/
 * Homepage: https://github.com/pydantic/pydantic
 * Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -333,7 +331,7 @@ Administrative keys for demisto/mcp:1.0.0.13526390
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 2.9.0.post0
+* Version: 3.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
 * Homepage: https://github.com/dateutil/dateutil
 * Author: Gustavo Niemeyer gustavo@niemeyer.net
@@ -421,7 +419,7 @@ Administrative keys for demisto/mcp:1.0.0.13526390
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -438,7 +436,7 @@ Administrative keys for demisto/mcp:1.0.0.13526390
 ### `sse-starlette`
 
 * Summary: SSE plugin for Starlette
-* Version: 3.5.0
+* Version: 3.6.0
 * Pypi: https://pypi.org/project/sse-starlette/
 * Homepage: None
 * Author: sysid <sysid@gmx.de>
@@ -446,7 +444,7 @@ Administrative keys for demisto/mcp:1.0.0.13526390
 ### `starlette`
 
 * Summary: The little ASGI library that shines.
-* Version: 1.7.0
+* Version: 1.10.0
 * Pypi: https://pypi.org/project/starlette/
 * Homepage: None
 * Author: Tom Christie <tom@tomchristie.com>
@@ -462,7 +460,7 @@ Administrative keys for demisto/mcp:1.0.0.13526390
 ### `truststore`
 
 * Summary: Verify certificates using native system trust stores
-* Version: 0.10.4
+* Version: 0.10.5
 * Pypi: https://pypi.org/project/truststore/
 * Homepage: None
 * Author: Seth Michael Larson <sethmichaellarson@gmail.com>, David Glick <david@glicksoftware.com>
@@ -483,10 +481,19 @@ Administrative keys for demisto/mcp:1.0.0.13526390
 * Homepage: None
 * Author: Victorien Plot <contact@vctrn.dev>
 
+### `tzdata`
+
+* Summary: Provider of IANA time zone data
+* Version: 2026.5
+* Pypi: https://pypi.org/project/tzdata/
+* Homepage: https://github.com/python/tzdata
+* Author: Python Software Foundation datetime-sig@python.org
+* License: Apache-2.0
+
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4.4
+* Version: 5.4.5
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -517,16 +524,16 @@ Administrative keys for demisto/mcp:1.0.0.13526390
 
 ## `OS Packages`
 
-* .python-rundeps-20260917.215302 noarch {.python-rundeps}
+* .python-rundeps-20261021.230421 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.24.2-r0 x86_64 {alpine-base}
+* alpine-release-3.24.3-r0 x86_64 {alpine-base}
 * apk-tools-3.0.8-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
-* ca-certificates-20260909-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20260909-r0 x86_64 {ca-certificates}
+* ca-certificates-20261020-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20261020-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
@@ -545,13 +552,13 @@ Administrative keys for demisto/mcp:1.0.0.13526390
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.42.3-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.6-r2 x86_64 {musl}
-* musl-utils-1.2.6-r2 x86_64 {musl}
+* musl-1.2.6-r3 x86_64 {musl}
+* musl-utils-1.2.6-r3 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026d-r0 x86_64 {tzdata}
+* tzdata-2026e-r0 x86_64 {tzdata}
 * xz-libs-5.8.4-r0 x86_64 {xz}
-* zlib-1.3.2-r0 x86_64 {zlib}
+* zlib-1.3.2-r1 x86_64 {zlib}

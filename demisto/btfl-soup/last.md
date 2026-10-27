@@ -1,31 +1,31 @@
-# `demisto/btfl-soup:1.0.1.13804971`
+# `demisto/btfl-soup:1.0.1.14109060`
 
 ## Docker Metadata
-- Image Size: 40.59 MB
-- Image ID: `sha256:4ff34daad7269d00c62de28f93020884163f00dcada8a089ba85ea1b45463980`
-- Created: `2026-10-14T23:48:39.329390487Z`
+- Image Size: 40.16 MB
+- Image ID: `sha256:2f79fd6a9a230255f557e9c7dc3bd9de5c0f42d197dc3d07126abbe2edc989ed`
+- Created: `2026-10-26T11:32:15.748034717Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.13804971`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.14109060`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:c149eca84669dac26b3da087a1148e698648fd87`
-  - `org.opencontainers.image.version:1.0.1.13804971`
-  - `panw.builtby.pipeline:13805389`
+  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
+  - `org.opencontainers.image.version:1.0.1.14109060`
+  - `panw.builtby.pipeline:14114462`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.24.2`
+  - `VERSION_ID=3.24.3`
   - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -33,12 +33,10 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/btfl-soup:1.0.1.13804971
+No signatures for demisto/btfl-soup:1.0.1.14109060
 
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.1.13804971   c365f8dfdd5455bb9997e285dd758afa858368fe50b132ff2025e2ab9fd97832   (Repo Admin)
 
-Administrative keys for demisto/btfl-soup:1.0.1.13804971
+Administrative keys for demisto/btfl-soup:1.0.1.14109060
 
   Repository Key:	2df9352dc8d80b6e208c7ff147fac5fe0db694f8ad563e69a8c0688b62620cb4
   Root Key:	48666b9a08f1927653d7c7246d50c6a1b3a7f7ff8ff8be1557cce0991627ccf4
@@ -68,7 +66,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.13804971
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -112,7 +110,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.13804971
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 4.0.10
+* Version: 4.2.4
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -174,7 +172,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.13804971
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -208,7 +206,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.13804971
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -226,11 +224,10 @@ Administrative keys for demisto/btfl-soup:1.0.1.13804971
 ### `pycryptodome`
 
 * Summary: Cryptographic library for Python
-* Version: 3.24.1
+* Version: 4.2.0
 * Pypi: https://pypi.org/project/pycryptodome/
 * Homepage: None
 * Author: Helder Eijs <helderijs@gmail.com>
-* License: BSD, Public Domain
 
 ### `PySocks`
 
@@ -244,7 +241,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.13804971
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 2.9.0.post0
+* Version: 3.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
 * Homepage: https://github.com/dateutil/dateutil
 * Author: Gustavo Niemeyer gustavo@niemeyer.net
@@ -316,7 +313,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.13804971
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -333,7 +330,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.13804971
 ### `soupsieve`
 
 * Summary: A modern CSS selector implementation for Beautiful Soup.
-* Version: 2.10
+* Version: 3.0.4
 * Pypi: https://pypi.org/project/soupsieve/
 * Homepage: None
 * Author: Isaac Muse <Isaac.Muse@gmail.com>
@@ -355,10 +352,19 @@ Administrative keys for demisto/btfl-soup:1.0.1.13804971
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 
+### `tzdata`
+
+* Summary: Provider of IANA time zone data
+* Version: 2026.5
+* Pypi: https://pypi.org/project/tzdata/
+* Homepage: https://github.com/python/tzdata
+* Author: Python Software Foundation datetime-sig@python.org
+* License: Apache-2.0
+
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4.4
+* Version: 5.4.5
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -381,16 +387,16 @@ Administrative keys for demisto/btfl-soup:1.0.1.13804971
 
 ## `OS Packages`
 
-* .python-rundeps-20260917.215302 noarch {.python-rundeps}
+* .python-rundeps-20261021.230421 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.24.2-r0 x86_64 {alpine-base}
+* alpine-release-3.24.3-r0 x86_64 {alpine-base}
 * apk-tools-3.0.8-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
-* ca-certificates-20260909-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20260909-r0 x86_64 {ca-certificates}
+* ca-certificates-20261020-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20261020-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
@@ -409,13 +415,13 @@ Administrative keys for demisto/btfl-soup:1.0.1.13804971
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.42.3-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.6-r2 x86_64 {musl}
-* musl-utils-1.2.6-r2 x86_64 {musl}
+* musl-1.2.6-r3 x86_64 {musl}
+* musl-utils-1.2.6-r3 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026d-r0 x86_64 {tzdata}
+* tzdata-2026e-r0 x86_64 {tzdata}
 * xz-libs-5.8.4-r0 x86_64 {xz}
-* zlib-1.3.2-r0 x86_64 {zlib}
+* zlib-1.3.2-r1 x86_64 {zlib}
