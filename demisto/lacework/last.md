@@ -1,9 +1,9 @@
-# `demisto/lacework:1.0.0.14109060`
+# `demisto/lacework:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 34.58 MB
-- Image ID: `sha256:1bc3a42f316d5d14a295d0afbed4b2cfd175cba31cef8d9468f2a41faa5cd3c7`
-- Created: `2026-10-26T11:32:22.363624667Z`
+- Image ID: `sha256:41e2bceaa6f20c28b562fd0ed04a84d19884e01980ceaac68b292d7b9b1f0095`
+- Created: `2026-10-28T12:56:30.545207798Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/lacework:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/lacework:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114490`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171471`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/lacework:1.0.0.14109060
+Signatures for demisto/lacework:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   1786314e35a91f7512633ac03049fefb75b3a844406020e8766580c53f80fa65   (Repo Admin)
 
-Administrative keys for demisto/lacework:1.0.0.14109060
+Administrative keys for demisto/lacework:1.0.0.14169403
 
   Repository Key:	0af709476d50fa97af782cc8dbcab3f3ae34e5e79819fd074c4be9641d02456e
   Root Key:	77d039ee53a93558f8a079bb333927557d8dba33e0a627ac481cbb4ef5e73d2b

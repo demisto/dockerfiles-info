@@ -1,9 +1,9 @@
-# `demisto/readpdf:1.0.0.14109060`
+# `demisto/readpdf:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 97.75 MB
-- Image ID: `sha256:582ec350e6412f47070a1a95a09dd7015039ec39589f8141ecff5efea81a7c1d`
-- Created: `2026-10-26T11:28:06.877608209Z`
+- Image ID: `sha256:29268e15e95476bffc2f23a5e3f4d9861bb6896fca3b6d21643062d26898982a`
+- Created: `2026-10-28T12:56:18.814140074Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/readpdf:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/readpdf:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114505`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171432`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,10 +37,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/readpdf:1.0.0.14109060
+Signatures for demisto/readpdf:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   fb09af26dcd4ca6fc8e8ad70c144c97808eebadcea11ec1f576f17baea1bd04c   (Repo Admin)
 
-Administrative keys for demisto/readpdf:1.0.0.14109060
+Administrative keys for demisto/readpdf:1.0.0.14169403
 
   Repository Key:	1548113098609d3b48e44d27d7704fd658ac20b4477e31e790b1141cadc37a77
   Root Key:	2187bb6bcdfcd28c2b3a690cca8248d08cb6448b248c74ffd48b1259085e4431

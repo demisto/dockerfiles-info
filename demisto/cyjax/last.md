@@ -1,9 +1,9 @@
-# `demisto/cyjax:1.0.0.14109060`
+# `demisto/cyjax:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 34.41 MB
-- Image ID: `sha256:5872872250bebfa6f6c754d077e5fe948a68dbaf7b7eec9ea8f3fcfe9275c4d3`
-- Created: `2026-10-26T11:28:52.602427301Z`
+- Image ID: `sha256:8e2e0a7a25e8da7a6bf6f9387209efb0d8f40fd123999d531696e40dc9fa5a82`
+- Created: `2026-10-28T12:57:00.908446239Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/cyjax:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/cyjax:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114467`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171515`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/cyjax:1.0.0.14109060
+Signatures for demisto/cyjax:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   dc896d6f5db73ca874bc49efa6ec6bbf078109bcd86724c948be92b6f65b2212   (Repo Admin)
 
-Administrative keys for demisto/cyjax:1.0.0.14109060
+Administrative keys for demisto/cyjax:1.0.0.14169403
 
   Repository Key:	8e64daf2e09e8f670eeef10862ad7db2c5275144e468a32362e62f3c9e49482d
   Root Key:	f9a6fb506781c146d33372d719037e425a385a386f71ffb68ce1ab2b4f52d19b

@@ -1,9 +1,9 @@
-# `demisto/opencv:1.0.0.14109060`
+# `demisto/opencv:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 226.71 MB
-- Image ID: `sha256:d389b0d419117391d04182858cdef1e5cc4f390ca90e361523c86af42fc64ee0`
-- Created: `2026-10-26T11:29:38.196884393Z`
+- Image ID: `sha256:9598c81b0c55ec2d142fb26d84ecd03da1a6fd7e84cf087e0f45a68c9929f9fb`
+- Created: `2026-10-28T12:58:28.2720669Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/opencv:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/opencv:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114491`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171460`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,10 +37,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/opencv:1.0.0.14109060
+Signatures for demisto/opencv:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   94645dac10f81121ceb96a666b4112d29c89e49124e0433e30722fe443eed363   (Repo Admin)
 
-Administrative keys for demisto/opencv:1.0.0.14109060
+Administrative keys for demisto/opencv:1.0.0.14169403
 
   Repository Key:	7509c1e0c9d86eac11cd66a4c95a32d49015aecdd8dbac6c9ac7994b8b93f9ce
   Root Key:	86af2af4921ad57bfadcc6cc1a9ee2a3713909194e8f087dbb12a906b73e55d7

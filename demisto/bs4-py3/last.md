@@ -1,9 +1,9 @@
-# `demisto/bs4-py3:1.0.0.14109060`
+# `demisto/bs4-py3:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 40.02 MB
-- Image ID: `sha256:b479599473a677eec70002c7106b5bf55d5271ca9123b56836ab86ca655c389e`
-- Created: `2026-10-26T11:31:11.783740581Z`
+- Image ID: `sha256:1d73dcaec6b68f15fb057c2fe4c1dc0cb177ac90b09c6f4c2b51c6c7a7718603`
+- Created: `2026-10-28T12:57:04.52635904Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/bs4-py3:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/bs4-py3:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114459`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171523`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/bs4-py3:1.0.0.14109060
+Signatures for demisto/bs4-py3:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   35b3b66bcd8eff20867e1048c78657dd185b47e77e17707433f9e0fd2ed66767   (Repo Admin)
 
-Administrative keys for demisto/bs4-py3:1.0.0.14109060
+Administrative keys for demisto/bs4-py3:1.0.0.14169403
 
   Repository Key:	fc9cbf4689986a4a2d5017f4dd0b370dce28ed2737afc29128c2210af398286f
   Root Key:	f7385792275ba0f0d12370037412b97339e7663ef387d70b9e49964071d61cd3

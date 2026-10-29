@@ -1,9 +1,9 @@
-# `demisto/googleapi-python3:1.0.0.14109060`
+# `demisto/googleapi-python3:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 84.76 MB
-- Image ID: `sha256:eac5edce129c33f50517efedfc30cea63be359f7088e6eea8b6335af3f0dfeec`
-- Created: `2026-10-26T11:29:20.55174178Z`
+- Image ID: `sha256:486f898663da526466146332cb698ae3645ccbafb5fc38b785df1dd290eb4dd0`
+- Created: `2026-10-28T12:56:36.658696345Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/googleapi-python3:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/googleapi-python3:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114475`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171479`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,10 +37,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/googleapi-python3:1.0.0.14109060
+Signatures for demisto/googleapi-python3:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   4459d1b5f8054bbe49e4057d6387441a63019a72c12b87c0c42140d9d52c3cb3   (Repo Admin)
 
-Administrative keys for demisto/googleapi-python3:1.0.0.14109060
+Administrative keys for demisto/googleapi-python3:1.0.0.14169403
 
   Repository Key:	b14f1cdad56bfcc44f0ba4af89b0ec4910e16f20c7c6ab86d496a5786dc49c4c
   Root Key:	8fe3e320ac3b88f7823a158cd05468872ae8ac2135e8ca4f9e70d707440f05d4

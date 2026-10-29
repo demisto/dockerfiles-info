@@ -1,9 +1,9 @@
-# `demisto/processing-image-file:1.0.0.14109060`
+# `demisto/processing-image-file:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 307.35 MB
-- Image ID: `sha256:7ca6403ddad523fb7f742a5032be99c2977f2d10e3f8b899cd1a1570b7a6cc0e`
-- Created: `2026-10-26T11:32:48.497254824Z`
+- Image ID: `sha256:b85c21e315fe0074228ee48e268f023035347526d21e2b1e69396e6a176486c8`
+- Created: `2026-10-28T12:57:00.288991826Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/processing-image-file:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/processing-image-file:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114501`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171435`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,10 +37,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/processing-image-file:1.0.0.14109060
+Signatures for demisto/processing-image-file:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   7d6d067acf7d1ebc082fd2948379593c92a6b59326b59c74bd73024d738cf2f0   (Repo Admin)
 
-Administrative keys for demisto/processing-image-file:1.0.0.14109060
+Administrative keys for demisto/processing-image-file:1.0.0.14169403
 
   Repository Key:	a0f861fb47a97850b39a452cefdf9dc0be9cf15fc5bd7d7324e919d46238104e
   Root Key:	a1442115d0fe58a5223aeac31edee34ef8c4adbdc8d794929e460cb0904e1728

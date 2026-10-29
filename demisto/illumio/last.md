@@ -1,9 +1,9 @@
-# `demisto/illumio:1.0.0.14109060`
+# `demisto/illumio:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 34.00 MB
-- Image ID: `sha256:d45909a58e400f669dab46393097245ded1846107263ef5e9c9a6d50d2ff8db6`
-- Created: `2026-10-26T11:31:54.452136872Z`
+- Image ID: `sha256:9c609a84ad998a7124acae88dd818609f23a9b0559a4bef055e9653dea913042`
+- Created: `2026-10-28T12:56:29.00510593Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/illumio:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/illumio:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114480`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171470`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/illumio:1.0.0.14109060
+Signatures for demisto/illumio:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   b297966d8cb4d2a16e5038a83c8df8109b39229b83cfc92daf4800402886cc08   (Repo Admin)
 
-Administrative keys for demisto/illumio:1.0.0.14109060
+Administrative keys for demisto/illumio:1.0.0.14169403
 
   Repository Key:	5a898788944e64338f580afebbe044ce869e8d090fe16a3871f9b6ddbf14e856
   Root Key:	98d5a151a931d2f5eff576444930f7780f97e27fc4827d51c1b2bd3ad7558f34

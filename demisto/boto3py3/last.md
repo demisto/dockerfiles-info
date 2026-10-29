@@ -1,9 +1,9 @@
-# `demisto/boto3py3:1.0.0.14109060`
+# `demisto/boto3py3:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 51.10 MB
-- Image ID: `sha256:bbb7d4a3eb9625a96207901e89d065dde5fcbb08ff1173fa9b03778ade631b42`
-- Created: `2026-10-26T11:26:53.885036018Z`
+- Image ID: `sha256:c6ff5249c9814687d046e00b01977609b0c268200ada0f0fc689e8ca804bbad6`
+- Created: `2026-10-28T12:57:24.45293885Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/boto3py3:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114455`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171521`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/boto3py3:1.0.0.14109060
+Signatures for demisto/boto3py3:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   9c3efde65f63e701ed85d4ff9454fe6c5a6ea9734486150cc92d27f45a58b17e   (Repo Admin)
 
-Administrative keys for demisto/boto3py3:1.0.0.14109060
+Administrative keys for demisto/boto3py3:1.0.0.14169403
 
   Repository Key:	cfe86d8f6e0178e2a77477d651d16cfc814b6e47b04f1f04d94917fb248a1ae8
   Root Key:	c4222af787cfc1a173f56c5eab482e5c4602eae4bb767431e17594c786c162f8

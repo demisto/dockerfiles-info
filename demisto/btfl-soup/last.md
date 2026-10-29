@@ -1,9 +1,9 @@
-# `demisto/btfl-soup:1.0.1.14109060`
+# `demisto/btfl-soup:1.0.1.14169403`
 
 ## Docker Metadata
 - Image Size: 40.16 MB
-- Image ID: `sha256:2f79fd6a9a230255f557e9c7dc3bd9de5c0f42d197dc3d07126abbe2edc989ed`
-- Created: `2026-10-26T11:32:15.748034717Z`
+- Image ID: `sha256:5e284abcc7c3727efcb98b47c94117a8f16d8e71e2cc4c201f52b3308c1efa00`
+- Created: `2026-10-28T12:56:56.248777277Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.14109060`
+  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.1.14109060`
-  - `panw.builtby.pipeline:14114462`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.1.14169403`
+  - `panw.builtby.pipeline:14171518`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/btfl-soup:1.0.1.14109060
+Signatures for demisto/btfl-soup:1.0.1.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.1.14169403   3aa71facd2af7a3aaccdf717e509e1d7e3c45320de365102f49359928f91a48d   (Repo Admin)
 
-Administrative keys for demisto/btfl-soup:1.0.1.14109060
+Administrative keys for demisto/btfl-soup:1.0.1.14169403
 
   Repository Key:	2df9352dc8d80b6e208c7ff147fac5fe0db694f8ad563e69a8c0688b62620cb4
   Root Key:	48666b9a08f1927653d7c7246d50c6a1b3a7f7ff8ff8be1557cce0991627ccf4

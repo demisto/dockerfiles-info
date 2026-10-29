@@ -1,9 +1,9 @@
-# `demisto/tesseract:1.0.0.14109060`
+# `demisto/tesseract:1.0.0.14170433`
 
 ## Docker Metadata
-- Image Size: 332.58 MB
-- Image ID: `sha256:4c4d0ad07febffc5ef7c5e262daa781e8f8223975f890a50e954a88dc0991667`
-- Created: `2026-10-26T11:28:58.154273401Z`
+- Image Size: 332.54 MB
+- Image ID: `sha256:18e4f9fc9a1e23948c41345980880a51d4154cfe7f9edd3ea7eda1c9f891344c`
+- Created: `2026-10-28T13:52:10.618077903Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/tesseract:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/tesseract:1.0.0.14170433`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114519`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14170433`
+  - `panw.builtby.pipeline:14173874`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,10 +37,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/tesseract:1.0.0.14109060
+Signatures for demisto/tesseract:1.0.0.14170433
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14170433   67036ab40cdf7b4224de3bdbce0748c916279687e3bc883db0366a0f118bd30a   (Repo Admin)
 
-Administrative keys for demisto/tesseract:1.0.0.14109060
+Administrative keys for demisto/tesseract:1.0.0.14170433
 
   Repository Key:	8c9e5e7fd85628c7b2a9f92f3b76b36e2ae34ba4ba64d45cb5133562db3e13de
   Root Key:	31fe5dd141a39796b4809023561ed21329865cc82a4db3b4eebf92cec1858212

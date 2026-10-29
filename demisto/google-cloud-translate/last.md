@@ -1,9 +1,9 @@
-# `demisto/google-cloud-translate:1.0.0.14109060`
+# `demisto/google-cloud-translate:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 74.72 MB
-- Image ID: `sha256:98273799dc32d4b0b5c3bb082ce0520e3f33c9c3731a54d6f90cc6bd7168de5b`
-- Created: `2026-10-26T11:28:01.455942377Z`
+- Image ID: `sha256:8b9b9b5ebf9ffbbfe9d03ce765f30f414a0f337d827504f47345d328245412a6`
+- Created: `2026-10-28T12:56:48.194142466Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/google-cloud-translate:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/google-cloud-translate:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114469`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171490`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,10 +37,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/google-cloud-translate:1.0.0.14109060
+Signatures for demisto/google-cloud-translate:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   e13c132a4c8b2d4ccc97132e903e601c8dbe83eb66187498b3207026bc416dd5   (Repo Admin)
 
-Administrative keys for demisto/google-cloud-translate:1.0.0.14109060
+Administrative keys for demisto/google-cloud-translate:1.0.0.14169403
 
   Repository Key:	09cd7f9d31e99f8c90dae52da10888c2a3779290ce38e52739c73bd91866a375
   Root Key:	42aa8b794987daaa5c6574d46a5483e72b0bc2daaba1c2e9968501ae78c35283

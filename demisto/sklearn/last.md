@@ -1,34 +1,34 @@
-# `demisto/sklearn:1.0.0.13804971`
+# `demisto/sklearn:1.0.0.14169403`
 
 ## Docker Metadata
-- Image Size: 263.38 MB
-- Image ID: `sha256:7e0fea05a90dededeeca714a10458a3eebc2475169827217eb761087e5a45740`
-- Created: `2026-10-14T23:49:19.775207278Z`
+- Image Size: 285.28 MB
+- Image ID: `sha256:ecdfc8eaf74a19ce661a25abd25f96305fd2dfd44f38ff6a9ff5c5094e63f7c4`
+- Created: `2026-10-28T12:56:12.083076023Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/sklearn:1.0.0.13804971`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/sklearn:1.0.0.14169403`
   - `NLTK_DATA=/ml/nltk_data`
   - `OPENBLAS_NUM_THREADS=1`
   - `OMP_NUM_THREADS=4`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:c149eca84669dac26b3da087a1148e698648fd87`
-  - `org.opencontainers.image.version:1.0.0.13804971`
-  - `panw.builtby.pipeline:13805388`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171417`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.24.2`
+  - `VERSION_ID=3.24.3`
   - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -36,12 +36,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/sklearn:1.0.0.13804971
+Signatures for demisto/sklearn:1.0.0.14169403
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13804971   2efe97c0d48a67e3293306b7378386ccbeddb5d6927b06314492f632aacb164e   (Repo Admin)
+1.0.0.14169403   97fad51cac6a552d437efab90f222c57c2db1bc44dd0eca6ae4730bd12514f8a   (Repo Admin)
 
-Administrative keys for demisto/sklearn:1.0.0.13804971
+Administrative keys for demisto/sklearn:1.0.0.14169403
 
   Repository Key:	2475832d78c902e8999df2055c0f69226a85caf5ee20d300c05ffb6e87dd9f7c
   Root Key:	8ab906212f9f7b6d82f5edb3d677b0df40095899339fa0b36ecd00b68b304458
@@ -71,7 +71,7 @@ Administrative keys for demisto/sklearn:1.0.0.13804971
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -141,7 +141,7 @@ Administrative keys for demisto/sklearn:1.0.0.13804971
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 4.0.10
+* Version: 4.2.4
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -202,7 +202,7 @@ Administrative keys for demisto/sklearn:1.0.0.13804971
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -210,7 +210,7 @@ Administrative keys for demisto/sklearn:1.0.0.13804971
 ### `narwhals`
 
 * Summary: Extremely lightweight compatibility layer between dataframe libraries
-* Version: 2.26.0
+* Version: 2.28.0
 * Pypi: https://pypi.org/project/narwhals/
 * Homepage: None
 * Author: Marco Gorelli Marco Gorelli <hello_narwhals@proton.me>
@@ -226,7 +226,7 @@ Administrative keys for demisto/sklearn:1.0.0.13804971
 ### `nltk`
 
 * Summary: Natural Language Toolkit
-* Version: 3.10.3
+* Version: 3.10.4
 * Pypi: https://pypi.org/project/nltk/
 * Homepage: https://www.nltk.org/
 * Author: NLTK Team nltk.team@gmail.com
@@ -260,16 +260,15 @@ Administrative keys for demisto/sklearn:1.0.0.13804971
 ### `pandas`
 
 * Summary: Powerful data structures for data analysis, time series, and statistics
-* Version: 3.0.6
+* Version: 3.1.0
 * Pypi: https://pypi.org/project/pandas/
 * Homepage: None
 * Author: The Pandas Development Team <pandas-dev@python.org>
-* License :: OSI Approved :: BSD License
 
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -287,7 +286,7 @@ Administrative keys for demisto/sklearn:1.0.0.13804971
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 2.9.0.post0
+* Version: 3.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
 * Homepage: https://github.com/dateutil/dateutil
 * Author: Gustavo Niemeyer gustavo@niemeyer.net
@@ -367,7 +366,7 @@ Administrative keys for demisto/sklearn:1.0.0.13804971
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -384,7 +383,7 @@ Administrative keys for demisto/sklearn:1.0.0.13804971
 ### `soupsieve`
 
 * Summary: A modern CSS selector implementation for Beautiful Soup.
-* Version: 2.10
+* Version: 3.0.4
 * Pypi: https://pypi.org/project/soupsieve/
 * Homepage: None
 * Author: Isaac Muse <Isaac.Muse@gmail.com>
@@ -423,10 +422,19 @@ Administrative keys for demisto/sklearn:1.0.0.13804971
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 
+### `tzdata`
+
+* Summary: Provider of IANA time zone data
+* Version: 2026.5
+* Pypi: https://pypi.org/project/tzdata/
+* Homepage: https://github.com/python/tzdata
+* Author: Python Software Foundation datetime-sig@python.org
+* License: Apache-2.0
+
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4.4
+* Version: 5.4.5
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -449,17 +457,17 @@ Administrative keys for demisto/sklearn:1.0.0.13804971
 
 ## `OS Packages`
 
-* .python-rundeps-20260917.215302 noarch {.python-rundeps}
+* .python-rundeps-20261021.230421 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.24.2-r0 x86_64 {alpine-base}
+* alpine-release-3.24.3-r0 x86_64 {alpine-base}
 * apk-tools-3.0.8-r0 x86_64 {apk-tools}
 * bash-5.3.9-r1 x86_64 {bash}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
-* ca-certificates-20260909-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20260909-r0 x86_64 {ca-certificates}
+* ca-certificates-20261020-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20261020-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
@@ -483,14 +491,14 @@ Administrative keys for demisto/sklearn:1.0.0.13804971
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.42.3-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.6-r2 x86_64 {musl}
-* musl-utils-1.2.6-r2 x86_64 {musl}
+* musl-1.2.6-r3 x86_64 {musl}
+* musl-utils-1.2.6-r3 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * openblas-0.3.30-r2 x86_64 {openblas}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026d-r0 x86_64 {tzdata}
+* tzdata-2026e-r0 x86_64 {tzdata}
 * xz-libs-5.8.4-r0 x86_64 {xz}
 * zlib-1.3.2-r1 x86_64 {zlib}

@@ -1,9 +1,9 @@
-# `demisto/octoxlabs:1.0.0.14109060`
+# `demisto/octoxlabs:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 33.93 MB
-- Image ID: `sha256:b73d13bf0b213003569b05f1c64847c1c08a2baddb2a22968a4d7227c4c9ca51`
-- Created: `2026-10-26T11:31:42.026181797Z`
+- Image ID: `sha256:fa478a112d08dcc0cbcd6d8732c7e255da1900430b47fd05dadad644bc3d35ed`
+- Created: `2026-10-28T12:56:14.621320106Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/octoxlabs:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/octoxlabs:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114498`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171451`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/octoxlabs:1.0.0.14109060
+Signatures for demisto/octoxlabs:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   21ec8aa6c4fe7770b1b580dd7f2830424d8ee84534d6833f39b9a3ba2d514865   (Repo Admin)
 
-Administrative keys for demisto/octoxlabs:1.0.0.14109060
+Administrative keys for demisto/octoxlabs:1.0.0.14169403
 
   Repository Key:	e26273182070c7f2a8aa1b22ea584c03a005f3be1e106b1909bfd6458b2ca809
   Root Key:	43983119fbea03391525feed64dfae29876c649a8f7fd592c652fb5c91325a13

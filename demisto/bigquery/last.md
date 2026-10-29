@@ -1,9 +1,9 @@
-# `demisto/bigquery:1.0.0.14109060`
+# `demisto/bigquery:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 75.75 MB
-- Image ID: `sha256:7e9d85e57ccfdba37cee7c956ac73adfde2429ea65aaedad141d71c5e5e6adae`
-- Created: `2026-10-26T11:31:02.371733464Z`
+- Image ID: `sha256:b2234ffcd487f111257d6f872eafbbf03dbba0d2af03ecd3620f22f731c26e83`
+- Created: `2026-10-28T12:56:28.539113095Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/bigquery:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/bigquery:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114454`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171512`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,10 +37,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/bigquery:1.0.0.14109060
+Signatures for demisto/bigquery:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   898e4676427c683d2c0b6e8feee9ed9adaa761ffff4ce4f6fa6035a09154b613   (Repo Admin)
 
-Administrative keys for demisto/bigquery:1.0.0.14109060
+Administrative keys for demisto/bigquery:1.0.0.14169403
 
   Repository Key:	50ce3296886516edcfde3c34148b7b31a0e70e68821c9e335e9851cee5284a2b
   Root Key:	e5ef65a9e7371056cf85e6b0a6be6717871b78e3fb0e40e863e477f2253acfac

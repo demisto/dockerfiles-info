@@ -1,9 +1,9 @@
-# `demisto/carbon-black-cloud:1.0.0.14109060`
+# `demisto/carbon-black-cloud:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 58.95 MB
-- Image ID: `sha256:d3b696f6e3fedb8697dd0eada7df8de4c059120d3b68a39756edd30262627bfc`
-- Created: `2026-10-26T11:29:35.552010731Z`
+- Image ID: `sha256:374c4025b77392832dc738e2ddd4b4e8d7dfee67c61ca9eac48875fb060e2b49`
+- Created: `2026-10-28T12:56:59.995214223Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/carbon-black-cloud:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/carbon-black-cloud:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114457`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171508`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/carbon-black-cloud:1.0.0.14109060
+Signatures for demisto/carbon-black-cloud:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   e49e2308545b6400e416eaad0091b29653cb64fda52a832dd3ac47f462f54275   (Repo Admin)
 
-Administrative keys for demisto/carbon-black-cloud:1.0.0.14109060
+Administrative keys for demisto/carbon-black-cloud:1.0.0.14169403
 
   Repository Key:	61d6fc3fd56dba570055ea01490dd7c769bba5e2f00fcfb3de58f512ded5c117
   Root Key:	251a1564486be32835baf0388fe80e667a4516fdfcc3d16d2037dc5db7b1e226

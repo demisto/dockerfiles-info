@@ -1,9 +1,9 @@
-# `demisto/smbprotocol:1.0.0.14109060`
+# `demisto/smbprotocol:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 64.63 MB
-- Image ID: `sha256:61b9b1a18ddff49810a1b81ca1338bee4d3c8972381c7ad3334f1251e2e3e625`
-- Created: `2026-10-26T11:28:59.569068356Z`
+- Image ID: `sha256:fbcc80b8074d3cf7c7ba31811f2b73715b1a6bef53453e4563018b95800dd592`
+- Created: `2026-10-28T12:55:17.062090953Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/smbprotocol:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/smbprotocol:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114515`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171411`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,10 +37,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/smbprotocol:1.0.0.14109060
+Signatures for demisto/smbprotocol:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   4c685f7fd742bd8e4c99e9705ef08b002b0ce80ca86f97313e91de26f1a969d4   (Repo Admin)
 
-Administrative keys for demisto/smbprotocol:1.0.0.14109060
+Administrative keys for demisto/smbprotocol:1.0.0.14169403
 
   Repository Key:	088b156df1057ad79031b6a6bd730531013970ad5f0f2e576658c981d26f4afd
   Root Key:	0240316bb804a52f9541f18c9c15faf8aa8914a0bd9c291f797123ef57f2e258

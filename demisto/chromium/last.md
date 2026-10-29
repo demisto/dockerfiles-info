@@ -1,25 +1,25 @@
-# `demisto/chromium:155.0.8059.13862703`
+# `demisto/chromium:156.0.8078.14169403`
 
 ## Docker Metadata
-- Image Size: 868.52 MB
-- Image ID: `sha256:7137b90d8583cb66efc714d0feeb28bfe9e9ed02063f97b15359c37f4d7139b5`
-- Created: `2026-10-18T09:24:36.807323088Z`
+- Image Size: 868.48 MB
+- Image ID: `sha256:68e6dc0ce4328de34590152b45b11e76774034ace0ac37eea93a1ff1109aad5a`
+- Created: `2026-10-28T13:01:41.417531345Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/chromium:155.0.8059.13862703`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/chromium:156.0.8078.14169403`
   - `CHROME_EXE=/opt/google/chrome/google-chrome`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:462d4ea47594cd54009f71cb16a16bdf74102e65`
-  - `org.opencontainers.image.version:155.0.8059.13862703`
-  - `panw.builtby.pipeline:13864609`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:156.0.8078.14169403`
+  - `panw.builtby.pipeline:14171514`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -38,12 +38,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/chromium:155.0.8059.13862703
+Signatures for demisto/chromium:156.0.8078.14169403
 
 SIGNED TAG            DIGEST                                                             SIGNERS
-155.0.8059.13862703   9f1dbaf2235ce2a843c1321bb8fe1e90a05773fb4f8a243242b2b9d4949b5622   (Repo Admin)
+156.0.8078.14169403   c8b52bdb090b6b9178ee967d19eb09fc6eb8f58a1e23adb1f0b0e4eff04ecb54   (Repo Admin)
 
-Administrative keys for demisto/chromium:155.0.8059.13862703
+Administrative keys for demisto/chromium:156.0.8078.14169403
 
   Repository Key:	3813b768176a2034bbc69257f307406e2784fade5d96d2fb5c8aa8994fb66a2e
   Root Key:	a861014c8427259238c1457d0e612583c42705b317fa4941e4fccf641983d570
@@ -73,7 +73,7 @@ Administrative keys for demisto/chromium:155.0.8059.13862703
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -169,7 +169,7 @@ Administrative keys for demisto/chromium:155.0.8059.13862703
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -221,7 +221,7 @@ Administrative keys for demisto/chromium:155.0.8059.13862703
 ### `pillow`
 
 * Summary: Python Imaging Library (fork)
-* Version: 12.3.0
+* Version: 13.0.0
 * Pypi: https://pypi.org/project/pillow/
 * Homepage: None
 * Author: Jeffrey 'Alex' Clark <aclark@aclark.net>
@@ -229,7 +229,7 @@ Administrative keys for demisto/chromium:155.0.8059.13862703
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -373,7 +373,7 @@ Administrative keys for demisto/chromium:155.0.8059.13862703
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -506,7 +506,7 @@ Administrative keys for demisto/chromium:155.0.8059.13862703
 * build-essential	12.12
 * bzip2	1.0.8-6
 * bzip2-doc	1.0.8-6
-* ca-certificates	20250419
+* ca-certificates	20250419+deb13u1
 * cmake	3.31.6-2
 * cmake-data	3.31.6-2
 * comerr-dev:amd64	2.1-1.47.2-3+b12
@@ -556,7 +556,7 @@ Administrative keys for demisto/chromium:155.0.8059.13862703
 * gnupg	2.4.7-21+deb13u1
 * gnupg-l10n	2.4.7-21+deb13u1
 * gnupg2	2.4.7-21+deb13u1
-* google-chrome-stable	155.0.8059.84-1
+* google-chrome-stable	156.0.8078.73-1
 * gpg	2.4.7-21+deb13u1+b5
 * gpg-agent	2.4.7-21+deb13u1+b5
 * gpg-wks-client	2.4.7-21+deb13u1+b5
@@ -600,8 +600,8 @@ Administrative keys for demisto/chromium:155.0.8059.13862703
 * libblkid1:amd64	2.41.5-0+deb13u1
 * libboost-dev:amd64	1.83.0.2+b2
 * libboost1.83-dev:amd64	1.83.0-4.2
-* libbrotli-dev:amd64	1.1.0-2+b7
-* libbrotli1:amd64	1.1.0-2+b7
+* libbrotli-dev:amd64	1.1.0-2+deb13u1
+* libbrotli1:amd64	1.1.0-2+deb13u1
 * libbsd0:amd64	0.12.2-2
 * libbz2-1.0:amd64	1.0.8-6
 * libbz2-dev:amd64	1.0.8-6
@@ -725,11 +725,11 @@ Administrative keys for demisto/chromium:155.0.8059.13862703
 * libgtk-3-common	3.24.49-3
 * libgudev-1.0-0:amd64	238-6
 * libharfbuzz0b:amd64	10.2.0-1+deb13u1
-* libheif-plugin-aomenc:amd64	1.23.4-1~deb13u1
-* libheif-plugin-dav1d:amd64	1.23.4-1~deb13u1
-* libheif-plugin-libde265:amd64	1.23.4-1~deb13u1
-* libheif-plugin-x265:amd64	1.23.4-1~deb13u1
-* libheif1:amd64	1.23.4-1~deb13u1
+* libheif-plugin-aomenc:amd64	1.23.6-2~deb13u1
+* libheif-plugin-dav1d:amd64	1.23.6-2~deb13u1
+* libheif-plugin-libde265:amd64	1.23.6-2~deb13u1
+* libheif-plugin-x265:amd64	1.23.6-2~deb13u1
+* libheif1:amd64	1.23.6-2~deb13u1
 * libhogweed6t64:amd64	3.10.1-1
 * libhtml-form-perl	6.12-1
 * libhtml-format-perl	2.16-2
@@ -932,7 +932,7 @@ Administrative keys for demisto/chromium:155.0.8059.13862703
 * libtsan2:amd64	14.2.0-19
 * libubsan1:amd64	14.2.0-19
 * libudev1:amd64	257.13-1~deb13u1
-* libunbound8:amd64	1.26.1-0+deb13u1
+* libunbound8:amd64	1.26.2-0+deb13u1
 * libunistring5:amd64	1.3-2
 * libunwind8:amd64	1.8.1-0.1
 * liburi-perl	5.30-1
@@ -1078,7 +1078,7 @@ Administrative keys for demisto/chromium:155.0.8059.13862703
 * tigervnc-common	1.15.0+dfsg-2.1~deb13u1
 * tigervnc-standalone-server	1.15.0+dfsg-2.1~deb13u1
 * tigervnc-tools	1.15.0+dfsg-2.1~deb13u1
-* tzdata	2026c-0+deb13u1
+* tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * uuid-dev:amd64	2.41.5-0+deb13u1
 * wget	1.25.0-2

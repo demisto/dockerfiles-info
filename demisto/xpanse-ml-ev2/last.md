@@ -1,9 +1,9 @@
-# `demisto/xpanse-ml-ev2:1.0.0.14109060`
+# `demisto/xpanse-ml-ev2:1.0.0.14170433`
 
 ## Docker Metadata
-- Image Size: 190.04 MB
-- Image ID: `sha256:cfae33c06a9b55cc3ca801b0169118f91c04889c2808355213e9214c63f36cdc`
-- Created: `2026-10-26T11:29:11.650966169Z`
+- Image Size: 189.99 MB
+- Image ID: `sha256:a1bab5daa76284bb134ee21bef2226ee23305703c68fa8522557a57850c6187a`
+- Created: `2026-10-28T13:52:00.152325167Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.14170433`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114516`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14170433`
+  - `panw.builtby.pipeline:14173861`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,10 +37,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/xpanse-ml-ev2:1.0.0.14109060
+Signatures for demisto/xpanse-ml-ev2:1.0.0.14170433
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14170433   ae92931ff0149d208ecf0213c0f330ac099307025679cb16996d5b83fbed6132   (Repo Admin)
 
-Administrative keys for demisto/xpanse-ml-ev2:1.0.0.14109060
+Administrative keys for demisto/xpanse-ml-ev2:1.0.0.14170433
 
   Repository Key:	fa55b8182edbcafca39872dc58748778b2ff80634214e1872a9351313e618c45
   Root Key:	4324e3baaaa90dedc0be93f30c2271fb7bbaa8de8949e6c3996a45c6e81637d2

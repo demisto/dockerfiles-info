@@ -1,9 +1,9 @@
-# `demisto/sixgill:1.0.0.14109060`
+# `demisto/sixgill:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 33.94 MB
-- Image ID: `sha256:a0a640c42c4d37437d1c05dd7b1d65b06c0224ad4d67adefa1f1b6cbbdb4f1b2`
-- Created: `2026-10-26T11:31:05.131069863Z`
+- Image ID: `sha256:2cef04f8063663d4bf8e5d05c0648f2a6cfd748f02b22f38aa7853091c6b6380`
+- Created: `2026-10-28T12:54:45.831916748Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/sixgill:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/sixgill:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114511`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171412`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/sixgill:1.0.0.14109060
+Signatures for demisto/sixgill:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   c035f958e7ccc6456fc7bdc519dc0c27a86e33786b47562c750b7c45c5028317   (Repo Admin)
 
-Administrative keys for demisto/sixgill:1.0.0.14109060
+Administrative keys for demisto/sixgill:1.0.0.14169403
 
   Repository Key:	58244cace1e0dfca02588d350912308d7a945334b498b7ac5b817eed4f1bcdb9
   Root Key:	19c64b4ec94df00225df70fe86343f3282ab1ce2fd26da1f766d1aaed185ae8e

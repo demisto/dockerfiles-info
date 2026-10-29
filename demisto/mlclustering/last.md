@@ -1,24 +1,24 @@
-# `demisto/mlclustering:1.0.0.13804971`
+# `demisto/mlclustering:1.0.0.14169403`
 
 ## Docker Metadata
-- Image Size: 186.10 MB
-- Image ID: `sha256:88bf4efc79c2bff8890d9d5b7297e856ca99f105d6f34cecb3b49b68d74e1af2`
-- Created: `2026-10-14T23:48:55.961252105Z`
+- Image Size: 187.27 MB
+- Image ID: `sha256:93628dc2ea989cb2597a0aa65993f975442a794c29c41f8c293019ea19d9d900`
+- Created: `2026-10-28T12:56:36.172079678Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/mlclustering:1.0.0.13804971`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/mlclustering:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:c149eca84669dac26b3da087a1148e698648fd87`
-  - `org.opencontainers.image.version:1.0.0.13804971`
-  - `panw.builtby.pipeline:13805387`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171461`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/mlclustering:1.0.0.13804971
+Signatures for demisto/mlclustering:1.0.0.14169403
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13804971   dba63b522ccb9f1ed5e740a8e337094bb6bdbc732539fad18c7ad452c9a5d1db   (Repo Admin)
+1.0.0.14169403   a047283973c7e40294e2a0e6e97b0221b986f06a64c02d0ff0a2776e81153efb   (Repo Admin)
 
-Administrative keys for demisto/mlclustering:1.0.0.13804971
+Administrative keys for demisto/mlclustering:1.0.0.14169403
 
   Repository Key:	d8855dc0db9e2ead8c2f610d59993d791267c23029f0e34d7599fdc315359432
   Root Key:	e037f02a27ce45de827cee6fb6e79e9a04241487236ec6abf050019f6a7e7f13
@@ -63,7 +63,7 @@ Administrative keys for demisto/mlclustering:1.0.0.13804971
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -186,7 +186,7 @@ Administrative keys for demisto/mlclustering:1.0.0.13804971
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -194,7 +194,7 @@ Administrative keys for demisto/mlclustering:1.0.0.13804971
 ### `narwhals`
 
 * Summary: Extremely lightweight compatibility layer between dataframe libraries
-* Version: 2.26.0
+* Version: 2.28.0
 * Pypi: https://pypi.org/project/narwhals/
 * Homepage: None
 * Author: Marco Gorelli Marco Gorelli <hello_narwhals@proton.me>
@@ -227,16 +227,15 @@ Administrative keys for demisto/mlclustering:1.0.0.13804971
 ### `pandas`
 
 * Summary: Powerful data structures for data analysis, time series, and statistics
-* Version: 3.0.6
+* Version: 3.1.0
 * Pypi: https://pypi.org/project/pandas/
 * Homepage: None
 * Author: The Pandas Development Team <pandas-dev@python.org>
-* License :: OSI Approved :: BSD License
 
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -254,7 +253,7 @@ Administrative keys for demisto/mlclustering:1.0.0.13804971
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 2.9.0.post0
+* Version: 3.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
 * Homepage: https://github.com/dateutil/dateutil
 * Author: Gustavo Niemeyer gustavo@niemeyer.net
@@ -334,7 +333,7 @@ Administrative keys for demisto/mlclustering:1.0.0.13804971
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -372,6 +371,15 @@ Administrative keys for demisto/mlclustering:1.0.0.13804971
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 
+### `tzdata`
+
+* Summary: Provider of IANA time zone data
+* Version: 2026.5
+* Pypi: https://pypi.org/project/tzdata/
+* Homepage: https://github.com/python/tzdata
+* Author: Python Software Foundation datetime-sig@python.org
+* License: Apache-2.0
+
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
@@ -404,7 +412,7 @@ Administrative keys for demisto/mlclustering:1.0.0.13804971
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
-* ca-certificates	20250419
+* ca-certificates	20250419+deb13u1
 * coreutils	9.7-3
 * dash	0.5.12-12
 * debconf	1.5.91
@@ -441,7 +449,7 @@ Administrative keys for demisto/mlclustering:1.0.0.13804971
 * libidn2-0:amd64	2.3.8-2
 * liblastlog2-2:amd64	2.41.5-0+deb13u1
 * liblz4-1:amd64	1.10.0-4
-* liblzma5:amd64	5.8.1-1+deb13u1
+* liblzma5:amd64	5.8.1-1+deb13u2
 * libmd0:amd64	1.1.0-2+b1
 * libmount1:amd64	2.41.5-0+deb13u1
 * libncursesw6:amd64	6.5+20250216-2
@@ -486,6 +494,6 @@ Administrative keys for demisto/mlclustering:1.0.0.13804971
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026c-0+deb13u1
+* tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1

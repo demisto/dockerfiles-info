@@ -1,9 +1,9 @@
-# `demisto/sse-client:1.0.0.14109060`
+# `demisto/sse-client:1.0.0.14170433`
 
 ## Docker Metadata
 - Image Size: 33.91 MB
-- Image ID: `sha256:2f0d80fb674270d1a8216e11fdff8065416ef5b1d461e85d3e2b41c5c351bf87`
-- Created: `2026-10-26T11:28:27.803539231Z`
+- Image ID: `sha256:5d9fd2dfcbdf822012c9298aca9e1262df7142f3a09c18a6e091855e23a2fd23`
+- Created: `2026-10-28T13:51:49.371895863Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/sse-client:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/sse-client:1.0.0.14170433`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114513`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14170433`
+  - `panw.builtby.pipeline:14173860`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/sse-client:1.0.0.14109060
+Signatures for demisto/sse-client:1.0.0.14170433
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14170433   8e3b7b9c71abdfdc00c60da26333db1c7b9ff99654d1fa0e9ef257b5c20315c6   (Repo Admin)
 
-Administrative keys for demisto/sse-client:1.0.0.14109060
+Administrative keys for demisto/sse-client:1.0.0.14170433
 
   Repository Key:	f8bd875fb0b3d5cbdd641cd80ce0afc9da57d1610b56209268c4f0ec9bc6303d
   Root Key:	2eb2b8a2e191fc10ba7d6e689175d58195915ad3bef157e895d0214dc5b6aeab

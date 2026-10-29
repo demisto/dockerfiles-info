@@ -1,9 +1,9 @@
-# `demisto/exodusintelligence:1.0.0.14109060`
+# `demisto/exodusintelligence:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 60.41 MB
-- Image ID: `sha256:e5d88c5c2035b5e143e65b4aef71b92f0e97baefb4c5866b563771ce37b38e1c`
-- Created: `2026-10-26T11:29:05.520710923Z`
+- Image ID: `sha256:ed2e423af2d77363b3668a9fbf14533b12f281b9f52d8f8d06c54e89818e5522`
+- Created: `2026-10-28T12:56:49.687544727Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/exodusintelligence:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/exodusintelligence:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114464`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171499`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,10 +37,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/exodusintelligence:1.0.0.14109060
+Signatures for demisto/exodusintelligence:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   41125b2119734f57a0957f9ed4698fcdec0b20c1ffdb3afe9fb445b80bbf441b   (Repo Admin)
 
-Administrative keys for demisto/exodusintelligence:1.0.0.14109060
+Administrative keys for demisto/exodusintelligence:1.0.0.14169403
 
   Repository Key:	ac288cdb5ec62327c4ca533a9a5caf63f59b65001dd191602de19daa4b26c097
   Root Key:	54427a42481b7865031081a8837d65b78ad79eb8b9c5386edaf47177ad75e648

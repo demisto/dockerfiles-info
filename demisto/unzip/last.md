@@ -1,24 +1,24 @@
-# `demisto/unzip:1.0.0.13585977`
+# `demisto/unzip:1.0.0.14170433`
 
 ## Docker Metadata
-- Image Size: 64.59 MB
-- Image ID: `sha256:1d55faf66b53377460cfa13ca1afc9b322b685ffe320260275e8c982045be5cd`
-- Created: `2026-10-06T20:38:00.137122597Z`
+- Image Size: 62.37 MB
+- Image ID: `sha256:0b3e3ef6398a56d42ecdae4c70579b9977298549a3a170a34e314d41699ebb27`
+- Created: `2026-10-28T13:52:37.292512474Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/unzip:1.0.0.13585977`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/unzip:1.0.0.14170433`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:5fbc8a6cc3ff6d528b3653d015ef59bd4219bf6c`
-  - `org.opencontainers.image.version:1.0.0.13585977`
-  - `panw.builtby.pipeline:13586146`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14170433`
+  - `panw.builtby.pipeline:14173850`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/unzip:1.0.0.13585977
+Signatures for demisto/unzip:1.0.0.14170433
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13585977   19b0a0db41e01f57d4026f7cd3788eb593607afcf70994ef73997b709836ed1b   (Repo Admin)
+1.0.0.14170433   b3fd4a5b74c04b82bda054c3272a093e24c91cf6aca9cc0bb70d06309653e77c   (Repo Admin)
 
-Administrative keys for demisto/unzip:1.0.0.13585977
+Administrative keys for demisto/unzip:1.0.0.14170433
 
   Repository Key:	8502dcd9747d860601254c8e2e908005624ef59c37b18c2dd72db1eb8e0d37e3
   Root Key:	f7ee2f631342ff2873fc4281c1baba874434a8fca0834d6a2c3fa6ee6b04e3be
@@ -63,7 +63,7 @@ Administrative keys for demisto/unzip:1.0.0.13585977
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -151,7 +151,7 @@ Administrative keys for demisto/unzip:1.0.0.13585977
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -176,7 +176,7 @@ Administrative keys for demisto/unzip:1.0.0.13585977
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -257,7 +257,7 @@ Administrative keys for demisto/unzip:1.0.0.13585977
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -320,7 +320,7 @@ Administrative keys for demisto/unzip:1.0.0.13585977
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
-* ca-certificates	20250419
+* ca-certificates	20250419+deb13u1
 * coreutils	9.7-3
 * dash	0.5.12-12
 * debconf	1.5.91
@@ -356,7 +356,7 @@ Administrative keys for demisto/unzip:1.0.0.13585977
 * libhogweed6t64:amd64	3.10.1-1
 * liblastlog2-2:amd64	2.41.5-0+deb13u1
 * liblz4-1:amd64	1.10.0-4
-* liblzma5:amd64	5.8.1-1+deb13u1
+* liblzma5:amd64	5.8.1-1+deb13u2
 * libmd0:amd64	1.1.0-2+b1
 * libmount1:amd64	2.41.5-0+deb13u1
 * libncursesw6:amd64	6.5+20250216-2
@@ -401,7 +401,7 @@ Administrative keys for demisto/unzip:1.0.0.13585977
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026c-0+deb13u1
+* tzdata	2026e-0+deb13u1
 * unrar	1:7.1.8-1
 * util-linux	2.41.5-0+deb13u1
 * zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1

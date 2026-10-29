@@ -1,9 +1,9 @@
-# `demisto/docxpy:1.0.0.14109060`
+# `demisto/docxpy:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 39.83 MB
-- Image ID: `sha256:93df184cb2eb8d67f16b6418b3f6e1b5fd3599c1568bf72c101d4cb7c8ada523`
-- Created: `2026-10-26T11:31:58.951522445Z`
+- Image ID: `sha256:4dacedd5a9e7a853b259382654c90e1248b92fb65dbd74aa3a3745c80a3feb96`
+- Created: `2026-10-28T12:57:03.466847174Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/docxpy:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/docxpy:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114465`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171495`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/docxpy:1.0.0.14109060
+Signatures for demisto/docxpy:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   00aa43f46bab9052fc698431508e88f11c8f62f92f14536bc02cc870ee56d256   (Repo Admin)
 
-Administrative keys for demisto/docxpy:1.0.0.14109060
+Administrative keys for demisto/docxpy:1.0.0.14169403
 
   Repository Key:	46b1f735bd14c474c79826cebff6038d24bdba8f0bc75861e1a5ee0414120708
   Root Key:	ef08de32384cbb8d89d69d58914f1e12af74093d457c4fc1136054f42a3684c3

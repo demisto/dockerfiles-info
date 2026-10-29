@@ -1,9 +1,9 @@
-# `demisto/google-k8s-engine:1.0.0.14109060`
+# `demisto/google-k8s-engine:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 75.02 MB
-- Image ID: `sha256:52776d743670e1e04f2378db3a0a61fe94029e7bcd2011dc9faa94783897f743`
-- Created: `2026-10-26T11:29:50.945034124Z`
+- Image ID: `sha256:23fc525a1e1f495f53c338bc927c70ade6c592e3bf1fe2a72166d04aee7caadf`
+- Created: `2026-10-28T12:56:44.852978791Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/google-k8s-engine:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/google-k8s-engine:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114473`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171485`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,10 +37,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/google-k8s-engine:1.0.0.14109060
+Signatures for demisto/google-k8s-engine:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   00eed0cce1db81075220903135e2f3b211efd4a62a3dc23638b68fcb73833a9a   (Repo Admin)
 
-Administrative keys for demisto/google-k8s-engine:1.0.0.14109060
+Administrative keys for demisto/google-k8s-engine:1.0.0.14169403
 
   Repository Key:	fbfb793b1cd8dcd4c1e16086726ec95b98431fbb9c4a9cc8af0b7cae47f55a8a
   Root Key:	8bce9cdfcc879a0a80a4bbea156dab89352f8f0e7474b62a14639a511bdbd546

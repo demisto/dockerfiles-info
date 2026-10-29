@@ -1,9 +1,9 @@
-# `demisto/pysigma:1.0.0.14109060`
+# `demisto/pysigma:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 37.14 MB
-- Image ID: `sha256:d8bb9ed014bd0bd51fea6e0a4c671257cb70bb4a92a7bd7ca7b6cbb10b641c5a`
-- Created: `2026-10-26T11:28:12.096784603Z`
+- Image ID: `sha256:548c6a7ef019d802bf319c83baed26ee8a5050b4627c2a315c5df62755eccd6f`
+- Created: `2026-10-28T12:56:01.239398901Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/pysigma:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/pysigma:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114508`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171420`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/pysigma:1.0.0.14109060
+Signatures for demisto/pysigma:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   c0f9bd73e582da32e06ccdcb4932c7b089ad86fed89079c7ca54997746740a55   (Repo Admin)
 
-Administrative keys for demisto/pysigma:1.0.0.14109060
+Administrative keys for demisto/pysigma:1.0.0.14169403
 
   Repository Key:	651b60e7e856e34815c0504951984fdc6c7af64c0e3e5e866b1b212278535a8d
   Root Key:	76e25b8b16d7d3fbc4e9bae1c982720695224838a3a615eb4d897ca1ebbdcafd

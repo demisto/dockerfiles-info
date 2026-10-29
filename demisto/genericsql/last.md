@@ -1,24 +1,24 @@
-# `demisto/genericsql:1.2.0.13957249`
+# `demisto/genericsql:1.2.0.14169403`
 
 ## Docker Metadata
-- Image Size: 301.94 MB
-- Image ID: `sha256:40c682c105eed8e60254184586499eab74695d11e56789d74391f394a3ef982c`
-- Created: `2026-10-20T17:42:22.889472776Z`
+- Image Size: 299.72 MB
+- Image ID: `sha256:d96c3847f57ca0133a46b7f9397a936af576382a07932cacd327754e1eff701a`
+- Created: `2026-10-28T12:57:54.28629164Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.13957249`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:065c1d9c681fcef3dfd4c33274e60cad431a9ec8`
-  - `org.opencontainers.image.version:1.2.0.13957249`
-  - `panw.builtby.pipeline:13957540`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.2.0.14169403`
+  - `panw.builtby.pipeline:14171502`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/genericsql:1.2.0.13957249
+Signatures for demisto/genericsql:1.2.0.14169403
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.2.0.13957249   8bd07d2465ed97503ca907d3c66dc6d89f09cd6e6233e0b94c63f63a4c9ce591   (Repo Admin)
+1.2.0.14169403   46964c2c402b1deb1a6152c702ab3518d16949c465b5d719301acd3f54e6bc54   (Repo Admin)
 
-Administrative keys for demisto/genericsql:1.2.0.13957249
+Administrative keys for demisto/genericsql:1.2.0.14169403
 
   Repository Key:	b02fc99a72d78e9f5becfe15406ea942db310f3c3af9a7833b215eddb323f7cd
   Root Key:	d11245d830d935ed4846941604c024388aca83a60142ae5319409b1f6091afe1
@@ -63,7 +63,7 @@ Administrative keys for demisto/genericsql:1.2.0.13957249
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -185,7 +185,7 @@ Administrative keys for demisto/genericsql:1.2.0.13957249
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -352,7 +352,7 @@ Administrative keys for demisto/genericsql:1.2.0.13957249
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -369,7 +369,7 @@ Administrative keys for demisto/genericsql:1.2.0.13957249
 ### `SQLAlchemy`
 
 * Summary: Database Abstraction Library
-* Version: 2.1.5
+* Version: 2.1.6
 * Pypi: https://pypi.org/project/SQLAlchemy/
 * Homepage: None
 * Author: Mike Bayer <mike_mp@zzzcomputing.com>
@@ -441,7 +441,7 @@ Administrative keys for demisto/genericsql:1.2.0.13957249
 * bash	5.2.37-2+b10
 * bash-completion	1:2.16.0-7
 * bsdutils	1:2.41.5-0+deb13u1
-* ca-certificates	20250419
+* ca-certificates	20250419+deb13u1
 * coreutils	9.7-3
 * dash	0.5.12-12
 * debconf	1.5.91
@@ -570,7 +570,7 @@ Administrative keys for demisto/genericsql:1.2.0.13957249
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026c-0+deb13u1
+* tzdata	2026e-0+deb13u1
 * unixodbc	2.3.12-2+deb13u1
 * unixodbc-common	2.3.12-2+deb13u1
 * unzip	6.0-29+deb13u1

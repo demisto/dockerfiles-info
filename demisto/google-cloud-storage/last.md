@@ -1,9 +1,9 @@
-# `demisto/google-cloud-storage:1.0.0.14109060`
+# `demisto/google-cloud-storage:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 53.96 MB
-- Image ID: `sha256:074ed48daf88cd280ac2d10864f2e483afe1ac89ce87a24aba0a7a25d9b63442`
-- Created: `2026-10-26T11:29:23.364587281Z`
+- Image ID: `sha256:cd648c41dd96086d4983fe01f924212701999b5ca5db8397ca90bfd505a3e495`
+- Created: `2026-10-28T12:56:12.562708689Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/google-cloud-storage:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/google-cloud-storage:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114477`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171483`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/google-cloud-storage:1.0.0.14109060
+Signatures for demisto/google-cloud-storage:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   2cd5099e00ef02ea723e07cf63baecec58b9bee2e10041dc902aa3aa117673d0   (Repo Admin)
 
-Administrative keys for demisto/google-cloud-storage:1.0.0.14109060
+Administrative keys for demisto/google-cloud-storage:1.0.0.14169403
 
   Repository Key:	2ab3d4f7a65f14d64dba54c7aded1079c285fff5ad812fc19854d63a0c782c18
   Root Key:	3c2392b332f73092db366898dd6e161ffbf0aff1d5cfedf61a69e056c49a538e

@@ -1,9 +1,9 @@
-# `demisto/pcap-miner:1.0.0.14109060`
+# `demisto/pcap-miner:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 81.02 MB
-- Image ID: `sha256:d5f4de460e80d72770032b636a56de46066a489b16b8bdd8e6e424cfdad3fab0`
-- Created: `2026-10-26T11:30:07.414482386Z`
+- Image ID: `sha256:b5641b1351429ab4cc93c8d70a8ebd551e9d45ebee3e9089b69c832ffd92f012`
+- Created: `2026-10-28T12:56:27.828734518Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/pcap-miner:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/pcap-miner:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114497`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171434`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/pcap-miner:1.0.0.14109060
+Signatures for demisto/pcap-miner:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   98fda718c892ec9a33845d0040bc89867bb29c7dda356231d3544ceceb501ca6   (Repo Admin)
 
-Administrative keys for demisto/pcap-miner:1.0.0.14109060
+Administrative keys for demisto/pcap-miner:1.0.0.14169403
 
   Repository Key:	96a3823375c52caeaf2d0fea331785c2a44bcdd81fc771ac59b0e581e05d9621
   Root Key:	9ba37c9e3fcbf21715b56cb970082bb72679ac3092e6ae254674b94ae77f43ee

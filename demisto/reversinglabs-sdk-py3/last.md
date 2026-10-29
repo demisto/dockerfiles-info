@@ -1,9 +1,9 @@
-# `demisto/reversinglabs-sdk-py3:2.0.0.14109060`
+# `demisto/reversinglabs-sdk-py3:2.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 51.41 MB
-- Image ID: `sha256:18cb2c2b729447615a9ce7db31b35d7717181c0f5aeed7d2632d865fc0e750c7`
-- Created: `2026-10-26T11:28:43.430475082Z`
+- Image ID: `sha256:28bb77a3bc87a56134a9e87524cf90cd72322b23bda0a913ac424fc38337aaef`
+- Created: `2026-10-28T12:55:12.350571148Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/reversinglabs-sdk-py3:2.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/reversinglabs-sdk-py3:2.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:2.0.0.14109060`
-  - `panw.builtby.pipeline:14114503`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:2.0.0.14169403`
+  - `panw.builtby.pipeline:14171424`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/reversinglabs-sdk-py3:2.0.0.14109060
+Signatures for demisto/reversinglabs-sdk-py3:2.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+2.0.0.14169403   0539448dfd2258684d92bd88d514329d845893e1145ad8623227f4378f2d4251   (Repo Admin)
 
-Administrative keys for demisto/reversinglabs-sdk-py3:2.0.0.14109060
+Administrative keys for demisto/reversinglabs-sdk-py3:2.0.0.14169403
 
   Repository Key:	5e93419eb6d8a31869c828bd17ef0f5e2601c6e5df2716811b48521a02b59b33
   Root Key:	2657b42befb038b71799a157f633914ee573e1f7664de856fcee8187a3db92f5

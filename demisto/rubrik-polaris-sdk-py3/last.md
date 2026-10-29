@@ -1,9 +1,9 @@
-# `demisto/rubrik-polaris-sdk-py3:1.0.0.14109060`
+# `demisto/rubrik-polaris-sdk-py3:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 89.34 MB
-- Image ID: `sha256:50276d4dd8db2caad8d876eed0dbeeb439e688b59ba07ecdfa69e1c38fd88512`
-- Created: `2026-10-26T11:31:01.437732377Z`
+- Image ID: `sha256:9a1fc91ddd1c5d4e1dc502e807242e41421b04f5d0806155e9976376d2f79f4a`
+- Created: `2026-10-28T12:55:48.881486799Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/rubrik-polaris-sdk-py3:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/rubrik-polaris-sdk-py3:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114518`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171421`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/rubrik-polaris-sdk-py3:1.0.0.14109060
+Signatures for demisto/rubrik-polaris-sdk-py3:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   55eec4ed3a4f4b7c12443df45c7062e137da73769488e625f6862f082656eb81   (Repo Admin)
 
-Administrative keys for demisto/rubrik-polaris-sdk-py3:1.0.0.14109060
+Administrative keys for demisto/rubrik-polaris-sdk-py3:1.0.0.14169403
 
   Repository Key:	1b281dec395e4830206052ca7e6c1135c52928081c5362ecffc899f4a6ec19ef
   Root Key:	649e02f412238022e9aa6b004a5838206b0b4e0ca4f4a6c5b8afd2a5a75e420d

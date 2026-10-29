@@ -1,9 +1,9 @@
-# `demisto/graphql:1.0.0.14109060`
+# `demisto/graphql:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 36.03 MB
-- Image ID: `sha256:738174231db6d7ea0b639fea3a880b9cb00c8da347dccb1b28e6f9a9d42492e5`
-- Created: `2026-10-26T11:28:17.531131089Z`
+- Image ID: `sha256:ca0da2946a090c8004dd95c608d4a20b35d4f825d97703291d953f3b76d65731`
+- Created: `2026-10-28T12:56:36.676049334Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/graphql:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/graphql:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114479`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171484`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/graphql:1.0.0.14109060
+Signatures for demisto/graphql:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   7e8f2d15ccd75e7a8a492648a3b6427a5efe8f0274a9c32ee9282988ec289a3b   (Repo Admin)
 
-Administrative keys for demisto/graphql:1.0.0.14109060
+Administrative keys for demisto/graphql:1.0.0.14169403
 
   Repository Key:	f9b19e79a296b3e394b29ce93d483a1d6dee966f07dfc1ead47f436797b3b505
   Root Key:	3e75fae1517377de7c78b35af22a0ebf537bfb65c584dc6043ecc10c38b047dc

@@ -1,9 +1,9 @@
-# `demisto/pyotrs:1.0.0.14109060`
+# `demisto/pyotrs:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 34.42 MB
-- Image ID: `sha256:f1db9c0150e7bf9873503635b29684935918ac9e55043ffbf27ca0acf63ea854`
-- Created: `2026-10-26T11:28:04.506279597Z`
+- Image ID: `sha256:ee02ea67564e0cb26fa02f15d45e899bf9b2dc8660e0f4d6fa1ce51f32a3965a`
+- Created: `2026-10-28T12:55:27.220052841Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/pyotrs:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/pyotrs:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114504`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171429`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/pyotrs:1.0.0.14109060
+Signatures for demisto/pyotrs:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   a09ca75b8e1192689eda6295fcac62f64ddda4c9f0afbe4c2c84c71570d8593c   (Repo Admin)
 
-Administrative keys for demisto/pyotrs:1.0.0.14109060
+Administrative keys for demisto/pyotrs:1.0.0.14169403
 
   Repository Key:	782309d28429e1aceccd81f3d7d55f0c5894e977094a87d68fecb539782252ff
   Root Key:	ab48f05aa4b215579b18849df811e516cd1c89bad845984fe614208efbeda33e

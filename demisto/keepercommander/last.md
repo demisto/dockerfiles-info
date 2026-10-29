@@ -1,9 +1,9 @@
-# `demisto/keepercommander:1.0.0.14109060`
+# `demisto/keepercommander:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 113.30 MB
-- Image ID: `sha256:96cd17a1192c738b021aaa75be6376ed6216007e567f234ff8f9944946d4232f`
-- Created: `2026-10-26T11:28:59.225032416Z`
+- Image ID: `sha256:0bff6f0dfae671822101bf1e32bf0beac0815c0d2b0a04a14e4a45540c2f8ace`
+- Created: `2026-10-28T12:57:01.689172738Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/keepercommander:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/keepercommander:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114486`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171465`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,10 +37,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/keepercommander:1.0.0.14109060
+Signatures for demisto/keepercommander:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   f7b01c9acfe34f13e249aee9669668288c311e8ec1f94d4283c2af1c5fdb942c   (Repo Admin)
 
-Administrative keys for demisto/keepercommander:1.0.0.14109060
+Administrative keys for demisto/keepercommander:1.0.0.14169403
 
   Repository Key:	6b4c4c8538fa4913cdd4302f4b122f560b2edd89f4c9989713eefaef50dd0cfb
   Root Key:	52d43b84cdd7efdb974a7041cb968424eb2d6032575ffb6b68028bc0f84efc3f
@@ -480,7 +482,6 @@ Administrative keys for demisto/keepercommander:1.0.0.14109060
 * Pypi: https://pypi.org/project/platformdirs/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `prompt_toolkit`
 

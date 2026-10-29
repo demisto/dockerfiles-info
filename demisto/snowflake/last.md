@@ -1,24 +1,24 @@
-# `demisto/snowflake:1.0.0.13548907`
+# `demisto/snowflake:1.0.0.14170433`
 
 ## Docker Metadata
-- Image Size: 99.48 MB
-- Image ID: `sha256:6c15e9e75bdce26532e6e33321b171f0b31aa6574c78b394eff803dd710d052d`
-- Created: `2026-10-05T18:00:06.294375651Z`
+- Image Size: 81.30 MB
+- Image ID: `sha256:4dec58e58b9cefb89324bcc7b304906e8dbdcdebcbff1d7c75f31fdc83bfc843`
+- Created: `2026-10-28T13:52:58.703781985Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/snowflake:1.0.0.13548907`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/snowflake:1.0.0.14170433`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:10d70f2de0645ef6366ecbdd8d0853178688711a`
-  - `org.opencontainers.image.version:1.0.0.13548907`
-  - `panw.builtby.pipeline:13549503`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14170433`
+  - `panw.builtby.pipeline:14173872`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/snowflake:1.0.0.13548907
+Signatures for demisto/snowflake:1.0.0.14170433
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13548907   5d2fda72568d368dcbcb78db2a2837ddf972a0a1324be874e91bc6cc37dcce10   (Repo Admin)
+1.0.0.14170433   da446c45e6b1de6f9e2aa738b86c5149691e52c64d989a47cb2f2adf5b3c4c39   (Repo Admin)
 
-Administrative keys for demisto/snowflake:1.0.0.13548907
+Administrative keys for demisto/snowflake:1.0.0.14170433
 
   Repository Key:	e5af6c8f1edf3b7b609ca6e966b4b02cda62a847f7886ade144fdd863264d2dc
   Root Key:	62fa4117d95ea03c7a2357871e30ec66d7a624e3b931de015922a0c52d289cac
@@ -55,42 +55,15 @@ Administrative keys for demisto/snowflake:1.0.0.13548907
 ### `anyio`
 
 * Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.14.2
+* Version: 4.15.1
 * Pypi: https://pypi.org/project/anyio/
 * Homepage: None
 * Author: Alex Grönholm <alex.gronholm@nextday.fi>
 
-### `asn1crypto`
-
-* Summary: Fast ASN.1 parser and serializer with definitions for private keys, public keys, certificates, CRL, OCSP, CMS, PKCS#3, PKCS#7, PKCS#8, PKCS#12, PKCS#5, X.509 and TSP
-* Version: 1.5.1
-* Pypi: https://pypi.org/project/asn1crypto/
-* Homepage: https://github.com/wbond/asn1crypto
-* Author: wbond will@wbond.net
-* License :: OSI Approved :: MIT License
-
-### `boto3`
-
-* Summary: The AWS SDK for Python (Boto3)
-* Version: 1.43.108
-* Pypi: https://pypi.org/project/boto3/
-* Homepage: https://github.com/boto/boto3
-* Author: Amazon Web Services
-* License: Apache-2.0
-
-### `botocore`
-
-* Summary: Low-level, data-driven core of boto 3.
-* Version: 1.43.108
-* Pypi: https://pypi.org/project/botocore/
-* Homepage: https://github.com/boto/botocore
-* Author: Amazon Web Services
-* License: Apache-2.0
-
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -141,7 +114,7 @@ Administrative keys for demisto/snowflake:1.0.0.13548907
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.32.7
+* Version: 4.0.10
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -191,19 +164,10 @@ Administrative keys for demisto/snowflake:1.0.0.13548907
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
 
-### `jmespath`
-
-* Summary: JSON Matching Expressions
-* Version: 1.1.0
-* Pypi: https://pypi.org/project/jmespath/
-* Homepage: https://github.com/jmespath/jmespath.py
-* Author: James Saryerwinnie js@jamesls.com
-* License :: OSI Approved :: MIT License
-
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -228,45 +192,28 @@ Administrative keys for demisto/snowflake:1.0.0.13548907
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
 * License: MIT
 
-### `platformdirs`
+### `protobuf`
 
-* Summary: A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`.
-* Version: 4.12.3
-* Pypi: https://pypi.org/project/platformdirs/
-* Homepage: None
-* Author: None
-* License :: OSI Approved :: MIT License
+* Summary: None
+* Version: 6.33.6
+* Pypi: https://pypi.org/project/protobuf/
+* Homepage: https://developers.google.com/protocol-buffers/
+* Author: protobuf@googlegroups.com protobuf@googlegroups.com
+* License: 3-Clause BSD License
 
 ### `pycparser`
 
 * Summary: C parser in Python
-* Version: 3.0
+* Version: 3.12
 * Pypi: https://pypi.org/project/pycparser/
 * Homepage: None
 * Author: Eli Bendersky <eliben@gmail.com>
-
-### `PyJWT`
-
-* Summary: JSON Web Token implementation in Python
-* Version: 2.15.1
-* Pypi: https://pypi.org/project/PyJWT/
-* Homepage: None
-* Author: Jose Padilla <hello@jpadilla.com>
-
-### `pyOpenSSL`
-
-* Summary: Python wrapper module around the OpenSSL library
-* Version: 26.4.0
-* Pypi: https://pypi.org/project/pyOpenSSL/
-* Homepage: https://pyopenssl.org/
-* Author: The pyOpenSSL developers cryptography-dev@python.org
-* License :: OSI Approved :: Apache Software License
 
 ### `PySocks`
 
@@ -308,7 +255,7 @@ Administrative keys for demisto/snowflake:1.0.0.13548907
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.9.3
+* Version: 2026.9.29
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -340,19 +287,10 @@ Administrative keys for demisto/snowflake:1.0.0.13548907
 * Author: Jonas Lundberg jonas@5monkeys.se
 * License :: OSI Approved :: BSD License
 
-### `s3transfer`
-
-* Summary: An Amazon S3 Transfer Manager
-* Version: 0.19.2
-* Pypi: https://pypi.org/project/s3transfer/
-* Homepage: https://github.com/boto/s3transfer
-* Author: Amazon Web Services kyknapp1@gmail.com
-* License :: OSI Approved :: Apache Software License
-
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -368,26 +306,17 @@ Administrative keys for demisto/snowflake:1.0.0.13548907
 
 ### `snowflake-connector-python`
 
-* Summary: Snowflake Connector for Python
-* Version: 4.8.0
+* Summary: Snowflake DB driver for Python
+* Version: 5.1.0
 * Pypi: https://pypi.org/project/snowflake-connector-python/
-* Homepage: https://www.snowflake.com/
-* Author: Snowflake, Inc snowflake-python-libraries-dl@snowflake.com
-* License :: OSI Approved :: Apache Software License
-
-### `sortedcontainers`
-
-* Summary: Sorted Containers -- Sorted List, Sorted Dict, Sorted Set
-* Version: 2.4.0
-* Pypi: https://pypi.org/project/sortedcontainers/
-* Homepage: http://www.grantjenks.com/docs/sortedcontainers/
-* Author: Grant Jenks contact@grantjenks.com
+* Homepage: None
+* Author: None
 * License :: OSI Approved :: Apache Software License
 
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.2
+* Version: 5.4.0
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
@@ -395,11 +324,10 @@ Administrative keys for demisto/snowflake:1.0.0.13548907
 ### `tomlkit`
 
 * Summary: Style preserving TOML library
-* Version: 0.15.1
+* Version: 0.15.2
 * Pypi: https://pypi.org/project/tomlkit/
 * Homepage: None
 * Author: Sébastien Eustace sebastien@eustace.io
-* License :: OSI Approved :: MIT License
 
 ### `typing_extensions`
 
@@ -441,7 +369,7 @@ Administrative keys for demisto/snowflake:1.0.0.13548907
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
-* ca-certificates	20250419
+* ca-certificates	20250419+deb13u1
 * coreutils	9.7-3
 * dash	0.5.12-12
 * debconf	1.5.91
@@ -478,7 +406,7 @@ Administrative keys for demisto/snowflake:1.0.0.13548907
 * libidn2-0:amd64	2.3.8-2
 * liblastlog2-2:amd64	2.41.5-0+deb13u1
 * liblz4-1:amd64	1.10.0-4
-* liblzma5:amd64	5.8.1-1+deb13u1
+* liblzma5:amd64	5.8.1-1+deb13u2
 * libmd0:amd64	1.1.0-2+b1
 * libmount1:amd64	2.41.5-0+deb13u1
 * libncursesw6:amd64	6.5+20250216-2
@@ -487,7 +415,7 @@ Administrative keys for demisto/snowflake:1.0.0.13548907
 * libpam-modules:amd64	1.7.0-5
 * libpam-runtime	1.7.0-5
 * libpam0g:amd64	1.7.0-5
-* libpcre2-8-0:amd64	10.46-1~deb13u2
+* libpcre2-8-0:amd64	10.46-1~deb13u3
 * libproc2-0:amd64	2:4.0.4-9
 * libreadline8t64:amd64	8.2-6
 * libseccomp2:amd64	2.6.0-2
@@ -497,7 +425,7 @@ Administrative keys for demisto/snowflake:1.0.0.13548907
 * libsepol2:amd64	3.8.1-1
 * libsmartcols1:amd64	2.41.5-0+deb13u1
 * libsqlite3-0:amd64	3.46.1-7+deb13u2
-* libssl3t64:amd64	3.5.7-1~deb13u2
+* libssl3t64:amd64	3.5.7-1~deb13u3
 * libstdc++6:amd64	14.2.0-19
 * libsystemd0:amd64	257.13-1~deb13u1
 * libtinfo6:amd64	6.5+20250216-2
@@ -513,8 +441,8 @@ Administrative keys for demisto/snowflake:1.0.0.13548907
 * ncurses-base	6.5+20250216-2
 * ncurses-bin	6.5+20250216-2
 * netbase	6.5
-* openssl	3.5.7-1~deb13u2
-* openssl-provider-legacy	3.5.7-1~deb13u2
+* openssl	3.5.7-1~deb13u3
+* openssl-provider-legacy	3.5.7-1~deb13u3
 * passwd	1:4.17.4-2
 * perl-base	5.40.1-6+deb13u1
 * procps	2:4.0.4-9
@@ -523,6 +451,6 @@ Administrative keys for demisto/snowflake:1.0.0.13548907
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026c-0+deb13u1
+* tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1

@@ -1,24 +1,24 @@
-# `demisto/ippysocks-py3:1.0.0.13768061`
+# `demisto/ippysocks-py3:1.0.0.14169403`
 
 ## Docker Metadata
-- Image Size: 61.77 MB
-- Image ID: `sha256:3936c8d8c17d9031cd27ab738955e44e0eb5d19422c1d8ce8843851c86fdfb4a`
-- Created: `2026-10-13T17:58:12.568903255Z`
+- Image Size: 59.96 MB
+- Image ID: `sha256:ed599f2ef19866ea81befe74b39265fa535c878c24743f30d4675aaa3d98e351`
+- Created: `2026-10-28T12:56:29.99327412Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/ippysocks-py3:1.0.0.13768061`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/ippysocks-py3:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3e7f9ef326753312cc75d337c587f8f7601e41bd`
-  - `org.opencontainers.image.version:1.0.0.13768061`
-  - `panw.builtby.pipeline:13768538`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171474`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/ippysocks-py3:1.0.0.13768061
+Signatures for demisto/ippysocks-py3:1.0.0.14169403
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13768061   a30b2e51c0458621398f64f5d794d721a4bf9c1aee9cfcd887fccf54db2b6174   (Repo Admin)
+1.0.0.14169403   3aecbf9749583ec7ac6694ab808dfc000ab3049e9746e1633abade17399bc0d6   (Repo Admin)
 
-Administrative keys for demisto/ippysocks-py3:1.0.0.13768061
+Administrative keys for demisto/ippysocks-py3:1.0.0.14169403
 
   Repository Key:	e44c7afabeca5185fe1e6bcf908b3bb53fc1c0b900b9f55f382833f1536f42d8
   Root Key:	c90f2820ccc5affd363c1610cc94f6b04ffa25a9afd57f2ad9279ddc3b16944d
@@ -63,7 +63,7 @@ Administrative keys for demisto/ippysocks-py3:1.0.0.13768061
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -169,7 +169,7 @@ Administrative keys for demisto/ippysocks-py3:1.0.0.13768061
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -194,7 +194,7 @@ Administrative keys for demisto/ippysocks-py3:1.0.0.13768061
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -212,7 +212,7 @@ Administrative keys for demisto/ippysocks-py3:1.0.0.13768061
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 2.9.0.post0
+* Version: 3.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
 * Homepage: https://github.com/dateutil/dateutil
 * Author: Gustavo Niemeyer gustavo@niemeyer.net
@@ -284,7 +284,7 @@ Administrative keys for demisto/ippysocks-py3:1.0.0.13768061
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -313,6 +313,15 @@ Administrative keys for demisto/ippysocks-py3:1.0.0.13768061
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
+
+### `tzdata`
+
+* Summary: Provider of IANA time zone data
+* Version: 2026.5
+* Pypi: https://pypi.org/project/tzdata/
+* Homepage: https://github.com/python/tzdata
+* Author: Python Software Foundation datetime-sig@python.org
+* License: Apache-2.0
 
 ### `tzlocal`
 
@@ -346,7 +355,7 @@ Administrative keys for demisto/ippysocks-py3:1.0.0.13768061
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
-* ca-certificates	20250419
+* ca-certificates	20250419+deb13u1
 * coreutils	9.7-3
 * dash	0.5.12-12
 * debconf	1.5.91
@@ -382,7 +391,7 @@ Administrative keys for demisto/ippysocks-py3:1.0.0.13768061
 * libhogweed6t64:amd64	3.10.1-1
 * liblastlog2-2:amd64	2.41.5-0+deb13u1
 * liblz4-1:amd64	1.10.0-4
-* liblzma5:amd64	5.8.1-1+deb13u1
+* liblzma5:amd64	5.8.1-1+deb13u2
 * libmd0:amd64	1.1.0-2+b1
 * libmount1:amd64	2.41.5-0+deb13u1
 * libncursesw6:amd64	6.5+20250216-2
@@ -426,6 +435,6 @@ Administrative keys for demisto/ippysocks-py3:1.0.0.13768061
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026c-0+deb13u1
+* tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1

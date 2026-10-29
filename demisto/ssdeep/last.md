@@ -1,9 +1,9 @@
-# `demisto/ssdeep:1.0.0.14109060`
+# `demisto/ssdeep:1.0.0.14170433`
 
 ## Docker Metadata
 - Image Size: 58.48 MB
-- Image ID: `sha256:e755de03ecca78c6fca3d848b3048bc42c5b36325b162fb64ab5f3452327dd9a`
-- Created: `2026-10-26T11:32:29.65317636Z`
+- Image ID: `sha256:0e7d6c5bb3903c314d7d375fb8b053f705c8b037cb66785dffcb6f72a2c132d5`
+- Created: `2026-10-28T13:52:08.598784788Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/ssdeep:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/ssdeep:1.0.0.14170433`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114517`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14170433`
+  - `panw.builtby.pipeline:14173853`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,10 +37,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/ssdeep:1.0.0.14109060
+Signatures for demisto/ssdeep:1.0.0.14170433
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14170433   a5385d38fb893e7691d5070ae05deca222c419b8b39a89945c83aa7591e67f7f   (Repo Admin)
 
-Administrative keys for demisto/ssdeep:1.0.0.14109060
+Administrative keys for demisto/ssdeep:1.0.0.14170433
 
   Repository Key:	314211bfccd7ec3dfa0edc5c9c0382c6ee426f2c5a4a2da3a3d41dd1f180834f
   Root Key:	962bc9dd941738bbacb775f3517a6c2fdecb1794b6e6b70f71f90c9e32ea6516

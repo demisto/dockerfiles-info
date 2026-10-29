@@ -1,9 +1,9 @@
-# `demisto/datadog-api-client:1.0.0.14109060`
+# `demisto/datadog-api-client:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 42.46 MB
-- Image ID: `sha256:78355dbcedd72e86580c5482471ba2989ef06ebb2bce2be4d7633a4366964b08`
-- Created: `2026-10-26T11:28:53.797871793Z`
+- Image ID: `sha256:e8292fde6d4ad3e604751978b61e96334cfe201f69883268f63c141371519ab0`
+- Created: `2026-10-28T12:56:54.966058022Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/datadog-api-client:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/datadog-api-client:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114468`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171511`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/datadog-api-client:1.0.0.14109060
+Signatures for demisto/datadog-api-client:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   91bd91b1a1130ef2b36493fa4d69c0afda000780fb56359a4349fc9f844ad1d9   (Repo Admin)
 
-Administrative keys for demisto/datadog-api-client:1.0.0.14109060
+Administrative keys for demisto/datadog-api-client:1.0.0.14169403
 
   Repository Key:	656d78d0ce1bf497326f1f73e1748d6dc41faace8487b29f8cf74838cf932cd9
   Root Key:	f37ef2584cf450f8c9dd9e8721f92ef81e852897ae167f699bb2c8bffa6ecd86

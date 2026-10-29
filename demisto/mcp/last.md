@@ -1,9 +1,9 @@
-# `demisto/mcp:1.0.0.14109060`
+# `demisto/mcp:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 46.98 MB
-- Image ID: `sha256:b66b8d750bb484e1d3f89f4e90909228d89977fa14bbb661c47df47bf7d38901`
-- Created: `2026-10-26T11:32:32.261765649Z`
+- Image ID: `sha256:1589c1ba71c2a2ebb18803c08703307aae22068787b44ce04c711efc89a9882a`
+- Created: `2026-10-28T12:56:10.638768448Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/mcp:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/mcp:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114487`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171467`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/mcp:1.0.0.14109060
+Signatures for demisto/mcp:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   5c6cf255cfc75b3c74daf0129983852267598a41e786280731d5974bbdfe7068   (Repo Admin)
 
-Administrative keys for demisto/mcp:1.0.0.14109060
+Administrative keys for demisto/mcp:1.0.0.14169403
 
   Repository Key:	33380d20e18cb2980bcdfa01f031d099d2db52b45122f978a80246c9ee48daab
   Root Key:	e45106a7e5d7cc94d559856627cc933af59af78ae3e8d2e9f677904e5b94e13f

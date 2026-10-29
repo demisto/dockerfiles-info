@@ -1,9 +1,9 @@
-# `demisto/aquatone:2.0.0.14109060`
+# `demisto/aquatone:2.0.0.14170433`
 
 ## Docker Metadata
 - Image Size: 70.19 MB
-- Image ID: `sha256:15356355513ec948e8ea94350ef0850bbf76b74e661bd5e798afa3fba4a59dd1`
-- Created: `2026-10-26T11:31:26.05413753Z`
+- Image ID: `sha256:35ad8eea03030c5b6748efd4ac5f64130f1dad8452de97763e11aef016567832`
+- Created: `2026-10-28T13:52:50.44745817Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/aquatone:2.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/aquatone:2.0.0.14170433`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:2.0.0.14109060`
-  - `panw.builtby.pipeline:14114453`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:2.0.0.14170433`
+  - `panw.builtby.pipeline:14173855`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,10 +37,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/aquatone:2.0.0.14109060
+Signatures for demisto/aquatone:2.0.0.14170433
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+2.0.0.14170433   72cb21e26df2b518bbf68d3532c2bc04f3160b9c53c5ed6bbbfeaca91284075f   (Repo Admin)
 
-Administrative keys for demisto/aquatone:2.0.0.14109060
+Administrative keys for demisto/aquatone:2.0.0.14170433
 
   Repository Key:	eafc1437f438d0700e427590d57e4ea24076f1472ef0a051cfd62a8cb54360f3
   Root Key:	b5afd9749ec9d89b80148cb7908cb1c5d2b8c18ee47b87a08c3c9aac17596370

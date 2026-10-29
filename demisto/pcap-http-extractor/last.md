@@ -1,9 +1,9 @@
-# `demisto/pcap-http-extractor:1.0.0.14109060`
+# `demisto/pcap-http-extractor:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 110.19 MB
-- Image ID: `sha256:fb759f9121e072e1392c1a0d67844f41ab1650eddd5f241afa9dae39a1ed71a6`
-- Created: `2026-10-26T11:31:07.780716026Z`
+- Image ID: `sha256:f64b90f5e6846b69e4ba2128d78d8fe98fb8ffa1b2e1efd8db9e502620c3009e`
+- Created: `2026-10-28T12:57:03.770479119Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/pcap-http-extractor:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/pcap-http-extractor:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114495`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171443`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,10 +37,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/pcap-http-extractor:1.0.0.14109060
+Signatures for demisto/pcap-http-extractor:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   fef60adce471603c9b8f262293c264b2539ba9ea57ac248fa8e9789e06fffb93   (Repo Admin)
 
-Administrative keys for demisto/pcap-http-extractor:1.0.0.14109060
+Administrative keys for demisto/pcap-http-extractor:1.0.0.14169403
 
   Repository Key:	70372609c3fd45ec8f995d866d2aa51294f6f819395fcb930eead48eac0361f3
   Root Key:	c87bf2eba8b2d98f750499d119edd30c0e7d5455acfb675c6b23c5bca3e88f35

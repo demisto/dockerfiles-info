@@ -1,31 +1,31 @@
-# `demisto/netutils:1.0.0.13804971`
+# `demisto/netutils:1.0.0.14169403`
 
 ## Docker Metadata
-- Image Size: 49.44 MB
-- Image ID: `sha256:ecbbf3bc066ccb6c0880e730f2c2d5ef7b959fb1b2b95cc7a019c197c0c80cfe`
-- Created: `2026-10-14T23:48:32.274588549Z`
+- Image Size: 47.29 MB
+- Image ID: `sha256:ac8599709e53b8eafc9710f593cf8cc6b9dc43d0b491417eca66ef3e550614d0`
+- Created: `2026-10-28T12:55:33.671955991Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/netutils:1.0.0.13804971`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/netutils:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:c149eca84669dac26b3da087a1148e698648fd87`
-  - `org.opencontainers.image.version:1.0.0.13804971`
-  - `panw.builtby.pipeline:13805392`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171453`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.24.2`
+  - `VERSION_ID=3.24.3`
   - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/netutils:1.0.0.13804971
+Signatures for demisto/netutils:1.0.0.14169403
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13804971   e2b3f8d676ffc27d605888bf60ea577acab41a69292a9ae631eb0990b6e56c3c   (Repo Admin)
+1.0.0.14169403   b3d948054aede3fe9adf7d4702cf8712f540a62ec80c684929cf9ede1dafcbb6   (Repo Admin)
 
-Administrative keys for demisto/netutils:1.0.0.13804971
+Administrative keys for demisto/netutils:1.0.0.14169403
 
   Repository Key:	4a445396112768813d4eed8d7ba46d7e9c7018e8936d73f291e3b14d34043b78
   Root Key:	1b9fb0fff68f4cc0c00bc76a90e250bd8514c1f683a697b7cd30b567838b2cdd
@@ -102,7 +102,7 @@ Administrative keys for demisto/netutils:1.0.0.13804971
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -155,7 +155,7 @@ Administrative keys for demisto/netutils:1.0.0.13804971
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 4.0.10
+* Version: 4.2.4
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -217,7 +217,7 @@ Administrative keys for demisto/netutils:1.0.0.13804971
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -260,7 +260,7 @@ Administrative keys for demisto/netutils:1.0.0.13804971
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -296,7 +296,7 @@ Administrative keys for demisto/netutils:1.0.0.13804971
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 2.9.0.post0
+* Version: 3.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
 * Homepage: https://github.com/dateutil/dateutil
 * Author: Gustavo Niemeyer gustavo@niemeyer.net
@@ -368,7 +368,7 @@ Administrative keys for demisto/netutils:1.0.0.13804971
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -398,10 +398,19 @@ Administrative keys for demisto/netutils:1.0.0.13804971
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 
+### `tzdata`
+
+* Summary: Provider of IANA time zone data
+* Version: 2026.5
+* Pypi: https://pypi.org/project/tzdata/
+* Homepage: https://github.com/python/tzdata
+* Author: Python Software Foundation datetime-sig@python.org
+* License: Apache-2.0
+
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4.4
+* Version: 5.4.5
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -417,7 +426,7 @@ Administrative keys for demisto/netutils:1.0.0.13804971
 ### `websockets`
 
 * Summary: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
-* Version: 17.2
+* Version: 17.3
 * Pypi: https://pypi.org/project/websockets/
 * Homepage: None
 * Author: Aymeric Augustin <aymeric.augustin@m4x.org>
@@ -441,21 +450,21 @@ Administrative keys for demisto/netutils:1.0.0.13804971
 
 ## `OS Packages`
 
-* .python-rundeps-20260917.215302 noarch {.python-rundeps}
+* .python-rundeps-20261021.230421 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.24.2-r0 x86_64 {alpine-base}
+* alpine-release-3.24.3-r0 x86_64 {alpine-base}
 * apk-tools-3.0.8-r0 x86_64 {apk-tools}
-* bind-libs-9.20.29-r0 x86_64 {bind}
-* bind-tools-9.20.29-r0 x86_64 {bind}
-* brotli-libs-1.2.0-r1 x86_64 {brotli}
+* bind-libs-9.20.30-r0 x86_64 {bind}
+* bind-tools-9.20.30-r0 x86_64 {bind}
+* brotli-libs-1.2.1-r0 x86_64 {brotli}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
-* c-ares-1.34.8-r0 x86_64 {c-ares}
-* ca-certificates-20260909-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20260909-r0 x86_64 {ca-certificates}
-* curl-8.22.0-r0 x86_64 {curl}
+* c-ares-1.34.9-r0 x86_64 {c-ares}
+* ca-certificates-20261020-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20261020-r0 x86_64 {ca-certificates}
+* curl-8.23.0-r0 x86_64 {curl}
 * fstrm-0.6.1-r4 x86_64 {fstrm}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * iputils-20250605-r2 x86_64 {iputils}
@@ -472,7 +481,7 @@ Administrative keys for demisto/netutils:1.0.0.13804971
 * libcap2-2.78-r1 x86_64 {libcap}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.9-r0 x86_64 {openssl}
-* libcurl-8.22.0-r0 x86_64 {curl}
+* libcurl-8.23.0-r0 x86_64 {curl}
 * libffi-3.5.2-r1 x86_64 {libffi}
 * libidn2-2.3.8-r0 x86_64 {libidn2}
 * libintl-1.0-r0 x86_64 {gettext}
@@ -488,8 +497,8 @@ Administrative keys for demisto/netutils:1.0.0.13804971
 * libuv-1.52.1-r0 x86_64 {libuv}
 * libverto-0.3.2-r2 x86_64 {libverto}
 * libxml2-2.13.9-r2 x86_64 {libxml2}
-* musl-1.2.6-r2 x86_64 {musl}
-* musl-utils-1.2.6-r2 x86_64 {musl}
+* musl-1.2.6-r3 x86_64 {musl}
+* musl-utils-1.2.6-r3 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * nghttp2-libs-1.70.0-r0 x86_64 {nghttp2}
 * openssl-3.5.9-r0 x86_64 {openssl}
@@ -498,8 +507,8 @@ Administrative keys for demisto/netutils:1.0.0.13804971
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026d-r0 x86_64 {tzdata}
+* tzdata-2026e-r0 x86_64 {tzdata}
 * userspace-rcu-0.15.3-r0 x86_64 {userspace-rcu}
 * xz-libs-5.8.4-r0 x86_64 {xz}
-* zlib-1.3.2-r0 x86_64 {zlib}
+* zlib-1.3.2-r1 x86_64 {zlib}
 * zstd-libs-1.5.7-r2 x86_64 {zstd}

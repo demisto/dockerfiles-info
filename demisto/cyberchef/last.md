@@ -1,32 +1,32 @@
-# `demisto/cyberchef:1.0.0.13531018`
+# `demisto/cyberchef:1.0.0.14169403`
 
 ## Docker Metadata
-- Image Size: 135.18 MB
-- Image ID: `sha256:e9e3e5ad9788a98ec0b878a42c3d1ac89a664717d58a0308fdc4556571c96824`
-- Created: `2026-10-05T09:10:52.848598442Z`
+- Image Size: 132.40 MB
+- Image ID: `sha256:5a3607935a73579e8dea7c0513a00db4d1a16ca836004a24b169f30ca9e03ca5`
+- Created: `2026-10-28T12:57:10.948603354Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/cyberchef:1.0.0.13531018`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/cyberchef:1.0.0.14169403`
   - `NODE_PATH=/usr/local/lib/node_modules`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:197712f5b3fff2630a6ff245c2a96564c36a359e`
-  - `org.opencontainers.image.version:1.0.0.13531018`
-  - `panw.builtby.pipeline:13532297`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171504`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.24.2`
+  - `VERSION_ID=3.24.3`
   - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -34,12 +34,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/cyberchef:1.0.0.13531018
+Signatures for demisto/cyberchef:1.0.0.14169403
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13531018   bfebf79474b4fbd1a285f5db6a397a36d19f76aa13f928c4e2cc2a3bc52b677c   (Repo Admin)
+1.0.0.14169403   114ba7a690b5e2a0db43e86b62b55ae87bf05da30352530680a9871048ae19c5   (Repo Admin)
 
-Administrative keys for demisto/cyberchef:1.0.0.13531018
+Administrative keys for demisto/cyberchef:1.0.0.14169403
 
   Repository Key:	87faffbf9cfa242d5efcd5063441e580183ea8dc81f914176971dd74db952ebd
   Root Key:	617486d64dbbca7eb8b024a5a1e37dfbeef728381cc5a25de5b60b8d4a2b55dc
@@ -60,7 +60,7 @@ Administrative keys for demisto/cyberchef:1.0.0.13531018
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -104,7 +104,7 @@ Administrative keys for demisto/cyberchef:1.0.0.13531018
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 4.0.10
+* Version: 4.2.4
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -157,7 +157,7 @@ Administrative keys for demisto/cyberchef:1.0.0.13531018
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -182,7 +182,7 @@ Administrative keys for demisto/cyberchef:1.0.0.13531018
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -200,7 +200,7 @@ Administrative keys for demisto/cyberchef:1.0.0.13531018
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 2.9.0.post0
+* Version: 3.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
 * Homepage: https://github.com/dateutil/dateutil
 * Author: Gustavo Niemeyer gustavo@niemeyer.net
@@ -263,7 +263,7 @@ Administrative keys for demisto/cyberchef:1.0.0.13531018
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -293,10 +293,19 @@ Administrative keys for demisto/cyberchef:1.0.0.13531018
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 
+### `tzdata`
+
+* Summary: Provider of IANA time zone data
+* Version: 2026.5
+* Pypi: https://pypi.org/project/tzdata/
+* Homepage: https://github.com/python/tzdata
+* Author: Python Software Foundation datetime-sig@python.org
+* License: Apache-2.0
+
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4.4
+* Version: 5.4.5
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -319,19 +328,19 @@ Administrative keys for demisto/cyberchef:1.0.0.13531018
 
 ## `OS Packages`
 
-* .python-rundeps-20260917.215302 noarch {.python-rundeps}
-* ada-libs-3.3.0-r0 x86_64 {ada}
+* .python-rundeps-20261021.230421 noarch {.python-rundeps}
+* ada-libs-4.0.0-r0 x86_64 {ada}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.24.2-r0 x86_64 {alpine-base}
+* alpine-release-3.24.3-r0 x86_64 {alpine-base}
 * apk-tools-3.0.8-r0 x86_64 {apk-tools}
-* brotli-libs-1.2.0-r1 x86_64 {brotli}
+* brotli-libs-1.2.1-r0 x86_64 {brotli}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
-* c-ares-1.34.8-r0 x86_64 {c-ares}
-* ca-certificates-20260909-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20260909-r0 x86_64 {ca-certificates}
+* c-ares-1.34.9-r0 x86_64 {c-ares}
+* ca-certificates-20261020-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20261020-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * icu-data-en-78.1-r0 x86_64 {icu}
 * icu-libs-78.1-r0 x86_64 {icu}
@@ -354,18 +363,18 @@ Administrative keys for demisto/cyberchef:1.0.0.13531018
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.42.3-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.6-r2 x86_64 {musl}
-* musl-utils-1.2.6-r2 x86_64 {musl}
+* musl-1.2.6-r3 x86_64 {musl}
+* musl-utils-1.2.6-r3 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * nghttp2-libs-1.70.0-r0 x86_64 {nghttp2}
-* nodejs-24.18.1-r0 x86_64 {nodejs}
+* nodejs-24.22.1-r0 x86_64 {nodejs}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * simdjson-4.2.4-r0 x86_64 {simdjson}
 * simdutf-9.0.0-r0 x86_64 {simdutf}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026d-r0 x86_64 {tzdata}
+* tzdata-2026e-r0 x86_64 {tzdata}
 * xz-libs-5.8.4-r0 x86_64 {xz}
-* zlib-1.3.2-r0 x86_64 {zlib}
+* zlib-1.3.2-r1 x86_64 {zlib}
 * zstd-libs-1.5.7-r2 x86_64 {zstd}

@@ -1,9 +1,9 @@
-# `demisto/faker3:1.0.0.14109060`
+# `demisto/faker3:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 38.03 MB
-- Image ID: `sha256:1df3cd7f65f47537973ff800235bd8c47d3208a8fc079440ea9955dbbc3350d0`
-- Created: `2026-10-26T11:28:24.97932831Z`
+- Image ID: `sha256:ac44ac3ccd6cf7569e736ec426851c52ce85b3e132f96a5fc6a7d172d16622ab`
+- Created: `2026-10-28T12:57:07.267917331Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/faker3:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/faker3:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114466`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171494`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/faker3:1.0.0.14109060
+Signatures for demisto/faker3:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   705919b3e3d6acc04c5bc7bdf557b0f8a0eea0d59db8a47e03901a4a430b09e0   (Repo Admin)
 
-Administrative keys for demisto/faker3:1.0.0.14109060
+Administrative keys for demisto/faker3:1.0.0.14169403
 
   Repository Key:	e5d44c90ec1e283217374c92514ddf896735e8536e705ef7271611ff44c7b99b
   Root Key:	d10c08e25ea8c26554ffe6d1931deeb6f6ad3540e21d89603e3c16d533e3deab

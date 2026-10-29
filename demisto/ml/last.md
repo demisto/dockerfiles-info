@@ -1,27 +1,27 @@
-# `demisto/ml:1.0.0.13919218`
+# `demisto/ml:1.0.0.14169403`
 
 ## Docker Metadata
-- Image Size: 1085.99 MB
-- Image ID: `sha256:05782cbaa633e7255915f78efb3105c9b05ad3b3538089e02d7bc3373f63b2f9`
-- Created: `2026-10-19T18:11:43.227598482Z`
+- Image Size: 1049.75 MB
+- Image ID: `sha256:2dc3dd972d1b5465f8ee0f65ab5769d6ffbcc6c8a9991ea8bc0a8eb4082c1df4`
+- Created: `2026-10-28T13:00:30.803766024Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/ml:1.0.0.13919218`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/ml:1.0.0.14169403`
   - `HF_HOME=/ml/.cache`
   - `NLTK_DATA=/ml/nltk_data`
   - `MPLCONFIGDIR=/ml/matplotlib`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:feb70d06402a78e263b32ba410b7e52c5290ef2d`
-  - `org.opencontainers.image.version:1.0.0.13919218`
-  - `panw.builtby.pipeline:13919904`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171463`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -40,12 +40,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/ml:1.0.0.13919218
+Signatures for demisto/ml:1.0.0.14169403
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13919218   5906ef1d5f9469f2dd473ddfbb86a1ff925ce6974bb0684a15a7f4c22bf1ffea   (Repo Admin)
+1.0.0.14169403   55fe63ac3fe649e377b45ede27251bf43d01f102889479dcf198f969e50a3ddd   (Repo Admin)
 
-Administrative keys for demisto/ml:1.0.0.13919218
+Administrative keys for demisto/ml:1.0.0.14169403
 
   Repository Key:	ac15e70d1328e4ee6a571a4f26d48cb7a7a71057e1c418659434a29c5f420dec
   Root Key:	9bed0b81bc81568c748fc3dce530b735db8f1ee1b0f960a5a6d7b9a7386637c6
@@ -110,7 +110,7 @@ Administrative keys for demisto/ml:1.0.0.13919218
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2025.1.31
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -181,7 +181,7 @@ Administrative keys for demisto/ml:1.0.0.13919218
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.2
+* Version: 1.4.3
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -269,7 +269,7 @@ Administrative keys for demisto/ml:1.0.0.13919218
 ### `funcy`
 
 * Summary: A fancy and practical functional tools
-* Version: 2.0
+* Version: 2.1
 * Pypi: https://pypi.org/project/funcy/
 * Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
@@ -447,7 +447,7 @@ Administrative keys for demisto/ml:1.0.0.13919218
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -558,12 +558,12 @@ Administrative keys for demisto/ml:1.0.0.13919218
 * Pypi: https://pypi.org/project/pandas/
 * Homepage: None
 * Author: The Pandas Development Team <pandas-dev@python.org>
-* License :: OSI Approved :: BSD License
+* License: BSD 3-Clause License
 
 ### `pillow`
 
 * Summary: Python Imaging Library (fork)
-* Version: 12.3.0
+* Version: 13.0.0
 * Pypi: https://pypi.org/project/pillow/
 * Homepage: None
 * Author: Jeffrey 'Alex' Clark <aclark@aclark.net>
@@ -571,7 +571,7 @@ Administrative keys for demisto/ml:1.0.0.13919218
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -891,7 +891,7 @@ Administrative keys for demisto/ml:1.0.0.13919218
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.2
+* Version: 5.4.0
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
@@ -1025,7 +1025,7 @@ Administrative keys for demisto/ml:1.0.0.13919218
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
-* ca-certificates	20250419
+* ca-certificates	20250419+deb13u1
 * coreutils	9.7-3
 * dash	0.5.12-12
 * debconf	1.5.91
@@ -1054,7 +1054,6 @@ Administrative keys for demisto/ml:1.0.0.13919218
 * libcrypt1:amd64	1:4.4.38-1
 * libdb5.3t64:amd64	5.3.28+dfsg2-9
 * libdebconfclient0:amd64	0.280
-* libexpat1:amd64	2.9.0-1~deb13u1
 * libffi8:amd64	3.4.8-2
 * libgcc-s1:amd64	14.2.0-19
 * libgdbm-compat4t64:amd64	1.24-2
@@ -1076,9 +1075,6 @@ Administrative keys for demisto/ml:1.0.0.13919218
 * libpcre2-8-0:amd64	10.46-1~deb13u3
 * libperl5.40:amd64	5.40.1-6+deb13u1
 * libproc2-0:amd64	2:4.0.4-9
-* libpython3-stdlib:amd64	3.13.5-1
-* libpython3.13-minimal:amd64	3.13.5-2+deb13u5
-* libpython3.13-stdlib:amd64	3.13.5-2+deb13u5
 * libreadline8t64:amd64	8.2-6
 * libseccomp2:amd64	2.6.0-2
 * libselinux1:amd64	3.8.1-1
@@ -1099,7 +1095,6 @@ Administrative keys for demisto/ml:1.0.0.13919218
 * login	1:4.16.0-2+really2.41.5-0+deb13u1
 * login.defs	1:4.17.4-2
 * mawk	1.3.4.20250131-1
-* media-types	13.0.0
 * mount	2.41.5-0+deb13u1
 * ncurses-base	6.5+20250216-2
 * ncurses-bin	6.5+20250216-2
@@ -1110,32 +1105,12 @@ Administrative keys for demisto/ml:1.0.0.13919218
 * perl	5.40.1-6+deb13u1
 * perl-base	5.40.1-6+deb13u1
 * perl-modules-5.40	5.40.1-6+deb13u1
-* pipenv	2024.0.1+ds-3
 * procps	2:4.0.4-9
-* python3	3.13.5-1
-* python3-autocommand	2.2.2-3
-* python3-certifi	2025.1.31+ds-1
-* python3-distlib	0.3.9-1
-* python3-filelock	3.18.0-1+deb13u1
-* python3-inflect	7.3.1-2
-* python3-jaraco.context	6.0.1-1+deb13u1
-* python3-jaraco.functools	4.1.0-1
-* python3-minimal	3.13.5-1
-* python3-more-itertools	10.7.0-1
-* python3-pip-whl	25.1.1+dfsg-1
-* python3-pkg-resources	78.1.1-0.1
-* python3-platformdirs	4.3.7-1
-* python3-setuptools-whl	78.1.1-0.1
-* python3-typeguard	4.4.2-1
-* python3-typing-extensions	4.13.2-1
-* python3-virtualenv	20.31.2+ds-1+deb13u1
-* python3.13	3.13.5-2+deb13u5
-* python3.13-minimal	3.13.5-2+deb13u5
 * readline-common	8.2-6
 * sed	4.9-2+deb13u1
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026c-0+deb13u1
+* tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1

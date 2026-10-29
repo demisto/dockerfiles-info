@@ -1,9 +1,9 @@
-# `demisto/armorblox:1.0.0.14109060`
+# `demisto/armorblox:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 33.92 MB
-- Image ID: `sha256:41c5ed73391cbfcb1a561682f4c5314965c7304f2e3a5aae5dbd6e4492303737`
-- Created: `2026-10-26T11:29:27.858409131Z`
+- Image ID: `sha256:1853d6e310e266682fe31f0b008e3000b1f849d8a81ee9f2a36f36341653bbc3`
+- Created: `2026-10-28T12:57:02.003132283Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/armorblox:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/armorblox:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114458`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171519`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/armorblox:1.0.0.14109060
+Signatures for demisto/armorblox:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   33f90176c1cce05d0715a272006a825a0b74e7e6830996bd2b650536efee7af6   (Repo Admin)
 
-Administrative keys for demisto/armorblox:1.0.0.14109060
+Administrative keys for demisto/armorblox:1.0.0.14169403
 
   Repository Key:	d55dd668db6d7fe2e18ab6ee5f97bdb34c39d22ee3f826e52b6b487dedf65d3a
   Root Key:	82b9891cf1159d74f64b6c097e2405fcbb032625b659bf0c13e630267f6820db

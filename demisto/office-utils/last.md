@@ -1,9 +1,9 @@
-# `demisto/office-utils:2.0.0.14109060`
+# `demisto/office-utils:2.0.0.14169403`
 
 ## Docker Metadata
-- Image Size: 384.38 MB
-- Image ID: `sha256:5ad38d9e51c5650c25d1d48b088e24fdbc7ea70008c5ab5fb9d381caee8299ff`
-- Created: `2026-10-26T11:27:49.172487034Z`
+- Image Size: 384.48 MB
+- Image ID: `sha256:c248f6e82a1a0ea7c4e397f0166896f947ec31830a2b17abe4bd9209da8c172a`
+- Created: `2026-10-28T12:57:15.379338335Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/office-utils:2.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/office-utils:2.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:2.0.0.14109060`
-  - `panw.builtby.pipeline:14114494`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:2.0.0.14169403`
+  - `panw.builtby.pipeline:14171438`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,10 +37,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/office-utils:2.0.0.14109060
+Signatures for demisto/office-utils:2.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+2.0.0.14169403   82632d3f2bfdfa3952ef76701bbcdcce7e2c17aca8061fdaa3aa3e91ef5e8fa8   (Repo Admin)
 
-Administrative keys for demisto/office-utils:2.0.0.14109060
+Administrative keys for demisto/office-utils:2.0.0.14169403
 
   Repository Key:	3a4e6badcc5023897b94615e99ccda82c8860d4ff99ecf2265114159988451a7
   Root Key:	418c6990bf0cea59a956bbce3ae604a81c73789363c762e505b15050987a27cf
@@ -667,7 +669,7 @@ Administrative keys for demisto/office-utils:2.0.0.14109060
 * ncurses-base	6.5+20250216-2
 * ncurses-bin	6.5+20250216-2
 * netbase	6.5
-* openjdk-21-jre-headless:amd64	21.0.12.1+1-1~deb13u1
+* openjdk-21-jre-headless:amd64	21.0.13+9-1~deb13u2
 * openssl	3.5.7-1~deb13u3
 * openssl-provider-legacy	3.5.7-1~deb13u3
 * passwd	1:4.17.4-2

@@ -1,9 +1,9 @@
-# `demisto/ibm-db2:1.0.0.14109060`
+# `demisto/ibm-db2:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 107.71 MB
-- Image ID: `sha256:8bdf2051a0b0fe99a44f2a7f20eef8b52f4a22b3564bcb1dd143cdf3af614569`
-- Created: `2026-10-26T11:30:51.411854457Z`
+- Image ID: `sha256:be904dfee2b5bec297c713cc131d853e751520f5f2609cc2614a84396bd3033b`
+- Created: `2026-10-28T12:56:51.63765085Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/ibm-db2:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/ibm-db2:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114478`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171469`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,10 +37,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/ibm-db2:1.0.0.14109060
+Signatures for demisto/ibm-db2:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   0ef8294674348eaffe661564e80664fcf656e6ec3e4c09d6091e921daafbdeae   (Repo Admin)
 
-Administrative keys for demisto/ibm-db2:1.0.0.14109060
+Administrative keys for demisto/ibm-db2:1.0.0.14169403
 
   Repository Key:	6337a735f6ada949bd0fc77c9c4f02002ca37e4c371d55673dac6e742082bced
   Root Key:	a251db0468b1c8b663b1987336e3e6a7935be0ec4d244474d3a2907656934763

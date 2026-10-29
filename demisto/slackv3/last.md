@@ -1,9 +1,9 @@
-# `demisto/slackv3:1.0.0.14109060`
+# `demisto/slackv3:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 64.80 MB
-- Image ID: `sha256:3b67aec5c838ee5a5c88c4a6182988ddf6f2369d19455d893e4ba3f10c3cb324`
-- Created: `2026-10-26T11:28:16.235020236Z`
+- Image ID: `sha256:6e58dc05e35806fc7edbb1e75aa9b1f8ba491fbf001c92ff6ea18d4f1a0eb360`
+- Created: `2026-10-28T12:55:30.145706808Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/slackv3:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/slackv3:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114510`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171423`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/slackv3:1.0.0.14109060
+Signatures for demisto/slackv3:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   c3fab59aaa11c75de011672ffcc8a9c09a258886b06e618e7b2c06b4f1513a78   (Repo Admin)
 
-Administrative keys for demisto/slackv3:1.0.0.14109060
+Administrative keys for demisto/slackv3:1.0.0.14169403
 
   Repository Key:	6602ad934dd5a009ec1f1b9c2c790ddc5e51f314fe5de01189f72a28fc0aba8c
   Root Key:	c0823ae6697e9a99e1b889b37b9d4b7e34e645d912fdc7c06f1e1121ab88576a

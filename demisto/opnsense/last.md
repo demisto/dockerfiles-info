@@ -1,9 +1,9 @@
-# `demisto/opnsense:1.0.0.14109060`
+# `demisto/opnsense:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 34.29 MB
-- Image ID: `sha256:8260968f1353566ba50b6fabf5bceb5eec11d84f83e2604100ad27232a9cd045`
-- Created: `2026-10-26T11:31:27.430626311Z`
+- Image ID: `sha256:7dc671f01eb27659d8c89ab1c1c85ef0e9b65a908b9ddf51c99d6f61ab5d7ba8`
+- Created: `2026-10-28T12:56:22.012531216Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/opnsense:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/opnsense:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114509`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171437`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/opnsense:1.0.0.14109060
+Signatures for demisto/opnsense:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   023bb86f0e231f53c908e5579ae27b7db40632efd88b4b8ed648628f8d17c735   (Repo Admin)
 
-Administrative keys for demisto/opnsense:1.0.0.14109060
+Administrative keys for demisto/opnsense:1.0.0.14169403
 
   Repository Key:	9c77beb801cd0ed9e6b029f18540c985233f8151d964e30d014eb05874bba0a0
   Root Key:	ffc8037c34ebd17487a676511bd4d76ecfcfc64ca0eff01a2984343957e40239

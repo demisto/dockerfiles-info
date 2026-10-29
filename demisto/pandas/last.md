@@ -1,9 +1,9 @@
-# `demisto/pandas:1.0.0.14109060`
+# `demisto/pandas:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 80.52 MB
-- Image ID: `sha256:ae33fc7907723783d38420b378477fd34d3edeaf42d6b46b1bc6714d68a6f8fa`
-- Created: `2026-10-26T11:30:03.063073897Z`
+- Image ID: `sha256:d0eaa40920f14ba142e8eaa503f2f45cd3e24a9b8b457e8d5ac6e64b6d3b1f74`
+- Created: `2026-10-28T12:55:51.060892018Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/pandas:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/pandas:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114499`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171436`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/pandas:1.0.0.14109060
+Signatures for demisto/pandas:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   1f913d9523954e3e845f984c979c55140d794fbf2ff1d60e76858036810ad717   (Repo Admin)
 
-Administrative keys for demisto/pandas:1.0.0.14109060
+Administrative keys for demisto/pandas:1.0.0.14169403
 
   Repository Key:	2f6ee3bf40841c74b6ba712de24e83f42dfc7130fefdd4c8f0c0b2efc4645334
   Root Key:	c6252cb6471003ca794a0f88bd8ddd88095fb61c82729c39b9a73ae382c98ad8

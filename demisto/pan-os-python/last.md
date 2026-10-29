@@ -1,9 +1,9 @@
-# `demisto/pan-os-python:1.0.0.14109060`
+# `demisto/pan-os-python:1.0.0.14169403`
 
 ## Docker Metadata
 - Image Size: 39.94 MB
-- Image ID: `sha256:80d38d996b2a2ff6e1a8d9b3074650c813be96a8181aeccdac2d356b8f31e6d1`
-- Created: `2026-10-26T11:31:08.290442867Z`
+- Image ID: `sha256:13aad49df1a79563fca9cd9bfdc72c2e0f4b936ed7e2f03135711754fd10b826`
+- Created: `2026-10-28T12:56:10.78622732Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/pan-os-python:1.0.0.14109060`
+  - `DOCKER_IMAGE=demisto/pan-os-python:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:64eec0731250edc3c7c6a75cdc95bcb166d6d6b3`
-  - `org.opencontainers.image.version:1.0.0.14109060`
-  - `panw.builtby.pipeline:14114492`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171440`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,10 +33,12 @@
 ## Docker Trust
 ```
 
-No signatures for demisto/pan-os-python:1.0.0.14109060
+Signatures for demisto/pan-os-python:1.0.0.14169403
 
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   c14c6693c9417cc9d88aa139bfd290e49c041ccd636c6e42b6c074478e98a99c   (Repo Admin)
 
-Administrative keys for demisto/pan-os-python:1.0.0.14109060
+Administrative keys for demisto/pan-os-python:1.0.0.14169403
 
   Repository Key:	d9667d30881c35eff1ceae5623fb5ea0956ed798e00c412f492431a71dbe984a
   Root Key:	55ffcdc3759351d0dad62cff61527c964a94d72bf04b0dc27b5defebd0cac69a

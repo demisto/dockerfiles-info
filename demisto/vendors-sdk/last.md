@@ -1,31 +1,31 @@
-# `demisto/vendors-sdk:1.0.0.13438517`
+# `demisto/vendors-sdk:1.0.0.14170433`
 
 ## Docker Metadata
-- Image Size: 104.15 MB
-- Image ID: `sha256:6802619ee23a05bdd789d6a47774d2d270ea0291bf96c0f036695cf134a8930d`
-- Created: `2026-09-30T17:48:56.706506547Z`
+- Image Size: 99.56 MB
+- Image ID: `sha256:040357051b151ad1486ed0a17dc4d097ebadc5688d1ecb94be41def68a08d8db`
+- Created: `2026-10-28T13:52:03.233875554Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/vendors-sdk:1.0.0.13438517`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/vendors-sdk:1.0.0.14170433`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:1cbacda97fcb375a865f1deac237c16c184975e0`
-  - `org.opencontainers.image.version:1.0.0.13438517`
-  - `panw.builtby.pipeline:13438848`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14170433`
+  - `panw.builtby.pipeline:14173848`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.24.1`
+  - `VERSION_ID=3.24.3`
   - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/vendors-sdk:1.0.0.13438517
+Signatures for demisto/vendors-sdk:1.0.0.14170433
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13438517   369938e639d2ec2fafae7fb58449fb4866e9c474a6b029fe2842c2af799d4a4f   (Repo Admin)
+1.0.0.14170433   e46b583f4ec70fa220d5acda3c20040b83a99966b6c9c7fb51b994781fba8d44   (Repo Admin)
 
-Administrative keys for demisto/vendors-sdk:1.0.0.13438517
+Administrative keys for demisto/vendors-sdk:1.0.0.14170433
 
   Repository Key:	f7dfc0037eccdafa60ded6b5769bd2583b547d45fbfd45c04be27ac139183b93
   Root Key:	3ed1be34c4951d9d572e55512f325e47f0123e938ee74dc62732b68d76b341a4
@@ -120,7 +120,7 @@ Administrative keys for demisto/vendors-sdk:1.0.0.13438517
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.5.20
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -285,7 +285,7 @@ Administrative keys for demisto/vendors-sdk:1.0.0.13438517
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.32.4
+* Version: 4.2.4
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -408,7 +408,7 @@ Administrative keys for demisto/vendors-sdk:1.0.0.13438517
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -466,7 +466,7 @@ Administrative keys for demisto/vendors-sdk:1.0.0.13438517
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -746,7 +746,7 @@ Administrative keys for demisto/vendors-sdk:1.0.0.13438517
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.2
+* Version: 5.4.0
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
@@ -775,10 +775,19 @@ Administrative keys for demisto/vendors-sdk:1.0.0.13438517
 * Homepage: None
 * Author: Victorien Plot <contact@vctrn.dev>
 
+### `tzdata`
+
+* Summary: Provider of IANA time zone data
+* Version: 2026.5
+* Pypi: https://pypi.org/project/tzdata/
+* Homepage: https://github.com/python/tzdata
+* Author: Python Software Foundation datetime-sig@python.org
+* License: Apache-2.0
+
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4.4
+* Version: 5.4.5
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -844,22 +853,22 @@ Administrative keys for demisto/vendors-sdk:1.0.0.13438517
 
 ## `OS Packages`
 
-* .python-rundeps-20260901.001029 noarch {.python-rundeps}
+* .python-rundeps-20261021.230421 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.24.1-r0 x86_64 {alpine-base}
+* alpine-release-3.24.3-r0 x86_64 {alpine-base}
 * apk-tools-3.0.8-r0 x86_64 {apk-tools}
-* brotli-1.2.0-r1 x86_64 {brotli}
-* brotli-dev-1.2.0-r1 x86_64 {brotli}
-* brotli-libs-1.2.0-r1 x86_64 {brotli}
+* brotli-1.2.1-r0 x86_64 {brotli}
+* brotli-dev-1.2.1-r0 x86_64 {brotli}
+* brotli-libs-1.2.1-r0 x86_64 {brotli}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
-* c-ares-1.34.8-r0 x86_64 {c-ares}
-* c-ares-dev-1.34.8-r0 x86_64 {c-ares}
-* ca-certificates-20260611-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20260611-r0 x86_64 {ca-certificates}
-* curl-dev-8.22.0-r0 x86_64 {curl}
+* c-ares-1.34.9-r0 x86_64 {c-ares}
+* c-ares-dev-1.34.9-r0 x86_64 {c-ares}
+* ca-certificates-20261020-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20261020-r0 x86_64 {ca-certificates}
+* curl-dev-8.23.0-r0 x86_64 {curl}
 * cyrus-sasl-dev-2.1.28-r9 x86_64 {cyrus-sasl}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
@@ -869,7 +878,7 @@ Administrative keys for demisto/vendors-sdk:1.0.0.13438517
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.9-r0 x86_64 {openssl}
-* libcurl-8.22.0-r0 x86_64 {curl}
+* libcurl-8.23.0-r0 x86_64 {curl}
 * libffi-3.5.2-r1 x86_64 {libffi}
 * libgcc-15.2.0-r9 x86_64 {gcc}
 * libidn2-2.3.8-r0 x86_64 {libidn2}
@@ -882,8 +891,8 @@ Administrative keys for demisto/vendors-sdk:1.0.0.13438517
 * libpsl-0.21.5-r3 x86_64 {libpsl}
 * libpsl-dev-0.21.5-r3 x86_64 {libpsl}
 * libpsl-utils-0.21.5-r3 x86_64 {libpsl}
-* librdkafka-2.15.0-r0 x86_64 {librdkafka}
-* librdkafka-dev-2.15.0-r0 x86_64 {librdkafka}
+* librdkafka-2.16.0-r0 x86_64 {librdkafka}
+* librdkafka-dev-2.16.0-r0 x86_64 {librdkafka}
 * libsasl-2.1.28-r9 x86_64 {cyrus-sasl}
 * libssl3-3.5.9-r0 x86_64 {openssl}
 * libstdc++-15.2.0-r9 x86_64 {gcc}
@@ -894,21 +903,21 @@ Administrative keys for demisto/vendors-sdk:1.0.0.13438517
 * libverto-0.3.2-r2 x86_64 {libverto}
 * lz4-dev-1.10.0-r1 x86_64 {lz4}
 * lz4-libs-1.10.0-r1 x86_64 {lz4}
-* musl-1.2.6-r4 x86_64 {musl}
-* musl-utils-1.2.6-r2 x86_64 {musl}
+* musl-1.2.6-r6 x86_64 {musl}
+* musl-utils-1.2.6-r3 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * nghttp2-dev-1.70.0-r0 x86_64 {nghttp2}
 * nghttp2-libs-1.70.0-r0 x86_64 {nghttp2}
 * openssl-dev-3.5.9-r0 x86_64 {openssl}
-* pkgconf-3.0.7-r0 x86_64 {pkgconf}
+* pkgconf-3.0.10-r0 x86_64 {pkgconf}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026c-r0 x86_64 {tzdata}
+* tzdata-2026e-r0 x86_64 {tzdata}
 * xz-libs-5.8.4-r0 x86_64 {xz}
-* zlib-1.3.2-r0 x86_64 {zlib}
-* zlib-dev-1.3.2-r0 x86_64 {zlib}
+* zlib-1.3.2-r1 x86_64 {zlib}
+* zlib-dev-1.3.2-r1 x86_64 {zlib}
 * zstd-1.5.7-r2 x86_64 {zstd}
 * zstd-dev-1.5.7-r2 x86_64 {zstd}
 * zstd-libs-1.5.7-r2 x86_64 {zstd}
