@@ -1,24 +1,24 @@
-# `demisto/taxii2:1.0.0.13422554`
+# `demisto/taxii2:1.0.0.14199497`
 
 ## Docker Metadata
-- Image Size: 95.41 MB
-- Image ID: `sha256:7bd6466fa9b75cb4246eb842014f721a316b7e54353f30048ddb98c6c6e74ee3`
-- Created: `2026-09-30T09:06:17.041042707Z`
+- Image Size: 81.93 MB
+- Image ID: `sha256:3ea3c6ba7074534233941592791211e11193b98e9608eff9f13aa77718e1cb6a`
+- Created: `2026-10-29T09:46:18.362946282Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/taxii2:1.0.0.13422554`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/taxii2:1.0.0.14199497`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:ed859aec79bf8643ceaf6e395dd02a6614373c9d`
-  - `org.opencontainers.image.version:1.0.0.13422554`
-  - `panw.builtby.pipeline:13423643`
+  - `org.opencontainers.image.revision:ddb69ade30bd7e8bd469be3bbe20d389466aa02e`
+  - `org.opencontainers.image.version:1.0.0.14199497`
+  - `panw.builtby.pipeline:14200395`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/taxii2:1.0.0.13422554
+Signatures for demisto/taxii2:1.0.0.14199497
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13422554   a2959568f98cb8d76c8fa1558a7a4832da9e4b2de9a44ed5f0e099ce4a73056a   (Repo Admin)
+1.0.0.14199497   d1fc9490ce1c639485aa5975e6ad128c82dae9c9bac021f849621baf6e630ddc   (Repo Admin)
 
-Administrative keys for demisto/taxii2:1.0.0.13422554
+Administrative keys for demisto/taxii2:1.0.0.14199497
 
   Repository Key:	160407e8a2a764f875bd0d73fd2d359f91a5e4651635be29bced4de786aa9744
   Root Key:	4b36f63fcc0f902948865f2537cc5b1a3c4c47b7c80f72c67ee7e29095ef5a8d
@@ -64,7 +64,7 @@ Administrative keys for demisto/taxii2:1.0.0.13422554
 ### `anyio`
 
 * Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.14.2
+* Version: 4.15.1
 * Pypi: https://pypi.org/project/anyio/
 * Homepage: None
 * Author: Alex Grönholm <alex.gronholm@nextday.fi>
@@ -72,7 +72,7 @@ Administrative keys for demisto/taxii2:1.0.0.13422554
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.7.22
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -107,11 +107,10 @@ Administrative keys for demisto/taxii2:1.0.0.13422554
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 3.32.4
+* Version: 4.0.10
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -160,7 +159,7 @@ Administrative keys for demisto/taxii2:1.0.0.13422554
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -185,7 +184,7 @@ Administrative keys for demisto/taxii2:1.0.0.13422554
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -222,7 +221,7 @@ Administrative keys for demisto/taxii2:1.0.0.13422554
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.4
+* Version: 2026.5
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -240,7 +239,7 @@ Administrative keys for demisto/taxii2:1.0.0.13422554
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.9.3
+* Version: 2026.9.29
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -275,7 +274,7 @@ Administrative keys for demisto/taxii2:1.0.0.13422554
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -283,7 +282,7 @@ Administrative keys for demisto/taxii2:1.0.0.13422554
 ### `simplejson`
 
 * Summary: Simple, fast, extensible JSON encoder/decoder for Python
-* Version: 4.1.2
+* Version: 4.2.0
 * Pypi: https://pypi.org/project/simplejson/
 * Homepage: https://github.com/simplejson/simplejson
 * Author: Bob Ippolito bob@redivi.com
@@ -328,7 +327,7 @@ Administrative keys for demisto/taxii2:1.0.0.13422554
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.2
+* Version: 5.4.0
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
@@ -382,7 +381,7 @@ Administrative keys for demisto/taxii2:1.0.0.13422554
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
-* ca-certificates	20250419
+* ca-certificates	20250419+deb13u1
 * coreutils	9.7-3
 * dash	0.5.12-12
 * debconf	1.5.91
@@ -420,7 +419,7 @@ Administrative keys for demisto/taxii2:1.0.0.13422554
 * libjansson4:amd64	2.14-2+b3
 * liblastlog2-2:amd64	2.41.5-0+deb13u1
 * liblz4-1:amd64	1.10.0-4
-* liblzma5:amd64	5.8.1-1+deb13u1
+* liblzma5:amd64	5.8.1-1+deb13u2
 * libmagic-mgc	1:5.46-5
 * libmagic1t64:amd64	1:5.46-5
 * libmd0:amd64	1.1.0-2+b1
@@ -431,7 +430,7 @@ Administrative keys for demisto/taxii2:1.0.0.13422554
 * libpam-modules:amd64	1.7.0-5
 * libpam-runtime	1.7.0-5
 * libpam0g:amd64	1.7.0-5
-* libpcre2-8-0:amd64	10.46-1~deb13u2
+* libpcre2-8-0:amd64	10.46-1~deb13u3
 * libproc2-0:amd64	2:4.0.4-9
 * libreadline8t64:amd64	8.2-6
 * libseccomp2:amd64	2.6.0-2
@@ -441,7 +440,7 @@ Administrative keys for demisto/taxii2:1.0.0.13422554
 * libsepol2:amd64	3.8.1-1
 * libsmartcols1:amd64	2.41.5-0+deb13u1
 * libsqlite3-0:amd64	3.46.1-7+deb13u2
-* libssl3t64:amd64	3.5.7-1~deb13u2
+* libssl3t64:amd64	3.5.7-1~deb13u3
 * libstdc++6:amd64	14.2.0-19
 * libsystemd0:amd64	257.13-1~deb13u1
 * libtinfo6:amd64	6.5+20250216-2
@@ -458,8 +457,8 @@ Administrative keys for demisto/taxii2:1.0.0.13422554
 * ncurses-base	6.5+20250216-2
 * ncurses-bin	6.5+20250216-2
 * netbase	6.5
-* openssl	3.5.7-1~deb13u2
-* openssl-provider-legacy	3.5.7-1~deb13u2
+* openssl	3.5.7-1~deb13u3
+* openssl-provider-legacy	3.5.7-1~deb13u3
 * passwd	1:4.17.4-2
 * perl-base	5.40.1-6+deb13u1
 * procps	2:4.0.4-9
@@ -468,7 +467,7 @@ Administrative keys for demisto/taxii2:1.0.0.13422554
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026c-0+deb13u1
+* tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * yara	4.5.2-1
 * zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1

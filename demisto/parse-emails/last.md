@@ -1,9 +1,9 @@
-# `demisto/parse-emails:0.2.1.14169403`
+# `demisto/parse-emails:0.2.1.14199497`
 
 ## Docker Metadata
-- Image Size: 66.70 MB
-- Image ID: `sha256:65ec30e5920ad84d97bfd87913d6803e8f48506133fcbd74828cb87e095dfebe`
-- Created: `2026-10-28T12:56:30.5607081Z`
+- Image Size: 66.66 MB
+- Image ID: `sha256:8ee33fa56eef2aafcfe4bc1288b8dc29efa17ff8973e61e3f5f5905f0019984e`
+- Created: `2026-10-29T09:45:38.718334957Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/parse-emails:0.2.1.14169403`
+  - `DOCKER_IMAGE=demisto/parse-emails:0.2.1.14199497`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:0.2.1.14169403`
-  - `panw.builtby.pipeline:14171452`
+  - `org.opencontainers.image.revision:ddb69ade30bd7e8bd469be3bbe20d389466aa02e`
+  - `org.opencontainers.image.version:0.2.1.14199497`
+  - `panw.builtby.pipeline:14200391`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/parse-emails:0.2.1.14169403
+Signatures for demisto/parse-emails:0.2.1.14199497
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-0.2.1.14169403   c6baebfed5d42e745f360a6af362b3f88c958ee33495d96c810419373dfb799c   (Repo Admin)
+0.2.1.14199497   b7a552093c8fd8ac6ae67ed7f6f33ef7a5cf15fe9dbc0f8088d8071fb3c8c030   (Repo Admin)
 
-Administrative keys for demisto/parse-emails:0.2.1.14169403
+Administrative keys for demisto/parse-emails:0.2.1.14199497
 
   Repository Key:	16e8827cd666f1effd01432a35d276ca0c38af207a87452b63157b06fa53b6af
   Root Key:	8e9e43a1b64a60ec47f7803865076744239b4c470df2672fc3f3827f4b8ea5a8
@@ -167,7 +167,6 @@ Administrative keys for demisto/parse-emails:0.2.1.14169403
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -268,7 +267,7 @@ Administrative keys for demisto/parse-emails:0.2.1.14169403
 ### `oauthlib`
 
 * Summary: A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
-* Version: 3.3.1
+* Version: 4.0.0
 * Pypi: https://pypi.org/project/oauthlib/
 * Homepage: https://github.com/oauthlib/oauthlib
 * Author: The OAuthlib Community
