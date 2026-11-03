@@ -1,9 +1,9 @@
-# `demisto/xslxwriter:1.0.0.14170433`
+# `demisto/xslxwriter:1.0.0.14323108`
 
 ## Docker Metadata
-- Image Size: 34.34 MB
-- Image ID: `sha256:a4f30f06ff68ef9b2b7d1b93904487fb68591eb885d1a16f5e35b4314d2487f2`
-- Created: `2026-10-28T13:51:46.928675658Z`
+- Image Size: 34.35 MB
+- Image ID: `sha256:908b6777fdeac4e2f76d479c862fda4714af0d757ae61a37f17bd9e93e2b9828`
+- Created: `2026-11-02T16:06:33.885634447Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/xslxwriter:1.0.0.14170433`
+  - `DOCKER_IMAGE=demisto/xslxwriter:1.0.0.14323108`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.0.0.14170433`
-  - `panw.builtby.pipeline:14173866`
+  - `org.opencontainers.image.revision:6fb9ad7fed5830124666cac7a6ce2b0c370ad854`
+  - `org.opencontainers.image.version:1.0.0.14323108`
+  - `panw.builtby.pipeline:14324477`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/xslxwriter:1.0.0.14170433
+Signatures for demisto/xslxwriter:1.0.0.14323108
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14170433   dbf5915859e0be31e2cbd08722d8b3d74a2b3980b1d55fa87e6bc273626cf801   (Repo Admin)
+1.0.0.14323108   9fb46defd6079e1496118781603703433ffa8102c95fb2a614e360a8db5602ca   (Repo Admin)
 
-Administrative keys for demisto/xslxwriter:1.0.0.14170433
+Administrative keys for demisto/xslxwriter:1.0.0.14323108
 
   Repository Key:	e8e49cc819a4d512f17fe094d10e77951bf5c234b81c81951f98209ad7acee26
   Root Key:	8d2a002fae9ef037f48c319a0600f8e47c3bc4eb31a4f3d4e96c37e9d1397a60
@@ -107,7 +107,6 @@ Administrative keys for demisto/xslxwriter:1.0.0.14170433
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -181,7 +180,7 @@ Administrative keys for demisto/xslxwriter:1.0.0.14170433
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -201,10 +200,9 @@ Administrative keys for demisto/xslxwriter:1.0.0.14170433
 * Summary: Extensions to the standard Python datetime module
 * Version: 3.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+* License: Dual License
 
 ### `pytz`
 
@@ -328,7 +326,7 @@ Administrative keys for demisto/xslxwriter:1.0.0.14170433
 ### `xlsxwriter`
 
 * Summary: A Python module for creating Excel XLSX files.
-* Version: 3.3.0
+* Version: 3.3.1
 * Pypi: https://pypi.org/project/xlsxwriter/
 * Homepage: None
 * Author: John McNamara <jmcnamara@cpan.org>

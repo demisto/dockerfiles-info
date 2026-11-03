@@ -1,9 +1,9 @@
-# `demisto/py-ews:5.6.0.14169403`
+# `demisto/py-ews:5.6.0.14323108`
 
 ## Docker Metadata
-- Image Size: 135.72 MB
-- Image ID: `sha256:7eaa75056f7199500c5e7384bf3664d18abeaa15d93905eff29fbbb3b07ae9f9`
-- Created: `2026-10-28T12:56:33.69657474Z`
+- Image Size: 138.81 MB
+- Image ID: `sha256:b01330600281d8e894139e85411b0e7550ca44dfef50efd4138d2a1731449e2b`
+- Created: `2026-11-02T16:06:16.378193573Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.14169403`
+  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.14323108`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:5.6.0.14169403`
-  - `panw.builtby.pipeline:14171445`
+  - `org.opencontainers.image.revision:6fb9ad7fed5830124666cac7a6ce2b0c370ad854`
+  - `org.opencontainers.image.version:5.6.0.14323108`
+  - `panw.builtby.pipeline:14324475`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py-ews:5.6.0.14169403
+Signatures for demisto/py-ews:5.6.0.14323108
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-5.6.0.14169403   a46c05f905ecfefc06a368a39a5694c9407d51016f4e79bc1ce944a06e08e3f9   (Repo Admin)
+5.6.0.14323108   821c7a8da79a29795a83634d0ad0bcbaa7862df8267444d32dceb11f799172b7   (Repo Admin)
 
-Administrative keys for demisto/py-ews:5.6.0.14169403
+Administrative keys for demisto/py-ews:5.6.0.14323108
 
   Repository Key:	c8b3a877659c96dd5e16db568d8f817a6eabb390ecfda3f567a6bc1929408237
   Root Key:	61b6aad19eee856a8c06a402a23627b05539b427be49b6335a4b309706ee1cdc
@@ -158,7 +158,7 @@ Administrative keys for demisto/py-ews:5.6.0.14169403
 ### `dnspython`
 
 * Summary: DNS toolkit
-* Version: 2.9.0
+* Version: 2.9.1
 * Pypi: https://pypi.org/project/dnspython/
 * Homepage: None
 * Author: Bob Halley Bob Halley <halley@dnspython.org>
@@ -184,11 +184,10 @@ Administrative keys for demisto/py-ews:5.6.0.14169403
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 4.0.10
+* Version: 4.2.6
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -334,7 +333,7 @@ Administrative keys for demisto/py-ews:5.6.0.14169403
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -343,7 +342,7 @@ Administrative keys for demisto/py-ews:5.6.0.14169403
 ### `platformdirs`
 
 * Summary: A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`.
-* Version: 4.13.7
+* Version: 4.14.3
 * Pypi: https://pypi.org/project/platformdirs/
 * Homepage: None
 * Author: None
@@ -395,15 +394,14 @@ Administrative keys for demisto/py-ews:5.6.0.14169403
 * Summary: Extensions to the standard Python datetime module
 * Version: 2.9.0.post0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+* License: Dual License
 
 ### `python-discovery`
 
 * Summary: Python interpreter discovery
-* Version: 1.6.7
+* Version: 1.9.0
 * Pypi: https://pypi.org/project/python-discovery/
 * Homepage: None
 * Author: None
@@ -411,7 +409,7 @@ Administrative keys for demisto/py-ews:5.6.0.14169403
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.5
+* Version: 2026.6
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -491,7 +489,7 @@ Administrative keys for demisto/py-ews:5.6.0.14169403
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.0.0
+* Version: 84.2.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -549,7 +547,7 @@ Administrative keys for demisto/py-ews:5.6.0.14169403
 ### `virtualenv`
 
 * Summary: Virtual Python Environment builder
-* Version: 21.15.1
+* Version: 21.15.2
 * Pypi: https://pypi.org/project/virtualenv/
 * Homepage: None
 * Author: None
@@ -661,6 +659,6 @@ Administrative keys for demisto/py-ews:5.6.0.14169403
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026e-0+deb13u1
+* tzdata	2026f-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1

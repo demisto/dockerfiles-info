@@ -1,9 +1,9 @@
-# `demisto/xpanse-ml-ev2:1.0.0.14170433`
+# `demisto/xpanse-ml-ev2:1.0.0.14304551`
 
 ## Docker Metadata
-- Image Size: 189.99 MB
-- Image ID: `sha256:a1bab5daa76284bb134ee21bef2226ee23305703c68fa8522557a57850c6187a`
-- Created: `2026-10-28T13:52:00.152325167Z`
+- Image Size: 189.43 MB
+- Image ID: `sha256:add0956a67675b67f988874535531ac08b8768a191177e74f129b9eeb6cb4f86`
+- Created: `2026-11-02T10:04:47.714296443Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.14170433`
+  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.14304551`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.0.0.14170433`
-  - `panw.builtby.pipeline:14173861`
+  - `org.opencontainers.image.revision:17207f8f312f8393f64a11ebbd3bdaf501ced35e`
+  - `org.opencontainers.image.version:1.0.0.14304551`
+  - `panw.builtby.pipeline:14306071`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/xpanse-ml-ev2:1.0.0.14170433
+Signatures for demisto/xpanse-ml-ev2:1.0.0.14304551
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14170433   ae92931ff0149d208ecf0213c0f330ac099307025679cb16996d5b83fbed6132   (Repo Admin)
+1.0.0.14304551   53bd2955adb9d6e4779ba9b4b777353ac2a78a4b8d8f0e9abd90ea85cd1037e3   (Repo Admin)
 
-Administrative keys for demisto/xpanse-ml-ev2:1.0.0.14170433
+Administrative keys for demisto/xpanse-ml-ev2:1.0.0.14304551
 
   Repository Key:	fa55b8182edbcafca39872dc58748778b2ff80634214e1872a9351313e618c45
   Root Key:	4324e3baaaa90dedc0be93f30c2271fb7bbaa8de8949e6c3996a45c6e81637d2
@@ -136,7 +136,6 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.14170433
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -150,7 +149,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.14170433
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.43.0
+* Version: 2.43.2
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -263,7 +262,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.14170433
 ### `narwhals`
 
 * Summary: Extremely lightweight compatibility layer between dataframe libraries
-* Version: 2.27.1
+* Version: 2.28.0
 * Pypi: https://pypi.org/project/narwhals/
 * Homepage: None
 * Author: Marco Gorelli Marco Gorelli <hello_narwhals@proton.me>
@@ -288,7 +287,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.14170433
 ### `opentelemetry-api`
 
 * Summary: OpenTelemetry Python API
-* Version: 1.45.1
+* Version: 1.45.2
 * Pypi: https://pypi.org/project/opentelemetry-api/
 * Homepage: None
 * Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
@@ -312,7 +311,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.14170433
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -339,7 +338,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.14170433
 ### `pyasn1`
 
 * Summary: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
-* Version: 0.6.4
+* Version: 0.6.5
 * Pypi: https://pypi.org/project/pyasn1/
 * Homepage: None
 * Author: Ilya Etingof <etingof@gmail.com>
@@ -374,12 +373,10 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.14170433
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 3.0.0
+* Version: 4.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
 
 ### `pytz`
 
@@ -495,7 +492,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.14170433
 ### `tzdata`
 
 * Summary: Provider of IANA time zone data
-* Version: 2026.5
+* Version: 2026.6
 * Pypi: https://pypi.org/project/tzdata/
 * Homepage: https://github.com/python/tzdata
 * Author: Python Software Foundation datetime-sig@python.org

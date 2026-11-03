@@ -1,9 +1,9 @@
-# `demisto/ippysocks-py3:1.0.0.14169403`
+# `demisto/ippysocks-py3:1.0.0.14323108`
 
 ## Docker Metadata
-- Image Size: 59.96 MB
-- Image ID: `sha256:ed599f2ef19866ea81befe74b39265fa535c878c24743f30d4675aaa3d98e351`
-- Created: `2026-10-28T12:56:29.99327412Z`
+- Image Size: 59.97 MB
+- Image ID: `sha256:703925df2e9b0cd0b092d85a83120c5678d1dbab9f251916d6b11fdb02730617`
+- Created: `2026-11-02T16:07:12.435295401Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/ippysocks-py3:1.0.0.14169403`
+  - `DOCKER_IMAGE=demisto/ippysocks-py3:1.0.0.14323108`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.0.0.14169403`
-  - `panw.builtby.pipeline:14171474`
+  - `org.opencontainers.image.revision:6fb9ad7fed5830124666cac7a6ce2b0c370ad854`
+  - `org.opencontainers.image.version:1.0.0.14323108`
+  - `panw.builtby.pipeline:14324470`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/ippysocks-py3:1.0.0.14169403
+Signatures for demisto/ippysocks-py3:1.0.0.14323108
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14169403   3aecbf9749583ec7ac6694ab808dfc000ab3049e9746e1633abade17399bc0d6   (Repo Admin)
+1.0.0.14323108   d6c94d01b6788100f0bcc5ca4d9f24ccf54552cfd4d7aa7f04240ede13e3a072   (Repo Admin)
 
-Administrative keys for demisto/ippysocks-py3:1.0.0.14169403
+Administrative keys for demisto/ippysocks-py3:1.0.0.14323108
 
   Repository Key:	e44c7afabeca5185fe1e6bcf908b3bb53fc1c0b900b9f55f382833f1536f42d8
   Root Key:	c90f2820ccc5affd363c1610cc94f6b04ffa25a9afd57f2ad9279ddc3b16944d
@@ -98,7 +98,7 @@ Administrative keys for demisto/ippysocks-py3:1.0.0.14169403
 ### `dnspython`
 
 * Summary: DNS toolkit
-* Version: 2.9.0
+* Version: 2.9.1
 * Pypi: https://pypi.org/project/dnspython/
 * Homepage: None
 * Author: Bob Halley Bob Halley <halley@dnspython.org>
@@ -111,7 +111,6 @@ Administrative keys for demisto/ippysocks-py3:1.0.0.14169403
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -194,7 +193,7 @@ Administrative keys for demisto/ippysocks-py3:1.0.0.14169403
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -214,10 +213,9 @@ Administrative keys for demisto/ippysocks-py3:1.0.0.14169403
 * Summary: Extensions to the standard Python datetime module
 * Version: 3.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+* License: Dual License
 
 ### `python-whois`
 

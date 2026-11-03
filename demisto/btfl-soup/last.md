@@ -1,9 +1,9 @@
-# `demisto/btfl-soup:1.0.1.14169403`
+# `demisto/btfl-soup:1.0.1.14304551`
 
 ## Docker Metadata
 - Image Size: 40.16 MB
-- Image ID: `sha256:5e284abcc7c3727efcb98b47c94117a8f16d8e71e2cc4c201f52b3308c1efa00`
-- Created: `2026-10-28T12:56:56.248777277Z`
+- Image ID: `sha256:ec5babc09fb230d6a6c730896e57c2243dc23f34524c0bfae2d48af866eaf618`
+- Created: `2026-11-02T10:05:16.829098436Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.14169403`
+  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.14304551`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.0.1.14169403`
-  - `panw.builtby.pipeline:14171518`
+  - `org.opencontainers.image.revision:17207f8f312f8393f64a11ebbd3bdaf501ced35e`
+  - `org.opencontainers.image.version:1.0.1.14304551`
+  - `panw.builtby.pipeline:14306075`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/btfl-soup:1.0.1.14169403
+Signatures for demisto/btfl-soup:1.0.1.14304551
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.1.14169403   3aa71facd2af7a3aaccdf717e509e1d7e3c45320de365102f49359928f91a48d   (Repo Admin)
+1.0.1.14304551   3bbbe1fccc3cff999d52cdc937b8174f9c895de1ecf4e079f8dda4eeee959b04   (Repo Admin)
 
-Administrative keys for demisto/btfl-soup:1.0.1.14169403
+Administrative keys for demisto/btfl-soup:1.0.1.14304551
 
   Repository Key:	2df9352dc8d80b6e208c7ff147fac5fe0db694f8ad563e69a8c0688b62620cb4
   Root Key:	48666b9a08f1927653d7c7246d50c6a1b3a7f7ff8ff8be1557cce0991627ccf4
@@ -116,7 +116,6 @@ Administrative keys for demisto/btfl-soup:1.0.1.14169403
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -208,7 +207,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.14169403
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -217,7 +216,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.14169403
 ### `pyasn1`
 
 * Summary: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
-* Version: 0.6.4
+* Version: 0.6.5
 * Pypi: https://pypi.org/project/pyasn1/
 * Homepage: None
 * Author: Ilya Etingof <etingof@gmail.com>
@@ -245,10 +244,9 @@ Administrative keys for demisto/btfl-soup:1.0.1.14169403
 * Summary: Extensions to the standard Python datetime module
 * Version: 3.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+* License: Dual License
 
 ### `pytz`
 

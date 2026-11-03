@@ -1,9 +1,9 @@
-# `demisto/netutils:1.0.0.14169403`
+# `demisto/netutils:1.0.0.14323108`
 
 ## Docker Metadata
-- Image Size: 47.29 MB
-- Image ID: `sha256:ac8599709e53b8eafc9710f593cf8cc6b9dc43d0b491417eca66ef3e550614d0`
-- Created: `2026-10-28T12:55:33.671955991Z`
+- Image Size: 47.30 MB
+- Image ID: `sha256:fb1a3e33cfa29f247f8f30aa6a8617f9a30530dff34a3b23bc2376d3f13d104f`
+- Created: `2026-11-02T16:06:40.711402657Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/netutils:1.0.0.14169403`
+  - `DOCKER_IMAGE=demisto/netutils:1.0.0.14323108`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.0.0.14169403`
-  - `panw.builtby.pipeline:14171453`
+  - `org.opencontainers.image.revision:6fb9ad7fed5830124666cac7a6ce2b0c370ad854`
+  - `org.opencontainers.image.version:1.0.0.14323108`
+  - `panw.builtby.pipeline:14324473`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/netutils:1.0.0.14169403
+Signatures for demisto/netutils:1.0.0.14323108
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14169403   b3d948054aede3fe9adf7d4702cf8712f540a62ec80c684929cf9ede1dafcbb6   (Repo Admin)
+1.0.0.14323108   3a3ae800cd9a5aa289a35f5a3a08ac0f4da822cd045ff40848199c38415cbde0   (Repo Admin)
 
-Administrative keys for demisto/netutils:1.0.0.14169403
+Administrative keys for demisto/netutils:1.0.0.14323108
 
   Repository Key:	4a445396112768813d4eed8d7ba46d7e9c7018e8936d73f291e3b14d34043b78
   Root Key:	1b9fb0fff68f4cc0c00bc76a90e250bd8514c1f683a697b7cd30b567838b2cdd
@@ -146,7 +146,7 @@ Administrative keys for demisto/netutils:1.0.0.14169403
 ### `dnspython`
 
 * Summary: DNS toolkit
-* Version: 2.9.0
+* Version: 2.9.1
 * Pypi: https://pypi.org/project/dnspython/
 * Homepage: None
 * Author: Bob Halley Bob Halley <halley@dnspython.org>
@@ -159,7 +159,6 @@ Administrative keys for demisto/netutils:1.0.0.14169403
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `frozenlist`
 
@@ -260,7 +259,7 @@ Administrative keys for demisto/netutils:1.0.0.14169403
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -298,10 +297,9 @@ Administrative keys for demisto/netutils:1.0.0.14169403
 * Summary: Extensions to the standard Python datetime module
 * Version: 3.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+* License: Dual License
 
 ### `python-libnmap`
 

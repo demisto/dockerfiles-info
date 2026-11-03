@@ -1,9 +1,9 @@
-# `demisto/faker3:1.0.0.14169403`
+# `demisto/faker3:1.0.0.14323108`
 
 ## Docker Metadata
 - Image Size: 38.03 MB
-- Image ID: `sha256:ac44ac3ccd6cf7569e736ec426851c52ce85b3e132f96a5fc6a7d172d16622ab`
-- Created: `2026-10-28T12:57:07.267917331Z`
+- Image ID: `sha256:e8368d4f7a73f684650c40ed1b8bef54fd76983c3beb13998e66a6e92d062469`
+- Created: `2026-11-02T16:06:40.991009561Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/faker3:1.0.0.14169403`
+  - `DOCKER_IMAGE=demisto/faker3:1.0.0.14323108`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.0.0.14169403`
-  - `panw.builtby.pipeline:14171494`
+  - `org.opencontainers.image.revision:6fb9ad7fed5830124666cac7a6ce2b0c370ad854`
+  - `org.opencontainers.image.version:1.0.0.14323108`
+  - `panw.builtby.pipeline:14324468`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/faker3:1.0.0.14169403
+Signatures for demisto/faker3:1.0.0.14323108
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14169403   705919b3e3d6acc04c5bc7bdf557b0f8a0eea0d59db8a47e03901a4a430b09e0   (Repo Admin)
+1.0.0.14323108   f6baa3704a01ae4171714729fa0bfd689804cf444820ea7c8480e3d7879711e9   (Repo Admin)
 
-Administrative keys for demisto/faker3:1.0.0.14169403
+Administrative keys for demisto/faker3:1.0.0.14323108
 
   Repository Key:	e5d44c90ec1e283217374c92514ddf896735e8536e705ef7271611ff44c7b99b
   Root Key:	d10c08e25ea8c26554ffe6d1931deeb6f6ad3540e21d89603e3c16d533e3deab
@@ -103,7 +103,7 @@ Administrative keys for demisto/faker3:1.0.0.14169403
 ### `Faker`
 
 * Summary: Faker is a Python package that generates fake data for you.
-* Version: 40.43.0
+* Version: 40.44.0
 * Pypi: https://pypi.org/project/Faker/
 * Homepage: https://github.com/joke2k/faker
 * Author: joke2k joke2k@gmail.com
@@ -116,7 +116,6 @@ Administrative keys for demisto/faker3:1.0.0.14169403
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -190,7 +189,7 @@ Administrative keys for demisto/faker3:1.0.0.14169403
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -210,10 +209,9 @@ Administrative keys for demisto/faker3:1.0.0.14169403
 * Summary: Extensions to the standard Python datetime module
 * Version: 3.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+* License: Dual License
 
 ### `pytz`
 

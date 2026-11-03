@@ -1,9 +1,9 @@
-# `demisto/google-k8s-engine:1.0.0.14169403`
+# `demisto/google-k8s-engine:1.0.0.14304551`
 
 ## Docker Metadata
-- Image Size: 75.02 MB
-- Image ID: `sha256:23fc525a1e1f495f53c338bc927c70ade6c592e3bf1fe2a72166d04aee7caadf`
-- Created: `2026-10-28T12:56:44.852978791Z`
+- Image Size: 75.03 MB
+- Image ID: `sha256:d7993d0e63c86bd6bc3a3643f520578d78d0491efe7f815d77cb22614826342e`
+- Created: `2026-11-02T10:03:22.195226185Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/google-k8s-engine:1.0.0.14169403`
+  - `DOCKER_IMAGE=demisto/google-k8s-engine:1.0.0.14304551`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.0.0.14169403`
-  - `panw.builtby.pipeline:14171485`
+  - `org.opencontainers.image.revision:17207f8f312f8393f64a11ebbd3bdaf501ced35e`
+  - `org.opencontainers.image.version:1.0.0.14304551`
+  - `panw.builtby.pipeline:14306063`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-k8s-engine:1.0.0.14169403
+Signatures for demisto/google-k8s-engine:1.0.0.14304551
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14169403   00eed0cce1db81075220903135e2f3b211efd4a62a3dc23638b68fcb73833a9a   (Repo Admin)
+1.0.0.14304551   51d7e8af69f823de61b9e1b8643722bd900f33696a3bade755d6586c2fe4a134   (Repo Admin)
 
-Administrative keys for demisto/google-k8s-engine:1.0.0.14169403
+Administrative keys for demisto/google-k8s-engine:1.0.0.14304551
 
   Repository Key:	fbfb793b1cd8dcd4c1e16086726ec95b98431fbb9c4a9cc8af0b7cae47f55a8a
   Root Key:	8bce9cdfcc879a0a80a4bbea156dab89352f8f0e7474b62a14639a511bdbd546
@@ -118,7 +118,6 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14169403
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -132,7 +131,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14169403
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.43.0
+* Version: 2.43.2
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -167,7 +166,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14169403
 ### `grpcio`
 
 * Summary: HTTP/2-based RPC framework
-* Version: 1.85.0
+* Version: 1.85.1
 * Pypi: https://pypi.org/project/grpcio/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -175,7 +174,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14169403
 ### `grpcio-status`
 
 * Summary: Status proto mapping for gRPC
-* Version: 1.85.0
+* Version: 1.85.1
 * Pypi: https://pypi.org/project/grpcio-status/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -235,7 +234,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14169403
 ### `opentelemetry-api`
 
 * Summary: OpenTelemetry Python API
-* Version: 1.45.1
+* Version: 1.45.2
 * Pypi: https://pypi.org/project/opentelemetry-api/
 * Homepage: None
 * Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
@@ -251,7 +250,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14169403
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -278,7 +277,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14169403
 ### `pyasn1`
 
 * Summary: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
-* Version: 0.6.4
+* Version: 0.6.5
 * Pypi: https://pypi.org/project/pyasn1/
 * Homepage: None
 * Author: Ilya Etingof <etingof@gmail.com>
@@ -315,10 +314,9 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14169403
 * Summary: Extensions to the standard Python datetime module
 * Version: 2.9.0.post0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+* License: Dual License
 
 ### `pytz`
 

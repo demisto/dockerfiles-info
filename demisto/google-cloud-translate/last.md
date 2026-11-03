@@ -1,9 +1,9 @@
-# `demisto/google-cloud-translate:1.0.0.14169403`
+# `demisto/google-cloud-translate:1.0.0.14304551`
 
 ## Docker Metadata
-- Image Size: 74.72 MB
-- Image ID: `sha256:8b9b9b5ebf9ffbbfe9d03ce765f30f414a0f337d827504f47345d328245412a6`
-- Created: `2026-10-28T12:56:48.194142466Z`
+- Image Size: 74.73 MB
+- Image ID: `sha256:8cf526a4a1cf0db4cba8ed41e1aebab7fedb81c0b4a2fa410be98114c67067af`
+- Created: `2026-11-02T10:05:39.299085734Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/google-cloud-translate:1.0.0.14169403`
+  - `DOCKER_IMAGE=demisto/google-cloud-translate:1.0.0.14304551`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.0.0.14169403`
-  - `panw.builtby.pipeline:14171490`
+  - `org.opencontainers.image.revision:17207f8f312f8393f64a11ebbd3bdaf501ced35e`
+  - `org.opencontainers.image.version:1.0.0.14304551`
+  - `panw.builtby.pipeline:14306067`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-cloud-translate:1.0.0.14169403
+Signatures for demisto/google-cloud-translate:1.0.0.14304551
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14169403   e13c132a4c8b2d4ccc97132e903e601c8dbe83eb66187498b3207026bc416dd5   (Repo Admin)
+1.0.0.14304551   4e0bfdb44101260fde1b7d8c10a749ccf159f37a32834a6d4f11227300ad9399   (Repo Admin)
 
-Administrative keys for demisto/google-cloud-translate:1.0.0.14169403
+Administrative keys for demisto/google-cloud-translate:1.0.0.14304551
 
   Repository Key:	09cd7f9d31e99f8c90dae52da10888c2a3779290ce38e52739c73bd91866a375
   Root Key:	42aa8b794987daaa5c6574d46a5483e72b0bc2daaba1c2e9968501ae78c35283
@@ -118,7 +118,6 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.14169403
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -132,7 +131,7 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.14169403
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.43.0
+* Version: 2.43.2
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -185,7 +184,7 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.14169403
 ### `grpcio`
 
 * Summary: HTTP/2-based RPC framework
-* Version: 1.85.0
+* Version: 1.85.1
 * Pypi: https://pypi.org/project/grpcio/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -193,7 +192,7 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.14169403
 ### `grpcio-status`
 
 * Summary: Status proto mapping for gRPC
-* Version: 1.85.0
+* Version: 1.85.1
 * Pypi: https://pypi.org/project/grpcio-status/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -253,7 +252,7 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.14169403
 ### `opentelemetry-api`
 
 * Summary: OpenTelemetry Python API
-* Version: 1.45.1
+* Version: 1.45.2
 * Pypi: https://pypi.org/project/opentelemetry-api/
 * Homepage: None
 * Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
@@ -269,7 +268,7 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.14169403
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -296,7 +295,7 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.14169403
 ### `pyasn1`
 
 * Summary: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
-* Version: 0.6.4
+* Version: 0.6.5
 * Pypi: https://pypi.org/project/pyasn1/
 * Homepage: None
 * Author: Ilya Etingof <etingof@gmail.com>
@@ -333,10 +332,9 @@ Administrative keys for demisto/google-cloud-translate:1.0.0.14169403
 * Summary: Extensions to the standard Python datetime module
 * Version: 2.9.0.post0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+* License: Dual License
 
 ### `pytz`
 

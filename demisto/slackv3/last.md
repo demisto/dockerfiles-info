@@ -1,9 +1,9 @@
-# `demisto/slackv3:1.0.0.14169403`
+# `demisto/slackv3:1.0.0.14323108`
 
 ## Docker Metadata
-- Image Size: 64.80 MB
-- Image ID: `sha256:6e58dc05e35806fc7edbb1e75aa9b1f8ba491fbf001c92ff6ea18d4f1a0eb360`
-- Created: `2026-10-28T12:55:30.145706808Z`
+- Image Size: 64.85 MB
+- Image ID: `sha256:351be71dfbe0be158b602d1dc960f46fcfb1c5efa658f0b4a31e2738d424e091`
+- Created: `2026-11-02T16:06:43.016962952Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/slackv3:1.0.0.14169403`
+  - `DOCKER_IMAGE=demisto/slackv3:1.0.0.14323108`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.0.0.14169403`
-  - `panw.builtby.pipeline:14171423`
+  - `org.opencontainers.image.revision:6fb9ad7fed5830124666cac7a6ce2b0c370ad854`
+  - `org.opencontainers.image.version:1.0.0.14323108`
+  - `panw.builtby.pipeline:14324478`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/slackv3:1.0.0.14169403
+Signatures for demisto/slackv3:1.0.0.14323108
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14169403   c3fab59aaa11c75de011672ffcc8a9c09a258886b06e618e7b2c06b4f1513a78   (Repo Admin)
+1.0.0.14323108   26bb1bbcd0615db75433b53a7148ace633410c2df3f1fbbe90b35d05cc071285   (Repo Admin)
 
-Administrative keys for demisto/slackv3:1.0.0.14169403
+Administrative keys for demisto/slackv3:1.0.0.14323108
 
   Repository Key:	6602ad934dd5a009ec1f1b9c2c790ddc5e51f314fe5de01189f72a28fc0aba8c
   Root Key:	c0823ae6697e9a99e1b889b37b9d4b7e34e645d912fdc7c06f1e1121ab88576a
@@ -102,7 +102,7 @@ Administrative keys for demisto/slackv3:1.0.0.14169403
 ### `boto3`
 
 * Summary: The AWS SDK for Python (Boto3)
-* Version: 1.43.118
+* Version: 1.43.123
 * Pypi: https://pypi.org/project/boto3/
 * Homepage: https://github.com/boto/boto3
 * Author: Amazon Web Services
@@ -111,7 +111,7 @@ Administrative keys for demisto/slackv3:1.0.0.14169403
 ### `botocore`
 
 * Summary: Low-level, data-driven core of boto 3.
-* Version: 1.43.118
+* Version: 1.43.123
 * Pypi: https://pypi.org/project/botocore/
 * Homepage: https://github.com/boto/botocore
 * Author: Amazon Web Services
@@ -176,7 +176,6 @@ Administrative keys for demisto/slackv3:1.0.0.14169403
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `frozenlist`
 
@@ -276,7 +275,7 @@ Administrative keys for demisto/slackv3:1.0.0.14169403
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -321,10 +320,9 @@ Administrative keys for demisto/slackv3:1.0.0.14169403
 * Summary: Extensions to the standard Python datetime module
 * Version: 2.9.0.post0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+* License: Dual License
 
 ### `pytz`
 
@@ -408,7 +406,7 @@ Administrative keys for demisto/slackv3:1.0.0.14169403
 ### `slack_sdk`
 
 * Summary: The Slack API Platform SDK for Python
-* Version: 3.45.0
+* Version: 3.46.0
 * Pypi: https://pypi.org/project/slack-sdk/
 * Homepage: https://github.com/slackapi/python-slack-sdk
 * Author: Slack Technologies, LLC opensource@slack.com

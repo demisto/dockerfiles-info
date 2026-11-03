@@ -1,9 +1,9 @@
-# `demisto/googleapi-python3:1.0.0.14169403`
+# `demisto/googleapi-python3:1.0.0.14304551`
 
 ## Docker Metadata
 - Image Size: 84.76 MB
-- Image ID: `sha256:486f898663da526466146332cb698ae3645ccbafb5fc38b785df1dd290eb4dd0`
-- Created: `2026-10-28T12:56:36.658696345Z`
+- Image ID: `sha256:1ed8c8c245d4fe06b16c230ccd9c4f39e1a2e8199be2f077e837bf9dae8a54f7`
+- Created: `2026-11-02T10:04:42.339532575Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/googleapi-python3:1.0.0.14169403`
+  - `DOCKER_IMAGE=demisto/googleapi-python3:1.0.0.14304551`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.0.0.14169403`
-  - `panw.builtby.pipeline:14171479`
+  - `org.opencontainers.image.revision:17207f8f312f8393f64a11ebbd3bdaf501ced35e`
+  - `org.opencontainers.image.version:1.0.0.14304551`
+  - `panw.builtby.pipeline:14306065`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/googleapi-python3:1.0.0.14169403
+Signatures for demisto/googleapi-python3:1.0.0.14304551
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14169403   4459d1b5f8054bbe49e4057d6387441a63019a72c12b87c0c42140d9d52c3cb3   (Repo Admin)
+1.0.0.14304551   7e2217b082a9ce849dd15a1a08f7b1fc84c20efcf91cde27e161b0ca5244ec65   (Repo Admin)
 
-Administrative keys for demisto/googleapi-python3:1.0.0.14169403
+Administrative keys for demisto/googleapi-python3:1.0.0.14304551
 
   Repository Key:	b14f1cdad56bfcc44f0ba4af89b0ec4910e16f20c7c6ab86d496a5786dc49c4c
   Root Key:	8fe3e320ac3b88f7823a158cd05468872ae8ac2135e8ca4f9e70d707440f05d4
@@ -118,7 +118,6 @@ Administrative keys for demisto/googleapi-python3:1.0.0.14169403
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -132,7 +131,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.14169403
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.43.0
+* Version: 2.43.2
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -230,7 +229,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.14169403
 ### `httplib2`
 
 * Summary: A comprehensive HTTP client library.
-* Version: 0.32.0
+* Version: 0.32.1
 * Pypi: https://pypi.org/project/httplib2/
 * Homepage: https://github.com/httplib2/httplib2
 * Author: Joe Gregorio joe@bitworking.org
@@ -282,7 +281,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.14169403
 ### `opentelemetry-api`
 
 * Summary: OpenTelemetry Python API
-* Version: 1.45.1
+* Version: 1.45.2
 * Pypi: https://pypi.org/project/opentelemetry-api/
 * Homepage: None
 * Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
@@ -298,7 +297,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.14169403
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -325,7 +324,7 @@ Administrative keys for demisto/googleapi-python3:1.0.0.14169403
 ### `pyasn1`
 
 * Summary: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
-* Version: 0.6.4
+* Version: 0.6.5
 * Pypi: https://pypi.org/project/pyasn1/
 * Homepage: None
 * Author: Ilya Etingof <etingof@gmail.com>
@@ -370,10 +369,9 @@ Administrative keys for demisto/googleapi-python3:1.0.0.14169403
 * Summary: Extensions to the standard Python datetime module
 * Version: 2.9.0.post0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+* License: Dual License
 
 ### `pytz`
 

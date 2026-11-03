@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.14255596`
+# `demisto/google-vision-api:1.0.0.14323108`
 
 ## Docker Metadata
-- Image Size: 126.80 MB
-- Image ID: `sha256:fc6822a67ba577b866f96a8cadcf6f795d4196de358acd6f06492856a591131d`
-- Created: `2026-11-01T03:40:14.936337552Z`
+- Image Size: 127.73 MB
+- Image ID: `sha256:7536f2ebcb32c26fea9f0a4d941a76c50db5b1f70a8c7e0123451dce97693ec4`
+- Created: `2026-11-02T16:06:31.754109615Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.14255596`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.14323108`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:56928b114ac29a85e7baa4a24cb4597b9c03c745`
-  - `org.opencontainers.image.version:1.0.0.14255596`
-  - `panw.builtby.pipeline:14255763`
+  - `org.opencontainers.image.revision:6fb9ad7fed5830124666cac7a6ce2b0c370ad854`
+  - `org.opencontainers.image.version:1.0.0.14323108`
+  - `panw.builtby.pipeline:14324474`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/google-vision-api:1.0.0.14255596
+Signatures for demisto/google-vision-api:1.0.0.14323108
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14255596   7d24e685f83a82c8712c265a8b730dc3cac9d9c4c1f00a43b51f2ea36c5f6025   (Repo Admin)
+1.0.0.14323108   d2953c1af4df5b557ed63d580a3749b0b2c66f73b525192ea1010499bb759bdd   (Repo Admin)
 
-Administrative keys for demisto/google-vision-api:1.0.0.14255596
+Administrative keys for demisto/google-vision-api:1.0.0.14323108
 
   Repository Key:	8f699c169d21da1343c2ea4f465fe5f19ace3822c0fd85c2d1a054379abf30dd
   Root Key:	23130201a9ea6e060cceb9cf5a1998649873c190c980fe0d6c487df1fadbc6ef
@@ -64,7 +64,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.14255596
 ### `anyio`
 
 * Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.15.1
+* Version: 4.16.0
 * Pypi: https://pypi.org/project/anyio/
 * Homepage: None
 * Author: Alex Grönholm <alex.gronholm@nextday.fi>
@@ -72,7 +72,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.14255596
 ### `cachetools`
 
 * Summary: Extensible memoizing collections and decorators
-* Version: 7.2.6
+* Version: 7.2.7
 * Pypi: https://pypi.org/project/cachetools/
 * Homepage: None
 * Author: Thomas Kemmer <tkemmer@computer.org>
@@ -174,7 +174,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.14255596
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.43.0
+* Version: 2.43.2
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -219,7 +219,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.14255596
 ### `google-cloud-aiplatform`
 
 * Summary: Vertex AI API client library
-* Version: 2.6.0
+* Version: 2.7.0
 * Pypi: https://pypi.org/project/google-cloud-aiplatform/
 * Homepage: https://github.com/googleapis/python-aiplatform
 * Author: Google LLC googleapis-packages@google.com
@@ -228,7 +228,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.14255596
 ### `google-cloud-bigquery`
 
 * Summary: Google BigQuery API client library
-* Version: 3.46.2
+* Version: 3.47.0
 * Pypi: https://pypi.org/project/google-cloud-bigquery/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -282,7 +282,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.14255596
 ### `google-genai`
 
 * Summary: GenAI Python SDK
-* Version: 2.33.0
+* Version: 2.34.0
 * Pypi: https://pypi.org/project/google-genai/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -316,7 +316,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.14255596
 ### `grpcio`
 
 * Summary: HTTP/2-based RPC framework
-* Version: 1.85.0
+* Version: 1.85.1
 * Pypi: https://pypi.org/project/grpcio/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -324,7 +324,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.14255596
 ### `grpcio-status`
 
 * Summary: Status proto mapping for gRPC
-* Version: 1.85.0
+* Version: 1.85.1
 * Pypi: https://pypi.org/project/grpcio-status/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -350,7 +350,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.14255596
 ### `httplib2`
 
 * Summary: A comprehensive HTTP client library.
-* Version: 0.32.0
+* Version: 0.32.1
 * Pypi: https://pypi.org/project/httplib2/
 * Homepage: https://github.com/httplib2/httplib2
 * Author: Joe Gregorio joe@bitworking.org
@@ -411,7 +411,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.14255596
 ### `opentelemetry-api`
 
 * Summary: OpenTelemetry Python API
-* Version: 1.45.1
+* Version: 1.45.2
 * Pypi: https://pypi.org/project/opentelemetry-api/
 * Homepage: None
 * Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
@@ -427,7 +427,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.14255596
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -480,7 +480,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.14255596
 ### `pydantic`
 
 * Summary: Data validation using Python type hints
-* Version: 2.14.1
+* Version: 2.14.2
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.dev>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -488,7 +488,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.14255596
 ### `pydantic_core`
 
 * Summary: Core functionality for Pydantic validation and serialization
-* Version: 2.50.1
+* Version: 2.50.2
 * Pypi: https://pypi.org/project/pydantic_core/
 * Homepage: https://github.com/pydantic/pydantic
 * Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -515,15 +515,14 @@ Administrative keys for demisto/google-vision-api:1.0.0.14255596
 * Summary: Extensions to the standard Python datetime module
 * Version: 2.9.0.post0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+* License: Dual License
 
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.5
+* Version: 2026.6
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -679,7 +678,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.14255596
 ### `websockets`
 
 * Summary: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
-* Version: 17.3
+* Version: 17.4
 * Pypi: https://pypi.org/project/websockets/
 * Homepage: None
 * Author: Aymeric Augustin <aymeric.augustin@m4x.org>
