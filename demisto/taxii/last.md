@@ -1,9 +1,9 @@
-# `demisto/taxii:1.0.0.14170433`
+# `demisto/taxii:1.0.0.14355756`
 
 ## Docker Metadata
-- Image Size: 48.51 MB
-- Image ID: `sha256:702c129b5c2a556f88b3380a2d4531c93d98543ed5fcb282da93e7df1505a05e`
-- Created: `2026-10-28T13:51:36.124242618Z`
+- Image Size: 49.25 MB
+- Image ID: `sha256:9ac34e0f9409df9de4b55f3c8b4041b2c56daed5bf354ec091ef532639e255bc`
+- Created: `2026-11-03T12:47:50.462382224Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/taxii:1.0.0.14170433`
+  - `DOCKER_IMAGE=demisto/taxii:1.0.0.14355756`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.0.0.14170433`
-  - `panw.builtby.pipeline:14173865`
+  - `org.opencontainers.image.revision:e38142c5ca11aa441956ac82abc588ec853395ac`
+  - `org.opencontainers.image.version:1.0.0.14355756`
+  - `panw.builtby.pipeline:14356647`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/taxii:1.0.0.14170433
+Signatures for demisto/taxii:1.0.0.14355756
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14170433   14c0b7a606f323616a76310810354500aff550b7e823d3472598da4b9a5d85c2   (Repo Admin)
+1.0.0.14355756   85169f53902c692e0770e21c91134ea8d2cff2966d99cf9104710bce45619b7b   (Repo Admin)
 
-Administrative keys for demisto/taxii:1.0.0.14170433
+Administrative keys for demisto/taxii:1.0.0.14355756
 
   Repository Key:	e4d1140f2317822debbb995b6bfdb0d014d69a98bb5ad2430433c95c311184b3
   Root Key:	0cfe3b20862e965095cc96c97d3bd4aed117b78cd941957bafe1ddf016cfa6b9
@@ -134,7 +134,6 @@ Administrative keys for demisto/taxii:1.0.0.14170433
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -271,7 +270,7 @@ Administrative keys for demisto/taxii:1.0.0.14170433
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -280,7 +279,7 @@ Administrative keys for demisto/taxii:1.0.0.14170433
 ### `pyasn1`
 
 * Summary: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
-* Version: 0.6.4
+* Version: 0.6.5
 * Pypi: https://pypi.org/project/pyasn1/
 * Homepage: None
 * Author: Ilya Etingof <etingof@gmail.com>
@@ -306,17 +305,15 @@ Administrative keys for demisto/taxii:1.0.0.14170433
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 3.0.0
+* Version: 4.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
 
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.5
+* Version: 2026.6
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -420,7 +417,7 @@ Administrative keys for demisto/taxii:1.0.0.14170433
 ### `tzdata`
 
 * Summary: Provider of IANA time zone data
-* Version: 2026.5
+* Version: 2026.6
 * Pypi: https://pypi.org/project/tzdata/
 * Homepage: https://github.com/python/tzdata
 * Author: Python Software Foundation datetime-sig@python.org

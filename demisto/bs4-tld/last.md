@@ -1,9 +1,9 @@
-# `demisto/bs4-tld:1.0.0.14169403`
+# `demisto/bs4-tld:1.0.0.14355756`
 
 ## Docker Metadata
 - Image Size: 40.50 MB
-- Image ID: `sha256:93f37dba71b427fcf6f2a2bb2676f2ea4f469a01b062b5adf1ad72fcad0fdbae`
-- Created: `2026-10-28T12:57:07.045244147Z`
+- Image ID: `sha256:434bdc894b902984dd96ce01f32f8b540cd36701cc1ce9145621167f77deacca`
+- Created: `2026-11-03T12:47:17.576671716Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/bs4-tld:1.0.0.14169403`
+  - `DOCKER_IMAGE=demisto/bs4-tld:1.0.0.14355756`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.0.0.14169403`
-  - `panw.builtby.pipeline:14171510`
+  - `org.opencontainers.image.revision:e38142c5ca11aa441956ac82abc588ec853395ac`
+  - `org.opencontainers.image.version:1.0.0.14355756`
+  - `panw.builtby.pipeline:14356645`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/bs4-tld:1.0.0.14169403
+Signatures for demisto/bs4-tld:1.0.0.14355756
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14169403   1fa3a1b33ea93127cf67ec343d9fbfdad7e49c45dca89b4fc7f45762fe0662e3   (Repo Admin)
+1.0.0.14355756   5f5686ed0a685e66ffe15e32595ebb1e284a4408437a8d8086ba5bf92f8b5a99   (Repo Admin)
 
-Administrative keys for demisto/bs4-tld:1.0.0.14169403
+Administrative keys for demisto/bs4-tld:1.0.0.14355756
 
   Repository Key:	c35e55a31c0b5eb40a287c3dc6201e42f9cae3c14443084040c3a4ebf3223478
   Root Key:	e43cfea7ae473e233abfa9b68fcb3bccdbdcc02e543e1230ea5d54d245dc5045
@@ -116,7 +116,6 @@ Administrative keys for demisto/bs4-tld:1.0.0.14169403
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -208,7 +207,7 @@ Administrative keys for demisto/bs4-tld:1.0.0.14169403
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -217,7 +216,7 @@ Administrative keys for demisto/bs4-tld:1.0.0.14169403
 ### `pyasn1`
 
 * Summary: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
-* Version: 0.6.4
+* Version: 0.6.5
 * Pypi: https://pypi.org/project/pyasn1/
 * Homepage: None
 * Author: Ilya Etingof <etingof@gmail.com>
@@ -245,10 +244,9 @@ Administrative keys for demisto/bs4-tld:1.0.0.14169403
 * Summary: Extensions to the standard Python datetime module
 * Version: 3.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+* License: Dual License
 
 ### `pytz`
 

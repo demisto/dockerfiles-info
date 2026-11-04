@@ -1,9 +1,9 @@
-# `demisto/netutils:1.0.0.14323108`
+# `demisto/netutils:1.0.0.14363229`
 
 ## Docker Metadata
-- Image Size: 47.30 MB
-- Image ID: `sha256:fb1a3e33cfa29f247f8f30aa6a8617f9a30530dff34a3b23bc2376d3f13d104f`
-- Created: `2026-11-02T16:06:40.711402657Z`
+- Image Size: 47.31 MB
+- Image ID: `sha256:333f938f93d5be4d1a48e2863c6f360be455c0297114a9721c70526f17d8238e`
+- Created: `2026-11-03T15:48:25.647529404Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/netutils:1.0.0.14323108`
+  - `DOCKER_IMAGE=demisto/netutils:1.0.0.14363229`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:6fb9ad7fed5830124666cac7a6ce2b0c370ad854`
-  - `org.opencontainers.image.version:1.0.0.14323108`
-  - `panw.builtby.pipeline:14324473`
+  - `org.opencontainers.image.revision:39a57a788a257450e4bc905cbd8087db70cc8e7e`
+  - `org.opencontainers.image.version:1.0.0.14363229`
+  - `panw.builtby.pipeline:14364307`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/netutils:1.0.0.14323108
+Signatures for demisto/netutils:1.0.0.14363229
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14323108   3a3ae800cd9a5aa289a35f5a3a08ac0f4da822cd045ff40848199c38415cbde0   (Repo Admin)
+1.0.0.14363229   a233d5dfe5f4a675078618440648ebca2a00495727a5f195fa9565673659579a   (Repo Admin)
 
-Administrative keys for demisto/netutils:1.0.0.14323108
+Administrative keys for demisto/netutils:1.0.0.14363229
 
   Repository Key:	4a445396112768813d4eed8d7ba46d7e9c7018e8936d73f291e3b14d34043b78
   Root Key:	1b9fb0fff68f4cc0c00bc76a90e250bd8514c1f683a697b7cd30b567838b2cdd
@@ -424,7 +424,7 @@ Administrative keys for demisto/netutils:1.0.0.14323108
 ### `websockets`
 
 * Summary: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
-* Version: 17.3
+* Version: 17.4
 * Pypi: https://pypi.org/project/websockets/
 * Homepage: None
 * Author: Aymeric Augustin <aymeric.augustin@m4x.org>
