@@ -1,9 +1,9 @@
-# `demisto/keepercommander:1.0.0.14169403`
+# `demisto/keepercommander:1.0.0.14488990`
 
 ## Docker Metadata
-- Image Size: 113.30 MB
-- Image ID: `sha256:0bff6f0dfae671822101bf1e32bf0beac0815c0d2b0a04a14e4a45540c2f8ace`
-- Created: `2026-10-28T12:57:01.689172738Z`
+- Image Size: 113.86 MB
+- Image ID: `sha256:ff8382a3ece2907a85e67c6368cb9eb3d9d34659789a6e1a89eb25854ec6ae74`
+- Created: `2026-11-08T01:24:24.208653082Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/keepercommander:1.0.0.14169403`
+  - `DOCKER_IMAGE=demisto/keepercommander:1.0.0.14488990`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.0.0.14169403`
-  - `panw.builtby.pipeline:14171465`
+  - `org.opencontainers.image.revision:09eaedd0416f400431511088cbcffe9dfc2cbb03`
+  - `org.opencontainers.image.version:1.0.0.14488990`
+  - `panw.builtby.pipeline:14489762`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/keepercommander:1.0.0.14169403
+Signatures for demisto/keepercommander:1.0.0.14488990
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14169403   f7b01c9acfe34f13e249aee9669668288c311e8ec1f94d4283c2af1c5fdb942c   (Repo Admin)
+1.0.0.14488990   4d67b7b94bb5669ec4e022afd9cb650afb512b45e1e77447c0221baea64d49ba   (Repo Admin)
 
-Administrative keys for demisto/keepercommander:1.0.0.14169403
+Administrative keys for demisto/keepercommander:1.0.0.14488990
 
   Repository Key:	6b4c4c8538fa4913cdd4302f4b122f560b2edd89f4c9989713eefaef50dd0cfb
   Root Key:	52d43b84cdd7efdb974a7041cb968424eb2d6032575ffb6b68028bc0f84efc3f
@@ -166,7 +166,7 @@ Administrative keys for demisto/keepercommander:1.0.0.14169403
 ### `Deprecated`
 
 * Summary: Python @deprecated decorator to deprecate old python classes, functions or methods.
-* Version: 3.0.0
+* Version: 3.0.1
 * Pypi: https://pypi.org/project/Deprecated/
 * Homepage: None
 * Author: Laurent LAPORTE <laurent.laporte.pro@gmail.com>
@@ -189,7 +189,6 @@ Administrative keys for demisto/keepercommander:1.0.0.14169403
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `Flask`
 
@@ -210,7 +209,7 @@ Administrative keys for demisto/keepercommander:1.0.0.14169403
 ### `fonttools`
 
 * Summary: Tools to manipulate font files
-* Version: 4.67.0
+* Version: 4.68.0
 * Pypi: https://pypi.org/project/fonttools/
 * Homepage: http://github.com/fonttools/fonttools
 * Author: Just van Rossum just@letterror.com
@@ -219,7 +218,7 @@ Administrative keys for demisto/keepercommander:1.0.0.14169403
 ### `fpdf2`
 
 * Summary: Simple & fast PDF generation for Python
-* Version: 2.8.9
+* Version: 2.9.0
 * Pypi: https://pypi.org/project/fpdf2/
 * Homepage: None
 * Author: Olivier PLATHEY, Max, Lucas Cimon (@Lucas-C), Georg Mischler (@gmischler), Anderson Herzogenrath da Costa (@andersonhc)
@@ -339,7 +338,7 @@ Administrative keys for demisto/keepercommander:1.0.0.14169403
 ### `keeper-pam-webrtc-rs`
 
 * Summary: Keeper PAM WebRTC for Python - A secure, stable, and high-performance Tube API for Python, providing WebRTC-based secure tunneling with enterprise-grade security and reliability optimizations.
-* Version: 2.2.9
+* Version: 2.2.11
 * Pypi: https://pypi.org/project/keeper-pam-webrtc-rs/
 * Homepage: None
 * Author: None
@@ -357,7 +356,7 @@ Administrative keys for demisto/keepercommander:1.0.0.14169403
 ### `keepercommander`
 
 * Summary: Keeper Commander for Python 3
-* Version: 18.1.8
+* Version: 18.1.9
 * Pypi: https://pypi.org/project/keepercommander/
 * Homepage: https://keepersecurity.com/
 * Author: Craig Lurey craig@keepersecurity.com
@@ -469,7 +468,7 @@ Administrative keys for demisto/keepercommander:1.0.0.14169403
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -478,7 +477,7 @@ Administrative keys for demisto/keepercommander:1.0.0.14169403
 ### `platformdirs`
 
 * Summary: A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`.
-* Version: 4.13.5
+* Version: 4.14.5
 * Pypi: https://pypi.org/project/platformdirs/
 * Homepage: None
 * Author: None
@@ -521,7 +520,7 @@ Administrative keys for demisto/keepercommander:1.0.0.14169403
 ### `pycryptodomex`
 
 * Summary: Cryptographic library for Python
-* Version: 3.24.1
+* Version: 3.24.2
 * Pypi: https://pypi.org/project/pycryptodomex/
 * Homepage: https://www.pycryptodome.org
 * Author: Helder Eijs helderijs@gmail.com
@@ -531,7 +530,7 @@ Administrative keys for demisto/keepercommander:1.0.0.14169403
 ### `pydantic`
 
 * Summary: Data validation using Python type hints
-* Version: 2.14.1
+* Version: 2.14.3
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.dev>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -539,7 +538,7 @@ Administrative keys for demisto/keepercommander:1.0.0.14169403
 ### `pydantic_core`
 
 * Summary: Core functionality for Pydantic validation and serialization
-* Version: 2.50.1
+* Version: 2.50.4
 * Pypi: https://pypi.org/project/pydantic_core/
 * Homepage: https://github.com/pydantic/pydantic
 * Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -555,7 +554,7 @@ Administrative keys for demisto/keepercommander:1.0.0.14169403
 ### `pyngrok`
 
 * Summary: The complete ngrok agent for Python: programmatic tunnels for ingress, inspection, webhooks, demos, and APIs
-* Version: 9.0.3
+* Version: 9.1.3
 * Pypi: https://pypi.org/project/pyngrok/
 * Homepage: None
 * Author: Alex Laird <contact@alexlaird.com>
@@ -583,10 +582,9 @@ Administrative keys for demisto/keepercommander:1.0.0.14169403
 * Summary: Extensions to the standard Python datetime module
 * Version: 2.9.0.post0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+* License: Dual License
 
 ### `python-dotenv`
 
@@ -720,7 +718,7 @@ Administrative keys for demisto/keepercommander:1.0.0.14169403
 ### `typing-inspection`
 
 * Summary: Runtime typing introspection tools
-* Version: 0.4.4
+* Version: 0.4.5
 * Pypi: https://pypi.org/project/typing-inspection/
 * Homepage: None
 * Author: Victorien Plot <contact@vctrn.dev>
@@ -753,7 +751,7 @@ Administrative keys for demisto/keepercommander:1.0.0.14169403
 ### `websockets`
 
 * Summary: An implementation of the WebSocket Protocol (RFC 6455 & 7692)
-* Version: 17.3
+* Version: 17.4
 * Pypi: https://pypi.org/project/websockets/
 * Homepage: None
 * Author: Aymeric Augustin <aymeric.augustin@m4x.org>
@@ -777,7 +775,7 @@ Administrative keys for demisto/keepercommander:1.0.0.14169403
 ### `wrapt`
 
 * Summary: Module for decorators, wrappers and monkey patching.
-* Version: 2.5.1
+* Version: 2.5.2
 * Pypi: https://pypi.org/project/wrapt/
 * Homepage: None
 * Author: Graham Dumpleton <Graham.Dumpleton@gmail.com>
@@ -881,4 +879,4 @@ Administrative keys for demisto/keepercommander:1.0.0.14169403
 * tar	1.35+dfsg-3.1
 * tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
-* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1
+* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+deb13u1

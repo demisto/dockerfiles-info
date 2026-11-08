@@ -1,9 +1,9 @@
-# `demisto/py-ews:5.6.0.14323108`
+# `demisto/py-ews:5.6.0.14488990`
 
 ## Docker Metadata
-- Image Size: 138.81 MB
-- Image ID: `sha256:b01330600281d8e894139e85411b0e7550ca44dfef50efd4138d2a1731449e2b`
-- Created: `2026-11-02T16:06:16.378193573Z`
+- Image Size: 141.06 MB
+- Image ID: `sha256:64097900eebbf38588367d792d5b31fcf3d674235ff633692e39c79acbd2e2b3`
+- Created: `2026-11-08T01:24:12.437995796Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.14`
   - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.14323108`
+  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.14488990`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:6fb9ad7fed5830124666cac7a6ce2b0c370ad854`
-  - `org.opencontainers.image.version:5.6.0.14323108`
-  - `panw.builtby.pipeline:14324475`
+  - `org.opencontainers.image.revision:09eaedd0416f400431511088cbcffe9dfc2cbb03`
+  - `org.opencontainers.image.version:5.6.0.14488990`
+  - `panw.builtby.pipeline:14489759`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,12 +37,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/py-ews:5.6.0.14323108
+Signatures for demisto/py-ews:5.6.0.14488990
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-5.6.0.14323108   821c7a8da79a29795a83634d0ad0bcbaa7862df8267444d32dceb11f799172b7   (Repo Admin)
+5.6.0.14488990   bf171f412708afd3e6fb727563fb1e808cea5ee9b735bbeb361f7a63812a50b6   (Repo Admin)
 
-Administrative keys for demisto/py-ews:5.6.0.14323108
+Administrative keys for demisto/py-ews:5.6.0.14488990
 
   Repository Key:	c8b3a877659c96dd5e16db568d8f817a6eabb390ecfda3f567a6bc1929408237
   Root Key:	61b6aad19eee856a8c06a402a23627b05539b427be49b6335a4b309706ee1cdc
@@ -184,7 +184,7 @@ Administrative keys for demisto/py-ews:5.6.0.14323108
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 4.2.6
+* Version: 4.2.9
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -307,7 +307,7 @@ Administrative keys for demisto/py-ews:5.6.0.14323108
 ### `oauthlib`
 
 * Summary: A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
-* Version: 4.0.0
+* Version: 4.0.1
 * Pypi: https://pypi.org/project/oauthlib/
 * Homepage: https://github.com/oauthlib/oauthlib
 * Author: The OAuthlib Community
@@ -342,7 +342,7 @@ Administrative keys for demisto/py-ews:5.6.0.14323108
 ### `platformdirs`
 
 * Summary: A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`.
-* Version: 4.14.3
+* Version: 4.14.5
 * Pypi: https://pypi.org/project/platformdirs/
 * Homepage: None
 * Author: None
@@ -401,7 +401,7 @@ Administrative keys for demisto/py-ews:5.6.0.14323108
 ### `python-discovery`
 
 * Summary: Python interpreter discovery
-* Version: 1.9.0
+* Version: 1.9.5
 * Pypi: https://pypi.org/project/python-discovery/
 * Homepage: None
 * Author: None
@@ -547,7 +547,7 @@ Administrative keys for demisto/py-ews:5.6.0.14323108
 ### `virtualenv`
 
 * Summary: Virtual Python Environment builder
-* Version: 21.15.2
+* Version: 21.15.6
 * Pypi: https://pypi.org/project/virtualenv/
 * Homepage: None
 * Author: None
@@ -563,7 +563,7 @@ Administrative keys for demisto/py-ews:5.6.0.14323108
 ## `OS Packages`
 
 * adduser	3.152
-* apt	3.0.3
+* apt	3.0.4
 * base-files	13.8+deb13u7
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
@@ -583,7 +583,7 @@ Administrative keys for demisto/py-ews:5.6.0.14323108
 * hostname	3.25
 * init-system-helpers	1.69~deb13u1
 * libacl1:amd64	2.3.2-2+b1
-* libapt-pkg7.0:amd64	3.0.3
+* libapt-pkg7.0:amd64	3.0.4
 * libattr1:amd64	1:2.5.2-3
 * libaudit-common	1:4.0.2-2+deb13u1
 * libaudit1:amd64	1:4.0.2-2+deb13u1
@@ -661,4 +661,4 @@ Administrative keys for demisto/py-ews:5.6.0.14323108
 * tar	1.35+dfsg-3.1
 * tzdata	2026f-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
-* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1
+* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+deb13u1

@@ -1,9 +1,9 @@
-# `demisto/threatzone-sdk:1.1.1.14170433`
+# `demisto/threatzone-sdk:1.1.4.14439606`
 
 ## Docker Metadata
-- Image Size: 37.78 MB
-- Image ID: `sha256:f27bc42bde41579ccdfcfebb001b7d659ec8bd5ced1a091f6d4497c52f5e408d`
-- Created: `2026-10-28T13:51:34.841594739Z`
+- Image Size: 38.46 MB
+- Image ID: `sha256:c6d9c6fdccb28be4c8f34645ccf960c4bcdeb6b054b9bc34bc62c063aa393767`
+- Created: `2026-11-05T15:39:27.496447974Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/threatzone-sdk:1.1.1.14170433`
+  - `DOCKER_IMAGE=demisto/threatzone-sdk:1.1.4.14439606`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.1.1.14170433`
-  - `panw.builtby.pipeline:14173867`
+  - `org.opencontainers.image.revision:272b8eb553b01c2ef4eddb4a4153dff58031f43d`
+  - `org.opencontainers.image.version:1.1.4.14439606`
+  - `panw.builtby.pipeline:14440261`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -33,12 +33,12 @@
 ## Docker Trust
 ```
 
-Signatures for demisto/threatzone-sdk:1.1.1.14170433
+Signatures for demisto/threatzone-sdk:1.1.4.14439606
 
 SIGNED TAG       DIGEST                                                             SIGNERS
-1.1.1.14170433   657f4c056d6f3b12e7f75f41d7da38b7a274109306d58be91eeae6df335436fa   (Repo Admin)
+1.1.4.14439606   1979ffa70ef77c68d11c8f62caa92edd4259732b433499aa621308b0f4b5b326   (Repo Admin)
 
-Administrative keys for demisto/threatzone-sdk:1.1.1.14170433
+Administrative keys for demisto/threatzone-sdk:1.1.4.14439606
 
   Repository Key:	13c992281402ae4d786c408fb729f54392e41435adf3c019a4be904878f1a389
   Root Key:	241211c38d515274dc0a41b86dd719350909ff7edf1ed87dbd0743accd241afa
@@ -60,7 +60,7 @@ Administrative keys for demisto/threatzone-sdk:1.1.1.14170433
 ### `anyio`
 
 * Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.15.1
+* Version: 4.16.0
 * Pypi: https://pypi.org/project/anyio/
 * Homepage: None
 * Author: Alex Grönholm <alex.gronholm@nextday.fi>
@@ -116,7 +116,6 @@ Administrative keys for demisto/threatzone-sdk:1.1.1.14170433
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -190,7 +189,7 @@ Administrative keys for demisto/threatzone-sdk:1.1.1.14170433
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -199,7 +198,7 @@ Administrative keys for demisto/threatzone-sdk:1.1.1.14170433
 ### `pydantic`
 
 * Summary: Data validation using Python type hints
-* Version: 2.14.1
+* Version: 2.14.3
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.dev>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -207,7 +206,7 @@ Administrative keys for demisto/threatzone-sdk:1.1.1.14170433
 ### `pydantic_core`
 
 * Summary: Core functionality for Pydantic validation and serialization
-* Version: 2.50.1
+* Version: 2.50.4
 * Pypi: https://pypi.org/project/pydantic_core/
 * Homepage: https://github.com/pydantic/pydantic
 * Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -226,10 +225,9 @@ Administrative keys for demisto/threatzone-sdk:1.1.1.14170433
 * Summary: Extensions to the standard Python datetime module
 * Version: 3.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+* License: Dual License
 
 ### `pytz`
 
@@ -304,7 +302,7 @@ Administrative keys for demisto/threatzone-sdk:1.1.1.14170433
 ### `threatzone`
 
 * Summary: Python SDK for the Threat.Zone malware analysis platform
-* Version: 1.1.1
+* Version: 1.1.4
 * Pypi: https://pypi.org/project/threatzone/
 * Homepage: None
 * Author: Malwation <info@malwation.com>
@@ -329,7 +327,7 @@ Administrative keys for demisto/threatzone-sdk:1.1.1.14170433
 ### `typing-inspection`
 
 * Summary: Runtime typing introspection tools
-* Version: 0.4.4
+* Version: 0.4.5
 * Pypi: https://pypi.org/project/typing-inspection/
 * Homepage: None
 * Author: Victorien Plot <contact@vctrn.dev>
