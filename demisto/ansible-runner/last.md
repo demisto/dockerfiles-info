@@ -1,24 +1,24 @@
-# `demisto/ansible-runner:1.0.0.14691907`
+# `demisto/ansible-runner:1.0.0.13557412`
 
 ## Docker Metadata
-- Image Size: 264.78 MB
-- Image ID: `sha256:2cd855c3b631cecbd2e68bf4b42166008e7b14b2755593a3fca0fde27a0f3ba3`
-- Created: `2026-11-12T15:54:01.578833476Z`
+- Image Size: 259.20 MB
+- Image ID: `sha256:f9d8ea4b70592ead6592b7a85e120a62f33a64ce70a8d274344c3eae59ac8125`
+- Created: `2026-10-06T05:53:10.722555565Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.15`
-  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/ansible-runner:1.0.0.14691907`
+  - `PYTHON_VERSION=3.12.14`
+  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
+  - `DOCKER_IMAGE=demisto/ansible-runner:1.0.0.13557412`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:39d3ad62d69d29f52d0ba2d20812530588c1a362`
-  - `org.opencontainers.image.version:1.0.0.14691907`
-  - `panw.builtby.pipeline:14692982`
+  - `org.opencontainers.image.revision:3cf7c9a160584ee7fece11e449eab5578810eb00`
+  - `org.opencontainers.image.version:1.0.0.13557412`
+  - `panw.builtby.pipeline:13557809`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,7 +36,17 @@
 
 ## Docker Trust
 ```
-No trust data is available
+
+Signatures for demisto/ansible-runner:1.0.0.13557412
+
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.13557412   900a3651d05b980cebf7980d7fd9514826a0a7ec06123cedbb5cd2f060eab31f   (Repo Admin)
+
+Administrative keys for demisto/ansible-runner:1.0.0.13557412
+
+  Repository Key:	6d8d5ea0bdf840b020da4fdcaa226ede39d89829334ed61e4c224e22dfb57892
+  Root Key:	fadafeb34133272ea0e8afc68ced4a43733965778e577dc6d01d0862d57bbc5c
+
 ```
 
 ## `Python Packages`
@@ -45,7 +55,7 @@ No trust data is available
 ### `adal`
 
 * Summary: Note: This library is already replaced by MSAL Python, available here: https://pypi.org/project/msal/ .ADAL Python remains available here as a legacy. The ADAL for Python library makes it easy for python application to authenticate to Azure Active Directory (AAD) in order to access AAD protected web resources.
-* Version: 1.2.5
+* Version: 1.2.7
 * Pypi: https://pypi.org/project/adal/
 * Homepage: https://github.com/AzureAD/azure-activedirectory-library-for-python
 * Author: Microsoft Corporation nugetaad@microsoft.com
@@ -59,15 +69,6 @@ No trust data is available
 * Homepage: None
 * Author: J. Nick Koston nick@koston.org
 * License :: PSF-2.0 License
-
-### `aiohttp-retry`
-
-* Summary: Simple retry client for aiohttp
-* Version: 2.9.1
-* Pypi: https://pypi.org/project/aiohttp-retry/
-* Homepage: https://github.com/inyutin/aiohttp_retry
-* Author: Dmitry Inyutin inyutin.da@gmail.com
-* License :: OSI Approved :: MIT License
 
 ### `aiosignal`
 
@@ -195,15 +196,6 @@ No trust data is available
 * Author: Aliyun aliyun-developers-efficiency@list.alibaba-inc.com
 * License :: OSI Approved :: Apache Software License
 
-### `annotated-types`
-
-* Summary: Reusable constraint types to use with typing.Annotated
-* Version: 0.8.0
-* Pypi: https://pypi.org/project/annotated-types/
-* Homepage: None
-* Author: Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Samuel Colvin <s@muelcolvin.com>, Zac Hatfield-Dodds <zac@zhd.dev>
-* License :: OSI Approved :: MIT License
-
 ### `ansible-runner`
 
 * Summary: "Consistent Ansible Python API and CLI with container and process isolation runtime capabilities"
@@ -253,9 +245,9 @@ No trust data is available
 * Summary: Microsoft Azure Command-Line Tools Core Module
 * Version: 2.0.31
 * Pypi: https://pypi.org/project/azure-cli-core/
-* Homepage: None
-* Author: Microsoft Corporation <azpycli@microsoft.com>
-* License: MIT
+* Homepage: https://github.com/Azure/azure-cli
+* Author: Microsoft Corporation azpycli@microsoft.com
+* License :: OSI Approved :: MIT License
 
 ### `azure-cli-nspkg`
 
@@ -364,12 +356,12 @@ No trust data is available
 
 ### `azure-mgmt-containerinstance`
 
-* Summary: Microsoft Azure Containerinstance Management Client Library for Python
+* Summary: Microsoft Azure Container Instance Client Library for Python
 * Version: 1.4.0
 * Pypi: https://pypi.org/project/azure-mgmt-containerinstance/
-* Homepage: None
-* Author: Microsoft Corporation <azpysdkhelp@microsoft.com>
-* License: MIT License
+* Homepage: https://github.com/Azure/azure-sdk-for-python
+* Author: Microsoft Corporation azpysdkhelp@microsoft.com
+* License :: OSI Approved :: MIT License
 
 ### `azure-mgmt-containerregistry`
 
@@ -464,7 +456,7 @@ No trust data is available
 * Version: 12.0.0
 * Pypi: https://pypi.org/project/azure-mgmt-keyvault/
 * Homepage: None
-* Author: Microsoft Corporation <azpysdkhelp@microsoft.com>
+* Author: Microsoft Corporation <azpysdkhelp@microsoft.com> License-Expression: MIT
 * License: MIT License
 
 ### `azure-mgmt-loganalytics`
@@ -665,7 +657,7 @@ No trust data is available
 ### `azure-storage-blob`
 
 * Summary: Microsoft Azure Blob Storage Client Library for Python
-* Version: 12.31.1
+* Version: 12.31.0
 * Pypi: https://pypi.org/project/azure-storage-blob/
 * Homepage: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/storage/azure-storage-blob
 * Author: Microsoft Corporation ascl@microsoft.com
@@ -683,7 +675,7 @@ No trust data is available
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.10.23
+* Version: 2025.4.26
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -761,16 +753,16 @@ No trust data is available
 ### `dnspython`
 
 * Summary: DNS toolkit
-* Version: 2.9.2
+* Version: 2.8.0
 * Pypi: https://pypi.org/project/dnspython/
 * Homepage: None
-* Author: Bob Halley Bob Halley <halley@dnspython.org>
+* Author: Bob Halley <halley@dnspython.org>
 * License :: ISC License
 
 ### `durationpy`
 
 * Summary: Module for converting between datetime.timedelta and Go's Duration strings.
-* Version: 0.11
+* Version: 0.10
 * Pypi: https://pypi.org/project/durationpy/
 * Homepage: https://github.com/icholy/durationpy
 * Author: Ilia Choly ilia.choly@gmail.com
@@ -783,6 +775,7 @@ No trust data is available
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
+* License :: OSI Approved :: MIT License
 
 ### `footmark`
 
@@ -937,10 +930,11 @@ No trust data is available
 ### `kubernetes`
 
 * Summary: Kubernetes python client
-* Version: 37.0.2
+* Version: 36.0.1
 * Pypi: https://pypi.org/project/kubernetes/
 * Homepage: https://github.com/kubernetes-client/python
 * Author: Kubernetes
+* License: Apache License Version 2.0
 
 ### `lockfile`
 
@@ -1035,7 +1029,7 @@ No trust data is available
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.2.1
+* Version: 11.1.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -1097,8 +1091,8 @@ No trust data is available
 * Summary: multidict implementation
 * Version: 6.4.3
 * Pypi: https://pypi.org/project/multidict/
-* Homepage: None
-* Author: Andrew Svetlov <andrew.svetlov@gmail.com>
+* Homepage: https://github.com/aio-libs/multidict
+* Author: Andrew Svetlov andrew.svetlov@gmail.com
 * License: Apache 2
 
 ### `nsx-policy-python-sdk`
@@ -1140,11 +1134,11 @@ No trust data is available
 ### `oauthlib`
 
 * Summary: A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
-* Version: 4.0.1
+* Version: 3.2.2
 * Pypi: https://pypi.org/project/oauthlib/
 * Homepage: https://github.com/oauthlib/oauthlib
 * Author: The OAuthlib Community
-* License: BSD-3-Clause
+* License: BSD
 
 ### `olefile`
 
@@ -1230,7 +1224,7 @@ No trust data is available
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.3
+* Version: 26.2.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -1276,25 +1270,10 @@ No trust data is available
 * Summary: Cryptographic library for Python
 * Version: 3.22.0
 * Pypi: https://pypi.org/project/pycryptodome/
-* Homepage: None
-* Author: Helder Eijs <helderijs@gmail.com>
-* License: BSD, Public Domain
-
-### `pydantic`
-
-* Summary: Data validation using Python type hints
-* Version: 2.14.3
-* Pypi: https://pypi.org/project/pydantic/
-* Homepage: None
-* Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.dev>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
-
-### `pydantic_core`
-
-* Summary: Core functionality for Pydantic validation and serialization
-* Version: 2.50.4
-* Pypi: https://pypi.org/project/pydantic_core/
-* Homepage: https://github.com/pydantic/pydantic
-* Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
+* Homepage: https://www.pycryptodome.org
+* Author: Helder Eijs helderijs@gmail.com
+* License :: OSI Approved :: BSD License
+* License :: Public Domain
 
 ### `Pygments`
 
@@ -1361,10 +1340,12 @@ No trust data is available
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 4.0.0
+* Version: 2.9.0.post0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: None
-* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+* Homepage: https://github.com/dateutil/dateutil
+* Author: Gustavo Niemeyer gustavo@niemeyer.net
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: BSD License
 
 ### `python-string-utils`
 
@@ -1476,7 +1457,7 @@ No trust data is available
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.2.1
+* Version: 84.0.0
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -1528,27 +1509,10 @@ No trust data is available
 ### `typing_extensions`
 
 * Summary: Backported and Experimental Type Hints for Python 3.9+
-* Version: 4.16.0
+* Version: 4.13.2
 * Pypi: https://pypi.org/project/typing-extensions/
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
-
-### `typing-inspection`
-
-* Summary: Runtime typing introspection tools
-* Version: 0.4.5
-* Pypi: https://pypi.org/project/typing-inspection/
-* Homepage: None
-* Author: Victorien Plot <contact@vctrn.dev>
-
-### `tzdata`
-
-* Summary: Provider of IANA time zone data
-* Version: 2026.6
-* Pypi: https://pypi.org/project/tzdata/
-* Homepage: https://github.com/python/tzdata
-* Author: Python Software Foundation datetime-sig@python.org
-* License: Apache-2.0
 
 ### `tzlocal`
 
@@ -1658,7 +1622,7 @@ No trust data is available
 ### `yarl`
 
 * Summary: Yet another URL library
-* Version: 1.25.1
+* Version: 1.20.0
 * Pypi: https://pypi.org/project/yarl/
 * Homepage: https://github.com/aio-libs/yarl
 * Author: Andrew Svetlov andrew.svetlov@gmail.com
@@ -1681,7 +1645,7 @@ No trust data is available
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
-* ca-certificates	20250419+deb13u1
+* ca-certificates	20250419
 * coreutils	9.7-3
 * dash	0.5.12-12
 * debconf	1.5.91
@@ -1726,7 +1690,7 @@ No trust data is available
 * libkrb5support0:amd64	1.21.3-5+deb13u1
 * liblastlog2-2:amd64	2.41.5-0+deb13u1
 * liblz4-1:amd64	1.10.0-4
-* liblzma5:amd64	5.8.1-1+deb13u2
+* liblzma5:amd64	5.8.1-1+deb13u1
 * libmd0:amd64	1.1.0-2+b1
 * libmount1:amd64	2.41.5-0+deb13u1
 * libncursesw6:amd64	6.5+20250216-2
@@ -1772,6 +1736,6 @@ No trust data is available
 * sshpass	1.10-0.1
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026e-0+deb13u1
+* tzdata	2026c-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
-* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+deb13u1
+* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1

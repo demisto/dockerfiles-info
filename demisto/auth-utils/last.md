@@ -1,38 +1,48 @@
-# `demisto/auth-utils:1.0.0.14665672`
+# `demisto/auth-utils:1.0.0.13804971`
 
 ## Docker Metadata
-- Image Size: 61.52 MB
-- Image ID: `sha256:7c99e2ca6f610a71109cfd2bd929c7c39b7f4d156d137d3ae12f04ae066b12cc`
-- Created: `2026-11-12T00:42:55.379473344Z`
+- Image Size: 65.31 MB
+- Image ID: `sha256:989e6d354c9604c0c13018118ec6c9289500cb36bf4abbdbc99439ffc91ed7e3`
+- Created: `2026-10-14T23:48:55.488235511Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.15`
-  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/auth-utils:1.0.0.14665672`
+  - `PYTHON_VERSION=3.12.13`
+  - `PYTHON_SHA256=c08bc65a81971c1dd5783182826503369466c7e67374d1646519adf05207b684`
+  - `DOCKER_IMAGE=demisto/auth-utils:1.0.0.13804971`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:09b0bcf92ec4aff5964470cf0228e421dfed309e`
-  - `org.opencontainers.image.version:1.0.0.14665672`
-  - `panw.builtby.pipeline:14666291`
+  - `org.opencontainers.image.revision:c149eca84669dac26b3da087a1148e698648fd87`
+  - `org.opencontainers.image.version:1.0.0.13804971`
+  - `panw.builtby.pipeline:13805390`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.24.3`
+  - `VERSION_ID=3.24.1`
   - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
-No trust data is available
+
+Signatures for demisto/auth-utils:1.0.0.13804971
+
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.13804971   926c5e502a64b0526f96991ad5e306c072edab2698cdc28ce930eac3efa62821   (Repo Admin)
+
+Administrative keys for demisto/auth-utils:1.0.0.13804971
+
+  Repository Key:	c4e5c6491d37f197ee11c3bcf27402ded5e35e8dfd04aa5f3ca6306c1589acb9
+  Root Key:	afc48b6ceb8bef3948a8d982cf3a6e357efca688125da7e062bdd41bfc9b9546
+
 ```
 
 ## `Python Packages`
@@ -72,14 +82,6 @@ No trust data is available
 * Homepage: None
 * Author: Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Samuel Colvin <s@muelcolvin.com>, Zac Hatfield-Dodds <zac@zhd.dev>
 * License :: OSI Approved :: MIT License
-
-### `anyio`
-
-* Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.15.1
-* Pypi: https://pypi.org/project/anyio/
-* Homepage: None
-* Author: Alex Grönholm <alex.gronholm@nextday.fi>
 
 ### `attrs`
 
@@ -136,7 +138,7 @@ No trust data is available
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.10.23
+* Version: 2024.12.14
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -170,7 +172,7 @@ No trust data is available
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.3
+* Version: 1.4.1
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -178,7 +180,7 @@ No trust data is available
 ### `deepmerge`
 
 * Summary: A toolset for deeply merging Python dictionaries.
-* Version: 3.0.1
+* Version: 2.1.0
 * Pypi: https://pypi.org/project/deepmerge/
 * Homepage: None
 * Author: Yusuke Tsutsumi <yusuke@tsutsumi.io>
@@ -196,7 +198,7 @@ No trust data is available
 ### `edgegrid-python`
 
 * Summary: {OPEN} client authentication protocol for python-requests
-* Version: 2.0.9
+* Version: 2.0.8
 * Pypi: https://pypi.org/project/edgegrid-python/
 * Homepage: https://github.com/akamai/AkamaiOPEN-edgegrid-python
 * Author: None
@@ -205,10 +207,11 @@ No trust data is available
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 4.2.4
+* Version: 3.20.3
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
+* License :: OSI Approved :: MIT License
 
 ### `frozenlist`
 
@@ -222,37 +225,10 @@ No trust data is available
 ### `funcy`
 
 * Summary: A fancy and practical functional tools
-* Version: 2.1
+* Version: 2.0
 * Pypi: https://pypi.org/project/funcy/
 * Homepage: https://github.com/Suor/funcy
 * Author: Alexander Schepanovski suor.web@gmail.com
-* License :: OSI Approved :: BSD License
-
-### `h11`
-
-* Summary: A pure-Python, bring-your-own-I/O implementation of HTTP/1.1
-* Version: 0.16.0
-* Pypi: https://pypi.org/project/h11/
-* Homepage: https://github.com/python-hyper/h11
-* Author: Nathaniel J. Smith njs@pobox.com
-* License :: OSI Approved :: MIT License
-
-### `httpcore`
-
-* Summary: A minimal low-level HTTP client.
-* Version: 1.0.9
-* Pypi: https://pypi.org/project/httpcore/
-* Homepage: None
-* Author: Tom Christie <tom@tomchristie.com>
-* License :: OSI Approved :: BSD License
-
-### `httpx`
-
-* Summary: The next generation HTTP client.
-* Version: 0.28.1
-* Pypi: https://pypi.org/project/httpx/
-* Homepage: None
-* Author: Tom Christie <tom@tomchristie.com>
 * License :: OSI Approved :: BSD License
 
 ### `idna`
@@ -274,7 +250,7 @@ No trust data is available
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.2.1
+* Version: 11.1.0
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -309,7 +285,7 @@ No trust data is available
 ### `oauthlib`
 
 * Summary: A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
-* Version: 4.0.1
+* Version: 3.3.1
 * Pypi: https://pypi.org/project/oauthlib/
 * Homepage: https://github.com/oauthlib/oauthlib
 * Author: The OAuthlib Community
@@ -327,7 +303,7 @@ No trust data is available
 ### `packaging`
 
 * Summary: Core utilities for Python packages
-* Version: 26.3
+* Version: 26.1
 * Pypi: https://pypi.org/project/packaging/
 * Homepage: None
 * Author: Donald Stufft <donald@stufft.io>
@@ -344,7 +320,7 @@ No trust data is available
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.3
+* Version: 26.2.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -379,7 +355,7 @@ No trust data is available
 ### `pycryptodomex`
 
 * Summary: Cryptographic library for Python
-* Version: 3.24.1
+* Version: 3.23.0
 * Pypi: https://pypi.org/project/pycryptodomex/
 * Homepage: https://www.pycryptodome.org
 * Author: Helder Eijs helderijs@gmail.com
@@ -419,15 +395,6 @@ No trust data is available
 * Author: 
 * License :: OSI Approved :: Apache Software License
 
-### `PyNaCl`
-
-* Summary: Python binding to the Networking and Cryptography (NaCl) library
-* Version: 1.6.2
-* Pypi: https://pypi.org/project/PyNaCl/
-* Homepage: https://github.com/pyca/pynacl/
-* Author: The PyNaCl developers <cryptography-dev@python.org>
-* License :: OSI Approved :: Apache Software License
-
 ### `pyOpenSSL`
 
 * Summary: Python wrapper module around the OpenSSL library
@@ -460,14 +427,15 @@ No trust data is available
 * Summary: Extensions to the standard Python datetime module
 * Version: 2.9.0.post0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: None
-* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
-* License: Dual License
+* Homepage: https://github.com/dateutil/dateutil
+* Author: Gustavo Niemeyer gustavo@niemeyer.net
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: BSD License
 
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.5
+* Version: 2026.2
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -502,7 +470,7 @@ No trust data is available
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.9.29
+* Version: 2026.5.9
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -552,19 +520,10 @@ No trust data is available
 * Author: Ian Cordasco, Cory Benfield graffatcolmingov@gmail.com
 * License :: OSI Approved :: Apache Software License
 
-### `respx`
-
-* Summary: A utility for mocking out the Python HTTPX and HTTP Core libraries.
-* Version: 0.23.1
-* Pypi: https://pypi.org/project/respx/
-* Homepage: https://lundberg.github.io/respx/
-* Author: Jonas Lundberg jonas@5monkeys.se
-* License :: OSI Approved :: BSD License
-
 ### `setuptools`
 
 * Summary: Most extensible Python build backend with support for C/C++ extension modules
-* Version: 84.2.1
+* Version: 82.0.1
 * Pypi: https://pypi.org/project/setuptools/
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
@@ -581,7 +540,7 @@ No trust data is available
 ### `soupsieve`
 
 * Summary: A modern CSS selector implementation for Beautiful Soup.
-* Version: 3.0.4
+* Version: 2.9.1
 * Pypi: https://pypi.org/project/soupsieve/
 * Homepage: None
 * Author: Isaac Muse <Isaac.Muse@gmail.com>
@@ -590,7 +549,7 @@ No trust data is available
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.4.0
+* Version: 5.3.1
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
@@ -611,19 +570,10 @@ No trust data is available
 * Homepage: None
 * Author: Victorien Plot <contact@vctrn.dev>
 
-### `tzdata`
-
-* Summary: Provider of IANA time zone data
-* Version: 2026.5
-* Pypi: https://pypi.org/project/tzdata/
-* Homepage: https://github.com/python/tzdata
-* Author: Python Software Foundation datetime-sig@python.org
-* License: Apache-2.0
-
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4.5
+* Version: 5.4.3
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -639,7 +589,7 @@ No trust data is available
 ### `wheel`
 
 * Summary: Command line tool for manipulating wheel files
-* Version: 0.48.0
+* Version: 0.47.0
 * Pypi: https://pypi.org/project/wheel/
 * Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
@@ -664,23 +614,23 @@ No trust data is available
 
 ## `OS Packages`
 
-* .python-rundeps-20261021.230421 noarch {.python-rundeps}
+* .python-rundeps-20260616.002526 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.24.3-r0 x86_64 {alpine-base}
-* apk-tools-3.0.8-r0 x86_64 {apk-tools}
+* alpine-release-3.24.1-r0 x86_64 {alpine-base}
+* apk-tools-3.0.6-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
-* ca-certificates-20261020-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20261020-r0 x86_64 {ca-certificates}
+* ca-certificates-20260611-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20260611-r0 x86_64 {ca-certificates}
 * e2fsprogs-libs-1.47.4-r0 x86_64 {e2fsprogs}
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
-* krb5-1.22.3-r0 x86_64 {krb5}
+* krb5-1.22.2-r1 x86_64 {krb5}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.22.3-r0 x86_64 {krb5}
-* libapk-3.0.8-r0 x86_64 {apk-tools}
+* krb5-libs-1.22.2-r1 x86_64 {krb5}
+* libapk-3.0.6-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.9-r0 x86_64 {openssl}
@@ -694,8 +644,8 @@ No trust data is available
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.42.3-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.6-r3 x86_64 {musl}
-* musl-utils-1.2.6-r3 x86_64 {musl}
+* musl-1.2.6-r2 x86_64 {musl}
+* musl-utils-1.2.6-r2 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * openssl-3.5.9-r0 x86_64 {openssl}
 * openssl-dev-3.5.9-r0 x86_64 {openssl}
@@ -704,6 +654,6 @@ No trust data is available
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026e-r0 x86_64 {tzdata}
-* xz-libs-5.8.4-r0 x86_64 {xz}
-* zlib-1.3.2-r1 x86_64 {zlib}
+* tzdata-2026b-r0 x86_64 {tzdata}
+* xz-libs-5.8.3-r0 x86_64 {xz}
+* zlib-1.3.2-r0 x86_64 {zlib}

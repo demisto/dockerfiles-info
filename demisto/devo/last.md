@@ -1,9 +1,9 @@
-# `demisto/devo:1.0.0.14562457`
+# `demisto/devo:1.0.0.14169403`
 
 ## Docker Metadata
-- Image Size: 107.97 MB
-- Image ID: `sha256:110093045d18142adcfa985933b3191c24557d031116fdaf93012b86bd0fcd0a`
-- Created: `2026-11-09T16:10:26.523257652Z`
+- Image Size: 107.87 MB
+- Image ID: `sha256:df73c45d7d00ed87f20388d7188fef0e841bcbbf2816581643b1e1e81e068553`
+- Created: `2026-10-28T12:57:10.187781158Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/devo:1.0.0.14562457`
+  - `DOCKER_IMAGE=demisto/devo:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3430483fa6abc4a7dbc690988ab97ae1748beb64`
-  - `org.opencontainers.image.version:1.0.0.14562457`
-  - `panw.builtby.pipeline:14564082`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171509`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,7 +36,17 @@
 
 ## Docker Trust
 ```
-No trust data is available
+
+Signatures for demisto/devo:1.0.0.14169403
+
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   244f33eb4ba24c28033e127135c0f202b408801483d8cb67963f3022a722456d   (Repo Admin)
+
+Administrative keys for demisto/devo:1.0.0.14169403
+
+  Repository Key:	8acbad29258c3af802a3ff19936a5e477ad72cb853dee0373658ff953e5c7acd
+  Root Key:	75e01057889069369a886a938165cc788450448b2d71e1b6a9c611a6bbccecd1
+
 ```
 
 ## `Python Packages`
@@ -125,6 +135,7 @@ No trust data is available
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -206,7 +217,7 @@ No trust data is available
 ### `pandas`
 
 * Summary: Powerful data structures for data analysis, time series, and statistics
-* Version: 3.1.1
+* Version: 3.1.0
 * Pypi: https://pypi.org/project/pandas/
 * Homepage: None
 * Author: The Pandas Development Team <pandas-dev@python.org>
@@ -223,7 +234,7 @@ No trust data is available
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.3
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -260,9 +271,10 @@ No trust data is available
 * Summary: Extensions to the standard Python datetime module
 * Version: 2.9.0.post0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: None
-* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
-* License: Dual License
+* Homepage: https://github.com/dateutil/dateutil
+* Author: Gustavo Niemeyer gustavo@niemeyer.net
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: BSD License
 
 ### `pytz`
 
@@ -464,4 +476,4 @@ No trust data is available
 * tar	1.35+dfsg-3.1
 * tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
-* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+deb13u1
+* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1

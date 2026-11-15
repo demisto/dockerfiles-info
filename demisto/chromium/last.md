@@ -1,9 +1,9 @@
-# `demisto/chromium:157.0.8103.14539885`
+# `demisto/chromium:156.0.8078.14169403`
 
 ## Docker Metadata
-- Image Size: 871.54 MB
-- Image ID: `sha256:fd046ceac2e4f78ba6dab7ef29d48d0df0b5edc74964f026281d8a4a02aeff6c`
-- Created: `2026-11-09T10:20:45.75335607Z`
+- Image Size: 868.48 MB
+- Image ID: `sha256:68e6dc0ce4328de34590152b45b11e76774034ace0ac37eea93a1ff1109aad5a`
+- Created: `2026-10-28T13:01:41.417531345Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,14 +12,14 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/chromium:157.0.8103.14539885`
+  - `DOCKER_IMAGE=demisto/chromium:156.0.8078.14169403`
   - `CHROME_EXE=/opt/google/chrome/google-chrome`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:4896cc9090abab8f88694ecb79d28d8b7e419ba0`
-  - `org.opencontainers.image.version:157.0.8103.14539885`
-  - `panw.builtby.pipeline:14542732`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:156.0.8078.14169403`
+  - `panw.builtby.pipeline:14171514`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -37,7 +37,17 @@
 
 ## Docker Trust
 ```
-No trust data is available
+
+Signatures for demisto/chromium:156.0.8078.14169403
+
+SIGNED TAG            DIGEST                                                             SIGNERS
+156.0.8078.14169403   c8b52bdb090b6b9178ee967d19eb09fc6eb8f58a1e23adb1f0b0e4eff04ecb54   (Repo Admin)
+
+Administrative keys for demisto/chromium:156.0.8078.14169403
+
+  Repository Key:	3813b768176a2034bbc69257f307406e2784fade5d96d2fb5c8aa8994fb66a2e
+  Root Key:	a861014c8427259238c1457d0e612583c42705b317fa4941e4fccf641983d570
+
 ```
 
 ## `Python Packages`
@@ -110,6 +120,7 @@ No trust data is available
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -218,7 +229,7 @@ No trust data is available
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.3
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -274,9 +285,10 @@ No trust data is available
 * Summary: Extensions to the standard Python datetime module
 * Version: 2.9.0.post0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: None
-* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
-* License: Dual License
+* Homepage: https://github.com/dateutil/dateutil
+* Author: Gustavo Niemeyer gustavo@niemeyer.net
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: BSD License
 
 ### `python-dotenv`
 
@@ -544,7 +556,7 @@ No trust data is available
 * gnupg	2.4.7-21+deb13u1
 * gnupg-l10n	2.4.7-21+deb13u1
 * gnupg2	2.4.7-21+deb13u1
-* google-chrome-stable	157.0.8103.38-1
+* google-chrome-stable	156.0.8078.73-1
 * gpg	2.4.7-21+deb13u1+b5
 * gpg-agent	2.4.7-21+deb13u1+b5
 * gpg-wks-client	2.4.7-21+deb13u1+b5
@@ -555,9 +567,9 @@ No trust data is available
 * gzip	1.13-1+deb13u1
 * hicolor-icon-theme	0.18-2
 * hostname	3.25
-* imagemagick	8:7.1.1.43+dfsg1-1+deb13u14
-* imagemagick-7-common	8:7.1.1.43+dfsg1-1+deb13u14
-* imagemagick-7.q16	8:7.1.1.43+dfsg1-1+deb13u14
+* imagemagick	8:7.1.1.43+dfsg1-1+deb13u12
+* imagemagick-7-common	8:7.1.1.43+dfsg1-1+deb13u12
+* imagemagick-7.q16	8:7.1.1.43+dfsg1-1+deb13u12
 * init-system-helpers	1.69~deb13u1
 * krb5-multidev:amd64	1.21.3-5+deb13u1
 * libacl1:amd64	2.3.2-2+b1
@@ -784,9 +796,9 @@ No trust data is available
 * liblzma-dev:amd64	5.8.1-1+deb13u2
 * liblzma5:amd64	5.8.1-1+deb13u2
 * liblzo2-2:amd64	2.10-3+b1
-* libmagickcore-7.q16-10-extra:amd64	8:7.1.1.43+dfsg1-1+deb13u14
-* libmagickcore-7.q16-10:amd64	8:7.1.1.43+dfsg1-1+deb13u14
-* libmagickwand-7.q16-10:amd64	8:7.1.1.43+dfsg1-1+deb13u14
+* libmagickcore-7.q16-10-extra:amd64	8:7.1.1.43+dfsg1-1+deb13u12
+* libmagickcore-7.q16-10:amd64	8:7.1.1.43+dfsg1-1+deb13u12
+* libmagickwand-7.q16-10:amd64	8:7.1.1.43+dfsg1-1+deb13u12
 * libmailtools-perl	2.22-1
 * libmd0:amd64	1.1.0-2+b1
 * libmd4c0:amd64	0.5.2-2+b1
@@ -813,8 +825,8 @@ No trust data is available
 * libnpth0t64:amd64	1.8-3
 * libnspr4-dev	2:4.36-1
 * libnspr4:amd64	2:4.36-1
-* libnss3-dev:amd64	2:3.110-1+deb13u5
-* libnss3:amd64	2:3.110-1+deb13u5
+* libnss3-dev:amd64	2:3.110-1+deb13u4
+* libnss3:amd64	2:3.110-1+deb13u4
 * libnuma1:amd64	2.0.19-1
 * libopenexr-3-1-30:amd64	3.1.13-2
 * libopengl-dev:amd64	1.7.0-1+b2
@@ -1009,7 +1021,7 @@ No trust data is available
 * libz3-4:amd64	4.13.3-1
 * libzstd-dev:amd64	1.5.7+dfsg-1
 * libzstd1:amd64	1.5.7+dfsg-1
-* linux-libc-dev	6.12.116-1
+* linux-libc-dev	6.12.113-1
 * login	1:4.16.0-2+really2.41.5-0+deb13u1
 * login.defs	1:4.17.4-2
 * luit	2.0.20240910-1
@@ -1084,6 +1096,6 @@ No trust data is available
 * xorg-sgml-doctools	1:1.11-1.1
 * xtrans-dev	1.4.0-1
 * xz-utils	5.8.1-1+deb13u2
-* zlib1g-dev:amd64	1:1.3.dfsg+really1.3.1-1+deb13u1
-* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+deb13u1
+* zlib1g-dev:amd64	1:1.3.dfsg+really1.3.1-1+b1
+* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1
 * zutty	0.16.2.20241020+dfsg1-1

@@ -1,9 +1,9 @@
-# `demisto/powershell-teams:1.0.0.14539885`
+# `demisto/powershell-teams:1.0.0.13928755`
 
 ## Docker Metadata
-- Image Size: 202.78 MB
-- Image ID: `sha256:958fe3788fc8aecf8eec2055f73890a089397ce1565f0b85891b73c5e646d50c`
-- Created: `2026-11-09T10:19:19.823262958Z`
+- Image Size: 202.19 MB
+- Image ID: `sha256:d906eeeee8d5f3984d21aa51d92067f0b79a0bcaf094991022d173667859a0e9`
+- Created: `2026-10-20T05:42:21.449033043Z`
 - Arch: `linux`/`amd64`
 - Command: `["pwsh-preview"]`
 - Environment:
@@ -14,7 +14,7 @@
   - `PS_INSTALL_FOLDER=/opt/microsoft/powershell/7`
   - `PSModuleAnalysisCachePath=/var/cache/microsoft/powershell/PSModuleAnalysisCache/ModuleAnalysisCache`
   - `POWERSHELL_DISTRIBUTION_CHANNEL=PSDocker-Ubuntu-22.04`
-  - `DOCKER_IMAGE=demisto/powershell-teams:1.0.0.14539885`
+  - `DOCKER_IMAGE=demisto/powershell-teams:1.0.0.13928755`
 - Labels:
   - `com.visualstudio.mscodehub.image.build.buildnumber:PSDocker-Build-561111-version_v7.5.0_channel_stable_01`
   - `com.visualstudio.mscodehub.image.build.builduri:vstfs:///Build/Build/561111`
@@ -28,9 +28,9 @@
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
   - `org.opencontainers.image.ref.name:ubuntu`
-  - `org.opencontainers.image.revision:4896cc9090abab8f88694ecb79d28d8b7e419ba0`
-  - `org.opencontainers.image.version:1.0.0.14539885`
-  - `panw.builtby.pipeline:14542733`
+  - `org.opencontainers.image.revision:b4f8c0d3257c8642e5aa6d083e755085a27853fd`
+  - `org.opencontainers.image.version:1.0.0.13928755`
+  - `panw.builtby.pipeline:13928885`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -50,7 +50,17 @@
 
 ## Docker Trust
 ```
-No trust data is available
+
+Signatures for demisto/powershell-teams:1.0.0.13928755
+
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.13928755   137ec2a2b1e2fc77103faa4da73c29f352c16f6d78671f0ae6cec08110a9a923   (Repo Admin)
+
+Administrative keys for demisto/powershell-teams:1.0.0.13928755
+
+  Repository Key:	5e913c4d8843b55db0a9a0e6e34eae4a929eaa9981fcc8b780bf53ff6d608c5c
+  Root Key:	4fcfa937053ba7692c2f9130bb758203e261106a3f161a072548f3baf27ee3d6
+
 ```
 
 ## `Python Packages`
@@ -59,12 +69,12 @@ No trust data is available
 ## `OS Packages`
 
 * adduser	3.118ubuntu5
-* apt	2.4.15ubuntu0.1
+* apt	2.4.14
 * base-files	12ubuntu4.7
 * base-passwd	3.5.52build1
 * bash	5.1-6ubuntu1.1
 * bsdutils	1:2.37.2-4ubuntu3.6
-* ca-certificates	20260816ubuntu0.22.04.2
+* ca-certificates	20260601~22.04.1
 * coreutils	8.32-4.1ubuntu1.4
 * dash	0.5.11+git20210903+057cd650a4ed-3build1
 * debconf	1.5.79ubuntu1
@@ -82,7 +92,7 @@ No trust data is available
 * init-system-helpers	1.62
 * less	590-1ubuntu0.22.04.3
 * libacl1:amd64	2.3.1-1
-* libapt-pkg6.0:amd64	2.4.15ubuntu0.1
+* libapt-pkg6.0:amd64	2.4.14
 * libattr1:amd64	1:2.5.1-1ubuntu0.1
 * libaudit1:amd64	1:3.0.7-1ubuntu0.1
 * libaudit-common	1:3.0.7-1ubuntu0.1
@@ -119,7 +129,7 @@ No trust data is available
 * liblttng-ust-common1:amd64	2.13.1-1ubuntu1
 * liblttng-ust-ctl5:amd64	2.13.1-1ubuntu1
 * liblz4-1:amd64	1.9.3-2build2
-* liblzma5:amd64	5.2.5-2ubuntu1.2
+* liblzma5:amd64	5.2.5-2ubuntu1.1
 * libmd0:amd64	1.0.4-1build1
 * libmount1:amd64	2.37.2-4ubuntu3.6
 * libncurses6:amd64	6.3-2ubuntu0.3
@@ -132,7 +142,7 @@ No trust data is available
 * libpam-modules:amd64	1.4.0-11ubuntu2.8
 * libpam-modules-bin	1.4.0-11ubuntu2.8
 * libpam-runtime	1.4.0-11ubuntu2.8
-* libpcre2-8-0:amd64	10.39-3ubuntu0.2
+* libpcre2-8-0:amd64	10.39-3ubuntu0.1
 * libpcre3:amd64	2:8.39-13ubuntu0.22.04.1
 * libprocps8:amd64	2:3.3.17-6ubuntu2.1
 * libpsl5:amd64	0.21.0-1.2build2

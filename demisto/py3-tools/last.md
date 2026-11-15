@@ -1,9 +1,9 @@
-# `demisto/py3-tools:1.0.0.14648826`
+# `demisto/py3-tools:1.0.0.14199497`
 
 ## Docker Metadata
-- Image Size: 77.34 MB
-- Image ID: `sha256:f4b01712fb5262cc50f8a19c12b13cb6f014c56cf4a56d7357682afa0d511811`
-- Created: `2026-11-11T16:17:56.365070404Z`
+- Image Size: 76.77 MB
+- Image ID: `sha256:2ae3e864256600de07868679f46ab4d66e6c7cf8b1777e88d4f607f753080585`
+- Created: `2026-10-29T09:45:49.753033215Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/py3-tools:1.0.0.14648826`
+  - `DOCKER_IMAGE=demisto/py3-tools:1.0.0.14199497`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:32a1c31a48735dc5a258a92c5b634b2593e2f38f`
-  - `org.opencontainers.image.version:1.0.0.14648826`
-  - `panw.builtby.pipeline:14650948`
+  - `org.opencontainers.image.revision:ddb69ade30bd7e8bd469be3bbe20d389466aa02e`
+  - `org.opencontainers.image.version:1.0.0.14199497`
+  - `panw.builtby.pipeline:14200390`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -32,7 +32,17 @@
 
 ## Docker Trust
 ```
-No trust data is available
+
+Signatures for demisto/py3-tools:1.0.0.14199497
+
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14199497   a18d28c32964845ad06421f8712ef8862b6f1e20dd35aa0c79078c83423873de   (Repo Admin)
+
+Administrative keys for demisto/py3-tools:1.0.0.14199497
+
+  Repository Key:	1b56229e5721c693499b3207de8556f64f4132a6f26e179574b23c3a4cb1ea83
+  Root Key:	2f6650ee63d96525c75c75b7122a6e9ac95c253c019bb768504bdc9179c1bd7c
+
 ```
 
 ## `Python Packages`
@@ -112,7 +122,7 @@ No trust data is available
 ### `anyio`
 
 * Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.16.0
+* Version: 4.15.1
 * Pypi: https://pypi.org/project/anyio/
 * Homepage: None
 * Author: Alex Grönholm <alex.gronholm@nextday.fi>
@@ -225,7 +235,7 @@ No trust data is available
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 50.0.2
+* Version: 50.0.1
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -436,7 +446,7 @@ No trust data is available
 ### `imap-tools`
 
 * Summary: Work with email by IMAP
-* Version: 1.16.0
+* Version: 1.15.0
 * Pypi: https://pypi.org/project/imap-tools/
 * Homepage: https://github.com/ikvk/imap_tools
 * Author: Vladimir Kaukin KaukinVK@ya.ru
@@ -550,7 +560,7 @@ No trust data is available
 ### `oauthlib`
 
 * Summary: A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
-* Version: 4.0.1
+* Version: 4.0.0
 * Pypi: https://pypi.org/project/oauthlib/
 * Homepage: https://github.com/oauthlib/oauthlib
 * Author: The OAuthlib Community
@@ -612,7 +622,7 @@ No trust data is available
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.3
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -648,7 +658,7 @@ No trust data is available
 ### `pyasn1`
 
 * Summary: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
-* Version: 0.6.5
+* Version: 0.6.4
 * Pypi: https://pypi.org/project/pyasn1/
 * Homepage: None
 * Author: Ilya Etingof <etingof@gmail.com>
@@ -684,7 +694,7 @@ No trust data is available
 ### `pydantic`
 
 * Summary: Data validation using Python type hints
-* Version: 2.14.2
+* Version: 2.13.5
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.dev>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -692,7 +702,7 @@ No trust data is available
 ### `pydantic_core`
 
 * Summary: Core functionality for Pydantic validation and serialization
-* Version: 2.50.2
+* Version: 2.46.5
 * Pypi: https://pypi.org/project/pydantic_core/
 * Homepage: https://github.com/pydantic/pydantic
 * Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -728,9 +738,10 @@ No trust data is available
 * Summary: Extensions to the standard Python datetime module
 * Version: 2.9.0.post0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: None
-* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
-* License: Dual License
+* Homepage: https://github.com/dateutil/dateutil
+* Author: Gustavo Niemeyer gustavo@niemeyer.net
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: BSD License
 
 ### `python-http-client`
 
@@ -964,7 +975,7 @@ No trust data is available
 ### `typing-inspection`
 
 * Summary: Runtime typing introspection tools
-* Version: 0.4.5
+* Version: 0.4.2
 * Pypi: https://pypi.org/project/typing-inspection/
 * Homepage: None
 * Author: Victorien Plot <contact@vctrn.dev>

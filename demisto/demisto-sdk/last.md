@@ -1,24 +1,24 @@
-# `demisto/demisto-sdk:1.39.14.14648826`
+# `demisto/demisto-sdk:1.39.12.13919218`
 
 ## Docker Metadata
-- Image Size: 680.90 MB
-- Image ID: `sha256:bd94de796f15d006009cf1635d2f485edc43213a91154dd90a4d5b4d4fad8bcc`
-- Created: `2026-11-11T16:18:33.107092953Z`
+- Image Size: 675.07 MB
+- Image ID: `sha256:b1faf678d5e8e2bd4477a59cdd6fa988408cc7213d3e46dfb2461d4f3c7430f3`
+- Created: `2026-10-19T18:11:00.852912145Z`
 - Arch: `linux`/`amd64`
 - Command: `["demisto-sdk","--help"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.15`
-  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/demisto-sdk:1.39.14.14648826`
+  - `PYTHON_VERSION=3.12.14`
+  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
+  - `DOCKER_IMAGE=demisto/demisto-sdk:1.39.12.13919218`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:32a1c31a48735dc5a258a92c5b634b2593e2f38f`
-  - `org.opencontainers.image.version:1.39.14.14648826`
-  - `panw.builtby.pipeline:14650949`
+  - `org.opencontainers.image.revision:feb70d06402a78e263b32ba410b7e52c5290ef2d`
+  - `org.opencontainers.image.version:1.39.12.13919218`
+  - `panw.builtby.pipeline:13919908`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,7 +36,17 @@
 
 ## Docker Trust
 ```
-No trust data is available
+
+Signatures for demisto/demisto-sdk:1.39.12.13919218
+
+SIGNED TAG         DIGEST                                                             SIGNERS
+1.39.12.13919218   79cea4fc4fb9f6958adf7c5e5e4dfd445700e6b5d0d4b2078fc5c5c730a9f69f   (Repo Admin)
+
+Administrative keys for demisto/demisto-sdk:1.39.12.13919218
+
+  Repository Key:	62e2b8856f5e4331ebea7d3b1395ed9aac5729f1333c0c720e3a410932dfbea6
+  Root Key:	ea99312756356d5a2b823d5a1598cca5cc9163236379e44d53a04e978a177180
+
 ```
 
 ## `Python Packages`
@@ -115,7 +125,7 @@ No trust data is available
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.10.23
+* Version: 2024.12.14
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -190,7 +200,7 @@ No trust data is available
 * Pypi: https://pypi.org/project/configparser/
 * Homepage: None
 * Author: Łukasz Langa <lukasz@langa.pl>
-* License: 
+* License :: OSI Approved :: MIT License
 
 ### `coverage`
 
@@ -198,13 +208,13 @@ No trust data is available
 * Version: 7.3.4
 * Pypi: https://pypi.org/project/coverage/
 * Homepage: https://github.com/coveragepy/coveragepy
-* Author: Ned Batchelder and many others ned@nedbatchelder.com
+* Author: Ned Batchelder and 263 others ned@nedbatchelder.com
 * License: Apache-2.0
 
 ### `cryptography`
 
 * Summary: cryptography is a package which provides cryptographic recipes and primitives to Python developers.
-* Version: 50.0.2
+* Version: 50.0.1
 * Pypi: https://pypi.org/project/cryptography/
 * Homepage: None
 * Author: The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>
@@ -247,7 +257,7 @@ No trust data is available
 ### `demisto-sdk`
 
 * Summary: "A Python library for the Demisto SDK"
-* Version: 1.39.14
+* Version: 1.39.12
 * Pypi: https://pypi.org/project/demisto-sdk/
 * Homepage: None
 * Author: Demisto
@@ -314,6 +324,7 @@ No trust data is available
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
+* License :: OSI Approved :: MIT License
 
 ### `flatten-dict`
 
@@ -354,7 +365,7 @@ No trust data is available
 ### `GitPython`
 
 * Summary: GitPython is a Python library used to interact with Git repositories
-* Version: 3.2.1
+* Version: 3.1.62
 * Pypi: https://pypi.org/project/GitPython/
 * Homepage: None
 * Author: Sebastian Thiel <byronimo@gmail.com>, Michael Trier <mtrier@gmail.com>
@@ -381,7 +392,7 @@ No trust data is available
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.47.0
+* Version: 2.58.0
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -399,7 +410,7 @@ No trust data is available
 ### `google-cloud-secret-manager`
 
 * Summary: Google Cloud Secret Manager API client library
-* Version: 2.32.0
+* Version: 2.30.0
 * Pypi: https://pypi.org/project/google-cloud-secret-manager/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-secret-manager
 * Author: Google LLC googleapis-packages@google.com
@@ -443,7 +454,7 @@ No trust data is available
 ### `grpc-google-iam-v1`
 
 * Summary: IAM API client library
-* Version: 0.14.6
+* Version: 0.14.5
 * Pypi: https://pypi.org/project/grpc-google-iam-v1/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -452,7 +463,7 @@ No trust data is available
 ### `grpcio`
 
 * Summary: HTTP/2-based RPC framework
-* Version: 1.85.1
+* Version: 1.84.0
 * Pypi: https://pypi.org/project/grpcio/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -460,7 +471,7 @@ No trust data is available
 ### `grpcio-status`
 
 * Summary: Status proto mapping for gRPC
-* Version: 1.85.1
+* Version: 1.84.0
 * Pypi: https://pypi.org/project/grpcio-status/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -504,7 +515,7 @@ No trust data is available
 ### `identify`
 
 * Summary: File identification library for Python
-* Version: 2.6.20
+* Version: 2.6.19
 * Pypi: https://pypi.org/project/identify/
 * Homepage: https://github.com/pre-commit/identify
 * Author: Chris Kuehl ckuehl@ocf.berkeley.edu
@@ -556,7 +567,7 @@ No trust data is available
 ### `isort`
 
 * Summary: A Python utility / library to sort Python imports.
-* Version: 5.13.2
+* Version: 6.1.0
 * Pypi: https://pypi.org/project/isort/
 * Homepage: None
 * Author: Daniël van Noord <13665637+DanielNoord@users.noreply.github.com>, Timothy Crosley <timothy.crosley@gmail.com>, staticdev <staticdev-support@proton.me>
@@ -643,16 +654,15 @@ No trust data is available
 ### `MarkupSafe`
 
 * Summary: Safely add untrusted strings to HTML/XML markup.
-* Version: 2.1.5
+* Version: 3.0.3
 * Pypi: https://pypi.org/project/MarkupSafe/
 * Homepage: None
 * Author: None
-* License: BSD-3-Clause
 
 ### `mccabe`
 
 * Summary: McCabe checker, plugin for flake8
-* Version: 0.6.1
+* Version: 0.7.0
 * Pypi: https://pypi.org/project/mccabe/
 * Homepage: https://github.com/pycqa/mccabe
 * Author: Tarek Ziade tarek@ziade.org
@@ -704,7 +714,7 @@ No trust data is available
 ### `neo4j`
 
 * Summary: Neo4j Bolt driver for Python
-* Version: 5.28.8
+* Version: 5.28.6
 * Pypi: https://pypi.org/project/neo4j/
 * Homepage: None
 * Author: "Neo4j, Inc." <drivers@neo4j.com>
@@ -722,7 +732,7 @@ No trust data is available
 ### `nltk`
 
 * Summary: Natural Language Toolkit
-* Version: 3.10.4
+* Version: 3.10.3
 * Pypi: https://pypi.org/project/nltk/
 * Homepage: https://www.nltk.org/
 * Author: NLTK Team nltk.team@gmail.com
@@ -731,7 +741,7 @@ No trust data is available
 ### `nodeenv`
 
 * Summary: Node.js virtual environment builder
-* Version: 1.12.0
+* Version: 1.10.0
 * Pypi: https://pypi.org/project/nodeenv/
 * Homepage: https://github.com/ekalinin/nodeenv
 * Author: Eugene Kalinin e.v.kalinin@gmail.com
@@ -740,7 +750,7 @@ No trust data is available
 ### `oauthlib`
 
 * Summary: A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
-* Version: 4.0.1
+* Version: 3.3.1
 * Pypi: https://pypi.org/project/oauthlib/
 * Homepage: https://github.com/oauthlib/oauthlib
 * Author: The OAuthlib Community
@@ -775,7 +785,7 @@ No trust data is available
 ### `orjson`
 
 * Summary: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
-* Version: 3.13.0
+* Version: 3.12.0
 * Pypi: https://pypi.org/project/orjson/
 * Homepage: None
 * Author: None
@@ -813,7 +823,7 @@ No trust data is available
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.3
+* Version: 26.2.1
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -825,6 +835,7 @@ No trust data is available
 * Pypi: https://pypi.org/project/platformdirs/
 * Homepage: None
 * Author: None
+* License :: OSI Approved :: MIT License
 
 ### `pluggy`
 
@@ -873,7 +884,7 @@ No trust data is available
 ### `pyasn1`
 
 * Summary: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
-* Version: 0.6.5
+* Version: 0.6.4
 * Pypi: https://pypi.org/project/pyasn1/
 * Homepage: None
 * Author: Ilya Etingof <etingof@gmail.com>
@@ -891,7 +902,7 @@ No trust data is available
 ### `pycodestyle`
 
 * Summary: Python style guide checker
-* Version: 2.15.0
+* Version: 2.14.0
 * Pypi: https://pypi.org/project/pycodestyle/
 * Homepage: https://pycodestyle.pycqa.org/
 * Author: Johann C. Rocholl johann@rocholl.net
@@ -934,7 +945,7 @@ No trust data is available
 ### `PyJWT`
 
 * Summary: JSON Web Token implementation in Python
-* Version: 2.15.1
+* Version: 2.15.0
 * Pypi: https://pypi.org/project/PyJWT/
 * Homepage: None
 * Author: Jose Padilla <hello@jpadilla.com>
@@ -1006,9 +1017,10 @@ No trust data is available
 * Summary: Extensions to the standard Python datetime module
 * Version: 2.9.0.post0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: None
-* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
-* License: Dual License
+* Homepage: https://github.com/dateutil/dateutil
+* Author: Gustavo Niemeyer gustavo@niemeyer.net
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: BSD License
 
 ### `python-discovery`
 
@@ -1017,7 +1029,7 @@ No trust data is available
 * Pypi: https://pypi.org/project/python-discovery/
 * Homepage: None
 * Author: None
-* License: Permission is hereby granted, free of charge, to any person obtaining a
+* License :: OSI Approved :: MIT License
 
 ### `python-dotenv`
 
@@ -1031,7 +1043,7 @@ No trust data is available
 ### `python-gitlab`
 
 * Summary: The python wrapper for the GitLab REST and GraphQL APIs.
-* Version: 8.6.0
+* Version: 8.5.0
 * Pypi: https://pypi.org/project/python-gitlab/
 * Homepage: None
 * Author: Gauvain Pocentek <gauvain@pocentek.net>
@@ -1134,15 +1146,6 @@ No trust data is available
 * Homepage: None
 * Author: Julian Berman <Julian+rpds@GrayVines.com>
 
-### `rsa`
-
-* Summary: Pure-Python RSA implementation
-* Version: 4.9.1
-* Pypi: https://pypi.org/project/rsa/
-* Homepage: None
-* Author: Sybren A. Stüvel sybren@stuvel.eu
-* License :: OSI Approved :: Apache Software License
-
 ### `ruamel.yaml`
 
 * Summary: ruamel.yaml is a YAML parser/emitter that supports roundtrip preservation of comments, seq/map flow style, and map key order
@@ -1190,9 +1193,9 @@ No trust data is available
 ### `slack_sdk`
 
 * Summary: The Slack API Platform SDK for Python
-* Version: 3.46.0
+* Version: 3.44.1
 * Pypi: https://pypi.org/project/slack-sdk/
-* Homepage: None
+* Homepage: https://github.com/slackapi/python-slack-sdk
 * Author: Slack Technologies, LLC opensource@slack.com
 * License :: OSI Approved :: MIT License
 
@@ -1225,7 +1228,7 @@ No trust data is available
 ### `tabulate`
 
 * Summary: Pretty-print tabular data
-* Version: 0.8.10
+* Version: 0.9.0
 * Pypi: https://pypi.org/project/tabulate/
 * Homepage: None
 * Author: Sergey Astanin <s.astanin@gmail.com>
@@ -1260,10 +1263,11 @@ No trust data is available
 ### `tomlkit`
 
 * Summary: Style preserving TOML library
-* Version: 0.15.2
+* Version: 0.15.1
 * Pypi: https://pypi.org/project/tomlkit/
 * Homepage: None
 * Author: Sébastien Eustace sebastien@eustace.io
+* License: MIT
 
 ### `tqdm`
 
@@ -1310,18 +1314,20 @@ No trust data is available
 ### `uv`
 
 * Summary: An extremely fast Python package and project manager, written in Rust.
-* Version: 0.13.7
+* Version: 0.1.45
 * Pypi: https://pypi.org/project/uv/
 * Homepage: https://pypi.org/project/uv/
 * Author: "Astral Software Inc." <hey@astral.sh>
+* License: MIT OR Apache-2.0
 
 ### `virtualenv`
 
 * Summary: Virtual Python Environment builder
-* Version: 21.15.6
+* Version: 21.9.1
 * Pypi: https://pypi.org/project/virtualenv/
 * Homepage: None
 * Author: None
+* License :: OSI Approved :: MIT License
 
 ### `vulture`
 
@@ -1353,7 +1359,7 @@ No trust data is available
 ### `Werkzeug`
 
 * Summary: The comprehensive WSGI web application library.
-* Version: 3.1.9
+* Version: 3.1.8
 * Pypi: https://pypi.org/project/Werkzeug/
 * Homepage: None
 * Author: None
@@ -1378,8 +1384,8 @@ No trust data is available
 ## `OS Packages`
 
 * adduser	3.152
-* apt	3.0.4
-* apt-transport-https	3.0.4
+* apt	3.0.3
+* apt-transport-https	3.0.3
 * base-files	13.8+deb13u7
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
@@ -1392,7 +1398,7 @@ No trust data is available
 * build-essential	12.12
 * bzip2	1.0.8-6
 * bzip2-doc	1.0.8-6
-* ca-certificates	20250419+deb13u1
+* ca-certificates	20250419
 * comerr-dev:amd64	2.1-1.47.2-3+b12
 * coreutils	9.7-3
 * cpp	4:14.2.0-1
@@ -1452,7 +1458,7 @@ No trust data is available
 * libalgorithm-diff-perl	1.201-1
 * libalgorithm-diff-xs-perl	0.04-9
 * libalgorithm-merge-perl	0.08-5
-* libapt-pkg7.0:amd64	3.0.4
+* libapt-pkg7.0:amd64	3.0.3
 * libasan8:amd64	14.2.0-19
 * libassuan9:amd64	3.0.2-2
 * libatomic1:amd64	14.2.0-19
@@ -1461,8 +1467,8 @@ No trust data is available
 * libaudit1:amd64	1:4.0.2-2+deb13u1
 * libbinutils:amd64	2.44-3
 * libblkid1:amd64	2.41.5-0+deb13u1
-* libbrotli-dev:amd64	1.1.0-2+deb13u1
-* libbrotli1:amd64	1.1.0-2+deb13u1
+* libbrotli-dev:amd64	1.1.0-2+b7
+* libbrotli1:amd64	1.1.0-2+b7
 * libbsd0:amd64	0.12.2-2
 * libbz2-1.0:amd64	1.0.8-6
 * libbz2-dev:amd64	1.0.8-6
@@ -1633,7 +1639,7 @@ No trust data is available
 * libtsan2:amd64	14.2.0-19
 * libubsan1:amd64	14.2.0-19
 * libudev1:amd64	257.13-1~deb13u1
-* libunbound8:amd64	1.26.2-0+deb13u1
+* libunbound8:amd64	1.26.1-0+deb13u1
 * libunistring5:amd64	1.3-2
 * libuuid1:amd64	2.41.5-0+deb13u1
 * libx11-6:amd64	2:1.8.12-1
@@ -1662,7 +1668,7 @@ No trust data is available
 * libz3-dev:amd64	4.13.3-1
 * libzstd-dev:amd64	1.5.7+dfsg-1
 * libzstd1:amd64	1.5.7+dfsg-1
-* linux-libc-dev	6.12.116-1
+* linux-libc-dev	6.12.113-1
 * llvm	1:19.0-63
 * llvm-19	1:19.1.7-3+b1
 * llvm-19-dev	1:19.1.7-3+b1
@@ -1683,7 +1689,7 @@ No trust data is available
 * ncurses-bin	6.5+20250216-2
 * netbase	6.5
 * nettle-dev:amd64	3.10.1-1
-* nodejs	24.22.2-1nodesource1
+* nodejs	24.22.0-1nodesource1
 * openssh-client	1:10.0p1-7+deb13u4
 * openssl	3.5.7-1~deb13u3
 * openssl-provider-legacy	3.5.7-1~deb13u3
@@ -1720,7 +1726,7 @@ No trust data is available
 * tk-dev:amd64	8.6.16
 * tk8.6	8.6.16-1
 * tk8.6-dev:amd64	8.6.16-1
-* tzdata	2026f-0+deb13u1
+* tzdata	2026c-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * uuid-dev:amd64	2.41.5-0+deb13u1
 * wget	1.25.0-2
@@ -1731,7 +1737,7 @@ No trust data is available
 * xorg-sgml-doctools	1:1.11-1.1
 * xtrans-dev	1.4.0-1
 * xz-utils	5.8.1-1+deb13u2
-* zlib1g-dev:amd64	1:1.3.dfsg+really1.3.1-1+deb13u1
-* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+deb13u1
+* zlib1g-dev:amd64	1:1.3.dfsg+really1.3.1-1+b1
+* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1
 * zsh	5.9-8+b24
 * zsh-common	5.9-8

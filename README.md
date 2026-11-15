@@ -192,7 +192,6 @@ docker_images_list.json example:
 * [demisto/opencti-v4.1.2](demisto/opencti-v4.1.2/last.md)
 * [demisto/opencv](demisto/opencv/last.md)
 * [demisto/openpyxl](demisto/openpyxl/last.md)
-* [demisto/openshell](demisto/openshell/last.md)
 * [demisto/openssh](demisto/openssh/last.md)
 * [demisto/opnsense](demisto/opnsense/last.md)
 * [demisto/paho-mqtt](demisto/paho-mqtt/last.md)
@@ -342,4 +341,4 @@ docker_images_list.json example:
 * [demisto/zeep](demisto/zeep/last.md)
 
 ---
-Last updated: 2026-11-15 09:41:37.778625
+Last updated: 2026-11-11 05:16:23.750563

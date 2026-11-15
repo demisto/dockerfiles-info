@@ -1,9 +1,9 @@
-# `demisto/genericsql:1.2.0.14691907`
+# `demisto/genericsql:1.2.0.14363229`
 
 ## Docker Metadata
-- Image Size: 303.22 MB
-- Image ID: `sha256:f0bfb318dabe1e1f5f8fb7175053bca536d3d69106dc9adc87e4648109f92a25`
-- Created: `2026-11-12T15:52:18.947576552Z`
+- Image Size: 301.02 MB
+- Image ID: `sha256:3fbf49ba4ce87db655b0da411c9f95f4dd2daddd6d9e4ba2bfdec3241a62c1d8`
+- Created: `2026-11-03T15:48:10.700502441Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.14691907`
+  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.14363229`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:39d3ad62d69d29f52d0ba2d20812530588c1a362`
-  - `org.opencontainers.image.version:1.2.0.14691907`
-  - `panw.builtby.pipeline:14692983`
+  - `org.opencontainers.image.revision:39a57a788a257450e4bc905cbd8087db70cc8e7e`
+  - `org.opencontainers.image.version:1.2.0.14363229`
+  - `panw.builtby.pipeline:14364309`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,7 +36,17 @@
 
 ## Docker Trust
 ```
-No trust data is available
+
+Signatures for demisto/genericsql:1.2.0.14363229
+
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.2.0.14363229   e06ec9e4ed443b5273e95b4b2df1587c9d6c144eb240120c0931787faa0a74ba   (Repo Admin)
+
+Administrative keys for demisto/genericsql:1.2.0.14363229
+
+  Repository Key:	b02fc99a72d78e9f5becfe15406ea942db310f3c3af9a7833b215eddb323f7cd
+  Root Key:	d11245d830d935ed4846941604c024388aca83a60142ae5319409b1f6091afe1
+
 ```
 
 ## `Python Packages`
@@ -244,7 +254,7 @@ No trust data is available
 ### `pycryptodome`
 
 * Summary: Cryptographic library for Python
-* Version: 4.4.0
+* Version: 4.3.0
 * Pypi: https://pypi.org/project/pycryptodome/
 * Homepage: None
 * Author: Helder Eijs <helderijs@gmail.com>
@@ -252,7 +262,7 @@ No trust data is available
 ### `PyMySQL`
 
 * Summary: Pure Python MySQL Driver
-* Version: 1.2.4
+* Version: 1.2.3
 * Pypi: https://pypi.org/project/PyMySQL/
 * Homepage: None
 * Author: Inada Naoki <songofacandy@gmail.com>, Yutaka Matsubara <yutaka.matsubara@gmail.com>
@@ -260,10 +270,11 @@ No trust data is available
 ### `pyodbc`
 
 * Summary: DB API module for ODBC
-* Version: 5.5.0
+* Version: 5.3.0
 * Pypi: https://pypi.org/project/pyodbc/
 * Homepage: https://github.com/mkleehammer/pyodbc
 * Author: Michael Kleehammer <michael@kleehammer.com>
+* License: MIT
 
 ### `PySocks`
 
@@ -356,7 +367,7 @@ No trust data is available
 ### `SQLAlchemy`
 
 * Summary: Database Abstraction Library
-* Version: 2.1.8
+* Version: 2.1.6
 * Pypi: https://pypi.org/project/SQLAlchemy/
 * Homepage: None
 * Author: Mike Bayer <mike_mp@zzzcomputing.com>
@@ -421,8 +432,8 @@ No trust data is available
 ## `OS Packages`
 
 * adduser	3.152
-* apt	3.0.4
-* apt-utils	3.0.4
+* apt	3.0.3
+* apt-utils	3.0.3
 * base-files	13.8+deb13u7
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
@@ -457,7 +468,7 @@ No trust data is available
 * init-system-helpers	1.69~deb13u1
 * libacl1:amd64	2.3.2-2+b1
 * libaio1t64:amd64	0.3.113-8+b1
-* libapt-pkg7.0:amd64	3.0.4
+* libapt-pkg7.0:amd64	3.0.3
 * libassuan9:amd64	3.0.2-2
 * libattr1:amd64	1:2.5.2-3
 * libaudit-common	1:4.0.2-2+deb13u1
@@ -535,7 +546,7 @@ No trust data is available
 * libuuid1:amd64	2.41.5-0+deb13u1
 * libxxhash0:amd64	0.8.3-2
 * libzstd1:amd64	1.5.7+dfsg-1
-* linux-libc-dev	6.12.116-1
+* linux-libc-dev	6.12.115-2
 * login	1:4.16.0-2+really2.41.5-0+deb13u1
 * login.defs	1:4.17.4-2
 * mawk	1.3.4.20250131-1
@@ -563,4 +574,4 @@ No trust data is available
 * unzip	6.0-29+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * wget	1.25.0-2
-* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+deb13u1
+* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1

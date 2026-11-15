@@ -1,9 +1,9 @@
-# `demisto/bs4-py3:1.0.0.14562457`
+# `demisto/bs4-py3:1.0.0.14169403`
 
 ## Docker Metadata
-- Image Size: 40.09 MB
-- Image ID: `sha256:991519f2e554f0c12ba8018b2c92fc0d272f6ac51004926a31ee320e6f44c27b`
-- Created: `2026-11-09T16:10:50.942704791Z`
+- Image Size: 40.02 MB
+- Image ID: `sha256:1d73dcaec6b68f15fb057c2fe4c1dc0cb177ac90b09c6f4c2b51c6c7a7718603`
+- Created: `2026-10-28T12:57:04.52635904Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/bs4-py3:1.0.0.14562457`
+  - `DOCKER_IMAGE=demisto/bs4-py3:1.0.0.14169403`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3430483fa6abc4a7dbc690988ab97ae1748beb64`
-  - `org.opencontainers.image.version:1.0.0.14562457`
-  - `panw.builtby.pipeline:14564073`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171523`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -32,7 +32,17 @@
 
 ## Docker Trust
 ```
-No trust data is available
+
+Signatures for demisto/bs4-py3:1.0.0.14169403
+
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   35b3b66bcd8eff20867e1048c78657dd185b47e77e17707433f9e0fd2ed66767   (Repo Admin)
+
+Administrative keys for demisto/bs4-py3:1.0.0.14169403
+
+  Repository Key:	fc9cbf4689986a4a2d5017f4dd0b370dce28ed2737afc29128c2210af398286f
+  Root Key:	f7385792275ba0f0d12370037412b97339e7663ef387d70b9e49964071d61cd3
+
 ```
 
 ## `Python Packages`
@@ -106,6 +116,7 @@ No trust data is available
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
+* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -163,7 +174,7 @@ No trust data is available
 ### `Markdown`
 
 * Summary: Python implementation of John Gruber's Markdown.
-* Version: 3.11.3
+* Version: 3.11.2
 * Pypi: https://pypi.org/project/Markdown/
 * Homepage: None
 * Author: Manfred Stienstra, Yuri Takhteyev Waylan limberg <python.markdown@gmail.com>
@@ -196,7 +207,7 @@ No trust data is available
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.3
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -216,9 +227,10 @@ No trust data is available
 * Summary: Extensions to the standard Python datetime module
 * Version: 3.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: None
-* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
-* License: Dual License
+* Homepage: https://github.com/dateutil/dateutil
+* Author: Gustavo Niemeyer gustavo@niemeyer.net
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: BSD License
 
 ### `pytz`
 
@@ -395,4 +407,4 @@ No trust data is available
 * ssl_client-1.37.0-r31 x86_64 {busybox}
 * tzdata-2026e-r0 x86_64 {tzdata}
 * xz-libs-5.8.4-r0 x86_64 {xz}
-* zlib-1.4-r0 x86_64 {zlib}
+* zlib-1.3.2-r1 x86_64 {zlib}

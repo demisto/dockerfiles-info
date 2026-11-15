@@ -1,9 +1,9 @@
-# `demisto/ml:1.0.0.14648826`
+# `demisto/ml:1.0.0.14169403`
 
 ## Docker Metadata
-- Image Size: 1051.92 MB
-- Image ID: `sha256:eb06b8d48349a6c381dc19ed1f6821820b1d57a7d302c6e163b63ac2233b5062`
-- Created: `2026-11-11T16:19:20.159529477Z`
+- Image Size: 1049.75 MB
+- Image ID: `sha256:2dc3dd972d1b5465f8ee0f65ab5769d6ffbcc6c8a9991ea8bc0a8eb4082c1df4`
+- Created: `2026-10-28T13:00:30.803766024Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/ml:1.0.0.14648826`
+  - `DOCKER_IMAGE=demisto/ml:1.0.0.14169403`
   - `HF_HOME=/ml/.cache`
   - `NLTK_DATA=/ml/nltk_data`
   - `MPLCONFIGDIR=/ml/matplotlib`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:32a1c31a48735dc5a258a92c5b634b2593e2f38f`
-  - `org.opencontainers.image.version:1.0.0.14648826`
-  - `panw.builtby.pipeline:14650945`
+  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
+  - `org.opencontainers.image.version:1.0.0.14169403`
+  - `panw.builtby.pipeline:14171463`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -39,7 +39,17 @@
 
 ## Docker Trust
 ```
-No trust data is available
+
+Signatures for demisto/ml:1.0.0.14169403
+
+SIGNED TAG       DIGEST                                                             SIGNERS
+1.0.0.14169403   55fe63ac3fe649e377b45ede27251bf43d01f102889479dcf198f969e50a3ddd   (Repo Admin)
+
+Administrative keys for demisto/ml:1.0.0.14169403
+
+  Repository Key:	ac15e70d1328e4ee6a571a4f26d48cb7a7a71057e1c418659434a29c5f420dec
+  Root Key:	9bed0b81bc81568c748fc3dce530b735db8f1ee1b0f960a5a6d7b9a7386637c6
+
 ```
 
 ## `Python Packages`
@@ -228,6 +238,7 @@ No trust data is available
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
+* License :: OSI Approved :: MIT License
 
 ### `flatbuffers`
 
@@ -480,7 +491,7 @@ No trust data is available
 ### `nltk`
 
 * Summary: Natural Language Toolkit
-* Version: 3.10.4
+* Version: 3.10.3
 * Pypi: https://pypi.org/project/nltk/
 * Homepage: https://www.nltk.org/
 * Author: NLTK Team nltk.team@gmail.com
@@ -560,7 +571,7 @@ No trust data is available
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.3
+* Version: 26.2.2
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -659,9 +670,10 @@ No trust data is available
 * Summary: Extensions to the standard Python datetime module
 * Version: 2.9.0.post0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: None
-* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
-* License: Dual License
+* Homepage: https://github.com/dateutil/dateutil
+* Author: Gustavo Niemeyer gustavo@niemeyer.net
+* License :: OSI Approved :: Apache Software License
+* License :: OSI Approved :: BSD License
 
 ### `pytz`
 
@@ -794,7 +806,7 @@ No trust data is available
 * Pypi: https://pypi.org/project/smart-open/
 * Homepage: None
 * Author: Radim Rehurek <me@radimrehurek.com>
-* License: MIT
+* License :: OSI Approved :: MIT License
 
 ### `spacy`
 
@@ -1008,7 +1020,7 @@ No trust data is available
 ## `OS Packages`
 
 * adduser	3.152
-* apt	3.0.4
+* apt	3.0.3
 * base-files	13.8+deb13u7
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
@@ -1028,7 +1040,7 @@ No trust data is available
 * hostname	3.25
 * init-system-helpers	1.69~deb13u1
 * libacl1:amd64	2.3.2-2+b1
-* libapt-pkg7.0:amd64	3.0.4
+* libapt-pkg7.0:amd64	3.0.3
 * libattr1:amd64	1:2.5.2-3
 * libaudit-common	1:4.0.2-2+deb13u1
 * libaudit1:amd64	1:4.0.2-2+deb13u1
@@ -1099,6 +1111,6 @@ No trust data is available
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026f-0+deb13u1
+* tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
-* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+deb13u1
+* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1
