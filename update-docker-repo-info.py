@@ -209,8 +209,8 @@ def inspect_image(image_name, out_file):
 - Image ID: `{{{{ .Id }}}}`
 - Created: `{{{{ .Created }}}}`
 - Arch: `{{{{ .Os }}}}`/`{{{{ .Architecture }}}}`
-{{{{ if .Config.Entrypoint }}}}- Entrypoint: `{{{{ json .Config.Entrypoint }}}}`
-{{{{ end }}}}{{{{ if .Config.Cmd }}}}- Command: `{{{{ json .Config.Cmd }}}}`
+{{{{ if index .Config "Entrypoint" }}}}- Entrypoint: `{{{{ json (index .Config "Entrypoint") }}}}`
+{{{{ end }}}}{{{{ if index .Config "Cmd" }}}}- Command: `{{{{ json (index .Config "Cmd") }}}}`
 {{{{ end }}}}- Environment:{{{{ range .Config.Env }}}}{{{{ "\\n" }}}}  - `{{{{ . }}}}`{{{{ end }}}}
 - Labels:{{{{ range $key, $value := .Config.Labels }}}}{{{{ "\\n" }}}}  - `{{{{ $key }}}}:{{{{ $value }}}}`{{{{ end }}}}
 '''
@@ -512,9 +512,9 @@ def process_image(image_name: str, force: bool):
         try:
             inspect_image_tag(image_name,tag_to_add, force, last_tag == tag_to_add)
         except Exception as e:
-            print(f'Failed to inspect {f"{image_name}:{tag}"} error: {e}')
+            print(f'Failed to inspect {f"{image_name}:{tag_to_add}"} error: {e}')
             print(traceback.format_exc())
-            FAILED_INSPECT_IMAGES.append(f"{image_name}:{tag}")
+            FAILED_INSPECT_IMAGES.append(f"{image_name}:{tag_to_add}")
 
 
 def process_org(org_name, force):
