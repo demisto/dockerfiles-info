@@ -1,50 +1,40 @@
-# `demisto/xsoar-tools:1.0.0.13919218`
+# `demisto/xsoar-tools:1.0.0.14665672`
 
 ## Docker Metadata
-- Image Size: 147.14 MB
-- Image ID: `sha256:02c7e5157b27eb93a58c3e350e652031c2f8c059d7304c576e3fa5a970a0a215`
-- Created: `2026-10-19T18:09:00.179267123Z`
+- Image Size: 147.86 MB
+- Image ID: `sha256:c2bab84650837b1f54c65fb6ca11722b606baf46265dbdfc4101d632ce1c5876`
+- Created: `2026-11-12T00:43:25.735151959Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/xsoar-tools:1.0.0.13919218`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/xsoar-tools:1.0.0.14665672`
   - `DEMISTO_SDK_IGNORE_CONTENT_WARNING=true`
   - `DEMISTO_SDK_SKIP_LOGGER_SETUP=true`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:feb70d06402a78e263b32ba410b7e52c5290ef2d`
-  - `org.opencontainers.image.version:1.0.0.13919218`
-  - `panw.builtby.pipeline:13919910`
+  - `org.opencontainers.image.revision:09b0bcf92ec4aff5964470cf0228e421dfed309e`
+  - `org.opencontainers.image.version:1.0.0.14665672`
+  - `panw.builtby.pipeline:14666290`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.24.1`
+  - `VERSION_ID=3.24.3`
   - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
-
-Signatures for demisto/xsoar-tools:1.0.0.13919218
-
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.13919218   ccb354bc374be0e1b825b7880ee7bd3bac53d94d67b3ae6ad1b7c9e530b1b780   (Repo Admin)
-
-Administrative keys for demisto/xsoar-tools:1.0.0.13919218
-
-  Repository Key:	cf22d1c7d99eaa36ee3a4c4e143589874b21f83068fff42ce971ffaa44c737b6
-  Root Key:	83b859e2320bd9a76afcab59964970ff8ba4b4719fa697c8c032e27151f016e6
-
+No trust data is available
 ```
 
 ## `Python Packages`
@@ -53,7 +43,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 ### `anyio`
 
 * Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.14.2
+* Version: 4.15.1
 * Pypi: https://pypi.org/project/anyio/
 * Homepage: None
 * Author: Alex Grönholm <alex.gronholm@nextday.fi>
@@ -123,7 +113,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2024.12.14
+* Version: 2026.10.23
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -189,7 +179,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 * Pypi: https://pypi.org/project/configparser/
 * Homepage: None
 * Author: Łukasz Langa <lukasz@langa.pl>
-* License :: OSI Approved :: MIT License
+* License: 
 
 ### `coverage`
 
@@ -197,7 +187,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 * Version: 7.3.4
 * Pypi: https://pypi.org/project/coverage/
 * Homepage: https://github.com/coveragepy/coveragepy
-* Author: Ned Batchelder and 263 others ned@nedbatchelder.com
+* Author: Ned Batchelder and many others ned@nedbatchelder.com
 * License: Apache-2.0
 
 ### `cryptography`
@@ -323,7 +313,6 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `flatten-dict`
 
@@ -734,7 +723,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 ### `nltk`
 
 * Summary: Natural Language Toolkit
-* Version: 3.10.3
+* Version: 3.10.4
 * Pypi: https://pypi.org/project/nltk/
 * Homepage: https://www.nltk.org/
 * Author: NLTK Team nltk.team@gmail.com
@@ -752,7 +741,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 ### `oauthlib`
 
 * Summary: A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
-* Version: 3.3.1
+* Version: 4.0.1
 * Pypi: https://pypi.org/project/oauthlib/
 * Homepage: https://github.com/oauthlib/oauthlib
 * Author: The OAuthlib Community
@@ -770,7 +759,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 ### `opentelemetry-api`
 
 * Summary: OpenTelemetry Python API
-* Version: 1.45.0
+* Version: 1.45.1
 * Pypi: https://pypi.org/project/opentelemetry-api/
 * Homepage: None
 * Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
@@ -825,7 +814,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.1
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -847,7 +836,6 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 * Pypi: https://pypi.org/project/platformdirs/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `pluggy`
 
@@ -896,7 +884,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 ### `pyasn1`
 
 * Summary: Pure-Python implementation of ASN.1 types and DER/BER/CER codecs (X.208)
-* Version: 0.6.4
+* Version: 0.6.5
 * Pypi: https://pypi.org/project/pyasn1/
 * Homepage: None
 * Author: Ilya Etingof <etingof@gmail.com>
@@ -1030,10 +1018,9 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 * Summary: Extensions to the standard Python datetime module
 * Version: 2.9.0.post0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+* License: Dual License
 
 ### `python-discovery`
 
@@ -1042,7 +1029,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 * Pypi: https://pypi.org/project/python-discovery/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
+* License: Permission is hereby granted, free of charge, to any person obtaining a
 
 ### `python-dotenv`
 
@@ -1216,7 +1203,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 * Summary: The Slack API Platform SDK for Python
 * Version: 3.43.0
 * Pypi: https://pypi.org/project/slack-sdk/
-* Homepage: https://github.com/slackapi/python-slack-sdk
+* Homepage: None
 * Author: Slack Technologies, LLC opensource@slack.com
 * License :: OSI Approved :: MIT License
 
@@ -1268,7 +1255,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
-* Version: 5.3.2
+* Version: 5.4.0
 * Pypi: https://pypi.org/project/tldextract/
 * Homepage: None
 * Author: John Kurkowski <john.kurkowski@gmail.com>
@@ -1317,6 +1304,15 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 
+### `tzdata`
+
+* Summary: Provider of IANA time zone data
+* Version: 2026.5
+* Pypi: https://pypi.org/project/tzdata/
+* Homepage: https://github.com/python/tzdata
+* Author: Python Software Foundation datetime-sig@python.org
+* License: Apache-2.0
+
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
@@ -1337,20 +1333,18 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 ### `uv`
 
 * Summary: An extremely fast Python package and project manager, written in Rust.
-* Version: 0.1.45
+* Version: 0.13.7
 * Pypi: https://pypi.org/project/uv/
 * Homepage: https://pypi.org/project/uv/
 * Author: "Astral Software Inc." <hey@astral.sh>
-* License: MIT OR Apache-2.0
 
 ### `virtualenv`
 
 * Summary: Virtual Python Environment builder
-* Version: 21.7.13
+* Version: 21.15.6
 * Pypi: https://pypi.org/project/virtualenv/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `vulture`
 
@@ -1406,22 +1400,22 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 
 ## `OS Packages`
 
-* .python-rundeps-20260901.001029 noarch {.python-rundeps}
+* .python-rundeps-20261021.230421 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.24.1-r0 x86_64 {alpine-base}
+* alpine-release-3.24.3-r0 x86_64 {alpine-base}
 * apk-tools-3.0.8-r0 x86_64 {apk-tools}
-* brotli-libs-1.2.0-r1 x86_64 {brotli}
+* brotli-libs-1.2.1-r0 x86_64 {brotli}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
-* c-ares-1.34.8-r0 x86_64 {c-ares}
-* ca-certificates-20260611-r0 x86_64 {ca-certificates}
-* ca-certificates-bundle-20260611-r0 x86_64 {ca-certificates}
-* curl-8.22.0-r0 x86_64 {curl}
+* c-ares-1.34.9-r0 x86_64 {c-ares}
+* ca-certificates-20261020-r0 x86_64 {ca-certificates}
+* ca-certificates-bundle-20261020-r0 x86_64 {ca-certificates}
+* curl-8.23.0-r0 x86_64 {curl}
 * gdbm-1.26-r0 x86_64 {gdbm}
-* git-2.54.0-r0 x86_64 {git}
-* git-init-template-2.54.0-r0 x86_64 {git}
+* git-2.54.1-r0 x86_64 {git}
+* git-init-template-2.54.1-r0 x86_64 {git}
 * grep-3.12-r0 x86_64 {grep}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
@@ -1430,8 +1424,8 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.9-r0 x86_64 {openssl}
-* libcurl-8.22.0-r0 x86_64 {curl}
-* libexpat-2.9.0-r0 x86_64 {expat}
+* libcurl-8.23.0-r0 x86_64 {curl}
+* libexpat-2.10.0-r0 x86_64 {expat}
 * libffi-3.5.2-r1 x86_64 {libffi}
 * libgcc-15.2.0-r5 x86_64 {gcc}
 * libidn2-2.3.8-r0 x86_64 {libidn2}
@@ -1447,8 +1441,8 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 * libunistring-1.4.2-r0 x86_64 {libunistring}
 * libuuid-2.42.3-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
-* musl-1.2.6-r2 x86_64 {musl}
-* musl-utils-1.2.6-r2 x86_64 {musl}
+* musl-1.2.6-r3 x86_64 {musl}
+* musl-utils-1.2.6-r3 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * nghttp2-libs-1.70.0-r0 x86_64 {nghttp2}
 * pcre2-10.49-r0 x86_64 {pcre2}
@@ -1456,7 +1450,7 @@ Administrative keys for demisto/xsoar-tools:1.0.0.13919218
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026c-r0 x86_64 {tzdata}
+* tzdata-2026e-r0 x86_64 {tzdata}
 * xz-libs-5.8.4-r0 x86_64 {xz}
-* zlib-1.3.2-r0 x86_64 {zlib}
+* zlib-1.3.2-r1 x86_64 {zlib}
 * zstd-libs-1.5.7-r2 x86_64 {zstd}

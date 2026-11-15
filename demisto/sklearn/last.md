@@ -1,9 +1,9 @@
-# `demisto/sklearn:1.0.0.14169403`
+# `demisto/sklearn:1.0.0.14562457`
 
 ## Docker Metadata
-- Image Size: 285.28 MB
-- Image ID: `sha256:ecdfc8eaf74a19ce661a25abd25f96305fd2dfd44f38ff6a9ff5c5094e63f7c4`
-- Created: `2026-10-28T12:56:12.083076023Z`
+- Image Size: 285.76 MB
+- Image ID: `sha256:88ff7fbe60e4e4efe75f21334b2006b4e763963b47a24e5b4fb9b7f2ea9f9aca`
+- Created: `2026-11-09T16:11:26.136361565Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/sklearn:1.0.0.14169403`
+  - `DOCKER_IMAGE=demisto/sklearn:1.0.0.14562457`
   - `NLTK_DATA=/ml/nltk_data`
   - `OPENBLAS_NUM_THREADS=1`
   - `OMP_NUM_THREADS=4`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.0.0.14169403`
-  - `panw.builtby.pipeline:14171417`
+  - `org.opencontainers.image.revision:3430483fa6abc4a7dbc690988ab97ae1748beb64`
+  - `org.opencontainers.image.version:1.0.0.14562457`
+  - `panw.builtby.pipeline:14564071`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -35,17 +35,7 @@
 
 ## Docker Trust
 ```
-
-Signatures for demisto/sklearn:1.0.0.14169403
-
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14169403   97fad51cac6a552d437efab90f222c57c2db1bc44dd0eca6ae4730bd12514f8a   (Repo Admin)
-
-Administrative keys for demisto/sklearn:1.0.0.14169403
-
-  Repository Key:	2475832d78c902e8999df2055c0f69226a85caf5ee20d300c05ffb6e87dd9f7c
-  Root Key:	8ab906212f9f7b6d82f5edb3d677b0df40095899339fa0b36ecd00b68b304458
-
+No trust data is available
 ```
 
 ## `Python Packages`
@@ -145,7 +135,6 @@ Administrative keys for demisto/sklearn:1.0.0.14169403
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -260,7 +249,7 @@ Administrative keys for demisto/sklearn:1.0.0.14169403
 ### `pandas`
 
 * Summary: Powerful data structures for data analysis, time series, and statistics
-* Version: 3.1.0
+* Version: 3.1.1
 * Pypi: https://pypi.org/project/pandas/
 * Homepage: None
 * Author: The Pandas Development Team <pandas-dev@python.org>
@@ -268,7 +257,7 @@ Administrative keys for demisto/sklearn:1.0.0.14169403
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -286,12 +275,10 @@ Administrative keys for demisto/sklearn:1.0.0.14169403
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 3.0.0
+* Version: 4.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
 
 ### `pytz`
 
@@ -425,7 +412,7 @@ Administrative keys for demisto/sklearn:1.0.0.14169403
 ### `tzdata`
 
 * Summary: Provider of IANA time zone data
-* Version: 2026.5
+* Version: 2026.6
 * Pypi: https://pypi.org/project/tzdata/
 * Homepage: https://github.com/python/tzdata
 * Author: Python Software Foundation datetime-sig@python.org
@@ -501,4 +488,4 @@ Administrative keys for demisto/sklearn:1.0.0.14169403
 * ssl_client-1.37.0-r31 x86_64 {busybox}
 * tzdata-2026e-r0 x86_64 {tzdata}
 * xz-libs-5.8.4-r0 x86_64 {xz}
-* zlib-1.3.2-r1 x86_64 {zlib}
+* zlib-1.4-r0 x86_64 {zlib}
