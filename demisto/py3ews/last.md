@@ -1,9 +1,9 @@
-# `demisto/py3ews:5.6.0.14323108`
+# `demisto/py3ews:5.6.0.14539885`
 
 ## Docker Metadata
-- Image Size: 60.57 MB
-- Image ID: `sha256:357a10f99654f6d4fed0d842cff17335d3e5f2053f71c45116c6e3553febf3ab`
-- Created: `2026-11-02T16:06:39.594109812Z`
+- Image Size: 62.98 MB
+- Image ID: `sha256:86e9aa4c0ab96949e5bb3332238936ef92ebf4c6426144436c16c9c7a261420b`
+- Created: `2026-11-09T10:18:10.201631314Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/py3ews:5.6.0.14323108`
+  - `DOCKER_IMAGE=demisto/py3ews:5.6.0.14539885`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:6fb9ad7fed5830124666cac7a6ce2b0c370ad854`
-  - `org.opencontainers.image.version:5.6.0.14323108`
-  - `panw.builtby.pipeline:14324476`
+  - `org.opencontainers.image.revision:4896cc9090abab8f88694ecb79d28d8b7e419ba0`
+  - `org.opencontainers.image.version:5.6.0.14539885`
+  - `panw.builtby.pipeline:14542728`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -32,17 +32,7 @@
 
 ## Docker Trust
 ```
-
-Signatures for demisto/py3ews:5.6.0.14323108
-
-SIGNED TAG       DIGEST                                                             SIGNERS
-5.6.0.14323108   da4bf16ba854a980a25e51f67d38494d0e174191487c05d246f6be7deccf19e2   (Repo Admin)
-
-Administrative keys for demisto/py3ews:5.6.0.14323108
-
-  Repository Key:	49e0be19d4c430aaef147539b64259bbc85885e5bd03918079e6a66d693cb8be
-  Root Key:	e2c459fee62c0ca5b39fcd6a3cd86c53a1506042ad92cc59aada6a00a0e1bbf4
-
+No trust data is available
 ```
 
 ## `Python Packages`
@@ -128,7 +118,7 @@ Administrative keys for demisto/py3ews:5.6.0.14323108
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.3
+* Version: 1.5.0
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -154,7 +144,7 @@ Administrative keys for demisto/py3ews:5.6.0.14323108
 ### `dnspython`
 
 * Summary: DNS toolkit
-* Version: 2.9.1
+* Version: 2.9.2
 * Pypi: https://pypi.org/project/dnspython/
 * Homepage: None
 * Author: Bob Halley Bob Halley <halley@dnspython.org>
@@ -285,7 +275,7 @@ Administrative keys for demisto/py3ews:5.6.0.14323108
 ### `oauthlib`
 
 * Summary: A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
-* Version: 4.0.0
+* Version: 4.0.1
 * Pypi: https://pypi.org/project/oauthlib/
 * Homepage: https://github.com/oauthlib/oauthlib
 * Author: The OAuthlib Community
@@ -380,16 +370,15 @@ Administrative keys for demisto/py3ews:5.6.0.14323108
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 3.0.0
+* Version: 4.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
 * Homepage: None
 * Author: Gustavo Niemeyer <gustavo@niemeyer.net>
-* License: Dual License
 
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.5
+* Version: 2026.6
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -415,7 +404,7 @@ Administrative keys for demisto/py3ews:5.6.0.14323108
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.9.29
+* Version: 2026.11.9
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -510,7 +499,7 @@ Administrative keys for demisto/py3ews:5.6.0.14323108
 ### `tzdata`
 
 * Summary: Provider of IANA time zone data
-* Version: 2026.5
+* Version: 2026.6
 * Pypi: https://pypi.org/project/tzdata/
 * Homepage: https://github.com/python/tzdata
 * Author: Python Software Foundation datetime-sig@python.org

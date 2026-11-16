@@ -1,9 +1,9 @@
-# `demisto/netutils:1.0.0.14363229`
+# `demisto/netutils:1.0.0.14562457`
 
 ## Docker Metadata
 - Image Size: 47.31 MB
-- Image ID: `sha256:333f938f93d5be4d1a48e2863c6f360be455c0297114a9721c70526f17d8238e`
-- Created: `2026-11-03T15:48:25.647529404Z`
+- Image ID: `sha256:b017fab3167e6f15b52c45b894bef0fac84b36b51e81810ecfd48dcc8fa07b21`
+- Created: `2026-11-09T16:09:59.822992618Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/netutils:1.0.0.14363229`
+  - `DOCKER_IMAGE=demisto/netutils:1.0.0.14562457`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:39a57a788a257450e4bc905cbd8087db70cc8e7e`
-  - `org.opencontainers.image.version:1.0.0.14363229`
-  - `panw.builtby.pipeline:14364307`
+  - `org.opencontainers.image.revision:3430483fa6abc4a7dbc690988ab97ae1748beb64`
+  - `org.opencontainers.image.version:1.0.0.14562457`
+  - `panw.builtby.pipeline:14564074`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -32,17 +32,7 @@
 
 ## Docker Trust
 ```
-
-Signatures for demisto/netutils:1.0.0.14363229
-
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14363229   a233d5dfe5f4a675078618440648ebca2a00495727a5f195fa9565673659579a   (Repo Admin)
-
-Administrative keys for demisto/netutils:1.0.0.14363229
-
-  Repository Key:	4a445396112768813d4eed8d7ba46d7e9c7018e8936d73f291e3b14d34043b78
-  Root Key:	1b9fb0fff68f4cc0c00bc76a90e250bd8514c1f683a697b7cd30b567838b2cdd
-
+No trust data is available
 ```
 
 ## `Python Packages`
@@ -146,7 +136,7 @@ Administrative keys for demisto/netutils:1.0.0.14363229
 ### `dnspython`
 
 * Summary: DNS toolkit
-* Version: 2.9.1
+* Version: 2.9.2
 * Pypi: https://pypi.org/project/dnspython/
 * Homepage: None
 * Author: Bob Halley Bob Halley <halley@dnspython.org>

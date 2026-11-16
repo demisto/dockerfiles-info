@@ -1,9 +1,9 @@
-# `demisto/pcap-miner:1.0.0.14169403`
+# `demisto/pcap-miner:1.0.0.14498468`
 
 ## Docker Metadata
-- Image Size: 81.02 MB
-- Image ID: `sha256:b5641b1351429ab4cc93c8d70a8ebd551e9d45ebee3e9089b69c832ffd92f012`
-- Created: `2026-10-28T12:56:27.828734518Z`
+- Image Size: 81.89 MB
+- Image ID: `sha256:163d39d9a67f5edf9d0390a7b5f91c045ef46853e245063097c367298b0aec19`
+- Created: `2026-11-08T09:53:36.215975541Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,37 +12,27 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/pcap-miner:1.0.0.14169403`
+  - `DOCKER_IMAGE=demisto/pcap-miner:1.0.0.14498468`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.0.0.14169403`
-  - `panw.builtby.pipeline:14171434`
+  - `org.opencontainers.image.revision:9411d7caac75e160769540d113e704e5516359ed`
+  - `org.opencontainers.image.version:1.0.0.14498468`
+  - `panw.builtby.pipeline:14499288`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.24.3`
+  - `VERSION_ID=3.24.4`
   - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
-
-Signatures for demisto/pcap-miner:1.0.0.14169403
-
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14169403   98fda718c892ec9a33845d0040bc89867bb29c7dda356231d3544ceceb501ca6   (Repo Admin)
-
-Administrative keys for demisto/pcap-miner:1.0.0.14169403
-
-  Repository Key:	96a3823375c52caeaf2d0fea331785c2a44bcdd81fc771ac59b0e581e05d9621
-  Root Key:	9ba37c9e3fcbf21715b56cb970082bb72679ac3092e6ae254674b94ae77f43ee
-
+No trust data is available
 ```
 
 ## `Python Packages`
@@ -116,7 +106,6 @@ Administrative keys for demisto/pcap-miner:1.0.0.14169403
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -199,7 +188,7 @@ Administrative keys for demisto/pcap-miner:1.0.0.14169403
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -228,10 +217,9 @@ Administrative keys for demisto/pcap-miner:1.0.0.14169403
 * Summary: Extensions to the standard Python datetime module
 * Version: 3.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+* License: Dual License
 
 ### `python-magic`
 
@@ -375,8 +363,8 @@ Administrative keys for demisto/pcap-miner:1.0.0.14169403
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.24.3-r0 x86_64 {alpine-base}
-* apk-tools-3.0.8-r0 x86_64 {apk-tools}
+* alpine-release-3.24.4-r0 x86_64 {alpine-base}
+* apk-tools-3.0.9-r0 x86_64 {apk-tools}
 * brotli-libs-1.2.1-r0 x86_64 {brotli}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
@@ -384,32 +372,32 @@ Administrative keys for demisto/pcap-miner:1.0.0.14169403
 * ca-certificates-20261020-r0 x86_64 {ca-certificates}
 * ca-certificates-bundle-20261020-r0 x86_64 {ca-certificates}
 * gdbm-1.26-r0 x86_64 {gdbm}
-* glib-2.88.1-r1 x86_64 {glib}
+* glib-2.90.0-r0 x86_64 {glib}
 * gmp-6.3.0-r4 x86_64 {gmp}
 * gnutls-3.8.13-r0 x86_64 {gnutls}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
 * krb5-libs-1.22.2-r1 x86_64 {krb5}
-* libapk-3.0.8-r0 x86_64 {apk-tools}
-* libblkid-2.42.3-r1 x86_64 {util-linux}
+* libapk-3.0.9-r0 x86_64 {apk-tools}
+* libblkid-2.42.4-r3 x86_64 {util-linux}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
-* libcap2-2.78-r0 x86_64 {libcap}
+* libcap2-2.78-r1 x86_64 {libcap}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.9-r0 x86_64 {openssl}
-* libeconf-0.8.3-r0 x86_64 {libeconf}
-* libffi-3.5.2-r1 x86_64 {libffi}
-* libgcrypt-1.12.2-r0 x86_64 {libgcrypt}
+* libeconf-0.8.4-r0 x86_64 {libeconf}
+* libffi-3.8.0-r0 x86_64 {libffi}
+* libgcrypt-1.12.4-r0 x86_64 {libgcrypt}
 * libgpg-error-1.61-r0 x86_64 {libgpg-error}
 * libidn2-2.3.8-r0 x86_64 {libidn2}
 * libintl-1.0-r0 x86_64 {gettext}
-* libmagic-5.47-r2 x86_64 {file}
+* libmagic-5.48-r0 x86_64 {file}
 * libmaxminddb-libs-1.13.3-r0 x86_64 {libmaxminddb}
-* libmount-2.42.3-r1 x86_64 {util-linux}
+* libmount-2.42.4-r3 x86_64 {util-linux}
 * libncursesw-6.6_p20260516-r0 x86_64 {ncurses}
-* libnl3-3.11.0-r0 x86_64 {libnl3}
+* libnl3-3.12.0-r0 x86_64 {libnl3}
 * libnsl-2.0.1-r2 x86_64 {libnsl}
 * libpanelw-6.6_p20260516-r0 x86_64 {ncurses}
-* libpcap-1.10.7-r0 x86_64 {libpcap}
+* libpcap-1.11.0-r0 x86_64 {libpcap}
 * libsmi-0.5.0-r5 x86_64 {libsmi}
 * libssh-0.12.2-r0 x86_64 {libssh}
 * libssl3-3.5.9-r0 x86_64 {openssl}
@@ -421,21 +409,21 @@ Administrative keys for demisto/pcap-miner:1.0.0.14169403
 * libverto-0.3.2-r2 x86_64 {libverto}
 * libxml2-2.13.9-r2 x86_64 {libxml2}
 * libxslt-1.1.43-r3 x86_64 {libxslt}
-* lua5.4-libs-5.4.8-r0 x86_64 {lua5.4}
+* lua5.4-libs-5.4.9-r0 x86_64 {lua5.4}
 * lz4-libs-1.10.0-r1 x86_64 {lz4}
-* musl-1.2.6-r3 x86_64 {musl}
+* musl-1.2.6-r6 x86_64 {musl}
 * musl-utils-1.2.6-r3 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
 * nettle-3.10.2-r0 x86_64 {nettle}
 * nghttp2-libs-1.70.0-r0 x86_64 {nghttp2}
-* p11-kit-0.26.2-r0 x86_64 {p11-kit}
+* p11-kit-0.26.2-r1 x86_64 {p11-kit}
 * pcre2-10.49-r0 x86_64 {pcre2}
 * readline-8.3.3-r1 x86_64 {readline}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * speexdsp-1.2.1-r2 x86_64 {speexdsp}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026e-r0 x86_64 {tzdata}
+* tzdata-2026f-r0 x86_64 {tzdata}
 * xz-libs-5.8.4-r0 x86_64 {xz}
-* zlib-1.3.2-r1 x86_64 {zlib}
+* zlib-1.4-r0 x86_64 {zlib}
 * zstd-libs-1.5.7-r2 x86_64 {zstd}

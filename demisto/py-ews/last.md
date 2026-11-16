@@ -1,24 +1,24 @@
-# `demisto/py-ews:5.6.0.14488990`
+# `demisto/py-ews:5.6.0.14745846`
 
 ## Docker Metadata
-- Image Size: 141.06 MB
-- Image ID: `sha256:64097900eebbf38588367d792d5b31fcf3d674235ff633692e39c79acbd2e2b3`
-- Created: `2026-11-08T01:24:12.437995796Z`
+- Image Size: 140.28 MB
+- Image ID: `sha256:b8662541fad87dc9a1c34ced979acd43ca02f1fe8fec5937e2239f5612f2f8e2`
+- Created: `2026-11-15T10:34:10.538918962Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.14`
-  - `PYTHON_SHA256=5c8462af5790baf43a321a1559dbe0db06d1be4300fb85fb53c40060668e548a`
-  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.14488990`
+  - `PYTHON_VERSION=3.12.15`
+  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
+  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.14745846`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:09eaedd0416f400431511088cbcffe9dfc2cbb03`
-  - `org.opencontainers.image.version:5.6.0.14488990`
-  - `panw.builtby.pipeline:14489759`
+  - `org.opencontainers.image.revision:3e09f0d76a5d956a29ab5de1bc8e08dcdca68fdb`
+  - `org.opencontainers.image.version:5.6.0.14745846`
+  - `panw.builtby.pipeline:14749381`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,17 +36,7 @@
 
 ## Docker Trust
 ```
-
-Signatures for demisto/py-ews:5.6.0.14488990
-
-SIGNED TAG       DIGEST                                                             SIGNERS
-5.6.0.14488990   bf171f412708afd3e6fb727563fb1e808cea5ee9b735bbeb361f7a63812a50b6   (Repo Admin)
-
-Administrative keys for demisto/py-ews:5.6.0.14488990
-
-  Repository Key:	c8b3a877659c96dd5e16db568d8f817a6eabb390ecfda3f567a6bc1929408237
-  Root Key:	61b6aad19eee856a8c06a402a23627b05539b427be49b6335a4b309706ee1cdc
-
+No trust data is available
 ```
 
 ## `Python Packages`
@@ -123,7 +113,7 @@ Administrative keys for demisto/py-ews:5.6.0.14488990
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.3
+* Version: 1.5.0
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -158,7 +148,7 @@ Administrative keys for demisto/py-ews:5.6.0.14488990
 ### `dnspython`
 
 * Summary: DNS toolkit
-* Version: 2.9.1
+* Version: 2.9.2
 * Pypi: https://pypi.org/project/dnspython/
 * Homepage: None
 * Author: Bob Halley Bob Halley <halley@dnspython.org>
@@ -184,7 +174,7 @@ Administrative keys for demisto/py-ews:5.6.0.14488990
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 4.2.9
+* Version: 4.2.10
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -290,7 +280,7 @@ Administrative keys for demisto/py-ews:5.6.0.14488990
 ### `more-itertools`
 
 * Summary: More routines for operating on iterables, beyond itertools
-* Version: 11.1.0
+* Version: 11.2.1
 * Pypi: https://pypi.org/project/more-itertools/
 * Homepage: None
 * Author: Erik Rose <erikrose@grinchcentral.com>
@@ -392,11 +382,10 @@ Administrative keys for demisto/py-ews:5.6.0.14488990
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 2.9.0.post0
+* Version: 4.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
 * Homepage: None
 * Author: Gustavo Niemeyer <gustavo@niemeyer.net>
-* License: Dual License
 
 ### `python-discovery`
 
@@ -427,7 +416,7 @@ Administrative keys for demisto/py-ews:5.6.0.14488990
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.9.29
+* Version: 2026.11.9
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -522,7 +511,7 @@ Administrative keys for demisto/py-ews:5.6.0.14488990
 ### `tzdata`
 
 * Summary: Provider of IANA time zone data
-* Version: 2026.5
+* Version: 2026.6
 * Pypi: https://pypi.org/project/tzdata/
 * Homepage: https://github.com/python/tzdata
 * Author: Python Software Foundation datetime-sig@python.org

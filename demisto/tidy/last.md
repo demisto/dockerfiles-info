@@ -1,9 +1,9 @@
-# `demisto/tidy:1.0.0.14170433`
+# `demisto/tidy:1.0.0.14562457`
 
 ## Docker Metadata
-- Image Size: 129.72 MB
-- Image ID: `sha256:fa319b609ff0c547ed1ab0b8831009a33763567cd56c2fd127c9630393b145e1`
-- Created: `2026-10-28T13:52:06.891187919Z`
+- Image Size: 133.49 MB
+- Image ID: `sha256:98ad18fe606b479894b45a22d7670ae703bd8680d804b634afdd863e424eedee`
+- Created: `2026-11-09T16:10:45.737750831Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/tidy:1.0.0.14170433`
+  - `DOCKER_IMAGE=demisto/tidy:1.0.0.14562457`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.0.0.14170433`
-  - `panw.builtby.pipeline:14173862`
+  - `org.opencontainers.image.revision:3430483fa6abc4a7dbc690988ab97ae1748beb64`
+  - `org.opencontainers.image.version:1.0.0.14562457`
+  - `panw.builtby.pipeline:14564075`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -32,17 +32,7 @@
 
 ## Docker Trust
 ```
-
-Signatures for demisto/tidy:1.0.0.14170433
-
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14170433   99d48de55c3a63bb177a3f85b715c073fedd028104765162e0b96ed1c9db176a   (Repo Admin)
-
-Administrative keys for demisto/tidy:1.0.0.14170433
-
-  Repository Key:	5f17b9d56ce23d820632c3aab69771c41c29b4a5ff9dfe8cbea5e4ca7cc9857b
-  Root Key:	35b6195205c264962e7a1726995d97d4c9f7d85c8a9c9909105016d7f930b79e
-
+No trust data is available
 ```
 
 ## `Python Packages`
@@ -159,7 +149,6 @@ Administrative keys for demisto/tidy:1.0.0.14170433
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -293,7 +282,7 @@ Administrative keys for demisto/tidy:1.0.0.14170433
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -391,10 +380,9 @@ Administrative keys for demisto/tidy:1.0.0.14170433
 * Summary: Extensions to the standard Python datetime module
 * Version: 3.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+* License: Dual License
 
 ### `pytz`
 
@@ -590,6 +578,7 @@ Administrative keys for demisto/tidy:1.0.0.14170433
 * libcrypto3-3.5.9-r0 x86_64 {openssl}
 * libedit-20260512.3.1-r0 x86_64 {libedit}
 * libffi-3.5.2-r1 x86_64 {libffi}
+* libidn2-2.3.8-r0 x86_64 {libidn2}
 * libintl-1.0-r0 x86_64 {gettext}
 * libncursesw-6.6_p20260516-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r2 x86_64 {libnsl}
@@ -597,6 +586,7 @@ Administrative keys for demisto/tidy:1.0.0.14170433
 * libssl3-3.5.9-r0 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
+* libunistring-1.4.2-r0 x86_64 {libunistring}
 * libuuid-2.42.3-r1 x86_64 {util-linux}
 * libverto-0.3.2-r2 x86_64 {libverto}
 * libxxhash-0.8.3-r1 x86_64 {xxhash}
@@ -604,18 +594,18 @@ Administrative keys for demisto/tidy:1.0.0.14170433
 * musl-1.2.6-r6 x86_64 {musl}
 * musl-utils-1.2.6-r3 x86_64 {musl}
 * ncurses-terminfo-base-6.6_p20260516-r0 x86_64 {ncurses}
-* openssh-client-common-10.6_p1-r1 x86_64 {openssh}
-* openssh-client-default-10.6_p1-r1 x86_64 {openssh}
-* openssh-keygen-10.6_p1-r1 x86_64 {openssh}
+* openssh-client-common-10.6_p2-r0 x86_64 {openssh}
+* openssh-client-default-10.6_p2-r0 x86_64 {openssh}
+* openssh-keygen-10.6_p2-r0 x86_64 {openssh}
 * openssl-3.5.9-r0 x86_64 {openssl}
 * popt-1.19-r4 x86_64 {popt}
 * readline-8.3.3-r1 x86_64 {readline}
-* rsync-3.5.0-r0 x86_64 {rsync}
+* rsync-3.5.2-r1 x86_64 {rsync}
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * sshpass-1.10-r0 x86_64 {sshpass}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
 * tzdata-2026e-r0 x86_64 {tzdata}
 * xz-libs-5.8.4-r0 x86_64 {xz}
-* zlib-1.3.2-r1 x86_64 {zlib}
+* zlib-1.4-r0 x86_64 {zlib}
 * zstd-libs-1.5.7-r2 x86_64 {zstd}

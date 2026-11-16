@@ -1,9 +1,9 @@
-# `demisto/pandas:1.0.0.14169403`
+# `demisto/pandas:1.0.0.14562457`
 
 ## Docker Metadata
-- Image Size: 80.52 MB
-- Image ID: `sha256:d0eaa40920f14ba142e8eaa503f2f45cd3e24a9b8b457e8d5ac6e64b6d3b1f74`
-- Created: `2026-10-28T12:55:51.060892018Z`
+- Image Size: 80.97 MB
+- Image ID: `sha256:70d60ed570d6952ff2be672919a3200781b96fba7415bc0ab9db1d6467a8f170`
+- Created: `2026-11-09T16:10:06.083039099Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/pandas:1.0.0.14169403`
+  - `DOCKER_IMAGE=demisto/pandas:1.0.0.14562457`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.0.0.14169403`
-  - `panw.builtby.pipeline:14171436`
+  - `org.opencontainers.image.revision:3430483fa6abc4a7dbc690988ab97ae1748beb64`
+  - `org.opencontainers.image.version:1.0.0.14562457`
+  - `panw.builtby.pipeline:14564069`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -32,17 +32,7 @@
 
 ## Docker Trust
 ```
-
-Signatures for demisto/pandas:1.0.0.14169403
-
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14169403   1f913d9523954e3e845f984c979c55140d794fbf2ff1d60e76858036810ad717   (Repo Admin)
-
-Administrative keys for demisto/pandas:1.0.0.14169403
-
-  Repository Key:	2f6ee3bf40841c74b6ba712de24e83f42dfc7130fefdd4c8f0c0b2efc4645334
-  Root Key:	c6252cb6471003ca794a0f88bd8ddd88095fb61c82729c39b9a73ae382c98ad8
-
+No trust data is available
 ```
 
 ## `Python Packages`
@@ -107,7 +97,6 @@ Administrative keys for demisto/pandas:1.0.0.14169403
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -189,7 +178,7 @@ Administrative keys for demisto/pandas:1.0.0.14169403
 ### `pandas`
 
 * Summary: Powerful data structures for data analysis, time series, and statistics
-* Version: 3.1.0
+* Version: 3.1.1
 * Pypi: https://pypi.org/project/pandas/
 * Homepage: None
 * Author: The Pandas Development Team <pandas-dev@python.org>
@@ -206,7 +195,7 @@ Administrative keys for demisto/pandas:1.0.0.14169403
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -224,12 +213,10 @@ Administrative keys for demisto/pandas:1.0.0.14169403
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 3.0.0
+* Version: 4.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
 
 ### `pytz`
 
@@ -320,7 +307,7 @@ Administrative keys for demisto/pandas:1.0.0.14169403
 ### `tzdata`
 
 * Summary: Provider of IANA time zone data
-* Version: 2026.5
+* Version: 2026.6
 * Pypi: https://pypi.org/project/tzdata/
 * Homepage: https://github.com/python/tzdata
 * Author: Python Software Foundation datetime-sig@python.org

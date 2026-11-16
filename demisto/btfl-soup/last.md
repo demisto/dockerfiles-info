@@ -1,9 +1,9 @@
-# `demisto/btfl-soup:1.0.1.14304551`
+# `demisto/btfl-soup:1.0.1.14606498`
 
 ## Docker Metadata
-- Image Size: 40.16 MB
-- Image ID: `sha256:ec5babc09fb230d6a6c730896e57c2243dc23f34524c0bfae2d48af866eaf618`
-- Created: `2026-11-02T10:05:16.829098436Z`
+- Image Size: 40.28 MB
+- Image ID: `sha256:180bd11ef8a6237733d477879dd5ffae73f1c94cf82b06922c2abb3a89b7a3af`
+- Created: `2026-11-10T15:48:04.853378917Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.14304551`
+  - `DOCKER_IMAGE=demisto/btfl-soup:1.0.1.14606498`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:17207f8f312f8393f64a11ebbd3bdaf501ced35e`
-  - `org.opencontainers.image.version:1.0.1.14304551`
-  - `panw.builtby.pipeline:14306075`
+  - `org.opencontainers.image.revision:00eb4a9709cbe56a4b9ececda12eba3b09c36313`
+  - `org.opencontainers.image.version:1.0.1.14606498`
+  - `panw.builtby.pipeline:14607701`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -32,17 +32,7 @@
 
 ## Docker Trust
 ```
-
-Signatures for demisto/btfl-soup:1.0.1.14304551
-
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.1.14304551   3bbbe1fccc3cff999d52cdc937b8174f9c895de1ecf4e079f8dda4eeee959b04   (Repo Admin)
-
-Administrative keys for demisto/btfl-soup:1.0.1.14304551
-
-  Repository Key:	2df9352dc8d80b6e208c7ff147fac5fe0db694f8ad563e69a8c0688b62620cb4
-  Root Key:	48666b9a08f1927653d7c7246d50c6a1b3a7f7ff8ff8be1557cce0991627ccf4
-
+No trust data is available
 ```
 
 ## `Python Packages`
@@ -225,7 +215,7 @@ Administrative keys for demisto/btfl-soup:1.0.1.14304551
 ### `pycryptodome`
 
 * Summary: Cryptographic library for Python
-* Version: 4.2.0
+* Version: 4.4.0
 * Pypi: https://pypi.org/project/pycryptodome/
 * Homepage: None
 * Author: Helder Eijs <helderijs@gmail.com>

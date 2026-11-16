@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.14488990`
+# `demisto/google-vision-api:1.0.0.14606498`
 
 ## Docker Metadata
-- Image Size: 127.80 MB
-- Image ID: `sha256:a0e33c21078a273dfefd76968d6d082cc19842761c4b6cf9b62a8378a72ada54`
-- Created: `2026-11-08T01:24:31.527784255Z`
+- Image Size: 127.78 MB
+- Image ID: `sha256:f90d13efc8021f98be7037d01805ddb7d3c2a7bc8dc518c30fb9ffff36c74b04`
+- Created: `2026-11-10T15:48:17.585281345Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.14488990`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.14606498`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:09eaedd0416f400431511088cbcffe9dfc2cbb03`
-  - `org.opencontainers.image.version:1.0.0.14488990`
-  - `panw.builtby.pipeline:14489761`
+  - `org.opencontainers.image.revision:00eb4a9709cbe56a4b9ececda12eba3b09c36313`
+  - `org.opencontainers.image.version:1.0.0.14606498`
+  - `panw.builtby.pipeline:14607700`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,17 +36,7 @@
 
 ## Docker Trust
 ```
-
-Signatures for demisto/google-vision-api:1.0.0.14488990
-
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14488990   cd4f9bc882d4e63351cc4e5dba4d44f5a7535410ec766909ad22a90d3ba90aca   (Repo Admin)
-
-Administrative keys for demisto/google-vision-api:1.0.0.14488990
-
-  Repository Key:	8f699c169d21da1343c2ea4f465fe5f19ace3822c0fd85c2d1a054379abf30dd
-  Root Key:	23130201a9ea6e060cceb9cf5a1998649873c190c980fe0d6c487df1fadbc6ef
-
+No trust data is available
 ```
 
 ## `Python Packages`
@@ -72,7 +62,7 @@ Administrative keys for demisto/google-vision-api:1.0.0.14488990
 ### `cachetools`
 
 * Summary: Extensible memoizing collections and decorators
-* Version: 7.2.7
+* Version: 8.0.0
 * Pypi: https://pypi.org/project/cachetools/
 * Homepage: None
 * Author: Thomas Kemmer <tkemmer@computer.org>

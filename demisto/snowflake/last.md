@@ -1,9 +1,9 @@
-# `demisto/snowflake:1.0.0.14170433`
+# `demisto/snowflake:1.0.0.14562457`
 
 ## Docker Metadata
-- Image Size: 81.30 MB
-- Image ID: `sha256:4dec58e58b9cefb89324bcc7b304906e8dbdcdebcbff1d7c75f31fdc83bfc843`
-- Created: `2026-10-28T13:52:58.703781985Z`
+- Image Size: 81.80 MB
+- Image ID: `sha256:c395ea8ae2466a28dc4df2e639ae404ad9febeec5f8252ce9b6d1273aebf0157`
+- Created: `2026-11-09T16:09:57.494409938Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/snowflake:1.0.0.14170433`
+  - `DOCKER_IMAGE=demisto/snowflake:1.0.0.14562457`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.0.0.14170433`
-  - `panw.builtby.pipeline:14173872`
+  - `org.opencontainers.image.revision:3430483fa6abc4a7dbc690988ab97ae1748beb64`
+  - `org.opencontainers.image.version:1.0.0.14562457`
+  - `panw.builtby.pipeline:14564072`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,17 +36,7 @@
 
 ## Docker Trust
 ```
-
-Signatures for demisto/snowflake:1.0.0.14170433
-
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14170433   da446c45e6b1de6f9e2aa738b86c5149691e52c64d989a47cb2f2adf5b3c4c39   (Repo Admin)
-
-Administrative keys for demisto/snowflake:1.0.0.14170433
-
-  Repository Key:	e5af6c8f1edf3b7b609ca6e966b4b02cda62a847f7886ade144fdd863264d2dc
-  Root Key:	62fa4117d95ea03c7a2357871e30ec66d7a624e3b931de015922a0c52d289cac
-
+No trust data is available
 ```
 
 ## `Python Packages`
@@ -118,7 +108,6 @@ Administrative keys for demisto/snowflake:1.0.0.14170433
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -192,7 +181,7 @@ Administrative keys for demisto/snowflake:1.0.0.14170433
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -229,15 +218,14 @@ Administrative keys for demisto/snowflake:1.0.0.14170433
 * Summary: Extensions to the standard Python datetime module
 * Version: 2.9.0.post0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+* License: Dual License
 
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.5
+* Version: 2026.6
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -307,7 +295,7 @@ Administrative keys for demisto/snowflake:1.0.0.14170433
 ### `snowflake-connector-python`
 
 * Summary: Snowflake DB driver for Python
-* Version: 5.1.0
+* Version: 5.2.0
 * Pypi: https://pypi.org/project/snowflake-connector-python/
 * Homepage: None
 * Author: None
@@ -453,4 +441,4 @@ Administrative keys for demisto/snowflake:1.0.0.14170433
 * tar	1.35+dfsg-3.1
 * tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
-* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1
+* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+deb13u1
