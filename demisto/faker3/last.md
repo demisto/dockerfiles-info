@@ -1,48 +1,38 @@
-# `demisto/faker3:1.0.0.14323108`
+# `demisto/faker3:1.0.0.14788468`
 
 ## Docker Metadata
-- Image Size: 38.03 MB
-- Image ID: `sha256:e8368d4f7a73f684650c40ed1b8bef54fd76983c3beb13998e66a6e92d062469`
-- Created: `2026-11-02T16:06:40.991009561Z`
+- Image Size: 39.06 MB
+- Image ID: `sha256:2685899e0d80ac433db734a3b871e4f73a7a40866305a64dd0e02d57a4685c11`
+- Created: `2026-11-16T10:46:38.47874399Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.15`
-  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/faker3:1.0.0.14323108`
+  - `PYTHON_VERSION=3.12.16`
+  - `PYTHON_SHA256=b5796915dc45ff745cfb4e990a7e7c93d6f546328a102ce31448d69ebc37575c`
+  - `DOCKER_IMAGE=demisto/faker3:1.0.0.14788468`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:6fb9ad7fed5830124666cac7a6ce2b0c370ad854`
-  - `org.opencontainers.image.version:1.0.0.14323108`
-  - `panw.builtby.pipeline:14324468`
+  - `org.opencontainers.image.revision:4400002c42ab3fb8bafc34343dbcf4364c0155bd`
+  - `org.opencontainers.image.version:1.0.0.14788468`
+  - `panw.builtby.pipeline:14792193`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.24.3`
+  - `VERSION_ID=3.24.4`
   - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
-
-Signatures for demisto/faker3:1.0.0.14323108
-
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14323108   f6baa3704a01ae4171714729fa0bfd689804cf444820ea7c8480e3d7879711e9   (Repo Admin)
-
-Administrative keys for demisto/faker3:1.0.0.14323108
-
-  Repository Key:	e5d44c90ec1e283217374c92514ddf896735e8536e705ef7271611ff44c7b99b
-  Root Key:	d10c08e25ea8c26554ffe6d1931deeb6f6ad3540e21d89603e3c16d533e3deab
-
+No trust data is available
 ```
 
 ## `Python Packages`
@@ -51,7 +41,7 @@ Administrative keys for demisto/faker3:1.0.0.14323108
 ### `anyio`
 
 * Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.15.1
+* Version: 4.16.0
 * Pypi: https://pypi.org/project/anyio/
 * Homepage: None
 * Author: Alex Grönholm <alex.gronholm@nextday.fi>
@@ -77,7 +67,7 @@ Administrative keys for demisto/faker3:1.0.0.14323108
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.3
+* Version: 1.5.0
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -85,7 +75,7 @@ Administrative keys for demisto/faker3:1.0.0.14323108
 ### `deepmerge`
 
 * Summary: A toolset for deeply merging Python dictionaries.
-* Version: 3.0.1
+* Version: 4.0.0
 * Pypi: https://pypi.org/project/deepmerge/
 * Homepage: None
 * Author: Yusuke Tsutsumi <yusuke@tsutsumi.io>
@@ -103,7 +93,7 @@ Administrative keys for demisto/faker3:1.0.0.14323108
 ### `Faker`
 
 * Summary: Faker is a Python package that generates fake data for you.
-* Version: 40.44.0
+* Version: 40.54.0
 * Pypi: https://pypi.org/project/Faker/
 * Homepage: https://github.com/joke2k/faker
 * Author: joke2k joke2k@gmail.com
@@ -112,7 +102,7 @@ Administrative keys for demisto/faker3:1.0.0.14323108
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 4.2.4
+* Version: 4.2.10
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -207,16 +197,15 @@ Administrative keys for demisto/faker3:1.0.0.14323108
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 3.0.0
+* Version: 4.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
 * Homepage: None
 * Author: Gustavo Niemeyer <gustavo@niemeyer.net>
-* License: Dual License
 
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.5
+* Version: 2026.6
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -234,7 +223,7 @@ Administrative keys for demisto/faker3:1.0.0.14323108
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.9.29
+* Version: 2026.11.9
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -274,15 +263,6 @@ Administrative keys for demisto/faker3:1.0.0.14323108
 * Homepage: None
 * Author: Python Packaging Authority <distutils-sig@python.org>
 
-### `six`
-
-* Summary: Python 2 and 3 compatibility utilities
-* Version: 1.17.0
-* Pypi: https://pypi.org/project/six/
-* Homepage: https://github.com/benjaminp/six
-* Author: Benjamin Peterson benjamin@python.org
-* License :: OSI Approved :: MIT License
-
 ### `tldextract`
 
 * Summary: Accurately separates a URL's subdomain, domain, and public suffix, using the Public Suffix List (PSL). By default, this includes the public ICANN TLDs and their exceptions. You can optionally support the Public Suffix List's private domains as well.
@@ -302,7 +282,7 @@ Administrative keys for demisto/faker3:1.0.0.14323108
 ### `tzdata`
 
 * Summary: Provider of IANA time zone data
-* Version: 2026.5
+* Version: 2026.6
 * Pypi: https://pypi.org/project/tzdata/
 * Homepage: https://github.com/python/tzdata
 * Author: Python Software Foundation datetime-sig@python.org
@@ -334,12 +314,12 @@ Administrative keys for demisto/faker3:1.0.0.14323108
 
 ## `OS Packages`
 
-* .python-rundeps-20261021.230421 noarch {.python-rundeps}
+* .python-rundeps-20261105.193119 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.24.3-r0 x86_64 {alpine-base}
-* apk-tools-3.0.8-r0 x86_64 {apk-tools}
+* alpine-release-3.24.4-r0 x86_64 {alpine-base}
+* apk-tools-3.0.9-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
 * ca-certificates-20261020-r0 x86_64 {ca-certificates}
@@ -347,8 +327,8 @@ Administrative keys for demisto/faker3:1.0.0.14323108
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.22.2-r1 x86_64 {krb5}
-* libapk-3.0.8-r0 x86_64 {apk-tools}
+* krb5-libs-1.22.3-r0 x86_64 {krb5}
+* libapk-3.0.9-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.9-r0 x86_64 {openssl}
@@ -369,6 +349,6 @@ Administrative keys for demisto/faker3:1.0.0.14323108
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026e-r0 x86_64 {tzdata}
+* tzdata-2026f-r0 x86_64 {tzdata}
 * xz-libs-5.8.4-r0 x86_64 {xz}
-* zlib-1.3.2-r1 x86_64 {zlib}
+* zlib-1.4-r0 x86_64 {zlib}

@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.14606498`
+# `demisto/google-vision-api:1.0.0.14814401`
 
 ## Docker Metadata
-- Image Size: 127.78 MB
-- Image ID: `sha256:f90d13efc8021f98be7037d01805ddb7d3c2a7bc8dc518c30fb9ffff36c74b04`
-- Created: `2026-11-10T15:48:17.585281345Z`
+- Image Size: 128.18 MB
+- Image ID: `sha256:651b2230ed18ceb5af2d73022b071b6cb0dc94f458a2df677740ecd6dcb4cd7d`
+- Created: `2026-11-16T18:39:47.926201895Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.14606498`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.14814401`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:00eb4a9709cbe56a4b9ececda12eba3b09c36313`
-  - `org.opencontainers.image.version:1.0.0.14606498`
-  - `panw.builtby.pipeline:14607700`
+  - `org.opencontainers.image.revision:832e3ceb1173e5767731d2bf9d138b1a92e119b6`
+  - `org.opencontainers.image.version:1.0.0.14814401`
+  - `panw.builtby.pipeline:14814917`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -164,7 +164,7 @@ No trust data is available
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.43.2
+* Version: 2.44.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -173,7 +173,7 @@ No trust data is available
 ### `google-api-python-client`
 
 * Summary: Google API Client Library for Python
-* Version: 2.201.0
+* Version: 2.202.0
 * Pypi: https://pypi.org/project/google-api-python-client/
 * Homepage: https://github.com/googleapis/google-api-python-client/
 * Author: Google LLC googleapis-packages@google.com
@@ -182,7 +182,7 @@ No trust data is available
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.62.1
+* Version: 2.62.2
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -209,7 +209,7 @@ No trust data is available
 ### `google-cloud-aiplatform`
 
 * Summary: Vertex AI API client library
-* Version: 2.7.0
+* Version: 2.9.0
 * Pypi: https://pypi.org/project/google-cloud-aiplatform/
 * Homepage: https://github.com/googleapis/python-aiplatform
 * Author: Google LLC googleapis-packages@google.com
@@ -470,7 +470,7 @@ No trust data is available
 ### `pydantic`
 
 * Summary: Data validation using Python type hints
-* Version: 2.14.2
+* Version: 2.14.3
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.dev>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -478,7 +478,7 @@ No trust data is available
 ### `pydantic_core`
 
 * Summary: Core functionality for Pydantic validation and serialization
-* Version: 2.50.2
+* Version: 2.50.4
 * Pypi: https://pypi.org/project/pydantic_core/
 * Homepage: https://github.com/pydantic/pydantic
 * Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -635,7 +635,7 @@ No trust data is available
 ### `typing-inspection`
 
 * Summary: Runtime typing introspection tools
-* Version: 0.4.4
+* Version: 0.4.5
 * Pypi: https://pypi.org/project/typing-inspection/
 * Homepage: None
 * Author: Victorien Plot <contact@vctrn.dev>
