@@ -1,9 +1,9 @@
-# `demisto/google-vision-api:1.0.0.14814401`
+# `demisto/google-vision-api:1.0.0.14846051`
 
 ## Docker Metadata
 - Image Size: 128.18 MB
-- Image ID: `sha256:651b2230ed18ceb5af2d73022b071b6cb0dc94f458a2df677740ecd6dcb4cd7d`
-- Created: `2026-11-16T18:39:47.926201895Z`
+- Image ID: `sha256:343cbf8cbed24310a66b5d784154b4aea84e41c900f6ef13ac26d1ad0f856c7c`
+- Created: `2026-11-17T13:26:57.434447223Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.14814401`
+  - `DOCKER_IMAGE=demisto/google-vision-api:1.0.0.14846051`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:832e3ceb1173e5767731d2bf9d138b1a92e119b6`
-  - `org.opencontainers.image.version:1.0.0.14814401`
-  - `panw.builtby.pipeline:14814917`
+  - `org.opencontainers.image.revision:cad0282858bb048c318b54aabee8fc1a75035251`
+  - `org.opencontainers.image.version:1.0.0.14846051`
+  - `panw.builtby.pipeline:14849095`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 

@@ -1,48 +1,38 @@
-# `demisto/axonius:1.1.0.14169403`
+# `demisto/axonius:1.1.0.14846051`
 
 ## Docker Metadata
-- Image Size: 52.34 MB
-- Image ID: `sha256:de02aa8af3510bc36a68914621ed143d8fc6917504cef3b495d56aee882e9421`
-- Created: `2026-10-28T12:57:09.203755788Z`
+- Image Size: 53.64 MB
+- Image ID: `sha256:52de969f0f35e6b119e5567ee46912fb82c24ba43e6dfc74cc8d4ead5b18d151`
+- Created: `2026-11-17T13:26:34.466889328Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.15`
-  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/axonius:1.1.0.14169403`
+  - `PYTHON_VERSION=3.12.16`
+  - `PYTHON_SHA256=b5796915dc45ff745cfb4e990a7e7c93d6f546328a102ce31448d69ebc37575c`
+  - `DOCKER_IMAGE=demisto/axonius:1.1.0.14846051`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.1.0.14169403`
-  - `panw.builtby.pipeline:14171520`
+  - `org.opencontainers.image.revision:cad0282858bb048c318b54aabee8fc1a75035251`
+  - `org.opencontainers.image.version:1.1.0.14846051`
+  - `panw.builtby.pipeline:14849088`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
 - OS Release:
   - `NAME="Alpine Linux"`
   - `ID=alpine`
-  - `VERSION_ID=3.24.3`
+  - `VERSION_ID=3.24.4`
   - `PRETTY_NAME="Alpine Linux v3.24"`
   - `HOME_URL="https://alpinelinux.org/"`
   - `BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"`
 
 ## Docker Trust
 ```
-
-Signatures for demisto/axonius:1.1.0.14169403
-
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.1.0.14169403   c111fd389752bdfb783c7ab62a251cc42c5cc2437989369b7c1b84134dd8f41b   (Repo Admin)
-
-Administrative keys for demisto/axonius:1.1.0.14169403
-
-  Repository Key:	d372d953558700918fd1e3b70e9904c67a112c8eccf11cb2a96b5780ff25cde2
-  Root Key:	3f86396f6bc2411e827bcb61c209b7e5a6e62db5b91b6f0042ae9258e77a3dde
-
+No trust data is available
 ```
 
 ## `Python Packages`
@@ -51,7 +41,7 @@ Administrative keys for demisto/axonius:1.1.0.14169403
 ### `anyio`
 
 * Summary: High-level concurrency and networking framework on top of asyncio or Trio
-* Version: 4.15.1
+* Version: 4.16.0
 * Pypi: https://pypi.org/project/anyio/
 * Homepage: None
 * Author: Alex Grönholm <alex.gronholm@nextday.fi>
@@ -104,7 +94,7 @@ Administrative keys for demisto/axonius:1.1.0.14169403
 ### `cachetools`
 
 * Summary: Extensible memoizing collections and decorators
-* Version: 7.2.6
+* Version: 8.0.0
 * Pypi: https://pypi.org/project/cachetools/
 * Homepage: None
 * Author: Thomas Kemmer <tkemmer@computer.org>
@@ -138,7 +128,7 @@ Administrative keys for demisto/axonius:1.1.0.14169403
 ### `click`
 
 * Summary: Composable command line interface toolkit
-* Version: 8.5.0
+* Version: 8.5.1
 * Pypi: https://pypi.org/project/click/
 * Homepage: None
 * Author: None
@@ -163,7 +153,7 @@ Administrative keys for demisto/axonius:1.1.0.14169403
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.3
+* Version: 1.5.0
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -171,7 +161,7 @@ Administrative keys for demisto/axonius:1.1.0.14169403
 ### `deepmerge`
 
 * Summary: A toolset for deeply merging Python dictionaries.
-* Version: 3.0.1
+* Version: 4.0.0
 * Pypi: https://pypi.org/project/deepmerge/
 * Homepage: None
 * Author: Yusuke Tsutsumi <yusuke@tsutsumi.io>
@@ -189,11 +179,10 @@ Administrative keys for demisto/axonius:1.1.0.14169403
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 4.2.4
+* Version: 4.2.10
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -286,7 +275,7 @@ Administrative keys for demisto/axonius:1.1.0.14169403
 ### `mypy_extensions`
 
 * Summary: Type system extensions for programs checked with the mypy type checker.
-* Version: 1.1.0
+* Version: 1.2.0
 * Pypi: https://pypi.org/project/mypy-extensions/
 * Homepage: None
 * Author: The mypy developers <jukka.lehtosalo@iki.fi>
@@ -311,7 +300,7 @@ Administrative keys for demisto/axonius:1.1.0.14169403
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -327,7 +316,7 @@ Administrative keys for demisto/axonius:1.1.0.14169403
 ### `pycryptodomex`
 
 * Summary: Cryptographic library for Python
-* Version: 3.24.1
+* Version: 3.24.2
 * Pypi: https://pypi.org/project/pycryptodomex/
 * Homepage: https://www.pycryptodome.org
 * Author: Helder Eijs helderijs@gmail.com
@@ -372,12 +361,10 @@ Administrative keys for demisto/axonius:1.1.0.14169403
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 3.0.0
+* Version: 4.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
 
 ### `python-dotenv`
 
@@ -391,7 +378,7 @@ Administrative keys for demisto/axonius:1.1.0.14169403
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.5
+* Version: 2026.6
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -417,7 +404,7 @@ Administrative keys for demisto/axonius:1.1.0.14169403
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.9.29
+* Version: 2026.11.9
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -469,7 +456,7 @@ Administrative keys for demisto/axonius:1.1.0.14169403
 ### `soupsieve`
 
 * Summary: A modern CSS selector implementation for Beautiful Soup.
-* Version: 3.0.4
+* Version: 4.1.1
 * Pypi: https://pypi.org/project/soupsieve/
 * Homepage: None
 * Author: Isaac Muse <Isaac.Muse@gmail.com>
@@ -511,7 +498,7 @@ Administrative keys for demisto/axonius:1.1.0.14169403
 ### `tzdata`
 
 * Summary: Provider of IANA time zone data
-* Version: 2026.5
+* Version: 2026.6
 * Pypi: https://pypi.org/project/tzdata/
 * Homepage: https://github.com/python/tzdata
 * Author: Python Software Foundation datetime-sig@python.org
@@ -544,7 +531,7 @@ Administrative keys for demisto/axonius:1.1.0.14169403
 ### `xlsxwriter`
 
 * Summary: A Python module for creating Excel XLSX files.
-* Version: 3.3.0
+* Version: 3.3.1
 * Pypi: https://pypi.org/project/xlsxwriter/
 * Homepage: None
 * Author: John McNamara <jmcnamara@cpan.org>
@@ -559,12 +546,12 @@ Administrative keys for demisto/axonius:1.1.0.14169403
 
 ## `OS Packages`
 
-* .python-rundeps-20261021.230421 noarch {.python-rundeps}
+* .python-rundeps-20261105.193119 noarch {.python-rundeps}
 * alpine-baselayout-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-baselayout-data-3.7.2-r1 x86_64 {alpine-baselayout}
 * alpine-keys-2.6-r0 x86_64 {alpine-keys}
-* alpine-release-3.24.3-r0 x86_64 {alpine-base}
-* apk-tools-3.0.8-r0 x86_64 {apk-tools}
+* alpine-release-3.24.4-r0 x86_64 {alpine-base}
+* apk-tools-3.0.9-r0 x86_64 {apk-tools}
 * busybox-1.37.0-r31 x86_64 {busybox}
 * busybox-binsh-1.37.0-r31 x86_64 {busybox}
 * ca-certificates-20261020-r0 x86_64 {ca-certificates}
@@ -572,8 +559,8 @@ Administrative keys for demisto/axonius:1.1.0.14169403
 * gdbm-1.26-r0 x86_64 {gdbm}
 * keyutils-libs-1.6.3-r4 x86_64 {keyutils}
 * krb5-conf-1.0-r2 x86_64 {krb5-conf}
-* krb5-libs-1.22.2-r1 x86_64 {krb5}
-* libapk-3.0.8-r0 x86_64 {apk-tools}
+* krb5-libs-1.22.3-r0 x86_64 {krb5}
+* libapk-3.0.9-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.9-r0 x86_64 {openssl}
@@ -594,6 +581,6 @@ Administrative keys for demisto/axonius:1.1.0.14169403
 * scanelf-1.3.9-r1 x86_64 {pax-utils}
 * sqlite-libs-3.53.4-r0 x86_64 {sqlite}
 * ssl_client-1.37.0-r31 x86_64 {busybox}
-* tzdata-2026e-r0 x86_64 {tzdata}
+* tzdata-2026f-r0 x86_64 {tzdata}
 * xz-libs-5.8.4-r0 x86_64 {xz}
-* zlib-1.3.2-r1 x86_64 {zlib}
+* zlib-1.4-r0 x86_64 {zlib}

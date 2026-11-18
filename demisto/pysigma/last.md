@@ -1,9 +1,9 @@
-# `demisto/pysigma:1.0.0.14788468`
+# `demisto/pysigma:1.0.0.14846051`
 
 ## Docker Metadata
-- Image Size: 38.16 MB
-- Image ID: `sha256:f4823f9a09b6199d1bfb9ce6cdca4b9a93dff2ee0eccd76ee4ee624e1aed6b81`
-- Created: `2026-11-16T10:44:50.56505541Z`
+- Image Size: 38.15 MB
+- Image ID: `sha256:5a21e2cec2cda1a3ae1bb25ccc344540c64e210988fdd16a8de4e8e7076fbb7f`
+- Created: `2026-11-17T13:26:29.385734416Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.16`
   - `PYTHON_SHA256=b5796915dc45ff745cfb4e990a7e7c93d6f546328a102ce31448d69ebc37575c`
-  - `DOCKER_IMAGE=demisto/pysigma:1.0.0.14788468`
+  - `DOCKER_IMAGE=demisto/pysigma:1.0.0.14846051`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:4400002c42ab3fb8bafc34343dbcf4364c0155bd`
-  - `org.opencontainers.image.version:1.0.0.14788468`
-  - `panw.builtby.pipeline:14792223`
+  - `org.opencontainers.image.revision:cad0282858bb048c318b54aabee8fc1a75035251`
+  - `org.opencontainers.image.version:1.0.0.14846051`
+  - `panw.builtby.pipeline:14849086`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -197,7 +197,7 @@ No trust data is available
 ### `pyparsing`
 
 * Summary: pyparsing - Classes and methods to define and execute parsing grammars
-* Version: 3.3.3
+* Version: 3.3.2
 * Pypi: https://pypi.org/project/pyparsing/
 * Homepage: None
 * Author: Paul McGuire <ptmcg.gm+pyparsing@gmail.com>

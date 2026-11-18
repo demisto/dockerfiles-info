@@ -1,9 +1,9 @@
-# `demisto/google-api-py3:1.0.0.14304551`
+# `demisto/google-api-py3:1.0.0.14846051`
 
 ## Docker Metadata
-- Image Size: 83.79 MB
-- Image ID: `sha256:9b3b7754ed01d78dce8000a72be0ee8d3c3d5f23e69a36cf8c1f2acc9a8fd790`
-- Created: `2026-11-02T10:03:29.358509473Z`
+- Image Size: 84.19 MB
+- Image ID: `sha256:b14cb7dfe4bbc9c205e6a3bda16aa3dfcafbfa894ea05afae4fc94f8059e987a`
+- Created: `2026-11-17T13:26:51.606294874Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/google-api-py3:1.0.0.14304551`
+  - `DOCKER_IMAGE=demisto/google-api-py3:1.0.0.14846051`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:17207f8f312f8393f64a11ebbd3bdaf501ced35e`
-  - `org.opencontainers.image.version:1.0.0.14304551`
-  - `panw.builtby.pipeline:14306062`
+  - `org.opencontainers.image.revision:cad0282858bb048c318b54aabee8fc1a75035251`
+  - `org.opencontainers.image.version:1.0.0.14846051`
+  - `panw.builtby.pipeline:14849092`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,17 +36,7 @@
 
 ## Docker Trust
 ```
-
-Signatures for demisto/google-api-py3:1.0.0.14304551
-
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14304551   77886713e760bbeb4576f866cf864188b5252eece98fd716ffb75e06e6199bd8   (Repo Admin)
-
-Administrative keys for demisto/google-api-py3:1.0.0.14304551
-
-  Repository Key:	5770a83f9c9b9436ad3c6e6acfe7a826fe9e3f460f7ad22dfb9f894f371071a6
-  Root Key:	95f47db9a4f5902373f46f558d53e073d895578cef7f0b44205d77f956ba04d4
-
+No trust data is available
 ```
 
 ## `Python Packages`
@@ -131,7 +121,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.14304551
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.43.2
+* Version: 2.44.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -140,7 +130,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.14304551
 ### `google-api-python-client`
 
 * Summary: Google API Client Library for Python
-* Version: 2.201.0
+* Version: 2.202.0
 * Pypi: https://pypi.org/project/google-api-python-client/
 * Homepage: https://github.com/googleapis/google-api-python-client/
 * Author: Google LLC googleapis-packages@google.com
@@ -149,7 +139,7 @@ Administrative keys for demisto/google-api-py3:1.0.0.14304551
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.62.0
+* Version: 2.62.2
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -555,4 +545,4 @@ Administrative keys for demisto/google-api-py3:1.0.0.14304551
 * tar	1.35+dfsg-3.1
 * tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
-* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1
+* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+deb13u1
