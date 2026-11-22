@@ -1,9 +1,9 @@
-# `demisto/python3:3.12.16.14740428`
+# `demisto/python3:3.12.16.14990175`
 
 ## Docker Metadata
-- Image Size: 34.89 MB
-- Image ID: `sha256:db872dfa8d072c48abaf197326e487b590f1b141f6e79f79c96eeac54217fe7a`
-- Created: `2026-11-15T06:37:17.590080983Z`
+- Image Size: 37.43 MB
+- Image ID: `sha256:601c45a3aa099e1223d1c56bb1bb4ad3a68571e92167dd72887ad276ff2ddb22`
+- Created: `2026-11-22T01:04:06.744763185Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.16`
   - `PYTHON_SHA256=b5796915dc45ff745cfb4e990a7e7c93d6f546328a102ce31448d69ebc37575c`
-  - `DOCKER_IMAGE=demisto/python3:3.12.16.14740428`
+  - `DOCKER_IMAGE=demisto/python3:3.12.16.14990175`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:785664e297cd58d5d536fe8d9f97b0b94d446f8e`
-  - `org.opencontainers.image.version:3.12.16.14740428`
-  - `panw.builtby.pipeline:14740580`
+  - `org.opencontainers.image.revision:b2f98cace2215bba000f357b3e3d0a48a89df591`
+  - `org.opencontainers.image.version:3.12.16.14990175`
+  - `panw.builtby.pipeline:14990606`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -67,7 +67,7 @@ No trust data is available
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.5.0
+* Version: 1.5.1
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -214,7 +214,7 @@ No trust data is available
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.11.9
+* Version: 2026.11.19
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -322,13 +322,13 @@ No trust data is available
 * libapk-3.0.9-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.9-r0 x86_64 {openssl}
+* libcrypto3-3.5.9-r1 x86_64 {openssl}
 * libffi-3.5.2-r1 x86_64 {libffi}
 * libintl-1.0-r0 x86_64 {gettext}
 * libncursesw-6.6_p20260516-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r2 x86_64 {libnsl}
 * libpanelw-6.6_p20260516-r0 x86_64 {ncurses}
-* libssl3-3.5.9-r0 x86_64 {openssl}
+* libssl3-3.5.9-r1 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libuuid-2.42.3-r1 x86_64 {util-linux}

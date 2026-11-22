@@ -1,9 +1,9 @@
-# `demisto/py-ews:5.6.0.14745846`
+# `demisto/py-ews:5.6.0.14990175`
 
 ## Docker Metadata
-- Image Size: 140.28 MB
-- Image ID: `sha256:b8662541fad87dc9a1c34ced979acd43ca02f1fe8fec5937e2239f5612f2f8e2`
-- Created: `2026-11-15T10:34:10.538918962Z`
+- Image Size: 150.06 MB
+- Image ID: `sha256:d3520d4fe9bd81a746da12fb182ee6335dccbd8de5377bba8ebc16b590ea13a8`
+- Created: `2026-11-22T01:05:20.639349798Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.14745846`
+  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.14990175`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3e09f0d76a5d956a29ab5de1bc8e08dcdca68fdb`
-  - `org.opencontainers.image.version:5.6.0.14745846`
-  - `panw.builtby.pipeline:14749381`
+  - `org.opencontainers.image.revision:b2f98cace2215bba000f357b3e3d0a48a89df591`
+  - `org.opencontainers.image.version:5.6.0.14990175`
+  - `panw.builtby.pipeline:14990607`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -28,7 +28,7 @@
   - `VERSION_ID="13"`
   - `VERSION="13 (trixie)"`
   - `VERSION_CODENAME=trixie`
-  - `DEBIAN_VERSION_FULL=13.7`
+  - `DEBIAN_VERSION_FULL=13.8`
   - `ID=debian`
   - `HOME_URL="https://www.debian.org/"`
   - `SUPPORT_URL="https://www.debian.org/support"`
@@ -113,7 +113,7 @@ No trust data is available
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.5.0
+* Version: 1.5.1
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -174,7 +174,7 @@ No trust data is available
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 4.2.10
+* Version: 4.2.12
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -332,7 +332,7 @@ No trust data is available
 ### `platformdirs`
 
 * Summary: A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`.
-* Version: 4.14.5
+* Version: 4.14.8
 * Pypi: https://pypi.org/project/platformdirs/
 * Homepage: None
 * Author: None
@@ -390,7 +390,7 @@ No trust data is available
 ### `python-discovery`
 
 * Summary: Python interpreter discovery
-* Version: 1.9.5
+* Version: 1.9.6
 * Pypi: https://pypi.org/project/python-discovery/
 * Homepage: None
 * Author: None
@@ -416,7 +416,7 @@ No trust data is available
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.11.9
+* Version: 2026.11.19
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -536,7 +536,7 @@ No trust data is available
 ### `virtualenv`
 
 * Summary: Virtual Python Environment builder
-* Version: 21.15.6
+* Version: 21.15.12
 * Pypi: https://pypi.org/project/virtualenv/
 * Homepage: None
 * Author: None
@@ -553,7 +553,7 @@ No trust data is available
 
 * adduser	3.152
 * apt	3.0.4
-* base-files	13.8+deb13u7
+* base-files	13.8+deb13u8
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
@@ -579,8 +579,8 @@ No trust data is available
 * libblkid1:amd64	2.41.5-0+deb13u1
 * libbsd0:amd64	0.12.2-2
 * libbz2-1.0:amd64	1.0.8-6
-* libc-bin	2.41-12+deb13u4
-* libc6:amd64	2.41-12+deb13u4
+* libc-bin	2.41-12+deb13u5
+* libc6:amd64	2.41-12+deb13u5
 * libcap-ng0:amd64	0.8.5-4+b1
 * libcap2:amd64	1:2.75-10+deb13u1+b3
 * libcom-err2:amd64	1.47.2-3+b12
@@ -620,7 +620,7 @@ No trust data is available
 * libsepol2:amd64	3.8.1-1
 * libsmartcols1:amd64	2.41.5-0+deb13u1
 * libsqlite3-0:amd64	3.46.1-7+deb13u2
-* libssl3t64:amd64	3.5.7-1~deb13u3
+* libssl3t64:amd64	3.5.9-1~deb13u1
 * libstdc++6:amd64	14.2.0-19
 * libsystemd0:amd64	257.13-1~deb13u1
 * libtinfo6:amd64	6.5+20250216-2
@@ -638,8 +638,8 @@ No trust data is available
 * ncurses-base	6.5+20250216-2
 * ncurses-bin	6.5+20250216-2
 * netbase	6.5
-* openssl	3.5.7-1~deb13u3
-* openssl-provider-legacy	3.5.7-1~deb13u3
+* openssl	3.5.9-1~deb13u1
+* openssl-provider-legacy	3.5.9-1~deb13u1
 * passwd	1:4.17.4-2
 * perl-base	5.40.1-6+deb13u1
 * procps	2:4.0.4-9

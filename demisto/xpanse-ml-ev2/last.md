@@ -1,9 +1,9 @@
-# `demisto/xpanse-ml-ev2:1.0.0.14304551`
+# `demisto/xpanse-ml-ev2:1.0.0.14949117`
 
 ## Docker Metadata
-- Image Size: 189.43 MB
-- Image ID: `sha256:add0956a67675b67f988874535531ac08b8768a191177e74f129b9eeb6cb4f86`
-- Created: `2026-11-02T10:04:47.714296443Z`
+- Image Size: 189.40 MB
+- Image ID: `sha256:708c29bead4b1ccd2ed96ff6bca7adb87977d60a94156fc566c9e5587e938b59`
+- Created: `2026-11-19T18:39:57.820210642Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.14304551`
+  - `DOCKER_IMAGE=demisto/xpanse-ml-ev2:1.0.0.14949117`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:17207f8f312f8393f64a11ebbd3bdaf501ced35e`
-  - `org.opencontainers.image.version:1.0.0.14304551`
-  - `panw.builtby.pipeline:14306071`
+  - `org.opencontainers.image.revision:553811f750eba0f633f84a3daa392b8489718bbf`
+  - `org.opencontainers.image.version:1.0.0.14949117`
+  - `panw.builtby.pipeline:14949662`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -36,17 +36,7 @@
 
 ## Docker Trust
 ```
-
-Signatures for demisto/xpanse-ml-ev2:1.0.0.14304551
-
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14304551   53bd2955adb9d6e4779ba9b4b777353ac2a78a4b8d8f0e9abd90ea85cd1037e3   (Repo Admin)
-
-Administrative keys for demisto/xpanse-ml-ev2:1.0.0.14304551
-
-  Repository Key:	fa55b8182edbcafca39872dc58748778b2ff80634214e1872a9351313e618c45
-  Root Key:	4324e3baaaa90dedc0be93f30c2271fb7bbaa8de8949e6c3996a45c6e81637d2
-
+No trust data is available
 ```
 
 ## `Python Packages`
@@ -91,9 +81,9 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.14304551
 * Summary: Pickler class to extend the standard pickle.Pickler functionality
 * Version: 3.1.2
 * Pypi: https://pypi.org/project/cloudpickle/
-* Homepage: https://github.com/cloudpipe/cloudpickle
-* Author: The cloudpickle developer team cloudpipe@googlegroups.com
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: The cloudpickle developer team <cloudpipe@googlegroups.com>
+* License: BSD-3-Clause
 
 ### `cryptography`
 
@@ -270,7 +260,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.14304551
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.5.4
+* Version: 2.5.5
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.
@@ -303,7 +293,7 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.14304551
 ### `pandas`
 
 * Summary: Powerful data structures for data analysis, time series, and statistics
-* Version: 3.1.0
+* Version: 3.1.1
 * Pypi: https://pypi.org/project/pandas/
 * Homepage: None
 * Author: The Pandas Development Team <pandas-dev@python.org>
@@ -614,4 +604,4 @@ Administrative keys for demisto/xpanse-ml-ev2:1.0.0.14304551
 * tar	1.35+dfsg-3.1
 * tzdata	2026e-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
-* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1
+* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+deb13u1

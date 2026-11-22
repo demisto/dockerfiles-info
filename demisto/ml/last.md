@@ -1,9 +1,9 @@
-# `demisto/ml:1.0.0.14648826`
+# `demisto/ml:1.0.0.14942575`
 
 ## Docker Metadata
-- Image Size: 1051.92 MB
-- Image ID: `sha256:eb06b8d48349a6c381dc19ed1f6821820b1d57a7d302c6e163b63ac2233b5062`
-- Created: `2026-11-11T16:19:20.159529477Z`
+- Image Size: 1056.49 MB
+- Image ID: `sha256:1dc7e2f0dc0ac7fda320afe4566d352bd2bb664b4daac8a2ea6b565a1bc5201b`
+- Created: `2026-11-19T16:01:26.759905397Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,16 +12,16 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/ml:1.0.0.14648826`
+  - `DOCKER_IMAGE=demisto/ml:1.0.0.14942575`
   - `HF_HOME=/ml/.cache`
   - `NLTK_DATA=/ml/nltk_data`
   - `MPLCONFIGDIR=/ml/matplotlib`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:32a1c31a48735dc5a258a92c5b634b2593e2f38f`
-  - `org.opencontainers.image.version:1.0.0.14648826`
-  - `panw.builtby.pipeline:14650945`
+  - `org.opencontainers.image.revision:33ba3a90bd1532bf06b5b941884b05566da6d42d`
+  - `org.opencontainers.image.version:1.0.0.14942575`
+  - `panw.builtby.pipeline:14943819`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -525,7 +525,7 @@ No trust data is available
 ### `onnxruntime`
 
 * Summary: ONNX Runtime is a runtime accelerator for Machine Learning models
-* Version: 1.31.0
+* Version: 1.32.0
 * Pypi: https://pypi.org/project/onnxruntime/
 * Homepage: https://onnxruntime.ai
 * Author: Microsoft Corporation onnxruntime@microsoft.com

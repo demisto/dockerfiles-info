@@ -1,9 +1,9 @@
-# `demisto/mlclustering:1.0.0.14562457`
+# `demisto/mlclustering:1.0.0.14942575`
 
 ## Docker Metadata
-- Image Size: 187.27 MB
-- Image ID: `sha256:d9234a2335fce86eb89435c404f6e61271ea71662d2928df25c9ef4936c60d27`
-- Created: `2026-11-09T16:10:24.145914572Z`
+- Image Size: 185.77 MB
+- Image ID: `sha256:d7059a57728aa349589b3dedd10053f588fd57a8225575a121a117af20c5a571`
+- Created: `2026-11-19T15:59:29.946972394Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/mlclustering:1.0.0.14562457`
+  - `DOCKER_IMAGE=demisto/mlclustering:1.0.0.14942575`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3430483fa6abc4a7dbc690988ab97ae1748beb64`
-  - `org.opencontainers.image.version:1.0.0.14562457`
-  - `panw.builtby.pipeline:14564076`
+  - `org.opencontainers.image.revision:33ba3a90bd1532bf06b5b941884b05566da6d42d`
+  - `org.opencontainers.image.version:1.0.0.14942575`
+  - `panw.builtby.pipeline:14943817`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -73,9 +73,9 @@ No trust data is available
 * Summary: Pickler class to extend the standard pickle.Pickler functionality
 * Version: 3.1.2
 * Pypi: https://pypi.org/project/cloudpickle/
-* Homepage: https://github.com/cloudpipe/cloudpickle
-* Author: The cloudpickle developer team cloudpipe@googlegroups.com
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: The cloudpickle developer team <cloudpipe@googlegroups.com>
+* License: BSD-3-Clause
 
 ### `dateparser`
 
@@ -191,7 +191,7 @@ No trust data is available
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.5.4
+* Version: 2.5.5
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.

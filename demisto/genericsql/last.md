@@ -1,9 +1,9 @@
-# `demisto/genericsql:1.2.0.14691907`
+# `demisto/genericsql:1.2.0.14990175`
 
 ## Docker Metadata
-- Image Size: 303.22 MB
-- Image ID: `sha256:f0bfb318dabe1e1f5f8fb7175053bca536d3d69106dc9adc87e4648109f92a25`
-- Created: `2026-11-12T15:52:18.947576552Z`
+- Image Size: 313.23 MB
+- Image ID: `sha256:bbada9f65c3d29da1faab00b2b1120ac2b5e63cc6e51711b18e629590e7a4af8`
+- Created: `2026-11-22T01:05:37.684165306Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.14691907`
+  - `DOCKER_IMAGE=demisto/genericsql:1.2.0.14990175`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:39d3ad62d69d29f52d0ba2d20812530588c1a362`
-  - `org.opencontainers.image.version:1.2.0.14691907`
-  - `panw.builtby.pipeline:14692983`
+  - `org.opencontainers.image.revision:b2f98cace2215bba000f357b3e3d0a48a89df591`
+  - `org.opencontainers.image.version:1.2.0.14990175`
+  - `panw.builtby.pipeline:14990603`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -244,7 +244,7 @@ No trust data is available
 ### `pycryptodome`
 
 * Summary: Cryptographic library for Python
-* Version: 4.4.0
+* Version: 4.5.0
 * Pypi: https://pypi.org/project/pycryptodome/
 * Homepage: None
 * Author: Helder Eijs <helderijs@gmail.com>
@@ -356,7 +356,7 @@ No trust data is available
 ### `SQLAlchemy`
 
 * Summary: Database Abstraction Library
-* Version: 2.1.8
+* Version: 2.1.9
 * Pypi: https://pypi.org/project/SQLAlchemy/
 * Homepage: None
 * Author: Mike Bayer <mike_mp@zzzcomputing.com>
@@ -465,10 +465,10 @@ No trust data is available
 * libblkid1:amd64	2.41.5-0+deb13u1
 * libbsd0:amd64	0.12.2-2
 * libbz2-1.0:amd64	1.0.8-6
-* libc-bin	2.41-12+deb13u4
-* libc-dev-bin	2.41-12+deb13u4
-* libc6-dev:amd64	2.41-12+deb13u4
-* libc6:amd64	2.41-12+deb13u4
+* libc-bin	2.41-12+deb13u5
+* libc-dev-bin	2.41-12+deb13u5
+* libc6-dev:amd64	2.41-12+deb13u5
+* libc6:amd64	2.41-12+deb13u5
 * libcap-ng0:amd64	0.8.5-4+b1
 * libcap2:amd64	1:2.75-10+deb13u1+b3
 * libcom-err2:amd64	1.47.2-3+b12
@@ -511,7 +511,7 @@ No trust data is available
 * libpam-runtime	1.7.0-5
 * libpam0g:amd64	1.7.0-5
 * libpcre2-8-0:amd64	10.46-1~deb13u3
-* libpq5:amd64	17.11-0+deb13u1
+* libpq5:amd64	17.12-0+deb13u1
 * libproc2-0:amd64	2:4.0.4-9
 * libpsl5t64:amd64	0.21.2-1.1+b1
 * libreadline8t64:amd64	8.2-6
@@ -524,7 +524,7 @@ No trust data is available
 * libsepol2:amd64	3.8.1-1
 * libsmartcols1:amd64	2.41.5-0+deb13u1
 * libsqlite3-0:amd64	3.46.1-7+deb13u2
-* libssl3t64:amd64	3.5.7-1~deb13u3
+* libssl3t64:amd64	3.5.9-1~deb13u1
 * libstdc++6:amd64	14.2.0-19
 * libsybdb5:amd64	1.3.17+ds-2+deb13u1
 * libsystemd0:amd64	257.13-1~deb13u1
@@ -535,7 +535,7 @@ No trust data is available
 * libuuid1:amd64	2.41.5-0+deb13u1
 * libxxhash0:amd64	0.8.3-2
 * libzstd1:amd64	1.5.7+dfsg-1
-* linux-libc-dev	6.12.116-1
+* linux-libc-dev	6.12.117-1
 * login	1:4.16.0-2+really2.41.5-0+deb13u1
 * login.defs	1:4.17.4-2
 * mawk	1.3.4.20250131-1
@@ -545,8 +545,8 @@ No trust data is available
 * ncurses-bin	6.5+20250216-2
 * netbase	6.5
 * odbcinst	2.3.12-2+deb13u1
-* openssl	3.5.7-1~deb13u3
-* openssl-provider-legacy	3.5.7-1~deb13u3
+* openssl	3.5.9-1~deb13u1
+* openssl-provider-legacy	3.5.9-1~deb13u1
 * passwd	1:4.17.4-2
 * perl-base	5.40.1-6+deb13u1
 * pinentry-curses	1.3.1-2

@@ -1,9 +1,9 @@
-# `demisto/py42:1.0.0.14788468`
+# `demisto/py42:1.0.0.14990175`
 
 ## Docker Metadata
-- Image Size: 44.80 MB
-- Image ID: `sha256:ee8908c3d8cbba57289f49fd23d6423e09d14cdc5151275d7afe0e52786c8008`
-- Created: `2026-11-16T10:45:29.662679565Z`
+- Image Size: 45.53 MB
+- Image ID: `sha256:50540089aed58d9c1c6db4ff4d08c5fdafdc44b21bce728d0d74b2f0ff5e82ce`
+- Created: `2026-11-22T01:05:39.056117777Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.16`
   - `PYTHON_SHA256=b5796915dc45ff745cfb4e990a7e7c93d6f546328a102ce31448d69ebc37575c`
-  - `DOCKER_IMAGE=demisto/py42:1.0.0.14788468`
+  - `DOCKER_IMAGE=demisto/py42:1.0.0.14990175`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:4400002c42ab3fb8bafc34343dbcf4364c0155bd`
-  - `org.opencontainers.image.version:1.0.0.14788468`
-  - `panw.builtby.pipeline:14792226`
+  - `org.opencontainers.image.revision:b2f98cace2215bba000f357b3e3d0a48a89df591`
+  - `org.opencontainers.image.version:1.0.0.14990175`
+  - `panw.builtby.pipeline:14990605`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -85,7 +85,7 @@ No trust data is available
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.5.0
+* Version: 1.5.1
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -310,7 +310,7 @@ No trust data is available
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.11.15
+* Version: 2026.11.19
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>

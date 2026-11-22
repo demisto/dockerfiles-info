@@ -1,9 +1,9 @@
-# `demisto/oci:1.0.0.14788468`
+# `demisto/oci:1.0.0.14990175`
 
 ## Docker Metadata
-- Image Size: 97.95 MB
-- Image ID: `sha256:7e5d8cb71de2f6ccf0fa56784a4ae312e4e4b0a9388aad650056f51bcb6e216d`
-- Created: `2026-11-16T10:44:27.905456386Z`
+- Image Size: 97.98 MB
+- Image ID: `sha256:7e2655c9f685e84990bc62c7c5f4538dd86262d0dff4ba18d749cc8d445ac2ac`
+- Created: `2026-11-22T01:05:29.205447486Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.16`
   - `PYTHON_SHA256=b5796915dc45ff745cfb4e990a7e7c93d6f546328a102ce31448d69ebc37575c`
-  - `DOCKER_IMAGE=demisto/oci:1.0.0.14788468`
+  - `DOCKER_IMAGE=demisto/oci:1.0.0.14990175`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:4400002c42ab3fb8bafc34343dbcf4364c0155bd`
-  - `org.opencontainers.image.version:1.0.0.14788468`
-  - `panw.builtby.pipeline:14792215`
+  - `org.opencontainers.image.revision:b2f98cace2215bba000f357b3e3d0a48a89df591`
+  - `org.opencontainers.image.version:1.0.0.14990175`
+  - `panw.builtby.pipeline:14990609`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -248,7 +248,7 @@ No trust data is available
 ### `oci`
 
 * Summary: Oracle Cloud Infrastructure Python SDK
-* Version: 2.191.0
+* Version: 2.192.0
 * Pypi: https://pypi.org/project/oci/
 * Homepage: https://docs.oracle.com/en-us/iaas/tools/python/latest/index.html
 * Author: Oracle Oracle <jyoti.s.saini@oracle.com>, Vidhi Bhansali <vidhi.bhansali@oracle.com>, Nishan Poojary <nishan.poojary@oracle.com>, Nivedita Parihar <nivedita.parihar@oracle.com>, Kalpana Ramasamy <kalpana.ramasamy@oracle.com>
