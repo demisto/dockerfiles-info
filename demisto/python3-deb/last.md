@@ -1,24 +1,24 @@
-# `demisto/python3-deb:3.12.15.14990175`
+# `demisto/python3-deb:3.12.16.15076852`
 
 ## Docker Metadata
-- Image Size: 69.02 MB
-- Image ID: `sha256:d899f2d644753a329d4c185ed3cc50dc38e638116c0af020ce63dd25e11dc6c8`
-- Created: `2026-11-22T01:04:41.779499268Z`
+- Image Size: 66.71 MB
+- Image ID: `sha256:83c416f8d13e11ae5a5a124bacb7986bcfb45e66388ee6d00a9ddf729aaa8480`
+- Created: `2026-11-23T21:37:01.144283696Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.15`
-  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/python3-deb:3.12.15.14990175`
+  - `PYTHON_VERSION=3.12.16`
+  - `PYTHON_SHA256=b5796915dc45ff745cfb4e990a7e7c93d6f546328a102ce31448d69ebc37575c`
+  - `DOCKER_IMAGE=demisto/python3-deb:3.12.16.15076852`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b2f98cace2215bba000f357b3e3d0a48a89df591`
-  - `org.opencontainers.image.version:3.12.15.14990175`
-  - `panw.builtby.pipeline:14990608`
+  - `org.opencontainers.image.revision:59d9e7076b422a10287db32b8935bf84f85855fc`
+  - `org.opencontainers.image.version:3.12.16.15076852`
+  - `panw.builtby.pipeline:15077107`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 

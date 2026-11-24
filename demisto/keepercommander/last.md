@@ -1,9 +1,9 @@
-# `demisto/keepercommander:1.0.0.14856987`
+# `demisto/keepercommander:1.0.0.15064473`
 
 ## Docker Metadata
-- Image Size: 114.00 MB
-- Image ID: `sha256:5f0a1793dfe1b40637d9eac7f3f8b3d826ffa2b5ecc52ff0791660676a041b71`
-- Created: `2026-11-17T15:44:35.273815301Z`
+- Image Size: 121.69 MB
+- Image ID: `sha256:85c453e5a4e00d7fb143edeca2aedaef176adf316c3e4a8e7e00d3c31615549c`
+- Created: `2026-11-23T15:43:35.954394711Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/keepercommander:1.0.0.14856987`
+  - `DOCKER_IMAGE=demisto/keepercommander:1.0.0.15064473`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:0f5b37648f26ff91642cc5a8bcd5c5de19560e4f`
-  - `org.opencontainers.image.version:1.0.0.14856987`
-  - `panw.builtby.pipeline:14857895`
+  - `org.opencontainers.image.revision:c1358129579e5d002dcff6d74ef7bf4494039374`
+  - `org.opencontainers.image.version:1.0.0.15064473`
+  - `panw.builtby.pipeline:15065098`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -88,7 +88,7 @@ No trust data is available
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.10.23
+* Version: 2026.11.20
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -105,7 +105,7 @@ No trust data is available
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.5.2
+* Version: 3.5.3
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -346,7 +346,7 @@ No trust data is available
 ### `keepercommander`
 
 * Summary: Keeper Commander for Python 3
-* Version: 18.1.10
+* Version: 18.1.11
 * Pypi: https://pypi.org/project/keepercommander/
 * Homepage: https://keepersecurity.com/
 * Author: Craig Lurey craig@keepersecurity.com
@@ -467,7 +467,7 @@ No trust data is available
 ### `platformdirs`
 
 * Summary: A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`.
-* Version: 4.14.5
+* Version: 4.14.8
 * Pypi: https://pypi.org/project/platformdirs/
 * Homepage: None
 * Author: None
@@ -520,7 +520,7 @@ No trust data is available
 ### `pydantic`
 
 * Summary: Data validation using Python type hints
-* Version: 2.14.3
+* Version: 2.14.4
 * Pypi: https://pypi.org/project/pydantic/
 * Homepage: None
 * Author: Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.dev>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -528,7 +528,7 @@ No trust data is available
 ### `pydantic_core`
 
 * Summary: Core functionality for Pydantic validation and serialization
-* Version: 2.50.4
+* Version: 2.50.5
 * Pypi: https://pypi.org/project/pydantic_core/
 * Homepage: https://github.com/pydantic/pydantic
 * Author: Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>
@@ -597,7 +597,7 @@ No trust data is available
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
-* Version: 6.0.3
+* Version: 6.0.4
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net
@@ -732,7 +732,7 @@ No trust data is available
 ### `wcwidth`
 
 * Summary: Measures the displayed width of unicode strings in a terminal
-* Version: 0.9.4
+* Version: 0.9.5
 * Pypi: https://pypi.org/project/wcwidth/
 * Homepage: None
 * Author: Jeff Quast <contact@jeffquast.com>
@@ -809,8 +809,8 @@ No trust data is available
 * libblkid1:amd64	2.41.5-0+deb13u1
 * libbsd0:amd64	0.12.2-2
 * libbz2-1.0:amd64	1.0.8-6
-* libc-bin	2.41-12+deb13u4
-* libc6:amd64	2.41-12+deb13u4
+* libc-bin	2.41-12+deb13u5
+* libc6:amd64	2.41-12+deb13u5
 * libcap-ng0:amd64	0.8.5-4+b1
 * libcap2:amd64	1:2.75-10+deb13u1+b3
 * libcrypt1:amd64	1:4.4.38-1
