@@ -1,9 +1,9 @@
-# `demisto/py-ews:5.6.0.14990175`
+# `demisto/py-ews:5.6.0.15110613`
 
 ## Docker Metadata
-- Image Size: 150.06 MB
-- Image ID: `sha256:d3520d4fe9bd81a746da12fb182ee6335dccbd8de5377bba8ebc16b590ea13a8`
-- Created: `2026-11-22T01:05:20.639349798Z`
+- Image Size: 150.34 MB
+- Image ID: `sha256:b51e48c4828b585efd750079bc2f5e9d71ef20c034697b29d177b43a67673abd`
+- Created: `2026-11-24T15:59:55.566817425Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.14990175`
+  - `DOCKER_IMAGE=demisto/py-ews:5.6.0.15110613`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b2f98cace2215bba000f357b3e3d0a48a89df591`
-  - `org.opencontainers.image.version:5.6.0.14990175`
-  - `panw.builtby.pipeline:14990607`
+  - `org.opencontainers.image.revision:792039548f45e5be56ae4ef43d893b7fcbdf0dd3`
+  - `org.opencontainers.image.version:5.6.0.15110613`
+  - `panw.builtby.pipeline:15112678`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -71,7 +71,7 @@ No trust data is available
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.10.23
+* Version: 2026.11.20
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -174,7 +174,7 @@ No trust data is available
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 4.2.12
+* Version: 4.3.1
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
@@ -390,7 +390,7 @@ No trust data is available
 ### `python-discovery`
 
 * Summary: Python interpreter discovery
-* Version: 1.9.6
+* Version: 1.9.7
 * Pypi: https://pypi.org/project/python-discovery/
 * Homepage: None
 * Author: None
@@ -536,7 +536,7 @@ No trust data is available
 ### `virtualenv`
 
 * Summary: Virtual Python Environment builder
-* Version: 21.15.12
+* Version: 21.15.13
 * Pypi: https://pypi.org/project/virtualenv/
 * Homepage: None
 * Author: None
@@ -595,10 +595,10 @@ No trust data is available
 * libgpg-error0:amd64	1.51-4
 * libhogweed6t64:amd64	3.10.1-1
 * libidn2-0:amd64	2.3.8-2
-* libk5crypto3:amd64	1.21.3-5+deb13u1
+* libk5crypto3:amd64	1.21.3-5+deb13u2
 * libkeyutils1:amd64	1.6.3-6
-* libkrb5-3:amd64	1.21.3-5+deb13u1
-* libkrb5support0:amd64	1.21.3-5+deb13u1
+* libkrb5-3:amd64	1.21.3-5+deb13u2
+* libkrb5support0:amd64	1.21.3-5+deb13u2
 * liblastlog2-2:amd64	2.41.5-0+deb13u1
 * liblz4-1:amd64	1.10.0-4
 * liblzma5:amd64	5.8.1-1+deb13u2

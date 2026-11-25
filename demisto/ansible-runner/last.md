@@ -1,9 +1,9 @@
-# `demisto/ansible-runner:1.0.0.14691907`
+# `demisto/ansible-runner:1.0.0.15090810`
 
 ## Docker Metadata
-- Image Size: 264.78 MB
-- Image ID: `sha256:2cd855c3b631cecbd2e68bf4b42166008e7b14b2755593a3fca0fde27a0f3ba3`
-- Created: `2026-11-12T15:54:01.578833476Z`
+- Image Size: 270.80 MB
+- Image ID: `sha256:7e3ee4548dfb1b86df31fe6aaf501cbb0f0a0c94392a68fc1b9ad347df88c977`
+- Created: `2026-11-24T11:05:53.149507091Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.15`
   - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/ansible-runner:1.0.0.14691907`
+  - `DOCKER_IMAGE=demisto/ansible-runner:1.0.0.15090810`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:39d3ad62d69d29f52d0ba2d20812530588c1a362`
-  - `org.opencontainers.image.version:1.0.0.14691907`
-  - `panw.builtby.pipeline:14692982`
+  - `org.opencontainers.image.revision:66098b37353a238c059001e4994689ffa054aa40`
+  - `org.opencontainers.image.version:1.0.0.15090810`
+  - `panw.builtby.pipeline:15095057`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -749,15 +749,6 @@ No trust data is available
 * Author: Christian Heimes christian@python.org
 * License :: OSI Approved :: Python Software Foundation License
 
-### `Deprecated`
-
-* Summary: Python @deprecated decorator to deprecate old python classes, functions or methods.
-* Version: 1.2.18
-* Pypi: https://pypi.org/project/Deprecated/
-* Homepage: None
-* Author: Laurent LAPORTE <laurent.laporte.pro@gmail.com>
-* License: MIT
-
 ### `dnspython`
 
 * Summary: DNS toolkit
@@ -772,8 +763,8 @@ No trust data is available
 * Summary: Module for converting between datetime.timedelta and Go's Duration strings.
 * Version: 0.11
 * Pypi: https://pypi.org/project/durationpy/
-* Homepage: https://github.com/icholy/durationpy
-* Author: Ilia Choly ilia.choly@gmail.com
+* Homepage: None
+* Author: Ilia Choly <ilia.choly@gmail.com>
 * License: MIT
 
 ### `filelock`
@@ -888,15 +879,6 @@ No trust data is available
 * Pypi: https://pypi.org/project/idna/
 * Homepage: None
 * Author: Kim Davies <kim+pypi@gumleaf.org>
-
-### `importlib_metadata`
-
-* Summary: Read metadata from Python packages
-* Version: 8.6.1
-* Pypi: https://pypi.org/project/importlib-metadata/
-* Homepage: None
-* Author: "Jason R. Coombs" <jaraco@jaraco.com>
-* License: 
 
 ### `isodate`
 
@@ -1167,29 +1149,26 @@ No trust data is available
 ### `opentelemetry-api`
 
 * Summary: OpenTelemetry Python API
-* Version: 1.32.1
+* Version: 1.45.2
 * Pypi: https://pypi.org/project/opentelemetry-api/
 * Homepage: None
 * Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
-* License: Apache-2.0
 
 ### `opentelemetry-sdk`
 
 * Summary: OpenTelemetry Python SDK
-* Version: 1.32.1
+* Version: 1.45.2
 * Pypi: https://pypi.org/project/opentelemetry-sdk/
 * Homepage: None
 * Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
-* License: Apache-2.0
 
 ### `opentelemetry-semantic-conventions`
 
 * Summary: OpenTelemetry Semantic Conventions
-* Version: 0.53b1
+* Version: 0.66b2
 * Pypi: https://pypi.org/project/opentelemetry-semantic-conventions/
 * Homepage: None
 * Author: OpenTelemetry Authors <cncf-opentelemetry-contributors@lists.cncf.io>
-* License: Apache-2.0
 
 ### `oss2`
 
@@ -1273,7 +1252,7 @@ No trust data is available
 
 ### `pycryptodome`
 
-* Summary: Cryptographic library for Python
+* Summary: Self-contained cryptographic library for Python, classical and post-quantum
 * Version: 3.22.0
 * Pypi: https://pypi.org/project/pycryptodome/
 * Homepage: None
@@ -1637,15 +1616,6 @@ No trust data is available
 * Homepage: None
 * Author: Daniel Holth <dholth@fastmail.fm>
 
-### `wrapt`
-
-* Summary: Module for decorators, wrappers and monkey patching.
-* Version: 1.17.2
-* Pypi: https://pypi.org/project/wrapt/
-* Homepage: None
-* Author: Graham Dumpleton <Graham.Dumpleton@gmail.com>
-* License: BSD
-
 ### `xmltodict`
 
 * Summary: Makes working with XML feel like you are working with JSON
@@ -1663,15 +1633,6 @@ No trust data is available
 * Homepage: https://github.com/aio-libs/yarl
 * Author: Andrew Svetlov andrew.svetlov@gmail.com
 * License: Apache-2.0
-
-### `zipp`
-
-* Summary: Backport of pathlib-compatible object wrapper for zip files
-* Version: 3.21.0
-* Pypi: https://pypi.org/project/zipp/
-* Homepage: None
-* Author: "Jason R. Coombs" <jaraco@jaraco.com>
-* License: 
 
 ## `OS Packages`
 
@@ -1703,8 +1664,8 @@ No trust data is available
 * libblkid1:amd64	2.41.5-0+deb13u1
 * libbsd0:amd64	0.12.2-2
 * libbz2-1.0:amd64	1.0.8-6
-* libc-bin	2.41-12+deb13u4
-* libc6:amd64	2.41-12+deb13u4
+* libc-bin	2.41-12+deb13u5
+* libc6:amd64	2.41-12+deb13u5
 * libcap-ng0:amd64	0.8.5-4+b1
 * libcap2:amd64	1:2.75-10+deb13u1+b3
 * libcbor0.10:amd64	0.10.2-2
@@ -1718,12 +1679,12 @@ No trust data is available
 * libgcc-s1:amd64	14.2.0-19
 * libgdbm6t64:amd64	1.24-2
 * libgmp10:amd64	2:6.3.0+dfsg-3
-* libgssapi-krb5-2:amd64	1.21.3-5+deb13u1
+* libgssapi-krb5-2:amd64	1.21.3-5+deb13u2
 * libhogweed6t64:amd64	3.10.1-1
-* libk5crypto3:amd64	1.21.3-5+deb13u1
+* libk5crypto3:amd64	1.21.3-5+deb13u2
 * libkeyutils1:amd64	1.6.3-6
-* libkrb5-3:amd64	1.21.3-5+deb13u1
-* libkrb5support0:amd64	1.21.3-5+deb13u1
+* libkrb5-3:amd64	1.21.3-5+deb13u2
+* libkrb5support0:amd64	1.21.3-5+deb13u2
 * liblastlog2-2:amd64	2.41.5-0+deb13u1
 * liblz4-1:amd64	1.10.0-4
 * liblzma5:amd64	5.8.1-1+deb13u2

@@ -1,9 +1,9 @@
-# `demisto/tidy:1.0.0.14846051`
+# `demisto/tidy:1.0.0.15110613`
 
 ## Docker Metadata
-- Image Size: 134.73 MB
-- Image ID: `sha256:d2059ce2b5b93352060de92a019dfb6481a35c38817962c440b063ad54096134`
-- Created: `2026-11-17T13:26:52.278985857Z`
+- Image Size: 138.17 MB
+- Image ID: `sha256:7191428fcea065ea55ba1308cbf0c3564070c0811a029aaf27bb5368a7054537`
+- Created: `2026-11-24T16:00:21.879625901Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.16`
   - `PYTHON_SHA256=b5796915dc45ff745cfb4e990a7e7c93d6f546328a102ce31448d69ebc37575c`
-  - `DOCKER_IMAGE=demisto/tidy:1.0.0.14846051`
+  - `DOCKER_IMAGE=demisto/tidy:1.0.0.15110613`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:cad0282858bb048c318b54aabee8fc1a75035251`
-  - `org.opencontainers.image.version:1.0.0.14846051`
-  - `panw.builtby.pipeline:14849089`
+  - `org.opencontainers.image.revision:792039548f45e5be56ae4ef43d893b7fcbdf0dd3`
+  - `org.opencontainers.image.version:1.0.0.15110613`
+  - `panw.builtby.pipeline:15112683`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -404,7 +404,7 @@ No trust data is available
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
-* Version: 6.0.3
+* Version: 6.0.4
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net
@@ -574,15 +574,15 @@ No trust data is available
 * libapk-3.0.9-r0 x86_64 {apk-tools}
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
-* libcrypto3-3.5.9-r0 x86_64 {openssl}
+* libcrypto3-3.5.9-r1 x86_64 {openssl}
 * libedit-20260512.3.1-r0 x86_64 {libedit}
-* libffi-3.5.2-r1 x86_64 {libffi}
+* libffi-3.8.1-r0 x86_64 {libffi}
 * libidn2-2.3.8-r0 x86_64 {libidn2}
 * libintl-1.0-r0 x86_64 {gettext}
 * libncursesw-6.6_p20260516-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r2 x86_64 {libnsl}
 * libpanelw-6.6_p20260516-r0 x86_64 {ncurses}
-* libssl3-3.5.9-r0 x86_64 {openssl}
+* libssl3-3.5.9-r1 x86_64 {openssl}
 * libtirpc-1.3.5-r1 x86_64 {libtirpc}
 * libtirpc-conf-1.3.5-r1 x86_64 {libtirpc}
 * libunistring-1.4.2-r0 x86_64 {libunistring}
@@ -596,7 +596,7 @@ No trust data is available
 * openssh-client-common-10.6_p2-r0 x86_64 {openssh}
 * openssh-client-default-10.6_p2-r0 x86_64 {openssh}
 * openssh-keygen-10.6_p2-r0 x86_64 {openssh}
-* openssl-3.5.9-r0 x86_64 {openssl}
+* openssl-3.5.9-r1 x86_64 {openssl}
 * popt-1.19-r4 x86_64 {popt}
 * readline-8.3.3-r1 x86_64 {readline}
 * rsync-3.5.2-r1 x86_64 {rsync}
@@ -607,4 +607,4 @@ No trust data is available
 * tzdata-2026f-r0 x86_64 {tzdata}
 * xz-libs-5.8.4-r0 x86_64 {xz}
 * zlib-1.4-r0 x86_64 {zlib}
-* zstd-libs-1.5.7-r2 x86_64 {zstd}
+* zstd-libs-1.6.0-r1 x86_64 {zstd}

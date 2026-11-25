@@ -1,9 +1,9 @@
-# `demisto/nmap:7.99.15071973`
+# `demisto/nmap:7.99.15110613`
 
 ## Docker Metadata
-- Image Size: 45.67 MB
-- Image ID: `sha256:777ded6d32745ba2c841bb77f4da41dfd6f0d2ee87bb452cbdc828f76ebb1a48`
-- Created: `2026-11-23T18:37:13.018729008Z`
+- Image Size: 45.80 MB
+- Image ID: `sha256:6cbcd2a92b26b6d4073db326a23a1544f737bb85a8bb16bf7a9b19331ed57006`
+- Created: `2026-11-24T15:59:59.846871694Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.16`
   - `PYTHON_SHA256=b5796915dc45ff745cfb4e990a7e7c93d6f546328a102ce31448d69ebc37575c`
-  - `DOCKER_IMAGE=demisto/nmap:7.99.15071973`
+  - `DOCKER_IMAGE=demisto/nmap:7.99.15110613`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:a8ff78edfd1195a3044f95cdfc7b941ade8f3d79`
-  - `org.opencontainers.image.version:7.99.15071973`
-  - `panw.builtby.pipeline:15072851`
+  - `org.opencontainers.image.revision:792039548f45e5be56ae4ef43d893b7fcbdf0dd3`
+  - `org.opencontainers.image.version:7.99.15110613`
+  - `panw.builtby.pipeline:15112677`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -49,7 +49,7 @@ No trust data is available
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.10.23
+* Version: 2026.11.20
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com

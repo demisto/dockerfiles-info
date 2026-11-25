@@ -1,9 +1,9 @@
-# `demisto/python3:3.12.16.14990175`
+# `demisto/python3:3.12.16.15110613`
 
 ## Docker Metadata
-- Image Size: 37.43 MB
-- Image ID: `sha256:601c45a3aa099e1223d1c56bb1bb4ad3a68571e92167dd72887ad276ff2ddb22`
-- Created: `2026-11-22T01:04:06.744763185Z`
+- Image Size: 37.49 MB
+- Image ID: `sha256:bb26effb613d1433f6746ed3ddf28cf3f00081423caf5597573a685187266804`
+- Created: `2026-11-24T15:59:33.378695563Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.16`
   - `PYTHON_SHA256=b5796915dc45ff745cfb4e990a7e7c93d6f546328a102ce31448d69ebc37575c`
-  - `DOCKER_IMAGE=demisto/python3:3.12.16.14990175`
+  - `DOCKER_IMAGE=demisto/python3:3.12.16.15110613`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:b2f98cace2215bba000f357b3e3d0a48a89df591`
-  - `org.opencontainers.image.version:3.12.16.14990175`
-  - `panw.builtby.pipeline:14990606`
+  - `org.opencontainers.image.revision:792039548f45e5be56ae4ef43d893b7fcbdf0dd3`
+  - `org.opencontainers.image.version:3.12.16.15110613`
+  - `panw.builtby.pipeline:15112676`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -205,7 +205,7 @@ No trust data is available
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
-* Version: 6.0.3
+* Version: 6.0.4
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net
@@ -323,7 +323,7 @@ No trust data is available
 * libbz2-1.0.8-r6 x86_64 {bzip2}
 * libcom_err-1.47.4-r0 x86_64 {e2fsprogs}
 * libcrypto3-3.5.9-r1 x86_64 {openssl}
-* libffi-3.5.2-r1 x86_64 {libffi}
+* libffi-3.8.1-r0 x86_64 {libffi}
 * libintl-1.0-r0 x86_64 {gettext}
 * libncursesw-6.6_p20260516-r0 x86_64 {ncurses}
 * libnsl-2.0.1-r2 x86_64 {libnsl}

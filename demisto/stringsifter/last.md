@@ -1,9 +1,9 @@
-# `demisto/stringsifter:3.20230711.14170433`
+# `demisto/stringsifter:3.20230711.15110613`
 
 ## Docker Metadata
-- Image Size: 188.21 MB
-- Image ID: `sha256:5db1f49692a396569892d993800d6c837e89b5e22f8600fee1f445519011a293`
-- Created: `2026-10-28T13:52:09.324763498Z`
+- Image Size: 188.38 MB
+- Image ID: `sha256:0fce34c6f7042dee95e6cbe429ad209230d6f343a7a628ed45ec78fe794076d4`
+- Created: `2026-11-24T16:00:32.963066744Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D`
   - `PYTHON_VERSION=3.11.10`
   - `PYTHON_SHA256=07a4356e912900e61a15cb0949a06c4a05012e213ecd6b4e84d0f67aabbee372`
-  - `DOCKER_IMAGE=demisto/stringsifter:3.20230711.14170433`
+  - `DOCKER_IMAGE=demisto/stringsifter:3.20230711.15110613`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:3.20230711.14170433`
-  - `panw.builtby.pipeline:14173858`
+  - `org.opencontainers.image.revision:792039548f45e5be56ae4ef43d893b7fcbdf0dd3`
+  - `org.opencontainers.image.version:3.20230711.15110613`
+  - `panw.builtby.pipeline:15112681`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -35,17 +35,7 @@
 
 ## Docker Trust
 ```
-
-Signatures for demisto/stringsifter:3.20230711.14170433
-
-SIGNED TAG            DIGEST                                                             SIGNERS
-3.20230711.14170433   26bf8c80fe02f915c47e3e248c50427058d5e41a21e438210b340707980e4a5c   (Repo Admin)
-
-Administrative keys for demisto/stringsifter:3.20230711.14170433
-
-  Repository Key:	e79a38f401d65a7524436f6bffcdc38d6ea22e7b91d9b6b4767f4c26ea8256f5
-  Root Key:	e19be3503eadbab5a0dcf9fa3ce087c922552bee00fc99af76aecec9360c7d27
-
+No trust data is available
 ```
 
 ## `Python Packages`
@@ -54,7 +44,7 @@ Administrative keys for demisto/stringsifter:3.20230711.14170433
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.10.23
+* Version: 2026.11.20
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -103,7 +93,7 @@ Administrative keys for demisto/stringsifter:3.20230711.14170433
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
+* License: 
 
 ### `funcy`
 
@@ -180,7 +170,7 @@ Administrative keys for demisto/stringsifter:3.20230711.14170433
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -209,10 +199,9 @@ Administrative keys for demisto/stringsifter:3.20230711.14170433
 * Summary: Extensions to the standard Python datetime module
 * Version: 2.9.0.post0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
+* License: Dual License
 
 ### `pytz`
 

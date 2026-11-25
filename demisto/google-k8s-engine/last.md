@@ -1,24 +1,24 @@
-# `demisto/google-k8s-engine:1.0.0.14304551`
+# `demisto/google-k8s-engine:1.0.0.15090810`
 
 ## Docker Metadata
-- Image Size: 75.03 MB
-- Image ID: `sha256:d7993d0e63c86bd6bc3a3643f520578d78d0491efe7f815d77cb22614826342e`
-- Created: `2026-11-02T10:03:22.195226185Z`
+- Image Size: 84.03 MB
+- Image ID: `sha256:0664a8ef7236cfa28fcf700a9ee2cd2995f85f8e199300e3a381d7d40f897b38`
+- Created: `2026-11-24T11:02:28.923580215Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.15`
-  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/google-k8s-engine:1.0.0.14304551`
+  - `PYTHON_VERSION=3.12.16`
+  - `PYTHON_SHA256=b5796915dc45ff745cfb4e990a7e7c93d6f546328a102ce31448d69ebc37575c`
+  - `DOCKER_IMAGE=demisto/google-k8s-engine:1.0.0.15090810`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:17207f8f312f8393f64a11ebbd3bdaf501ced35e`
-  - `org.opencontainers.image.version:1.0.0.14304551`
-  - `panw.builtby.pipeline:14306063`
+  - `org.opencontainers.image.revision:66098b37353a238c059001e4994689ffa054aa40`
+  - `org.opencontainers.image.version:1.0.0.15090810`
+  - `panw.builtby.pipeline:15095101`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -28,7 +28,7 @@
   - `VERSION_ID="13"`
   - `VERSION="13 (trixie)"`
   - `VERSION_CODENAME=trixie`
-  - `DEBIAN_VERSION_FULL=13.7`
+  - `DEBIAN_VERSION_FULL=13.8`
   - `ID=debian`
   - `HOME_URL="https://www.debian.org/"`
   - `SUPPORT_URL="https://www.debian.org/support"`
@@ -36,17 +36,7 @@
 
 ## Docker Trust
 ```
-
-Signatures for demisto/google-k8s-engine:1.0.0.14304551
-
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14304551   51d7e8af69f823de61b9e1b8643722bd900f33696a3bade755d6586c2fe4a134   (Repo Admin)
-
-Administrative keys for demisto/google-k8s-engine:1.0.0.14304551
-
-  Repository Key:	fbfb793b1cd8dcd4c1e16086726ec95b98431fbb9c4a9cc8af0b7cae47f55a8a
-  Root Key:	8bce9cdfcc879a0a80a4bbea156dab89352f8f0e7474b62a14639a511bdbd546
-
+No trust data is available
 ```
 
 ## `Python Packages`
@@ -63,7 +53,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14304551
 ### `certifi`
 
 * Summary: Python package for providing Mozilla's CA Bundle.
-* Version: 2026.10.23
+* Version: 2026.11.20
 * Pypi: https://pypi.org/project/certifi/
 * Homepage: https://github.com/certifi/python-certifi
 * Author: Kenneth Reitz me@kennethreitz.com
@@ -80,7 +70,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14304551
 ### `charset-normalizer`
 
 * Summary: The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.
-* Version: 3.5.2
+* Version: 3.5.3
 * Pypi: https://pypi.org/project/charset-normalizer/
 * Homepage: None
 * Author: "Ahmed R. TAHRI" <tahri.ahmed@proton.me>
@@ -97,7 +87,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14304551
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.3
+* Version: 1.5.1
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -131,7 +121,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14304551
 ### `google-api-core`
 
 * Summary: Google API client core library
-* Version: 2.43.2
+* Version: 2.44.0
 * Pypi: https://pypi.org/project/google-api-core/
 * Homepage: None
 * Author: Google LLC <googleapis-packages@google.com>
@@ -140,7 +130,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14304551
 ### `google-auth`
 
 * Summary: Google Authentication Library
-* Version: 2.62.0
+* Version: 2.63.1
 * Pypi: https://pypi.org/project/google-auth/
 * Homepage: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-auth
 * Author: Google Cloud Platform googleapis-packages@google.com
@@ -166,7 +156,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14304551
 ### `grpcio`
 
 * Summary: HTTP/2-based RPC framework
-* Version: 1.85.1
+* Version: 1.85.3
 * Pypi: https://pypi.org/project/grpcio/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -174,7 +164,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14304551
 ### `grpcio-status`
 
 * Summary: Status proto mapping for gRPC
-* Version: 1.85.1
+* Version: 1.85.3
 * Pypi: https://pypi.org/project/grpcio-status/
 * Homepage: None
 * Author: The gRPC Authors <grpc-io@googlegroups.com>
@@ -312,16 +302,15 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14304551
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 2.9.0.post0
+* Version: 4.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
 * Homepage: None
 * Author: Gustavo Niemeyer <gustavo@niemeyer.net>
-* License: Dual License
 
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.5
+* Version: 2026.6
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -339,7 +328,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14304551
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.9.29
+* Version: 2026.11.19
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -404,10 +393,19 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14304551
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 
+### `tzdata`
+
+* Summary: Provider of IANA time zone data
+* Version: 2026.6
+* Pypi: https://pypi.org/project/tzdata/
+* Homepage: https://github.com/python/tzdata
+* Author: Python Software Foundation datetime-sig@python.org
+* License: Apache-2.0
+
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4.4
+* Version: 5.4.5
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -431,8 +429,8 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14304551
 ## `OS Packages`
 
 * adduser	3.152
-* apt	3.0.3
-* base-files	13.8+deb13u7
+* apt	3.0.4
+* base-files	13.8+deb13u8
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
@@ -451,15 +449,15 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14304551
 * hostname	3.25
 * init-system-helpers	1.69~deb13u1
 * libacl1:amd64	2.3.2-2+b1
-* libapt-pkg7.0:amd64	3.0.3
+* libapt-pkg7.0:amd64	3.0.4
 * libattr1:amd64	1:2.5.2-3
 * libaudit-common	1:4.0.2-2+deb13u1
 * libaudit1:amd64	1:4.0.2-2+deb13u1
 * libblkid1:amd64	2.41.5-0+deb13u1
 * libbsd0:amd64	0.12.2-2
 * libbz2-1.0:amd64	1.0.8-6
-* libc-bin	2.41-12+deb13u4
-* libc6:amd64	2.41-12+deb13u4
+* libc-bin	2.41-12+deb13u5
+* libc6:amd64	2.41-12+deb13u5
 * libcap-ng0:amd64	0.8.5-4+b1
 * libcap2:amd64	1:2.75-10+deb13u1+b3
 * libcrypt1:amd64	1:4.4.38-1
@@ -491,7 +489,7 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14304551
 * libsepol2:amd64	3.8.1-1
 * libsmartcols1:amd64	2.41.5-0+deb13u1
 * libsqlite3-0:amd64	3.46.1-7+deb13u2
-* libssl3t64:amd64	3.5.7-1~deb13u3
+* libssl3t64:amd64	3.5.9-1~deb13u1
 * libstdc++6:amd64	14.2.0-19
 * libsystemd0:amd64	257.13-1~deb13u1
 * libtinfo6:amd64	6.5+20250216-2
@@ -506,8 +504,8 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14304551
 * ncurses-base	6.5+20250216-2
 * ncurses-bin	6.5+20250216-2
 * netbase	6.5
-* openssl	3.5.7-1~deb13u3
-* openssl-provider-legacy	3.5.7-1~deb13u3
+* openssl	3.5.9-1~deb13u1
+* openssl-provider-legacy	3.5.9-1~deb13u1
 * passwd	1:4.17.4-2
 * perl-base	5.40.1-6+deb13u1
 * procps	2:4.0.4-9
@@ -516,6 +514,6 @@ Administrative keys for demisto/google-k8s-engine:1.0.0.14304551
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026e-0+deb13u1
+* tzdata	2026f-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
-* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1
+* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+deb13u1

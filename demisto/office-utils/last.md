@@ -1,24 +1,24 @@
-# `demisto/office-utils:2.0.0.14562457`
+# `demisto/office-utils:2.0.0.15090810`
 
 ## Docker Metadata
-- Image Size: 384.62 MB
-- Image ID: `sha256:e368849ac9ac2f2377eb204dffec8abbe20428850e0d35b07ebaf011816d909a`
-- Created: `2026-11-09T16:11:42.031531163Z`
+- Image Size: 391.70 MB
+- Image ID: `sha256:fba653bb80b2aace0d70f89eb33f97bbe872bcc8f50498ab8c8c508413a8e1eb`
+- Created: `2026-11-24T11:04:12.37990275Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.15`
-  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/office-utils:2.0.0.14562457`
+  - `PYTHON_VERSION=3.12.16`
+  - `PYTHON_SHA256=b5796915dc45ff745cfb4e990a7e7c93d6f546328a102ce31448d69ebc37575c`
+  - `DOCKER_IMAGE=demisto/office-utils:2.0.0.15090810`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:3430483fa6abc4a7dbc690988ab97ae1748beb64`
-  - `org.opencontainers.image.version:2.0.0.14562457`
-  - `panw.builtby.pipeline:14564078`
+  - `org.opencontainers.image.revision:66098b37353a238c059001e4994689ffa054aa40`
+  - `org.opencontainers.image.version:2.0.0.15090810`
+  - `panw.builtby.pipeline:15095086`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -28,7 +28,7 @@
   - `VERSION_ID="13"`
   - `VERSION="13 (trixie)"`
   - `VERSION_CODENAME=trixie`
-  - `DEBIAN_VERSION_FULL=13.7`
+  - `DEBIAN_VERSION_FULL=13.8`
   - `ID=debian`
   - `HOME_URL="https://www.debian.org/"`
   - `SUPPORT_URL="https://www.debian.org/support"`
@@ -71,7 +71,7 @@ No trust data is available
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.3
+* Version: 1.5.1
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -166,7 +166,7 @@ No trust data is available
 ### `numpy`
 
 * Summary: Fundamental package for array computing in Python
-* Version: 2.5.4
+* Version: 2.5.5
 * Pypi: https://pypi.org/project/numpy/
 * Homepage: None
 * Author: Travis E. Oliphant et al.
@@ -260,7 +260,7 @@ No trust data is available
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.5
+* Version: 2026.6
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -278,7 +278,7 @@ No trust data is available
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.9.29
+* Version: 2026.11.19
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -355,7 +355,7 @@ No trust data is available
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4.4
+* Version: 5.4.5
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -379,7 +379,7 @@ No trust data is available
 ### `xlsxwriter`
 
 * Summary: A Python module for creating Excel XLSX files.
-* Version: 3.3.0
+* Version: 3.3.4
 * Pypi: https://pypi.org/project/xlsxwriter/
 * Homepage: None
 * Author: John McNamara <jmcnamara@cpan.org>
@@ -387,8 +387,8 @@ No trust data is available
 ## `OS Packages`
 
 * adduser	3.152
-* apt	3.0.3
-* base-files	13.8+deb13u7
+* apt	3.0.4
+* base-files	13.8+deb13u8
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
@@ -414,7 +414,7 @@ No trust data is available
 * fontconfig-config	2.15.0-2.3
 * fonts-dejavu-core	2.37-8
 * fonts-dejavu-mono	2.37-8
-* fonts-opensymbol	4:102.12+LibO25.2.3-2+deb13u9
+* fonts-opensymbol	4:102.12+LibO25.2.3-2+deb13u12
 * gcc-14-base:amd64	14.2.0-19
 * gnupg	2.4.7-21+deb13u1
 * gnupg-l10n	2.4.7-21+deb13u1
@@ -431,7 +431,7 @@ No trust data is available
 * libabsl20240722:amd64	20240722.0-4
 * libabw-0.1-1:amd64	0.1.3-1+b2
 * libacl1:amd64	2.3.2-2+b1
-* libapt-pkg7.0:amd64	3.0.3
+* libapt-pkg7.0:amd64	3.0.4
 * libargon2-1:amd64	0~20190702+dfsg-4+b2
 * libassuan9:amd64	3.0.2-2
 * libatomic1:amd64	14.2.0-19
@@ -450,8 +450,8 @@ No trust data is available
 * libbrotli1:amd64	1.1.0-2+deb13u1
 * libbsd0:amd64	0.12.2-2
 * libbz2-1.0:amd64	1.0.8-6
-* libc-bin	2.41-12+deb13u4
-* libc6:amd64	2.41-12+deb13u4
+* libc-bin	2.41-12+deb13u5
+* libc6:amd64	2.41-12+deb13u5
 * libcairo2:amd64	1.18.4-1+b1
 * libcap-ng0:amd64	0.8.5-4+b1
 * libcap2-bin	1:2.75-10+deb13u1+b3
@@ -474,7 +474,7 @@ No trust data is available
 * libdrm-common	2.4.124-2
 * libdrm2:amd64	2.4.124-2
 * libe-book-0.1-1:amd64	0.1.3-2+b4
-* libeot0:amd64	0.01-5+b2
+* libeot0:amd64	0.01-5+deb13u1
 * libepoxy0:amd64	1.5.10-2
 * libepubgen-0.1-1:amd64	0.1.1-1+b2
 * libetonyek-0.1-1:amd64	0.1.12-1
@@ -484,7 +484,7 @@ No trust data is available
 * libffi8:amd64	3.4.8-2
 * libfontconfig1:amd64	2.15.0-2.3
 * libfreehand-0.1-1	0.1.2-3
-* libfreetype6:amd64	2.13.3+dfsg-1+deb13u1
+* libfreetype6:amd64	2.13.3+dfsg-1+deb13u2
 * libgcc-s1:amd64	14.2.0-19
 * libgcrypt20:amd64	1.11.0-7+deb13u1
 * libgdbm6t64:amd64	1.24-2
@@ -494,10 +494,10 @@ No trust data is available
 * libgnutls30t64:amd64	3.8.9-3+deb13u4
 * libgomp1:amd64	14.2.0-19
 * libgpg-error0:amd64	1.51-4
-* libgpgme11t64:amd64	1.24.2-3
-* libgpgmepp6t64:amd64	1.24.2-3
+* libgpgme11t64:amd64	1.24.2-3+deb13u1
+* libgpgmepp6t64:amd64	1.24.2-3+deb13u1
 * libgraphite2-3:amd64	1.3.14-2+deb13u1
-* libgssapi-krb5-2:amd64	1.21.3-5+deb13u1
+* libgssapi-krb5-2:amd64	1.21.3-5+deb13u2
 * libgstreamer-plugins-base1.0-0:amd64	1.26.2-1+deb13u2
 * libgstreamer1.0-0:amd64	1.26.2-2
 * libharfbuzz-icu0:amd64	10.2.0-1+deb13u1
@@ -510,10 +510,10 @@ No trust data is available
 * libidn2-0:amd64	2.3.8-2
 * libjbig0:amd64	2.1-6.1+b2
 * libjpeg62-turbo:amd64	1:2.1.5-4
-* libk5crypto3:amd64	1.21.3-5+deb13u1
+* libk5crypto3:amd64	1.21.3-5+deb13u2
 * libkeyutils1:amd64	1.6.3-6
-* libkrb5-3:amd64	1.21.3-5+deb13u1
-* libkrb5support0:amd64	1.21.3-5+deb13u1
+* libkrb5-3:amd64	1.21.3-5+deb13u2
+* libkrb5support0:amd64	1.21.3-5+deb13u2
 * libksba8:amd64	1.6.7-2+b1
 * liblangtag-common	0.6.7-1
 * liblangtag1:amd64	0.6.7-1+b2
@@ -533,7 +533,7 @@ No trust data is available
 * libmythes-1.2-0:amd64	2:1.2.5-1+b2
 * libncursesw6:amd64	6.5+20250216-2
 * libnettle8t64:amd64	3.10.1-1
-* libnghttp2-14:amd64	1.64.0-1.1+deb13u1
+* libnghttp2-14:amd64	1.64.0-1.1+deb13u2
 * libnghttp3-9:amd64	1.8.0-1
 * libngtcp2-16:amd64	1.11.0-1+deb13u1
 * libngtcp2-crypto-gnutls8:amd64	1.11.0-1+deb13u1
@@ -569,26 +569,26 @@ No trust data is available
 * librasqal3t64:amd64	0.9.33-2.1+b2
 * librdf0t64:amd64	1.0.17-4+b1
 * libreadline8t64:amd64	8.2-6
-* libreoffice	4:25.2.3-2+deb13u9
-* libreoffice-base	4:25.2.3-2+deb13u9
-* libreoffice-base-core	4:25.2.3-2+deb13u9
-* libreoffice-base-drivers	4:25.2.3-2+deb13u9
-* libreoffice-calc	4:25.2.3-2+deb13u9
-* libreoffice-common	4:25.2.3-2+deb13u9
-* libreoffice-core	4:25.2.3-2+deb13u9
-* libreoffice-draw	4:25.2.3-2+deb13u9
-* libreoffice-impress	4:25.2.3-2+deb13u9
-* libreoffice-math	4:25.2.3-2+deb13u9
-* libreoffice-report-builder-bin	4:25.2.3-2+deb13u9
-* libreoffice-style-colibre	4:25.2.3-2+deb13u9
-* libreoffice-uiconfig-base	4:25.2.3-2+deb13u9
-* libreoffice-uiconfig-calc	4:25.2.3-2+deb13u9
-* libreoffice-uiconfig-common	4:25.2.3-2+deb13u9
-* libreoffice-uiconfig-draw	4:25.2.3-2+deb13u9
-* libreoffice-uiconfig-impress	4:25.2.3-2+deb13u9
-* libreoffice-uiconfig-math	4:25.2.3-2+deb13u9
-* libreoffice-uiconfig-writer	4:25.2.3-2+deb13u9
-* libreoffice-writer	4:25.2.3-2+deb13u9
+* libreoffice	4:25.2.3-2+deb13u12
+* libreoffice-base	4:25.2.3-2+deb13u12
+* libreoffice-base-core	4:25.2.3-2+deb13u12
+* libreoffice-base-drivers	4:25.2.3-2+deb13u12
+* libreoffice-calc	4:25.2.3-2+deb13u12
+* libreoffice-common	4:25.2.3-2+deb13u12
+* libreoffice-core	4:25.2.3-2+deb13u12
+* libreoffice-draw	4:25.2.3-2+deb13u12
+* libreoffice-impress	4:25.2.3-2+deb13u12
+* libreoffice-math	4:25.2.3-2+deb13u12
+* libreoffice-report-builder-bin	4:25.2.3-2+deb13u12
+* libreoffice-style-colibre	4:25.2.3-2+deb13u12
+* libreoffice-uiconfig-base	4:25.2.3-2+deb13u12
+* libreoffice-uiconfig-calc	4:25.2.3-2+deb13u12
+* libreoffice-uiconfig-common	4:25.2.3-2+deb13u12
+* libreoffice-uiconfig-draw	4:25.2.3-2+deb13u12
+* libreoffice-uiconfig-impress	4:25.2.3-2+deb13u12
+* libreoffice-uiconfig-math	4:25.2.3-2+deb13u12
+* libreoffice-uiconfig-writer	4:25.2.3-2+deb13u12
+* libreoffice-writer	4:25.2.3-2+deb13u12
 * librevenge-0.0-0:amd64	0.0.5-3+b2
 * librtmp1:amd64	2.4+20151223.gitfa8646d.1-2+b5
 * libsasl2-2:amd64	2.1.28+dfsg1-9
@@ -603,7 +603,7 @@ No trust data is available
 * libsmartcols1:amd64	2.41.5-0+deb13u1
 * libsqlite3-0:amd64	3.46.1-7+deb13u2
 * libssh2-1t64:amd64	1.11.1-1+deb13u2
-* libssl3t64:amd64	3.5.7-1~deb13u3
+* libssl3t64:amd64	3.5.9-1~deb13u1
 * libstaroffice-0.0-0:amd64	0.0.7-1+b2
 * libstdc++6:amd64	14.2.0-19
 * libsuitesparseconfig7:amd64	1:7.10.1+dfsg-1
@@ -615,13 +615,13 @@ No trust data is available
 * libtinfo6:amd64	6.5+20250216-2
 * libudev1:amd64	257.13-1~deb13u1
 * libunistring5:amd64	1.3-2
-* libuno-cppu3t64	4:25.2.3-2+deb13u9
-* libuno-cppuhelpergcc3-3t64	4:25.2.3-2+deb13u9
-* libuno-purpenvhelpergcc3-3t64	4:25.2.3-2+deb13u9
-* libuno-sal3t64	4:25.2.3-2+deb13u9
-* libuno-salhelpergcc3-3t64	4:25.2.3-2+deb13u9
+* libuno-cppu3t64	4:25.2.3-2+deb13u12
+* libuno-cppuhelpergcc3-3t64	4:25.2.3-2+deb13u12
+* libuno-purpenvhelpergcc3-3t64	4:25.2.3-2+deb13u12
+* libuno-sal3t64	4:25.2.3-2+deb13u12
+* libuno-salhelpergcc3-3t64	4:25.2.3-2+deb13u12
 * libuuid1:amd64	2.41.5-0+deb13u1
-* libvisio-0.1-1:amd64	0.1.7-1+b5
+* libvisio-0.1-1:amd64	0.1.7-1+deb13u1
 * libwebp7:amd64	1.5.0-0.1
 * libwpd-0.10-10:amd64	0.10.3-2+b2
 * libwpg-0.3-3:amd64	0.3.4-3+b2
@@ -656,16 +656,16 @@ No trust data is available
 * ncurses-base	6.5+20250216-2
 * ncurses-bin	6.5+20250216-2
 * netbase	6.5
-* openjdk-21-jre-headless:amd64	21.0.13+9-1~deb13u2
-* openssl	3.5.7-1~deb13u3
-* openssl-provider-legacy	3.5.7-1~deb13u3
+* openjdk-21-jre-headless:amd64	21.0.13.1+2-1~deb13u1
+* openssl	3.5.9-1~deb13u1
+* openssl-provider-legacy	3.5.9-1~deb13u1
 * passwd	1:4.17.4-2
 * perl-base	5.40.1-6+deb13u1
 * pinentry-curses	1.3.1-2
 * procps	2:4.0.4-9
 * python3	3.13.5-1
 * python3-minimal	3.13.5-1
-* python3-uno	4:25.2.3-2+deb13u9
+* python3-uno	4:25.2.3-2+deb13u12
 * python3.13	3.13.5-2+deb13u5
 * python3.13-minimal	3.13.5-2+deb13u5
 * readline-common	8.2-6
@@ -674,10 +674,10 @@ No trust data is available
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026e-0+deb13u1
+* tzdata	2026f-0+deb13u1
 * ucf	3.0052
-* uno-libs-private	4:25.2.3-2+deb13u9
-* ure	4:25.2.3-2+deb13u9
+* uno-libs-private	4:25.2.3-2+deb13u12
+* ure	4:25.2.3-2+deb13u12
 * util-linux	2.41.5-0+deb13u1
 * x11-common	1:7.7+24+deb13u1
 * zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+deb13u1

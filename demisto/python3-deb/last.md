@@ -1,9 +1,9 @@
-# `demisto/python3-deb:3.12.16.15076852`
+# `demisto/python3-deb:3.12.16.15110613`
 
 ## Docker Metadata
-- Image Size: 66.71 MB
-- Image ID: `sha256:83c416f8d13e11ae5a5a124bacb7986bcfb45e66388ee6d00a9ddf729aaa8480`
-- Created: `2026-11-23T21:37:01.144283696Z`
+- Image Size: 56.84 MB
+- Image ID: `sha256:2e8256bfdc66006e59bc32ff3949b13533e56ed6b6220e29957da973481512f4`
+- Created: `2026-11-24T16:00:07.944254398Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
@@ -12,13 +12,13 @@
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
   - `PYTHON_VERSION=3.12.16`
   - `PYTHON_SHA256=b5796915dc45ff745cfb4e990a7e7c93d6f546328a102ce31448d69ebc37575c`
-  - `DOCKER_IMAGE=demisto/python3-deb:3.12.16.15076852`
+  - `DOCKER_IMAGE=demisto/python3-deb:3.12.16.15110613`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:59d9e7076b422a10287db32b8935bf84f85855fc`
-  - `org.opencontainers.image.version:3.12.16.15076852`
-  - `panw.builtby.pipeline:15077107`
+  - `org.opencontainers.image.revision:792039548f45e5be56ae4ef43d893b7fcbdf0dd3`
+  - `org.opencontainers.image.version:3.12.16.15110613`
+  - `panw.builtby.pipeline:15112680`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -200,7 +200,7 @@ No trust data is available
 ### `PyYAML`
 
 * Summary: YAML parser and emitter for Python
-* Version: 6.0.3
+* Version: 6.0.4
 * Pypi: https://pypi.org/project/PyYAML/
 * Homepage: https://pyyaml.org/
 * Author: Kirill Simonov xi@resolvent.net
