@@ -1,24 +1,24 @@
-# `demisto/qrcode:1.0.0.14169403`
+# `demisto/qrcode:1.0.0.15130156`
 
 ## Docker Metadata
-- Image Size: 234.22 MB
-- Image ID: `sha256:d30921c6341fcb5fc514fd4944bedc4e03c0010b29aa6d452880f9db2eac8eb3`
-- Created: `2026-10-28T12:57:18.234010814Z`
+- Image Size: 243.70 MB
+- Image ID: `sha256:94d11fb947c5283ed89ba55ef57cae5dce03530a8479a46a381ef6e77176441b`
+- Created: `2026-11-25T06:40:25.984544258Z`
 - Arch: `linux`/`amd64`
 - Command: `["python3"]`
 - Environment:
   - `PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin`
   - `LANG=C.UTF-8`
   - `GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305`
-  - `PYTHON_VERSION=3.12.15`
-  - `PYTHON_SHA256=c2c4321961fab0fb999d66e0cecf521c2ab3994c7992873ea99e306c1094fd5a`
-  - `DOCKER_IMAGE=demisto/qrcode:1.0.0.14169403`
+  - `PYTHON_VERSION=3.12.16`
+  - `PYTHON_SHA256=b5796915dc45ff745cfb4e990a7e7c93d6f546328a102ce31448d69ebc37575c`
+  - `DOCKER_IMAGE=demisto/qrcode:1.0.0.15130156`
 - Labels:
   - `io.buildah.version:1.37.5`
   - `org.opencontainers.image.authors:Demisto <containers@demisto.com>`
-  - `org.opencontainers.image.revision:38833db7e82ff312c7aa95d3ef5568dc1a1379b5`
-  - `org.opencontainers.image.version:1.0.0.14169403`
-  - `panw.builtby.pipeline:14171448`
+  - `org.opencontainers.image.revision:59add55bde70c2daaad288f279b83a1e15bfd1b0`
+  - `org.opencontainers.image.version:1.0.0.15130156`
+  - `panw.builtby.pipeline:15130342`
   - `panw.builtby.project:xdr/cortex-content/dockerfiles`
   - `panw.builtby.template:build-scan-publish`
 
@@ -28,7 +28,7 @@
   - `VERSION_ID="13"`
   - `VERSION="13 (trixie)"`
   - `VERSION_CODENAME=trixie`
-  - `DEBIAN_VERSION_FULL=13.7`
+  - `DEBIAN_VERSION_FULL=13.8`
   - `ID=debian`
   - `HOME_URL="https://www.debian.org/"`
   - `SUPPORT_URL="https://www.debian.org/support"`
@@ -36,17 +36,7 @@
 
 ## Docker Trust
 ```
-
-Signatures for demisto/qrcode:1.0.0.14169403
-
-SIGNED TAG       DIGEST                                                             SIGNERS
-1.0.0.14169403   10b4fdd18f546445938841ee743a6c7bd5d938b90736ad3ff2ba8d3a185855c3   (Repo Admin)
-
-Administrative keys for demisto/qrcode:1.0.0.14169403
-
-  Repository Key:	dea4001e59b301fe0d58b8766c3933a50fb5489fc977453c3f6fb434f2a62322
-  Root Key:	52e1b52c9b49babaf47809ec97cfc7ed8d5633d78cd736b34482f57850156994
-
+No trust data is available
 ```
 
 ## `Python Packages`
@@ -81,7 +71,7 @@ Administrative keys for demisto/qrcode:1.0.0.14169403
 ### `dateparser`
 
 * Summary: Date parsing library designed to parse dates from HTML pages
-* Version: 1.4.3
+* Version: 1.5.1
 * Pypi: https://pypi.org/project/dateparser/
 * Homepage: None
 * Author: Scrapinghub <opensource@zyte.com>
@@ -107,11 +97,10 @@ Administrative keys for demisto/qrcode:1.0.0.14169403
 ### `filelock`
 
 * Summary: A platform independent file lock.
-* Version: 4.0.10
+* Version: 4.3.1
 * Pypi: https://pypi.org/project/filelock/
 * Homepage: None
 * Author: None
-* License :: OSI Approved :: MIT License
 
 ### `funcy`
 
@@ -212,7 +201,7 @@ Administrative keys for demisto/qrcode:1.0.0.14169403
 ### `pip`
 
 * Summary: The PyPA recommended tool for installing Python packages.
-* Version: 26.2.2
+* Version: 26.3
 * Pypi: https://pypi.org/project/pip/
 * Homepage: None
 * Author: The pip developers <distutils-sig@python.org>
@@ -221,7 +210,7 @@ Administrative keys for demisto/qrcode:1.0.0.14169403
 ### `platformdirs`
 
 * Summary: A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`.
-* Version: 4.13.7
+* Version: 4.14.8
 * Pypi: https://pypi.org/project/platformdirs/
 * Homepage: None
 * Author: None
@@ -238,17 +227,15 @@ Administrative keys for demisto/qrcode:1.0.0.14169403
 ### `python-dateutil`
 
 * Summary: Extensions to the standard Python datetime module
-* Version: 2.9.0.post0
+* Version: 4.0.0
 * Pypi: https://pypi.org/project/python-dateutil/
-* Homepage: https://github.com/dateutil/dateutil
-* Author: Gustavo Niemeyer gustavo@niemeyer.net
-* License :: OSI Approved :: Apache Software License
-* License :: OSI Approved :: BSD License
+* Homepage: None
+* Author: Gustavo Niemeyer <gustavo@niemeyer.net>
 
 ### `python-discovery`
 
 * Summary: Python interpreter discovery
-* Version: 1.6.7
+* Version: 1.9.7
 * Pypi: https://pypi.org/project/python-discovery/
 * Homepage: None
 * Author: None
@@ -256,7 +243,7 @@ Administrative keys for demisto/qrcode:1.0.0.14169403
 ### `pytz`
 
 * Summary: World timezone definitions, modern and historical
-* Version: 2026.5
+* Version: 2026.6
 * Pypi: https://pypi.org/project/pytz/
 * Homepage: http://pythonhosted.org/pytz
 * Author: Stuart Bishop stuart@stuartbishop.net
@@ -283,7 +270,7 @@ Administrative keys for demisto/qrcode:1.0.0.14169403
 ### `regex`
 
 * Summary: Alternative regular expression module, to replace re.
-* Version: 2026.9.29
+* Version: 2026.11.19
 * Pypi: https://pypi.org/project/regex/
 * Homepage: None
 * Author: Matthew Barnett <regex@mrabarnett.plus.com>
@@ -348,10 +335,19 @@ Administrative keys for demisto/qrcode:1.0.0.14169403
 * Homepage: None
 * Author: "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com>
 
+### `tzdata`
+
+* Summary: Provider of IANA time zone data
+* Version: 2026.6
+* Pypi: https://pypi.org/project/tzdata/
+* Homepage: https://github.com/python/tzdata
+* Author: Python Software Foundation datetime-sig@python.org
+* License: Apache-2.0
+
 ### `tzlocal`
 
 * Summary: tzinfo object for the local timezone
-* Version: 5.4.4
+* Version: 5.4.5
 * Pypi: https://pypi.org/project/tzlocal/
 * Homepage: None
 * Author: Lennart Regebro <regebro@gmail.com>
@@ -367,7 +363,7 @@ Administrative keys for demisto/qrcode:1.0.0.14169403
 ### `virtualenv`
 
 * Summary: Virtual Python Environment builder
-* Version: 21.15.1
+* Version: 21.15.13
 * Pypi: https://pypi.org/project/virtualenv/
 * Homepage: None
 * Author: None
@@ -392,8 +388,8 @@ Administrative keys for demisto/qrcode:1.0.0.14169403
 ## `OS Packages`
 
 * adduser	3.152
-* apt	3.0.3
-* base-files	13.8+deb13u7
+* apt	3.0.4
+* base-files	13.8+deb13u8
 * base-passwd	3.6.7
 * bash	5.2.37-2+b10
 * bsdutils	1:2.41.5-0+deb13u1
@@ -412,7 +408,7 @@ Administrative keys for demisto/qrcode:1.0.0.14169403
 * hostname	3.25
 * init-system-helpers	1.69~deb13u1
 * libacl1:amd64	2.3.2-2+b1
-* libapt-pkg7.0:amd64	3.0.3
+* libapt-pkg7.0:amd64	3.0.4
 * libatomic1:amd64	14.2.0-19
 * libattr1:amd64	1:2.5.2-3
 * libaudit-common	1:4.0.2-2+deb13u1
@@ -420,8 +416,8 @@ Administrative keys for demisto/qrcode:1.0.0.14169403
 * libblkid1:amd64	2.41.5-0+deb13u1
 * libbsd0:amd64	0.12.2-2
 * libbz2-1.0:amd64	1.0.8-6
-* libc-bin	2.41-12+deb13u4
-* libc6:amd64	2.41-12+deb13u4
+* libc-bin	2.41-12+deb13u5
+* libc6:amd64	2.41-12+deb13u5
 * libcap-ng0:amd64	0.8.5-4+b1
 * libcap2:amd64	1:2.75-10+deb13u1+b3
 * libcrypt1:amd64	1:4.4.38-1
@@ -479,7 +475,7 @@ Administrative keys for demisto/qrcode:1.0.0.14169403
 * libsm6:amd64	2:1.2.6-1
 * libsmartcols1:amd64	2.41.5-0+deb13u1
 * libsqlite3-0:amd64	3.46.1-7+deb13u2
-* libssl3t64:amd64	3.5.7-1~deb13u3
+* libssl3t64:amd64	3.5.9-1~deb13u1
 * libstdc++6:amd64	14.2.0-19
 * libsystemd0:amd64	257.13-1~deb13u1
 * libtasn1-6:amd64	4.20.0-2+deb13u1
@@ -521,8 +517,8 @@ Administrative keys for demisto/qrcode:1.0.0.14169403
 * ncurses-base	6.5+20250216-2
 * ncurses-bin	6.5+20250216-2
 * netbase	6.5
-* openssl	3.5.7-1~deb13u3
-* openssl-provider-legacy	3.5.7-1~deb13u3
+* openssl	3.5.9-1~deb13u1
+* openssl-provider-legacy	3.5.9-1~deb13u1
 * passwd	1:4.17.4-2
 * perl-base	5.40.1-6+deb13u1
 * procps	2:4.0.4-9
@@ -531,8 +527,8 @@ Administrative keys for demisto/qrcode:1.0.0.14169403
 * sqv	1.3.0-3+b2
 * sysvinit-utils	3.14-4
 * tar	1.35+dfsg-3.1
-* tzdata	2026e-0+deb13u1
+* tzdata	2026f-0+deb13u1
 * util-linux	2.41.5-0+deb13u1
 * wget	1.25.0-2
 * x11-common	1:7.7+24+deb13u1
-* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+b1
+* zlib1g:amd64	1:1.3.dfsg+really1.3.1-1+deb13u1
